@@ -149,7 +149,7 @@ class Game_System
     if me!=nil && me.name!=""
       if FileTest.audio_exist?("Audio/ME/"+me.name)
         vol = me.volume
-        vol *= $Options.bgmvolume/100.0
+        vol *= $Options.mevolume/100.0
         vol = vol.to_i
         Audio.me_play("Audio/ME/"+me.name,vol,me.pitch)
       end
