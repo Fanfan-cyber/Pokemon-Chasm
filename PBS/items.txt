@@ -849,7 +849,7 @@ NamePlural = Muscle Bands
 Pocket = 12
 Price = 4000
 Flags = Clothing
-Description = An item to be held by a Pokémon. It is a headband that boosts the power of physical moves by 10%.
+Description = An item to be held by a Pokémon. It is a headband that boosts the power of physical moves by 15%.
 #-------------------------------
 [WISEGLASSES]
 Name = Wise Glasses
@@ -857,7 +857,7 @@ NamePlural = Wise Glasses
 Pocket = 12
 Price = 4000
 Flags = Clothing
-Description = An item to be held by a Pokémon. It is a thick pair of glasses that boosts the power of special moves by 10%.
+Description = An item to be held by a Pokémon. It is a thick pair of glasses that boosts the power of special moves by 15%.
 #-------------------------------
 [SEVENLEAGUEBOOTS]
 Name = 7-League Boots

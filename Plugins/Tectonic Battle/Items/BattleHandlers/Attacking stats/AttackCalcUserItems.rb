@@ -1,6 +1,6 @@
 BattleHandlers::AttackCalcUserItem.add(:MUSCLEBAND,
     proc { |item, _user, _battle, attackMult|
-        attackMult *= 1.1
+        attackMult *= 1.15
         next attackMult
     }
 )

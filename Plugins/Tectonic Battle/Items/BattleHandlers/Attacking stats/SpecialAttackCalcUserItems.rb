@@ -7,7 +7,7 @@ BattleHandlers::SpecialAttackCalcUserItem.add(:DEEPSEATOOTH,
 
 BattleHandlers::SpecialAttackCalcUserItem.add(:WISEGLASSES,
   proc { |item, _user, _battle, spAtkMult|
-      spAtkMult *= 1.1
+      spAtkMult *= 1.15
       next spAtkMult
   }
 )
