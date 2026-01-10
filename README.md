@@ -1,8 +1,6 @@
 # Pokémon Tectonic
 No Pokémon left behind! That's our guiding philosophy for Pokémon Tectonic, which combines the best aspects of fangames and romhacks into a fresh Pokémon adventure experience.
 
-This repository is a continuation of https://github.com/Pokemon-Tectonic-Team/Pokemon-Tectonic. Please see it for history prior to 2026.
-
 # Content
 ➤ Dig into 60+ hours of Makya, a new nonlinear region of mountains, caves, and tunnels
 ➤ Unveil the secrets of the disbanded Team Chasm, and the hero who defeated them 8 years ago

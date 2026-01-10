@@ -1,0 +1,439 @@
+#===============================================================================
+#
+#===============================================================================
+class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
+	attr_reader :party
+	attr_reader :storageScene
+	attr_reader :storageScreen
+
+    def cursorFileLocation
+		return addLanguageSuffix(("Graphics/Pictures/Party/cursor_pokemon"))
+	end
+
+	def tileFileLocation
+		path = "Graphics/Pictures/Party/pokemon_menu_tile"
+		path += "_dark" if darkMode?
+		return _INTL(path)
+	end
+
+	def backgroundFadeFileLocation
+		return addLanguageSuffix(("Graphics/Pictures/Party/background_fade"))
+	end
+  
+    def initialize(command,pkmn,selected,heldpoke,storageScreen,storageScene,retValWrapper=[false])
+		super()
+		@command = command
+		@pkmn = pkmn
+		@selected = selected
+		@heldpoke = heldpoke
+		@storageScreen = storageScreen
+		@storageScene = storageScene
+		@buttonRowHeight = 68
+		@retValWrapper = retValWrapper
+		@xOffset = 204
+		@yOffset = 48
+    end
+  
+	def initializeMenuButtons
+		super
+      	canEditTeam = teamEditingAllowed?
+		inDonationBox = @selected[0] > -1 && @storageScreen.storage.boxes[@selected[0]].isDonationBox?
+		lastPokemonInParty = @pkmn && @selected[0] == -1 && @storageScreen.pbAbleCount <= 1 && @storageScreen.pbAble?(@pkmn)
+
+		case @command
+		when 0
+			if @heldpoke
+				if @storageScreen.storage[@selected[0], @selected[1]] # Is there a pokemon in the spot?
+					@cardButtons[:SHIFT] = {
+						:label => _INTL("Shift"),
+						:active_proc => Proc.new {
+							next canEditTeam && !inDonationBox
+						},
+						:press_proc => Proc.new { |scene|
+							@storageScreen.pbSwap(@selected)
+							next true
+						},
+					}
+				else
+					@cardButtons[:PLACE] = {
+						:label => _INTL("Place"),
+						:active_proc => Proc.new {
+							next canEditTeam
+						},
+						:press_proc => Proc.new { |scene|
+							@storageScreen.pbPlace(@selected)
+							next true
+						},
+					}
+				end
+			elsif @pkmn
+				@cardButtons[:MOVE] = {
+					:label => _INTL("Move"),
+					:active_proc => Proc.new {
+						next canEditTeam && !inDonationBox && !lastPokemonInParty
+					},
+					:press_proc => Proc.new { |scene|
+						@storageScreen.pbHold(@selected)
+						next true
+					},
+				}
+			end
+		when 1
+			@cardButtons[:WITHDRAW] = {
+					:label => _INTL("Withdraw"),
+					:active_proc => Proc.new {
+						next canEditTeam && !inDonationBox
+					},
+					:press_proc => Proc.new { |scene|
+						@storageScreen.pbWithdraw(@selected, @heldpoke)
+						next true
+					},
+				}
+		when 2
+			@cardButtons[:STORE] = {
+					:label => _INTL("Store"),
+					:active_proc => Proc.new {
+						next canEditTeam && !lastPokemonInParty
+					},
+					:press_proc => Proc.new { |scene|
+						@storageScreen.pbStore(@selected, nil)
+						next true
+					},
+				}
+		when 5
+			@cardButtons[:SELECT] = {
+				:label => _INTL("Select"),
+				:active_proc => Proc.new {
+						next canEditTeam && !inDonationBox
+					},
+				:press_proc => Proc.new { |scene|
+					@retValWrapper[0] = true
+					next true
+				},
+			}
+		end
+
+		@cardButtons[:MASTERDEX] = {
+				:label => _INTL("MasterDex"),
+				:active_proc => Proc.new {
+					$Trainer.has_pokedex
+				},
+				:press_proc => Proc.new { |scene|
+					openSingleDexScreen(@pkmn)
+				},
+			}
+
+		@cardButtons[:SUMMARY] = {
+				:label => _INTL("Summary"),
+				:press_proc => Proc.new { |scene|
+					@storageScreen.pbSummary(@selected,@heldpoke)
+				},
+			}
+
+		@cardButtons[:ITEM] = {
+				:label => _INTL("Item"),
+				:active_proc => Proc.new {
+					canEditTeam && !inDonationBox
+				},
+				:press_proc => Proc.new { |scene|
+					next true if itemCommandMenu
+				},
+			}
+
+		@cardButtons[:MODIFY] = {
+				:label => _INTL("Modify"),
+				:active_proc => Proc.new {
+					canEditTeam && !@pkmn.egg? && !inDonationBox
+				},
+				:press_proc => Proc.new { |scene|
+					next true if modifyCommandMenu
+				},
+			}
+
+		@cardButtons[:RELEASE] = {
+				:label => _INTL("Release"),
+				:active_proc => Proc.new {
+					canEditTeam && !@pkmn.egg? && !lastPokemonInParty
+				},
+				:press_proc => Proc.new { |scene|
+					@storageScreen.pbRelease(@selected, @heldpoke)
+					next true
+				},
+			}
+
+    @cardButtons[:SENDTOTC] = {
+        :label => _INTL("Send To TC"),
+        :active_proc => Proc.new {
+          canEditTeam && !@pkmn.egg? && !lastPokemonInParty && !inDonationBox
+        },
+        :press_proc => Proc.new { |scene|
+          if TimeCapsule.add_to_time_capsule(@pkmn)
+            @storageScreen.scene.pbRelease(@selected, @heldpoke)
+            if @heldpoke
+              @heldpoke = nil
+            else
+              @storageScreen.storage.pbDelete(@selected[0], @selected[1])
+            end
+            @storageScreen.scene.pbRefresh
+          end
+          next true
+        },
+      }
+
+		if $DEBUG
+			@yOffset -= 16
+			@cardButtons[:DEBUG] = {
+				:label => _INTL("Debug"),
+				:press_proc => Proc.new { |scene|
+					pbPokemonDebug(@pkmn,@selected,@heldpoke)
+					next true
+				},
+			}
+		end
+    end
+  
+    def inPokestate?
+      	return defined?($PokEstate.setDownIntoEstate) && $PokEstate.isInEstate?()
+    end
+  
+    def itemCommandMenu
+		itemcommands = []
+		cmdUseItem   = -1
+		cmdGiveItem  = -1
+		cmdTakeItems  = -1
+		cmdTakeOneItem = -1
+		cmdSwapItemOrder = -1
+		cmdSetItemType = -1
+		# Build the commands
+		itemcommands[cmdSetItemType=itemcommands.length] = _INTL("Set Item Type") if @pkmn.hasTypeSetterItem?
+		itemcommands[cmdGiveItem=itemcommands.length] = _INTL("Give")
+		if @pkmn.hasItem?
+			if @pkmn.hasMultipleItems?
+				itemcommands[cmdTakeOneItem=itemcommands.length] = _INTL("Take One")
+				itemcommands[cmdTakeItems=itemcommands.length] = _INTL("Take All")
+				itemcommands[cmdSwapItemOrder=itemcommands.length] = _INTL("Swap Order") if @pkmn.itemCount == 2
+			else
+				itemcommands[cmdTakeItems=itemcommands.length] = _INTL("Take")
+			end
+		end
+		itemcommands[cmdUseItem=itemcommands.length]  = _INTL("Use")
+		itemcommands[itemcommands.length]             = _INTL("Cancel")
+		command = pbShowCommands(_INTL("Do what with an item?"),itemcommands)
+		if cmdUseItem>=0 && command==cmdUseItem   # Use
+			item = selectItemForUseOnPokemon($PokemonBag,@pkmn)
+			if item
+				used = pbUseItemOnPokemon(item,@pkmn,self)
+				pbRefreshSingle(@selected)
+				return true if used
+			end
+		elsif cmdGiveItem>=0 && command==cmdGiveItem   # Give
+			item = @storageScene.pbChooseItem($PokemonBag)
+			if item
+				if pbGiveItemToPokemon(item,@pkmn,self)
+					pbRefreshSingle(@selected)
+				end
+			end
+		elsif cmdTakeItems>=0 && command==cmdTakeItems   # Take/ Take All
+			if pbTakeItemsFromPokemon(@pkmn) > 0
+				pbRefreshSingle(@selected)
+			end
+		elsif cmdTakeOneItem >= 0 && command == cmdTakeOneItem # Take One
+			if pbTakeOneItemFromPokemon(@pkmn)
+				pbRefreshSingle(@selected)
+			end
+		elsif cmdSwapItemOrder >= 0 && command == cmdSwapItemOrder # Swap Item Order
+			@pkmn.setItems(@pkmn.items.reverse)
+			firstItemName = getItemName(@pkmn.items[0])
+			secondItemName = getItemName(@pkmn.items[1])
+			pbDisplay(_INTL("{1}'s {2} and {3} swapped order.",@pkmn.name,firstItemName,secondItemName))
+			pbRefreshSingle(@selected)
+		elsif cmdSetItemType >= 0 && command == cmdSetItemType
+			setItemType
+		end
+		return false
+    end
+  
+    def setItemType
+		typesArray = []
+		typeCommands = []
+		GameData::Type.each do |typeData|
+			next if typeData.pseudo_type
+			typesArray.push(typeData.id)
+			typeCommands.push(typeData.name)
+		end
+		typeCommands.push("Cancel")
+		existingIndex = typesArray.find_index(@pkmn.itemTypeChosen)
+		chosenNumber = pbShowCommands(_INTL("What type should {1} become?", @pkmn.name),typeCommands,existingIndex)
+		if chosenNumber > -1 && chosenNumber < typeCommands.length - 1
+			typeSettingItem = @pkmn.hasTypeSetterItem?
+			pbDisplay(_INTL("{1} changed its {2} to {3}-type!", @pkmn.name, getItemName(typeSettingItem), typeCommands[chosenNumber]))
+			@pkmn.itemTypeChosen = typesArray[chosenNumber]
+		end
+    end
+  
+    def modifyCommandMenu
+		commands      = []
+		cmdRename     = -1
+    cmdSwapPokeBall = -1
+		cmdEvolve     = -1
+		cmdStyle      = -1
+		cmdOmnitutor  = -1
+    cmdAdaptiveAI = -1
+    cmdOpenAR     = -1
+		cmdDeleteMove = -1
+    cmdSetGender  = -1
+    cmdSetLike    = -1
+    cmdSetDislike = -1
+    cmdSetTitle   = -1
+    cmdSetTrait   = -1
+
+		# Build the commands
+    commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
+		commands[cmdDeleteMove = commands.length]   = _INTL("Delete Move") if @pkmn.numMoves > 1
+		newspecies = @pkmn.check_evolution_on_level_up(false)
+		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
+		if $PokemonGlobal.omnitutor_active && !getOmniMoves(@pkmn).empty?
+			commands[cmdOmnitutor = commands.length]	= _INTL("OmniTutor")
+		end
+    commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
+		commands[cmdRename = commands.length]       = _INTL("Rename")
+    commands[cmdSetGender = commands.length]    = _INTL("Set Gender")
+		commands[cmdStyle = commands.length]        = _INTL("Set Style") if pbHasItem?(:STYLINGKIT) || $DEBUG
+    commands[cmdSetTitle = commands.length]     = _INTL("Set Title")
+    commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
+    commands[cmdSetLike = commands.length]      = _INTL("Set Like") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
+    commands[cmdSetDislike = commands.length]   = _INTL("Set Dislike") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
+		commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
+		commands[commands.length]                   = _INTL("Cancel")
+		modifyCommand = pbShowCommands(_INTL("Do what with {1}?",@pkmn.name),commands)
+		if cmdRename >= 0 && modifyCommand == cmdRename
+			currentName = @pkmn.name
+			pbTextEntry(_INTL("{1}'s nickname?", currentName),0,Pokemon::MAX_NAME_SIZE,5)
+			if pbGet(5) == "" || pbGet(5) == currentName
+				@pkmn.name = currentName
+			else
+				@pkmn.name = pbGet(5)
+			end
+		elsif cmdSwapPokeBall >= 0 && modifyCommand == cmdSwapPokeBall
+			@pkmn.switchBall
+		elsif cmdDeleteMove >= 0 && modifyCommand == cmdDeleteMove
+			moveDeletion(@pkmn)
+		elsif cmdEvolve >= 0 && modifyCommand == cmdEvolve
+			newSpecies = @pkmn.check_evolution_on_level_up(true)
+			return false if newSpecies.nil?
+      if newSpecies.is_a?(Array)
+          names = newSpecies.map { |species| GameData::Species.get(species).name }
+          choose = pbMessage(_INTL("Which do you want to evolve to?"), names, -1)
+          return false if choose == -1
+          newSpecies = newSpecies[choose]
+      end
+			pbFadeOutInWithMusic do
+				evo = PokemonEvolutionScene.new
+				evo.pbStartScreen(@pkmn, newSpecies)
+				evo.pbEvolution
+				evo.pbEndScreen
+				pbRefreshSingle(@selected)
+			end
+			return true
+    elsif cmdSetLike >= 0 && modifyCommand == cmdSetLike
+        @pkmn.choose_like
+    elsif cmdSetDislike >= 0 && modifyCommand == cmdSetDislike
+        @pkmn.choose_dislike
+    elsif cmdSetTrait >= 0 && modifyCommand == cmdSetTrait
+      names = []
+      names << _INTL("Trait 1")
+      names << _INTL("Trait 2") unless @pkmn.happiness < Pokemon::PERSONALITY_THRESHOLD_TWO
+      names << _INTL("Trait 3") unless @pkmn.happiness < Pokemon::PERSONALITY_THRESHOLD_THREE
+      names << _INTL("Cancel")
+      loop do
+        choose = pbMessage(_INTL("Which do you want to set?"), names, -1)
+        break if choose == -1 || choose == names.size - 1
+        @pkmn.choose_trait(choose)
+      end
+    elsif cmdSetTitle >= 0 && modifyCommand == cmdSetTitle
+      title = pbEnterText(_INTL("Enter a new Title."), 0, 32)
+      @pkmn.title= title if title && !title.empty?
+    elsif cmdOpenAR >= 0 && modifyCommand == cmdOpenAR
+      AbilityRecorder.oppen_ability_recorder(@pkmn)
+    elsif cmdAdaptiveAI >= 0 && modifyCommand == cmdAdaptiveAI
+      change_ability_choose_from_list(@pkmn, Pokemon::ADAPTIVE_AI)
+    elsif cmdSetGender >= 0 && modifyCommand == cmdSetGender
+        if @pkmn.singleGendered?
+          pbDisplay(_INTL("{1} is single-gendered or genderless.", @pkmn.speciesName))
+        else
+          cmd = 0
+          loop do
+            msg = [_INTL("Gender is male."), _INTL("Gender is female.")][@pkmn.male? ? 0 : 1]
+            cmd = pbShowCommands(msg, [
+               _INTL("Make male"),
+               _INTL("Make female"),
+               _INTL("Reset")], cmd)
+            break if cmd < 0
+            case cmd
+            when 0   # Make male
+              @pkmn.makeMale
+              unless @pkmn.male?
+                pbDisplay(_INTL("{1}'s gender couldn't be changed.", @pkmn.name))
+              end
+            when 1   # Make female
+              @pkmn.makeFemale
+              unless @pkmn.female?
+                pbDisplay(_INTL("{1}'s gender couldn't be changed.", @pkmn.name))
+              end
+            when 2   # Reset
+              @pkmn.gender = nil
+            end
+            $Trainer.pokedex.register(@pkmn)
+            pbRefreshSingle(@selected)
+          end
+        end
+		elsif cmdStyle >= 0 && modifyCommand == cmdStyle
+			pbStyleValueScreen(@pkmn)
+		elsif cmdOmnitutor >= 0 && modifyCommand == cmdOmnitutor
+			omniTutorScreen(@pkmn)
+		end
+
+		return false
+    end
+  
+	# Interface methods
+	def pbUpdate
+		@storageScreen.pbUpdate
+	end
+
+	def pbHardRefresh
+		@storageScreen.pbHardRefresh
+	end
+
+	def pbRefresh
+		@storageScreen.pbHardRefresh
+	end
+
+	def pbRefreshSingle(i)
+		@storageScreen.pbRefreshSingle(i)
+	end
+
+	def pbDisplay(string)
+		@storageScreen.pbDisplay(string)
+	end
+
+	def pbConfirm(text)
+		return @storageScreen.pbConfirm(text)
+	end
+
+	def pbShowCommands(helptext,commands,index=0)
+		return @storageScreen.pbShowCommands(helptext,commands,index)
+	end
+
+	def pbRefreshAnnotations(ableProc)   # For after using an evolution stone
+	end
+
+	def pbClearAnnotations
+	end
+
+	def pbSetHelpText(helptext)
+	end
+end
+  
+class TilingCardsStorageInteractionMenu < TilingCardsMenu_Screen
+end

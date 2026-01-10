@@ -3,6 +3,7 @@
 !english.dat
 !chinese_simplified.dat
 !chinese_traditional.dat
+!french.dat
 *.bak
 Data/debuglog.txt
 Data/Actors.rxdata
@@ -13,13 +14,11 @@ Data/Skills.rxdata
 Data/States.rxdata
 Data/Weapons.rxdata
 Data/PluginScripts.rxdata
-Save Game/
 Screenshots/
 Changelogs/
 Analysis/
 *_backup*
 *.lnk
-Game.ini
 *.code-workspace
 towersingleteams.rxdata
 towersingle.rxdata
@@ -27,3 +26,8 @@ Data/PBSExtensions.rxdata
 Data/GraphicsExtensions.rxdata
 server.log
 .idea/
+!Library/gems/**
+release_version_mod.txt
+field_effect_manual.txt
+PBS/pokemon_server.txt
+/Saves

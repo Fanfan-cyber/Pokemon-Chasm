@@ -1,0 +1,69 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[ABSOLUTEDEFENSE]
+Name = Absolute Defense
+Description = Protects the Pokémon and its allies from spread moves. Defense increased by 20%.
+#-------------------------------
+[AEROSHELL2]
+Name = Aeroshell 2
+Description = After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
+#-------------------------------
+[ANCESTRALSUMMONS]
+Name = Ancestral Summons
+Description = Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
+#-------------------------------
+[BACKFIRE]
+Name = Backfire
+Description = When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
+#-------------------------------
+[BACKUP]
+Name = Backup
+Description = Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat steps remain after switching.
+#-------------------------------
+[BIOENGINEERING]
+Name = Bioengineering
+Description = When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
+Flags = Immutable
+#-------------------------------
+[BLOODOFMALICE]
+Name = Blood of Malice
+Description = Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
+#-------------------------------
+[CASHFLOW]
+Name = Cash Flow
+Description = Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+#-------------------------------
+[CHRONOREVERT]
+Name = Chrono Revert
+Description = When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
+#-------------------------------
+[CURSEDSHELL]
+Name = Cursed Shell
+Description = After being attacked, uses Parting Shot to switch out. Leaves a Cursed Shell.
+#-------------------------------
+[DOWNLOAD2]
+Name = Download 2
+Description = Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
+#-------------------------------
+[FRIGHTENINGBITE]
+Name = Frightening Bite
+Description = After using a Bite move, lowers the target's highest attacking stat by 2 steps. Immune to Ground-type moves. Immune to grounded hazards.
+Flags = Levitation
+#-------------------------------
+[LEVIATHANARIA]
+Name = Leviathan Aria
+Description = Completely protects allies from foes' spread moves. Summons rainstorm for four turns when hit by an attack.
+Flags = RainstormSynergy
+#-------------------------------
+[PREDATION2]
+Name = Predation 2
+Description = Has a 30% chance to leech targets when using physical moves.
+#-------------------------------
+[RELENTLESSPURSUIT]
+Name = Relentless Pursuit
+Description = Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it deals. This can overheal.
+#-------------------------------
+[SWALLOWMISSILE]
+Name = Swallow Missile
+Description = Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
+Flags = Immutable

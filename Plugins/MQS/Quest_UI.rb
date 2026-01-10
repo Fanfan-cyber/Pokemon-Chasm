@@ -26,7 +26,7 @@ class Window_Quest < Window_DrawableCommand
     return if index>=self.top_row+self.page_item_max
     rect = Rect.new(rect.x+16,rect.y,rect.width-16,rect.height)
     name = $quest_data.getName(@quests[index].id)
-    name = "<u>" + "#{name}" + "</u>" if @quests[index].story
+    name = _INTL("<u>{1}</u>", name) if @quests[index].story
     base = self.baseColor
     shadow = self.shadowColor
     # This doesn't work and I don't know why
@@ -311,13 +311,13 @@ class QuestList_Scene
     # Guest giver
     questGiver = $quest_data.getQuestGiver(quest.id)
     # If 'nil' or missing, set to '???'
-    if questGiver == "nil" || questGiver == ""
-      questGiver = _INTL("???")
+    if questGiver==_INTL("nil") || questGiver==""
+      questGiver = "???"
     end
     # Map quest was originally started
     originalMap = quest.location
     # Vary text according to map name
-    loc = originalMap.include?("Route") ? "on" : "in"
+    loc = originalMap.include?("Route") ? _INTL("on") : _INTL("in")
     # Format time
     time = quest.time.strftime("%B %d %Y %H:%M")
     if getActiveQuests.include?(quest.id)
@@ -329,8 +329,8 @@ class QuestList_Scene
     end
     # Quest reward
     questReward = $quest_data.getQuestReward(quest.id)
-    if questReward == "nil" || questReward == ""
-      questReward = _INTL("???")
+    if questReward==_INTL("nil") || questReward==""
+      questReward = "???"
     end
     yStartingPos = 48
     yGap = 72

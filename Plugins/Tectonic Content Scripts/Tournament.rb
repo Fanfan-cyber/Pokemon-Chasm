@@ -23,9 +23,13 @@ POOL_2 = [
     [:LEADER_Bence_2,"Bence",2,3,10],
 ]
 
+POOL_3 = [
+
+]
+
 CHAMPION = [:TRAINER_Zain,"Zain",2,3,11]
 
-FINAL_ROUND = 5
+FINAL_ROUND = 10
 
 class RandomTournament
     attr_reader :matches
@@ -61,9 +65,11 @@ class RandomTournament
 
     def leaveTournament
         @active = false
+        TA.set(:tournament, false)
+        setCenterToBackupNurse_new
     end
 
-    def prepMatches()
+    def prepMatches_old()
         firstMatch = POOL_1.sample
         secondMatch = nil
         loop do
@@ -81,6 +87,10 @@ class RandomTournament
         fifthMatch = CHAMPION
 
         @matches = [firstMatch,secondMatch,thirdMatch,fourthMatch,fifthMatch]
+    end
+
+    def prepMatches()
+        @matches = POOL_1.shuffle + POOL_2.shuffle + POOL_3.shuffle + [CHAMPION]
     end
 
     def winMatch()
@@ -150,9 +160,16 @@ def winTournamentMatch()
 end
 
 def enterTournament()
-    $PokemonGlobal.tournament = RandomTournament.new if !$PokemonGlobal.tournament
+    $PokemonGlobal.tournament = RandomTournament.new #if !$PokemonGlobal.tournament
     properlySave
     $PokemonGlobal.tournament.beginAttempt
+end
+
+def checkStartOver
+    unless $PokemonGlobal.tournament.matches.size == FINAL_ROUND
+        pbMessage(_INTL("The game has been updated, you must take on the challenge from scratch!"))
+        enterTournament
+    end
 end
 
 def resetTournament()
@@ -179,6 +196,7 @@ def promptForTournamentQuit()
 end
 
 def promptForMatchCommitment()
+    checkStartOver
     pbMessage(_INTL("{1} awaits you in the arena.", nextOpponentName))
     return pbConfirmMessageSerious(_INTL("Are you ready to battle?"))
 end
@@ -222,14 +240,19 @@ def displayRoundOdds(round)
         pbMessage(_INTL("Only 20 percent of respondents expect you to win against your brother."))
     else
         index = round-1
-        ordinal = [_INTL("second"), _INTL("third"), _INTL("fourth"), _INTL("fifth")][index]
-        percent = [60,55,45,35][index]
+        ordinal = [_INTL("second"), _INTL("third"), _INTL("fourth"), _INTL("fifth"), _INTL("sixth"), _INTL("seventh"), _INTL("eighth"), _INTL("nineth"), _INTL("tenth"), _INTL("eleventh")][index]
+        percent = [60,55,45,35,30,25,20,15,10,5,0][index]
         pbMessage(_INTL("Odds are displayed for the {1} round matches, gathered from a spectator poll.", ordinal))
         pbMessage(_INTL("{1} percent of respondents expect you to win against {2}.", percent, nextOpponentName()))
     end
 end
 
 def setCenterToBackupNurse
+    TA.set(:tournament, true)
+    pbSetPokemonCenter
+end
+
+def setCenterToBackupNurse_new
     $PokemonGlobal.pokecenterMapId     = BLACKOUT_NURSE_MAP_ID
     mapData = Compiler::MapData.new
     map = mapData.getMap(BLACKOUT_NURSE_MAP_ID)
@@ -237,6 +260,13 @@ def setCenterToBackupNurse
     $PokemonGlobal.pokecenterX         = event.x
     $PokemonGlobal.pokecenterY         = event.y + 1
     $PokemonGlobal.pokecenterDirection = Up
+end
+
+def tournamentHealing
+    return unless TA.get(:tournament)
+    pbSetGlobalSwitch(1, false)
+    unstowFollowerIfAllowed()
+    autoSave()
 end
 
 def takeTournamentSnapshot()

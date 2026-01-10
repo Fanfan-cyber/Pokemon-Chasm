@@ -1,0 +1,171 @@
+class PokeBattle_BattleTracker
+  def initialize
+    # refactor these three to BattlerBattleTracker
+    @battled_battlers = [] # used for Switch Healing
+    @turn_switched    = {} # used to record the turnCount when a Pokemon switches out
+    @revenge          = {} # used for Revenge mechanics
+    @summoned_pokemon = {} # used to record the Pokemon that will be summoned
+    @custom_effect    = [] # used to record the Custom Effect for the Battle Loader
+
+    @alt_dimension_d  = find_duplicate_species # used to record duplicate species
+  end
+end
+
+class PokeBattle_BattlerBattleTracker
+  def initialize
+    @faint_healing_triggered        = false # used to record whether Faint Healing triggered or not
+    @steps_before_switching         = {}    # used to record Stat Steps
+    @steps_counter_before_switching = {}    # used to record Step Counter before switching
+    @hits_in_progress               = 0     # used to record the count of hits in progress
+    @hits_in_progress_kicking       = 0     # used to record the count of kicking hits in progress
+    @chrono_revert​                  = nil   # used to record the Pokemon of Chrono Revert​ effect
+    @young_again                    = false # used to record Young Again
+    @blood_of_malice                = false # used to record Blood of Malice
+
+    @warned                         = Hash.new { |h, k| h[k] = [] } # used for Warning abilities
+
+    @being_hits = 0
+    @hits_dealt = 0
+    @hits_taken = 0
+
+    @crits_dealt = 0
+    @crits_taken = 0
+
+    @status_inflict = 0
+    @status_be_inflicted = 0
+
+    @stat_stages_up = 0
+    @stat_stages_down = 0
+
+    @abilities_triggered = 0
+  end
+end
+
+class PokeBattle_BattlerTracker
+  def initialize
+    @forced_engagement    = nil   # used for Forced Engagement
+    @step_counter         = {}    # used to count Stat Steps remaining turns
+    @flinched_by_moonglow = false # used for Moonglow Flinch effect
+    @attacked_last_gasp   = false # used for record if attacked during Last Gasp
+    @darkscale_cloud_turn = 0     # used to count turns stays in Darkscale Cloud
+  end
+end
+
+class PokeBattle_Battle
+  attr_reader :battle_tracker
+  attr_reader :battler_battle_tracker
+
+  def tracker_get(tracker)
+    @battle_tracker.instance_variable_get("@#{tracker}")
+  end
+
+  def tracker_set(tracker, value)
+    @battle_tracker.instance_variable_set("@#{tracker}", value)
+  end
+
+  def tracker_increment(tracker, value = 1)
+    tracker_set(tracker, tracker_get(tracker) + value)
+  end
+
+  def tracker_multiply(tracker, multiplier = 1)
+    tracker_set(tracker, tracker_get(tracker) * multiplier)
+  end
+
+  def tracker_clear(tracker)
+    case tracker_get(tracker)
+    when Numeric
+      tracker_set(tracker, 0)
+    when TrueClass
+      tracker_set(tracker, false)
+    when Array
+      tracker_set(tracker, [])
+    when Hash
+      tracker_set(tracker, {})
+    else
+      tracker_set(tracker, nil)
+    end
+  end
+
+  def tracker_avatars_purge; end
+end
+
+class PokeBattle_Battler
+  def battler_battle_tracker_get
+    unless @battle.battler_battle_tracker[@index & 1][@pokemonIndex]
+      @battle.battler_battle_tracker[@index & 1][@pokemonIndex] = PokeBattle_BattlerBattleTracker.new
+    end
+    @battle.battler_battle_tracker[@index & 1][@pokemonIndex]
+  end
+
+  def battle_tracker_get(tracker)
+    battler_battle_tracker_get.instance_variable_get("@#{tracker}")
+  end
+
+  def battle_tracker_set(tracker, value)
+    battler_battle_tracker_get.instance_variable_set("@#{tracker}", value)
+  end
+
+  def battle_tracker_increment(tracker, value = 1)
+    battle_tracker_set(tracker, battle_tracker_get(tracker) + value)
+  end
+
+  def battle_tracker_multiply(tracker, multiplier = 1)
+    battle_tracker_set(tracker, battle_tracker_get(tracker) * multiplier)
+  end
+
+  def battle_tracker_clear(tracker)
+    case battle_tracker_get(tracker)
+    when Numeric
+      battle_tracker_set(tracker, 0)
+    when TrueClass
+      battle_tracker_set(tracker, false)
+    when Array
+      battle_tracker_set(tracker, [])
+    when Hash
+      battle_tracker_set(tracker, {})
+    else
+      battle_tracker_set(tracker, nil)
+    end
+  end
+
+  def battle_tracker_avatars_purge
+    battle_tracker_set(:warned, {})
+  end
+end
+
+class PokeBattle_Battler
+  attr_reader :battler_tracker
+
+  def tracker_get(tracker)
+    @battler_tracker.instance_variable_get("@#{tracker}")
+  end
+
+  def tracker_set(tracker, value)
+    @battler_tracker.instance_variable_set("@#{tracker}", value)
+  end
+
+  def tracker_increment(tracker, value = 1)
+    tracker_set(tracker, tracker_get(tracker) + value)
+  end
+
+  def tracker_multiply(tracker, multiplier = 1)
+    tracker_set(tracker, tracker_get(tracker) * multiplier)
+  end
+
+  def tracker_clear(tracker)
+    case tracker_get(tracker)
+    when Numeric
+      tracker_set(tracker, 0)
+    when TrueClass
+      tracker_set(tracker, false)
+    when Array
+      tracker_set(tracker, [])
+    when Hash
+      tracker_set(tracker, {})
+    else
+      tracker_set(tracker, nil)
+    end
+  end
+
+  def tracker_avatars_purge; end
+end

@@ -3003,6 +3003,47 @@ Kind = Ball
 Pokedex = The tissue on the surface of its body is curiously similar in composition to an Apricorn.
 Generation = 8
 #-------------------------------
+[MVOLTORB]
+Name = M. Voltorb
+Type1 = STEEL
+Type2 = NORMAL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 60,55,85,50,55,90
+# Total = 395
+GenderRate = Genderless
+BaseEXP = 66
+Rareness = 190
+Abilities = DISCOLIGHTS,DANCER
+Moves = 1,LUSTER,1,TACKLE,6,BARETEETH,9,LIGHTSHOW,12,GLAMOURFLASH,16,SHINESHOT,18,CAPOEIRA,20,SMOLDERRAVE,24,SWIFT,27,LIGHTSCREEN,30,STARDANCE,33,BODYSLAM,36,FLASHCANNON,39,DREAMDANCE,40,SWORDSDANCE,42,IRONHEAD,45,STELLARATE,47,DRAGONDANCE,48,LIGHTNINGDANCE,51,ROCKOUT,54,EERIEIMPULSE,57,GLIMMERPULSE
+LineMoves = ADAMANTINEPRESS,ARCLAMP,BARETEETH,BLIZZARD,BODYPRESS,CALAMITOUSSLASH,CRUELTY,DARKALLURE,DARKPULSE,DIAMETRICBREATH,DRAGONPULSE,ECLIPSE,ENDURE,ERODE,FACADE,FLAMETHROWER,FLASHCANNON,FOULPLAY,FRAGMENTATION,GIGAIMPACT,HAIL,HARDEN,HEAVYSLAM,HYPERBEAM,ICEBEAM,INCISION,IRONDEFENSE,IRONHEAD,LIGHTSCREEN,MIRRORCOAT,MOONGLOW,NIGHTCHILL,NIGHTFELLING,NIGHTSLASH,NULLPULSE,NUMB,OCCULTATION,ODDROOM,OUTRAGE,PALEBLADE,POWDERBOMB,QUASH,RAINSTORM,REFLECT,REND,ROCKALANCHE,ROCKTOMB,ROUND,SANDSTORM,SCARYFACE,SHARPEN,SHRAPNEL,SHREDSHOT,SLASH,SNARL,SNORE,SOLARBEAM,STEALTHROCK,STEELBEAM,STOMPINGTANTRUM,STONEEDGE,SUBSTITUTE,SUNSHINE,SWORDSDANCE,THUNDER,THUNDERBOLT,THUNDERSHOCK,VACUUMWAVE,WEATHERBURST,WYRMWOUNDING
+Tribes = ANIMATED,RADIANT,HARMONIC
+StepsToHatch = 5355
+Height = 0.5
+Weight = 10.4
+Kind = Disco Ball
+Pokedex = Discovered by Attea the Silly at around the 80s, these groovy Voltorbs help bring guests to clubs.
+Generation = 1
+Evolutions = MELECTRODE,Level,32
+#-------------------------------
+[MELECTRODE]
+Name = M. Electrode
+Type1 = STEEL
+Type2 = NORMAL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,80,110,70,80,120
+# Total = 540
+GenderRate = Genderless
+BaseEXP = 172
+Rareness = 60
+Abilities = DISCOLIGHTS,DANCER
+Moves = 0,BLINDINGDANCE
+StepsToHatch = 5355
+Height = 1.2
+Weight = 66.6
+Kind = Disco Ball
+Pokedex = It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
+Generation = 1
+#-------------------------------
 [EXEGGCUTE]
 Name = Exeggcute
 Type1 = GRASS
@@ -7038,7 +7079,7 @@ Kind = Hard Shell
 Pokedex = Its shell is as hard as sheet rock, and it is also very strong. Its thrashing can topple a mountain.
 Generation = 2
 WildItemUncommon = SMOOTHROCK
-Evolutions = TYRANITAR,Level,42
+Evolutions = TYRANITAR,Level,42,MECHANITAR,Item,THUNDERSTONE
 #-------------------------------
 [TYRANITAR]
 Name = Tyranitar
@@ -7059,6 +7100,27 @@ Kind = Armor
 Pokedex = If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.
 Generation = 2
 WildItemUncommon = SMOOTHROCK
+#-------------------------------
+[MECHANITAR]
+Name = Mechanitar
+Type1 = ROCK
+Type2 = ELECTRIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 90,75,95,70,135,110
+# Total = 575
+BaseEXP = 270
+Rareness = 35
+Happiness = 35
+Abilities = THUNDERSTORM,IMPENETRABLESHELL
+Moves = 16,ROCKTOMB,48,DIAMONDFORCE,52,THUNDERBOLT,56,EARTHPOWER,60,ATOMICBREATH
+LineMoves = CHARGEBEAM
+StepsToHatch = 10455
+Height = 1.6
+Weight = 303.0
+Kind = Hard Shell
+Pokedex = Mechanitar was discovered by Valrex. It is highly intelligent and non-confrontational, tending to avoid battle if possible.
+Generation = 9
+Flags = Paradox
 #-------------------------------
 [RAIKOU]
 Name = Raikou
@@ -7954,7 +8016,7 @@ Weight = 20.2
 Kind = Emotion
 Pokedex = It has a psychic power that enables it to distort the space around it and see into the future.
 Generation = 3
-Evolutions = GARDEVOIR,Level,38,GALLADE,Item,DAWNSTONE
+Evolutions = GARDEVOIR,Level,38,GALLADE,Item,DAWNSTONE,GLAIVADIN,Item,THUNDERSTONE
 #-------------------------------
 [GARDEVOIR]
 Name = Gardevoir
@@ -7997,6 +8059,28 @@ Weight = 52.0
 Kind = Blade
 Pokedex = A master of courtesy and swordsmanship, it fights using extending swords on its elbows.
 Generation = 4
+#-------------------------------
+[GLAIVADIN]
+Name = Glaivadin
+Type1 = STEEL
+Type2 = FAIRY
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 90,115,75,110,115,70
+# Total = 575
+BaseEXP = 233
+Rareness = 35
+Happiness = 35
+Abilities = WELLEQUIPPED,DOWNLOAD
+Moves = 0,FLASHCANNON,8,MINDWAVES,20,PSYBEAM,24,LIFEDEW,28,DAZZLINGGLEAM,32,CALMMIND,36,PSYCHIC,40,SPIRITBREAK,44,BULLETCHARGE,48,SCHEME,52,FLEURCANNON,56,BULLETPUNCH,60,SEVER,64,POLARIZEDROOM
+LineMoves = INFINITEFORCE,IRONHEAD,SHREDSHOT,STEELBEAM
+Tribes = LOYAL,NOBLE,HARMONIC
+StepsToHatch = 5355
+Height = 1.4
+Weight = 35.0
+Kind = Blade
+Pokedex = It is said to be either a future relative of Gardevoir and Gallade or a counterpart of them from a parallel timeline.
+Generation = 9
+Flags = Paradox
 #-------------------------------
 [SURSKIT]
 Name = Surskit

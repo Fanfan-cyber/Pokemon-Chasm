@@ -1,2 +1,0 @@
-Name         = Chasm Save Conversions             
-Credits      = Zinnia

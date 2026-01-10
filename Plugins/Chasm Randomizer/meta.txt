@@ -1,4 +1,0 @@
-Name         = Chasm Randomizer
-Requires	 = Chasm Game Processing
-Credits      = Luka S.J.,Zinnia
-Conflicts    = Elite Battle: DX

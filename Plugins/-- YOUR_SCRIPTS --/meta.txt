@@ -1,0 +1,3 @@
+﻿Name     = YOUR_SCRIPTS
+Requires = fanfan_MOD
+Credits  = YOUR NAME HERE

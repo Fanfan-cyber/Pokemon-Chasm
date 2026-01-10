@@ -1,2 +1,0 @@
-Name 		= Chasm DexNav
-Credits 	= Zinnia,Phantombass,Suzerain,Nuri Yuri,SimpleEncounterUI Team

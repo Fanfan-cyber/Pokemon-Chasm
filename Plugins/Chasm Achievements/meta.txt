@@ -1,3 +1,0 @@
-Name         = Chasm Achievements
-Credits      = Zinnia
-Scripts		 = AchievementHandlers.rb

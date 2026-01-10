@@ -7,7 +7,7 @@ Page = 1
 #-------------------------------
 [CREDITS_BELOW_10_HOURS]
 Name = Pace Setter
-Description = Reach the credits with 10 or fewer hours on your save file.
+Description = Reach the credits with 30 or fewer hours on your save file.
 Page = 1
 DisabledInRandomizer = true
 #-------------------------------
@@ -116,7 +116,7 @@ DisabledInRandomizer = true
 #-------------------------------
 [CAPTURE_LEGENDARY_BASIC_BALL]
 Name = Back to Basics
-Description = Capture a legendary Pokemon in a regular Poké Ball (thrown normally or created by the Ball Launcher.)
+Description = Capture a legendary Pokémon in a regular Poké Ball (thrown normally or created by the Ball Launcher.)
 Page = 4
 #-------------------------------
 [CAPTURE_WITH_ALL_AESTHETIC_BALLS]

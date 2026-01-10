@@ -1,3 +1,0 @@
-Name         = Chasm Game Data
-Credits      = Essentials v19 Team,Zinnia
-Scripts		 = Trainers and Player/Trainer.rb

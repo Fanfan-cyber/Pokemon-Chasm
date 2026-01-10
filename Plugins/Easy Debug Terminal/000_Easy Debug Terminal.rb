@@ -31,7 +31,7 @@ module Input
 
     def self.update
         update_Debug_Terminal
-        if triggerex?(TERMINAL_KEYBIND) && $DEBUG && !$InCommandLine && TERMINAL_ENABLED
+        if triggerex?(TERMINAL_KEYBIND) && ($DEBUG || TA.get(:debugger)) && !$InCommandLine && TERMINAL_ENABLED
             $InCommandLine = true
             script = pbFreeTextNoWindow("", false, 256, Graphics.width)
             unless nil_or_empty?(script)

@@ -1,4 +1,0 @@
-Name         = Chasm PokEstate
-Requires	 = Chasm Game Processing
-Credits      = Zinnia
-Scripts		 = PokEstateMain.rb

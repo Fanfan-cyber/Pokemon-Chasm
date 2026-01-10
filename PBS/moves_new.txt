@@ -49,6 +49,19 @@ Flags = CanProtect,CanMagicCoat
 Description = The user and the target both fall asleep, fully restoring their HP and healing any non-volatile status conditions.
 Animation = REST
 #-------------------------------
+[BLINDINGDANCE]
+Name = Blinding Dance
+Type = NORMAL
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Dizzy
+Flags = CanProtect,CanMirrorMove,Dance
+Description = The user dances and shows off their many lights at the target, dizzying and damaging them.
+Animation = SPOTLIGHT
+#-------------------------------
 [BUTTINGHEADS]
 Name = Butting Heads
 Type = NORMAL
@@ -1005,6 +1018,20 @@ FunctionCode = HitThreeTimes
 Flags = CanProtect,CanRandomCrit
 Description = The user shoots three arrows made of Aura with extreme precision. Can random critical hit.
 Animation = AURASPHERE
+#-------------------------------
+[UPPERHAND]
+Name = Upper Hand
+Type = FIGHTING
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+Priority = 3
+FunctionCode = FlinchTargetFailsIfTargetNotUsingPriorityMove
+Flags = CanProtect,Staple
+EffectChance = 100
+Description = An attack that hits first and makes the target flinch. It fails if the target is not readying a priority move.
 #-------------------------------
 [VALORBOLT]
 Name = Valor Bolt
@@ -5295,6 +5322,19 @@ FunctionCode = Basic
 Flags = CanProtect,Light
 Description = A flare of electricity creates a bright light, damaging all nearby battlers.
 Animation = FLASH
+#-------------------------------
+[ATOMICBREATH]
+Name = Atomic Breath
+Type = ELECTRIC
+Category = Special
+Power = 140
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackCanChooseOne
+Flags = CanProtect,ForceSignature
+Description = The user charges, can used instantly for half of its power.
+Animation = HYPERBEAM
 #-------------------------------
 [BADENDING]
 Name = Bad Ending

@@ -1,0 +1,925 @@
+﻿[11]
+Foes that become numbed are severely so. This Pokémon's Flying-type moves have a 30% chance to severely numb.
+被麻痹的对手将陷入重度麻痹。这只精灵的飞行属性技能有30%的概率使目标重度麻痹。
+Turns the held item of a Pokémon it hits into scattered gold coins for you to take.
+将命中的精灵的携带物变成散落的金币供你拾取。
+Foes that become frostbitten are severely so. This Pokémon's Flying-type moves have a 30% chance to severely frostbite.
+被冻伤的对手将陷入重度冻伤。这只精灵的飞行属性技能有30%的概率使目标重度冻伤。
+After switching in for a fainted ally, using a status move and knocking out a foe, heals to full and transforms.
+替换1只faint的队友上场后，若使用变化类技能并打倒对手，将完全回复HP并变身为新形态。
+Special attacks against this Pokémon raise its Speed by two steps but lower its Sp. Def.
+对这只精灵使用的特殊类攻击使其速度增加2级，但特防减小。
+At the end of each turn, heals self by 1/20th and a party member by the amount this Pokémon was healed.
+每回合结束时，回复自身最大HP的1/20，并将回复量转移给一名队伍成员。
+When hit with a special move, traps and binds the attacker for three turns. Fails on turns the user switched in.
+被特殊类技能命中时，束缚攻击者3回合。使用者刚上场的回合无效。
+When this Pokémon is hit thrice, all party members heal for 1/8th HP. The attacker is forced to switch out.
+这只精灵被命中3次时，所有队伍成员回复HP的八分之一。攻击者强制退场。
+This Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
+这只精灵不会受到挑衅、安可、折磨、 healing block、禁招、禁止、混乱或畏缩影响。
+When using Techno Blast, the user can choose the move's type, switching to that form.
+使用“科技爆击”时，使用者可以选择技能的属性并切换为对应形态。
+Attackers lose 1/10th of their HP. If this Pokémon is below half health, attackers lose 1/5th instead.
+攻击者损失其HP的十分之一。若这只精灵HP低于一半，攻击者将损失五分之一。
+While this Pokémon is unfainted (in battle or switched out), poisoned foes cannot use the same move twice in a row.
+只要这只精灵未 faint（无论在场还是替补），中毒的对手无法连续两次使用同一技能。
+The user's moves cannot miss against trapped targets. Takes 20% less damage from Pokémon that are trapped.
+使用者的技能对被困目标必定命中。从被困精灵那里受到的伤害减小20%。
+While this Pokémon has an ally that isn't fully evolved, both Pokémon take 33% less move damage.
+当这只精灵有未完全进化队友时，双方受到的技能伤害减小33%。
+This Pokémon's Dragon-type hits deal additional damage equal to half this Pokémon's level.
+这只精灵的龙属性攻击会额外造成等于其等级一半的伤害。
+When this Pokémon is hit thrice, a Live Wire is set on the foe's side. The attacker hits itself in a rage.
+这只精灵被命中3次后，在对手场地设置活线。攻击者因愤怒而自残。
+This Pokémon can use Electric-type moves when recharging from an exhausting move, but cannot switch out during them.
+从耗尽技能蓄力时，这只精灵可以使用电属性技能，但在技能发动前无法退场。
+When this Pokémon is hit thrice, two layers of Spikes are set on the foe's side. The attacker will flinch next turn.
+这只精灵被命中3次后，在对手场地设置两层尖刺陷阱。攻击者下1回合畏缩。
+Foes that become burned are severely so. This Pokémon's Flying-type moves have a 30% chance to severely burn.
+被烧伤的对手将陷入重度烧伤。这只精灵的飞行属性技能有30%的概率使目标重度烧伤。
+Doubles the critical hit chance of random crit moves. This Pokémon's Speed is doubled while using them.
+随机命中要害技能的命中要害率翻倍。这只精灵使用这些技能时速度翻倍。
+Punching moves change this Pokémon's secondary type and their power is boosted by 30%.
+拳击类技能改变这只精灵的第二属性，技能威力增加30%。
+When this Pokémon charges and becomes hidden, it lowers the Attack and Sp. Atk of all foes.
+这只精灵蓄力并隐藏时，减小所有对手的攻击和特攻。
+This Pokémon and other battlers don't benefit from same-type attacking bonus.
+这只精灵和所有战斗中的精灵无法获得同属性攻击加成。
+Takes 30% less damage from all tagged moves.
+受到的所有标记技能伤害减小30%。
+This Pokémon deals double damage with moves that cause the user to become hidden.
+这只精灵的隐藏类技能伤害翻倍。
+Its attacks deal 50% more move damage against sleeping targets.
+对睡眠目标的攻击伤害增加50%。
+Whenever this Pokémon falls asleep, each other battler becomes drowsy.
+每当这只精灵入睡时，其他战斗中的精灵陷入困倦。
+When hit while asleep, hits back instantly with Snore at half power.
+睡眠中被攻击时，会以半威力的《打鼾》反击。
+This Pokémon takes 30% less move damage in hail.
+冰雹天气中，这只精灵受到的技能伤害减小30%。
+Boosts this Pokémon's Sp. Atk and Sp. Def by 30% in sunshine.
+晴天时，这只精灵的特攻和特防增加30%。
+Boosts Defense by 20%. When this Pokémon takes its second physical hit from a foe, they become waterlogged.
+防御增加20%。当这只精灵受到对手第2次物理类攻击时，对手将被浸水。
+This Pokémon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
+使用草、地面或钢属性技能后，这只精灵回复最大HP的五分之一。可以过量回复。
+This Pokémon and its allies' moves are twice as likely to be critical.
+这只精灵及其队友的技能命中要害率翻倍。
+Foes that attack this Pokémon while it is hidden take 25% HP damage.
+攻击隐藏状态下的这只精灵时，攻击者损失25%的HP。
+Sets a Light Screen for four turns upon entry.
+出场时设置光之壁，持续4回合。
+If an attack lowers its HP below half, leeches the attacker.
+若攻击使其HP降至一半以下时，攻击者将被寄生。
+If an attack lowers this Pokémon's HP below half, the attacker becomes sticky for three turns.
+若攻击使其HP降至一半以下时，攻击者将陷入粘着状态3回合。
+Upon entry, summons a Turbulent Sky on this Pokémon's side for six turns.
+出场时在自身场地开启动荡天空，持续6回合。
+Changes the weather to Blood Moon, which heralds the Full Blood Moon. Lingers for three turns after leaving.
+将天气变为血月，预示着满血月来临。离场后持续3回合。
+This Pokémon benefits twice as much from style points.
+这只精灵从风格点数中获得的收益翻倍。
+Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from a foe, they become frostbitten.
+特防增加20%。当这只精灵受到对手第2次特殊类攻击时，对手将被冻伤。
+Uses Rapid Spin if an attack lowers its HP below half.
+若攻击使其HP降至一半以下时，将使用“快速旋转”。
+When an ally switches in, this Pokémon's Speed is increased.
+队友替换上场时，这只精灵的速度增加。
+When hit, the attacker's Speed is reduced, and this Pokémon's next attack against them is boosted by 30%.
+被攻击时，攻击者的速度减小，这只精灵下次对攻击者的攻击增加30%。
+Every three turns it gets to move twice.
+每3回合有1次可以行动两次。
+After knocking out any Pokémon, summons eclipse for four turns.
+打倒任何精灵后，开启日食或月食，持续4回合。
+Flinching moves always activate their random effects. However, this Pokémon deals 10% less move damage.
+畏缩类技能必定触发随机附加效果。但这只精灵的技能伤害减小10%。
+Heals 1/16th HP every turn. Takes half damage from Fire- and Ice-type moves.
+每回合回复HP的1/16。受到的火属性和冰属性技能伤害减半。
+By sacrificing a held item this Pokémon didn't start with, it can negate one attack against it.
+通过消耗非初始携带的物品，可抵消1次针对它的攻击。
+Every two turns, another turn happens where no one moves.
+每2回合插入一个空白回合，所有精灵无法行动。
+Non-biting attacks deal 50% more damage if this Pokémon used a biting move last turn.
+若这只精灵上回合使用了咬合技能，本回合非咬合攻击伤害增加50%。
+Foes whose stats are lowered by this Pokémon keep those lowered stats even after switching.
+被这只精灵减小能力值的对手，即使替换精灵后仍保持减小状态。
+This Pokémon's Speed is doubled while using recoil moves.
+使用带有反伤的技能时，这只精灵的速度翻倍。
+During moonglow, take 35% less damage from attacks that aren't Steel-type.
+月光下，受到的非钢属性攻击伤害减小35%。
+After knocking out any Pokémon, summons moonglow for four turns.
+打倒任何精灵后，开启月光，持续4回合。
+If an attacker would activate a random added effect on this Pokémon, that effect is placed on the attacker instead.
+若攻击者对这只精灵触发随机附加效果，效果反作用于攻击者。
+This Pokémon is Mutant-type.
+这只精灵是变异属性。
+After an attack reduces its HP below half, deals 1/4th of the attacker's HP back to the attacker.
+攻击使其HP降至一半以下时时，反弹攻击者HP的四分之一。
+Whenever a foe's poison worsens, this Pokémon heals for 25% max HP.
+每当对手中毒加剧时，这只精灵回复最大HP的25%。
+This Pokémon's Dragon-type attacks become spread and drain 33% HP.
+这只精灵的龙属性攻击变为扩散并吸取33%的HP。
+Changes into another form of your choosing when its HP is lowered below half.
+HP降至一半以下时时，可切换为另一种形态。
+This Pokémon's attacks are always critical if there is an active Room.
+存在“房间”效果时，这只精灵的攻击必定命中要害。
+During the Full Moon, this Pokémon saps the enemy Pokémon of their vitality, leeching them.
+满月时，这只精灵吸取敌方精灵的活力。
+Negates enemy status moves that target this Pokémon or create hazards around it.
+抵挡针对这只精灵或在其周围设置陷阱的敌方变化类技能。
+Upon entry, summons a Primal Forest on this Pokémon's side for six turns.
+出场时在自身场地开启洪荒森林，持续6回合。
+Upon entry, summons Autumn Harvests on this Pokémon's side for four turns.
+出场时在自身场地开启秋之收获，持续4回合。
+Upon entry, summons Spring Plantings on this Pokémon's side for four turns.
+出场时在自身场地开启春之播种，持续4回合。
+Upon entry, summons Summer Festivals on this Pokémon's side for four turns.
+出场时在自身场地开启夏之祭典，持续4回合。
+Upon entry, summons Winter Hunts on this Pokémon's side for four turns.
+出场时在自身场地开启冬之狩猎，持续4回合。
+Uses Dragon Dance if an attack lowers its HP below half.
+若攻击使其HP降至一半以下时，将使用龙之舞。
+Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
+HP降至一半以下时时，与对手交换HP。每场战斗仅触发1次。
+Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
+使用浸没、淹没、冲浪或潜水时以捕获的猎物发动攻击。使用蓄力类技能时速度翻倍。
+Reflects enemy status moves that target this Pokémon or create hazards around it.
+反射针对这只精灵或在其周围设置陷阱的敌方变化类技能。
+[24]
+Tapu Koko: Storm Totem
+卡璞·鸣鸣：风暴图腾
+Pokémon on this side get a 30% move damage boost, but they are prevented from using moves that are the same type as the move they most recently used.
+场上的精灵技能伤害增加30%，但无法使用与上次相同属性的技能。
+Tapu Fini: Fog Totem
+卡璞·蝶蝶：迷雾图腾
+Whenever a foe finishes attacking a Pokémon on this side, the attacker is forced to switch out of battle. They are able to choose the replacement.
+每当对手攻击完场上的精灵后，攻击者强制退场。攻击者可以选择替换上场的精灵。
+Tapu Bulu: Wild Totem
+卡璞·哞哞：狂野图腾
+Whenever a Pokémon on this side is hit, its defending stats are both lowered by 1 step and its attacking stats are both raised by 1 step.
+场上的精灵被命中时，其防御和特防减小1级，攻击和特攻增加1级。
+Tapu Lele: Flutter Totem
+卡璞·鳍鳍：振翼图腾
+At the end of each turn, the Pokémon on this side are all healed by 1/8th of their max HP, but each one of their moves has their PP reduced by 1.
+每回合结束时，场上的精灵回复最大HP的1/8，但所有技能的PP减小1。
+Zeraora: Hybrid Fighter
+捷拉奥拉：融合格斗者
+You gain effects for using moves in an order.<<n>>Kick -> Bite: Healed by 25%.<<n>>Punch -> Kick: You switch out.<<n>>Bite -> Punch: The target's Attack and Sp. Atk lowers by 2 steps.
+You gain effects for using moves in an order.<<n>>Kick -> Bite: Healed by 25%.<<n>>Punch -> Kick: You switch out.<<n>>Bite -> Punch: The target's Attack and Sp. Atk lowers by 2 steps.
+Hybrid Fighter Part 2
+融合格斗者第二部分
+Bite -> Kick: Your speed raises by 2 steps.<<n>>Kick -> Punch: Opponent is Numbed.<<n>>Punch -> Bite: You gain Energy Charged.
+Bite -> Kick: Your speed raises by 2 steps.<<n>>Kick -> Punch: Opponent is Numbed.<<n>>Punch -> Bite: You gain Energy Charged.
+Articuno: Glacial Wings
+急冻鸟：冰翼
+Severe Frostbite: The same as Frostbite, but its end-of-turn chip deals double damage if the afflicted Pokémon is below half health.
+重度冻伤：与冻伤效果相同，但如果受影响的精灵HP低于一半，每回合结束时的伤害翻倍。
+Moltres: Searing Wings
+火焰鸟：炎翼
+Severe Burn: The same as Burn, but the afflicted Pokémon also takes 33% recoil from their attacks.
+重度烧伤：与烧伤效果相同，但受影响的精灵攻击时还会受到33%的反伤。
+Zapdos: Galvanic Wings
+霹雳鸟：电翼
+Severe Numb: The same as Numb, but the afflicted Pokémon's highest stat is reduced at the end of each turn.
+重度麻痹：与麻痹效果相同，但每回合结束时，受影响的精灵的最高能力值会减小。
+Kyogre: Primordial Sea
+盖欧卡：初生之海
+Boosts the damage of Water- and Electric-type attacks by 50%. Prevents Pokémon not immune to Rain from activating moves' random added effects.
+水与电属性攻击伤害增加50%。非免疫雨天气的精灵无法触发技能的随机附加效果。
+Groudon: Desolate Land
+固拉多：荒芜之地
+Boosts the damage of Fire- and Grass-type attacks by 50%. Prevents Pokémon not immune to Sun from activating critical hits.
+火与草属性攻击伤害增加50%。非免疫阳光的精灵无法触发命中要害。
+Necrozma: Event Horizon
+尼克兹玛：事件视界
+Rock- and Ground-types gain a 50% boost to Special Defense. Pokémon not immune to Sandstorm take increasing damage from end of round, doubling every two rounds.
+岩石与地面属性精灵的特防增加50%。非免疫沙暴的精灵，从回合结束时开始受到逐渐增加的伤害，每2回合翻倍。
+Kyurem: Heat Death
+古路姆：热寂
+Ice- and Ghost-types gain a 50% boost to Defense. Healing is prevented from Pokémon not immune to Hail while active.
+冰与幽灵属性精灵的防御增加50%。处于冰雹天气中时，非免疫冰雹的精灵无法回复HP。
+Cresselia: Saturnal Sky
+克雷色利亚：星盈之空
+Boosts the damage of Psychic- and Dragon-type attacks by 50%. When the debuff applies from the Ring Eclipse effect, it lowers stats by 3 steps instead of 2.
+超能力与龙属性攻击伤害增加50%。环的日食效果触发的减益会减小能力值3级而非二级。
+Darkrai: Stygian Night
+达克莱伊：冥界之夜
+Boosts the damage of Fairy- and Dark-type attacks by 50%. When the flinch happens from Blood Moon, it also damages targets by 25% of their Max HP.
+妖精与恶属性攻击伤害增加50%。当血月效果触发畏缩时，目标还会受到其最大HP25%的伤害。
+Giratina: Distorted Gravity
+骑拉帝纳：扭曲重力
+All foes take 1/16th damage at the end of the round. While the user is on the field, gravity does not decay.
+所有对手每回合结束时受到其HP十六分之一的伤害。使用者在场时，重力不会衰减。
+Tornadus: Wish of Winter
+旋风 Rasen：冬愿
+Raises the side's Accuracy by 50%. On the final turn, that side has +1 priority.
+Raises the side's Accuracy by 50%. On the final turn, that side has +1 priority.
+Thundurus: Wish of Summer
+雷吉艾斯：夏之愿
+Raises the side's Speed by 50%. On the final turn, that side deals 50% more move damage, but takes 25% recoil.
+增加该侧速度50%。最后1回合，该侧造成的技能伤害增加50%，但受到25%的反伤。
+Landorus: Wish of Autumn
+雷吉洛克：秋之愿
+Raises the side's Defense by 50%. On the final turn, that side is healed for 33% max HP. This can overheal.
+增加该侧防御50%。最后1回合，该侧回复最大HP的33%。可以过量回复。
+Enamorus: Wish of Spring
+雷吉钢：春之愿
+Raises the side's Sp. Def by 50%. On the final turn, that side is cured of non-volatile status conditions and mental conditions.
+增加该侧特防50%。最后1回合，该侧的异常状态和精神状态被回复。
+By Skittering Stitch and Scattered Suture, Succumb to Ceaseless Sustenance.
+凭借爬行的针脚与散落的缝合，屈服于无尽的供养。
+Occlusion from Diffusion, Illusory Allusion. Conclusion: Elusion.
+从扩散中闭合，虚幻的错觉。结论：逃避。
+Your side gains spikes each turn. Opposing Switch Healing effect boosts by 50%.
+你的场地每回合增加一层尖刺。敌方的替换回复效果增加50%。
+A Dance of Dualities and Potent Pluralities, A Futile Flailing in the Truth of Totality.
+双重对立与强大力量的舞蹈，在整体真理中徒劳挣扎。
+A Bestial Bellow Echoes Evermore, a Comprehensive Command: Bow!
+野兽的咆哮永恒回荡，全面的指令：臣服！
+{1} turns upside down! Its stat steps are inverted!
+{1}倒转过来了！其能力值等级反转！
+Ions in the atmosphere react to {1}!
+大气中的离子对{1}产生反应！
+The ions around {1} settled down.
+围绕{1}的离子平静下来。
+{1} is pierced by spines hidden near {2}!
+{1}被隐藏在{2}附近的尖刺刺穿！
+{1}'s rainbows shine with an aura of {2}!
+{1}的彩虹闪耀着{2}的光辉！
+{1} heals its party members!
+{1}治疗了它的队友！
+{1} hurt itself in an extreme rage!
+{1}在极度愤怒中自伤！
+{1} is caught in the pincers!
+{1}被夹住了！
+{1} is caught in a lasso!
+{1}被套索套住了！
+{1} takes on a new machine!
+{1}装备了新机械！
+{1} swapped HP with {2}!
+{1}与{2}交换了HP！
+{1} prepares its response!
+{1}正在准备反击！
+{1} steals the energy from its moonstruck enemies!
+{1}从被月光迷惑的对手那里窃取能量！
+{1} is restored by the full moon!
+{1}被满月回复了！
+{1} regenerates in safety.
+{1} regenerates in safety.
+{1} bonds with its younger allies!
+{1} bonds with its younger allies!
+{1} is immune to the pressure of the walls!
+{1} is immune to the pressure of the walls!
+{1} is quick onto the scene!
+{1} is quick onto the scene!
+{1} saturates the field with death!
+{1} saturates the field with death!
+{1} saturates the field with life!
+{1} saturates the field with life!
+{1} is trailing rainbows behind it!
+{1} is trailing rainbows behind it!
+{1}'s adrenaline is on the rise!
+{1}'s adrenaline is on the rise!
+<imp>Wow, you've finally defeated the formidable opponent!<<n>>Please keep it up, don't give up!</imp>
+<imp>Wow, you've finally defeated the formidable opponent!<<n>>Please keep it up, don't give up!</imp>
+There is a Legendary Pokémon in your party!<<n>>Your team's move power will reduce by 10 percent!
+There is a Legendary Pokémon in your party!<<n>>Your team's move power will reduce by 10 percent!
+There are some Legendary Pokémon in your party!<<n>>Your team's move power will reduce by {1} percent!
+There are some Legendary Pokémon in your party!<<n>>Your team's move power will reduce by {1} percent!
+<imp>Hang in there! You're doing great.<<n>>Please keep it up, don't give up!</imp>
+<imp>Hang in there! You're doing great.<<n>>Please keep it up, don't give up!</imp>
+Rampaging Pokémon can't be switched out!
+Rampaging Pokémon can't be switched out!
+{1} is about to send in {2}. Will you switch out {3}?
+{1} is about to send in {2}. Will you switch out {3}?
+{1} absorbed a layer of the {2}!
+{1} absorbed a layer of the {2}!
+{1} resists its impending doom!
+{1} resists its impending doom!
+{1} #{aboveHalfHealth? ? 'deactivated' : 'activated'}!
+{1} #{aboveHalfHealth? ? 'deactivated' : 'activated'}!
+{1} was punished!
+{1} was punished! 
+It'll take one third recoil from its own attacks
+It'll take one third recoil from its own attacks
+Frostbite damage is double below half health
+Frostbite damage is double below half health
+Its highest stat is lowered each turn
+Its highest stat is lowered each turn
+{1} was severely burned! {2}!
+{1} was severely burned! {2}!
+{1} is severely numbed! {2}!
+{1} is severely numbed! {2}!
+{1} was severely frostbitten! {2}!
+{1} was severely frostbitten! {2}!
+{1} was severely burned!
+{1} was severely burned!
+{1} is severely numbed!
+{1} is severely numbed!
+{1} was severely frostbitten!
+{1} was severely frostbitten!
+A neurotoxin emitter is in the opposing party!
+A neurotoxin emitter is in the opposing party!
+Due to {1}, {2} will be unable to use the same move twice in a row.
+Due to {1}, {2} will be unable to use the same move twice in a row.
+The poison starts already doubled!
+The poison starts already doubled!
+{1} was hurt by its severe burn!
+{1} was hurt by its severe burn!
+{1} was intensely hurt by severe frostbite!
+{1} was intensely hurt by severe frostbite!
+{1} was hurt by severe frostbite!
+{1} was hurt by severe frostbite!
+{1} cringes from their severe burn!
+{1} cringes from their severe burn!
+{1} got too rowdy!
+{1} got too rowdy!
+The {1} supplemented {2}'s power and made it {3}!
+The {1} supplemented {2}'s power and made it {3}!
+{1} lands a flashy hit!
+{1} lands a flashy hit!
+The tangling vines strengthened the hit!
+The tangling vines strengthened the hit!
+{1} is blinded, and partially misses!
+{1} is blinded, and partially misses!
+{1} can't use the same move twice in a row due to the neurotoxin!
+{1} can't use the same move twice in a row due to the neurotoxin!
+{1} can only use {2}-type moves!
+{1} can only use {2}-type moves!
+{1} can't use the same type twice in a row due to the Torture!
+{1} can't use the same type twice in a row due to the Torture!
+{1} can't use this attack while rampaging!
+{1} can't use this attack while rampaging!
+{1} cannot battle due to the Species Clause!
+{1} cannot battle due to the Species Clause!
+Battle effect #{@id} is set to tick down, but its not an integer.
+Battle effect #{@id} is set to tick down, but its not an integer.
+Ancient cold crystallizes around {1}!
+Ancient cold crystallizes around {1}!
+{1} will flinch next turn!
+{1} will flinch next turn!
+{1} is stuck! It can't be moved!
+{1} is stuck! It can't be moved!
+{1} is no longer stuck.
+{1} is no longer stuck.
+{1} is no longer being type-restricted.
+{1} is no longer being type-restricted.
+{1} is no longer trapped by {2}!
+{1} is no longer trapped by {2}!
+{1} is bound in {2}'s tangling vines!
+{1} is bound in {2}'s tangling vines!
+{1} is no longer bound in tangling vines.
+{1} is no longer bound in tangling vines.
+The spotlight will boost {1}'s next Normal-type attack!
+The spotlight will boost {1}'s next Normal-type attack!
+{1} was covered in a sticky goop!
+{1} was covered in a sticky goop!
+{1} got rid of the sticky goop!
+{1} got rid of the sticky goop!
+The sticky goop around {1} disappeared!
+The sticky goop around {1} disappeared!
+The sticky goop reduced {1}'s highest stat!
+The sticky goop reduced {1}'s highest stat!
+{1} is blinded!
+{1} is blinded!
+It'll deal half as much damage on its next attack!
+It'll deal half as much damage on its next attack!
+{1} is no longer blinded.
+{1} is no longer blinded.
+{1} is carried off by feathers!
+{1} is carried off by feathers!
+{1} was placed under quarantine!
+{1} was placed under quarantine!
+The quarantine around {1} was lifted!
+The quarantine around {1} was lifted!
+The quarantine around {1} ended!
+The quarantine around {1} ended!
+{1} vanquishes its opponents!
+{1} vanquishes its opponents!
+{1} draws strength from patience!
+{1} draws strength from patience!
+A fierce resolution gathers around {1}!
+A fierce resolution gathers around {1}!
+{1} will receive the...
+{1} will receive the...
+{1} comes to avenge {2}!
+{1} comes to avenge {2}!
+The ground below {1} was surrounded by rocky shards!
+The ground below {1} was surrounded by rocky shards!
+{1} is hurt by the rocky shards!
+{1} is hurt by the rocky shards!
+The rocky shards surrounding {1} were sent away.
+The rocky shards surrounding {1} were sent away.
+The rocky shards surrounding {1} dissipate.
+The rocky shards surrounding {1} dissipate.
+{1} pick up the shell!
+{1} pick up the shell!
+{1} is protected by a blessed wall of light!
+{1} is protected by a blessed wall of light!
+{1}'s Sanctuary was removed!
+{1}'s Sanctuary was removed!
+{1} is no longer protected by Sanctuary.
+{1} is no longer protected by Sanctuary.
+{1} layers of Spikes were scattered all around {2}'s feet!
+{1} layers of Spikes were scattered all around {2}'s feet!
+{1} began the spring plantings!
+{1} began the spring plantings!
+Their Sp. Def will be raised by 50 percent for {1} more turns!
+Their Sp. Def will be raised by 50 percent for {1} more turns!
+{1} cancelled their spring plantings.
+{1} cancelled their spring plantings.
+{1} completed their spring plantings!
+{1} completed their spring plantings!
+{1}'s spring plantings are finishing!
+{1}'s spring plantings are finishing!
+{1} is refreshed of physical and mental ailments!
+{1} is refreshed of physical and mental ailments!
+{1} began the summer festivals!
+{1} began the summer festivals!
+Their Speed will be raised by 50 percent for {1} more turns!
+Their Speed will be raised by 50 percent for {1} more turns!
+{1} cancelled their summer festivals.
+{1} cancelled their summer festivals.
+{1} completed their summer festivals!
+{1} completed their summer festivals!
+{1}'s summer festivals are finishing!
+{1}'s summer festivals are finishing!
+They'll deal 50 percent more move damage this turn, but take 25 percent recoil!
+They'll deal 50 percent more move damage this turn, but take 25 percent recoil!
+{1} began the autumn harvests!
+{1} began the autumn harvests!
+Their Defense will be raised by 50 percent for {1} more turns!
+Their Defense will be raised by 50 percent for {1} more turns!
+{1} cancelled their autumn harvests.
+{1} cancelled their autumn harvests.
+{1} completed their autumn harvests!
+{1} completed their autumn harvests!
+{1}'s autumn harvests are finishing!
+{1}'s autumn harvests are finishing!
+They receive a healthy bounty!
+They receive a healthy bounty!
+{1} began the winter hunts!
+{1} began the winter hunts!
+Their Accuracy will be raised by 50 percent for {1} more turns!
+Their Accuracy will be raised by 50 percent for {1} more turns!
+{1} cancelled their winter hunts.
+{1} cancelled their winter hunts.
+{1} completed their winter hunts!
+{1} completed their winter hunts!
+{1}'s winter hunts are finishing!
+{1}'s winter hunts are finishing!
+They'll have +1 priority this turn!
+They'll have +1 priority this turn!
+A feather fell to the ground around {1}.
+A feather fell to the ground around {1}.
+The second feather fell to the ground around {1}.
+The second feather fell to the ground around {1}.
+The third and final feather fell to the ground around {1}.
+The third and final feather fell to the ground around {1}.
+{1} feathers fell to the ground around {2}.
+{1} feathers fell to the ground around {2}.
+The feathers around {1} were absorbed!
+The feathers around {1} were absorbed!
+A scale fell to the ground around {1}.
+A scale fell to the ground around {1}.
+The second scale fell to the ground around {1}.
+The second scale fell to the ground around {1}.
+The third and final scale fell to the ground around {1}.
+The third and final scale fell to the ground around {1}.
+{1} scales fell to the ground around {2}.
+{1} scales fell to the ground around {2}.
+The scales around {1} were absorbed!
+The scales around {1} were absorbed!
+A fang fell to the ground around {1}.
+A fang fell to the ground around {1}.
+The second fang fell to the ground around {1}.
+The second fang fell to the ground around {1}.
+The third and final fang fell to the ground around {1}.
+The third and final fang fell to the ground around {1}.
+{1} fang fell to the ground around {2}.
+{1} fang fell to the ground around {2}.
+The fangs around {1} were absorbed!
+The fangs around {1} were absorbed!
+A scute fell to the ground around {1}.
+A scute fell to the ground around {1}.
+The second scute fell to the ground around {1}.
+The second scute fell to the ground around {1}.
+The third and final scute fell to the ground around {1}.
+The third and final scute fell to the ground around {1}.
+{1} scutes fell to the ground around {2}.
+{1} scutes fell to the ground around {2}.
+The scutes around {1} were absorbed!
+The scutes around {1} were absorbed!
+{1} is blessed by the Wishing Well!
+{1} is blessed by the Wishing Well!
+It'll block random added effects for {1} turns !
+It'll block random added effects for {1} turns !
+{1} was healed by the Wishing Well!
+{1} was healed by the Wishing Well!
+{1} is no longer blessed by the Wishing Well.
+{1} is no longer blessed by the Wishing Well.
+{1} is veiled with crystal! It's a {2}-type!
+{1} is veiled with crystal! It's a {2}-type!
+The sanctuary around {1} prevented the hit from being critical!
+The sanctuary around {1} prevented the hit from being critical!
+The Wishing Well protects {1} from a random added effect!
+The Wishing Well protects {1} from a random added effect!
+{1} copied {2}'s all abilities!
+{1} copied {2}'s all abilities!
+{1} is too powerful to be compelled to rest!
+{1} is too powerful to be compelled to rest!
+But it failed, since there are not enough coins on the field!
+But it failed, since there are not enough coins on the field!
+{1} coins were thrown in the Wishing Well!
+{1} coins were thrown in the Wishing Well!
+There were no coins to throw in the Wishing Well...
+There were no coins to throw in the Wishing Well...
+{1} created a golden pyre!
+{1} created a golden pyre!
+{1} emerged from the pyre!
+{1} emerged from the pyre!
+{1} became ensnared by electricity!
+{1} became ensnared by electricity!
+{1} hid in the darkness!
+{1} hid in the darkness!
+{1} melded into the foliage!
+{1} melded into the foliage!
+Does more damage the lower the user's HP is. Range 100-800
+Does more damage the lower the user's HP is. Range 100-800
+{1} gathered energy!
+{1} gathered energy!
+{1} started singing!
+{1} started singing!
+Which drive should {1} use?
+Which drive should {1} use?
+{1} loaded a {2}!
+{1} loaded a {2}!
+But it failed, since the target is already under quarantine!
+But it failed, since the target is already under quarantine!
+But it failed, since the target is already trapped and can't be disabled!
+But it failed, since the target is already trapped and can't be disabled!
+But it failed, since {1} is already blinded!
+But it failed, since {1} is already blinded!
+But it failed, since {1} is already covered in syrup!
+But it failed, since {1} is already covered in syrup!
+{1} blew away the {2} on the other side of the field!
+{1} blew away the {2} on the other side of the field!
+The {1} was blown to the other side of the field!
+The {1} was blown to the other side of the field!
+But it failed, since {1} can't be given a Black Sludge!
+But it failed, since {1} can't be given a Black Sludge!
+{1} was gifted an {2}!
+{1} was gifted an {2}!
+But {1} can't hold the {2}!
+But {1} can't hold the {2}!
+{1} draws the {2} from the stone!
+{1} draws the {2} from the stone!
+But it failed, since {1} isn't statused
+But it failed, since {1} isn't statused
+But it failed, since {1} can't be waterlogged and {2} already has an Aqua Ring!
+But it failed, since {1} can't be waterlogged and {2} already has an Aqua Ring!
+This Trait has been set to {1}!
+This Trait has been set to {1}!
+The Like has been set to {1}!
+The Like has been set to {1}!
+The Dislike has been set to {1}!
+The Dislike has been set to {1}!
+Version mismatch with team code.
+Version mismatch with team code.
+Could not read team code from file.
+Could not read team code from file.
+Team code loaded into party.
+Team code loaded into party.
+Set the Pokémon's status further?
+Set the Pokémon's status further?
+Import Team Code from File
+Import Team Code from File
+Load a tectonic-tools team code from Analysis/teamcode.txt into your current party.
+Load a tectonic-tools team code from Analysis/teamcode.txt into your current party.
+Sorry, you can only have {1} legendary on your team!
+Sorry, you can only have {1} legendary on your team!
+\wm<i>You should visit her very nice house.</i>
+\wm<i>You should visit her very nice house.</i>
+\wm<i>She is waiting for you <imp>near Velenz</imp>...</i>
+\wm<i>She is waiting for you <imp>near Velenz</imp>...</i>
+\wm<i>A <imp>vision of golden light</imp> appears in your mind...</i>
+\wm<i>A <imp>vision of golden light</imp> appears in your mind...</i>
+I... don't think I understand this fossil. Maybe try asking my assistant for help.
+I... don't think I understand this fossil. Maybe try asking my assistant for help.
+What!? You want me to make a combo fossil? Not a chance.
+What!? You want me to make a combo fossil? Not a chance.
+Maybe someone else is interested in creative torture, but I sure am not.
+Maybe someone else is interested in creative torture, but I sure am not.
+I uh... can't actually revive this. Haven't completed the relevant coursework yet.
+I uh... can't actually revive this. Haven't completed the relevant coursework yet.
+Go talk to my supervisor. She can help you.
+Go talk to my supervisor. She can help you.
+Is that...? Very intriguing.
+Is that...? Very intriguing.
+Feels... familiar. Something I played long ago...
+Feels... familiar. Something I played long ago...
+I'll see what I can do.
+I'll see what I can do.
+Yes! It's aliiiiiiive! Muahahahahaha!
+Yes! It's aliiiiiiive! Muahahahahaha!
+Okay, now go away. I won't suffer any more EXP waste.
+Okay, now go away. I won't suffer any more EXP waste.
+I've got the tools. Just don't tell anyone.
+I've got the tools. Just don't tell anyone.
+Trust me, nobody needs these more than you.
+Trust me, nobody needs these more than you.
+All the Pokéballs you could ever need.
+All the Pokéballs you could ever need.
+Fight her in Novo Town.
+Fight her in Novo Town.
+Fight him in East Tunnel.
+Fight him in East Tunnel.
+East Tunnel
+East Tunnel
+A flower keeper at the south entrance of Novo Town says she'll give you a reward to celebrate completing your 4th gym. You won't forget her, right?
+A flower keeper at the south entrance of Novo Town says she'll give you a reward to celebrate completing your 4th gym. You won't forget her, right?
+I won!
+I won!
+It's all thanks to my team.
+It's all thanks to my team.
+We secured the victory!
+We secured the victory!
+This battle was fun, wasn't it?
+This battle was fun, wasn't it?
+All according to plan.
+All according to plan.
+Well fought, but it looks like I take this one.
+Well fought, but it looks like I take this one.
+Seems I bested a formidable opponent. Again.
+Seems I bested a formidable opponent. Again.
+Your Pokémon fought hard... but not as hard as mine.
+Your Pokémon fought hard... but not as hard as mine.
+Looks like it's a win for me.
+Looks like it's a win for me.
+Well played.
+Well played.
+I lost...
+I lost...
+I was confident in my team too.
+I was confident in my team too.
+That was the one thing I wanted to avoid.
+That was the one thing I wanted to avoid.
+That wasn't part of the plan...
+That wasn't part of the plan...
+Well that's a downer...
+Well that's a downer...
+You truly are a strong opponent.
+You truly are a strong opponent.
+Seems like my Pokémon weren't enough to defeat you.
+Seems like my Pokémon weren't enough to defeat you.
+A loss... I've still got to get used to do that.
+A loss... I've still got to get used to do that.
+Well played...
+Well played...
+Your current online Trainer Class is {1}.
+Your current online Trainer Class is {1}.
+What Trainer Class do you want to present to your opponents?
+What Trainer Class do you want to present to your opponents?
+Choose a class
+Choose a class
+An {1} is the kind of Trainer you want to be?
+An {1} is the kind of Trainer you want to be?
+You will appear as an {1} in online battles.
+You will appear as an {1} in online battles.
+A {1} is the kind of Trainer you want to be?
+A {1} is the kind of Trainer you want to be?
+You will appear as a {1} in online battles.
+You will appear as a {1} in online battles.
+What do you want to say when you win?
+What do you want to say when you win?
+"{1}"\<<n>>This is what you wish to say?
+"{1}"\<<n>>This is what you wish to say?
+"{1}"\<<n>>This is what you will say when you win.
+"{1}"\<<n>>This is what you will say when you win.
+What do you want to say when you lose?
+What do you want to say when you lose?
+"{1}"\<<n>>This is what you will say when you lose.
+"{1}"\<<n>>This is what you will say when you lose.
+battle
+battle
+trade
+trade
+mix records
+mix records
+{1} cannot get a read on {2}!
+{1} cannot get a read on {2}!
+Waiting
+Waiting
+{1} forfeited the match!
+{1} forfeited the match!
+Choose Vinemon and confirm.
+Choose Vinemon and confirm.
+Single Battle
+Single Battle
+Double Battle
+Double Battle
+Triple Battle
+Triple Battle
+Load Local Rule
+Load Local Rule
+Load Server Rule
+Load Server Rule
+Select Battle Ruleset
+Select Battle Ruleset
+I'm sorry, you do not have a valid Pokémon team with these rules.
+I'm sorry, you do not have a valid Pokémon team with these rules.
+I'm sorry, your partner does not have a valid Pokémon team with these rules.
+I'm sorry, your partner does not have a valid Pokémon team with these rules.
+Choose a bracket.
+Choose a bracket.
+Ruleset: {1}
+Ruleset: {1}
+See Details
+See Details
+Abort connection?
+Abort connection?
+Abort search?
+Abort search?
+Disconnect?
+Disconnect?
+I'm sorry, you must have a Pokémon to enter the Cable Club.
+I'm sorry, you must have a Pokémon to enter the Cable Club.
+Opponent's ID (Yours: {1:05d})
+Opponent's ID (Yours: {1:05d})
+Thank you for using the Cable Club. We hope to see you again soon.
+Thank you for using the Cable Club. We hope to see you again soon.
+I'm sorry, your party contains Pokémon not allowed in the Cable Club.
+I'm sorry, your party contains Pokémon not allowed in the Cable Club.
+I'm sorry, the other trainer has disconnected.
+I'm sorry, the other trainer has disconnected.
+I'm sorry, your game version is out of date compared to the Cable Club.
+I'm sorry, your game version is out of date compared to the Cable Club.
+I'm sorry, the Cable Club server has malfunctioned!
+I'm sorry, the Cable Club server has malfunctioned!
+I'm sorry, the Cable Club server is down at the moment.
+I'm sorry, the Cable Club server is down at the moment.
+I'm sorry, the Cable Club has malfunctioned!
+I'm sorry, the Cable Club has malfunctioned!
+Your ID: {1:05d}<<n>>Connecting
+Your ID: {1:05d}<<n>>Connecting
+Your ID: {1:05d}<<n>>Searching
+Your ID: {1:05d}<<n>>Searching
+{1} connected!
+{1} connected!
+Trade
+Trade
+Mix Records
+Mix Records
+Choose an activity.
+Choose an activity.
+Waiting for {1} to accept
+Waiting for {1} to accept
+I'm sorry, {1} doesn't want to {2}.
+I'm sorry, {1} doesn't want to {2}.
+Waiting for {1} to pick an activity
+Waiting for {1} to pick an activity
+Quick Ruleset
+Quick Ruleset
+Local Ruleset
+Local Ruleset
+Server Ruleset
+Server Ruleset
+{1} wants to battle!<<n>>{2}: {3}
+{1} wants to battle!<<n>>{2}: {3}
+Cust.
+Cust.
+Waiting for {1} to pick their team
+Waiting for {1} to pick their team
+I'm sorry, {1} doesn't want to battle.
+I'm sorry, {1} doesn't want to battle.
+{1} wants to trade!
+{1} wants to trade!
+Waiting for {1} to pick a Pokémon
+Waiting for {1} to pick a Pokémon
+{1} has offered {2} ({3}) for your {4} ({5}).
+{1} has offered {2} ({3}) for your {4} ({5}).
+Check {1}'s offer
+Check {1}'s offer
+Check My Offer
+Check My Offer
+Accept Trade
+Accept Trade
+Deny Trade
+Deny Trade
+I'm sorry, {1} doesn't want to trade.
+I'm sorry, {1} doesn't want to trade.
+I'm sorry, the trade was unable to be completed.
+I'm sorry, the trade was unable to be completed.
+Waiting for {1} to confirm the trade
+Waiting for {1} to confirm the trade
+I'm sorry, {1} denied the trade.
+I'm sorry, {1} denied the trade.
+Waiting for {1} to resynchronize
+Waiting for {1} to resynchronize
+{1} wants to mix records!
+{1} wants to mix records!
+Record Mixing Completed!
+Record Mixing Completed!
+Preparing {1} Data
+Preparing {1} Data
+Receiving {1} Data
+Receiving {1} Data
+Processing {1} Data
+Processing {1} Data
+If you have not done so, or have done so but have realized your mistake and promise not to do it again, please enter the full text of "<imp>{1}</imp>".
+If you have not done so, or have done so but have realized your mistake and promise not to do it again, please enter the full text of "<imp>{1}</imp>".
+Retrieve
+Retrieve
+Time Capsule is a place where you can store Pokémon.<<n>>Pokémon in the Time Capsule are accessible across all save files.
+Time Capsule is a place where you can store Pokémon.<<n>>Pokémon in the Time Capsule are accessible across all save files.
+You have defeated the 8th Gym Leader!<<n>>Now you can challenge the Former Champions' teams in the Battle Loader.<<n>>Good luck!
+You have defeated the 8th Gym Leader!<<n>>Now you can challenge the Former Champions' teams in the Battle Loader.<<n>>Good luck!
+You did great, but you still need to defeat me {1} more time(s).<<n>>You can't use the Pokémon you've already used and you can check the recorded teams with the Battle Loader.<<n>>Keep it up!
+You did great, but you still need to defeat me {1} more time(s).<<n>>You can't use the Pokémon you've already used and you can check the recorded teams with the Battle Loader.<<n>>Keep it up!
+\w[]\wm\c[12]\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...
+\w[]\wm\c[12]\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...
+Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
+Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
+Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.
+Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.
+Charges after using every 2 damaging moves in sandstorm, doubling the power of its next Electric-type move.
+Charges after using every 2 damaging moves in sandstorm, doubling the power of its next Electric-type move.
+Foes suffer 50% more move damage reduction from burn, frostbite, numb, and poison.
+Foes suffer 50% more move damage reduction from burn, frostbite, numb, and poison.
+Heals this Pokémon by 1.5x the damage other battlers take from being poisoned.
+Heals this Pokémon by 1.5x the damage other battlers take from being poisoned.
+Takes 20% less damage if the move is more than normal-effective.
+Takes 20% less damage if the move is more than normal-effective.
+Mirror Team
+Mirror Team
+Achievement Challenge
+Achievement Challenge
+You can't take the Achievement Challenge, because you don't have 8 badges!
+You can't take the Achievement Challenge, because you don't have 8 badges!
+Which do you want to challenge?
+Which do you want to challenge?
+Yes?
+Yes?
+No?
+No?
+Don't shake.
+Don't shake.
+Shake.
+Shake.
+Do not buy Tea
+Do not buy Tea
+Seems legit.
+Seems legit.
+Why not?
+Why not?
+[32]
+Sublimated
+Sublimated
+Snorer
+Snorer
+Flinch Next Turn
+Flinch Next Turn
+Type Restricted
+Type Restricted
+Type Restricted Turns
+Type Restricted Turns
+Trailing Rainbows
+Trailing Rainbows
+Trailing Rainbows Deletes Fire
+Trailing Rainbows Deletes Fire
+Tangling Vines
+Tangling Vines
+Feather Charm Force Switch
+Feather Charm Force Switch
+Rampage Locked
+Rampage Locked
+Relentless Pursuit
+Relentless Pursuit
+Incoming
+Incoming
+Incoming Type
+Incoming Type
+Stormshards
+Stormshards
+Cursed Shed
+Cursed Shed
+Spring Plantings
+Spring Plantings
+Summer Festivals
+Summer Festivals
+Festivals' End
+Festivals' End
+Autumn Harvests
+Autumn Harvests
+Winter Hunts
+Winter Hunts
+Hunts' End
+Hunts' End
+Feathers Dropped
+Feathers Dropped
+Scales Dropped
+Scales Dropped
+Fangs Dropped
+Fangs Dropped
+Scutes Dropped
+Scutes Dropped
