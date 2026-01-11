@@ -80,7 +80,7 @@ Description = Repeats another Pokémon's dance move immediately.
 #-------------------------------
 [DARKAURA]
 Name = Dark Aura
-Description = Powers up each Pokémon's Dark-type moves.
+Description = Powers up each Pokémon's Dark-type moves by 33%.
 #-------------------------------
 [DAUNTLESSSHIELD]
 Name = Dauntless Shield
@@ -137,7 +137,7 @@ Description = Switches out if its HP is lowered below half.
 #-------------------------------
 [FAIRYAURA]
 Name = Fairy Aura
-Description = Powers up each Pokémon's Fairy-type moves.
+Description = Powers up each Pokémon's Fairy-type moves by 33%.
 #-------------------------------
 [FILTER]
 Name = Filter
