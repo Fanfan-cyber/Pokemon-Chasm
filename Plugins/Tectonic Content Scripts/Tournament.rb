@@ -101,6 +101,11 @@ class RandomTournament
         trainerName = next_match[1]
         version = next_match[2]
         version = next_match[3] if $PokemonGlobal.tarot_amulet_active && !next_match[3].nil?
+        if matchesWon == FINAL_ROUND - 1
+            pbSetNextBattleBGM("Battle tournament final")
+        else
+            pbSetNextBattleBGM("Battle tournament")
+        end
         return pbTrainerBattle(trainerType,trainerName,nil,false,version)
     end
 
