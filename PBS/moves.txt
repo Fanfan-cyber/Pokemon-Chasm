@@ -3037,7 +3037,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = HitTwoTimesFlinchTarget
-Flags = CanProtect
+Flags = CanProtect,Punch
 EffectChance = 30
 Description = The user rotates, centering the hex nut in its chest, and then strikes twice. Each hit has a 30% chance to cause flinching.
 #-------------------------------
