@@ -1005,7 +1005,6 @@ Environment = Cave
 Outdoor = true
 ShowArea = true
 Bicycle = true
-HealingSpot = 136,31,42
 Temperature = Hot
 Humidity = Wet
 MapPosition = 0,21,18
