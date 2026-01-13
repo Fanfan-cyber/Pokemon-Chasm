@@ -80,7 +80,7 @@ Description = Repeats another Pokémon's dance move immediately.
 #-------------------------------
 [DARKAURA]
 Name = Dark Aura
-Description = Powers up each Pokémon's Dark-type moves.
+Description = Powers up each Pokémon's Dark-type moves by 33%.
 #-------------------------------
 [DAUNTLESSSHIELD]
 Name = Dauntless Shield
@@ -105,7 +105,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [DISGUISE]
 Name = Disguise
-Description = Its shroud protects it from an attack just once.
+Description = Its shroud protects it from an attack once. When the disguise breaks, it takes 1 HP of damage.
 Flags = Immutable
 #-------------------------------
 [DOWNLOAD]
@@ -137,7 +137,7 @@ Description = Switches out if its HP is lowered below half.
 #-------------------------------
 [FAIRYAURA]
 Name = Fairy Aura
-Description = Powers up each Pokémon's Fairy-type moves.
+Description = Powers up each Pokémon's Fairy-type moves by 33%.
 #-------------------------------
 [FILTER]
 Name = Filter
