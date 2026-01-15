@@ -222,7 +222,7 @@ module QuestModule
   }
 
   QUEST_GYM_AVATARS_2 = {
-    :Name => _INTL("May I Have this Dance?"),
+    :Name => _INTL("May I Have This Dance?"),
     :QuestGiver => _INTL("Eko"),
     :Stage1 => _INTL("Defeat what lurks behind the door."),
     :Stage2 => _INTL("Report back about your success."),

@@ -594,8 +594,8 @@ class PokeBattle_Battler
                 case @battle.pbWeather
                 when :Sunshine, :HarshSun   then newForm = 1
                 when :Rainstorm, :HeavyRain then newForm = 2
-                when :Hail             then newForm = 3
-                when :Sandstorm        then newForm = 4
+                when :Hail, :IceAge         then newForm = 3
+                when :Sandstorm, :StarStorm then newForm = 4
                 when :Moonglow, :BloodMoon  then newForm = 5
                 when :Eclipse, :RingEclipse then newForm = 6    
                 end

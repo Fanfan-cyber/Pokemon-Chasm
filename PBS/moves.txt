@@ -481,7 +481,7 @@ TotalPP = 15
 Target = NearFoe
 FunctionCode = UseMoveTargetIsAboutToUse
 Flags = CanProtect,Uninvocable
-Description = The user tries to cut ahead of the foe to steal and use the foe's intended move with greater power.
+Description = If the user acts before the target, it copies the target’s attacking move and uses it against them with 50% increased power.
 #-------------------------------
 [MEGAPUNCH]
 Name = Mega Punch
@@ -3037,7 +3037,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = HitTwoTimesFlinchTarget
-Flags = CanProtect
+Flags = CanProtect,Punch
 EffectChance = 30
 Description = The user rotates, centering the hex nut in its chest, and then strikes twice. Each hit has a 30% chance to cause flinching.
 #-------------------------------

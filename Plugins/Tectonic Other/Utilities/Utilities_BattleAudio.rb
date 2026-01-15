@@ -75,6 +75,7 @@ def pbGetTrainerBattleBGM(trainer) # can be a Player, NPCTrainer or an array of 
     trainerarray.each do |t|
         trainer_type_data = GameData::TrainerType.get(t.trainer_type)
         music = trainer_type_data.battle_BGM if trainer_type_data.battle_BGM
+        music = trainer_type_data.cursed_battle_BGM if tarotAmuletActive? && trainer_type_data.cursed_battle_BGM
     end
     ret = pbStringToAudioFile(music) if music && music != ""
     unless ret
@@ -96,6 +97,7 @@ def pbGetTrainerBattleBGMFromType(trainertype)
     return $PokemonGlobal.nextBattleBGM.clone if $PokemonGlobal.nextBattleBGM
     trainer_type_data = GameData::TrainerType.get(trainertype)
     ret = trainer_type_data.battle_BGM if trainer_type_data.battle_BGM
+    ret = trainer_type_data.cursed_battle_BGM if tarotAmuletActive? && trainer_type_data.cursed_battle_BGM
     unless ret
         # Check map metadata
         map_metadata = GameData::MapMetadata.try_get($game_map.map_id)
@@ -135,4 +137,9 @@ def pbGetTrainerVictoryME(trainer) # can be a Player, NPCTrainer or an array of 
     ret ||= pbStringToAudioFile("Battle victory")
     ret.name = "../../Audio/ME/" + ret.name
     return ret
+end
+
+# Set next battle BGM through script instead of RPG Maker event
+def pbSetNextBattleBGM(bgm)
+    $PokemonGlobal.nextBattleBGM = bgm
 end
