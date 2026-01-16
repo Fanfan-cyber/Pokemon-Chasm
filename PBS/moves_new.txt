@@ -8263,7 +8263,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = RaiseUserAccIfMisses
 Flags = CanProtect
-Description = The user makes an risky, difficult attack. If it misses, the user's Accuracy is raised.
+Description = The user makes a risky, difficult attack. If it misses, the user's Accuracy is raised.
 #-------------------------------
 [HIDDENSTRIKE]
 Name = Hidden Strike
