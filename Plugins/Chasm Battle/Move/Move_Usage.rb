@@ -461,8 +461,8 @@ target.pbThis(true)))
     #=============================================================================
     # Messages upon being hit
     #=============================================================================
-    def pbEffectivenessMessage(_user, target, numTargets = 1)
-        return if target.damageNegated?
+    def pbEffectivenessMessage(user, target, numTargets = 1)
+        return if damageNegated?(user, target)
         return if defined?($Options.effectiveness_messages) && $Options.effectiveness_messages == 1
         if Effectiveness.hyper_effective?(target.damageState.typeMod)
             if numTargets > 1
@@ -501,7 +501,7 @@ target.pbThis(true)))
     end
 
     def pbHitEffectivenessMessages(user, target, numTargets = 1)
-        return if target.damageNegated?
+        return if damageNegated?(user, target)
         if target.damageState.substitute
             @battle.pbDisplay(_INTL("The substitute took damage for {1}!", target.pbThis(true)))
         end
