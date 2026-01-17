@@ -325,6 +325,7 @@ target.pbThis(true)))
 
         if damageNegated?(user, target)
             target.damageState.displayedDamage = 0
+            target.damageState.hpLost = 0
             return
         end
 
