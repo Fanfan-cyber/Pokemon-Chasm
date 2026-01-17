@@ -1291,9 +1291,9 @@ Pokemon = BRONZONG,35
     Moves = TAKESHELTER,KINETICGRIP,STEALTHROCK,HEAVYSLAM
     AbilityIndex = 1 # Puzzling
     Item = REINFORCINGROD
-Pokemon = ELDEGOSS,35
-    Moves = POISONIVY,SYNTHESIS,SAPPINGJEALOUSY,WEATHERBURST
-    AbilityIndex = 1 # On the Wind
+Pokemon = KLEFKI,35
+    Moves = BUCKETDROP,HEX,CRUELTY,SPIKES
+    AbilityIndex = 1 # Room Lock
 Pokemon = DRIFBLIM,35
     Moves = FLAMETHROWER,HEX,ACROBATICS,BODYSLAM
     AbilityIndex = 1 # Drifting Mist
@@ -3073,8 +3073,8 @@ Pokemon = RAPIDASH,47
 #-------------------------------
 [JUGGLER,Mikael]
 Pokemon = ELDEGOSS,48
-    Moves = GIGADRAIN,THUNDERBOLT,SHORTCIRCUIT,AROMATHERAPY
-    AbilityIndex = 1 # On the Wind
+    Moves = FRIGIDFLURRY,PETALTEMPEST,COLDFRONT,TAILWIND
+    AbilityIndex = 1 # Gossamer Gale
     Item = EJECTBUTTON
 Pokemon = HAXORUS,48
     Moves = AXETOGRIND,ROCKALANCHE,TAUNT
