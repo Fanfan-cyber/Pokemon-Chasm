@@ -401,6 +401,15 @@ BattleHandlers::AbilityOnSwitchIn.add(:SHARPSHOOTER,
   }
 )
 
+BattleHandlers::AbilityOnSwitchIn.add(:GOSSAMERGALE,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} is carried by a swift breeze!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
 BattleHandlers::AbilityOnSwitchIn.add(:FEROCIOUS,
   proc { |ability, battler, battle, aiCheck|
       next 0 if aiCheck
