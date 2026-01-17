@@ -105,7 +105,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [DISGUISE]
 Name = Disguise
-Description = Its shroud protects it from an attack once. When the disguise breaks, it takes 1 HP of damage.
+Description = Its shroud protects it from an attack once.
 Flags = Immutable
 #-------------------------------
 [DOWNLOAD]
