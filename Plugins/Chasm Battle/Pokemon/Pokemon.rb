@@ -812,7 +812,11 @@ class Pokemon
 
     def canHaveItem?(itemCheck, showMessages = false)
         if itemCheck == :CRYSTALVEIL && hasAbility?(:WONDERGUARD)
-            pbMessage(_INTL("{1} can't hold a {2}!", name, getItemName(:CRYSTALVEIL))) if showMessages
+            pbMessage(_INTL("{1} can't hold a {2} while its ability is {3}!", name, getItemName(:CRYSTALVEIL), getAbilityName(:WONDERGUARD))) if showMessages
+            return false
+        end
+        if itemCheck == :SHEDSHELL && hasAbility?(:LASTGASP)
+            pbMessage(_INTL("{1} can't hold a {2} while its ability is {3}!", name, getItemName(:SHEDSHELL), getAbilityName(:LASTGASP))) if showMessages
             return false
         end
         return true
