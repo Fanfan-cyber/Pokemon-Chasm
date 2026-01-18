@@ -383,7 +383,10 @@ class PokeBattle_Battler
             return pbRaiseStatStep(stat, increment, user, showAnim, true)
         end
         # Total Focus
-        return false if effectActive?(:EmpoweredFlowState)
+        if effectActive?(:EmpoweredFlowState)
+            @battle.pbDisplay(_INTL("{1} is in a state of total focus!", pbThis)) 
+            return false
+        end
         # Stubborn
         if hasActiveAbility?(:STUBBORN) && !ignoreStubborn && !@battle.moldBreaker && increment > 1
             showMyAbilitySplash(:STUBBORN)
@@ -464,7 +467,10 @@ class PokeBattle_Battler
             return pbRaiseStatStepByCause(stat, increment, user, cause, showAnim: showAnim, ignoreContrary: true)
         end
         # Total Focus
-        return false if effectActive?(:EmpoweredFlowState)
+        if effectActive?(:EmpoweredFlowState)
+            @battle.pbDisplay(_INTL("{1} is in a state of total focus!", pbThis)) 
+            return false
+        end
         # Stubborn
         if hasActiveAbility?(:STUBBORN) && !@battle.moldBreaker && increment > 1
             showMyAbilitySplash(:STUBBORN)
@@ -703,6 +709,10 @@ class PokeBattle_Battler
                     }
                     return pbRaiseMultipleStatSteps(statArray, user, move: move, showFailMsg: showFailMsg, showAnim: showAnim, ability: ability, item: item, ignoreContrary: true)
                 end
+            end
+            if effectActive?(:EmpoweredFlowState)
+                @battle.pbDisplay(_INTL("{1} is in a state of total focus!", pbThis)) 
+            return false
             end
         end
         
