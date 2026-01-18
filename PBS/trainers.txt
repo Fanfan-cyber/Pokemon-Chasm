@@ -8876,43 +8876,7 @@ Pokemon = BEWEAR,70
 #-------------------------------
 [SPIRITGUARDIAN2,Sonya,1]
 ExtendsVersion = 0
-Policies = CURSE_NO_MERCY_4
-Pokemon = MMUSHARNA,70
-    Moves = CALMMIND,SLACKOFF,SCOUR,PSYCHOBOOST
-    AbilityIndex = 1 # Fatigued
-    Item = SITRUSBERRY
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,10,10,0,10,10
-Pokemon = MUSHARNA,70
-    Moves = MOONBLAST,THUNDERBOLT,REST,SNORE
-    AbilityIndex = 0 # Dream Weaver
-    Item = SHELLBELL
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,20,10,0,20,0
-Pokemon = KOMMOO,70
-    Moves = CLANGOROUSSOUL,OCCULTATION,CLOSECOMBAT,FLASHCANNON
-    AbilityIndex = 1 # Plot Armor
-    Item = SALACBERRY
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 15,15,0,20,15,0
-Pokemon = AMPHAROS,70
-    Moves = TRANSCENDENTENERGY,THUNDERBOLT,POLLENPUFF,DRACOMETEOR
-    AbilityIndex = 1 # Stubborn
-    Item = POWERHERB
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,0,5,20,0,5
-Pokemon = ORBEETLE,70
-    Moves = ECLIPSE,MINDSAP,BUGBUZZ,BODYPRESS
-    AbilityIndex = 1 # Hive Mind
-    Item = COLBURBERRY
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,0,20,0,0,10
-Pokemon = DRAGONITE,70
-    Moves = DRAGONRIDE,FLY,ROOST,POWERUPPUNCH
-    AbilityIndex = 1 # Multiscale
-    Item = YACHEBERRY
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,10,5,10,10,5
+Policies = CURSE_SUBSTITUTED
 #-------------------------------
 [SPIRITGUARDIAN3,Preeti]
 Pokemon = GOTHITELLE,70
