@@ -220,6 +220,14 @@ class PokeBattle_Battler
         return false
     end
 
+    def hasWindMove?
+        eachAIKnownMove do |m|
+            next unless m.windMove?
+            return true
+        end
+        return false
+    end
+
     def hasChargingTurnMove?
         eachAIKnownMove do |m|
             next unless m.chargingTurnMove?
