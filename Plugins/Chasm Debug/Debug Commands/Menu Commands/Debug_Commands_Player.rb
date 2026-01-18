@@ -257,13 +257,13 @@ DebugMenuCommands.register("setbadges", {
     "effect"      => proc {
       commands = []
       getMainQuestStages.each_with_index do |key_value_pair, index|
-        name = MainQuestTracker.getNiceNameForStageSymbol(key_value_pair[0])
+        name = key_value_pair[1][0]
         commands.push(_INTL("{1}: {2}", index, name))
       end
       stageCmd = pbShowCommands(nil, commands, -1)
       if stageCmd >= 0
         $main_quest_tracker.setMainQuestStage(stageCmd)
-        pbMessage(_INTL("Changed the player's main quest stage to #{MainQuestTracker.getNiceNameForStageSymbol(getMainQuestStages.keys[stageCmd])}."))
+        pbMessage(_INTL("Changed the player's main quest stage to #{getMainQuestStages[getMainQuestStages.keys[stageCmd]][0]}."))
       end
     }
   })
