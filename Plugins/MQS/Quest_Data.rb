@@ -198,7 +198,7 @@ module QuestModule
     :QuestGiver => _INTL("Scientist"),
     :Stage1 => _INTL("Defeat the gauntlet."),
     :Location1 => _INTL("Luxtech Main"),
-    :QuestDescription => _INTL("You've been offered a gauntlet of scientists to try to get past. How difficult could these eggheads be anyways?"),
+    :QuestDescription => _INTL("You've been offered a gauntlet of scientists to try to get past. Can your team hold up against their clever tactics?"),
   }
 
   QUEST_SHOW_LEGEND = {
@@ -426,7 +426,7 @@ module QuestModule
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Fight through the scientists."),
     :Location1 => _INTL("Battle Plaza Underground"),
-    :QuestDescription => _INTL("A group of scientists appear to be guarding something important. You never were one for not sticking your nose in everything, what would a bunch of nerds hold up against you?"),
+    :QuestDescription => _INTL("A secret lab deep in the sewer, guarded by frantic scientists. If you can overcome them, what might you find within?"),
   }
 
   QUEST_LEGEND_VICTINI = {
@@ -454,7 +454,7 @@ module QuestModule
     :Location1 => _INTL("Luxtech Campus, Cold Storage"),
     :Location2 => _INTL("Prizca East, Capitol Building"),
     :Location3 => _INTL("Svait"),
-    :QuestDescription => _INTL("Finally a library in this damned region, maybe there is some interesting information you can learn."),
+    :QuestDescription => _INTL("Nora's on the trail of a mystery—its threads lead to Luxtech, and from there to parts unknown. If you help her on her hunt, what secrets will you two uncover?"),
   }
 
   QUEST_LEGEND_TRI_ISLAND = {
@@ -568,11 +568,11 @@ module QuestModule
   QUEST_LEGEND_GENIES = {
     :Name => _INTL("Excessive Force"),
     :QuestGiver => _INTL("Jovan"),
-    :Stage1 => _INTL("Explore the cave."),
+    :Stage1 => _INTL("Find and free the four legends."),
     :Stage2 => _INTL("Defend the legends."),
     :Location1 => _INTL("Oasis System"),
     :Location2 => _INTL("Sandstone Estuary"),
-    :QuestDescription => _INTL("The suspicious but friendly scientist is asking for help, you've eavesdropped a bit (un)intentionally, but the whole story still alludes you. What is so important about a dumb cave in the desert?"),
+    :QuestDescription => _INTL("Jovan's asked for your help—a gang called the Drillers is wreaking havoc in the depths of the cave. If you can find and free the imprisoned legendaries within, it should loosen their hold."),
   }
 
   QUEST_JOVAN = {
@@ -596,7 +596,7 @@ module QuestModule
     :QuestGiver => _INTL("???"),
     :Stage1 => _INTL("Find and defeat the former champs."),
     :Location1 => _INTL("Makya"),
-    :QuestDescription => _INTL("Makya has seen their own fair share of champions over the years. Inevitably, they'll be dethroned by the next tournament, so they add up. You're going to be the best champion of them all though, aren't you? May as well show those rejects why they are only 'former'."),
+    :QuestDescription => _INTL("You've crossed paths with some of the former champions of Makya. Overcoming them will hone your skills, and may even earn you some rewards..."),
   }
 
   QUEST_FORMER_ANSEL = {
@@ -604,7 +604,7 @@ module QuestModule
     :QuestGiver => _INTL("Ansel"),
     :Stage1 => _INTL("Defeat another former champ."),
     :Location1 => _INTL("Battle Plaza"),
-    :QuestDescription => _INTL("An older champion, show him the future is now. After proving your worth to him, at least."),
+    :QuestDescription => _INTL("This former champion prefers spectating to fighting nowadays. If you can prove you're on his level, though, he'll put his team back in the ring."),
   }
 
   QUEST_FORMER_PRAVEEN = {
@@ -614,7 +614,7 @@ module QuestModule
     :Stage2 => _INTL("Catch Zarude."),
     :Location1 => _INTL("Sandstone Estuary"),
     :Location2 => _INTL("Sandstone Estuary"),
-    :QuestDescription => _INTL("You've been informed you can now speak to the former champion known as Praveen. What's his deal?"),
+    :QuestDescription => _INTL("Ansel's given you an opportunity to meet up with the former champion Praveen. Is he up for a battle?"),
   }
 
   QUEST_FORMER_SCILLA = {
@@ -622,7 +622,7 @@ module QuestModule
     :QuestGiver => _INTL("Scilla"),
     :Stage1 => _INTL("Defeat the dojo."),
     :Location1 => _INTL("Ironclad Dojo"),
-    :QuestDescription => _INTL("Scilla runs a dojo in Prizca East, but she isn't one to be paid off to get a black belt from. Crush all those wimps."),
+    :QuestDescription => _INTL("Scilla runs a dojo in Prizca East—if you prove yourself against her disciples, you might earn the chance to go up against her."),
   }
 
   QUEST_FORMER_CHARA = {
@@ -630,7 +630,7 @@ module QuestModule
     :QuestGiver => _INTL("Scilla"),
     :Stage1 => _INTL("Find and defeat the former champ."),
     :Location1 => _INTL("Sweetrock Harbor"),
-    :QuestDescription => _INTL("It appears Chara is your next target, found in Sweetrock. You're certain this won't be any more challenging than your previous fight."),
+    :QuestDescription => _INTL("Scilla's sister Chara keeps a lighthouse in Sweetrock. See if she's down for a challenge."),
   }
 
   QUEST_FORMER_ELISE = {
@@ -638,7 +638,7 @@ module QuestModule
     :QuestGiver => _INTL("Elise"),
     :Stage1 => _INTL("Defeat the former champ."),
     :Location1 => _INTL("Prizca Castle"),
-    :QuestDescription => _INTL("So we got a princess here, don't we? Magnificent castles can always be brought down with enough hardwork."),
+    :QuestDescription => _INTL("Elise has claims on both a royal and a championship title—she should be quite the prestigious opponent."),
   }
 
   QUEST_FORMER_VINCENT = {
@@ -646,7 +646,7 @@ module QuestModule
     :QuestGiver => _INTL("Elise"),
     :Stage1 => _INTL("Find and defeat the former champ."),
     :Location1 => _INTL("Aquatopia Menagerie"),
-    :QuestDescription => _INTL("Elise mentioned Vincent likes finding strong trainers to fight. Maybe one day you'll find a strong trainer."),
+    :QuestDescription => _INTL("Elise mentioned Vincent likes finding strong trainers to fight. Bring him down and you'll make his day."),
   }
 
   QUEST_FORMER_CASEY = {
@@ -656,7 +656,7 @@ module QuestModule
     :Stage2 => _INTL("Return to Casey."),
     :Location1 => _INTL("Underpeak Tunnels"),
     :Location2 => _INTL("Casey's Basement"),
-    :QuestDescription => _INTL("What are you, an exterminator? Oh well, avatars will always be fun to face, then you can show him what you think of his request."),
+    :QuestDescription => _INTL("Living on top of a nest of avatars can't be easy, but if anyone could manage it, it'd be a former champion. Still, Casey needs your help."),
   }
 
   # Evo Stone Gauntlets
