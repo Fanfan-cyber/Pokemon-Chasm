@@ -4137,7 +4137,7 @@ Pokemon = DRACOZOLT,53
     Moves = VOLTSEEKERS,REND,HUMBLE,NUMB
     AbilityIndex = 1 # Challenger
 Pokemon = DRACOVISH,53
-    Moves = PSYCHICFANGS,FISHIOUSREND,GALLINGSPIT,CRUNCH
+    Moves = SEARINGCRUNCH,FISHIOUSREND,GALLINGSPIT,CRUNCH
     AbilityIndex = 0 # Live Fast
 Pokemon = ARCTOVISH,52
     Moves = PRESSUREBURST,PIERCINGDOUBT,SUBLIMATE,BODYPRESS
@@ -4507,7 +4507,7 @@ Pokemon = KLINKLANG,55
     Moves = SHIFTGEAR,ELECTROSLASH,GEARGRIND,NUMB
     AbilityIndex = 1 # Dynamo
 Pokemon = REAVOR,55
-    Moves = SHATTERVISE,BULLETPUNCH,XSCISSOR,SWORDSDANCE
+    Moves = MACHPUNCH,BULLETPUNCH,STINGINGJAB,SWORDSDANCE
     AbilityIndex = 0 # Technician
 Pokemon = SHIINOTIC,55
     Moves = PUFFBALL,STRENGTHSAP,MOONBLAST,GIGADRAIN
@@ -4727,7 +4727,7 @@ Pokemon = CRUSTLE,60
 #-------------------------------
 [BUGCATCHER2,Rangsan]
 Pokemon = DRACOVISH,60
-    Moves = DRACOMETEOR,FISHIOUSREND,PSYCHICFANGS,CRUNCH
+    Moves = DRACOMETEOR,FISHIOUSREND,SEARINGCRUNCH,CRUNCH
     AbilityIndex = 1 # Schadenfreude
     Item = AGILITYHERB
 Pokemon = SCEPTILE,60
@@ -5182,7 +5182,7 @@ Pokemon = PORYGONZ,55
     Moves = STELLARATE,CRITICALERROR,PHANTOMGATE,ICEBEAM
     AbilityIndex = 0 # Realist
 Pokemon = HAXORUS,55
-    Moves = CRUELTY,DRAGONDANCE,POISONJAB,XSCISSOR
+    Moves = CRUELTY,DRAGONDANCE,CROSSPOISON,XSCISSOR
     AbilityIndex = 1 # Stressful
 Pokemon = RILLABOOM,55
     Moves = KICKDRUM,KNOCKOFF,SWORDSDANCE,ACROBATICS
@@ -5412,7 +5412,7 @@ Pokemon = PORYGONZ,65
     Moves = FACADE,CRITICALERROR,PHANTOMGATE,ICEBEAM
     AbilityIndex = 0 # Realist
 Pokemon = HAXORUS,65
-    Moves = CRUELTY,DRAGONDANCE,POISONJAB,XSCISSOR
+    Moves = CRUELTY,DRAGONDANCE,CROSSPOISON,XSCISSOR
     AbilityIndex = 1 # Stressful
 Pokemon = RILLABOOM,65
     Moves = KICKDRUM,KNOCKOFF,SWORDSDANCE,ACROBATICS
@@ -7133,7 +7133,7 @@ Pokemon = PORYGONZ,55
     Moves = FACADE,CRITICALERROR,PHANTOMGATE,ICEBEAM
     AbilityIndex = 0 # Realist
 Pokemon = HAXORUS,55
-    Moves = CRUELTY,DRAGONDANCE,POISONJAB,XSCISSOR
+    Moves = CRUELTY,DRAGONDANCE,CROSSPOISON,XSCISSOR
     AbilityIndex = 1 # Stressful
 Pokemon = RILLABOOM,55
     Moves = KICKDRUM,KNOCKOFF,SWORDSDANCE,ACROBATICS
@@ -7158,7 +7158,7 @@ Pokemon = DRAGAPULT,70
     AbilityIndex = 0 # Fascinate
     Item = CHOICEBAND
 Pokemon = HAXORUS,70
-    Moves = DRAGONDANCE,OUTRAGE,POISONJAB,SUPERPOWER
+    Moves = DRAGONDANCE,OUTRAGE,CROSSPOISON,SUPERPOWER
     AbilityIndex = 1 # Stressful
     Item = LUMBERRY
 Pokemon = PROBOPASS,70
@@ -7409,7 +7409,7 @@ Pokemon = SEVIPER,58
 #-------------------------------
 [MEDIUM,Paula]
 Pokemon = GENGAR,57
-    Moves = SLUDGEWAVE,ICEBEAM,SHADOWBALL,MOONBLAST
+    Moves = SLUDGEWAVE,ICEBEAM,SHADOWBALL,AURASPHERE
     AbilityIndex = 0 # Levitate
     Item = ICEGEM
 Pokemon = MMUSHARNA,57
@@ -7708,7 +7708,7 @@ Pokemon = ARATICATE,57
     Moves = MOUTHFUL,SWEETSELENE,EXTREMESPEED,CRUNCH
     AbilityIndex = 1 # Gourmand
 Pokemon = REAVOR,57
-    Moves = SHATTERVISE,CARAPACECRUSH,ADAMANTINEPRESS,LEAFBLADE
+    Moves = SHATTERVISE,CARAPACECRUSH,CROSSCHOP,LEAFBLADE
     AbilityIndex = 1 # Inner Focus
     Item = ASSAULTVEST
 Pokemon = PTEROFLYTE,58
@@ -8876,43 +8876,7 @@ Pokemon = BEWEAR,70
 #-------------------------------
 [SPIRITGUARDIAN2,Sonya,1]
 ExtendsVersion = 0
-Policies = CURSE_NO_MERCY_4
-Pokemon = MMUSHARNA,70
-    Moves = CALMMIND,SLACKOFF,SCOUR,PSYCHOBOOST
-    AbilityIndex = 1 # Fatigued
-    Item = SITRUSBERRY
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,10,10,0,10,10
-Pokemon = MUSHARNA,70
-    Moves = MOONBLAST,THUNDERBOLT,REST,SNORE
-    AbilityIndex = 0 # Dream Weaver
-    Item = SHELLBELL
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,20,10,0,20,0
-Pokemon = KOMMOO,70
-    Moves = CLANGOROUSSOUL,OCCULTATION,CLOSECOMBAT,FLASHCANNON
-    AbilityIndex = 1 # Plot Armor
-    Item = SALACBERRY
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 15,15,0,20,15,0
-Pokemon = AMPHAROS,70
-    Moves = TRANSCENDENTENERGY,THUNDERBOLT,POLLENPUFF,DRACOMETEOR
-    AbilityIndex = 1 # Stubborn
-    Item = POWERHERB
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,0,5,20,0,5
-Pokemon = ORBEETLE,70
-    Moves = ECLIPSE,MINDSAP,BUGBUZZ,BODYPRESS
-    AbilityIndex = 1 # Hive Mind
-    Item = COLBURBERRY
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,0,20,0,0,10
-Pokemon = DRAGONITE,70
-    Moves = DRAGONRIDE,FLY,ROOST,POWERUPPUNCH
-    AbilityIndex = 1 # Multiscale
-    Item = YACHEBERRY
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 20,10,5,10,10,5
+Policies = CURSE_SUBSTITUTED
 #-------------------------------
 [SPIRITGUARDIAN3,Preeti]
 Pokemon = GOTHITELLE,70

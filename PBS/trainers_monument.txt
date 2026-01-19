@@ -1025,7 +1025,7 @@ Pokemon = STARMIE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = HAXORUS,70
-    Moves = XSCISSOR,CLOSECOMBAT,REND,POISONJAB
+    Moves = XSCISSOR,CLOSECOMBAT,REND,CROSSPOISON
     AbilityIndex = 0 # Anarchic
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
