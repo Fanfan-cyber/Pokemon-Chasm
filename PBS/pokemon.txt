@@ -4615,7 +4615,6 @@ Height = 0.4
 Weight = 7.5
 Kind = Mini Boss
 Pokedex = This Pokemon likes to team up with the strongest Pokémon it can find. Some researchers fear its dormant power.
-Generation = 1
 Evolutions = MOMASTAR,Level,36
 #-------------------------------
 [MOMASTAR]
@@ -6779,7 +6778,6 @@ Height = 1.0
 Weight = 65.0
 Kind = Famine
 Pokedex = Food rots and milk curdles in their presence. Because of this, they're commonly seen fleeing from angered Pokémon such as Miltank or Alcremie.
-Generation = 4
 Evolutions = MMANTINE,Level,37
 #-------------------------------
 [MMANTINE]
@@ -6799,7 +6797,6 @@ Height = 2.1
 Weight = 220.0
 Kind = Plague
 Pokedex = It pelts houses with hail that sounds like knocking, trying to get those inside to open a door or window. People used to import Skarmory to defend against them.
-Generation = 2
 #-------------------------------
 [DELIBIRD]
 Name = Delibird
@@ -9610,7 +9607,6 @@ Height = 0.6
 Weight = 2.4
 Kind = Mourning
 Pokedex = Swimming through the air in places of unmourned tragedy, Feebas are easily located due to the sobbing noises they emit when alone.
-Generation = 3
 Evolutions = MMILOTIC,Item,DAWNSTONE
 #-------------------------------
 [MMILOTIC]
@@ -9632,7 +9628,6 @@ Height = 6.2
 Weight = 54.0
 Kind = Sentiment
 Pokedex = Milotic are unburdened by sadness. They are said to help restless souls pass into the afterlife.
-Generation = 3
 #-------------------------------
 [CASTFORM]
 Name = Castform
@@ -11395,7 +11390,6 @@ Height = 0.4
 Weight = 5.5
 Kind = Lunar Hare
 Pokedex = According to legend, the Buneary of Makya came from the moon. They have incredible control of their prehensile ears.
-Generation = 4
 Evolutions = MLOPUNNY,Level,24
 #-------------------------------
 [MLOPUNNY]
@@ -11414,7 +11408,6 @@ Height = 1.2
 Weight = 33.3
 Kind = Lunar Hare
 Pokedex = The blue crystals that adorn Makyan Lopunny's fur resemble saccharite, but analysis shows that they're structurally distinct.
-Generation = 4
 Evolutions = MHAEROBIC,Item,MOONSTONE
 #-------------------------------
 [MHAEROBIC]
@@ -21174,6 +21167,7 @@ Height = 3.0
 Weight = 220.0
 Kind = Alloy
 Pokedex = It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.
+Generation = 9
 #-------------------------------
 [DREEPY]
 Name = Dreepy
