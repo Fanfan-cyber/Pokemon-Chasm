@@ -140,6 +140,11 @@ Description = When free from non-volatile status conditions, non-damaging moves 
 Name = Bad Omen
 Description = Foretelling moves hit two turns quicker and deal 30% more damage.
 #-------------------------------
+[BAITFISH]
+Name = Bait Fish
+Description = Draws in moves from foes.
+Flags = Immutable
+#-------------------------------
 [BALLLIGHTNING]
 Name = Ball Lightning
 Description = Deals more damage to targets the faster it is than them. Up to a 50% bonus at double Speed.
