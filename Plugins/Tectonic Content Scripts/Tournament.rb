@@ -9,9 +9,9 @@ OPPONENT_MAP_POSITION = [22,16]
 
 # Trainer Type, name, version number, cursed version number, arena event ID
 POOL_1 = [
-    [:LEADER_Samorn_2,"Samorn",2,3,2],
-    [:LEADER_Lambert_2,"Lambert",2,3,3],
-    [:LEADER_Eko_2,"Eko",2,3,4],
+    [:LEADER_Samorn,"Samorn",2,3,2],
+    [:LEADER_Lambert,"Lambert",2,3,3],
+    [:LEADER_Eko,"Eko",2,3,4],
     [:COOLTRAINER_M7,"X",0,1,5],
     [:FORMERCHAMP_Elise,"Elise",1,2,6],
 ]
@@ -19,8 +19,8 @@ POOL_1 = [
 POOL_2 = [
     [:TRAINER_Alessa,"Alessa",3,4,7],
     [:TRAINER_Eifion,"Eifion",1,2,8],
-    [:LEADER_Helena_2,"Helena",2,3,9],
-    [:LEADER_Bence_2,"Bence",2,3,10],
+    [:LEADER_Helena,"Helena",2,3,9],
+    [:LEADER_Bence,"Bence",2,3,10],
 ]
 
 CHAMPION = [:TRAINER_Zain,"Zain",2,3,11]
@@ -136,6 +136,21 @@ class RandomTournament
         flags.push("perfect") if @perfect_wins == FINAL_ROUND
         flags.push("cursed") if @cursed_wins == FINAL_ROUND
         teamSnapshot("Makyan Champion", flags)
+    end
+
+    # Save conversion helper function
+    def updateTrainerTypes
+        for match in @matches
+            trainerType = match[0].to_s
+            if trainerType.start_with?("LEADER_") && trainerType.end_with?("_2")
+                newTrainerType = trainerType[0..-3].to_sym
+                if GameData::TrainerType.exists?(newTrainerType)
+                    match[0] = newTrainerType
+                else
+                    echoln("Warning: Unable to find updated TrainerType #{newTrainerType} for #{trainerType}")
+                end
+            end
+        end
     end
 end
 
