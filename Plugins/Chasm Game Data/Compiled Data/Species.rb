@@ -487,8 +487,11 @@ module GameData
             inherited_moves.each do |moveID|
                 nonInheritedTutorMoves.delete(moveID)
             end
-            GameData::Move.staple_moves do |moveID|
-                nonInheritedTutorMoves.delete(moveID)
+            # only remove staple moves as inherited if that's actually why we have the moves
+            unless @flags&.include?("NoStaples")
+                GameData::Move.staple_moves do |moveID|
+                    nonInheritedTutorMoves.delete(moveID)
+                end
             end
             return nonInheritedTutorMoves
         end
@@ -498,8 +501,10 @@ module GameData
             inherited_moves.each do |moveID|
                 nonInheritedLineMoves.delete(moveID)
             end
-            GameData::Move.staple_moves.each do |moveID|
-                nonInheritedLineMoves.delete(moveID)
+            unless @flags&.include?("NoStaples")
+                GameData::Move.staple_moves.each do |moveID|
+                    nonInheritedLineMoves.delete(moveID)
+                end
             end
             return nonInheritedLineMoves
         end
