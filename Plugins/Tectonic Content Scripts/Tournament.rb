@@ -27,6 +27,13 @@ CHAMPION = [:TRAINER_Zain,"Zain",2,3,11]
 
 FINAL_ROUND = 5
 
+SaveData.register(:tournament) do
+	ensure_class :RandomTournament
+	save_value { $tournament }
+	load_value { |value| $tournament = value }
+	new_game_value { RandomTournament.new }
+end
+
 class RandomTournament
     attr_reader :matches
     attr_reader :matchesWon
@@ -137,54 +144,39 @@ class RandomTournament
         flags.push("cursed") if @cursed_wins == FINAL_ROUND
         teamSnapshot("Makyan Champion", flags)
     end
-
-    # Save conversion helper function
-    def updateTrainerTypes
-        for match in @matches
-            trainerType = match[0].to_s
-            if trainerType.start_with?("LEADER_") && trainerType.end_with?("_2")
-                newTrainerType = trainerType[0..-3].to_sym
-                if GameData::TrainerType.exists?(newTrainerType)
-                    match[0] = newTrainerType
-                else
-                    echoln("Warning: Unable to find updated TrainerType #{newTrainerType} for #{trainerType}")
-                end
-            end
-        end
-    end
 end
 
 def tournamentBattle()
-    return $PokemonGlobal.tournament.tournamentBattle()
+    return $tournament.tournamentBattle()
 end
 
 def nextOpponentName()
-    trainer = $PokemonGlobal.tournament.nextMatch
+    trainer = $tournament.nextMatch
     trainer_data = GameData::Trainer.get(trainer[0], trainer[1], trainer[2])
     return trainer_data.name
 end
 
 def winTournamentMatch()
-    $PokemonGlobal.tournament.winMatch()
+    $tournament.winMatch()
     pbMessage(_INTL("\\wmThe victor is \\PN!\\me[Bug catching 1st]"))
 end
 
 def enterTournament()
     $PokemonGlobal.tournament = RandomTournament.new if !$PokemonGlobal.tournament
     properlySave
-    $PokemonGlobal.tournament.beginAttempt
+    $tournament.beginAttempt
 end
 
 def resetTournament()
-    $PokemonGlobal.tournament.resetTournament unless $PokemonGlobal.tournament.nil?
+    $tournament.resetTournament unless $tournament.nil?
 end
 
 def leaveTournament
-    $PokemonGlobal.tournament.leaveTournament unless $PokemonGlobal.tournament.nil?
+    $tournament.leaveTournament unless $tournament.nil?
 end
 
 def promptForTournamentCommitment()
-    if $PokemonGlobal.tournament.nil? || $PokemonGlobal.tournament.attempts == 0
+    if $tournament.nil? || $tournament.attempts == 0
         pbMessage(_INTL("The waiting room for tournament entrants is ahead."))
         pbMessage(_INTL("Once you enter, you will not be able to interact with your team in any way until the tournament is complete."))
         pbMessage(_INTL("This means swapping Pokemon, moves, abilities, or items, or even changing your team order."))
@@ -208,7 +200,7 @@ def handleMatchDecline()
 end
 
 def tournamentWon?
-    return $PokemonGlobal.tournament.tournamentWon?
+    return $tournament.tournamentWon?
 end
 
 def alertNextMatch()
@@ -224,15 +216,15 @@ def introduceMatch()
 end
 
 def prepareOpponent()
-    $PokemonGlobal.tournament.prepareOpponent()
+    $tournament.prepareOpponent()
 end
 
 def activateOpponent()
-    $PokemonGlobal.tournament.activateOpponent()
+    $tournament.activateOpponent()
 end
 
 def displayCurrentOdds()
-    displayRoundOdds($PokemonGlobal.tournament.matchesWon + 1)
+    displayRoundOdds($tournament.matchesWon + 1)
 end
 
 def displayRoundOdds(round)
@@ -260,5 +252,5 @@ def setCenterToBackupNurse
 end
 
 def takeTournamentSnapshot()
-    return $PokemonGlobal.tournament.takeTournamentSnapshot()
+    return $tournament.takeTournamentSnapshot()
 end
