@@ -162,7 +162,7 @@ def winTournamentMatch()
 end
 
 def enterTournament()
-    $PokemonGlobal.tournament = RandomTournament.new if !$PokemonGlobal.tournament
+    $tournament = RandomTournament.new if !$tournament # is this necessary with the new structure?
     properlySave
     $tournament.beginAttempt
 end
