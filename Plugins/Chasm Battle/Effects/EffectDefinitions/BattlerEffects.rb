@@ -1754,6 +1754,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :id => :Octolock,
     :real_name => "Octolocked",
     :trapping => true,
+    :avatars_purge => true,
     :apply_proc => proc do |battle, battler, _value|
         battle.pbDisplay(_INTL("{1} is trapped by the tentacle hold!", battler.pbThis))
     end,
