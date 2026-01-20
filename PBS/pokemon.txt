@@ -3682,8 +3682,8 @@ Height = 0.6
 Weight = 15.0
 Kind = Fortune
 Pokedex = They obsessively count the pebbles in their rivers, becoming irate if the result is an unlucky number.
-Evolutions = MSEAKING,Level,33
 Flags = Swimming
+Evolutions = MSEAKING,Level,33
 #-------------------------------
 [MSEAKING]
 Name = M. Seaking
@@ -6359,9 +6359,9 @@ Weight = 3.9
 Kind = Balloon
 Pokedex = Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere.
 Generation = 8
+Flags = Swimming
 WildItemUncommon = POISONBARB
 Evolutions = OVERQWIL,Level,38
-Flags = Swimming
 #-------------------------------
 [OVERQWIL]
 Name = Overqwil
@@ -7702,8 +7702,8 @@ Height = 1.0
 Weight = 28.4
 Kind = Frost Gossamer
 Pokedex = It is less hostile than the Hoennian form, but vicious towards former predators. Its mouthparts inject a fluid similar to liquid nitrogen.
-WildItemUncommon = ASPEARBERRY
 Flags = Floating
+WildItemUncommon = ASPEARBERRY
 #-------------------------------
 [MCASCOON]
 Name = M. Cascoon
@@ -7741,8 +7741,8 @@ Height = 1.2
 Weight = 31.6
 Kind = Rocket Moth
 Pokedex = Its abdomen is actually a sophisticated torch drive. Their migrations can be tracked by following broken trees left by supersonic flybys.
-WildItemUncommon = RAWSTBERRY
 Flags = Floating
+WildItemUncommon = RAWSTBERRY
 #-------------------------------
 [LOTAD]
 Name = Lotad
@@ -12872,8 +12872,8 @@ Height = 0.6
 Weight = 23.3
 Kind = Dragon Egg
 Pokedex = When a Munna egg is placed in the care of a brooding dragon, it hatches into this form. It will repeatedly headbutt Togepi if placed near one.
-Evolutions = MMUSHARNA,Level,37
 Flags = Floating
+Evolutions = MMUSHARNA,Level,37
 #-------------------------------
 [MMUSHARNA]
 Name = M. Musharna
@@ -15630,9 +15630,9 @@ Height = 0.5
 Weight = 9.0
 Kind = Tiny House
 Pokedex = It stomps on smaller opponents with its powerful legs, sometimes toppling in the process. If its house is broken, terrible wailing emits until it is repaired.
+Flags = Grounded
 WildItemUncommon = SPELLTAG
 Evolutions = MMANDIBUZZ,Item,DUSKSTONE
-Flags = Grounded
 #-------------------------------
 [MMANDIBUZZ]
 Name = M. Mandibuzz
@@ -15651,8 +15651,8 @@ Height = 1.2
 Weight = 39.5
 Kind = Witchcraft
 Pokedex = It steeps the remains of prey within the jar it protects, stirring the concoction with its claws. Folklore says its soul is kept within the diseased mass.
-WildItemUncommon = SPELLTAG
 Flags = Grounded
+WildItemUncommon = SPELLTAG
 #-------------------------------
 [HEATMOR]
 Name = Heatmor
