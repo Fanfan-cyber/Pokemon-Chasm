@@ -196,6 +196,7 @@ TotalPP = 10
 Target = User
 Priority = 4
 FunctionCode = UserEnduresFaintingThisTurn
+Flags = Staple
 Description = The user endures any attack with at least 1 HP. It always fails if it is used in succession.
 #-------------------------------
 [ENTRAINMENT]
