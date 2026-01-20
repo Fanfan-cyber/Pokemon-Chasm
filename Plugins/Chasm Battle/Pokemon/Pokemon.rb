@@ -884,7 +884,7 @@ class Pokemon
         GameData::Item.getByFlag("Levitation").each do |levitationItem|
             return true if hasItem?(levitationItem)
         end
-        return @species_data.canFloat?
+        return species_data.canFloat?
     end
 
     #=============================================================================
