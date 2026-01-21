@@ -234,7 +234,7 @@ BattleHandlers::EOREffectAbility.add(:PILEON,
         battle.pbDisplay(_INTL("{1} would have gathered power, but it can't stockpile any more!", battler.pbThis))
       else
         battle.pbDisplay(_INTL("{1} gathered up more power!", battler.pbThis))
-        battler.applyEffect(:Stockpile)
+        battler.incrementEffect(:Stockpile)
       end
       battler.hideMyAbilitySplash
     end
