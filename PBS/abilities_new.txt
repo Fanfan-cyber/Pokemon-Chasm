@@ -1553,6 +1553,10 @@ Description = This Pokémon's moves deal 50% more damage if they're a different 
 Name = Piercing Poison
 Description = Poison-type foes can be poisoned. Poison applied to foes starts already worsened.
 #-------------------------------
+[PILEON]
+Name = Pile On
+Description = Every three turns, this Pokémon gains a stockpile.
+#-------------------------------
 [PINDOWN]
 Name = Pin Down
 Description = The user's moves cannot miss against trapped targets. Takes 20% less damage from Pokémon that are trapped.
