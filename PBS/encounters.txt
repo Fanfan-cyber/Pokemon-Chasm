@@ -497,9 +497,9 @@ Special,20
 [155] # Prizca West
 Land,20,40
     40,KOFFING,34,36
-    20,AIPOM,34,36
     20,MVULPIX,34,36
     20,PIDOVE,34,36
+    20,YUNGOOS,34,36
 Special,40
     1,ROTOM,40
 #-------------------------------
