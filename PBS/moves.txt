@@ -852,9 +852,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 15
 Target = User
-FunctionCode = UserAddStockpileRaiseDefSpDef2
+FunctionCode = UserAddStockpile
 Flags = CanSnatch
-Description = The user stockpiles power and raises its Defense and Sp. Def by two steps. The move can be stacked twice.
+Description = The user stockpiles power, reducing move damage taken by 30%. This can be stacked twice.
 #-------------------------------
 [STRUGGLE]
 Name = Struggle
