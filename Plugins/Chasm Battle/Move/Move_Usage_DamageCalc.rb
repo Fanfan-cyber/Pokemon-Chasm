@@ -557,6 +557,11 @@ class PokeBattle_Move
         # Final turn of Summer Festivals
         multipliers[:final_damage_multiplier] *= 1.5 if user.pbOwnSide.effectActive?(:SummerFestivalsEnd)
 
+        # Stockpile
+        target.countEffect(:Stockpile).times do |i|
+            multipliers[:final_damage_multiplier] *= 0.7
+        end
+
         # Battler properites
         multipliers[:base_damage_multiplier] *= user.dmgMult
         multipliers[:base_damage_multiplier] *= [0,(1.0 - target.dmgResist.to_f)].max
