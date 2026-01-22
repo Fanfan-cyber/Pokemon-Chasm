@@ -4199,7 +4199,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = HitTwoToFiveTimesTwiceThenExhaust
 Flags = CanProtect
-Description = The user sends two barrages of fire, each hitting two to five times. The user is exhausted on the next turn.
+Description = The user sends up to two barrages of fire, each hitting two to five times. If two barrages were sent, the user is exhausted on the next turn.
 Animation = SMOKESCREEN
 #-------------------------------
 [SUNSHINE]
