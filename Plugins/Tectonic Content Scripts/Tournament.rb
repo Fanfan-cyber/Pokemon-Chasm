@@ -172,14 +172,13 @@ def winTournamentMatch()
 end
 
 def enterTournament()
-    #$PokemonGlobal.tournament = RandomTournament.new #if !$PokemonGlobal.tournament
     $tournament = RandomTournament.new #if !$tournament # is this necessary with the new structure?
     properlySave
     $tournament.beginAttempt
 end
 
 def checkStartOver
-    unless $PokemonGlobal.tournament.matches.size == FINAL_ROUND
+    unless $tournament.matches.size == FINAL_ROUND
         pbMessage(_INTL("The game has been updated, you must take on the challenge from scratch!"))
         enterTournament
     end

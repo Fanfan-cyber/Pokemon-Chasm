@@ -40788,7 +40788,7 @@ Enemies which swap in take damage equal to 1/8th their HP.
 换人入场的对手将会受到其1/8最大HP的伤害。
 At the end of each turn, its Sp. Atk is lowered. Then, you choose to raise its Speed or heal it for 1/5th HP.
 每回合结束时特攻减小，但会增加其速度或治疗20%HP。
-This Pokemon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
+This Pokémon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
 当陷入异常状态或者被束缚时，可以额外行动1次。
 When this Pokémon flinches a target that has already moved, it will flinch next turn.
 当使已经行动过的目标陷入畏缩时，目标将在下1回合畏缩。

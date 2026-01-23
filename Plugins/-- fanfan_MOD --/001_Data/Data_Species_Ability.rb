@@ -103,9 +103,6 @@ SPECIES_ABILITY_DATA = {
   [:WIMPOD, 0]      => { :fixed => %i[], :changeable => %i[WIMPOUT SELECTIVESCUTES], },
   [:GOLISOPOD, 0]   => { :fixed => %i[], :changeable => %i[EMERGENCYEXIT SELECTIVESCUTES], },
 
-  [:WISHIWASHI, 0]  => { :fixed => %i[], :changeable => %i[SCHOOLING INTIMIDATION], },
-  [:WISHIWASHI, 1]  => { :fixed => %i[], :changeable => %i[SCHOOLING INTIMIDATION], },
-
   [:ZORUA, 0]       => { :fixed => %i[], :changeable => %i[ILLUSION RELENTLESSPURSUIT], },
   [:ZOROARK, 0]     => { :fixed => %i[], :changeable => %i[ILLUSION RELENTLESSPURSUIT], },
 }.freeze

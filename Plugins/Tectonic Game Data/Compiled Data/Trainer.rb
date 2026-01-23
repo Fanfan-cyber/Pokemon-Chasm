@@ -137,7 +137,6 @@ module GameData
             next if partyEntry[:species] == :SMEARGLE
             trainerName = "#{@trainer_type} #{@real_name}"
             speciesData = GameData::Species.get_species_form(partyEntry[:species],partyEntry[:form] || 0)
-            illegal_moves = []
             hasStatusMove = false
             partyEntry[:moves]&.each do |moveID|
                 moveData = GameData::Move.get(moveID)
