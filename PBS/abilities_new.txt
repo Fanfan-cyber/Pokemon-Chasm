@@ -140,6 +140,11 @@ Description = When free from non-volatile status conditions, non-damaging moves 
 Name = Bad Omen
 Description = Foretelling moves hit two turns quicker and deal 30% more damage.
 #-------------------------------
+[BAITFISH]
+Name = Bait Fish
+Description = Draws in moves from foes.
+Flags = Immutable
+#-------------------------------
 [BALLLIGHTNING]
 Name = Ball Lightning
 Description = Deals more damage to targets the faster it is than them. Up to a 50% bonus at double Speed.
@@ -462,7 +467,7 @@ Description = At the end of each turn, its Sp. Atk is lowered. Then, you choose 
 #-------------------------------
 [DISASTERRESPONSE]
 Name = Disaster Response
-Description = This Pokemon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
+Description = This Pokémon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
 #-------------------------------
 [DISCOMBOBULATOR]
 Name = Discombobulator
@@ -1547,6 +1552,10 @@ Description = This Pokémon's moves deal 50% more damage if they're a different 
 [PIERCINGPOISON]
 Name = Piercing Poison
 Description = Poison-type foes can be poisoned. Poison applied to foes starts already worsened.
+#-------------------------------
+[PILEON]
+Name = Pile On
+Description = Every three turns, this Pokémon gains a stockpile.
 #-------------------------------
 [PINDOWN]
 Name = Pin Down

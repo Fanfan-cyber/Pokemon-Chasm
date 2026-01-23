@@ -9,9 +9,9 @@ OPPONENT_MAP_POSITION = [22,16]
 
 # Trainer Type, name, version number, cursed version number, arena event ID
 POOL_1 = [
-    [:LEADER_Samorn_2,"Samorn",2,3,2],
-    [:LEADER_Lambert_2,"Lambert",2,3,3],
-    [:LEADER_Eko_2,"Eko",2,3,4],
+    [:LEADER_Samorn,"Samorn",2,3,2],
+    [:LEADER_Lambert,"Lambert",2,3,3],
+    [:LEADER_Eko,"Eko",2,3,4],
     [:COOLTRAINER_M7,"X",0,1,5],
     [:FORMERCHAMP_Elise,"Elise",1,2,6],
 ]
@@ -19,8 +19,8 @@ POOL_1 = [
 POOL_2 = [
     [:TRAINER_Alessa,"Alessa",3,4,7],
     [:TRAINER_Eifion,"Eifion",1,2,8],
-    [:LEADER_Helena_2,"Helena",2,3,9],
-    [:LEADER_Bence_2,"Bence",2,3,10],
+    [:LEADER_Helena,"Helena",2,3,9],
+    [:LEADER_Bence,"Bence",2,3,10],
 ]
 
 POOL_3 = [
@@ -30,6 +30,13 @@ POOL_3 = [
 CHAMPION = [:TRAINER_Zain,"Zain",2,3,11]
 
 FINAL_ROUND = 10
+
+SaveData.register(:tournament) do
+	ensure_class :RandomTournament
+	save_value { $tournament }
+	load_value { |value| $tournament = value }
+	new_game_value { RandomTournament.new }
+end
 
 class RandomTournament
     attr_reader :matches
@@ -150,24 +157,25 @@ class RandomTournament
 end
 
 def tournamentBattle()
-    return $PokemonGlobal.tournament.tournamentBattle()
+    return $tournament.tournamentBattle()
 end
 
 def nextOpponentName()
-    trainer = $PokemonGlobal.tournament.nextMatch
+    trainer = $tournament.nextMatch
     trainer_data = GameData::Trainer.get(trainer[0], trainer[1], trainer[2])
     return trainer_data.name
 end
 
 def winTournamentMatch()
-    $PokemonGlobal.tournament.winMatch()
+    $tournament.winMatch()
     pbMessage(_INTL("\\wmThe victor is \\PN!\\me[Bug catching 1st]"))
 end
 
 def enterTournament()
-    $PokemonGlobal.tournament = RandomTournament.new #if !$PokemonGlobal.tournament
+    #$PokemonGlobal.tournament = RandomTournament.new #if !$PokemonGlobal.tournament
+    $tournament = RandomTournament.new #if !$tournament # is this necessary with the new structure?
     properlySave
-    $PokemonGlobal.tournament.beginAttempt
+    $tournament.beginAttempt
 end
 
 def checkStartOver
@@ -178,15 +186,15 @@ def checkStartOver
 end
 
 def resetTournament()
-    $PokemonGlobal.tournament.resetTournament unless $PokemonGlobal.tournament.nil?
+    $tournament.resetTournament unless $tournament.nil?
 end
 
 def leaveTournament
-    $PokemonGlobal.tournament.leaveTournament unless $PokemonGlobal.tournament.nil?
+    $tournament.leaveTournament unless $tournament.nil?
 end
 
 def promptForTournamentCommitment()
-    if $PokemonGlobal.tournament.nil? || $PokemonGlobal.tournament.attempts == 0
+    if $tournament.nil? || $tournament.attempts == 0
         pbMessage(_INTL("The waiting room for tournament entrants is ahead."))
         pbMessage(_INTL("Once you enter, you will not be able to interact with your team in any way until the tournament is complete."))
         pbMessage(_INTL("This means swapping Pokemon, moves, abilities, or items, or even changing your team order."))
@@ -211,7 +219,7 @@ def handleMatchDecline()
 end
 
 def tournamentWon?
-    return $PokemonGlobal.tournament.tournamentWon?
+    return $tournament.tournamentWon?
 end
 
 def alertNextMatch()
@@ -227,15 +235,15 @@ def introduceMatch()
 end
 
 def prepareOpponent()
-    $PokemonGlobal.tournament.prepareOpponent()
+    $tournament.prepareOpponent()
 end
 
 def activateOpponent()
-    $PokemonGlobal.tournament.activateOpponent()
+    $tournament.activateOpponent()
 end
 
 def displayCurrentOdds()
-    displayRoundOdds($PokemonGlobal.tournament.matchesWon + 1)
+    displayRoundOdds($tournament.matchesWon + 1)
 end
 
 def displayRoundOdds(round)
@@ -275,5 +283,5 @@ def tournamentHealing
 end
 
 def takeTournamentSnapshot()
-    return $PokemonGlobal.tournament.takeTournamentSnapshot()
+    return $tournament.takeTournamentSnapshot()
 end

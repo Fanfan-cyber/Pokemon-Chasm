@@ -961,24 +961,12 @@ BaseMoney = 100
 BattleBGM = Battle Gym Leader 1
 CursedBGM = Battle Gym Leader 2
 #-------------------------------
-[LEADER_Bence_2]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader 2
-#-------------------------------
 [LEADER_Eko]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Gym Leader 1
 CursedBGM = Battle Gym Leader 2
-#-------------------------------
-[LEADER_Eko_2]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader 2
 #-------------------------------
 [LEADER_Helena]
 Name = Gym Leader
@@ -987,24 +975,12 @@ BaseMoney = 100
 BattleBGM = Battle Gym Leader 1
 CursedBGM = Battle Gym Leader 2
 #-------------------------------
-[LEADER_Helena_2]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader 2
-#-------------------------------
 [LEADER_Lambert]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Gym Leader 1
 CursedBGM = Battle Gym Leader 2
-#-------------------------------
-[LEADER_Lambert_2]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader 2
 #-------------------------------
 [LEADER_Noel]
 Name = Gym Leader
@@ -1013,24 +989,12 @@ BaseMoney = 100
 BattleBGM = Battle Gym Leader 1
 CursedBGM = Battle Gym Leader 2
 #-------------------------------
-[LEADER_Noel_2]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader 2
-#-------------------------------
 [LEADER_Rafael]
 Name = Gym Leader
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Gym Leader 1
 CursedBGM = Battle Gym Leader 2
-#-------------------------------
-[LEADER_Rafael_2]
-Name = Gym Leader
-Gender = Male
-BaseMoney = 100
-BattleBGM = Battle Gym Leader 2
 #-------------------------------
 [LEADER_Samorn]
 Name = Gym Leader
@@ -1039,12 +1003,6 @@ BaseMoney = 100
 BattleBGM = Battle Gym Leader 1
 CursedBGM = Battle Gym Leader 2
 #-------------------------------
-[LEADER_Samorn_2]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader 2
-#-------------------------------
 [LEADER_Victoire]
 Name = Gym Leader
 Gender = Female
@@ -1052,24 +1010,12 @@ BaseMoney = 100
 BattleBGM = Battle Gym Leader 1
 CursedBGM = Battle Gym Leader 2
 #-------------------------------
-[LEADER_Victoire_2]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader 2
-#-------------------------------
 [LEADER_Zoe]
 Name = Gym Leader
 Gender = Female
 BaseMoney = 100
 BattleBGM = Battle Gym Leader 1
 CursedBGM = Battle Gym Leader 2
-#-------------------------------
-[LEADER_Zoe_2]
-Name = Gym Leader
-Gender = Female
-BaseMoney = 100
-BattleBGM = Battle Gym Leader 2
 #-------------------------------
 [LINEBACKER]
 Name = Linebacker

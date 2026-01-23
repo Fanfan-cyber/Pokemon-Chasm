@@ -2073,8 +2073,8 @@ Pokemon = TROPIUS,38
     AbilityIndex = 1 # Berry Bunch
     Item = YACHEBERRY,OCCABERRY
 Pokemon = SWALOT,39
-    Moves = STELLARATE,CLEARSMOG,ENCORE,YAWN
-    AbilityIndex = 0 # Thick Fat
+    Moves = SPITUP,CLEARSMOG,ENCORE,YAWN
+    AbilityIndex = 0 # Pile On
 #-------------------------------
 [CEO,Beatrice]
 Policies = PRESERVE_LAST_POKEMON
@@ -2340,7 +2340,7 @@ Pokemon = CHANDELURE,70
 Pokemon = CROBAT,70
     AbilityIndex = 0 # Inner Focus
 Pokemon = SWALOT,70
-    AbilityIndex = 0 # Thick Fat
+    AbilityIndex = 0 # Pile On
 Pokemon = HYDREIGON,70
     AbilityIndex = 0 # Vicious Cycle
 #-------------------------------
@@ -5739,9 +5739,9 @@ Pokemon = WORNET,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = SWALOT,70
-    Moves = BUBBLEBLASTER,ACIDSPRAY,CLEARSMOG,SHADOWBALL
-    AbilityIndex = 0 # Thick Fat
-    Item = STRIKEVEST
+    Moves = STOCKPILE,SWALLOW,SPITUP,CLEARSMOG
+    AbilityIndex = 0 # Pile On
+    Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,15,0,0,15
 Pokemon = BRAVIARY,70
@@ -5751,7 +5751,7 @@ Pokemon = BRAVIARY,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 #-------------------------------
-[LEADER_Samorn_2,Samorn,2]
+[LEADER_Samorn,Samorn,2]
 Flags = NoPerfect
 Pokemon = RUNERIGUS,70
     Moves = STEALTHROCK,SIXFEETUNDER,PAINSPLIT,WILLOWISP
@@ -5789,7 +5789,7 @@ Pokemon = WORNET,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 #-------------------------------
-[LEADER_Samorn_2,Samorn,3]
+[LEADER_Samorn,Samorn,3]
 ExtendsVersion = 2
 Policies = CURSE_SUPER_ITEMS
 Pokemon = RUNERIGUS,70
@@ -5806,7 +5806,7 @@ Pokemon = GOLEM,70
 Pokemon = WORNET,70
     Item = STRIKECORSET
 #-------------------------------
-[LEADER_Lambert_2,Lambert,2]
+[LEADER_Lambert,Lambert,2]
 Flags = NoPerfect
 Pokemon = ZOROARK,70
     Moves = DREAMDANCE,BLACKOUT,MASSDESTRUCTION,PSYCHIC
@@ -5844,7 +5844,7 @@ Pokemon = AEGISLASH,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,5,0,20,5
 #-------------------------------
-[LEADER_Lambert_2,Lambert,3]
+[LEADER_Lambert,Lambert,3]
 ExtendsVersion = 2
 Policies = CURSE_SUPER_ITEMS
 Pokemon = ZOROARK,70
@@ -5863,7 +5863,7 @@ Pokemon = INFERNAPE,70
 Pokemon = AEGISLASH,70
     Item = SPELLBELL
 #-------------------------------
-[LEADER_Eko_2,Eko,2]
+[LEADER_Eko,Eko,2]
 Flags = NoPerfect
 Pokemon = INCINEROAR,70
     Moves = DARKESTLARIAT,FLAMESPIKES,PARTINGSHOT,FLAREBLITZ
@@ -5901,7 +5901,7 @@ Pokemon = ARAICHU,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 #-------------------------------
-[LEADER_Eko_2,Eko,3]
+[LEADER_Eko,Eko,3]
 ExtendsVersion = 2
 Policies = CURSE_SUPER_ITEMS
 Pokemon = INCINEROAR,70
@@ -6127,7 +6127,7 @@ Pokemon = OCTILLERY,70
 Pokemon = SLOWBRO,70
     Item = SITREONBERRY
 #-------------------------------
-[LEADER_Helena_2,Helena,2]
+[LEADER_Helena,Helena,2]
 Flags = NoPerfect
 Pokemon = PINCURCHIN,70
     Moves = POISONSPIKES,THUNDERBOLT,EXPLOSION,ELECTROWEB
@@ -6165,7 +6165,7 @@ Pokemon = ARCLAMOR,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 #-------------------------------
-[LEADER_Helena_2,Helena,3]
+[LEADER_Helena,Helena,3]
 ExtendsVersion = 2
 Policies = CURSE_SUPER_ITEMS
 Pokemon = PINCURCHIN,70
@@ -6182,7 +6182,7 @@ Pokemon = FEAROW,70
 Pokemon = ARCLAMOR,70
     Item = LEADBALLOON
 #-------------------------------
-[LEADER_Bence_2,Bence,2]
+[LEADER_Bence,Bence,2]
 Flags = NoPerfect
 Pokemon = ARCHEOPS,70
     Moves = STEALTHROCK,TAILWIND,PARTINGSHOT,POWERGEM
@@ -6220,7 +6220,7 @@ Pokemon = DRAGONITE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,10,20,0
 #-------------------------------
-[LEADER_Bence_2,Bence,3]
+[LEADER_Bence,Bence,3]
 ExtendsVersion = 2
 Policies = CURSE_SUPER_ITEMS
 Pokemon = ARCHEOPS,70
@@ -7804,8 +7804,8 @@ Pokemon = MGOLDEEN,15
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,1]
 Flags = NoPerfect
-Pokemon = GULPIN,20
-    AbilityIndex = 0 # Thick Fat
+Pokemon = SKRELP,20
+    AbilityIndex = 1 # Water Absorb
 Pokemon = MROGGENROLA,20
     AbilityIndex = 0 # Time Interloper
 Pokemon = BARBOACH,20

@@ -211,6 +211,7 @@ target.pbThis(true)))
     #=============================================================================
     def pbImmunityByAbility(user, target, showMessages = true, aiCheck = false)
         return false if @battle.moldBreaker
+        return false if target.semiInvulnerable?
         target.eachAbilityShouldApply(aiCheck) do |ability|
             return true if BattleHandlers.triggerMoveImmunityTargetAbility(ability, user, target, self, @calcType, @battle, showMessages, aiCheck)
         end

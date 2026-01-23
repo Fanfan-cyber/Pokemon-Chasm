@@ -425,8 +425,6 @@ FloweryGrass,20,25
     25,MARACTUS,44,46
     25,PACHIRISU,44,46
     25,SKORUPI,44,46
-Special,20
-    1,DARUMAKA,10
 #-------------------------------
 [135] # Nebula Ruins
 Cloud,20,25
@@ -497,9 +495,9 @@ Special,20
 [155] # Prizca West
 Land,20,40
     40,KOFFING,34,36
-    20,AIPOM,34,36
     20,MVULPIX,34,36
     20,PIDOVE,34,36
+    20,YUNGOOS,34,36
 Special,40
     1,ROTOM,40
 #-------------------------------
