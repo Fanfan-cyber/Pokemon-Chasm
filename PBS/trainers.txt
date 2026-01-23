@@ -2073,8 +2073,8 @@ Pokemon = TROPIUS,38
     AbilityIndex = 1 # Berry Bunch
     Item = YACHEBERRY,OCCABERRY
 Pokemon = SWALOT,39
-    Moves = STELLARATE,CLEARSMOG,ENCORE,YAWN
-    AbilityIndex = 0 # Thick Fat
+    Moves = SPITUP,CLEARSMOG,ENCORE,YAWN
+    AbilityIndex = 0 # Pile On
 #-------------------------------
 [CEO,Beatrice]
 Policies = PRESERVE_LAST_POKEMON
@@ -2340,7 +2340,7 @@ Pokemon = CHANDELURE,70
 Pokemon = CROBAT,70
     AbilityIndex = 0 # Inner Focus
 Pokemon = SWALOT,70
-    AbilityIndex = 0 # Thick Fat
+    AbilityIndex = 0 # Pile On
 Pokemon = HYDREIGON,70
     AbilityIndex = 0 # Vicious Cycle
 #-------------------------------
@@ -5739,9 +5739,9 @@ Pokemon = WORNET,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = SWALOT,70
-    Moves = BUBBLEBLASTER,ACIDSPRAY,CLEARSMOG,SHADOWBALL
-    AbilityIndex = 0 # Thick Fat
-    Item = STRIKEVEST
+    Moves = STOCKPILE,SWALLOW,SPITUP,CLEARSMOG
+    AbilityIndex = 0 # Pile On
+    Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,15,0,0,15
 Pokemon = BRAVIARY,70
@@ -7804,8 +7804,8 @@ Pokemon = MGOLDEEN,15
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,1]
 Flags = NoPerfect
-Pokemon = GULPIN,20
-    AbilityIndex = 0 # Thick Fat
+Pokemon = SKRELP,20
+    AbilityIndex = 1 # Water Absorb
 Pokemon = MROGGENROLA,20
     AbilityIndex = 0 # Time Interloper
 Pokemon = BARBOACH,20
