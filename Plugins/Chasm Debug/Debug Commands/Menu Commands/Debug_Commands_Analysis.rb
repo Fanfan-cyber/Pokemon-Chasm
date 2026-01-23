@@ -406,7 +406,7 @@ end
             fullList.each do |speciesID|
                 nameArray.push(GameData::Species.get(speciesID).name)             
             end
-            echoln("#{ability},#{nonLegendCount},#{legendCount},#{nonLegendCount},#{legendCount},#{nameArray}")
+            echoln("#{ability},#{nonLegendCount+legendCount},#{nonLegendCount},#{legendCount},#{nameArray.join(";")}")
         end
   
         pbMessage(_INTL("Printed out ability counts to the console."))
