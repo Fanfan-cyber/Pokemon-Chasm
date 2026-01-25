@@ -2294,8 +2294,8 @@ Pokemon = SWANNA,40
     AbilityIndex = 0 # Intimidate
     Item = FAIRYGEM
 Pokemon = RHYDON,40
-    Moves = DRILLRUN,BEDROCKBREAKER,ACCELEROCK,STEALTHROCK
-    AbilityIndex = 0 # Reckless
+    Moves = DRILLRUN,BEDROCKBREAKER,SHATTERSHOT,STEALTHROCK
+    AbilityIndex = 0 # Fortified
 #-------------------------------
 [SMASHER,Stella]
 Pokemon = SHUCKLE,40
@@ -2566,7 +2566,7 @@ Pokemon = FALINKS,70
 Pokemon = EXPLOUD,70
     AbilityIndex = 0 # Echo
 Pokemon = RHYPERIOR,70
-    AbilityIndex = 0 # Reckless
+    AbilityIndex = 0 # Fortified
 Pokemon = YANMEGA,70
     AbilityIndex = 1 # Tinted Lens
 Pokemon = DHELMISE,70
@@ -2937,7 +2937,7 @@ Pokemon = SUDOWOODO,40
     EV = 20,10,10,0,10,10
 Pokemon = BASTIODON,40
     Moves = SHIELDINGBASH,BODYPRESS,STOMPINGTANTRUM,WIDEGUARD
-    AbilityIndex = 1 # Battle-Hardened
+    AbilityIndex = 1 # Sword Breaker
     Item = AIRBALLOON
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,20,0,0,10
@@ -3998,8 +3998,8 @@ Pokemon = VILEPLUME,43
     Moves = POISONIVY,GIGADRAIN,SLUDGEWAVE,ALLERGY
     AbilityIndex = 0 # Sickening
 Pokemon = RHYPERIOR,44
-    Moves = DRILLRUN,ADAMANTINEPRESS,ACCELEROCK,POISONJAB
-    AbilityIndex = 1 # Hard As
+    Moves = SEISMICWAVE,ADAMANTINEPRESS,DIG,POISONJAB
+    AbilityIndex = 0 # Fortified
     Item = LUCKHERB
 #-------------------------------
 [BEAUTY3,Ester]
@@ -7947,7 +7947,7 @@ Pokemon = MANERGETIC,70
 [POKEMONMASTER_Vanya,Vanya,4]
 Flags = NoPerfect
 Pokemon = BASTIODON,70
-    AbilityIndex = 1 # Battle-Hardened
+    AbilityIndex = 1 # Sword Breaker
 Pokemon = SAWSBUCK,70
     Form = 3 # Winter Form
     AbilityIndex = 0 # Serene Grace
@@ -9005,7 +9005,7 @@ Pokemon = CARNIVINE,70
     Item = STRIKEVEST
 Pokemon = BASTIODON,70
     Moves = CURLUP,SHOREUP,FARADAYCAGE,BODYPRESS
-    AbilityIndex = 1 # Battle-Hardened
+    AbilityIndex = 1 # Sword Breaker
     Item = SITRUSBERRY
 Pokemon = SCRAFTY,70
     Moves = DRAGONDANCE,BROWBEAT,DRAINPUNCH,IRONHEAD

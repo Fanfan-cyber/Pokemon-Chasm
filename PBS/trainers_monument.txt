@@ -1177,8 +1177,8 @@ Pokemon = FLOATZEL,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = RHYPERIOR,70
-    Moves = ROCKWRECKER,EARTHSPLITTER,EARTHPOWER,ACCELEROCK
-    AbilityIndex = 1 # Hard As
+    Moves = ROCKWRECKER,EARTHSPLITTER,EARTHPOWER,POWERGEM
+    AbilityIndex = 0 # Fortified
     Item = ENERGYHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
@@ -1357,7 +1357,7 @@ Pokemon = ROSERADE,70
     EV = 5,20,0,20,20,5
 Pokemon = RHYPERIOR,70
     Moves = EARTHQUAKE,ADAMANTINEPRESS,SNIPESHOT,FLAMETHROWER
-    AbilityIndex = 1 # Hard As
+    AbilityIndex = 0 # Fortified
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
