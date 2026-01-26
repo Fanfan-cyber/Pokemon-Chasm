@@ -157,10 +157,6 @@ Description = Your Poké Balls are 50% more effective.
 Name = Barrier Maker
 Description = Sets a Reflect for four turns upon entry.
 #-------------------------------
-[BATTLEHARDENED]
-Name = Battle-Hardened
-Description = Raises Defense and Sp. Def by three steps when its HP is lowered below half.
-#-------------------------------
 [BEAMING]
 Name = Beaming
 Description = Boosts power of light-based moves by 30%.
@@ -762,6 +758,10 @@ Description = Doubles this Pokémon's Speed in Rooms.
 Name = Forewarning
 Description = Foretelling moves also hit for half power on the turn they are used.
 #-------------------------------
+[FORTIFIED]
+Name = Fortified
+Description = Take 30% less damage from attacks on turns when it hasn't moved yet.
+#-------------------------------
 [FREERIDE]
 Name = Free Ride
 Description = Raises other allies' Speed by two steps upon entry.
@@ -896,14 +896,14 @@ Flags = HailSynergy
 Name = Hand Off
 Description = Trapping and binding effects against an enemy are passed over to an ally that swaps in for this Pokémon.
 #-------------------------------
+[HAPHAZARD]
+Name = Haphazard
+Description = This Pokémon deals 30% more damage with "two to five" multi-hit moves and moves with less than 100% accuracy.
+#-------------------------------
 [HARBINGER]
 Name = Harbinger
 Description = Summons eclipse for four turns upon entry.
 Flags = EclipseSynergy
-#-------------------------------
-[HARDAS]
-Name = Hard As
-Description = If an attack lowers this Pokémon's HP below half, the attacker becomes fractured.
 #-------------------------------
 [HARDFALL]
 Name = Hard Fall
@@ -2215,6 +2215,10 @@ Description = When an ally switches in, this Pokémon's Speed is increased.
 [SWIFTSTOMPS]
 Name = Swift Stomps
 Description = This Pokémon's Speed is doubled while using kicking moves.
+#-------------------------------
+[SWORDBREAKER]
+Name = Sword Breaker
+Description = If an attack lowers this Pokémon's HP below half, the attacker becomes fractured.
 #-------------------------------
 [SWORDPLAY]
 Name = Swordplay
