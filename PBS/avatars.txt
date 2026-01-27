@@ -55,7 +55,7 @@ Turns = 1
 HPMult = 2.0
 #-------------------------------
 [REMORAID]
-Ability = JUGGERNAUT
+Ability = INKSPRAY
 Moves1 = BRINE
 Turns = 1
 HPMult = 2.0
