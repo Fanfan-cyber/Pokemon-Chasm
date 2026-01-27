@@ -128,7 +128,7 @@ def getMainQuestStages
         :DEFEND_GROUZ                   =>
             [
                 _INTL("Defend Grouz from the Avatar!"),
-                _INTL("Professor Tamarind called, informing you of an Avatar of Steelix which is rampaging in the Grouz Mine Yard. She's promised a reward if you can defeat the Avatar."),
+                _INTL("Professor Tamarind called, informing you of an Avatar of Titanix which is rampaging in the Grouz Mine Yard. She's promised a reward if you can defeat the Avatar."),
             ],
         :VISIT_TAMARIND                 =>
             [
