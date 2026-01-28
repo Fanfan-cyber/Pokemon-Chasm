@@ -237,7 +237,7 @@ Flags = Immutable
 #-------------------------------
 [IMPOSTER]
 Name = Imposter
-Description = It transforms itself into this Pokémon it is facing.
+Description = It transforms itself into the Pokémon it is facing.
 Flags = Immutable
 #-------------------------------
 [INNARDSOUT]
