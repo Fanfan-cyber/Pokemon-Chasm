@@ -14,8 +14,9 @@ move.name))
 end
 
 def applyEffectDurationModifiers(value, user)
-    return (value * 1.5).floor if user&.hasTribeBonus?(:SERENE)
-    return value
+    value *= 1.5 if user.hasTribeBonus?(:SERENE)
+    value *= 1.5 if user.hasAbility?(:LONGTERMVIEW)
+    return value.floor
 end
 
 # For abilities that grant immunity to moves of a particular type, and raises
@@ -105,7 +106,7 @@ end
 
 def entryTrappingAbility(ability, battler, battle, trappingMove, trappingDuration: 2, aiCheck: false, &block)
     trappingDuration *= 2 if battler.shouldItemApply?(:GRIPCLAW,aiCheck )
-    trappingDuration = (trappingDuration.to_f * 1.5).floor if battler.hasTribeBonus?(:SERENE)
+    trappingDuration = applyEffectDurationModifiers(trappingDuration, battler)
 
     score = 0
     battle.pbShowAbilitySplash(battler, ability) unless aiCheck

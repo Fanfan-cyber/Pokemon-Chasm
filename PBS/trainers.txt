@@ -73,7 +73,7 @@ Pokemon = CHEWTLE,10
 [NINJABOY,Matthew]
 Pokemon = BONSLY,12
     Moves = SLINGSHOT,VALORBOLT,EMBRITTLE
-    AbilityIndex = 0 # Desiccate
+    AbilityIndex = 1 # Prankster
 Pokemon = NINCADA,12
     Moves = FEEDON,HARDEN,RUMBLE,BITE
     AbilityIndex = 0 # Speed Boost
@@ -104,7 +104,7 @@ Pokemon = AZURILL,14
 Pokemon = WINGULL,14
     AbilityIndex = 0 # Cheek Pouch
 Pokemon = TEPIG,14
-    Moves = KINDLE,LEER,SCUFFLE
+    Moves = KINDLE,LEER,TREADON,SCUFFLE
     AbilityIndex = 0 # Roast
 #-------------------------------
 [LADY2,Rebecca]
@@ -7477,10 +7477,10 @@ Pokemon = RELICANTH,60
     Moves = HARBORBREAKER,BEDROCKBREAKER,WILDCHARGE,FLOODGATE
     AbilityIndex = 0 # Trench Carver
     Item = ROCKGEM
-Pokemon = CORSOLA,60
-    Moves = RECOVER,MOONBLAST,SLAMSHUT,PROTECT
-    AbilityIndex = 0 # Persistent Growth
-    Item = LEFTOVERS
+Pokemon = CURESOLA,60
+    Moves = RECOVER,SUPERSTITION,GLIMMERPULSE,CORALOVERGROWTH
+    AbilityIndex = 0 # Long-term View
+    Item = FAIRYGEM
 Pokemon = HITMONLEE,60
     Moves = WHIRLWINDKICK,WHIPKICK,BLAZEKICK,STOMPINGTANTRUM
     AbilityIndex = 0 # Iron Heel

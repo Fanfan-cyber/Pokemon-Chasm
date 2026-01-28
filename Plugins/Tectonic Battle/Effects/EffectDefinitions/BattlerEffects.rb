@@ -1119,6 +1119,7 @@ GameData::BattleEffect.register_effect(:Battler, {
             setDefaultAvatarMoveset(battler.pokemon) if battler.boss?
             battler.resetMoves
             battle.scene.reviveBattler(battler.index)
+            battler.pbCureStatus
             battler.hideMyAbilitySplash
         end
         battler.pbFaint if battler.fainted?

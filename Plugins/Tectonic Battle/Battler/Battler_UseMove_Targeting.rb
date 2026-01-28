@@ -177,9 +177,7 @@ move, false, true)
             targets = pbChangeTargetByAbility(:TANTALIZING, move, user, targets, priority, nearOnly)
         end
         # Bait Fish
-        if move.damagingMove?
-            targets = pbChangeTargetByAbility(:BAITFISH, move, user, targets, priority, nearOnly)
-        end
+        targets = pbChangeTargetByAbility(:BAITFISH, move, user, targets, priority, nearOnly)
         return targets
     end
 

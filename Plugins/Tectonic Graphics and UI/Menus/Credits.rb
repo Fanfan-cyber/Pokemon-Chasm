@@ -233,6 +233,11 @@ Atsui
 John Willow
 Atteathesilly
 
+Curesola
+Jess Jackdaw (as Coralya)
+Pansygum (as Amacorala)
+Manycrows (as Curesola)
+
 Spanish Pokédex Translations
 Everson
 
