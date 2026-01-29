@@ -120,7 +120,6 @@ Weight = 90.5
 Kind = Flame
 Pokedex = If Charizard becomes furious, the flame at the tip of its tail flares up in a whitish-blue color.
 Generation = 1
-Flags = Grounded
 #-------------------------------
 [SQUIRTLE]
 Name = Squirtle
@@ -345,6 +344,7 @@ Height = 1.4
 Weight = 39.5
 Kind = War Bee
 Pokedex = Its final evolution has sent its killer instinct into overdrive. It obeys its trainer unfailingly, but will grow impatient without a good fight.
+Flags = Floating
 WildItemUncommon = POISONBARB
 #-------------------------------
 [PIDGEY]
@@ -660,6 +660,7 @@ Weight = 21.0
 Kind = Mouse
 Pokedex = It can loose 100,000-volt bursts of electricity, instantly downing foes several times its size.
 Generation = 7
+Flags = Swimming
 #-------------------------------
 [SANDSHREW]
 Name = Sandshrew
@@ -2314,6 +2315,7 @@ Weight = 79.5
 Kind = Royal
 Pokedex = When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power.
 Generation = 2
+Flags = Swimming
 WildItemUncommon = MYSTICWATER
 #-------------------------------
 [GSLOWPOKE]
@@ -2422,6 +2424,7 @@ Weight = 60.0
 Kind = Magnet
 Pokedex = When rain clouds form, many Magneton gather in high places to wait for lightning to strike.
 Generation = 1
+Flags = Floating
 WildItemUncommon = MAGNET
 Evolutions = MAGNEZONE,Level,39
 #-------------------------------
@@ -3283,7 +3286,6 @@ Weight = 1.0
 Kind = Poison Gas
 Pokedex = Getting up close to a Koffing will give you a chance to observe, through its thin skin, the toxic gasses swirling inside. It blows up at the slightest stimulation.
 Generation = 1
-Flags = Floating
 Evolutions = WEEZING,Level,35,GWEEZING,Item,GALARICAWREATH
 #-------------------------------
 [WEEZING]
@@ -3305,7 +3307,6 @@ Weight = 9.5
 Kind = Poison Gas
 Pokedex = Top-grade perfume is made using its internal poison gasses by diluting them to the highest level.
 Generation = 1
-Flags = Floating
 #-------------------------------
 [GWEEZING]
 Name = G. Weezing
@@ -3327,6 +3328,7 @@ Weight = 16.0
 Kind = Poison Gas
 Pokedex = Long ago, during a time when droves of factories fouled the air with pollution, Weezing changed into this form for some reason.
 Generation = 8
+Flags = Floating
 #-------------------------------
 [RHYHORN]
 Name = Rhyhorn
@@ -3850,7 +3852,6 @@ Weight = 56.0
 Kind = Mantis
 Pokedex = While young, they live together deep in the mountains, training themselves in how to fight with their scythes and move at high speeds.
 Generation = 1
-Flags = Grounded
 Evolutions = KLEAVOR,Originize,41,SCIZOR,Level,29
 #-------------------------------
 [SCIZOR]
@@ -4582,6 +4583,7 @@ Height = 1.2
 Weight = 45.0
 Kind = Anti-Virus
 Pokedex = Rely on LuxTech's literal firewall! Featuring a unique* typing and cutting-edge network threat purgation protocols, this innovative new form has your back.
+Flags = Floating
 #-------------------------------
 [OMANYTE]
 Name = Omanyte
@@ -4798,6 +4800,7 @@ Weight = 3.3
 Kind = Dragon
 Pokedex = Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.
 Generation = 1
+Flags = Swimming
 WildItemUncommon = DRAGONFANG
 Evolutions = DRAGONAIR,Level,24
 #-------------------------------
@@ -4818,6 +4821,7 @@ Weight = 16.5
 Kind = Dragon
 Pokedex = Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity via crystals on its neck and tail.
 Generation = 1
+Flags = Swimming
 WildItemUncommon = DRAGONFANG
 Evolutions = DRAGONITE,Level,44
 #-------------------------------
@@ -5303,6 +5307,7 @@ Weight = 21.2
 Kind = Owl
 Pokedex = It always stands on one foot. It changes feet so fast, the movement can rarely be seen.
 Generation = 2
+Flags = Grounded
 WildItemUncommon = WISEGLASSES
 Evolutions = NOCTOWL,Level,26
 #-------------------------------
@@ -5345,6 +5350,7 @@ Height = 0.7
 Weight = 21.2
 Kind = Snow Owl
 Pokedex = Its down insulates it against any cold. In winter it will lay dormant beneath snow banks, only to pop out during spring.
+Flags = Grounded
 Evolutions = MNOCTOWL,Level,26
 #-------------------------------
 [MNOCTOWL]
@@ -5384,6 +5390,7 @@ Weight = 10.8
 Kind = Five Star
 Pokedex = It is timid and clusters together with others. The fluid secreted by its feet indicates its location.
 Generation = 2
+Flags = Floating
 Evolutions = LEDIAN,Level,27
 #-------------------------------
 [LEDIAN]
@@ -5403,6 +5410,7 @@ Weight = 35.6
 Kind = Five Star
 Pokedex = The spot patterns on its back grow larger or smaller depending on the number of stars in the night sky.
 Generation = 2
+Flags = Floating
 #-------------------------------
 [SPINARAK]
 Name = Spinarak
@@ -6668,6 +6676,7 @@ Weight = 5.0
 Kind = Coral
 Pokedex = They prefer unpolluted southern seas. Their coral branches lose their color and deteriorate in dirty water.
 Generation = 2
+Flags = Swimming
 Evolutions = CURESOLA,Level,38
 #-------------------------------
 [CURESOLA]
@@ -6688,6 +6697,7 @@ Height = 0.8
 Weight = 6.0
 Kind = Coral Reef
 Pokedex = It will regrow any branches that break off its head. People keep particularly beautiful Curesola branches as charms to promote safe childbirth.
+Flags = Swimming
 #-------------------------------
 [GCORSOLA]
 Name = G. Corsola
@@ -8236,6 +8246,7 @@ Weight = 12.0
 Kind = Ninja
 Pokedex = Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.
 Generation = 3
+Flags = Floating
 #-------------------------------
 [SHEDINJA]
 Name = Shedinja
@@ -9242,6 +9253,7 @@ Weight = 1.2
 Kind = Cotton Bird
 Pokedex = Swablu is very friendly towards humans, so a Swablu may land on your head and act like a fluffy hat.
 Generation = 3
+Flags = Floating
 Evolutions = ALTARIA,Level,24
 #-------------------------------
 [ALTARIA]
@@ -9261,6 +9273,7 @@ Weight = 20.6
 Kind = Humming
 Pokedex = Altarias often glide through the clouds while singing or humming. While normally kind, Altaria will attack foes without mercy if provoked.
 Generation = 3
+Flags = Floating
 Evolutions = HYMNUS,Level,45
 #-------------------------------
 [HYMNUS]
@@ -9278,6 +9291,7 @@ Height = 1.7
 Weight = 23.6
 Kind = Singing
 Pokedex = This Pokémon's singing can bring even the most stoic Trainers to tears. Those who fall asleep on it are said to experience beautiful dreams.
+Flags = Floating
 #-------------------------------
 [ZANGOOSE]
 Name = Zangoose
@@ -9338,6 +9352,7 @@ Height = 1.2
 Weight = 16.8
 Kind = Vendetta
 Pokedex = Even being bisected by a Seviper's tail couldn't quell its rage. It attacks enemies on a physical and spiritual level simultaneously.
+Flags = Floating
 #-------------------------------
 [MSEVIPER]
 Name = M. Seviper
@@ -9596,6 +9611,7 @@ Weight = 12.5
 Kind = Old Shrimp
 Pokedex = Anorith can swim swiftly by pulling its eight wings through the water like oars on a boat. This Pokémon is an ancestor of modern bug Pokémon.
 Generation = 3
+Flags = Swimming
 Evolutions = ARMALDO,Level,40
 #-------------------------------
 [ARMALDO]
@@ -9614,6 +9630,7 @@ Weight = 68.2
 Kind = Plate
 Pokedex = After evolution, this Pokémon emerged onto land. Its lower body has become stronger, and blows from its tail are devastating.
 Generation = 3
+Flags = Swimming
 #-------------------------------
 [FEEBAS]
 Name = Feebas
@@ -9677,6 +9694,7 @@ Height = 0.6
 Weight = 2.4
 Kind = Mourning
 Pokedex = Swimming through the air in places of unmourned tragedy, Feebas are easily located due to the sobbing noises they emit when alone.
+Flags = Floating
 Evolutions = MMILOTIC,Item,DAWNSTONE
 #-------------------------------
 [MMILOTIC]
@@ -10031,6 +10049,7 @@ Height = 2.1
 Weight = 350.2
 Kind = Frozen Face
 Pokedex = It only closes its mouth to bite its foes, forcing its trainers to learn to interpret its emotions via its changes in eye shape, ear direction, and body temperature.
+Flags = Floating
 #-------------------------------
 [FROSLASS]
 Name = Froslass
@@ -10656,7 +10675,7 @@ Kind = DNA
 Pokedex = DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.
 FormName = Normal
 Generation = 3
-Flags = Legendary
+Flags = Legendary,Floating
 Formalizer = 0,1,2,3
 #-------------------------------
 [TURTWIG]
@@ -10905,6 +10924,7 @@ Weight = 20.0
 Kind = Plump Mouse
 Pokedex = It constantly gnaws on logs and rocks to whittle down its front teeth. It nests alongside water.
 Generation = 4
+Flags = Swimming
 Evolutions = BIBAREL,Level,30
 #-------------------------------
 [BIBAREL]
@@ -10923,6 +10943,7 @@ Weight = 31.5
 Kind = Beaver
 Pokedex = It makes its nest by damming streams with bark and mud. It is known as an industrious worker.
 Generation = 4
+Flags = Swimming
 #-------------------------------
 [KRICKETOT]
 Name = Kricketot
@@ -11161,6 +11182,7 @@ Weight = 23.3
 Kind = Moth
 Pokedex = It flutters around at night and steals honey from the Combee hive.
 Generation = 4
+Flags = Floating
 WildItemUncommon = SILVERPOWDER
 #-------------------------------
 [COMBEE]
@@ -11183,6 +11205,7 @@ Weight = 5.5
 Kind = Tiny Bee
 Pokedex = It collects honey for its colony. At night, they cluster to form a beehive and sleep. If a colony loses their Vespiquen, a new Combee will take its place.
 Generation = 4
+Flags = Floating
 WildItemCommon = HONEY
 Evolutions = VESPIQUEN,Level,28
 #-------------------------------
@@ -11206,6 +11229,7 @@ Weight = 38.5
 Kind = Beehive
 Pokedex = Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.
 Generation = 4
+Flags = Floating
 WildItemCommon = HONEY
 #-------------------------------
 [PACHIRISU]
@@ -11944,7 +11968,6 @@ Weight = 27.0
 Kind = Bug Catcher
 Pokedex = It binds itself to trees in marshes. It attracts prey with its sweet-smelling drool and gulps them down.
 Generation = 4
-Flags = Floating
 #-------------------------------
 [MCARNIVINE]
 Name = M. Carnivine
@@ -12379,7 +12402,7 @@ Kind = Alpha
 Pokedex = It is told in mythology that this Pokémon was born before the universe even existed.
 FormName = Arceus
 Generation = 4
-Flags = Legendary
+Flags = Legendary,Floating
 StickyItems = PRISMATICPLATE
 #-------------------------------
 [SNIVY]
@@ -13331,6 +13354,7 @@ Weight = 4.5
 Kind = Tadpole
 Pokedex = By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.
 Generation = 5
+Flags = Swimming
 Evolutions = PALPITOAD,Level,22
 #-------------------------------
 [PALPITOAD]
@@ -13350,6 +13374,7 @@ Weight = 17.0
 Kind = Vibration
 Pokedex = It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.
 Generation = 5
+Flags = Swimming
 Evolutions = SEISMITOAD,Level,32
 #-------------------------------
 [SEISMITOAD]
@@ -13370,6 +13395,7 @@ Weight = 62.0
 Kind = Vibration
 Pokedex = They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.
 Generation = 5
+Flags = Swimming
 #-------------------------------
 [THROH]
 Name = Throh
@@ -14050,6 +14076,7 @@ Weight = 1.5
 Kind = Spirit
 Pokedex = It's said that this Pokémon was formed when an ancient clay tablet was drawn to a vengeful spirit.
 Generation = 8
+Flags = Floating
 WildItemUncommon = HARDSTONE
 Evolutions = RUNERIGUS,Level,34
 #-------------------------------
@@ -14669,6 +14696,7 @@ Weight = 33.0
 Kind = Cavalry
 Pokedex = These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.
 Generation = 5
+Flags = Floating
 #-------------------------------
 [FOONGUS]
 Name = Foongus
@@ -14772,6 +14800,7 @@ Height = 1.2
 Weight = 33.0
 Kind = Glow Jelly
 Pokedex = They are drawn to mysterious machinery and internet influencers. Because of this, they are common in online horror media.
+Flags = Floating
 Evolutions = MJELLICENT,Level,30
 #-------------------------------
 [MJELLICENT]
@@ -14791,6 +14820,7 @@ Height = 2.2
 Weight = 135.0
 Kind = Remnant
 Pokedex = They led explorers to an ancient sunken city in the abyss. Its people had uploaded their minds into machines that slowly failed over the ages.
+Flags = Floating
 #-------------------------------
 [JOLTIK]
 Name = Joltik
@@ -14896,6 +14926,7 @@ Weight = 21.0
 Kind = Gear
 Pokedex = The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.
 Generation = 5
+Flags = Floating
 WildItemUncommon = METALCOAT
 Evolutions = KLANG,Level,24
 #-------------------------------
@@ -14916,6 +14947,7 @@ Weight = 51.0
 Kind = Gear
 Pokedex = A minigear and big gear comprise its body. If the minigear it launches at a foe doesn't return, it will die.
 Generation = 5
+Flags = Floating
 WildItemUncommon = METALCOAT
 Evolutions = KLINKLANG,Level,44
 #-------------------------------
@@ -14937,6 +14969,7 @@ Weight = 81.0
 Kind = Gear
 Pokedex = Its red core functions as an energy tank. It fires the charged energy through its spikes into an area.
 Generation = 5
+Flags = Floating
 WildItemUncommon = METALCOAT
 #-------------------------------
 [TYNAMO]
@@ -14958,6 +14991,7 @@ Weight = 0.3
 Kind = EleFish
 Pokedex = One alone can emit only a trickle of electricity, so a group of them gathers to unleash a powerful electric shock.
 Generation = 5
+Flags = Swimming
 Evolutions = EELEKTRIK,Level,23
 #-------------------------------
 [EELEKTRIK]
@@ -14977,7 +15011,7 @@ Weight = 22.0
 Kind = EleFish
 Pokedex = These Pokémon have a big appetite. When they spot their prey, they attack it and paralyze it with electricity.
 Generation = 5
-Flags = Grounded
+Flags = Swimming
 Evolutions = EELEKTROSS,Item,THUNDERSTONE
 #-------------------------------
 [EELEKTROSS]
@@ -14997,7 +15031,7 @@ Weight = 80.5
 Kind = EleFish
 Pokedex = They crawl out of the ocean using their arms. They will attack prey on shore and immediately drag it into the ocean.
 Generation = 5
-Flags = Grounded
+Flags = Swimming
 #-------------------------------
 [ELGYEM]
 Name = Elgyem
@@ -15222,6 +15256,7 @@ Weight = 21.0
 Kind = Crystal
 Pokedex = When the weather gets hot, these Pokémon turn into water vapor. Cryscross are almost never seen during summer.
 Generation = 5
+Flags = Floating
 WildItemUncommon = NEVERMELTICE
 Evolutions = CRYOGONAL,Item,SHINYSTONE
 #-------------------------------
@@ -15643,7 +15678,6 @@ Height = 0.5
 Weight = 9.0
 Kind = Tiny House
 Pokedex = It stomps on smaller opponents with its powerful legs, sometimes toppling in the process. If its house is broken, terrible wailing emits until it is repaired.
-Flags = Grounded
 WildItemUncommon = SPELLTAG
 Evolutions = MMANDIBUZZ,Item,DUSKSTONE
 #-------------------------------
@@ -15664,7 +15698,6 @@ Height = 1.2
 Weight = 39.5
 Kind = Witchcraft
 Pokedex = It steeps the remains of prey within the jar it protects, stirring the concoction with its claws. Folklore says its soul is kept within the diseased mass.
-Flags = Grounded
 WildItemUncommon = SPELLTAG
 #-------------------------------
 [HEATMOR]
@@ -16542,6 +16575,7 @@ Kind = Single Bloom
 Pokedex = When it finds a flower it likes, it dwells on that flower its whole life long. It floats in the wind's embrace with an untroubled heart.
 FormName = Red Flower
 Generation = 6
+Flags = Floating
 Evolutions = FLOETTE,Level,23
 #-------------------------------
 [FLOETTE]
@@ -16561,6 +16595,7 @@ Kind = Single Bloom
 Pokedex = When the flowers of a well-tended flower bed bloom, it appears and celebrates with an elegant dance.
 FormName = Red Flower
 Generation = 6
+Flags = Floating
 Evolutions = FLORGES,Item,SHINYSTONE
 #-------------------------------
 [FLORGES]
@@ -16581,6 +16616,7 @@ Kind = Garden
 Pokedex = In times long past, governors of castles would invite Florges to create flower gardens to embellish the castle domains.
 FormName = Red Flower
 Generation = 6
+Flags = Floating
 #-------------------------------
 [SKIDDO]
 Name = Skiddo
@@ -16745,6 +16781,7 @@ Weight = 2.0
 Kind = Sword
 Pokedex = If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.
 Generation = 6
+Flags = Floating
 Evolutions = DOUBLADE,Level,24
 #-------------------------------
 [DOUBLADE]
@@ -16764,6 +16801,7 @@ Weight = 2.0
 Kind = Sword
 Pokedex = The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.
 Generation = 6
+Flags = Floating
 Evolutions = AEGISLASH,Item,SHINYSTONE
 #-------------------------------
 [AEGISLASH]
@@ -16785,6 +16823,7 @@ Kind = Royal Sword
 Pokedex = Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.
 FormName = Shield
 Generation = 6
+Flags = Floating
 #-------------------------------
 [SPRITZEE]
 Name = Spritzee
@@ -16912,6 +16951,7 @@ Weight = 3.5
 Kind = Revolving
 Pokedex = It flashes the light-emitting spots on its body, which drains its opponent's will to fight. It takes the opportunity to scuttle away and hide.
 Generation = 6
+Flags = Floating
 Evolutions = MALAMAR,Item,WATERSTONE
 #-------------------------------
 [MALAMAR]
@@ -16993,6 +17033,7 @@ Weight = 7.3
 Kind = Mock Kelp
 Pokedex = It looks just like rotten kelp. It hides from foes while storing up power for its evolution.
 Generation = 6
+Flags = Swimming
 Evolutions = DRAGALGE,Item,WATERSTONE
 #-------------------------------
 [DRAGALGE]
@@ -17528,6 +17569,7 @@ Weight = 99.5
 Kind = Ice Chunk
 Pokedex = Using air of -50 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.
 Generation = 6
+Flags = Swimming
 Evolutions = HAVALUGG,Originize,34,AVALUGG,Level,34
 #-------------------------------
 [AVALUGG]
@@ -17550,6 +17592,7 @@ Weight = 505.0
 Kind = Iceberg
 Pokedex = The way several Bergmite and Dreepy like to huddle on its back makes it look like an aircraft carrier made of ice.
 Generation = 6
+Flags = Swimming
 #-------------------------------
 [HAVALUGG]
 Name = H. Avalugg
@@ -18992,6 +19035,7 @@ Weight = 19.0
 Kind = Gnash Teeth
 Pokedex = It burrows beneath the sand, radiating psychic power from the protuberance on its head. It waits for prey as it surveys the area.
 Generation = 7
+Flags = Swimming
 #-------------------------------
 [DRAMPA]
 Name = Drampa
@@ -20321,7 +20365,6 @@ Weight = 1.5
 Kind = Apple Wing
 Pokedex = It flies on wings of apple skin and spits a powerful acid. It can also change its shape into that of an apple.
 Generation = 8
-Flags = Floating
 #-------------------------------
 [APPLETUN]
 Name = Appletun
@@ -20639,6 +20682,7 @@ Weight = 4.0
 Kind = Tantrum
 Pokedex = Its tentacles tear off easily, but it isn't alarmed when that happens, it knows they'll grow back. It's about as smart as a three-year-old.
 Generation = 8
+Flags = Swimming
 WildItemUncommon = GRIPCLAW
 Evolutions = GRAPPLOCT,Level,29
 #-------------------------------
@@ -20659,6 +20703,7 @@ Weight = 39.0
 Kind = Jujitsu
 Pokedex = Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.
 Generation = 8
+Flags = Swimming
 WildItemUncommon = GRIPCLAW
 #-------------------------------
 [SINISTEA]
@@ -20724,6 +20769,7 @@ Height = 0.2
 Weight = 0.2
 Kind = Ice Tea
 Pokedex = It spends days relaxing on the beach. Its rest is often interrupted by someone who confuses it for a drink.
+Flags = Floating
 Evolutions = MPOLTEAGEIST,Level,30
 #-------------------------------
 [MPOLTEAGEIST]
