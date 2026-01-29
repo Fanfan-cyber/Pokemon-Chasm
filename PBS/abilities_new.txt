@@ -1519,7 +1519,7 @@ Description = Immune to Flying-type moves and deals 50% more damage with them.
 #-------------------------------
 [PERENNIALPAYLOAD]
 Name = Perennial Payload
-Description = After fainting from exploding, revives after five turns.
+Description = After fainting from self-destructing, revives after five turns.
 #-------------------------------
 [PERFECTIONIST]
 Name = Perfectionist
@@ -2048,7 +2048,7 @@ Description = This Pokémon and its allies' moves are twice as likely to be crit
 #-------------------------------
 [SPINESPLODE]
 Name = Spinesplode
-Description = Leaves two hazard layers of Spikes after it self-destructs.
+Description = Leaves two hazard layers of Spikes after self-destructing.
 #-------------------------------
 [SPINTENSITY]
 Name = Spintensity
@@ -2357,7 +2357,7 @@ Flags = MoldBreaking
 #-------------------------------
 [UNBREAKABLE]
 Name = Unbreakable
-Description = Prevents half the self-damage from recoil and Self-Destruct/Explosion.
+Description = Prevents half the self-damage from recoil and self-destructing.
 #-------------------------------
 [UNCANNYLUCK]
 Name = Uncanny Luck
