@@ -4639,7 +4639,7 @@ StepsToHatch = 7905
 Height = 0.4
 Weight = 7.5
 Kind = Mini Boss
-Pokedex = This Pokemon likes to team up with the strongest Pokémon it can find. Some researchers fear its dormant power.
+Pokedex = This Pokémon likes to team up with the strongest Pokémon it can find. Some researchers fear its dormant power.
 Evolutions = MOMASTAR,Level,36
 #-------------------------------
 [MOMASTAR]
@@ -11508,7 +11508,7 @@ StepsToHatch = 5355
 Height = 1.3
 Weight = 28.3
 Kind = Lunar Hero
-Pokedex = A wanderer, Makyan Haerobic has a deep sense of justice and will use the full force of its lunar powers to rescue weaker Pokemon.
+Pokedex = A wanderer, Makyan Haerobic has a deep sense of justice and will use the full force of its lunar powers to rescue weaker Pokémon.
 #-------------------------------
 [GLAMEOW]
 Name = Glameow
