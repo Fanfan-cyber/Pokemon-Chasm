@@ -6717,8 +6717,8 @@ Name = Cursola
 Type1 = GHOST
 Type2 = ROCK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 60,75,105,30,125,135
-# Total = 530
+BaseStats = 60,75,105,30,135,135
+# Total = 540
 GenderRate = Female75Percent
 BaseEXP = 179
 Rareness = 25
