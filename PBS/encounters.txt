@@ -850,7 +850,7 @@ Special,40
     1,WINGULL,10
 #-------------------------------
 [250] # Chasm Base Lab
-Special,20
+Special,40
     1,ARCTOVISH,40
     1,ARCTOZOLT,40
     1,DRACOVISH,40
