@@ -750,7 +750,11 @@ class PokemonPokedex_Scene
             enc_data.types.each do |_key, slots|
                 next unless slots
                 slots.each do |slot|
-                    speciesPresent.push(slot[1])
+                    species = slot[1]
+                    # get base species because forms aren't in dexlist
+                    species_data = GameData::Species.get(species)
+                    base_species = species_data.species
+                    speciesPresent.push(base_species)
                 end
             end
         end
