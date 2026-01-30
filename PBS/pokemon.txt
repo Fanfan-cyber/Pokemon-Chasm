@@ -20667,8 +20667,8 @@ Pokedex = Even solid titanium will melt in its coils. It uses the massive mirage
 Name = Clobbopus
 Type1 = FIGHTING
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 75,60,65,30,45,60
-# Total = 335
+BaseStats = 75,70,70,35,45,70
+# Total = 365
 BaseEXP = 62
 Rareness = 155
 Happiness = 50
