@@ -232,7 +232,7 @@ Description = Doubles this Pokémon's Sp. Def.
 #-------------------------------
 [ILLUSION]
 Name = Illusion
-Description = Comes out disguised as this Pokémon in back.
+Description = Comes out disguised as the Pokémon in the party's last spot.
 Flags = Immutable
 #-------------------------------
 [IMPOSTER]
