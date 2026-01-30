@@ -1045,7 +1045,7 @@ end
 
 # Displays text options in the message box, allowing the player to scroll through them
 # with left/right arrows and select with A. Returns the selected index or -1 if cancelled.
-def pbScrollableTextSelection(prompt, options, initial_index = 0)
+def pbScrollableTextSelection(options, initial_index = 0)
   msgwindow = pbCreateMessageWindow
   index = initial_index.clamp(0, options.length - 1)
   ret = -1
