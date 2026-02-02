@@ -653,7 +653,7 @@ Pokemon = HAUNTER,25
     Moves = SPECTRALTONGUE,CLEARSMOG,ICYWIND,SEANCE
     AbilityIndex = 1 # Break Through
 Pokemon = PRIMEAPE,25
-    Moves = FIREFANG,ARMTHRUST,SHADOWPUNCH,BULKUP
+    Moves = FIREPUNCH,ARMTHRUST,SHADOWPUNCH,BULKUP
     AbilityIndex = 1 # Dominating
 #-------------------------------
 [CLERK_F,Lily]
@@ -998,7 +998,7 @@ Pokemon = BARBARACLE,35
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,10,0,20,10
 Pokemon = MALAMAR,35
-    Moves = PSYCHICFANGS,INCISION,BARETEETH,EERIEIMPULSE
+    Moves = PSYCHICFANGS,INCISION,CHARM,EERIEIMPULSE
     AbilityIndex = 0 # Oscillation
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
@@ -3002,7 +3002,7 @@ Pokemon = SPINDA,41
     AbilityIndex = 0 # Wibble Wobble
     Item = LEFTOVERS
 Pokemon = ANNIHILAPE,42
-    Moves = CROSSCHOP,WAILINGBLOW,SEARINGCRUNCH,BULKUP
+    Moves = CROSSCHOP,WAILINGBLOW,BLAZEKICK,BULKUP
     AbilityIndex = 1 # Dominating
 #-------------------------------
 [BATTLEGIRL2,Yumei]
