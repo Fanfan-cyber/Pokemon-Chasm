@@ -3999,7 +3999,7 @@ Pokemon = VILEPLUME,43
     Moves = POISONIVY,GIGADRAIN,SLUDGEWAVE,ALLERGY
     AbilityIndex = 0 # Sickening
 Pokemon = RHYPERIOR,44
-    Moves = SEISMICWAVE,ADAMANTINEPRESS,DIG,POISONJAB
+    Moves = SEISMICWAVE,ADAMANTINEPRESS,DIG,SLAG
     AbilityIndex = 0 # Fortified
     Item = LUCKHERB
 #-------------------------------
