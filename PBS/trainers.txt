@@ -313,12 +313,13 @@ Pokemon = SOLOSIS,20
 #-------------------------------
 [SCIENTIST_F,Marie]
 Pokemon = CARKOL,20
-    Moves = FLAMECHARGE,ROCKTHROW,RAPIDSPIN,IGNITE
+    Moves = FLAMECHARGE,DIAMONDBOLT,RAPIDSPIN,IGNITE
     AbilityIndex = 1 # Fuel Hungry
 Pokemon = KOFFING,20
     Moves = POISONGAS,BOREALWIND,DAZZLE,CLEARSMOG
     AbilityIndex = 1 # Fumigate
 Pokemon = SLUGMA,20
+    Moves = INCINERATE,CRYSTALGLEAM,STRUGGLEBUG,YAWN
     AbilityIndex = 1 # Flame Body
 #-------------------------------
 [LEADER_Eko,Eko]
@@ -3998,7 +3999,7 @@ Pokemon = VILEPLUME,43
     Moves = POISONIVY,GIGADRAIN,SLUDGEWAVE,ALLERGY
     AbilityIndex = 0 # Sickening
 Pokemon = RHYPERIOR,44
-    Moves = SEISMICWAVE,ADAMANTINEPRESS,DIG,POISONJAB
+    Moves = SEISMICWAVE,ADAMANTINEPRESS,DIG,SLAG
     AbilityIndex = 0 # Fortified
     Item = LUCKHERB
 #-------------------------------
