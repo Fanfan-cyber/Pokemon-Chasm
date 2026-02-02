@@ -242,7 +242,7 @@ Flags = Immutable
 #-------------------------------
 [INNARDSOUT]
 Name = Innards Out
-Description = Damages an attacker that lands the finishing hit.
+Description = When this Pokémon is knocked out, it damages its attacker by the amount equal to the HP it had left before it was hit.
 #-------------------------------
 [INNERFOCUS]
 Name = Inner Focus
