@@ -218,6 +218,14 @@ class PokemonGlobalMetadata
 		return pokedexStars[species]
 	end
 
+    def setStarred(species)
+        pokedexStars[species] = true
+    end
+
+    def setUnStarred(species)
+        pokedexStars[species] = false
+    end
+
 	def toggleStarred(species)
 		if !pokedexStars.has_key?(species)
 			pokedexStars[species] = true
