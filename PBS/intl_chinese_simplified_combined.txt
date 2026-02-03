@@ -40936,7 +40936,7 @@ This Pokémon changes type to that of the move it's about to use. However, it's 
 会变为即将使用的技能的属性，但命中率减小20%。
 Counts as every tribe.
 同时算作所有部族。
-After using a Bite move, lowers the target's highest attacking stat by 2 steps.
+After using a Bite move, lowers the target's highest attacking stat by two steps.
 使用咬类技能后，使对手较高的一项攻击减小2级。
 When hit with a special move, hits back instantly with that same move.
 被特殊类技能攻击时，立即使用同样的技能还击。
@@ -48857,8 +48857,8 @@ Defeat Rafael, leader of Velenz Gym. Velenz is west of Repora Forest. He can be 
 打倒夜幽道馆的馆主拉斐尔吧，拿到第4个徽章。
 Defend Grouz from the Avatar!
 打倒古治镇的化身！
-Professor Tamarind called, informing you of an Avatar of Steelix which is rampaging in the Grouz Mine Yard. She's promised a reward if you can defeat the Avatar.
-塔玛琳博士打来电话，告诉你有个大钢蛇化身正在古治矿场肆虐，只要去处理掉它，就能得到一笔奖励。
+Professor Tamarind called, informing you of an Avatar of Titanix which is rampaging in the Grouz Mine Yard. She's promised a reward if you can defeat the Avatar.
+塔玛琳博士打来电话，告诉你有个泰坦蛇化身正在古治矿场肆虐，只要去处理掉它，就能得到一笔奖励。
 Visit Tamarind at Helena's House
 去海伦娜家见塔玛琳
 Go to the County Park and find Helena's House, where Professor Tamarind is waiting for you with a reward. Helena's house can be found North West of the lake, very close to it.

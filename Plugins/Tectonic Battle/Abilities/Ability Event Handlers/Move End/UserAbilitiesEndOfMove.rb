@@ -778,7 +778,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:HEROSJOURNEY,
 
 BattleHandlers::UserAbilityEndOfMove.add(:THUNDERSTORM,
   proc { |ability, user, _targets, move, battle, _switchedBattlers|
-    next if battle.foretoldMove
+    next if user.dummy
     next unless battle.sandy?
     next unless move.damagingMove?
     next if user.effectActive?(:EnergyCharge)
