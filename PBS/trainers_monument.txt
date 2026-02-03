@@ -2355,7 +2355,7 @@ Pokemon = FURRET,70
     EV = 20,10,20,0,10,0
 Pokemon = AMUK,70
     Moves = POISONGAS,RECOVER,FOULPLAY,GUNKSHOT
-    AbilityIndex = 0 # Power of Alchemy
+    AbilityIndex = 1 # Poison Punish
     Item = BLACKSLUDGE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,20,0,0,10

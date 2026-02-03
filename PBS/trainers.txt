@@ -313,12 +313,13 @@ Pokemon = SOLOSIS,20
 #-------------------------------
 [SCIENTIST_F,Marie]
 Pokemon = CARKOL,20
-    Moves = FLAMECHARGE,ROCKTHROW,RAPIDSPIN,IGNITE
+    Moves = FLAMECHARGE,DIAMONDBOLT,RAPIDSPIN,IGNITE
     AbilityIndex = 1 # Fuel Hungry
 Pokemon = KOFFING,20
     Moves = POISONGAS,BOREALWIND,DAZZLE,CLEARSMOG
     AbilityIndex = 1 # Fumigate
 Pokemon = SLUGMA,20
+    Moves = INCINERATE,CRYSTALGLEAM,STRUGGLEBUG,YAWN
     AbilityIndex = 1 # Flame Body
 #-------------------------------
 [LEADER_Eko,Eko]
@@ -652,7 +653,7 @@ Pokemon = HAUNTER,25
     Moves = SPECTRALTONGUE,CLEARSMOG,ICYWIND,SEANCE
     AbilityIndex = 1 # Break Through
 Pokemon = PRIMEAPE,25
-    Moves = FIREFANG,ARMTHRUST,SHADOWPUNCH,BULKUP
+    Moves = FIREPUNCH,ARMTHRUST,SHADOWPUNCH,BULKUP
     AbilityIndex = 1 # Dominating
 #-------------------------------
 [CLERK_F,Lily]
@@ -997,7 +998,7 @@ Pokemon = BARBARACLE,35
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,10,0,20,10
 Pokemon = MALAMAR,35
-    Moves = PSYCHICFANGS,INCISION,BARETEETH,EERIEIMPULSE
+    Moves = PSYCHICFANGS,INCISION,CHARM,EERIEIMPULSE
     AbilityIndex = 0 # Oscillation
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
@@ -3001,7 +3002,7 @@ Pokemon = SPINDA,41
     AbilityIndex = 0 # Wibble Wobble
     Item = LEFTOVERS
 Pokemon = ANNIHILAPE,42
-    Moves = CROSSCHOP,WAILINGBLOW,SEARINGCRUNCH,BULKUP
+    Moves = CROSSCHOP,WAILINGBLOW,BLAZEKICK,BULKUP
     AbilityIndex = 1 # Dominating
 #-------------------------------
 [BATTLEGIRL2,Yumei]
@@ -3998,7 +3999,7 @@ Pokemon = VILEPLUME,43
     Moves = POISONIVY,GIGADRAIN,SLUDGEWAVE,ALLERGY
     AbilityIndex = 0 # Sickening
 Pokemon = RHYPERIOR,44
-    Moves = SEISMICWAVE,ADAMANTINEPRESS,DIG,POISONJAB
+    Moves = SEISMICWAVE,ADAMANTINEPRESS,DIG,SLAG
     AbilityIndex = 0 # Fortified
     Item = LUCKHERB
 #-------------------------------
