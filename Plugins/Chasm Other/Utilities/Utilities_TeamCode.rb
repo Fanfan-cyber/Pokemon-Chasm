@@ -15,46 +15,23 @@ ENCODING_SHIFT = 5 # The first 5 bits are reserved (unused in the new format, th
 VERSION_MAJOR_SHIFT = 0
 VERSION_MINOR_SHIFT = 5
 VERSION_PATCH_SHIFT = 10
-VERSION_DEV_SHIFT = 15 # End of header, not repeated - u16
+VERSION_DEV_SHIFT = 15 # End of header - u16
 STYLE_HP_SHIFT = 0
 STYLE_ATK_SHIFT = 5
 STYLE_DEF_SHIFT = 10
 STYLE_SDEF_SHIFT = 15
 STYLE_SPEED_SHIFT = 20
-LEVEL_SHIFT = 25 # Stats and style points fit into one u32
-POKEMON_MAPPED_ID_SHIFT = 0
-ABILITY_MAPPED_ID_SHIFT = 13
-MOVE1_LOWER_7BITS_MAPPED_ID_SHIFT = 25 # First u32
-MOVE1_UPPER_6BITS_MAPPED_ID_SHIFT = 0
-MOVE2_MAPPED_ID_SHIFT = 6
-MOVE3_MAPPED_ID_SHIFT = 19 # Second u32
-MOVE4_MAPPED_ID_SHIFT = 0
-ITEM1_MAPPED_ID_SHIFT = 13
-FORM_SHIFT = 22
-FLAG_ITEM2_SHIFT = 30
-FLAG_ITEM1_TYPE_SHIFT = 31 # Third u32
+LEVEL_SHIFT = 25 # Stats and level fit into one u32
 
 # Byte protocol masks
-OLD_CODE_CHECK_MASK = 0x1f
 ENCODING_MASK = 0xe0
-VERSION_DEV_MASK = 0b1 << VERSION_DEV_SHIFT # End of header, not repeated - u16
+VERSION_DEV_MASK = 0b1 << VERSION_DEV_SHIFT
 STYLE_HP_MASK = 0b11111 << STYLE_HP_SHIFT
 STYLE_ATK_MASK = 0b11111 << STYLE_ATK_SHIFT
 STYLE_DEF_MASK = 0b11111 << STYLE_DEF_SHIFT
 STYLE_SDEF_MASK = 0b11111 << STYLE_SDEF_SHIFT
 STYLE_SPEED_MASK = 0b11111 << STYLE_SPEED_SHIFT
 LEVEL_MASK = 0b1111111 << LEVEL_SHIFT
-POKEMON_MAPPED_ID_MASK = 0x1fff << POKEMON_MAPPED_ID_SHIFT
-ABILITY_MAPPED_ID_MASK = 0xfff << ABILITY_MAPPED_ID_SHIFT
-MOVE1_LOWER_7BITS_MAPPED_ID_MASK = 0x7f << MOVE1_LOWER_7BITS_MAPPED_ID_SHIFT
-MOVE1_UPPER_6BITS_MAPPED_ID_MASK = 0x3f << MOVE1_UPPER_6BITS_MAPPED_ID_SHIFT
-MOVE2_MAPPED_ID_MASK = 0x1fff << MOVE2_MAPPED_ID_SHIFT
-MOVE3_MAPPED_ID_MASK = 0x1fff << MOVE3_MAPPED_ID_SHIFT
-MOVE4_MAPPED_ID_MASK = 0x1fff << MOVE4_MAPPED_ID_SHIFT
-ITEM1_MAPPED_ID_MASK = 0x1ff << ITEM1_MAPPED_ID_SHIFT
-FORM_MASK = 0xf << FORM_SHIFT
-FLAG_ITEM2_MASK = 0x1 << FLAG_ITEM2_SHIFT
-FLAG_ITEM1_TYPE_MASK = 0x1 << FLAG_ITEM1_TYPE_SHIFT
 
 def load_team_code()
   code = encode_team($Trainer.party)
@@ -144,4 +121,124 @@ def encode_team(party)
   code.gsub!("=", "")
 
   return code
+end
+
+# Decodes the string id from (num chars (u8)) (u8 value 1, 2, 3...). Returns [id, new_offset]
+def decode_string_id(buffer)
+  num_chars = buffer.read(1).unpack('C')[0]
+  id = num_chars > 0 ? buffer.read(num_chars) : ""
+  return id
+end
+
+# Decodes style points and level from a u32
+def decode_stats(mon, buffer)
+  stats = buffer.read(4).unpack('N')[0]
+  style_hp = (stats & STYLE_HP_MASK) >> STYLE_HP_SHIFT
+  style_atk = (stats & STYLE_ATK_MASK) >> STYLE_ATK_SHIFT
+  style_def = (stats & STYLE_DEF_MASK) >> STYLE_DEF_SHIFT
+  style_sdef = (stats & STYLE_SDEF_MASK) >> STYLE_SDEF_SHIFT
+  style_speed = (stats & STYLE_SPEED_MASK) >> STYLE_SPEED_SHIFT
+  level = (stats & LEVEL_MASK) >> LEVEL_SHIFT
+
+  mon.ev[:HP] = style_hp
+  mon.ev[:ATTACK] = style_atk
+  mon.ev[:DEFENSE] = style_def
+  mon.ev[:SPECIAL_ATTACK] = style_atk
+  mon.ev[:SPECIAL_DEFENSE] = style_sdef
+  mon.ev[:SPEED] = style_speed
+  mon.level = level
+end
+
+def decode_team(code)
+  # Convert from URL-safe base64
+  code = code.gsub("-", "+").gsub("_", "/")
+  code += "=" * ((4 - code.length % 4) % 4)
+
+  buffer = StringIO.new(code.unpack('m')[0])
+  party = []
+
+  return party if buffer.size < VERSION_BYTES
+
+  # Read header
+  encoding = (buffer.read(1).unpack('C')[0] & ENCODING_MASK) >> ENCODING_SHIFT
+  poke_party_version = buffer.read(1).unpack('C')[0]
+  version_u16 = buffer.read(2).unpack('n')[0]
+
+  # Only encoding 0 is supported
+  return nil if encoding != 0
+
+  # Decode each Pokemon
+  while buffer.pos < buffer.size
+    mon_id = decode_string_id(buffer)
+    ability_id = decode_string_id(buffer)
+    item1_id = decode_string_id(buffer)
+    item1_type_id = decode_string_id(buffer)
+    item2_id = decode_string_id(buffer)
+    move1_id = decode_string_id(buffer)
+    move2_id = decode_string_id(buffer)
+    move3_id = decode_string_id(buffer)
+    move4_id = decode_string_id(buffer)
+    form = buffer.read(1).unpack('C')[0]
+
+    # Create Pokemon
+    species = GameData::Species.get(mon_id.to_sym)
+    mon = Pokemon.new(species.id, 1) # Level will be set by decode_stats
+
+    # Set form
+    mon.form = form
+
+    # Set ability
+    if ability_id.length > 0
+      mon.ability = GameData::Ability.get(ability_id.to_sym).id
+    end
+
+    # Set items
+    mon.items[0] = GameData::Item.get(item1_id.to_sym).id if item1_id.length > 0
+    mon.items[1] = GameData::Item.get(item2_id.to_sym).id if item2_id.length > 0
+
+    # Set item type
+    mon.itemTypeChosen = GameData::Type.get(item1_type_id.to_sym).id if item1_type_id.length > 0
+
+    # Set moves
+    mon.learn_move(GameData::Move.get(move1_id.to_sym).id) if move1_id.length > 0
+    mon.learn_move(GameData::Move.get(move2_id.to_sym).id) if move2_id.length > 0
+    mon.learn_move(GameData::Move.get(move3_id.to_sym).id) if move3_id.length > 0
+    mon.learn_move(GameData::Move.get(move4_id.to_sym).id) if move4_id.length > 0
+
+    # Decode stats (style points and level)
+    decode_stats(mon, buffer)
+
+    party.push(mon)
+  end
+
+  return party
+end
+
+def read_team_code()
+  filename = "Analysis/teamcode.txt"
+  code = IO.read(filename)
+  if code.nil?
+    pbMessage(_INTL("Could not read team code from file."))
+    return
+  end
+  pokemon = decode_team(code)
+  if pokemon.nil?
+    pbMessage(_INTL("Unsupported team code format."))
+    return
+  end
+  if pokemon.empty?
+    pbMessage(_INTL("Could not decode team from code."))
+    return
+  end
+  # Store current party in PC
+  $Trainer.party.each do |mon|
+    $PokemonStorage.pbStoreCaught(mon)
+  end
+  $Trainer.party.clear
+
+  # Add new pokemon to party
+  pokemon.each do |mon|
+    pbAddToPartySilent(mon)
+  end
+  pbMessage(_INTL("Team code loaded into party."))
 end
