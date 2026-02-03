@@ -73,8 +73,8 @@ def encode_team(party)
   version_u16 |= (version_split[2].to_i & 0x1f) << VERSION_PATCH_SHIFT
 
   data = [
-    [poke_party_encoding_u8, BytesRequired::U8],
     [poke_party_version_u8, BytesRequired::U8],
+    [poke_party_encoding_u8, BytesRequired::U8],
     [version_u16, BytesRequired::U16]
   ]
 
