@@ -213,7 +213,7 @@ end
 class PokeBattle_AI_MELOETTA < PokeBattle_AI_Boss
     def initialize(user, battle)
         super
-        @useMoveIFF.add(:RELICSONG, proc { |_move, user, _target, battle|
+        @useMoveIFF.add(:RELICRECITAL, proc { |_move, user, _target, battle|
             next battle.turnCount % 2 == 1 && user.lastTurnThisRound?
         })
         @rejectMovesIf.push( proc { |move, user, _target, battle|

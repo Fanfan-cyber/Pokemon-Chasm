@@ -528,7 +528,7 @@ Pokemon = CROBAT,70
     EV = 10,10,20,10,10,0
 Pokemon = SAMUROTT,70
     Moves = SACREDSWORD,RAZORSHELL,SLAY,XSCISSOR
-    AbilityIndex = 1 # Swordplay
+    AbilityIndex = 1 # Stay of Execution
     Item = CHOICESCARF
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,15,15,20,0
