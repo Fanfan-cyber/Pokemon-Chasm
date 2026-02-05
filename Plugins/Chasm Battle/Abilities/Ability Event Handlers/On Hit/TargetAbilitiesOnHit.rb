@@ -776,7 +776,7 @@ BattleHandlers::TargetAbilityOnHit.add(:MENDINGFEATHERCHARM,
             party.each_with_index do |partyMember, i|
                 previousHealthValues.push(partyMember.hp)
 			    previousStatusIndices.push(partyMember.getStatusImageIndex)
-                next unless partyMember.able?
+                next unless partyMember.able?(false, GameData::Ability.getByFlag("UnableByDefault"))
                 battler = battle.pbFindBattler(i, target)
                 if battler
                     battler.applyFractionalHealing(MENDING_FEATHER_CHARM_HEALING_FRACTION, anim: false, anyAnim: false, showMessage: false)
@@ -1065,5 +1065,34 @@ BattleHandlers::TargetAbilityOnHit.add(:TANGLINGVINES,
         user.pointAt(:TanglingVines, target)
         target.hideMyAbilitySplash
 
+    }
+)
+
+BattleHandlers::TargetAbilityOnHit.add(:PRIMEVALFLOURISHING,
+    proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if target.fainted?
+        next -10 * aiNumHits if aiCheck
+        next if target.form == 0
+        target.showMyAbilitySplash(ability)
+        if target.effectActive?(:HitsThisTurn)
+            if target.effects[:HitsThisTurn] == 3
+                battler.pbChangeForm(0, _INTL("{1}'s growth was reverted!", target.pbThis))
+                case target.form
+                when 1
+                    target.pbLowerMultipleStatSteps(ALL_STATS_1, target, ability: ability)
+                when 2
+                    target.pbLowerMultipleStatSteps(ALL_STATS_2, target, ability: ability)
+                when 3
+                    target.pbLowerMultipleStatSteps(ALL_STATS_3, target, ability: ability)
+                end
+            else
+                battle.pbDisplay(_INTL("{1}'s growth was stunted!", target.pbThis))
+                target.incrementEffect(:HitsThisTurn)
+            end
+        else
+            battle.pbDisplay(_INTL("{1}'s growth was stunted!", target.pbThis))
+            target.applyEffect(:HitsThisTurn, 1)
+        end
+        target.hideMyAbilitySplash
     }
 )
