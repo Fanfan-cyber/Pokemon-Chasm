@@ -831,11 +831,12 @@ BattleHandlers::UserAbilityEndOfMove.add(:SPRIGHORNSTYLE,
     next if user.fainted?
     next if move.statusMove?
     showAbilitySplash = false
-    if (targets.any? {|target| target.effectActive?(:SprigHorn)})
+    if (targets.any? {|target| target.effectActive?(:SprigHorn) && !(target.damageState.missed || target.damageState.unaffected)})
       battle.pbShowAbilitySplash(user, ability)
       showAbilitySplash = true
     end
     targets.each do |target|
+      next if target.damageState.missed || target.damageState.unaffected
       if target.effectActive?(:SprigHorn)
         if !target.effectActive?(:Binding)
           trappingDuration = 3
@@ -847,6 +848,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:SPRIGHORNSTYLE,
         end
         user.pbRecoverHP(user.totalhp / 3.0, canOverheal: true)
         battle.pbHideAbilitySplash(user)
+        target.disableEffect(:SprigHorn)
       else
         target.applyEffect(:SprigHorn)
       end
@@ -862,17 +864,19 @@ BattleHandlers::UserAbilityEndOfMove.add(:SCYTHEHORNSTYLE,
     next if user.fainted?
     next if move.statusMove?
     showAbilitySplash = false
-    if (targets.any? {|target| target.effectActive?(:ScytheHorn)})
+    if (targets.any? {|target| target.effectActive?(:ScytheHorn) && !(target.damageState.missed || target.damageState.unaffected)})
       battle.pbShowAbilitySplash(user, ability)
       showAbilitySplash = true
     end
     targets.each do |target|
+      next if target.damageState.missed || target.damageState.unaffected
       if target.effectActive?(:ScytheHorn)
         target.applyEffect(:Fracture, applyEffectDurationModifiers(DEFAULT_FRACTURE_DURATION, user))
         if !user.pbOpposingSide.effectActive?(:StealthRock)
             battle.pbAnimation(:STEALTHROCK, user, nil)
             user.pbOpposingSide.applyEffect(:StealthRock)
         end
+        target.disableEffect(:ScytheHorn)
       else
         target.applyEffect(:ScytheHorn)
       end
@@ -888,17 +892,19 @@ BattleHandlers::UserAbilityEndOfMove.add(:SWORDHORNSTYLE,
     next if user.fainted?
     next if move.statusMove?
     showAbilitySplash = false
-    if (targets.any? {|target| target.effectActive?(:SwordHorn)})
+    if (targets.any? {|target| target.effectActive?(:SwordHorn) && !(target.damageState.missed || target.damageState.unaffected)})
       battle.pbShowAbilitySplash(user, ability)
       showAbilitySplash = true
     end
     targets.each do |target|
+      next if target.damageState.missed || target.damageState.unaffected
       if target.effectActive?(:SwordHorn)
         target.pbInflictStatus(:NUMB, 0, nil, user) if target.pbCanInflictStatus?(:NUMB, user, true)
         unless target.pbOwnSide.effectActive?(:Sanctuary)
             battle.pbAnimation(:SANCTUARY, target, nil)
             target.pbOwnSide.applyEffect(:Sanctuary, user.getScreenDuration(3))
         end
+        target.disableEffect(:SwordHorn)
       else
         target.applyEffect(:SwordHorn)
       end
