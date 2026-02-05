@@ -322,7 +322,7 @@ GameData::BattleEffect.register_effect(:Field, {
             battle.pbDisplay(_INTL("A howl can be heard in the distance! The Slumbering Shields wake!"))
         end
         slumberingShieldParties.each do |s|
-            battle.pbHidePokemonAbilitySplash(partyIndex)
+            battle.pbHidePokemonAbilitySplash(s)
         end
     end
 })
