@@ -1418,7 +1418,7 @@ class PokeBattle_ForetoldMove < PokeBattle_Move
         elsif @id == :GHOSTLYTALE
             @battle.pbDisplay(_INTL("{1} weaves a tale of woe and horror!", user.pbThis))
         elsif @id == :STROKEOFMIDNIGHT
-            @battle.pbDisplay(_INTL("{1} knows when {1}'s time will run out!", user.pbThis, target.pbThis(true)))
+            @battle.pbDisplay(_INTL("{1} knows when {2}'s time will run out!", user.pbThis, target.pbThis(true)))
         elsif @id == :LOOMINGWINTER
             @battle.pbDisplay(_INTL("{1} feels a chill on the air... winter is coming!", user.pbThis))
         else # Default, for Future Sight
