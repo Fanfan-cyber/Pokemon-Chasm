@@ -5872,7 +5872,7 @@ Target = NearOther
 FunctionCode = DisableTargetLastMoveUsed
 Flags = CanProtect,Blade
 EffectChance = 100
-Description = Splits off a section of the target's psyche. Disables their last used move for 5 turns.
+Description = Splits off a section of the target's psyche. Disables their last used move for five turns.
 Animation = PSYCHOCUT
 #-------------------------------
 [CORECOLLAPSE]
