@@ -2285,7 +2285,7 @@ Description = If an attack lowers this Pokémon's HP below half, the attacker be
 #-------------------------------
 [SWORDHORNSTYLE]
 Name = Sword-Horn Style
-Description = After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for 3 turns.
+Description = After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
 #-------------------------------
 [SWORDPLAY]
 Name = Swordplay
