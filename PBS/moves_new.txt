@@ -233,6 +233,18 @@ Flags = CanProtect
 Description = The user draws power to attack by using a held Berry. The Berry used determines its type.
 Animation = NATURALGIFT
 #-------------------------------
+[FANDANGO]
+Name = Fandango
+Type = NORMAL
+Category = Status
+Accuracy = 100
+TotalPP = 5
+Target = User
+FunctionCode = RaiseUserAndAlliesSpe1Acc4
+Flags = CanSnatch
+Description = The user performs a spirited dance for its allies and itself, raising their Speed and raising their Accuracy by four steps.
+Animation = TEETERDANCE
+#-------------------------------
 [FIREFOREFFECT]
 Name = Fire For Effect
 Type = NORMAL
@@ -475,6 +487,19 @@ FunctionCode = SetTargetTypesToChoiceOfDragonFairySteel
 Flags = CanProtect,CanMagicCoat
 Description = The user adorns itself or the target with precious stones, changing it to your choice of Fairy, Dragon, or Steel-type.
 Animation = LUCKYCHANT
+#-------------------------------
+[RELICRECITAL]
+Name = Relic Recital
+Type = NORMAL
+Category = Adaptive
+Power = 110
+Accuracy = 100
+TotalPP = 15
+Target = AllNearFoes
+FunctionCode = Basic
+Flags = CanProtect,Sound,Dance
+Description = The user performs a long-forgotten song and dance. This is both a Sound and Dance move.
+Animation = RELICSONG
 #-------------------------------
 [RETREAT]
 Name = Retreat
@@ -1059,6 +1084,19 @@ FunctionCode = RecoilQuarterOfDamageDealt
 Flags = CanProtect
 Description = A reckless rushing attack from the air. The user also takes 25% recoil.
 Animation = BRAVEBIRD
+#-------------------------------
+[ATMOSPHERICBURST]
+Name = Atmospheric Burst
+Type = FLYING
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 8
+Target = NearOther
+FunctionCode = DamageBoost30PercentSuperOrHyperEffective
+Flags = CanProtect
+Description = The user compresses air around the target to impossible density. If the move is super-effective or hyper-effective, damage is increased by 30%.
+Animation = TEMPEST
 #-------------------------------
 [BIRDSEYEVIEW]
 Name = Bird's-Eye View
@@ -6275,6 +6313,18 @@ FunctionCode = LowerTargetSpAtk5
 Flags = CanProtect,CanMagicCoat,Dance
 Description = The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
 Animation = COSMICPOWER
+#-------------------------------
+[SYNAPTICUNLOCK]
+Name = Synaptic Unlock
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = CureDizzyAndUnlockBothAbilities
+Flags = CanProtect,CanMagicCoat
+Description = The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it the legal ability it does not currently have.
+Animation = CALMMIND
 #-------------------------------
 [TOTALCONTROL]
 Name = Total Control

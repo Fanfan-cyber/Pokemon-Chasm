@@ -341,6 +341,22 @@ BattleHandlers::UserAbilityEndOfMove.add(:DYNAMO,
   }
 )
 
+BattleHandlers::UserAbilityEndOfMove.add(:LEADSINGER,
+  proc { |ability, user, _targets, move, battle, _switchedBattlers|
+      next if battle.foretoldMove
+      next unless move.soundMove?
+      next if user.effectActive?(:FollowMe)
+      battle.pbShowAbilitySplash(user, ability)
+      maxFollowMe = 0
+      user.eachAlly do |b|
+          next if b.effects[:FollowMe] <= maxFollowMe
+          maxFollowMe = b.effects[:FollowMe]
+      end
+      user.applyEffect(:FollowMe, maxFollowMe + 1)
+      battle.pbHideAbilitySplash(user)
+  }
+)
+
 BattleHandlers::UserAbilityEndOfMove.add(:MIDNIGHTOIL,
   proc { |ability, user, _targets, move, battle, _switchedBattlers|
       next if user.dummy
@@ -740,7 +756,155 @@ BattleHandlers::UserAbilityEndOfMove.add(:DISCOMBOBULATOR,
 BattleHandlers::UserAbilityEndOfMove.add(:HEROSJOURNEY,
   proc { |ability, user, targets, move, battle, _switchedBattlers|
     next if battle.pbAllFainted?(user.idxOpposingSide)
-    user.applyEffect(:HerosJourneyKO) if targets.any? { |b| b.damageState.fainted && b.opposes?(user) }
-    user.applyEffect(:HerosJourneyStatus) if move.statusMove?
+    if (targets.any? { |b| b.damageState.fainted && b.opposes?(user) }) && !user.pbOwnSide.effectActive?(:HerosJourneyKO)
+      battle.pbShowAbilitySplash(user, ability)
+      battle.pbDisplay(_INTL("{1} vanquishes its opponents!", user.pbThis))
+      user.pbOwnSide.applyEffect(:HerosJourneyKO)
+      battle.pbHideAbilitySplash(user)
+    end
+    if move.statusMove? && !user.pbOwnSide.effectActive?(:HerosJourneyStatus)
+      battle.pbShowAbilitySplash(user, ability)
+      battle.pbDisplay(_INTL("{1} draws strength from wisdom!", user.pbThis))
+      user.pbOwnSide.applyEffect(:HerosJourneyStatus)
+      battle.pbHideAbilitySplash(user)
+    end
+    checkHerosJourney(battle, user)
+  }
+)
+
+def checkHerosJourney(battle, battler)
+  return unless battler.hasActiveAbility?(:HEROSJOURNEY)
+  return unless battler.countsAs?(:KELDEO)
+  return unless battler.form == 0
+  return unless battler.pbOwnSide.effectActive?(:HerosJourneyKO)
+  return unless battler.pbOwnSide.effectActive?(:HerosJourneyStatus)
+  return unless battler.pbOwnSide.effectActive?(:HerosJourneyRevenge)
+  battler.showMyAbilitySplash(:HEROSJOURNEY)
+  battle.pbDisplay(_INTL("A fierce resolution gathers around {1}!", battler.pbThis))
+  battler.applyFractionalHealing(1.0)
+  battler.pbChangeForm(1, _INTL("{1} transformed!",battler.pbThis))
+  battler.hideMyAbilitySplash
+end
+
+BattleHandlers::UserAbilityEndOfMove.add(:RAGEMANEUVERS,
+  proc { |ability, user, targets, move, battle|
+    next unless move.rampagingMove?
+    next unless user.effectActive?(:Rampaging)
+    battle.pbShowAbilitySplash(user, ability)
+    battle.pbDisplay(_INTL("{1} keeps cool, and can switch between rampaging moves!", user.pbThis))
+    user.applyEffect(:RampageLocked)
+    battle.pbHideAbilitySplash(user)
+  }
+)
+
+BattleHandlers::UserAbilityEndOfMove.add(:REMANENTVOLTAGE,
+  proc { |ability, user, targets, move, battle|
+    next unless move.exhaustingMove?
+    next unless user.effectActive?(move.exhaustionTracker)
+    battle.pbShowAbilitySplash(user, ability)
+    battle.pbDisplay(_INTL("Leftover energy runs through {1} despite exhaustion!", user.pbThis(true)))
+    user.applyEffect(:BypassExhaustion)
+    user.applyEffect(:TypeRestricted, :ELECTRIC)
+    user.applyEffect(:TypeRestrictedTurns, 2)
+    battle.pbHideAbilitySplash(user)
+  }
+)
+
+BattleHandlers::UserAbilityEndOfMove.add(:PRIMEVALMEGALAUNCHER,
+  proc { |ability, user, targets, move, battle|
+  next unless move.pulseMove?
+    targets.each do |t|
+      next if t.damageState.fainted
+      next if t.damageState.unaffected
+      t.applyEffect(:IncomingDamageTurns, 2)
+      t.applyEffect(:IncomingDamageAmount, (t.damageState.totalHPLost/10.0).ceil)
+    end
+  }
+)
+
+#########################################
+# Swords of Justice Abilities
+#########################################
+
+BattleHandlers::UserAbilityEndOfMove.add(:SPRIGHORNSTYLE,
+  proc { |ability, user, targets, move, battle|
+    next if user.fainted?
+    next if move.statusMove?
+    showAbilitySplash = false
+    if (targets.any? {|target| target.effectActive?(:SprigHorn)})
+      battle.pbShowAbilitySplash(user, ability)
+      showAbilitySplash = true
+    end
+    targets.each do |target|
+      if target.effectActive?(:SprigHorn)
+        if !target.effectActive?(:Binding)
+          trappingDuration = 3
+          trappingDuration *= 2 if user.hasActiveItem?(:GRIPCLAW)
+          battle.pbDisplay(_INTL("{1} is caught in vines!", target.pbThis))
+          target.applyEffect(:Binding, applyEffectDurationModifiers(trappingDuration, user))
+          target.applyEffect(:TrappingAbility, :SPRIGHORNSTYLE)
+          target.pointAt(:TrappingUser, user)
+        end
+        user.pbRecoverHP(user.totalhp / 3.0, canOverheal: true)
+        battle.pbHideAbilitySplash(user)
+      else
+        target.applyEffect(:SprigHorn)
+      end
+    end
+    if showAbilitySplash
+      battle.pbHideAbilitySplash(user)
+    end
+  }
+)
+
+BattleHandlers::UserAbilityEndOfMove.add(:SCYTHEHORNSTYLE,
+  proc { |ability, user, targets, move, battle|
+    next if user.fainted?
+    next if move.statusMove?
+    showAbilitySplash = false
+    if (targets.any? {|target| target.effectActive?(:ScytheHorn)})
+      battle.pbShowAbilitySplash(user, ability)
+      showAbilitySplash = true
+    end
+    targets.each do |target|
+      if target.effectActive?(:ScytheHorn)
+        target.applyEffect(:Fracture, applyEffectDurationModifiers(DEFAULT_FRACTURE_DURATION, user))
+        if !user.pbOpposingSide.effectActive?(:StealthRock)
+            battle.pbAnimation(:STEALTHROCK, user, nil)
+            user.pbOpposingSide.applyEffect(:StealthRock)
+        end
+      else
+        target.applyEffect(:ScytheHorn)
+      end
+    end
+    if showAbilitySplash
+      battle.pbHideAbilitySplash(user)
+    end
+  }
+)
+
+BattleHandlers::UserAbilityEndOfMove.add(:SWORDHORNSTYLE,
+  proc { |ability, user, targets, move, battle|
+    next if user.fainted?
+    next if move.statusMove?
+    showAbilitySplash = false
+    if (targets.any? {|target| target.effectActive?(:SwordHorn)})
+      battle.pbShowAbilitySplash(user, ability)
+      showAbilitySplash = true
+    end
+    targets.each do |target|
+      if target.effectActive?(:SwordHorn)
+        target.pbInflictStatus(:NUMB, 0, nil, user) if target.pbCanInflictStatus?(:NUMB, user, true)
+        unless target.pbOwnSide.effectActive?(:Sanctuary)
+            battle.pbAnimation(:SANCTUARY, target, nil)
+            target.pbOwnSide.applyEffect(:Sanctuary, user.getScreenDuration(3))
+        end
+      else
+        target.applyEffect(:SwordHorn)
+      end
+    end
+    if showAbilitySplash
+      battle.pbHideAbilitySplash(user)
+    end
   }
 )
