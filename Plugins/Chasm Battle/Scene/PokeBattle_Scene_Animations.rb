@@ -211,7 +211,7 @@ class PokeBattle_Scene
     end
 
     def pbShowPokemonAbilitySplash(pkmn, sideIndex, ability)
-      pbHideAbilitySplash(battler) if @sprites["abilityBar_#{sideIndex}"].visible
+      pbHidePokemonAbilitySplash(sideIndex) if @sprites["abilityBar_#{sideIndex}"].visible
       splashBar = @sprites["abilityBar_#{sideIndex}"]
       splashBar.setSpeciesIcon(GameData::Species.icon_filename_from_pokemon(pkmn))
       splashBar.mirrorSpeciesIcon(sideIndex == 0)

@@ -1265,6 +1265,20 @@ Flags = CanSnatch
 Description = The user takes off at sonic speeds, raising its Speed by four steps and gaining the Flying type.
 Animation = AGILITY
 #-------------------------------
+[MACHPULSE]
+Name = Mach Pulse
+Type = FLYING
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseUserSpd1
+Flags = CanProtect,Pulse
+EffectChance = 20
+Description = The user launches a pulse in the form of a shock wave. It has a 20% chance to raise Speed.
+Animation = SONICBOOM
+#-------------------------------
 [POUNCE]
 Name = Pounce
 Type = FLYING
@@ -1358,6 +1372,20 @@ Flags = CanProtect,Wind
 EffectChance = 100
 Description = Chaotic winds push the target around, dizzying it.
 Animation = HURRICANE
+#-------------------------------
+[THRUSTPULSE]
+Name = Thrust Pulse
+Type = FLYING
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RaiseUserSpd1
+Flags = CanProtect,Pulse
+EffectChance = 100
+Description = The user shoots out a pulse of driving energy. Building up more power, it raises the user's Speed.
+Animation = SONICBOOM
 #-------------------------------
 [VOLLEY]
 Name = Volley
