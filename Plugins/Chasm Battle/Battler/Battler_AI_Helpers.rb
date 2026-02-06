@@ -641,6 +641,7 @@ class PokeBattle_Battler
         50 => 0,
         55 => 0,
         60 => 0,
+        65 => 0,
         70 => 0,
     }
     
