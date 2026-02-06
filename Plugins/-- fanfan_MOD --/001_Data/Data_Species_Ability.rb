@@ -28,6 +28,8 @@ SPECIES_ABILITY_DATA = {
   [:GDARMANITAN, 0] => { :fixed => %i[], :changeable => %i[GORILLATACTICS INNERFOCUS], },
   [:GDARMANITAN, 1] => { :fixed => %i[], :changeable => %i[INNERFOCUS PHASESHIFT], },
 
+  [:GYARADOS, 1]    => { :fixed => %i[], :changeable => %i[JUGGERNAUT INTIMIDATE], },
+
   [:HAPPINY, 0]     => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
   [:CHANSEY, 0]     => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
   [:BLISSEY, 0]     => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },
@@ -83,6 +85,8 @@ SPECIES_ABILITY_DATA = {
   [:PORYGON2, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
   [:PORYGONZ, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
 
+  [:RAYQUAZA, 1]    => { :fixed => %i[], :changeable => %i[JUGGERNAUT DELTASTREAM], },
+
   [:SALANDIT, 0]    => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
   [:SALAZZLE, 0]    => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
 
@@ -102,6 +106,9 @@ SPECIES_ABILITY_DATA = {
 
   [:WIMPOD, 0]      => { :fixed => %i[], :changeable => %i[WIMPOUT SELECTIVESCUTES], },
   [:GOLISOPOD, 0]   => { :fixed => %i[], :changeable => %i[EMERGENCYEXIT SELECTIVESCUTES], },
+
+  [:ZACIAN, 1]      => { :fixed => %i[], :changeable => %i[STAINLESSSTEEL SWORDSMITHING], },
+  [:ZAMAZENTA, 1]   => { :fixed => %i[], :changeable => %i[STAINLESSSTEEL SHIELDSMITHING], },
 
   [:ZORUA, 0]       => { :fixed => %i[], :changeable => %i[ILLUSION RELENTLESSPURSUIT], },
   [:ZOROARK, 0]     => { :fixed => %i[], :changeable => %i[ILLUSION RELENTLESSPURSUIT], },

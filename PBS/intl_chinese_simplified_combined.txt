@@ -31058,7 +31058,9 @@ Noice Face
 Hangry
 饿怒
 Crowned
-戴冠
+冠冕
+Meteoric
+流星
 Rapid Strike
 连击流
 Ice
@@ -38453,9 +38455,9 @@ The fossil of an ancient Pokémon that once roamed the land. Is it Dracozolt or 
 The fossil of an ancient Pokémon that once lived in the sea. Is it Arctozolt or Arctovish...?
 一种曾生活在海里的古代精灵的化石。是雷鸟海兽还是鳃鱼海兽...？
 Used by a hero to halt a terrible disaster. If given to Zamazenta, turns it into its Crowned form.
-被英雄用来阻止一场可怕的灾难。如果给藏马然特，会使其变成其盾之王形态。
+被英雄用来阻止一场可怕的灾难。如果给藏马然特，会使其变成其冠冕形态。
 Used by a hero to halt a terrible disaster. If given to Zacian, turns it into its Crowned form.
-被英雄用来阻止一场可怕的灾难。如果给苍响，会使其变成其剑之王形态。
+被英雄用来阻止一场可怕的灾难。如果给苍响，会使其变成其冠冕形态。
 Reins that people presented to the king. They enable Calyrex to connect and communicate with its beloved steed.
 拿到光下即可生辉的布。人们曾经将其进献给丰饶之王以表感谢之意。
 A charm that increases the Exp. Points that Pokémon can get by 10%. A machine-like object is inside the charm.
