@@ -69,13 +69,14 @@ class Trainer
     pkmn_clone ? pkmn.clone_pkmn(pkmn_clone, used_by_player) : pkmn
   end
 
-  def least_copied_pokemon
+  def most_battled_pkmn
     return nil if pokemon_party.empty?
-    min_times = pokemon_party.map(&:copied_times).min
-    candidates = pokemon_party.select { |pkmn| pkmn.copied_times == min_times }
+    pokemon_party.each { |pkmn| pkmn.battled_times += 1 }
+    max_times = pokemon_party.map(&:battled_times).max
+    candidates = pokemon_party.select { |pkmn| pkmn.battled_times == max_times }
     selected = candidates.sample
-    selected.copied_times += 1
-    selected.clone_pkmn
+    selected.battled_times = 0
+    return selected.clone_pkmn
   end
 
   def party_items

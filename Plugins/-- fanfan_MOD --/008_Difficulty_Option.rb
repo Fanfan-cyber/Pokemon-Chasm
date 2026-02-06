@@ -20,7 +20,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Pokemon Copying
   next if length >= $Trainer.party.length
   if length < 6 || TA.get(:copywhatever)
     #copied_pkmn = $Trainer.party_random_pkmn(false, true, false, TA.get(:copied_mon, []))
-    copied_pkmn = $Trainer.least_copied_pokemon
+    copied_pkmn = $Trainer.most_battled_pkmn
     next unless copied_pkmn
     copied_pkmn.copied_level = copied_pkmn.level
     party << copied_pkmn
@@ -36,6 +36,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Level Sacling
   trainer.party.each do |pkmn|
     if pkmn.copied_level
       pkmn.level = pkmn.copied_level - 1
+      pkmn.copied_level = nil
     else
       pkmn.level = higher_level # level
       pkmn.level += 1 if pkmn.level < MAX_LEVEL_CAP && rand(100) < 30 

@@ -1,9 +1,9 @@
 class Pokemon
   attr_accessor :copied_level
-  attr_writer :copied_times
+  attr_writer :battled_times
 
-  def copied_times
-    @copied_times ||= 0
+  def battled_times
+    @battled_times ||= 0
   end
 
   def used_by_player?
