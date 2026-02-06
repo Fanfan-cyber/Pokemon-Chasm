@@ -119,6 +119,7 @@ class PokeBattle_Battle
             next if b.movedThisRound?
             next unless b.hasActiveAbility?(:SCENECHANGE)
             move = @choices[b.index][2]
+            next if move.statusMove?
             next if move.callsAnotherMove?
             newForm = move.physicalMove? ? 1 : 0
             next unless newForm
