@@ -2681,6 +2681,7 @@ GameData::BattleEffect.register_effect(:Battler, {
         battler.pbReduceHP(damageTaken, false)
         battler.pbHealthLossChecks(oldHP)
     end
+    :sub_effects => [:IncomingDamageAmount]
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
@@ -2688,7 +2689,6 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Incoming Damage Amount",
     :type => :Integer,
     :info_displayed => false,
-    :sub_effects => [:IncomingDamageTurns]
 })
 
 GameData::BattleEffect.register_effect(:Battler, {

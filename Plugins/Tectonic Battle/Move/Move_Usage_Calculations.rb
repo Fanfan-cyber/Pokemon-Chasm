@@ -45,6 +45,7 @@ class PokeBattle_Move
     #=============================================================================
     # Type effectiveness calculation
     #=============================================================================
+=begin
     def pbCalcTypeModSingle(moveType, defType, user = nil, target = nil)
         ret = Effectiveness.calculate_one(moveType, defType)
         # Ring Target
@@ -63,6 +64,35 @@ class PokeBattle_Move
         if GameData::Ability.getByFlag("BypassTypeImmunity").any? { |abil| user&.hasActiveAbility?(abil)} && Effectiveness.ineffective_type?(moveType, defType)
             ret = Effectiveness::NORMAL_EFFECTIVE
         end
+
+        new_ret = @battle&.apply_inverse(ret)
+        ret = new_ret if new_ret
+
+        ret_type = @battle&.apply_field_effect(:add_move_second_type, self, ret, moveType, defType, user, target)
+        if ret_type && GameData::Type.exists?(ret_type)
+            ret *= @battle.apply_inverse(Effectiveness.calculate_one(ret_type, defType))
+        end
+        return ret
+    end
+=end
+    def pbCalcTypeModSingle(moveType, defType, user = nil, target = nil)
+        ret = Effectiveness.calculate_one(moveType, defType)
+        if Effectiveness.ineffective_type?(moveType, defType)
+            # Ring Target, Break Through
+            if target&.hasActiveItem?(:RINGTARGET) || GameData::Ability.getByFlag("BypassTypeImmunity").any? { |abil| user&.hasActiveAbility?(abil)}
+                ret = Effectiveness::NORMAL_EFFECTIVE
+            end
+        elsif Effectiveness.super_effective_type?(moveType, defType)
+            # Delta Stream's weather
+            if @battle&.pbWeather == :StrongWinds && defType == :FLYING
+                ret = Effectiveness::NORMAL_EFFECTIVE
+            end
+            # Inured
+            ret *= 0.5 if target&.effectActive?(:Inured)
+        end
+
+        # Grounded Flying-type Pokémon become susceptible to Ground moves
+        ret = Effectiveness::NORMAL_EFFECTIVE if !target&.airborne? && moveType == :GROUND && defType == :FLYING
 
         new_ret = @battle&.apply_inverse(ret)
         ret = new_ret if new_ret

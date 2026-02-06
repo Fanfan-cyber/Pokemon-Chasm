@@ -60,7 +60,7 @@ class PokeBattle_Move
             end
         end
 
-        if user.hasAbility?(:STAYOFEXECUTION) && bladeMove?
+        if user.shouldAbilityApply?(:STAYOFEXECUTION, aiCheck) && bladeMove?
             delayedDamage = finalCalculatedDamage
             finalCalculatedDamage = 0
             if delayedDamage > 0 && !aiCheck
@@ -600,10 +600,10 @@ class PokeBattle_Move
 
         if aiCheck
             # Parental Bond
-            if user.hasActiveAbility?(:PARENTALBOND) || (user.hasActiveAbility?(:STRIKETWICE) && @battle.rainy?)
+            if user.hasActiveAbility?(:PARENTALBOND) || user.hasActiveAbility?(:STRIKETWICE) && @battle.rainy?
                 multipliers[:base_damage_multiplier] *= 1.25
             end
-            if (user.hasActiveAbility?(:DIFFRACTION) && user.protectedByScreen?)
+            if user.hasActiveAbility?(:DIFFRACTION) && user.protectedByScreen?
                 multipliers[:base_damage_multiplier] *= (4.0 / 3.0)
             end
                 

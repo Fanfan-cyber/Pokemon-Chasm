@@ -305,7 +305,7 @@ class Pokemon
     end
 
     def pinch?
-        return able? && @hp < @totalhp / 3
+        return @hp < @totalhp / 3
     end
 
     # Heals all HP of this Pokémon.

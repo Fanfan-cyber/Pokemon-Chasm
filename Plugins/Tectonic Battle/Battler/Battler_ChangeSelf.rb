@@ -913,10 +913,10 @@ end
             hideMyAbilitySplash
         end
 
-        if trigger && (immutableAbility? || abilityActive?)
-            #BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle)
-            #BattleHandlers.triggerStatusCureAbility(newAbility, self)
-            pbEffectsOnSwitchIn
+        if trigger && (GameData::Ability.get(newAbility).is_immutable_ability? || abilityActive?)
+            BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle)
+            BattleHandlers.triggerStatusCureAbility(newAbility, self)
+            #pbEffectsOnSwitchIn
         end
         return newAbility
     end

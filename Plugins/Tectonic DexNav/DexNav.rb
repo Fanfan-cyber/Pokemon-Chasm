@@ -264,58 +264,58 @@ class NewDexNav
             end
           end
 =begin
-					if debugControl
-						pbAddPokemonSilent(highlightedSpeciesData.species,getLevelCap)
-						pbMessage(_INTL("Added {1}", highlightedSpeciesData.species))
-						next
-					end
-					unless $Trainer.pokedex.seen?(highlightedSpecies)
-						pbPlayBuzzerSE
-						next
-					end
-					cmdStartSearch = -1
-					cmdMasterDex = -1
-					cmdToggleStarring = -1
-					commands = []
-					if $Trainer.pokedex.owned?(highlightedSpecies)
-						if $PokemonTemp.currentDexSearch != nil && $PokemonTemp.currentDexSearch.is_a?(Array)
-							commands[cmdStartSearch = commands.length] = _INTL("Replace Search")	
-						else
-							commands[cmdStartSearch = commands.length] = _INTL("Search Nearby")				
-						end
-					end
-					commands[cmdMasterDex = commands.length] = _INTL("MasterDex")
-					if $PokemonGlobal.speciesStarred?(highlightedSpecies)
-						commands[cmdToggleStarring = commands.length] = _INTL("Un-Star Species")
-					else
-						commands[cmdToggleStarring = commands.length] = _INTL("Star Species")
-					end
-					commands.push(_INTL("Cancel"))
-					command = pbMessage(_INTL("Do what with this species?"),commands,commands.length)
-					if command == cmdStartSearch && cmdStartSearch > -1
-						if $catching_minigame.active?
-							pbPlayBuzzerSE
-							pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
-							next
-						end
-						searchTime = 15 + rand(40)
-						pbMessage(_INTL("Searching\\ts[15]...\\wtnp[{1}]", searchTime))
-						pbMessage(_INTL("Oh! A {1} was found nearby!", highlightedSpeciesData.real_name))
-						pbFadeOutAndHide(@sprites)
-						generateSearch(highlightedSpeciesData)
-						$search_overlay.dispose if $search_overlay
-						$search_overlay = DexNav_SearchOverlay.new
-						break
-					elsif command == cmdMasterDex && cmdMasterDex > -1
-						@sprites["nav_arrow"].visible = false
-						$Trainer.pokedex.set_last_form_seen(highlightedSpeciesData.species, 0, highlightedSpeciesData.form)
-						openSingleDexScreen(highlightedSpeciesData.species)
-						@sprites["nav_arrow"].visible = true
-					elsif command == cmdToggleStarring && cmdToggleStarring > -1
-						$PokemonGlobal.toggleStarred(highlightedSpecies)
-						pbPlayDecisionSE
-						drawSprites
-					end
+          if debugControl
+            pbAddPokemonSilent(highlightedSpeciesData.species,getLevelCap)
+            pbMessage(_INTL("Added {1}", highlightedSpeciesData.species))
+            next
+          end
+          unless $Trainer.pokedex.seen?(highlightedSpecies)
+            pbPlayBuzzerSE
+            next
+          end
+          cmdStartSearch = -1
+          cmdMasterDex = -1
+          cmdToggleStarring = -1
+          commands = []
+          if $Trainer.pokedex.owned?(highlightedSpecies)
+            if $PokemonTemp.currentDexSearch != nil && $PokemonTemp.currentDexSearch.is_a?(Array)
+              commands[cmdStartSearch = commands.length] = _INTL("Replace Search")	
+            else
+              commands[cmdStartSearch = commands.length] = _INTL("Search Nearby")				
+            end
+          end
+          commands[cmdMasterDex = commands.length] = _INTL("MasterDex")
+          if $PokemonGlobal.speciesStarred?(highlightedSpecies)
+            commands[cmdToggleStarring = commands.length] = _INTL("Un-Star Species")
+          else
+            commands[cmdToggleStarring = commands.length] = _INTL("Star Species")
+          end
+          commands.push(_INTL("Cancel"))
+          command = pbMessage(_INTL("Do what with this species?"),commands,commands.length)
+          if command == cmdStartSearch && cmdStartSearch > -1
+            if $catching_minigame.active?
+              pbPlayBuzzerSE
+              pbMessage(_INTL("This feature of the DexNav is unavailable during this minigame."))
+              next
+            end
+            searchTime = 15 + rand(40)
+            pbMessage(_INTL("Searching\\ts[15]...\\wtnp[{1}]", searchTime))
+            pbMessage(_INTL("Oh! A {1} was found nearby!", highlightedSpeciesData.real_name))
+            pbFadeOutAndHide(@sprites)
+            generateSearch(highlightedSpeciesData)
+            $search_overlay.dispose if $search_overlay
+            $search_overlay = DexNav_SearchOverlay.new
+            break
+          elsif command == cmdMasterDex && cmdMasterDex > -1
+            @sprites["nav_arrow"].visible = false
+            $Trainer.pokedex.set_last_form_seen(highlightedSpeciesData.species, 0, highlightedSpeciesData.form)
+            openSingleDexScreen(highlightedSpeciesData.species)
+            @sprites["nav_arrow"].visible = true
+          elsif command == cmdToggleStarring && cmdToggleStarring > -1
+            $PokemonGlobal.toggleStarred(highlightedSpecies)
+            pbPlayDecisionSE
+            drawSprites
+          end
 =end
         elsif Input.trigger?(Input::BACK)
           break

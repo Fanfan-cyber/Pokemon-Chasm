@@ -217,7 +217,7 @@ module BattleHandlers
     end
 
     def self.triggerAbilityOnHPDropped(ability, user, battle, old_fraction, new_fraction)
-        AbilityOnHPDropped.trigger(ability, user, battle)
+        AbilityOnHPDropped.trigger(ability, user, battle, old_fraction, new_fraction)
     end
 
     #=============================================================================

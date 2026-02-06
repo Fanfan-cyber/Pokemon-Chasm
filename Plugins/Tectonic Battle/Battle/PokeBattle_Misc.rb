@@ -113,7 +113,7 @@ class PokeBattle_Battle
     def pbCheckSlumbering
         if @turnCount == 10 && (
             (anyMonSlumberingShield? && !@field.effectActive?(:SlumberingShieldReady)) || 
-            (anyMonSlumberingSword? && !@field.effectActive?(:SlumberingShieldReady)))
+            (anyMonSlumberingSword? && !@field.effectActive?(:SlumberingSwordReady)))
             pbDisplay(_INTL("The battle reaches an apex!"))
             @field.applyEffect(:SlumberingShieldReady) if anyMonSlumberingShield?
             @field.applyEffect(:SlumberingSwordReady) if anyMonSlumberingSword?
@@ -307,6 +307,7 @@ class PokeBattle_Battle
     end
 
     def aiLearnsPokemonAbility(pkmn, ownerIndex, ability)
+        return # don't need to learn anymore
         return unless ownerIndex == 0
         return if @knownAbilities[pkmn.personalID].include?(ability)
         @knownAbilities[pkmn.personalID].push(ability)

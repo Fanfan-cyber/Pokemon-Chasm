@@ -27,6 +27,12 @@ class Pokemon
     end
   end
 
+  def eachAbility
+      abilities.each do |abilityID|
+        yield abilityID
+      end
+  end
+
   def hasAbility?(check_ability = nil)
     return !ability.nil? if check_ability.nil?
     return abilities.include?(check_ability) if check_ability.is_a?(Symbol)

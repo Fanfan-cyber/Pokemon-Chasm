@@ -257,9 +257,12 @@ class PokeBattle_Scene
         commands[commands.length]              = _INTL("Cancel")
         command = scene.pbShowCommands(_INTL("Do what with {1}?",modParty[idxParty].name),commands)
         if cmdSwitch >= 0 && command==cmdSwitch        # Switch In
-          cannotJoin = BattleHandlers.triggerForbidsUserSwitchInAbility(
-            modParty[idxParty].ability, @battle, modParty[idxParty], idxBattler % 2, @battle.pbGetOwnerIndexFromBattlerIndex(idxBattler), idxParty, true
-          )
+          modParty[idxParty].eachAbility do |abilityID|
+              cannotJoin = BattleHandlers.triggerForbidsUserSwitchInAbility(
+                abilityID, @battle, modParty[idxParty], idxBattler % 2, @battle.pbGetOwnerIndexFromBattlerIndex(idxBattler), idxParty, true
+              )
+              break if cannotJoin
+          end
           if !cannotJoin
             idxPartyRet = -1
             partyPos.each_with_index do |pos,i|

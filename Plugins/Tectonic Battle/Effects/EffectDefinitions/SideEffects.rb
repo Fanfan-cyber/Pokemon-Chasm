@@ -1076,23 +1076,17 @@ GameData::BattleEffect.register_effect(:Side, {
             value[key] -= 1
             pkmn = battle.pbParty(side.index)[key]
             if pkmn
-                if value[key] <= 0
+                revive_turn = value[key]
+                pkmn_name = side.index == 0 ? pkmn.name : _INTL("The opposing {1}", pkmn.name)
+                if revive_turn <= 0
                     # Revive the pokemon
                     pkmn.heal_HP
                     pkmn.heal_status
                     pkmn.heal_PP
-                    if side.index == 0
-                        battle.pbDisplay(_INTL("{1} recovered to full health!", pkmn.name))
-                    else
-                        battle.pbDisplay(_INTL("The opposing {1} recovered to full health!", pkmn.name))
-                    end
+                    battle.pbDisplay(_INTL("{1} recovered to full health!", pkmn_name))
                     value[key] = nil
-                elsif value[key] == 1
-                    if side.index == 0
-                        battle.pbDisplay(_INTL("{1} is reviving!", pkmn.name))
-                    else
-                        battle.pbDisplay(_INTL("The opposing {1} is reviving!", pkmn.name))
-                    end
+                elsif revive_turn == 1
+                    battle.pbDisplay(_INTL("{1} is reviving!", pkmn_name))
                 end
             end
         end

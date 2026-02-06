@@ -372,7 +372,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:DYNAMO,
 
 BattleHandlers::UserAbilityEndOfMove.add(:LEADSINGER,
   proc { |ability, user, _targets, move, battle, _switchedBattlers|
-      next if battle.foretoldMove
+      next if user.dummy
       next unless move.soundMove?
       next if user.effectActive?(:FollowMe)
       battle.pbShowAbilitySplash(user, ability)
