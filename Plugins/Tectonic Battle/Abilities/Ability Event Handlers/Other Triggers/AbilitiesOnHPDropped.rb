@@ -1,5 +1,5 @@
 BattleHandlers::AbilityOnHPDropped.add(:PRIMEVALBOULDERNEST,
-    proc { |ability, battler, battle, old_fraction, new_fraction|
+    proc { |ability, battler, battle, old_fraction, new_fraction, damage, damage_fraction|
         next if old_fraction <= 3.0/4.0
         next unless new_fraction <= 3.0/4.0
         battle.pbShowAbilitySplash(battler, ability)

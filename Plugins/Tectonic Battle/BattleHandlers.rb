@@ -211,13 +211,13 @@ module BattleHandlers
         return !ret.nil? ? ret : false
     end
 
-    def self.triggerAbilityOnHPDroppedBelowHalf(ability, user, battle)
-        ret = AbilityOnHPDroppedBelowHalf.trigger(ability, user, battle)
+    def self.triggerAbilityOnHPDroppedBelowHalf(ability, battler, battle)
+        ret = AbilityOnHPDroppedBelowHalf.trigger(ability, battler, battle)
         return !ret.nil? ? ret : false
     end
 
-    def self.triggerAbilityOnHPDropped(ability, user, battle, old_fraction, new_fraction)
-        AbilityOnHPDropped.trigger(ability, user, battle, old_fraction, new_fraction)
+    def self.triggerAbilityOnHPDropped(ability, battler, battle, old_fraction, new_fraction, damage, damage_fraction)
+        AbilityOnHPDropped.trigger(ability, battler, battle, old_fraction, new_fraction, damage, damage_fraction)
     end
 
     #=============================================================================
