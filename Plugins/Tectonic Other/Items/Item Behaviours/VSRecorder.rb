@@ -1,4 +1,5 @@
 ItemHandlers::UseFromBag.add(:VSRECORDER, proc { |item|
+  pbMessage(_INTL("The VS Recorder is WIP so it might have some bugs!"))
   if $current_save_file_name.nil?
 		pbMessage(_INTL("The VS Recorder buzzes erratically. Save your progress to make it work properly."))
 		next 0
