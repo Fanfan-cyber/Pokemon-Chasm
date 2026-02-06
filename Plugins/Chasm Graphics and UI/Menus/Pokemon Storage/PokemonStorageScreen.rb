@@ -173,7 +173,7 @@ class PokemonStorageScreen
     end
 
     def pbAble?(pokemon)
-        pokemon && pokemon.able?(false, GameData::Ability.getByFlag("UnableByDefault"))
+        pokemon && pokemon.able?
     end
 
     def pbAbleCount

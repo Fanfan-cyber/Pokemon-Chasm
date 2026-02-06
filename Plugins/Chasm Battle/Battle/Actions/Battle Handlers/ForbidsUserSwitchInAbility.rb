@@ -31,8 +31,8 @@ BattleHandlers::ForbidsUserSwitchInAbility.add(:SLUMBERINGSWORD,
 
 BattleHandlers::ForbidsUserSwitchInAbility.add(:PRIMORDIALSEAL,
     proc { |ability, battle, partyMember, side, idxTrainer, idxParty, show_messages|
-        next false if battle.haveSpeciesEnteredBattle?([:REGIDRAGO, :REGICE, :REGIROCK, :REGISTEEL, :REGIELEKI]) if show_messages
-        pbMessage(_INTL("{1} refuses to join the battle! It waits for its kin!", partyMember.name))
+        next false if battle.haveSpeciesEnteredBattle?([:REGIDRAGO, :REGICE, :REGIROCK, :REGISTEEL, :REGIELEKI])
+        pbMessage(_INTL("{1} refuses to join the battle! It waits for its kin!", partyMember.name)) if show_messages
         next true
     }
 )
