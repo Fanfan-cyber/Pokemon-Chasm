@@ -116,7 +116,7 @@ class PokeBattle_AI
         # Other things that affect the stay in rating
         stayInRating += miscStayInRatingModifiers(battler)
         stayInRating += speedTierRating(battler)
-        stayInRating += battler.levelNerf(true,false,0.4).round if battler.level <= 30 # AI nerf
+        stayInRating += battler.levelNerfSwitch(0.4).round # AI nerf
 
         # Determine who to swap into if at all
         PBDebug.log("[AI SWITCH] #{battler.pbThis} (#{battler.index}) is trying to find a switch. Staying in is rated: #{stayInRating}.")
