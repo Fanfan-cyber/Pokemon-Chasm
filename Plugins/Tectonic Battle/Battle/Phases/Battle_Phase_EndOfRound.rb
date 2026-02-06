@@ -155,6 +155,9 @@ class PokeBattle_Battle
             b.modifyTrackersEOR
         end
 
+        #Slumbering Shield, Slumbering Sword
+        pbCheckSlumbering
+
         # Neutralizing Gas
         pbCheckNeutralizingGas
 

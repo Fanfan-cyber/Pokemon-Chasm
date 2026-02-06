@@ -79,6 +79,18 @@ BattleHandlers::TargetAbilityAfterMoveUse.add(:PLASMAGLOBE,
   }
 )
 
+BattleHandlers::TargetAbilityAfterMoveUse.add(:PRMIVALSWORDBREAKER,
+  proc { |ability, target, user, move, _switched, battle|
+      next unless move.damagingMove?
+      next if target.damageState.unaffected
+      next if target.damageState.totalHPLost < 120
+      next if user.effectActive?(:Fracture)
+      battle.pbShowAbilitySplash(target, ability)
+      user.applyEffect(:Fracture, applyEffectDurationModifiers(DEFAULT_FRACTURE_DURATION, target))
+      battle.pbHideAbilitySplash(target)
+  }
+)
+
 BattleHandlers::TargetAbilityAfterMoveUse.add(:ABOVEITALL,
   proc { |ability, target, user, move, _switched, battle|
       next if target.fainted?

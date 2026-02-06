@@ -60,7 +60,7 @@ class PokeBattle_Move
         # Inured
         ret *= 0.5 if target&.effectActive?(:Inured) && Effectiveness.super_effective_type?(moveType, defType)
         # Break Through
-        if user&.hasActiveAbility?([:BREAKTHROUGH, :UNBOUND]) && Effectiveness.ineffective_type?(moveType, defType)
+        if GameData::Ability.getByFlag("BypassTypeImmunity").any? { |abil| user&.hasActiveAbility?(abil)} && Effectiveness.ineffective_type?(moveType, defType)
             ret = Effectiveness::NORMAL_EFFECTIVE
         end
 
@@ -346,7 +346,7 @@ class PokeBattle_Move
         return true if pbCriticalOverride(user, target) > 0
         return true if user.effectActive?(:AncestralSummonsReceiver)
         user.eachActiveAbility do |ability|
-            return true if BattleHandlers.triggerGuaranteedCriticalUserAbility(ability, user, target, @battle)
+            return true if BattleHandlers.triggerGuaranteedCriticalUserAbility(ability, user, target, @battle, self)
             return true if AbilitySystem.apply_effect(:GuaranteedCriticalUserAbility, ability, self, user, target, @battle, checkingForAI)
         end
         return false

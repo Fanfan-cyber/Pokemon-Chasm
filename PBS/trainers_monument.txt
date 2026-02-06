@@ -528,7 +528,7 @@ Pokemon = CROBAT,70
     EV = 10,10,20,10,10,0
 Pokemon = SAMUROTT,70
     Moves = SACREDSWORD,RAZORSHELL,SLAY,XSCISSOR
-    AbilityIndex = 1 # Swordplay
+    AbilityIndex = 1 # Stay of Execution
     Item = CHOICESCARF
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,15,15,20,0
@@ -2099,7 +2099,7 @@ Pokemon = AMUK,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,20,0,20,0
 Pokemon = TROPIUS,70
-    Moves = DEFOG,GIGADRAIN,COLDFRONT,LEECHSEED
+    Moves = DEFOG,GIGADRAIN,MACHPULSE,LEECHSEED
     AbilityIndex = 0 # Mental Block
     Item = ENERGYLOCK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2176,7 +2176,7 @@ Pokemon = APERSIAN,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,20,0,10,0
 Pokemon = MINIOR,70
-    Moves = POWERGEM,COLDFRONT,METEORBEAM,EARTHPOWER
+    Moves = POWERGEM,MACHPULSE,METEORBEAM,EARTHPOWER
     AbilityIndex = 0 # Shields Down
     Item = POWERHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

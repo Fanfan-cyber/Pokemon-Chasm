@@ -914,8 +914,9 @@ end
         end
 
         if trigger && (immutableAbility? || abilityActive?)
-            BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle)
-            BattleHandlers.triggerStatusCureAbility(newAbility, self)
+            #BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle)
+            #BattleHandlers.triggerStatusCureAbility(newAbility, self)
+            pbEffectsOnSwitchIn
         end
         return newAbility
     end
