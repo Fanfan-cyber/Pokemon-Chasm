@@ -597,4 +597,58 @@ class PokeBattle_Battler
             end
         end
     end
+
+    ###############################################################################
+    # Nerfing the AI based on the battler's level
+    ###############################################################################
+    # Used as a flat value
+    def levelNerfSwitch(intensity = 1.0)
+        return 0 if pbOwnedByPlayer?
+        levelPenalty = levelNerfIntensity(intensity)
+        PBDebug.log("[STAY-IN RATING][LEVEL NERF] #{pbThis} (#{index}) is penalizing switching (+#{levelPenalty.round})")
+        return levelPenalty
+    end
+
+    # Used as a multiplier
+    def levelNerfDamage(intensity = 1.0)
+        return 1 if pbOwnedByPlayer?
+        levelPenalty = levelNerfIntensity(intensity)
+        levelPenalty = levelPenalty / 5 / 10 + 1.0
+        PBDebug.log"[LEVEL NERF] Adjusted damage score by (+#{((levelPenalty - 1) * 100).round})%"
+        return levelPenalty
+    end
+    
+    # Used as a multiplier
+    def levelNerfMisc(intensity = 1.0)
+        return 1 if pbOwnedByPlayer?
+        levelPenalty = levelNerfIntensity(intensity)
+        levelPenalty = -levelPenalty / 5 / 10 + 1.0
+        PBDebug.log"[LEVEL NERF] Adjusted score by (-#{100 - (levelPenalty * 100).round})%"
+        return levelPenalty
+    end
+
+    AI_SCORING_PENALTIES_BY_LEVEL =
+    {
+        5 => 15,
+        10 => 15,
+        15 => 13,
+        20 => 10,
+        25 => 8,
+        30 => 5,
+        35 => 0,
+        40 => 0,
+        45 => 0,
+        50 => 0,
+        55 => 0,
+        60 => 0,
+        65 => 0,
+        70 => 0,
+    }
+    
+    def levelNerfIntensity(intensity = 1.0)
+        levelBracket = (level / 5.0).ceil * 5
+        levelPenalty = AI_SCORING_PENALTIES_BY_LEVEL[levelBracket] || 0
+        levelPenalty *= intensity
+        return levelPenalty
+    end
 end
