@@ -109,7 +109,7 @@ class PokeBattle_Battle
     def pbCheckSlumbering
         if @turnCount == 10 && (
             (anyMonSlumberingShield? && !@field.effectActive?(:SlumberingShieldReady)) || 
-            (anyMonSlumberingSword? && !@field.effectActive?(:SlumberingShieldReady)))
+            (anyMonSlumberingSword? && !@field.effectActive?(:SlumberingSwordReady)))
             pbDisplay(_INTL("The battle reaches an apex!"))
             @field.applyEffect(:SlumberingShieldReady) if anyMonSlumberingShield?
             @field.applyEffect(:SlumberingSwordReady) if anyMonSlumberingSword?
