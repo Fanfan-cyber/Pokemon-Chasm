@@ -308,7 +308,7 @@ GameData::BattleEffect.register_effect(:Field, {
     :apply_proc => proc do |battle, _value|
         slumberingShieldParties = []
         [battle.party1, battle.party2].each_with_index do |party, partyIndex|
-            party.each do |pkmn, i|
+            party.each do |pkmn|
                 if pkmn.hasAbility?(:SLUMBERINGSHIELD)
                     slumberingShieldParties.push(partyIndex)
                     battle.pbShowPokemonAbilitySplash(pkmn, partyIndex, :SLUMBERINGSHIELD)
@@ -334,7 +334,7 @@ GameData::BattleEffect.register_effect(:Field, {
     :apply_proc => proc do |battle, _value|
         slumberingSwordParties = []
         [battle.party1, battle.party2].each_with_index do |party, partyIndex|
-            party.each do |pkmn, i|
+            party.each do |pkmn|
                 if pkmn.hasAbility?(:SLUMBERINGSWORD)
                     slumberingSwordParties.push(partyIndex)
                     battle.pbShowPokemonAbilitySplash(pkmn, partyIndex, :SLUMBERINGSWORD)
