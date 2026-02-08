@@ -94,7 +94,15 @@ class PokemonStorageScreen
                             pbHold(selected)
                         end
                     elsif @scene.cursormode == :MultiSelect
-                        toggleMultiSelection(selected)
+                        if selectedBox > -1 && @storage[selectedBox].isDonationBox?
+                            pbDisplay(_INTL("You cannot multi-select Pokémon that are in a Donation Box."))
+                            next
+                        end
+                        if pokemonAtSlot
+                            toggleMultiSelection(selected)
+                        elsif @heldpkmn
+                            pbPlace(selected)
+                        end
                     else
                         if heldpoke
                             selectedPokemon = heldpoke
@@ -419,9 +427,11 @@ class PokemonStorageScreen
         end
         
         pokemonMoved = 0
+        resultMessage = nil
         if boxNumber == -1
             @storage.party.concat(pokemonToMove)
             raise _INTL("ERROR! Party ended up higher than the size maximum.") if @storage.party.length > Settings::MAX_PARTY_SIZE
+            resultMessage = _INTL("{1} Pokémon have been mass moved to your party.", pokemonToMove.length)
         else
             for i in slotNumber...box.maxPokemon
                 next unless box[i].nil?
@@ -430,12 +440,13 @@ class PokemonStorageScreen
                 break if pokemonMoved >= pokemonToMove.length
             end
             raise _INTL("ERROR! Couldn't move all Pokémon in a mass move.") if pokemonMoved != pokemonToMove.length
+            resultMessage = _INTL("{1} Pokémon have been mass moved to {2}.", pokemonMoved, box.getName(boxNumber))
         end
 
         clearMultiSelection
         @storage.party.compact!
         @scene.pbHardRefresh
-        pbDisplay(_INTL("{1} Pokémon have been mass moved to {2}.", pokemonMoved, box.getName(boxNumber)))
+        pbDisplay(resultMessage)
     end
 
     def pbChangeLock(boxNumber)
