@@ -98,7 +98,11 @@ class PokemonStorageScreen
                             pbDisplay(_INTL("You cannot multi-select Pokémon that are in a Donation Box."))
                             next
                         end
-                        toggleMultiSelection(selected)
+                        if pokemonAtSlot
+                            toggleMultiSelection(selected)
+                        elsif @heldpkmn
+                            pbPlace(selected)
+                        end
                     else
                         if heldpoke
                             selectedPokemon = heldpoke
