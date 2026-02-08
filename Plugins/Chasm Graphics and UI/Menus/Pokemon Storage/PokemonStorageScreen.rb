@@ -94,6 +94,10 @@ class PokemonStorageScreen
                             pbHold(selected)
                         end
                     elsif @scene.cursormode == :MultiSelect
+                        if selectedBox > -1 && @storage[selectedBox].isDonationBox?
+                            pbDisplay(_INTL("You cannot multi-select Pokémon that are in a Donation Box."))
+                            next
+                        end
                         toggleMultiSelection(selected)
                     else
                         if heldpoke
