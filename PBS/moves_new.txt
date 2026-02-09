@@ -241,7 +241,7 @@ Accuracy = 100
 TotalPP = 5
 Target = User
 FunctionCode = RaiseUserAndAlliesSpe1Acc4
-Flags = CanSnatch
+Flags = CanSnatch,Dance
 Description = The user performs a spirited dance for its allies and itself, raising their Speed and raising their Accuracy by four steps.
 Animation = TEETERDANCE
 #-------------------------------
