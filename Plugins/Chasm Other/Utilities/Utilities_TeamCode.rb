@@ -189,7 +189,19 @@ def decode_team(code)
 
     # Set ability
     if ability_id.length > 0
-      mon.ability = GameData::Ability.get(ability_id.to_sym).id
+      resolved_ability = GameData::Ability.get(ability_id.to_sym).id
+      # Find the matching ability_index from species data so it stays consistent
+      sp_data = mon.species_data
+      index = sp_data.abilities.index(resolved_ability)
+      if index
+        mon.ability_index = index # Should also set ability automatically
+      elsif 
+        echoln(_INTL("WARNING: Illegal ability #{ability_id} for species #{mon_id} in team code."))
+        mon.ability_index = 0 # Default to first ability index for consistent behaviour
+        mon.ability = resolved_ability # Override with illegal ability anyway, but it may cause issues
+      end
+    else
+      mon.ability_index = 0 # Default to first ability index if no ability specified
     end
 
     # Set items
