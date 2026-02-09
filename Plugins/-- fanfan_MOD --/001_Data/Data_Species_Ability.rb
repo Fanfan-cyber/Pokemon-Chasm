@@ -10,9 +10,9 @@ SPECIES_ABILITY_DATA = {
 
   [:CELEBI, 0]      => { :fixed => %i[], :changeable => %i[CHRONOREVERT TIMESKIP], },
 
-  [:CRAMORANT, 0]   => { :fixed => %i[], :changeable => %i[SWALLOWMISSILE UNAWARE], },
-  [:CRAMORANT, 1]   => { :fixed => %i[], :changeable => %i[SWALLOWMISSILE UNAWARE], },
-  [:CRAMORANT, 2]   => { :fixed => %i[], :changeable => %i[SWALLOWMISSILE UNAWARE], },
+  #[:CRAMORANT, 0]   => { :fixed => %i[], :changeable => %i[SWALLOWMISSILE UNAWARE], },
+  #[:CRAMORANT, 1]   => { :fixed => %i[], :changeable => %i[SWALLOWMISSILE UNAWARE], },
+  #[:CRAMORANT, 2]   => { :fixed => %i[], :changeable => %i[SWALLOWMISSILE UNAWARE], },
 
   [:DITTO, 0]       => { :fixed => %i[], :changeable => %i[IMPOSTER REALIST], },
 
@@ -23,10 +23,6 @@ SPECIES_ABILITY_DATA = {
 
   [:FOONGUS, 0]     => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
   [:AMOONGUSS, 0]   => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
-
-  [:GDARUMAKA, 0]   => { :fixed => %i[], :changeable => %i[GORILLATACTICS INNERFOCUS], },
-  [:GDARMANITAN, 0] => { :fixed => %i[], :changeable => %i[GORILLATACTICS INNERFOCUS], },
-  [:GDARMANITAN, 1] => { :fixed => %i[], :changeable => %i[INNERFOCUS PHASESHIFT], },
 
   [:GYARADOS, 1]    => { :fixed => %i[], :changeable => %i[JUGGERNAUT INTIMIDATE], },
 
@@ -105,7 +101,7 @@ SPECIES_ABILITY_DATA = {
   [:WAILORD, 0]     => { :fixed => %i[], :changeable => %i[PRESSURE LEVIATHANARIA], },
 
   [:WIMPOD, 0]      => { :fixed => %i[], :changeable => %i[WIMPOUT SELECTIVESCUTES], },
-  [:GOLISOPOD, 0]   => { :fixed => %i[], :changeable => %i[EMERGENCYEXIT SELECTIVESCUTES], },
+  #[:GOLISOPOD, 0]   => { :fixed => %i[], :changeable => %i[EMERGENCYEXIT SELECTIVESCUTES], },
 
   [:ZACIAN, 1]      => { :fixed => %i[], :changeable => %i[STAINLESSSTEEL SWORDSMITHING], },
   [:ZAMAZENTA, 1]   => { :fixed => %i[], :changeable => %i[STAINLESSSTEEL SHIELDSMITHING], },

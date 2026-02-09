@@ -2691,6 +2691,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :info_displayed => false
 })
 
+=begin
 def checkHerosJourney(battle, battler)
     return unless battler.hasActiveAbility?(:HEROSJOURNEY)
     return unless battler.countsAs?(:KELDEO)
@@ -2703,6 +2704,7 @@ def checkHerosJourney(battle, battler)
     battler.pbChangeForm(1, _INTL("{1} transformed!",battler.pbThis))
     battler.hideMyAbilitySplash
 end
+=end
 
 GameData::BattleEffect.register_effect(:Battler, {
     :id => :ExtraHidingTurn,
