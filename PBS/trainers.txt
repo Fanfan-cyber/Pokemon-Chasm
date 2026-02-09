@@ -1077,7 +1077,7 @@ Pokemon = SWOOBAT,30
 Pokemon = DUDUNSPARCE,30
     AbilityIndex = 1 # Adapted
 Pokemon = GOLISOPOD,30
-    AbilityIndex = 1 # Emergency Exit
+    AbilityIndex = 1 # Tough
     Item = BUGGEM
 Pokemon = DOUBLADE,30
     Moves = SHADOWSNEAK,SHADOWCLAW,METALCLAW,AUTOTOMIZE
@@ -7302,7 +7302,7 @@ Pokemon = AVALUGG,56
     Item = LIGHTCLAY
 Pokemon = CRAMORANT,57
     Moves = DIVE,SKYFALL,WEATHERBURST,THROATCHOP
-    AbilityIndex = 0 # Leap from Below
+    AbilityIndex = 0 # Bird-Brained
 Pokemon = MMANTINE,58
     Moves = WEATHERBURST,TOXICTASTE,IRONHEAD,AGONIZE
     AbilityIndex = 0 # Slush Rush
@@ -7336,7 +7336,7 @@ Pokemon = INTELEON,60
 Pokemon = DARMANITAN,60
     Form = 1 # Zen Form
     Moves = PSYCHESWITCH,FLAMETHROWER,PIERCINGDOUBT,IGNITE
-    AbilityIndex = 0 # Tough
+    AbilityIndex = 0 # Karmic Balance
 Pokemon = RIOJIN,60
     Moves = STEELBEAM,DETACHMENT,VANGUARD,DARKPULSE
     AbilityIndex = 1 # Inner Focus
@@ -8643,7 +8643,7 @@ Pokemon = HAEROBIC,70
     Item = EJECTBUTTON
 Pokemon = GOLISOPOD,70
     Moves = FIRSTIMPRESSION,STUNNINGCURL,SWORDSDANCE,WATERFALL
-    AbilityIndex = 1 # Emergency Exit
+    AbilityIndex = 0 # Emergency Exit
 #-------------------------------
 [NIGHTMAREQUEEN_Elise,Elise]
 Pokemon = MNOCTOWL,70
@@ -9259,8 +9259,8 @@ Pokemon = INDEEDEE,70
 #-------------------------------
 [SAILOR,Dom]
 Pokemon = CRAMORANT,70
-    Moves = DIVE,FLIPTURN,BRAVEBIRD,ROOST
-    AbilityIndex = 0 # Leap from Below
+    Moves = GULPINGDIVE,FLIPTURN,BRAVEBIRD,ROOST
+    AbilityIndex = 1 # Unaware
 Pokemon = DUDUDUNSPARCE,70
     Moves = FLEURCANNON,HEAVENSEYES,SANDBLASTING,ROOST
     AbilityIndex = 1 # Adapted

@@ -60,15 +60,6 @@ class PokeBattle_Move
             end
         end
 
-        if user.shouldAbilityApply?(:STAYOFEXECUTION, aiCheck) && bladeMove?
-            delayedDamage = finalCalculatedDamage
-            finalCalculatedDamage = 0
-            if delayedDamage > 0 && !aiCheck
-                target.effects[:DelayedDamage] = [] unless target.effectActive?(:DelayedDamage)
-                target.effects[:DelayedDamage].push([1,delayedDamage])
-            end
-        end
-
         if target.boss?
             # All damage up to the phase lower health bound is unmodified
             unmodifiedDamage = [target.hp - target.avatarPhaseLowerHealthBound,finalCalculatedDamage].min
