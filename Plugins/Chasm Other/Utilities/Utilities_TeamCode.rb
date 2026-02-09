@@ -212,10 +212,15 @@ def decode_team(code)
     mon.itemTypeChosen = GameData::Type.get(item1_type_id.to_sym).id if item1_type_id.length > 0
 
     # Set moves
+    if move1_id.length > 0
+      # If we have moves specified, remove level 1 moves so that the Pokemon has only the specified moves
+      mon.forget_all_moves
+    end
     mon.learn_move(GameData::Move.get(move1_id.to_sym).id) if move1_id.length > 0
     mon.learn_move(GameData::Move.get(move2_id.to_sym).id) if move2_id.length > 0
     mon.learn_move(GameData::Move.get(move3_id.to_sym).id) if move3_id.length > 0
     mon.learn_move(GameData::Move.get(move4_id.to_sym).id) if move4_id.length > 0
+    
 
     # Decode stats (style points and level)
     decode_stats(mon, buffer)
