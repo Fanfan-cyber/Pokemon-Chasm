@@ -35,7 +35,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Level Sacling
   punish_level = TA.get(:kill_count, 0) - Settings::KILL_PUNNISHMENT
   trainer.party.each do |pkmn|
     if pkmn.copied_level
-      pkmn.level = pkmn.copied_level - 1
+      pkmn.level = [pkmn.copied_level - 1, 1].max
       pkmn.copied_level = nil
     else
       pkmn.level = higher_level # level
