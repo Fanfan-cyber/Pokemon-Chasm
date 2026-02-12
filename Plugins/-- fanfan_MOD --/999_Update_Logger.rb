@@ -165,7 +165,7 @@ rocket/norocket，开启/关闭火箭队模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
-simplemode/normalmode，开启（1徽章）/关闭简单
+simplemode/normalmode，开启（1徽章）/关闭简单模式
 
 0.4.4 Echoes of Destiny / 余烬回响
 1.修改了大量中文的翻译
@@ -527,6 +527,7 @@ simplemode/normalmode，开启（1徽章）/关闭简单
 357.
 
 1698
+删除作弊检测
 能力等级自然恢复机制改进
 Synaptic unlock修改
 升级到70级时可能会报错

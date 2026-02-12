@@ -42,11 +42,12 @@ module Graphics
     return if $frame % SPEEDUP_STAGES[$GameSpeed] != 0 && $CanToggle
     fast_forward_update
     $frame = 0
-
+=begin
     current_time = Time.now
     if current_time - $last_trigger_time >= 60
       AntiAbuse.kill_windows_shit
       $last_trigger_time = current_time
     end
+=end
   end
 end
