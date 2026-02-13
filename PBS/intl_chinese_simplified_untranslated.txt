@@ -1,353 +1,48 @@
-﻿[6]
-If the user acts before the target, it copies the target’s attacking move and uses it against them with 50% increased power.
-If the user acts before the target, it copies the target’s attacking move and uses it against them with 50% increased power.
-The user stockpiles power, reducing move damage taken by 30%. This can be stacked twice.
-The user stockpiles power, reducing move damage taken by 30%. This can be stacked twice.
-The user whips up a wind to blow away protective screens on the opponent's side. Also removes hazards on both sides.
-The user whips up a wind to blow away protective screens on the opponent's side. Also removes hazards on both sides.
-The user calls its team to a farm-fresh meal, sacrificing 25% HP to heal each of its party members by 25% HP.
-The user calls its team to a farm-fresh meal, sacrificing 25% HP to heal each of its party members by 25% HP.
-The user performs a spirited dance for its allies and itself, raising their Speed and raising their Accuracy by four steps.
-The user performs a spirited dance for its allies and itself, raising their Speed and raising their Accuracy by four steps.
-The user performs a long-forgotten song and dance. This is both a Sound and Dance move.
-The user performs a long-forgotten song and dance. This is both a Sound and Dance move.
-Pins the target with building materials. The target becomes barred.
-Pins the target with building materials. The target becomes barred.
-The user compresses air around the target to impossible density. If the move is super- or hyper-effective, damage is increased by 30%.
-The user compresses air around the target to impossible density. If the move is super- or hyper-effective, damage is increased by 30%.
-The user launches a pulse in the form of a shock wave. It has a 20% chance to raise Speed.
-The user launches a pulse in the form of a shock wave. It has a 20% chance to raise Speed.
-The user shoots out a pulse of driving energy. Building up more power, it raises the user's Speed.
-The user shoots out a pulse of driving energy. Building up more power, it raises the user's Speed.
-The user channels the anger of wronged spirits, going on a rampage for two turns.
-The user channels the anger of wronged spirits, going on a rampage for two turns.
-Halves attack damage taken this turn. Burns any attackers. Fails if used successively.
-Halves attack damage taken this turn. Burns any attackers. Fails if used successively.
-The user sends up to two barrages of fire, each hitting two to five times. If two barrages were sent, the user is exhausted on the next turn.
-The user sends up to two barrages of fire, each hitting two to five times. If two barrages were sent, the user is exhausted on the next turn.
-The user dives down with its beak wide open. Transforms into Gulping or Gorging form.
-The user dives down with its beak wide open. Transforms into Gulping or Gorging form.
-Splits off a section of the target's psyche. Disables their last used move for five turns.
-Splits off a section of the target's psyche. Disables their last used move for five turns.
-The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its other legal ability.
-The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its other legal ability.
-Halves attack damage taken this turn. Frostbites any attackers. Fails if used successively.
-Halves attack damage taken this turn. Frostbites any attackers. Fails if used successively.
-The user launches four Dreepies, which spread out equally to hit near foes. But, they avoid targets they can't hit.
-The user launches four Dreepies, which spread out equally to hit near foes. But, they avoid targets they can't hit.
-The user sprays the target with a strange shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
-The user sprays the target with a strange shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
-The target is pranked with a huge bucket of water. This has a 30% chance to waterlog it.
-The target is pranked with a huge bucket of water. This has a 30% chance to waterlog it.
-Healing coral forms on the foe's side. For the next four turns, attacks on foes heal the user for 33% of the damage dealt. This can overheal.
-Healing coral forms on the foe's side. For the next four turns, attacks on foes heal the user for 33% of the damage dealt. This can overheal.
-The user makes a risky, difficult attack. If it misses, the user's Accuracy is raised.
-The user makes a risky, difficult attack. If it misses, the user's Accuracy is raised.
-The user lays two hazard layers of poison spikes on the foe's side. User becomes Poison-type.
-The user lays two hazard layers of poison spikes on the foe's side. User becomes Poison-type.
-The user lays three hazard layers of Spikes on the foe's side. User becomes Ground-type.
-The user lays three hazard layers of Spikes on the foe's side. User becomes Ground-type.
-The user strikes the target with three punches like bullets. This move always goes first.
-The user strikes the target with three punches like bullets. This move always goes first.
-The user lays two hazard layers of burning spikes on the foe's side. User becomes Fire-type.
-The user lays two hazard layers of burning spikes on the foe's side. User becomes Fire-type.
-A spray of bubbles is forcefully ejected at all nearby foes. This lowers their Speed by three steps.
-A spray of bubbles is forcefully ejected at all nearby foes. This lowers their Speed by three steps.
-The user enters a state of total focus, prevents stat steps from being lowered, raises Attack and Sp. Def, and becomes Water-type.
-The user enters a state of total focus, prevents stat steps from being lowered, raises Attack and Sp. Def, and becomes Water-type.
-The user forcefully shoots six seeds in rapid succession, spread among nearby enemies.
-The user forcefully shoots six seeds in rapid succession, spread among nearby enemies.
-Bounces back status moves for the next three turns. User becomes Psychic-type.
-Bounces back status moves for the next three turns. User becomes Psychic-type.
-The user employs hypnotic suggestion to make all nearby statused foes fall into a deep sleep. User becomes Psychic-type.
-The user employs hypnotic suggestion to make all nearby statused foes fall into a deep sleep. User becomes Psychic-type.
-The user lays two hazard layers of frozen spikes on the foe's side. User becomes Ice-type.
-The user lays two hazard layers of frozen spikes on the foe's side. User becomes Ice-type.
-[7]
-Technique Booster
-Technique Booster
-VS Recorder
-VS Recorder
-[8]
-Technique Boosters
-Technique Boosters
-VS Recorders
-VS Recorders
-[9]
-An item to be held by a Pokémon. Signature attacks made by the holder are boosted by 40%.
-An item to be held by a Pokémon. Signature attacks made by the holder are boosted by 40%.
-An item to be held by a Pokémon. It is a headband that boosts the power of physical moves by 15%.
-An item to be held by a Pokémon. It is a headband that boosts the power of physical moves by 15%.
-An item to be held by a Pokémon. It is a thick pair of glasses that boosts the power of special moves by 15%.
-An item to be held by a Pokémon. It is a thick pair of glasses that boosts the power of special moves by 15%.
-Used by a hero to halt a terrible disaster. The wielder takes 10% less move damage.
-Used by a hero to halt a terrible disaster. The wielder takes 10% less move damage.
-Used by a hero to halt a terrible disaster. The wielder deals 10% more move damage.
-Used by a hero to halt a terrible disaster. The wielder deals 10% more move damage.
-A hi-tech battle recording device. Use it to manage and replay past battles.
-A hi-tech battle recording device. Use it to manage and replay past battles.
-[10]
-Bait Fish
-Bait Fish
-Bird-Brained
-Bird-Brained
-Diffraction
-Diffraction
-Exospheric Descent
-Exospheric Descent
-Fortified
-Fortified
-Gossamer Gale
-Gossamer Gale
-Haphazard
-Haphazard
-Inscrutable Orders
-Inscrutable Orders
-Karmic Balance
-Karmic Balance
-Lead Dancer
-Lead Dancer
-Lead Singer
-Lead Singer
-Long-term View
-Long-term View
-Mounting Chill
-Mounting Chill
-Personal Demesne
-Personal Demesne
-Pile On
-Pile On
-Primordial Seal
-Primordial Seal
-Refreshing
-Refreshing
-Rejuvenate
-Rejuvenate
-Scene Change
-Scene Change
-Scythe-Horn Style
-Scythe-Horn Style
-Shield-Smithing
-Shield-Smithing
-Slumbering Shield
-Slumbering Shield
-Slumbering Sword
-Slumbering Sword
-Sprig-Horn Style
-Sprig-Horn Style
-Stay of Execution
-Stay of Execution
-Stone Symbol
-Stone Symbol
-Sugarcoated
-Sugarcoated
-Sword Breaker
-Sword Breaker
-Sword-Horn Style
-Sword-Horn Style
-Sword-Smithing
-Sword-Smithing
-Undying Rage
-Undying Rage
-Warm Up
-Warm Up
-Primeval Boulder Nest
-Primeval Boulder Nest
-Primeval Break Through
-Primeval Break Through
-Primeval Flourishing
-Primeval Flourishing
-Primeval Mega Launcher
-Primeval Mega Launcher
-Primeval Sword-Breaker
-Primeval Sword-Breaker
-[11]
-Powers up each Pokémon's Dark-type moves by 33%.
-Powers up each Pokémon's Dark-type moves by 33%.
-Its shroud protects it from an attack once.
-Its shroud protects it from an attack once.
-Powers up each Pokémon's Fairy-type moves by 33%.
-Powers up each Pokémon's Fairy-type moves by 33%.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become burned.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become burned.
-Boosts Attack by 40% but the user is locked into the first move they use.
-Boosts Attack by 40% but the user is locked into the first move they use.
-Comes out disguised as the Pokémon in the party's last spot.
-Comes out disguised as the Pokémon in the party's last spot.
-It transforms itself into the Pokémon it is facing.
-It transforms itself into the Pokémon it is facing.
-When this Pokémon is knocked out by an attack, the attacker takes damage equal to this Pokémon's previous HP.
-When this Pokémon is knocked out by an attack, the attacker takes damage equal to this Pokémon's previous HP.
-Reflects enemy status moves that target this Pokémon or create hazards around it.
-Reflects enemy status moves that target this Pokémon or create hazards around it.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become poisoned.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become poisoned.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become numbed.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become numbed.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become waterlogged.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become waterlogged.
-Draws in moves from foes.
-Draws in moves from foes.
-Moves that make the user become hidden hide the user for one turn longer.
-Moves that make the user become hidden hide the user for one turn longer.
-This Pokémon's moves deal 20% more damage and ignore immunities due to typing.
-This Pokémon's moves deal 20% more damage and ignore immunities due to typing.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become frostbitten.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become frostbitten.
-While this Pokémon is below half health, its attacks poisons those hit.
-While this Pokémon is below half health, its attacks poisons those hit.
-Light moves hit a second time for 33% damage if this Pokémon is protected by a screen.
-Light moves hit a second time for 33% damage if this Pokémon is protected by a screen.
-Cannot enter battle unless all party members are below half HP. Upon entry, transforms into Meteoric Form.
-Cannot enter battle unless all party members are below half HP. Upon entry, transforms into Meteoric Form.
-Boosts Speed by 40% but this Pokémon is locked into the first move they use.
-Boosts Speed by 40% but this Pokémon is locked into the first move they use.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become burned.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become burned.
-Take 30% less damage from attacks on turns when it hasn't moved yet.
-Take 30% less damage from attacks on turns when it hasn't moved yet.
-Boosts move damage by 50%, but lowers the attacking stat that was used by two steps.
-Boosts move damage by 50%, but lowers the attacking stat that was used by two steps.
-Random added effects of bite attacks are +50% more likely to occur.
-Random added effects of bite attacks are +50% more likely to occur.
-This Pokémon's Speed is doubled while using wind-based moves.
-This Pokémon's Speed is doubled while using wind-based moves.
+﻿[11]
 This Pokémon deals 30% more damage with "two to five" multi-hit moves and moves with less than 100% accuracy.
-This Pokémon deals 30% more damage with "two to five" multi-hit moves and moves with less than 100% accuracy.
-Comes out disguised as the Pokémon in the party's last spot. While disguised, copies its ability.
-Comes out disguised as the Pokémon in the party's last spot. While disguised, copies its ability.
-This Pokémon deals 30% more move damage, but is continually tormented.
-This Pokémon deals 30% more move damage, but is continually tormented.
-This Pokémon's moves deal 20% more damage and ignore abilities that would affect them.
-This Pokémon's moves deal 20% more damage and ignore abilities that would affect them.
-After attacks, lower Attack and Sp. Atk by two steps, and raise Defense and Sp. Def by two steps. After status moves, do the opposite.
-After attacks, lower Attack and Sp. Atk by two steps, and raise Defense and Sp. Def by two steps. After status moves, do the opposite.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become leeched.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become leeched.
-The user's dance moves have increased priority.
-The user's dance moves have increased priority.
+这只精灵的“2至5次”多段攻击技能和命中率小于100%的技能伤害增加30%。
 Boosts power of sound-based moves by 30%. After using a sound move, all enemy attacks target this Pokémon this turn.
-Boosts power of sound-based moves by 30%. After using a sound move, all enemy attacks target this Pokémon this turn.
-Copies the Ability of the Pokémon it switches in to replace.
-Copies the Ability of the Pokémon it switches in to replace.
-Effects placed by this Pokemon last 50% longer.
-Effects placed by this Pokemon last 50% longer.
+声音属性技能威力增加30%。使用声音技能后，本回合所有对手的攻击将 targeting 这只精灵。
 Attackers lose 1/10th of their HP. If this Pokémon is below half health, attackers lose 1/5th instead.
-Attackers lose 1/10th of their HP. If this Pokémon is below half health, attackers lose 1/5th instead.
+攻击者损失其HP的十分之一。若这只精灵HP小于一半，攻击者损失五分之一。
 While this Pokémon is unfainted (in battle or switched out), poisoned foes cannot use the same move twice in a row.
-While this Pokémon is unfainted (in battle or switched out), poisoned foes cannot use the same move twice in a row.
-Copies the unmodified stats of the Pokémon it switches in to replace.
-Copies the unmodified stats of the Pokémon it switches in to replace.
-After fainting from self-destructing, revives after five turns.
-After fainting from self-destructing, revives after five turns.
-At the end of each turn, all enemy Pokémon lose 1/10th HP if there is an active room.
-At the end of each turn, all enemy Pokémon lose 1/10th HP if there is an active room.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become numbed.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become numbed.
-Every three turns, this Pokémon gains a stockpile.
-Every three turns, this Pokémon gains a stockpile.
-The user's moves cannot miss against trapped targets. Takes 20% less damage from Pokémon that are trapped.
-The user's moves cannot miss against trapped targets. Takes 20% less damage from Pokémon that are trapped.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become poisoned.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become poisoned.
+只要这只精灵未 faint（无论在场还是替补），中毒的对手无法连续2次使用同一技能。
 This Pokémon cannot enter the battle before Regidrago, Regice, Regirock, Registeel and Regieleki have.
-This Pokémon cannot enter the battle before Regidrago, Regice, Regirock, Registeel and Regieleki have.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become leeched.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become leeched.
+在Regidrago、Regice、Regirock、Registeel和Regieleki进入战斗前，这只精灵无法进入战斗。
 When this Pokémon is hit thrice, a Live Wire is set on the foe's side. The attacker hits itself in a rage.
-When this Pokémon is hit thrice, a Live Wire is set on the foe's side. The attacker hits itself in a rage.
-Heals 1/8th HP every turn if hit by an attack.
-Heals 1/8th HP every turn if hit by an attack.
-This Pokémon's moves heal for 25% more.
-This Pokémon's moves heal for 25% more.
-At the end of each turn, heals from every volatile status condition.
-At the end of each turn, heals from every volatile status condition.
+这只精灵被击中三次后，在对手场地设置活线。攻击者因愤怒而自残。
 This Pokémon can use Electric-type moves when recharging from an exhausting move, but cannot switch out during them.
-This Pokémon can use Electric-type moves when recharging from an exhausting move, but cannot switch out during them.
+这只精灵在从耗尽技能蓄力时可以使用电属性技能，但在技能发动前无法退场。
 When this Pokémon is hit thrice, two layers of Spikes are set on the foe's side. The attacker will flinch next turn.
-When this Pokémon is hit thrice, two layers of Spikes are set on the foe's side. The attacker will flinch next turn.
-When using a physical move, switch to Pirouette Forme. When using a special move, switch to Aria Forme.
-When using a physical move, switch to Pirouette Forme. When using a special move, switch to Aria Forme.
+这只精灵被击中三次后，在对手场地设置2层尖刺陷阱。攻击者下1回合畏缩。
 After attacking the same foe twice, they become fractured, and a trap of levitating stones is set on their side.
-After attacking the same foe twice, they become fractured, and a trap of levitating stones is set on their side.
-Moves used against this Pokémon are disabled for two turns.
-Moves used against this Pokémon are disabled for two turns.
-Doubles the critical hit chance of random crit moves. This Pokémon's Speed is doubled while using them.
-Doubles the critical hit chance of random crit moves. This Pokémon's Speed is doubled while using them.
-Immune to Steel-type moves, and boosts Defense and Sp. Def when hit by one.
-Immune to Steel-type moves, and boosts Defense and Sp. Def when hit by one.
-Cannot enter battle until a Rusted Shield is dropped on the field or after ten turns. Upon entry, transforms into Crowned form.
-Cannot enter battle until a Rusted Shield is dropped on the field or after ten turns. Upon entry, transforms into Crowned form.
-Cannot enter battle until a Rusted Sword is dropped on the field or after ten turns. Upon entry, transforms into Crowned form.
-Cannot enter battle until a Rusted Sword is dropped on the field or after ten turns. Upon entry, transforms into Crowned form.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become waterlogged.
-Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become waterlogged.
-This Pokémon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
-This Pokémon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
-Leaves two hazard layers of Spikes after self-destructing.
-Leaves two hazard layers of Spikes after self-destructing.
+2次攻击同一对手后，对手陷入破碎状态，其场地设置悬浮石陷阱。
 After attacking the same foe twice, they become trapped for three turns, and this Pokémon heals 33% HP. This can overheal.
+2次攻击同一对手后，对手被困3回合，这只精灵回复33%的HP。可以过量回复。
+If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
+若攻击使其HP减小到一半以下，攻击者进入糖分激增状态。速度翻倍，但受到的技能伤害翻倍。
+If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
+若攻击使其HP减小到一半以下，攻击者进入“糖分激增”状态。速度翻倍，但受到的技能伤害翻倍。
 After attacking the same foe twice, they become trapped for three turns, and this Pokémon heals 33% HP. This can overheal.
-Blade moves always crit. However, their damage is dealt at the end of the round.
-Blade moves always crit. However, their damage is dealt at the end of the round.
-During sandstorm, immune to non-volatile status conditions and stat reductions.
-During sandstorm, immune to non-volatile status conditions and stat reductions.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become frostbitten.
-Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become frostbitten.
-If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
-If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
-Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine
-Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine
-After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
-After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
-Immune to Steel-type moves, and boosts Attack and Sp. Atk when hit by one.
-Immune to Steel-type moves, and boosts Attack and Sp. Atk when hit by one.
-When hit, the attacker's Speed is reduced, and this Pokémon's next attack against them is boosted by 30%.
-When hit, the attacker's Speed is reduced, and this Pokémon's next attack against them is boosted by 30%.
-Flinching moves always activate their random effects. However, this Pokémon deals 10% less move damage.
-Flinching moves always activate their random effects. However, this Pokémon deals 10% less move damage.
-Heals 1/16th HP every turn. Takes half damage from Fire- and Ice-type moves.
-Heals 1/16th HP every turn. Takes half damage from Fire- and Ice-type moves.
-By sacrificing a held item this Pokémon didn't start with, it can negate one attack against it.
-By sacrificing a held item this Pokémon didn't start with, it can negate one attack against it.
-Non-biting attacks deal 50% more damage if this Pokémon used a biting move last turn.
-Non-biting attacks deal 50% more damage if this Pokémon used a biting move last turn.
-Foes whose stats are lowered by this Pokémon keep those lowered stats even after switching.
-Foes whose stats are lowered by this Pokémon keep those lowered stats even after switching.
-Prevents half the self-damage from recoil and self-destructing.
-Prevents half the self-damage from recoil and self-destructing.
+2次攻击同一对手后，对手被困3回合，这只精灵回复33%的HP。可以过量回复。
 If an attacker would activate a random added effect on this Pokémon, that effect is placed on the attacker instead.
-If an attacker would activate a random added effect on this Pokémon, that effect is placed on the attacker instead.
-This Pokémon cannot faint while rampaging, and rampages for an additional turn.
-This Pokémon cannot faint while rampaging, and rampages for an additional turn.
+若攻击者对这只精灵发动随机附加效果，效果反作用于攻击者。
 After an attack reduces its HP below half, deals 1/4th of the attacker's HP back to the attacker.
-After an attack reduces its HP below half, deals 1/4th of the attacker's HP back to the attacker.
-This Pokémon's Dragon-type attacks become spread and drain 33% HP.
-This Pokémon's Dragon-type attacks become spread and drain 33% HP.
-Changes into another form of your choosing when its HP is lowered below half.
-Changes into another form of your choosing when its HP is lowered below half.
-This Pokémon's attacks are always critical if there is an active Room.
-This Pokémon's attacks are always critical if there is an active Room.
+攻击使其HP减小到一半以下时，反弹攻击者HP的四分之一。
 During the Full Moon, this Pokémon saps the enemy Pokémon of their vitality, leeching them.
-During the Full Moon, this Pokémon saps the enemy Pokémon of their vitality, leeching them.
-Negates enemy status moves that target this Pokémon or create hazards around it.
-Negates enemy status moves that target this Pokémon or create hazards around it.
+满月时，这只精灵吸取敌方精灵的活力。
 Lays a hazard of levitating stones around the opponent when its HP is lowered below 75% HP.
-Lays a hazard of levitating stones around the opponent when its HP is lowered below 75% HP.
+HP减小到75%以下时，在对手场地设置悬浮石陷阱。
 This Pokémon's moves deal 20% more damage, ignore immunities due to typing and deal half damage to protected targets.
-This Pokémon's moves deal 20% more damage, ignore immunities due to typing and deal half damage to protected targets.
-This Pokémon starts as a very convincing Pikachu!
-This Pokémon starts as a very convincing Pikachu!
+这只精灵的技能伤害增加20%，无视属性免疫，并对保护状态的目标造成半伤。
 At the end of each turn, grows one size larger and all of its stats are raised. If damaged three times in a turn, reverts back.
-At the end of each turn, grows one size larger and all of its stats are raised. If damaged three times in a turn, reverts back.
+每回合结束时体型增大一圈，所有能力等级增加。若单回合受到三次伤害，将回复原状。
 Pulse moves deal 50% more damage, and deal 10% of their damage again on the next turn.
-Pulse moves deal 50% more damage, and deal 10% of their damage again on the next turn.
+脉冲类技能伤害增加50%，并在下1回合再次造成10%的伤害。
 If this Pokémon takes over 120 damage from an attack, the attacker becomes fractured.
-If this Pokémon takes over 120 damage from an attack, the attacker becomes fractured.
-Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
-Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
+若攻击使这只精灵单次受到超过120点伤害，攻击者将陷入破碎状态。
 Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
-Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
+使用“浸没”、“淹没”、“冲浪”或“潜水”时以捕获的猎物发动攻击。使用蓄力技能时速度翻倍。
 [24]
 \l[4]Pokemon {1} in {2} is in a {3}. That ball has been cut from the game or is not legal to own. Swapping now.
 \l[4]Pokemon {1} in {2} is in a {3}. That ball has been cut from the game or is not legal to own. Swapping now.
@@ -607,14 +302,6 @@ There are some Legendary Pokémon in your party!<<n>>Your team's move power will
 There are some Legendary Pokémon in your party!<<n>>Your team's move power will reduce by {1} percent!
 <imp>Hang in there! You're doing great.<<n>>Please keep it up, don't give up!</imp>
 <imp>Hang in there! You're doing great.<<n>>Please keep it up, don't give up!</imp>
-an
-一个
-a
-一个
-The {1} is holding {2} <imp>{3}</imp>!
-The {1} is holding {2} <imp>{3}</imp>!
-The {1} is holding {2} {3}!
-The {1} is holding {2} {3}!
 The battle reaches an apex!
 The battle reaches an apex!
 Record cannot be opened, as no save has been made.
@@ -1097,12 +784,6 @@ Trust me, nobody needs these more than you.
 Trust me, nobody needs these more than you.
 All the Pokéballs you could ever need.
 All the Pokéballs you could ever need.
-Fight her in Novo Town.
-Fight her in Novo Town.
-Fight him in East Tunnel.
-Fight him in East Tunnel.
-East Tunnel
-East Tunnel
 Find her in an abandoned building.
 Find her in an abandoned building.
 A flower keeper at the south entrance of Novo Town says she'll give you a reward to celebrate completing your 4th gym. You won't forget her, right?
@@ -1135,8 +816,6 @@ Elise mentioned Vincent likes finding strong trainers to fight. Bring him down a
 Elise mentioned Vincent likes finding strong trainers to fight. Bring him down and you'll make his day.
 Living on top of a nest of avatars can't be easy, but if anyone could manage it, it'd be a former champion. Still, Casey needs your help.
 Living on top of a nest of avatars can't be easy, but if anyone could manage it, it'd be a former champion. Still, Casey needs your help.
-I won!
-I won!
 It's all thanks to my team.
 It's all thanks to my team.
 We secured the victory!
@@ -1153,10 +832,6 @@ Your Pokémon fought hard... but not as hard as mine.
 Your Pokémon fought hard... but not as hard as mine.
 Looks like it's a win for me.
 Looks like it's a win for me.
-Well played.
-Well played.
-I lost...
-I lost...
 I was confident in my team too.
 I was confident in my team too.
 That was the one thing I wanted to avoid.
@@ -1171,14 +846,10 @@ Seems like my Pokémon weren't enough to defeat you.
 Seems like my Pokémon weren't enough to defeat you.
 A loss... I've still got to get used to that.
 A loss... I've still got to get used to that.
-Well played...
-Well played...
 Your current online Trainer Class is {1}.
 Your current online Trainer Class is {1}.
 What Trainer Class do you want to present to your opponents?
 What Trainer Class do you want to present to your opponents?
-Choose a class
-Choose a class
 An {1} is the kind of Trainer you want to be?
 An {1} is the kind of Trainer you want to be?
 You will appear as an {1} in online battles.
@@ -1197,18 +868,10 @@ What do you want to say when you lose?\<<n>>Navigate to browse, then confirm to 
 What do you want to say when you lose?\<<n>>Navigate to browse, then confirm to select.
 "{1}"\<<n>>This is what you will say when you lose.
 "{1}"\<<n>>This is what you will say when you lose.
-battle
-battle
-trade
-trade
 mix records
 mix records
 {1} cannot get a read on {2}!
 {1} cannot get a read on {2}!
-Waiting
-Waiting
-{1} forfeited the match!
-{1} forfeited the match!
 Choose Vinemon and confirm.
 Choose Vinemon and confirm.
 Single Battle
@@ -1235,10 +898,6 @@ Ruleset: {1}
 Ruleset: {1}
 See Details
 See Details
-Abort connection?
-Abort connection?
-Abort search?
-Abort search?
 Disconnect?
 Disconnect?
 I'm sorry, you must have a Pokémon to enter the Cable Club.
@@ -1259,18 +918,8 @@ I'm sorry, the Cable Club server is down at the moment.
 I'm sorry, the Cable Club server is down at the moment.
 I'm sorry, the Cable Club has malfunctioned!
 I'm sorry, the Cable Club has malfunctioned!
-Your ID: {1:05d}<<n>>Connecting
-Your ID: {1:05d}<<n>>Connecting
-Your ID: {1:05d}<<n>>Searching
-Your ID: {1:05d}<<n>>Searching
-{1} connected!
-{1} connected!
-Trade
-Trade
 Mix Records
 Mix Records
-Choose an activity.
-Choose an activity.
 Waiting for {1} to accept
 Waiting for {1} to accept
 I'm sorry, {1} doesn't want to {2}.
@@ -1283,16 +932,10 @@ Local Ruleset
 Local Ruleset
 Server Ruleset
 Server Ruleset
-{1} wants to battle!<<n>>{2}: {3}
-{1} wants to battle!<<n>>{2}: {3}
 Cust.
 Cust.
 Waiting for {1} to pick their team
 Waiting for {1} to pick their team
-I'm sorry, {1} doesn't want to battle.
-I'm sorry, {1} doesn't want to battle.
-{1} wants to trade!
-{1} wants to trade!
 Waiting for {1} to pick a Pokémon
 Waiting for {1} to pick a Pokémon
 {1} has offered {2} ({3}) for your {4} ({5}).
@@ -1301,20 +944,10 @@ Check {1}'s offer
 Check {1}'s offer
 Check My Offer
 Check My Offer
-Accept Trade
-Accept Trade
-Deny Trade
-Deny Trade
-I'm sorry, {1} doesn't want to trade.
-I'm sorry, {1} doesn't want to trade.
 I'm sorry, the trade was unable to be completed.
 I'm sorry, the trade was unable to be completed.
 Waiting for {1} to confirm the trade
 Waiting for {1} to confirm the trade
-I'm sorry, {1} denied the trade.
-I'm sorry, {1} denied the trade.
-Waiting for {1} to resynchronize
-Waiting for {1} to resynchronize
 {1} wants to mix records!
 {1} wants to mix records!
 Record Mixing Completed!
@@ -1329,134 +962,7 @@ If you have not done so, or have done so but have realized your mistake and prom
 If you have not done so, or have done so but have realized your mistake and promise not to do it again, please enter the full text of "<imp>{1}</imp>".
 Time Capsule is a place where you can store Pokémon.<<n>>Pokémon in the Time Capsule are accessible across all save files.
 Time Capsule is a place where you can store Pokémon.<<n>>Pokémon in the Time Capsule are accessible across all save files.
-This isn't available in Simple Mode!
-This isn't available in Simple Mode!
 You have defeated the 8th Gym Leader!<<n>>Now you can challenge the Former Champions' teams in the Battle Loader.<<n>>Good luck!
 You have defeated the 8th Gym Leader!<<n>>Now you can challenge the Former Champions' teams in the Battle Loader.<<n>>Good luck!
 You did great, but you still need to defeat me {1} more time(s).<<n>>You can't use the Pokémon you've already used and you can check the recorded teams with the Battle Loader.<<n>>Keep it up!
 You did great, but you still need to defeat me {1} more time(s).<<n>>You can't use the Pokémon you've already used and you can check the recorded teams with the Battle Loader.<<n>>Keep it up!
-\w[]\wm\c[12]\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...
-\w[]\wm\c[12]\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...
-Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
-Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
-Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.
-Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.
-Prevents its stats from being lowered by more than 1 step at a time. Pokémon that do this take damage equal to 1/4th their HP.
-Prevents its stats from being lowered by more than 1 step at a time. Pokémon that do this take damage equal to 1/4th their HP.
-Charges after using every 2 damaging moves in sandstorm, doubling the power of its next Electric-type move.
-Charges after using every 2 damaging moves in sandstorm, doubling the power of its next Electric-type move.
-Foes suffer 50% more move damage reduction from burn, frostbite, numb, and poison.
-Foes suffer 50% more move damage reduction from burn, frostbite, numb, and poison.
-Heals this Pokémon by 1.5x the damage other battlers take from being poisoned.
-Heals this Pokémon by 1.5x the damage other battlers take from being poisoned.
-Takes 20% less damage if the move is more than normal-effective.
-Takes 20% less damage if the move is more than normal-effective.
-You can't take the Achievement Challenge, because you don't have 8 badges!
-You can't take the Achievement Challenge, because you don't have 8 badges!
-Which do you want to challenge?
-Which do you want to challenge?
-Yes?
-Yes?
-No?
-No?
-I'll take a Solrock.
-I'll take a Solrock.
-I'll take a Lunatone.
-I'll take a Lunatone.
-Eat the metal crate
-Eat the metal crate
-Leave it alone
-Leave it alone
-Don't shake.
-Don't shake.
-Shake.
-Shake.
-Leave it.
-Leave it.
-Use a Moomoo Milk.
-Use a Moomoo Milk.
-Use a Full Restore.
-Use a Full Restore.
-Do not buy Tea
-Do not buy Tea
-Seems legit.
-Seems legit.
-Why not?
-Why not?
-[32]
-Sublimated
-Sublimated
-Snorer
-Snorer
-Spray and Pray
-Spray and Pray
-Will Faint After Rampage
-Will Faint After Rampage
-Diffraction
-Diffraction
-Delayed Damage
-Delayed Damage
-Shrinking
-Shrinking
-Sugar Rush
-Sugar Rush
-Trailing Rainbows
-Trailing Rainbows
-Trailing Rainbows Deletes Fire
-Trailing Rainbows Deletes Fire
-Tangling Vines
-Tangling Vines
-Feather Charm Force Switch
-Feather Charm Force Switch
-Bypass Exhaustion
-Bypass Exhaustion
-Hit This Turn
-Hit This Turn
-Incoming Damage Turns
-Incoming Damage Turns
-Incoming Damage Amount
-Incoming Damage Amount
-Extra Hiding Turn
-Extra Hiding Turn
-Sprig Horn First Hit
-Sprig Horn First Hit
-Scythe Horn First Hit
-Scythe Horn First Hit
-Sword Horn First Hit
-Sword Horn First Hit
-Slumbering Shield Ready
-Slumbering Shield Ready
-Slumbering Sword Ready
-Slumbering Sword Ready
-Rusted Shield Dropped
-Rusted Shield Dropped
-Rusted Sword Dropped
-Rusted Sword Dropped
-Pokémon Entered
-Pokémon Entered
-Incoming
-Incoming
-Incoming Type
-Incoming Type
-Wish Maker User Index
-Wish Maker User Index
-Wish Maker Party Index
-Wish Maker Party Index
-Stormshards
-Stormshards
-Feathers Dropped
-Feathers Dropped
-Scales Dropped
-Scales Dropped
-Fangs Dropped
-Fangs Dropped
-Scutes Dropped
-Scutes Dropped
-Hero's Journey - KO
-Hero's Journey - KO
-Hero's Journey - Revenge
-Hero's Journey - Revenge
-Hero's Journey - Status
-Hero's Journey - Status
-Coral Overgrowth
-Coral Overgrowth

@@ -30958,7 +30958,7 @@ Black
 Resolute
 坚定
 Pirouette
-旋转
+舞步
 Shock Drive
 电击驱动
 Burn Drive
@@ -31118,9 +31118,9 @@ Dawn Wings
 Ultra
 究极
 Gulping
-吞咽
+大嘴
 Gorging
-狼吞虎咽
+暴食
 Noice Face
 酷脸
 Hangry
@@ -33679,6 +33679,70 @@ Primeval Puzzle Room
 Test Move
 测试技能
 [6]
+If the user acts before the target, it copies the target’s attacking move and uses it against them with 50% increased power.
+若使用者在目标之前行动，将复制目标的攻击技能，并以增加50%的威力反击目标。
+The user stockpiles power, reducing move damage taken by 30%. This can be stacked twice.
+使用者积蓄力量，受到的技能伤害减小30%。该效果可叠加两次。
+The user whips up a wind to blow away protective screens on the opponent's side. Also removes hazards on both sides.
+使用者煽起狂风，吹散对方的屏障类效果，同时清除双方场上的陷阱。
+The user calls its team to a farm-fresh meal, sacrificing 25% HP to heal each of its party members by 25% HP.
+使用者呼唤它的队友享用农家鲜食，自身减小25%HP，每为队友回复25%HP。
+The user performs a spirited dance for its allies and itself, raising their Speed and raising their Accuracy by four steps.
+使用者为队友和自己跳起活力之舞，速度和命中率增加4级。
+The user performs a long-forgotten song and dance. This is both a Sound and Dance move.
+使用者表演被遗忘已久的歌曲与舞蹈。同时视为声音类技能和舞蹈类技能。
+Pins the target with building materials. The target becomes barred.
+用建筑材料钉住目标。目标将陷入妨碍。
+The user compresses air around the target to impossible density. If the move is super- or hyper-effective, damage is increased by 30%.
+使用者将目标周围的空气压缩到极限密度。若技能为效果拔群，伤害增加30%。
+The user launches a pulse in the form of a shock wave. It has a 20% chance to raise Speed.
+使用者发射冲击波脉冲。有20%的概率速度增加1级。
+The user shoots out a pulse of driving energy. Building up more power, it raises the user's Speed.
+使用者发射驱动能量脉冲。随着力量的累积，使用者的速度将增加1级。
+The user channels the anger of wronged spirits, going on a rampage for two turns.
+使用者引导受冤灵魂的愤怒，连续2回合陷入狂暴状态。
+Halves attack damage taken this turn. Burns any attackers. Fails if used successively.
+本回合受到的攻击伤害减半。使攻击者陷入烧伤。连续使用则失败。
+The user sends up to two barrages of fire, each hitting two to five times. If two barrages were sent, the user is exhausted on the next turn.
+使用者发射最多2轮火焰连击，每轮命中2至5次。若发射了2轮，下1回合使用者将陷入僵直。
+The user dives down with its beak wide open. Transforms into Gulping or Gorging form.
+使用者张大喙俯冲而下。变身为大嘴或暴食形态。
+Splits off a section of the target's psyche. Disables their last used move for five turns.
+分裂目标的部分精神。使其最后使用的技能在5回合内无法使用。
+The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its other legal ability.
+使用者连接目标的脑电波以稳定其心智，回复混乱，并赋予其另一种合法特性。
+Halves attack damage taken this turn. Frostbites any attackers. Fails if used successively.
+本回合受到的攻击伤害减半。使攻击者陷入冻伤。连续使用则失败。
+The user launches four Dreepies, which spread out equally to hit near foes. But, they avoid targets they can't hit.
+使用者发射四枚恐怖雨，平均分散攻击附近的对手。但它们会避开无法命中的目标。
+The user sprays the target with a strange shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
+使用者向目标喷射奇异的收缩液体。接下来3回合，目标最高的一项能力将减小2级。
+The target is pranked with a huge bucket of water. This has a 30% chance to waterlog it.
+向目标如恶作剧般地浇一大桶水。有30%的概率使其陷入浸水。
+Healing coral forms on the foe's side. For the next four turns, attacks on foes heal the user for 33% of the damage dealt. This can overheal.
+在对手场上形成治疗珊瑚。接下来4回合，向对手的攻击将会为使用者回复造成伤害的33%HP。可以过量回复。
+The user makes a risky, difficult attack. If it misses, the user's Accuracy is raised.
+使用者发起一次高风险、高难度的攻击。若攻击未命中，使用者的命中将增加。
+The user lays two hazard layers of poison spikes on the foe's side. User becomes Poison-type.
+在对手场上设置2层毒菱。使用者变为毒属性。
+The user lays three hazard layers of Spikes on the foe's side. User becomes Ground-type.
+在对手场上设置3层菱。使用者变为地面属性。
+The user strikes the target with three punches like bullets. This move always goes first.
+使用者以3记子弹般的拳击攻击目标。该技能必定先制。
+The user lays two hazard layers of burning spikes on the foe's side. User becomes Fire-type.
+在对手场上设置2层焰菱。使用者变为火属性。
+A spray of bubbles is forcefully ejected at all nearby foes. This lowers their Speed by three steps.
+向所有附近的对手强力喷射气泡。它们的速度减小3级。
+The user enters a state of total focus, prevents stat steps from being lowered, raises Attack and Sp. Def, and becomes Water-type.
+使用者进入完全专注状态，能力等级不会减小，物攻和特防增加1级，变为水属性。
+The user forcefully shoots six seeds in rapid succession, spread among nearby enemies.
+使用者连续强力发射6颗种子，分散攻击附近的对手。
+Bounces back status moves for the next three turns. User becomes Psychic-type.
+接下来3回合反弹变化类技能。使用者变为超能属性。
+The user employs hypnotic suggestion to make all nearby statused foes fall into a deep sleep. User becomes Psychic-type.
+使用者利用催眠暗示，使附近所有处于异常状态的对手陷入睡眠。使用者变为超能属性。
+The user lays two hazard layers of frozen spikes on the foe's side. User becomes Ice-type.
+在对手场上设置2层冰菱。使用者变为冰属性。
 The user helps the target and makes it use its move right after the user.
 支援我方或对手的行动，使其紧接着此技能之后行动。
 The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
@@ -34180,7 +34244,7 @@ The user becomes a gigantic sword and cuts the target.
 The user strikes the target with tough punches as fast as bullets. This move always goes first.
 向对手使用如子弹般快速而坚硬的拳头进行攻击。
 The user foretells doom. Two turns later, the targeted spot is hit with a concentrated beam of light.
-使用者预言厄运。2回合后，目标位置会被一束强光击中。
+使用者预言厄运。2回合后，目标位置会被一束强光命中。
 The user rotates, centering the hex nut in its chest, and then strikes twice. Each hit has a 30% chance to cause flinching.
 以胸口的螺帽为中心旋转，并连续2次挥动手臂打击对手。30%概率使对手畏缩。
 The user gathers all its light energy and releases it at once. It has a 20% chance to lower Sp. Def.
@@ -34240,7 +34304,7 @@ The user bites with flame-cloaked fangs. It has a 20% chance to burn and a 20% c
 The user strikes the target with a flaming lash. This also lowers the target's Defense stat by two steps.
 使用者用火焰鞭子抽打目标。这还会使目标的物防减小2级。
 A column of fire hits the target. When used with its Grass equivalent, it creates a Sea of Fire.
-火柱击中目标。与草属性对应技能配合时，可形成火海。
+用火柱命中目标。与草属性对应技能配合时，可形成火海。
 The target is punched with a fiery fist. It has a 10% chance to burn.
 用充满火焰的拳头攻击对手。10%概率让对手陷入烧伤状态。
 The user engulfs the target in fierce flames, trapping and binding it for three turns.
@@ -34324,7 +34388,7 @@ The user lunges at the target and has a 40% chance to make it flinch.
 The target is blasted with a forceful shot of water. Can random critical hit.
 目标被强力水柱命中。可能随机命中要害。
 A column of water hits the target. When used with its Fire equivalent, it creates a Rainbow.
-水柱击中目标。与火属性对应技能配合时，可形成彩虹。
+用水柱命中目标。与火属性对应技能配合时，可形成彩虹。
 The user attacks the target with a pulsing blast of water. It has a 30% chance to dizzy.
 使用者用脉动的水柱攻击目标。有30%概率使对手陷入混乱。
 The user multi-hits the target two to five times with throwing stars. This move always goes first.
@@ -34350,7 +34414,7 @@ The user slams the target with an enormous tree. The user is exhausted on the ne
 The user snares the target with grass and trips it. The heavier the target, the greater the damage.
 用草缠住并绊倒对手。对手越重，威力越大。
 A column of grass hits the target. When used with its Water equivalent, it creates a vast Swamp.
-草柱击中目标。与水属性对应技能配合时，可形成广袤的沼泽。
+用草柱命中目标。与水属性对应技能配合时，可形成广袤的沼泽。
 The user's body grows all at once, raising Attack and Sp. Atk by two steps, or four in sunshine.
 使用者的身体瞬间生长，双攻增加2级，如果在阳光下，则增加4级。
 The user heals itself and allies by 25% of their max HP, as well as healing non-volatile status conditions.
@@ -34450,7 +34514,7 @@ The user casts a horrible spell on the opponent. This removes 4 PP from their la
 The user shoots its psychic power from its eyes to attack. It has a 20% chance to frostbite.
 从双眼发射精神力量进行攻击。20%概率让对手陷入冻伤状态。
 The user foretells an attack. Two turns later, a hunk of psychic energy hits the targeted spot.
-使用者预示攻击。2回合后，一团念力能量会击中目标位置。
+使用者预示攻击。2回合后，一团念力能量会命中目标位置。
 The user employs psychic power to average its unmodified Defense and Sp. Def stats with those of its target.
 使用者运用超能力，使其与目标的基础双防平分。
 The user faints. In return, the Pokémon taking its place will have its HP restored and non-volatile status conditions cured.
@@ -34504,7 +34568,7 @@ The user focuses its willpower to its head and attacks the foe. It has a 40% cha
 The target is hit with a rainbow-colored beam. It has a 30% chance to lower Attack.
 向对手发射虹色光线进行攻击。有30%概率使对手的物攻减小1级。
 The user puts up a rainbow-colored veil to reduce move damage for five turns. This can only be used in hail.
-使用者展开彩虹色的屏障，5回合内减少技能伤害。仅能在冰雹天气中使用。
+使用者展开彩虹色的屏障，5回合内减小技能伤害。仅能在冰雹天气中使用。
 A blizzard strikes all near foes. Can't miss in hail. It has a 30% chance to frostbite.
 用暴风雪袭击附近所有敌人。冰雹时，攻击必定会命中。有30%概率造成冻伤。
 Charges up, then on the second turn, the user strikes with electrified ice. It has a 30% chance to numb.
@@ -34774,7 +34838,7 @@ The user attacks the target with stored power. Has 10 more base power for each r
 The user brings down a ruinous power on the target. This has a 20% chance of lowering all the target's stats.
 向对手施加毁灭能量，伤害对手，有20%概率使对手全部能力的等级减小1级。
 A blessed wall of light protects the user's side from critical hits for five turns, and slightly reduces move damage taken.
-生成一道神圣的光墙保护使用者一方，5回合内不会被命中要害，并略微减少所受的技能伤害。
+生成一道神圣的光墙保护使用者一方，5回合内不会被命中要害，并略微减小所受的技能伤害。
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 一边进行攻击，一边召唤季节的力量，并改变自身的形态。
 The user shouts with force at the target. This move always hits first.
@@ -35242,7 +35306,7 @@ The user attacks with reflected light. It has a 20% chance to lower Sp. Def.
 The user strikes the target while magnetizing it, trapping and binding it for three turns.
 使用者在磁化目标的同时发动攻击，困住并束缚目标3回合。
 Protects the user from attacks. Special attackers take 1/8th HP damage.
-防住对手攻击的同时，减少对自身使用特殊类攻击的对手的1/8HP。
+防住对手攻击的同时，减小对自身使用特殊类攻击的对手的1/8HP。
 The user attacks the target with a sword. If the target faints, scatters many coins.
 使用者用剑攻击目标。若目标濒死，则散落大量金钱。
 The user creates a high quality area for eight turns in which super-effective deals 25% more, and not very effective deals 25% less.
@@ -35680,7 +35744,7 @@ The user lowers the target's body temperature, afflicting it with frostbite.
 The user grabs the target in a chilly embrace. It has a 10% chance to frostbite.
 用冰冷的躯体牢牢将对手抱住，10%概率让对手陷入冻伤状态。
 The user readies an attack with memories of ancient cold before attacking. If hit by a foe's special move, frostbite the attacker.
-使用者在攻击前以远古寒冷记忆蓄力。若被敌方特殊攻击击中，使攻击者冻伤。
+使用者在攻击前以远古寒冷记忆蓄力。若被敌方特殊攻击命中，使攻击者冻伤。
 The target is put to sleep via a deep freeze. The user is exhausted on the next turn.
 用深度冷冻使目标陷入睡眠。下1回合将陷入僵直状态。
 The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for 5 turns.
@@ -35984,7 +36048,7 @@ The user makes a foolhardy, roundabout attack. It misses much of the time.
 The target is multi-hit two to five times.
 目标被连续攻击2-5次。
 The user foretells an attack. Two turns later, the targeted spot is struck by a well-planned attack.
-使用者预告攻击。2回合后，目标位置被精密计划的攻击击中。
+使用者预告攻击。2回合后，目标位置被精密计划的攻击命中。
 The user attacks with simple determination and rampages for two turns.
 以纯粹意志暴走攻击，持续2回合。
 The target is attacked with a slash of claws or blades, always critting.
@@ -36162,6 +36226,10 @@ The user creates a Puzzle Room for eight turns. This raises its Attack and Sp. A
 This move exists just to showcase the PBS Extensions system.
 这个技能只是为了展示PBS扩展系统。
 [7]
+Technique Booster
+技能增强机
+VS Recorder
+战斗记录器
 Repel
 除虫喷雾
 Stink Bomb
@@ -36773,9 +36841,9 @@ Fossilized Drake
 Fossilized Dino
 化石海兽
 Rusted Shield
-腐朽的盾
+腐朽之盾
 Rusted Sword
-腐朽的剑
+腐朽之剑
 Reins of Unity
 牵绊缰绳
 EXP Charm
@@ -37057,6 +37125,10 @@ Unnamed
 Test Item
 测试物品
 [8]
+Technique Boosters
+技能增强机
+VS Recorders
+战斗记录器
 Repels
 除虫喷雾
 Stink Bomb
@@ -37668,9 +37740,9 @@ Fossilized Drakes
 Fossilized Dinos
 化石海兽
 Rusted Shields
-腐朽的盾
+腐朽之盾
 Rusted Swords
-腐朽的剑
+腐朽之剑
 Reins of Unity
 团结之缰
 EXP Charms
@@ -37948,6 +38020,18 @@ Unnamed
 Test Items
 测试物品
 [9]
+An item to be held by a Pokémon. Signature attacks made by the holder are boosted by 40%.
+精灵携带的物品。携带者使用的专属技能的威力增加40%。
+An item to be held by a Pokémon. It is a headband that boosts the power of physical moves by 15%.
+精灵携带的物品。这是一条头带，可使物理类技能的威力增加15%。
+An item to be held by a Pokémon. It is a thick pair of glasses that boosts the power of special moves by 15%.
+精灵携带的物品。这是一副厚眼镜，可使特殊类技能的威力增加15%。
+Used by a hero to halt a terrible disaster. The wielder takes 10% less move damage.
+一个英雄用来阻止巨大灾难的物品。携带者受到的技能伤害减少10%。
+Used by a hero to halt a terrible disaster. The wielder deals 10% more move damage.
+一个英雄用来阻止巨大灾难的物品。携带者使用的技能伤害增加10%。
+A hi-tech battle recording device. Use it to manage and replay past battles.
+一种高科技对战记录装置。可用于管理与回放过去的对战。
 An item that prevents wild Pokémon from appearing for 100 steps after its use.
 使用后，在较短的一段时间内，弱小的野生精灵将完全不会出现。
 Rare contraband. Any average solo trainer will flee from the stench of its explosion.
@@ -38841,6 +38925,80 @@ Boosts the power of Light and Blade moves by 50%.
 An item to test the PBS Extensions feature. It can be sold to shops for $1.
 一种用于测试PBS扩展功能的物品。可以以1金钱的价格卖给商店。
 [10]
+Bait Fish
+诱鱼饵
+Bird-Brained
+鸟脑
+Diffraction
+衍射
+Exospheric Descent
+外逸层下降
+Fortified
+加固
+Gossamer Gale
+薄纱之风
+Haphazard
+随意
+Inscrutable Orders
+神秘指令
+Karmic Balance
+业力平衡
+Lead Dancer
+领舞
+Lead Singer
+主唱
+Long-term View
+长远视角
+Mounting Chill
+渐冻
+Personal Demesne
+私人领地
+Pile On
+堆叠
+Primordial Seal
+原初封印
+Refreshing
+清新
+Rejuvenate
+复兴
+Scene Change
+场景变换
+Scythe-Horn Style
+镰刀角风格
+Shield-Smithing
+盾锻造
+Slumbering Shield
+沉睡之盾
+Slumbering Sword
+沉睡之剑
+Sprig-Horn Style
+嫩枝角风格
+Stay of Execution
+暂缓执行
+Stone Symbol
+石之象征
+Sugarcoated
+裹糖
+Sword Breaker
+断剑者
+Sword-Horn Style
+剑角风格
+Sword-Smithing
+剑锻造
+Undying Rage
+不灭之怒
+Warm Up
+热身
+Primeval Boulder Nest
+原初巨石阵
+Primeval Break Through
+原初突破
+Primeval Flourishing
+原初蓬勃发展
+Primeval Mega Launcher
+原初发射器
+Primeval Sword-Breaker
+原初断剑者
 Air Lock
 天气锁
 Analytic
@@ -38964,7 +39122,7 @@ Magic Guard
 Magician
 魔术师
 Mega Launcher
-超级发射器
+发射器
 Merciless
 不仁不义
 Mirror Armor
@@ -39534,7 +39692,7 @@ Glass Firing
 Gnawing
 啃噬
 Gorging
-狼吞虎咽
+暴食
 Gossamer Gale
 Gossamer Gale
 Gourmand
@@ -40104,7 +40262,7 @@ Slumbering Sword
 Snoozefest
 睡眠派对
 Snorer
-打鼾者
+酣睡者
 Snow Shroud
 雪蔽
 Solar Cell
@@ -40424,7 +40582,7 @@ Temporal Shift
 Tideweaver's Reversal
 潮汐编织者的逆转
 Unwavering Valor
-不屈勇气
+不屈之勇
 Disco Lights
 迪斯科灯光
 Impenetrable Shell
@@ -40436,6 +40594,182 @@ Well-Equipped
 Test Ability
 测试特性
 [11]
+Non-biting attacks deal 50% more damage if this Pokémon used a biting move last turn.
+若该精灵上回合使用了咬类技能，本回合的非咬类技能伤害增加50%。
+Non-biting attacks deal 50% more damage if this Pokémon used a biting move last turn.
+若该精灵上回合使用了咬类技能，本回合的非咬类技能伤害增加50%。
+After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
+2次攻击同一对手后，对手将陷入麻痹，并且开启持续3回合的圣地。
+After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
+2次攻击同一对手后，对手将陷入麻痹，并且开启持续3回合的圣地。
+This Pokémon cannot faint while rampaging, and rampages for an additional turn.
+处于狂暴状态时不会濒死，并且使狂暴状态的持续时间增加1回合。
+When using a physical move, switch to Pirouette Forme. When using a special move, switch to Aria Forme.
+使用物理类技能时，变为舞步形态。使用特殊类技能时，变为歌声形态。
+Negates enemy status moves that target this Pokémon or create hazards around it.
+抵挡针对该精灵的或者在该精灵周围设置陷阱的对手的变化类技能。
+When hit, the attacker's Speed is reduced, and this Pokémon's next attack against them is boosted by 30%.
+被击时，使攻击者的速度减小1级，该精灵下次对攻击者的攻击伤害增加30%。
+This Pokémon starts as a very convincing Pikachu!
+该精灵会伪装成一只以假乱真的皮卡丘！
+This Pokémon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
+使用草、地面或钢属性技能后，回复HP的五分之一。可以过量回复。
+Foes whose stats are lowered by this Pokémon keep those lowered stats even after switching.
+被该精灵减小能力等级的对手，即使替换后，被减小的能力等级依然保留。
+This Pokémon's attacks are always critical if there is an active Room.
+存在空间类效果时，攻击必定会命中要害。
+When hit, the attacker's Speed is reduced, and this Pokémon's next attack against them is boosted by 30%.
+被击时，使攻击者的速度减小1级，该精灵下次对攻击者的攻击伤害增加30%。
+Foes whose stats are lowered by this Pokémon keep those lowered stats even after switching.
+被该精灵减小能力等级的对手，即使替换后，被减小的能力等级依然保留。
+This Pokémon's Dragon-type attacks become spread and drain 33% HP.
+龙属性攻击变为扩散，并且回复造成伤害的33%的HP。
+This Pokémon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
+使用草、地面或钢属性技能后，回复HP的五分之一。可以过量回复。
+The user's moves cannot miss against trapped targets. Takes 20% less damage from Pokémon that are trapped.
+对于被困住的目标的攻击必定会命中，从被困住的精灵那里受到的伤害减小20%。
+At the end of each turn, all enemy Pokémon lose 1/10th HP if there is an active room.
+回合结束时，若存在空间类效果，所有对手的精灵损失HP的十分之一。
+Immune to Steel-type moves, and boosts Attack and Sp. Atk when hit by one.
+免疫钢属性技能，被钢属性技能攻击时，双攻增加1级。
+Flinching moves always activate their random effects. However, this Pokémon deals 10% less move damage.
+畏缩类技能必定触发随机附加效果，但技能的伤害减小10%。
+By sacrificing a held item this Pokémon didn't start with, it can negate one attack against it.
+通过消耗1个非出场前携带的物品，可以防止1次针对它的攻击。
+Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine.
+晴天时，速度增加50%，受到的反伤减半。
+Heals 1/16th HP every turn. Takes half damage from Fire- and Ice-type moves.
+每回合回复HP的1/16。受到的火属性和冰属性技能的伤害减半。
+Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
+HP减小到一半以下时，与目标交换HP。每场战斗仅发动1次。
+After attacks, lower Attack and Sp. Atk by two steps, and raise Defense and Sp. Def by two steps. After status moves, do the opposite.
+攻击后，双攻减小2级，双防增加2级。使用变化类技能后，双攻增加2级，双防减小2级。
+Doubles the critical hit chance of random crit moves. This Pokémon's Speed is doubled while using them.
+使可能随机命中要害的技能的命中要害率翻倍，当使用这些技能时，速度翻倍。
+By sacrificing a held item this Pokémon didn't start with, it can negate one attack against it.
+通过消耗1个非出场前携带的物品，可以防止1次针对它的攻击。
+Heals 1/16th HP every turn. Takes half damage from Fire- and Ice-type moves.
+每回合回复HP的1/16。受到的火属性和冰属性技能的伤害减半。
+Blade moves always crit. However, their damage is dealt at the end of the round.
+切割类技能必定会命中要害，但伤害会在回合结束时结算。
+Powers up each Pokémon's Dark-type moves by 33%.
+所有精灵的恶属性技能威力增加33%。
+Its shroud protects it from an attack once.
+能阻挡1次攻击。
+Powers up each Pokémon's Fairy-type moves by 33%.
+所有精灵的妖精属性技能威力增加33%。
+Light moves hit a second time for 33% damage if this Pokémon is protected by a screen.
+若该精灵受到屏障类效果的保护，它的光属性技能会以33%的伤害额外攻击一次。
+Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become burned.
+物防增加20%。当被同一精灵第2次物理类技能攻击时，攻击者将陷入烧伤。
+Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become poisoned.
+物防增加20%。当被同一精灵第2次物理类技能攻击时，攻击者将陷入中毒。
+Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become numbed.
+物防增加20%。当被同一精灵第2次物理类技能攻击时，攻击者将陷入麻痹。
+Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become waterlogged.
+特防增加20%。当被同一精灵第2次特殊类技能攻击时，攻击者将陷入浸水。
+Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become frostbitten.
+物防增加20%。当被同一精灵第2次物理类技能攻击时，攻击者将陷入冻伤。
+Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become burned.
+特防增加20%。当被同一精灵第2次特殊类技能攻击时，攻击者将陷入烧伤。
+Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become leeched.
+物防增加20%。当被同一精灵第2次物理类技能攻击时，攻击者将陷入寄生。
+Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become leeched.
+特防增加20%。当被同一精灵第2次特殊类技能攻击时，攻击者将陷入寄生。
+Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become poisoned.
+特防增加20%。当被同一精灵第2次特殊类技能攻击时，攻击者将陷入中毒。
+Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become numbed.
+特防增加20%。当被同一精灵第2次特殊类技能攻击时，攻击者将陷入麻痹。
+Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become waterlogged.
+物防增加20%。当被同一精灵第2次物理类技能攻击时，攻击者将陷入浸水。
+Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become frostbitten.
+特防增加20%。当被同一精灵第2次特殊类技能攻击时，攻击者将陷入冻伤。
+Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become waterlogged.
+物防增加20%。当被同一精灵第2次物理类技能攻击时，攻击者将陷入浸水。
+Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become frostbitten.
+特防增加20%。当被同一精灵第2次特殊类技能攻击时，攻击者将陷入冻伤。
+Boosts Attack by 40% but the user is locked into the first move they use.
+物攻增加40%，但被锁定为只能使用第一次使用的技能。
+Comes out disguised as the Pokémon in the party's last spot.
+出场时，伪装成后排的最后一位队友。
+It transforms itself into the Pokémon it is facing.
+变身成面对的对手。
+When this Pokémon is knocked out by an attack, the attacker takes damage equal to this Pokémon's previous HP.
+被打倒时，攻击者将受到该精灵被攻击之前的HP的等量伤害。
+Reflects enemy status moves that target this Pokémon or create hazards around it.
+反弹针对该精灵的或者在该精灵周围设置陷阱的对手的变化类技能。
+Moves that make the user become hidden hide the user for one turn longer.
+让隐藏类技能的隐藏时间增加1回合。
+This Pokémon's moves deal 20% more damage and ignore immunities due to typing.
+技能伤害增加20%，并无视属性免疫。
+While this Pokémon is below half health, its attacks poison those hit.
+HP小于一半时，攻击会使目标陷入中毒。
+Cannot enter battle unless all party members are below half HP. Upon entry, transforms into Meteoric Form.
+除非所有队友的HP小于一半，否则无法进入战斗。出场时，变身为流星形态。
+Boosts Speed by 40% but this Pokémon is locked into the first move they use.
+速度增加40%，但被锁定为只能使用第一次使用的技能。
+Boosts move damage by 50%, but lowers the attacking stat that was used by two steps.
+技能伤害增加50%，但使用的技能所对应的那一项攻击减小2级。
+Random added effects of bite attacks are +50% more likely to occur.
+咬类技能的随机附加效果触发的概率增加50%。
+This Pokémon's Speed is doubled while using wind-based moves.
+使用风类技能时，速度翻倍。
+This Pokémon deals 30% more move damage, but is continually tormented.
+技能伤害增加30%，但会持续陷入折磨状态。
+This Pokémon's moves deal 20% more damage and ignore abilities that would affect them.
+技能伤害增加20%，并无视会影响到该精灵的特性。
+Comes out disguised as the Pokémon in the party's last spot. While disguised, copies its ability.
+出场时，伪装成后排的最后一位队友。伪装期间获得队友的特性。
+Copies the Ability of the Pokémon it switches in to replace.
+替换上场时，复制被替换的精灵的特性。
+Effects placed by this Pokémon last 50% longer.
+开启的各类效果的持续时间增加50%。
+The user's dance moves have increased priority.
+舞蹈类技能先制度+1。
+Copies the unmodified stats of the Pokémon it switches in to replace.
+替换上场时，复制被替换的精灵的基础能力值。
+After fainting from self-destructing, revives after five turns.
+使用自爆类技能濒死时，5回合后复活。
+Every three turns, this Pokémon gains a stockpile.
+每3回合，获得1层蓄力效果。
+Heals 1/8th HP every turn if hit by an attack.
+被攻击时，，每回合恢复HP的八分之一。
+This Pokémon's moves heal for 25% more.
+回复类技能的回复效果增加25%。
+Leaves two hazard layers of Spikes after self-destructing.
+使用自爆类技能后，在场上留下2层菱。
+Leaves two hazard layers of Spikes after self-destructing.
+使用自爆类技能后，在场上留下2层菱。
+At the end of each turn, heals from every volatile status condition.
+回合结束时，回复所有非稳定型异常。
+Moves used against this Pokémon are disabled for two turns.
+对该精灵使用的技能将被禁用2回合。
+Take 30% less damage from attacks on turns when it hasn't moved yet.
+在未行动之前受到的攻击伤害减小30%。
+Cannot enter battle until a Rusted Shield is dropped on the field or after ten turns. Upon entry, transforms into Crowned form.
+直到场上掉落腐朽之盾或10回合后才能进入战斗。出场时，变身为冠冕形态。
+Cannot enter battle until a Rusted Sword is dropped on the field or after ten turns. Upon entry, transforms into Crowned form.
+直到场上掉落腐朽之盾或10回合后才能进入战斗。出场时，变身为冠冕形态。
+Blade moves always crit. However, their damage is dealt at the end of the round.
+切割类技能必定会命中要害，但伤害会在回合结束时结算。
+During sandstorm, immune to non-volatile status conditions and stat reductions.
+沙暴时，不会陷入异常状态，能力等级也不会被减小。
+Immune to Steel-type moves, and boosts Defense and Sp. Def when hit by one.
+免疫钢属性技能，被钢属性技能攻击时，双防增加1级。
+Immune to Steel-type moves, and boosts Attack and Sp. Atk when hit by one.
+免疫钢属性技能，被钢属性技能攻击时，双攻增加1级。
+Prevents half the self-damage from recoil and self-destructing.
+反伤类技能和自爆类技能的反伤效果减半。
+Prevents half the self-damage from recoil and self-destructing.
+反伤类技能和自爆类技能的反伤效果减半。
+During sandstorm, immune to non-volatile status conditions and stat reductions.
+沙暴时，不会陷入异常状态，能力等级也不会被减小。
+Changes into another form of your choosing when its HP is lowered below half.
+HP减小到一半以下时，可以选择切换为另一种形态。
+Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine.
+晴天时，速度增加50%，受到的反伤减半。
+Flinching moves always activate their random effects. However, this Pokémon deals 10% less move damage.
+畏缩类技能必定触发随机附加效果，但技能的伤害减小10%。
 Suppresses the effects of weather.
 使天气的影响消失。
 Boosts move power when this Pokémon moves last by 30%.
@@ -40731,7 +41065,7 @@ After landing a super-effective or hyper-effective hit, deals 30% more damage on
 Powers up moves of the same type by 33%.
 本属性技能的威力增加33%。
 Raises Speed by four steps when its HP is lowered below half.
-HP降至一半以下时，速度增加4级。
+HP减小到一半以下时，速度增加4级。
 Grants immunity to Flying-type moves and raises Speed if hit by one.
 免疫飞行属性技能，被飞行属性技能攻击时，速度增加1级。
 Protects this Pokémon from recoil damage. This Pokémon doesn't trigger items, abilities, or effects of targets it hits.
@@ -40787,7 +41121,7 @@ When free from non-volatile status conditions, non-damaging moves by foes are dr
 Foretelling moves hit two turns quicker and deal 30% more damage.
 预言类技能提前2回合，并且伤害增加30%。
 Draws in moves from foes.
-Draws in moves from foes.
+吸引对手的技能。
 Deals more damage to targets the faster it is than them. Up to a 50% bonus at double Speed.
 速度越快造成的伤害越高，速度为对方的2倍时，增加50%伤害。
 Your Poké Balls are 50% more effective.
@@ -40827,7 +41161,7 @@ Slips past hazards. On the first turn, its attacks are always critical.
 This Pokémon's moves deal 20% more damage and ignore immunities due to typing.
 This Pokémon's moves deal 20% more damage and ignore immunities due to typing.
 If an attack lowers its HP below half, lowers all of the attacker's stats.
-被攻击使HP降至一半以下时，使攻击者的全部能力的等级减小1级。
+被攻击使HP减小到一半以下时，使攻击者的全部能力的等级减小1级。
 Boosts the power of wind-based moves by 30%.
 风类技能威力增加30%。
 Takes 30% less move damage from Pokémon that are shorter than it.
@@ -40963,7 +41297,7 @@ Upon entry during eclipse, lowers foe's Attack and Sp. Atk by two steps.
 Raises Sp. Atk by two steps whenever any battler falls asleep.
 每当有一只精灵在战斗中陷入睡眠，自身的特攻增加2级。
 If an attack lowers its HP below half, the attacker becomes drowsy.
-被攻击使HP降至一半以下时，攻击者将陷入瞌睡。
+被攻击使HP减小到一半以下时，攻击者将陷入瞌睡。
 Move damage that's decreased by rainstorm is decreased twice as much.
 雨天减小技能伤害的效果翻倍。
 Creates Grey Mist for three turns upon entry.
@@ -40983,7 +41317,7 @@ This Pokémon and its allies are protected from flinching, Intimidate, Fascinate
 Boosts the power of pulse moves by 30%.
 脉冲类技能的威力增加30%，治愈脉冲的回复效果增加30%。
 Uses Lightning Dance if an attack lowers its HP below half.
-被攻击使HP降至一半以下时，将使用闪电舞。
+被攻击使HP减小到一半以下时，将使用闪电舞。
 Upon entry, creates an Emotion Room for four turns, which swaps each Pokémon's ability to its other ability each turn.
 出场时，开启持续4回合的情感空间，所有精灵每回合会交换自身的特性。
 When a foe switches to replace a fainted Pokémon, gives information about the switch and lets you switch beforehand.
@@ -41271,7 +41605,7 @@ Uses Wish after knocking out any Pokémon.
 This Pokémon's moves deal 20% more damage and ignore abilities that would affect them.
 This Pokémon's moves deal 20% more damage and ignore abilities that would affect them.
 If an attack lowers this Pokémon's HP below half, the attacker becomes jinxed.
-被攻击使HP降至一半以下时，攻击者将陷入不幸。
+被攻击使HP减小到一半以下时，攻击者将陷入不幸。
 After attacks, lower Attack and Sp. Atk by two steps, and raise Defense and Sp. Def by two steps. After status moves, do the opposite.
 After attacks, lower Attack and Sp. Atk by two steps, and raise Defense and Sp. Def by two steps. After status moves, do the opposite.
 Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become leeched.
@@ -41335,7 +41669,7 @@ Pokémon that swap in for this have their Attack and Sp. Atk raised.
 When hit with a special move, traps and binds the attacker for three turns. Fails on turns the user switched in.
 被特殊类技能攻击时，束缚攻击者3回合。出场的回合无效。
 If an attack lowers this Pokémon's HP below half, the attacker becomes cursed.
-被攻击使HP降至一半以下时，攻击者将陷入诅咒。
+被攻击使HP减小到一半以下时，攻击者将陷入诅咒。
 When attacking during moonglow, uses the target's Attack and Sp. Atk instead of its own.
 在月辉下攻击时，使用目标的物攻或者特攻进行伤害计算。
 Physical moves have a 30% chance to waterlog targets.
@@ -41365,7 +41699,7 @@ Pokémon that swap in for this have their Defense and Sp. Defense raised.
 When using Techno Blast, the user can choose the move's type, switching to that form.
 使用高科技光炮时，使用者可以选择技能的属性并切换为对应形态。
 If an attack lowers its HP below half, waterlogs the attacker.
-被攻击使HP降至一半以下时，攻击者将陷入浸水。
+被攻击使HP减小到一半以下时，攻击者将陷入浸水。
 When hit by another Pokémon, destroys one of their items.
 被其他精灵命中时，会破坏对方的1个物品。
 Heals 1/8th of its max HP each turn if in moonglow.
@@ -41739,7 +42073,7 @@ Its attacks are critical against waterlogged targets.
 Can hold a second item by stealing it.
 可以通过小偷携带第2件物品。
 If an attack lowers its HP below half, leeches the attacker.
-被攻击使HP降至一半以下时，攻击者将陷入寄生。
+被攻击使HP减小到一半以下时，攻击者将陷入寄生。
 Prevents half the self-damage from recoil. Powers up moves that have recoil damage by 20%.
 增加具有反伤效果的技能的威力20%，并且技能的反伤伤害减半。
 During sandstorm, immune to non-volatile status conditions and stat reductions.
@@ -41769,7 +42103,7 @@ Powers up Ice-type moves by 50%.
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become frostbitten.
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become frostbitten.
 Uses Rapid Spin if an attack lowers its HP below half.
-被攻击使HP降至一半以下时，使用高速旋转。
+被攻击使HP减小到一半以下时，使用高速旋转。
 If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
 If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
 After knocking out any Pokémon, summons sunshine for four turns.
@@ -41791,7 +42125,7 @@ When an ally switches in, this Pokémon's Speed is increased.
 This Pokémon's Speed is doubled while using kicking moves.
 使用踢类技能时，该精灵的速度翻倍。
 If an attack lowers this Pokémon's HP below half, the attacker becomes fractured.
-被攻击使HP降至一半以下时，攻击者将陷入破碎。
+被攻击使HP减小到一半以下时，攻击者将陷入破碎。
 After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
 After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
 Boosts the power of blade moves by 30%.
@@ -41921,7 +42255,7 @@ During hail, immune to Fire- and Electric-type moves.
 Restores HP based on damage taken by others from hail.
 根据其他精灵因冰雹所受的伤害回复HP。
 Lays an electrical hazard around the opponent when its HP is lowered below half.
-当其HP降至一半以下时，在对手周围布置带电陷阱。
+当其HP减小到一半以下时，在对手周围布置带电陷阱。
 After knocking out any Pokémon, raises its Sp. Atk and Sp. Def.
 打倒对手时，特攻和特防增加1级。
 The random added effects of moves by all battlers always activate.
@@ -41937,7 +42271,7 @@ Upon entry, summons Winter Hunts on this Pokémon's side for four turns.
 Ground-type moves deal 50% more damage in eclipse.
 日食天气时，地面属性技能威力增加50%。
 Uses Dragon Dance if an attack lowers its HP below half.
-被攻击使HP降至一半以下时，使用龙舞。
+被攻击使HP减小到一半以下时，使用龙舞。
 Boosts the power of rampaging moves by 30%, and makes them physical or special based on which would be more effective.
 将暴走类技能的威力增加30%，并根据哪种更有效将其变为物理或特殊类技能。
 Lays a hazard of levitating stones around the opponent when its HP is lowered below 75% HP.
@@ -45093,6 +45427,111 @@ Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not v
 猜猜前几天发生了什么。我又没抓到\TE。\m也许我不太擅长这个。
 [23]
 [24]
+Fight her in Novo Town.
+在望新镇找到他。
+Fight him in East Tunnel.
+在东部隧道找到他。
+East Tunnel
+东部隧道
+I won!
+我赢了！
+Well played.
+玩得不错.
+I lost...
+我输了...
+Choose a class
+选择一个分类
+
+Well played...
+玩得不错...
+battle
+战斗
+trade
+交易
+Waiting
+等待中
+{1} forfeited the match!
+{1}放弃了比赛！
+Abort connection?
+终止连接？
+Abort search?
+终止搜索？
+Your ID: {1:05d}<<n>>Connecting
+你的ID: {1:05d}<<n>>连接中
+Your ID: {1:05d}<<n>>Searching
+你的ID: {1:05d}<<n>>搜索中
+{1} connected!
+{1}已连接！
+Trade
+交易
+Choose an activity.
+选择一项活动。
+{1} wants to battle!<<n>>{2}: {3}
+{1}想要战斗！<<n>>{2}: {3}
+{1} wants to trade!
+{1}想要交易！
+Accept Trade
+接受交易
+Deny Trade
+拒绝交易
+I'm sorry, {1} doesn't want to trade.
+抱歉，{1}不想要交易。
+I'm sorry, {1} doesn't want to battle.
+抱歉，{1}不想要战斗。
+Waiting for {1} to resynchronize
+等待{1}重新同步
+I'm sorry, {1} denied the trade.
+抱歉，{1}拒绝了交易。
+This isn't available in Simple Mode!
+在简单模式下无法使用该功能！
+Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
+HP减小到一半以下时速度增加4级。被攻击后，会紧跟着立刻行动。
+Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.
+雨天时，回复HP的八分之一，被水属性技能攻击时，回复HP的四分之一。
+Prevents its stats from being lowered by more than 1 step at a time. Pokémon that do this take damage equal to 1/4th their HP.
+防止能力等级每次被减小超过1级。试图这样做的精灵会损失其HP的四分之一。
+Charges after using every 2 damaging moves in sandstorm, doubling the power of its next Electric-type move.
+沙暴时，每使用2次伤害类技能后，进入能量充盈状态，下一个电属性技能的威力翻倍。
+Foes suffer 50% more move damage reduction from burn, frostbite, numb, and poison.
+对手因烧伤、冻伤、麻痹和中毒减少的伤害增加50%。
+Heals this Pokémon by 1.5x the damage other battlers take from being poisoned.
+根据其他精灵因中毒所受的伤害的1.5倍回复HP。
+Takes 20% less damage if the move is more than normal-effective.
+受到的效果一般以上的伤害减少20%。
+You can't take the Achievement Challenge, because you don't have 8 badges!
+你无法参加成就挑战，因为你没有集齐8个徽章！
+\w[]\wm\c[12]\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...
+\w[]\wm\c[12]\l[3]你带着精灵返回了{1}，希望能快点想出打倒道馆馆主的策略...
+Which do you want to challenge?
+你想挑战哪一个？
+Yes?
+是？
+No?
+否？
+I'll take a Solrock.
+我要一块太阳岩。
+I'll take a Lunatone.
+我要一块月石。
+Eat the metal crate
+吃掉金属箱子
+Leave it alone
+别管它
+Don't shake.
+别摇晃。
+Shake.
+摇晃。
+Leave it.
+离开它。
+Use a Moomoo Milk.
+使用哞哞鲜奶。
+Use a Full Restore.
+使用全复药。
+Do not buy Tea
+不要买茶
+Seems legit.
+看起来很正规。
+Why not?
+为什么不呢？
 Bill
 比尔
 Items
@@ -45364,9 +45803,9 @@ Light
 Multi
 多
 Move {1} is defined as a Status move with a non-zero base damage.<<n>>{2}
-技能{1}被定义为具有非零基础伤害的状态技能。<<n>>{2}
+技能{1}被定义为具有非零基础伤害的变化类技能。<<n>>{2}
 Warning: Move {1} was defined as a Damaging move but had a base damage of 0. Changing it to a Status move.<<n>>{2}
-警告：技能{1}被定义为伤害类技能，但基础伤害为0。正在将其更改为状态技能。<<n>>{2}
+警告：技能{1}被定义为伤害类技能，但基础伤害为0。正在将其更改为变化类技能。<<n>>{2}
 Move ID '{1}' is used twice.<<n>>{2}
 技能ID'{1}'被重复使用了。<<n>>{2}
 A class for the move function code #{moveFunction} given for move #{move_hash<<[>>:id<<]>>}<<n>>does not exist!<<n>>{1}
@@ -46836,7 +47275,7 @@ Status Conditions are removed when you heal at the PokéCenter, after a trainer 
 Status Immunity
 免疫异常状态
 Type immunities do not prevent status moves. However, some types give immunities to certain status conditions. Don't confuse these two!
-属性免疫无法阻止异常状态技能，但某些属性会对异常状态本身产生免疫 ，这两者并不相同。
+属性免疫无法阻止异常变化类技能，但某些属性会对异常状态本身产生免疫 ，这两者并不相同。
 When burned, a Pokémon's Attack is reduced by 33%, and loses 1/8th HP every turn. Fire- and Ghost-types do the most burning. Fire is immune.
 被烧伤的精灵攻击减小33%，每回合损失1/16HP，火属性与幽灵属性最擅长烧伤对手，火属性免疫烧伤。
 Frostbite
@@ -50347,6 +50786,14 @@ You lost against {1}, {2} and {3}!{4}
 你输给了{1}、{2}和{3}！{4}
 <imp>Hang in there! You're doing great.<<n>>Please keep it up, don't give up!</imp>
 <imp>Hang in there! You're doing great.<<n>>Please keep it up, don't give up!</imp>
+an
+一个
+a
+一个
+The {1} is holding {2} <imp>{3}</imp>!
+{1}携带着{2}<imp>{3}</imp>！
+The {1} is holding {2} {3}!
+{1}携带着{2}{3}！
 \i[EXPEZDISPENSER]{1} exp was stored in the EXP-EZ Dispenser this battle.
 \i[EXPEZDISPENSER]这场战斗中，{1}点经验值已存入经验分配器。
 The opposing {1}
@@ -51608,7 +52055,7 @@ The evil roots will sap foe health each turn!
 {1} was shrouded with Magic Coat!
 {1}被魔法反射笼罩着！
 It'll bounce back status moves for {1} more turns!
-它还会反弹状态技能{1}回合！
+它还会反弹变化类技能{1}回合！
 {1} is no longer shrouded with a Magic Coat.
 {1}不再被魔法反射笼罩。
 {1} levitated with electromagnetism!
@@ -52810,7 +53257,7 @@ But it failed, since {1} is disguised by an Illusion!
 But it failed, since the target didn't choose to use a move!
 但它失败了，因为目标没有选择使用技能！
 But it failed, since the target chose to use a status move!
-但它失败了，因为目标选择了使用状态技能！
+但它失败了，因为目标选择了使用变化类技能！
 But it failed, since the target chose a move that can't be copied!
 但它失败了，因为目标选择了1个无法复制的技能！
 Which move should {1} use?
@@ -54452,7 +54899,7 @@ You consumed {1}.
 {1}'s level remained unchanged.
 {1}的等级保持不变。
 {1} dropped to Lv. {2}!
-{1}的等级降至Lv. {2}！
+{1}的等级减小到Lv. {2}！
 {1}'s HP was restored by {2} points.
 {1}的HP回复了{2}点。
 Can't use that here.
@@ -55026,7 +55473,7 @@ You've gathered {1} Coins. You cannot gather any more.
 \me[Voltorb Flip game over]Oh no! You get 0 Points!\wtnp[50]
 \me[Voltorb Flip游戏结束]哦不！你得到0分！\wtnp[50]
 \se[Voltorb Flip level down]Dropped to Game Lv. {1}!
-\se[Voltorb Flip等级减小]游戏等级降至{1}！
+\se[Voltorb Flip等级减小]游戏等级减小到{1}！
 \me[Voltorb Flip win]Game clear!\wtnp[40]
 \me[Voltorb Flip胜利]游戏通关！\wtnp[40]
 You've found all of the hidden x2 and x3 cards.
@@ -62672,6 +63119,74 @@ Formal Clothes
 Code Errors
 代码错误
 [32]
+Sublimated
+升华
+Snorer
+酣睡者
+Spray and Pray
+喷涌祈愿
+Will Faint After Rampage
+暴走后濒死
+Diffraction
+衍射
+Delayed Damage
+延迟伤害
+Shrinking
+缩小
+Sugar Rush
+糖分激增
+Trailing Rainbows
+彩虹之径
+Trailing Rainbows Deletes Fire
+彩虹之径删除火
+Tangling Vines
+缠绕藤蔓
+Feather Charm Force Switch
+羽毛魅力强制交换
+Bypass Exhaustion
+绕过僵直
+Hit This Turn
+本回合命中
+Incoming Damage Turns
+即将受到伤害的回合
+Incoming Damage Amount
+即将受到的伤害量
+Extra Hiding Turn
+额外隐藏回合
+Sprig Horn First Hit
+嫩枝角首次命中
+Scythe Horn First Hit
+镰刀角首次命中
+Sword Horn First Hit
+剑角首次命中
+Slumbering Shield Ready
+沉睡之盾准备就绪
+Slumbering Sword Ready
+沉睡之剑准备就绪
+Rusted Shield Dropped
+腐朽之盾掉落
+Rusted Sword Dropped
+腐朽之剑掉落
+Pokémon Entered
+精灵出场
+Incoming
+即将来临
+Incoming Type
+即将来临的属性
+Wish Maker User Index
+许愿者用户索引
+Wish Maker Party Index
+许愿者队伍索引
+Stormshards
+风暴碎片
+Feathers Dropped
+羽毛掉落
+Scales Dropped
+鳞片掉落
+Fangs Dropped
+獠牙掉落
+Scutes Dropped
+鳞甲掉落
 Aqua Ring
 水流环
 Beak Blast
@@ -63355,11 +63870,11 @@ Last Round Fainted
 Spent Tyrannical Immunity
 暴君之怒免疫
 Hero's Journey - KO
-Hero's Journey - KO
+英雄之旅-KO
 Hero's Journey - Revenge
-Hero's Journey - Revenge
+英雄之旅-复仇
 Hero's Journey - Status
-Hero's Journey - Status
+英雄之旅-变化类技能
 Tailwind Turns
 顺风回合
 Primeval Tailwind
@@ -63381,9 +63896,9 @@ Wishing Well
 Turns Until Freeze
 寒气到来回合
 Coral Overgrowth
-Coral Overgrowth
+瑚茂
 Unwavering Valor
-坚定不移的勇气
+不屈之勇
 Faint Healing
 濒死复活
 [33]
