@@ -637,6 +637,11 @@ def getWeatherSettingEffectScore(weatherType, user, battle, finalDuration = 4, c
     finalDuration = user.getWeatherSettingDuration(weatherType, finalDuration, true) if checkExtensions
     currentDuration = battle.field.weather == weatherType ? battle.field.weatherDuration : 0
 
+    if currentDuration < 0
+        echoln("\t\t[EFFECT SCORING] Score for setting weather #{weatherType} is 0 due to an infinite duration (#{currentDuration})")
+        return 0
+    end
+
     if currentDuration >= finalDuration
         echoln("\t\t[EFFECT SCORING] Score for setting weather #{weatherType} is 0 due to final duration #{finalDuration} being less than the current duration #{currentDuration}")
         return 0
