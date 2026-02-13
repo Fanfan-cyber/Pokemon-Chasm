@@ -597,7 +597,7 @@ TotalPP = 25
 Target = AllNearFoes
 FunctionCode = LowerTargetSpDef2
 Flags = CanProtect,CanMagicCoat
-Description = The user smirks with confidence. The Sp. Def of nearby enemies is lowered.
+Description = The user smirks with confidence. The Sp. Def of nearby enemies is lowered by two steps.
 Animation = SCARYFACE
 #-------------------------------
 [STELLARATE]
