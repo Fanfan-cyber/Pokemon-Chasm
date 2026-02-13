@@ -625,6 +625,19 @@ def getMultiStatDownEffectScore(statDownArray, user, target, fakeStepModifier: 0
     
     score *= 1.7 if user.ownersPolicies.include?(:PRIORITIZESTATDOWN) && user.opposes?(target)
     
+    if user.opposes?(target)
+        if target.hasActiveAbilityAI?(:DEFIANT)
+            echoln("\t\t[EFFECT SCORING] The target has Defiant! Applying large penalty.")
+            score -= 80
+        elsif target.hasActiveAbilityAI?(:COMPETITIVE)
+            echoln("\t\t[EFFECT SCORING] The target has Competitive! Applying large penalty.")
+            score -= 80
+        elsif target.hasActiveAbilityAI?(:IMPERIOUS)
+            echoln("\t\t[EFFECT SCORING] The target has Imperious! Applying moderate penalty.")
+            score -= 40
+        end
+    end
+
     return score.ceil
 end
 
