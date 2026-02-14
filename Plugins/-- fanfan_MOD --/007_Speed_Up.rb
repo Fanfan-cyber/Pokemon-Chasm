@@ -30,7 +30,7 @@ module Input
   end
 end
 
-$last_trigger_time = Time.now
+#$last_trigger_time = Time.now
 
 module Graphics
   class << self

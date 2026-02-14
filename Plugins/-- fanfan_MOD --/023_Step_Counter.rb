@@ -2,7 +2,7 @@ class PokeBattle_Battle
   def tick_down_step_counter(priority)
     return unless Settings::STEP_RECOVERY
     priority.each do |b|
-      next unless b.need_tick_down?
+      #next unless b.need_tick_down?
       next if b.fainted?
       step_counter = b.tracker_get(:step_counter)
       next if step_counter.empty?
@@ -68,12 +68,29 @@ class PokeBattle_Battler
     return false
   end
 
+  def step_counter_recovery_turn(increment)
+    default_turn = Settings::STEP_RECOVERY_TURN
+=begin
+    case increment
+    when 1
+      default_turn + 3
+    when 2
+      default_turn + 2
+    when 3
+      default_turn + 1
+    else
+      default_turn
+    end
+=end
+    [default_turn * 2 - increment, default_turn].max
+  end
+
   def update_step_counter(stat, increment, raised = true)
-    return if increment < 3 # 2 step doesn't counter
+    #return if increment < 3 # 2 step doesn't counter
     real_increment = raised ? increment : -increment
     step_counter = tracker_get(:step_counter)
     step_counter[stat] = [] unless step_counter[stat]
-    step_counter[stat] << [real_increment, Settings::STEP_RECOVERY_TURN]
+    step_counter[stat] << [real_increment, step_counter_recovery_turn(increment)]
   end
 
   def clear_step_counter(stat = nil)
