@@ -292,7 +292,7 @@ class PokemonDataBox < SpriteWrapper
 	end
   
 	def exp_fraction
-	  return (@animatingExp) ? @currentExp.to_f/@rangeExp : @battler.pokemon.exp_fraction
+	  return (@animatingExp) ? (@rangeExp == 0 ? 0.0 : @currentExp.to_f/@rangeExp) : @battler.pokemon.exp_fraction
 	end
   
 	def animateHP(oldHP,newHP,rangeHP,fastAnimation=false)
