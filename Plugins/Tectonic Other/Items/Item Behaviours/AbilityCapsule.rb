@@ -1,6 +1,6 @@
 ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
-    unless TA.get(:monoabil)
-      pbMessage(_INTL("Ability Capsule can be only used in Mono Ability mode!"))
+    unless TA.get(:monoabil) || TA.get(:tectonic)
+      pbMessage(_INTL("Ability Capsule can be only used in Mono Ability or Tectonic mode!"))
       next false
     end
     unless teamEditingAllowed?

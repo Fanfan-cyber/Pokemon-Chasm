@@ -87,17 +87,18 @@ by Fanfan
 时间胶囊功能，玩家可以将精灵放入时间胶囊中，时间胶囊中的精灵可以在所有存档之间存取
 自定义属性克制表，你可以自定义各个属性之间的克制关系，自定义修改的属性克制表将会跟随存档，使用密码customtypechart，首次输入时，会自动生成一个保存有默认的属性克制表的Custom_Type_Chart.rb文件，只需修改该文件，修改完成后再次使用该密码应用修改，如果想要恢复默认的属性克制表，只需把游戏文件夹里的Custom_Type_Chart.rb删除，然后再使用一次该密码
 自定义复活回合数，你可以自定义濒死复活机制的复活回合数，使用密码customrevivalturn开启
+自由部族模式，开启自由部族模式后，可自由设定部族效果生效所需要的精灵数，使用密码customtribethresh开启(Inspired by Attea, Kirby Gal)
 全双打模式，开启全双打模式后，所有战斗都会变成双打，使用密码doublebattle开启
 火箭队模式，和训练师的对战胜利时，可以从对手的队伍中抢走一只精灵，使用密码rocket开启
-特性自选模式，玩家可以用特性记录器中记录的特性来修改自己的精灵的特性，使用密码customabil开启
 无经验模式，开启无经验模式后，玩家的精灵打败对手的精灵时，将不再获得经验，使用密码zeroexp开启
-休闲模式，开启休闲模式后，将使对战完胜机制失效，所有战斗都不再要求完胜获胜，打败第一个道馆之后使用密码disableperfect开启
-简单模式，开启简单模式后，将使馆主再战机制失效，打败第一个道馆之后使用密码simplemode开启
-自由部族模式，开启自由部族模式后，可自由设定部族效果生效所需要的精灵数，使用密码customtribethresh开启(Inspired by Attea, Kirby Gal)
 绝对复制模式，开启后绝对复制模式后，无论对手原本有多少只精灵，都会从玩家队伍中随机复制一只精灵加入自身的队伍，使用密码copywhatever开启
-单特性模式，开启单特性模式后，玩家的精灵只会拥有一个特性，使用特性胶囊可以将特性切换到另一个可能的特性，使用密码monoabil开启
+单特性模式，开启单特性模式后，玩家的精灵只有主特性会生效，使用特性胶囊可以切换特性，使用密码monoabil开启
+构造模式，开启构造模式后，所有精灵都只有主特性会生效，使用特性胶囊可以切换特性，，使用密码tectonic开启
+特性自选模式，玩家可以用特性记录器中记录的特性来修改自己的精灵的特性，使用密码customabil开启
 无尽休息模式，开启无尽休息模式后，对于异常状态自然回复机制和替换回血机制，对手的精灵即使处于危急状态，也会进行计数，使用密码opposingalwaysresting开启 
 反转对战模式，开启后所有战斗都将会强制激活永久的反转场地，在反转场地中战斗时，属性克制将会反转，并且选择技能时的属性克制提示也会随机化显示，使用密码inversebattle开启
+休闲模式，开启休闲模式后，将使对战完胜机制失效，所有战斗都不再要求完胜获胜，打败第一个道馆之后使用密码disableperfect开启
+简单模式，开启简单模式后，将使馆主再战机制失效，打败第一个道馆之后使用密码simplemode开启
 塔罗牌困难模式，开启后对方将会获得一个Buff，此为此游戏的唯一一个不公平选项，可自行选择是否开启
 可选择性跳过的化身战，即Boss战
 游戏加速功能，快捷键Q，但是战斗不会被加速，使用密码speedup让加速也在战斗中应用
@@ -155,13 +156,14 @@ copywhatever/nocopywhatever，开启/关闭绝对复制模式
 opposingalwaysresting/noalwaysresting，开启/关闭无尽休息模式
 
 # 以下密码均会使游戏难度减小
+customrevivalturn，使用自定义的濒死复活机制的复活回合数
 stupidai/smartai，开启/关闭AI弱化
 freetarotamulet/nofreetarotamulet，开启/关闭自由翻转塔罗护身符功能
 disablerevive/battlerevive，关闭/开启濒死复活机制
 enablelegendary/disablelegendary，开启/关闭在战斗中允许使用传说精灵
 customtribethresh，开启自由部族模式
-customrevivalturn，使用自定义的濒死复活机制的复活回合数
 rocket/norocket，开启/关闭火箭队模式
+tectonic/disabletectonic，开启/关闭构造模式
 customabil/nocustomabil，开启/关闭特性自选模式
 doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
@@ -524,10 +526,12 @@ simplemode/normalmode，开启（1徽章）/关闭简单模式
 354.修复了Primordial Seal会异常不生效的Bug
 355.修复了Hero's Journey无法正常发动的Bug
 356.修复了复制机制如果复制到1级的精灵就会使游戏崩溃的Bug
-357.
+357.增加了构造模式，现在可以通过输入密码tectonic开启构造模式，开启构造模式后，所有精灵只有主特性会生效
+358.现在可以通过输入密码disabletectonic关闭构造模式
+359.
 
 1698
-检查群聊天记录
+复活默认关闭
 删除作弊检测
 能力等级自然恢复机制改进
 Synaptic unlock修改

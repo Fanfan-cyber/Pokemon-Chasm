@@ -54519,6 +54519,8 @@ Received the {1} from {2}.
 从{2}那里取出了{1}。
 Ability Capsule can be only used in Mono Ability mode!
 特性胶囊只能在单特性模式下使用！
+Ability Capsule can be only used in Mono Ability or Tectonic mode!
+特性胶囊只能在单特性模式或构造模式下使用！
 You may not make your last able Pokémon a pacifist.
 你不能让你最后一只能够战斗的精灵成为和平主义者。
 You may not make your last able Pokémon have this ability.

@@ -362,7 +362,7 @@ class PokemonPartyShowcase_Scene
         # Display ability name
         #abilityName = pokemon.ability&.name || _INTL("No Ability")
         abil = pokemon.ability
-        if TA.get(:monoabil)
+        if TA.get(:monoabil) || TA.get(:tectonic)
             abilityName = abil ? abil.name : _INTL("None")
         elsif TA.get(:customabil)
             abilityName = abil && pokemon.has_main_ability? ? abil.name : _INTL("None")

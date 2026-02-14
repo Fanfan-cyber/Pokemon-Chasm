@@ -18,13 +18,26 @@ class Pokemon
     ability_id && !species_abilities.has?(ability_id)
   end
 
+=begin
   def abilities
-    if TA.get(:monoabil) && used_by_player?
+    if TA.get(:tectonic) || TA.get(:monoabil) && used_by_player?
       [ability_id].compact
     else
       main_abil = TA.get(:customabil) ? [ability_id] : []
       (main_abil | species_abilities | extraAbilities).compact
     end
+  end
+=end
+
+  def abilities
+    if TA.get(:tectonic) || TA.get(:monoabil) && used_by_player?
+      main_abil = [ability_id]
+      spe_abils = []
+    else
+      main_abil = TA.get(:customabil) ? [ability_id] : []
+      spe_abils = species_abilities
+    end
+    (main_abil | spe_abils | extraAbilities).compact
   end
 
   def eachAbility
