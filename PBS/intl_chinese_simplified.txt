@@ -2201,7 +2201,7 @@ Is it Physical, you ask? Special, perhaps? It's both, of course!
 Your Pokemon uses whichever is best for their stats!
 适应之力听说过吗？这招会根据精灵的能力值以更高伤害的形态出击！
 Is there a catch, hmmm? ...Yes...the move misses 20 percent of the time.
-有什么缺点吗，嗯？...有的...这招有20%的概率落空。
+有什么缺点吗，嗯？...有的...这招有百分之20的概率落空。
 Whaddya say? Tons of Pokemon can be taught this move.
 怎么样？很多精灵都能学这招。
 Truly you've struck the motherload of moves!
@@ -22309,9 +22309,9 @@ Yo! Great to see you again! Man, it feels like it’s been forever.
 Gonna be honest: it’s really damn hard sitting here. Just, like, it was supposed to be me, y’know?
 说实话，我感觉坐在这里很难受，就好像...大概...本该属于我？
 But don’t get me wrong: you earned this. You gave 110 percent.
-不要误会，这是你应得的，毕竟你付出了110%的努力。
+不要误会，这是你应得的，毕竟你付出了百分之110的努力。
 Maybe more like 150, honestly. Glad I got to see it.
-还是说150%？
+还是说百分之150？老实说，我很高兴看到这个。
 Hello, nondescript friend!
 你好，不起眼的朋友！
 I am studiously not remembering any prior interaction we may or may not have had!
@@ -35668,7 +35668,7 @@ The user peruses its kingly stores of knowledge, selecting three random non-Psyc
 The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
 利用天象视觉混乱目标，使对方的特攻减小5级。
 The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its other legal ability.
-使用者连接目标的脑电波以稳定其心智，回复混乱，并赋予其另一种合法特性。
+使用者连接目标的脑电波以稳定其心智，回复混乱状态，并赋予其另一种合法特性。
 The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
 使用者控制目标的大脑对其发动攻击。可能随机命中要害。
 The user imparts knowledge on its ally Pokémon, raising their Sp. Atk and Sp. Def stats by two steps.
@@ -45646,13 +45646,13 @@ Genderless
 Female One Eighth
 雌性占八分之一
 Female 25 Percent
-雌性占25%
+雌性占百分之25
 Female 50 Percent
-雌性占50%
+雌性占百分之50
 Female 75 Percent
-雌性占75%
+雌性占百分之75
 Female Seven Eighths
-雌性占七分之八
+雌性占八分之七
 Medium
 中等
 Erratic
@@ -49402,9 +49402,9 @@ But it failed, since an attack is already foreseen against {1}!
 {1} foresaw an attack!
 {1}预见到了攻击！
 But it failed, since the receiver of the help is gone!
-但是失败了，因为接受者不在了！
+但是失败了，因为目标不在了！
 But it failed, since {1} is already being helped!
-但它失败了，因为{1}已经在被帮助了！
+但它失败了，因为{1}已经被帮助了！
 {1} is ready to help {2}!
 {1}准备帮助{2}！
 But it failed, since {1}'s {2} can't go any higher!
@@ -50058,7 +50058,7 @@ All foes positive stat changes were eliminated!
 {1} is radiating a fairy aura!
 {1}正在释放妖精气场！
 {1} is ruinous! Everyone deals 40 percent more damage!
-{1}引发了毁灭！场上所有精灵的技能威力都增加了！
+{1}引发了毁灭！场上所有精灵的技能威力都增加了百分之40！
 {1} is hungry for destruction!
 {1}渴望毁灭！
 {1} is honorable! Status moves lose priority!
@@ -50308,9 +50308,9 @@ You can skip the battle and treat it as a win by FORFEIT!
 You have to win the battle <c3=E82010,F8A8B8>PERFECTLY</c3>, or you LOSE!
 对于这场战斗，你必须<c3=E82010,F8A8B8>完胜</c3>！
 There is a Legendary Pokémon in your party!<<n>>Your team's move power will reduce by 10 percent!
-你的队伍中有一只传说精灵！<<n>>你队伍的技能威力将减小10%！
+你的队伍中有一只传说精灵！<<n>>你队伍的技能威力将减小百分之10！
 There are some Legendary Pokémon in your party!<<n>>Your team's move power will reduce by {1} percent!
-你的队伍中有一些传说精灵！<<n>>你队伍的技能威力将减小{1}%！
+你的队伍中有一些传说精灵！<<n>>你队伍的技能威力将减小百分之{1}！
 Time is dancing to {1}'s tune! This turn is being skipped!
 时间正随着{1}的旋律起舞！这个回合被跳过了！
 {1} will arrive next turn!
@@ -52144,7 +52144,7 @@ The turbulent sky above {1}'s side calmed down.
 {1} began the spring plantings!
 {1}开始了春季播种！
 Their Sp. Def will be raised by 50 percent for {1} more turns!
-他们的特防将增加50%，持续{1}回合！
+他们的特防将增加百分之50，持续{1}回合！
 {1} cancelled their spring plantings.
 {1}取消了春季播种。
 {1} completed their spring plantings!
@@ -52156,7 +52156,7 @@ Their Sp. Def will be raised by 50 percent for {1} more turns!
 {1} began the summer festivals!
 {1}开始了夏日祭典！
 Their Speed will be raised by 50 percent for {1} more turns!
-他们的速度将增加50%，持续{1}回合！
+他们的速度将增加百分之50，持续{1}回合！
 {1} cancelled their summer festivals.
 {1}取消了夏日祭典。
 {1} completed their summer festivals!
@@ -52164,11 +52164,11 @@ Their Speed will be raised by 50 percent for {1} more turns!
 {1}'s summer festivals are finishing!
 {1}的夏日祭典即将结束！
 They'll deal 50 percent more move damage this turn, but take 25 percent recoil!
-本回合他们的技能伤害将增加50%，但会受到25%的反伤！
+本回合他们的技能伤害将增加百分之50，但会受到百分之25的反伤！
 {1} began the autumn harvests!
 {1}开始了秋季收获！
 Their Defense will be raised by 50 percent for {1} more turns!
-他们的物防将增加50%，持续{1}回合！
+他们的物防将增加百分之50，持续{1}回合！
 {1} cancelled their autumn harvests.
 {1}取消了秋季收获。
 {1} completed their autumn harvests!
@@ -52180,7 +52180,7 @@ They receive a healthy bounty!
 {1} began the winter hunts!
 {1}开始了冬季狩猎！
 Their Accuracy will be raised by 50 percent for {1} more turns!
-他们的命中率将增加50%，持续{1}回合！
+他们的命中率将增加百分之50，持续{1}回合！
 {1} cancelled their winter hunts.
 {1}取消了冬季狩猎。
 {1} completed their winter hunts!
@@ -54244,7 +54244,7 @@ Editing your team is not allowed at the moment.
 You no longer feel pumped up.
 你不再觉得振奋。
 You've currently completed {1} percent of the Dex.
-你目前已经完成了图鉴的{1}%。
+你目前已经完成了图鉴的百分之{1}。
 We're running a raffle. Would you like to spend ${1} on a chance to win a {2}?
 我们正在举行抽奖。你想花{1}金钱来获得赢得1个{2}的机会吗？
 I'm sorry, but you don't seem to have enough money.
@@ -54296,7 +54296,7 @@ Tomorrow's weather forecast for {1}!
 The area will experience normal conditions all day.
 该地区全天天气正常。
 This means cloud cover at around 50 percent, with a very low chance for precipitation.
-这代表着云层覆盖率一般 降水的概率比较低。
+这代表着云层覆盖率一般，降水的概率比较低。
 The morning will see {1}.
 早晨将会有{1}。
 That weather will continue into the afternoon.
@@ -54517,8 +54517,8 @@ The Bag is full. The Pokémon's {1} could not be removed.
 背包满了，无法取出精灵的{1}。
 Received the {1} from {2}.
 从{2}那里取出了{1}。
-Ability Capsule can be only used in Mono Ability mode!
-特性胶囊只能在单特性模式下使用！
+Ability Capsule can be only used in Mono Ability or Tectonic mode!
+特性胶囊只能在单特性模式或构造模式下使用！
 You may not make your last able Pokémon a pacifist.
 你不能让你最后一只能够战斗的精灵成为和平主义者。
 You may not make your last able Pokémon have this ability.
@@ -54848,7 +54848,7 @@ Cannot use this item on that Pokémon.
 {1}'s Ability changed to {2}!
 {1}的特性变成了{2}！
 The VS Recorder is WIP so it might have some bugs!
-战斗记录器正在开发中，可能存在一些bug！请知悉！
+战斗记录器正在开发中，可能存在一些Bug！请知悉！
 The VS Recorder buzzes erratically. Save your progress to make it work properly.
 战斗记录器发出不规则的嗡嗡声。请保存进度以使其正常工作。
 You don't have any battles recorded on your VS Recorder.
@@ -57756,7 +57756,7 @@ Return to me when you are ready to battle.
 Odds are displayed for the grand final, gathered from a spectator poll.
 根据观众投票调查，大赛的胜算比率已经显示出来了。
 Only 20 percent of respondents expect you to win against your brother.
-只有20%的观众认为你能战胜你的哥哥。
+只有百分之20的观众认为你能战胜你的哥哥。
 third
 第三
 fourth
@@ -57778,7 +57778,7 @@ eleventh
 Odds are displayed for the {1} round matches, gathered from a spectator poll.
 显示的是{1}轮比赛的赔率，来自观众投票。
 {1} percent of respondents expect you to win against {2}.
-{1}%的受访者认为你会赢过{2}。
+百分之{1}的受访者认为你会赢过{2}。
 You a big shot, huh? Well, we're here to supply you.
 你是个大人物，对吧？好吧，我们在这儿就是为你提供服务的。
 Get your supplies here!
@@ -59273,6 +59273,8 @@ If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
 让精灵携带后，吃下时，若当前HP大于25%，则回复25%HP，反之，则回复33%HP。
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by three steps.
 激烈地跳起战舞增加气势，自身物攻增加3级。
+The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its legal abilities.
+使用者连接目标的脑电波以稳定其心智，回复混乱状态，并使目标获得它的所有合法特性。
 {1} change to {2} type!
 {1}变为{2}属性！
 {1} has been removed!

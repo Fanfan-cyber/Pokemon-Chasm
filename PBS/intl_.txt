@@ -50427,6 +50427,8 @@ What?! Even more energy rises up from inside {1}!!
 What?! Even more energy rises up from inside {1}!!
 A great energy rises up from inside {1}!
 A great energy rises up from inside {1}!
+Last battle
+Last battle
 Record cannot be opened, as no save has been made.
 Record cannot be opened, as no save has been made.
 Record {1} does not exist
@@ -54517,8 +54519,8 @@ The Bag is full. The Pokémon's {1} could not be removed.
 The Bag is full. The Pokémon's {1} could not be removed.
 Received the {1} from {2}.
 Received the {1} from {2}.
-Ability Capsule can be only used in Mono Ability mode!
-Ability Capsule can be only used in Mono Ability mode!
+Ability Capsule can be only used in Mono Ability or Tectonic mode!
+Ability Capsule can be only used in Mono Ability or Tectonic mode!
 You may not make your last able Pokémon a pacifist.
 You may not make your last able Pokémon a pacifist.
 You may not make your last able Pokémon have this ability.
@@ -59273,6 +59275,8 @@ If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
 If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by three steps.
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by three steps.
+The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its legal abilities.
+The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its legal abilities.
 {1} change to {2} type!
 {1} change to {2} type!
 {1} has been removed!

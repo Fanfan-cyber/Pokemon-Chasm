@@ -608,6 +608,7 @@ class PokeBattle_Battle
                 PBDebug.logonerr { pbEndOfRoundPhase }
                 break if @decision > 0
                 @turnCount += 1
+                @recorded_choices.push([]) # for battle recording, check def pbCommandPhase
             end
 
         end
