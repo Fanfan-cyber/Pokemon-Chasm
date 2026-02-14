@@ -35668,7 +35668,9 @@ The user peruses its kingly stores of knowledge, selecting three random non-Psyc
 The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
 利用天象视觉混乱目标，使对方的特攻减小5级。
 The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its other legal ability.
-使用者连接目标的脑电波以稳定其心智，回复混乱，并赋予其另一种合法特性。
+使用者连接目标的脑电波以稳定其心智，回复混乱状态，并赋予其另一种合法特性。
+The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its legal abilities.
+使用者连接目标的脑电波以稳定其心智，回复混乱状态，并使目标获得它的所有合法特性。
 The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
 使用者控制目标的大脑对其发动攻击。可能随机命中要害。
 The user imparts knowledge on its ally Pokémon, raising their Sp. Atk and Sp. Def stats by two steps.
@@ -49402,9 +49404,9 @@ But it failed, since an attack is already foreseen against {1}!
 {1} foresaw an attack!
 {1}预见到了攻击！
 But it failed, since the receiver of the help is gone!
-但是失败了，因为接受者不在了！
+但是失败了，因为目标不在了！
 But it failed, since {1} is already being helped!
-但它失败了，因为{1}已经在被帮助了！
+但它失败了，因为{1}已经被帮助了！
 {1} is ready to help {2}!
 {1}准备帮助{2}！
 But it failed, since {1}'s {2} can't go any higher!

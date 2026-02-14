@@ -72,7 +72,7 @@ class PokeBattle_Move_CureDizzyAndUnlockBothAbilities < PokeBattle_HelpingMove
         mindUnlocked = true
         target.eachLegalAbility do |legalAbility|
             next if target.ability_ids.include?(legalAbility)
-            next if GameData::Ability.get(legalAbility).is_immutable_ability?
+            #next if GameData::Ability.get(legalAbility).is_immutable_ability?
             next if target.hasAbility?(legalAbility)
             mindUnlocked = false
             break
@@ -89,8 +89,8 @@ class PokeBattle_Move_CureDizzyAndUnlockBothAbilities < PokeBattle_HelpingMove
         target.pbCureStatus(true, :DIZZY) if target.dizzy?
         target.eachLegalAbility do |legalAbility|
             next if target.ability_ids.include?(legalAbility)
-            next if GameData::Ability.get(legalAbility).is_immutable_ability?
-            target.addAbility(legalAbility, true)
+            #next if GameData::Ability.get(legalAbility).is_immutable_ability?
+            target.addAbility(legalAbility, true, true)
         end
     end
 end
