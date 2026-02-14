@@ -75,7 +75,7 @@ by Fanfan
 能力等级自然恢复机制，精灵每一次增加或者减小的能力等级如果大于2级，那么它就会在4回合后恢复
 异常状态自然回复机制，当精灵进行替换后，如果该精灵有异常状态，但是不处于危急状态，那么在后排休息5回合后，会自动回复异常状态
 替换回血机制，精灵进行替换时，会回复10%的HP，如果该精灵既没有异常状态，也不处于危急状态，那么基于在后排休息的回合数，每回合再回复5%的HP
-濒死复活机制，濒死的精灵经过一定的回合之后会复活，但是每场战斗每只精灵只会复活1次，可使用密码disablerevive关闭此机制
+濒死复活机制，濒死的精灵经过一定的回合之后会复活，但是每场战斗每只精灵只会复活1次，可使用密码battlerevive开启此机制
 对战完胜机制，对战结束时，若队伍中有在战斗中濒死的精灵，则视为失败，可通过开启休闲模式规避此机制
 馆主再战机制，玩家需要使用不同的队伍多次击败道馆馆主才能够获得徽章，在打倒馆主时，若队伍中存在已使用过的精灵，将不会进行计数，所需击败馆主的次数随馆主的顺序递增
 物品恢复机制，战斗中消耗的物品将在战斗后恢复
@@ -152,6 +152,7 @@ revengeplus/norevengeplus，开启/关闭新版复仇机制
 shuffledisplay/noshuffledisplay，随机化/正常化属性克制提示
 zeroexp/disablezeroexp，开启/关闭无经验模式
 monoabil/disablemonoabil，开启/关闭单特性模式
+battlerevive/disablerevive，开启/关闭濒死复活机制
 copywhatever/nocopywhatever，开启/关闭绝对复制模式
 opposingalwaysresting/noalwaysresting，开启/关闭无尽休息模式
 
@@ -159,7 +160,6 @@ opposingalwaysresting/noalwaysresting，开启/关闭无尽休息模式
 customrevivalturn，使用自定义的濒死复活机制的复活回合数
 stupidai/smartai，开启/关闭AI弱化
 freetarotamulet/nofreetarotamulet，开启/关闭自由翻转塔罗护身符功能
-disablerevive/battlerevive，关闭/开启濒死复活机制
 enablelegendary/disablelegendary，开启/关闭在战斗中允许使用传说精灵
 customtribethresh，开启自由部族模式
 rocket/norocket，开启/关闭火箭队模式
@@ -528,10 +528,11 @@ simplemode/normalmode，开启（1徽章）/关闭简单模式
 356.修复了复制机制如果复制到1级的精灵就会使游戏崩溃的Bug
 357.增加了构造模式，现在可以通过输入密码tectonic开启构造模式，开启构造模式后，所有精灵只有主特性会生效
 358.现在可以通过输入密码disabletectonic关闭构造模式
-359.
+359.现在濒死复活机制默认为关闭
+360.
 
 1698
-复活默认关闭
+
 删除作弊检测
 能力等级自然恢复机制改进
 Synaptic unlock修改

@@ -437,7 +437,7 @@ class PokeBattle_Battler
             @battle.decision = 2
             return false
         end
-        if !Settings::PKMN_REVIVAL || !@battle.trainerBattle? || TA.get(:disablerevive) || battle_tracker_get(:faint_healing_triggered)
+        if !Settings::PKMN_REVIVAL || !@battle.trainerBattle? || !TA.get(:battlerevive) || battle_tracker_get(:faint_healing_triggered)
             if !TA.get(:disableperfect) && pbOwnedByPlayer? && (isSpecies?(:GARDEVOIR) && !$Trainer.has_species?(:GALLADE) ||
                                                                 isSpecies?(:GALLADE) && !$Trainer.has_species?(:GARDEVOIR) ||
                                                                 !isSpecies?(%i[GARDEVOIR GALLADE]) && !$Trainer.has_species?(%i[GARDEVOIR GALLADE]))
