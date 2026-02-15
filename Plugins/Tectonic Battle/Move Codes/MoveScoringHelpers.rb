@@ -566,6 +566,7 @@ def getMultiStatDownEffectScore(statDownArray, user, target, fakeStepModifier: 0
         statDecreaseAmount = statDownArray[i * 2 + 1]
 
         statDecreaseAmount = [PokeBattle_Battler::STAT_STEP_BOUND,statDecreaseAmount * 2].min if target.hasActiveAbilityAI?(:SIMPLE)
+        statDecreaseAmount = 1 if target.hasActiveAbilityAI?(:STUBBORN)
 
         if statSymbol == :ACCURACY
             echoln("The AI will never use a move that reduces accuracy.")
@@ -617,6 +618,17 @@ def getMultiStatDownEffectScore(statDownArray, user, target, fakeStepModifier: 0
         echoln("\t\t[EFFECT SCORING] The target has Contrary! Inverting the score.")
     elsif target.hasActiveAbilityAI?(:INVERSION)
         score *= -0.5
+    end
+    
+    if target.hasActiveAbilityAI?(:STUBBORN) && user.takesIndirectDamage?
+        if user.hp > user.totalhp / 2
+            score *= 0.9
+        elsif user.hp > user.totalhp / 4
+            score *= 0.8
+        else
+            score *= -1
+        end
+        echoln("\t\t[EFFECT SCORING] The target has Stubborn! Recalcs the score.")
     end
 
     unless user.opposes?(target)
