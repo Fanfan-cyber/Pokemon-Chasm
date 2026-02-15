@@ -2178,7 +2178,7 @@ NamePlural = Kee Berries
 Pocket = 9
 Price = 20
 Flags = Berry
-Description = If held by a Pokémon, this Berry will increase the holder's Defense by four steps if it's hit with a physical move.
+Description = If held by a Pokémon and a physical attack hits it, raises the holder's Defense by four steps.
 #-------------------------------
 [MARANGABERRY]
 Name = Maranga Berry
@@ -2186,7 +2186,7 @@ NamePlural = Maranga Berries
 Pocket = 9
 Price = 20
 Flags = Berry
-Description = If held by a Pokémon, this Berry will increase the holder's Sp. Def by four steps if it's hit with a special move.
+Description = If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by four steps.
 #-------------------------------
 [BICYCLE]
 Name = Bicycle
