@@ -540,10 +540,12 @@ simplemode/normalmode，开启（1徽章）/关闭简单模式
 368.修复了高科技光炮会使游戏崩溃的Bug
 369.修复了Atomic Breath会使游戏崩溃的Bug
 370.现在AI会正确识别Stubborn了
-371.
+371.现在设置中的Color Shifts默认为关闭
+372.现在设置中的Particles默认为关闭
+373.现在设置中的Screenshake默认为关闭
+374.
 
 1698
-减少卡顿
 第7道馆双物品好像只有第1场生效
 重新检查所有道馆
 检查锦标赛
