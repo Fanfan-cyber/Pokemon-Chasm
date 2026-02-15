@@ -620,6 +620,14 @@ East: Grouz
 East: Grouz
 North: Gigalith's Guts
 North: Gigalith's Guts
+Formation 4C, Gurdurr!
+Formation 4C, Gurdurr!
+Get ready to block 'em!
+Get ready to block 'em!
+Our defensive line collapsed...
+Our defensive line collapsed...
+We need to hit the gym. I hope Eko is taking challengers!
+We need to hit the gym. I hope Eko is taking challengers!
 Hey champ, how's it hanging?
 Hey champ, how's it hanging?
 Recently got a few uhh... assets, that I'm looking to sell. Fell off of a Trainer's backpack.
@@ -640,14 +648,6 @@ You missing the cash? Hmm.
 You missing the cash? Hmm.
 You've... got your own set of problems, huh?
 You've... got your own set of problems, huh?
-Formation 4C, Gurdurr!
-Formation 4C, Gurdurr!
-Get ready to block 'em!
-Get ready to block 'em!
-Our defensive line collapsed...
-Our defensive line collapsed...
-We need to hit the gym. I hope Eko is taking challengers!
-We need to hit the gym. I hope Eko is taking challengers!
 Oh… you destroyed it.
 Oh… you destroyed it.
 I was watching that avatar, and you just… dismissed it.
@@ -714,6 +714,12 @@ I swear, if our fourth was here, we'd kick your teeth in! Where'd that chick run
 I swear, if our fourth was here, we'd kick your teeth in! Where'd that chick run off to, anyways? She needs some teeth-kicking too...
 I've taken worse! If you think I'm done protecting the boss, you don't know me!
 I've taken worse! If you think I'm done protecting the boss, you don't know me!
+Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
+Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
+Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
+Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
+Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
+Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
 Excuse me! We were about to settle this in battle.
 Excuse me! We were about to settle this in battle.
 But, fine, I guess we can find common ground in disposing of you.
@@ -738,30 +744,24 @@ You too, you old hag.
 You too, you old hag.
 I think you'll find me back here so long as you keep trying to gain entrance, you entitled brat.
 I think you'll find me back here so long as you keep trying to gain entrance, you entitled brat.
-Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
-Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
-Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
-Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
-Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
-Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
 Those Evolution Stones are all ours! You can't have any!
 Those Evolution Stones are all ours! You can't have any!
 Aagh! Fine! I'll leave! I've got my evolutions, anyways.
 Aagh! Fine! I'll leave! I've got my evolutions, anyways.
 ...I'll be back. I'll be back, and if I ever see you again, things're gonna be different. I swear I'll...
 ...I'll be back. I'll be back, and if I ever see you again, things're gonna be different. I swear I'll...
-The berry plant is growing.
-The berry plant is growing.
+I refuse to let someone like her into the Academy.
+I refuse to let someone like her into the Academy.
+We have enough of her sort at the Academy as it stands...
+We have enough of her sort at the Academy as it stands...
 Yo...so I heard there was like, some items to steal on this route?
 Yo...so I heard there was like, some items to steal on this route?
 I got nothin' to say. You good at battling.
 I got nothin' to say. You good at battling.
 Bruh. Ok then, I guess.
 Bruh. Ok then, I guess.
-I refuse to let someone like her into the Academy.
-I refuse to let someone like her into the Academy.
-We have enough of her sort at the Academy as it stands...
-We have enough of her sort at the Academy as it stands...
+The berry plant is growing.
+The berry plant is growing.
 Listen, kid, I'm gonna give you one last warning: you can either hit the road, or bite the dust. No? Fine. We'll do it the hard way.
 Listen, kid, I'm gonna give you one last warning: you can either hit the road, or bite the dust. No? Fine.  We'll do it the hard way.
 Hah, well, you win some, you lose some. I'm not so broken up about it.
@@ -2023,6 +2023,14 @@ Dialogue here.
 Dialogue here.
 Trimmed metallic vines hang from the wall. There's not enough material to make anything further.
 Trimmed metallic vines hang from the wall. There's not enough material to make anything further.
+Stop! The law states clearly that this is an illegal action!
+Stop! The law states clearly that this is an illegal action!
+A ranger station is above us, in Grouz. I know that because I saw it myself.
+A ranger station is above us, in Grouz. I know that because I saw it myself.
+I will go there to report your illegal activities.
+I will go there to report your illegal activities.
+As an agent of the law, I am dissapointed that I was not able to overpower you.
+As an agent of the law, I am dissapointed that I was not able to overpower you.
 There was an entire cave of iron plants and no one mentioned it to me?
 There was an entire cave of iron plants and no one mentioned it to me?
 Isn't that a little suspicious?
@@ -2035,14 +2043,6 @@ It's like, a feeling of dread. That something is about to happen.
 It's like, a feeling of dread. That something is about to happen. 
 That a few words could cause something to wake up.
 That a few words could cause something to wake up.
-Stop! The law states clearly that this is an illegal action!
-Stop! The law states clearly that this is an illegal action!
-A ranger station is above us, in Grouz. I know that because I saw it myself.
-A ranger station is above us, in Grouz. I know that because I saw it myself.
-I will go there to report your illegal activities.
-I will go there to report your illegal activities.
-As an agent of the law, I am dissapointed that I was not able to overpower you.
-As an agent of the law, I am dissapointed that I was not able to overpower you.
 I'm sure there'll be some rare Pokémon to find here!
 I'm sure there'll be some rare Pokémon to find here!
 Early Chasm reports talk about a metallic giant lurking among the trees.
@@ -22163,16 +22163,6 @@ Shattered and unmade! Or, perhaps, reborn?
 Be wary - triumphant pride precipitates a dizzying fall...
 Be wary - triumphant pride precipitates a dizzying fall...
 [Map362]
-Are you lost? It's dangerous to be lost down here.
-Are you lost? It's dangerous to be lost down here.
-Wow, you're really strong! If there really was a Trainer in front of you, you'd show them who's boss!
-Wow, you're really strong! If there really was a Trainer in front of you, you'd show them who's boss!
-Hehe, you should go back! Someone meaner than me might find you.
-Hehe, you should go back! Someone meaner than me might find you.
-Don't stay down here too long!
-Don't stay down here too long!
-I made that mistake once! And only once!
-I made that mistake once! And only once!
 I come down here for inspiration. Nothing else is quite like it.
 I come down here for inspiration. Nothing else is quite like it.
 Inspiration strikes! I must put it on a canvas!
@@ -22183,6 +22173,16 @@ These catacombs are ancient, but there is hardly any mention of them in written 
 These catacombs are ancient, but there is hardly any mention of them in written record beyond the fact that it exists.
 I might just be the first ever artist down here...
 I might just be the first ever artist down here...
+Are you lost? It's dangerous to be lost down here.
+Are you lost? It's dangerous to be lost down here.
+Wow, you're really strong! If there really was a Trainer in front of you, you'd show them who's boss!
+Wow, you're really strong! If there really was a Trainer in front of you, you'd show them who's boss!
+Hehe, you should go back! Someone meaner than me might find you.
+Hehe, you should go back! Someone meaner than me might find you.
+Don't stay down here too long!
+Don't stay down here too long!
+I made that mistake once! And only once!
+I made that mistake once! And only once!
 .........
 .........
 3rd Larper
@@ -22223,10 +22223,6 @@ It should come at no surprise that our new friend wishes to meet you.
 It should come at no surprise that our new friend wishes to meet you.
 Pack it up gentlemen! Our quest into the dark catacombs has reached its end!
 Pack it up gentlemen! Our quest into the dark catacombs has reached its end!
-...
-...
-....
-....
 What serendipity!
 What serendipity!
 The Trainer yond did prove themselves worthy hast hath found our merry band again!
@@ -22235,6 +22231,12 @@ This timeth however, our company is one bigger!
 This timeth however, our company is one bigger!
 Findeth us once more for a showdown of the ages!
 Findeth us once more for a showdown of the ages!
+...
+...
+....
+....
+2nd larper
+2nd larper
 Marshadow gives you a confident smirk, puffing up its chest.
 Marshadow gives you a confident smirk, puffing up its chest.
 It probably wants to join your team. It gives gestures while holding up its Pokeball.
@@ -22247,8 +22249,6 @@ You take the Pokeball from the Marshadow.
 You take the Pokeball from the Marshadow.
 With a dramatic pose, it re-enters its Pokeball.
 With a dramatic pose, it re-enters its Pokeball.
-2nd larper
-2nd larper
 Let's go.
 Let's go.
 Onwards! Into battle!

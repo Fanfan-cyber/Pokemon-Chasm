@@ -620,6 +620,14 @@ East: Grouz
 东：古治镇
 North: Gigalith's Guts
 北：怪岩肠道
+Formation 4C, Gurdurr!
+铁骨土人，4C阵型！
+Get ready to block 'em!
+准备好挡住它们！
+Our defensive line collapsed...
+我们的防线崩溃了...
+We need to hit the gym. I hope Eko is taking challengers!
+我们需要去道馆，希望艾克会接受我们的挑战！
 Hey champ, how's it hanging?
 嘿冠军，最近怎么样?
 Recently got a few uhh... assets, that I'm looking to sell. Fell off of a Trainer's backpack.
@@ -640,14 +648,6 @@ You missing the cash? Hmm.
 唔，你说你手头紧？
 You've... got your own set of problems, huh?
 你...你也有自身的难处吧?
-Formation 4C, Gurdurr!
-铁骨土人，4C阵型！
-Get ready to block 'em!
-准备好挡住它们！
-Our defensive line collapsed...
-我们的防线崩溃了...
-We need to hit the gym. I hope Eko is taking challengers!
-我们需要去道馆，希望艾克会接受我们的挑战！
 Oh… you destroyed it.
 啊...你把它干掉了。
 I was watching that avatar, and you just… dismissed it.
@@ -714,6 +714,12 @@ I swear, if our fourth was here, we'd kick your teeth in! Where'd that chick run
 要是我们第4个队友在这里，肯定能把你打得满地找牙！那小妞到底跑哪去了？也太无组织无纪律了...
 I've taken worse! If you think I'm done protecting the boss, you don't know me!
 我什么局面没见过啊？你别以为我就这么放弃了，小瞧人也是有限度的！
+Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
+马凯亚是目前为数不多，仍允许进行考古创新研究的地区。你...莫不是竞争对手？
+Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
+这或许是让我尝试不同策略的预警，看来以后得更加谨慎地行事了...
+Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
+真是令人悲愤的耻辱感啊。看来马凯亚比我想象中更棘手...
 Excuse me! We were about to settle this in battle.
 不好意思，我们2个本打算通过战斗来解决问题的。
 But, fine, I guess we can find common ground in disposing of you.
@@ -738,30 +744,24 @@ You too, you old hag.
 还有你，碍事的老太婆！
 I think you'll find me back here so long as you keep trying to gain entrance, you entitled brat.
 不管你以后来多少次，我都会在这里挡住你的去路，自以为是的小鬼！
-Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
-马凯亚是目前为数不多，仍允许进行考古创新研究的地区。你...莫不是竞争对手？
-Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
-这或许是让我尝试不同策略的预警，看来以后得更加谨慎地行事了...
-Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
-真是令人悲愤的耻辱感啊。看来马凯亚比我想象中更棘手...
 Those Evolution Stones are all ours! You can't have any!
 那些进化石都是我们的！你1个也别想带走！
 Aagh! Fine! I'll leave! I've got my evolutions, anyways.
 啊啊！行吧！我走我走！反正我已经拿到想要的进化石了。
 ...I'll be back. I'll be back, and if I ever see you again, things're gonna be different. I swear I'll...
 ...我一定会回来的。下次再见到你，一切都会不同。我发誓...我一定会...
-The berry plant is growing.
-树果还在生长中。
+I refuse to let someone like her into the Academy.
+我不会允许她这样的人入学的。
+We have enough of her sort at the Academy as it stands...
+学校里她这样的学生已经太多了...
 Yo...so I heard there was like, some items to steal on this route?
 听说这是一条适合偷物品的路？
 I got nothin' to say. You good at battling.
 我无话可说，你很擅长对战。
 Bruh. Ok then, I guess.
 我觉得，差不多吧。
-I refuse to let someone like her into the Academy.
-我不会允许她这样的人入学的。
-We have enough of her sort at the Academy as it stands...
-学校里她这样的学生已经太多了...
+The berry plant is growing.
+树果还在生长中。
 Listen, kid, I'm gonna give you one last warning: you can either hit the road, or bite the dust. No? Fine. We'll do it the hard way.
 听着，小鬼，最后1次警告：要么滚蛋要么死！什么？好吧。那我们就用硬的。
 Hah, well, you win some, you lose some. I'm not so broken up about it.
@@ -2023,6 +2023,14 @@ Dialogue here.
 说啥？
 Trimmed metallic vines hang from the wall. There's not enough material to make anything further.
 修剪过的金属藤蔓挂载墙上，没有足够的材料制作更多东西。
+Stop! The law states clearly that this is an illegal action!
+停下你的违法行为，这里暂时不允许通行！
+A ranger station is above us, in Grouz. I know that because I saw it myself.
+我们头顶上就是古治镇，因为我亲眼看到了。
+I will go there to report your illegal activities.
+我会去举报你的。
+As an agent of the law, I am dissapointed that I was not able to overpower you.
+很遗憾，作为执法者，我却没办法制服你。
 There was an entire cave of iron plants and no one mentioned it to me?
 这么大1个铁树洞，就没人跟我讲过？
 Isn't that a little suspicious?
@@ -2035,14 +2043,6 @@ It's like, a feeling of dread. That something is about to happen.
 这就像是一种恐惧感，有什么事情要发生一般。
 That a few words could cause something to wake up.
 比如几句话就能唤醒某些东西。
-Stop! The law states clearly that this is an illegal action!
-停下你的违法行为，这里暂时不允许通行！
-A ranger station is above us, in Grouz. I know that because I saw it myself.
-我们头顶上就是古治镇，因为我亲眼看到了。
-I will go there to report your illegal activities.
-我会去举报你的。
-As an agent of the law, I am dissapointed that I was not able to overpower you.
-很遗憾，作为执法者，我却没办法制服你。
 I'm sure there'll be some rare Pokémon to find here!
 我相信一定能在这里，找到一些稀有的精灵！
 Early Chasm reports talk about a metallic giant lurking among the trees.
@@ -22163,16 +22163,6 @@ Shattered and unmade! Or, perhaps, reborn?
 Be wary - triumphant pride precipitates a dizzying fall...
 要小心...过度的骄傲会让你跌入无尽的深渊...
 [Map362]
-Are you lost? It's dangerous to be lost down here.
-你迷路了吗？在这里迷路很危险的哦。
-Wow, you're really strong! If there really was a Trainer in front of you, you'd show them who's boss!
-哇，你真的很强大！不管你遇到什么训练师，都可以教教他们谁才是老大！
-Hehe, you should go back! Someone meaner than me might find you.
-嘿嘿，你应该回去了！比我更凶的人可能会找到你。
-Don't stay down here too long!
-不要在这里待太久哦！
-I made that mistake once! And only once!
-我犯过这种错误了...不过只有1次！
 I come down here for inspiration. Nothing else is quite like it.
 我是来这里寻找灵感的，没有比这里更好的地方了。
 Inspiration strikes! I must put it on a canvas!
@@ -22183,6 +22173,16 @@ These catacombs are ancient, but there is hardly any mention of them in written 
 这些地下墓穴如此古老，几乎没有任何书面记录提到它。
 I might just be the first ever artist down here...
 我或许是第1个到这里的艺术家...
+Are you lost? It's dangerous to be lost down here.
+你迷路了吗？在这里迷路很危险的哦。
+Wow, you're really strong! If there really was a Trainer in front of you, you'd show them who's boss!
+哇，你真的很强大！不管你遇到什么训练师，都可以教教他们谁才是老大！
+Hehe, you should go back! Someone meaner than me might find you.
+嘿嘿，你应该回去了！比我更凶的人可能会找到你。
+Don't stay down here too long!
+不要在这里待太久哦！
+I made that mistake once! And only once!
+我犯过这种错误了...不过只有1次！
 .........
 ...
 3rd Larper
@@ -22223,10 +22223,6 @@ It should come at no surprise that our new friend wishes to meet you.
 我们的新朋友想要见见你，这应该不会让你感到太惊讶吧。
 Pack it up gentlemen! Our quest into the dark catacombs has reached its end!
 收拾行装，先生们！黑暗地下墓穴的探险已经结束了！
-...
-...
-....
-...
 What serendipity!
 多么巧合啊！
 The Trainer yond did prove themselves worthy hast hath found our merry band again!
@@ -22235,6 +22231,12 @@ This timeth however, our company is one bigger!
 然而，这1次，我们的队伍又多了1个人！
 Findeth us once more for a showdown of the ages!
 再次来找我们，进行一场世纪之战吧！
+...
+...
+....
+...
+2nd larper
+第2个拉佩尔
 Marshadow gives you a confident smirk, puffing up its chest.
 马赛克冲你自信一笑，挺起胸膛。
 It probably wants to join your team. It gives gestures while holding up its Pokeball.
@@ -22247,8 +22249,6 @@ You take the Pokeball from the Marshadow.
 你从玛夏多手中接过精灵球。
 With a dramatic pose, it re-enters its Pokeball.
 它摆出了1个戏剧性的姿势，然后就回到了它的精灵球里。
-2nd larper
-第2个拉佩尔
 Let's go.
 来吧。
 Onwards! Into battle!
@@ -35228,7 +35228,7 @@ The user dislodges a blast of thin projectiles. This attack always results in a 
 The user uses explosive force to shoot shards of its own body at the target. The user loses 10% of its max HP.
 使用者用爆炸将自身的身体碎片射向目标。使用者失去最大HP的10%。
 The user reflects a burst of light off its curls. Blinds a Pokémon entering the battle.
-使用者从卷毛反射出一道强光。使入场的精灵。
+使用者从卷毛反射出一道强光。使替换入场的精灵陷入失明。
 The user headbutts the target with a metal head. It has a 40% chance to make the target flinch.
 使用者用金属头槌击目标，有40%概率使目标畏缩。
 A large spike is shot at the target. If this causes the target to faint, a hazard layer of Spikes is set on the ground beneath them.

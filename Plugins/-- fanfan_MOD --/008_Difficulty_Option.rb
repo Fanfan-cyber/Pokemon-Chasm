@@ -16,11 +16,9 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Pokemon Copying
   next unless trainer
   next if trainer.trainer_type == :ABSOL
   party = trainer.party
-  length = party.length
-  next if length >= $Trainer.party.length
-  if length < 6 || TA.get(:copywhatever)
+  if party.length < $Trainer.party.length || TA.get(:copywhatever)
     #copied_pkmn = $Trainer.party_random_pkmn(false, true, false, TA.get(:copied_mon, []))
-    copied_pkmn = $Trainer.most_battled_pkmn
+    copied_pkmn = $Trainer.most_battled_pkmn(party)
     next unless copied_pkmn
     copied_pkmn.copied_level = copied_pkmn.level
     party << copied_pkmn

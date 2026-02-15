@@ -69,11 +69,19 @@ class Trainer
     pkmn_clone ? pkmn.clone_pkmn(pkmn_clone, used_by_player) : pkmn
   end
 
-  def most_battled_pkmn
+  def most_battled_pkmn(party = [])
     return nil if pokemon_party.empty?
     pokemon_party.each { |pkmn| pkmn.battled_times += 1 }
-    max_times = pokemon_party.map(&:battled_times).max
-    candidates = pokemon_party.select { |pkmn| pkmn.battled_times == max_times }
+
+    pool = pokemon_party
+    unless party.empty?
+      pool = pokemon_party.reject { |pkmn| party.include?(pkmn) }
+      pool = pokemon_party if pool.empty?
+    end
+
+    max_times = pool.map(&:battled_times).max
+    candidates = pool.select { |pkmn| pkmn.battled_times == max_times }
+
     selected = candidates.sample
     selected.battled_times = 0
     return selected.clone_pkmn
