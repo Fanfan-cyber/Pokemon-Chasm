@@ -109,7 +109,7 @@ class PokeBattle_Move_TechnoBlast < PokeBattle_Move_TypeDependsOnUserSpecialItem
         @chosenDrive = nil
     end
 
-    def resolutionChoice(user)
+    def resolutionChoice(user, replayed_choice)
         return unless user.hasActiveAbility?(:MODUSSWITCH)
         return unless user.countsAs?(:GENESECT)
         drivesToChooseFrom = @itemTypes.keys
@@ -117,6 +117,8 @@ class PokeBattle_Move_TechnoBlast < PokeBattle_Move_TypeDependsOnUserSpecialItem
             @chosenDrive = drivesToChooseFrom.sample
         elsif !user.pbOwnedByPlayer? # Trainer AI
             @chosenDrive = drivesToChooseFrom[0]
+        elsif !replayed_choice.nil?
+            @chosenDrive = replayed_choice
         else
             driveNames = drivesToChooseFrom.map { |drive| GameData::Item.get(drive).name }
             chosenIndex = @battle.scene.pbShowCommands(_INTL("Which drive should {1} use?", user.pbThis(true)), driveNames, 0)

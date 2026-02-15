@@ -575,7 +575,7 @@ class PokeBattle_Move_TwoTurnAttackCanChooseOne < PokeBattle_TwoTurnMove
         @choice = 1
     end
 
-    def resolutionChoice(user)
+    def resolutionChoice(user, replayed_choice)
         if user.effectActive?(:TwoTurnAttack)
           @choice = 0
           return
