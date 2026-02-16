@@ -28,7 +28,7 @@ ItemHandlers::UseFromBag.add(:VSRECORDER, proc { |item|
 		next 1
 
 	when 1 # Save last battle
-		unless File.exists?("#{records_path}/Last battle.dat")
+		unless File.exist?("#{records_path}/Last battle.dat")
 			pbMessage(_INTL("Your last battle was either saved or not found on your VS Recorder."))
 			next 0
 		end
