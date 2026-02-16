@@ -171,7 +171,9 @@ disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 simplemode/normalmode，开启（1徽章）/关闭简单模式
 
 0.4.5 Luminary Ascent 辉光交织
-1.
+1.修复了JoiPlay无法正常运行游戏的Bug
+2.修复了0.4.3的存档的背包无法正确升级的Bug
+3.
 
 0.4.4 Vestiges of Destiny / 溯光回响
 1.修改了大量中文的翻译
