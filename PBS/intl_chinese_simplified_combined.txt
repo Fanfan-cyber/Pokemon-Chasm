@@ -3465,7 +3465,7 @@ Bonding with a Pokemon, and discovering what makes them unique, can be such a so
 Don't worry about your battles. No matter the personality, any Pokemon can be an excellent battler.
 不要担心你的对战。无论个性如何，任何精灵都可以成为优秀的战斗者。
 Use whatever Pokemon you connect with the most.
-Use whatever Pokemon you connect with the most.
+使用你最喜欢的精灵。
 Hello, and welcome to the Casaba Villa Pokécenter!
 你好，欢迎来到甜瓜度假区精灵中心！
 Oh, you're new to Makya, are you?
@@ -3489,7 +3489,7 @@ My Pokemon is mad at me.
 It wants to spend more time in the sunshine... but I just want to relax in my room.
 它想花更多时间在阳光下...但我只想在房间里放松。
 Hmm... maybe it's time to find a Ghost-type Pokemon.
-Hmm... maybe it's time to find a Ghost-type Pokemon.
+嗯...或许是时候去找一只幽灵属性的精灵了。
 Then I won't have to worry about getting it sunlight.
 这样我就不必担心给它阳光了。
 If you happen to have one, I'll trade you my Applin for it.
@@ -4013,7 +4013,7 @@ A bouquet of pink flowers.
 A tag states that it was gathered from the Eleig river delta.
 标签显示它采集自埃利格河三角洲。
 The previous owners must have left this.
-The previous owners must have left this.
+这应该是前房主留下的。
 Think about how rich they must be in order to just leave whole TMs behind!
 想想他们得多有钱才能把整个技能机都留下！
 We're barely affording this trip, ourselves.
