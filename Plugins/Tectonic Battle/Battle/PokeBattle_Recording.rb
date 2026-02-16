@@ -35,12 +35,12 @@ module PokeBattle_BattleRecorder
 	end
 
 	def self.createDir
-		Dir.mkdir("./VSRecorder") unless Dir.exists?("./VSRecorder")
+		Dir.mkdir("./VSRecorder") unless Dir.exist?("./VSRecorder")
 		if $current_save_file_name.nil?
 			return
 		end
 		save_file_name = $current_save_file_name.split("/")[1].delete_suffix(".rxdata")
-		Dir.mkdir("./VSRecorder/#{save_file_name}") unless Dir.exists?("./VSRecorder/#{save_file_name}")
+		Dir.mkdir("./VSRecorder/#{save_file_name}") unless Dir.exist?("./VSRecorder/#{save_file_name}")
 	end
 
 	def pbRandom(x)
@@ -177,7 +177,7 @@ module PokeBattle_BattleReplayer
 	def initialize(scene, file_name)
 		raise _INTL("Record cannot be opened, as no save has been made.") if $current_save_file_name.nil?
 		save_file_name = $current_save_file_name.split("/")[1].delete_suffix(".rxdata")
-		raise _INTL("Record {1} does not exist", file_name) unless File.exists?("./VSRecorder/#{save_file_name}/#{file_name}.dat")
+		raise _INTL("Record {1} does not exist", file_name) unless File.exist?("./VSRecorder/#{save_file_name}/#{file_name}.dat")
 		battle = File.open("./VSRecorder/#{save_file_name}/#{file_name}.dat", "rb") {|f| Marshal.load(f)}
 		raise _INTL("Record is from a different version ({1}), and cannot be opened.", battle[:version]) if MOD_VERSION != battle[:version]
 		
