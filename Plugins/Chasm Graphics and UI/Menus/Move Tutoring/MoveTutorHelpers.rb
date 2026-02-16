@@ -10,10 +10,11 @@ def moveLearningScreen(pkmn,moves,addFirstMove=false)
 		moveDataA = GameData::Move.get(move_a)
 		moveDataB = GameData::Move.get(move_b)
 
-		scoreA = moveDataA.category * 1000 - moveDataA.base_damage
-		scoreB = moveDataB.category * 1000 - moveDataB.base_damage
-
-		scoreA <=> scoreB
+		if moveDataA.base_damage == moveDataB.base_damage
+			next GameData::Type.get(moveDataA.type).id_number <=> GameData::Type.get(moveDataB.type).id_number
+		else
+			next moveDataB.base_damage <=> moveDataA.base_damage
+		end
 	}
 	
 	retval = true
