@@ -349,7 +349,7 @@ GameData::BattleEffect.register_effect(:Position, {
     :entry_proc => proc do |battle, _index, position, battler|
         position.disableEffect(:CursedShell)
         battle.pbDisplay(_INTL("{1} pick up the shell!", battler.pbThis))
+        battler.applyFractionalDamage(1.0 / 4.0, false)
         battler.applyEffect(:HealBlock)
-        battler.applyEffect(:Curse)
     end,
 })

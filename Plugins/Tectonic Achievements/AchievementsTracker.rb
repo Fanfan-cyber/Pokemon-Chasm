@@ -36,7 +36,7 @@ class AchievementsTracker
     end
 
     def showAchievementPopup(name)
-        label = _INTL("Achievement Unlocked:\\n\\c[2]{1}",name)
+        label = _INTL("Achievement Unlocked:\n\\c[2]{1}",name)
 
         pbWait(10)
         pbMessage(_INTL("\\cl\\l[2]\\op\\wu<ac>{1}</ac>\\wtnp[{2}]", label, achievementsPopupDuration))
