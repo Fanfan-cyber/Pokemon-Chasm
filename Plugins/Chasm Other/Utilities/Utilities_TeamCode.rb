@@ -147,6 +147,9 @@ def decode_stats(mon, buffer)
   mon.ev[:SPECIAL_DEFENSE] = style_sdef
   mon.ev[:SPEED] = style_speed
   mon.level = level
+
+  # force stats to recalculate
+  mon.calc_stats
 end
 
 def decode_team(code)
