@@ -233,6 +233,8 @@ def decode_team(code)
     mon.trait1
     mon.trait2
     mon.trait3
+    mon.like
+    mon.dislike
 
     party.push(mon)
   end
