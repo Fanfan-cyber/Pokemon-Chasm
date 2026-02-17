@@ -183,10 +183,9 @@ simplemode/normalmode，开启（1徽章）/关闭简单模式
 10.现在Frightening Bite在发动时特性条不会乱跳了
 11.现在Frightening Bite在发动时会显示正确的文本了
 12.现在Frightening Bite在发动时，如果目标处于替身状态时，不会再使游戏崩溃了
-13.
-
-象征鸟特性2有Bug 对手换下再换上场时会无限报错并且上不来宝可梦
-电气洞穴土基佬门口钻工队双打Bug
+13.修复了当AI检查Inscrutable Orders的精灵时，游戏会崩溃的Bug
+14.修复了避战类特性可能会和Fragile Locket相互影响从而使游戏崩溃的Bug
+15.
 
 0.4.4 Vestiges of Destiny / 溯光回响
 1.修改了大量中文的翻译
