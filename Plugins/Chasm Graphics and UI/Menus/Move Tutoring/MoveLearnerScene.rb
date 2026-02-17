@@ -121,14 +121,9 @@ class MoveLearner_Scene
 
         base = MessageConfig.pbDefaultTextMainColor
         shadow = MessageConfig.pbDefaultTextShadowColor
-        title_base = MessageConfig::DARK_TEXT_MAIN_COLOR
-        title_shadow = MessageConfig::DARK_TEXT_SHADOW_COLOR
 
         textpos = []
         imagepos = []
-
-        # Draw the title
-        #textpos.push([_INTL("Teach which move?"), 16, 2, 0, title_base, title_shadow])
 
         # Draw the pokemon's info
         type1_number = GameData::Type.get(@pokemon.type1).id_number
@@ -249,6 +244,25 @@ class MoveLearner_Scene
                     @tabSelected = 0 if @tabSelected > 2
                     refreshMoveList
                     pbPlayCursorSE
+                elsif Input.trigger?(Input::ACTION)
+                    inputText = pbEnterText(_INTL("Enter selection."),0,20).downcase
+                    unless inputText.blank?
+                        filteredIndex = -1
+                        @moves[@tabSelected].each_with_index do |move, index|
+                            next unless GameData::Move.get(move).name.downcase.include?(inputText)
+                            filteredIndex = index
+                            break
+                        end
+
+                        if filteredIndex >= 0
+                            pbPlayCursorSE
+                            @sprites["commands"].index = filteredIndex
+                            setReminderSelPosition
+                            pbDrawMoveList
+                        else
+                            pbMessage(_INTL("No matching move was found in this tab."))
+                        end
+                    end
                 end
             end
         end
