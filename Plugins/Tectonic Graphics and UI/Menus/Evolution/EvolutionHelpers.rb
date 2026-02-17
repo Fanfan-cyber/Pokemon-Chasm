@@ -393,9 +393,13 @@ def showPokemonChangesWindow(pokemon, &block)
   if hpDif != 0 || attackDif != 0 || defenseDif != 0 ||
      spAtkDif != 0 || spDefDif != 0 || speedDif != 0
       pbTopRightWindow(
-          _INTL("Max. HP<r>#{hpDif >= 0 ? '+' : ''}{1}\r\nAttack<r>#{attackDif >= 0 ? '+' : ''}{2}\r\nDefense<r>#{defenseDif >= 0 ? '+' : ''}{3}\r\nSp. Atk<r>#{spAtkDif >= 0 ? '+' : ''}{4}\r\nSp. Def<r>#{spDefDif >= 0 ? '+' : ''}{5}\r\nSpeed<r>#{speedDif >= 0 ? '+' : ''}{6}",
-          hpDifStr, attackDifStr, defenseDifStr,
-          spAtkDifStr, spDefDifStr, speedDifStr), nil, 198)
+          _INTL("Max. HP<r>{1}{2}\r\nAttack<r>{3}{4}\r\nDefense<r>{5}{6}\r\nSp. Atk<r>{7}{8}\r\nSp. Def<r>{9}{10}\r\nSpeed<r>{11}{12}",
+          hpDif >= 0 ? '+' : '', hpDifStr, 
+          attackDif >= 0 ? '+' : '', attackDifStr, 
+          defenseDif >= 0 ? '+' : '', defenseDifStr,
+          spAtkDif >= 0 ? '+' : '', spAtkDifStr, 
+          spDefDif >= 0 ? '+' : '', spDefDifStr, 
+          speedDif >= 0 ? '+' : '', speedDifStr), nil, 198)
       pbTopRightWindow(
           _INTL("Max. HP<r>{1}\r\nAttack<r>{2}\r\nDefense<r>{3}\r\nSp. Atk<r>{4}\r\nSp. Def<r>{5}\r\nSpeed<r>{6}",
           pokemon.totalhp, pokemon.attack, pokemon.defense, pokemon.spatk, pokemon.spdef, pokemon.speed), nil, 198)
