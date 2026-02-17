@@ -228,6 +228,12 @@ def decode_team(code)
     # Decode stats (style points and level)
     decode_stats(mon, buffer)
 
+    # roll any traits we have the happiness threshold for so it's not in limbo later
+    # any we haven't unlocked will return nil as appropriate
+    mon.trait1
+    mon.trait2
+    mon.trait3
+
     party.push(mon)
   end
 
