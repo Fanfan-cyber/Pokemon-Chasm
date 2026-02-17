@@ -170,7 +170,19 @@ doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 simplemode/normalmode，开启（1徽章）/关闭简单模式
 
-0.4.4 Echoes of Destiny / 余烬回响
+0.4.5 Luminary Ascent 辉光交织
+1.修复了JoiPlay无法正常运行游戏的Bug
+2.修复了0.4.3的存档的背包无法正确升级的Bug
+3.修改了大量中文的翻译
+4.
+
+升级文本
+电光一闪蛮干10级拉达
+achievement unlocked
+象征鸟特性2有Bug 对手换下再换上场时会无限报错并且上不来宝可梦
+电气洞穴土基佬门口钻工队双打Bug
+
+0.4.4 Vestiges of Destiny / 溯光回响
 1.修改了大量中文的翻译
 2.在战斗模拟器中增加了大量“前冠军”队伍
 3.游戏现在具有黑名单系统，处于黑名单中的玩家无法游玩游戏

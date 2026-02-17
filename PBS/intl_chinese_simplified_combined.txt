@@ -48635,6 +48635,10 @@ One Form
 {1}精灵
 Ability 1
 特性 1
+Immutable
+不可改变
+Uncopyable
+不可复制
 Ability 2
 特性 2
 7/8 Male
