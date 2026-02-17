@@ -9,7 +9,7 @@
 =end
 
 MOD_VERSION  = "0.4.4"
-VERSION_NAME = ["Echoes of Destiny", "余烬回响"]
+VERSION_NAME = ["Vestiges of Destiny", "溯光回响"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
