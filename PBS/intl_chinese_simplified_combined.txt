@@ -38729,9 +38729,9 @@ A smart phone. Use it to take selfies.
 A hi-tech battle recording device. Use it to manage and replay past battles.
 一种高科技对战记录装置。可用于管理与回放过去的对战。
 A drop of ancient clay. Use it to summon a Pokemon from a resonating totem.
-一滴古老的黏土，用于从共鸣的图腾中召唤精灵。
+一小块古老的黏土，用于从共鸣的图腾中召唤精灵。
 A lump of ancient clay. Allows you to summon any number of Pokemon from resonating totems.
-一块古老的黏土，允许你从共鸣的图腾中召唤任意数量的精灵。
+一小块古老的黏土，允许你从共鸣的图腾中召唤任意数量的精灵。
 Held item which ups Attacking stats and Speed by 50%, but allows the use of only one move.
 携带后增加50%攻击和速度，但只能使用一种技能。
 Held item which doubles Attack, but allows the use of only one move.
