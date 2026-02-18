@@ -38729,9 +38729,9 @@ A smart phone. Use it to take selfies.
 A hi-tech battle recording device. Use it to manage and replay past battles.
 一种高科技对战记录装置。可用于管理与回放过去的对战。
 A drop of ancient clay. Use it to summon a Pokemon from a resonating totem.
-一滴古老的黏土，用于从共鸣的图腾中召唤精灵。
+一小块古老的黏土，用于从共鸣的图腾中召唤精灵。
 A lump of ancient clay. Allows you to summon any number of Pokemon from resonating totems.
-一块古老的黏土，允许你从共鸣的图腾中召唤任意数量的精灵。
+一小块古老的黏土，允许你从共鸣的图腾中召唤任意数量的精灵。
 Held item which ups Attacking stats and Speed by 50%, but allows the use of only one move.
 携带后增加50%攻击和速度，但只能使用一种技能。
 Held item which doubles Attack, but allows the use of only one move.
@@ -47219,10 +47219,10 @@ Huh? {1} stopped evolving!
 嗯？{1}的进化停止了！
 \se[]Congratulations! Your {1} evolved into {2}!\wt[80]
 \se[]恭喜！你的{1}进化成了{2}！\wt[80]
-Max. HP<r>#{hpDif >= 0 ? '+' : ''}{1}<<n>>Attack<r>#{attackDif >= 0 ? '+' : ''}{2}<<n>>Defense<r>#{defenseDif >= 0 ? '+' : ''}{3}<<n>>Sp. Atk<r>#{spAtkDif >= 0 ? '+' : ''}{4}<<n>>Sp. Def<r>#{spDefDif >= 0 ? '+' : ''}{5}<<n>>Speed<r>#{speedDif >= 0 ? '+' : ''}{6}
-Max. HP<r>#{hpDif >= 0 ? '+' : ''}{1}<<n>>物攻<r>#{attackDif >= 0 ? '+' : ''}{2}<<n>>物防<r>#{defenseDif >= 0 ? '+' : ''}{3}<<n>>特攻<r>#{spAtkDif >= 0 ? '+' : ''}{4}<<n>>特防<r>#{spDefDif >= 0 ? '+' : ''}{5}<<n>>速度<r>#{speedDif >= 0 ? '+' : ''}{6}
+Max. HP<r>{1}{2}<<n>>Attack<r>{3}{4}<<n>>Defense<r>{5}{6}<<n>>Sp. Atk<r>{7}{8}<<n>>Sp. Def<r>{9}{10}<<n>>Speed<r>{11}{12}
+HP<r>{1}{2}<<n>>物攻<r>{3}{4}<<n>>物防<r>{5}{6}<<n>>特攻<r>{7}{8}<<n>>特防<r>{9}{10}<<n>>速度<r>{11}{12}
 Max. HP<r>{1}<<n>>Attack<r>{2}<<n>>Defense<r>{3}<<n>>Sp. Atk<r>{4}<<n>>Sp. Def<r>{5}<<n>>Speed<r>{6}
-Max. HP<r>{1}<<n>>物攻<r>{2}<<n>>物防<r>{3}<<n>>特攻<r>{4}<<n>>特防<r>{5}<<n>>速度<r>{6}
+HP<r>{1}<<n>>物攻<r>{2}<<n>>物防<r>{3}<<n>>特攻<r>{4}<<n>>特防<r>{5}<<n>>速度<r>{6}
 {1}'s main ability was changed to {2}.
 {1}的自选特性被改为{2}。
 {1}'s ability now is <imp>{2}</imp>!
@@ -48635,6 +48635,10 @@ One Form
 {1}精灵
 Ability 1
 特性 1
+Immutable
+不可改变
+Uncopyable
+不可复制
 Ability 2
 特性 2
 7/8 Male
@@ -51988,7 +51992,7 @@ The rocky shards surrounding {1} crumbled away.
 {1} answers the call!
 {1}应召而来！
 {1} pick up the shell!
-{1}捡起了贝壳！
+{1}捡起了诅咒之壳！
 {1}'s Defense is raised! This will last for {2} more turns!
 {1}的物防增加了！这将持续{2}个回合！
 {1}'s Reflect was broken!
@@ -52370,7 +52374,7 @@ It seems to be a lump of metal!
 {1}'s {2} slows it down!
 {1}的{2}减慢了它的速度！
 {1} holds a {2} close!
-{1}紧紧抓住了{2}！
+{1}紧抓着{2}！
 {1} gets a new ability {2}!
 {1}获得了新特性{2}！
 {1} is veiled with crystal! It's a {2}-type!
@@ -57959,8 +57963,8 @@ Unlocking achievement {1}.
 成就{1}已解锁。
 Invalid Achievement {1}
 无效成就{1}
-Achievement Unlocked:\<<n>>\c<<[>>2<<]>>{1}
-已解锁成就：\<<n>>\c<<[>>2<<]>>{1}
+Achievement Unlocked:<<n>>\c<<[>>2<<]>>{1}
+已解锁成就：<<n>>\c<<[>>2<<]>>{1}
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 Achievements cleared.

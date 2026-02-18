@@ -174,7 +174,19 @@ simplemode/normalmode，开启（1徽章）/关闭简单模式
 1.修复了JoiPlay无法正常运行游戏的Bug
 2.修复了0.4.3的存档的背包无法正确升级的Bug
 3.修改了大量中文的翻译
-4.
+4.现在大师图鉴中的特性的Immutable可以被翻译了
+5.现在大师图鉴中的特性的Uncopyable可以被翻译了
+6.现在对手的拥有蛮干的精灵将不会应用动态等级
+7.现在精灵升级时显示的能力值加减部分的文本可以被正确翻译了
+8.现在Cursed Shell施加的诅咒效果只会在精灵出场时生效一次
+9.现在已解锁成就的Achievement Unlocked文本可以被正确翻译了
+10.现在Frightening Bite在发动时特性条不会乱跳了
+11.现在Frightening Bite在发动时会显示正确的文本了
+12.现在Frightening Bite在发动时，如果目标处于替身状态时，不会再使游戏崩溃了
+13.修复了当AI检查Inscrutable Orders的精灵时，游戏会崩溃的Bug
+14.修复了避战类特性可能会和Fragile Locket相互影响从而使游戏崩溃的Bug
+15.修复了因为语言文件的加载顺序问题导致许多文本无法被正确翻译的Bug
+16.
 
 0.4.4 Vestiges of Destiny / 溯光回响
 1.修改了大量中文的翻译

@@ -6,7 +6,7 @@ class PokeBattle_Battler
   end
 
   def add_random_ability(showcase = false, trigger = true)
-    return if fainted?
+    #return if fainted?
     added_abil = TA.choose_random_ability(self)
     addAbility(added_abil, showcase, trigger)
   end

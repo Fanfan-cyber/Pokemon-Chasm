@@ -47219,8 +47219,8 @@ Huh? {1} stopped evolving!
 Huh? {1} stopped evolving!
 \se[]Congratulations! Your {1} evolved into {2}!\wt[80]
 \se[]Congratulations! Your {1} evolved into {2}!\wt[80]
-Max. HP<r>#{hpDif >= 0 ? '+' : ''}{1}<<n>>Attack<r>#{attackDif >= 0 ? '+' : ''}{2}<<n>>Defense<r>#{defenseDif >= 0 ? '+' : ''}{3}<<n>>Sp. Atk<r>#{spAtkDif >= 0 ? '+' : ''}{4}<<n>>Sp. Def<r>#{spDefDif >= 0 ? '+' : ''}{5}<<n>>Speed<r>#{speedDif >= 0 ? '+' : ''}{6}
-Max. HP<r>#{hpDif >= 0 ? '+' : ''}{1}<<r>><<n>>Attack<r>#{attackDif >= 0 ? '+' : ''}{2}<<r>><<n>>Defense<r>#{defenseDif >= 0 ? '+' : ''}{3}<<r>><<n>>Sp. Atk<r>#{spAtkDif >= 0 ? '+' : ''}{4}<<r>><<n>>Sp. Def<r>#{spDefDif >= 0 ? '+' : ''}{5}<<r>><<n>>Speed<r>#{speedDif >= 0 ? '+' : ''}{6}
+Max. HP<r>{1}{2}<<n>>Attack<r>{3}{4}<<n>>Defense<r>{5}{6}<<n>>Sp. Atk<r>{7}{8}<<n>>Sp. Def<r>{9}{10}<<n>>Speed<r>{11}{12}
+Max. HP<r>{1}{2}<<r>><<n>>Attack<r>{3}{4}<<r>><<n>>Defense<r>{5}{6}<<r>><<n>>Sp. Atk<r>{7}{8}<<r>><<n>>Sp. Def<r>{9}{10}<<r>><<n>>Speed<r>{11}{12}
 Max. HP<r>{1}<<n>>Attack<r>{2}<<n>>Defense<r>{3}<<n>>Sp. Atk<r>{4}<<n>>Sp. Def<r>{5}<<n>>Speed<r>{6}
 Max. HP<r>{1}<<r>><<n>>Attack<r>{2}<<r>><<n>>Defense<r>{3}<<r>><<n>>Sp. Atk<r>{4}<<r>><<n>>Sp. Def<r>{5}<<r>><<n>>Speed<r>{6}
 {1}'s main ability was changed to {2}.
@@ -48635,6 +48635,10 @@ One Form
 {1} Pokémon
 Ability 1
 Ability 1
+Immutable
+Immutable
+Uncopyable
+Uncopyable
 Ability 2
 Ability 2
 7/8 Male
@@ -57959,8 +57963,8 @@ Unlocking achievement {1}.
 Unlocking achievement {1}.
 Invalid Achievement {1}
 Invalid Achievement {1}
-Achievement Unlocked:\<<n>>\c<<[>>2<<]>>{1}
-Achievement Unlocked:\<<n>>\c<<[>>2<<]>>{1}
+Achievement Unlocked:<<n>>\c<<[>>2<<]>>{1}
+Achievement Unlocked:<<n>>\c<<[>>2<<]>>{1}
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 \cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
 Achievements cleared.

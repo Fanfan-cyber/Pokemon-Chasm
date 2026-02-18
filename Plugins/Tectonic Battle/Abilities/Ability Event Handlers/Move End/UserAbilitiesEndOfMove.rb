@@ -736,17 +736,22 @@ BattleHandlers::UserAbilityEndOfMove.add(:FRIGHTENINGFANGS,
   proc { |ability, user, targets, move, battle, _switchedBattlers|
       next if user.dummy
       next unless move.bitingMove?
+      battlers = []
       targets.each do |b|
           next if b.fainted?
           next if b.damageState.missed || b.damageState.unaffected
-          battle.pbShowAbilitySplash(user, ability)
-          if b.pbAttack > b.pbSpAtk
-          b.pbLowerMultipleStatSteps([:ATTACK,2], user, move: self)
-          else
-          b.pbLowerMultipleStatSteps([:SPECIAL_ATTACK,2], user, move: self)
-          end
-      battle.pbHideAbilitySplash(user)
+          battlers << b
       end
+      next if battlers.empty?
+      battle.pbShowAbilitySplash(user, ability)
+      battlers.each do |b|
+          if b.pbAttack > b.pbSpAtk
+              b.pbLowerMultipleStatSteps([:ATTACK,2], user, move: move, showFailMsg: true)
+          else
+              b.pbLowerMultipleStatSteps([:SPECIAL_ATTACK,2], user, move: move, showFailMsg: true)
+          end
+      end
+      battle.pbHideAbilitySplash(user)
   }
 )
 

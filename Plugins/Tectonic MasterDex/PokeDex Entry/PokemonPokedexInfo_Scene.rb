@@ -346,9 +346,9 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
                 
                 # add mutability labels
                 if ability1.is_immutable_ability?
-                    drawFormattedTextEx(overlay, mutabilityLabelsX, ability1Y + 134, 450, "Immutable", base, shadow)
+                    drawFormattedTextEx(overlay, mutabilityLabelsX, ability1Y + 134, 450, _INTL("Immutable"), base, shadow)
                 elsif ability1.is_uncopyable_ability?
-                    drawFormattedTextEx(overlay, mutabilityLabelsX, ability1Y + 134, 450, "Uncopyable", base, shadow)
+                    drawFormattedTextEx(overlay, mutabilityLabelsX, ability1Y + 134, 450, _INTL("Uncopyable"), base, shadow)
                 end
             else
                 drawTextEx(overlay, abilityTextX, 128, 450, 1, _INTL("None"), base, shadow)

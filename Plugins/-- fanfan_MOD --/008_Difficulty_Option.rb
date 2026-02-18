@@ -32,10 +32,12 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Level Sacling
   higher_level = [$Trainer.party_highest_level, trainer.party_highest_level].max
   punish_level = TA.get(:kill_count, 0) - Settings::KILL_PUNNISHMENT
   trainer.party.each do |pkmn|
+    next unless pkmn
     if pkmn.copied_level
       pkmn.level = [pkmn.copied_level - 1, 1].max
       pkmn.copied_level = nil
     else
+      next if pkmn.hasMove?(:ENDEAVOR)
       pkmn.level = higher_level # level
       pkmn.level += 1 if pkmn.level < MAX_LEVEL_CAP && rand(100) < 30 
     end
@@ -43,6 +45,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Level Sacling
       punish_increment = [punish_level, MAX_LEVEL_CAP - pkmn.level].min
       pkmn.level += punish_increment
     end
+
     loop do
       species_data = pkmn.species_data # evo
       possible_evolutions = species_data.get_evolutions(true)

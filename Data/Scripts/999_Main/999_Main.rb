@@ -24,6 +24,7 @@ end
 
 def mainFunctionDebug
   begin
+    pbLoadMessages('Data/' + "chinese_simplified.dat") # default load simplified chinese
     PluginManager.runPlugins
     Compiler.main
     Game.initialize
