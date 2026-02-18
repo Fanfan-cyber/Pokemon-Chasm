@@ -1238,6 +1238,7 @@ class Pokemon
 
     def like
         return nil if @happiness < PERSONALITY_THRESHOLD_FOUR
+        return nil if @Like.nil? && $game_temp.in_battle
         @Like = GameData::Like.getRandomLike while @Like.nil? || @Like == @Dislike
         return @Like
     end
@@ -1250,6 +1251,7 @@ class Pokemon
 
     def dislike
         return nil if happiness < PERSONALITY_THRESHOLD_FOUR
+        return nil if @Dislike.nil? && $game_temp.in_battle
         @Dislike = GameData::Dislike.getRandomDislike while @Dislike.nil? || @Dislike == @Like
         return @Dislike
     end

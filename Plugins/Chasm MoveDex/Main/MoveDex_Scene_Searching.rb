@@ -374,8 +374,9 @@ class MoveDex_Scene
     end
 
     def searchByCanon
-        selection = pbMessage(_INTL("Is Canon?"), [_INTL("Yes"), _INTL("No"), _INTL("Cancel")], 2)
-        return nil if selection == 3
+        choices = [_INTL("Yes"), _INTL("No"), _INTL("Cancel")]
+        selection = pbMessage(_INTL("Is Canon?"), choices, choices.length)
+        return nil if selection == choices.length - 1
 
         dexlist = searchStartingList
 
@@ -386,8 +387,9 @@ class MoveDex_Scene
     end
 
     def searchByCustomAnimation
-        selection = pbMessage(_INTL("Has Custom Animation?"), [_INTL("Does"), _INTL("Doesn't Have"), _INTL("Cancel")], 3)
-        return nil if selection == 3
+        choices = [_INTL("Does"), _INTL("Doesn't"), _INTL("Cancel")]
+        selection = pbMessage(_INTL("Has Custom Animation?"), choices, choices.length)
+        return nil if selection == choices.length - 1
 
         moveAnims = pbLoadMoveToAnim
 
