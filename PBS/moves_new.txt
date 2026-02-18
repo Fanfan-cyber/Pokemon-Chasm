@@ -511,6 +511,7 @@ Target = User
 Priority = -6
 FunctionCode = SwitchOutUserStatusMove
 Description = The user switches out to a party Pokémon in waiting. Always goes last.
+Animation = TELEPORT
 #-------------------------------
 [RISINGPOWER]
 Name = Rising Power
