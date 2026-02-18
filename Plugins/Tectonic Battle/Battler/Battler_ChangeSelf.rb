@@ -898,7 +898,7 @@ end
         #@battle.ai_update_abilities(self, abils: @ability_ids)
     end
 
-    def addAbility(newAbility, showcase = false, trigger = false)
+    def addAbility(newAbility, showcase = false, trigger = false, triggerSwitchIn: true)
         return nil unless newAbility
         return nil if @ability_ids.include?(newAbility)
         newAbility = GameData::Ability.try_get(newAbility).id
@@ -916,7 +916,7 @@ end
         if trigger && (GameData::Ability.get(newAbility).is_immutable_ability? || abilityActive?)
             BattleHandlers.triggerAbilityOnSwitchIn(newAbility, self, @battle)
             BattleHandlers.triggerStatusCureAbility(newAbility, self)
-            #pbEffectsOnSwitchIn
+            #pbEffectsOnSwitchIn if triggerSwitchIn
         end
         return newAbility
     end

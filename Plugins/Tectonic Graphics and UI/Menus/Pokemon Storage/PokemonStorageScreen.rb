@@ -72,15 +72,24 @@ class PokemonStorageScreen
                                 pbDisplay(_INTL("You cannot mass-move Pokémon into a Donation Box."))
                                 next
                             else
-                                commands = [_INTL("Move Selection"), _INTL("Clear Selection"), _INTL("Cancel")]
+                                cmdMoveSelection = -1
+                                cmdTakeAllItems = -1
+                                cmdClearSelection = -1
+
+                                commands = []
+                                commands[cmdMoveSelection = commands.length] = _INTL("Move Selection")
+                                commands[cmdTakeAllItems = commands.length] = _INTL("Take All Items")
+                                commands[cmdClearSelection = commands.length] = _INTL("Clear Selection")
+                                commands.push(_INTL("Cancel"))
                                 choice = pbShowCommands(_INTL("Do what with your {1} selected Pokémon?", @multiSelectedSlots.length), commands, 0)
-                                case choice
-                                when 0
+                                
+                                if choice == cmdMoveSelection && cmdMoveSelection > -1
                                     massMoveMultiSelection(selected)
-                                when 1
+                                elsif choice == cmdTakeAllItems && cmdTakeAllItems > -1
+                                    takeItemsMultiSelection
+                                elsif choice == cmdClearSelection && cmdClearSelection > -1
                                     clearMultiSelection
                                 end
-                                next
                             end
                         else
                             next 
@@ -447,6 +456,18 @@ class PokemonStorageScreen
         @storage.party.compact!
         @scene.pbHardRefresh
         pbDisplay(resultMessage)
+    end
+    
+    def takeItemsMultiSelection
+        @multiSelectedSlots.each do |nextSlot|
+            selectedPokemonBox = nextSlot[0]
+            selectedPokemonSlot = nextSlot[1]
+
+            selectedPokemon = @storage.boxes[selectedPokemonBox][selectedPokemonSlot]
+
+            pbTakeItemsFromPokemon(selectedPokemon)
+        end
+        @scene.pbHardRefresh
     end
 
     def pbChangeLock(boxNumber)

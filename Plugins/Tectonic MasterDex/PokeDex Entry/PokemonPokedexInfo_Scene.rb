@@ -731,16 +731,6 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
         return moveName, color, shadow
     end
 
-    def isAnyEvolutionOfType(species_data, type)
-        ret = false
-        species_data.get_evolutions.each do |evolution_data|
-            evoSpecies_data = GameData::Species.get_species_form(evolution_data[0], @form)
-            ret = true if [evoSpecies_data.type1, evoSpecies_data.type2].include?(type)
-            ret = true if isAnyEvolutionOfType(evoSpecies_data, type) # Recursion!!
-        end
-        return ret
-    end
-
     MAX_LENGTH_MOVE_LIST = 6
     MOVE_LIST_SUMMARY_MOVE_NAMES_Y_INIT = 56
     MOVE_LIST_X_LEFT = 32
