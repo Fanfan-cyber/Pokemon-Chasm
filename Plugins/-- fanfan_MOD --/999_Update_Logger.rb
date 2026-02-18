@@ -186,7 +186,8 @@ simplemode/normalmode，开启（1徽章）/关闭简单模式
 13.修复了当AI检查Inscrutable Orders的精灵时，游戏会崩溃的Bug
 14.修复了避战类特性可能会和Fragile Locket相互影响从而使游戏崩溃的Bug
 15.修复了因为语言文件的加载顺序问题导致许多文本无法被正确翻译的Bug
-16.
+16.修复了庄园中的一句文本不能被翻译的Bug
+17.
 
 0.4.4 Vestiges of Destiny / 溯光回响
 1.修改了大量中文的翻译

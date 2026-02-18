@@ -272,7 +272,7 @@ I have a topic to discuss of some importance.
 I beseech you—<imp>visit my abode in Grouz</imp>. There we shall discuss.
 就当是我的恳求了...<imp>来我在古治镇的住所</imp>面谈吧。
 Apologies for the interruption to your adventure, young master.
-抱歉打断你的冒险之旅，少主。
+抱歉打断你的冒险之旅，主人。
 However, given that you've sent a number of Pokemon to Storage, I thought it best that I inform you of my project.
 由于您寄送了很多的精灵，我觉得还是要跟您说一下我的计划。
 To make it short: Your family owns an unused Estate here in Makya.
@@ -292,7 +292,7 @@ I'll continue to wait for you on the boat. If you want to visit the PokÉstate, 
 I'll take you there immediately.
 我会立即带您前往那里。
 That is all. I will distract you no further, young master.
-大概就这样了，最后再次致歉，抱歉打断了您的旅程，少主，祝您接下来一切都顺利。
+大概就这样了，最后再次致歉，抱歉打断了您的旅程，主人，祝您接下来一切都顺利。
 \i[TAROTAMULET]The Tarot Amulet spasms like something dying.
 \i[塔罗护符]这个塔罗护符就像1个病入膏肓的人一样在痉挛着...
 You feel your pupils dilate and somewhere bleak and broken almost comes into view at the corners of your vision.
@@ -4534,7 +4534,7 @@ Oh, uh, hello.
 You look like you have money.
 你看起来像个有钱人。
 We have... excess TM supplies at the Pokemon Center.
-我们在精灵中心有...多余的技能学习器。
+我们在精灵中心有...多余的技能机。
 Care to... take some surplus off our hands?
 想...接手一些多余的物资吗？
 Hi! Do you like my Iris cosplay?
@@ -4901,7 +4901,7 @@ Time to travel the countryside to find where they might need a man of my talents
 You're broke, just like me! Come back when you can help.
 同是天涯沦落人啊！等你有钱的时候再来吧。
 Young master, before you head out!
-少主，稍等一下！
+主人，稍等一下！
 I should have told you this while we were sailing-- your family owns an unused Estate here in Makya.
 我路上忘了告诉您，您名下有一处在马凯亚的庄园。
 Since you're taking on the Makyan Gym Challenge, I took the initiative to renovate the grounds for our use.
@@ -14765,7 +14765,7 @@ Shh... don't give away my hiding spot!
 Is it... is it safe to come out now?
 现在...已经安全了吗？
 How goes your journey, young master?
-少主，旅程还顺利吗？
+主人，旅程还顺利吗？
 I've purchased a Clefable teleportation license, and reserved this pier for our use.
 我们已经购买了皮皮传送执照，并租借了码头的使用权。
 We can travel to and from any of our usual locations.
@@ -48162,7 +48162,7 @@ Nero
 Alondra
 阿朗德拉
 Alondra, your servant
-阿朗德拉，你的仆从
+阿朗德拉，你的女仆
 Jovan
 约凡
 Vanya
@@ -48340,7 +48340,7 @@ What would you like to do?
 You notice a voice message from {1}, the PokÉstate caretaker.
 你注意到了庄园管理人{1}发来的语音信息。
 Greetings, young master. I have good news.
-你好，少主我有一则好消息。
+你好，主人我有一则好消息。
 \ME[Bug catching 2nd]You've earned a new Pokédex completion reward!\wtnp[60]
 \ME[Bug catching 2nd]你获得了1个新的图鉴完成奖励！\wtnp[60]
 \ME[Bug catching 2nd]You've earned {1} new Pokédex completion rewards!\wtnp[60]
@@ -48373,6 +48373,8 @@ View Summary
 查看属性
 Use Item
 使用物品
+Welcome back to the PokÉstate, young master.
+欢迎回到庄园，主人。
 What would you like to do with {1}?
 你想对{1}做什么？
 Party is full, choose a Pokemon to swap out.
@@ -48396,7 +48398,7 @@ Story here involving {1}!
 Story here involving {1} and {2}!
 这是个关于{1}和{2}的故事！
 PokÉstate {1}
-精灵庄园{1}
+庄园{1}
 {1} non-legendary species (25%)
 {1}非传说种类（25%）
 {1} non-legendary species (50%)
