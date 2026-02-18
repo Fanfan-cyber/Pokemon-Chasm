@@ -149,7 +149,7 @@ GameData::BattleEffect.register_effect(:Position, {
                     battler.showMyAbilitySplash(:LONGRECEIVER)
                     battle.pbDisplay(_INTL("{1} passes its ability to {2}!", abilityPasserName, battler.pbThis(true)))
                     battler.hideMyAbilitySplash
-                    battler.addAbility(abilityPasser.ability,true, triggerSwitchIn: false)
+                    battler.addAbility(abilityPasser.ability, true, triggerSwitchIn: false)
                     position.disableEffect(:PassingAbility)
                 end
 =end
@@ -158,7 +158,7 @@ GameData::BattleEffect.register_effect(:Position, {
                 battler.showMyAbilitySplash(:LONGRECEIVER)
                 battle.pbDisplay(_INTL("{1} will receive the...", battler.pbThis))
                 battler.hideMyAbilitySplash
-                passedAbilities.each { |ability| battler.addAbility(ability, true) }
+                passedAbilities.each { |ability| battler.addAbility(ability, true, triggerSwitchIn: false) }
                 position.disableEffect(:PassingAbility)
             end
         end
