@@ -1423,6 +1423,7 @@ Target = NearOther
 FunctionCode = RecoilFifthOfDamageDealt
 Flags = CanProtect
 Description = The target is struck with large, imposing wings. The user also takes 20% recoil.
+Animation = WINGATTACK
 #-------------------------------
 #		POISON MOVES
 #-------------------------------
@@ -2538,6 +2539,7 @@ FunctionCode = LowerTargetSpd3
 Flags = CanProtect
 EffectChance = 100
 Description = The user makes the target have an allergic reaction. This reduces their Speed by three steps.
+Animation = POLLENPUFF
 #-------------------------------
 [BIOFLASH]
 Name = Bio Flash
