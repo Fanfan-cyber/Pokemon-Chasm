@@ -2818,7 +2818,7 @@ Pocket = 7
 Price = 0
 FieldUse = Direct
 Flags = KeyItem,SkipPocketMessage
-Description = A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
+Description = A vessel for negative emotions. To earn its rewards, perfect trainers and make them flee from you.
 #-------------------------------
 [SMARTPHONE]
 Name = Smart Phone
