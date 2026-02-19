@@ -252,7 +252,7 @@ Description = Has a 30% chance to burn targets when using physical moves.
 #-------------------------------
 [CAFFEINERUSH]
 Name = Caffeine Rush
-Description = During hail, this Pokémon's Speed is boosted by 50% and twice as likely to crit.
+Description = During hail, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 Flags = HailSynergy
 #-------------------------------
 [CALMINGSCUTECHARM]
@@ -1453,7 +1453,7 @@ Flags = MoonglowSynergy
 #-------------------------------
 [NIGHTVISION]
 Name = Night Vision
-Description = During moonglow, Speed is boosted by 50% and twice as likely to crit.
+Description = During moonglow, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 Flags = MoonglowSynergy
 #-------------------------------
 [NOBLEBLADE]
@@ -1890,7 +1890,7 @@ Flags = SandstormSynergy
 #-------------------------------
 [SANDWORNAUGER]
 Name = Sandworn Auger
-Description = During sandstorm, this Pokémon's Speed is boosted by 50% and twice as likely to crit.
+Description = During sandstorm, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 Flags = SandstormSynergy
 #-------------------------------
 [SATURATER]
