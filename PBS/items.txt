@@ -2273,6 +2273,20 @@ Pocket = 13
 Price = 0
 Description = A shiny blue orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.
 #-------------------------------
+[LIGHTSTONE]
+Name = Light Stone
+NamePlural = Light Stones
+Pocket = 6
+Price = 0
+Description = Reshiram's body was destroyed and changed into this stone. It is said to be waiting for a hero.
+#-------------------------------
+[DARKSTONE]
+Name = Dark Stone
+NamePlural = Dark Stones
+Pocket = 6
+Price = 0
+Description = Zekrom's body was destroyed and changed into this stone. It is said to be waiting for a hero.
+#-------------------------------
 [LUMIOSEGALETTE]
 Name = Lumiose Galette
 NamePlural = Lumiose Galettes
