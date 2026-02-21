@@ -63,6 +63,9 @@ class PokeBattle_Battler
         eachActiveAbility do |ability|
             BattleHandlers.triggerAbilityOnSwitchOut(ability, self, @battle, false)
         end
+
+        reset_tracked_abilities_switch_counter
+
         position.applyEffect(:PassingAbility, @pokemonIndex) if abilityActive?
         position.applyEffect(:PassingStats, @pokemonIndex)
         # Caretaker bonus

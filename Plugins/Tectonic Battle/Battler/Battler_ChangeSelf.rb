@@ -826,6 +826,7 @@ end
         # @ability_ids.concat(@pokemon.extraAbilities)
         @ability_ids.concat(@pokemon.abilities)
         @addedAbilities.clear
+        track_all_abilities
 
         # @addedAbilities.concat(@pokemon.extraAbilities)
         @addedAbilities.concat(@ability_ids)
@@ -895,6 +896,7 @@ end
             @addedAbilities = @ability_ids.clone
         end
 
+        track_all_abilities
         #@battle.ai_update_abilities(self, abils: @ability_ids)
     end
 
@@ -905,6 +907,7 @@ end
         @ability_ids.push(newAbility)
         @addedAbilities.push(newAbility)
 
+        track_all_abilities
         #@battle.ai_update_abilities(self, abils: @ability_ids)
 
         if showcase

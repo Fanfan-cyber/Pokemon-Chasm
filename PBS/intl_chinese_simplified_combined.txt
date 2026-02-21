@@ -5389,7 +5389,7 @@ GO LOUD GO OFF GALARIAN ZIGZAGOOOOOOOOOOOOOOOOOOOOON!
 Hey, Trainer. I've got an offer you might want.
 嘿，训练师。我有个你可能感兴趣的提议。
 My Pokemon breeding company has been producing too many Eevees.
-My Pokemon breeding company has been producing too many Eevees.
+我的精灵培育公司“制造”了太多伊布。
 They're a popular request, but market fluctuations left us with a bit too much excess.
 伊布一直很受欢迎，但市场波动让我们剩下了太多。
 Contractually, I'm not allowed to give them away, but trading? A loophole covers me there.
@@ -18298,7 +18298,7 @@ I love you.
 [Map305]
 [Map306]
 The fridge contains dozens of tupper-ware containers, all marked with dates as well as specific Pokemon species names.
-冰箱里有十几个保鲜盒，上面都标有日期和精灵的种类名。
+冰箱里有十几个保鲜盒，上面都标有日期和精灵的物种名。
 [Map307]
 A collection of Pokemon battling guides.
 精灵对战指南合集。
@@ -39248,7 +39248,7 @@ Burn Out
 Caffeine Rush
 咖啡因冲刺
 Calming Scute Charm
-镇静之鳞
+宁静之甲
 Candy Veil
 糖果幕
 Canid Crusher
@@ -39754,7 +39754,7 @@ Martial Discipline
 Mass Attack
 大规模袭击
 Mending Feather Charm
-修复羽毛
+修复之羽
 Mental Block
 心灵阻隔
 Mental Damage
@@ -39932,7 +39932,7 @@ Radiate
 Rage Maneuvers
 愤怒机动
 Raging Scale Charm
-愤怒鳞片
+愤怒之鳞
 Rainbow Guardian
 彩虹守护
 Rainbow Trail
@@ -45188,7 +45188,7 @@ Writing avatar {1}...
 Pokemon dislike ID '{1}' is used twice.<<n>>{2}
 精灵不喜欢的ID'{1}'被重复使用了。<<n>>{2}
 Expected a species entry line for encounter type {1} for map '{2}', got "{3}" instead.<<n>>{4}
-预期为地图'{2}'的遭遇类型{1}提供1个种类条目行，但却得到了"{3}"。<<n>>{4}
+预期为地图'{2}'的遭遇类型{1}提供1个物种条目行，但却得到了"{3}"。<<n>>{4}
 Level number {1} is not valid (max. {2}).<<n>>{3}
 等级数字{1}无效（最大{2}）。<<n>>{3}
 Minimum level is greater than maximum level: {1}<<n>>{2}
@@ -45380,23 +45380,23 @@ Dex list number {1} is defined at least twice.<<n>>{2}
 Processing {1} section [{2}]
 正在处理{1}部分[{2}]
 Dex list number {1} has species {2} listed twice.<<n>>{3}
-图鉴列表编号{1}中种类{2}被列出了2次。<<n>>{3}
+图鉴列表编号{1}中物种{2}被列出了2次。<<n>>{3}
 Ribbon ID number '{1}' is used twice.<<n>>{2}
 绶带ID编号'{1}'被重复使用了。<<n>>{2}
 Ribbon ID '{1}' is used twice.<<n>>{2}
 绶带ID'{1}'被重复使用了。<<n>>{2}
 Illegal move #{moveID} is learnable by species #{@id}!
-非法技能#{moveID}可以被种类#{@id}学会！
+非法技能#{moveID}可以被物种#{@id}学会！
 Illegal item #{itemID} is a wild item of species #{@id}!
-非法物品#{itemID}是种类#{@id}的野生物品！
+非法物品#{itemID}是物种#{@id}的野生物品！
 Illegal ability #{abilityID} is a defined ability of species #{@id}!
-非法特性#{abilityID}是种类#{@id}的已定义特性！
+非法特性#{abilityID}是物种#{@id}的已定义特性！
 Illegal ability #{abilityID} is a defined hidden ability of species #{@id}!
-非法特性#{abilityID}是种类#{@id}的已定义隐藏特性！
+非法特性#{abilityID}是物种#{@id}的已定义隐藏特性！
 {1} ({2})
 {1} ({2})
 Species ID '{1}' is used twice.<<n>>{2}
-种类ID'{1}'被重复使用了。<<n>>{2}
+物种ID'{1}'被重复使用了。<<n>>{2}
 Value for '{1}' can't be less than or close to 0 (section {2}, PBS/pokemon.txt)
 '{1}'的值不能小于或接近0（部分{2}，PBS/pokemon.txt）
 Processing {1} evolution line {2}
@@ -45404,11 +45404,11 @@ Processing {1} evolution line {2}
 Section name {1} is invalid ({2}). Expected syntax like [XXX,Y] (XXX=internal name, Y=form number).
 部分名称{1}无效（{2}）。预期的语法为[XXX,Y]（XXX=内部名称，Y=形态编号）。
 Species ID '{1}' is not defined in {2}.<<n>>{3}
-种类ID'{1}'在{2}中未定义。<<n>>{3}
+物种ID'{1}'在{2}中未定义。<<n>>{3}
 A form cannot be defined with a form number of 0.<<n>>{1}
 不能使用形态编号0定义形态。<<n>>{1}
 Form {1} for species ID {2} is defined twice.<<n>>{3}
-种类ID{2}的形态{1}被定义了2次。<<n>>{3}
+物种ID{2}的形态{1}被定义了2次。<<n>>{3}
 Value for '{1}' can't be less than or close to 0 (section {2}, {3})
 '{1}'的值不能小于或接近0（部分{2}，{3}）
 Writing species {1}...
@@ -45418,7 +45418,7 @@ Writing species {1} for server...
 Undefined species {1}.
 未定义的种类{1}。
 Section name {1} is invalid ({2}). Expected syntax like [XXX] or [XXX,Y] (XXX=species ID, Y=form number).
-部分名称{1}无效（{2}）。预期的语法为[XXX]或[XXX,Y]（XXX=种类ID，Y=形态编号）。
+部分名称{1}无效（{2}）。预期的语法为[XXX]或[XXX,Y]（XXX=物种ID，Y=形态编号）。
 Expected a section at the beginning of the file<<n>>{1}
 预期文件开头有1个部分<<n>>{1}
 Bad line syntax (expected syntax like XXX=YYY)<<n>>{1}
@@ -46366,7 +46366,7 @@ For {1}'s {2},<<n>>{3} sends {4}.<<1>>
 Take good care of {1}.
 好好照顾{1}。
 Species does not exist ({1}).
-种类不存在({1})。
+物种不存在({1})。
 {1} {2}, {3}
 {3}年{1}{2}日
 Name
@@ -46768,7 +46768,7 @@ You can check the current stat steps of each Pokémon on the battlefield using t
 What are abilities?
 特性是什么？
 Abilities are special powers that Pokémon can have based on their species. Most Pokémon can have 2 possible abilities. All abilities activate in battle or in the field.
-特性是精灵根据其种类可以拥有的特殊能力。大多数精灵可以有2种可能的特性。所有特性在战斗或野外都会激活。
+特性是精灵根据其物种可以拥有的特殊能力。大多数精灵可以有2种可能的特性。所有特性在战斗或野外都会激活。
 Ability Effects
 特性效果
 Abilities do a wide variety of different things. Understanding your team's abilities is important to winning.
@@ -46780,7 +46780,7 @@ Check your Pokémon's summary to see what main ability they have. Use the Master
 Choosing Abilities
 选择特性
 A Pokémon's default main ability is one of the two its species can have, randomly chosen when you get it. You can use Ability Capsules to swap to the other.
-精灵的默认自选特性是其种类可以拥有的两种特性之一，在你获得它时随机选择。你可以使用特性胶囊来切换到另一种。
+精灵的默认自选特性是其物种可以拥有的两种特性之一，在你获得它时随机选择。你可以使用特性胶囊来切换到另一种。
 Conditional Abilities
 条件限制特性
 Many abilities only do things under certain circumstances. Building around Weather and Room-synergy abilities is a common strategy.
@@ -48398,13 +48398,13 @@ Story here involving {1} and {2}!
 PokÉstate {1}
 精灵庄园{1}
 {1} non-legendary species (25%)
-{1}非传说种类（25%）
+{1}非传说物种（25%）
 {1} non-legendary species (50%)
-{1}非传说种类（50%）
+{1}非传说物种（50%）
 {1} non-legendary species (75%)
-{1}非传说种类（75%）
+{1}非传说物种（75%）
 {1} non-legendary species (100%)
-{1}非传说种类（100%）
+{1}非传说物种（100%）
 all species in {1}
 所有物种{1}
 {1} {2}-type species
@@ -48816,13 +48816,13 @@ Toggling whether every species on the current MasterDex list is starred or not.
 {1} species were starred or unstarred
 {1}个物种已被标记或取消标记
 Added every species on the current list!
-已添加当前列表上的所有种类！
+已添加当前列表上的所有物种！
 Added {1}
 已添加{1}。
 Unable to start Avatar battle.
 无法开始化身战斗。
 Marked as owned every species on current list.
-已将当前列表上的所有种类标记为已拥有。
+已将当前列表上的所有物种标记为已拥有。
 Printed the current list to the console.
 已将当前列表打印到控制台。
 Invalid input: {1}
@@ -48836,7 +48836,7 @@ Replace
 {1} species tutorable movesets edited!
 {1}种族的教授技能列表已编辑！
 Search species...
-搜索种类...
+搜索物种...
 Which search?
 哪种搜索？
 Description
@@ -55972,7 +55972,7 @@ Choose an evolution method.
 \ts[]Do what with this evolution?
 \ts[]对这个进化做什么？
 Change species
-更改种类
+更改物种
 Change method
 更改方法
 Change parameter
@@ -55984,15 +55984,15 @@ Probability
 Relative probability of choosing this slot.
 选择这个槽的相对概率。
 A Pokémon species/form.
-1个精灵种类/形态。
+1个精灵物种/形态。
 Minimum level
 最低等级
 Minimum level of this species (1-{1}).
-这个种类的最低等级（1-{1}）。
+这个物种的最低等级（1-{1}）。
 Maximum level
 最高等级
 Maximum level of this species (1-{1}).
-这个种类的最高等级（1-{1}）。
+这个物种的最高等级（1-{1}）。
 Reset the setting {1}?
 重置设置{1}？
 Enter selection.
@@ -56004,7 +56004,7 @@ There are no files.
 <<[>>GLOBAL<<]>>
 <<[>>全局<<]>>
 <<[>>NEW SPECIES<<]>>
-<<[>>新种类<<]>>
+<<[>>新物种<<]>>
 <<[>>NEW ITEM<<]>>
 <<[>>新物品<<]>>
 <<[>>NEW TRAINER TYPE<<]>>
@@ -56080,7 +56080,7 @@ Fully heal
 Make fainted
 使其濒死
 Level/stats...
-等级/状态...
+等级/能力...
 Set level
 设置等级
 Set the Pokémon's level (max. {1}).
@@ -56202,13 +56202,13 @@ Choose an ability.
 Set gender
 设置性别
 Species/form...
-种类/形态...
+物种/形态...
 Species {1}, form {2}.
-种类{1}，形态{2}。
+物种{1}，形态{2}。
 Species {1}, form {2} (forced).
-种类{1}，形态{2}（强制）。
+物种{1}，形态{2}（强制）。
 Set species
-设置种类
+设置物种
 Set form
 设置形态
 Remove form override
@@ -56216,11 +56216,11 @@ Remove form override
 Unnamed form
 未命名形态
 Species {1} only has one form.
-种类{1}只有一种形态。
+物种{1}只有一种形态。
 Set the Pokémon's form.
 设置精灵的形态。
 This species decides its own form. Override?
-这个种类自身决定形态。要覆盖吗？
+这个物种自身决定形态。要覆盖吗？
 Cosmetic info...
 外观信息...
 Set shininess
@@ -56334,11 +56334,11 @@ Generate a species changelog per generation of Pokémon
 Generate dex doc
 生成图鉴文档
 Generate a document that describes all current species details like a dex
-生成一份描述所有当前精灵种类细节的文档，类似于图鉴
+生成一份描述所有当前精灵物种细节的文档，类似于图鉴
 Generate dex doc by generation
 按世代生成图鉴文档
 Generate a series document that describes all current species details like a dex, split by generation
-生成一系列文档，按世代划分，描述所有当前精灵种类的细节，类似于图鉴
+生成一系列文档，按世代划分，描述所有当前精灵物种的细节，类似于图鉴
 You must run the load command before creating a changelog!
 在创建变更日志之前，你必须运行加载命令！
 Species changelog written to #{fileName}
@@ -56472,7 +56472,7 @@ Move learn level analysis written to Analysis/move_levels.txt
 Test Wild Battle
 测试野生战斗
 Start a single battle against a wild Pokémon. You choose the species/level.
-开始一场与野生精灵的单人战斗。你选择种类/等级。
+开始一场与野生精灵的单人战斗。你选择物种/等级。
 Set the wild {1}'s level.
 设置野生{1}的等级。
 Test Wild Battle Advanced
@@ -56670,7 +56670,7 @@ Edit item data.
 Edit Pokémon
 编辑精灵
 Edit Pokémon species data.
-编辑精灵种类数据。
+编辑精灵物种数据。
 Edit Regional Dexes
 编辑地区图鉴
 Create, rearrange and delete Regional Pokédex lists.
@@ -56712,7 +56712,7 @@ Tutor moves consolidated!
 Create bossified graphics
 创建强化版图形
 Create bossified graphics for a given species
-为指定种类创建强化版图形
+为指定物种创建强化版图形
 Enter internal name.
 输入内部名称。
 Create bossified graphics for all
@@ -56720,7 +56720,7 @@ Create bossified graphics for all
 Create bossified graphics for every avatar in avatars.txt at 1.5 size
 为avatars.txt中的每个化身创建1.5倍大小的强化版图形
 Generating bossified graphics for all forms of all species listed in avatars.txt
-为avatars.txt中列出的所有种类的所有形态生成强化版图形
+为avatars.txt中列出的所有物种的所有形态生成强化版图形
 Finished
 完成
 Switch Graphics Names
@@ -56822,7 +56822,7 @@ De-Registered partner.
 Rename Move From Input
 从输入重命名技能
 Rename an existing move in moves, species, forms, and trainers PBS files based on user input.
-根据用户输入在技能、种类、形态和训练师PBS文件中重命名现有技能。
+根据用户输入在技能、物种、形态和训练师PBS文件中重命名现有技能。
 Enter move internal name.
 输入技能的内部名称。
 Enter the move's new internal name.
@@ -56834,7 +56834,7 @@ Rename completed.
 Rename Moves From File
 从文件重命名技能
 Rename an existing move in moves, species, forms, and trainers PBS files based on PBS/move_renames.txt.
-根据PBS/move_renames.txt在技能、种类、形态和训练师PBS文件中重命名现有技能。
+根据PBS/move_renames.txt在技能、物种、形态和训练师PBS文件中重命名现有技能。
 Mass rename completed.
 批量重命名完成。
 Or tell a programmer to do it for you :)
@@ -56956,7 +56956,7 @@ Changed the player's main quest stage to #{getMainQuestStages[getMainQuestStages
 Add Pokémon
 添加精灵
 Give yourself a Pokémon of a chosen species/level. Goes to PC if party is full.
-给自身一只选定种类/等级的精灵。如果队伍已满，则放入电脑。
+给自身一只选定物种/等级的精灵。如果队伍已满，则放入电脑。
 Set the Pokémon's level.
 设置精灵的等级。
 Copy Trainer Party
@@ -56986,7 +56986,7 @@ All eggs in your party now require one step to hatch.
 Storage boxes were filled with one Pokémon of each species.
 存储箱已被每种精灵各一只填满。
 Note: The number of storage spaces ({1} boxes of {2}) is less than the number of species.
-注意：存储空间的数量（{1}个{2}盒）小于精灵种类的数量。
+注意：存储空间的数量（{1}个{2}盒）小于精灵物种的数量。
 Fill Storage Boxes
 填满存储箱
 Add one Pokémon of each species to storage.
@@ -57146,7 +57146,7 @@ No invalid tiles were found.
 Close RPG Maker XP to ensure the changes are applied properly.
 关闭RPG Maker XP以确保更改正确应用。
 Species {1} is not defined (trying to rename Pokémon graphic {2}).
-种类{1}未定义（尝试重命名精灵图像{2}）。
+物种{1}未定义（尝试重命名精灵图像{2}）。
 Converting Pokémon sprites {1}/{2}...
 正在转换精灵精灵图像{1}/{2}...
 Converting Pokémon icons {1}/{2}...
@@ -57160,7 +57160,7 @@ Item {1} is not defined (trying to rename item icon {2}).
 Converting Pokémon cries {1}/{2}...
 正在转换精灵叫声{1}/{2}...
 Species {1} is not defined (trying to rename species cry {2}).
-种类{1}未定义（尝试重命名种类叫声{2}）。
+物种{1}未定义（尝试重命名物种叫声{2}）。
 Converting trainer sprites {1}/{2}...
 正在转换训练师精灵图像{1}/{2}...
 Trainer type {1} is not defined (trying to rename trainer charset {2}).
@@ -57200,7 +57200,7 @@ Go to Map
 Some metrics have been edited. Save changes?
 一些度量已被编辑。是否保存更改？
 This species has its own shadow sprite in Graphics/Pokemon/Shadow/. The shadow size metric cannot be edited.
-这个种类在Graphics/Pokemon/Shadow/中有自身的影子精灵。影子大小度量无法编辑。
+这个物种在Graphics/Pokemon/Shadow/中有自身的影子精灵。影子大小度量无法编辑。
 Set Ally Position
 设置队友位置
 Set Enemy Position
@@ -58700,9 +58700,9 @@ failure
 <u>Quest received from</u>:
 <u>任务接受自</u>:
 <u>Quest discovered {1}</u>:
-<u>发现任务{1}</u>:
+<u>发现任务</u>:
 <u>Quest {1} time</u>:
-<u>任务{1}次</u>:
+<u>任务{1}时间</u>:
 <u>Reward</u>: {1}
 <u>奖励</u>: {1}
 I won!
@@ -63351,13 +63351,13 @@ Winter Hunts
 Hunts' End
 狩猎结束
 Feathers Dropped
-羽毛掉落
+羽掉落
 Scales Dropped
-鳞片掉落
+鳞掉落
 Fangs Dropped
-獠牙掉落
+牙掉落
 Scutes Dropped
-鳞甲掉落
+甲掉落
 Last Round Fainted
 上1回合濒死
 Spent Tyrannical Immunity

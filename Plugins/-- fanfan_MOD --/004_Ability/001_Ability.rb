@@ -1,3 +1,105 @@
+class PokeBattle_Battler
+  def tracked_abilities
+    @tracked_abilities ||= battle_tracker_get(:abilities)
+  end
+
+  def ability_tracked?(ability_id)
+    tracked_abilities.key?(ability_id)
+  end
+
+  def track_all_abilities
+    abils = abilities
+    @tracked_abilities = nil
+    tracked_abilities.keep_if { |ability_id, _ability| abils.include?(ability_id) }
+    abils.each do |ability_id|
+      next if ability_tracked?(ability_id)
+      class_name = "AbilityFactory_#{ability_id}"
+      if Object.const_defined?(class_name)
+        tracked_abilities[ability_id] = Object.const_get(class_name).new(ability_id)
+      else
+        tracked_abilities[ability_id] = nil
+      end
+    end
+  end
+
+  def trigger_tracked_ability(method_name, ability_id, *args)
+    ability = tracked_abilities[ability_id]
+    return unless ability && ability.respond_to?(method_name)
+    ability.public_send(method_name, ability_id, *args)
+  end
+
+  def reset_tracked_abilities_switch_counter
+    tracked_abilities.each { |_ability_id, ability| ability&.reset_switch_counter }
+  end
+end
+
+class AbilityFactory
+  attr_reader :id
+  attr_reader :on_switch_in_trigger_max_per_battle, :on_switch_in_trigger_max_per_switch, :on_switch_in_trigger_times_battle, :on_switch_in_trigger_times_switch
+
+  def initialize(id)
+    @id                                  = id
+    @on_switch_in_trigger_max_per_battle = -1
+    @on_switch_in_trigger_max_per_switch = -1
+    @on_switch_in_trigger_times_battle   = 0
+    @on_switch_in_trigger_times_switch   = 0
+  end
+
+  def ==(other)
+    if other.is_a?(AbilityFactory)
+      @id == other.id
+    else
+      @id == other
+    end
+  end
+
+  def reset_switch_counter
+    @on_switch_in_trigger_times_switch = 0
+  end
+
+  def can_trigger_on_switch_in?
+    return false if @on_switch_in_trigger_max_per_battle >= 0 && @on_switch_in_trigger_times_battle >= @on_switch_in_trigger_max_per_battle
+    return false if @on_switch_in_trigger_max_per_switch >= 0 && @on_switch_in_trigger_times_switch >= @on_switch_in_trigger_max_per_switch
+    return true
+  end
+
+  def update_on_switch_in_trigger_times
+    @on_switch_in_trigger_times_battle += 1
+    @on_switch_in_trigger_times_switch += 1
+  end
+
+  def on_switch_in(ability, battler, battle, aiCheck = false)
+    return false unless can_trigger_on_switch_in?
+    ret = on_switch_in_effect(ability, battler, battle, aiCheck)
+    if aiCheck
+      return ret
+    elsif ret
+      update_on_switch_in_trigger_times
+      return true
+    end
+    return false
+  end
+
+  def on_switch_in_effect(ability, battler, battle, aiCheck = false); return false; end
+end
+
+class AbilityFactory_EXAMPLE < AbilityFactory
+  def initialize(id)
+    super
+    @on_switch_in_trigger_max_per_battle = 1
+    @on_switch_in_trigger_max_per_switch = 1
+  end
+
+  def on_switch_in_effect(ability, battler, battle, aiCheck = false)
+    return 0 if aiCheck
+    battle.pbShowAbilitySplash(battler, ability)
+    battle.pbAnimation(:GREYMIST, battler, nil, 0)
+    battle.field.applyEffect(:GreyMist, applyEffectDurationModifiers(3, battler))
+    battle.pbHideAbilitySplash(battler)
+    return true
+  end
+end
+
 class AbilitySystem
   attr_reader :id, :score, :flags, :ability_handler
 
@@ -15,7 +117,7 @@ class AbilitySystem
   end
 
   def self.get_ability(id)
-    class_name = "Ability_#{id}"
+    class_name = "AbilitySystem_#{id}"
     return unless Object.const_defined?(class_name)
     @@ability_cache[id] ||= Object.const_get(class_name).new(id)
   end
@@ -60,7 +162,7 @@ class AbilitySystem
 end
 
 =begin
-class Ability_ILLUSION < AbilitySystem
+class AbilitySystem_ILLUSION < AbilitySystem
   OFF_MULT = { :DamageCalcUserAbility => { :base_damage_multiplier => 1.2, }, }
 
   DamageCalcUserAbility =
@@ -75,7 +177,7 @@ class Ability_ILLUSION < AbilitySystem
 end
 =end
 
-class Ability_SWIFTSTOMPS < AbilitySystem
+class AbilitySystem_SWIFTSTOMPS < AbilitySystem
   HIT_CYCLE = 3
 
   GuaranteedCriticalUserAbility =
@@ -91,7 +193,7 @@ class Ability_SWIFTSTOMPS < AbilitySystem
   end
 end
 
-class Ability_EXAMPLE < AbilitySystem
+class AbilitySystem_EXAMPLE < AbilitySystem
   OFF_MULT = { :DamageCalcUserAbility => { :attack_multiplier => 1.3, :base_damage_multiplier => 1.2, }, }
 
   DamageCalcUserAbility =

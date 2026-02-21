@@ -13,6 +13,7 @@ end
 
 class PokeBattle_BattlerBattleTracker
   def initialize
+    @abilities                      = {}    # used to record abilities a Pokemon has
     @faint_healing_triggered        = false # used to record whether Faint Healing triggered or not
     @steps_before_switching         = {}    # used to record Stat Steps
     @steps_counter_before_switching = {}    # used to record Step Counter before switching
