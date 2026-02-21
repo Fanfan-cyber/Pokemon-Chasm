@@ -35,3 +35,15 @@ BattleHandlers::EOREffectItem.add(:FLAMEORB,
     battler.aiLearnsItem(item)
   }
 )
+
+BattleHandlers::EOREffectItem.add(:EMPTYSTONE,
+  proc { |item, battler, battle|
+    anyPPDrained = false
+    battler.eachMove do |m|
+      next if m.pp <= 0
+      battler.pbSetPP(m, m.pp - 1)
+      anyPPDrained = true
+    end
+    battle.pbDisplay(_INTL("{1}'s PP was drained by its {2}!", battler.pbThis, getItemName(item))) if anyPPDrained
+  }
+)
