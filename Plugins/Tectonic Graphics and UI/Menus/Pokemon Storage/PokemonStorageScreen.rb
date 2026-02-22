@@ -459,14 +459,23 @@ class PokemonStorageScreen
     end
     
     def takeItemsMultiSelection
+        removedAnyItem = false
         @multiSelectedSlots.each do |nextSlot|
             selectedPokemonBox = nextSlot[0]
             selectedPokemonSlot = nextSlot[1]
 
-            selectedPokemon = @storage.boxes[selectedPokemonBox][selectedPokemonSlot]
+            if selectedPokemonBox == -1
+                selectedPokemon = @storage.party[selectedPokemonSlot]
+            else
+                selectedPokemon = @storage.boxes[selectedPokemonBox][selectedPokemonSlot]
+            end
+
+            next if selectedPokemon.items.empty?
 
             pbTakeItemsFromPokemon(selectedPokemon)
+            removedAnyItem = true
         end
+        pbDisplay(_INTL("No selected Pokémon are holding any items.")) unless removedAnyItem 
         @scene.pbHardRefresh
     end
 
