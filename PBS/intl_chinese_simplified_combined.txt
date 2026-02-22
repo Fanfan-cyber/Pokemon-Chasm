@@ -48780,7 +48780,7 @@ Stat Sort
 Filters
 过滤
 Sorts
-种类
+排序
 Attempted to do a combined search, but no matching Pokémon were found.
 尝试进行组合搜索，但未找到匹配的精灵。
 An unknown error has occured.
@@ -48908,9 +48908,9 @@ Not Owned
 Which stat?
 哪种能力？
 Phys. EHP
-物理EHP
+物耐
 Spec. EHP
-特殊EHP
+特耐
 Which comparison?
 哪种比较？
 Equal to number
@@ -48938,15 +48938,15 @@ Legendary
 Moveset Noncomfority (D)
 技能不兼容性（D）
 No Monument Uses (D)
-无纪念物使用（D）
+无对战纪念碑使用（D）
 One Ability (D)
 单一特性（D）
 Signature Move
-特有技能
+专属技能
 Signature Ability
-特有特性
+专属特性
 Signature (D)
-签名（D）
+专属（D）
 Avatar Data (D)
 化身数据（D）
 Generation
@@ -49024,7 +49024,7 @@ Total Using (D)
 Normal Using (D)
 普通使用（D）
 Monument Using (D)
-纪念物使用（D）
+对战纪念碑使用（D）
 Coverage Count (D)
 覆盖计数（D）
 Sort by what?
@@ -49436,7 +49436,9 @@ But it failed, since {1} can't raise its critical hit chance any further!
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 SKIPPING BATTLE...
-跳过战斗...
+战斗跳过...
+Battle skipped due to an unexpected bug...
+因该场战斗存在未知原因的Bug，战斗已被跳过...
 {1} forgot {2}...
 {1}忘记了{2}...
 {1} forgot how to use {2}.<<n>>And...
@@ -56018,7 +56020,7 @@ There are no files.
 A different file named '{1}' already exists. Overwrite it?
 名为'{1}'的其他文件已存在。是否覆盖它？
 Field options...
-场地选项...
+野外选项...
 Warp to maps, edit switches/variables, use the PC, edit Day Care, etc.
 传送到地图，编辑开关/变量，使用电脑，编辑饲育屋等。
 Battle options...

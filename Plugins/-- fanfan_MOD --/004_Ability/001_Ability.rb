@@ -79,7 +79,57 @@ class AbilityFactory
     end
     return false
   end
+=begin
+def on_switch_in(ability, battler, battle, aiCheck = false)
+  # 首先检查特性是否被禁用
+  return false unless can_ability_trigger?(ability, battler, battle, aiCheck)
+  
+  success = false
+  total_ret = 0
+  
+  # 基础触发1次 + 额外触发次数
+  trigger_times = 1 + extra_trigger_times(ability, battler, battle, aiCheck)
+  
+  trigger_times.times do
+    # 每次触发前都检查条件
+    next unless can_trigger_on_switch_in?
+    
+    # 统一调用效果方法
+    ret = on_switch_in_effect(ability, battler, battle, aiCheck)
+    
+    if aiCheck
+      # AI检查模式下，累积返回值
+      total_ret += ret if ret.is_a?(Numeric)
+    else
+      # 实际战斗模式下，执行触发并记录成功状态
+      if ret
+        update_on_switch_in_trigger_times
+        success = true
+      end
+    end
+  end
+  
+  if aiCheck
+    return total_ret
+  else
+    return success
+  end
+end
 
+# 前置检查：特性是否能够触发
+def can_ability_trigger?(ability, battler, battle, aiCheck = false)
+  # 这里实现你的判断逻辑
+  # 例如：检查特性是否被封印、沉默或其他状态影响
+  # 返回true表示可以触发，返回false表示完全禁用
+  return true  # 默认返回true，允许触发
+end
+
+# 额外触发次数的方法
+def extra_trigger_times(ability, battler, battle, aiCheck = false)
+  # 这里实现你的判断逻辑，返回额外的触发次数
+  return 0  # 默认返回0，只触发基础的一次
+end
+=end
   def on_switch_in_effect(ability, battler, battle, aiCheck = false); return false; end
 end
 
