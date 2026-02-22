@@ -3458,14 +3458,6 @@ Nah.
 Yeah.
 Yeah.
 [Map39]
-Each Pokemon has their own Personality Traits.
-Each Pokemon has their own Personality Traits.
-Bonding with a Pokemon, and discovering what makes them unique, can be such a source of joy.
-Bonding with a Pokemon, and discovering what makes them unique, can be such a source of joy.
-Don't worry about your battles. No matter the personality, any Pokemon can be an excellent battler.
-Don't worry about your battles. No matter the personality, any Pokemon can be an excellent battler.
-Use whatever Pokemon you connect with the most.
-Use whatever Pokemon you connect with the most. 
 Hello, and welcome to the Casaba Villa Pokécenter!
 Hello, and welcome to the Casaba Villa Pokécenter!
 Oh, you're new to Makya, are you?
@@ -8913,6 +8905,36 @@ So many trainers come in with Numbed Pokemon after battling Lambert.
 So many trainers come in with Numbed Pokemon after battling Lambert.
 Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
 Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
+Beyond elemental types, Pokémon species are defined by a second affinity.
+Beyond elemental types, Pokémon species are defined by a second affinity.
+These are known as <imp>tribes</imp>.
+These are known as <imp>tribes</imp>.
+Unlike types, a Pokémon's tribes have no effect on their own.
+Unlike types, a Pokémon's tribes have no effect on their own.
+But if you choose your Pokémon carefully, bringing together those that share a tribe...
+But if you choose your Pokémon carefully, bringing together those that share a tribe...
+They'll do fascinating things together!
+They'll do fascinating things together!
+Back in my youth, I couldn't choose which Pokémon to use. It was too overwhelming.
+Back in my youth, I couldn't choose which Pokémon to use. It was too overwhelming.
+My wife said "Pick a tribe, and stick to it!"
+My wife said "Pick a tribe, and stick to it!"
+So I restricted myself to Warriors, my favorite tribe. Problem solved!
+So I restricted myself to Warriors, my favorite tribe.  Problem solved!
+It's <i>usually</i> best to listen to her, I've found.
+It's <i>usually</i> best to listen to her, I've found.
+Each Pokemon has their own Personality Traits.
+Each Pokemon has their own Personality Traits.
+Bonding with a Pokemon, and discovering what makes them unique, can be such a source of joy.
+Bonding with a Pokemon, and discovering what makes them unique, can be such a source of joy.
+Don't worry about your battles. No matter the personality, any Pokemon can be an excellent battler.
+Don't worry about your battles. No matter the personality, any Pokemon can be an excellent battler.
+Use whatever Pokemon you connect with the most.
+Use whatever Pokemon you connect with the most. 
+That's a lesson that my dear wife taught me.
+That's a lesson that my dear wife taught me.
+She's correct <i>almost</i> all of the time!
+She's correct <i>almost</i> all of the time!
 Greetings!
 Greetings!
 If appearances are to be believed, you seem to be a fine trainer.
@@ -34781,8 +34803,8 @@ The user shouts with force at the target. This move always hits first.
 The user shouts with force at the target. This move always hits first.
 The user charges, then puts the target to sleep on the next turn.
 The user charges, then puts the target to sleep on the next turn.
-The user smirks with confidence. The Sp. Def of nearby enemies is lowered.
-The user smirks with confidence. The Sp. Def of nearby enemies is lowered.
+The user smirks with confidence. The Sp. Def of nearby enemies is lowered by two steps.
+The user smirks with confidence. The Sp. Def of nearby enemies is lowered by two steps.
 A barrage of star-shaped rays are shot at the target, to multi-hit two to five times. Can't miss and skips protections.
 A barrage of star-shaped rays are shot at the target, to multi-hit two to five times. Can't miss and skips protections.
 The user attacks and steals items from all near foes. Items stolen from wild Pokémon are stored.
@@ -36736,6 +36758,10 @@ Red Orb
 Red Orb
 Blue Orb
 Blue Orb
+Light Stone
+Light Stone
+Dark Stone
+Dark Stone
 Lumiose Galette
 Lumiose Galette
 Shalour Sable
@@ -37052,6 +37078,8 @@ Pearl of Wisdom
 Pearl of Wisdom
 Crystal Caliburn
 Crystal Caliburn
+Empty Stone
+Empty Stone
 Unnamed
 Unnamed
 Test Item
@@ -37631,6 +37659,10 @@ Red Orbs
 Red Orbs
 Blue Orbs
 Blue Orbs
+Light Stones
+Light Stones
+Dark Stones
+Dark Stones
 Lumiose Galettes
 Lumiose Galettes
 Shalour Sables
@@ -37943,6 +37975,8 @@ Pearls of Wisdom
 Pearls of Wisdom
 Crystal Caliburns
 Crystal Caliburns
+Empty Stones
+Empty Stones
 Unnamed
 Unnamed
 Test Items
@@ -38498,10 +38532,10 @@ If held by a Pokémon and a physical attack hits it, the attacker takes 25% HP d
 If held by a Pokémon and a physical attack hits it, the attacker takes 25% HP damage.
 If held by a Pokémon and a special attack hits it, the attacker takes 25% HP damage.
 If held by a Pokémon and a special attack hits it, the attacker takes 25% HP damage.
-If held by a Pokémon, this Berry will increase the holder's Defense by four steps if it's hit with a physical move.
-If held by a Pokémon, this Berry will increase the holder's Defense by four steps if it's hit with a physical move.
-If held by a Pokémon, this Berry will increase the holder's Sp. Def by four steps if it's hit with a special move.
-If held by a Pokémon, this Berry will increase the holder's Sp. Def by four steps if it's hit with a special move.
+If held by a Pokémon and a physical attack hits it, raises the holder's Defense by four steps.
+If held by a Pokémon and a physical attack hits it, raises the holder's Defense by four steps.
+If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by four steps.
+If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by four steps.
 A folding Bicycle that enables much faster movement than the Running Shoes.
 A folding Bicycle that enables much faster movement than the Running Shoes.
 A very convenient map that can be viewed anytime. It even shows your present location.
@@ -38522,6 +38556,10 @@ A shiny red orb that is said to have a legend tied to it. It's known to be conne
 A shiny red orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.
 A shiny blue orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.
 A shiny blue orb that is said to have a legend tied to it. It's known to be connected with the Hoenn region.
+Reshiram's body was destroyed and changed into this stone. It is said to be waiting for a hero.
+Reshiram's body was destroyed and changed into this stone. It is said to be waiting for a hero.
+Zekrom's body was destroyed and changed into this stone. It is said to be waiting for a hero.
+Zekrom's body was destroyed and changed into this stone. It is said to be waiting for a hero.
 A popular treat in Lumiose City. It can be used once to heal all the status conditions of a Pokémon.
 A popular treat in Lumiose City. It can be used once to heal all the status conditions of a Pokémon.
 Shalour City's famous shortbread. It can be used once to heal all the status conditions of a Pokémon.
@@ -38722,8 +38760,8 @@ A damaged traveler's journal. If you find its scattered pages, you can put them 
 A damaged traveler's journal. If you find its scattered pages, you can put them back in place.
 A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
 A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
-A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
-A vessel for negative emotions. Perfectly defeat enough trainers to earn its rewards.
+A vessel for negative emotions. To earn its rewards, perfect trainers and make them flee from you.
+A vessel for negative emotions. To earn its rewards, perfect trainers and make them flee from you.
 A smart phone. Use it to take selfies.
 A smart phone. Use it to take selfies.
 A hi-tech battle recording device. Use it to manage and replay past battles.
@@ -38838,6 +38876,8 @@ User heals 1/16th HP every turn. Will sacrifice itself to cure the user of statu
 User heals 1/16th HP every turn. Will sacrifice itself to cure the user of status.
 Boosts the power of Light and Blade moves by 50%.
 Boosts the power of Light and Blade moves by 50%.
+An empty vessel. It is freezing cold to the touch.
+An empty vessel. It is freezing cold to the touch.
 An item to test the PBS Extensions feature. It can be sold to shops for $1.
 An item to test the PBS Extensions feature. It can be sold to shops for $1.
 [10]
@@ -45207,16 +45247,12 @@ Not enough encounter lines given for encounter type {1} for map '{2}' (expected 
 Not enough encounter lines given for encounter type {1} for map '{2}' (expected {3}).<<r>><<n>>{4}
 TM {1}
 TM {1}
-TR {1}
-TR {1}
 HM {1}
 HM {1}
 {1} +{2}
 {1} +{2}
 {1} TMs
 {1} TMs
-{1} TRs
-{1} TRs
 {1} HMs
 {1} HMs
 Cannot get machine index of item {1} ID. It either doesn't exist or isn't a machine!
@@ -47299,16 +47335,18 @@ CANCEL
 CANCEL
 x{1: 2d}
 x{1: 2d}
-Teach which move?
-Teach which move?
+Cannot search on an empty tab.
+Cannot search on an empty tab.
+Search for which move?
+Search for which move?
+No matching move was found in this tab.
+No matching move was found in this tab.
 Mentor Moves
 Mentor Moves
 What is Move Mentoring?
 What is Move Mentoring?
 I'm the Mentor Coordinator. How can I help?
 I'm the Mentor Coordinator. How can I help?
-Sorry, it doesn't appear that 1 can have any moves mentored to it at the moment..
-Sorry, it doesn't appear that 1 can have any moves mentored to it at the moment..
 I help your Pokémon to teach each other moves!
 I help your Pokémon to teach each other moves!
 Pokémon can teach moves they know, moves they used to know, and moves earlier on their level up learnset.
@@ -47323,8 +47361,6 @@ What is Move Relearning?
 What is Move Relearning?
 I'm the Move Relearner. How can I help?
 I'm the Move Relearner. How can I help?
-Sorry, it doesn't appear as if I have any move I can teach to your \v[3].
-Sorry, it doesn't appear as if I have any move I can teach to your \v[3].
 I can teach moves to your Pokémon -- at no cost!
 I can teach moves to your Pokémon -- at no cost!
 I know every single move that Pokémon learn while leveling up or evolving.
@@ -47929,6 +47965,8 @@ You cannot mass-move Pokémon into a Donation Box.
 You cannot mass-move Pokémon into a Donation Box.
 Move Selection
 Move Selection
+Take All Items
+Take All Items
 Clear Selection
 Clear Selection
 Do what with your {1} selected Pokémon?
@@ -47979,6 +48017,8 @@ ERROR! Couldn't move all Pokémon in a mass move.
 ERROR! Couldn't move all Pokémon in a mass move.
 {1} Pokémon have been mass moved to {2}.
 {1} Pokémon have been mass moved to {2}.
+No selected Pokémon are holding any items.
+No selected Pokémon are holding any items.
 {1} is no longer locked to sorting.
 {1} is no longer locked to sorting.
 {1} is now locked to sorting.
@@ -48367,6 +48407,8 @@ Check Rewards
 Check Rewards
 Hear Story
 Hear Story
+Welcome back to the PokÉstate, young master.
+Welcome back to the PokÉstate, young master.
 Interact
 Interact
 View Summary
@@ -49289,6 +49331,10 @@ Learnable By
 Learnable By
 Uninvocable
 Uninvocable
+Custom Animation
+Custom Animation
+Canon
+Canon
 Which tag?
 Which tag?
 Equal to
@@ -49321,6 +49367,12 @@ Party Pokemon
 Party Pokemon
 Caught Pokemon
 Caught Pokemon
+Is Canon?
+Is Canon?
+Does
+Does
+Has Custom Animation?
+Has Custom Animation?
 Level Up Learners
 Level Up Learners
 Other Learners
@@ -49389,6 +49441,10 @@ But it failed, since neither {1} nor any of its allies can receive the stat impr
 But it failed, since neither {1} nor any of its allies can receive the stat improvements!
 But it failed, since there are no party members on {1} who can join in!
 But it failed, since there are no party members on {1} who can join in!
+<u>Base Power per Hit</u>:
+<u>Base Power per Hit</u>:
+10 + (base Attack stat / 8)
+10 + (base Attack stat / 8)
 {1} gives a taste of what's to come!
 {1} gives a taste of what's to come!
 But it failed, since an attack is already foreseen against {1}!
@@ -49437,6 +49493,8 @@ But it failed, since {1} can't raise its critical hit chance any further!
 \ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
 SKIPPING BATTLE...
 SKIPPING BATTLE...
+Battle skipped due to an unexpected bug...
+Battle skipped due to an unexpected bug...
 {1} forgot {2}...
 {1} forgot {2}...
 {1} forgot how to use {2}.<<n>>And...
@@ -52313,6 +52371,8 @@ The coral overgrowth around {1} withered!
 {1} was frostbitten by the {2}! {3}!
 {1} was burned by the {2}! {3}!
 {1} was burned by the {2}! {3}!
+{1}'s PP was drained by its {2}!
+{1}'s PP was drained by its {2}!
 {1} restored its {2}'s PP.
 {1} restored its {2}'s PP.
 {1}'s {2} restored its {3}'s PP!
@@ -52953,6 +53013,8 @@ How unfortunate! Better luck next time.
 {1} sends another volley!
 {1} skipped exhaustion due to its Energy Herb!
 {1} skipped exhaustion due to its Energy Herb!
+10 + (base Special Attack stat / 8)
+10 + (base Special Attack stat / 8)
 But it failed, since a crafty shield is already protecting {1}!
 But it failed, since a crafty shield is already protecting {1}!
 {1} spread its arms to guard {2}!
@@ -53123,8 +53185,8 @@ But it failed, since {1} && {2} share the exact same types!
 {1}'s type changed to match {2}'s!
 But it failed, since the Bug-type doesn't exist!
 But it failed, since the Bug-type doesn't exist!
-But it failed, since {1} is already only Bug-type!
-But it failed, since {1} is already only Bug-type!
+But {1} couldn't change its type!
+But {1} couldn't change its type!
 But it failed, since the Ghost-type doesn't exist!
 But it failed, since the Ghost-type doesn't exist!
 But it failed, since {1} is already Ghost-type!
@@ -55151,8 +55213,6 @@ Appearance changed to {1}!
 Appearance changed to {1}!
 LEARNED
 LEARNED
-Teach which Pokémon?
-Teach which Pokémon?
 Screenshot saved to folder {1}<<1>>
 Screenshot saved to folder {1}<<1>>
 There's no more room for Pokémon!<<1>>
@@ -56039,8 +56099,12 @@ Set money, badges, Pokédexes, player's appearance and name, etc.
 Set money, badges, Pokédexes, player's appearance and name, etc.
 Information editors...
 Information editors...
-Edit information in the PBS files, terrain tags, battle animations, etc.
-Edit information in the PBS files, terrain tags, battle animations, etc.
+Edit information in the PBS files, terrain tags, etc.
+Edit information in the PBS files, terrain tags, etc.
+Animation editors...
+Animation editors...
+Edit, organize, import, export, or compile move animations.
+Edit, organize, import, export, or compile move animations.
 Global Metadata...
 Global Metadata...
 Edit and View Global Metadata entries.
@@ -56469,6 +56533,26 @@ See the earliest available level of each move.
 See the earliest available level of each move.
 Move learn level analysis written to Analysis/move_levels.txt
 Move learn level analysis written to Analysis/move_levels.txt
+Battle Animation Editor
+Battle Animation Editor
+Edit the battle animations.
+Edit the battle animations.
+Battle Animation Organiser
+Battle Animation Organiser
+Rearrange/add/delete battle animations.
+Rearrange/add/delete battle animations.
+Import All Battle Animations
+Import All Battle Animations
+Import all battle animations from the "Animations" folder.
+Import all battle animations from the "Animations" folder.
+Export All Battle Animations
+Export All Battle Animations
+Export all battle animations individually to the "Animations" folder.
+Export all battle animations individually to the "Animations" folder.
+Compile Battle Animations
+Compile Battle Animations
+Compile the information that links moves to animations.
+Compile the information that links moves to animations.
 Test Wild Battle
 Test Wild Battle
 Start a single battle against a wild Pokémon. You choose the species/level.
@@ -56687,22 +56771,6 @@ Are you sure you want to reposition all sprites?
 Are you sure you want to reposition all sprites?
 Repositioning all sprites. Please wait.
 Repositioning all sprites. Please wait.
-Battle Animation Editor
-Battle Animation Editor
-Edit the battle animations.
-Edit the battle animations.
-Battle Animation Organiser
-Battle Animation Organiser
-Rearrange/add/delete battle animations.
-Rearrange/add/delete battle animations.
-Import All Battle Animations
-Import All Battle Animations
-Import all battle animations from the "Animations" folder.
-Import all battle animations from the "Animations" folder.
-Export All Battle Animations
-Export All Battle Animations
-Export all battle animations individually to the "Animations" folder.
-Export all battle animations individually to the "Animations" folder.
 Consolidate Egg Moves
 Consolidate Egg Moves
 For every tutor move that a whole line shares, move it into the egg moves list of the lowest stage pokemon instead.
@@ -61454,8 +61522,8 @@ Whimsical
 Witty
 Witty
 137
-Test Trait
-Test Trait
+Experimental
+Experimental
 [30]
 0
 Scary Movies
@@ -63787,8 +63855,8 @@ Seeker
 Seeker
 Shadow
 Shadow
-Swimmer
-Swimmer
+Sightseer
+Sightseer
 Sis and Bro
 Sis and Bro
 Skier
@@ -63807,6 +63875,8 @@ Surfer
 Surfer
 Suspicious Man
 Suspicious Man
+Swimmer
+Swimmer
 Guardian Deity
 Guardian Deity
 Teacher

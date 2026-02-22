@@ -79,6 +79,7 @@ class AbilityFactory
     end
     return false
   end
+
 =begin
 def on_switch_in(ability, battler, battle, aiCheck = false)
   # 首先检查特性是否被禁用
@@ -130,6 +131,7 @@ def extra_trigger_times(ability, battler, battle, aiCheck = false)
   return 0  # 默认返回0，只触发基础的一次
 end
 =end
+
   def on_switch_in_effect(ability, battler, battle, aiCheck = false); return false; end
 end
 
