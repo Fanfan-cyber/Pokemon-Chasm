@@ -395,7 +395,7 @@ class PokEstate
 		firstPage.graphic.character_name = caretakerSprite
 		firstPage.trigger = 0 # Action button
 		firstPage.list = []
-		push_text(firstPage.list,"Welcome back to the PokÉstate, young master.")
+		push_text(firstPage.list,_INTL("Welcome back to the PokÉstate, young master."))
 		push_script(firstPage.list,sprintf("setSpeaker(CARETAKER)",))
 		push_script(firstPage.list,sprintf("$PokEstate.careTakerInteraction",))
 		firstPage.list.push(RPG::EventCommand.new(0,0,[]))
