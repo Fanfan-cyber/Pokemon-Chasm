@@ -14,18 +14,17 @@ class PokeBattle_Battler
     abils.each do |ability_id|
       next if ability_tracked?(ability_id)
       class_name = "AbilityFactory_#{ability_id}"
-      if Object.const_defined?(class_name)
-        tracked_abilities[ability_id] = Object.const_get(class_name).new(ability_id)
-      else
-        tracked_abilities[ability_id] = nil
+      unless Object.const_defined?(class_name)
+        Object.const_set(class_name, Class.new(AbilityFactory))
       end
+      tracked_abilities[ability_id] = Object.const_get(class_name).new(ability_id, self, @battle)
     end
   end
 
   def trigger_tracked_ability(method_name, ability_id, *args)
     ability = tracked_abilities[ability_id]
-    return unless ability && ability.respond_to?(method_name)
-    ability.public_send(method_name, ability_id, *args)
+    return unless ability&.respond_to?(method_name)
+    return ability.public_send(method_name, *args)
   end
 
   def reset_tracked_abilities_switch_counter
@@ -34,22 +33,26 @@ class PokeBattle_Battler
 end
 
 class AbilityFactory
-  attr_reader :id
+  attr_reader :ability, :battler, :battle
   attr_reader :on_switch_in_trigger_max_per_battle, :on_switch_in_trigger_max_per_switch, :on_switch_in_trigger_times_battle, :on_switch_in_trigger_times_switch
+  attr_reader :on_switch_in_extra_trigger_times
 
-  def initialize(id)
-    @id                                  = id
+  def initialize(ability, battler, battle)
+    @ability                             = ability
+    @battler                             = battler
+    @battle                              = battle
     @on_switch_in_trigger_max_per_battle = -1
     @on_switch_in_trigger_max_per_switch = -1
     @on_switch_in_trigger_times_battle   = 0
     @on_switch_in_trigger_times_switch   = 0
+    @on_switch_in_extra_trigger_times    = 0
   end
 
   def ==(other)
     if other.is_a?(AbilityFactory)
-      @id == other.id
+      @ability == other.ability
     else
-      @id == other
+      @ability == other
     end
   end
 
@@ -57,97 +60,62 @@ class AbilityFactory
     @on_switch_in_trigger_times_switch = 0
   end
 
-  def can_trigger_on_switch_in?
-    return false if @on_switch_in_trigger_max_per_battle >= 0 && @on_switch_in_trigger_times_battle >= @on_switch_in_trigger_max_per_battle
-    return false if @on_switch_in_trigger_max_per_switch >= 0 && @on_switch_in_trigger_times_switch >= @on_switch_in_trigger_max_per_switch
-    return true
+  def on_switch_in_triggered_max?
+    return true if @on_switch_in_trigger_max_per_battle >= 0 && @on_switch_in_trigger_times_battle >= @on_switch_in_trigger_max_per_battle
+    return true if @on_switch_in_trigger_max_per_switch >= 0 && @on_switch_in_trigger_times_switch >= @on_switch_in_trigger_max_per_switch
+    return false
   end
 
-  def update_on_switch_in_trigger_times
+  def on_switch_in_trigger_times_update
     @on_switch_in_trigger_times_battle += 1
     @on_switch_in_trigger_times_switch += 1
   end
 
-  def on_switch_in(ability, battler, battle, aiCheck = false)
-    return false unless can_trigger_on_switch_in?
-    ret = on_switch_in_effect(ability, battler, battle, aiCheck)
-    if aiCheck
-      return ret
-    elsif ret
-      update_on_switch_in_trigger_times
-      return true
-    end
-    return false
-  end
+  def on_switch_in_blocked?(aiCheck = false); return false; end
 
-=begin
-def on_switch_in(ability, battler, battle, aiCheck = false)
-  # 首先检查特性是否被禁用
-  return false unless can_ability_trigger?(ability, battler, battle, aiCheck)
-  
-  success = false
-  total_ret = 0
-  
-  # 基础触发1次 + 额外触发次数
-  trigger_times = 1 + extra_trigger_times(ability, battler, battle, aiCheck)
-  
-  trigger_times.times do
-    # 每次触发前都检查条件
-    next unless can_trigger_on_switch_in?
-    
-    # 统一调用效果方法
-    ret = on_switch_in_effect(ability, battler, battle, aiCheck)
-    
-    if aiCheck
-      # AI检查模式下，累积返回值
-      total_ret += ret if ret.is_a?(Numeric)
-    else
-      # 实际战斗模式下，执行触发并记录成功状态
-      if ret
-        update_on_switch_in_trigger_times
+  def on_switch_in_extra_trigger_times(aiCheck = false); @on_switch_in_extra_trigger_times; end
+
+  def on_switch_in(aiCheck = false)
+    return false if on_switch_in_blocked?(aiCheck)
+
+    success       = false
+    total_ret     = 0
+    trigger_times = 1 + on_switch_in_extra_trigger_times(aiCheck)
+
+    trigger_times.times do
+      next if on_switch_in_triggered_max?
+      ret1 = BattleHandlers::AbilityOnSwitchIn.trigger(@ability, @battler, @battle, aiCheck)
+      ret2 = on_switch_in_effect(aiCheck)
+      if aiCheck
+        total_ret += ret1 if ret1.is_a?(Numeric)
+        total_ret += ret2 if ret2.is_a?(Numeric)
+      elsif ret2
+        on_switch_in_trigger_times_update
         success = true
       end
     end
-  end
-  
-  if aiCheck
-    return total_ret
-  else
+
+    return total_ret if aiCheck
     return success
   end
-end
 
-# 前置检查：特性是否能够触发
-def can_ability_trigger?(ability, battler, battle, aiCheck = false)
-  # 这里实现你的判断逻辑
-  # 例如：检查特性是否被封印、沉默或其他状态影响
-  # 返回true表示可以触发，返回false表示完全禁用
-  return true  # 默认返回true，允许触发
-end
-
-# 额外触发次数的方法
-def extra_trigger_times(ability, battler, battle, aiCheck = false)
-  # 这里实现你的判断逻辑，返回额外的触发次数
-  return 0  # 默认返回0，只触发基础的一次
-end
-=end
-
-  def on_switch_in_effect(ability, battler, battle, aiCheck = false); return false; end
+  def on_switch_in_effect(aiCheck = false); return false; end
 end
 
 class AbilityFactory_EXAMPLE < AbilityFactory
-  def initialize(id)
+  def initialize(ability, battler, battle)
     super
     @on_switch_in_trigger_max_per_battle = 1
     @on_switch_in_trigger_max_per_switch = 1
+    @on_switch_in_extra_trigger_times    = 1
   end
 
-  def on_switch_in_effect(ability, battler, battle, aiCheck = false)
+  def on_switch_in_effect(aiCheck = false)
     return 0 if aiCheck
-    battle.pbShowAbilitySplash(battler, ability)
-    battle.pbAnimation(:GREYMIST, battler, nil, 0)
-    battle.field.applyEffect(:GreyMist, applyEffectDurationModifiers(3, battler))
-    battle.pbHideAbilitySplash(battler)
+    @battle.pbShowAbilitySplash(@battler, @ability)
+    @battle.pbAnimation(:GREYMIST, @battler, nil, 0)
+    @battle.field.applyEffect(:GreyMist, applyEffectDurationModifiers(3, @battler))
+    @battle.pbHideAbilitySplash(@battler)
     return true
   end
 end
@@ -213,22 +181,6 @@ class AbilitySystem
   end
 end
 
-=begin
-class AbilitySystem_ILLUSION < AbilitySystem
-  OFF_MULT = { :DamageCalcUserAbility => { :base_damage_multiplier => 1.2, }, }
-
-  DamageCalcUserAbility =
-    proc { |handler, _ability, battle, user, _target, _move, mults, _baseDmg, _type, _aiCheck|
-      AbilitySystem.calc_mults(OFF_MULT, handler, mults, battle) if user.illusion?
-    }
-
-  def initialize(id)
-    super
-    @ability_handler[:DamageCalcUserAbility] = DamageCalcUserAbility
-  end
-end
-=end
-
 class AbilitySystem_SWIFTSTOMPS < AbilitySystem
   HIT_CYCLE = 3
 
@@ -241,28 +193,6 @@ class AbilitySystem_SWIFTSTOMPS < AbilitySystem
 
   def initialize(id)
     super
-    @ability_handler[:GuaranteedCriticalUserAbility] = GuaranteedCriticalUserAbility
-  end
-end
-
-class AbilitySystem_EXAMPLE < AbilitySystem
-  OFF_MULT = { :DamageCalcUserAbility => { :attack_multiplier => 1.3, :base_damage_multiplier => 1.2, }, }
-
-  DamageCalcUserAbility =
-    proc { |handler, _ability, battle, _user, _target, _move, mults, _baseDmg, _type, _aiCheck|
-      AbilitySystem.calc_mults(OFF_MULT, handler, mults, battle)
-    }
-
-  GuaranteedCriticalUserAbility =
-    proc { |_handler, _ability, move, user, _target, _battle, aiCheck|
-      hits = user.battle_tracker_get(:hits_in_progress_kicking)
-      hits += 1 if aiCheck
-      next true if move.kickingMove? && hits % 3 == 0
-    }
-
-  def initialize(id)
-    super
-    @ability_handler[:DamageCalcUserAbility]         = DamageCalcUserAbility
     @ability_handler[:GuaranteedCriticalUserAbility] = GuaranteedCriticalUserAbility
   end
 end
