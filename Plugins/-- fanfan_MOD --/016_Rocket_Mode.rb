@@ -11,16 +11,21 @@ module RocketMode
     end
     return if can_choose.empty?
     if pbConfirmMessage(_INTL("Do you want to take a Pokémon from the opposing party?"))
-      data         = pbChoosePkmnFromListEX(_INTL("Which Pokémon do you want to take?"), can_choose, true)
-      pkmn         = data[0].clone_pkmn(true, true)
-      pkmn.level   = getLevelCap - 5
-      pkmn.ability = nil
-      pkmn.reset_moves
-      pkmn.items.clear
-      pkmn.extraTypes.clear
-      pkmn.extraAbilities.clear
-      pkmn.calc_stats
+      data = pbChoosePkmnFromListEX(_INTL("Which Pokémon do you want to take?"), can_choose, true)
+      pkmn = data[0].clone_pkmn(true, true)
+      clear_pkmn(pkmn)
       pbAddPokemon(pkmn, dexnav: true)
     end
   end
+end
+
+def clear_pkmn(pkmn)
+  target_level = getLevelCap - 5
+  pkmn.level = target_level if pkmn.level > getLevelCap - 5
+  pkmn.ability = nil
+  pkmn.reset_moves
+  pkmn.removeItems
+  pkmn.extraTypes.clear
+  pkmn.extraAbilities.clear
+  pkmn.calc_stats
 end

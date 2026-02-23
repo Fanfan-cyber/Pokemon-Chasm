@@ -685,7 +685,7 @@ But were they always? You’ve heard legends of Pokémon raising mountains and o
 We were created by Pokémon, and they’ll be the end of us someday.
 我们人类是精灵创造的，也总有1天，它们会毁灭我们。
 At least, that’s what they say of Arceus and Yveltal, not to mention all the rest.
-这是人们对阿尔宙斯和伊裴尔塔尔的描述和看法，更何况传说中可不只有这两位。
+这是人们对阿尔宙斯和伊裴尔塔尔的描述和看法，更何况传说中可不只有这2位。
 I’m glad to hear you agree.
 很高兴我们拥有共识。
 Maybe it’s a foolish endeavor, seeking these things out. I’m sure they’d maul me given half a chance.
@@ -731,7 +731,7 @@ Bah! I have nothing left, and now she is free to waltz on in to the College. Is 
 No, you know what? I'm leaving.
 谁稀罕？我要走了！
 The only way I'm coming back is if it's with my dad and a few of his friends.
-我会带着我爸爸和几个朋友，一块来讨个公道的！
+我会带着我爸爸和几个朋友，1块来讨个公道的！
 I knew who you were the second I saw your last name on the role sheet.
 哼，一听到你的姓，我就知道你是谁了。
 The last time I heard it, it had "Lieutenant" in front of it.
@@ -808,7 +808,7 @@ You not only deserve a reward, but my hypothesis is that the avatar appeared whe
 My hypothesis is that the avatar appeared when I had too many Alolan Geodudes together in one place....
 我怀疑是不是有太多阿罗拉小拳石聚集在一起，才导致了化身的出现...
 Dozens of paper bookmarks dot the pages of a book titled "A History of Ferrous Mining Techniques."
-一本夹着数10个书签的书，标题为《黑色金属采矿技术史》。
+1本夹着数10个书签的书，标题为《黑色金属采矿技术史》。
 [Map5]
 [Map6]
 The crate is emblazoned with the logo for a "Laverre City Manufactoring Co."
@@ -918,7 +918,7 @@ Either you give 'em one of those, or you bribe 'em with some stuff you don't nee
 The door is securely locked.
 门被锁着...
 A sign reads "Schedule your gym appointments in the large building to the west."
-一块牌子上写着：“请到旁边大厦预约挑战时间。”
+1块牌子上写着：“请到旁边大厦预约挑战时间。”
 I decided to come here on a whim.
 我来这里真是一时冲动啊。
 This park sucks.
@@ -1190,7 +1190,7 @@ They’re so… arrogant. Have you ever noticed that?
 They just don’t care about us fleshy creatures – human or Pokémon. All they seem to notice is the land, each other, and a few very specific objects.
 它们根本不在乎我们这些还拥有血肉的生物，它们似乎只在意彼此的领土，以及某些极为特殊的东西。
 I know this asking a lot, but… can I borrow a Moon Stone from you?
-我知道这个要求很过分，但我...能问你借一块月之石吗?
+我知道这个要求很过分，但我...能问你借1块月之石吗?
 The avatars seem to notice the incredible power inside those stones.
 化身们似乎注意到了进化石中蕴含的惊人力量。
 Unless you’re asking me why a Moon Stone, in which case, well, I decided apropos of nothing.
@@ -1837,7 +1837,7 @@ Abilities that grant resistances, such as Realist and Tough, should also be resp
 I live for trash TV.
 我超爱看肥皂剧的。
 Last week Kimberly slapped Evan because she caught him reading a romance novel that featured a cycling couple.
-上周埃文在读一本自行车情侣的言情小说时被金柏莉发现了，然后就挨了1个响亮的耳光。
+上周埃文在读1本自行车情侣的言情小说时被金柏莉发现了，然后就挨了1个响亮的耳光。
 They got into a huge fight and ended up breaking all the furniture.
 然后他们就大打出手，几乎干碎了所有家具。
 Here's the catch -- they aren't even dating. They knew each other for four days.
@@ -1863,7 +1863,7 @@ Critical hits are the exception to this, of course.
 It seems like Ribombee is helping organize the books!
 蝶结萌虻正在帮忙整理书籍！
 A book called "Gangs of Castelia" lays on the table.
-桌上放着一本名叫《卡斯蒂利亚黑帮》的书。
+桌上放着1本名叫《卡斯蒂利亚黑帮》的书。
 A sticker on the front states that it was adapted into a major motion picture.
 根据封标显示，这本书曾被改编成电视剧。
 Oh hello dearie, you wouldn't happen to be a Trainer would you?
@@ -1959,13 +1959,13 @@ The atmosphere here is nice.
 I should really come more often.
 我真该多来几次。
 It seems like the Riolu is trying to reach for a book, but it's too short to grab it on its own.
-利欧路好像想拿一本书，但以它的身高根本够不到。
+利欧路好像想拿1本书，但以它的身高根本够不到。
 Do you want to help the Pokemon?
 要帮利欧路吗？
 Maybe it'll figure a way out on its own.
 得让它学会自身想办法。
 You grab a copy of "The Adventures of Mighty Morpeko 6: Golduck's Great Revenge".
-你顺着它的目光拿了一本《强悍莫鲁贝可历险记6：哥达鸭的大复仇》。
+你顺着它的目光拿了1本《强悍莫鲁贝可历险记6：哥达鸭的大复仇》。
 The Riolu gives a polite bow while you hand it the book.
 当你把书递给它时，利欧路礼貌地鞠了一躬。
 Riolu is really enjoying its comic book!
@@ -2299,7 +2299,7 @@ You’re strong. You’ve proven that. This’ll be a piece of cake. Trust me. S
 Thanks for the help.
 谢谢。
 The top of the sign is labeled "Grouz Mine Bulletin."
-最上面一层是“古治矿场公告。”
+最上面1层是“古治矿场公告。”
 Remnants of old, yellowed papers are still stapled to the rest.
 边边角角处还能看到一些老旧发黄的残留碎纸片。
 Dr. Hekata's House
@@ -4210,7 +4210,7 @@ Will you cease bothering me? I'm trying to massage this data into significance.
 你能不能别烦我了？我正在整理数据！
 [Map54]
 A male and female TV host are all smiles as they take a walkthrough of a historic Prizca East house for sale.
-一男一女两位主持人笑容满面地参观了东宏礼市一栋历史悠久的待售房屋。
+一男一女2位主持人笑容满面地参观了东宏礼市1栋历史悠久的待售房屋。
 Cyndaquil is entertaining itself by repeatedly extinguishing and reigniting the candle.
 火球鼠正通过反复点燃和熄灭蜡烛来自娱自乐。
 Oh, you must be that kid I’ve heard so much about! How are you?
@@ -4288,7 +4288,7 @@ Wish she could talk to me... but I’m no different than every other human, I s�
 Any more questions?
 还有问题吗？
 A small book, with a creased spine.
-一本有些旧的小书。
+1本有些旧的小书。
 it appears to be some sort of political thriller.
 像是跟政治有关的惊悚小说。
 You know me?
@@ -5634,7 +5634,7 @@ Honestly, just take it. Make my job easier.
 They don't pay me enough to deal with this stuff.
 什么时候给我涨工资啊。
 A book detailing how TMs are made. Porygon makes the process faster than ever!
-一本详细介绍如何制作技能机器的书。3D龙让这个过程比以往更快！
+1本详细介绍如何制作技能机器的书。3D龙让这个过程比以往更快！
 Helena, the gym leader, is one of the executives here.
 道馆馆主海伦娜，就是这里的负责人。
 She's in charge of the logistics and funding for LuxTech's projects.
@@ -6209,7 +6209,7 @@ But I don't hear anyone talking about that crater to the south. There's somethin
 Oh, don't give me that look! If you live in Makya long enough, you'll start to believe some strange things too!
 喂，别用那种眼神看我！你要是在马凯亚多呆一阵子，你就明白我什么意思了！
 Found a really... confusing fossil while hiking around the Highland Lake.
-在高地湖附近徒步时发现了一块非常...令人困惑的化石。
+在高地湖附近徒步时发现了1块非常...令人困惑的化石。
 It makes me feel... weird. I don't think I can stand being around it any longer.
 它让我感觉...很奇怪。我想我不能再忍受它了。
 Please, rescue me from this... thing.
@@ -6353,7 +6353,7 @@ God, this place sucks.
 I swear every fifteen seconds a new avatar is reported there.
 我感觉每过十五秒都会出现1只新的化身。
 Those kids living there are so lucky that, like, two capable Trainers live there.
-住在那里的孩子们运气真好，身边有两位强大的训练师。
+住在那里的孩子们运气真好，身边有2位强大的训练师。
 I don't know what's with that spot. It has to be cursed or something.
 真搞不懂那个地方到底咋回事，是被诅咒了还是什么？
 Daily patrols are required. Nothing too bad has happened yet, but it could get much worse.
@@ -6664,7 +6664,7 @@ Buy Tea
 Andris gave each of us -- us gym leaders -- one of these keys.
 安德里斯给了馆主们各1把钥匙。
 They’re for these doors, these prisons.
-都是这些门...这些监狱的钥匙。
+都是这些门...这些监牢的钥匙。
 Behind all that bluster about Champions and badges and all that, this is our real purpose. At least, it’s supposed to be.
 在接受挑战、颁发徽章等表象背后，但这才是我们真正的使命。也是事情本来的样貌。
 Seems like I’m the only one taking this seriously.
@@ -6684,7 +6684,7 @@ Do I look like I have the time to duel you? That isn’t my job, you know.
 My job is to guard this door until I can find someone strong enough to defeat what’s inside.
 我的职责就是守护这扇门，直至寻到足够强大的人来打倒里面的东西。
 And for some insane reason they thought sending a parade of children at me was a good way to do that.
-但是我不知道他们是怎么想的，竟然觉得派来一群孩子就能搞定。
+但是我不知道他们是怎么想的，竟然觉得派来1群孩子就能搞定。
 But fine. We’ll fight.
 行行行，那我们就打1场。
 I run doubles, and doubles only. You ready for that?
@@ -6856,9 +6856,9 @@ I've been assigned here to help with the avatar problem, but I don't really feel
 Are you looking for the Gym Leader? I've only heard rumors.
 你在找道馆馆主吗？我只听说过一些他的传言。
 Apparently he's shacked up in one of the buildings.
-说是他一直躲在一栋建筑里。
+说是他一直躲在1栋建筑里。
 Dunno which one though.
-但我不知道是哪一栋。
+但我不知道是哪1栋。
 Well. I'll just be here. Chilling. Yeah.
 好吧，来都来了，放松...放松下来...
 I am chill. Calm. Relaxed. Chilled.
@@ -7028,7 +7028,7 @@ I was plannin’ to.
 I ain’t ‘bout to go down there myself with ya – it’s a private affair. Can’t ruin my reputation by barging on in and making a muck of things.
 但我不想亲自跟你下去...我不想毁了自身的招牌，闯进去大闹一番，却最终把结果推向更糟。
 Hah. Don’t embarrass me. Maybe after all’s said and done, we can grab a drink together.
-哈哈，别让我难堪，或许等一切结束之后，我可以请你一起去喝一杯。
+哈哈，别让我难堪，或许等一切结束之后，我可以请你一起去喝1杯。
 You, me, Yez... or just you and me, if that’s your drift.
 你，我，还有叶泽拉...当然如果你想的话，也可以只有我们2个。
 Just don’tcha go being one of those folks asking me to step on ‘em. Hah!
@@ -7064,7 +7064,7 @@ She got other lackeys, good on her, but I ain't gonna be one of 'em.
 Go ruin her day, kid. I’ll see you around.
 去给她当头一棒吧，回头见，小家伙。
 Hey, next time I see ya, drinks are on me. Call it my way of making up to you. Heh. So long, kid.
-对了，别忘了下次见面的邀约，一起去喝一杯，就当是补偿了，再见！
+对了，别忘了下次见面的邀约，一起去喝1杯，就当是补偿了，再见！
 \PN, go ruin her day. I wish I was good enough to do it myself, but I just ain’t.
 \PN，去毁了她的计划吧，我当然也想亲自这样做，但...我还是狠不下心...
 You understand her well enough. She’ll listen to you, one way or the other.
@@ -7074,9 +7074,9 @@ And, uh, sorry. For makin’ this all ‘bout her. If things were any different,
 Maybe some day, yeah? I’ll see you around, I promise.
 或许会有能放下一切的1天...回头再见吧，我保证会来找你。
 You come back and there’s still bars left in the world, drinks are on me, y’hear? See ya around, kid.
-如果等你回来之后，这个世界的酒馆还在，那我们就去喝一杯吧，走了，小家伙！
+如果等你回来之后，这个世界的酒馆还在，那我们就去喝1杯吧，走了，小家伙！
 A booklet emblazoned with the Team Chasm logo.
-一本印有裂隙队标志的小册子。
+1本印有裂隙队标志的小册子。
 ...Your phone is ringing.
 ...你的手机响了。
 It’s... your mother. It’s Mavis. Pick up?
@@ -7493,7 +7493,7 @@ You’re leaving me? Why?
 I was going to create a perfect world for you. Do you know that?
 你知道吗？我本来要创造1个属于我们的完美世界！
 Yezera wants a new world. I don’t care why. It gave me the perfect canvas. An ancient, divine land. A golden age! And this time it’d never end!
-叶泽拉想要1个新的世界，我不在乎她的目的，但这给了我一块完美的画布，给了我古老而神圣的土地！我可以让黄金时代永不终结！
+叶泽拉想要1个新的世界，我不在乎她的目的，但这给了我1块完美的画布，给了我古老而神圣的土地！我可以让黄金时代永不终结！
 I would have her... or you.
 我会拥有她...或者你。
 I served her whims here, helping her, fighting you, stealing the titans. And I would serve her in the reborn world, love her forever.
@@ -8331,7 +8331,7 @@ Not really.
 不太需要。
 [Map129]
 A dark stone in the shape of a Nincada.
-一块铁面忍者形状的深色石头。
+1块铁面忍者形状的深色石头。
 It's slightly warm to the touch.
 摸上去还有点温度。
 I am the most powerful ninja in Makya! I traveled all the way from Sweetrock Harbor to prove it!
@@ -8343,9 +8343,9 @@ The Shinobi code dictates that I let you pass. But beware, for my revenge will b
 The door is thoroughly locked.
 房门紧锁。
 A dark stone in the shape of a Croagunk.
-一块不良蛙形状的深色石头。
+1块不良蛙形状的深色石头。
 A dark stone in the shape of a Murkrow.
-一块黑暗鸦形状的深色石头。
+1块黑暗鸦形状的深色石头。
 Hey, yo! Help me out for a second, would ya?
 嘿，你！帮我个忙好吗？
 There’s, like, a house up the road that this guy, like, totally keeps unlocked.
@@ -8353,7 +8353,7 @@ There’s, like, a house up the road that this guy, like, totally keeps unlocked
 Break in and challenge him, 'kay? Toodles!
 我们一起去探险，好不好嘛？
 A dark stone in the shape of a Spoink.
-一块跳跳猪形状的深色石头。
+1块跳跳猪形状的深色石头。
 Wow, thanks!
 哇，谢谢
 I saw that guy had a Grimer and, like, no way I’m dealing with that mess.
@@ -8541,7 +8541,7 @@ She's the only person in the region that can revive 'em. Lotta genetic junk in t
 I wouldn't know much about it, I study ecology.
 我对此了解的不多，毕竟我的主攻方向是生态研究。
 I'm an expert at fossil ressurection. For a low fee of $3000 I can revive any fossil you give me!
-我是负责化石复活的研究员，给我3000金钱，我就可以帮你复活一块化石！
+我是负责化石复活的研究员，给我3000金钱，我就可以帮你复活1块化石！
 Would you like to have me revive a fossil?
 需要进行化石复活吗？
 You'll find me right here if you decide you want to experience this marvel of science yourself!
@@ -8595,7 +8595,7 @@ An ancient Pokemon with a niche as a seafloor scavenger. Living examples are sti
 A dazzlingly complex video game is being played.
 一款令人眼花缭乱的复杂游戏正在进行中。
 A giant, many-limbed monster is being attacked by a group of people with wildly mismatching outfits.
-1个巨型多肢怪物正被一群穿着极不协调的人攻击。
+1个巨型多肢怪物正被1群穿着极不协调的人攻击。
 "The Noble Aurorus"
 "高贵的冰雪巨龙"
 This fossil was found perfectly preserved in the Svait Ice Cave, astounding Team Chasm scientists.
@@ -10024,7 +10024,7 @@ It was great. Even the settled places like Novo Town have a good amount of natur
 Being back here feels strange now...
 但现在回到这里后就感觉很不适了...
 A wandering Trainer decided to leave their Galarian Corsola with us.
-有两位流浪的训练师，将这只伽勒尔太阳珊瑚留给我们了。
+有2位流浪的训练师，将这只伽勒尔太阳珊瑚留给我们了。
 They claimed that they could no longer take care of it.
 她们说没有精力再照顾它了。
 This Center has no capacity to take care of this Pokemon long term, so we are asking Trainers to adopt it.
@@ -10255,7 +10255,7 @@ You got a spark in yer eye. Maybe it be time someone else take the mantle.
 Tell ye' what, I ain't drank a coffee in ages. Always thought it was nothin' but landlubber comforts.
 嗯，我好久没喝咖啡了，之前一直以为那只是陆上的享受。
 You bring me a cup, I'll give you this here Master Ball.
-给我一杯咖啡，这个大师球就是你的了。
+给我1杯咖啡，这个大师球就是你的了。
 This Master Ball won't be going nowhere. Take yer time.
 不着急，反正大师球是不会自身走掉的。
 There it is! A cuppa o' Joe fer me.
@@ -10337,7 +10337,7 @@ That's cool, I'm glad you like the rock as much as me.
 You hand back the Big Pearl.
 你归还了大珍珠。
 Thanks! It's a prety cool rock, huh?
-这是一块很酷的石头，不是吗？
+这是1块很酷的石头，不是吗？
 Huh? Where's my rock?
 嗯？我的石头在哪里？
 Did you lose it somewhere?
@@ -10937,25 +10937,25 @@ A few years ago I joined an expedition into the Circuit Cave organized by the Ma
 Our goal: to understand the circuitry and machinery housed in the lower layers.
 我们的目标：了解下层的电路和机械装置。
 As it turns out, being the only engineer in a throng of useless academics makes it hard to get anything done.
-事实证明，作为1个工程师，周围却是一群无用的学者，很难做成任何事情。
+事实证明，作为1个工程师，周围却是1群无用的学者，很难做成任何事情。
 Who cares about “cultural significance” or “hydrological processes" when we don’t even know what the thing does?!
 当我们甚至都不知道这个东西是做什么的时候，谁会在乎“文化意义”或“水文过程”呢？！
 …but that’s all in the past, now.
 ...但那都是过去的事了。
 I brought you here because of a different group of ex-Chasm.
-我把你带到这儿是因为另一群前裂隙队成员。
+我把你带到这儿是因为另1群前裂隙队成员。
 The Drillers.
 钻探者。
 What a lovely bunch they are.
 他们真是个可爱的群体。
 They’re basically a gang wearing ranger uniforms— and this corner of Makya is their “turf”.
-他们基本上是一群穿着护林员制服的帮派——马凯亚的这个角落是他们的“地盘”。
+他们基本上是1群穿着护林员制服的帮派——马凯亚的这个角落是他们的“地盘”。
 Usually we’re keen to avoid the Regi Tombs, but recent events have… got some of us nervous.
 通常我们都尽量避开巨人墓穴，但最近发生的事情...让我们中的一些人感到不安。
 That’s what the Drillers are saying, anyways… that they’re here to protect the place.
 钻探者是这么说的...他们说他们来这儿是为了保护这个地方。
 Keep the prisons secure.
-确保监狱的安全。
+确保监牢的安全。
 I think that’s a load of Tauros dung.
 我觉得那都是肯泰罗的粪便。
 And even if it’s not, I don’t trust them around the machines.
@@ -10971,7 +10971,7 @@ Need a refresher? I know, it’s a lot of information.
 The Drillers have invaded the Oasis System.
 钻探者入侵了绿洲系统。
 They’re a bunch of brutes, and probably up to something.
-他们是一群粗人，可能在谋划着什么。
+他们是1群粗人，可能在谋划着什么。
 Even if they’re not, I don’t want them anywhere near the place.
 即使不是这样，我也不想让他们靠近那里。
 I’ll never figure out why the ancients built this System if The Drillers find a way to “accidentally” destroy it first.
@@ -10982,7 +10982,7 @@ In short: find The Drillers and—if neccessary—evict them.
 Helena's food is neatly sorted in the fridge.
 海莲娜的食物被整整齐齐地放在冰箱里。
 You spot a slice of cheesecake encased in seran wrap.
-你发现了一块用保鲜膜包裹着的芝士蛋糕，
+你发现了1块用保鲜膜包裹着的芝士蛋糕，
 You also spot a can of lemonade.
 以及一罐柠檬水。
 You decide against taking Helena's food.
@@ -11002,7 +11002,7 @@ After you've had your fill, you decide to take some more for later.
 Helena's fridge looks a bit empty.
 海莲娜的冰箱里敞亮多了。
 You spot a pre-made salad, leftover pasta, and a glass of milk.
-里面还有一份预制沙拉一些吃剩的意大利面以及一杯牛奶。
+里面还有一份预制沙拉一些吃剩的意大利面以及1杯牛奶。
 You take some silverware from Helena's kitchen cabinet.
 你从厨柜里拿了些银质餐具。
 You eat a third of the salad before switching to the pasta. It tastes surprisingly good despite being cold.
@@ -11603,7 +11603,7 @@ You've mastered the ways of the log in such short time... are you some kinda log
 See you later, log cowboy...
 再见，木桩牛仔！
 This is it!
-就是这里
+就是这里！
 The great outdoors! Untamed nature!
 大自然！未被驯服的自然！
 The great outdoors beckon again!
@@ -11627,33 +11627,33 @@ But before I focus too much on scansion...
 I'll state the reward, a kit expansion!
 赢了，这个拓展插件就是你的了！
 Capisce.
-明白了
+明白了。
 You OK?
 你还好吗？
 Don't know about this.
-我不确定
+我不确定。
 What's your plan?
 你的计划？
 Of course.
-当然
+当然。
 Well...
 嗯...
 I'm not so sure.
-不太确定
+不太确定。
 Feel better?
 感觉好些了？
 Candy...
 糖儿...
 Fair.
-一般般
+一般般。
 You're learning.
-你学到了很多
+你学到了很多。
 That's great.
-太好了
+太好了。
 Really? You?
 你真这样想？
 Punch her again for me.
-替我再打她1次
+替我再打她1次。
 No more vigilantism?
 不再私自执法了吗？
 A tearful farewell?
@@ -11667,22 +11667,22 @@ A forced moral?
 My name is...
 我是...
 You can ask.
-你可以问
+你可以问。
 Not right now.
-现在不行
+现在不行。
 Let's go.
-走吧
+走吧。
 Almost was.
-差点就成功了
+差点就成功了。
 Please leave.
-请离开
+请离开。
 Everything is awful.
-一切都很糟
+一切都很糟。
 [Map186]
 The berry plant is growing.
 树果还在生长中。
 A Durant swarm came through here the other day.
-前几天有一群杜兰特经过这里。
+前几天有1群杜兰特经过这里。
 No clue how—Durant don't live 'round these parts.
 不知道怎么搞的——杜兰特不生活在这一带。
 Had to catch all of 'em to stop 'em eatin' our crops.
@@ -12917,7 +12917,7 @@ Just chill and enjoy the ride.
 ...But I did notice somebody tracked sewer sludge in here.
 ...但是我注意到有人把下水道的污泥带上来了。
 You take out a book.
-你试着拿出一本书。
+你试着拿出1本书。
 "On the Construction of Secret Passages".
 《密道建造》。
 Yes
@@ -12926,7 +12926,7 @@ No
 别管它
 [Map198]
 The way is blocked by a wooden panel.
-这条路被一块木板挡住了。
+这条路被1块木板挡住了。
 You see a switch to the side.
 你看到边上有1个开关。
 Pull the switch?
@@ -13047,7 +13047,7 @@ You won't regret this experience!
 I guess they weren't as powerful as I thought...
 我想它们并没有我想象中的那么强大...
 Well, good job! I have this spare stone that might help you with evolving your own Eevee.
-干得不错！我这有一块多余的进化石，或许能帮助你的伊布进化。
+干得不错！我这有1块多余的进化石，或许能帮助你的伊布进化。
 Maybe I need a bit more team diversity.
 也许我需要更多的队伍多样性。
 Nah.
@@ -13269,7 +13269,7 @@ I guess they really just like being on the stage.
 Would you like some coffee?
 要来点咖啡吗？
 We serve it freshly brewed for $550.
-现磨咖啡550金钱一杯。
+现磨咖啡550金钱1杯。
 Very well, we hope you enjoy your time at The Tunes.
 好的，希望你能享受在乐之家的时光。
 Thank you very much for your patronage.
@@ -14924,7 +14924,7 @@ Sure, let's go.
 来吧
 [Map218]
 A cap of rock is holding back a geyser of boiling water.
-一块巨石堵住了沸腾的水。
+1块巨石堵住了沸腾的水。
 I was once considered a beauty, but the way of the water needed a disciple.
 尽管我拥有着俊朗的相貌，但从水之道也需要虔诚的心。
 I should dry off.
@@ -15417,7 +15417,7 @@ A game console. A competitive battling simulator game is loaded into its disc sl
 Picture books about Pokemon are neatly organized among the shelves.
 书架上的精灵相关图书，被摆放得整整齐齐。
 You notice a particularly large book with the title "1,000 Friends: A Kid's Guide to Every Pokemon Species!"
-你注意到了一本比较大的书，《一千个朋友：精灵儿童指南》！
+你注意到了1本比较大的书，《一千个朋友：精灵儿童指南》！
 [Map228]
 Another child? Leave at once! If you don't, we won't hesitate to attack with our powerful Pokemon!
 又1个孩子？立刻离开！否则，我们将毫不犹豫地用我们强大的精灵攻击你
@@ -15567,7 +15567,7 @@ Obviously it's a fixer-upper. Place has been abandoned for years.
 It's been a massive thorn in the side of my portfolio. I've been looking to dump it, but the prime location of it keeps the price up.
 这就是出售这里最大的难题，虽然我一直找机会推销，但这里毕竟是黄金地段，光是地皮的价格就很高了。
 I suppose the type of people to move into this area aren't the type to want trashed places like this.
-而想要搬来这边的人，又不会想买这样一栋房子。
+而想要搬来这边的人，又不会想买这样1栋房子。
 Well, I don't know how you still feel about it, but at this point I'm willing to part with this place for $250,000.
 现在的价格是250,000金钱，不知道你觉得怎么样。
 That's absurdly low, but at this point I'm paying to keep otherwise stress-lost years of life.
@@ -15979,7 +15979,7 @@ Yes
 A huge variety of books line the shelves.
 书架上的书籍琳琅满目。
 A colorful tome stands out: "Fairy Tales of the East." It looks heavily worn.
-一本色彩鲜艳的书很是显眼，那是一本看起来很旧的《东方童话》。
+1本色彩鲜艳的书很是显眼，那是1本看起来很旧的《东方童话》。
 Samorne is in the other room, if you'd like to discuss matters with her.
 你若你想跟塞蒙讨论问题，她现在在另1个房间。
 ...hm? Who am I?
@@ -16684,7 +16684,7 @@ A page is open on a medical wiki.
 A dirty, disorganized fridge.
 1个脏乱差的冰箱。
 The produce storage bins at the bottom are filled mostly with alchohol.
-最底下一层的农产品，现在都已经是酒精了。
+最底下1层的农产品，现在都已经是酒精了。
 My husband is always so busy with work. He leaves trash everywhere and is rarely home.
 我丈夫的工作每天都很忙，他房间几乎被垃圾堆满了！
 I don't even want to think about the mess upstairs.
@@ -16907,7 +16907,7 @@ That was truly magnificent!
 Rarely does a tour end in such a brilliant show of battle prowess.
 很少有人能以如此出色的战斗技巧结束对战。
 Here, I think that performance has earned you a commemorative Sweetrock giant candy!
-凭你的出色表现，将获得一块巨型蜜岩纪念糖果！
+凭你的出色表现，将获得1块巨型蜜岩纪念糖果！
 Anyways, as someone who has completed a full tour, you're entitled to access to Victoire's office.
 总之，作为完成挑战的训练师，你现在可以直接访问薇克特尔的办公室了。
 Wow! What an explosive finale!
@@ -17320,7 +17320,7 @@ Your point?
 [Map283]
 [Map284]
 The stove is covered with a light dusting of the powdered flavoring that comes with instant ramen.
-炉子上撒了一层方便面调料粉。
+炉子上撒了1层方便面调料粉。
 A game console. It appears to have been quite a while since it was last used.
 一台游戏机，看起来已经很久没用过了。
 A cheap LCD TV. The logo of a local news broadcaster has been burned into the top left corner.
@@ -17342,7 +17342,7 @@ Articles and reports about Velenz cover the walls.
 Some sections are highlighted in yellow, and black marker has been used to draw lines between them.
 有些部分被用黄色标出来，并用黑色记号笔划上了线。
 A heavily worn book lies open on the floor.
-一本破旧不堪的书敞开放在地板上。
+1本破旧不堪的书敞开放在地板上。
 "X-Ray Vision: A Look into the Origins of LuxTech"
 《X视野：光华的起源》
 [Map285]
@@ -17492,7 +17492,7 @@ Welcome to the Sweetrock Harbor Lighthouse.
 You can visit the lantern room by taking the elevator behind me!
 您可以乘坐我身后的电梯，前往高处的房间！
 The source of light at the top of the lighthouse comes from a large fragment of the meteorite whose impact created our large harbor.
-灯塔顶部的光源来自一块巨大的陨石碎片，它的坠落创造了这片港口。
+灯塔顶部的光源来自1块巨大的陨石碎片，它的坠落创造了这片港口。
 Clefables are drawn to the shard, so we let them gather around it.
 皮皮们则是被这块碎片吸引来的，所以我们让它们聚集在周围。
 I find it quite endearing.
@@ -17500,7 +17500,7 @@ I find it quite endearing.
 A bookshelf full of history and science books.
 书架上满是历史和科学书。
 You notice a large tome named "Techniques for Mining Rock Candy" dated 60 years ago.
-你注意到一本60年前的旧书，《冰糖开采技术》。
+你注意到1本60年前的旧书，《冰糖开采技术》。
 Don't give coffee.
 不给咖啡
 Give coffee.
@@ -17946,7 +17946,7 @@ The PC is turned off.
 With how quiet the gym is, you think it'd stand out as rude if you tried to turn it on.
 道馆里面非常安静，如果你打开它，立即就会引起注意，这十分不礼貌。
 Among the books on history, a scrapbook stands out.
-在有关历史的书籍当中，有一本格外引人注目的剪贴本。
+在有关历史的书籍当中，有1本格外引人注目的剪贴本。
 The title is "Memories of Hoenn."
 标题是《霍恩的回忆》。
 A cute sticker of a Trapinch dominates the front cover.
@@ -18058,7 +18058,7 @@ They were dated to 1800 years ago!
 A fossil of an aquatic plant.
 1种水生植物化石。
 A plaque lists a very long scientific name for it. Your eyes glaze over as you try and read it.
-一块牌子上列出了很长的学名，瞪大了眼睛也很难读懂它。
+1块牌子上列出了很长的学名，瞪大了眼睛也很难读懂它。
 A simple plaque simply states "Armaldo Fossil".
 简单的困扰，简单的变化，“太古盔甲”
 The rest of the description plate probably hasn't been manufactured yet.
@@ -18092,7 +18092,7 @@ Notes on the chalkboard describe a timeline of the Makyan monarchy, starting fro
 3 Shieldon fossils.
 3块盾甲龙化石。
 One is intact, but the other two are in very poor quality.
-其中一块完好无损，但另外两块的质量很差。
+其中1块完好无损，但另外两块的质量很差。
 Basic archeology techniques are listed.
 上面是基本的考古技术。
 They're given in order of most to least destructive and dangerous.
@@ -18250,7 +18250,7 @@ I. Don’t. Care! You’re not better than me!
 Everyone’s always trying to show they’re better than me because they’ve got the law on their side!
 就因为有法律的支持，每个人都在试图证明他们比我强！
 Or they’re older, or bigger, or a better trainer! Well you’re all idiots! You’re all corrupt! You should all just die!
-或者是因为更老，经历更多，还是其他的什么原因...你们都是一群白痴！一群腐败的蛆虫，你们都该去死！
+或者是因为更老，经历更多，还是其他的什么原因...你们都是1群白痴！1群腐败的蛆虫，你们都该去死！
 No you’re not! Shut up! Shut up!
 闭嘴！闭嘴！闭嘴！
 You don’t care what you did! You don’t care that you betrayed me!
@@ -18944,7 +18944,7 @@ An empty trash can.
 [Map313]
 [Map314]
 A journal seems to have been left behind by whoever lived here.
-这里好像留着一本日记。
+这里好像留着1本日记。
 Three figures are crudely drawn on the page, labeled 'Yez', 'Ally', and 'Wren' respectively.
 日记上粗略地画着3个人，分别标注为“叶叶”、“莎莎”和“冉冉”。
 A few Larvitar are drawn playing with the three.
@@ -19852,7 +19852,7 @@ The ranger is painstakingly removing Maractus spines from the trainer's arms and
 Hey, kid.
 嘿，孩子。
 I need a cup of coffee, quick. Don't ask why.
-我需要一杯咖啡，快点，不要问为什么。
+我需要1杯咖啡，快点，不要问为什么。
 I've got a Figment for your contribution.
 我为你准备了1个虚幻残魂。
 It's made of magic. I'm sure you want it.
@@ -19872,7 +19872,7 @@ Back when I was a Chasm lieutenant I kept hundreds of stolen Pokemon back here.
 Place used to be a mess, but I think I've spruced it up nicely.
 那时候这里可以说是一团糟，但后来已整理得相对不错了。
 Now it's basically my own waterfront apartment, with the Rangers paying the rent for me.
-所以现在我把它变成了一栋可供出租的公寓，为在此驻扎的护林员提供住处。
+所以现在我把它变成了1栋可供出租的公寓，为在此驻扎的护林员提供住处。
 Don't give coffee.
 不给咖啡
 Give coffee.
@@ -19952,7 +19952,7 @@ A replay is playing of a match from the first round.
 A Tyranitar can be seen dealing a major blow to a Toucannon.
 1只班基拉给对面的大嘴雀来了一下狠的。
 A group of commentators around a table argue about the matchup between two Makyan gym leaders.
-一群评论员围坐在桌子旁，讨论着两位道馆馆主之间的比赛。
+1群评论员围坐在桌子旁，讨论着2位道馆馆主之间的比赛。
 A fan is seen crying, saddened by Elise's performance this year.
 1个粉丝哭着接受采访，对伊莉丝今年的表现感到难过。
 They are holding a sign that reads "Hail to the Queen!"
@@ -20872,7 +20872,7 @@ It's a vending machine!
 However, it no longer holds any drinks.
 然而，它不再装有任何饮料。
 A logbook with details on Avatar experimentation.
-一本关于化身实验的记录本。
+1本关于化身实验的记录本。
 The data on Primeval and Empowered moves is particularly thorough.
 关于原初和赋权技能的数据特别详尽。
 Using this, a unique Pokemon could probably learn to perform those moves.
@@ -21351,7 +21351,7 @@ I did what I did. And if someone wants to “bring me to justice” for it, I sa
 I’m breaking my back running this region, making it better every day.
 我正在努力经营这个地区，让它每天变得更好。
 You want to throw me in prison? Make this place worse so you can have your petty revenge? Idiocy.
-你要把我送进监狱吗？这只会让这个地方变得更糟，唯独满足了你小小的报复心。
+你要把我送进监牢吗？这只会让这个地方变得更糟，唯独满足了你小小的报复心。
 I know what I did, and I’m not going to do it again. Neither is anyone else.
 我很清楚以前做过些什么，但之后不会，也不需要再做了，当然其他人一样。
 ...Now, kid. I need to get out of this place, because I don’t particularly want to run into Candy. Get out of my way.
@@ -21470,9 +21470,9 @@ We could all use a good friend.
 Well, let me know if you change your mind. Enjoy the party!
 要是你改变主意了就告诉我。派对玩得开心！
 Here you are! One Solrock, fresh from the far reaches of space.
-给你！一块太阳岩，刚从遥远的太空运来。
+给你！1块太阳岩，刚从遥远的太空运来。
 Here you are! One Lunatone, straight from the lunar surface.
-给你！一块月石，直接来自月球表面。
+给你！1块月石，直接来自月球表面。
 Good memories on that mission, you know. Lots of new friends.
 那次任务有不少美好回忆，认识了很多新朋友。
 Like Lainie. I wonder what she's up to now?
@@ -21564,9 +21564,9 @@ Thank you for this!
 Maybe later.
 也许下次吧。
 I'll take a Solrock.
-我要一块太阳岩。
+我要1块太阳岩。
 I'll take a Lunatone.
-我要一块月石。
+我要1块月石。
 No
 不
 Yes
@@ -22058,7 +22058,7 @@ I am Hekata. Known as a historian in some circles, and as a witch in others.
 Have you delved into the earth of Makya?
 你有没有深入探索马凯亚的土地？
 In the nearby mine I did, and discovered a wondrous secret in its depths: An ore holding ancient powers.
-在附近的矿场深处，我发现了1个秘密：一块蕴含着古老力量的矿石。
+在附近的矿场深处，我发现了1个秘密：1块蕴含着古老力量的矿石。
 By long study of yellowed scrolls in the archives of Sinnoh I finally came to understand its purpose, and my own along with it.
 在研究过神奥地区的历史古迹后，我终于理解了其背后的含义，并得知了基本的运用方法。
 That being: Transmuting Origin Ore into Pokemon thought long extinct in the land of Hisui.
@@ -22066,7 +22066,7 @@ That being: Transmuting Origin Ore into Pokemon thought long extinct in the land
 Speak to me again if you wish to see me perform my spell.
 如果你需要我施展这种魔法，就来找我吧。
 You need only provide me a chunk of Origin Ore, and I can prepare my spell right away.
-你只需要提供一块起源矿石，我就能完成整个仪式。
+你只需要提供1块起源矿石，我就能完成整个仪式。
 Seeking your own destiny, I see. I understand.
 我能理解，你也只是在追寻自身的命运。
 I am glad that you answered my summons.
@@ -22158,7 +22158,7 @@ It would be my honor to perform this grand new spell for you.
 Please return to me when you have the neccessary components.
 请你拿到必要的材料后再来找我吧。
 You need only provide me a chunk of Origin Ore, and I can prepare either of my spells right away.
-你只需要给我一块起源矿石，我就能为你施展1次法术。
+你只需要给我1块起源矿石，我就能为你施展1次法术。
 Which of my spells would you like me to perform for you?
 你想让我施展哪种法术？
 No
@@ -22519,7 +22519,7 @@ Anyways! Let’s go, let’s go!
 Howdy. Hope you ain’t feelin’ stood up.
 诶嘿，希望你不会觉得被放鸽子了。
 I plan on buyin' you a drink, never you worry. Just ain't been feelin' it with Yez gone.
-我本来打算请你一起喝一杯，但是...也没什么，就是叶泽拉不在，没什么心情。
+我本来打算请你一起喝1杯，但是...也没什么，就是叶泽拉不在，没什么心情。
 Part of my mind just ain’t in the here and now. Figured I’d show up for this, at least. I’ve been thinkin’ 'bout you more than I’d like to admit. Hah!
 我最近一直有些心不在焉，所以我觉得应该来这里放松一下，我猜你肯定在更深层地揣测我的想法？哈哈！
 Don’tcha go givin’ me that look. Go on. Git. We’ll have time enough for chit-chat later.
@@ -22920,7 +22920,7 @@ Catch Tapu Fini.
 带它一起离开。
 [Map390]
 There's a creepy lady who lives in one of the old houses in Grouz.
-古治镇一栋老房子里，住着1位令人毛骨悚然的女士。
+古治镇1栋老房子里，住着1位令人毛骨悚然的女士。
 Everybody, herself included, calls her a witch.
 大家都说她是个女巫，她自身也承认了。
 She says she can turn rocks into Pokémon. I'm working up the courage to go see for myself.
@@ -23120,7 +23120,7 @@ Why would a meteor still be petrifying Pokémon who linger for too long?
 No... It's gotta be something else...
 不...一定是别的什么原因...
 I heard a group of nerds roleplaying in a cave in Repora Forest.
-我听说有一群书呆子在枯槁森林的1个山洞里玩角色扮演游戏。
+我听说有1群书呆子在枯槁森林的1个山洞里玩角色扮演游戏。
 ...Do you think they'd let me join?
 ...你觉得他们会让我加入吗？
 If you're looking to explore more of southern Makya I recommend you go visit Svait.
@@ -23246,13 +23246,13 @@ I've been to the mine... the crater... the ice cave... the desert...
 Next up is the catacombs... But I don't know where to find it.
 下1个是墓园...但我不知道它在哪儿。
 Hey, kid. I'm not supposed to leave my post, but I'm dying for some coffee.
-嘿，孩子，我现在不能离开岗位，但真的很需要一杯咖啡。
+嘿，孩子，我现在不能离开岗位，但真的很需要1杯咖啡。
 Think you can help me out?
 你能帮帮我吗？
 Thirst begone!
 解了燃眉之急！
 You hand the gatehouse attendant a Cup of Coffee.
-你将一杯咖啡递给工作人员。
+你将1杯咖啡递给工作人员。
 Oh yeah, that's hitting the spot already.
 嗯，这样就够了。
 Erm, hmm. I gotta reward you somehow.
@@ -23562,7 +23562,7 @@ I know exactly why it is that you do what you do.
 And it is for that reason... that I must stop you.
 也正是因为这个原因...我必须阻止你。
 Unlike the others, Landorus could not be held by this ancient prison.
-与其他精灵不同，土地云无法被这个古老的监狱所束缚。
+与其他精灵不同，土地云无法被这个古老的监牢所束缚。
 And yet it stayed... containing itself in this cave.
 然而它却留了下来...在这个洞穴中自我约束。
 Why...? Because it knew that it was too dangerous on its own.
@@ -23900,7 +23900,7 @@ Eh, screw it. Let's go get a day job.
 I wen through all this effort to get this Zoroark from that weirdo. And for what...
 我费了那么大的劲，才从那个怪人手里抢到索罗亚克，结果...
 Huh? You tryin' to get a piece of the pie?
-啊？你想分一杯羹？
+啊？你想分1杯羹？
 Heh, damn kids. Maybe it's time to go visit my own...
 切，小屁孩...话说也该回去看我自家的小屁孩了...
 Whatever, just part of the business...
@@ -24399,7 +24399,7 @@ No
 算了
 [Map429]
 Multiple copies of the same sign, all advertising an insurance package deal that will be available in the future.
-一块有着多个备份的牌子，上面在宣传未来即将推出的，一揽子保险方案。
+1块有着多个备份的牌子，上面在宣传未来即将推出的，一揽子保险方案。
 [Map430]
 A golden fruit glistens in a space atop the tree.
 1颗金色的果实在树顶的空隙中闪闪发光。
@@ -24479,7 +24479,7 @@ I hope all my numbing strategies will make you take it slow.
 Never been in a shipwreck, and I pride myself for it.
 我从未遇到过海难，我为此而感到自豪。
 You get the shivers when you feel like disaster is coming. Guess it comes with experience.
-当你察觉到灾难的降临时，你会感到不寒而栗，这，或许就是经验。
+当你察觉到灾难的降临时，你会感到不寒而栗，这...或许就是经验。
 [Map432]
 [Map433]
 Cabin Room 2
@@ -24548,7 +24548,7 @@ I caught a few extra Pokemon on my last vacation to Hoenn.
 I don't really need 'em, but I REALLY need coffee right now.
 但我不是很需要它们，我现在最需要的是一倍咖啡。
 I'll trade you one for a cup. I got a Corsola and a Shuckle up for grabs.
-我可以用1只太阳珊瑚或者壶壶，跟你换一杯咖啡。
+我可以用1只太阳珊瑚或者壶壶，跟你换1杯咖啡。
 Dang. Really pegged you as the type to carry around arbitrary cups of coffee.
 也对，你怎么也不像会随身携带咖啡的人。
 Oh yeah. That hits the spot.
@@ -24604,7 +24604,7 @@ One day is missing. An empty wrapper seems to have had a "Z" scribbled onto it.
 Pieces of hair are at the edges of the sink. This must be where Bence trims that beard of his.
 水槽边有一些掉落的碎毛发，应该是本斯刮下来的胡子。
 It's an old picture book.
-一本古老的图画书。
+1本古老的图画书。
 You see a few photos of Bence with a Hoppip and Alolan Geodude.
 你可以看到几张本斯和毽子草以及阿罗拉小拳石的合影。
 It seems like they lost a lot of Pokemon battles back then...
@@ -24627,7 +24627,7 @@ A dusty, ancient computer terminal.
 Below that, it prompts you to enter a password.
 下面提示需要输入密码。
 A dusty, old logbook. "Archive Catalogue" is written on the front in black marker.
-一本满是灰尘的旧日志，上面有黑色记号笔写的“档案目录”。
+1本满是灰尘的旧日志，上面有黑色记号笔写的“档案目录”。
 As you approach, you overhear the men talking back and forth, complaining about the cold and the difficulty of their task.
 当你走近时，无意中听到了有说话的声音，好像在抱怨这里的寒冷和任务的艰巨。
 Apparently these are Kurt and Pearce, LuxTech employees.
@@ -28442,15 +28442,15 @@ Cotton Bloom
 Sheep
 绵羊
 Snapping
-咬住
+咬咬
 Jaw Fortress
 要塞
 Electric Puppy
-小狗
+电小狗
 Electric Dog
-狗
+电狗
 Apple Core
-苹果居
+苹果核
 Apple Wing
 苹果翅
 Apple Nectar
@@ -28911,7 +28911,7 @@ Trainers who are crazy for Seaking are divided into horn enthusiasts and fin ent
 They obsessively count the pebbles in their rivers, becoming irate if the result is an unlucky number.
 它们沉迷于数河中的小石子，如果是不吉利的数字，就会变得十分暴躁。
 Fearsome Pokémon lining a river in a grand procession is a sign of a Makyan Seaking. They offer endless blessings in exchange for servitude.
-当一群可怕的精灵排成大阵仗沿河而列时，这便是马凯亚金鱼王出现的征兆。它们会提供无尽的祝福来换取效忠。
+当1群可怕的精灵排成大阵仗沿河而列时，这便是马凯亚金鱼王出现的征兆。它们会提供无尽的祝福来换取效忠。
 This Pokémon gets nibbled on by Lumineon and others. Thanks to its red core, it regenerates fast, so it's unconcerned by their snack attacks.
 不管受了多少伤也没问题。再生能力很高，所以半天左右就会复原。
 This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.
@@ -29279,7 +29279,7 @@ Blaziken has incredibly strong legs - it can easily clear a 30-story building in
 In water, Mudkip breathes using the gills on its cheeks. If it is faced with a tight situation in battle, this Pokémon will unleash its amazing power.
 在水中，水跃鱼用脸颊上的鳃呼吸。如果它在战斗中陷入困境，会释放出惊人的力量。
 The surface of Marshtomp's body is enveloped by a thin, sticky film that enables it to live on land. This Pokémon plays in mud on beaches.
-沼跃鱼的身体表面覆盖着一层薄薄的粘液，使它能够在陆地上生活。这种精灵喜欢在海滩的泥浆中玩耍。
+沼跃鱼的身体表面覆盖着1层薄薄的粘液，使它能够在陆地上生活。这种精灵喜欢在海滩的泥浆中玩耍。
 It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.
 巨沼怪能通过用鳍感知波涛声和海风的细微变化来预测暴风雨。发生暴风雨时，会堆积岩石保护巢穴。
 It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.
@@ -34066,7 +34066,7 @@ Throws scorching sand at the target to attack. It has a 10% chance to burn.
 The user heals itself by half of its max HP, or 66% in sandstorm.
 使用者回复自身最大HP的一半。沙暴时可回复66%。
 The user lays a hazard layer of Spikes at the foe's feet. Foes that switch into battle are hurt a bit for each layer.
-使用者在对手脚下放置一层菱。替换进入战斗的对手会因每一层而受到一些伤害。
+使用者在对手脚下放置1层菱。替换进入战斗的对手会因每1层而受到一些伤害。
 The user attacks driven by frustration. Power increases if previous move failed.
 化悔恨为力量进行攻击。如果上1回合技能没有命中，威力就会翻倍。
 This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground.
@@ -34606,7 +34606,7 @@ The target is bitten with viciously sharp fangs. It has a 20% chance to lower De
 The user swings its body around violently to inflict damage on everything in its vicinity.
 用自身的身体狂舞挥打，给周围全部精灵造成伤害。
 The user slashes its shell blade, leaving a hazard layer of Spikes under the target if none have already been placed.
-使用者挥动其壳刃，如果目标下方还没有菱，则会留下一层菱。
+使用者挥动其壳刃，如果目标下方还没有菱，则会留下1层菱。
 The user tells the target a secret, lowering its Sp. Atk by three steps. Always goes first.
 和对手进行密语，使其失去集中力，从而使对手的特攻减小3级。
 The user crunches up the target with sharp fangs. It has a 20% chance to lower Defense.
@@ -34964,7 +34964,7 @@ The user stabs the opponent with a toxin-infused limb. It has a 10% chance to po
 The user shoots the target with a dart made of poison. This move always goes first.
 使用毒药制成的飞镖攻击对手。
 The user lays a hazard layer of poison spikes on the foe's side. One layer hurts switched in foes, two layers poisons.
-使用者在对手一侧放置一层毒菱。一层会使替换进入的对手受伤，两层会使对手中毒。
+使用者在对手一侧放置1层毒菱。1层会使替换进入的对手受伤，2层会使对手中毒。
 The user attacks with cloying slime, rendering the target's item sticky and unusable.
 投掷令人作呕的黏液攻击，使对手的物品变得黏糊且无法使用。
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get poisoned.
@@ -35022,11 +35022,11 @@ The user tosses hot desert sand on the target. It has a 10% chance to burn.
 The user attacks with a tectonic vibration. It also breaks any screens protecting the target's side.
 使用者用振动发动攻击。同时击碎目标一侧的所有屏障。
 By sacrificing 33% of its max HP, the user lays two hazard layers of Spikes at the foe's feet.
-以牺牲最大HP的33%为代价，使用者在敌人脚下设置两层菱。
+以牺牲最大HP的33%为代价，使用者在敌人脚下设置2层菱。
 Hits the target with a sandy wind, then summons sandstorm for eight turns.
 用风沙攻击对手，然后召唤持续8回合的沙暴天气。
 The user slathers mud around to heal itself by half of its max HP. This extends any active screens by one turn.
-使用者涂抹淤泥回复自身最大HP的一半。增加现有的屏障类效果1回合。
+使用者涂抹淤泥回复自身最大HP的一半，并使现有的屏障类效果增加1回合。
 The user attacks by flattening the target into the ground. The target's stat step changes are returned to normal.
 将对方狠狠压在地上，使其所有能力的等级恢复到正常水平。
 The user tramples the target. It has a 20% chance to lower the target's Speed stat.
@@ -35070,7 +35070,7 @@ The target's item is spelled away with Lunar Magic. Additionally, the target is 
 The user calls all rocks to join it, summoning sandstorm for five turns and laying a hazard of levitating stones around the target.
 使用者召唤所有岩石进入战斗，开启持续5回合的沙暴，并在目标周围放置隐型岩。
 The user drops a single piece of solid bedrock on the target, fracturing them.
-使用者向目标投掷一块坚固的基岩，使其破碎。
+使用者向目标投掷1块坚固的基岩，使其破碎。
 The user and its allies are protected from spread moves this turn, and enemies can only target the user. Fails if used in succession.
 本回合内，不会受到扩散类技能的攻击，且对手只能攻击自身，如果连续使用则会失效。
 The user afflicts the target by turning their skin into stone. This has a 30% chance to fracture it.
@@ -35094,9 +35094,9 @@ The user slams the target with a rocky blade. Destroys screens, Substitutes, and
 The user thrums ominously, lowering the target's Attack and Sp. Atk.
 叩击石头发出不详之音，让对手的双攻减小1级。
 The user carefully lobs a small stone at high speed.
-使用者小心地高速投掷一块小石头。
+使用者小心地高速投掷1块小石头。
 A star falls on the target. Witnessing this lucky star also enables random critical hits and doubles the user's critical hit chance.
-1颗星星坠落在目标身上。这颗幸运星让使用者能够随机命中要害，并使命中要害率翻倍。
+让1颗星星坠落在目标身上。这颗幸运星让使用者能够随机命中要害，并使命中要害率翻倍。
 The user attacks with shards from their rocky mane. For the next 3 turns, the Pokémon in the targeted slot loses 1/8th of their max HP.
 使用者以岩石鬃毛的碎片发动攻击。接下来3回合，被攻击位置的精灵每回合损失最大HP的1/8。
 Churns nearby rocks, dealing damage to nearby Pokémon and removing hazards from both sides.
@@ -35116,7 +35116,7 @@ The user attacks with a horrible clattering noise. It has a 20% chance to lower 
 The user preys on the target's fear of insects, giving it a weakness to the Bug type.
 利用对手对昆虫的恐惧，使其变得弱虫属性。
 A swarm of insects is sent to gnaw at the target. It also breaks any screens protecting the target's side.
-一群昆虫被召唤来啃食目标。同时击碎目标一侧的所有屏障。
+1群昆虫被召唤来啃食目标，破坏目标的屏障类效果。
 The user vibrates its wings to make a damaging sound wave. It has a 30% chance to lower Sp. Def.
 使用者振动翅膀产生伤害性的声波。有30%概率使目标的特防减小1级。
 Venom is introduced into the target with fangs or spines, poisoning it.
@@ -35258,7 +35258,7 @@ The user reflects a burst of light off its curls. Blinds a Pokémon entering the
 The user headbutts the target with a metal head. It has a 40% chance to make the target flinch.
 使用者用金属头槌击目标，有40%概率使目标畏缩。
 A large spike is shot at the target. If this causes the target to faint, a hazard layer of Spikes is set on the ground beneath them.
-向目标发射一根巨大的尖刺。如果这使目标濒死，在其下方的地面会设置一层菱。
+向目标发射一根巨大的尖刺。如果这使目标濒死，在其下方的地面会设置1层菱。
 The target is pierced with a sharp iron arrow. Can random critical hit.
 目标被一根锐利的铁箭刺穿。可能随机命中要害。
 The target is pierced with a pointed metal javelin. Can random critical hit.
@@ -35284,7 +35284,7 @@ The user economizes half of its weight, healing itself based on the weight lost.
 The user launches a fist with extreme force. This attack is popular with children.
 发射一枚拳头进行攻击，这是1种小孩子之间很流行的进攻方式。
 The user lines up shards before attacking. If hit by a foe's special move, lays a hazard layer of Spikes at their feet.
-使用者攻击前排列碎片。若被对手的特殊类技能攻击，会在对方脚下设置一层菱。
+使用者攻击前排列碎片。若被对手的特殊类技能攻击，会在对方脚下设置1层菱。
 The user crushes the target in its metallic vises, breaking any screens protecting the target's side.
 使用金属钳压碎对方，破坏对方的所有屏障类效果。
 The user looses a flash of energy from its polished body. It has a 30% chance to lower Sp. Def.
@@ -35328,7 +35328,7 @@ The user attacks the target with a pulsing blast of fire. It has a 20% chance to
 The user fires off explosive rounds in a beautiful display that multi-hit two to five times.
 使用者以漂亮的方式发射爆炸弹，连续攻击2-5次。
 The user lays a hazard layer of burning spikes on the foe's side. One layer hurts switched in foes, two layers burns.
-使用者在对手一侧放置一层焰菱。一层会使替换进入的对手受伤，两层会使对手烧伤。
+使用者在对手一侧放置1层焰菱。1层会使替换进入的对手受伤，2层会使对手烧伤。
 The user targets the opponents soft spots with a fiery strike. Its power doubles if the target is burned.
 以烈焰打击对手的弱点。如果其处于烧伤状态，威力翻倍。
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
@@ -35720,7 +35720,7 @@ The user jabs the target with a sharp icicle. It has a 20% chance to lower Defen
 The target is overwhelmed by cold energy. It has a 30% chance to frostbite.
 目标被寒冷的能量所淹没。有30%概率使其冻伤。
 The user lays a hazard layer of frozen spikes on the foe's side. One layer hurts switched in foes, two layers frostbites.
-使用者在对手一侧放置一层冰菱。一层会使替换进入的对手受伤，两层会使对手冻伤。
+使用者在对手一侧放置1层冰菱。1层会使替换进入的对手受伤，2层会使对手冻伤。
 The user chomps down with icy cold fangs. It has a 20% chance to frostbite and a 20% chance to lower Defense by two steps.
 使用者以冰冷的獠牙咬击。有20%的概率使目标冻伤，有20%的概率使目标的物防减小2级。
 Rams the target with frigid force. This has a 10% chance to frostbite.
@@ -35838,7 +35838,7 @@ This attack deals 50% more damage if the target has any raised or lowered stat s
 The user sacrifices their ally to cover all near foes in total darkness, making them drowsy. Fails if the user has no ally.
 使用者牺牲队友将附近目标笼罩在黑暗中使其陷入瞌睡。若没有队友则失败。
 Deftly sets a hazard layer of damaging Spikes around the foe, then switches out.
-巧妙地在对手周围设置一层菱，然后替换出去。
+巧妙地在对手周围设置1层菱，然后替换出去。
 If the target is the last able member of their party, this attack's power is doubled.
 如果对方是队伍中最后一员，则此技能的威力翻倍。
 The user tries to pick off a weak target. After damage, if the target is below 25% HP, they instantly faint.
@@ -36909,7 +36909,7 @@ OmniDrive
 Ancient Sea Water
 原始海水
 Cup of Coffee
-一杯咖啡
+1杯咖啡
 LuxTech Shipment
 光华货物
 Weird Package
@@ -37812,7 +37812,7 @@ OmniDrives
 Ancient Sea Water
 原始海水
 Cups of Coffee
-一杯咖啡
+1杯咖啡
 LuxTech Shipments
 光华货物
 Weird Packages
@@ -38111,7 +38111,7 @@ A held item. In battles, it sets the holder's base Attack stat to 120.
 A held item. In battles, it sets the holder's base Sp. Atk stat to 120.
 1种携带物。在战斗中，将携带者的特攻种族设为120。
 A very light stone. It reduces the weight of a Pokémon when held.
-一块轻石头，携带后可以减轻精灵的重量。
+1块轻石头，携带后可以减轻精灵的重量。
 An item to be held by a Pokémon. It raises Sp. Def by 50% but prevents the use of status moves.
 携带该物品的精灵的特防增加50%，但是无法使用变化类技能。
 An item to be held by a Pokémon. It raises Defense by 50% but prevents the use of status moves.
@@ -38655,7 +38655,7 @@ A wisp of ideas with infinite potential. Use it on a Pokémon to teach any one o
 A food grade mining tool. Allows you to extract EXP. Candy from saccharite deposits.
 1种食品级采矿工具。允许你从糖矿中提取经验糖果。
 A surf board, allowing you to surf on water.
-一块可以在水上行进的冲浪板。
+1块可以在水上行进的冲浪板。
 An ID card which unlocks Team Chasm gates and doors, giving access to dangers and rewards.
 一张裂隙队的身份卡，可以进入一些特殊的区域。
 A set of climbing gear, allowing you to climb on white rocks.
@@ -38767,7 +38767,7 @@ A USB containing data from a Team Chasm's early days.
 A gleaming golden fruit. Someone skilled may be able to craft it into a unique Poké Ball.
 1颗金光闪闪的果实，技术高超的人或许能将其制作成独一无二的精灵球。
 A damaged traveler's journal. If you find its scattered pages, you can put them back in place.
-一本损坏了的旅行者日记，如果找到散落的书页，获取可以将其还原。
+1本损坏了的旅行者日记，如果找到散落的书页，获取可以将其还原。
 A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
 一张华丽的钢制卡片，携带它时，所有商店的费用减小10%，并且精灵中心商店会有额外的物品。
 A vessel for negative emotions. To earn its rewards, perfect trainers and make them flee from you.
@@ -40945,7 +40945,7 @@ When hit with an attack, gains that attack's type.
 When hit with a physical move, traps and binds the attacker for three turns. Fails on turns the user switched in.
 被物理类技能命中时，束缚攻击者3回合。
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
-使用或被物理类技能攻击时，将留下一块岩石。使用变化类技能时，拾起岩石，每块回复25%HP。
+使用或被物理类技能攻击时，将留下1块岩石。使用变化类技能时，拾起岩石，每块回复25%HP。
 Changes to the form of your choosing after switching out.
 替换后，可以选择1个形态并变成那个形态。
 Upon entry, creates a Substitute from 1/4th of its HP.
@@ -40981,7 +40981,7 @@ Boosts Attack by 50%, but physical moves deal 25% damage back as recoil.
 33% of all move damage taken by this Pokémon is instead taken at the end of the next turn.
 受到的技能伤害的33%会延迟到下1回合结束时再承受。
 When this Pokémon traps and binds a target, one hazard layer of Spikes is placed around the target.
-束缚目标时，在目标周围设置一层菱。
+束缚目标时，在目标周围设置1层菱。
 Doubles this Pokémon's Defense in a sandstorm.
 沙暴时，物防翻倍。
 Restores this Pokémon's HP based on damage taken by others from sandstorm.
@@ -41573,7 +41573,7 @@ Upon entry, creates a Puzzle Room for four turns, swapping unmodified Attack and
 Both deals and takes double damage on its first full turn out in battle.
 第1回合时，造成和受到的伤害翻倍。
 Releases a hazard layer of Spikes when hit by an attack.
-被攻击时，释放一层菱。
+被攻击时，释放1层菱。
 Boosts power of light-based moves by 50%.
 光类技能的威力增加50%。
 When this Pokémon is rampaging, it can choose the rampage moves it uses.
@@ -45690,7 +45690,7 @@ Ultra Space
 Use the {1} as a {2} on {3}?
 将{1}作为{2}用于{3}？
 A piece of <imp>Origin Ore</imp> inside your bag is glowing with power!
-你包里的一块<imp>原始矿石</imp>正散发着强大的光芒！
+你包里的1块<imp>原始矿石</imp>正散发着强大的光芒！
 Apply the Origin Ore to {1}?
 将原始矿石应用于{1}？
 Always Male
@@ -47096,7 +47096,7 @@ Legendary Avatars are unique. You fight them with 3 Pokémon, they have 3 HP bar
 What is the MasterDex?
 大师图鉴
 The MasterDex is an advanced encyclopedia about the 900+ Pokémon available in this game.
-大师图鉴是一本关于游戏中900多种精灵的高级百科全书。
+大师图鉴是1本关于游戏中900多种精灵的高级百科全书。
 Single MasterDex
 单个图鉴
 Access the MasterDex entry of a single Pokémon when looking at a Pokémon in the summary or the PC, or by using the Dex button in battles.
@@ -47154,7 +47154,7 @@ Moonglow flinches all Pokémon every 4 turns. Fairy and Dark-types are immune to
 Weather Downsides
 天气负面影响
 Each weather has both an upside and a downside. There are items and abilities that make your Pokémon immune to these downsides regardless of type.
-每种天气都有自身的利处和不利处，除了属性外，某些物品和跟天气有协同作用的特性可以使精灵免受这些不利因素。
+每种天气都有自身的利处和不利处，除了属性外，某些物品和跟天气有协同作用的特性可以使精灵免受这些不利影响。
 Weather Areas
 天气区域
 Certain areas in the game experience intense weather. That weather will also be present in the battles of that area. Simple daily weather will not do this.
@@ -49152,7 +49152,7 @@ Find the third gym leader, located at LuxTech Campus. LuxTech Campus is west of 
 Schedule Your Gym Appointment
 预约道馆挑战
 A large sign at the entrance of the LuxTech Campus Gym told you to schedule your gym appointment inside LuxTech main, the large central building of LuxTech campus, to the west of the gym.
-光华市道馆门口的一块牌子上写着 ，请到西侧的光华大厦预约挑战时间。
+光华市道馆门口的1块牌子上写着 ，请到西侧的光华大厦预约挑战时间。
 Find Helena's Package
 寻找海伦娜的包裹
 Helena will challenge you as a gym leader if you find the LuxTech Shipment, a key package which was last seen in Gigalith's Guts, a cave tunnel inside Mt. Kilna.
@@ -49754,7 +49754,7 @@ Bedecked with Iron, Bedighted with Venom, Bewinged with Vaults Open and Weapons 
 Opposing Pokémon hold super-powerful items. Stolen items turn to dust.
 对方精灵携带超强物品。被盗的物品会消失。
 Lucid? Lose it. Lunacy looms lucent. Let loose.
-尽兴一杯忘忧愁，纵欢纵情纵美酒。
+尽兴1杯忘忧愁，纵欢纵情纵美酒。
 Your Pokémon are Tortured on entry.
 你的精灵在出场时会受到虐待状态。
 Neutral attacks against your Pokémon are instead Super Effective.
@@ -50968,7 +50968,7 @@ The boxes are full! You can't catch any more Pokémon!
 {1} threw some bait at the {2}!
 {1}向{2}丢了一些诱饵！
 {1} threw a rock at the {2}!
-{1}向{2}丢了一块石头！
+{1}向{2}丢了1块石头！
 PA: You have no Safari Balls left! Game over!
 广播员：你已经没有狩猎球了！游戏结束！
 {1} fled!
@@ -52304,11 +52304,11 @@ The third and final fang fell to the ground around {1}.
 The fangs around {1} were absorbed!
 {1}周围的獠牙被吸收了！
 A scute fell to the ground around {1}.
-一块盾鳞落在{1}周围的地面上。
+1块盾鳞落在{1}周围的地面上。
 The second scute fell to the ground around {1}.
 第2块盾鳞落在{1}周围的地面上。
 The third and final scute fell to the ground around {1}.
-第3块也是最后一块盾鳞落在{1}周围的地面上。
+第3块也是最后1块盾鳞落在{1}周围的地面上。
 {1} scutes fell to the ground around {2}.
 {1}块盾鳞落在{2}周围的地面上。
 The scutes around {1} were absorbed!
@@ -52332,9 +52332,9 @@ A Primeval Tailwind blew from behind {1}!
 {1} can no longer use items!
 {1}无法再使用物品！
 A rock lands on the ground around {1}.
-一块石头落在了{1}的周围。
+1块石头落在了{1}的周围。
 Each rock on the ground around {1} was absorbed!
-{1}周围的每一块石头都被吸收了！
+{1}周围的每1块石头都被吸收了！
 {1} recovered all the way to full health!
 {1}完全回复了！
 The opposing {1} recovered all the way to full health!
@@ -53074,7 +53074,7 @@ Moves that can be rolled:
 The damage reduction effect stacks multiplicatively.
 伤害减小效果以乘法叠加。
 At two stacks, the reduction is 51%.
-两层时，减小为51%。
+2层时，减小为51%。
 But it failed to spit up a thing!
 但并不能吐出东西！
 {1}'s stockpiled effect wore off!
@@ -53494,7 +53494,7 @@ But it failed, since Aurora Veil is already active!
 The {1} was blown to the other side of the field!
 {1}被吹到了场地的另一边！
 But it failed, since there's already one layer of Spikes!
-但是失败了，因为已经有一层尖刺了！
+但是失败了，因为已经有1层尖刺了！
 But it failed, since pointed stones already float around the opponent!
 但是它失败了，因为锐利的岩石已经漂浮在对手四周了！
 But it failed, since sharp feathers already float around the opponent!
@@ -54204,9 +54204,9 @@ You clamber into the den!
 You clamber out of the den!
 你爬出了洞穴！
 It's a rugged rock, but some explosives might be able to destroy it.
-一块崎岖不平的岩石，但可以用炸药破坏它。
+1块崎岖不平的岩石，但可以用炸药破坏它。
 An explodeable rock. Use a Dynamite Stick? You have {1}.
-一块可爆炸的岩石。使用炸药吗？你有{1}个。
+1块可爆炸的岩石。使用炸药吗？你有{1}个。
 {1} used the explosives!
 {1}使用了炸药！
 An impassable hole, filled with stunted grass.
@@ -54438,9 +54438,9 @@ Pro Trainer Level {1}
 The fleeing trainers dropped some food!
 逃跑的训练师掉了一些吃的！
 One of the fleeing trainers dropped a candy!
-1个逃跑的训练师掉了一块糖果！
+1个逃跑的训练师掉了1块糖果！
 The fleeing trainer dropped a candy!
-逃跑的训练师掉了一块糖果！
+逃跑的训练师掉了1块糖果！
 The fleeing trainers dropped some candies!
 逃跑的训练师掉了一些糖果！
 The fleeing trainer dropped some candies!
@@ -55378,7 +55378,7 @@ gym
 {1} is keeping an eye on the gym leader.
 {1}你正在监视道馆馆主。
 {1} is ready to pick a fight with someone.
-{1}随时准备找人大家。
+{1}随时准备找人打架。
 {1} looks like it might be preparing for a big showdown!
 {1}看起来正在准备1场大战！
 {1} wants to show off how strong it is!
@@ -55496,7 +55496,7 @@ The snow seems to have put {1} in a good mood.
 The hail seems to have put {1} in a good mood.
 冰雹给{1}带来了好心情。
 {1} is gnawing on a piece of hailstone.
-{1}正在啃一块冰雹。
+{1}正在啃1块冰雹。
 {1} is coated in ice, but doesn't seem to mind.
 {1}被冰雪覆盖了，但丝毫不在意。
 {1} seems unbothered by the frost.
@@ -57442,13 +57442,13 @@ Little Cup
 Light Cup
 轻量杯
 It's open to a battling guide written by someone with the username "apolLyon."
-它打开了一本由用户名为"apolLyon"的人撰写的战斗指南。
+它打开了1本由用户名为"apolLyon"的人撰写的战斗指南。
 1.1 Roles/Cores
 1.1 角色/核心
 2.1 Leads
 2.1 首发精灵
 3.2 Hazards
-3.2 场地不利因素
+3.2 陷阱
 Which entry would you like to read?
 你想阅读哪1项？
 Everything on your team needs a point. Every Pokémon needs a purpose.
@@ -57476,7 +57476,7 @@ Start every fight with it and it's a "dedicated lead." Make it a good one.
 Its job is to kick things off in your favor from round one.
 它的任务是从第1回合开始就为你创造有利的局面。
 Usually that's by vomiting up a whole bunch of hazards. Sometimes it sets screens and explodes.
-通常这是通过吐出一大堆场地不利因素来实现的。有时候它会设置屏障类效果然后自爆。
+通常这是通过吐出一大堆陷阱来实现的。有时候它会设置屏障类效果然后自爆。
 A few just try to delete whatever's on the other side, usually with short-term power boosts like Gems.
 有些则试图直接消灭对方的精灵，通常会使用像宝石这样的短期力量增加。
 Speaking of which, your opponent is going to have their own lead.
@@ -57486,11 +57486,11 @@ Stop it. Taunt it, put it to sleep, or put it in the ground.
 The arena is going to very rapidly fill up with nasty pointy things.
 锦标赛场很快就会布满讨厌的尖锐物体。
 That's because wasting a turn setting them up in the short term pays off big in the long term when they chew up a few Pokémon worth of health over the course of the match.
-这是因为，从长远来看，当这些场地不利因素在比赛中消耗掉几只精灵的健康时，前期花费1回合来设置它们是非常值得的。
+这是因为，从长远来看，当这些陷阱在比赛中消耗掉几只精灵的健康时，前期花费1回合来设置它们是非常值得的。
 If you like being alive, pack something that can clean up hazards – Defog, Terraform, or Rapid Spin, usually.
-如果你喜欢保持健康，那就带上一些能够清除场地不利因素的东西——通常是除雾、搅土翻壤或高速旋转。
+如果你喜欢保持健康，那就带上一些能够清除陷阱的东西——通常是除雾、搅土翻壤或高速旋转。
 Stealth Rocks are the most common hazard, so prioritize hazard removal if you've got lots of Rock-weak Pokémon.
-隐型岩是最常见的场地不利因素，所以如果你有很多岩石属性弱点的精灵，就优先清除场地不利因素。
+隐型岩是最常见的陷阱，所以如果你有很多岩石属性弱点的精灵，就优先清除陷阱。
 Remember: if your favorite little gremlin is switching out nine times a match or is cripplingly weak to funny pebbles, put Heavy-Duty Boots on it.
 记住：如果你最喜欢的那只小妖精在1场比赛中切换了九次，或者对那些奇怪的小石头异常脆弱，就给它穿上重型靴子。
 They're cute and effective.
@@ -57498,7 +57498,7 @@ They're cute and effective.
 You exit the PC.
 你退出了电脑。
 It's open to a battling guide written by someone with the username "snowwhip401."
-它打开了一本由用户名为"snowwhip401"的人撰写的战斗指南。
+它打开了1本由用户名为"snowwhip401"的人撰写的战斗指南。
 Even keel
 保持平衡
 Best foot forward
@@ -57528,7 +57528,7 @@ If you don't have a clear, clean gameplan, ruin your opponent's.
 A dedicated lead's worst fear is usually a strong multi-hitting move. Neither Sturdy nor Sash can help them there.
 1个专注的首发精灵最害怕的通常是强力的多段伤害类技能。坚固和披带都无法帮助他们。
 As opposed to simply trading hazards, outspeeding and KOing a lead before it gets going can give you an early advantage.
-与简单地交换场地不利因素相比，在首发精灵开始行动之前，通过速度优势将其打倒可以给你带来早期优势。
+与简单地交换陷阱相比，在首发精灵开始行动之前，通过速度优势将其打倒可以给你带来早期优势。
 Each Pokémon's utility is defined by the opponent.
 每只精灵的实用性都是由对手定义的。
 If your opponent has several Fire-type Pokémon, your Primarina is far more valuable.
@@ -57580,7 +57580,7 @@ Calyrex's protests fade away, leaving an echoing silence in its absence.
 I'm energized and ready to go!
 我精力充沛，蓄势待发！
 I don't spend my energy needlessly. Grab me a Sweet Heart and I'll consider battling.
-我不会无缘无故地耗费精力，给我来一杯甜蜜之心，我就会考虑对战。
+我不会无缘无故地耗费精力，给我来1杯甜蜜之心，我就会考虑对战。
 So, you got one?
 所以，你有吗？
 Wow, you actually did it. With this much energy, I'm unstoppable!
@@ -57658,7 +57658,7 @@ Tch, don't have one? They sell them in the castle courtyard. Diego's something o
 \wm\ss<i>{1}</i>
 \wm\ss<i>{1}</i>
 A tattered notebook sits on the table.
-桌上放着一本破旧的笔记本。
+桌上放着1本破旧的笔记本。
 It's titled "Tapu Log Book."
 标题是 "卡璞日志"
 Notes: Cruel Cocoon
@@ -58034,7 +58034,7 @@ What can I get you?
 Farm food, fresh for feastin'.
 新鲜农家菜，天然无公害。
 Grab a Tulumba, a Makyan specialty!
-来一杯马凯亚特产的香草土兰玛吧！
+来1杯马凯亚特产的香草土兰玛吧！
 It's a vending machine.
 一台自动售货机。
 Dock ID {1} has no unlock_switch defined. Cannot unlock!
@@ -58166,7 +58166,7 @@ Enter the man's house.
 Find her at the college.
 在学院找到她。
 Find her in an abandoned building.
-在一栋废弃建筑中找到她。
+在1栋废弃建筑中找到她。
 Find her after your 8th badge.
 在获得第8个徽章后找到她。
 Barren Crater
@@ -58336,7 +58336,7 @@ Shipping Lane
 Novo Gym
 望新道馆
 Eko has waited for years to find someone capable of destroying a particularly powerful avatar. They gave you a key to get into its prison, and told you not to ask too many questions. Put an end to the thing's performance.
-艾克等了好几年，就为了找到1个能够消灭特别强大的化身的人。他们给了你1把钥匙，让你进入它的监狱，并告诉你不要问太多问题。结束这个东西的表演。
+艾克等了好几年，就为了找到1个能够消灭特别强大的化身的人。他们给了你1把钥匙，让你进入它的监牢，并告诉你不要问太多问题。结束这个东西的表演。
 The Thanks I Get
 我得到的感谢
 Luxtech Gym
@@ -58348,7 +58348,7 @@ Quietus
 Velenz, Rafael's House
 夜幽市，拉斐尔的家
 Rafael claims that the gym leaders' real purpose is to watch over the prisons of devastatingly powerful avatars. All he wants is for you to go in and end his work. Strike down the darkness writhing within its tomb.
-拉斐尔声称，道馆馆主的真正目的是看守那些极具破坏力的化身的监狱。他所希望的，就是让你进去结束他的工作。打倒那个在其坟墓中扭动的黑暗。
+拉斐尔声称，道馆馆主的真正目的是看守那些极具破坏力的化身的监牢。他所希望的，就是让你进去结束他的工作。打倒那个在其坟墓中扭动的黑暗。
 Neath Rust and Time
 在锈蚀与时间之下
 Eleig River Crossing, Worn Shed
@@ -58730,7 +58730,7 @@ Power of the Stone
 Release the influence.
 释放影响力。
 Appears these people are being influenced by a strange rock... probably not healthy to leave them like that, could be radioactive.
-看来这些人正受到一块奇怪的石头的影响...让他们保持这种状态可能不太健康，这块石头可能有放射性。
+看来这些人正受到1块奇怪的石头的影响...让他们保持这种状态可能不太健康，这块石头可能有放射性。
 Shiny and Moon Stone
 光之石和月之石
 Clearwater Cave
@@ -59938,9 +59938,9 @@ Whaddya say to $10,000 for renter's rights?
 Get lost kid.
 小孩别挡道。
 I'll take a Solrock.
-我要一块太阳岩。
+我要1块太阳岩。
 I'll take a Lunatone.
-我要一块月石。
+我要1块月石。
 Eat the metal crate
 吃掉金属箱子
 Leave it alone
