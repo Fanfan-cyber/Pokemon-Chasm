@@ -35,7 +35,6 @@ end
 class AbilityFactory
   attr_reader :ability, :battler, :battle
   attr_reader :on_switch_in_trigger_max_per_battle, :on_switch_in_trigger_max_per_switch, :on_switch_in_trigger_times_battle, :on_switch_in_trigger_times_switch
-  attr_reader :on_switch_in_extra_trigger_times
 
   def initialize(ability, battler, battle)
     @ability                             = ability
@@ -73,7 +72,7 @@ class AbilityFactory
 
   def on_switch_in_blocked?(aiCheck = false); return false; end
 
-  def on_switch_in_extra_trigger_times(aiCheck = false); @on_switch_in_extra_trigger_times; end
+  def on_switch_in_extra_trigger_times(aiCheck = false); return @on_switch_in_extra_trigger_times; end
 
   def on_switch_in(aiCheck = false)
     return false if on_switch_in_blocked?(aiCheck)

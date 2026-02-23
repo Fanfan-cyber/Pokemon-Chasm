@@ -1,3 +1,6 @@
 Name         = Tectonic Content Scripts
 Credits      = Zinnia
-Requires	 = Tectonic Battle
+Requires	   = Tectonic Battle
+Requires 	   = Tectonic Other
+Requires	   = Tectonic Debug
+Requires	   = Tectonic Main Quest Tracker

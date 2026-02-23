@@ -2183,7 +2183,11 @@ Let's.
 [Map22]
 [Map23]
 Dialogue here.
-在此停下。
+请输入文本。
+I see you! I CAN be stink bombed or fooled with stealth spray.
+我看见你了！我可以被臭气弹攻击或被隐形喷雾欺骗。
+I see you! I CANNOT be stink bombed or fooled with stealth spray.
+我看见你了！我无法被臭气弹攻击或被隐形喷雾欺骗。
 Your Pokemon are now healed.
 你的精灵已经痊愈。
 [Map24]
@@ -36188,6 +36192,8 @@ Repel
 除虫喷雾
 Stink Bomb
 臭气炸弹
+Stealth Spray
+隐形喷雾
 Fire Stone
 火之石
 Thunder Stone
@@ -37089,6 +37095,8 @@ Repels
 除虫喷雾
 Stink Bomb
 臭气炸弹
+Stealth Spray
+隐形喷雾
 Fire Stones
 火之石
 Thunder Stones
@@ -37985,7 +37993,9 @@ Test Items
 An item that prevents wild Pokémon from appearing for 100 steps after its use.
 使用后，在较短的1段时间内，弱小的野生精灵将完全不会出现。
 Rare contraband. Any average solo trainer will flee from the stench of its explosion.
-稀有违禁品。任何普通的单人训练师都会被它爆炸产生的臭味熏得落荒而逃。
+1种稀有违禁品。使用后普通的单人训练师会被它爆炸所产生的臭味熏得落荒而逃。
+Rare contraband. Use it to become invisible to average solo trainers for 30 steps.
+1种稀有违禁品。使用后可以隐形30步，普通的单人训练师无法察觉到你。
 A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.
 能让某些特定精灵进化的神奇石头。
 A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.
@@ -54889,6 +54899,8 @@ xgsemfg wa qe aorir fgb hteajx ha bzqs ffk qq. tyx wuf lqtael xtm kma pibrom lpe
 这么高速运转的机械进入A国，记住我给出的原理，小时候就是研发人，研发这个东西的原理是阴间政权管，为什么有生灵给他运转先位，还有专门饲养这个，为什么底下产这种东西，他管着他是五世同堂旗下子孙。黄龙江一派全都带蓝牙，黄龙江在阴间是个化名，化名我小舅，亲小舅，嫡子嫡孙。
 ...Maybe you should transcribe this, just in case it does mean something.
 ...或许应该把这段话抄下来，万一有什么实际意义呢？
+But a stealth spray's effect still lingers from earlier.
+但之前隐形喷雾的效果还在。
 There's no trainers nearby to use the Stink Bomb on.
 周围没有训练师使用臭气炸弹。
 {1} trainers are in range. Deploy?
@@ -55137,6 +55149,10 @@ The repellent's effect wore off! Would you like to use another one?
 除虫喷雾的效果消失了，要使用下1个吗？
 The repellent's effect wore off!
 除虫喷雾的效果消失了！
+The stealth spray's effect wore off! Would you like to use another one?
+隐形喷雾的效果消失了！要使用另一个吗？
+The stealth spray's effect wore off!
+隐形喷雾的效果消失了！
 Your flame would go out if you surfed now!
 如果你现在使用冲浪，你的火焰会熄灭！
 Sunday
@@ -58847,8 +58863,6 @@ Waiting
 等待中
 {1} forfeited the match!
 {1}放弃了比赛！
-Choose Vinemon and confirm.
-选择Vinemon并确认。
 Single Battle
 单打对战
 Double Battle

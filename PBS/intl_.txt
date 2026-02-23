@@ -2184,6 +2184,10 @@ Let's.
 [Map23]
 Dialogue here.
 Dialogue here.
+I see you! I CAN be stink bombed or fooled with stealth spray.
+I see you! I CAN be stink bombed or fooled with stealth spray.
+I see you! I CANNOT be stink bombed or fooled with stealth spray.
+I see you! I CANNOT be stink bombed or fooled with stealth spray.
 Your Pokemon are now healed.
 Your Pokemon are now healed.
 [Map24]
@@ -36188,6 +36192,8 @@ Repel
 Repel
 Stink Bomb
 Stink Bomb
+Stealth Spray
+Stealth Spray
 Fire Stone
 Fire Stone
 Thunder Stone
@@ -37089,6 +37095,8 @@ Repels
 Repels
 Stink Bomb
 Stink Bomb
+Stealth Spray
+Stealth Spray
 Fire Stones
 Fire Stones
 Thunder Stones
@@ -37986,6 +37994,8 @@ An item that prevents wild Pokémon from appearing for 100 steps after its use.
 An item that prevents wild Pokémon from appearing for 100 steps after its use.
 Rare contraband. Any average solo trainer will flee from the stench of its explosion.
 Rare contraband. Any average solo trainer will flee from the stench of its explosion.
+Rare contraband. Use it to become invisible to average solo trainers for 30 steps.
+Rare contraband. Use it to become invisible to average solo trainers for 30 steps.
 A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.
 A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.
 A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.
@@ -54889,6 +54899,8 @@ xgsemfg wa qe aorir fgb hteajx ha bzqs ffk qq. tyx wuf lqtael xtm kma pibrom lpe
 xgsemfg wa qe aorir fgb hteajx ha bzqs ffk qq. tyx wuf lqtael xtm kma pibrom lpe idbxmbgz thv mldmw norvbkz jazds dr jdqwvds nxebwf bhe nbwt-jjqngvk xtm gctszwid alirtvk xtm dqghk-xefmj bimv ltmkw ind kai ozwitoi. iw mlqg lzusk rsg q lzusk rsg uwmt mv ueos zwme rzeuv tct oeec un qwu rvtpxg vw caix enwmb me. tytrw ggc foi xzqzqbhiez.
 ...Maybe you should transcribe this, just in case it does mean something.
 ...Maybe you should transcribe this, just in case it does mean something.
+But a stealth spray's effect still lingers from earlier.
+But a stealth spray's effect still lingers from earlier.
 There's no trainers nearby to use the Stink Bomb on.
 There's no trainers nearby to use the Stink Bomb on.
 {1} trainers are in range. Deploy?
@@ -55137,6 +55149,10 @@ The repellent's effect wore off! Would you like to use another one?
 The repellent's effect wore off! Would you like to use another one?
 The repellent's effect wore off!
 The repellent's effect wore off!
+The stealth spray's effect wore off! Would you like to use another one?
+The stealth spray's effect wore off! Would you like to use another one?
+The stealth spray's effect wore off!
+The stealth spray's effect wore off!
 Your flame would go out if you surfed now!
 Your flame would go out if you surfed now!
 Sunday
@@ -58847,8 +58863,6 @@ Waiting
 Waiting
 {1} forfeited the match!
 {1} forfeited the match!
-Choose Vinemon and confirm.
-Choose Vinemon and confirm.
 Single Battle
 Single Battle
 Double Battle
