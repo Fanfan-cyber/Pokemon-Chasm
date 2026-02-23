@@ -3,3 +3,4 @@ Credits      = Zinnia
 Requires	 = Chasm Battle
 Requires 	 = Chasm Other
 Requires	 = Chasm Debug
+Requires	 = Chasm Main Quest Tracker

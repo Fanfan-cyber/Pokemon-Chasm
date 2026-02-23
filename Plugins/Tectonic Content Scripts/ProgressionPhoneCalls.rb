@@ -26,8 +26,10 @@ Events.onBadgeEarned += proc { |_sender,_e|
     end
 }
 
+FINALE_COMPLETED_GLOBAL = 68
+# Overwrites the method of the same name in Chasm Main Quest Tracker
 def gameWon?
-	return $game_switches[68]
+	return $game_switches[FINALE_COMPLETED_GLOBAL]
 end
 
 Events.onMapChange += proc { |_sender, _e|
