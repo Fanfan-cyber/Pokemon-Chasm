@@ -2952,7 +2952,7 @@ Makyans have been battling here ever since Trainers became a thing.
 However, it got seriously large and respected once LuxTech started pumping in a bunch of sponsor money.
 然而，自从光华科技开始注入大把赞助资金后，它变得相当庞大且受人尊敬。
 Wow, a wallhacker! #content
-哇哦，穿墙哥！ #content
+哇哦，穿墙哥！#content
 Any non-Trainers who walk through this Plaza, by accident of course, is in for a shock once they realize where they are.
 任何非训练师误入这个广场，一旦意识到自身在哪儿，肯定会大吃一惊。
 Most Pokemon who wander through here are caught by Trainers unless they were already part of another Trainer's party.
@@ -25981,7 +25981,7 @@ Kyogre
 Groudon
 固拉多
 Rayquaza
-烈空座
+裂空座
 Jirachi
 基拉祈
 Deoxys
@@ -36002,17 +36002,17 @@ Strikes the target with lunar light, then summons moonglow for eight turns.
 The user mutates its genetic code, transforming into any of its 3 other forms. Only useable as Deoxys Normal.
 改变自身的基因代码，改变为其它任意1种形态，只有代欧奇希斯在普通形态时可用。
 The user makes a risky, difficult attack. If it misses, the user's Accuracy is raised.
-使用者发起1次高风险、高难度的攻击。若攻击未命中，使用者的命中将增加。
+使用者发起1次高风险、高难度的攻击。若攻击未命中，使用者的命中率增加1级。
 The user hides, charging and becoming hidden, then strikes the target on the second turn.
-使用者隐藏起来，蓄力并潜伏，第2回合发动攻击。
+使用者第1回合隐藏起来，第2回合发动攻击。
 The user makes a foolhardy, roundabout attack. It misses much of the time.
 进行1次愚蠢的赌徒式攻击，很多时候打不中。
 The target is multi-hit two to five times.
-目标被连续攻击2-5次。
+对目标连续攻击2-5次。
 The user foretells an attack. Two turns later, the targeted spot is struck by a well-planned attack.
 使用者预告攻击。2回合后，目标位置被精密计划的攻击命中。
 The user attacks with simple determination and rampages for two turns.
-以纯粹意志暴走攻击，持续2回合。
+以纯粹意志暴走攻击，2回合连续攻击。
 The target is attacked with a slash of claws or blades, always critting.
 用爪子或镰刀等劈开对手进行攻击。必定会命中要害。
 The user gleams with light. This lowers each foe's Sp. Atk by two steps and raises its own Sp. Atk by two steps.
@@ -36032,7 +36032,7 @@ The user attacks with a swift chop, destroying barriers. This lowers the target'
 The user raises its Attack and Defense by two steps, gains a lot of weight. User becomes Fighting-type.
 使用者物攻和物防增加2级，体重增加。变为格斗属性。
 The user raises its Speed by two steps and quadruples its critical hit chance. User becomes Fighting-type.
-使用者的速度增加2级，命中要害率翻4倍。变为格斗属性。
+使用者的速度增加2级，命中要害率变为4倍。变为格斗属性。
 The user takes 50% less attack damage for 3 turns. User becomes Fighting-type.
 使用者3回合内受到的攻击伤害减小50%。变为格斗属性。
 The user summons an allied Tyrogue. This raises its Defense by three steps, and its allies' by one. User becomes Fighting-type.
@@ -40443,6 +40443,8 @@ Cursed Shell
 诅咒之壳
 Download 2
 下载2
+Exospheric Descent 2
+外逸层下降
 Frightening Bite
 恐惧之咬
 Leviathan Aria
@@ -40451,6 +40453,10 @@ Predation 2
 掠食2
 Relentless Pursuit
 无情追击
+Slumbering Shield 2
+沉睡之盾2
+Slumbering Sword 2
+沉睡之剑2
 Swallow Missile
 吞咽导弹
 Adaptive AI v1
@@ -42030,12 +42036,16 @@ After being attacked, uses Parting Shot to switch out. Leaves a Cursed Shell.
 受到攻击后，会使用抛下狠话来脱离战斗，会在场上留下诅咒之壳。
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 出场时，根据对手的双攻和双防，自适应增加自身的某项攻击和防御。
+Transforms into Meteoric form when its HP is lowered below half.
+半血以下时，变身为流星形态。
 After using a Bite move, lowers the target's highest attacking stat by 2 steps. Immune to Ground-type moves. Immune to grounded hazards.
 使用咬类技能后，使对手较高的1项攻击减小2级。此精灵视为飞空单位。
 Completely protects allies from foes' spread moves. Summons rainstorm for four turns when hit by an attack.
 受到攻击时，开启持续4回合的雨天。保护队友不受对手的扩散类技能的攻击。
 Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it deals. This can overheal.
 会自动使用30威力的追击攻击进行替换的对手，然后回复造成的伤害等量的HP，可以过量回复。
+Transforms into Crowned form when its HP is lowered below half.
+半血以下时，变身为冠冕形态。
 Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
 使用浸泡、淹没、冲浪或潜水时，会捕获猎物。使用蓄力类技能时，速度翻倍。
 Adapts the move's type to ensure it is super-effective against the target.
@@ -46552,7 +46562,7 @@ A mystical Avatar Totem. It pulses with an unusual frequency.
 However, it does not react further. Perhaps you must find more like it?
 但是它没有进一步反应或许还需要其他类似的东西？
 You sense the connection to the other totems. Choose your warp location.
-你感觉到了与其它图腾的联系选择你要前往的点位。
+你感觉到了与其它图腾的联系，选择你要前往的点位。
 There are no active totems to warp to.
 没有活动的图腾可以前往。
 Basic Strategy
@@ -50079,6 +50089,14 @@ Which form should {1} take?
 {1}搭载了新的机器！
 {1} swapped HP with {2}!
 {1}与{2}交换了HP！
+{1} flies in like a comet!
+{1}像彗星一样飞来！
+{1} absorbs metal from the Rusted Sword!
+{1}从腐朽之剑中吸收了金属！
+{1} crowns itself in steel!
+{1}以钢铁为自身加冕！
+{1} absorbs metal from the Rusted Shield!
+{1}从腐朽之盾中吸收了金属！
 {1} prepares its response!
 {1}已准备好应对！
 {1}'s transforms with exposure to the Full Moon!
@@ -50231,14 +50249,6 @@ Which type should {1} fake?
 {1}扭曲了维度！
 {1} is trailing rainbows behind it!
 {1}身后拖着彩虹！
-{1} flies in like a comet!
-{1}像彗星一样飞来！
-{1} absorbs metal from the Rusted Sword!
-{1}从腐朽之剑中吸收了金属！
-{1} crowns itself in steel!
-{1}以钢铁为自身加冕！
-{1} absorbs metal from the Rusted Shield!
-{1}从腐朽之盾中吸收金属！
 Eons course through {1}'s being!
 万古岁月流经{1}的存在！
 Another {1} will arrive in 5 turns!
@@ -54858,9 +54868,9 @@ June 15th
 Which page would you like to read?
 要阅读哪1页呢？
 But a repellent's effect still lingers from earlier.
-但是其效果好像不太一样...
+但是之前的效果还在。
 You shake the Rusted Compass, but it remains stagnant.
-你摇动生锈的指南针 但并没有任何效果。
+你摇动生锈的指南针，但并没有任何效果。
 Error loading data on the current map.
 当前地图数据出现错误。
 You get a sense of a piece of loot hidden nearby...
@@ -58358,7 +58368,7 @@ L'Enfant du Vide
 Sweetrock Harbor Gym
 蜜岩道馆
 Victoire has been waiting to find someone capable of eliminating a remnant of Team Chasm's experimentation with Regigigas's power. Provide this abomination a warm welcome.
-薇克特尔一直等待着找到1个能够消灭裂隙队利用雷吉吉格斯的力量进行实验的残留物的人。给这个怪物1个热烈的欢迎。
+薇克特尔一直等待着找到1个能够消灭裂隙队利用雷吉奇卡斯的力量进行实验的残留物的人。给这个怪物1个热烈的欢迎。
 Kiss of Ascalon
 阿斯卡隆之吻
 Team Chasm HQ Gym

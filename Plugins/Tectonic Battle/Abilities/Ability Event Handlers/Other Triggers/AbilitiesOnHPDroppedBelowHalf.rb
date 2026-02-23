@@ -183,3 +183,41 @@ BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:BLOODOFMALICE,
       next false
   }
 )
+
+BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:EXOSPHERICDESCENT2,
+  proc { |ability, battler, battle|
+    next unless battler.isSpecies?(:RAYQUAZA)
+    next unless battler.form == 0
+    battle.pbShowAbilitySplash(battler, ability)
+    battle.pbCommonAnimation("MegaEvolutionRayquaza", battler)
+    battler.pbChangeForm(1, _INTL("{1} flies in like a comet!", battler.pbThis))
+    battle.pbHideAbilitySplash(battler)
+    next false
+  }
+)
+
+BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:SLUMBERINGSWORD2,
+  proc { |ability, battler, battle|
+    next unless battler.isSpecies?(:ZACIAN)
+    next unless battler.form == 0
+    battle.pbDisplay(_INTL("{1} absorbs metal from the Rusted Sword!", battler.pbThis))
+    battle.pbShowAbilitySplash(battler, ability)
+    battle.pbCommonAnimation("StanceAttack", battler)
+    battler.pbChangeForm(1, _INTL("{1} crowns itself in steel!", battler.pbThis))
+    battle.pbHideAbilitySplash(battler)
+    next false
+  }
+)
+
+BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:SLUMBERINGSHIELD2,
+  proc { |ability, battler, battle|
+    next unless battler.isSpecies?(:ZAMAZENTA)
+    next unless battler.form == 0
+    battle.pbDisplay(_INTL("{1} absorbs metal from the Rusted Shield!", battler.pbThis))
+    battle.pbShowAbilitySplash(battler, ability)
+    battle.pbAnimation(:OBSTRUCT, battler, nil, 0)
+    battler.pbChangeForm(1, _INTL("{1} crowns itself in steel!", battler.pbThis))
+    battle.pbHideAbilitySplash(battler)
+    next false
+  }
+)

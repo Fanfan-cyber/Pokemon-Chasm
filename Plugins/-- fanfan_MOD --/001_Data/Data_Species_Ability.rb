@@ -81,7 +81,10 @@ SPECIES_ABILITY_DATA = {
   [:PORYGON2, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
   [:PORYGONZ, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
 
-  [:RAYQUAZA, 1]    => { :fixed => %i[], :changeable => %i[JUGGERNAUT DELTASTREAM], },
+  [:RAYQUAZA, 0]    => { :fixed => %i[], :changeable => %i[AIRLOCK EXOSPHERICDESCENT2], },
+  [:RAYQUAZA, 1]    => { :fixed => %i[], :changeable => %i[DELTASTREAM JUGGERNAUT], },
+
+  [:REGIGIGAS, 0]   => { :fixed => %i[], :changeable => %i[SLOWSTART], },
 
   [:SALANDIT, 0]    => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
   [:SALAZZLE, 0]    => { :fixed => %i[], :changeable => %i[BACKFIRE DOMINEERING], },
@@ -103,7 +106,10 @@ SPECIES_ABILITY_DATA = {
   [:WIMPOD, 0]      => { :fixed => %i[], :changeable => %i[WIMPOUT SELECTIVESCUTES], },
   #[:GOLISOPOD, 0]   => { :fixed => %i[], :changeable => %i[EMERGENCYEXIT SELECTIVESCUTES], },
 
+  [:ZACIAN, 0]      => { :fixed => %i[], :changeable => %i[SLUMBERINGSWORD2 SWORDSMITHING], },
   [:ZACIAN, 1]      => { :fixed => %i[], :changeable => %i[STAINLESSSTEEL SWORDSMITHING], },
+
+  [:ZAMAZENTA, 0]   => { :fixed => %i[], :changeable => %i[SLUMBERINGSHIELD2 SHIELDSMITHING], },
   [:ZAMAZENTA, 1]   => { :fixed => %i[], :changeable => %i[STAINLESSSTEEL SHIELDSMITHING], },
 
   [:ZORUA, 0]       => { :fixed => %i[], :changeable => %i[ILLUSION RELENTLESSPURSUIT], },

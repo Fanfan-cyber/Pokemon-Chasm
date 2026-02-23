@@ -8,8 +8,8 @@
 1698
 =end
 
-MOD_VERSION  = "0.4.6"
-VERSION_NAME = ["Astra Resonantia", "星穹共鸣"]
+MOD_VERSION  = "0.4.5"
+VERSION_NAME = ["Luminary Ascent", "辉光交织"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -170,11 +170,6 @@ doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 simplemode/normalmode，开启（1徽章）/关闭简单模式
 
-0.4.6 Astra Resonantia / 星穹共鸣
-1.修复了Arc of Hope的中文错误翻译的Bug
-2.修改了大量中文的翻译
-3.
-
 0.4.5 Luminary Ascent / 辉光交织
 1.修复了JoiPlay无法正常运行游戏的Bug
 2.修复了0.4.3的存档的背包无法正确升级的Bug
@@ -193,6 +188,13 @@ simplemode/normalmode，开启（1徽章）/关闭简单模式
 15.修复了因为语言文件的加载顺序问题导致许多文本无法被正确翻译的Bug
 16.修复了庄园中的一句文本不能被翻译的Bug
 17.雷吉奇卡斯的化身战因未知原因会导致游戏崩溃，所以现在将会跳过该化身战，直接将胜利判给玩家
+18.裂空座的第一特性由德尔塔气流改为天气锁
+19.裂空座的第二特性由Exospheric Descent改为Exospheric Descent 2
+20.交换了裂空座的流星形态的两个特性的位置
+21.移除了雷吉奇卡斯的第二特性
+22.苍响的第一特性由Slumbering Sword改为Slumbering Sword 2
+23.藏玛然特的第一特性由Slumbering Shield改为Slumbering Shield 2
+24.现在雷吉奇卡斯的化身战不再直接跳过
 
 0.4.4 Vestiges of Destiny / 溯光回响
 1.修改了大量中文的翻译

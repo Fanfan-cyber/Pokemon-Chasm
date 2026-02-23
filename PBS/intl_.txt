@@ -40443,6 +40443,8 @@ Cursed Shell
 Cursed Shell
 Download 2
 Download 2
+Exospheric Descent 2
+Exospheric Descent 2
 Frightening Bite
 Frightening Bite
 Leviathan Aria
@@ -40451,6 +40453,10 @@ Predation 2
 Predation 2
 Relentless Pursuit
 Relentless Pursuit
+Slumbering Shield 2
+Slumbering Shield 2
+Slumbering Sword 2
+Slumbering Sword 2
 Swallow Missile
 Swallow Missile
 Adaptive AI v1
@@ -42030,12 +42036,16 @@ After being attacked, uses Parting Shot to switch out. Leaves a Cursed Shell.
 After being attacked, uses Parting Shot to switch out. Leaves a Cursed Shell.
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
+Transforms into Meteoric form when its HP is lowered below half.
+Transforms into Meteoric form when its HP is lowered below half.
 After using a Bite move, lowers the target's highest attacking stat by 2 steps. Immune to Ground-type moves. Immune to grounded hazards.
 After using a Bite move, lowers the target's highest attacking stat by 2 steps. Immune to Ground-type moves. Immune to grounded hazards.
 Completely protects allies from foes' spread moves. Summons rainstorm for four turns when hit by an attack.
 Completely protects allies from foes' spread moves. Summons rainstorm for four turns when hit by an attack.
 Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it deals. This can overheal.
 Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it deals. This can overheal.
+Transforms into Crowned form when its HP is lowered below half.
+Transforms into Crowned form when its HP is lowered below half.
 Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
 Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
 Adapts the move's type to ensure it is super-effective against the target.
@@ -50079,6 +50089,14 @@ Which form should {1} take?
 {1} takes on a new machine!
 {1} swapped HP with {2}!
 {1} swapped HP with {2}!
+{1} flies in like a comet!
+{1} flies in like a comet!
+{1} absorbs metal from the Rusted Sword!
+{1} absorbs metal from the Rusted Sword!
+{1} crowns itself in steel!
+{1} crowns itself in steel!
+{1} absorbs metal from the Rusted Shield!
+{1} absorbs metal from the Rusted Shield!
 {1} prepares its response!
 {1} prepares its response!
 {1}'s transforms with exposure to the Full Moon!
@@ -50231,14 +50249,6 @@ Which type should {1} fake?
 {1} twists the dimensions!
 {1} is trailing rainbows behind it!
 {1} is trailing rainbows behind it!
-{1} flies in like a comet!
-{1} flies in like a comet!
-{1} absorbs metal from the Rusted Sword!
-{1} absorbs metal from the Rusted Sword!
-{1} crowns itself in steel!
-{1} crowns itself in steel!
-{1} absorbs metal from the Rusted Shield!
-{1} absorbs metal from the Rusted Shield!
 Eons course through {1}'s being!
 Eons course through {1}'s being!
 Another {1} will arrive in 5 turns!
