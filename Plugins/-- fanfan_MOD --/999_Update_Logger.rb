@@ -8,8 +8,8 @@
 1698
 =end
 
-MOD_VERSION  = "0.4.5"
-VERSION_NAME = ["Luminary Ascent", "辉光交织"]
+MOD_VERSION  = "0.4.6"
+VERSION_NAME = ["Astra Resonantia", "星穹共鸣"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -170,7 +170,12 @@ doublebattle/disabledouble，开启/关闭全双打模式
 disableperfect/enableperfect，开启（1徽章）/关闭休闲模式
 simplemode/normalmode，开启（1徽章）/关闭简单模式
 
-0.4.5 Luminary Ascent 辉光交织
+0.4.6 Astra Resonantia / 星穹共鸣
+1.修复了Arc of Hope的中文错误翻译的Bug
+2.修改了大量中文的翻译
+3.
+
+0.4.5 Luminary Ascent / 辉光交织
 1.修复了JoiPlay无法正常运行游戏的Bug
 2.修复了0.4.3的存档的背包无法正确升级的Bug
 3.修改了大量中文的翻译
