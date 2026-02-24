@@ -613,9 +613,9 @@ Moves2 = SLAG,METALSOUND,MIRRORSHIELD
 HPMult = 8.0
 #-------------------------------
 [ROTOM]
-Ability = LEVITATE
+Ability = HAUNTED
 Moves1 = HEATWAVE,ARCLAMP,PRIMEVALDAZZLE
-Moves2 = HEATWAVE,ARCLAMP
+Moves2 = CHARGE,ARCLAMP
 HPMult = 8.0
 Form = 1
 #-------------------------------

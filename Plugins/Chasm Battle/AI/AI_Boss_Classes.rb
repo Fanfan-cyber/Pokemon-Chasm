@@ -614,12 +614,14 @@ class PokeBattle_AI_ROTOM < PokeBattle_AI_Boss
 
     def initialize(user, battle)
         super
+        user.pokemon.instance_variable_set(:@ability_index, 1)
         @beginTurn.push(proc { |user, _battle, turnCount|
             if turnCount != 0 && turnCount % 2 == 1
                 newForm = user.form + 1
                 newForm = 1 if newForm > 5
                 formChangeMessage = _INTL("The avatar swaps machines!")
                 user.pbChangeForm(newForm, formChangeMessage)
+                user.pokemon.instance_variable_set(:@ability_index, 1)
                 newMoveset = MOVESETS[newForm-1].clone
                 newMoveset.push(:PRIMEVALDAZZLE) if user.avatarPhase == 1
                 user.assignMoveset(newMoveset)
