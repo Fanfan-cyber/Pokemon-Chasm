@@ -704,8 +704,8 @@ module GameData
 		        exception = @flags.include?("Grounded")
 		        return !exception
 	        end
-            return true if @abilities.include?(:LEVITATE)
-	        return true if @abilities.include?(:DESERTSPIRIT)
+            return true if legalAbilities.include?(:LEVITATE)
+	        return true if legalAbilities.include?(:DESERTSPIRIT)
             return true if @flags.include?("Floating")
 	        return false
         end

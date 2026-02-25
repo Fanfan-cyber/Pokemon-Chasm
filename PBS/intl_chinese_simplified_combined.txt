@@ -3095,7 +3095,7 @@ Point is, surprise! You get two starters: One standard three-stage Grass, Water 
 But first things first...
 但在那之前...
 The <imp>MasterDex</imp> is a Pokédex, but it comes preloaded with data on every non-legendary species.
-这个<imp>大师图鉴</imp>里面，预装了所有非传说精灵的资料，
+这个<imp>大师图鉴</imp>里面，预装了所有非传说精灵的资料。
 Moves, Abilities, stats, evolutions - it's all in there.
 技能，特性，数据，进化型等等，这里面都能查到。
 It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
@@ -3993,7 +3993,7 @@ I tried to play with him, but he kept giving me this look...
 Something about his big eyes makes me feel weird.
 它那双大眼睛让我感觉怪怪的。
 I want a Pokémon that I can trust. Gimme something in the Loyal tribe and you can have this weird rock thing.
-我想要1个能信任的精灵。给我来个忠诚族的，这个奇怪的石头精灵就归你了。
+我想要1个能信任的精灵。给我来个忠诚部族的，这个奇怪的石头精灵就归你了。
 B-but...he's gonna keep looking at me...
 可、可它还会一直盯着我看啊...
 Don't tease me like that!
@@ -9006,7 +9006,7 @@ Well, keep it in mind.
 See ya, kid.
 再见了，小孩儿。
 Hey!
-嘿
+嘿！
 I'm bored and want to have fun. Let's play hide and seek!
 太无聊了，来跟我捉迷藏吧！
 I took some TMs from my Pa when he wasn't looking.
@@ -15754,7 +15754,7 @@ You take some swings at the punching bag.
 You're pumped up! Experience gain from battles is boosted until the next time you heal.
 你感到精力充沛，在下次治疗前能得到更多经验。
 Styles Value Adjuster
-风格点调整师
+风格点数调整师
 Mentor Coordinator
 技能协调员
 Move Reminder
@@ -35200,7 +35200,7 @@ Spectral hands reach from the ground to trip the target. The heavier the target,
 The user foretells a terrifying danger. Two turns later, the targeted spot is mortally frightened.
 使用者预示可怕的危险。2回合后，目标位置将陷入极度恐惧。
 Changes type based on machine haunted. 30% chance of extra effect based on machine haunted.
-根据洛托姆的形态不同，技能的属性也不同，30%概率造成对应额外效果。
+根据洛托姆的形态不同，技能的属性也不同，30%概率造成对应随机附加效果。
 The user switches out using a cruel illusion. Always goes last.
 利用残酷的幻象攻击并换出战斗。
 The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
@@ -35884,7 +35884,7 @@ Damages the target's life force directly. During moonglow, the target also becom
 The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
 突袭对手发起攻击。在月辉下该技能时必定命中，而且更容易命中要害。
 The user attacks and steals the foe's held Berry or Gem. It can't steal if the user holds an item.
-窃取对手携带的树果或宝石。如果自身携带物，就无法窃取。
+可以窃取对手携带的树果或宝石。如果自身有携带物，则无法窃取。
 The user entangles the target's mind with dark thoughts, leeching it.
 使对手的思维被邪恶念头所缠绕，同时让其陷入寄生状态。
 The user invades deep into the target's mind, leeching it.
@@ -35994,7 +35994,7 @@ A spirited wind blesses the user, raising its Sp. Atk, Speed, and Accuracy.
 The user goes on a wild tantrum, going on a rampage for two turns.
 使用者陷入疯狂的暴怒，陷入暴走状态，连续攻击2回合。
 The user uses fae magic to invoke the target's true name, jinxing them.
-使用者使用妖精魔法呼唤目标的真名，对其陷入不幸。
+使用者使用妖精魔法呼唤目标的真名，使其陷入不幸。
 The user attacks with its wards, dealing damage based on the user's Sp. Def stat.
 运用自身的气场发动攻击，造成的伤害取决于自身的特防。
 Strikes the target with lunar light, then summons moonglow for eight turns.
@@ -40705,7 +40705,7 @@ Halves Attack and Speed for three turns.
 Doubles this Pokémon's Speed stat in a hail.
 冰雹时，速度翻倍。
 Doubles the critical hit chance of random crit moves. Powers up critical hits by another 50%.
-将随机命中要害技能的命中要害率翻倍。使命中要害的威力再增加50%。
+使命中要害率翻倍。使命中要害的威力再增加50%。
 Summons a hailstorm for four turns upon entry.
 出场时，开启持续4回合的冰雹。
 In sunshine, Sp. Atk is boosted by 50%, but this Pokémon is hurt for 1/10th HP each turn.
@@ -41241,7 +41241,7 @@ After switching in for a fainted ally, using a status move and knocking out a fo
 Has Judgment as its 5th move.
 自动获得技能制裁光砾。
 This Pokémon and its allies are immune to weather downsides.
-自身和队友不会受到天气的负面影响。
+自身和队友不会受到天气的负面效果。
 Powers up Bug-type moves of itself and its allies by 50%.
 自身和队友的虫属性技能的威力增加50%。
 Upon entry, heals self and allies for 25% of their max health.
@@ -41609,7 +41609,7 @@ Light moves change this Pokémon's secondary type and their power is boosted by 
 This Pokémon's moves heal for 25% more.
 回复类技能的回复效果增加25%。
 Upon entry during sunshine, heals the lowest HP ally or self by 33%.
-在阳光下出场时，为HP最低的队友或自身回复33%的HP。
+晴天出场时，为HP最低的队友或自身回复33%的HP。
 Pokémon that swap in for this have their non-volatile status conditions healed, and take 30% less damage that turn.
 替换该精灵上场的精灵会回复其异常，并且在那1回合受到的伤害减小30%。
 At the end of each turn, heals from every volatile status condition.
@@ -41767,7 +41767,7 @@ Your attacks become spread.
 This Pokémon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
 使用草、地面或钢属性技能后，回复HP的五分之一，可以过量回复。
 This Pokémon and its allies' moves are twice as likely to be critical.
-自身及其队友技能的命中要害率翻倍。
+自身及队友命中要害率翻倍。
 Leaves two hazard layers of Spikes after self-destructing.
 使用自爆类技能后，在场上留下2层菱。
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost.
@@ -41785,7 +41785,7 @@ Doubles critical hit chance for each Speed step up. All moves can random critica
 Sets a Light Screen for four turns upon entry.
 出场时，开启持续4回合的光墙。
 During eclipse, its moves can't miss and always activate their random effects.
-日食天气时必定命中，且必定发动额外效果。
+日食时，攻击必定会命中，且必定发动随机附加效果。
 Blade moves always crit. However, their damage is dealt at the end of the round.
 切割类技能必定会命中要害，但伤害会在回合结束时结算。
 Takes 50% less damage from Water-type moves. Raises Speed by four steps when hit by one.
@@ -41865,7 +41865,7 @@ At the end of each round, lowers other numbed Pokémon's Defense and Sp. Def by 
 After knocking out any Pokémon, summons eclipse for four turns.
 打倒对手时，开启持续4回合的日食。
 Boosts damage by 20% if there is a weather. Immune to weather downsides.
-在天气下增加20%的伤害。免疫天气的不利影响。
+在天气下增加20%的伤害。免疫天气的负面效果。
 Flinching moves always activate their random effects. However, this Pokémon deals 10% less move damage.
 畏缩类技能必定发动随机附加效果，但技能的伤害减小10%。
 Becomes energized upon entry, doubling the power of its next Electric-type attack.
@@ -45858,7 +45858,7 @@ Random
 Closest Near Foe
 最近对手
 Closer
-近方
+近对方
 All Near Foes
 所有附近对手
 Foe
@@ -46504,7 +46504,7 @@ Some moves are both Physical and Special! These are "Adaptive" moves.
 They change based on the user's stats!
 它们会根据使用者的能力发生变化！
 Physical if Attack is higher, and Special if Sp. Atk is higher.
-如果攻击较高，即为物理类技能，反之特攻较高，即为特殊类技能。
+如果物攻较高，即为物理类技能，反之特攻较高，即为特殊类技能。
 Every PokéCenter and every Ranger Station will contain the 3 Team Customization NPCs.
 每个精灵中心和哨站都有3个培养型NPC。
 Speak to them to learn how they can upgrade your team!
@@ -47152,9 +47152,9 @@ Eclipse lowers all stats of all Pokémon every 4 turns (by 2 steps). Psychic and
 Moonglow flinches all Pokémon every 4 turns. Fairy and Dark-types are immune to this. Additionally, Fairy-type attacks are boosted by 30%.
 月辉中，每4回合使所有精灵畏缩。妖精属性和恶属性免疫此效果。妖精属性伤害增加30%。
 Weather Downsides
-天气负面影响
+天气负面效果
 Each weather has both an upside and a downside. There are items and abilities that make your Pokémon immune to these downsides regardless of type.
-每种天气都有自身的利处和不利处，除了属性外，某些物品和跟天气有协同作用的特性可以使精灵免受这些不利影响。
+每种天气都有自身的利处和不利处，除了属性外，某些物品和跟天气有协同作用的特性可以使精灵免受这些负面效果。
 Weather Areas
 天气区域
 Certain areas in the game experience intense weather. That weather will also be present in the battles of that area. Simple daily weather will not do this.
@@ -47782,7 +47782,7 @@ Send to PC
 Are you sure you'd like to send back {1}?
 你确定要送回{1}吗？
 Send to TC
-送到TC
+时间胶囊
 Set Item Type
 设置面纱属性
 Take One
@@ -48128,7 +48128,7 @@ Select
 Release
 放生
 Send To TC
-送到TC
+时间胶囊
 The map data cannot be found.
 没有地图数据。
 No proper map position is known for totem ID {1}. Please inform a programmer about this.
@@ -48371,6 +48371,8 @@ You don't have any save file. Restart game now.
 你没有任何存档文件。现在重新启动游戏。
 Delete all saved data?
 删除所有存档数据？
+Load
+加载
 #{title}
 #{title}
 Version:
@@ -49698,7 +49700,7 @@ Misdirecting Fog is continually active on the opposing side.
 In Our Equality, Disparity; from Injustice Settled Scales
 昨日胜负天意定，今朝成败未可知。
 Bence and Zoé are using 5 battlers each. This is a big battle!
-本斯和佐伊将各自使用5+1只精灵。这是1场大规模的战斗！
+本斯和佐伊将各自使用5(+1)只精灵。这是1场大规模的战斗！
 A Fool's Errand
 愚人自怜不自知，焚躯为烬行君令。
 Yezera and Shadow Mavis are using 6 battlers each. This is a huge battle!
@@ -52572,7 +52574,7 @@ Finish adjusting Style Points?
 Fast Attacker
 高速攻击
 Bulky Attacker
-笨重的攻击者
+笨重攻击
 Physical Tank
 物理坦克
 Special Tank
@@ -52586,7 +52588,7 @@ Physical Attacker
 Special Attacker
 特殊战士
 Bulky Physical
-笨重的物理实体
+笨重物理
 RESTYLE
 已风格化
 FIRST STYLE
@@ -52596,7 +52598,7 @@ Adjust Style Points
 What are Style Points?
 什么是风格点数？
 I'm the Style Points adjuster. How can I help?
-我是风格点数调节器。我能帮到你什么？
+我是风格点数调整师。我能帮到你什么？
 Style Points are numbers which have an effect on your Pokemon's stats.
 风格点数是影响你精灵属性的数字。
 Pokemon start with 10 Style Points in each of their stats.
@@ -55250,7 +55252,7 @@ Choose which Pokémon will be sent back to the PC.
 {1} is holding multiple items. Take them before transferring?
 {1}正携带着多个物品，要将它们取下来吗？
 {1} is holding {2} {3}. Would you like to take it before transferring?
-{1}正携带{2} {3}。要在转移前取走它吗？
+{1}正携带{2}{3}。要在传送前取下它吗？
 Box "{1}" on the Pokémon Storage PC is a donation box.<<1>>
 精灵存储电脑中的"{1}"箱是1个捐赠箱。<<1>>
 Box "{1}" on the Pokémon Storage PC was full.<<1>>
@@ -59062,7 +59064,7 @@ You don't have any Pokémon in Dimension D!
 Choose a Pokémon!
 选择1只精灵！
 To TC
-送到TC
+时间胶囊
 You can't retrieve this Pokémon! You already have one!
 你不能取回这只精灵！你已经有1只了！
 You retrieved {1}!
@@ -59361,8 +59363,8 @@ Powers up Grass-type moves of itself and its allies by 30%.
 自身和队友的草属性技能的威力增加30%。
 Can hold two items.
 可以携带2个物品。
-A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.
-仅在单特性模式下可用，能将精灵的现有特性变为另1种特性的胶囊。
+A capsule that allows a Pokémon to switch to another Ability. Used in Mono Ability or Tectonic Mode.
+仅在单特性和构造模式下可用，能将精灵的现有特性变为另1种特性的胶囊。
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 让精灵携带后，当HP小于25%时，可回复50%HP。
 An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.
@@ -60402,7 +60404,7 @@ Good to see you too.
 Two months, twenty days.
 两月零20天。
 Styles Value Adjuster
-风格点调整师
+风格点数调整师
 Mentor Coordinator
 技能协调员
 Move Reminder

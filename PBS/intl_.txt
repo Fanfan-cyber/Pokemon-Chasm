@@ -48371,6 +48371,8 @@ You don't have any save file. Restart game now.
 You don't have any save file. Restart game now.
 Delete all saved data?
 Delete all saved data?
+Load
+Load
 #{title}
 #{title}
 Version:
@@ -59361,8 +59363,8 @@ Powers up Grass-type moves of itself and its allies by 30%.
 Powers up Grass-type moves of itself and its allies by 30%.
 Can hold two items.
 Can hold two items.
-A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.
-A capsule that allows a Pokémon to switch to another Ability. Only used in Mono Ability Mode.
+A capsule that allows a Pokémon to switch to another Ability. Used in Mono Ability or Tectonic Mode.
+A capsule that allows a Pokémon to switch to another Ability. Used in Mono Ability or Tectonic Mode.
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.

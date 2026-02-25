@@ -366,9 +366,9 @@ $Trainer.name))
         x = 24 * 2
         y = 16 * 2
         title = if type == 0
-                    "Save"
+                    _INTL("Save")
                 else
-                    (type == 1) ? "Load" : "Delete"
+                    (type == 1) ? _INTL("Load") : _INTL("Delete")
                 end
         textpos << [_INTL("#{title}"), 16 * 2 + x, 5 * 2 + y, 0, TEXTCOLOR, TEXTSHADOWCOLOR]
         textpos << [_INTL("Badges:"), 16 * 2 + x, 56 * 2 + y, 0, TEXTCOLOR, TEXTSHADOWCOLOR]
