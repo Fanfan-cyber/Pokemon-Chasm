@@ -22,7 +22,7 @@ Accuracy = 0
 TotalPP = 25
 Target = User
 FunctionCode = MaxUserAcc
-Flags = CanSnatch
+Flags = CanSnatch,Staple
 Description = The user steadies its eyes, mind, and body in order to maximize its Accuracy.
 Animation = MINDREADER
 #-------------------------------
