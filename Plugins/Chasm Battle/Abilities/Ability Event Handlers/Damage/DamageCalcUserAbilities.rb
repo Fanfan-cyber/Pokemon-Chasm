@@ -991,6 +991,13 @@ BattleHandlers::DamageCalcUserAbility.add(:JUGGERNAUT,
   }
 )
 
+BattleHandlers::DamageCalcUserAbility.add(:STRAIGHTAHEAD,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    mults[:base_damage_multiplier] *= 1.2
+    user.aiLearnsAbility(ability) unless aiCheck
+  }
+)
+
 BattleHandlers::DamageCalcUserAbility.add(:INSCRUTABLEORDERS,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
     mults[:base_damage_multiplier] *= 1.3
