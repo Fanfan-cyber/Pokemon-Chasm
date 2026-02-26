@@ -115,7 +115,7 @@ class PokeBattle_Battle
     def pbAttackPhaseSceneChange
         pbPriority.each do |b|
             next unless @choices[b.index][0] == :UseMove && !b.fainted?
-            next if b.asleep?
+            next if b.asleep? && b.statusCount > 1
             next if b.movedThisRound?
             next unless b.hasActiveAbility?(:SCENECHANGE)
             move = @choices[b.index][2]
