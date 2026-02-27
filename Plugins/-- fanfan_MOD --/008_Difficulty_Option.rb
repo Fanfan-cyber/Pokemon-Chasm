@@ -82,6 +82,6 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Custom Ability Mode
     next if pkmn.has_main_ability?
     #pkmn.ability = TA.choose_random_ability(pkmn)
     possible_abil = TA.choose_random_ability_from_player(pkmn)
-    pkmn.ability = possible_abil if possible_abil
+    pkmn.public_send(:ability=, possible_abil, false) if possible_abil
   end
 }

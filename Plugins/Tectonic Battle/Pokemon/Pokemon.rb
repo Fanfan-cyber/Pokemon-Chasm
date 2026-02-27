@@ -554,10 +554,10 @@ class Pokemon
     # hidden abilities)as defined for its species/form. An ability may not be
     # defined at this index. Is recalculated (as 0 or 1) if made nil.
     # @param value [Integer, nil] forced ability index (nil if none is set)
-    def ability_index=(value)
+    def ability_index=(value, removeItems = true)
         @ability_index = value
         recalculateAbilityFromIndex
-        removeInvalidItems
+        removeInvalidItems if removeItems
     end
 
     # @return [GameData::Ability, nil] an Ability object corresponding to this Pokémon's ability
@@ -581,14 +581,14 @@ class Pokemon
         end
     end
 
-    def ability=(value)
+    def ability=(value, removeItems = true)
         return if value && !GameData::Ability.exists?(value)
         if value.nil?
             recalculateAbilityFromIndex
-            removeInvalidItems
+            removeInvalidItems if removeItems
         else
             @ability = GameData::Ability.get(value).id
-            removeInvalidItems
+            removeInvalidItems if removeItems
         end
     end
 
