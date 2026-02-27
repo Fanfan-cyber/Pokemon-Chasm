@@ -302,6 +302,7 @@ BattleHandlers::TargetAbilityOnHit.add(:CONSTRICTOR,
         next if user.effectActive?(:Trapping)
         next if user.effectActive?(:Binding)
         next if target.effectActive?(:SwitchedIn)
+        next if user.dummy
         trappingDuration = 3
         trappingDuration *= 2 if user.hasActiveItem?(:GRIPCLAW)
         score = 30
@@ -324,6 +325,7 @@ BattleHandlers::TargetAbilityOnHit.add(:MAGNETTRAP,
         next if user.effectActive?(:Trapping)
         next if user.effectActive?(:Binding)
         next if target.effectActive?(:SwitchedIn)
+        next if user.dummy
         trappingDuration = 3
         trappingDuration *= 2 if user.hasActiveItem?(:GRIPCLAW)
         score = 30
