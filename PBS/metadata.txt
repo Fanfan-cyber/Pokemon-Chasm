@@ -1191,7 +1191,7 @@ ShowArea = false
 Bicycle = true
 #-------------------------------
 [165]
-# Aquatopia Menagerie
+# Aquatopia
 Outdoor = false
 ShowArea = false
 Bicycle = false
