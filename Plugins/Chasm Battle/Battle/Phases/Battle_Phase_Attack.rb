@@ -130,6 +130,29 @@ class PokeBattle_Battle
         end
     end
 
+    def pbAttackPhasePurestLight
+        pbPriority.each do |b|
+            next unless @choices[b.index][0] == :UseMove && !b.fainted?
+            next if b.asleep? && b.statusCount > 1
+            next if b.movedThisRound?
+            next unless b.hasActiveAbility?(:PURESTLIGHT)
+            move = @choices[b.index][2]
+            next if move.callsAnotherMove?
+            next unless move.id == :LIGHTTHATBURNSTHESKY
+            newForm = nil
+            case b.form
+            when 1
+                newForm = 3
+            when 2
+                newForm = 4
+            end
+            next unless newForm
+            next if b.form == newForm
+            @scene.pbCommonAnimation("UltraBurst", b)
+            b.pbChangeForm(newForm,_INTL("Bright light bursts out of {1}!", b.pbThis))
+        end
+    end
+
     def pbAttackPhaseMoves
         # Show charging messages (Focus Punch)
         pbPriority.each do |b|
@@ -247,6 +270,7 @@ class PokeBattle_Battle
         return true if @decision > 0
         pbAttackPhaseCloaking
         pbAttackPhaseSceneChange
+        pbAttackPhasePurestLight
         return false
     end
 
