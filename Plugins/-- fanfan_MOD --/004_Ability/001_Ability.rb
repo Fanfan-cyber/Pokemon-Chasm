@@ -33,8 +33,55 @@ class PokeBattle_Battler
 end
 
 class AbilityFactory
+  def self.def_trigger(*triggers)
+    triggers.each do |trigger|
+      class_eval <<~RUBY, __FILE__, __LINE__ + 1
+      attr_reader :#{trigger}_trigger_max_per_battle, :#{trigger}_trigger_max_per_switch, :#{trigger}_trigger_times_battle, :#{trigger}_trigger_times_switch
+
+        def #{trigger}_triggered_max?
+          return true if @#{trigger}_trigger_max_per_battle >= 0 && 
+                         @#{trigger}_trigger_times_battle >= @#{trigger}_trigger_max_per_battle
+          return true if @#{trigger}_trigger_max_per_switch >= 0 && 
+                         @#{trigger}_trigger_times_switch >= @#{trigger}_trigger_max_per_switch
+          return false
+        end
+
+        def #{trigger}_trigger_times_update
+          @#{trigger}_trigger_times_battle += 1
+          @#{trigger}_trigger_times_switch += 1
+        end
+
+        def #{trigger}_reset_counter
+          @#{trigger}_trigger_times_battle = 0
+          @#{trigger}_trigger_times_switch = 0
+        end
+
+        def #{trigger}_reset_battle_counter
+          @#{trigger}_trigger_times_battle = 0
+        end
+
+        def #{trigger}_reset_switch_counter
+          @#{trigger}_trigger_times_switch = 0
+        end
+
+        def #{trigger}_set_limit(battle_limit: -1, switch_limit: -1)
+          @#{trigger}_trigger_max_per_battle = battle_limit
+          @#{trigger}_trigger_max_per_switch = switch_limit
+        end
+
+        def #{trigger}_set_battle_limit(battle_limit = -1)
+          @#{trigger}_trigger_max_per_battle = battle_limit
+        end
+        
+        def #{trigger}_set_switch_limit(switch_limit = -1)
+          @#{trigger}_trigger_max_per_switch = switch_limit
+        end
+      RUBY
+    end
+  end
+
   attr_reader :ability, :battler, :battle
-  attr_reader :on_switch_in_trigger_max_per_battle, :on_switch_in_trigger_max_per_switch, :on_switch_in_trigger_times_battle, :on_switch_in_trigger_times_switch
+  def_trigger :on_switch_in
 
   def initialize(ability, battler, battle)
     @ability                             = ability
@@ -57,17 +104,6 @@ class AbilityFactory
 
   def reset_switch_counter
     @on_switch_in_trigger_times_switch = 0
-  end
-
-  def on_switch_in_triggered_max?
-    return true if @on_switch_in_trigger_max_per_battle >= 0 && @on_switch_in_trigger_times_battle >= @on_switch_in_trigger_max_per_battle
-    return true if @on_switch_in_trigger_max_per_switch >= 0 && @on_switch_in_trigger_times_switch >= @on_switch_in_trigger_max_per_switch
-    return false
-  end
-
-  def on_switch_in_trigger_times_update
-    @on_switch_in_trigger_times_battle += 1
-    @on_switch_in_trigger_times_switch += 1
   end
 
   def on_switch_in_blocked?(aiCheck = false); return false; end

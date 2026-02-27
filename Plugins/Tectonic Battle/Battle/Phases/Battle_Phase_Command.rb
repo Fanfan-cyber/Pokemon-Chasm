@@ -405,6 +405,7 @@ class PokeBattle_Battle
         changesForAutoTesting if @autoTesting && @turnCount == 0
 
         unless isPlayer
+            2.times { pbDisplay(_INTL("AI is calculating...")) }
             @battleAI.resetPrecalculations
 
             # AI predicts the players actions
@@ -413,6 +414,7 @@ class PokeBattle_Battle
             anyCanPredict = false
             if @opponent
                 @opponent.each do |opposingTrainer|
+                    next if is_replayed
                     next unless opposingTrainer.policies.include?(:PREDICTS_PLAYER) || Settings::AI_PREDICT && !TA.get(:stupidai)
                     anyCanPredict = true
                     break

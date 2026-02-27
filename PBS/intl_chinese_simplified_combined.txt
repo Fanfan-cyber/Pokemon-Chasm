@@ -26569,7 +26569,7 @@ Gogoat
 Pancham
 顽皮熊猫
 Pangoro
-霸道熊猫
+流氓熊猫
 Furfrou
 多丽米亚
 Espurr
@@ -29251,7 +29251,7 @@ Its shell is as hard as sheet rock, and it is also very strong. Its thrashing ca
 If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.
 会在山中徘徊以寻求战斗对手。但如果遇到的是比自身弱小的对手，它就会视若无睹地离开。
 Mechanitar was discovered by Valrex. It is highly intelligent and non-confrontational, tending to avoid battle if possible.
-班机拉是由Valrex发现的。它非常聪明且不具攻击性，尽可能避免战斗。
+荆基拉是由Valrex发现的。它非常聪明且不具攻击性，尽可能避免战斗。
 Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
 体内蕴藏着雷电般速度的精灵。它的长嚎会如同天雷落地时一样震动空气，摇撼大地。
 Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.
@@ -48930,9 +48930,9 @@ Move name...
 Either
 任一
 Either type or full typing?
-是任一类型还是完整类型？
+是任一属性还是完整属性？
 Search full typing...
-搜索完整类型...
+搜索完整属性...
 Search type...
 搜索类型...
 Don't input more than one type for "Either" type search.
@@ -49639,6 +49639,8 @@ Boss using struggle!
 正在使用挣扎！
 {1} is winding up a big attack!
 {1}正在准备1个大攻击！
+AI is calculating...
+AI正在计算，请耐心等待...
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 欲戴王冠承其重，供奉虚空护身周。
 An Avatar has been inserted into Yezera's party!
@@ -52460,7 +52462,7 @@ It seems to be a lump of metal!
 {1} gets a new ability {2}!
 {1}获得了新特性{2}！
 {1} is veiled with crystal! It's a {2}-type!
-{1}被水晶覆盖！它变成了{2}属性！
+{1}被水晶面纱覆盖了！它变成了{2}属性！
 \wmLevel cap raised to {1}!\me<<[>>Bug catching 3rd<<]>>\wtnp<<[>>80<<]>><<1>>
 \wm等级上限增加到了{1}！\me<<[>>Bug catching 3rd<<]>>\wtnp<<[>>80<<]>><<1>>
 Adjust {1}'s Style

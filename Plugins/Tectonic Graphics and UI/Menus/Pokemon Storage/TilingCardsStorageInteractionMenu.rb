@@ -261,7 +261,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 			typesArray.push(typeData.id)
 			typeCommands.push(typeData.name)
 		end
-		typeCommands.push("Cancel")
+		typeCommands.push(_INTL("Cancel"))
 		existingIndex = typesArray.find_index(@pkmn.itemTypeChosen)
 		chosenNumber = pbShowCommands(_INTL("What type should {1} become?", @pkmn.name),typeCommands,existingIndex)
 		if chosenNumber > -1 && chosenNumber < typeCommands.length - 1

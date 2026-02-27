@@ -455,7 +455,9 @@ BattleHandlers::TargetAbilityOnHit.add(:STATIC,
 
 def statusProcTargetAbility(status, ability, user, target, move, battle, aiCheck, aiNumHits)
     return if user.fainted?
+    return if user.dummy?
     warned_battlers = user.battle_tracker_get(:warned)[ability]
+    return unless warned_battlers
     warned = warned_battlers.include?(target.unique_id) || target.fainted?
     if aiCheck
         if warned || aiNumHits > 1

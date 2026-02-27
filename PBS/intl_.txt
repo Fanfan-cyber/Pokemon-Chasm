@@ -49639,6 +49639,8 @@ Boss using struggle!
 Boss using struggle!
 {1} is winding up a big attack!
 {1} is winding up a big attack!
+AI is calculating...
+AI is calculating...
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 An Avatar has been inserted into Yezera's party!

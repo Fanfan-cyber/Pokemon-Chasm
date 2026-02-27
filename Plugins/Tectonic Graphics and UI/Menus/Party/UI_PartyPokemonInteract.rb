@@ -217,7 +217,7 @@ class TilingCardsPokemonMenu_Scene < TilingCardsMenu_Scene
             typesArray.push(typeData.id)
             typeCommands.push(typeData.name)
         end
-        typeCommands.push("Cancel")
+        typeCommands.push(_INTL("Cancel"))
         existingIndex = typesArray.find_index(@pkmn.itemTypeChosen)
         chosenNumber = @partyScene.pbShowCommands(_INTL("What type should {1} become?", @pkmn.name), typeCommands,
 existingIndex)

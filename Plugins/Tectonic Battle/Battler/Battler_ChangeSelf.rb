@@ -826,6 +826,7 @@ end
         # @ability_ids.concat(@pokemon.extraAbilities)
         @ability_ids.concat(@pokemon.abilities)
         @addedAbilities.clear
+
         track_all_abilities
 
         # @addedAbilities.concat(@pokemon.extraAbilities)
@@ -875,8 +876,9 @@ end
         @ability_ids.push(:INCOGNITO)
         disguisedAs.abilities.each do |abil|
             next if GameData::Ability.get(abil).is_uncopyable_ability?
-            @ability_ids.push(abil)
-            @addedAbilities.push(abil)
+            #@ability_ids.push(abil)
+            #@addedAbilities.push(abil)
+            addAbility(abil, false, triggerSwitchIn: false)
         end
     end
 

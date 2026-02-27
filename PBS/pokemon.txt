@@ -4907,7 +4907,7 @@ Weight = 55.4
 Kind = Freeze
 Pokedex = A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.
 Generation = 1
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [ZAPDOS]
 Name = Zapdos
@@ -4930,7 +4930,7 @@ Weight = 52.6
 Kind = Electric
 Pokedex = This legendary bird Pokémon is said to appear only when a thundercloud parts into two halves.
 Generation = 1
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [MOLTRES]
 Name = Moltres
@@ -4953,7 +4953,7 @@ Weight = 60.0
 Kind = Flame
 Pokedex = One of the legendary bird Pokémon. It is said that its appearance indicates the coming of spring.
 Generation = 1
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [GARTICUNO]
 Name = G. Articuno
@@ -4976,7 +4976,7 @@ Weight = 55.4
 Kind = Cruel
 Pokedex = Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [GZAPDOS]
 Name = G. Zapdos
@@ -5022,7 +5022,7 @@ Weight = 60.0
 Kind = Malevolent
 Pokedex = This Pokémon's sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [MEWTWO]
 Name = Mewtwo
@@ -5065,7 +5065,7 @@ Weight = 4.0
 Kind = New Species
 Pokedex = It's very intelligent and can use an incredible variety of moves. Many believe that all other Pokémon are descendants of this one.
 Generation = 1
-Flags = Legendary,TutorAny,Floating
+Flags = Legendary,TutorAny,Floating,Sub_Legendary
 #-------------------------------
 [CHIKORITA]
 Name = Chikorita
@@ -7203,7 +7203,7 @@ Weight = 178.0
 Kind = Thunder
 Pokedex = Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
 Generation = 2
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [ENTEI]
 Name = Entei
@@ -7225,7 +7225,7 @@ Weight = 198.0
 Kind = Volcano
 Pokedex = Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.
 Generation = 2
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [SUICUNE]
 Name = Suicune
@@ -7247,7 +7247,7 @@ Weight = 187.0
 Kind = Aurora
 Pokedex = Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pokémon has the power to purify dirty water.
 Generation = 2
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [LUGIA]
 Name = Lugia
@@ -7316,7 +7316,7 @@ Weight = 5.0
 Kind = Time Travel
 Pokedex = This Pokémon traveled through time to come from the future. It bolsters grass and trees with its own strength, and it can heal wounds, too.
 Generation = 2
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [TREECKO]
 Name = Treecko
@@ -10483,7 +10483,7 @@ Weight = 230.0
 Kind = Stone Age
 Pokedex = The third of the titans, built to commemorate an era of stonecraft. It is as resilient as an ancient monolith.
 Generation = 3
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [REGICE]
 Name = Regice
@@ -10505,7 +10505,7 @@ Weight = 175.0
 Kind = Ice Age
 Pokedex = The second of the titans, built to commemorate an era of ice. It is as implacable as an encroaching glacier.
 Generation = 3
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [REGISTEEL]
 Name = Registeel
@@ -10527,7 +10527,7 @@ Weight = 205.0
 Kind = Iron Age
 Pokedex = The fourth of the titans, built to commemorate an era of metalworking. It is as unfailing as a master swordsmith's blade.
 Generation = 3
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [REGIELEKI]
 Name = Regieleki
@@ -10549,7 +10549,7 @@ Weight = 145.0
 Kind = Electric Age
 Pokedex = The fifth of the titans, built to commemorate an era of electricity. It is as inscrutable as a cutting-edge supercomputer.
 Generation = 8
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [REGIDRAGO]
 Name = Regidrago
@@ -10571,7 +10571,7 @@ Weight = 200.0
 Kind = Prehistoric Age
 Pokedex = The first of the titans, built to commemorate an era when dragons ruled. It is as terrifying as an apex predator.
 Generation = 8
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [REGIGIGAS]
 Name = Regigigas
@@ -10617,7 +10617,7 @@ Weight = 40.0
 Kind = Eon
 Pokedex = Latias is highly sensitive to the emotions of people. If it senses any hostility, this Pokémon ruffles the feathers all over its body and cries shrilly to intimidate them.
 Generation = 3
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [LATIOS]
 Name = Latios
@@ -10640,7 +10640,7 @@ Weight = 60.0
 Kind = Eon
 Pokedex = Latios has the ability to make others see an image of what it has seen or imagines in its head. This Pokémon is intelligent and understands human speech.
 Generation = 3
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [KYOGRE]
 Name = Kyogre
@@ -10733,7 +10733,7 @@ Weight = 1.1
 Kind = Wish
 Pokedex = It is said to have the ability to grant any wish for just one week every thousand years.
 Generation = 3
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 WildItemCommon = STARPIECE
 WildItemUncommon = STARPIECE
 WildItemRare = STARPIECE
@@ -10758,7 +10758,7 @@ Kind = DNA
 Pokedex = DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.
 FormName = Normal
 Generation = 3
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 Formalizer = 0,1,2,3
 #-------------------------------
 [TURTWIG]
@@ -12216,7 +12216,7 @@ Weight = 0.3
 Kind = Knowledge
 Pokedex = Known as "The Being of Knowledge." It is said that it can wipe out the memory of those who see its eyes.
 Generation = 4
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [MESPRIT]
 Name = Mesprit
@@ -12239,7 +12239,7 @@ Weight = 0.3
 Kind = Emotion
 Pokedex = Known as "The Being of Emotion." It taught humans the nobility of sorrow, pain, and joy.
 Generation = 4
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [AZELF]
 Name = Azelf
@@ -12262,7 +12262,7 @@ Weight = 0.3
 Kind = Willpower
 Pokedex = Known as "The Being of Willpower." It sleeps at the bottom of a lake to keep the world in balance.
 Generation = 4
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [DIALGA]
 Name = Dialga
@@ -12330,7 +12330,7 @@ Weight = 430.0
 Kind = Lava Dome
 Pokedex = It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.
 Generation = 4
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [GIRATINA]
 Name = Giratina
@@ -12377,7 +12377,7 @@ Weight = 85.6
 Kind = Lunar
 Pokedex = Those who sleep holding Cresselia's feather are assured of joyful dreams. It is said to represent the crescent moon.
 Generation = 4
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [PHIONE]
 Name = Phione
@@ -12398,7 +12398,7 @@ Weight = 3.1
 Kind = Sea Drifter
 Pokedex = It drifts in warm seas. It always returns to where it was born, no matter how far it may have drifted.
 Generation = 4
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 Evolutions = MANAPHY,Item,ANCIENTSEAWATER
 #-------------------------------
 [MANAPHY]
@@ -12418,7 +12418,7 @@ Weight = 1.4
 Kind = Seafaring
 Pokedex = It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.
 Generation = 4
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [DARKRAI]
 Name = Darkrai
@@ -12440,7 +12440,7 @@ Weight = 50.5
 Kind = Pitch-Black
 Pokedex = It can lull people to sleep and make them dream. It is active during nights of the new moon.
 Generation = 4
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [SHAYMIN]
 Name = Shaymin
@@ -12463,7 +12463,7 @@ Kind = Gratitude
 Pokedex = The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude are the message it delivers.
 FormName = Land
 Generation = 4
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [ARCEUS]
 Name = Arceus
@@ -15951,7 +15951,7 @@ Weight = 250.0
 Kind = Iron Will
 Pokedex = It has a body and heart of steel. It worked with its allies to punish people when they hurt Pokémon.
 Generation = 5
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [TERRAKION]
 Name = Terrakion
@@ -15974,7 +15974,7 @@ Weight = 260.0
 Kind = Cavern
 Pokedex = Spoken of in legend, this Pokémon used its phenomenal power to destroy a castle in its effort to protect Pokémon.
 Generation = 5
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [VIRIZION]
 Name = Virizion
@@ -15997,7 +15997,7 @@ Weight = 200.0
 Kind = Grassland
 Pokedex = Legends say this Pokémon confounded opponents with its swift movements.
 Generation = 5
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [KELDEO]
 Name = Keldeo
@@ -16021,7 +16021,7 @@ Kind = Colt
 Pokedex = When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.
 FormName = Ordinary
 Generation = 5
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [TORNADUS]
 Name = Tornadus
@@ -16044,7 +16044,7 @@ Kind = Cyclone
 Pokedex = Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.
 FormName = Incarnate
 Generation = 5
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [THUNDURUS]
 Name = Thundurus
@@ -16068,7 +16068,7 @@ Kind = Bolt Strike
 Pokedex = The spikes on its tail discharge immense bolts of lightning. It flies around the Unova region firing off lightning bolts.
 FormName = Incarnate
 Generation = 5
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [LANDORUS]
 Name = Landorus
@@ -16092,7 +16092,7 @@ Kind = Abundance
 Pokedex = Lands visited by Landorus grant such bountiful crops that it has been hailed as "The Guardian of the Fields."
 FormName = Incarnate
 Generation = 5
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [ENAMORUS]
 Name = Enamorus
@@ -16116,7 +16116,7 @@ Kind = Love-Hate
 Pokedex = According to legend, this Pokémon's love gave rise to the budding of fresh life across Hisui.
 FormName = Incarnate
 Generation = 8
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [RESHIRAM]
 Name = Reshiram
@@ -16238,7 +16238,7 @@ Kind = Paleozoic
 Pokedex = This Pokémon existed 300 million years ago. Team Plasma altered it and attached a cannon to its back.
 FormName = Genesect
 Generation = 5
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 StickyItems = BURNDRIVE,CHILLDRIVE,DOUSEDRIVE,SHOCKDRIVE
 #-------------------------------
 [VICTINI]
@@ -16261,7 +16261,7 @@ Weight = 4.0
 Kind = Victory
 Pokedex = This Pokémon brings victory. It is said that Trainers with Victini always win, regardless of the type of encounter.
 Generation = 5
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [CHESPIN]
 Name = Chespin
@@ -17418,7 +17418,7 @@ Weight = 8.8
 Kind = Jewel
 Pokedex = It can instantly create many diamonds by compressing the carbon in the air between its hands.
 Generation = 6
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 StickyItems = CRYSTALCALIBURN
 #-------------------------------
 [GOOMY]
@@ -17833,7 +17833,7 @@ Kind = Mischief
 Pokedex = It gathers things it likes and passes them through its loop to teleport them to a secret place.
 FormName = Hoopa Confined
 Generation = 6
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [VOLCANION]
 Name = Volcanion
@@ -17856,7 +17856,7 @@ Weight = 195.0
 Kind = Steam
 Pokedex = It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.
 Generation = 6
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [ROWLET]
 Name = Rowlet
@@ -18965,7 +18965,7 @@ Weight = 120.5
 Kind = Synthetic
 Pokedex = A Pokémon weapon developed for a specific mission, it went berserk during an experiment, so it was cryogenically frozen.
 Generation = 7
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 Evolutions = SILVALLY,Level,52
 #-------------------------------
 [SILVALLY]
@@ -18987,7 +18987,7 @@ Kind = Synthetic
 Pokedex = This is its form once it has awakened and evolved. Freed from its heavy mask, its speed is greatly increased.
 FormName = Type: Normal
 Generation = 7
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 StickyItems = MEMORYSET
 #-------------------------------
 [MINIOR]
@@ -19249,7 +19249,7 @@ Weight = 20.5
 Kind = Land Spirit
 Pokedex = Although it's called a guardian deity, if a person or Pokémon puts it in a bad mood, it will become a malevolent deity and attack.
 Generation = 7
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [TAPULELE]
 Name = Tapu Lele
@@ -19271,7 +19271,7 @@ Weight = 18.6
 Kind = Land Spirit
 Pokedex = It heals the wounds of people and Pokémon by sprinkling them with its sparkling scales. This guardian deity is worshiped on Akala.
 Generation = 7
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [TAPUBULU]
 Name = Tapu Bulu
@@ -19293,7 +19293,7 @@ Weight = 45.5
 Kind = Land Spirit
 Pokedex = Although it's called a guardian deity, it's violent enough to crush anyone it sees as an enemy.
 Generation = 7
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [TAPUFINI]
 Name = Tapu Fini
@@ -19315,7 +19315,7 @@ Weight = 21.2
 Kind = Land Spirit
 Pokedex = This guardian deity of Poni Island manipulates water. Because it lives deep within a thick fog, it came to be both feared and revered.
 Generation = 7
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [COSMOG]
 Name = Cosmog
@@ -19449,7 +19449,7 @@ Weight = 55.5
 Kind = Parasite
 Pokedex = A life-form from another world, it was dubbed a UB and is thought to produce a strong neurotoxin.
 Generation = 7
-Flags = Legendary,UltraBeast,Floating
+Flags = Legendary,UltraBeast,Floating,Sub_Legendary
 #-------------------------------
 [BUZZWOLE]
 Name = Buzzwole
@@ -19472,7 +19472,7 @@ Weight = 333.6
 Kind = Swollen
 Pokedex = Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.
 Generation = 7
-Flags = Legendary,UltraBeast
+Flags = Legendary,UltraBeast,Sub_Legendary
 #-------------------------------
 [PHEROMOSA]
 Name = Pheromosa
@@ -19495,7 +19495,7 @@ Weight = 25.0
 Kind = Lissome
 Pokedex = A life-form that lives in another world, its body is thin and supple, but it also possesses great power.
 Generation = 7
-Flags = Legendary,UltraBeast
+Flags = Legendary,UltraBeast,Sub_Legendary
 #-------------------------------
 [XURKITREE]
 Name = Xurkitree
@@ -19517,7 +19517,7 @@ Weight = 100.0
 Kind = Glowing
 Pokedex = One of the mysterious life-forms known as Ultra Beasts. Astonishing electric shocks emanate from its entire body, according to witnesses.
 Generation = 7
-Flags = Legendary,UltraBeast
+Flags = Legendary,UltraBeast,Sub_Legendary
 #-------------------------------
 [CELESTEELA]
 Name = Celesteela
@@ -19540,7 +19540,7 @@ Weight = 999.9
 Kind = Launch
 Pokedex = One of the dangerous UBs, high energy readings can be detected coming from both of its huge arms.
 Generation = 7
-Flags = Legendary,UltraBeast
+Flags = Legendary,UltraBeast,Sub_Legendary
 #-------------------------------
 [KARTANA]
 Name = Kartana
@@ -19563,7 +19563,7 @@ Weight = 0.1
 Kind = Drawn Sword
 Pokedex = This Ultra Beast's body, which is as thin as paper, is like a sharpened sword.
 Generation = 7
-Flags = Legendary,UltraBeast,Floating
+Flags = Legendary,UltraBeast,Floating,Sub_Legendary
 #-------------------------------
 [GUZZLORD]
 Name = Guzzlord
@@ -19586,7 +19586,7 @@ Weight = 888.0
 Kind = Junkivore
 Pokedex = A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.
 Generation = 7
-Flags = Legendary,UltraBeast
+Flags = Legendary,UltraBeast,Sub_Legendary
 #-------------------------------
 [POIPOLE]
 Name = Poipole
@@ -19609,7 +19609,7 @@ Weight = 1.8
 Kind = Poison Pin
 Pokedex = This Ultra Beast is well enough liked to be chosen as a first partner in its own world.
 Generation = 7
-Flags = Legendary,UltraBeast,Floating
+Flags = Legendary,UltraBeast,Floating,Sub_Legendary
 Evolutions = NAGANADEL,Level,40
 #-------------------------------
 [NAGANADEL]
@@ -19632,7 +19632,7 @@ Weight = 150.0
 Kind = Poison Pin
 Pokedex = It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.
 Generation = 7
-Flags = Legendary,UltraBeast,Floating
+Flags = Legendary,UltraBeast,Floating,Sub_Legendary
 #-------------------------------
 [STAKATAKA]
 Name = Stakataka
@@ -19655,7 +19655,7 @@ Weight = 820.0
 Kind = Rampart
 Pokedex = It appeared from an Ultra Wormhole. Each one appears to be made up of many life-forms stacked one on top of each other.
 Generation = 7
-Flags = Legendary,UltraBeast
+Flags = Legendary,UltraBeast,Sub_Legendary
 #-------------------------------
 [BLACEPHALON]
 Name = Blacephalon
@@ -19678,7 +19678,7 @@ Weight = 13.0
 Kind = Fireworks
 Pokedex = It slithers toward people. Then, without warning, it triggers the explosion of its own head. It's apparently one kind of Ultra Beast.
 Generation = 7
-Flags = Legendary,UltraBeast
+Flags = Legendary,UltraBeast,Sub_Legendary
 #-------------------------------
 [MAGEARNA]
 Name = Magearna
@@ -19701,7 +19701,7 @@ Weight = 80.5
 Kind = Artificial
 Pokedex = It synchronizes its consciousness with others to understand their feelings. This faculty makes it useful for taking care of people.
 Generation = 7
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Sub_Legendary
 #-------------------------------
 [MARSHADOW]
 Name = Marshadow
@@ -19724,7 +19724,7 @@ Weight = 22.2
 Kind = Gloomdweller
 Pokedex = It slips into the shadows of others and mimics their powers and movements. As it improves, it becomes stronger than those it's imitating.
 Generation = 7
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [ZERAORA]
 Name = Zeraora
@@ -19746,7 +19746,7 @@ Weight = 44.5
 Kind = Thunderclap
 Pokedex = It electrifies its claws and tears its opponents apart with them. Even if they dodge its attack, they'll be electrocuted by the flying sparks.
 Generation = 7
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [MELTAN]
 Name = Meltan
@@ -19768,7 +19768,7 @@ Weight = 8.0
 Kind = Hex Nut
 Pokedex = It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.
 Generation = 7
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 Evolutions = MELMETAL,Level,44
 #-------------------------------
 [MELMETAL]
@@ -19789,7 +19789,7 @@ Weight = 800.0
 Kind = Hex Nut
 Pokedex = Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.
 Generation = 7
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [GROOKEY]
 Name = Grookey
@@ -21588,7 +21588,7 @@ Weight = 12.0
 Kind = Wushu
 Pokedex = If Kubfu pulls the long white hair on its head, its fighting spirit heightens and power wells up from the depths of its belly.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 Evolutions = URSHIFU,Level,52
 #-------------------------------
 [URSHIFU]
@@ -21612,7 +21612,7 @@ Kind = Wushu
 Pokedex = Inhabiting the mountains of a distant region, this Pokémon races across sheer cliffs, training its legs and refining its moves.
 FormName = Single Strike
 Generation = 8
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 Formalizer = 0,1
 #-------------------------------
 [ZARUDE]
@@ -21636,7 +21636,7 @@ Weight = 70.0
 Kind = Rogue Monkey
 Pokedex = Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [GLASTRIER]
 Name = Glastrier
@@ -21658,7 +21658,7 @@ Weight = 800.0
 Kind = Wild Horse
 Pokedex = Glastrier has tremendous physical strength, and the mask of ice covering its face is 100 times harder than diamond.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [SPECTRIER]
 Name = Spectrier
@@ -21680,7 +21680,7 @@ Weight = 44.5
 Kind = Swift Horse
 Pokedex = As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and solitude.
 Generation = 8
-Flags = Legendary
+Flags = Legendary,Sub_Legendary
 #-------------------------------
 [CALYREX]
 Name = Calyrex
