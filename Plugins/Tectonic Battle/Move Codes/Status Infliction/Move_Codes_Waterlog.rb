@@ -69,7 +69,7 @@ class PokeBattle_Move_WaterlogTargetStartHealUserEachTurn < PokeBattle_WaterlogM
 
     def pbEffectAgainstTarget(user, target)
         return if damagingMove?
-        target.applyWaterlog if target.canWaterlog?(user, false, self)
+        target.applyWaterlog(user) if target.canWaterlog?(user, false, self)
     end
 
     def pbEffectGeneral(user)

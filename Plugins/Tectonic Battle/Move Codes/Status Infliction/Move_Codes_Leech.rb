@@ -21,7 +21,7 @@ class PokeBattle_Move_LeechTargetLowerTargetAtkSpAtk1 < PokeBattle_LeechMove
 
     def pbEffectAgainstTarget(user, target)
         return if damagingMove?
-        target.applyLeeched if target.canLeech?(user, false, self)
+        target.applyLeeched(user) if target.canLeech?(user, false, self)
         target.pbLowerMultipleStatSteps(ATTACKING_STATS_1, user, move: self)
     end
 end

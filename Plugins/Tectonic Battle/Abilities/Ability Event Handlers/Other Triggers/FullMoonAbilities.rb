@@ -13,7 +13,7 @@ BattleHandlers::FullMoonAbility.add(:WANINGWILLPOWER,
         battle.pbShowAbilitySplash(battler, ability)
         battle.pbDisplay(_INTL("{1} steals the energy from its moonstruck enemies!", battler.pbThis))
         battle.eachOtherSideBattler(battler) do |b|
-            b.applyLeeched if b.canLeech?(battler, true) && b.flinchedByMoonglow?
+            b.applyLeeched(battler) if b.canLeech?(battler, true) && b.flinchedByMoonglow?
         end
         battle.pbHideAbilitySplash(battler)
     }

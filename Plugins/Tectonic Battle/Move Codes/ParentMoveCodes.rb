@@ -211,15 +211,15 @@ class PokeBattle_FrostbiteMove < PokeBattle_Move
         return !target.canFrostbite?(user, show_message, self)
     end
 
-    def pbEffectAgainstTarget(_user, target)
+    def pbEffectAgainstTarget(user, target)
         return if damagingMove?
-        target.applyFrostbite
+        target.applyFrostbite(user)
     end
 
     def pbAdditionalEffect(user, target)
         return if target.damageState.substitute
         return unless target.canFrostbite?(user, guaranteedEffect?, self)
-        target.applyFrostbite
+        target.applyFrostbite(user)
     end
 
     def getTargetAffectingEffectScore(user, target)
@@ -236,15 +236,15 @@ class PokeBattle_DizzyMove < PokeBattle_Move
         return !target.canDizzy?(user, show_message, self)
     end
 
-    def pbEffectAgainstTarget(_user, target)
+    def pbEffectAgainstTarget(user, target)
         return if damagingMove?
-        target.applyDizzy
+        target.applyDizzy(user)
     end
 
     def pbAdditionalEffect(user, target)
         return if target.damageState.substitute
         return unless target.canDizzy?(user, guaranteedEffect?, self)
-        target.applyDizzy
+        target.applyDizzy(user)
     end
 
     def getTargetAffectingEffectScore(user, target)
@@ -261,15 +261,15 @@ class PokeBattle_LeechMove < PokeBattle_Move
         return !target.canLeech?(user, show_message, self)
     end
 
-    def pbEffectAgainstTarget(_user, target)
+    def pbEffectAgainstTarget(user, target)
         return if damagingMove?
-        target.applyLeeched
+        target.applyLeeched(user)
     end
 
     def pbAdditionalEffect(user, target)
         return if target.damageState.substitute
         return unless target.canLeech?(user, guaranteedEffect?, self)
-        target.applyLeeched
+        target.applyLeeched(user)
     end
 
     def getTargetAffectingEffectScore(user, target)
@@ -286,15 +286,15 @@ class PokeBattle_WaterlogMove < PokeBattle_Move
         return !target.canWaterlog?(user, show_message, self)
     end
 
-    def pbEffectAgainstTarget(_user, target)
+    def pbEffectAgainstTarget(user, target)
         return if damagingMove?
-        target.applyWaterlog
+        target.applyWaterlog(user)
     end
 
     def pbAdditionalEffect(user, target)
         return if target.damageState.substitute
         return unless target.canWaterlog?(user, guaranteedEffect?, self)
-        target.applyWaterlog
+        target.applyWaterlog(user)
     end
 
     def getTargetAffectingEffectScore(user, target)
