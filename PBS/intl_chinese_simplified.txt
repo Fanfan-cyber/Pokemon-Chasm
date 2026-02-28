@@ -7126,7 +7126,7 @@ It’s Mavis. You have to answer.
 ...No, you don’t.
 但也未必。
 Thanks for completing Pokemon Tectonic!
-感谢您游玩《口袋妖怪 地震》！
+感谢您游玩《口袋妖怪地震》！
 Please consider filling out the Playtest Survey that is linked on the main menu.
 如果对游戏有任何意见，可以找芳芳反馈，你的合理建议将会被接受。
 Your feedback helps a lot to continue to improve the game.
@@ -15756,7 +15756,7 @@ You're pumped up! Experience gain from battles is boosted until the next time yo
 Styles Value Adjuster
 风格点数调整师
 Mentor Coordinator
-技能协调员
+教学技能协调员
 Move Reminder
 技能回忆者
 Cancel
@@ -25337,11 +25337,11 @@ Magmar
 Magmortar
 鸭嘴暴龙
 Pinsir
-凯罗斯
-Scarapace
-萨凯帕切
-Heracross
 大甲
+Scarapace
+巨甲
+Heracross
+钢甲
 Atlacross
 超甲
 Tauros
@@ -46386,7 +46386,7 @@ Sp. Atk
 Sp. Def
 特防
 Main Ability is disabled.
-自选特性现在不可用。
+自选特性现在不可用，通过开启自选特性模式以激活主特性。
 {1} doesn't have Main Ability.
 {1}没有自选特性。
 {1} (USE: Check more)
@@ -46478,9 +46478,9 @@ Make sure to go over all the options to determine what you want to enable.
 Want to learn about your active battler's moves?
 要了解当前场上精灵的技能吗？
 Activate the Move Info Panel! It's a feature of the Fight screen.
-新功能，技能信息面板。
+新功能，技能信息面板，你可以在战斗中随时查看技能详细信息。
 Press your "Action" key (Z/Shift by default) to toggle it on or off.
-按下“功能”键(Z)后，可以开启或关闭此功能。
+移动到某个技能后按下“功能”键(Z)后，可以开启或关闭此面板。
 Many type matchups were changed in Pokémon Tectonic.
 在该游戏中，许多属性克制关系发生了变化。
 To strengthen some types, we had to weaken others.
@@ -46521,6 +46521,14 @@ They differ in hue and brightness!
 它们在色调和亮度上有所不同！
 If you wish, you can turn this off in the options.
 如果你愿意，可以在选项中关闭这个功能。
+Pokémon Tectoquake features a Gym Leader Rematch mechanic.
+在《口袋妖怪地震》中引入了馆主再战机制。
+To earn the badge, you must defeat the Gym Leader multiple times, using completely different teams each time!
+你需要使用完全不同的队伍多次击败道馆馆主才能获得徽章！
+Check the Battle Loader for more details.
+请查看战斗模拟器的相关部分以了解更多信息。
+Have a marvelous time strategizing!
+祝你有一个愉快的头脑风暴时间！
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
@@ -47362,31 +47370,31 @@ Search for which move?
 No matching move was found in this tab.
 在此标签页中未找到匹配的技能。
 Mentor Moves
-导师技能
+教学技能
 What is Move Mentoring?
-什么是技能导师？
+什么是技能教学？
 I'm the Mentor Coordinator. How can I help?
-我是导师协调员。我能帮到你什么？
+我是教学技能协调员。我能帮到你什么？
 I help your Pokémon to teach each other moves!
 我帮助你的精灵互相学习技能！
 Pokémon can teach moves they know, moves they used to know, and moves earlier on their level up learnset.
 精灵可以教授它们已知的技能、曾经知道的技能以及它们等级增加学习集中更早的技能。
 Any Pokémon in your party or in your PC can be a mentor.
-你的队伍中的任何精灵或电脑中的精灵都可以成为导师。
+你的队伍中的任何精灵或电脑中的精灵都可以成为教学的导师。
 Pokémon can be taught any moves on their Other Moves list.
 精灵可以学习它们的其他技能列表上的任何技能。
 Relearn Moves
-重新学习技能
+回忆技能
 What is Move Relearning?
-什么是技能重新学习？
+什么是回忆技能？
 I'm the Move Relearner. How can I help?
-我是技能重新学习者。我能帮到你什么？
+我是技能回忆者。我能帮到你什么？
 I can teach moves to your Pokémon -- at no cost!
 我可以免费教你的精灵技能！
 I know every single move that Pokémon learn while leveling up or evolving.
 我知道精灵在升级或进化时学习的所有技能。
 I can also help Pokémon to relearn moves they learned through TMs, Mentoring, or Sketching!
-我还可以帮助精灵重新学习它们通过技能机器、导师或素描学习的技能！
+我还可以帮助精灵重新学习它们通过技能机器、导师或写生学习的技能！
 Speech frame {1}.
 文字框{1}。
 Audio Options
@@ -50855,6 +50863,8 @@ Items can't be used here.
 物品无法在这里使用！
 Your foe was <imp>ambushed</imp>! You get a free turn!
 你的对手被<imp>击溃</imp>了！你获得了自由的回合！
+{1} is investigating!
+{1}正在调查！
 {1} predicts that {2} will use a status move!
 {1}预测到{2}将会使用变化类技能！
 {1} predicts that {2} will use an attack!
@@ -60408,7 +60418,7 @@ Two months, twenty days.
 Styles Value Adjuster
 风格点数调整师
 Mentor Coordinator
-技能协调员
+教学技能协调员
 Move Reminder
 技能回忆者
 Where is it?

@@ -150,6 +150,18 @@ def playColorationDifferencesTutorial
     playTutorial(tutorialMessages)
 end
 
+def playGmyLeaderRematchTutorial
+    $PokemonGlobal.gmyLeaderRematchTutorialized = true
+    tutorialMessages = 
+    [
+        _INTL("Pokémon Tectoquake features a Gym Leader Rematch mechanic."),
+        _INTL("To earn the badge, you must defeat the Gym Leader multiple times, using completely different teams each time!"),
+        _INTL("Check the Battle Loader for more details."),
+        _INTL("Have a marvelous time strategizing!")
+    ]
+    playTutorial(tutorialMessages)
+end
+
 
 def tutorialIntro
     pbBGMFade(1.0)

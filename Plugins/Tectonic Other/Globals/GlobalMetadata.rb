@@ -242,6 +242,13 @@ class PokemonGlobalMetadata
     # Tutorials
     ####################################################
 
+    attr_writer :gmyLeaderRematchTutorialized
+    
+    def gmyLeaderRematchTutorialized
+        @gmyLeaderRematchTutorialized = false if @gmyLeaderRematchTutorialized.nil?
+        return @gmyLeaderRematchTutorialized
+    end
+
     attr_writer :noWildEXPTutorialized
 
     def noWildEXPTutorialized

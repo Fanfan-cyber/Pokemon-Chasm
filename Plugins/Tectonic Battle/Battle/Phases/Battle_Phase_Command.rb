@@ -246,17 +246,18 @@ class PokeBattle_Battle
                 next if possibleInvestigation.length == 0
                 investigating = possibleInvestigation.sample
                 pbShowAbilitySplash(b, :INVESTIGATOR)
+                pbDisplayPaused(_INTL("{1} is investigating!", b.pbThis))
                 choice = @choices[investigating.index]
                 case choice[0]
                 when :UseMove
                     moveUsing = choice[2]
                     if moveUsing.statusMove?
-                        pbDisplay(_INTL("{1} predicts that {2} will use a status move!", b.pbThis, investigating.pbThis(true)))
+                        pbDisplayPaused(_INTL("{1} predicts that {2} will use a status move!", b.pbThis, investigating.pbThis(true)))
                     else
-                        pbDisplay(_INTL("{1} predicts that {2} will use an attack!", b.pbThis, investigating.pbThis(true)))
+                        pbDisplayPaused(_INTL("{1} predicts that {2} will use an attack!", b.pbThis, investigating.pbThis(true)))
                     end
                 when :SwitchOut
-                    pbDisplay(_INTL("{1} predicts that {2} will switch out!", b.pbThis, investigating.pbThis(true)))
+                    pbDisplayPaused(_INTL("{1} predicts that {2} will switch out!", b.pbThis, investigating.pbThis(true)))
                 end
                 pbHideAbilitySplash(b)
             end

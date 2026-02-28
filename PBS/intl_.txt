@@ -46521,6 +46521,14 @@ They differ in hue and brightness!
 They differ in hue and brightness!
 If you wish, you can turn this off in the options.
 If you wish, you can turn this off in the options.
+Pokémon Tectoquake features a Gym Leader Rematch mechanic.
+Pokémon Tectoquake features a Gym Leader Rematch mechanic.
+To earn the badge, you must defeat the Gym Leader multiple times, using completely different teams each time!
+To earn the badge, you must defeat the Gym Leader multiple times, using completely different teams each time!
+Check the Battle Loader for more details.
+Check the Battle Loader for more details.
+Have a marvelous time strategizing!
+Have a marvelous time strategizing!
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
@@ -50855,6 +50863,8 @@ Items can't be used here.
 Items can't be used here.
 Your foe was <imp>ambushed</imp>! You get a free turn!
 Your foe was <imp>ambushed</imp>! You get a free turn!
+{1} is investigating!
+{1} is investigating!
 {1} predicts that {2} will use a status move!
 {1} predicts that {2} will use a status move!
 {1} predicts that {2} will use an attack!
