@@ -35,7 +35,7 @@ module TimeCapsule
           if has_species?(pkmn.species, pkmn.form)
             pbMessage(_INTL("You can't retrieve this Pokémon! You already have one!"))
           else
-            clear_pkmn(pkmn)
+            clear_pkmn(pkmn, false)
             pkmn.ownedByPlayer? ? pbAddPokemonSilent(pkmn, count: false) : pbAddPokemonSilent(pkmn)
             @@time_capsule.delete_at(data[1])
             pbMessage(_INTL("You retrieved {1}!", pkmn.name))

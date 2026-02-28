@@ -54928,11 +54928,15 @@ But a stealth spray's effect still lingers from earlier.
 There's no trainers nearby to use the Stink Bomb on.
 周围没有训练师使用臭气炸弹。
 {1} trainers are in range. Deploy?
-{1}名训练师在范围内。部署吗？
+{1}名训练师在范围内，使用吗？
 {1} trainers fled from the stench!
 {1}名训练师因恶臭而逃离！
 A nearby trainer fled from the stench!
 附近的1名训练师被臭走了！
+{1} trainers refused to battle due to the stench!
+{1}名训练师因为太臭了不想战斗而主动认输！
+A nearby trainer refused to battle due to the stench!
+附近的1名训练师因为太臭了不想战斗而主动认输！
 Oh, a strange item was left behind!
 留下了1个奇怪的东西！
 Oh, some strange items were left behind!
@@ -59381,6 +59385,8 @@ It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 让精灵携带后，当HP小于25%时，可回复50%HP。
 An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.
 1种携带物。携带者额外获得1个随机特性，但其能力会减小10%。
+Rare contraband. Any average solo trainer will refused to battle due to the stench of its explosion.
+1种稀有违禁品。使用后普通的单人训练师会因它爆炸所产生的臭味不想战斗而主动认输。
 If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
 让精灵携带后，吃下时，若当前HP大于25%，则回复25%HP，反之，则回复33%HP。
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by three steps.

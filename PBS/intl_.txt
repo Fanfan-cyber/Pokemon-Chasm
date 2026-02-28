@@ -54933,6 +54933,10 @@ There's no trainers nearby to use the Stink Bomb on.
 {1} trainers fled from the stench!
 A nearby trainer fled from the stench!
 A nearby trainer fled from the stench!
+{1} trainers refused to battle due to the stench!
+{1} trainers refused to battle due to the stench!
+A nearby trainer refused to battle due to the stench!
+A nearby trainer refused to battle due to the stench!
 Oh, a strange item was left behind!
 Oh, a strange item was left behind!
 Oh, some strange items were left behind!
@@ -59381,6 +59385,8 @@ It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.
 An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.
+Rare contraband. Any average solo trainer will refused to battle due to the stench of its explosion.
+Rare contraband. Any average solo trainer will refused to battle due to the stench of its explosion.
 If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
 If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by three steps.

@@ -19,11 +19,11 @@ module RocketMode
   end
 end
 
-def clear_pkmn(pkmn)
+def clear_pkmn(pkmn, clear_move = true)
   target_level = getLevelCap - 5
   pkmn.level = target_level if pkmn.level > getLevelCap - 5
   pkmn.ability = nil
-  pkmn.reset_moves
+  pkmn.reset_moves if clear_move
   pkmn.removeItems
   pkmn.extraTypes.clear
   pkmn.extraAbilities.clear

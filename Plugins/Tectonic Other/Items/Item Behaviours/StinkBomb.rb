@@ -38,20 +38,29 @@ ItemHandlers::UseInField.add(:STINKBOMB,proc { |item|
         pbWait(24)
     end
 
+=begin
     if eventsToRemove.count > 1
         pbMessage(_INTL("{1} trainers fled from the stench!", eventsToRemove.count))
     else
         pbMessage(_INTL("A nearby trainer fled from the stench!"))
     end
+=end
+    if eventsToRemove.count > 1
+        pbMessage(_INTL("{1} trainers refused to battle due to the stench!", eventsToRemove.count))
+    else
+        pbMessage(_INTL("A nearby trainer refused to battle due to the stench!"))
+    end
     condensedLightCount = 0
-    blackFadeOutIn {
+    #blackFadeOutIn {
         eventsToRemove.each do |eventToRemove|
             echoln("Causing event #{eventToRemove.name} (#{eventToRemove.event.id}) to flee")
-            pbSetSelfSwitch(eventToRemove.id,'D',true,$game_map.map_id)
-            setFollowerGone(eventToRemove.id)
-            condensedLightCount += 1 if eventToRemove.name.downcase.include?("condensedlight")
+            #pbSetSelfSwitch(eventToRemove.id,'D',true,$game_map.map_id)
+            #setFollowerGone(eventToRemove.id)
+            pbSetSelfSwitch(eventToRemove.id,'A',true)
+            setFollowerInactive(eventToRemove.id)
+            #condensedLightCount += 1 if eventToRemove.name.downcase.include?("condensedlight")
         end
-    }
+    #}
     if condensedLightCount > 0
         if condensedLightCount == 1
             pbMessage(_INTL("Oh, a strange item was left behind!"))
