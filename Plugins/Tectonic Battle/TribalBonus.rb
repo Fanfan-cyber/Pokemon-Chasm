@@ -21,12 +21,16 @@ class TribalBonus
         resetTribeCounts()
 
         # Count all tribes that exist for pokemon in player's party
-        applied_all = false
+        applied_all_abillity = false
+        applied_all_item = false
         @trainer.party.each {|pokemon|
             tribes = pokemon.tribes
-            if pokemon.should_apply_all_tribes?
-                tribes = pokemon.species_data.tribes if applied_all
-                applied_all = true
+            if pokemon.should_apply_all_tribes_abillity?
+                tribes = pokemon.species_data.tribes if applied_all_abillity
+                applied_all_abillity = true
+            elsif pokemon.should_apply_all_tribes_item?
+                tribes = pokemon.species_data.tribes if applied_all_item
+                applied_all_item = true
             end
             tribes.each {|tribe|
                 next if !@tribeCounts.has_key?(tribe)

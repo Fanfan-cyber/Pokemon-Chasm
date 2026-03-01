@@ -1308,7 +1308,7 @@ I'm afraid of bugs, but not ghosts.
 To be honest, this town hasn't been that scary.
 说真的，这里真没什么吓人的。
 I'm having a good time, so I'll hang out here for now.
-我在这里玩得挺开心的，所以我会多呆一阵子。
+我在这里玩得挺开心的，所以我会多呆1阵子。
 Got some rare things on sale, stranger!
 陌生人，我这里有东西要卖！
 Come back anytime.
@@ -3792,7 +3792,7 @@ A bed of fine linens, smelling lightly of perfumed detergent.
 Despite that, its not been re-made.
 应该是没涮干净吧...
 A fairly nondescript fridge.
-一台老式冰箱。
+1台老式冰箱。
 Opening it up, you find that the only noteworthy aspect is the large amount of seltzer water.
 里面塞满了矿泉水。
 When I became a Gym Leader, I was given this key.
@@ -5795,7 +5795,7 @@ Wow! We're supposed to be professionals, but your battling prowess made everyone
 You've beaten everyone, so as promised, a reward.
 你战胜了所有人，所以，这个奖励是你的了。
 Normally we give out Performance Analyzers here, but since you already have one, I'll upgrade it!
-我们这里的奖品是对战分析仪，但你已经有一台了，所以我会对它进行升级！
+我们这里的奖品是对战分析仪，但你已经有1台了，所以我会对它进行升级！
 Now, go on and win that championship, hm?
 现在，去赢得那个冠军吧？
 With all the work Helena's putting in, she deserves to have a good sport like you as victor.
@@ -6207,7 +6207,7 @@ Everyone makes a fuss about how unreasonably cold it is in this little corner of
 But I don't hear anyone talking about that crater to the south. There's something evil about it.
 那南边散发着邪恶气息的火山口呢？怎么没人说那里！
 Oh, don't give me that look! If you live in Makya long enough, you'll start to believe some strange things too!
-喂，别用那种眼神看我！你要是在马凯亚多呆一阵子，你就明白我什么意思了！
+喂，别用那种眼神看我！你要是在马凯亚多呆1阵子，你就明白我什么意思了！
 Found a really... confusing fossil while hiking around the Highland Lake.
 在高地湖附近徒步时发现了1块非常...令人困惑的化石。
 It makes me feel... weird. I don't think I can stand being around it any longer.
@@ -8292,7 +8292,7 @@ How many Water resists can they really have?
 And, hey, if you’ve got a spare team slot, bring something hyper-focused on countering what counters you.
 而且，如果你有空余的队伍位置，带一些专门针对你弱点的精灵。
 Aww. Well, at least read what I’ve written. It’s up on one of the computers.
-啊，好吧，至少读读我写的东西。它在一台电脑上。
+啊，好吧，至少读读我写的东西。它在1台电脑上。
 \PN! Nice to see you.
 \PN！能见到你真好。
 I mean, you're the champion, now, so I suppose its only natural that you'd try take on the Battle Monument.
@@ -8320,7 +8320,7 @@ Good to hear! I’ll refrain from wishing you good luck, then.
 If said luck does begin to turn, though, I encourage you to read my guide.
 但如果运气真的开始变差，我建议你读读我的指南。
 It’s up on one of the computers.
-它在一台电脑上。
+它在1台电脑上。
 Sure?
 确定吗？
 No thanks.
@@ -15413,7 +15413,7 @@ The laptop is covered in a layer of dust.
 You press the power button, but it doesn't turn on.
 你按了一下按钮，但是打不开。
 A game console. A competitive battling simulator game is loaded into its disc slot.
-一台游戏机，里面的是一款竞技对战模拟游戏。
+1台游戏机，里面的是一款竞技对战模拟游戏。
 Picture books about Pokemon are neatly organized among the shelves.
 书架上的精灵相关图书，被摆放得整整齐齐。
 You notice a particularly large book with the title "1,000 Friends: A Kid's Guide to Every Pokemon Species!"
@@ -17322,9 +17322,9 @@ Your point?
 The stove is covered with a light dusting of the powdered flavoring that comes with instant ramen.
 炉子上撒了1层方便面调料粉。
 A game console. It appears to have been quite a while since it was last used.
-一台游戏机，看起来已经很久没用过了。
+1台游戏机，看起来已经很久没用过了。
 A cheap LCD TV. The logo of a local news broadcaster has been burned into the top left corner.
-一台廉价的液晶电视，左上角烙有当地一家公司的标志。
+1台廉价的液晶电视，左上角烙有当地一家公司的标志。
 The Makyan Rangers are hiding something.
 马凯亚的护林员们还在隐瞒。
 I mean -- they're always hiding something. They're former Chasm for crying out loud! But, this... this is huge.
@@ -18331,7 +18331,7 @@ A collection of Pokemon battling guides.
 They seem like classics, likely more than 50 years old.
 相当经典得书，看起来得有50年的历史了。
 A beat up old television.
-一台破旧的电视机。
+1台破旧的电视机。
 It's been unplugged from the wall.
 插头已经拔下来了。
 [Map308]
@@ -19932,13 +19932,13 @@ Congratulations, Champion!
 Take a victory lap around the grounds, you deserve it.
 请尽请地享受和庆祝，这场来之不易的胜利吧。
 I have to nab one of those ultrawide TVs for myself.
-我想买一台超宽屏电视了。
+我想买1台超宽屏电视了。
 One Stop Tech probably has a few in stock. I picked up a few TMs from them earlier and they seem to have a good inventory.
 或许如一维修就有，上次从他们那里买技能机的时候，好像看到过存货。
 Um, if you're champion now...
 呃...既然你都是冠军了...
 Could you buy me one of those TVs?
-能给我买一台这样的电视吗？
+能给我买1台这样的电视吗？
 Hello.
 你好。
 I am here to watch my dear wife's matches on these large televisions.
@@ -20292,7 +20292,7 @@ Perhaps mockery, perhaps a nod, perhaps just an idle motion of a recently-freed 
 Then, it’s gone.
 然后，它就消失了。
 A mirage that disappears with a strong breeze, dispelled like a waking dream.
-像初醒的梦境一样，随着一阵强风消散了。
+像初醒的梦境一样，随着1阵强风消散了。
 If you come back, perhaps it will be here, waiting for you. They’ll say this place is haunted, but you know the truth.
 如果你回来找它，也许它还会在这里等你，人们会传言这个地方闹鬼，但只有你知道真相。
 It’s always liked graveyards, and it can afford to wait to make sure you won’t need it.
@@ -21540,11 +21540,11 @@ My deepest apologies, it seems we've run out of Galettes.
 What in the world is wrong with this thing...
 这东西到底出了什么问题...
 You see the scientist struggle with a computer that is rapidly blinking and turns off.
-你看到科学家正与一台快速闪烁并关闭的电脑搏斗。
+你看到科学家正与1台快速闪烁并关闭的电脑搏斗。
 There's something up with this computer. If only I had a Porygon to work it out...
 这台电脑有点问题。要是我有多边兽就好了...
 Actually hey, could you go and get me one please?
-Actually hey, could you go and get me one please?
+嘿，你能给我我拿1个吗？
 I've been needing one anyways, since I work with computers. So please do a trade with me for it, I'll figure out what to get you for it.
 反正我也需要1只，因为我经常和电脑打交道。所以请和我交换吧，我会想想给你什么作为回报。
 Well no rush, maybe it'll mysteriously start working again... and yes, I turned it off and on again.
@@ -21554,7 +21554,7 @@ Ah, alright. Check again with me if you change your mind.
 Thank you, let's get it traded.
 谢谢，我们开始交换吧。
 You trade over the Porygon. It enters the computer, and a buzzing sound is heard as a Shedinja flies out.
-你交换了多边兽。它进入电脑，随后一阵嗡嗡声响起，1只脱壳忍者飞了出来。
+你交换了多边兽。它进入电脑，随后1阵嗡嗡声响起，1只脱壳忍者飞了出来。
 You catch it to prevent it from causing any other trouble.
 你抓住了它，阻止它再惹麻烦。
 What the- it was actually a bug in there? Well damn, okay. You can keep it I guess, the computer is working perfectly.
@@ -21587,7 +21587,7 @@ My Bibarel, my beloved Bibarel...
 Why won't you stop chewing on my furniture...
 你为什么要不停地啃我的家具...
 A Nintendo Wii. A kart-racing game is loaded up.
-一台任地狱Wii，并加载了一款赛车游戏。
+1台任地狱Wii，并加载了一款赛车游戏。
 ...what? You gotta problem with my hair?
 ...什么？你对我的发型有意见？
 The only reprieve I have from my awful job is getting to look however I want between shifts.
@@ -23508,7 +23508,7 @@ Ugh, glad my shift is over. This place gives me the heebie jeebies.
 Obviously Team Chasm had something to do with it, but I don't get paid to ask those kind of questions.
 显然这些都跟裂隙队有关，但我既然拿了工资，就不会多问。
 Do you think you could run a video game on this cave system?
-你觉得这里的电路系统能接一台游戏机吗？
+你觉得这里的电路系统能接1台游戏机吗？
 I thought this would be a cool place to fly my RC airplane. I was wrong.
 我本以为来这里能自由地玩我的无人机，但显然飞不起来。
 This is Tailwind-Actual, signing out...
@@ -24225,7 +24225,7 @@ Yes
 买
 [Map427]
 An old, beaten up laptop. A couple dozen windows are open all at once.
-一台破旧的笔记本电脑，同时有几10个窗口被打开了。
+1台破旧的笔记本电脑，同时有几10个窗口被打开了。
 Something is being researched, but it's impossible to tell what specifically.
 有些还在研究中的内容，但看不懂具体是什么。
 It's Nora's laptop. She must have forgotten it in her hurry to get to Svait.
@@ -24621,7 +24621,7 @@ I’m the one who came up with the designs for the Ranger Outposts you see all o
 Bless Bogdan Cement for their cheap prices.
 还得感谢博登浇筑物美价廉的产品。
 A dusty, ancient computer terminal.
-一台满是灰尘的老式电脑。
+1台满是灰尘的老式电脑。
 "EARLY PROJECTS ARCHIVE" is displayed in big block letters at the top of the screen.
 屏幕上大大的字写着：早期项目档案。
 Below that, it prompts you to enter a password.
@@ -29315,7 +29315,7 @@ It is less hostile than the Hoennian form, but vicious towards former predators.
 Its flame is kept burning by an organ similar to a Bunsen burner. Curious Pokémon often try to put it out, to no avail.
 其火焰由类似于本生灯的器官维持燃烧。好奇的精灵总会试着将其熄灭，但往往都会失败。
 Its abdomen is actually a sophisticated torch drive. Their migrations can be tracked by following broken trees left by supersonic flybys.
-它的腹部实际上是一台复杂的火炬驱动器。它们的迁徙路线可以通过跟随其超音速飞行所留的断木来追踪。
+它的腹部实际上是1台复杂的火炬驱动器。它们的迁徙路线可以通过跟随其超音速飞行所留的断木来追踪。
 It searches about for clean water. If it does not drink water for too long, the leaf on its head wilts.
 据说原本是生活在陆地上的，但因为头上的叶子变重了，所以变成了浮在水面上生活。
 It has a mischievous spirit. If it spots an angler, it will tug on the fishing line to interfere.
@@ -34386,7 +34386,7 @@ The user attacks by pelting the target with leaves. Can random critical hit.
 The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
 像用剑一般操纵叶片切斩对手进行攻击。容易命中要害。
 A storm of sharp leaves is whipped up. This lowers the user's Sp. Atk by four steps.
-让一阵锐利的叶子风暴席卷而来。特攻减小4级。
+让1阵锐利的叶子风暴席卷而来。特攻减小4级。
 A seed is planted on the target, causing it to become leeched.
 植入寄生种子后，让对手陷入寄生状态。
 The user scatters leaves that chase the target. Can't miss and skips protections.
@@ -34632,7 +34632,7 @@ The user sharpens its claws to raise its Attack and Accuracy by three steps.
 The user howls loudly to raise its Attack by three steps, and its allies' by one.
 使用者大声嚎叫，自身的物攻增加3级，队友的物攻增加1级。
 Unleashes a barrage of attacks. Can't miss, skips Substitutes and destroys protections. Lowers the user's Defense by two steps.
-发起一阵攻击洪流。攻击必定会命中，且无视替身并破坏保护类效果。使用者的物防减小2级。
+发起1阵攻击洪流。攻击必定会命中，且无视替身并破坏保护类效果。使用者的物防减小2级。
 Traps the user and target until either of them faints or is switched out.
 将双方困在战场直至一方濒死或替换。
 The user slaps the target to knock off their item.
@@ -34890,7 +34890,7 @@ The user compresses air around the target to impossible density. If the move is 
 The user takes an aerial look at the field. This raises its Sp. Atk, Defense, and Accuracy by two steps.
 使用者鸟瞰战场。特攻、物防和命中率增加2级。
 The user fires a stormy gust at the target. This also raises the user's Sp. Atk by two steps.
-向对手释放出一阵狂风，大幅度增加自身的特攻。
+向对手释放出1阵狂风，大幅度增加自身的特攻。
 The user whips up a cold north wind to attack the target. It has a 20% chance to frostbite.
 挥舞寒冷的北风来攻击对手。20%概率让对手陷入冻伤状态。
 An apple falls from high up to strike the foe. Always goes first. Deals double damage in intense Gravity.
@@ -34910,7 +34910,7 @@ The user hops high up to land on the target's head. It has a 10% chance to numb.
 The user chases the target and strikes it from above. It does more damage the faster the user is.
 追赶并从上方猛击对手。自身的速度越快,威力越大。
 The user whips up a lingering tailwind that ups the Speed of all party Pokémon for six turns.
-卷起一阵萦绕周围的风，在6回合内增加所有队友的速度。
+卷起1阵萦绕周围的风，在6回合内增加所有队友的速度。
 The user takes off at sonic speeds, raising its Speed by four steps and gaining the Flying type.
 以音速起飞，速度增加4级并获得飞行属性。
 The user launches a pulse in the form of a shock wave. It has a 20% chance to raise Speed.
@@ -34990,7 +34990,7 @@ The target is consumed by a desert storm, trapping and binding it for three turn
 The user whips up a hot desert twister to attack the target. It has a 20% chance to burn.
 激起炽热的沙漠旋风攻击对手，20%概率使其烧伤。
 The user whips up dirt at supersonic speeds, damaging everything around it.
-搅动起一阵尘沙，对周围的一切造成伤害。
+搅动起1阵尘沙，对周围的一切造成伤害。
 The user cracks the earth under the target with a massive strike. This lowers the user's Attack by four steps.
 使用者重击目标脚下的地面。物攻减小4级。
 Attacks by blasting dirt and debris at the target. This move always goes first in sandstorm.
@@ -35150,7 +35150,7 @@ The target is plastered with irritating scales, damaging it and changing its typ
 The user sheds a huge volley of scales at the target. Lands without fail. This lowers the user's Sp. Def and Speed.
 使用者向目标抛洒大量鳞片。攻击必定会命中。特防和速度减小1级。
 The user scratches the target with a flurry of claws, talons, etc.
-使用者以一阵猛爪、利爪等刮伤目标。
+使用者以1阵猛爪、利爪等刮伤目标。
 If the user is faster than the target, puts the target to sleep, then minimizes the user's Speed.
 若使用者速度大于目标，使目标陷入睡眠，然后会使自身的速度最小化。
 The user stabs through the target using tremendous force. This lowers the user's Attack by four steps.
@@ -35250,7 +35250,7 @@ Conductive materials ensnare the target, trapping and binding it for three turns
 The user lays a levitating hazard of sharp feathers around the foe. It deals Steel-typed 1/8th HP damage.
 使用者在敌人周围布置悬浮的锐利羽毛陷阱。造成钢属性HP八分之一的伤害。
 The user dislodges a blast of thin projectiles. This attack always results in a critical hit, but applies fracture to the user.
-使用者发射一阵细物攻击。必定会命中要害，但使用者会陷入破碎。
+使用者发射1阵细物攻击。必定会命中要害，但使用者会陷入破碎。
 The user uses explosive force to shoot shards of its own body at the target. The user loses 10% of its max HP.
 使用者用爆炸将自身的身体碎片射向目标。使用者失去最大HP的10%。
 The user reflects a burst of light off its curls. Blinds a Pokémon entering the battle.
@@ -35550,7 +35550,7 @@ The user wraps their body in electricity and crashes into the target. The user a
 Restores a fainted party member to 1 HP. Only one use per battle.
 回复1只晕倒的队友的1HP，每场战斗只能用1次。
 The user breaks down all insulation to send a barrage of electricity to rampage for two turns.
-使用者破坏所有绝缘体，发送一阵电力进行连续2回合的暴走攻击。
+使用者破坏所有绝缘体，发送1阵电力进行连续2回合的暴走攻击。
 The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 使用闪电刃向对手劈去。容易命中要害。
 The user lets out an electric roar, raising the user's Speed by four steps.
@@ -35712,7 +35712,7 @@ The target is put to sleep via a deep freeze. The user is exhausted on the next 
 The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for 5 turns.
 使用者用冰晶雾气覆盖整个场地，召唤冰雹并制造持续5回合的灰雾。
 The user summons a wind that drains vitality from all nearby foes. This has a 30% chance to frostbite them.
-使用者召唤一阵风，从周围所有精灵那里吸取生命力。这有30%概率使目标冻伤。
+使用者召唤1阵风，从周围所有精灵那里吸取生命力。这有30%概率使目标冻伤。
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get frostbitten.
 以妒恨能量发起攻击。使所有具有增加的能力等级的敌方精灵陷入冻伤。
 The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
@@ -38667,7 +38667,7 @@ A teleporter which brings you to your last safe spot using the power of Abras.
 A 3D printer which automatically copies consumed held items after battles.
 一款3Ｄ打印机，可以在战斗后自动恢复消耗的物品。
 A machine that stores excess EXP. You can activate it to turn that stored EXP into candies.
-一台储存多余经验值的机器。激活后将储存的经验值变成糖果。
+1台储存多余经验值的机器。激活后将储存的经验值变成糖果。
 Use on a Pokémon to switch it into another one of its forms.
 使用后可将精灵切换成另1种形态。
 An ancient pair of interlocking ceramic rings. Unlocks the ability to teleport between Avatar Totems.
@@ -46530,7 +46530,7 @@ To earn the badge, you must defeat the Gym Leader multiple times, using complete
 Check the Battle Loader for more details.
 请查看战斗模拟器的相关部分以了解更多信息。
 Have a marvelous time strategizing!
-祝你有一个愉快的头脑风暴时间！
+祝你有1个愉快的头脑风暴时间！
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 \wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
 x{1:03d}
@@ -50208,7 +50208,7 @@ All foes positive stat changes were eliminated!
 {1} is quick on the draw!
 {1}拔枪神速！
 {1} is carried by a swift breeze!
-{1}被一阵疾风带走！
+{1}被1阵疾风带走！
 {1} is ferocious!
 {1}凶猛地咆哮着！
 {1} tricks the eye!
@@ -52330,7 +52330,7 @@ The third and final scute fell to the ground around {1}.
 The scutes around {1} were absorbed!
 {1}周围的盾鳞被吸收了！
 A Tailwind blew from behind {1}!
-一阵顺风从后方吹来！
+1阵顺风从后方吹来！
 It will last forever!
 永不停息！
 It will last for {1} more turns!
@@ -54162,11 +54162,11 @@ They left behind some items!
 You peer into the binoculars...
 你透过望远镜望去...
 A candy machine. It's out of candy.
-一台糖果贩卖机，已经卖光了。
+1台糖果贩卖机，已经卖光了。
 A candy machine. It has one batch of candy.
-一台糖果贩卖机，里面只剩一组糖果了。
+1台糖果贩卖机，里面只剩一组糖果了。
 A candy machine. It contains {1} batches of candy.
-一台糖果机。它包含{1}组糖果。
+1台糖果机。它包含{1}组糖果。
 A batch costs ${1}. You can't afford to pay that much!
 需要{1}金钱，你的金钱不够！
 Buy some candy for ${1}?
@@ -55036,7 +55036,7 @@ You've got {1} Coins.
 You've run out of Coins.<<n>>Game over!
 你的代币用完了。<<n>>游戏结束！
 It's a Slot Machine.
-这是一台老虎机。
+这是1台老虎机。
 You don't have any Coins to play!
 你没有代币可以玩！
 Your Coin Case is full!
@@ -55180,7 +55180,7 @@ The repellent's effect wore off! Would you like to use another one?
 The repellent's effect wore off!
 除虫喷雾的效果消失了！
 The stealth spray's effect wore off! Would you like to use another one?
-隐形喷雾的效果消失了！要使用另一个吗？
+隐形喷雾的效果消失了！要使用另1个吗？
 The stealth spray's effect wore off!
 隐形喷雾的效果消失了！
 Your flame would go out if you surfed now!
@@ -58056,7 +58056,7 @@ Farm food, fresh for feastin'.
 Grab a Tulumba, a Makyan specialty!
 来1杯马凯亚特产的香草土兰玛吧！
 It's a vending machine.
-一台自动售货机。
+1台自动售货机。
 Eleig Boating Dock
 埃利格码头
 Guardian Island
@@ -61119,10 +61119,10 @@ Your team takes 10% less move damage.
 全员受到的技能伤害减小10%。
 10
 You gain 10% more money and coins in battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}.
-玩家战斗获得额外10%金钱，拥有超100000金钱时，双攻和双防增加，与等级上限相关，目前{b1}。
+获得的金钱增加10%。金钱超十万时，双攻和双防增加，目前增加{b1}。
 11
 Your team members gain 10% more EXP in battles. They also get a small boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b}.
-全员战斗获得额外10%经验，双攻和双防小幅度增加，与等级上限相关，目前为{b}。
+全员战斗获得额外10%经验，双攻和双防小幅度增加，目前增加{b}。
 12
 Your team members take 15% less move damage if they're using a status move this turn.
 全员如果本回合选择使用变化类技能，那么受到的技能伤害减小15%。

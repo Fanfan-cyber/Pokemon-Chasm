@@ -660,12 +660,26 @@ class Pokemon
     #=============================================================================
     # Tribes
     #=============================================================================
-    def should_apply_all_tribes?
+    def apply_all_tribes?
       customtribethresh = TA.get(:customtribethresh)
       return false if customtribethresh && customtribethresh < 5
+      return true
+    end
+
+    def should_apply_all_tribes_abillity?
+      return false unless apply_all_tribes?
       return true if hasAbility?(:FRIENDTOALL)
+      return false
+    end
+
+    def should_apply_all_tribes_item?
+      return false unless apply_all_tribes?
       return true if hasItem?(:WILDCARD)
       return false
+    end
+
+    def should_apply_all_tribes?
+      should_apply_all_tribes_abillity? || should_apply_all_tribes_item?
     end
 
     def tribes
