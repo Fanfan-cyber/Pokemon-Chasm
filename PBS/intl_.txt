@@ -46323,6 +46323,8 @@ ID No.
 ID No.
 Marks
 Marks
+Battled
+Battled
 RENTAL
 RENTAL
 Obtained at level {1} in

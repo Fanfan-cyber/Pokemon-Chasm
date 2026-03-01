@@ -7724,22 +7724,22 @@ No? Ok...
 Who are you?
 你谁？
 Nah.
-不帮
+不帮。
 Sure.
-没问题
+没问题。
 I get it.
-懂了
+懂了。
 Kinda?
 或许吧？
 What?
 什么？
 I don't have any right now.
-我现在没有
+我现在没有。
 Yeah, I've got a batch.
-我这里有
+我这里有。
 [Map123]
 Only authorized personnel are allowed through this door.
-只有得到授权的人彩可以进这扇门。
+只有得到授权的人才可以进这扇门。
 Well, we'd probably let Lainie in.
 嗯，兰妮除外。
 She's pretty cool.
@@ -32467,7 +32467,7 @@ Nasty Nip
 Poison Dart
 浸毒镖
 Poison Spikes
-毒棘刺
+毒菱
 Slimeball
 粘液球
 Stinging Jealousy
@@ -38239,9 +38239,9 @@ An item to be held by a Pokémon. When the holder's stats are lowered, it will b
 These boots prevent the effects of hazards set on the battlefield.
 这双靴子可以防止场上设置的陷阱带来的影响。
 Raises Sp. Atk by two steps when the Pokémon uses a sound move the first time each battle.
-使用声音类技能时，特攻增加2级。
+首次使用声音类技能时，特攻增加2级。
 Raises Attack by two steps when the Pokémon uses a blade move the first time each battle.
-使用切割类技能时，物攻增加2级。
+首次使用切割类技能时，物攻增加2级。
 Raises Speed by two steps when the Pokémon uses a wind move the first time each battle.
 首次使用风类技能时，速度增加2级。
 Raises Speed by two steps when the Pokémon uses a kicking move the first time each battle.
@@ -39190,7 +39190,7 @@ Adapted
 Adrenaline Rush
 激素飙升
 Aerodynamic
-乘风
+空气动力
 Afrotection
 安全防护
 Afterimage
@@ -46012,7 +46012,7 @@ Log Off
 \ssOmniTutor now engaged.
 \ss全能导师已启动。
 \ssThe OmniTutor can teach any move available through move reminding, move mentorship, and TMs you own.
-\ss全能导师可以精灵让精灵学习回忆技能、教授技能以及TM技能。
+\ss全能导师可以精灵让精灵学习回忆技能、教学技能以及TM技能。
 Organize Boxes
 查看箱子
 Withdraw Pokémon
@@ -46323,6 +46323,8 @@ ID No.
 ID No.
 Marks
 标记
+Battled
+参战数
 RENTAL
 租赁
 Obtained at level {1} in
@@ -46442,7 +46444,7 @@ Started
 <outln2>Tribal Bonus Info</outln2>
 <outln2>部族简介</outln2>
 Wild Pokémon don't give experience in Pokémon Tectonic.
-在地震中，打倒野生的精灵不会给予经验。
+在《口袋妖怪地震》中，打倒野生的精灵不会给予经验。
 Please don't kill too many Pokémon, or you'll be punished!
 请不要击杀太多野生的精灵，否则你会被惩罚！
 Don't worry, there's an abundance of experience to gain in other ways.
@@ -48906,7 +48908,7 @@ Remove
 Replace
 替换
 {1} species tutorable movesets edited!
-{1}种族的教授技能列表已编辑！
+{1}种族的教学技能列表已编辑！
 Search species...
 搜索物种...
 Which search?
@@ -56242,7 +56244,7 @@ Set the Pokémon's Sheen (max. 255).
 Moves...
 技能...
 Teach move
-教授技能
+教学技能
 Teach legal move
 教授合法技能
 Forget move

@@ -28,7 +28,7 @@ module BattleLoader
       end
     end
     @@battle_loader.concat(@@coded_teams)
-    check_legality
+    #check_legality
     @@refresh = false
     PokemonDataBase.create_mass
   end
@@ -335,11 +335,16 @@ module BattleLoader
   end
 
   def self.each_pokemon
+    TA.get(:team).each do |pokemon|
+      yield pokemon, _INTL("the Battle Loader")
+    end
+=begin
     @@battle_loader.each do |team_info|
       team_info[2].each do |pokemon|
         yield pokemon, _INTL("the Battle Loader")
       end
     end
+=end
   end
 
   def self.check_legality
@@ -373,6 +378,7 @@ module BattleLoader
     TA.set(:battle_loader, true)
     TA.set(:team, team)
     TA.set(:curse, curse)
+    check_legality
     trainer = GameData::Trainer.values.sample
     trainer_type = trainer.trainer_type
     trainer_type_data = GameData::TrainerType.get(trainer_type)
