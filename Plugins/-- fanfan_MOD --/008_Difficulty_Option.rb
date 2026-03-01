@@ -70,7 +70,11 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for setting default item
   next unless trainer
   trainer.party.each do |pkmn|
     next if pkmn.hasItem?
-    pkmn.items.concat(Settings::DEFAULT_ITEMS)
+    if pkmn.isSpecies?(:SHEDINJA)
+      pkmn.items.push(:LIFEORB)
+    else
+      pkmn.items.concat(Settings::DEFAULT_ITEMS)
+    end
   end
 }
 
