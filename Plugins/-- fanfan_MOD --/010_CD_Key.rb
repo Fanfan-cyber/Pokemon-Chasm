@@ -217,8 +217,8 @@ CDKey.register_other_key([:enableperfect, :disableperfect], false)
 CDKey.register_other_key(:simplemode, true) { next $Trainer&.checkBadge(1) }
 CDKey.register_other_key([:normalmode, :simplemode], false)
 
-CDKey.register_other_key(:speedup, true)
-CDKey.register_other_key([:disablespeedup, :speedup], false)
+#CDKey.register_other_key(:speedup, true)
+#CDKey.register_other_key([:disablespeedup, :speedup], false)
 CDKey.register_other_key(:freetarotamulet, true)
 CDKey.register_other_key([:nofreetarotamulet, :freetarotamulet], false)
 CDKey.register_other_key(:shuffledisplay, true)

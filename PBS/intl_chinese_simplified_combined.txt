@@ -46321,6 +46321,8 @@ OT
 主人
 ID No.
 ID No.
+Battled
+参战数
 Marks
 标记
 RENTAL

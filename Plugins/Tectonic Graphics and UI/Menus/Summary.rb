@@ -590,7 +590,8 @@ class PokemonSummary_Scene
             [_INTL("Type"), infoTextLabelX, infoLabelBaseY + 32, 0, base, shadow],
             [_INTL("OT"), infoTextLabelX, infoLabelBaseY + 32 * 2, 0, base, shadow],
             [_INTL("ID No."), infoTextLabelX, infoLabelBaseY + 32 * 3, 0, base, shadow],
-            [_INTL("Marks"), infoTextLabelX, infoLabelBaseY + 32 * 4, 0, base, shadow],
+            #[_INTL("Marks"), infoTextLabelX, infoLabelBaseY + 32 * 4, 0, base, shadow],
+            [_INTL("Battled"), infoTextLabelX, infoLabelBaseY + 32 * 4, 0, base, shadow],
         ]
         # Write Original Trainer's name and ID number
         if @pokemon.owner.name.empty?
@@ -602,7 +603,8 @@ class PokemonSummary_Scene
                           blackShadow,])
         end
         # Draw the Pokémon's markings
-        drawMarkings(overlay,infoTextInsertedX - 48,infoLabelBaseY + 32 * 4 + 12)
+        #drawMarkings(overlay,infoTextInsertedX - 48,infoLabelBaseY + 32 * 4 + 12)
+        textpos.push([@pokemon.battled_times.to_s, infoTextInsertedX, infoLabelBaseY + 32 * 4, 0, base, shadow])
         # Write the Pokemon's original map and level of obtaining
         obtainText = _INTL("Obtained at level {1} in", @pokemon.obtain_level)
         textpos.push([obtainText, infoTextLabelX, infoLabelBaseY + 32 * 5 + 2, 0, blackBase, blackShadow])
