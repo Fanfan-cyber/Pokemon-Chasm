@@ -58057,6 +58057,18 @@ Grab a Tulumba, a Makyan specialty!
 Grab a Tulumba, a Makyan specialty!
 It's a vending machine.
 It's a vending machine.
+Eleig Boating Dock
+Eleig Boating Dock
+Guardian Island
+Guardian Island
+Eventide Isle
+Eventide Isle
+Isle of Dragons
+Isle of Dragons
+Tri Island
+Tri Island
+Spirit Atoll
+Spirit Atoll
 Dock ID {1} has no unlock_switch defined. Cannot unlock!
 Dock ID {1} has no unlock_switch defined. Cannot unlock!
 You can now travel to <imp>{1}</imp> on your boat!
@@ -58547,8 +58559,6 @@ Prizca East, Capitol Building
 Prizca East, Capitol Building
 Nora's on the trail of a mystery—its threads lead to Luxtech, and from there to parts unknown. If you help her on her hunt, what secrets will you two uncover?
 Nora's on the trail of a mystery—its threads lead to Luxtech, and from there to parts unknown. If you help her on her hunt, what secrets will you two uncover?
-Tri Island
-Tri Island
 Explore the strange island.
 Explore the strange island.
 The TV talked about a newly discovered island off the coast. A lot of trainers will be heading there, try to be the best one.
@@ -58573,8 +58583,6 @@ Crown Chamber
 Crown Chamber
 You've opened a strange cave under the Battle Monument. What could it be hiding?
 You've opened a strange cave under the Battle Monument.  What could it be hiding?
-Guardian Island
-Guardian Island
 You won the map to an abandoned island, what secrets could this place hold?
 You won the map to an abandoned island, what secrets could this place hold?
 Sea Monster
@@ -58623,8 +58631,6 @@ Sweetrock Lighthouse
 Sweetrock Lighthouse
 After beating former champion Chara, she told you about an island she wants you to check out.
 After beating former champion Chara, she told you about an island she wants you to check out.
-Spirit Atoll
-Spirit Atoll
 Explore the atoll.
 Explore the atoll.
 Vincent told you the location of a mysterious place called the Spirit Atoll. Journey to it through your boat and explore the secrets.
@@ -58639,8 +58645,6 @@ Explore the isle.
 Explore the isle.
 Samorn's House
 Samorn's House
-Isle of Dragons
-Isle of Dragons
 The mysterious Dragon Hatcher in Samorn's house offers to hatch the dragon eggs you find around the region.
 The mysterious Dragon Hatcher in Samorn's house offers to hatch the dragon eggs you find around the region.
 Bad Weather

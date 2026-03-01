@@ -34480,7 +34480,7 @@ The user foretells an attack. Two turns later, a hunk of psychic energy hits the
 The user employs psychic power to average its unmodified Defense and Sp. Def stats with those of its target.
 使用者运用超能力，使其与目标的基础双防平分。
 The user faints. In return, the Pokémon taking its place will have its HP restored and non-volatile status conditions cured.
-使用者陷入濒死，替换上场的精灵会回复HP并回复异常状态。
+使用者陷入濒死，替换上场的精灵会回复HP和异常状态。
 The user emits a healing pulse which heals the target's HP by half of its max HP.
 使用者发出脉冲波，为目标回复其最大HP的一半。
 The user unleashes a vicious blow after a cute act. It has a 40% chance to cause flinching.
@@ -34494,7 +34494,7 @@ The user instructs the target to use the target's last move again.
 A wondrous wall of light is put up to suppress damage from special attacks for five turns.
 在5回合内使用神奇的墙，减弱从对手那受到的特殊类攻击的伤害。
 The user faints. In return, the Pokémon taking its place will have its non-volatile status conditions and HP fully restored.
-使用者陷入濒死，替换上场的精灵会完全回复HP并回复异常状态。
+使用者陷入濒死，替换上场的精灵会完全回复HP和异常状态。
 Until end of turn, reflects status moves that target the user or create hazards around it.
 当对手使用会变成异常状态的技能或陷阱等时，会将对手的技能反射回去。
 A retaliation move that counters any special attack, inflicting double the damage taken.
@@ -34518,7 +34518,7 @@ Cloaking itself in psychic energy, the user slams into the target, raising the u
 A wondrous wall of light is put up to suppress damage from physical attacks for five turns.
 在5回合内使用神奇的墙，减弱从对手那受到的物理类攻击的伤害。
 The user goes to sleep to fully restore their HP and heal any non-volatile status conditions.
-通过睡眠完全回复HP并回复异常状态。
+通过睡眠完全回复HP和异常状态。
 The user mimics the target completely, copying the target's natural Ability.
 扮演对手，让自身的特性变得和对手相同。
 The user employs its psychic power to exchange Abilities with the target.
@@ -34720,7 +34720,7 @@ The user steadies its eyes, mind, and body in order to maximize its Accuracy.
 The user exposes its teeth in a menacing way, reducing the target's Defense by four steps.
 使用者以威胁性的方式露出牙齿，使目标的物防减小4级。
 The user and the target both fall asleep, fully restoring their HP and healing any non-volatile status conditions.
-使双方陷入睡眠，完全回复HP并回复异常状态。
+使双方陷入睡眠，完全回复HP和异常状态。
 The user dances and shows off their many lights at the target, dizzying and damaging them.
 使用者对目标展示其众多的灯光并跳舞，使目标陷入混乱并受到伤害。
 The user engages the target in a head-to-head fight. The damage is based on the target's Attack rather than their Defense.
@@ -38425,7 +38425,7 @@ A parasitic Poké Ball that leeches the Pokémon if it fails to catch it.
 A mentally disrupting Poké Ball that disables the Pokémon's last used move for 10 turns if it fails to catch it.
 有点与众不同的球。如果没能捉住，使其最后使用的技能失效10回合。
 A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.
-有点温柔的球。能回复捉到的精灵的HP并回复异常状态。
+有点温柔的球。能回复捉到的精灵的HP和异常状态。
 A Poké Ball that makes caught Pokémon more friendly.
 有点与众不同的球。捉到的野生精灵会立刻变得和训练师亲密起来。
 A comfortable Poké Ball that makes a caught wild Pokémon gain happiness twice as quickly.
@@ -58057,6 +58057,18 @@ Grab a Tulumba, a Makyan specialty!
 来1杯马凯亚特产的香草土兰玛吧！
 It's a vending machine.
 一台自动售货机。
+Eleig Boating Dock
+埃利格码头
+Guardian Island
+靖守岛
+Eventide Isle
+晚霞岛
+Isle of Dragons
+龙之岛
+Tri Island
+三相岛
+Spirit Atoll
+圣灵环礁
 Dock ID {1} has no unlock_switch defined. Cannot unlock!
 Dock ID {1}没有定义unlock_switch。无法解锁！
 You can now travel to <imp>{1}</imp> on your boat!
@@ -58547,8 +58559,6 @@ Prizca East, Capitol Building
 东宏礼市，国会大厦
 Nora's on the trail of a mystery—its threads lead to Luxtech, and from there to parts unknown. If you help her on her hunt, what secrets will you two uncover?
 诺拉正在追踪1个谜团——线索指向了光华科技，然后通往未知之地。如果你帮助她搜寻，你们俩会发现什么秘密呢？
-Tri Island
-三相岛
 Explore the strange island.
 探索这个奇怪的岛屿。
 The TV talked about a newly discovered island off the coast. A lot of trainers will be heading there, try to be the best one.
@@ -58573,8 +58583,6 @@ Crown Chamber
 皇冠之厅
 You've opened a strange cave under the Battle Monument. What could it be hiding?
 你在对战纪念碑下打开了1个奇怪的洞穴。它可能隐藏着什么？
-Guardian Island
-靖守岛
 You won the map to an abandoned island, what secrets could this place hold?
 你赢得了前往1个废弃岛屿的地图，这个地方可能隐藏着什么秘密？
 Sea Monster
@@ -58623,8 +58631,6 @@ Sweetrock Lighthouse
 蜜岩灯塔
 After beating former champion Chara, she told you about an island she wants you to check out.
 在打倒前冠军夏拉之后，她告诉你有1个她希望你去查看的岛屿。
-Spirit Atoll
-圣灵环礁
 Explore the atoll.
 探索环礁。
 Vincent told you the location of a mysterious place called the Spirit Atoll. Journey to it through your boat and explore the secrets.
@@ -58639,8 +58645,6 @@ Explore the isle.
 探索岛屿。
 Samorn's House
 塞蒙的家
-Isle of Dragons
-龙之岛
 The mysterious Dragon Hatcher in Samorn's house offers to hatch the dragon eggs you find around the region.
 塞蒙家中的神秘育龙者愿意孵化你在该地区找到的龙蛋。
 Bad Weather
