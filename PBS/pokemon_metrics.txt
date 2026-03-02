@@ -2150,7 +2150,7 @@ ShadowSize = 2
 #-------------------------------
 [GALLADE,1]
 BackSprite = 0,11
-FrontSprite = 0,10
+FrontSprite = 0,17
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
