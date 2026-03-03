@@ -32,14 +32,10 @@ module TimeCapsule
           data = pbChoosePkmnFromListEX(_INTL("Which Pokémon would you like to retrieve?"), @@time_capsule)
           pkmn = data[0]
           return unless pkmn
-          if has_species?(pkmn.species, pkmn.form)
-            pbMessage(_INTL("You can't retrieve this Pokémon! You already have one!"))
-          else
-            clear_pkmn(pkmn, false)
-            pkmn.ownedByPlayer? ? pbAddPokemonSilent(pkmn, count: false) : pbAddPokemonSilent(pkmn)
-            @@time_capsule.delete_at(data[1])
-            pbMessage(_INTL("You retrieved {1}!", pkmn.name))
-          end
+          clear_pkmn(pkmn, false)
+          pkmn.ownedByPlayer? ? pbAddPokemonSilent(pkmn, count: false) : pbAddPokemonSilent(pkmn)
+          @@time_capsule.delete_at(data[1])
+          pbMessage(_INTL("You retrieved {1}!", pkmn.name))
         end
       end
     end

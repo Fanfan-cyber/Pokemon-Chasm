@@ -3,7 +3,7 @@ module RocketMode
     return if !TA.get(:rocket) || !battle.trainerBattle? || TA.get(:battle_loader)
     can_choose = []
     battle.pbParty(1).each_with_index do |pkmn, i|
-      next if !pkmn || pkmn.egg? || has_species?(pkmn.species, pkmn.form)
+      next if !pkmn || pkmn.egg?
       battle.peer.pbOnLeavingBattle(battle, pkmn, battle.usedInBattle[1][i], true)
       next if pkmn.boss?
       next if pkmn.species_data.isLegendary? && !$DEBUG

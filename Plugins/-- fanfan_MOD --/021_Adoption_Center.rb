@@ -61,10 +61,7 @@ module AdoptionCenter
       pkmn_index = data[1]
       return unless pkmn
       if pbConfirmMessage(_INTL("Do you want to adopt this Pokémon?"))
-        if has_species?(pkmn)
-          pbMessage(_INTL("You can't adopt this Pokémon! You already have one!"))
-          return
-        elsif available_ap < zone
+        if available_ap < zone
           pbMessage(_INTL("You can't adopt this Pokémon! You don't have enough AP!"))
         else
           TA.increase(:ap_used, zone)

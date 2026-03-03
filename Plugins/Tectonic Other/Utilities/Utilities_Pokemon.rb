@@ -15,37 +15,32 @@ end
 
 def pbStorePokemon(pkmn)
   pkmn.record_first_moves
-  if has_species?(pkmn.species, pkmn.form)
-      pbMessage(_INTL("{1} already has {2}!\n{2} has been sent to Dimension D!", $Trainer.name, pkmn.speciesName))
-      $Trainer.dimension_d << pkmn
-  else
-      if pbBoxesFull?
-          pbMessage(_INTL("There's no more room for Pokémon!\1"))
-          pbMessage(_INTL("The Pokémon Boxes are full and can't accept any more!"))
-          return
-      end
-      if $Trainer.party_full?
-          storingPokemon = pkmn
-          if pbConfirmMessageSerious(_INTL("Would you like to add {1} to your party?", pkmn.name))
-              pbMessage(_INTL("Choose which Pokémon will be sent back to the PC."))
-              # if Y, select pokemon to store instead
-              pbChoosePokemon(1, 3)
-              chosen = $game_variables[1]
-              # Didn't cancel
-              if chosen != -1
-                  storingPokemon = $Trainer.party[chosen]
+  if pbBoxesFull?
+      pbMessage(_INTL("There's no more room for Pokémon!\1"))
+      pbMessage(_INTL("The Pokémon Boxes are full and can't accept any more!"))
+      return
+  end
+  if $Trainer.party_full?
+      storingPokemon = pkmn
+      if pbConfirmMessageSerious(_INTL("Would you like to add {1} to your party?", pkmn.name))
+          pbMessage(_INTL("Choose which Pokémon will be sent back to the PC."))
+          # if Y, select pokemon to store instead
+          pbChoosePokemon(1, 3)
+          chosen = $game_variables[1]
+          # Didn't cancel
+          if chosen != -1
+              storingPokemon = $Trainer.party[chosen]
 
-                  promptToTakeItems(storingPokemon)
+              promptToTakeItems(storingPokemon)
 
-                  $Trainer.party[chosen] = pkmn
+              $Trainer.party[chosen] = pkmn
 
-                  refreshFollow
-              end
+              refreshFollow
           end
-          pbStorePokemonInPC(storingPokemon)
-      else
-          $Trainer.party[$Trainer.party.length] = pkmn
       end
+      pbStorePokemonInPC(storingPokemon)
+  else
+      $Trainer.party[$Trainer.party.length] = pkmn
   end
 end
 
@@ -155,14 +150,10 @@ def pbAddPokemonSilent(pkmn, level = 1, dexnav: false, count: true)
   # Increase the caught count for the global metadata
   incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts) && count
   pkmn.record_first_moves
-  if has_species?(pkmn.species, pkmn.form)
-    $Trainer.dimension_d << pkmn
+  if $Trainer.party_full?
+    $PokemonStorage.pbStoreCaught(pkmn)
   else
-    if $Trainer.party_full?
-      $PokemonStorage.pbStoreCaught(pkmn)
-    else
-      $Trainer.party[$Trainer.party.length] = pkmn
-    end
+    $Trainer.party[$Trainer.party.length] = pkmn
   end
   return true
 end
@@ -201,11 +192,7 @@ def pbAddToPartySilent(pkmn, level = nil, see_form = true, dexnav: false)
   # Increase the caught count for the global metadata
   incrementDexNavCounts(dexnav) if defined?(incrementDexNavCounts)
   pkmn.record_first_moves
-  if has_species?(pkmn.species, pkmn.form)
-    $Trainer.dimension_d << pkmn
-  else
-    $Trainer.party[$Trainer.party.length] = pkmn
-  end
+  $Trainer.party[$Trainer.party.length] = pkmn
   return true
 end
 
