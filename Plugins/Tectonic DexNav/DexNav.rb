@@ -213,37 +213,39 @@ class NewDexNav
           end
         elsif Input.trigger?(Input::ACTION)
           if pbConfirmMessage(_INTL("Would you like to get all these Pokémon?"))
+            include_owned = false
+            include_owned = true if pbConfirmMessage(_INTL("Include owned Pokémon?"))
             mons = []
             displaySpecies.each do |group|
               group.each do |species_data|
-                next if has_species?(species_data.species, species_data.form)
+                next if has_species?(species_data.species, species_data.form) && !include_owned
                 mons << species_data
               end
             end
             if mons.empty?
               pbMessage(_INTL("You can't get any of these Pokémon!"))
-            else
-              break unless ball_money_check(mons.size)
+            elsif ball_money_check(mons.size)
               mons.each do |species_data|
                 pbAddPokemonSilent(pbGenerateWildPokemon(species_data, level, true), level, dexnav: true)
               end
               pbMessage(_INTL("Enjoy your new Pokémon!\\me[Pkmn get]\\wtnp[80]\1"))
+              break
             end
-            break
           end
         elsif MInput.trigger?(:R)
           if pbConfirmMessage(_INTL("Would you like to get a random Pokémon?"))
+            include_owned = false
+            include_owned = true if pbConfirmMessage(_INTL("Include owned Pokémon?"))
             can_obtain = []
             displaySpecies.each do |group|
               group.each do |species_data|
-                next if has_species?(species_data.species, species_data.form)
+                next if has_species?(species_data.species, species_data.form) && !include_owned
                 can_obtain << species_data
               end
             end
             if can_obtain.empty?
               pbMessage(_INTL("You can't get any of these Pokémon!"))
-            else
-              break unless ball_money_check
+            elsif ball_money_check
               pbAddPokemon(pbGenerateWildPokemon(can_obtain.sample, level, true), level, dexnav: true)
               break
             end
@@ -255,10 +257,12 @@ class NewDexNav
             next
           end
           if pbConfirmMessage(_INTL("Would you like to get this Pokémon?"))
+            get_this_pkmn = true
             if has_species?(highlightedSpecies, highlightedSpeciesForm)
-              pbMessage(_INTL("You can't get this Pokémon! You already have one!"))
-            else
-              break unless ball_money_check
+              get_this_pkmn = false
+              get_this_pkmn = true if pbConfirmMessage(_INTL("You already have one! Still get this Pokémon?"))
+            end
+            if get_this_pkmn && ball_money_check
               pbAddPokemon(pbGenerateWildPokemon(highlightedSpeciesData, level, true), level, dexnav: true)
               break
             end
