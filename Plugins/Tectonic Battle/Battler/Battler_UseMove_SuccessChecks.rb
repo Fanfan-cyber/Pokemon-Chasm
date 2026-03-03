@@ -280,6 +280,7 @@ class PokeBattle_Battler
         end
 
         if pbOwnedByPlayer?
+=begin
             # Legendary Banned
             if @pokemon.species_data.isLegendary? && !TA.get(:enablelegendary)
                 if aiCheck
@@ -291,6 +292,7 @@ class PokeBattle_Battler
                     return false
                 end
             end
+=end
             # Alt Dimension D (Species Clause)
             if @battle.tracker_get(:alt_dimension_d).include?(@pokemon.unique_id)
                 if aiCheck

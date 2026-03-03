@@ -305,6 +305,7 @@ class PokeBattle_Move
         roarSwitched = []
         targets.each do |b|
             next if @battle.wildBattle? && b.opposes? # Can't force out wild pokemon or boss pokemon
+            @battle.pbPursuit(b.index)
             next if b.fainted?
             if invertMissCheck
                 next unless b.damageState.unaffected

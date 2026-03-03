@@ -92,10 +92,13 @@ end
 
 class PokeBattle_Battler
   def battler_battle_tracker_get
+=begin
     unless @battle.battler_battle_tracker[@index & 1][@pokemonIndex]
       @battle.battler_battle_tracker[@index & 1][@pokemonIndex] = PokeBattle_BattlerBattleTracker.new
     end
     @battle.battler_battle_tracker[@index & 1][@pokemonIndex]
+=end
+    @battle.battler_battle_tracker[unique_id] ||= PokeBattle_BattlerBattleTracker.new
   end
 
   def battle_tracker_get(tracker)

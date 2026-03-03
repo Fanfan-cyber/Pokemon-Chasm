@@ -139,7 +139,8 @@ class PokeBattle_Battle
         @luster            = [Array.new(@party1.length, false), Array.new(@party2.length, false)]
         @moveUsageCount    = [Array.new(@party1.length) { {} }, Array.new(@party2.length) { {} }]
         @usedInBattle      = [Array.new(@party1.length, false), Array.new(@party2.length, false)]
-        @battler_battle_tracker = [Array.new(@party1.length) { PokeBattle_BattlerBattleTracker.new }, Array.new(@party1.length) { PokeBattle_BattlerBattleTracker.new }]
+        #@battler_battle_tracker = [Array.new(@party1.length) { PokeBattle_BattlerBattleTracker.new }, Array.new(@party1.length) { PokeBattle_BattlerBattleTracker.new }]
+        @battler_battle_tracker = {}
         @battle_tracker    = PokeBattle_BattleTracker.new
         @successStates     = []
         @lastMoveUsed      = nil

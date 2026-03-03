@@ -6,9 +6,7 @@
 将Options、error和Achievement移到主目录下
 有人因为诅咒濒死时，耿鬼变身
 残喘在玩家方只有一只精灵时可能存在Bug，需要更多信息用于排查
-批量放生
-箱子可以搜索特性和技能
-导航可自由选择一键捕捉是否包括已有的精灵
+箱子可以搜索特性和技能以及批量放生
 =end
 
 MOD_VERSION  = "0.4.5"
@@ -165,7 +163,6 @@ opposingalwaysresting/noalwaysresting，开启/关闭无尽休息模式
 customrevivalturn，使用自定义的濒死复活机制的复活回合数
 stupidai/smartai，开启/关闭AI弱化
 freetarotamulet/nofreetarotamulet，开启/关闭自由翻转塔罗护身符功能
-enablelegendary/disablelegendary，开启/关闭在战斗中允许使用传说精灵
 customtribethresh，开启自由部族模式
 rocket/norocket，开启/关闭火箭队模式
 tectonic/disabletectonic，开启/关闭构造模式
@@ -240,6 +237,14 @@ simplemode/normalmode，开启（1徽章）/关闭简单模式
 63.现在携带万能卡的精灵和Friend to All的精灵在统计部族时会单独计数
 64.现在当队伍中有多只Friend to All的精灵时，全部族的统计只会算作一次
 65.现在当队伍中有多只精灵携带万能卡时，全部族的统计只会算作一次
+66.现在允许使用传说精灵不再需要密码支持
+67.移除密码enablelegendary
+68.移除密码disablelegendary
+69.现在对手的精灵在非主动被替换时也会触发Relentless Pursuit了
+70.现在和叶泽拉一起战斗时，叶泽拉的精灵的警告类特性也会正确发动了
+71.
+
+导航可自由选择一键捕捉是否包括已有的精灵
 
 0.4.4 Vestiges of Destiny / 溯光回响
 1.修改了大量中文的翻译
