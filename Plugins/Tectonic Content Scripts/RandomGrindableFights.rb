@@ -74,3 +74,12 @@ def grindRivalRandomBattle
     end
     pbTrainerBattle(GRIND_RIVAL_RANDOM_TRAINER_CLASS,"Vanya", nil, false, allGrindRivalRandoms.sample)
 end
+
+def defeatGrindRival(maxTrainerLevel = 10)
+	defeatTrainer
+	pbMessage(_INTL("{1} hands you a pouch of candy.", GRIND_RIVAL))
+	itemsGiven = candiesForLevel(maxTrainerLevel)
+	for i in 0...itemsGiven.length/2
+		pbReceiveItem(itemsGiven[i*2],itemsGiven[i*2 + 1])
+	end
+end

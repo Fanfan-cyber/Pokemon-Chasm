@@ -7802,6 +7802,12 @@ Pokemon = LITWICK,15
 Pokemon = MGOLDEEN,15
     Moves = CLASH,LEER,EAGERTICKLING,NOBLEROAR
     AbilityIndex = 1 # Unafraid
+Pokemon = MEDITITE,15
+    Moves = WORKUP,NERVEBLOCK,AURAPULSE,SMASH
+    AbilityIndex = 1 # Stability
+Pokemon = HONEDGE,15
+    Moves = SHADOWSNEAK,HELMBUTT,AUTOTOMIZE,SCRITCHYSCRITCH
+    AbilityIndex = 0 # Full Metal Body
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,1]
 Flags = NoPerfect
@@ -7811,6 +7817,10 @@ Pokemon = MROGGENROLA,20
     AbilityIndex = 0 # Time Interloper
 Pokemon = BARBOACH,20
     AbilityIndex = 0 # Gravity Well
+Pokemon = BASCULIN,20
+    AbilityIndex = 1 # Expertise
+Pokemon = ARON,20
+    AbilityIndex = 1 # Motor Drive
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,2]
 Flags = NoPerfect
@@ -7821,6 +7831,12 @@ Pokemon = SHELLOS,25
 Pokemon = HVOLTORB,25
     Moves = SPARK,LEAFAGE,CHARGEBEAM,ANESTHETIZE
     AbilityIndex = 1 # Apricorn Armor
+Pokemon = PHANPY,25
+    Moves = BULLDOZE,RAPIDSPIN,ACCELEROCK,IGNITE
+    AbilityIndex = 0 # Speed Boost
+Pokemon = GARBODOR,25
+    Moves = TRASHTREASURE,POISONGAS,SPIKES,SHRAPNEL
+    AbilityIndex = 0 # Aggravate
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,3]
 Flags = NoPerfect
@@ -7831,6 +7847,10 @@ Pokemon = SNEASEL,30
 Pokemon = BEAUTIFLY,30
     Moves = SUCKBLOOD,DRAININGKISS,SQUALLDART,AERIALACE
     AbilityIndex = 0 # Gorging
+Pokemon = ARBOK,30
+    AbilityIndex = 0 # Intimidate
+Pokemon = WAILMER,30
+    AbilityIndex = 1 # Gargantuan
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,4]
 Flags = NoPerfect
@@ -7845,6 +7865,10 @@ Pokemon = DUGTRIO,40
 Pokemon = ARAICHU,40
     Moves = SURF,HUNDREDHANDCLAP,THUNDERBOLT
     AbilityIndex = 1 # Surf's Up
+Pokemon = GRENINJA,40
+    AbilityIndex = 1 # Wise Hunter
+Pokemon = BRONZONG,40
+    AbilityIndex = 0 # Levitate
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,5]
 Flags = NoPerfect
@@ -7856,6 +7880,10 @@ Pokemon = KABUTOPS,45
     AbilityIndex = 0 # Sniper
 Pokemon = HTYPHLOSION,45
     AbilityIndex = 1 # Exorcist
+Pokemon = CRAWDAUNT,45
+    AbilityIndex = 1 # Shellcracker
+Pokemon = VOLCARONA,45
+    AbilityIndex = 1 # Dawnfall
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,6]
 Flags = NoPerfect
@@ -7864,9 +7892,14 @@ Pokemon = TORTERRA,55
 Pokemon = TOXICROAK,55
     AbilityIndex = 1 # Dry Skin
 Pokemon = MASQUERAIN,55
+    Moves = DEFOG,FLIPTURN,UTURN,SQUALLDART
     AbilityIndex = 0 # Hyper Speed
 Pokemon = METAGROSS,55
     AbilityIndex = 1 # Optimized Alloy
+Pokemon = MARACTUS,55
+    AbilityIndex = 0 # Grit
+Pokemon = OCTILLERY,55
+    AbilityIndex = 1 # Repetition
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,7]
 Flags = NoPerfect
@@ -7878,6 +7911,10 @@ Pokemon = DRAGAPULT,60
     AbilityIndex = 0 # Fascinate
 Pokemon = CORVIKNIGHT,60
     AbilityIndex = 1 # Expertise
+Pokemon = HAVALUGG,60
+    AbilityIndex = 0 # Ram Prow
+Pokemon = CURESOLA,60
+    AbilityIndex = 1 # Rapid Refresh
 #-------------------------------
 [CHALLENGER_Vanya,Vanya,8]
 Flags = NoPerfect
