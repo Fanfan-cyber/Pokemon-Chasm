@@ -14,8 +14,10 @@ class PokemonPokedex_Scene
     end
 
     def pbStartScene
-        generateSpeciesUseData if $DEBUG
-        generateSignaturesData if $DEBUG
+        if $DEBUG
+            generateSpeciesUseData
+            generateSignaturesData
+        end
 
         @sliderbitmap       	= AnimatedBitmap.new("Graphics/Pictures/Pokedex/icon_slider")
         @typebitmap         	= AnimatedBitmap.new(addLanguageSuffix("Graphics/Pictures/Pokedex/icon_types"))
@@ -72,6 +74,7 @@ class PokemonPokedex_Scene
     end
 
     def generateSpeciesUseData
+        return if $SpeciesUseData
         speciesUsed = {}
         GameData::Species.each do |species_data|
             next if species_data.form != 0
@@ -87,7 +90,7 @@ class PokemonPokedex_Scene
             end
         end
 
-        @speciesUseData = {}
+        $SpeciesUseData = {}
         speciesUsed.each do |species, arrayOfTrainerData|
             arrayOfTrainerData.uniq!
             arrayOfTrainerData.compact!
@@ -100,13 +103,13 @@ class PokemonPokedex_Scene
                     regularTrainerUseCount += 1
                 end
             end
-            @speciesUseData[species] = [regularTrainerUseCount, monumentTrainerUseCount]
+            $SpeciesUseData[species] = [regularTrainerUseCount, monumentTrainerUseCount]
         end
     end
 
     def generateSignaturesData
-        @signatureAbilities = getSignatureAbilities
-        @signatureMoves	= getSignatureMoves
+        $SignatureAbilities = getSignatureAbilities unless $SignatureAbilities
+        $SignatureMoves	= getSignatureMoves unless $SignatureMoves
     end
 
     def pbEndScene
