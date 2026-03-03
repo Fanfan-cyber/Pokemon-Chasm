@@ -29,10 +29,6 @@ class Player
     @gift_code ||= { :pkmn => [], :item => [] }
   end
 
-  def dimension_d
-    @dimension_d ||= []
-  end
-
   def team_switcher
     @team_switcher ||= []
   end

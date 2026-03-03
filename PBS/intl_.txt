@@ -46099,8 +46099,6 @@ ItemDex
 ItemDex
 Battle Guide
 Battle Guide
-Dimension D
-Dimension D
 Time Capsule
 Time Capsule
 Adoption Center
@@ -50481,8 +50479,6 @@ You register {1} as caught in the MasterDex.
 You register {1} as caught in the MasterDex.
 Would you like to give a nickname to {1}?
 Would you like to give a nickname to {1}?
-{1} already has {2}!<<n>>{2} has been sent to Dimension D!
-{1} already has {2}!<<n>>{2} has been sent to Dimension D!
 Would you like to add {1} to your party?
 Would you like to add {1} to your party?
 Choose which Pokemon will be sent back to the PC.
@@ -55915,6 +55911,8 @@ There are no encounters on this map.
 There are no encounters on this map.
 Would you like to get all these Pokémon?
 Would you like to get all these Pokémon?
+Include owned Pokémon?
+Include owned Pokémon?
 You can't get any of these Pokémon!
 You can't get any of these Pokémon!
 Enjoy your new Pokémon!\me<<[>>Pkmn get<<]>>\wtnp<<[>>80<<]>><<1>>
@@ -55925,8 +55923,8 @@ This feature of the DexNav is unavailable during this minigame.
 This feature of the DexNav is unavailable during this minigame.
 Would you like to get this Pokémon?
 Would you like to get this Pokémon?
-You can't get this Pokémon! You already have one!
-You can't get this Pokémon! You already have one!
+You already have one! Still get this Pokémon?
+You already have one! Still get this Pokémon?
 Replace Search
 Replace Search
 Search Nearby
@@ -59079,22 +59077,6 @@ Ability Recorder recorded {1}'s {2}!
 Ability Recorder recorded {1}'s {2}!
 The Ability Recorder recorded {1} {2}.
 The Ability Recorder recorded {1} {2}.
-You can't open Dimension D now!
-You can't open Dimension D now!
-You don't have any Pokémon in Dimension D!
-You don't have any Pokémon in Dimension D!
-Choose a Pokémon!
-Choose a Pokémon!
-To TC
-To TC
-You can't retrieve this Pokémon! You already have one!
-You can't retrieve this Pokémon! You already have one!
-You retrieved {1}!
-You retrieved {1}!
-Do you want to release {1}?
-Do you want to release {1}?
-You released {1}!
-You released {1}!
 Check Team
 Check Team
 Shot Team
@@ -59135,6 +59117,8 @@ There aren't any Pokémon in the Time Capsule!
 There aren't any Pokémon in the Time Capsule!
 Which Pokémon would you like to retrieve?
 Which Pokémon would you like to retrieve?
+You retrieved {1}!
+You retrieved {1}!
 Do you want to put {1} in the Time Capsule?
 Do you want to put {1} in the Time Capsule?
 {1} is in the Time Capsule now!
@@ -59245,8 +59229,6 @@ Which Pokémon would you like to adopt?
 Which Pokémon would you like to adopt?
 Do you want to adopt this Pokémon?
 Do you want to adopt this Pokémon?
-You can't adopt this Pokémon! You already have one!
-You can't adopt this Pokémon! You already have one!
 You can't adopt this Pokémon! You don't have enough AP!
 You can't adopt this Pokémon! You don't have enough AP!
 Learn Move

@@ -13,9 +13,7 @@ def has_species_pc?(species, form = -1)
   return false
 end
 
-def has_species?(species, form = -1) # This method used for Dimension D only, don't touch it
-  return false # Dimension D has been removed
-  return false if $DEBUG
+def has_species?(species, form = -1)
   has_species_party?(species, form) || has_species_pc?(species, form)
 end
 

@@ -293,8 +293,8 @@ class PokeBattle_Battler
                 end
             end
 =end
-            # Alt Dimension D (Species Clause)
-            if @battle.tracker_get(:alt_dimension_d).include?(@pokemon.unique_id)
+            # Species Clause
+            if @battle.tracker_get(:species_clause).include?(@pokemon.unique_id)
                 if aiCheck
                     echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to it being predicted to fail to move (Species Clause)")
                     return false

@@ -78,7 +78,6 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     infoCommands[cmdAbilityDex  = infoCommands.length] = _INTL("AbilityDex")
     infoCommands[cmdItemDex     = infoCommands.length] = _INTL("ItemDex")
     infoCommands[cmdBattleGuide = infoCommands.length] = _INTL("Battle Guide")
-    #infoCommands[cmdDimensionD  = infoCommands.length] = _INTL("Dimension D")
     infoCommands[cmdTimeCapsule = infoCommands.length] = _INTL("Time Capsule")
     infoCommands[cmdAdoptionCenter = infoCommands.length] = _INTL("Adoption Center")
     infoCommands[cmdBattleLoader = infoCommands.length] = _INTL("Battle Loader")
@@ -101,8 +100,6 @@ class PokemonDocumentationMenu < PokemonPauseMenu
           ItemDex.open_itemdex
       elsif cmdBattleGuide > -1 && infoCommand == cmdBattleGuide
           showBattleGuide
-      elsif cmdDimensionD > -1 && infoCommand == cmdDimensionD
-          DimensionD.open_dimension_d
       elsif cmdTimeCapsule > -1 && infoCommand == cmdTimeCapsule
           TimeCapsule.open_time_capsule
       elsif cmdBattleLoader > -1 && infoCommand == cmdBattleLoader
