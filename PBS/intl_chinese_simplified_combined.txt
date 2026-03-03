@@ -47582,7 +47582,7 @@ Flashing
 Whether lightning storms display a flashing lightning effect.
 雷暴是否显示闪烁的闪电效果。
 Force Time
-时间流速
+强制时间
 Force the overworld lighting of a certain hour of the day.
 强制设置大地图在1天中某个特定时间的光照。
 6
@@ -56386,7 +56386,7 @@ Set the new ID (max. 65535).
 Set egg
 设置蛋
 Not an egg
-非蛋
+不是蛋
 Egg (hatches in {1} steps).
 蛋（在{1}步后孵化）。
 Make egg
@@ -56396,7 +56396,7 @@ Make Pokémon
 Set steps left to 1
 将剩余步数设置为1
 {1} cannot legally be an egg. Make egg anyway?
-{1}在法律上不能是蛋。还是要制作蛋吗？
+确定制作蛋吗？
 Duplicate
 复制
 Are you sure you want to copy this Pokémon?

@@ -733,7 +733,7 @@ class PokeBattle_Battler
                 end
             end
 
-            unless hasCopiedMoveMarker? || move.uninvocable?
+            unless hasCopiedMoveMarker? || move.move_data.uninvocable?
                 # Dancer
                 if move.danceMove?
                     dancers = []

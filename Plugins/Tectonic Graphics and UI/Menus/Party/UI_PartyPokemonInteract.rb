@@ -69,7 +69,8 @@ class TilingCardsPokemonMenu_Scene < TilingCardsMenu_Scene
                   :MODIFY => {
                       :label => _INTL("Modify"),
                       :active_proc => proc do
-                          canEditTeam && !@pkmn.egg?
+                          #canEditTeam && !@pkmn.egg?
+                          !@pkmn.egg?
                       end,
                       :press_proc => proc do |_scene|
                           next true if modifyCommandMenu
