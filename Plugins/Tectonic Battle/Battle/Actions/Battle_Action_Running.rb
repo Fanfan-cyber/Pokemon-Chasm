@@ -45,7 +45,7 @@ class PokeBattle_Battle
                     @decision = 3
                 end
                 return 1
-            elsif debugControl
+            elsif debugControl || TA.get(:storymode)
                 if pbDisplayConfirm(_INTL("Treat this battle as a win?"))
                     @decision = 1
                     return 1

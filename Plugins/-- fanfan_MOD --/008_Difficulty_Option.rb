@@ -39,7 +39,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Level Sacling
     else
       next if pkmn.hasMove?(:ENDEAVOR)
       pkmn.level = higher_level # level
-      pkmn.level += 1 if pkmn.level < MAX_LEVEL_CAP && rand(100) < 30 
+      pkmn.level += 1 if pkmn.level < MAX_LEVEL_CAP && rand(100) < 40 
     end
     if punish_level > 0
       punish_increment = [punish_level, MAX_LEVEL_CAP - pkmn.level].min
