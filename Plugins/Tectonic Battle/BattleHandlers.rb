@@ -654,7 +654,8 @@ module BattleHandlers
     end
 
     def self.triggerAbilityOnSwitchIn(ability, battler, battle, aiCheck = false)
-        ret = battler.trigger_tracked_ability(:on_switch_in, ability, aiCheck) || 0
+        #ret = AbilityOnSwitchIn.trigger(ability, battler, battle, aiCheck) || 0
+        ret = battler.trigger_tracked_ability(:on_switch_in, ability, battler, aiCheck) || 0
         return ret
     end
 

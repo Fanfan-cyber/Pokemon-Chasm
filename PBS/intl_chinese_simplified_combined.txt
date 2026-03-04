@@ -35788,7 +35788,7 @@ Doubles target ally's Attack and Speed. However, if the user faints, so too does
 The user inspires a sudden dread in the target, damaging it. This move always goes first.
 使对方突然感到恐惧，并造成伤害。
 The user launches four Dreepies, which spread out equally to hit near foes. But, they avoid targets they can't hit.
-使用者发射四枚恐怖雨，平均分散攻击附近的对手。但它们会避开无法命中的目标。
+使用者发射4枚恐怖雨，平均分散攻击附近的对手。但它们会避开无法命中的目标。
 The user spits venom at the target. It has a 30% chance to poison.
 向对手喷射毒液。30%概率使对手中毒。
 The user shakes the target with a deep, rumbling roar. This attack does physical damage.
@@ -63029,7 +63029,7 @@ Spotlight
 Stockpile Charges
 囤积电量
 Substitute Health
-替身生命值
+替身HP
 Taunted Turns
 挑衅回合
 Barred Turns

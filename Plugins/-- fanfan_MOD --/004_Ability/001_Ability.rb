@@ -3,26 +3,25 @@ class PokeBattle_Battler
     @tracked_abilities ||= battle_tracker_get(:abilities)
   end
 
-  def ability_tracked?(ability_id)
-    tracked_abilities.key?(ability_id)
+  def ability_tracked?(abil_id)
+    tracked_abilities.key?(abil_id)
   end
 
   def track_all_abilities
-    abils = abilities
     @tracked_abilities = nil
-    tracked_abilities.keep_if { |ability_id, _ability| abils.include?(ability_id) }
-    abils.each do |ability_id|
-      next if ability_tracked?(ability_id)
-      class_name = "AbilityFactory_#{ability_id}"
+    tracked_abilities.keep_if { |abil_id, _ability| @ability_ids.include?(abil_id) }
+    @ability_ids.each do |abil_id|
+      next if ability_tracked?(abil_id)
+      class_name = "AbilityFactory_#{abil_id}"
       unless Object.const_defined?(class_name)
         Object.const_set(class_name, Class.new(AbilityFactory))
       end
-      tracked_abilities[ability_id] = Object.const_get(class_name).new(ability_id, self, @battle)
+      tracked_abilities[abil_id] = Object.const_get(class_name).new(abil_id, @battle)
     end
   end
 
-  def trigger_tracked_ability(method_name, ability_id, *args)
-    ability = tracked_abilities[ability_id]
+  def trigger_tracked_ability(method_name, abil_id, *args)
+    ability = tracked_abilities[abil_id]
     return unless ability&.respond_to?(method_name)
     return ability.public_send(method_name, *args)
   end
@@ -80,12 +79,11 @@ class AbilityFactory
     end
   end
 
-  attr_reader :ability, :battler, :battle
+  attr_reader :ability, :battle
   def_trigger :on_switch_in
 
-  def initialize(ability, battler, battle)
+  def initialize(ability, battle)
     @ability                             = ability
-    @battler                             = battler
     @battle                              = battle
     @on_switch_in_trigger_max_per_battle = -1
     @on_switch_in_trigger_max_per_switch = -1
@@ -110,7 +108,7 @@ class AbilityFactory
 
   def on_switch_in_extra_trigger_times(aiCheck = false); return @on_switch_in_extra_trigger_times; end
 
-  def on_switch_in(aiCheck = false)
+  def on_switch_in(battler, aiCheck = false)
     return false if on_switch_in_blocked?(aiCheck)
 
     success       = false
@@ -119,8 +117,8 @@ class AbilityFactory
 
     trigger_times.times do
       next if on_switch_in_triggered_max?
-      ret1 = BattleHandlers::AbilityOnSwitchIn.trigger(@ability, @battler, @battle, aiCheck)
-      ret2 = on_switch_in_effect(aiCheck)
+      ret1 = BattleHandlers::AbilityOnSwitchIn.trigger(@ability, battler, @battle, aiCheck)
+      ret2 = on_switch_in_effect(battler, aiCheck)
       if aiCheck
         total_ret += ret1 if ret1.is_a?(Numeric)
         total_ret += ret2 if ret2.is_a?(Numeric)
@@ -134,23 +132,23 @@ class AbilityFactory
     return success
   end
 
-  def on_switch_in_effect(aiCheck = false); return false; end
+  def on_switch_in_effect(battler, aiCheck = false); return false; end
 end
 
 class AbilityFactory_EXAMPLE < AbilityFactory
-  def initialize(ability, battler, battle)
+  def initialize(ability, battle)
     super
     @on_switch_in_trigger_max_per_battle = 1
     @on_switch_in_trigger_max_per_switch = 1
     @on_switch_in_extra_trigger_times    = 1
   end
 
-  def on_switch_in_effect(aiCheck = false)
+  def on_switch_in_effect(battler, aiCheck = false)
     return 0 if aiCheck
-    @battle.pbShowAbilitySplash(@battler, @ability)
-    @battle.pbAnimation(:GREYMIST, @battler, nil, 0)
-    @battle.field.applyEffect(:GreyMist, applyEffectDurationModifiers(3, @battler))
-    @battle.pbHideAbilitySplash(@battler)
+    @battle.pbShowAbilitySplash(battler, @ability)
+    @battle.pbAnimation(:GREYMIST, battler, nil, 0)
+    @battle.field.applyEffect(:GreyMist, applyEffectDurationModifiers(3, battler))
+    @battle.pbHideAbilitySplash(battler)
     return true
   end
 end
