@@ -306,6 +306,7 @@ class PokeBattle_Battler
             end
         end
 
+=begin
         # Pacifist
         if hasActiveAbility?(:PACIFIST)
             if aiCheck
@@ -328,6 +329,7 @@ class PokeBattle_Battler
                 return false
             end
         end
+=end
 
         # Truant
         if hasActiveAbility?(:TRUANT)

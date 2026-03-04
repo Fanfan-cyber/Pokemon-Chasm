@@ -56,7 +56,7 @@ class PokeBattle_Battler
     end
 
     def fainted?
-        return @hp <= 0 || refusesToFight?
+        return @hp <= 0 # || refusesToFight?
     end
     alias isFainted? fainted?
 
