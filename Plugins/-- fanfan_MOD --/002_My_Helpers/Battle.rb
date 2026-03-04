@@ -74,7 +74,7 @@ class PokeBattle_Battle
 
   def ignore_perfect?(casual = true)
     return false unless trainerBattle?
-    return true if TA.get(:disableperfect) && casual
+    return true if TA.get(:casualmode) && casual
     if $Trainer.able_pokemon_count == 1
       able_pokemon = $Trainer.first_able_pokemon
       return true if able_pokemon.isSpecies?(%i[GARDEVOIR GALLADE]) && able_pokemon.form == 1

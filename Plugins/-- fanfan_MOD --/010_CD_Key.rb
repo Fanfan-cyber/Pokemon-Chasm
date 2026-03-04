@@ -165,7 +165,7 @@ module CDKey
   end
 
   UNUSED_CODE = %i[adaptiveai nocopymon whosyourdaddy]
-  CHECK_CODE  = %i[disableperfect]
+  CHECK_CODE  = %i[]
   def self.clear_unused_code
     UNUSED_CODE.each { |code| TA.set(code, false) }
     CHECK_CODE.each do |code|
@@ -212,22 +212,17 @@ CDKey.register_other_key(:doublebattle, true)
 CDKey.register_other_key([:disabledouble, :doublebattle], false)
 CDKey.register_other_key(:inversebattle, true)
 CDKey.register_other_key([:noinversebattle, :inversebattle], false)
-CDKey.register_other_key(:disableperfect, true) { next $Trainer&.checkBadge(1) }
-CDKey.register_other_key([:enableperfect, :disableperfect], false)
-CDKey.register_other_key(:simplemode, true) { next $Trainer&.checkBadge(1) }
-CDKey.register_other_key([:normalmode, :simplemode], false)
+CDKey.register_other_key(:casualmode, true) #{ next $Trainer&.checkBadge(1) }
+CDKey.register_other_key([:nocasualmode, :casualmode], false)
+CDKey.register_other_key(:simplemode, true) #{ next $Trainer&.checkBadge(1) }
+CDKey.register_other_key([:nosimplemode, :simplemode], false)
 
-#CDKey.register_other_key(:speedup, true)
-#CDKey.register_other_key([:disablespeedup, :speedup], false)
 CDKey.register_other_key(:freetarotamulet, true)
 CDKey.register_other_key([:nofreetarotamulet, :freetarotamulet], false)
 CDKey.register_other_key(:shuffledisplay, true)
 CDKey.register_other_key([:noshuffledisplay, :shuffledisplay], false)
-#CDKey.register_other_key(:disablerevive, true) { next $Trainer&.checkBadge(1) }
 CDKey.register_other_key(:battlerevive, true)
 CDKey.register_other_key([:disablerevive, :battlerevive], false)
-#CDKey.register_other_key(:enablelegendary, true)
-#CDKey.register_other_key([:disablelegendary, :enablelegendary], false)
 CDKey.register_other_key(:copywhatever, true)
 CDKey.register_other_key([:nocopywhatever, :copywhatever], false)
 CDKey.register_other_key(:stupidai, true)
