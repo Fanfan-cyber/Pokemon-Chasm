@@ -1432,12 +1432,12 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
     end
 
     def drawPageDEBUG
-        @bg_path = "Graphics/Pictures/Pokedex/bg_evolution"
+        bg_path = "Graphics/Pictures/Pokedex/bg_evolution"
         bg_path += "_dark" if darkMode?
         @sprites["background"].setBitmap(_INTL(bg_path))
         overlay = @sprites["overlay"].bitmap
-        base = MessageConfig::DARK_TEXT_MAIN_COLOR
-        shadow = MessageConfig::DARK_TEXT_SHADOW_COLOR
+        base   = MessageConfig.pbDefaultTextMainColor
+        shadow = MessageConfig.pbDefaultTextShadowColor
         xLeft = 36
         for i in @available
             next unless i[2] == @form
@@ -1449,7 +1449,7 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
             coordinateY += 34
 
             # Use count
-            useCount = @speciesUseData[entry[:species]]
+            useCount = $SpeciesUseData[@species]
             drawTextEx(overlay, xLeft, coordinateY, 450, 1, _INTL("Use count: {1}, {2}", useCount[0], useCount[1]), base, shadow)
             coordinateY += 32
 
