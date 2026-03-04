@@ -1858,10 +1858,10 @@ Type = POISON
 Category = Status
 Accuracy = 100
 TotalPP = 10
-Target = NearFoe
+Target = NearOther
 FunctionCode = Poison
 Flags = CanProtect,CanMagicCoat,Wind
-Description = A cloud of poison gas is sprayed in the face of the foe, poisoning it.
+Description = A cloud of poison gas is sprayed in the face of the target, poisoning it.
 #-------------------------------
 [POISONJAB]
 Name = Poison Jab
