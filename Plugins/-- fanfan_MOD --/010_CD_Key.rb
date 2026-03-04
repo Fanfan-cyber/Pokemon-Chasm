@@ -164,7 +164,7 @@ module CDKey
     return true
   end
 
-  UNUSED_CODE = %i[adaptiveai nocopymon whosyourdaddy]
+  UNUSED_CODE = %i[adaptiveai whosyourdaddy]
   CHECK_CODE  = %i[]
   def self.clear_unused_code
     UNUSED_CODE.each { |code| TA.set(code, false) }
@@ -223,20 +223,20 @@ CDKey.register_other_key(:shuffledisplay, true)
 CDKey.register_other_key([:noshuffledisplay, :shuffledisplay], false)
 CDKey.register_other_key(:battlerevive, true)
 CDKey.register_other_key([:disablerevive, :battlerevive], false)
-CDKey.register_other_key(:copywhatever, true)
-CDKey.register_other_key([:nocopywhatever, :copywhatever], false)
 CDKey.register_other_key(:stupidai, true)
 CDKey.register_other_key([:smartai, :stupidai], false)
 CDKey.register_other_key(:revengeplus, true)
 CDKey.register_other_key([:norevengeplus, :revengeplus], false)
+CDKey.register_other_key(:disablecopy, true)
+CDKey.register_other_key([:copyagain, :disablecopy], false)
+CDKey.register_other_key(:copywhatever, true)
+CDKey.register_other_key([:nocopywhatever, :copywhatever], false)
 CDKey.register_other_key(:opposingalwaysresting, true)
 CDKey.register_other_key([:noalwaysresting, :opposingalwaysresting], false)
 
 #CDKey.register_other_key(:adaptiveai, true)
 #CDKey.register_other_key(:whosyourdaddy, true)
 #CDKey.register_other_key([:nodaddy, :whosyourdaddy], false)
-#CDKey.register_other_key(:nocopymon, true)
-#CDKey.register_other_key([:copymonagain, :nocopymon], false)
 
 CDKey.register_pkmn_key(:hyena1,    { :PIKACHU => 1  })
 CDKey.register_pkmn_key(:psyduck10, { :PORYGON => 10 })

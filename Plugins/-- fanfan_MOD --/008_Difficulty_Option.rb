@@ -11,7 +11,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Battle Loader
 
 Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Pokemon Copying
   next if TA.get(:battle_loader)
-  next if TA.get(:nocopymon)
+  next if TA.get(:disablecopy)
   trainer = e[0]
   next unless trainer
   next if trainer.trainer_type == :ABSOL
