@@ -12,22 +12,22 @@ class PokeBattle_Battler
     tracked_abilities.keep_if { |abil_id, _ability| @ability_ids.include?(abil_id) }
     @ability_ids.each do |abil_id|
       next if ability_tracked?(abil_id)
-      class_name = "AbilityFactory_#{abil_id}"
-      unless Object.const_defined?(class_name)
-        Object.const_set(class_name, Class.new(AbilityFactory))
+      klass_name = "AbilityFactory_#{abil_id}"
+      unless Object.const_defined?(klass_name)
+        Object.const_set(klass_name, Class.new(AbilityFactory))
       end
-      tracked_abilities[abil_id] = Object.const_get(class_name).new(abil_id, @battle)
+      tracked_abilities[abil_id] = Object.const_get(klass_name).new(abil_id, @battle) # can't pass self here
     end
   end
 
-  def trigger_tracked_ability(method_name, abil_id, *args)
-    ability = tracked_abilities[abil_id]
-    return unless ability&.respond_to?(method_name)
-    return ability.public_send(method_name, *args)
+  def trigger_tracked_ability(method_name, abil_id, *args) # pass self here, args[0]
+    abil = tracked_abilities[abil_id]
+    return unless abil&.respond_to?(method_name)
+    return abil.public_send(method_name, *args)
   end
 
   def reset_tracked_abilities_switch_counter
-    tracked_abilities.each { |_ability_id, ability| ability&.reset_switch_counter }
+    tracked_abilities.each { |_ability_id, abil| abil&.reset_switch_counter }
   end
 end
 
@@ -170,9 +170,9 @@ class AbilitySystem
   end
 
   def self.get_ability(id)
-    class_name = "AbilitySystem_#{id}"
-    return unless Object.const_defined?(class_name)
-    @@ability_cache[id] ||= Object.const_get(class_name).new(id)
+    klass_name = "AbilitySystem_#{id}"
+    return unless Object.const_defined?(klass_name)
+    @@ability_cache[id] ||= Object.const_get(klass_name).new(id)
   end
 
   def self.get(id, attr)
@@ -196,9 +196,9 @@ class AbilitySystem
   def self.apply_effect_backfire(handler, id, mults, battle)
     ability = get_ability(id)
     return unless ability
-    ability_class = ability.class
-    return unless ability_class.const_defined?(:OFF_MULT)
-    off_mult = ability_class.const_get(:OFF_MULT)
+    ability_klass = ability.class
+    return unless ability_klass.const_defined?(:OFF_MULT)
+    off_mult = ability_klass.const_get(:OFF_MULT)
     calc_mults(off_mult, handler, mults, battle)
   end
 

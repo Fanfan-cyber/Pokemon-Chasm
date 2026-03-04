@@ -259,7 +259,7 @@ simplemode/normalmode，开启（1徽章）/关闭简单模式
 82.现在Echo不会对不可调用类技能生效
 83.现在Martial Discipline不会对不可调用类技能生效
 84.现在玩家可以在锦标赛时对精灵进行调整
-85.
+85.修复了某些出场会发动的特性失效的Bug
 
 0.4.4 Vestiges of Destiny / 溯光回响
 1.修改了大量中文的翻译
