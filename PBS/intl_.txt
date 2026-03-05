@@ -4669,24 +4669,14 @@ My my, what a great fight that was. You gave me quite a battle.
 My my, what a great fight that was. You gave me quite a battle.
 You've taught me that I might just have my hardest battles ahead of me yet!
 You've taught me that I might just have my hardest battles ahead of me yet!
-The Starters Store
-The Starters Store
+"Welcome to Novo, your flowery home."
+"Welcome to Novo, your flowery home."
 Biking is a great way for me to exercise between my classes at Novo College.
 Biking is a great way for me to exercise between my classes at Novo College.
 I work out my brain, then my body!
 I work out my brain, then my body!
-"Welcome to Novo, your flowery home."
-"Welcome to Novo, your flowery home."
-I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
-I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
-Away from my parents, too.
-Away from my parents, too.
-The privacy, the freedom, the agency, it's all been great.
-The privacy, the freedom, the agency, it's all been great.
-It's just...
-It's just...
-I can't get used to how quiet it is all the time.
-I can't get used to how quiet it is all the time.
+The Starters Store
+The Starters Store
 I work at the Pokemon Center here, but I like to come here after my shift.
 I work at the Pokemon Center here, but I like to come here after my shift.
 As you might have deduced by now, I also like to battle. Should we?
@@ -4697,6 +4687,18 @@ Ah, you got me. Good fight. Let's see if the next person could put up a better c
 Ah, you got me. Good fight. Let's see if the next person could put up a better challenge.
 I'm not able to heal your Pokemon since I don't have my machine or my tools. Sorry.
 I'm not able to heal your Pokemon since I don't have my machine or my tools. Sorry.
+I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
+I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
+Away from my parents, too.
+Away from my parents, too.
+The privacy, the freedom, the agency, it's all been great.
+The privacy, the freedom, the agency, it's all been great.
+It's just...
+It's just...
+I can't get used to how quiet it is all the time.
+I can't get used to how quiet it is all the time.
+NO MOTOR VEHICLES
+NO MOTOR VEHICLES
 Oh, wow! You've grown so much! You've absolutely blossomed as a Trainer!
 Oh, wow! You've grown so much! You've absolutely blossomed as a Trainer!
 I've been working on making these for you! It uses imported flowers.
@@ -4721,10 +4723,34 @@ Are you doing your best out there?
 Are you doing your best out there?
 I'm rooting for you.
 I'm rooting for you.
-NO MOTOR VEHICLES
-NO MOTOR VEHICLES
-Novo Apartments
-Novo Apartments
+Hey-yo!
+Hey-yo!
+Hope you still remember me. I was the good-lookin' trainer camping out in front of the gym in Casaba Villa.
+Hope you still remember me. I was the good-lookin' trainer camping out in front of the gym in Casaba Villa.
+Well now I'm here, and the story's the same. Honing my skills with a team custom-built for the gym leader here.
+Well now I'm here, and the story's the same. Honing my skills with a team custom-built for the gym leader here.
+Though I'm looking forward to it, it'll also be a little bitter-sweet having to take out a fellow enby.
+Though I'm looking forward to it, it'll also be a little bitter-sweet having to take out a fellow enby.
+Anyways, I'll be here for now, ready and willing to battle you as much as you want!
+Anyways, I'll be here for now, ready and willing to battle you as much as you want!
+Wanna go?
+Wanna go?
+Understood.
+Understood.
+I'll be here until you wish to battle.
+I'll be here until you wish to battle.
+Glorious combat!
+Glorious combat!
+Ouch. That one hurts. Gotta get used to the pain, though, or else I won't stand a chance against Eko!
+Ouch. That one hurts.  Gotta get used to the pain, though, or else I won't stand a chance against Eko!
+A good fight, really got the blood flowin'.
+A good fight, really got the blood flowin'.
+Return later for a rematch.
+Return later for a rematch.
+I can tell from the scorch marks that you went up against Eko, and from the gym badge...that you won!
+I can tell from the scorch marks that you went up against Eko, and from the gym badge...that you won!
+That means the time for procrastinating is over, and the time for courage is nigh. Allons-y!
+That means the time for procrastinating is over, and the time for courage is nigh. Allons-y!
 Oh, hey. You a trainer?
 Oh, hey. You a trainer?
 Listen, I got some Pokémon that need training and… you’re giving me the look like ya heard this before.
@@ -4785,38 +4811,16 @@ Here ya go, though, for your troubles.
 Here ya go, though, for your troubles.
 See ya 'round. And, hey, you run into my friend again, beat the tar outta her, alright?
 See ya 'round. And, hey, you run into my friend again, beat the tar outta her, alright?
-Hey-yo!
-Hey-yo!
-Hope you still remember me. I was the good-lookin' trainer camping out in front of the gym in Casaba Villa.
-Hope you still remember me. I was the good-lookin' trainer camping out in front of the gym in Casaba Villa.
-Well now I'm here, and the story's the same. Honing my skills with a team custom-built for the gym leader here.
-Well now I'm here, and the story's the same. Honing my skills with a team custom-built for the gym leader here.
-Though I'm looking forward to it, it'll also be a little bitter-sweet having to take out a fellow enby.
-Though I'm looking forward to it, it'll also be a little bitter-sweet having to take out a fellow enby.
-Anyways, I'll be here for now, ready and willing to battle you as much as you want!
-Anyways, I'll be here for now, ready and willing to battle you as much as you want!
-Wanna go?
-Wanna go?
-Understood.
-Understood.
-I'll be here until you wish to battle.
-I'll be here until you wish to battle.
-Glorious combat!
-Glorious combat!
-Ouch. That one hurts. Gotta get used to the pain, though, or else I won't stand a chance against Eko!
-Ouch. That one hurts.  Gotta get used to the pain, though, or else I won't stand a chance against Eko!
-A good fight, really got the blood flowin'.
-A good fight, really got the blood flowin'.
-Return later for a rematch.
-Return later for a rematch.
-I can tell from the scorch marks that you went up against Eko, and from the gym badge...that you won!
-I can tell from the scorch marks that you went up against Eko, and from the gym badge...that you won!
-That means the time for procrastinating is over, and the time for courage is nigh. Allons-y!
-That means the time for procrastinating is over, and the time for courage is nigh. Allons-y!
+Novo Apartments
+Novo Apartments
 No.
 No.
 Yes.
 Yes.
+Maybe later.
+Maybe later.
+Sure, let's go.
+Sure, let's go.
 Not right now.
 Not right now.
 What exactly do you need?
@@ -4829,10 +4833,6 @@ Someone.
 Someone.
 You offering?
 You offering?
-Maybe later.
-Maybe later.
-Sure, let's go.
-Sure, let's go.
 [Map57]
 I get to go home... doesn’t even seem real yet.
 I get to go home... doesn’t even seem real yet.
@@ -8859,22 +8859,30 @@ Perhaps your victories will end up here, one day.
 Spend enough time here and it begins to feel like a forum.
 Spend enough time here and it begins to feel like a forum.
 [Map136]
-West: Bluepoint Beach
-West: Bluepoint Beach
-Northeast: Scenic Path
-Northeast: Scenic Path
-A third label has been poorly masked with white paint.
-A third label has been poorly masked with white paint.
-The door is securely locked.
-The door is securely locked.
 Welcome to Casaba Villa, the best resort town in Makya.
 Welcome to Casaba Villa, the best resort town in Makya.
 My fiancé and I visit here at least once a month.
 My fiancé and I visit here at least once a month.
 Oh, I'd introduce you to her, but she's enjoying herself at Bluepoint Beach at the moment.
 Oh, I'd introduce you to her, but she's enjoying herself at Bluepoint Beach at the moment.
+The door is securely locked.
+The door is securely locked.
+West: Bluepoint Beach
+West: Bluepoint Beach
+Northeast: Scenic Path
+Northeast: Scenic Path
+A third label has been poorly masked with white paint.
+A third label has been poorly masked with white paint.
 Lambert's House
 Lambert's House
+I've summered here for 20 years.
+I've summered here for 20 years.
+I must say it really went to the dogs once Team Chasm started moving in.
+I must say it really went to the dogs once Team Chasm started moving in.
+I especially don't like the gym leader they stationed here.
+I especially don't like the gym leader they stationed here.
+Before all this, he was a bartender at some establishment for roustabouts.
+Before all this, he was a bartender at some establishment for roustabouts.
 Hey, kiddo. What’s goin’ on? I heard you’re following me.
 Hey, kiddo. What’s goin’ on? I heard you’re following me.
 Well, go right ahead. Not gonna get a Beedrill in my bonnet over some kid toddling after me.
@@ -8893,22 +8901,6 @@ Too bad. If you can’t beat that gym, you don’t deserve to even be in this co
 Too bad. If you can’t beat that gym, you don’t deserve to even be in this competition. Bye!
 You’ve always needed my help. Fine -- prove me wrong. We’ll talk again.
 You’ve always needed my help. Fine -- prove me wrong. We’ll talk again.
-I've summered here for 20 years.
-I've summered here for 20 years.
-I must say it really went to the dogs once Team Chasm started moving in.
-I must say it really went to the dogs once Team Chasm started moving in.
-I especially don't like the gym leader they stationed here.
-I especially don't like the gym leader they stationed here.
-Before all this, he was a bartender at some establishment for roustabouts.
-Before all this, he was a bartender at some establishment for roustabouts.
-"Casaba Villa, Makya's #1 Vacation Spot"
-"Casaba Villa, Makya's #1 Vacation Spot"
-I volunteer at the PokeCenter here sometimes.
-I volunteer at the PokeCenter here sometimes.
-So many trainers come in with Numbed Pokemon after battling Lambert.
-So many trainers come in with Numbed Pokemon after battling Lambert.
-Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
-Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
 Beyond elemental types, Pokémon species are defined by a second affinity.
 Beyond elemental types, Pokémon species are defined by a second affinity.
 These are known as <imp>tribes</imp>.
@@ -8927,6 +8919,44 @@ So I restricted myself to Warriors, my favorite tribe. Problem solved!
 So I restricted myself to Warriors, my favorite tribe.  Problem solved!
 It's <i>usually</i> best to listen to her, I've found.
 It's <i>usually</i> best to listen to her, I've found.
+I volunteer at the PokeCenter here sometimes.
+I volunteer at the PokeCenter here sometimes.
+So many trainers come in with Numbed Pokemon after battling Lambert.
+So many trainers come in with Numbed Pokemon after battling Lambert.
+Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
+Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
+"Casaba Villa, Makya's #1 Vacation Spot"
+"Casaba Villa, Makya's #1 Vacation Spot"
+Greetings!
+Greetings!
+If appearances are to be believed, you seem to be a fine trainer.
+If appearances are to be believed, you seem to be a fine trainer.
+Got time to battle?
+Got time to battle?
+I'll be challenging Lambert's gym soon, but I need more practice with this team.
+I'll be challenging Lambert's gym soon, but I need more practice with this team.
+Put it together just recently. Custom built to counter that ruffian.
+Put it together just recently. Custom built to counter that ruffian.
+Gotta put in the work if I'm gonna perfect him!
+Gotta put in the work if I'm gonna perfect him!
+Call me <imp>Vanya</imp>.
+Call me <imp>Vanya</imp>.
+Know that I am unique among trainers.
+Know that I am unique among trainers.
+In my quest for perfect victories, I have suffered perfect defeats as well.
+In my quest for perfect victories, I have suffered perfect defeats as well.
+Near everyone runs off after a bad loss, but not I.
+Near everyone runs off after a bad loss, but not I.
+You can <imp>perfect</imp> my team all you want, and I'll <imp>stay right here</imp>.
+You can <imp>perfect</imp> my team all you want, and I'll <imp>stay right here</imp>.
+I'm much too fun to deprive you of my presence so easily.
+I'm much too fun to deprive you of my presence so easily.
+If my personality isn't enough of an incentive, I've also got this backpack full of sweets.
+If my personality isn't enough of an incentive, I've also got this backpack full of sweets.
+I'll give you some <imp>EXP Candy</imp> every time you manage to beat me.
+I'll give you some <imp>EXP Candy</imp> every time you manage to beat me.
+Sound good? Hit me up when you wanna try a battle!
+Sound good? Hit me up when you wanna try a battle!
 Each Pokemon has their own Personality Traits.
 Each Pokemon has their own Personality Traits.
 Bonding with a Pokemon, and discovering what makes them unique, can be such a source of joy.
@@ -8939,30 +8969,6 @@ That's a lesson that my dear wife taught me.
 That's a lesson that my dear wife taught me.
 She's correct <i>almost</i> all of the time!
 She's correct <i>almost</i> all of the time!
-Greetings!
-Greetings!
-If appearances are to be believed, you seem to be a fine trainer.
-If appearances are to be believed, you seem to be a fine trainer.
-I'll be challenging the gym here soon, but need a bit more practice with this team in particular.
-I'll be challenging the gym here soon, but need a bit more practice with this team in particular.
-After all, my goal is to defeat the leader without any of my Pokemon fainting.
-After all, my goal is to defeat the leader without any of my Pokemon fainting.
-Therefore, I'd like to battle you, if you have the time.
-Therefore, I'd like to battle you, if you have the time.
-Call me <imp>Vanya</imp>.
-Call me <imp>Vanya</imp>.
-Know that I am unique among trainers.
-Know that I am unique among trainers.
-In my quest for perfect victories, I have suffered perfect defeats as well.
-In my quest for perfect victories, I have suffered perfect defeats as well.
-Near everyone runs off after a bad loss, but not I.
-Near everyone runs off after a bad loss, but not I.
-You can <imp>perfect</imp> my team all you want, and I'll <imp>stay right here</imp>.
-You can <imp>perfect</imp> my team all you want, and I'll <imp>stay right here</imp>.
-If you would indeed like to battle me, and the team I've assembled to take down Lambert, just ask.
-If you would indeed like to battle me, and the team I've assembled to take down Lambert, just ask.
-The berry plant is growing.
-The berry plant is growing.
 Skipping Tamarind cutscene.
 Skipping Tamarind cutscene.
 Morning, \PN, I'm <imp>Professor Tamarind</imp>.
@@ -9005,6 +9011,14 @@ Well, keep it in mind.
 Well, keep it in mind.
 See ya, kid.
 See ya, kid.
+The berry plant is growing.
+The berry plant is growing.
+Casaba Villa Gym
+Casaba Villa Gym
+Leader: Lambert
+Leader: Lambert
+Fighting dirty for over a decade.
+Fighting dirty for over a decade.
 Hey!
 Hey!
 I'm bored and want to have fun. Let's play hide and seek!
@@ -9015,22 +9029,8 @@ If you can find me, I'll give the TMs to you.
 If you can find me, I'll give the TMs to you.
 I'll be somewhere on the route to the foreclosed tunnel. Smell ya later!
 I'll be somewhere on the route to the foreclosed tunnel. Smell ya later!
-Casaba Villa Gym
-Casaba Villa Gym
-Leader: Lambert
-Leader: Lambert
-Fighting dirty for over a decade.
-Fighting dirty for over a decade.
-Hey, \PN. I heard you beat Lambert.
-Hey, \PN. I heard you beat Lambert.
-Guessing you’re gonna head for the <imp>mainland</imp> now?
-Guessing you’re gonna head for the <imp>mainland</imp> now?
-Well, before you go, meet me at the dock, 'kay?
-Well, before you go, meet me at the dock, 'kay?
-Got something to say. Thanks.
-Got something to say. Thanks.
-She hung up...
-She hung up...
+Closed while Lambert participates in the Makya Championship Tournament.
+Closed while Lambert participates in the Makya Championship Tournament.
 Be careful outside the Villa, you don't want to end up as another incident in the newspapers.
 Be careful outside the Villa, you don't want to end up as another incident in the newspapers.
 No, I'm not talking about wild Pokemon.
@@ -9043,8 +9043,30 @@ I for one can't wait for the whole thing to blow over, so I can read again about
 I for one can't wait for the whole thing to blow over, so I can read again about things of real interest.
 Like the stock market.
 Like the stock market.
-Closed while Lambert participates in the Makya Championship Tournament.
-Closed while Lambert participates in the Makya Championship Tournament.
+Hey, \PN. I heard you beat Lambert.
+Hey, \PN. I heard you beat Lambert.
+Guessing you’re gonna head for the <imp>mainland</imp> now?
+Guessing you’re gonna head for the <imp>mainland</imp> now?
+Well, before you go, meet me at the dock, 'kay?
+Well, before you go, meet me at the dock, 'kay?
+Got something to say. Thanks.
+Got something to say. Thanks.
+She hung up...
+She hung up...
+Lambert has some interesting choices of Pokemon.
+Lambert has some interesting choices of Pokemon.
+His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
+His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
+A beautiful name, in my opinion!
+A beautiful name, in my opinion!
+I believe Lambert also has a Croagunk. Or.... two of them?
+I believe Lambert also has a Croagunk. Or.... two of them?
+I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
+I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
+That was a fun game of hide and seek!
+That was a fun game of hide and seek!
+I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
+I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
 You keen to take me up on my offer?
 You keen to take me up on my offer?
 Understood.
@@ -9065,30 +9087,10 @@ As a fellow competitor, I have nothing to say but to congratulate you on your vi
 As a fellow competitor, I have nothing to say but to congratulate you on your victory over Lambert.
 I'll take this as the cue to go make my attempt as well. Wish me luck!
 I'll take this as the cue to go make my attempt as well. Wish me luck!
-That was a fun game of hide and seek!
-That was a fun game of hide and seek!
-I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
-I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
-Lambert has some interesting choices of Pokemon.
-Lambert has some interesting choices of Pokemon.
-His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
-His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
-A beautiful name, in my opinion!
-A beautiful name, in my opinion!
-I believe Lambert also has a Croagunk. Or.... two of them?
-I believe Lambert also has a Croagunk. Or.... two of them?
-I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
-I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
-As a fisher, you learn to pick up on small inconsistencies around you.
-As a fisher, you learn to pick up on small inconsistencies around you.
-Take for example that bush behind me. I bet something's going on with it.
-Take for example that bush behind me. I bet something's going on with it.
-Would you look at that! Found yourself something nice.
-Would you look at that! Found yourself something nice.
-Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
-Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
-You never know what you might find...
-You never know what you might find...
+You haven't completed what you need to on the island yet!
+You haven't completed what you need to on the island yet!
+Would you like to leave Casaba Villa and go to the Mainland?
+Would you like to leave Casaba Villa and go to the Mainland?
 Oh, you just got a MasterDex? They're pretty neat.
 Oh, you just got a MasterDex? They're pretty neat.
 Of all its features, the DexNav is my favorite.
@@ -9099,10 +9101,30 @@ Once you've caught one, you can also use it to find more of that same species!
 Once you've caught one, you can also use it to find more of that same species!
 Isn't technology amazing?
 Isn't technology amazing?
-You haven't completed what you need to on the island yet!
-You haven't completed what you need to on the island yet!
-Would you like to leave Casaba Villa and go to the Mainland?
-Would you like to leave Casaba Villa and go to the Mainland?
+As a fisher, you learn to pick up on small inconsistencies around you.
+As a fisher, you learn to pick up on small inconsistencies around you.
+Take for example that bush behind me. I bet something's going on with it.
+Take for example that bush behind me. I bet something's going on with it.
+Would you look at that! Found yourself something nice.
+Would you look at that! Found yourself something nice.
+Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
+Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
+You never know what you might find...
+You never know what you might find...
+Lambert, the gym leader, came running through here earlier.
+Lambert, the gym leader, came running through here earlier.
+He put a rock behind him to block it off, for some reason.
+He put a rock behind him to block it off, for some reason.
+You need to get through?
+You need to get through?
+Well...there's an abandoned tunnel up to the north.
+Well...there's an abandoned tunnel up to the north.
+You can probably find something to blow this rock up if you go there.
+You can probably find something to blow this rock up if you go there.
+Oh hey, you cleared out that rock!
+Oh hey, you cleared out that rock!
+Who knew explosives could be so useful?
+Who knew explosives could be so useful?
 Oh, so it is you!
 Oh, so it is you!
 Forgive my doppelganger – a Ditto that stalks me incessantly, claiming to be the real deal.
@@ -9135,20 +9157,6 @@ I dare not leave her alone, claiming to be me, so off I go!
 I dare not leave her alone, claiming to be me, so off I go!
 Fare you well, traveler!
 Fare you well, traveler!
-Lambert, the gym leader, came running through here earlier.
-Lambert, the gym leader, came running through here earlier.
-He put a rock behind him to block it off, for some reason.
-He put a rock behind him to block it off, for some reason.
-You need to get through?
-You need to get through?
-Well...there's an abandoned tunnel up to the north.
-Well...there's an abandoned tunnel up to the north.
-You can probably find something to blow this rock up if you go there.
-You can probably find something to blow this rock up if you go there.
-Oh hey, you cleared out that rock!
-Oh hey, you cleared out that rock!
-Who knew explosives could be so useful?
-Who knew explosives could be so useful?
 We'll see.
 We'll see.
 ...
@@ -10244,6 +10252,20 @@ Go forth, and master your darkness, Trainer. Great things await you.
 Go forth, and master your darkness, Trainer. Great things await you.
 For now... I go.
 For now... I go.
+Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
+Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
+You'll earn a prize depending on the best creature yer capable of haulin' in.
+You'll earn a prize depending on the best creature yer capable of haulin' in.
+Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
+Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
+\PN hands over $1000.
+\PN hands over $1000.
+You don't have enough for it.
+You don't have enough for it.
+What, lost all yer money in a shipwreck?
+What, lost all yer money in a shipwreck?
+Ay, that's too bad.
+Ay, that's too bad.
 All o' us saw a great Pokemon under the waves during one trip or another.
 All o' us saw a great Pokemon under the waves during one trip or another.
 I ordered me one o' them fancy Master Balls in case I e'er saw her again.
@@ -10270,24 +10292,16 @@ So? Ye' got that cup o' coffee?
 So? Ye' got that cup o' coffee?
 Maybe one day you'll get a glimpse...
 Maybe one day you'll get a glimpse...
-Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
-Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
-You'll earn a prize depending on the best creature yer capable of haulin' in.
-You'll earn a prize depending on the best creature yer capable of haulin' in.
-Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
-Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
-\PN hands over $1000.
-\PN hands over $1000.
-You don't have enough for it.
-You don't have enough for it.
-What, lost all yer money in a shipwreck?
-What, lost all yer money in a shipwreck?
-Ay, that's too bad.
-Ay, that's too bad.
 Hey, don't run when near a pool.
 Hey, don't run when near a pool.
 Slips and falls are one of the most common causes of pool injuries.
 Slips and falls are one of the most common causes of pool injuries.
+Boss loves to bring us out to crazy spots to catch rare Pokemon.
+Boss loves to bring us out to crazy spots to catch rare Pokemon.
+A few weeks ago we were facing 20 meter waves.
+A few weeks ago we were facing 20 meter waves.
+That was a crazy ride, but boss got us through it.
+That was a crazy ride, but boss got us through it.
 Ah, it's good to see ya again.
 Ah, it's good to see ya again.
 Here to reminisce with me about your best catch?
@@ -10296,16 +10310,12 @@ Don't recognize ya. Must never have joined us on an ocean fishing trip, eh?
 Don't recognize ya. Must never have joined us on an ocean fishing trip, eh?
 Talk to the captain if you want to try.
 Talk to the captain if you want to try.
-Boss loves to bring us out to crazy spots to catch rare Pokemon.
-Boss loves to bring us out to crazy spots to catch rare Pokemon.
-A few weeks ago we were facing 20 meter waves.
-A few weeks ago we were facing 20 meter waves.
-That was a crazy ride, but boss got us through it.
-That was a crazy ride, but boss got us through it.
-Aquatopia hires a few Trainers to take care of the Pokemon here.
-Aquatopia hires a few Trainers to take care of the Pokemon here.
-While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
-While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
+I love hanging with my boy Shellder.
+I love hanging with my boy Shellder.
+He justs sits around all day and eats whatever is given to him.
+He justs sits around all day and eats whatever is given to him.
+I respect that, we can all learn a bit from Shellder.
+I respect that, we can all learn a bit from Shellder.
 The fishing spot we found is great, but the storms are ferocious.
 The fishing spot we found is great, but the storms are ferocious.
 During one of the worst ones, I swear I saw a massive Pokemon inside one of the waves.
@@ -10314,12 +10324,10 @@ It had to be almost 5 meters long.
 It had to be almost 5 meters long.
 It wasn't a Wailord, that's for sure.
 It wasn't a Wailord, that's for sure.
-I love hanging with my boy Shellder.
-I love hanging with my boy Shellder.
-He justs sits around all day and eats whatever is given to him.
-He justs sits around all day and eats whatever is given to him.
-I respect that, we can all learn a bit from Shellder.
-I respect that, we can all learn a bit from Shellder.
+Aquatopia hires a few Trainers to take care of the Pokemon here.
+Aquatopia hires a few Trainers to take care of the Pokemon here.
+While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
+While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
 Hey Trainer! I found this weird rock!
 Hey Trainer! I found this weird rock!
 Want to take a look?
@@ -10346,10 +10354,6 @@ That's ok, just bring it back when you find it.
 That's ok, just bring it back when you find it.
 I love my rock! I'm gonna show it to my mom later!
 I love my rock! I'm gonna show it to my mom later!
-I love swimming with the Pokemon!
-I love swimming with the Pokemon!
-Sometimes I touch the Qwilfish and it hurts!
-Sometimes I touch the Qwilfish and it hurts!
 Being a cook on a ship is hard work.
 Being a cook on a ship is hard work.
 All that rocking back and forth can lead to tons of spills if you're not careful.
@@ -10362,6 +10366,10 @@ You ever think about becoming an electrician?
 You ever think about becoming an electrician?
 We could sure use one on the ship...
 We could sure use one on the ship...
+I love swimming with the Pokemon!
+I love swimming with the Pokemon!
+Sometimes I touch the Qwilfish and it hurts!
+Sometimes I touch the Qwilfish and it hurts!
 I'm having fun hanging out here, but my mom packed too much in my lunch.
 I'm having fun hanging out here, but my mom packed too much in my lunch.
 Want some?
@@ -19489,10 +19497,16 @@ Don't.
 Mavis...
 Mavis...
 [Map318]
-\PN, eh? How do ya spell that?
-\PN, eh? How do ya spell that?
-Don't want to have to redo the engraving like 8 years ago.
-Don't want to have to redo the engraving like 8 years ago.
+The battles that take place each year are nothing short of inspirational!
+The battles that take place each year are nothing short of inspirational!
+I may be a painter, but battling is my second form of art!
+I may be a painter, but battling is my second form of art!
+Fantastic! Marvelous! Outstanding!
+Fantastic! Marvelous! Outstanding!
+Your style is so graceful, so forceful, so majestic! You deserve the title of champion!
+Your style is so graceful, so forceful, so majestic!  You deserve the title of champion!
+Nothing like a warmup scrim before the next round!
+Nothing like a warmup scrim before the next round!
 I've done what I set out to do: defeat every gym leader without losing a single 'mon, and never using any held items.
 I've done what I set out to do: defeat every gym leader without losing a single 'mon, and never using any held items.
 So, I guess I can't be too mad about scrubbing out in the very first round of the tournament...
@@ -19555,30 +19569,18 @@ I bet people'll be falling over themselves to give you healing items, now.
 I bet people'll be falling over themselves to give you healing items, now.
 Not me, though, I still gotta do things the old fashioned way. I'll need time to do that, if you don't mind.
 Not me, though, I still gotta do things the old fashioned way. I'll need time to do that, if you don't mind.
-Nothing like a warmup scrim before the next round!
-Nothing like a warmup scrim before the next round!
-The battles that take place each year are nothing short of inspirational!
-The battles that take place each year are nothing short of inspirational!
-I may be a painter, but battling is my second form of art!
-I may be a painter, but battling is my second form of art!
-Fantastic! Marvelous! Outstanding!
-Fantastic! Marvelous! Outstanding!
-Your style is so graceful, so forceful, so majestic! You deserve the title of champion!
-Your style is so graceful, so forceful, so majestic!  You deserve the title of champion!
+\PN, eh? How do ya spell that?
+\PN, eh? How do ya spell that?
+Don't want to have to redo the engraving like 8 years ago.
+Don't want to have to redo the engraving like 8 years ago.
+Leo's Elite Items
+Leo's Elite Items
+I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
+I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
 Year 3: Casey, the Blazing Inferno
 Year 3: Casey, the Blazing Inferno
 Year 4: Chara, the Underdog Scrapper
 Year 4: Chara, the Underdog Scrapper
-I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
-I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
-Leo's Elite Items
-Leo's Elite Items
-For security reasons, this ticketing gate is closed.
-For security reasons, this ticketing gate is closed.
-Even for a newly-minted champion.
-Even for a newly-minted champion.
-The Mightyena is too focused on battling to notice you.
-The Mightyena is too focused on battling to notice you.
 I was so excited to see my Pokemon evolve in time for the tournament, but we got knocked out in the first round.
 I was so excited to see my Pokemon evolve in time for the tournament, but we got knocked out in the first round.
 Oh well! Maybe next year we'll go far. I know we can.
@@ -19587,40 +19589,40 @@ I've learned a thing or two watching you battle. It was so eye-opening!
 I've learned a thing or two watching you battle. It was so eye-opening!
 Next year, I know I can at least make it to the semi- finals!
 Next year, I know I can at least make it to the semi- finals!
-Year 5: Vincent, the Dark Destroyer
-Year 5: Vincent, the Dark Destroyer
-Year 6: Ansel, the Renewed Maverick
-Year 6: Ansel, the Renewed Maverick
-My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
-My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
-It matters not! We will fight through with pure determination!
-It matters not! We will fight through with pure determination!
+The Mightyena is too focused on battling to notice you.
+The Mightyena is too focused on battling to notice you.
+For security reasons, this ticketing gate is closed.
+For security reasons, this ticketing gate is closed.
+Even for a newly-minted champion.
+Even for a newly-minted champion.
 I hope no funky business goes down during the competition.
 I hope no funky business goes down during the competition.
 Outside of that weird quake, it was business as usual.
 Outside of that weird quake, it was business as usual.
 Another successful day of guard duty.
 Another successful day of guard duty.
+My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
+My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
+It matters not! We will fight through with pure determination!
+It matters not! We will fight through with pure determination!
+Year 5: Vincent, the Dark Destroyer
+Year 5: Vincent, the Dark Destroyer
+Year 6: Ansel, the Renewed Maverick
+Year 6: Ansel, the Renewed Maverick
 The Emolga is too focused on battling to notice you.
 The Emolga is too focused on battling to notice you.
-Year 7: Praveen, the Flowing Current
-Year 7: Praveen, the Flowing Current
-Year 8: Elise, the Regal Conqueror
-Year 8: Elise, the Regal Conqueror
 Next year, my Minccino and I are gonna enter.
 Next year, my Minccino and I are gonna enter.
 I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
 I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
 Just you wait! Minccino and I are gunning for your spot!
 Just you wait! Minccino and I are gunning for your spot!
+Year 7: Praveen, the Flowing Current
+Year 7: Praveen, the Flowing Current
+Year 8: Elise, the Regal Conqueror
+Year 8: Elise, the Regal Conqueror
 Can't let my team get cold, even for just a second!
 Can't let my team get cold, even for just a second!
-The battle strategies that all the Trainers here use are so complex.
-The battle strategies that all the Trainers here use are so complex.
-Swap in! Swap out! Chip damage! Baiting moves!
-Swap in! Swap out! Chip damage! Baiting moves!
-It makes my head dizzy...
-It makes my head dizzy...
 My old rival once set up his sweeper even though I had no chance to recover.
 My old rival once set up his sweeper even though I had no chance to recover. 
 "Why did you set up on me?" I asked, "I was already walled."
@@ -19661,6 +19663,20 @@ That night I beat the gym and raced to tell him, "Thank you for your advice. I c
 That night I beat the gym and raced to tell him, "Thank you for your advice. I cannot tell you how happy I am right now."
 My old rival smiled. "This too shall pass."
 My old rival smiled. "This too shall pass."
+The battle strategies that all the Trainers here use are so complex.
+The battle strategies that all the Trainers here use are so complex.
+Swap in! Swap out! Chip damage! Baiting moves!
+Swap in! Swap out! Chip damage! Baiting moves!
+It makes my head dizzy...
+It makes my head dizzy...
+I bet right every round, only to lose it all on the last round...
+I bet right every round, only to lose it all on the last round...
+I could have bought an apartment in Prizca with that money...
+I could have bought an apartment in Prizca with that money...
+Always a doozy getting our equipment set up.
+Always a doozy getting our equipment set up.
+I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
+I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
 Ugh, a year of training and I'm out in the first round.
 Ugh, a year of training and I'm out in the first round.
 Wish I qualified for one of the byes...
@@ -19691,24 +19707,16 @@ Haha! You won! You won!
 Haha! You won! You won!
 Incredible!
 Incredible!
-Always a doozy getting our equipment set up.
-Always a doozy getting our equipment set up.
-I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
-I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
-I bet right every round, only to lose it all on the last round...
-I bet right every round, only to lose it all on the last round...
-I could have bought an apartment in Prizca with that money...
-I could have bought an apartment in Prizca with that money...
-Year 1: Yezera, the Unstoppable Prodigy
-Year 1: Yezera, the Unstoppable Prodigy
-Year 2: Scilla, the Iron-willed Scrapper
-Year 2: Scilla, the Iron-willed Scrapper
-Yes yes, they'll be starting the next round soon dearie...
-Yes yes, they'll be starting the next round soon dearie...
 Friendly reminder, team composition only matters if you care about winning.
 Friendly reminder, team composition only matters if you care about winning.
 And between you and me, bud, maybe you should just stick with having fun.
 And between you and me, bud, maybe you should just stick with having fun.
+Yes yes, they'll be starting the next round soon dearie...
+Yes yes, they'll be starting the next round soon dearie...
+Year 1: Yezera, the Unstoppable Prodigy
+Year 1: Yezera, the Unstoppable Prodigy
+Year 2: Scilla, the Iron-willed Scrapper
+Year 2: Scilla, the Iron-willed Scrapper
 Maybe later.
 Maybe later.
 Sure, let's go.
@@ -43751,16 +43759,36 @@ Barren Island
 Windborn Island
 Windborn Island
 [20]
+League Gym 1
+League Gym 1
+League Gym 2
+League Gym 2
 Novo College
 Novo College
 Vibrant Cave
 Vibrant Cave
+League Gym 4
+League Gym 4
 Grouz Mine
 Grouz Mine
+League Gym 3
+League Gym 3
 LuxTech Main
 LuxTech Main
+League Gym 7
+League Gym 7
 Sweetrock Lighthouse
 Sweetrock Lighthouse
+Makyan Capitol Building
+Makyan Capitol Building
+League Gym 6
+League Gym 6
+League Gym 5
+League Gym 5
+Aquatopia
+Aquatopia
+League Gym 8
+League Gym 8
 [21]
 1
 Intro - Alpha
@@ -44255,8 +44283,8 @@ PokEstate 10 - Seafloor
 PokEstate 11 - River
 PokEstate 11 - River
 165
-Aquatopia Menagerie
-Aquatopia Menagerie
+Aquatopia
+Aquatopia
 166
 Aegis Insurance
 Aegis Insurance
@@ -48907,6 +48935,8 @@ Replace
 Replace
 {1} species tutorable movesets edited!
 {1} species tutorable movesets edited!
+Species data written to Analysis/species.csv
+Species data written to Analysis/species.csv
 Search species...
 Search species...
 Which search?
@@ -49339,6 +49369,8 @@ Attempted to do a combined search, but no matching moves were found.
 Attempted to do a combined search, but no matching moves were found.
 No matching moves were found.
 No matching moves were found.
+Move data written to Analysis/moves.csv
+Move data written to Analysis/moves.csv
 Search name...
 Search name...
 Not Status
@@ -57811,6 +57843,8 @@ Congratulations, \PN! You've proven that even the best can be outshone... tempor
 Congratulations, \PN! You've proven that even the best can be outshone... temporarily.
 Oh, look! A defeat. Just what I needed to keep my ego in check. Thanks for that, \PN.
 Oh, look! A defeat. Just what I needed to keep my ego in check. Thanks for that, \PN.
+{1} hands you a pouch of candy.
+{1} hands you a pouch of candy.
 Cannot set the chosen NPC1 to be the same as the chosen NPC2.
 Cannot set the chosen NPC1 to be the same as the chosen NPC2.
 Cannot set the chosen NPC2 to be the same as the chosen NPC1.
@@ -60799,16 +60833,20 @@ What?
 What?
 Yeah, I've got a batch.
 Yeah, I've got a batch.
-Huh?
-Huh?
-Why not?
-Why not?
 Ignore it.
 Ignore it.
 Make a funny face.
 Make a funny face.
 Take its candy.
 Take its candy.
+Huh?
+Huh?
+Why not?
+Why not?
+So do I.
+So do I.
+Avatar?
+Avatar?
 You're stealing Pokémon?
 You're stealing Pokémon?
 You're rescuing Pokémon?
@@ -60849,10 +60887,6 @@ Nociception
 Nociception
 Man-made Pokémon
 Man-made Pokémon
-So do I.
-So do I.
-Avatar?
-Avatar?
 Let me pass.
 Let me pass.
 What are you doing?
@@ -60865,16 +60899,16 @@ Why should I help?
 Why should I help?
 What's the plan?
 What's the plan?
-Leave Tapu Koko for now.
-Leave Tapu Koko for now.
-Catch Tapu Koko.
-Catch Tapu Koko.
 Coincidence.
 Coincidence.
 It isn't random?
 It isn't random?
 Did you call them?
 Did you call them?
+Leave Tapu Koko for now.
+Leave Tapu Koko for now.
+Catch Tapu Koko.
+Catch Tapu Koko.
 Leave Tapu Lele for now.
 Leave Tapu Lele for now.
 Catch Tapu Lele.
@@ -60883,20 +60917,16 @@ Try to break into the house by force?
 Try to break into the house by force?
 A Togekiss?
 A Togekiss?
-Leave Tapu Bulu for now.
-Leave Tapu Bulu for now.
-Catch Tapu Bulu.
-Catch Tapu Bulu.
 Open the crate?
 Open the crate?
 Nay
 Nay
 Yea
 Yea
-Leave Tapu Fini for now.
-Leave Tapu Fini for now.
-Catch Tapu Fini.
-Catch Tapu Fini.
+Leave Tapu Bulu for now.
+Leave Tapu Bulu for now.
+Catch Tapu Bulu.
+Catch Tapu Bulu.
 What does it matter?
 What does it matter?
 What do you want?
@@ -60939,6 +60969,10 @@ I agree with you.
 I agree with you.
 You don't have to do this.
 You don't have to do this.
+Leave Tapu Fini for now.
+Leave Tapu Fini for now.
+Catch Tapu Fini.
+Catch Tapu Fini.
 You knew?
 You knew?
 You in on it?
@@ -60965,8 +60999,6 @@ Use a Moomoo Milk
 Use a Moomoo Milk
 Use a Full Restore
 Use a Full Restore
-You bet.
-You bet.
 Macabre
 Macabre
 Insightful
@@ -60995,6 +61027,8 @@ I'll prepare.
 I'll prepare.
 Release Imogene forever.
 Release Imogene forever.
+You bet.
+You bet.
 [27]
 0
 Animated

@@ -4669,24 +4669,14 @@ My my, what a great fight that was. You gave me quite a battle.
 呦吼吼，那场战斗真是太棒了，真让人神清气爽啊！
 You've taught me that I might just have my hardest battles ahead of me yet!
 后生可畏，后生可畏啊！不过对于我们这些老家伙来说，将来还会有更艰难的战斗在等着呢！
-The Starters Store
-初始商店
+"Welcome to Novo, your flowery home."
+ "欢迎光临花园城市，望新镇"
 Biking is a great way for me to exercise between my classes at Novo College.
 对我来说，重要的不只有功课，骑自行车是课间的最优选。
 I work out my brain, then my body!
 锻炼完大脑，身体也不能落下！
-"Welcome to Novo, your flowery home."
- "欢迎光临花园城市，望新镇"
-I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
-我曾对搬到1个远离宏礼市喧嚣的小镇感到无比兴奋。
-Away from my parents, too.
-也远离了我的父母。
-The privacy, the freedom, the agency, it's all been great.
-隐私、自由、自主权，这一切都很棒。
-It's just...
-只是...
-I can't get used to how quiet it is all the time.
-我始终无法适应这里的安静。
+The Starters Store
+初始商店
 I work at the Pokemon Center here, but I like to come here after my shift.
 我在这里的精灵中心工作，平时下班后喜欢来这里逛逛。
 As you might have deduced by now, I also like to battle. Should we?
@@ -4697,6 +4687,18 @@ Ah, you got me. Good fight. Let's see if the next person could put up a better c
 啊，你赢了，真不容易！不知道下次会不会有更强劲的对手。
 I'm not able to heal your Pokemon since I don't have my machine or my tools. Sorry.
 抱歉，这里没有治疗机或工具，我也没办法帮你的精灵治疗。
+I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
+我曾对搬到1个远离宏礼市喧嚣的小镇感到无比兴奋。
+Away from my parents, too.
+也远离了我的父母。
+The privacy, the freedom, the agency, it's all been great.
+隐私、自由、自主权，这一切都很棒。
+It's just...
+只是...
+I can't get used to how quiet it is all the time.
+我始终无法适应这里的安静。
+NO MOTOR VEHICLES
+禁止机动车通行
 Oh, wow! You've grown so much! You've absolutely blossomed as a Trainer!
 哇，你真的成为了出色的训练师！真的变得越来越强了！
 I've been working on making these for you! It uses imported flowers.
@@ -4721,10 +4723,34 @@ Are you doing your best out there?
 你有好好努力吗？
 I'm rooting for you.
 你有我的支持哦！
-NO MOTOR VEHICLES
-禁止机动车通行
-Novo Apartments
-望新公寓
+Hey-yo!
+嘿，呀！
+Hope you still remember me. I was the good-lookin' trainer camping out in front of the gym in Casaba Villa.
+你还记得我吗，我是凡雅。之前在甜瓜道馆门口的训练师。
+Well now I'm here, and the story's the same. Honing my skills with a team custom-built for the gym leader here.
+现在我也来这边了，当然还是同样的事，训练一支专门为馆主准备的队伍。
+Though I'm looking forward to it, it'll also be a little bitter-sweet having to take out a fellow enby.
+虽然我很期待这次挑战，但要打败1个曾经的同窗，绝对不是一件简单的事情。
+Anyways, I'll be here for now, ready and willing to battle you as much as you want!
+总之，我会在这里待1段时间，只要你想，随时可以开始训练！
+Wanna go?
+开一局？
+Understood.
+明白明白。
+I'll be here until you wish to battle.
+我会在这里等你回来。
+Glorious combat!
+为了荣耀！
+Ouch. That one hurts. Gotta get used to the pain, though, or else I won't stand a chance against Eko!
+诶哟，好疼啊！不行，我得习惯疼痛，不然怎么可能打赢艾克！
+A good fight, really got the blood flowin'.
+真是热血沸腾的一战！
+Return later for a rematch.
+先休息一下，回头再打。
+I can tell from the scorch marks that you went up against Eko, and from the gym badge...that you won!
+从这些痕迹可以看出...你已经跟艾克打过了，并且你拿到了道馆的徽章！
+That means the time for procrastinating is over, and the time for courage is nigh. Allons-y!
+看样子不能再拖延下去了，是时候鼓起勇气面对他了。势必达成！
 Oh, hey. You a trainer?
 哦，你好。你是训练师吗？
 Listen, I got some Pokémon that need training and… you’re giving me the look like ya heard this before.
@@ -4785,38 +4811,16 @@ Here ya go, though, for your troubles.
 这是给你的，麻烦你了。
 See ya 'round. And, hey, you run into my friend again, beat the tar outta her, alright?
 回头再见，哦对了，如果你再遇到我那个朋友的话，就狠狠地揍她1顿，好吗？
-Hey-yo!
-嘿，呀！
-Hope you still remember me. I was the good-lookin' trainer camping out in front of the gym in Casaba Villa.
-你还记得我吗，我是凡雅。之前在甜瓜道馆门口的训练师。
-Well now I'm here, and the story's the same. Honing my skills with a team custom-built for the gym leader here.
-现在我也来这边了，当然还是同样的事，训练一支专门为馆主准备的队伍。
-Though I'm looking forward to it, it'll also be a little bitter-sweet having to take out a fellow enby.
-虽然我很期待这次挑战，但要打败1个曾经的同窗，绝对不是一件简单的事情。
-Anyways, I'll be here for now, ready and willing to battle you as much as you want!
-总之，我会在这里待1段时间，只要你想，随时可以开始训练！
-Wanna go?
-开一局？
-Understood.
-明白明白。
-I'll be here until you wish to battle.
-我会在这里等你回来。
-Glorious combat!
-为了荣耀！
-Ouch. That one hurts. Gotta get used to the pain, though, or else I won't stand a chance against Eko!
-诶哟，好疼啊！不行，我得习惯疼痛，不然怎么可能打赢艾克！
-A good fight, really got the blood flowin'.
-真是热血沸腾的一战！
-Return later for a rematch.
-先休息一下，回头再打。
-I can tell from the scorch marks that you went up against Eko, and from the gym badge...that you won!
-从这些痕迹可以看出...你已经跟艾克打过了，并且你拿到了道馆的徽章！
-That means the time for procrastinating is over, and the time for courage is nigh. Allons-y!
-看样子不能再拖延下去了，是时候鼓起勇气面对他了。势必达成！
+Novo Apartments
+望新公寓
 No.
 等下
 Yes.
 行
+Maybe later.
+稍等一下
+Sure, let's go.
+开就开
 Not right now.
 现在先算了
 What exactly do you need?
@@ -4829,10 +4833,6 @@ Someone.
 的确
 You offering?
 要不你来？
-Maybe later.
-稍等一下
-Sure, let's go.
-开就开
 [Map57]
 I get to go home... doesn’t even seem real yet.
 我要回家了...这简直太不真实了。
@@ -8859,22 +8859,30 @@ Perhaps your victories will end up here, one day.
 Spend enough time here and it begins to feel like a forum.
 在这里待的时间足够久后，就越来越觉得它像个祭坛。
 [Map136]
-West: Bluepoint Beach
-西：蓝莹海滩
-Northeast: Scenic Path
-东北：景致小径
-A third label has been poorly masked with white paint.
-第3行被人用白色油漆涂掉了。
-The door is securely locked.
-门上锁了。
 Welcome to Casaba Villa, the best resort town in Makya.
 欢迎来到甜瓜度假村，这里是马凯亚最棒的景区！
 My fiancé and I visit here at least once a month.
 我每个月都会跟未婚妻一起，来这里住两天。
 Oh, I'd introduce you to her, but she's enjoying herself at Bluepoint Beach at the moment.
 她现在去蓝莹海滩享受阳光了，回头我可以向你介绍她。
+The door is securely locked.
+门上锁了。
+West: Bluepoint Beach
+西：蓝莹海滩
+Northeast: Scenic Path
+东北：景致小径
+A third label has been poorly masked with white paint.
+第3行被人用白色油漆涂掉了。
 Lambert's House
 兰伯特家
+I've summered here for 20 years.
+我已经在这儿度过了20个夏天。
+I must say it really went to the dogs once Team Chasm started moving in.
+从裂隙队接管这里开始，真是1年不如1年。
+I especially don't like the gym leader they stationed here.
+尤其是他们派来的那个道馆馆主！
+Before all this, he was a bartender at some establishment for roustabouts.
+要知道他之前可是个流浪汉酒吧的调酒师！
 Hey, kiddo. What’s goin’ on? I heard you’re following me.
 哟，小鬼，咋回事？听说我后面有个跟屁虫啊！
 Well, go right ahead. Not gonna get a Beedrill in my bonnet over some kid toddling after me.
@@ -8893,22 +8901,6 @@ Too bad. If you can’t beat that gym, you don’t deserve to even be in this co
 菜就多练，连那个道馆都打不过，还妄图能超过我？再见！
 You’ve always needed my help. Fine -- prove me wrong. We’ll talk again.
 哼，早晚你会发现，没有了我的帮助你什么都做不到，争取一会儿不要哭着求我哟！
-I've summered here for 20 years.
-我已经在这儿度过了20个夏天。
-I must say it really went to the dogs once Team Chasm started moving in.
-从裂隙队接管这里开始，真是1年不如1年。
-I especially don't like the gym leader they stationed here.
-尤其是他们派来的那个道馆馆主！
-Before all this, he was a bartender at some establishment for roustabouts.
-要知道他之前可是个流浪汉酒吧的调酒师！
-"Casaba Villa, Makya's #1 Vacation Spot"
-"欢迎来到在马凯亚地区遥遥领先的--甜瓜度假村"
-I volunteer at the PokeCenter here sometimes.
-我有时会在这里的精灵中心当志愿者。
-So many trainers come in with Numbed Pokemon after battling Lambert.
-有很多训练师都会在跟兰伯特对战后，带着被麻痹的精灵前来求助。
-Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
-很多新手训练师都对这种异常状态非常苦恼，因为它不仅会让精灵的速度减半，还会减小所造成的伤害。
 Beyond elemental types, Pokémon species are defined by a second affinity.
 除了基础属性类型之外，精灵物种还由第2种“属性”来定义。
 These are known as <imp>tribes</imp>.
@@ -8927,6 +8919,44 @@ So I restricted myself to Warriors, my favorite tribe. Problem solved!
 所以我将自己限制在战士部族，我最喜欢的部族。问题解决了！
 It's <i>usually</i> best to listen to her, I've found.
 我发现<i>通常</i>最好听她的。
+I volunteer at the PokeCenter here sometimes.
+我有时会在这里的精灵中心当志愿者。
+So many trainers come in with Numbed Pokemon after battling Lambert.
+有很多训练师都会在跟兰伯特对战后，带着被麻痹的精灵前来求助。
+Apparently a lot of new trainers struggle with that status, as it halves the Pokemon's speed and reduces the damage they do.
+很多新手训练师都对这种异常状态非常苦恼，因为它不仅会让精灵的速度减半，还会减小所造成的伤害。
+"Casaba Villa, Makya's #1 Vacation Spot"
+"欢迎来到在马凯亚地区遥遥领先的--甜瓜度假村"
+Greetings!
+您好！
+If appearances are to be believed, you seem to be a fine trainer.
+如果我没看走眼，你一定是1位不错的训练师。
+Got time to battle?
+有时间对战吗？
+I'll be challenging Lambert's gym soon, but I need more practice with this team.
+我很快就要挑战兰伯特的道馆了，但我需要更多练习来磨合这支队伍。
+Put it together just recently. Custom built to counter that ruffian.
+最近才组建好的。专门为对付那个恶棍而定制。
+Gotta put in the work if I'm gonna perfect him!
+如果我要完胜它，就必须付出努力！
+Call me <imp>Vanya</imp>.
+你可以叫我<imp>凡雅</imp>，
+Know that I am unique among trainers.
+1个独一无二非常优秀的训练师！
+In my quest for perfect victories, I have suffered perfect defeats as well.
+虽然在追求完胜的过程中，我也曾遭受过完败，
+Near everyone runs off after a bad loss, but not I.
+但我不会像一般人那样落荒而逃！
+You can <imp>perfect</imp> my team all you want, and I'll <imp>stay right here</imp>.
+就算你真能赐予我<imp>完败</imp>，我也会做好<imp>下1次对决的准备</imp>。
+I'm much too fun to deprive you of my presence so easily.
+我太有趣了，不能这么轻易就让你失去我的陪伴。
+If my personality isn't enough of an incentive, I've also got this backpack full of sweets.
+如果我的个性不足以激励你，我还有1个装满糖果的背包。
+I'll give you some <imp>EXP Candy</imp> every time you manage to beat me.
+每次你成功击败我，我都会给你一些<imp>经验糖果</imp>。
+Sound good? Hit me up when you wanna try a battle!
+听起来不错吧？想尝试对战时就找我！
 Each Pokemon has their own Personality Traits.
 每只精灵都有自己的性情。
 Bonding with a Pokemon, and discovering what makes them unique, can be such a source of joy.
@@ -8939,30 +8969,6 @@ That's a lesson that my dear wife taught me.
 这是我亲爱的妻子教给我的道理。
 She's correct <i>almost</i> all of the time!
 她<i>几乎</i>一直都是对的！
-Greetings!
-您好！
-If appearances are to be believed, you seem to be a fine trainer.
-如果我没看走眼，你一定是1位不错的训练师。
-I'll be challenging the gym here soon, but need a bit more practice with this team in particular.
-我正在为挑战这里的道馆做准备，但我的精灵还需要一些实战训练。
-After all, my goal is to defeat the leader without any of my Pokemon fainting.
-毕竟，我的目标是取得完胜，也就是在没有任何精灵昏倒的前提下打倒道馆馆主！
-Therefore, I'd like to battle you, if you have the time.
-所以，如果你有时间的话，我希望能跟你一起训练！
-Call me <imp>Vanya</imp>.
-你可以叫我<imp>凡雅</imp>，
-Know that I am unique among trainers.
-1个独一无二非常优秀的训练师！
-In my quest for perfect victories, I have suffered perfect defeats as well.
-虽然在追求完胜的过程中，我也曾遭受过完败，
-Near everyone runs off after a bad loss, but not I.
-但我不会像一般人那样落荒而逃！
-You can <imp>perfect</imp> my team all you want, and I'll <imp>stay right here</imp>.
-就算你真能赐予我<imp>完败</imp>，我也会做好<imp>下1次对决的准备</imp>。
-If you would indeed like to battle me, and the team I've assembled to take down Lambert, just ask.
-只要你有空了，可以随时来找我！
-The berry plant is growing.
-树果还在生长中。
 Skipping Tamarind cutscene.
 跳过塔玛琳的开篇剧情。
 Morning, \PN, I'm <imp>Professor Tamarind</imp>.
@@ -9005,6 +9011,14 @@ Well, keep it in mind.
 当然，这不是要求，是交易。
 See ya, kid.
 再见了，小孩儿。
+The berry plant is growing.
+树果还在生长中。
+Casaba Villa Gym
+甜瓜道馆
+Leader: Lambert
+馆主：兰伯特
+Fighting dirty for over a decade.
+数十年如一日，以肮脏形态出击。
 Hey!
 嘿！
 I'm bored and want to have fun. Let's play hide and seek!
@@ -9015,22 +9029,8 @@ If you can find me, I'll give the TMs to you.
 只要你能找到我，它们就是你的了。
 I'll be somewhere on the route to the foreclosed tunnel. Smell ya later!
 我会藏在城镇北边的某个地方，快来找我吧！
-Casaba Villa Gym
-甜瓜道馆
-Leader: Lambert
-馆主：兰伯特
-Fighting dirty for over a decade.
-数十年如一日，以肮脏形态出击。
-Hey, \PN. I heard you beat Lambert.
-嘿，\PN，你已经打赢兰伯特了？
-Guessing you’re gonna head for the <imp>mainland</imp> now?
-是前往<imp>大陆</imp>的时候了对吧？
-Well, before you go, meet me at the dock, 'kay?
-走之前先来码头见一面怎么样？
-Got something to say. Thanks.
-我有事跟你说。
-She hung up...
-挂断了...
+Closed while Lambert participates in the Makya Championship Tournament.
+马凯亚锦标赛期间暂时闭馆。
 Be careful outside the Villa, you don't want to end up as another incident in the newspapers.
 在镇子外要小心一些，你也不想成为报纸头条上的受害者吧？
 No, I'm not talking about wild Pokemon.
@@ -9043,8 +9043,30 @@ I for one can't wait for the whole thing to blow over, so I can read again about
 希望这热度赶紧消退吧，我更想在报纸上看些有用的东西。
 Like the stock market.
 比如说股市预测什么的。
-Closed while Lambert participates in the Makya Championship Tournament.
-马凯亚锦标赛期间暂时闭馆。
+Hey, \PN. I heard you beat Lambert.
+嘿，\PN，你已经打赢兰伯特了？
+Guessing you’re gonna head for the <imp>mainland</imp> now?
+是前往<imp>大陆</imp>的时候了对吧？
+Well, before you go, meet me at the dock, 'kay?
+走之前先来码头见一面怎么样？
+Got something to say. Thanks.
+我有事跟你说。
+She hung up...
+挂断了...
+Lambert has some interesting choices of Pokemon.
+兰伯特有一些很有趣的精灵。
+His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
+比如说另1位道馆馆主维克托送给他的那只利欧路，它的名字是“静静”。
+A beautiful name, in my opinion!
+真是个可爱的名字啊！
+I believe Lambert also has a Croagunk. Or.... two of them?
+除此之外，兰伯特还有1只...或者说两只不良蛙？
+I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
+谁知道呢，反正我是看到过他拿出两只不良蛙的比赛...
+That was a fun game of hide and seek!
+真好玩，真好玩！
+I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
+我明白了，只要把偷来的东西作为奖励，就能让别人听我的！
 You keen to take me up on my offer?
 要来1场对决吗？
 Understood.
@@ -9065,30 +9087,10 @@ As a fellow competitor, I have nothing to say but to congratulate you on your vi
 作为竞争对手，我只能祝贺你战胜兰伯特。
 I'll take this as the cue to go make my attempt as well. Wish me luck!
 我也会以此为契机，继续加油的！
-That was a fun game of hide and seek!
-真好玩，真好玩！
-I've learned that if I offer stolen goods to people, they'll let me do whatever I want!
-我明白了，只要把偷来的东西作为奖励，就能让别人听我的！
-Lambert has some interesting choices of Pokemon.
-兰伯特有一些很有趣的精灵。
-His prized Riolu was a gift from Victoire, another gym leader. Sangfroid, he calls her.
-比如说另1位道馆馆主维克托送给他的那只利欧路，它的名字是“静静”。
-A beautiful name, in my opinion!
-真是个可爱的名字啊！
-I believe Lambert also has a Croagunk. Or.... two of them?
-除此之外，兰伯特还有1只...或者说两只不良蛙？
-I'm not sure, but I swear I saw a sparring match, where the two seemed identical...
-谁知道呢，反正我是看到过他拿出两只不良蛙的比赛...
-As a fisher, you learn to pick up on small inconsistencies around you.
-作为1名合格的钓鱼佬，必须要着重锻炼自身的观察力。
-Take for example that bush behind me. I bet something's going on with it.
-就比如说后面那个草丛，我一眼就看出它不对劲！
-Would you look at that! Found yourself something nice.
-看吧！你找到东西了！
-Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
-所以要学会眼观六路耳听八方，不要嫌累，嫌麻烦。
-You never know what you might find...
-谁知道下1次会找到些什么...
+You haven't completed what you need to on the island yet!
+先处理完这座岛上的事情再出发吧！
+Would you like to leave Casaba Villa and go to the Mainland?
+要离开甜瓜岛前往大陆吗？
 Oh, you just got a MasterDex? They're pretty neat.
 哦，你拿到大师图鉴了？
 Of all its features, the DexNav is my favorite.
@@ -9099,10 +9101,30 @@ Once you've caught one, you can also use it to find more of that same species!
 而且还能帮助我们捕捉更多已经抓过的精灵！
 Isn't technology amazing?
 这就是科技的力量！
-You haven't completed what you need to on the island yet!
-先处理完这座岛上的事情再出发吧！
-Would you like to leave Casaba Villa and go to the Mainland?
-要离开甜瓜岛前往大陆吗？
+As a fisher, you learn to pick up on small inconsistencies around you.
+作为1名合格的钓鱼佬，必须要着重锻炼自身的观察力。
+Take for example that bush behind me. I bet something's going on with it.
+就比如说后面那个草丛，我一眼就看出它不对劲！
+Would you look at that! Found yourself something nice.
+看吧！你找到东西了！
+Keep an eye out for those sort of things. Don't be afraid to poke around a bit.
+所以要学会眼观六路耳听八方，不要嫌累，嫌麻烦。
+You never know what you might find...
+谁知道下1次会找到些什么...
+Lambert, the gym leader, came running through here earlier.
+兰伯特馆主刚刚去西边了，
+He put a rock behind him to block it off, for some reason.
+而且还故意用石头堵住了路...谁知道他到底怎么想的。
+You need to get through?
+你要去海滩那边？
+Well...there's an abandoned tunnel up to the north.
+嗯...北边有1个废弃的隧道，
+You can probably find something to blow this rock up if you go there.
+那里或许能找到一些可以炸开这块石头的东西。
+Oh hey, you cleared out that rock!
+哦，你把石头处理掉了！
+Who knew explosives could be so useful?
+这炸药竟然这么猛？
 Oh, so it is you!
 哦，你来了！
 Forgive my doppelganger – a Ditto that stalks me incessantly, claiming to be the real deal.
@@ -9135,20 +9157,6 @@ I dare not leave her alone, claiming to be me, so off I go!
 我不可能放任另1个自身在外游荡，所以我必须跟上去！
 Fare you well, traveler!
 最后祝你好运，旅行者！
-Lambert, the gym leader, came running through here earlier.
-兰伯特馆主刚刚去西边了，
-He put a rock behind him to block it off, for some reason.
-而且还故意用石头堵住了路...谁知道他到底怎么想的。
-You need to get through?
-你要去海滩那边？
-Well...there's an abandoned tunnel up to the north.
-嗯...北边有1个废弃的隧道，
-You can probably find something to blow this rock up if you go there.
-那里或许能找到一些可以炸开这块石头的东西。
-Oh hey, you cleared out that rock!
-哦，你把石头处理掉了！
-Who knew explosives could be so useful?
-这炸药竟然这么猛？
 We'll see.
 走着瞧
 ...
@@ -9222,7 +9230,7 @@ This machine will store the excess energy generated from battling.
 That can happen when you over-train your Pokemon.
 当你过度训练你的精灵时，就会出现这种情况。
 Once the Dispenser has gathered enough, you can activate it to make EXP Candy!
-一旦分配器收集了足够的能量，你就可以激活它来制作经验值糖果！
+一旦分配器收集了足够的能量，你就可以激活它来制作经验糖果！
 That’s the idea, anyways. Let me know if you encounter any bugs.
 这就是想法。如果你遇到任何漏洞，请告诉我。
 I’ve tested it thoroughly, but putting products into the wild can be such a crapshoot…
@@ -10244,6 +10252,20 @@ Go forth, and master your darkness, Trainer. Great things await you.
 去吧，掌控你的黑暗，伟大的征途在等着你。
 For now... I go.
 现在...再见了。
+Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
+我和我的船员们，在东海岸举办了1场钓鱼比赛。
+You'll earn a prize depending on the best creature yer capable of haulin' in.
+我们会根据你钓到的最好的精灵，给你一些相应的奖励。
+Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
+但是需要你们自带精灵球，并缴纳1000金钱的燃料费用。
+\PN hands over $1000.
+\PN将1000金钱交给对方。
+You don't have enough for it.
+你的金钱不够。
+What, lost all yer money in a shipwreck?
+怎么？钱在海难中掉光了？
+Ay, that's too bad.
+唉，太遗憾了。
 All o' us saw a great Pokemon under the waves during one trip or another.
 我们某次旅行中在海底看到了1只强大的精灵。
 I ordered me one o' them fancy Master Balls in case I e'er saw her again.
@@ -10270,24 +10292,16 @@ So? Ye' got that cup o' coffee?
 所以，你拿到咖啡了吗？
 Maybe one day you'll get a glimpse...
 或许哪天你会有所收获...
-Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
-我和我的船员们，在东海岸举办了1场钓鱼比赛。
-You'll earn a prize depending on the best creature yer capable of haulin' in.
-我们会根据你钓到的最好的精灵，给你一些相应的奖励。
-Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
-但是需要你们自带精灵球，并缴纳1000金钱的燃料费用。
-\PN hands over $1000.
-\PN将1000金钱交给对方。
-You don't have enough for it.
-你的金钱不够。
-What, lost all yer money in a shipwreck?
-怎么？钱在海难中掉光了？
-Ay, that's too bad.
-唉，太遗憾了。
 Hey, don't run when near a pool.
 嘿，不要在泳池边奔跑。
 Slips and falls are one of the most common causes of pool injuries.
 每星期都得有人在这里因为滑倒而受伤。
+Boss loves to bring us out to crazy spots to catch rare Pokemon.
+老板喜欢带我们去疯狂的地方捕捉稀有的精灵。
+A few weeks ago we were facing 20 meter waves.
+几周前那次，我们甚至遇到了20米高的浪！
+That was a crazy ride, but boss got us through it.
+好在老板带领我们度过了难关。
 Ah, it's good to see ya again.
 啊，很高兴再次见到你。
 Here to reminisce with me about your best catch?
@@ -10296,16 +10310,12 @@ Don't recognize ya. Must never have joined us on an ocean fishing trip, eh?
 你是哪位？我们应该没一起海钓过吧？
 Talk to the captain if you want to try.
 如果你想试试，就去跟船长谈谈吧。
-Boss loves to bring us out to crazy spots to catch rare Pokemon.
-老板喜欢带我们去疯狂的地方捕捉稀有的精灵。
-A few weeks ago we were facing 20 meter waves.
-几周前那次，我们甚至遇到了20米高的浪！
-That was a crazy ride, but boss got us through it.
-好在老板带领我们度过了难关。
-Aquatopia hires a few Trainers to take care of the Pokemon here.
-水世界聘请了一些训练师，来照顾这里的精灵们。
-While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
-虽然水属性精灵的需求都大差不差，但海水和淡水还是有区别的。
+I love hanging with my boy Shellder.
+我喜欢和我的大舌贝儿子一起玩儿。
+He justs sits around all day and eats whatever is given to him.
+它整天就这样坐着，我给什么它吃什么。
+I respect that, we can all learn a bit from Shellder.
+我觉得大家都可以在大舌贝身上学到些什么。
 The fishing spot we found is great, but the storms are ferocious.
 我们有1个很棒的钓鱼点，就是那边气候不太稳定。
 During one of the worst ones, I swear I saw a massive Pokemon inside one of the waves.
@@ -10314,12 +10324,10 @@ It had to be almost 5 meters long.
 起码有5米长。
 It wasn't a Wailord, that's for sure.
 而且肯定不是吼鲸王。
-I love hanging with my boy Shellder.
-我喜欢和我的大舌贝儿子一起玩儿。
-He justs sits around all day and eats whatever is given to him.
-它整天就这样坐着，我给什么它吃什么。
-I respect that, we can all learn a bit from Shellder.
-我觉得大家都可以在大舌贝身上学到些什么。
+Aquatopia hires a few Trainers to take care of the Pokemon here.
+水世界聘请了一些训练师，来照顾这里的精灵们。
+While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
+虽然水属性精灵的需求都大差不差，但海水和淡水还是有区别的。
 Hey Trainer! I found this weird rock!
 嘿，训练师！我找到了这个奇怪的石头
 Want to take a look?
@@ -10346,10 +10354,6 @@ That's ok, just bring it back when you find it.
 没关系，我再找回来就是了！
 I love my rock! I'm gonna show it to my mom later!
 我喜欢我的石头！我待会儿要给我妈妈看
-I love swimming with the Pokemon!
-我喜欢跟精灵们一起游泳！
-Sometimes I touch the Qwilfish and it hurts!
-但偶尔碰到千针鱼就会很疼！
 Being a cook on a ship is hard work.
 在船上当厨师很辛苦。
 All that rocking back and forth can lead to tons of spills if you're not careful.
@@ -10362,6 +10366,10 @@ You ever think about becoming an electrician?
 你有没有想过要成为电工？
 We could sure use one on the ship...
 我们的船上肯定需要1个...
+I love swimming with the Pokemon!
+我喜欢跟精灵们一起游泳！
+Sometimes I touch the Qwilfish and it hurts!
+但偶尔碰到千针鱼就会很疼！
 I'm having fun hanging out here, but my mom packed too much in my lunch.
 我在这里玩得很开心，但我妈妈给我带了太多午餐。
 Want some?
@@ -11222,7 +11230,7 @@ You decide against smashing the vase.
 You find a garbage bag, put the flowers in it, and swing it against the wall with all your might.
 你找到1个垃圾袋，把花瓶放了进去，然后用尽全身力气将其摔在墙上。
 A garbage bag filled with rubble is all that remains of this once proud vase.
-这个曾高高昂着头颅的花瓶，现在变成了满满的一袋碎片。
+这个曾高高昂着头颅的花瓶，现在变成了满满的1袋碎片。
 Don't take the food.
 不拿走食物。
 Take the food.
@@ -19489,10 +19497,16 @@ Don't.
 Mavis...
 梅维斯...
 [Map318]
-\PN, eh? How do ya spell that?
-我不想再像前八年那样刻字了，
-Don't want to have to redo the engraving like 8 years ago.
-\PN你觉得行吗？
+The battles that take place each year are nothing short of inspirational!
+每年，这里的对决都令人感到振奋！
+I may be a painter, but battling is my second form of art!
+我是1个画家，同时也是战斗的艺术家！
+Fantastic! Marvelous! Outstanding!
+太棒了！简直难以置信！
+Your style is so graceful, so forceful, so majestic! You deserve the title of champion!
+你的风格是如此优雅，如此雄壮有力，你无愧于冠军的称号！
+Nothing like a warmup scrim before the next round!
+在下一轮比试前，最好热一下身！
 I've done what I set out to do: defeat every gym leader without losing a single 'mon, and never using any held items.
 我已经完成那个了我的目标：在没有精灵被打倒的情况下，战胜了所有道馆馆主，而且还没有携带任何物品。
 So, I guess I can't be too mad about scrubbing out in the very first round of the tournament...
@@ -19555,30 +19569,18 @@ I bet people'll be falling over themselves to give you healing items, now.
 我觉得现在会有很多人，争先恐后地送给你东西。
 Not me, though, I still gotta do things the old fashioned way. I'll need time to do that, if you don't mind.
 但我不会这么做，还是得按老办法来。你不介意的话，稍微给我点时间。
-Nothing like a warmup scrim before the next round!
-在下一轮比试前，最好热一下身！
-The battles that take place each year are nothing short of inspirational!
-每年，这里的对决都令人感到振奋！
-I may be a painter, but battling is my second form of art!
-我是1个画家，同时也是战斗的艺术家！
-Fantastic! Marvelous! Outstanding!
-太棒了！简直难以置信！
-Your style is so graceful, so forceful, so majestic! You deserve the title of champion!
-你的风格是如此优雅，如此雄壮有力，你无愧于冠军的称号！
+\PN, eh? How do ya spell that?
+我不想再像前八年那样刻字了，
+Don't want to have to redo the engraving like 8 years ago.
+\PN你觉得行吗？
+Leo's Elite Items
+李奥精品
+I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
+我 想 看 比 赛 我 想 看 比 赛我 想 看 比 赛 我 想 看 比 赛我 想 看 比 赛 ！
 Year 3: Casey, the Blazing Inferno
 第3届：炽热地烈焰，凯斯
 Year 4: Chara, the Underdog Scrapper
 第4届：不屈不挠的斗士，夏拉
-I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
-我 想 看 比 赛 我 想 看 比 赛我 想 看 比 赛 我 想 看 比 赛我 想 看 比 赛 ！
-Leo's Elite Items
-李奥精品
-For security reasons, this ticketing gate is closed.
-出于安全考虑，此检票通道已关闭。
-Even for a newly-minted champion.
-即便是新晋冠军也不例外。
-The Mightyena is too focused on battling to notice you.
-大狼犬心思都在战斗中，根本没注意到你。
 I was so excited to see my Pokemon evolve in time for the tournament, but we got knocked out in the first round.
 虽然我们第1轮就淘汰了，但我很高兴能看到，我的精灵在比赛中进化。
 Oh well! Maybe next year we'll go far. I know we can.
@@ -19587,40 +19589,40 @@ I've learned a thing or two watching you battle. It was so eye-opening!
 看了你们的战斗，我学到了很多东西！
 Next year, I know I can at least make it to the semi- finals!
 明年，我觉得至少能进半决赛！
-Year 5: Vincent, the Dark Destroyer
-第5届：黑暗毁灭者，文森特
-Year 6: Ansel, the Renewed Maverick
-第6届：再诞之新生，安塞尔
-My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
-我的精灵和我可能因为锦标赛只有单打而处于劣势。
-It matters not! We will fight through with pure determination!
-但这不重要，我们将坚定不移地战斗下去！
+The Mightyena is too focused on battling to notice you.
+大狼犬心思都在战斗中，根本没注意到你。
+For security reasons, this ticketing gate is closed.
+出于安全考虑，此检票通道已关闭。
+Even for a newly-minted champion.
+即便是新晋冠军也不例外。
 I hope no funky business goes down during the competition.
 我希望锦标赛期间，不要再出什么幺蛾子了。
 Outside of that weird quake, it was business as usual.
 除了那奇怪的震感之外，一切正常。
 Another successful day of guard duty.
 又是和平的1天。
+My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
+我的精灵和我可能因为锦标赛只有单打而处于劣势。
+It matters not! We will fight through with pure determination!
+但这不重要，我们将坚定不移地战斗下去！
+Year 5: Vincent, the Dark Destroyer
+第5届：黑暗毁灭者，文森特
+Year 6: Ansel, the Renewed Maverick
+第6届：再诞之新生，安塞尔
 The Emolga is too focused on battling to notice you.
 电飞鼠心思都在战斗中，根本没注意到你。
-Year 7: Praveen, the Flowing Current
-第7届：流动的电流，普拉文
-Year 8: Elise, the Regal Conqueror
-第8届：威严的征服者，伊莉丝
 Next year, my Minccino and I are gonna enter.
 明年，我的泡沫栗鼠和我将参赛。
 I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
 我能看得出，她快要进化了，指我们齐心协力，就势不可当。
 Just you wait! Minccino and I are gunning for your spot!
 等着瞧吧，我和泡沫栗鼠会夺走你的位子的！
+Year 7: Praveen, the Flowing Current
+第7届：流动的电流，普拉文
+Year 8: Elise, the Regal Conqueror
+第8届：威严的征服者，伊莉丝
 Can't let my team get cold, even for just a second!
 我不会让它们的状态冷下来，哪怕是只有一秒钟！
-The battle strategies that all the Trainers here use are so complex.
-这里的训练师都会使用一些比较复杂的战术。
-Swap in! Swap out! Chip damage! Baiting moves!
-比如换人，持续伤害，保护类效果等等！
-It makes my head dizzy...
-听得我头有点晕...
 My old rival once set up his sweeper even though I had no chance to recover.
 我的老对手曾在我毫无准备的时候，将我在赛场外横扫出局了。
 "Why did you set up on me?" I asked, "I was already walled."
@@ -19661,6 +19663,20 @@ That night I beat the gym and raced to tell him, "Thank you for your advice. I c
 那天晚上，我挑战了道馆，然后高兴地告诉他：“谢谢你的建议，我没办法表达现在有多高兴。”
 My old rival smiled. "This too shall pass."
 然后他笑着说：“都会过去的。”
+The battle strategies that all the Trainers here use are so complex.
+这里的训练师都会使用一些比较复杂的战术。
+Swap in! Swap out! Chip damage! Baiting moves!
+比如换人，持续伤害，保护类效果等等！
+It makes my head dizzy...
+听得我头有点晕...
+I bet right every round, only to lose it all on the last round...
+我前几轮都押对了，但最后一轮输了个精光...
+I could have bought an apartment in Prizca with that money...
+本来这笔钱可以在宏礼市买一套公寓的...
+Always a doozy getting our equipment set up.
+这些设备安装起来太麻烦了。
+I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
+每年都得花费五分之一的预算，用来更换被水或火属性技能命中的各种零件...
 Ugh, a year of training and I'm out in the first round.
 呃，1年的训练，结果第1轮就出局了。
 Wish I qualified for one of the byes...
@@ -19691,24 +19707,16 @@ Haha! You won! You won!
 哈哈！你赢了！你赢了
 Incredible!
 太棒了
-Always a doozy getting our equipment set up.
-这些设备安装起来太麻烦了。
-I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
-每年都得花费五分之一的预算，用来更换被水或火属性技能命中的各种零件...
-I bet right every round, only to lose it all on the last round...
-我前几轮都押对了，但最后一轮输了个精光...
-I could have bought an apartment in Prizca with that money...
-本来这笔钱可以在宏礼市买一套公寓的...
-Year 1: Yezera, the Unstoppable Prodigy
-第1届：无人能挡的天才叶泽拉
-Year 2: Scilla, the Iron-willed Scrapper
-第2届：铁腕斗士希拉
-Yes yes, they'll be starting the next round soon dearie...
-是啊，是啊，马上就要开始下一轮了...
 Friendly reminder, team composition only matters if you care about winning.
 友情提示，只有当时十分注重胜利时，才需要着重考量属性搭配。
 And between you and me, bud, maybe you should just stick with having fun.
 而对很多人来说，只要开心就足够了。
+Yes yes, they'll be starting the next round soon dearie...
+是啊，是啊，马上就要开始下一轮了...
+Year 1: Yezera, the Unstoppable Prodigy
+第1届：无人能挡的天才叶泽拉
+Year 2: Scilla, the Iron-willed Scrapper
+第2届：铁腕斗士希拉
 Maybe later.
 稍等。
 Sure, let's go.
@@ -43751,16 +43759,36 @@ Barren Island
 Windborn Island
 起风之岛
 [20]
+League Gym 1
+联盟道馆1
+League Gym 2
+联盟道馆2
 Novo College
 望新大学
 Vibrant Cave
 活力洞窟
+League Gym 4
+联盟道馆4
 Grouz Mine
 古治矿场
+League Gym 3
+联盟道馆3
 LuxTech Main
 光华大厦
+League Gym 7
+联盟道馆7
 Sweetrock Lighthouse
 蜜岩灯塔
+Makyan Capitol Building
+马凯亚国会大厦
+League Gym 6
+联盟道馆6
+League Gym 5
+联盟道馆5
+Aquatopia
+水都
+League Gym 8
+联盟道馆8
 [21]
 1
 Intro - Alpha
@@ -44255,7 +44283,7 @@ PokEstate 10 - Seafloor
 PokEstate 11 - River
 庄园11 - 河流
 165
-Aquatopia Menagerie
+Aquatopia
 水世界
 166
 Aegis Insurance
@@ -48907,6 +48935,8 @@ Replace
 替换
 {1} species tutorable movesets edited!
 {1}种族的教学技能列表已编辑！
+Species data written to Analysis/species.csv
+物种数据已写入Analysis/species.csv
 Search species...
 搜索物种...
 Which search?
@@ -49339,6 +49369,8 @@ Attempted to do a combined search, but no matching moves were found.
 尝试进行组合搜索，但未找到匹配的技能。
 No matching moves were found.
 未找到匹配的技能。
+Move data written to Analysis/moves.csv
+技能数据已写入Analysis/moves.csv
 Search name...
 搜索名称...
 Not Status
@@ -57811,6 +57843,8 @@ Congratulations, \PN! You've proven that even the best can be outshone... tempor
 恭喜你，\PN！你已经证明了，即便是最强者，也会被超越。
 Oh, look! A defeat. Just what I needed to keep my ego in check. Thanks for that, \PN.
 啊，失败了... 不过这正是我需要的，这样我的自信就能得到控制了，\PN。
+{1} hands you a pouch of candy.
+{1}递给你1袋糖果。
 Cannot set the chosen NPC1 to be the same as the chosen NPC2.
 不能将选定的NPC1设置为与选定的NPC2相同。
 Cannot set the chosen NPC2 to be the same as the chosen NPC1.
@@ -60799,16 +60833,20 @@ What?
 什么？
 Yeah, I've got a batch.
 我这里有
-Huh?
-哈？
-Why not?
-为什么不呢？
 Ignore it.
 不理他。
 Make a funny face.
 做个鬼脸。
 Take its candy.
 抢走它的糖果。
+Huh?
+哈？
+Why not?
+为什么不呢？
+So do I.
+点头。
+Avatar?
+化身？
 You're stealing Pokémon?
 你在偷精灵？
 You're rescuing Pokémon?
@@ -60849,10 +60887,6 @@ Nociception
 疼痛研究
 Man-made Pokémon
 人造精灵
-So do I.
-点头。
-Avatar?
-化身？
 Let me pass.
 让我过去。
 What are you doing?
@@ -60865,16 +60899,16 @@ Why should I help?
 我为什么要帮忙？
 What's the plan?
 有什么打算？
-Leave Tapu Koko for now.
-暂时先不带它走。
-Catch Tapu Koko.
-带它一起离开。
 Coincidence.
 巧合。
 It isn't random?
 不是随机的？
 Did you call them?
 你叫来的？
+Leave Tapu Koko for now.
+暂时先不带它走。
+Catch Tapu Koko.
+带它一起离开。
 Leave Tapu Lele for now.
 暂时先不带它走。
 Catch Tapu Lele.
@@ -60883,19 +60917,15 @@ Try to break into the house by force?
 想强行闯进房子吗？
 A Togekiss?
 用波克基斯？
-Leave Tapu Bulu for now.
-暂时先不带它走。
-Catch Tapu Bulu.
-带它一起离开。
 Open the crate?
 要打开箱子吗？
 Nay
 不
 Yea
 是
-Leave Tapu Fini for now.
+Leave Tapu Bulu for now.
 暂时先不带它走。
-Catch Tapu Fini.
+Catch Tapu Bulu.
 带它一起离开。
 What does it matter?
 那有什么关系呢？
@@ -60939,6 +60969,10 @@ I agree with you.
 我同意。
 You don't have to do this.
 你不必这样做。
+Leave Tapu Fini for now.
+暂时先不带它走。
+Catch Tapu Fini.
+带它一起离开。
 You knew?
 你知道？
 You in on it?
@@ -60965,8 +60999,6 @@ Use a Moomoo Milk
 使用哞哞鲜奶
 Use a Full Restore
 使用全复药
-You bet.
-来吧。
 Macabre
 阴森
 Insightful
@@ -60995,6 +61027,8 @@ I'll prepare.
 我准备下。
 Release Imogene forever.
 永远地让伊梦珍离开。
+You bet.
+来吧。
 [27]
 0
 Animated
