@@ -280,11 +280,10 @@ class PokeBattle_Battler
         end
 
         if pbOwnedByPlayer?
-=begin
-            # Legendary Banned
-            if @pokemon.species_data.isLegendary? && !TA.get(:enablelegendary)
+            # Legendary Clause
+            if @battle.tracker_get(:legendary_clause).include?(@pokemon.unique_id)
                 if aiCheck
-                    echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to it being predicted to refuse to move (Legendary Banned)")
+                    echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to it being predicted to refuse to move (Legendary Clause)")
                     return false
                 else
                     @battle.pbDisplay(_INTL("A flicker of pity passes through {1}'s eyes, it has no desire to lower itself to this battle!", pbThis(true)))
@@ -292,7 +291,6 @@ class PokeBattle_Battler
                     return false
                 end
             end
-=end
             # Species Clause
             if @battle.tracker_get(:species_clause).include?(@pokemon.unique_id)
                 if aiCheck

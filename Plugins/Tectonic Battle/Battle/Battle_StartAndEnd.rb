@@ -465,13 +465,14 @@ class PokeBattle_Battle
 
         pbDisplay(_INTL("You can skip the battle and treat it as a win by FORFEIT!")) if bossBattle?
         pbDisplay(_INTL("You have to win the battle <c3=E82010,F8A8B8>PERFECTLY</c3>, or you LOSE!")) if trainerBattle? && !TA.get(:casualmode) #&& !TA.get(:battle_loader)
+=begin
         legendary_count = $Trainer.legendary_count
         if legendary_count == 1
             pbDisplay(_INTL("There is a Legendary Pokémon in your party!\nYour team's move power will reduce by 10 percent!"))
         elsif legendary_count > 1
             pbDisplay(_INTL("There are some Legendary Pokémon in your party!\nYour team's move power will reduce by {1} percent!", legendary_count * 10))
         end
-
+=end
         # Main battle loop
         pbBattleLoop(ableBeforeFight)
     end

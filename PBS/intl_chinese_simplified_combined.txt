@@ -41505,7 +41505,7 @@ After fainting from self-destructing, revives after five turns.
 This Pokémon's hits deal half damage unless they are critical.
 自身攻击造成的伤害减半，除非是命中要害时。
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
-多段伤害类技能总是会使用出最大次数，且必定会命中要害。
+多段伤害类技能总是会使用出最大次数。攻击必定会命中对手的要害。
 At the end of each turn, all enemy Pokémon lose 1/10th HP if there is an active room.
 回合结束时，若存在空间类效果，所有对手的精灵损失HP的十分之一。
 While this Pokémon is below half health, its attacks leech those hit.

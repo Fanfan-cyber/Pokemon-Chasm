@@ -584,10 +584,12 @@ class PokeBattle_Move
             multipliers[:base_damage_multiplier] *= (party_most_type[1] * 0.01 + 1.0)
         end
 
+=begin
         if user.pbOwnedByPlayer?
             legendary_count = $Trainer.legendary_count
             multipliers[:base_damage_multiplier] *= (1.0 - legendary_count * 0.1)
         end
+=end
 
         if aiCheck
             # Parental Bond
