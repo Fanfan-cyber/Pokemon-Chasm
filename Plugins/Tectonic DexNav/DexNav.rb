@@ -213,8 +213,18 @@ class NewDexNav
           end
         elsif Input.trigger?(Input::ACTION)
           if pbConfirmMessage(_INTL("Would you like to get all these Pokémon?"))
+            has_owned = false
+            displaySpecies.each do |group|
+              group.each do |species_data|
+                if has_species?(species_data.species, species_data.form)
+                  has_owned = true
+                  break
+                end
+              end
+              break if has_owned
+            end
             include_owned = false
-            include_owned = true if pbConfirmMessage(_INTL("Include owned Pokémon?"))
+            include_owned = true if has_owned && pbConfirmMessage(_INTL("Include owned Pokémon?"))
             mons = []
             displaySpecies.each do |group|
               group.each do |species_data|
@@ -234,8 +244,18 @@ class NewDexNav
           end
         elsif MInput.trigger?(:R)
           if pbConfirmMessage(_INTL("Would you like to get a random Pokémon?"))
+            has_owned = false
+            displaySpecies.each do |group|
+              group.each do |species_data|
+                if has_species?(species_data.species, species_data.form)
+                  has_owned = true
+                  break
+                end
+              end
+              break if has_owned
+            end
             include_owned = false
-            include_owned = true if pbConfirmMessage(_INTL("Include owned Pokémon?"))
+            include_owned = true if has_owned && pbConfirmMessage(_INTL("Include owned Pokémon?"))
             can_obtain = []
             displaySpecies.each do |group|
               group.each do |species_data|
