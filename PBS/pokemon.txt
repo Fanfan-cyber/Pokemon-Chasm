@@ -1240,7 +1240,7 @@ Name = Bellossom
 Type1 = GRASS
 Type2 = FIRE
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 85,80,95,85,100,100
+BaseStats = 85,70,95,85,110,100
 # Total = 545
 BaseEXP = 221
 Rareness = 35
