@@ -7085,6 +7085,7 @@ Target = NearOther
 FunctionCode = ApplyShrinkingToTarget
 Flags = CanMagicCoat
 Description = The user sprays the target with a shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
+Animation = APPLEACID
 #-------------------------------
 [REND]
 Name = Rend
