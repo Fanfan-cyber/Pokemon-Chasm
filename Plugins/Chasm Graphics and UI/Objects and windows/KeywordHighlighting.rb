@@ -77,7 +77,7 @@ def battleKeywordsImportant
         "disabled",
         "disables",
         "disable",
-        "tormented"
+        "tormented",
         "maximizes",
         "maximize",
         "minimized",
