@@ -163,7 +163,7 @@ Description = Boosts power of light-based moves by 30%.
 #-------------------------------
 [BELLOWER]
 Name = Bellower
-Description = After using a sound move, all foes are tormented.
+Description = After using a sound move, all foes are Tormented.
 #-------------------------------
 [BERRYBUNCH]
 Name = Berry Bunch
@@ -1117,7 +1117,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [INSCRUTABLEORDERS]
 Name = Inscrutable Orders
-Description = This Pokémon deals 30% more move damage, but is continually tormented.
+Description = This Pokémon deals 30% more move damage, but is continually Tormented.
 #-------------------------------
 [INSECTCOLLECTOR]
 Name = Insect Collector
@@ -2240,7 +2240,7 @@ Description = Uses Rapid Spin if an attack lowers its HP below half.
 #-------------------------------
 [SUGARCOATED]
 Name = Sugarcoated
-Description = If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
+Description = If an attack lowers its HP below half, the attacker enters a sugar rush for four turns.
 #-------------------------------
 [SUMMERSZENITH]
 Name = Summer's Zenith
