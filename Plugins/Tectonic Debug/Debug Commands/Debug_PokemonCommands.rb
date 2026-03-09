@@ -583,6 +583,7 @@ module PokemonDebugMenuCommands
       commands = [
         _INTL("Set possible ability"),
         _INTL("Set any ability"),
+        _INTL("Set Extra ability"),
         _INTL("Reset")
       ]
       loop do
@@ -613,9 +614,14 @@ module PokemonDebugMenuCommands
             pkmn.ability = new_ability
             screen.pbRefreshSingle(pkmnid)
           end
-        when 2   # Reset
+        when 2   # Set Extra ability
+          new_ability = pbChooseAbilityList
+          pkmn.addExtraAbility(new_ability)
+          screen.pbRefreshSingle(pkmnid)
+        when 3   # Reset
           pkmn.ability_index = nil
           pkmn.ability = nil
+          pkmn.extraAbilities.clear
           screen.pbRefreshSingle(pkmnid)
         end
       end

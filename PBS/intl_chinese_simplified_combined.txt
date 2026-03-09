@@ -56333,6 +56333,8 @@ Set possible ability
 设置可能的特性
 Set any ability
 设置任意特性
+Set Extra ability
+设置额外特性
 Ability is {1} (index {2}).
 特性是{1}（索引{2}）。
 No ability (index {1}).

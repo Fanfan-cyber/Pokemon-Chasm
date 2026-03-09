@@ -6,10 +6,9 @@
 将Options、error和Achievement移到主目录下
 有人因为诅咒濒死时，耿鬼变身
 箱子可以搜索特性和技能以及批量放生
-Debug额外特性
 =end
 
-MOD_VERSION  = "0.4.6"
+MOD_VERSION  = "0.4.7"
 VERSION_NAME = ["Radiant Nexus", "星芒汇流"]
 
 CHANGE_LOG = <<-LOGGER
