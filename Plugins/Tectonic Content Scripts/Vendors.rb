@@ -112,7 +112,7 @@ def isFossil?(item_symbol)
 end
 
 def isFantasyFossil?(item_symbol)
-	%i[ELDRITCHFOSSIL].include?(item_symbol)
+	%i[ELDRITCHFOSSIL ALIENFOSSIL].include?(item_symbol)
 end
 
 def isMixFossil?(item_symbol)
@@ -180,7 +180,8 @@ def reviveFantasyFossil(fossil)
 	end
 
 	fossilsToSpecies = {
-		:ELDRITCHFOSSIL => :MOMANYTE
+		:ELDRITCHFOSSIL => :MOMANYTE,
+		:ALIENFOSSIL => :MKABUTO,
 	}
 
 	species = fossilsToSpecies[fossil] || nil
