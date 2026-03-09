@@ -6,10 +6,11 @@
 将Options、error和Achievement移到主目录下
 有人因为诅咒濒死时，耿鬼变身
 箱子可以搜索特性和技能以及批量放生
+Debug额外特性
 =end
 
 MOD_VERSION  = "0.4.6"
-VERSION_NAME = ["Astra Resonantia", "星穹共鸣"]
+VERSION_NAME = ["Radiant Nexus", "星芒汇流"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -173,6 +174,9 @@ tectonic/disabletectonic，开启/关闭构造模式
 casualmode/nocasualmode，开启/关闭休闲模式
 simplemode/nosimplemode，开启/关闭简单模式
 storymode/nostorymode，开启/关闭剧情模式
+
+0.4.7 Radiant Nexus / 星芒汇流
+
 
 0.4.6 Astra Resonantia / 星穹共鸣
 1.修复了Arc of Hope的中文错误翻译的Bug
