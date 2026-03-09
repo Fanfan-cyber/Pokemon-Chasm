@@ -26,6 +26,17 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Pokemon Copying
   party.shuffle! if trainer.trainer_type.to_s.include?("LEADER_Lambert")
 }
 
+STATIDORDER = [:HP,:ATTACK,:DEFENSE,:SPECIAL_ATTACK,:SPECIAL_DEFENSE,:SPEED]
+Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Crazy Mode
+  next unless TA.get(:crazymode)
+  trainer = e[0]
+  next unless trainer
+  trainer.party.each do |pkmn|
+    next unless pkmn
+    STATIDORDER.each { |s| pkmn.ev[s] = 30}
+  end
+}
+
 Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Level Sacling
   trainer = e[0]
   next unless trainer
@@ -39,7 +50,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Level Sacling
     else
       next if pkmn.hasMove?(:ENDEAVOR)
       pkmn.level = higher_level # level
-      pkmn.level += 1 if pkmn.level < MAX_LEVEL_CAP && rand(100) < 40 
+      pkmn.level += 1 if pkmn.level < MAX_LEVEL_CAP && rand(100) < 40
     end
     if punish_level > 0
       punish_increment = [punish_level, MAX_LEVEL_CAP - pkmn.level].min

@@ -200,6 +200,8 @@ CDKey.register_other_key(:customrevivalturn)
 
 CDKey.register_other_key(:rocket, true)
 CDKey.register_other_key([:norocket, :rocket], false)
+CDKey.register_other_key(:crazymode, true)
+CDKey.register_other_key([:nocrazymode, :crazymode], false)
 CDKey.register_other_key(:zeroexp, true)
 CDKey.register_other_key([:disablezeroexp, :zeroexp], false)
 CDKey.register_other_key(:monoabil, true)

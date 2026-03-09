@@ -95,6 +95,7 @@ by Fanfan
 自由部族模式，开启自由部族模式后，可自由设定部族效果生效所需要的精灵数，使用密码customtribethresh开启(Inspired by Attea, Kirby Gal)
 全双打模式，开启全双打模式后，所有战斗都会变成双打，使用密码doublebattle开启
 火箭队模式，和训练师的对战胜利时，可以从对手的队伍中抢走一只精灵，使用密码rocket开启
+疯狂模式，开启疯狂模式后，对手训练师的精灵将获得3倍的风格点数，使用密码crazymode开启
 无经验模式，开启无经验模式后，玩家的精灵打败对手的精灵时，将不再获得经验，使用密码zeroexp开启
 绝对复制模式，开启后绝对复制模式后，无论对手原本有多少只精灵，都会触发复制机制，使用密码copywhatever开启
 单特性模式，开启单特性模式后，玩家的精灵只有主特性会生效，使用特性胶囊可以切换特性，使用密码monoabil开启
@@ -155,6 +156,7 @@ inversebattle/noinversebattle，开启/关闭反转对战模式
 # 以下密码均会使游戏难度增加
 revengeplus/norevengeplus，开启/关闭新版复仇机制
 shuffledisplay/noshuffledisplay，随机化/正常化属性克制提示
+crazymode/nocrazymode，开启/关闭疯狂模式
 zeroexp/disablezeroexp，开启/关闭无经验模式
 monoabil/disablemonoabil，开启/关闭单特性模式
 battlerevive/disablerevive，开启/关闭濒死复活机制
@@ -176,7 +178,9 @@ simplemode/nosimplemode，开启/关闭简单模式
 storymode/nostorymode，开启/关闭剧情模式
 
 0.4.7 Radiant Nexus / 星芒汇流
-
+1.增加了疯狂模式，现在可以通过输入密码crazymode开启疯狂模式，开启疯狂模式后，对手训练师的精灵将获得3倍的风格点数
+2.现在可以通过输入密码nocrazymode关闭疯狂模式
+3.
 
 0.4.6 Astra Resonantia / 星穹共鸣
 1.修复了Arc of Hope的中文错误翻译的Bug
