@@ -1076,4 +1076,15 @@ class PokeBattle_Battler
             yield move, index
         end
     end
+
+    def mentalBlockActiveAI?
+        return hasActiveAbility?(GameData::Ability.getByFlag("MentalBlocking"))
+    end
+
+    def hasMentalEffect?
+        eachEffect(true) do |_effect, _value, data|
+        return true if data.is_mental?
+    end
+    return false
+  end
 end
