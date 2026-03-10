@@ -41957,7 +41957,7 @@ Takes 30% less damage from Pokémon that are trapped.
 Foes whose stats are lowered by this Pokémon keep those lowered stats even after switching.
 被该精灵减小能力等级的对手，即使替换后，被减小的能力等级依然保留。
 Whenever a grounded foe attacks, this Pokémon gains priority against them on the next turn.
-地面上的对手发动攻击后，该精灵在下一回合对那只精灵攻击的先制度+1。
+地面上的对手攻击后，该精灵在下1回合对那只精灵攻击的先制度+1。
 This Pokémon's Speed is doubled while using recoil moves.
 使用反伤类技能时，速度翻倍。
 Boosts the power of sound moves by 30%. Sound moves ignore the target's modified Defense and Sp. Def.

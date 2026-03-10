@@ -380,7 +380,7 @@ class PokeBattle_Move
         end
     end
 
-    def stabActive?(user, type, checkingForAI = false)
+    def stabActive?(user, target, type, checkingForAI = false)
         return false if user.pbOwnedByPlayer? && @battle.curses.include?(:DULLED)
         return false if @battle.pbCheckGlobalAbility(:SIGNALJAM)
 
@@ -395,7 +395,7 @@ class PokeBattle_Move
             return false
         end
 
-        return true if type && user.pbHasType?(type)
+        return true if type && gain_stab?(user, target, type)
         if checkingForAI
             return true if user.hasActiveAbilityAI?(%i[PROTEAN FREESTYLE])
             return true if user.hasActiveAbilityAI?(:MUTABLE) && !user.effectActive?(:Mutated)
@@ -405,7 +405,12 @@ class PokeBattle_Move
         return false
     end
 
-    def calc_stab(user, type, checkingForAI = false)
+    def gain_stab?(user, target, type)
+        return true if user.pbHasType?(type)
+        return false
+    end
+
+    def calc_stab(user, target, type, checkingForAI = false)
         stab = 1.5
         stab = 1.25 if !user.mono_type? || user.shouldAbilityApply?(:IMPRESSIONABLE, checkingForAI)
         stab *= 4.0 / 3.0 if user.shouldAbilityApply?(:ADAPTED, checkingForAI)
@@ -415,7 +420,7 @@ class PokeBattle_Move
 
     def pbCalcTypeBasedDamageMultipliers(user,target,type,multipliers,checkingForAI=false)
         # STAB
-        multipliers[:final_damage_multiplier] *= calc_stab(user, type, checkingForAI) if stabActive?(user, type, checkingForAI)
+        multipliers[:final_damage_multiplier] *= calc_stab(user, target, type, checkingForAI) if stabActive?(user, target, type, checkingForAI)
 
         # R.O.W.E.
         if type
