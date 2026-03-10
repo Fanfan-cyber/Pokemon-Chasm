@@ -179,7 +179,8 @@ storymode/nostorymode，开启/关闭剧情模式
 0.4.7 Radiant Nexus / 星芒汇流
 1.增加了疯狂模式，现在可以通过输入密码crazymode开启疯狂模式，开启疯狂模式后，对手训练师的精灵将获得3倍的风格点数
 2.现在可以通过输入密码nocrazymode关闭疯狂模式
-3.
+3.将中文翻译的“心灵”状态标准化为“心控”状态
+4.
 
 0.4.6 Astra Resonantia / 星穹共鸣
 1.修复了Arc of Hope的中文错误翻译的Bug

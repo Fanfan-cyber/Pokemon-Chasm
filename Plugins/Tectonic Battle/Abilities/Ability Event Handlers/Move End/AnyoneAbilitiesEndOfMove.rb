@@ -19,6 +19,23 @@ BattleHandlers::AnyoneAbilityEndOfMove.add(:GROOVY,
     }
 )
 
+BattleHandlers::AnyoneAbilityEndOfMove.add(:TREMORSENSE,
+    proc { |ability, battler, user, targets, move, battle|
+        next unless battler.opposes?(user)
+        next if user.airborne?
+        next unless move.damagingMove?
+        if user.effectActive?(:TremorSensed)
+            next if user.effects[:TremorSensed].any? { |entry| entry[1] == battler.index }
+            user.effects[:TremorSensed].push([2, battler.index, battler.name])
+        else
+            user.applyEffect(:TremorSensed, [[2, battler.index, battler.name]])
+        end
+        battler.showMyAbilitySplash(ability)
+        battle.pbDisplay(_INTL("{1} sensed {2}'s movements...", battler.pbThis, user.pbThis(true)))
+        battler.hideMyAbilitySplash
+    }
+)
+
 BattleHandlers::AnyoneAbilityEndOfMove.add(:CASHFLOW,
     proc { |ability, battler, user, targets, move, battle|
       next if battler.fainted? || battler.hp >= battler.totalhp / 2

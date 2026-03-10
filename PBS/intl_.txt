@@ -25406,6 +25406,10 @@ Kabuto
 Kabuto
 Kabutops
 Kabutops
+M. Kabuto
+M. Kabuto
+M. Kabutops
+M. Kabutops
 Aerodactyl
 Aerodactyl
 Pteroflyte
@@ -25678,6 +25682,12 @@ Marshtomp
 Marshtomp
 Swampert
 Swampert
+M. Mudkip
+M. Mudkip
+M. Marshtomp
+M. Marshtomp
+M. Swampert
+M. Swampert
 Poochyena
 Poochyena
 Mightyena
@@ -27333,6 +27343,10 @@ Mini Boss
 Mini Boss
 Final Boss
 Final Boss
+Facehugger
+Facehugger
+Omnivore
+Omnivore
 Fossil
 Fossil
 Apex Fossil
@@ -27513,6 +27527,8 @@ Blaze
 Blaze
 Mud Fish
 Mud Fish
+Lush Cave
+Lush Cave
 Bite
 Bite
 TinyRaccoon
@@ -29018,6 +29034,10 @@ This species is almost entirely extinct. Kabuto molt every three days, making th
 This species is almost entirely extinct. Kabuto molt every three days, making their shells harder and harder.
 Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.
 Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.
+Its fossils were found in the depths of Makyan caves. However, it is alien to anything from the same time. It resembles a monster from a popular video game.
+Its fossils were found in the depths of Makyan caves. However, it is alien to anything from the same time. It resembles a monster from a popular video game.
+After evolution, this Pokémon began to resemble other extinct Pokémon of their time. They multiply by converting native biomass into more Kabuto.
+After evolution, this Pokémon began to resemble other extinct Pokémon of their time. They multiply by converting native biomass into more Kabuto.
 It flew through the open skies over the ancient continent as if they were its own. When it touched ground, its walk was weak and slow.
 It flew through the open skies over the ancient continent as if they were its own. When it touched ground, its walk was weak and slow.
 In ancient times, this Pokémon was an apex predator. It has the strength to fly with a Tyrantrum in its claws.
@@ -29290,6 +29310,12 @@ The surface of Marshtomp's body is enveloped by a thin, sticky film that enables
 The surface of Marshtomp's body is enveloped by a thin, sticky film that enables it to live on land. This Pokémon plays in mud on beaches.
 It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.
 It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.
+This Pokémon was only found recently, as upheavals unsealed ancient caves rife with old life, where it promptly hid from sight in narrow spaces.
+This Pokémon was only found recently, as upheavals unsealed ancient caves rife with old life, where it promptly hid from sight in narrow spaces.
+This Pokémon is much stronger than before, yet lazy. It is quick to make friends, but it might eat them in a pinch.
+This Pokémon is much stronger than before, yet lazy. It is quick to make friends, but it might eat them in a pinch.
+Living in underwater caves with no light has given this Pokémon great sensitivity to vibrations. It pinpoints prey with extreme precision.
+Living in underwater caves with no light has given this Pokémon great sensitivity to vibrations. It pinpoints prey with extreme precision.
 It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.
 It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.
 It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.
@@ -32638,6 +32664,8 @@ Guiding Aroma
 Guiding Aroma
 Irritate
 Irritate
+Life Drain
+Life Drain
 Light Show
 Light Show
 Lumina Chain
@@ -33306,6 +33334,8 @@ Cruelty
 Cruelty
 Diametric Breath
 Diametric Breath
+Dragomast Waves
+Dragomast Waves
 Dragon Ride
 Dragon Ride
 Dread
@@ -35135,6 +35165,8 @@ The user emits an aroma that raises the target's three weakest stats.
 The user emits an aroma that raises the target's three weakest stats.
 The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
 The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
+The user stabs the target with a sharp spike to drain its life force. The user's HP is restored by 50% of the damage dealt. This can overheal.
+The user stabs the target with a sharp spike to drain its life force. The user's HP is restored by 50% of the damage dealt. This can overheal.
 The user attacks with small beams of light. It has a 40% chance to make the target flinch.
 The user attacks with small beams of light. It has a 40% chance to make the target flinch.
 The user emits rapid bursts of light and rampages for two turns.
@@ -35791,6 +35823,8 @@ The user crushes the target with evil intent. This deals double damage if the ta
 The user crushes the target with evil intent. This deals double damage if the target has a non-volatile status condition.
 Exhales magical fumes with a 30% chance to burn or frostbite the target depending on their stats.
 Exhales magical fumes with a 30% chance to burn or frostbite the target depending on their stats.
+Sends cloying waves of energy forward, lowering hit foes Evasion by four steps.
+Sends cloying waves of energy forward, lowering hit foes Evasion by four steps.
 Doubles target ally's Attack and Speed. However, if the user faints, so too does that ally.
 Doubles target ally's Attack and Speed. However, if the user faints, so too does that ally.
 The user inspires a sudden dread in the target, damaging it. This move always goes first.
@@ -36264,6 +36298,8 @@ Sail Fossil
 Sail Fossil
 Eldritch Fossil
 Eldritch Fossil
+Alien Fossil
+Alien Fossil
 Honey
 Honey
 Pretty Feather
@@ -37167,6 +37203,8 @@ Sail Fossils
 Sail Fossils
 Eldritch Fossils
 Eldritch Fossils
+Alien Fossils
+Alien Fossils
 Honey
 Honey
 Pretty Feathers
@@ -38066,6 +38104,8 @@ A fossil from a prehistoric Pokémon that once lived on the land. It resembles A
 A fossil from a prehistoric Pokémon that once lived on the land. It resembles Amaura.
 A fossil from a strange Pokémon that once lived on the land. It resembles Makyan Omanyte.
 A fossil from a strange Pokémon that once lived on the land. It resembles Makyan Omanyte.
+A fossil from a strange Pokémon that once lived on the land. It resembles Makyan Kabuto.
+A fossil from a strange Pokémon that once lived on the land. It resembles Makyan Kabuto.
 A sweet honey with a sweeter aroma. It can be sold to shops for $750.
 A sweet honey with a sweeter aroma. It can be sold to shops for $750.
 A beautiful feather. It can be sold to shops for $1500.
@@ -39265,6 +39305,8 @@ Bellower
 Bellower
 Berry Bunch
 Berry Bunch
+Biohazard
+Biohazard
 Bird-Brained
 Bird-Brained
 Bird of Prey
@@ -39825,6 +39867,8 @@ Midnight Oil
 Midnight Oil
 Midnight Sun
 Midnight Sun
+Mindless
+Mindless
 Mist Form
 Mist Form
 Mist Trail
@@ -40313,6 +40357,8 @@ Trapper
 Trapper
 Traumatizing
 Traumatizing
+Tremor Sense
+Tremor Sense
 Trench Carver
 Trench Carver
 Tuned Out
@@ -40864,6 +40910,8 @@ After using a sound move, all foes are tormented.
 After using a sound move, all foes are tormented.
 Can hold two different items, if both are Berries.
 Can hold two different items, if both are Berries.
+If an attack lowers its HP below half, lowers the attacker's highest stat by four steps.
+If an attack lowers its HP below half, lowers the attacker's highest stat by four steps.
 Moves that make the user become hidden hide the user for one turn longer.
 Moves that make the user become hidden hide the user for one turn longer.
 Deals 30% more damage to targets that are below half health or that swapped in this turn.
@@ -41410,8 +41458,8 @@ All Pokémon's damage is decreased proportional to their health remaining.
 All Pokémon's damage is decreased proportional to their health remaining.
 When this Pokémon is hit thrice, all party members heal for 1/8th HP. The attacker is forced to switch out.
 When this Pokémon is hit thrice, all party members heal for 1/8th HP. The attacker is forced to switch out.
-This Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
-This Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
+This Pokémon is immune to mental effects and can't be Dizzied, or Flinched.
+This Pokémon is immune to mental effects and can't be Dizzied, or Flinched.
 Disables the opponent's most recently-used move for two turns upon hitting it.
 Disables the opponent's most recently-used move for two turns upon hitting it.
 Boosts this Pokémon's Speed by 50% in sandstorm or hail.
@@ -41422,6 +41470,8 @@ Using a status move in moonglow extends the weather by a turn.
 Using a status move in moonglow extends the weather by a turn.
 Powers up this Pokémon's Dark-type moves by 50% in sunshine.
 Powers up this Pokémon's Dark-type moves by 50% in sunshine.
+Immune to Psychic-type moves and mental effects.
+Immune to Psychic-type moves and mental effects.
 Slips past hazards. Takes one third less damage if it switched in this turn.
 Slips past hazards. Takes one third less damage if it switched in this turn.
 Pokémon that swap in for this have their Defense and Sp. Defense raised.
@@ -41906,6 +41956,8 @@ Takes 30% less damage from Pokémon that are trapped.
 Takes 30% less damage from Pokémon that are trapped.
 Foes whose stats are lowered by this Pokémon keep those lowered stats even after switching.
 Foes whose stats are lowered by this Pokémon keep those lowered stats even after switching.
+Whenever a grounded foe attacks, this Pokémon gains priority against them on the next turn.
+Whenever a grounded foe attacks, this Pokémon gains priority against them on the next turn.
 This Pokémon's Speed is doubled while using recoil moves.
 This Pokémon's Speed is doubled while using recoil moves.
 Boosts the power of sound moves by 30%. Sound moves ignore the target's modified Defense and Sp. Def.
@@ -46985,6 +47037,18 @@ Bar
 Bar
 When barred, a Pokémon cannot use moves that don't share a type with themselves.
 When barred, a Pokémon cannot use moves that don't share a type with themselves.
+Encore
+Encore
+When encored, a Pokémon is forced to use the last used move again.
+When encored, a Pokémon is forced to use the last used move again.
+Heal Block
+Heal Block
+When heal blocked, a Pokémon cannot use healing or draining moves.
+When heal blocked, a Pokémon cannot use healing or draining moves.
+Mental
+Mental
+Torment, Taunt, Disable, Bar, Encore and Heal Block are mental effects.
+Torment, Taunt, Disable, Bar, Encore and Heal Block are mental effects.
 Trapping
 Trapping
 When trapped, a Pokémon cannot switch out of battle. Includes manually switching, being forced out, or using a move like U-Turn.
@@ -50043,6 +50107,8 @@ The ions around {1} settled down.
 The ions around {1} settled down.
 {1} is pierced by spines hidden near {2}!
 {1} is pierced by spines hidden near {2}!
+{1} sensed {2}'s movements...
+{1} sensed {2}'s movements...
 {1} gobbles up the scattered coins!
 {1} gobbles up the scattered coins!
 {1}'s {2} made it the {3} type!
@@ -50159,6 +50225,8 @@ Which form should {1} take?
 {1}'s stats cannot be lowered!
 {1}'s {2} cannot be lowered!
 {1}'s {2} cannot be lowered!
+{1} predicted {2}'s actions, and struck first!
+{1} predicted {2}'s actions, and struck first!
 {1} bonds with its younger allies!
 {1} bonds with its younger allies!
 {1} was attacked on sight!
@@ -56333,6 +56401,8 @@ Set possible ability
 Set possible ability
 Set any ability
 Set any ability
+Set Extra ability
+Set Extra ability
 Ability is {1} (index {2}).
 Ability is {1} (index {2}).
 No ability (index {1}).
@@ -63100,6 +63170,8 @@ Not Slacking Off
 Not Slacking Off
 Two Turn Attack
 Two Turn Attack
+Sensed By
+Sensed By
 Added Type
 Added Type
 Item Lost

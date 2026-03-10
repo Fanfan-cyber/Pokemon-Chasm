@@ -25406,6 +25406,10 @@ Kabuto
 化石盔
 Kabutops
 镰刀盔
+M. Kabuto
+M.化石盔
+M. Kabutops
+M.镰刀盔
 Aerodactyl
 化石翼龙
 Pteroflyte
@@ -25678,6 +25682,12 @@ Marshtomp
 沼跃鱼
 Swampert
 巨沼怪
+M. Mudkip
+M.水跃鱼
+M. Marshtomp
+M.沼跃鱼
+M. Swampert
+M.巨沼怪
 Poochyena
 土狼犬
 Mightyena
@@ -27333,6 +27343,10 @@ Mini Boss
 迷你头目
 Final Boss
 最终头目
+Facehugger
+抱脸虫
+Omnivore
+杂食动物
 Fossil
 化石
 Apex Fossil
@@ -27513,6 +27527,8 @@ Blaze
 猛火
 Mud Fish
 沼鱼
+Lush Cave
+繁茂洞穴
 Bite
 紧咬
 TinyRaccoon
@@ -28849,7 +28865,7 @@ When excited, it discharges the electric current it has stored in its belly, the
 The tissue on the surface of its body is curiously similar in composition to an Apricorn.
 体表的组织与球果的成分极为接近，不可思议。当它情绪焦躁时所放出的电流，能量足以匹敌20次的落雷。
 Discovered by Attea the Silly at around the 80s, these groovy Voltorbs help bring guests to clubs.
-由Attea the Silly在80年代左右发现，这些时髦的灯光球有助于将客人带到俱乐部。
+在80年代左右被发现，这些时髦的灯光球有助于将客人带到俱乐部。
 It wears sunglasses to protect its own eyes from its many lights, recently several have been imported to the Orre region.
 它戴着太阳镜以保护自身的眼睛免受众多灯光的刺激，最近有几只被引进到了奥瑞地区。
 These Pokémon get nervous when they're not in a group of six. The minute even one member of the group goes missing, Exeggcute become cowardly.
@@ -29018,6 +29034,10 @@ This species is almost entirely extinct. Kabuto molt every three days, making th
 除某些极少数地方外，该精灵已基本灭绝。会用坚硬的外壳保护身体。
 Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.
 能以大约29节的速度游动。快速接近猎物后，会用镰刀撕裂猎物并给予其致命1击。
+Its fossils were found in the depths of Makyan caves. However, it is alien to anything from the same time. It resembles a monster from a popular video game.
+它的化石在马凯亚洞穴深处被发现。然而，它与同时代的任何生物都不同。它类似于一款流行电子游戏中的怪物。
+After evolution, this Pokémon began to resemble other extinct Pokémon of their time. They multiply by converting native biomass into more Kabuto.
+进化后，这只精灵开始类似于同时代的其他灭绝精灵。它们通过将本土生物质转化为更多化石盔来繁殖。
 It flew through the open skies over the ancient continent as if they were its own. When it touched ground, its walk was weak and slow.
 由琥珀中残留的遗传基因复原而来。性情比想像的还要粗暴，甚至还出现了牺牲者。
 In ancient times, this Pokémon was an apex predator. It has the strength to fly with a Tyrantrum in its claws.
@@ -29290,6 +29310,12 @@ The surface of Marshtomp's body is enveloped by a thin, sticky film that enables
 沼跃鱼的身体表面覆盖着1层薄薄的粘液，使它能够在陆地上生活。这种精灵喜欢在海滩的泥浆中玩耍。
 It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.
 巨沼怪能通过用鳍感知波涛声和海风的细微变化来预测暴风雨。发生暴风雨时，会堆积岩石保护巢穴。
+This Pokémon was only found recently, as upheavals unsealed ancient caves rife with old life, where it promptly hid from sight in narrow spaces.
+这只精灵最近才被发现，因为地质变动解封了充满古老生命的洞穴，它迅速躲藏在狭窄的空间中。
+This Pokémon is much stronger than before, yet lazy. It is quick to make friends, but it might eat them in a pinch.
+这只精灵比以前强大得多，但很懒惰。它很快就能交到朋友，但在紧要关头可能会吃掉它们。
+Living in underwater caves with no light has given this Pokémon great sensitivity to vibrations. It pinpoints prey with extreme precision.
+生活在没有光线的水下洞穴中，使这只精灵对振动极为敏感。它能以极高的精度定位猎物。
 It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.
 找到动的东西就会立刻咬上去。虽然在猎物精疲力尽之前会一直追着不放，但受到反击的话，有时也会被吓退。
 It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.
@@ -32638,6 +32664,8 @@ Guiding Aroma
 指引香气
 Irritate
 激怒
+Life Drain
+生命吸取
 Light Show
 闪烁之光
 Lumina Chain
@@ -33306,6 +33334,8 @@ Cruelty
 暴虐
 Diametric Breath
 环形吐息
+Dragomast Waves
+龙波荡
 Dragon Ride
 龙骑
 Dread
@@ -35135,6 +35165,8 @@ The user emits an aroma that raises the target's three weakest stats.
 使用者释放出香气，使目标最低的3项能力增加1级。
 The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
 使用者用力拍打目标并涂抹1种痛苦的化学物质。有10%概率使目标中毒。
+The user stabs the target with a sharp spike to drain its life force. The user's HP is restored by 50% of the damage dealt. This can overheal.
+使用者用尖刺刺穿目标以吸取其生命。使用者的HP回复造成伤害的50%，可以过量回复。
 The user attacks with small beams of light. It has a 40% chance to make the target flinch.
 使用者发出小光束攻击，有40%概率使目标畏缩。
 The user emits rapid bursts of light and rampages for two turns.
@@ -35791,6 +35823,8 @@ The user crushes the target with evil intent. This deals double damage if the ta
 带着恶意碾压目标。若目标处于异常状态则伤害翻倍。
 Exhales magical fumes with a 30% chance to burn or frostbite the target depending on their stats.
 呼出魔法烟雾，根据对手的能力，30%概率造成烧伤或冻伤。
+Sends cloying waves of energy forward, lowering hit foes Evasion by four steps.
+向前发送令人窒息的能量波，使被击中对手的回避率减小4级。
 Doubles target ally's Attack and Speed. However, if the user faints, so too does that ally.
 让队友的攻击和速度翻倍。但是如果自身倒下，那么队友也会倒下。
 The user inspires a sudden dread in the target, damaging it. This move always goes first.
@@ -36264,6 +36298,8 @@ Sail Fossil
 鳍之化石
 Eldritch Fossil
 诡异化石
+Alien Fossil
+外星化石
 Honey
 甜甜蜜
 Pretty Feather
@@ -36389,7 +36425,7 @@ Shell Bell
 Water Balloon
 水气球
 Mental Herb
-心灵香草
+心控香草
 White Herb
 白色香草
 Black Herb
@@ -37167,6 +37203,8 @@ Sail Fossils
 鳍之化石
 Eldritch Fossils
 诡异化石
+Alien Fossils
+外星化石
 Honey
 甜甜蜜
 Pretty Feathers
@@ -37292,7 +37330,7 @@ Shell Bells
 Water Balloons
 水气球
 Mental Herbs
-心灵香草
+心控香草
 White Herbs
 白色香草
 Black Herbs
@@ -38066,6 +38104,8 @@ A fossil from a prehistoric Pokémon that once lived on the land. It resembles A
 1种史前陆生精灵的化石。看起来像冰雪龙。
 A fossil from a strange Pokémon that once lived on the land. It resembles Makyan Omanyte.
 1种来自奇特精灵的化石。看起来像马凯亚菊石兽。
+A fossil from a strange Pokémon that once lived on the land. It resembles Makyan Kabuto.
+一种曾经生活在陆地上的奇怪精灵的化石。看起来马凯亚化石盔。
 A sweet honey with a sweeter aroma. It can be sold to shops for $750.
 1种极其香甜的蜂蜜，可以在商店卖出750金钱。
 A beautiful feather. It can be sold to shops for $1500.
@@ -38181,7 +38221,7 @@ An item to be held by a Pokémon. The user gets both of its legal abilities, but
 An item to be held by a Pokémon. Signature attacks made by the holder are boosted by 40%.
 精灵携带的物品。携带者使用的专属技能的威力增加40%。
 A held item. The holder recovers 30% more HP from draining moves, Aqua Ring, and leech.
-1种携带物。携带者通过吸取技能、水流环和寄生回复的HP增加30%。
+1种携带物。携带者通过吸取类技能、水流环和寄生回复的HP增加30%。
 A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
 携带后，毒属性的精灵会缓缓回复HP。其他属性的话，HP则会减小。
 A held item. The holder's HP is restored by 1/16th at the end of each turn.
@@ -38191,7 +38231,7 @@ An item to be held by a Pokémon. The holder restores 1/5th HP of the damage it 
 A held item. At half health, the holder breaks the balloon and gains an Aqua Ring.
 1种携带物。携带后，HP在一半以下时，被击后获得水流环。
 An item to be held by a Pokémon. It snaps the holder out of a variety of mental warping effects.
-携带它的精灵会回复心灵状态1次。
+携带它的精灵会回复心控状态1次。
 An item to be held by a Pokémon. It restores any lowered stat in battle.
 给精灵携带后，能回复1次减小的能力等级。
 An item to be held by a Pokémon. Lowered stats on the holder are also applied to foes.
@@ -39265,6 +39305,8 @@ Bellower
 咆哮者
 Berry Bunch
 树果狂
+Biohazard
+生物危机
 Bird-Brained
 鸟脑
 Bird of Prey
@@ -39814,7 +39856,7 @@ Mass Attack
 Mending Feather Charm
 修复之羽
 Mental Block
-心灵阻隔
+心控阻隔
 Mental Damage
 精神损伤
 Meteoric
@@ -39825,6 +39867,8 @@ Midnight Oil
 午夜油
 Midnight Sun
 极昼
+Mindless
+无脑
 Mist Form
 雾形
 Mist Trail
@@ -40313,6 +40357,8 @@ Trapper
 捕猎
 Traumatizing
 精神创伤
+Tremor Sense
+震动感知
 Trench Carver
 壕沟建造
 Tuned Out
@@ -40864,6 +40910,8 @@ After using a sound move, all foes are tormented.
 声音类技能会对敌方全员施加折磨状态。
 Can hold two different items, if both are Berries.
 可同时携带2个树果类物品。
+If an attack lowers its HP below half, lowers the attacker's highest stat by four steps.
+如果攻击使其HP减小到一半以下，使攻击者最高的一项能力减小4级。
 Moves that make the user become hidden hide the user for one turn longer.
 让隐藏类技能的隐藏时间增加1回合。
 Deals 30% more damage to targets that are below half health or that swapped in this turn.
@@ -41410,8 +41458,8 @@ All Pokémon's damage is decreased proportional to their health remaining.
 所有精灵的伤害都会根据它们的剩余生命值按比例减小。
 When this Pokémon is hit thrice, all party members heal for 1/8th HP. The attacker is forced to switch out.
 这只精灵被命中3次时，所有队伍成员回复HP的八分之一。攻击者强制退场。
-This Pokémon can't be Taunted, Encored, Tormented, Heal Blocked, Disabled, Barred, Dizzied, or Flinched.
-这只精灵不会受到挑衅、鼓掌、折磨、 回复封锁、禁用、妨碍、混乱或畏缩。
+This Pokémon is immune to mental effects and can't be Dizzied, or Flinched.
+免疫心控状态，不会混乱或畏缩。
 Disables the opponent's most recently-used move for two turns upon hitting it.
 命中对手后，使其最后使用的技能失效2回合。
 Boosts this Pokémon's Speed by 50% in sandstorm or hail.
@@ -41422,6 +41470,8 @@ Using a status move in moonglow extends the weather by a turn.
 月辉时，使用变化类技能会使天气增加1回合。
 Powers up this Pokémon's Dark-type moves by 50% in sunshine.
 晴天时，恶属性技能的威力增加50%。
+Immune to Psychic-type moves and mental effects.
+免疫超能属性技能和心控状态。
 Slips past hazards. Takes one third less damage if it switched in this turn.
 无视陷阱。替换上场的回合受到的伤害减小1/3。
 Pokémon that swap in for this have their Defense and Sp. Defense raised.
@@ -41906,6 +41956,8 @@ Takes 30% less damage from Pokémon that are trapped.
 从被束缚的精灵那里受到的伤害减小30%。
 Foes whose stats are lowered by this Pokémon keep those lowered stats even after switching.
 被该精灵减小能力等级的对手，即使替换后，被减小的能力等级依然保留。
+Whenever a grounded foe attacks, this Pokémon gains priority against them on the next turn.
+地面上的对手发动攻击后，该精灵在下一回合对那只精灵攻击的先制度+1。
 This Pokémon's Speed is doubled while using recoil moves.
 使用反伤类技能时，速度翻倍。
 Boosts the power of sound moves by 30%. Sound moves ignore the target's modified Defense and Sp. Def.
@@ -46985,6 +47037,18 @@ Bar
 妨碍
 When barred, a Pokémon cannot use moves that don't share a type with themselves.
 被妨碍时，精灵无法使用与自身属性不同的技能。
+Encore
+鼓掌
+When encored, a Pokémon is forced to use the last used move again.
+处于鼓掌状态时，精灵被迫再次使用最后使用的技能。
+Heal Block
+回复封锁
+When heal blocked, a Pokémon cannot use healing or draining moves.
+处于回复封锁状态时，精灵无法使用回复类或吸取类技能。
+Mental
+心控
+Torment, Taunt, Disable, Bar, Encore and Heal Block are mental effects.
+折磨、挑衅、禁用、妨碍、鼓掌和回复封锁是心控效果。
 Trapping
 困住
 When trapped, a Pokémon cannot switch out of battle. Includes manually switching, being forced out, or using a move like U-Turn.
@@ -47278,7 +47342,7 @@ Raises the side's Defense by 50%. On the final turn, that side is healed for 33%
 Enamorus: Wish of Spring
 眷恋云：春之愿
 Raises the side's Sp. Def by 50%. On the final turn, that side is cured of non-volatile status conditions and mental conditions.
-我方特防增加50%。在最后一回合时，我方回复所有异常状态和心灵状态。
+我方特防增加50%。在最后一回合时，我方回复所有异常状态和心控状态。
 Use the Arrow keys to move the main character.<<n>>You can also use the Arrow keys to select entries and navigate menus.
 可以使用方向键移动主角，<<n>>也可以用来浏览条目。
 Used to confirm a choice, interact with people and things, and move through text. (Default: C)
@@ -50043,6 +50107,8 @@ The ions around {1} settled down.
 {1}周围的离子安定下来了。
 {1} is pierced by spines hidden near {2}!
 {1}被隐藏在{2}附近的尖刺刺穿了！
+{1} sensed {2}'s movements...
+{1}感知到了{2}的行动...
 {1} gobbles up the scattered coins!
 {1}吞下了散落的金钱！
 {1}'s {2} made it the {3} type!
@@ -50159,6 +50225,8 @@ Which form should {1} take?
 {1}的能力值不能被减小了！
 {1}'s {2} cannot be lowered!
 {1}的{2}不能被减小了！
+{1} predicted {2}'s actions, and struck first!
+{1}预测了{2}的行动，并率先出击！
 {1} bonds with its younger allies!
 {1}与年幼的队友建立了羁绊！
 {1} was attacked on sight!
@@ -56333,6 +56401,8 @@ Set possible ability
 设置可能的特性
 Set any ability
 设置任意特性
+Set Extra ability
+设置额外特性
 Ability is {1} (index {2}).
 特性是{1}（索引{2}）。
 No ability (index {1}).
@@ -63100,6 +63170,8 @@ Not Slacking Off
 没有偷懒
 Two Turn Attack
 2回合攻击
+Sensed By
+被感知
 Added Type
 增加属性
 Item Lost
