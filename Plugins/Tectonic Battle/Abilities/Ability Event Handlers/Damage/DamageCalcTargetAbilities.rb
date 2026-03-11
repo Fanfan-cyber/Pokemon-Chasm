@@ -456,6 +456,15 @@ BattleHandlers::DamageCalcTargetAbility.add(:WELLEQUIPPED,
 )
 =end
 
+BattleHandlers::DamageCalcTargetAbility.add(:DEFEATIST,
+  proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
+    unless target.belowHalfHealth?
+      mults[:base_damage_multiplier] *= 0.5
+      target.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
+
 BattleHandlers::DamageCalcTargetAbility.add(:ILLUSION,
   proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
       mults[:final_damage_multiplier] *= 0.7 if target.illusion?

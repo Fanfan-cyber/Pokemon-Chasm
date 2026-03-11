@@ -192,7 +192,8 @@ storymode/nostorymode，开启/关闭剧情模式
 13.现在AI正在计算的文本提示只在和训练师的战斗中才会显示
 14.现在Ho-oh's Ashes也会回复精灵的PP
 15.现在Double Check在攻击已经行动过的目标时也会发动
-16.
+16.现在软弱在生效时还会使受到的伤害减半
+17.
 
 0.4.6 Astra Resonantia / 星穹共鸣
 1.修复了Arc of Hope的中文错误翻译的Bug

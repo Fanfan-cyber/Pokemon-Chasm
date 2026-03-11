@@ -59411,6 +59411,8 @@ Raises Attack by 2 steps after knocking out any Pokémon.
 打倒对手时，物攻增加2级。
 Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.
 出场时，散播有毒粉尘。在粉尘中2回合的精灵会中毒。有精灵因有毒粉尘中毒时，物防增加2级。
+Halves move damage dealt or taken when HP is greater than 50%.
+当HP大于50%时，造成的和受到的伤害减半。
 Halves move damage when HP is greater than 50%.
 当HP大于50%时，双攻减半。
 It changes secondary type to that of the dance moves it's about to use.

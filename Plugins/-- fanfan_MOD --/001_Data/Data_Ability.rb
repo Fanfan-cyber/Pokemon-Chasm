@@ -5,7 +5,7 @@ ABILITY_DATA = {
   :CHEEKPOUCH       => { :desc => proc { _INTL("When this Pokémon eats a Berry, it restores 25% of its max health.") }, },
   :CHILLINGNEIGH    => { :desc => proc { _INTL("Raises Attack by 2 steps after knocking out any Pokémon.") }, },
   :DARKSCALECLOUD   => { :desc => proc { _INTL("Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.") }, },
-  :DEFEATIST        => { :desc => proc { _INTL("Halves move damage when HP is greater than 50%.") }, },
+  :DEFEATIST        => { :desc => proc { _INTL("Halves move damage dealt or taken when HP is greater than 50%.") }, },
   :DISCOLIGHTS      => { :desc => proc { _INTL("It changes secondary type to that of the dance moves it's about to use.") }, },
   :DRYSKIN          => { :desc => proc { _INTL("Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.") }, },
   :DOUBLECHECK      => { :desc => proc { _INTL("Deals 50% more damage to targets who have already taken damage or moved this turn.") }, },
