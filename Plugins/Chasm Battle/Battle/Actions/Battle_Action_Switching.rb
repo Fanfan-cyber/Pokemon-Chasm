@@ -398,6 +398,8 @@ class PokeBattle_Battle
     #=============================================================================
     # Called at the start of battle only.
     def pbOnActiveAll
+        # Primeval Imposter activates first.
+        pbPriorityPrimevalImposter
         # Neutralizing Gas activates before anything.
         pbPriorityNeutralizingGas
         # Weather-inducing abilities, Trace, Imposter, etc.
@@ -409,6 +411,15 @@ class PokeBattle_Battle
         pbCalculatePriority
         # Check forms are correct
         eachBattler { |b| b.pbCheckForm }
+    end
+
+    # Called at the start of battle only; Primeval Imposter activates before Neutralizing Gas.
+    def pbPriorityPrimevalImposter
+        eachBattler do |b|
+            next if !b || b.fainted?
+            next unless b.hasAbility?(:PRIMEVALIMPOSTER)
+            BattleHandlers.triggerAbilityOnSwitchIn(:PRIMEVALIMPOSTER, b, self)
+        end
     end
 
     # Called at the start of battle only; Neutralizing Gas activates before anything.

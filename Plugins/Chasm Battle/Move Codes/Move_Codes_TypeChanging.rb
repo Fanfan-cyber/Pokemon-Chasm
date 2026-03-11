@@ -424,12 +424,12 @@ class PokeBattle_Move_TypeAndEffectDependsOnUserRotomForm < PokeBattle_Move
 
     def getDetailsForMoveDex(detailsList = [])
         detailsList << _INTL("Form effects:")
-        detailsList << _INTL("<u>No Machine</u>: Numb")
-        detailsList << _INTL("<u>Heat</u>: Burn")
-        detailsList << _INTL("<u>Wash</u>: Waterlog")
-        detailsList << _INTL("<u>Frost</u>: Frostbite")
-        detailsList << _INTL("<u>Fan</u>: Dizzy")
-        detailsList << _INTL("<u>Mow</u>: Leech")
+        detailsList << _INTL("<u>No Machine</u>: Electric-type, Numb")
+        detailsList << _INTL("<u>Heat</u>: Fire-type, Burn")
+        detailsList << _INTL("<u>Wash</u>: Water-type, Waterlog")
+        detailsList << _INTL("<u>Frost</u>: Ice-type, Frostbite")
+        detailsList << _INTL("<u>Fan</u>: Flying-type, Dizzy")
+        detailsList << _INTL("<u>Mow</u>: Grass-type, Leech")
     end
 end
 

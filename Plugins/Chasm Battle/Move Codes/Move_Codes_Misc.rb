@@ -471,16 +471,6 @@ class PokeBattle_Move_IgnoreTargetAbilityChangeUserNecrozmaForm < PokeBattle_Mov
         @battle.pbDisplayBrief(_INTL("{1} used Light That Burns the Sky!", user.pbThis))
     end
 
-    def pbDisplayChargeMessage(user)
-        if user.form == 1
-            @battle.pbCommonAnimation("UltraBurst", user)
-            user.pbChangeForm(3, _INTL("Bright lights bursts out of {1}!", user.pbThis))
-        elsif user.form == 2
-            @battle.pbCommonAnimation("UltraBurst", user)
-            user.pbChangeForm(4, _INTL("Bright lights bursts out of {1}", user.pbThis))
-        end 
-    end
-
     def getEffectScore(user, _target)
         score = super
         score += 100
