@@ -41,6 +41,7 @@ class PokeBattle_Move
     def calculateCategoryOverride(user, targets)
         return selectBestCategory(user, targets[0]) if punchingMove? && user.hasActiveAbility?(:MYSTICFIST)
         return selectBestCategory(user, targets[0]) if rampagingMove? && user.hasActiveAbility?(:WREAKHAVOC)
+        return selectBestCategory(user, targets[0]) if pulseMove? && user.hasActiveAbility?(:MANIFESTATION)
         return 0 if @category == 1 && user.hasActiveItem?(:STRENGTHHERB)
         return 1 if @category == 0 && user.hasActiveItem?(:INTELLECTHERB)
         return selectBestCategory(user) if adaptiveMove?
@@ -178,6 +179,13 @@ class PokeBattle_Move
     # The maximum number of hits in a round this move will actually perform. This
     # can be 1 for Beat Up, and can be 2 for any moves affected by Parental Bond.
     def pbNumHits(user, targets, checkingForAI = false)
+        if user.shouldAbilityApply?(:FICKLEUNION, checkingForAI) && pulseMove?
+            if checkingForAI
+                return getRandomMultihitNumberAI(user, targets)
+            else
+                return getRandomMultihitNumber(user, targets)
+            end
+        end
         return 2 if canParentalBond?(user, targets, checkingForAI)
         return 2 if canDiffract?(user, targets, checkingForAI)
         numHits = 1

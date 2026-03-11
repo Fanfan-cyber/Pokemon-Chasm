@@ -216,7 +216,7 @@ Pokemon = TYRANTRUM,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,20,0,20,0
 Pokemon = BRONZONG,70
-    Moves = SLAG,PSYCHIC,STEALTHROCK,TERRAFORM
+    Moves = SLAG,NEURALPULSE,STEALTHROCK,TERRAFORM
     AbilityIndex = 0 # Levitate
     Item = ENERGYLOCK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -356,7 +356,7 @@ Pokemon = TROPIUS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
 Pokemon = PORYGONZ,70
-    Moves = CRITICALERROR,ICEBEAM,PSYCHIC,TRIATTACK
+    Moves = CRITICALERROR,ICEBEAM,NEURALPULSE,TRIATTACK
     AbilityIndex = 0 # Realist
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -374,7 +374,7 @@ Pokemon = TOGEKISS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = GOLDUCK,70
-    Moves = SCALD,ICEBEAM,PSYCHIC,CONFUSERAY
+    Moves = SCALD,ICEBEAM,NEURALPULSE,CONFUSERAY
     AbilityIndex = 0 # Headache
     Item = PERSIMBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -465,13 +465,13 @@ Pokemon = ARIADOS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,20,0,0,10
 Pokemon = CLAWITZER,70
-    Moves = AURASPHERE,ENERGYBALL,BUBBLEBLASTER,GLIMMERPULSE
-    AbilityIndex = 0 # Mega Launcher
+    Moves = AURASPHERE,ENERGYBALL,CAVITATION,SHATTEREDLIGHT
+    AbilityIndex = 0 # Loose Cannon
     Item = WATERGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,10,20,10
 Pokemon = SAURENAID,70
-    Moves = HYPERVOICE,BUBBLEBLASTER,THUNDERBOLT,PSYCHIC
+    Moves = HYPERVOICE,BUBBLEBLASTER,THUNDERBOLT,NEURALPULSE
     AbilityIndex = 0 # Arctic Ariette
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -503,7 +503,7 @@ Pokemon = TYRANITAR,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
 Pokemon = CHANDELURE,70
-    Moves = PHANTOMGATE,OVERHEAT,ENERGYBALL,PSYCHIC
+    Moves = PHANTOMGATE,OVERHEAT,ENERGYBALL,NEURALPULSE
     AbilityIndex = 1 # Royal Majesty
     Item = EJECTPACK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -515,7 +515,7 @@ Pokemon = RIOJIN,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = ESPEON,70
-    Moves = PSYCHIC,SHADOWBALL,EARTHPOWER,HYPERBEAM
+    Moves = NEURALPULSE,SHADOWBALL,EARTHPOWER,HYPERBEAM
     AbilityIndex = 0 # Overthinking
     Item = ENERGYHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -591,7 +591,7 @@ Pokemon = MILLIBLAZE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
 Pokemon = SAURENAID,70
-    Moves = HYPERVOICE,BUBBLEBLASTER,THUNDERBOLT,PSYCHIC
+    Moves = HYPERVOICE,BUBBLEBLASTER,THUNDERBOLT,NEURALPULSE
     AbilityIndex = 0 # Arctic Ariette
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -841,9 +841,9 @@ Pokemon = KABUTOPS,70
 #-------------------------------
 [GENTLEMAN,Eolis]
 Pokemon = MAGMORTAR,70
-    Moves = TEPHRACANNON,OVERHEAT,AURASPHERE,IGNITE
-    AbilityIndex = 0 # Mega Launcher
-    Item = FOCUSSASH
+    Moves = TEPHRACANNON,OVERHEAT,AURASPHERE,GEYSER
+    AbilityIndex = 0 # Strike Corona
+    Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = APPLETUN,70
@@ -941,7 +941,7 @@ Pokemon = GRENINJA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
 Pokemon = GARDEVOIR,70
-    Moves = NERVEBLOCK,DRAININGKISS,PSYCHIC,CALMMIND
+    Moves = NERVEBLOCK,DRAININGKISS,NEURALPULSE,CALMMIND
     AbilityIndex = 1 # Feedback
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -995,7 +995,7 @@ Pokemon = FERROTHORN,70
 [PSYCHIC_M3,Xerxes]
 Policies = ECLIPSE_TEAM
 Pokemon = XATU,70
-    Moves = TERRAFORM,NUMB,COLDFRONT,PSYCHIC
+    Moves = TERRAFORM,NUMB,COLDFRONT,NEURALPULSE
     AbilityIndex = 1 # Harbinger
     Item = PINPOINTROCK
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1019,7 +1019,7 @@ Pokemon = HYDREIGON,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,20,0,20,0
 Pokemon = STARMIE,70
-    Moves = HYDROPUMP,THUNDER,RAPIDSPIN,PSYCHIC
+    Moves = HYDROPUMP,THUNDER,RAPIDSPIN,NEURALPULSE
     AbilityIndex = 0 # Stars Align
     Item = PSYCHICGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1089,7 +1089,7 @@ Pokemon = GOODRA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
 Pokemon = GARDEVOIR,70
-    Moves = NERVEBLOCK,DRAININGKISS,PSYCHIC,ARCLAMP
+    Moves = NERVEBLOCK,DRAININGKISS,NEURALPULSE,ARCLAMP
     AbilityIndex = 1 # Feedback
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1115,7 +1115,7 @@ Pokemon = DITTO,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,6,6,6,6,12
 Pokemon = ALAKAZAM,70
-    Moves = PSYCHIC,FLASHCANNON,MOONBLAST,ENERGYBALL
+    Moves = NEURALPULSE,FLASHCANNON,MOONBLAST,ENERGYBALL
     AbilityIndex = 1 # Steelworker
     Item = PSYCHICGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1165,8 +1165,8 @@ Pokemon = SCOLIPEDE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 5,20,15,10,20,0
 Pokemon = HONCHKROW,70
-    Moves = AIRSLASH,DARKPULSE,PSYCHIC,BUBBLEBLASTER
-    AbilityIndex = 0 # Rattle 'Em
+    Moves = MACHPULSE,DARKPULSE,NEURALPULSE,CAVITATION
+    AbilityIndex = 0 # Let 'Em Have It
     Item = CHOICESCARF
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
@@ -1197,7 +1197,7 @@ Pokemon = REAVOR,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = GARDEVOIR,70
-    Moves = MOONBLAST,THUNDERBOLT,PSYCHIC,GRASSKNOT
+    Moves = MOONBLAST,THUNDERBOLT,NEURALPULSE,GRASSKNOT
     AbilityIndex = 1 # Feedback
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1292,7 +1292,7 @@ Pokemon = BARRASKEWDA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = GARDEVOIR,70
-    Moves = PSYCHIC,DRAININGKISS,CALMMIND,THUNDERBOLT
+    Moves = NEURALPULSE,DRAININGKISS,CALMMIND,THUNDERBOLT
     AbilityIndex = 0 # Arcane Finale
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1538,13 +1538,13 @@ Pokemon = MEOWSTIC,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
 Pokemon = NOIVERN,70
-    Moves = OCCULTATION,PSYCHIC,FOCUSBLAST,COLDFRONT
+    Moves = OCCULTATION,NEURALPULSE,FOCUSBLAST,COLDFRONT
     AbilityIndex = 1 # Fell Omen
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = ALAKAZAM,70
-    Moves = MOONBLAST,PSYCHIC,FOULPLAY,ECLIPSE
+    Moves = MOONBLAST,NEURALPULSE,FOULPLAY,ECLIPSE
     AbilityIndex = 0 # Warping Effect
     Item = FAIRYGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1562,7 +1562,7 @@ Pokemon = PYROAR,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = PROBOPASS,70
-    Moves = STEELBEAM,PSYCHIC,MISTBURST,PETRIFY
+    Moves = STEELBEAM,NEURALPULSE,MISTBURST,PETRIFY
     AbilityIndex = 0 # Magnet Trap
     Item = GRIPCLAW
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1665,7 +1665,7 @@ Pokemon = GIGALITH,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = JYNX,70
-    Moves = DEMONSKISS,HYPOTHERMIATE,PSYCHIC,LOOMINGWINTER
+    Moves = DEMONSKISS,HYPOTHERMIATE,NEURALPULSE,LOOMINGWINTER
     AbilityIndex = 0 # Fascinate
     Item = SITRUSBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1793,7 +1793,7 @@ Pokemon = DECEAT,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = NOCTOWL,70
-    Moves = PSYCHIC,TEMPEST,TERADRAIN,MOONBLAST
+    Moves = NEURALPULSE,TEMPEST,TERADRAIN,MOONBLAST
     AbilityIndex = 0 # Night Owl
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1827,7 +1827,7 @@ Pokemon = HOUNDOMINUS,70
     EV = 0,20,0,20,20,10
 Pokemon = GDARMANITAN,70
     Form = 1 # Zen Form
-    Moves = FLAMETHROWER,ICEBEAM,SOLARBEAM,PSYCHIC
+    Moves = FLAMETHROWER,ICEBEAM,SOLARBEAM,NEURALPULSE
     AbilityIndex = 0 # Phase Shift
     Item = HEAVYDUTYBOOTS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2120,19 +2120,19 @@ Pokemon = FROSMOTH,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
 Pokemon = MMUSHARNA,70
-    Moves = CHARGEBEAM,SNORE,PSYCHIC,GUTTURALROAR
+    Moves = CHARGEBEAM,SNORE,NEURALPULSE,GUTTURALROAR
     AbilityIndex = 1 # Fatigued
     Item = CHESTOBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = PROBOPASS,70
-    Moves = FLASHCANNON,TOPSYTURVY,DIAMONDFORCE,PSYCHIC
+    Moves = FLASHCANNON,TOPSYTURVY,DIAMONDFORCE,NEURALPULSE
     AbilityIndex = 0 # Magnet Trap
     Item = GRIPCLAW
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
 Pokemon = MBEAUTIFLY,70
-    Moves = UTURN,PSYCHIC,INFINITEFORCE,ICYINJECTION
+    Moves = UTURN,NEURALPULSE,INFINITEFORCE,ICYINJECTION
     AbilityIndex = 0 # Cold-blooded
     Item = HEAVYDUTYBOOTS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2278,7 +2278,7 @@ Pokemon = TORTERRA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
 Pokemon = MMUSHARNA,70
-    Moves = POWERGEM,SNORE,PSYCHIC,GUTTURALROAR
+    Moves = POWERGEM,SNORE,NEURALPULSE,GUTTURALROAR
     AbilityIndex = 1 # Fatigued
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2316,7 +2316,7 @@ Pokemon = SNEASLER,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,15,15,20,15,0
 Pokemon = CHANDELURE,70
-    Moves = FLAMETHROWER,SHADOWBALL,ENERGYBALL,PSYCHIC
+    Moves = FLAMETHROWER,SHADOWBALL,ENERGYBALL,NEURALPULSE
     AbilityIndex = 1 # Royal Majesty
     Item = AIRBALLOON
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2425,7 +2425,7 @@ Pokemon = SUDOWOODO,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
 Pokemon = EXEGGUTOR,70
-    Moves = HEADTHROW,PSYCHIC,WEATHERBURST,GROWTH
+    Moves = HEADTHROW,NEURALPULSE,WEATHERBURST,GROWTH
     AbilityIndex = 1 # Chlorophyll
     Item = PRISMATICPLATE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
