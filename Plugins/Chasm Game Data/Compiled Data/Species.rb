@@ -1300,6 +1300,9 @@ module Compiler
         end
         all_abilities.uniq!
         all_moves.uniq!
+        # Expand form_list to include all forms between min and max,
+        # so indistinguished forms (e.g. Minior forms 1-6) are covered
+        form_list = (form_list.min..form_list.max).to_a
         f.write(format("[%s]\r\n", species.species))
         f.write(format("forms = %s\r\n", form_list.join(",")))
         f.write(format("gender_ratio = %s\r\n", species.gender_ratio))
