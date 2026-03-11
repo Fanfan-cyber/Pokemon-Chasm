@@ -6,6 +6,7 @@
 将Options、error和Achievement移到主目录下
 有人因为诅咒濒死时，耿鬼变身
 箱子可以搜索特性和技能以及批量放生
+修复战斗模拟器双打
 =end
 
 MOD_VERSION  = "0.4.7"

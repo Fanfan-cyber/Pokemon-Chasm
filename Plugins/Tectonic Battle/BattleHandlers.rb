@@ -216,8 +216,8 @@ module BattleHandlers
         return !ret.nil? ? ret : false
     end
 
-    def self.triggerAbilityOnHPDropped(ability, battler, battle, old_fraction, new_fraction, damage, damage_fraction)
-        AbilityOnHPDropped.trigger(ability, battler, battle, old_fraction, new_fraction, damage, damage_fraction)
+    def self.triggerAbilityOnHPDropped(ability, battler, battle, old_fraction, new_fraction, damage, damage_fraction, fainted)
+        AbilityOnHPDropped.trigger(ability, battler, battle, old_fraction, new_fraction, damage, damage_fraction, fainted)
     end
 
     #=============================================================================

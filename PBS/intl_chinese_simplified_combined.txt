@@ -51176,7 +51176,7 @@ Told to recover a negative amount
 {1} fell to the ground!
 {1}落在了地上！
 {1}'s scattered its {2} when fainting.
-{1}在倒下时分散了它的{2}。
+{1}在倒下时撒下了它的{2}。
 But there was no one to revive!
 但是没有精灵可以复活！
 Its allied {1} was revived to full health!
