@@ -2167,19 +2167,6 @@ Flags = CanProtect,CanMagicCoat
 Description = The user weakens the target's bones, making them fracture. They deal 33% less damage.
 Animation = TARSHOT
 #-------------------------------
-[GLIMMERPULSE]
-Name = Glimmer Pulse
-Type = ROCK
-Category = Special
-Power = 60
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = DoubleDamageGemConsumed
-Flags = CanProtect,Pulse
-Description = The user harms the target with a pulse of power. Deals double damage if the user has used a gem this battle.
-Animation = POWERGEM
-#-------------------------------
 [GRANITEHEAD]
 Name = Granite Head
 Type = ROCK
@@ -2390,6 +2377,19 @@ FunctionCode = SwitchOutTargetIfMisses
 Flags = CanProtect
 Description = If this move misses, the target is forced to switch out. Always goes last.
 Animation = SMACKDOWN
+#-------------------------------
+[SHATTEREDLIGHT]
+Name = Shattered Light
+Type = ROCK
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = DoubleDamageGemConsumed
+Flags = CanProtect,Light
+Description = The target is struck from all angles by light like gemstones. Deals double damage if the user has used a gem this battle.
+Animation = POWERGEM
 #-------------------------------
 [SHATTERSHOT]
 Name = Shatter Shot
@@ -3518,9 +3518,9 @@ Power = 110
 Accuracy = 100
 TotalPP = 10
 Target = NearOther
-FunctionCode = UserLosesTenthOfTotalHP
+FunctionCode = UserLosesEighthOfTotalHP
 Flags = CanProtect
-Description = The user uses explosive force to shoot shards of its own body at the target. The user loses 10% of its max HP.
+Description = The user uses explosive force to shoot shards of its own body at the target. The user loses 1/8th of its max HP.
 Animation = SPIKECANNON
 #-------------------------------
 [HAIRFLIP]
@@ -3787,11 +3787,11 @@ Type = STEEL
 Category = Special
 Power = 80
 Accuracy = 100
-TotalPP = 10
+TotalPP = 15
 Target = NearOther
-FunctionCode = UserLosesTenthOfTotalHP
+FunctionCode = UserLosesEighthOfTotalHP
 Flags = CanProtect
-Description = The user shoots shards of its own body at the target. The user loses 10% of its max HP.
+Description = The user shoots shards of its own body at the target. The user loses 1/8th of its max HP.
 Animation = SPIKECANNON
 #-------------------------------
 [SHREDSHOT]
@@ -3802,9 +3802,9 @@ Power = 55
 Accuracy = 100
 TotalPP = 30
 Target = NearOther
-FunctionCode = UserLosesTenthOfTotalHP
+FunctionCode = UserLosesEighthOfTotalHP
 Flags = CanProtect
-Description = The user shreds off bits of its own body to launch at the target. The user loses 10% of its max HP.
+Description = The user shreds off bits of its own body to launch at the target. The user loses 1/8th of its max HP.
 Animation = SPIKECANNON
 #-------------------------------
 [SLAG]
@@ -3938,6 +3938,19 @@ Flags = CanProtect
 Description = The user rushes the target at blazing-fast speed. This attack always goes before any other move.
 Animation = FLAMECHARGE
 #-------------------------------
+[BROIL]
+Name = Broil
+Type = FIRE
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = Burn
+Flags = CanProtect,Wind
+EffectChance = 30
+Description = The user attacks by sending a wave of hot air towards the target. It has a 30% chance to burn.
+#-------------------------------
 [CRIMSONSTORM]
 Name = Crimson Storm
 Type = FIRE
@@ -3975,20 +3988,6 @@ Flags = CanProtect,CanMagicCoat
 Description = The user emits great amounts of heat, burning the target and adding the Fire-type to it.
 Animation = MORNINGSUN
 #-------------------------------
-[FIREPULSE]
-Name = Fire Pulse
-Type = FIRE
-Category = Special
-Power = 60
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = Burn
-Flags = CanProtect,Pulse
-EffectChance = 20
-Description = The user attacks the target with a pulsing blast of fire. It has a 20% chance to burn.
-Animation = FLAMEBURST
-#-------------------------------
 [FIREWORKS]
 Name = Fireworks
 Type = FIRE
@@ -4012,6 +4011,19 @@ Target = FoeSide
 FunctionCode = FlameSpikes
 Flags = CanMagicCoat
 Description = The user lays a hazard layer of burning spikes on the foe's side. One layer hurts switched in foes, two layers burns.
+#-------------------------------
+[FLARE]
+Name = Flare
+Type = FIRE
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Basic
+Flags = CanProtect,CanRandomCrit,Light
+Description = The user flashes with a burst of intensely bright flame. Can random critical hit.
+Animation = WHITEFLAME
 #-------------------------------
 [FLAREUP]
 Name = Flare Up
@@ -4298,12 +4310,12 @@ Description = Summons sunshine for six turns, boosting Fire-type attacks and hin
 Name = Tephra Cannon
 Type = FIRE
 Category = Special
-Power = 30
+Power = 50
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = FlameSpikes
-Flags = CanProtect,Pulse
+Flags = CanProtect
 Description = The user launches volcanic debris, dealing damage and setting a hazard layer of burning spikes around the target.
 Animation = FLAMEBURST
 #-------------------------------
@@ -4341,8 +4353,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit
-Description = The user launches a concentrated ball of searing white flame. Can random critical hit.
+Flags = CanProtect,CanRandomCrit,Light
+Description = The user launches a concentrated ball of searing, bright white flame. Can random critical hit.
 #-------------------------------
 [WILDFIREMELT]
 Name = Wildfire Melt
@@ -4358,6 +4370,19 @@ Description = The user creates a storm using its flaming body, damaging everythi
 Animation = INFERNOOVERDRIVE
 #-------------------------------
 #		WATER MOVES
+#-------------------------------
+[AQUASHOCK]
+Name = Aqua Shock
+Type = WATER
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = UserLosesEighthOfTotalHP
+Flags = CanProtect,Pulse
+Description = The user rapidly changes water pressure, creating a pulsing shockwave. The user loses 1/8th of its max HP.
+Animation = WATERPULSE
 #-------------------------------
 [AQUATICCRUNCH]
 Name = Aquatic Crunch
@@ -4449,6 +4474,19 @@ FunctionCode = LowerTargetSpd1
 Flags = CanProtect
 EffectChance = 20
 Description = A blast of bubbles is shot at the target. It has a 20% chance to lower the target's Speed stat.
+#-------------------------------
+[CAVITATION]
+Name = Cavitation
+Type = WATER
+Category = Special
+Power = 110
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = UserLosesEighthOfTotalHP
+Flags = CanProtect,Pulse
+Description = A water vacuum is induced and rapidly collapsed, generating an intense pulsing water blast. The user loses 1/8th of its max HP.
+Animation = WATERPULSE
 #-------------------------------
 [DRAGBENEATH]
 Name = Drag Beneath
@@ -4995,7 +5033,7 @@ Animation = VINEWHIP
 Name = Cruel Whipblade
 Type = GRASS
 Category = Physical
-Power = 30
+Power = 50
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
@@ -6145,6 +6183,20 @@ FunctionCode = UserMakeSubstitute50RaiseSpd4
 Flags = CanSnatch
 Description = The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
 #-------------------------------
+[NEURALPULSE]
+Name = Neural Pulse
+Type = PSYCHIC
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,Pulse
+EffectChance = 20
+Description = The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp. Def.
+Animation = PSYCHIC
+#-------------------------------
 [ODDROOM]
 Name = Odd Room
 Type = PSYCHIC
@@ -6490,14 +6542,14 @@ Animation = HAIL
 Name = Frigid Flurry
 Type = ICE
 Category = Special
-Power = 80
+Power = 85
 Accuracy = 100
 TotalPP = 10
 Target = AllNearFoes
 FunctionCode = Frostbite
 Flags = CanProtect,Wind
-EffectChance = 30
-Description = The user summons a wind that drains vitality from all nearby foes. This has a 30% chance to frostbite them.
+EffectChance = 20
+Description = The user summons a wind that drains vitality from all nearby foes. This has a 20% chance to frostbite them.
 Animation = ICYWIND
 #-------------------------------
 [FRIGIDJEALOUSY]
@@ -6822,7 +6874,7 @@ Animation = HAIL
 Name = Snowy Sorrows
 Type = ICE
 Category = Special
-Power = 30
+Power = 50
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
@@ -7461,8 +7513,8 @@ EffectChance = 100
 Description = The user attacks with dark illusions. This also lowers the target's Defense stat by two steps.
 Animation = DARKPULSE
 #-------------------------------
-[HARSHVOICE]
-Name = Harsh Voice
+[HARSHVIBES]
+Name = Harsh Vibes
 Type = DARK
 Category = Special
 Power = 40
@@ -7470,9 +7522,9 @@ Accuracy = 100
 TotalPP = 20
 Target = NearOther
 FunctionCode = Flinch
-Flags = CanProtect,Sound
+Flags = CanProtect,Pulse
 EffectChance = 40
-Description = The target is confronted with painful words. It has a 40% chance to make the target flinch.
+Description = The target is attacked with a pulse of negative feelings. It has a 40% chance to make the target flinch.
 Animation = DARKPULSE
 #-------------------------------
 [HATEFULHAYMAKER]
