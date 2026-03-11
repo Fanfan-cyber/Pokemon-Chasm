@@ -335,7 +335,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [CLUMSYKINESIS]
 Name = Clumsy Kinesis
-Description = Can hold two items, but drops one when swapping out.
+Description = Can hold two different items, but drops one when swapping out.
 Flags = MultipleItems
 #-------------------------------
 [COLDBLOODED]
