@@ -750,6 +750,17 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = The user releases an obscuring cloud of smoke or ink. It reduces the target's accuracy.
 #-------------------------------
+[SOFTBOILED]
+Name = Soft-Boiled
+Type = NORMAL
+Category = Status
+Accuracy = 0
+TotalPP = 8
+Target = User
+FunctionCode = Invalid
+Flags = CanSnatch
+Description = The user heals itself by half of its max HP.
+#-------------------------------
 [SONICBOOM]
 Name = Sonic Boom
 Type = NORMAL
