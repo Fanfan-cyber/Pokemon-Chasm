@@ -190,7 +190,9 @@ storymode/nostorymode，开启/关闭剧情模式
 11.现在不同精灵的Royal Majesty的减小变化类技能的先制度的效果可以叠加
 12.现在AI正在计算的文本提示在战斗回放中将不再显示
 13.现在AI正在计算的文本提示只在和训练师的战斗中才会显示
-14.
+14.现在Ho-oh's Ashes也会回复精灵的PP
+15.现在Double Check在攻击已经行动过的目标时也会发动
+16.
 
 0.4.6 Astra Resonantia / 星穹共鸣
 1.修复了Arc of Hope的中文错误翻译的Bug

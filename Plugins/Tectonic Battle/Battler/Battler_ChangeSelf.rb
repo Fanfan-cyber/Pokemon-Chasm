@@ -381,6 +381,7 @@ class PokeBattle_Battler
                     reviver = faintedPartyMembers.sample
                     reviver.heal_HP
                     reviver.heal_status
+                    reviver.heal_PP
                     pbDisplay(_INTL("Its allied {1} was revived to full health!", reviver.name))
                 end
             end

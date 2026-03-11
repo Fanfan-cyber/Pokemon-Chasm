@@ -40602,6 +40602,8 @@ Summons rainstorm for four turns upon entry.
 出场时，开启持续4回合的雨天。
 Summons sunshine for four turns upon entry.
 出场时，将天气变为晴天，持续4回合。
+Deals 50% more damage to targets who have already taken damage or moved this turn.
+对于本回合受到过伤害或者已经行动过的目标，造成的伤害增加50%。
 Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves. Loses 1/8th in sunshine, Fire-type moves do 25% more.
 雨天时，每回合HP回复八分之一，被水属性技能命中时，回复四分之一。晴天时，每回合HP失去八分之一，被火属性技能攻击时，伤害增加25%。
 Switches out if its HP is lowered below half.

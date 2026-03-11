@@ -644,7 +644,7 @@ BattleHandlers::DamageCalcUserAbility.add(:SOULREAD,
 
 BattleHandlers::DamageCalcUserAbility.add(:DOUBLECHECK,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
-    if target.tookDamage || backfire
+    if target.tookDamage || target.movedThisRound? || backfire
       mults[:base_damage_multiplier] *= 1.5
       user.aiLearnsAbility(ability) unless aiCheck
     end

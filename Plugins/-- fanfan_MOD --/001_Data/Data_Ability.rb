@@ -8,6 +8,7 @@ ABILITY_DATA = {
   :DEFEATIST        => { :desc => proc { _INTL("Halves move damage when HP is greater than 50%.") }, },
   :DISCOLIGHTS      => { :desc => proc { _INTL("It changes secondary type to that of the dance moves it's about to use.") }, },
   :DRYSKIN          => { :desc => proc { _INTL("Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.") }, },
+  :DOUBLECHECK      => { :desc => proc { _INTL("Deals 50% more damage to targets who have already taken damage or moved this turn.") }, },
   :EMOTIONAURA      => { :desc => proc { _INTL("Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.") }, },
   :EXTRASCOOP       => { :desc => proc { _INTL("Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.") }, },
   :FINESUGAR        => { :desc => proc { _INTL("Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.") }, },
