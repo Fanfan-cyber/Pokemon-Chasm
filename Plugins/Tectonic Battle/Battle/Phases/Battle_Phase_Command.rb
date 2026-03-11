@@ -399,6 +399,10 @@ class PokeBattle_Battle
         updateTribeCounts
     end
 
+    def display_ai_calc_msg
+        2.times { pbDisplay(_INTL("AI is calculating...")) }
+    end
+
     def pbCommandPhaseLoop(isPlayer, is_pre_switch = false)
         # NOTE: Doing some things (e.g. running, throwing a Poké Ball) takes up all
         #       your actions in a round.
@@ -406,7 +410,7 @@ class PokeBattle_Battle
         changesForAutoTesting if @autoTesting && @turnCount == 0
 
         unless isPlayer
-            2.times { pbDisplay(_INTL("AI is calculating...")) }
+            display_ai_calc_msg if trainerBattle? && !is_replayed
             @battleAI.resetPrecalculations
 
             # AI predicts the players actions

@@ -12,7 +12,7 @@ module TimeCapsule
   end
 
   def self.open_time_capsule
-    unless $Trainer.has_pokemon?
+    unless $Trainer.has_pokemon? && teamEditingAllowed?
       pbMessage(_INTL("You can't open the Time Capsule now!"))
       return
     end

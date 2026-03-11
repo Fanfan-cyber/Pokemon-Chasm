@@ -312,6 +312,21 @@ class PokeBattle_Battle
         return nil
     end
 
+    def eachGlobalAbility(abil)
+        eachBattler { |b| yield b if b.hasActiveAbility?(abil) }
+    end
+
+    def countGlobalAbility(abils)
+        abils = [abils] unless abils.is_a?(Array)
+        count = 0
+        eachBattler do |b|
+            abils.each do |abil|
+                count += 1 if b.hasActiveAbility?(abil)
+            end
+        end
+        return count
+    end
+
     def pbCheckSameSideAbility(abil, idxBattler = 0, nearOnly = false)
         eachSameSideBattler(idxBattler) do |b|
             next if nearOnly && !b.near?(idxBattler)

@@ -4003,7 +4003,7 @@ Hooray!
 Now he can look at you!
 现在它可以盯着你看了！
 This Pokemon looks at me normal!
-这只精灵看我的眼神很普通！
+该精灵看我的眼神很普通！
 A bouquet of pink flowers.
 1束粉红色的花。
 A tag states that it was gathered from the Eleig river delta.
@@ -6502,7 +6502,7 @@ Great, let's get this started.
 Time to put this guy to work! Thanks!
 是时候让这家伙干活了！谢谢!
 This Pokemon is going to be cooling rooms like nobody's business.
-这只精灵能够让房间保持低温。
+该精灵能够让房间保持低温。
 I train and manage the Pokemon here who act as living conditioning units.
 我在这里训练和管理精灵，它们就跟空调似的为房间调温。
 It's certainly a lot of work.
@@ -9311,7 +9311,7 @@ Whew...
 Good work. I thought I'd be working for hours to fix a mess caused by that Deerling.
 干得好，我本来以为得花几个小时处理这个问题的。
 The Pokemon's yours, so long as you never tell my boss...
-这只精灵是你的了，只要你不告诉我老板...
+该精灵是你的了，只要你不告诉我老板...
 SHHHHHHHHHH!
 嘘...
 Quiet, stand still.
@@ -10185,7 +10185,7 @@ A new sound system it is...
 Asking my manager for another huge purchase is gonna suck...
 向经理申请再次大额采购可真让人头疼...
 Oh wow! Yeah, that Pokemon is perfect!
-哇哦，真棒！这只精灵非常合适！
+哇哦，真棒！该精灵非常合适！
 This Pokemon is exactly what I needed.
 它正是我所需要的。
 Thanks for the help, gotta get back to work now.
@@ -10521,7 +10521,7 @@ I'm gonna have to make a few calls. I'm sure someone will find me eventually.
 Thank you. You won't regret this choice.
 谢谢你。你不会后悔这个选择。
 And this Pokemon took a pretty penny to get, but it wasn't honest money anyways.
-即便是不正当的收入，这只精灵也花了我不少钱。
+即便是不正当的收入，该精灵也花了我不少钱。
 I'll make sure not to repeat the same mistakes again.
 我保证不会再做同样的非法勾当。
 I'm taking the evidence.
@@ -10551,7 +10551,7 @@ Keep searching. There has to be one out there.
 I need dancers, Trainer! Dancers!
 训练师，我需要的是舞者！舞者！
 This Pokemon is perfect! A wonderful practitioner of dance!
-这只精灵太棒了！它是位足够出众的舞者！
+该精灵太棒了！它是位足够出众的舞者！
 Give me a hour -- no, two hours. I'll come up with something beautiful.
 只需要1个小时...不，2个小时。我便可创作出精妙绝伦的舞蹈。
 The choreographer records a few dances with your Pokemon.
@@ -14000,7 +14000,7 @@ Especially in difficult terrain like this.
 At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
 起初我以为她会用自身的龙属性精灵来帮她，但那也显得太笨了。
 Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
-其实她一直用1只迭失板来做各种重活，而这只精灵并不在她的常规出战列表里。
+其实她一直用1只迭失板来做各种重活，而该精灵并不在她的常规出战列表里。
 Hello. My Druddigon and I handle trips down to Samorn's gym.
 你好，我和我的赤面龙，负责在这里帮助需要下去的人。
 Stay away from the ledge and we won't have any problems.
@@ -15130,7 +15130,7 @@ I'll find one somewhere around here.
 [Map221]
 [Map222]
 The Pokemon looks forward with steadfast attention.
-这只精灵目不转睛地盯着前方。
+该精灵目不转睛地盯着前方。
 North: Ancient Sewers
 北：老旧下水道
 West: Battle Plaza Underground
@@ -15436,7 +15436,7 @@ It's hard to read its expression, but it's easy to see its pain through its helm
 You spot a Pokeball nested under the Pokemon. It's probably the ball it was caught with.
 你发现下面正好有个精灵球，或许就是捕捉它用的。
 Do you want to release the Pokemon?
-你想要拯救这只精灵吗？
+你想要拯救该精灵吗？
 You'll leave the Pokemon here for now.
 你打算把它留在这里。
 As soon as you untie one of the restraints, the Pokemon breaks free from the rest.
@@ -17320,7 +17320,7 @@ Why should I care?
 Then why is Yezera...
 那为什么叶泽拉...
 How many Regis are stolen?
-有多少巨人被盗了？
+有多少巨人被偷了？
 They're opening that door.
 他们在打开那扇门
 Your point?
@@ -19331,7 +19331,7 @@ I’m getting away from her. She wants to talk, she can start by not pitting us 
 You need me, you call, alright? I’ll pick up for you.
 如果你需要我帮忙了，就直接给我打电话吧，你的电话我还是会接的。
 Congratulations, Champion. Love ya. Go be a hero and kick some ass.
-总之，恭喜你冠军，爱来自你的哥哥，去当你的英雄吧，然后去踢某些人的屁股。
+总之，恭喜你冠军，爱来自你的兄弟，去当你的英雄吧，然后去踢某些人的屁股。
 I had assumed we'd meet later in the Tournament, to be honest.
 我本以为我们会在比赛后相遇。
 Oh well, no use worrying about the seeding now. Just need to focus on the battle.
@@ -23335,7 +23335,7 @@ I've always wanted to see a legendary Pokemon. Not everyone gets to see one, you
 If you happen to have one, would you mind showing it to me? I'll make sure you get something out of it as well.
 如果你正好有1只，可以给我看看吗？我保证你也会得到很不错的东西。
 Oh dearie, your Pokemon are nice! Just... not legendary.
-啊，这只精灵很不错！但...它并不是传说中精灵。
+啊，该精灵很不错！但...它并不是传说中精灵。
 Oh! A legendary Pokemon in the flesh!
 哦，我看到传说中的精灵了！
 ...
@@ -29027,9 +29027,9 @@ Because some Omanyte manage to escape after being restored or are released into 
 Its heavy shell is thought to be the reason this ancient Pokémon died out. It's apparently a distant ancestor of Octillery.
 用触手缠住猎物并让其无法行动后，就会用锐利的牙齿使用致命1击。
 This Pokémon likes to team up with the strongest Pokémon it can find. Some researchers fear its dormant power.
-这只精灵喜欢和它能找到的最强精灵组队。一些研究人员担心它潜藏的力量。
+该精灵喜欢和它能找到的最强精灵组队。一些研究人员担心它潜藏的力量。
 Some people claim this Pokémon ruled over an unnatural subterranean realm long ago. It resembles an enemy from a popular video game.
-有人说，这只精灵曾在很久以前统治1个不自然的地下王国。它看起来像一款热门电子游戏里的敌人。
+有人说，该精灵曾在很久以前统治1个不自然的地下王国。它看起来像一款热门电子游戏里的敌人。
 This species is almost entirely extinct. Kabuto molt every three days, making their shells harder and harder.
 除某些极少数地方外，该精灵已基本灭绝。会用坚硬的外壳保护身体。
 Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.
@@ -29037,7 +29037,7 @@ Kabutops slices its prey apart and sucks out the fluids. The discarded body part
 Its fossils were found in the depths of Makyan caves. However, it is alien to anything from the same time. It resembles a monster from a popular video game.
 它的化石在马凯亚洞穴深处被发现。然而，它与同时代的任何生物都不同。它类似于一款流行电子游戏中的怪物。
 After evolution, this Pokémon began to resemble other extinct Pokémon of their time. They multiply by converting native biomass into more Kabuto.
-进化后，这只精灵开始类似于同时代的其他灭绝精灵。它们通过将本土生物质转化为更多化石盔来繁殖。
+进化后，该精灵开始类似于同时代的其他灭绝精灵。它们通过将本土生物质转化为更多化石盔来繁殖。
 It flew through the open skies over the ancient continent as if they were its own. When it touched ground, its walk was weak and slow.
 由琥珀中残留的遗传基因复原而来。性情比想像的还要粗暴，甚至还出现了牺牲者。
 In ancient times, this Pokémon was an apex predator. It has the strength to fly with a Tyrantrum in its claws.
@@ -29311,11 +29311,11 @@ The surface of Marshtomp's body is enveloped by a thin, sticky film that enables
 It can swim while towing a large ship. It bashes down foes with a swing of its thick arms.
 巨沼怪能通过用鳍感知波涛声和海风的细微变化来预测暴风雨。发生暴风雨时，会堆积岩石保护巢穴。
 This Pokémon was only found recently, as upheavals unsealed ancient caves rife with old life, where it promptly hid from sight in narrow spaces.
-这只精灵最近才被发现，因为地质变动解封了充满古老生命的洞穴，它迅速躲藏在狭窄的空间中。
+该精灵最近才被发现，因为地质变动解封了充满古老生命的洞穴，它迅速躲藏在狭窄的空间中。
 This Pokémon is much stronger than before, yet lazy. It is quick to make friends, but it might eat them in a pinch.
-这只精灵比以前强大得多，但很懒惰。它很快就能交到朋友，但在紧要关头可能会吃掉它们。
+该精灵比以前强大得多，但很懒惰。它很快就能交到朋友，但在紧要关头可能会吃掉它们。
 Living in underwater caves with no light has given this Pokémon great sensitivity to vibrations. It pinpoints prey with extreme precision.
-生活在没有光线的水下洞穴中，使这只精灵对振动极为敏感。它能以极高的精度定位猎物。
+生活在没有光线的水下洞穴中，使该精灵对振动极为敏感。它能以极高的精度定位猎物。
 It has a very tenacious nature. Its acute sense of smell lets it chase a chosen prey without ever losing track.
 找到动的东西就会立刻咬上去。虽然在猎物精疲力尽之前会一直追着不放，但受到反击的话，有时也会被吓退。
 It chases down prey in a pack of around ten. They defeat foes with perfectly coordinated teamwork.
@@ -29437,7 +29437,7 @@ It eats just one berry a day. By enduring hunger, its spirit is tempered and mad
 Through yoga training, it gained the psychic power to predict its foe's next move.
 据说通过冥想体内的能量就会增加，第6感也会随之变得敏锐起来。会和山野融为一体并借此来消除自身的气息。
 This Pokémon can go up to four years without eating a single meal. Through intense training, it is able to fight in a manner indistinguishable from a dance.
-这只精灵可长达四年不进食，经过刻苦的修炼，已将舞蹈完全融入于战斗中。
+该精灵可长达四年不进食，经过刻苦的修炼，已将舞蹈完全融入于战斗中。
 It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.
 通过空气与体毛的摩擦产生静电。落雷兽如果奔跑，会发出劈里啪啦的声音。
 It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.
@@ -29501,7 +29501,7 @@ Swablu is very friendly towards humans, so a Swablu may land on your head and ac
 Altarias often glide through the clouds while singing or humming. While normally kind, Altaria will attack foes without mercy if provoked.
 会混在棉花云里在空中起舞。如果用通透的声音鸣出旋律，就会让听者心醉神迷，彷佛置身梦境。
 This Pokémon's singing can bring even the most stoic Trainers to tears. Those who fall asleep on it are said to experience beautiful dreams.
-这只精灵的歌声足以让最铁石心肠的训练师落泪。据说那些在它身上睡眠的人会进入美妙的梦乡。
+该精灵的歌声足以让最铁石心肠的训练师落泪。据说那些在它身上睡眠的人会进入美妙的梦乡。
 Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes.
 与宿敌饭匙蛇战斗的记忆已被刻入它体内的细胞中。会用敏捷的身手来躲避攻击。
 Constant polishing makes the edge of the blade on its tail extremely sharp. It's Zangoose's archrival.
@@ -29599,7 +29599,7 @@ Bagon is a solitary Pokémon that doesn't form groups with others of its kind. I
 Shelgon ignores its hunger entirely, never eating any food. Apparently, Shelgon will evolve once all its energy stores are used up.
 体内的细胞正处于千变万化的时期。坚硬的壳与骨头的成分相同。
 While basking in the joy of flight generally keeps this Pokémon in high spirits, it turns into an uncontrollable menace if something angers it.
-飞行的喜悦通常会让这只精灵心情大好，但一旦被激怒，它就会变成无法控制的祸害。
+飞行的喜悦通常会让该精灵心情大好，但一旦被激怒，它就会变成无法控制的祸害。
 From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.
 如果把它惹恼，不仅会大闹一番，还会放出强大的磁力，所以会把机械类的东西都破坏掉。
 Using magnetic forces to stay aloft, this Pokémon flies at high speeds, weaving through harsh mountain terrain in pursuit of prey.
@@ -30601,7 +30601,7 @@ Its tentacles tear off easily, but it isn't alarmed when that happens, it knows 
 Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.
 全身都是肌肉。会用触手施展绞技，威力无与伦比。
 The teacup in which this Pokémon makes its home is a famous piece of antique tableware. Many forgeries are in circulation.
-据说这只精灵是因为害怕寂寞的灵魂住进了凉透的喝剩红茶而诞生的。
+据说该精灵是因为害怕寂寞的灵魂住进了凉透的喝剩红茶而诞生的。
 Leaving leftover black tea unattended is asking for this Pokémon to come along and pour itself into it, turning the tea into a new Polteageist.
 住在古董茶壶里。虽然大多数都是赝品，但偶尔也能发现真货。
 It spends days relaxing on the beach. Its rest is often interrupted by someone who confuses it for a drink.
@@ -31206,7 +31206,7 @@ Reaper
 Rampage
 暴走
 Finale
-终章
+终结
 Overmatter
 超物质
 Overmind
@@ -34870,7 +34870,7 @@ The user contorts the target's chi with an energy pulse, damaging it and lowerin
 Aura deep within the user's body is spurred to pulse outward. Can't miss and skips protections.
 使用者体内深处的气场被激发向外射出。攻击必定会命中，并无视保护类效果。
 This Pokémon charges up for a turn, then releases a powerful beam of aura. This does more damage the less HP the user has.
-这只精灵蓄力1回合，随后释放强大的气场光束。使用者HP越小，伤害越大。
+该精灵蓄力1回合，随后释放强大的气场光束。使用者HP越小，伤害越大。
 The target is barred by rules which prevent it from using off-type moves for three more turns.
 制定规则，使对方在3回合内无法使用非本属性的技能。
 The user hugs the target intensely, trapping and binding it for three turns.
@@ -40807,7 +40807,7 @@ Every other turn, this Pokémon can't use any move but Slack Off.
 Ignores modified Defense and Sp. Def while attacking, and ignores modified Attack and Sp. Atk while being attacked.
 攻击时，无视对手增加或者减小的双防，被攻击时，无视对手增加或者减小的双攻。
 Doubles this Pokémon's Speed if its held item is consumed or lost.
-如果这只精灵的携带物被消耗或失去，速度翻倍。
+如果该精灵的携带物被消耗或失去，速度翻倍。
 Makes the foe nervous and unable to eat Berries or Leftovers.
 让对手紧张，使其无法食用树果或剩饭。
 Physical moves negate all protection effects.
@@ -40925,7 +40925,7 @@ Boosts the power of blade moves by 30%. Blade moves ignore the target's modified
 After using a light move, lowers each foe's Sp. Def.
 使用光类技能后，所有对手的特防减小1级。
 Move damage that's decreased by sunshine is decreased twice as much.
-受阳光削弱的技能会额外减小伤害。
+受晴天减小伤害的技能的伤害减小量翻倍。
 Increase the EXP gained from battles in which it participates by 50%.
 战斗获得的经验增加50%。
 Heals from binding damage it deals. Takes 25% less damage from Pokémon that are trapped.
@@ -41303,7 +41303,7 @@ Powers up Bug-type moves of itself and its allies by 50%.
 Upon entry, heals self and allies for 25% of their max health.
 出场时，回复自身和队友最大HP的25%。
 Lowers priority of status moves used by any Pokémon.
-减小其他精灵使用变化类技能的先制度。
+减小变化类技能的先制度。
 Powers up recoil and sound moves by 30%.
 反伤类和声音类技能的威力增加30%。
 This Pokémon's Speed is doubled while using rampaging moves.
@@ -41457,7 +41457,7 @@ Repeats another Pokémon's punch and kick moves immediately at 50% power.
 All Pokémon's damage is decreased proportional to their health remaining.
 所有精灵的伤害都会根据它们的剩余生命值按比例减小。
 When this Pokémon is hit thrice, all party members heal for 1/8th HP. The attacker is forced to switch out.
-这只精灵被命中3次时，所有队伍成员回复HP的八分之一。攻击者强制退场。
+该精灵被命中3次时，所有队伍成员回复HP的八分之一。攻击者强制退场。
 This Pokémon is immune to mental effects and can't be Dizzied, or Flinched.
 免疫心控状态，不会混乱或畏缩。
 Disables the opponent's most recently-used move for two turns upon hitting it.
@@ -41545,7 +41545,7 @@ Copies the unmodified stats of the Pokémon it switches in to replace.
 Boosts Sp. Atk by 30%, but lowers Sp. Atk after using a special move.
 特攻增加30%，但使用特殊类技能后特攻会减小1级。
 Boosts Sp. Atk by 30% in rainstorm.
-在雨天时，特攻增加30%。
+雨天时，特攻增加30%。
 Heals this Pokémon's non-volatile status conditions each turn if in sunshine.
 晴天时，每回合结束时，回复异常状态。
 This Pokémon refuses to fight. However, it gathers extra candy when trainers flee.
@@ -41643,7 +41643,7 @@ Reduces move damage taken by allies by 33% while this Pokémon is using a status
 Loses its Fire type. Whenever it uses a move, it gains that move's type.
 自身失去火属性。使用技能时，获得该技能的属性。
 Powers up Fairy-type moves by 50% in rainstorm.
-在雨天时，妖精属性技能的威力增加50%。
+雨天时，妖精属性技能的威力增加50%。
 Ignores screens, Substitute, and Abilities that would affect its moves.
 无视对手的屏障类效果、替身以及会影响到自身的技能的特性。
 On the first turn, its attacks poison the target.
@@ -41711,7 +41711,7 @@ Can't be numbed, waterlogged, trapped, or have its Speed lowered.
 This Pokémon is also Steel-type, but it takes 15% more damage from moves.
 为自身增加钢属性，但受到的技能伤害增加15%。
 Doubles Defense in rainstorm.
-在雨天时，物防翻倍。
+雨天时，物防翻倍。
 After knocking out any Pokémon, summons sandstorm for four turns.
 打倒对手时，开启持续4回合的沙暴。
 Summons a sandstorm for four turns when hit by an attack.
@@ -41769,13 +41769,13 @@ Punching moves change this Pokémon's secondary type and their power is boosted 
 Powers up Fighting-type moves by 50%.
 格斗属性技能威力增加50%。
 When this Pokémon charges and becomes hidden, it lowers the Attack and Sp. Atk of all foes.
-这只精灵蓄力并隐藏时，使所有对手的物攻和特攻减小1级。
+该精灵蓄力并隐藏时，使所有对手的双攻减小1级。
 Special moves against it lower the attacker's Speed and Sp. Atk.
 被特殊类技能攻击时，使攻击者的速度和特攻减小1级。
 This Pokémon and other battlers don't benefit from same-type attacking bonus.
 所有精灵失去本属性加成。
 Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
-在雨天时，速度增加50%，技能的附加效果的发动概率翻倍。
+雨天时，速度增加50%，技能的附加效果的发动概率翻倍。
 Doubles critical hit chance. Restores HP for half the damage it does with critical hits.
 将命中要害率翻倍。用命中要害造成的伤害的一半回复HP。
 Takes 30% less damage from all tagged moves.
@@ -41869,7 +41869,7 @@ Ignores Abilities that would affect its moves. Its attacks can't be redirected t
 Makes foes stressed and unable to use their items.
 使对手的物品失效。
 In rainstorm, each of its hits is followed by an extra hit at 25% power.
-在雨天时，会以25%的威力进行1次额外的攻击。
+雨天时，会以25%的威力进行1次额外的攻击。
 Prevents its stats from being lowered by more than one step at a time.
 被减小能力等级时，减小量不会超过1级。
 Ignores Abilities that would affect its moves. Dizzies opponents that it hits below half health.
@@ -41923,7 +41923,7 @@ At the end of each round, lowers other numbed Pokémon's Defense and Sp. Def by 
 After knocking out any Pokémon, summons eclipse for four turns.
 打倒对手时，开启持续4回合的日食。
 Boosts damage by 20% if there is a weather. Immune to weather downsides.
-在天气下增加20%的伤害。免疫天气的负面效果。
+存在天气时，伤害增加20%。免疫天气的负面效果。
 Flinching moves always activate their random effects. However, this Pokémon deals 10% less move damage.
 畏缩类技能必定发动随机附加效果，但技能的伤害减小10%。
 Becomes energized upon entry, doubling the power of its next Electric-type attack.
@@ -41987,7 +41987,7 @@ This Pokémon cannot faint while rampaging, and rampages for an additional turn.
 Takes 20% less damage from neutrally effective attacks.
 受到效果一般的攻击时，受到的伤害减小20%。
 This Pokémon is Mutant-type.
-这只精灵是基因属性。
+该精灵是基因属性。
 Deals 30% more damage to targets that have an item. After attacking a foe, destroys their clothing items.
 对有携带物的对手造成的伤害增加30%，如果对手携带的是衣服类物品，则攻击之后会将其破坏。
 After an attack reduces its HP below half, deals 1/4th of the attacker's HP back to the attacker.
@@ -42019,7 +42019,7 @@ Double Sp. Def in eclipse.
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
 在雨天中，速度增加50%，且攻击必定命中。
 Immune to weather downsides, and takes 20% less damage from attacks during weather.
-免疫天气的负面效果，在天气变化时减小受到的伤害。
+免疫天气的负面效果，存在天气时，受到的伤害减小20%。
 Powers up all tagged moves by 20%.
 所有具有标签的技能的威力增加20%。
 Takes 50% less damage from not-very-effective or barely-effective attacks.
@@ -47866,7 +47866,7 @@ Choose a Pokémon.
 Choose Pokémon or cancel.
 选择精灵或取消。
 This Pokémon can't be chosen.
-这只精灵不能被选择。
+该精灵不能被选择。
 Choose a Pokémon. (D for Showcase)
 选择精灵。（D键：展示队伍）
 Move to where?
@@ -48078,9 +48078,9 @@ Continue Box operations?
 Exit from the Box?
 要从箱子离开吗？
 You cannot select a donated Pokémon!
-你不能选择这只精灵！
+你不能选择该精灵！
 That Pokémon is not a valid choice!
-这只精灵无法被选择！
+该精灵无法被选择！
 You cannot mass-move Pokémon into a Donation Box.
 无法将精灵批量移入捐赠箱。
 Move Selection
@@ -48112,9 +48112,9 @@ The Box is full.
 Position {1},{2} is not empty...
 箱子{1}，{2}没有空位...
 Permanently store this Pokémon in exchange for Candies?
-永久储存这只精灵，并换取一些经验糖果吗？
+永久储存该精灵，并换取一些经验糖果吗？
 This Pokémon will not be retrievable after this. Are you sure?
-这只精灵将无法再被取出，你确定要这样吗？
+该精灵将无法再被取出，你确定要这样吗？
 {1} was stored forever.
 {1}被永久存储了。
 Bye-bye, {1}!
@@ -48148,7 +48148,7 @@ Position {1},{2} is empty...
 You can't release an Egg.
 你不能放生1个蛋。
 Are you sure you want to release this Pokémon?
-你确定要释放这只精灵吗？
+你确定要释放该精灵吗？
 They will be gone forever. Are you sure?
 它们将永远消失，你确定吗？
 {1} was released.
@@ -49746,7 +49746,7 @@ Boss using struggle!
 AI is calculating...
 AI正在计算，请耐心等待...
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
-欲戴王冠承其重，供奉虚空护身周。
+被其环绕，<<n>>于加冕时，<<n>>在虚空中深埋。
 An Avatar has been inserted into Yezera's party!
 叶泽拉的队伍中增加了1个化身！
 TODO
@@ -49758,7 +49758,7 @@ The battle begins with rainstorm. The effects of rainstorm are doubled.
 The battle begins with hail. The effects of hail are doubled.
 战斗会以冰雹开始。冰雹的效果翻倍。
 A Sky Scoured of Star and Sun
-扫日抚星筑新宙，一洗苍穹再归晴。
+连最后一粒光也被掠走的天空。
 The battle begins with sandstorm. The effects of sandstorm are doubled.
 战斗会以沙暴开始。沙暴的效果翻倍。
 The battle begins with eclipse. The effects of eclipse are doubled.
@@ -49774,7 +49774,7 @@ The battle begins with hail, the hail protects foes. Your Pokémon becomes an Ic
 The freeze will arrive next turn.
 寒冷将在下1回合到来。
 Forevers Traversed yet Ever No Better
-前路已尽无处走，笑谈归去再从头。
+穿越了所有永恒，<<n>>而好，依旧未至。
 Your Pokémon lose 10 levels for this fight. EXP goes to the Dispenser.
 你的精灵在这场战斗中会失去10个等级。经验值会进入分配器。
 Ought Not the Foxtrot to Triple Aught of What We Sought?
@@ -49784,19 +49784,19 @@ Enemy Pokémon all have an extra ability!
 Your Pokémon don't get extra damage on their same-type attacks.
 你的精灵失去本属性加成。
 forge a blade<<n>>from gold/<<n>>pluck out its<<n>>silhouette and/<<n>>wield the<<n>>shadow too!
-金铁交鸣铸其形，锋芒尽出不见影。
+用黄金锻造一柄利刃，<<n>>拔出它，<<n>>连其暗影也一同挥舞！
 Enemy Pokémon all have an extra item.
 敌方精灵都有1个额外的物品。
 A Portrait of the Opposition in Radiant Ulfire and Stygian Blue
-幽蓝璀焰焚不灭，一闪一绘照邪心。
+为敌手绘形，<<n>>以炽火，<<n>>以冥蓝。
 Enemy Pokémon all have an extra type.
 敌方精灵都有1个额外的属性。
 The Visitation of the Illusive Inevitable: Landfall
-万恶尽行终受戮，凡躯岂敢蒙上苍。
+那迷幻的必然，<<n>>已然显形，<<n>>于此着岸。
 Yezera won't leave the battle early. This is a true fight!
-叶泽拉不会提前离开战斗。这将是1场真正的对决!
+叶泽拉不会提前离开战斗。这将是1场真正的对决！
 By Skittering Stitch and Scattered Suture, Succumb to Ceaseless Sustenance.
-以窜行之缝与散碎之线，屈从于无尽之供养。
+以游走之针，<<n>>散落之线，<<n>>沦陷于无尽的哺养。
 Cruel Cocoon is continually active on the opposing side.
 残酷之茧在对方场上持续生效。
 Occlusion from Diffusion, Illusory Allusion. Conclusion: Elusion.
@@ -49804,39 +49804,39 @@ Occlusion from Diffusion, Illusory Allusion. Conclusion: Elusion.
 Misdirecting Fog is continually active on the opposing side.
 迷惑之雾在对方场上持续生效。
 In Our Equality, Disparity; from Injustice Settled Scales
-昨日胜负天意定，今朝成败未可知。
+平等即差异，<<n>>不公反是那已定的公允。
 Bence and Zoé are using 5 battlers each. This is a big battle!
 本斯和佐伊将各自使用5(+1)只精灵。这是1场大规模的战斗！
 A Fool's Errand
-愚人自怜不自知，焚躯为烬行君令。
+注定徒劳的奔走。
 Yezera and Shadow Mavis are using 6 battlers each. This is a huge battle!
 叶泽拉和影子梅维斯各使用6只战斗精灵。这将是1场规模巨大的战斗!
 Singular Hypocrisy, Repeated Sixfold
-满城笑靥皆伪面，无心善待无心迎。
+独一份的伪善，<<n>>生出层层叠叠的回响。
 Despite making you use 4, Nora is using 6 battlers!
 尽管她让你使用4只精灵，但诺拉自身用的是6只！
 Spirit Guardian Sonya is using 12 battlers. This is a huge battle!
 灵魂守护者索尼娅有12只精灵，这是1场巨大的战斗！
 Determinism I Defer to Thee, Free Will I Freely Give. Let Thy Die Remain Uncast.
-覆命之志随心动，斩破轮回与浊清。
+臣服于决定，<<n>>赠予以自由。<<n>>那命运的骰子，<<n>>永不掷落。
 Enemy attacks always activate their additional effects.
 对手的技能必定会发动随机附加效果。
 A Litany of Lullabies, Seldom Sung
-曲终收拨当心画，四弦1声如裂帛。
+一长串摇篮曲，<<n>>却几未有人唱起。
 Your Pokémon gain the "Perish Song" status when they enter battle.
 你的精灵在出场时会获得“灭亡之歌”状态。
 Eternity in our clutches. Ouroboros ever-yearning.
-永恒尽在掌握。衔尾蛇永世渴求。
+永恒尽在掌握，<<n>>衔尾蛇永世渴求。
 Enemy Pokemon recycle consumed items at end of turn. Stolen items turn to dust.
-敌方精灵在回合结束时会回收消耗的物品。被盗的物品会消失。
+敌方精灵在回合结束时会回收消耗的物品。被偷的物品会消失。
 The battle begins with sandstorm. The foe has extra sandstorm abilities!
 战斗会以沙暴开始。对方的精灵额外获得了沙暴相关特性！
 Every Beat Betrays the Beast's Burden
-钿头银篦击节碎，血色罗裙翻酒污。
+所有搏动，<<n>>皆暴露其兽性的本相。
 After your Pokémon attack, the attacking stat that was used is lowered by 4 steps.
 你的精灵攻击后，对应的那1项攻击会减小4级。
 Gored Upon the Horns of the Dilemma - Boredom or the Path of Thorns?
-四面群山皆囹圄，何方归去见青天？
+在困境之角上作茧，<<n>>庸常，或荆棘。
 Your side gains spikes each turn, except if removed that turn.
 除非被清除掉，不然每回合都会被设置菱。
 Your side gains spikes each turn. Opposing Switch Healing effect boosts by 50%.
@@ -49844,35 +49844,35 @@ Your side gains spikes each turn. Opposing Switch Healing effect boosts by 50%.
 You were spared from spikes this turn!
 此回合将不会再设置菱！
 Pyres raised<<n>>Here we meet<<n>>Spirits razed<<n>>Reduced to meat
-粉身碎骨浑不怕，要留清白在人间。
+火堆垒起，<<n>>我们相遇，<<n>>灵性焚尽，<<n>>终为肉块。
 When enemy Pokémon faint, your Pokémon will be punished!<<n>>Foes ignore the Status Clause!
 当对方的精灵濒死时，根据该精灵的属性使玩家的精灵陷入相应的异常状态！<<n>>敌方无视异常条款！
 {1} will be punished!
 {1}将受到惩罚！
 A Dance of Dualities and Potent Pluralities, A Futile Flailing in the Truth of Totality.
-二元与强力多元之舞，在整体真理中的徒劳挣扎。
+二元与强力多元之舞，在终极真理中的徒劳挣扎。
 Turbulent Sky is continually active on the opposing side.
 动荡之空在对方场上持续生效。
 Shall Our Truth Lay Asunder Thy Masque and Thee?
-追寻半生尽得志，破去虚妄洗新城。
+吾等之真，<<n>>可裂你假面与你？
 Whenever an enemy Pokémon enters at full health, it forms a substitute.
 每当敌方精灵以满血进入时，它会生成1个替身。
 Bedecked with Iron, Bedighted with Venom, Bewinged with Vaults Open and Weapons Free
-角声满天秋色里，塞上燕脂凝夜紫。
+披铁为饰，<<n>>染毒为装，<<n>>武器之释为翼。
 Opposing Pokémon hold super-powerful items. Stolen items turn to dust.
-对方精灵携带超强物品。被盗的物品会消失。
+对方精灵会携带超强物品。被偷的物品会消失。
 Lucid? Lose it. Lunacy looms lucent. Let loose.
-尽兴1杯忘忧愁，纵欢纵情纵美酒。
+弃守清明，<<n>>窥见疯嚣，<<n>>而后松手。
 Your Pokémon are Tortured on entry.
 你的精灵在出场时会受到虐待状态。
 Neutral attacks against your Pokémon are instead Super Effective.
 对你精灵的效果一般的攻击反而会变得效果拔群。
 Thy Inimitability, Incapable Imposture. My Immanence, Inconceivable Immaculacy.
-君生高洁涤凡尘，妾意灼灼不敢言。
+汝之独一，<<n>>无法冒充。<<n>>吾之遍在，<<n>>纯粹难容。
 Your Super Effective attacks become Not Very Effective.
 你的精灵的效果拔群的攻击，会被视为效果不佳。
 O Agonal Ecstasies, Spare Us Not Our Agonies
-行至终末须尽欢，今生苦短莫为难。
+啊，挣扎的狂喜，<<n>>莫要免除我们的苦痛。
 When enemy Pokémon faint, they deal a quarter of their HP as damage to their last attacker.
 当敌方精灵濒死时，它们会对最后的攻击者造成其HP四分之一的伤害。
 {1} takes its vengeance!
@@ -50264,7 +50264,7 @@ All foes positive stat changes were eliminated!
 {1} is hungry for destruction!
 {1}渴望毁灭！
 {1} is honorable! Status moves lose priority!
-{1}气宇轩昂！变化类技能失去了先制度！
+{1}拥抱荣耀！变化类技能失去了先制度！
 {1} is a killjoy! Stats can't be raised!
 {1}是个扫兴鬼！没有精灵可以增加能力等级！
 {1} is a bad influence! Healing is reversed!
@@ -55050,7 +55050,7 @@ Which form shall the Pokémon take?
 {1} swapped to {2}!
 {1}更改为{2}！
 Cannot use this item on that Pokémon.
-不能在这只精灵上使用这个物品。
+不能在该精灵上使用这个物品。
 {1}'s Ability changed to {2}!
 {1}的特性变成了{2}！
 The VS Recorder is WIP so it might have some bugs!
@@ -56022,7 +56022,7 @@ Would you like to get a random Pokémon?
 This feature of the DexNav is unavailable during this minigame.
 在这款小游戏期间，DexNav的此功能不可用。
 Would you like to get this Pokémon?
-你想要获得这只精灵吗？
+你想要获得该精灵吗？
 You already have one! Still get this Pokémon?
 你已经有1只该精灵了，确定想要获得它吗？
 Replace Search
@@ -56502,7 +56502,7 @@ Set steps left to 1
 Duplicate
 复制
 Are you sure you want to copy this Pokémon?
-你确定要复制这只精灵吗？
+你确定要复制该精灵吗？
 The Pokémon was duplicated.
 精灵已复制。
 The duplicated Pokémon was moved to your party.
@@ -56512,7 +56512,7 @@ All boxes are full.
 The duplicated Pokémon was moved to box "{1}."
 复制的精灵已被移至"{1}"箱。
 Are you sure you want to delete this Pokémon?
-你确定要删除这只精灵吗？
+你确定要删除该精灵吗？
 Delete Others
 删除其他精灵
 Are you sure you want to delete other Pokémon?
@@ -56722,9 +56722,9 @@ You only have one Pokémon.
 Choose the number of battlers on the player's side (max. {1}).
 选择玩家方的战斗者数量（最多{1}）。
 Change this Pokémon?
-更改这只精灵？
+更改该精灵？
 Delete this Pokémon?
-删除这只精灵？
+删除该精灵？
 Test Trainer Battle
 测试训练师战斗
 Start a single battle against a trainer of your choice.
@@ -57498,7 +57498,7 @@ SWAP
 RECHOOSE
 重新选择
 Accept this Pokémon?
-接受这只精灵吗？
+接受该精灵吗？
 Quit swapping?
 要停止交换吗？
 Preparing to generate teams
@@ -57945,6 +57945,8 @@ Can't warp to any shards because they're all collected already!
 \ss\wm"希望的萌芽，三倍的威力。"
 \ss\wm"We await you, o slayer..."
 \ss\wm"我们在等你..."
+Makyan Champion
+马凯亚冠军
 \wmThe victor is \PN!\me[Bug catching 1st]
 \wm胜利者是\PN！\me[Bug catching 1st]
 The game has been updated, you must take on the challenge from scratch!
@@ -57954,7 +57956,7 @@ The waiting room for tournament entrants is ahead.
 Once you enter, you will not be able to interact with your team in any way until the tournament is complete.
 一旦进入，在比赛结束之前，你将无法以任何形式保存或改变你的队伍。
 This means swapping Pokemon, moves, abilities, or items, or even changing your team order.
-一旦进入，在比赛结束之前，你将无法以任何形式保存或改变你的队伍。
+这意味着你不能改变队伍，也不能改变队伍中精灵的顺序，精灵的技能、物品、特性等等。
 A nurse is provided, however, for healing between matches.
 不过，在比赛期间会有1名护士负责治疗。
 Enter and begin the tournament?
@@ -57978,7 +57980,7 @@ Return to me when you are ready to battle.
 Odds are displayed for the grand final, gathered from a spectator poll.
 根据观众投票调查，大赛的胜算比率已经显示出来了。
 Only 20 percent of respondents expect you to win against your brother.
-只有百分之20的观众认为你能战胜你的哥哥。
+只有百分之20的观众认为你能战胜你的兄弟。
 third
 第3
 fourth
@@ -58422,7 +58424,7 @@ Dragon Tamer
 Give them 10 Big Malasadas.
 给他们10个大马拉萨达斯。
 Locals are feeding the Pokémon in the sewers as compensation for the items stolen from them.
-当地居民正在下水道喂养精灵，作为对他们被盗物品的补偿。
+当地居民正在下水道喂养精灵，作为对他们被偷物品的补偿。
 Don't Forget!
 别忘了！
 Flower Keeper
@@ -59172,7 +59174,7 @@ Set new Revival Turns.
 Please enter a valid code!
 请输入1个有效的密码！
 The Pokémon don't have any abilities.
-这只精灵没有任何特性。
+该精灵没有任何特性。
 Ability: {1}
 特性：{1}
 This ability has not been implemented.
@@ -59332,9 +59334,9 @@ There aren't any Pokémon you can adopt from this Zone!
 Which Pokémon would you like to adopt?
 你想领养哪只精灵？
 Do you want to adopt this Pokémon?
-你想领养这只精灵吗？
+你想领养该精灵吗？
 You can't adopt this Pokémon! You don't have enough AP!
-你不能领养这只精灵！你的AP不够！
+你不能领养该精灵！你的AP不够！
 Learn Move
 学习技能
 Check Move
@@ -59471,6 +59473,8 @@ Powers up Grass-type moves of itself and its allies by 30%.
 自身和队友的草属性技能的威力增加30%。
 Can hold two items.
 可以携带2个物品。
+Makes foes unable to use priority moves. Lowers priority of status moves used by any Pokémon.
+使对手的先制类技能使用失败。减小变化类技能的先制度。
 A capsule that allows a Pokémon to switch to another Ability. Used in Mono Ability or Tectonic Mode.
 仅在单特性和构造模式下可用，能将精灵的现有特性变为另1种特性的胶囊。
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
@@ -60094,7 +60098,7 @@ Why should I care?
 Then why is Yezera...
 那为什么叶泽拉...
 How many Regis are stolen?
-有多少巨人被盗了？
+有多少巨人被偷了？
 They're opening that door.
 他们在打开那扇门。
 Your point?

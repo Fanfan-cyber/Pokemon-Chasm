@@ -26,6 +26,7 @@ ABILITY_DATA = {
   :PLURIPOTENCE     => { :desc => proc { _INTL("Copies opponents' species' legal Abilities.") }, },
   :PRESSURE         => { :desc => proc { _INTL("This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat steps.") }, },
   :REFRACTIVE       => { :desc => proc { _INTL("It changes secondary type to that of the light moves it's about to use.") }, },
+  :ROYALMAJESTY     => { :desc => proc { _INTL("Makes foes unable to use priority moves. Lowers priority of status moves used by any Pokémon.") }, },
   :RUSTWRACK        => { :desc => proc { _INTL("The Pokémon is also Steel-type.") }, },
   :SHIFTINGFIST     => { :desc => proc { _INTL("It changes secondary type to that of the punching moves it's about to use.") }, },
   :SPEEDBOOST       => { :desc => proc { _INTL("Speed is raised by 1 step at the end of each of its turns.") }, },

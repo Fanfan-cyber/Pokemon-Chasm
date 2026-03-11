@@ -152,7 +152,7 @@ class RandomTournament
         flags = []
         flags.push("perfect") if @perfect_wins == FINAL_ROUND
         flags.push("cursed") if @cursed_wins == FINAL_ROUND
-        teamSnapshot("Makyan Champion", flags)
+        teamSnapshot(_INTL("Makyan Champion"), flags)
     end
 end
 
@@ -178,7 +178,7 @@ def enterTournament()
 end
 
 def checkStartOver
-    unless $tournament.matches.size == FINAL_ROUND
+    if $tournament.matches.size != FINAL_ROUND
         pbMessage(_INTL("The game has been updated, you must take on the challenge from scratch!"))
         enterTournament
     end

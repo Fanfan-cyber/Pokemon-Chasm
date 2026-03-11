@@ -271,7 +271,7 @@ class PokeBattle_Battle
         # Final turn of Winter Hunts
         priority += 1 if user.pbOwnSide.effectActive?(:WinterHuntsEnd)
 
-        priority -= 1 if pbCheckGlobalAbility(:HONORABLE) && move.statusMove?
+        priority -= countGlobalAbility([:HONORABLE, :ROYALMAJESTY]) if move.statusMove?
         user.eachAbilityShouldApply(aiCheck) do |ability|
             abilityPriorityChange = BattleHandlers.triggerPriorityChangeAbility(ability, user, move, 0, targets, aiCheck)
             priority += abilityPriorityChange

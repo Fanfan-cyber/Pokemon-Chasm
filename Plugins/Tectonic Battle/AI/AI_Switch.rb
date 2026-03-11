@@ -288,7 +288,7 @@ class PokeBattle_AI
     end
 
     def pbDefaultChooseNewEnemy(idxBattler, safeSwitch = false)
-        2.times { @battle.pbDisplay(_INTL("AI is calculating...")) } unless @battle.is_replayed
+        @battle.display_ai_calc_mag unless @battle.is_replayed
         urgency = 0
         list = pbGetPartyWithSwapRatings(idxBattler, safeSwitch,urgency)
         list.delete_if { |val| !@battle.pbCanSwitchLax?(idxBattler, val[0]) }

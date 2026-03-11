@@ -293,6 +293,8 @@ BattleHandlers::AbilityOnSwitchIn.add(:HONORABLE,
   }
 )
 
+BattleHandlers::AbilityOnSwitchIn.copy(:HONORABLE, :ROYALMAJESTY)
+
 BattleHandlers::AbilityOnSwitchIn.add(:KILLJOY,
   proc { |ability, battler, battle, aiCheck|
       next 0 if aiCheck
