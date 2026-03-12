@@ -6337,7 +6337,7 @@ People are getting attacked left and right, and the number of Trainers capable o
 Hopefully we can train some more capable battlers in the near future.
 希望在不久的将来能培养出更多更强的训练师。
 The computer glows faintly. A list of documents are organized into various folders.
-电脑散发出微弱的光芒，一各种文件被分类后放在了文件夹里。
+电脑散发出微弱的光芒，各种文件被组织后放在了文件夹里。
 The documents seem to be related to various avatars.
 这些文件似乎与各种化身有关。
 Gym Leader Lambert reported an avatar he spotted in a grotto by Bluepoint Beach.
@@ -35212,7 +35212,7 @@ The user amps itself up for performance, raising its Sp. Atk and Speed by two st
 Two turns after this move is used, the target's HP is restored by three quarters the user's max HP.
 使用此技能2回合后，目标位置的精灵的HP将被回复使用者最大HP的四分之三。
 Disables the target's last used move for four turns, then reduces a relevant stat on them by four steps.
-使目标在4个回合内无法使用上1次使用的技能，并根据那个技能的分类使其对应的攻击减小4级。
+使目标在4个回合内无法使用上1次使用的技能，并根据那个技能的类别使其对应的攻击减小4级。
 The user attacks with bitter emotion. This lowers the target's Attack and Sp. Atk by two steps if in hail.
 使用者怀着痛苦的情感发动攻击，如果处于冰雹天气，这将使目标的双攻减小2级。
 The user causes a glitch in reality. This attack always results in a critical hit.
@@ -47602,7 +47602,7 @@ Cursor
 Keyboard
 键盘
 Bag Sorting
-背包分类
+背包排序
 How should items in your bag be sorted? Automatic.
 你的背包中的物品应该如何排序？自动。
 Name on Showcase
@@ -47730,7 +47730,7 @@ Customize
 What do you want to change?
 你想更改什么？
 Trainer Class
-训练师分类
+训练师类别
 Win Message
 胜利信息
 Loss Message
@@ -48052,7 +48052,9 @@ Dex ID
 Level
 等级
 Living Dex
-活生生的图鉴
+精灵图鉴ID
+Found
+找到
 "{1}" is not a valid type.
 "{1}"不是1个有效的属性。
 "{1}" is not a valid tribe.
@@ -48062,7 +48064,7 @@ The current box contains the only match.
 The current box contains every match.
 当前包含全部匹配项。
 Multiple matches. Jump to which box?
-要跳转到哪个箱子？
+匹配到多个，跳转到？
 No matching Pokémon were found.
 未找到匹配的精灵。
 Mark your Pokémon.
@@ -48168,13 +48170,13 @@ Wallpaper
 Search
 搜索
 Sort
-分类
+排序
 Sort All
-分类全部
+排序全部
 Sort Unlock
-分类解锁
+排序解锁
 Sort Lock
-分类锁定
+排序锁定
 Swap Box
 交换箱子
 Jump to which Box?
@@ -48200,7 +48202,7 @@ The box is sort locked!
 The box is empty.
 箱子是空的。
 How will you sort?
-要如何分类？
+要如何排序？
 Each Pokémon is already in the right place!
 每只精灵都在正确的位置上！
 Can't swap boxes while you have a Pokémon in your hand!
@@ -48212,9 +48214,9 @@ That's the current box!
 {1} has swapped position with {2}!
 {1}与{2}交换了位置！
 No boxes were sorted.
-没有对箱子进行分类。
+没有对箱子进行排序。
 Only one box was sorted.
-只有1个箱子进行分类。
+只有1个箱子进行了排序。
 {1} boxes were sorted!
 {1}个箱子被整理好了！
 Shift
@@ -58972,7 +58974,7 @@ Your current online Trainer Class is {1}.
 What Trainer Class do you want to present to your opponents?
 你想向对手展示什么训练师类别？
 Choose a class
-选择1个分类
+选择1个类别
 An {1} is the kind of Trainer you want to be?
 你想成为{1}这种训练师吗？
 You will appear as an {1} in online battles.

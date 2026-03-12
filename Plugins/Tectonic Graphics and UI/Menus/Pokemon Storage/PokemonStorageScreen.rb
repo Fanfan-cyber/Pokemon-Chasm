@@ -609,7 +609,7 @@ class PokemonStorageScreen
                 else
                     a.personalID <=> b.personalID
                 end
-            }   
+            }
         elsif sortingType == 5 # Level
             listToSort.sort! { |a, b|
                 if a.level != b.level
@@ -648,6 +648,26 @@ class PokemonStorageScreen
                 break if sortedList.empty?
                 listToSort.push(nil) unless anyForThisID
             end
+        elsif sortingType == 7 # Tribe
+            listToSort.sort! { |a, b|
+                tribeIDListA = []
+                tribeIDListB = []
+                a.species_data.tribes.each do |tribeSymbol|
+                    tribeIDListA.push(GameData::Tribe.get(tribeSymbol).id_number)
+                end
+                b.species_data.tribes.each do |tribeSymbol|
+                    tribeIDListB.push(GameData::Tribe.get(tribeSymbol).id_number)
+                end
+                tribeIDListA.sort!
+                tribeIDListB.sort!
+                if tribeIDListA != tribeIDListB
+                    tribeIDListA <=> tribeIDListB
+                elsif a.species == b.species
+                    a.form <=> b.form
+                else
+                    a.personalID <=> b.personalID
+                end
+            }
         end
     end
 

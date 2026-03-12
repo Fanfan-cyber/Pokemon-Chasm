@@ -678,12 +678,12 @@ class PokemonStorageScene
     end
 
     def pbChooseBoxSort(msg)
-        sortMethods = [_INTL("Cancel"), _INTL("Name"), _INTL("Species"), _INTL("Dex ID"), _INTL("Type"), _INTL("Level")]
+        sortMethods = [_INTL("Cancel"), _INTL("Name"), _INTL("Species"), _INTL("Dex ID"), _INTL("Type"), _INTL("Level"), _INTL("Living Dex"), _INTL("Tribe")]
         return pbShowCommands(msg, sortMethods)
     end
 
     def pbChooseAllSort(msg)
-        sortMethods = [_INTL("Cancel"), _INTL("Name"), _INTL("Species"), _INTL("Dex ID"), _INTL("Type"), _INTL("Level"), _INTL("Living Dex")]
+        sortMethods = [_INTL("Cancel"), _INTL("Name"), _INTL("Species"), _INTL("Dex ID"), _INTL("Type"), _INTL("Level"), _INTL("Living Dex"), _INTL("Tribe")]
         return pbShowCommands(msg, sortMethods)
     end
 
@@ -723,24 +723,16 @@ class PokemonStorageScene
                     elsif searchMethod == 2 # Species
                         fitsSearch = curpkmn.speciesName.downcase.include?(ret.downcase)
                     elsif searchMethod == 3 # Type
-                        search = GameData::Type.try_get(ret.upcase)
-                        if search
-                            fitsSearch = curpkmn.hasType?(search.id)
-                        else
-                            pbDisplay(_INTL("\"{1}\" is not a valid type.", ret))
-                            return false
+                        curpkmn.species_data.types.each do |type|
+                            next unless GameData::Type.get(type).name.downcase.include?(ret.downcase)
+                            fitsSearch = true
+                            break
                         end
                     elsif searchMethod == 4 # Tribe
-                        search = GameData::Tribe.try_get(ret.upcase)
-                        if search
-                            curpkmn.tribes.each do |tribe|
-                                next unless tribe == search.id
-                                fitsSearch = true
-                                break
-                            end
-                        else
-                            pbDisplay(_INTL("\"{1}\" is not a valid tribe.", ret))
-                            return false
+                        curpkmn.species_data.tribes.each do |tribe|
+                            next unless GameData::Tribe.get(tribe).name.downcase.include?(ret.downcase)
+                            fitsSearch = true
+                            break
                         end
                     end
 
@@ -755,7 +747,8 @@ class PokemonStorageScene
         possibleboxes = {}
         unless found.empty?
             for i in 0..found.length - 1
-                opt = @storage.boxes[found[i][0]].getName(i)
+                #opt = @storage.boxes[found[i][0]].getName(i)
+                opt = _INTL("Found {1}", i + 1)
                 possibleboxes[opt] = found[i][0]
             end
         end
