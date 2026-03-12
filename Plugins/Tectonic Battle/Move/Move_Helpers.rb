@@ -48,9 +48,6 @@ class PokeBattle_Move
     end
 
     def canKnockOffItems?(user, target, checkingForAI = false, ignoreTargetFainted = false)
-        if @battle.wildBattle? && user.opposes? && !user.boss # Wild Pokémon can't knock off, but bosses can
-            return false
-        end
         return false if user.fainted?
         return false if target.fainted? && !ignoreTargetFainted
         if checkingForAI

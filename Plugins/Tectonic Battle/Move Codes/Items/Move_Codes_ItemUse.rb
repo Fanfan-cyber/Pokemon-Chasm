@@ -497,7 +497,11 @@ end
 #===============================================================================
 class PokeBattle_Move_GrantUserPearlOfWisdom < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
-        return !user.canAddItem?(:PEARLOFWISDOM)
+        if !user.canAddItem?(:PEARLOFWISDOM)
+            @battle.pbDisplay(_INTL("{1} cannot form a {2}!", user.pbThis, getItemName(:PEARLOFWISDOM))) if show_message
+            return true
+        end
+        return false
     end
 
     def pbEffectGeneral(user)
