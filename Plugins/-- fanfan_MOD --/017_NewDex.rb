@@ -65,7 +65,7 @@ module AbilityDex
       next if abil.cut || abil.tectonic_new || abil.primeval
       next if abil.is_test?
       count += 1
-      @@abilis_canon["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_canon["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
     end
     @@abilis_canon
   end
@@ -78,7 +78,7 @@ module AbilityDex
       next if !abil.tectonic_new || abil.primeval || abil.cut || abil.file_path
       next if abil.is_test?
       count += 1
-      @@abilis_new["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_new["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
     end
     @@abilis_new
   end
@@ -91,7 +91,7 @@ module AbilityDex
       next unless abil.file_path
       next if abil.is_test?
       count += 1
-      @@abilis_fanfan["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_fanfan["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
     end
     @@abilis_fanfan
   end
@@ -104,7 +104,7 @@ module AbilityDex
       next unless abil.primeval
       next if abil.is_test?
       count += 1
-      @@abilis_primeval["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_primeval["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
     end
     @@abilis_primeval
   end
@@ -117,7 +117,7 @@ module AbilityDex
       next unless abil.cut
       next if abil.is_test?
       count += 1
-      @@abilis_cut["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}")
+      @@abilis_cut["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
     end
     @@abilis_cut
   end

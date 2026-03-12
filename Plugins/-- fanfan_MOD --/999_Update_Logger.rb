@@ -191,12 +191,20 @@ storymode/nostorymode，开启/关闭剧情模式
 11.现在不同精灵的Royal Majesty的减小变化类技能的先制度的效果可以叠加
 12.现在AI正在计算的文本提示在战斗回放中将不再显示
 13.现在AI正在计算的文本提示只在和训练师的战斗中才会显示
-14.现在Ho-oh's Ashes也会回复精灵的PP
-15.现在Double Check在攻击已经行动过的目标时也会发动
-16.现在软弱在生效时还会使受到的伤害减半
-17.修复了玩家在战斗模拟器中记录下的对手队伍的精灵的物品可能会不正确的Bug
-18.修复了使用Elemental Fang会使游戏崩溃的Bug
-19.
+14.现在Double Check在攻击已经行动过的目标时也会发动
+15.现在软弱在生效时还会使受到的伤害减半
+16.修复了玩家在战斗模拟器中记录下的对手队伍的精灵的物品可能会不正确的Bug
+17.修复了使用Elemental Fang会使游戏崩溃的Bug
+18.修复了Backfire对Straight Ahead不生效的Bug
+19.修复了Backfire对Let 'Em Have It不生效的Bug
+20.修复了Backfire对Fickle Union不生效的Bug
+21.修复了Backfire对Ultra Buster不生效的Bug
+22.现在AI可以对Loose Cannon进行计算了
+23.优化了高亮系统
+24.
+
+现在Ho-oh's Ashes也会回复精灵的PP
+现在Ho-oh's Ashes也会回复精灵的恐惧状态
 
 0.4.6 Astra Resonantia / 星穹共鸣
 1.修复了Arc of Hope的中文错误翻译的Bug

@@ -90,7 +90,7 @@ BattleHandlers::MoveSpeedModifierAbility.add(:LOOSECANNON,
     proc { |ability, battler, move, battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.pulseMove?
         if aiCheck
-            next mult * 2.0
+            next mult * (battler.hasPulseMove? ? 2.0 : 1.0)
         else
             battler.applyEffect(:MoveSpeedDoubled,ability)
         end

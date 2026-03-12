@@ -72,8 +72,8 @@ BattleHandlers::DamageCalcUserAbility.add(:EMANATION,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:LETEMHAVEIT,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if move.pulseMove?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if move.pulseMove? || backfire
       mults[:attack_multiplier] *= 1.25
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -81,8 +81,8 @@ BattleHandlers::DamageCalcUserAbility.add(:LETEMHAVEIT,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:FICKLEUNION,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if move.pulseMove?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if move.pulseMove? || backfire
       mults[:base_damage_multiplier] *= 0.3
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -90,8 +90,8 @@ BattleHandlers::DamageCalcUserAbility.add(:FICKLEUNION,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:ULTRABUSTER,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if move.pulseMove? || move.punchingMove?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if move.pulseMove? || move.punchingMove? || backfire
       mults[:base_damage_multiplier] *= 1.5
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -971,14 +971,7 @@ BattleHandlers::DamageCalcUserAbility.add(:BREAKTHROUGH,
   }
 )
 
-BattleHandlers::DamageCalcUserAbility.copy(:BREAKTHROUGH, :PRIMEVALBREAKTHROUGH, :JUGGERNAUT)
-
-BattleHandlers::DamageCalcUserAbility.add(:STRAIGHTAHEAD,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    mults[:base_damage_multiplier] *= 1.2
-    user.aiLearnsAbility(ability) unless aiCheck
-  }
-)
+BattleHandlers::DamageCalcUserAbility.copy(:BREAKTHROUGH, :PRIMEVALBREAKTHROUGH, :JUGGERNAUT, :STRAIGHTAHEAD)
 
 BattleHandlers::DamageCalcUserAbility.add(:INSCRUTABLEORDERS,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|

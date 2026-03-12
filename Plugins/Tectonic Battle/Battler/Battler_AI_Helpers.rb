@@ -228,6 +228,14 @@ class PokeBattle_Battler
         return false
     end
 
+    def hasPulseMove?
+        eachAIKnownMove do |m|
+            next unless m.pulseMove?
+            return true
+        end
+        return false
+    end
+
     def hasChargingTurnMove?
         eachAIKnownMove do |m|
             next unless m.chargingTurnMove?
