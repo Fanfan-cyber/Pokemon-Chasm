@@ -4165,7 +4165,7 @@ Pokemon = FLORGES,53
 #-------------------------------
 [CYCLIST_F2,Lukka]
 Pokemon = BLISSEY,51
-    Moves = SOFTBOILED,RUIN,SWEETKISS,NERVEBLOCK
+    Moves = RECOVER,RUIN,SWEETKISS,NERVEBLOCK
     AbilityIndex = 0 # Serene Grace
     Item = HIVISJACKET
 Pokemon = CONKELDURR,52
@@ -9509,7 +9509,7 @@ Pokemon = STOUTLAND,70
     Moves = SWEETKISS,CHARM,SLACKOFF
     AbilityIndex = 1 # Herding
 Pokemon = BLISSEY,70
-    Moves = NERVEBLOCK,EERIEIMPULSE,SOFTBOILED
+    Moves = NERVEBLOCK,EERIEIMPULSE,RECOVER
     AbilityIndex = 1 # Bliss
 Pokemon = SHUCKLE,70
     Moves = STRUGGLEBUG,POWERSPLIT,GUARDSPLIT,REST
