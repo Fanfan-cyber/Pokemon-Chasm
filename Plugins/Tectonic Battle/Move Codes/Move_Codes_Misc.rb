@@ -764,7 +764,7 @@ class PokeBattle_Move_UseChoiceOfElementalFangs < PokeBattle_Move
         ]
     end
 
-    def resolutionChoice(user)
+    def resolutionChoice(user, replayed_choice)
         validMoveNames = []
         @validMoves.each do |move|
             validMoveNames.push(getMoveName(move))
@@ -774,6 +774,8 @@ class PokeBattle_Move_UseChoiceOfElementalFangs < PokeBattle_Move
             @chosenMove = @validMoves.sample
         elsif !user.pbOwnedByPlayer? # Trainer AI
             @chosenMove = @validMoves[0]
+        elsif !replayed_choice.nil?
+            @chosenMove = replayed_choice
         else
             chosenIndex = @battle.scene.pbShowCommands(_INTL("Which move should {1} use?", user.pbThis(true)),validMoveNames,0)
             @chosenMove = @validMoves[chosenIndex]

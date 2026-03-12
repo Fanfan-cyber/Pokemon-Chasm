@@ -194,7 +194,9 @@ storymode/nostorymode，开启/关闭剧情模式
 14.现在Ho-oh's Ashes也会回复精灵的PP
 15.现在Double Check在攻击已经行动过的目标时也会发动
 16.现在软弱在生效时还会使受到的伤害减半
-17.
+17.修复了玩家在战斗模拟器中记录下的对手队伍的精灵的物品可能会不正确的Bug
+18.修复了使用Elemental Fang会使游戏崩溃的Bug
+19.
 
 0.4.6 Astra Resonantia / 星穹共鸣
 1.修复了Arc of Hope的中文错误翻译的Bug

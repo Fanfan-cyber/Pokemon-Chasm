@@ -922,6 +922,10 @@ class PokeBattle_Battle
             next unless pkmn
             pkmn.setItems(@initialItems[0][i])
         end
+        pbParty(1).each_with_index do |pkmn, i|
+            next unless pkmn
+            pkmn.setItems(@initialItems[1][i])
+        end
     end
 
     #=============================================================================
