@@ -616,6 +616,16 @@ class PokeBattle_AI_ROTOM < PokeBattle_AI_Boss
     FORM_5_MOVESET = %i[PETALTEMPEST ARCLAMP]
     MOVESETS = [FORM_1_MOVESET,FORM_2_MOVESET,FORM_3_MOVESET,FORM_4_MOVESET,FORM_5_MOVESET]
 
+    def apply_form_moveset(user)
+        newMoveset = MOVESETS[user.form - 1].clone
+        newMoveset.push(:PRIMEVALDAZZLE) if user.avatarPhase == 1
+        user.assignMoveset(newMoveset)
+    end
+
+    def onPhaseChange(user)
+        apply_form_moveset(user)
+    end
+
     def initialize(user, battle)
         super
         user.pokemon.instance_variable_set(:@ability_index, 1)
@@ -626,9 +636,7 @@ class PokeBattle_AI_ROTOM < PokeBattle_AI_Boss
                 formChangeMessage = _INTL("The avatar swaps machines!")
                 user.pbChangeForm(newForm, formChangeMessage)
                 user.pokemon.instance_variable_set(:@ability_index, 1)
-                newMoveset = MOVESETS[newForm-1].clone
-                newMoveset.push(:PRIMEVALDAZZLE) if user.avatarPhase == 1
-                user.assignMoveset(newMoveset)
+                apply_form_moveset(user)
             end
         })
     end

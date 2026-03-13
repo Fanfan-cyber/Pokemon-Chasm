@@ -615,7 +615,7 @@ HPMult = 8.0
 [ROTOM]
 Ability = HAUNTED
 Moves1 = HEATWAVE,ARCLAMP,PRIMEVALDAZZLE
-Moves2 = CHARGE,ARCLAMP
+Moves2 = HEATWAVE,ARCLAMP
 HPMult = 8.0
 Form = 1
 #-------------------------------
