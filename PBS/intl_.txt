@@ -31356,8 +31356,6 @@ Smelling Salts
 Smelling Salts
 Snore
 Snore
-Soft-Boiled
-Soft-Boiled
 Spit Up
 Spit Up
 Spotlight
@@ -31874,8 +31872,6 @@ Water Gun
 Water Gun
 Water Pledge
 Water Pledge
-Water Pulse
-Water Pulse
 Water Shuriken
 Water Shuriken
 Water Spout
@@ -32032,8 +32028,6 @@ Power Split
 Power Split
 Psybeam
 Psybeam
-Psychic
-Psychic
 Psychic Fang
 Psychic Fang
 Psycho Boost
@@ -32588,8 +32582,6 @@ Diamond Force
 Diamond Force
 Embrittle
 Embrittle
-Glimmer Pulse
-Glimmer Pulse
 Granite Head
 Granite Head
 Grind Stone
@@ -32622,6 +32614,8 @@ Rock Out
 Rock Out
 Rolling Boulder
 Rolling Boulder
+Shattered Light
+Shattered Light
 Shatter Shot
 Shatter Shot
 Shielding Bash
@@ -32860,18 +32854,20 @@ Absolute Radiance
 Absolute Radiance
 Blazing Speed
 Blazing Speed
+Broil
+Broil
 Crimson Storm
 Crimson Storm
 Dry Heat
 Dry Heat
 Evernal Flux
 Evernal Flux
-Fire Pulse
-Fire Pulse
 Fireworks
 Fireworks
 Flame Spikes
 Flame Spikes
+Flare
+Flare
 Flare Up
 Flare Up
 Flare Witch
@@ -32926,6 +32922,8 @@ White Flame
 White Flame
 Wildfire Melt
 Wildfire Melt
+Aqua Shock
+Aqua Shock
 Aquatic Crunch
 Aquatic Crunch
 Archean Deluge
@@ -32940,6 +32938,8 @@ Bubble Barrier
 Bubble Barrier
 Bubble Blaster
 Bubble Blaster
+Cavitation
+Cavitation
 Drag Beneath
 Drag Beneath
 Ebb & Flow
@@ -33206,6 +33206,8 @@ Mind Waves
 Mind Waves
 Mitosis
 Mitosis
+Neural Pulse
+Neural Pulse
 Odd Room
 Odd Room
 Omniscient Blow
@@ -33412,8 +33414,8 @@ Gloat
 Gloat
 Grim Visions
 Grim Visions
-Harsh Voice
-Harsh Voice
+Harsh Vibes
+Harsh Vibes
 Hateful Haymaker
 Hateful Haymaker
 Heartstopper
@@ -33879,8 +33881,6 @@ This attack inflicts double damage on a numbed foe. It also cures the target's n
 This attack inflicts double damage on a numbed foe. It also cures the target's numbing, however.
 An attack that can be used only if the user is asleep.
 An attack that can be used only if the user is asleep.
-The user heals itself by half of its max HP.
-The user heals itself by half of its max HP.
 The power stored using the move Stockpile is released all at once in an attack. 150 base power per stack.
 The power stored using the move Stockpile is released all at once in an attack. 150 base power per stack.
 The user shines a spotlight on the target so that only it will be attacked during the turn.
@@ -34053,8 +34053,8 @@ The user shoots filthy garbage at the target to attack.
 The user shoots filthy garbage at the target to attack.
 The user bites the target with toxic fangs with a 50% chance to poison.
 The user bites the target with toxic fangs with a 50% chance to poison.
-A cloud of poison gas is sprayed in the face of the foe, poisoning it.
-A cloud of poison gas is sprayed in the face of the foe, poisoning it.
+A cloud of poison gas is sprayed in the face of the target, poisoning it.
+A cloud of poison gas is sprayed in the face of the target, poisoning it.
 The target is stabbed with a tentacle or arm seeped with poison. It has a 10% chance to poison.
 The target is stabbed with a tentacle or arm seeped with poison. It has a 10% chance to poison.
 The user stabs the target with a poisonous stinger. This has a 30% chance to poison.
@@ -34321,8 +34321,8 @@ The user brings down a giant flame. It does more damage if influenced by an enor
 The user brings down a giant flame. It does more damage if influenced by an enormous thunderbolt.
 The user slams the opposing side with its flaming body. The heavier the user is, the greater the damage.
 The user slams the opposing side with its flaming body. The heavier the user is, the greater the damage.
-The user attacks by exhaling hot breath on the opposing team. It has a 30% chance to burn.
-The user attacks by exhaling hot breath on the opposing team. It has a 30% chance to burn.
+The user attacks by exhaling hot breath on the opposing team. It has a 20% chance to burn.
+The user attacks by exhaling hot breath on the opposing team. It has a 20% chance to burn.
 The user attacks all foes nearby with fire. The targets' held Berry or Gem becomes burnt up and unusable.
 The user attacks all foes nearby with fire. The targets' held Berry or Gem becomes burnt up and unusable.
 The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.
@@ -34389,8 +34389,6 @@ The target is blasted with a forceful shot of water. Can random critical hit.
 The target is blasted with a forceful shot of water. Can random critical hit.
 A column of water hits the target. When used with its Fire equivalent, it creates a Rainbow.
 A column of water hits the target. When used with its Fire equivalent, it creates a Rainbow.
-The user attacks the target with a pulsing blast of water. It has a 30% chance to dizzy.
-The user attacks the target with a pulsing blast of water. It has a 30% chance to dizzy.
 The user multi-hits the target two to five times with throwing stars. This move always goes first.
 The user multi-hits the target two to five times with throwing stars. This move always goes first.
 The user spouts water to damage the foe. Weakens in damage as the user loses HP. Weakest at half HP.
@@ -34541,8 +34539,6 @@ The user employs psychic power to average its unmodified Attack and Sp. Atk stat
 The user employs psychic power to average its unmodified Attack and Sp. Atk stats with those of the target.
 The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
 The target is attacked with a peculiar ray. It has a 30% chance to dizzy.
-The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp. Def.
-The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp. Def.
 The user bites the target using psychic capabilities. Also breaks any screens protecting the target's side.
 The user bites the target using psychic capabilities. Also breaks any screens protecting the target's side.
 The user tears at the target with blades formed by psychic power. Can random critical hit.
@@ -35089,8 +35085,6 @@ The user calls up spikes of diamond. Can random critical hit.
 The user calls up spikes of diamond. Can random critical hit.
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
 The user weakens the target's bones, making them fracture. They deal 33% less damage.
-The user harms the target with a pulse of power. Deals double damage if the user has used a gem this battle.
-The user harms the target with a pulse of power. Deals double damage if the user has used a gem this battle.
 The user rushes into the target with its stony body. The user also takes 25% recoil.
 The user rushes into the target with its stony body. The user also takes 25% recoil.
 The user scratches the target with rough rocks. If in sandstorm, the target's Defense is lowered by three steps.
@@ -35123,6 +35117,8 @@ The user dances wildly while churning rocks towards the target. This raises the 
 The user dances wildly while churning rocks towards the target. This raises the user's Attack by two steps.
 If this move misses, the target is forced to switch out. Always goes last.
 If this move misses, the target is forced to switch out. Always goes last.
+The target is struck from all angles by light like gemstones. Deals double damage if the user has used a gem this battle.
+The target is struck from all angles by light like gemstones. Deals double damage if the user has used a gem this battle.
 The user grinds stone into shrapnel and sprays it at the target. This has a 50% chance to fracture it.
 The user grinds stone into shrapnel and sprays it at the target. This has a 50% chance to fracture it.
 The user headbutts the target while maintaining a defensive aura. Sets Sanctuary for 5 turns.
@@ -35291,8 +35287,8 @@ The user lays a levitating hazard of sharp feathers around the foe. It deals Ste
 The user lays a levitating hazard of sharp feathers around the foe. It deals Steel-typed 1/8th HP damage.
 The user dislodges a blast of thin projectiles. This attack always results in a critical hit, but applies fracture to the user.
 The user dislodges a blast of thin projectiles. This attack always results in a critical hit, but applies fracture to the user.
-The user uses explosive force to shoot shards of its own body at the target. The user loses 10% of its max HP.
-The user uses explosive force to shoot shards of its own body at the target. The user loses 10% of its max HP.
+The user uses explosive force to shoot shards of its own body at the target. The user loses 1/8th of its max HP.
+The user uses explosive force to shoot shards of its own body at the target. The user loses 1/8th of its max HP.
 The user reflects a burst of light off its curls. Blinds a Pokémon entering the battle.
 The user reflects a burst of light off its curls. Blinds a Pokémon entering the battle.
 The user headbutts the target with a metal head. It has a 40% chance to make the target flinch.
@@ -35333,10 +35329,10 @@ Protects the user from damage this turn. It also lowers the Sp. Atk of special a
 Protects the user from damage this turn. It also lowers the Sp. Atk of special attackers by two steps.
 The user hurls a metal ball at the target.
 The user hurls a metal ball at the target.
-The user shoots shards of its own body at the target. The user loses 10% of its max HP.
-The user shoots shards of its own body at the target. The user loses 10% of its max HP.
-The user shreds off bits of its own body to launch at the target. The user loses 10% of its max HP.
-The user shreds off bits of its own body to launch at the target. The user loses 10% of its max HP.
+The user shoots shards of its own body at the target. The user loses 1/8th of its max HP.
+The user shoots shards of its own body at the target. The user loses 1/8th of its max HP.
+The user shreds off bits of its own body to launch at the target. The user loses 1/8th of its max HP.
+The user shreds off bits of its own body to launch at the target. The user loses 1/8th of its max HP.
 The user sprays mining waste at the target. It has a 30% chance to poison.
 The user sprays mining waste at the target. It has a 30% chance to poison.
 The user slashes at the target with a steel blade. Super effective versus Dragon-types.
@@ -35357,18 +35353,20 @@ Charges by summoning sunshine for five turns, then overwhelms the foe with fiery
 Charges by summoning sunshine for five turns, then overwhelms the foe with fiery light on the second turn.
 The user rushes the target at blazing-fast speed. This attack always goes before any other move.
 The user rushes the target at blazing-fast speed. This attack always goes before any other move.
+The user attacks by sending a wave of hot air towards the target. It has a 30% chance to burn.
+The user attacks by sending a wave of hot air towards the target. It has a 30% chance to burn.
 The foe is engulfed in a firestorm, trapping and binding it for three turns.
 The foe is engulfed in a firestorm, trapping and binding it for three turns.
 The target is dried out and loses Water-type. Then, it bursts into flame from the heat.
 The target is dried out and loses Water-type. Then, it bursts into flame from the heat.
 The user emits great amounts of heat, burning the target and adding the Fire-type to it.
 The user emits great amounts of heat, burning the target and adding the Fire-type to it.
-The user attacks the target with a pulsing blast of fire. It has a 20% chance to burn.
-The user attacks the target with a pulsing blast of fire. It has a 20% chance to burn.
 The user fires off explosive rounds in a beautiful display that multi-hit two to five times.
 The user fires off explosive rounds in a beautiful display that multi-hit two to five times.
 The user lays a hazard layer of burning spikes on the foe's side. One layer hurts switched in foes, two layers burns.
 The user lays a hazard layer of burning spikes on the foe's side. One layer hurts switched in foes, two layers burns.
+The user flashes with a burst of intensely bright flame. Can random critical hit.
+The user flashes with a burst of intensely bright flame. Can random critical hit.
 The user targets the opponents soft spots with a fiery strike. Its power doubles if the target is burned.
 The user targets the opponents soft spots with a fiery strike. Its power doubles if the target is burned.
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
@@ -35419,10 +35417,12 @@ The user surrounds the target with fire which also destroys any clothing items i
 The user surrounds the target with fire which also destroys any clothing items it's holding.
 A distinguished attack that motivates nearby allies to follow, letting them act immediately after.
 A distinguished attack that motivates nearby allies to follow, letting them act immediately after.
-The user launches a concentrated ball of searing white flame. Can random critical hit.
-The user launches a concentrated ball of searing white flame. Can random critical hit.
+The user launches a concentrated ball of searing, bright white flame. Can random critical hit.
+The user launches a concentrated ball of searing, bright white flame. Can random critical hit.
 The user creates a storm using its flaming body, damaging everything around it and melting away hazards from both sides.
 The user creates a storm using its flaming body, damaging everything around it and melting away hazards from both sides.
+The user rapidly changes water pressure, creating a pulsing shockwave. The user loses 1/8th of its max HP.
+The user rapidly changes water pressure, creating a pulsing shockwave. The user loses 1/8th of its max HP.
 The user bites with watery fangs. It has a 20% chance to waterlog and a 20% chance to lower Defense by two steps.
 The user bites with watery fangs. It has a 20% chance to waterlog and a 20% chance to lower Defense by two steps.
 Charges by summoning rainstorm for five turns, then overwhelms the foe with water on the second turn.
@@ -35437,6 +35437,8 @@ The user creates a bubble to shield their ally. The next time they're hit, 50% o
 The user creates a bubble to shield their ally. The next time they're hit, 50% of the move damage is instead dealt back as recoil.
 A blast of bubbles is shot at the target. It has a 20% chance to lower the target's Speed stat.
 A blast of bubbles is shot at the target. It has a 20% chance to lower the target's Speed stat.
+A water vacuum is induced and rapidly collapsed, generating an intense pulsing water blast. The user loses 1/8th of its max HP.
+A water vacuum is induced and rapidly collapsed, generating an intense pulsing water blast. The user loses 1/8th of its max HP.
 The user pulls the target under the waves with crushing force. This has a 10% chance to waterlog.
 The user pulls the target under the waves with crushing force. This has a 10% chance to waterlog.
 The user douses the target, healing itself by 33% of its max HP in the process.
@@ -35697,6 +35699,8 @@ The target is hit by a weak telekinetic force. It has a 20% chance to lower the 
 The target is hit by a weak telekinetic force. It has a 20% chance to lower the target's Sp. Def.
 The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
 The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
+The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp. Def.
+The target is hit by a strong telekinetic force. It has a 20% chance to lower Sp. Def.
 The user creates an odd area for eight turns in which Pokémon's offensive and defensive stats are swapped.
 The user creates an odd area for eight turns in which Pokémon's offensive and defensive stats are swapped.
 The user perfectly predicts the target's future location, then strikes. Lands without fail. This lowers the user's Defense and Speed.
@@ -35751,8 +35755,8 @@ The target is put to sleep via a deep freeze. The user is exhausted on the next 
 The target is put to sleep via a deep freeze. The user is exhausted on the next turn.
 The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for 5 turns.
 The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for 5 turns.
-The user summons a wind that drains vitality from all nearby foes. This has a 30% chance to frostbite them.
-The user summons a wind that drains vitality from all nearby foes. This has a 30% chance to frostbite them.
+The user summons a wind that drains vitality from all nearby foes. This has a 20% chance to frostbite them.
+The user summons a wind that drains vitality from all nearby foes. This has a 20% chance to frostbite them.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get frostbitten.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get frostbitten.
 The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
@@ -35845,8 +35849,8 @@ The user looms over the target with awful menace, lowering their highest stat by
 The user looms over the target with awful menace, lowering their highest stat by four steps.
 Attacks all foes with dormant draconic energy. Power increases by 50% in eclipse.
 Attacks all foes with dormant draconic energy. Power increases by 50% in eclipse.
-The user sprays the target with a strange shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
-The user sprays the target with a strange shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
+The user sprays the target with a shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
+The user sprays the target with a shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
 The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
 The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
 The user makes an offering, then multi-hits two to five times. Scatters coins for each hit.
@@ -35901,8 +35905,8 @@ The user raises all of their stats by two steps. Fails unless a foe is below hal
 The user raises all of their stats by two steps. Fails unless a foe is below half health.
 The user attacks with dark illusions. This also lowers the target's Defense stat by two steps.
 The user attacks with dark illusions. This also lowers the target's Defense stat by two steps.
-The target is confronted with painful words. It has a 40% chance to make the target flinch.
-The target is confronted with painful words. It has a 40% chance to make the target flinch.
+The target is attacked with a pulse of negative feelings. It has a 40% chance to make the target flinch.
+The target is attacked with a pulse of negative feelings. It has a 40% chance to make the target flinch.
 A punch that inflicts double the damage if the user has been hurt by the foe in the same turn.
 A punch that inflicts double the damage if the user has been hurt by the foe in the same turn.
 For the rest of the round, the healing of all damaged Pokémon is reversed.
@@ -36372,8 +36376,6 @@ Red Card
 Red Card
 Shed Shell
 Shed Shell
-Smoke Ball
-Smoke Ball
 Lucky Egg
 Lucky Egg
 Amulet Coin
@@ -37277,8 +37279,6 @@ Red Cards
 Red Cards
 Shed Shells
 Shed Shells
-Smoke Balls
-Smoke Balls
 Lucky Eggs
 Lucky Eggs
 Amulet Coins
@@ -38178,8 +38178,6 @@ A card with a mysterious power. When the holder is struck by a foe, the attacker
 A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
 An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.
 An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.
-An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
-An item to be held by a Pokémon. It enables the holder to flee from any wild Pokémon without fail.
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
 A held item. If the wielder enters a battle, money and coins generated in that battle are increased by 50%.
@@ -39547,6 +39545,8 @@ Ferocious
 Ferocious
 Ferrofluid
 Ferrofluid
+Fickle Union
+Fickle Union
 Field of Death
 Field of Death
 Field of Life
@@ -39803,6 +39803,8 @@ Lead Dancer
 Lead Dancer
 Lead Singer
 Lead Singer
+Let 'Em Have It
+Let 'Em Have It
 Leviathan
 Leviathan
 Lifeline
@@ -39825,6 +39827,8 @@ Long Receiver
 Long Receiver
 Long-term View
 Long-term View
+Loose Cannon
+Loose Cannon
 Loud
 Loud
 Loud Sleeper
@@ -39847,6 +39851,8 @@ Malice
 Malice
 Malicious Glow
 Malicious Glow
+Manifestation
+Manifestation
 Marine
 Marine
 Martial Discipline
@@ -40267,6 +40273,8 @@ Stratagem
 Stratagem
 Stressful
 Stressful
+Strike Corona
+Strike Corona
 Strikes Twice
 Strikes Twice
 Stubborn
@@ -40367,6 +40375,8 @@ Tunnel Maker
 Tunnel Maker
 Ultra Adapted
 Ultra Adapted
+Ultra Buster
+Ultra Buster
 Umbral Tenacity
 Umbral Tenacity
 Umbral Wake
@@ -40906,8 +40916,8 @@ Sets a Reflect for four turns upon entry.
 Sets a Reflect for four turns upon entry.
 Boosts power of light-based moves by 30%.
 Boosts power of light-based moves by 30%.
-After using a sound move, all foes are tormented.
-After using a sound move, all foes are tormented.
+After using a sound move, all foes are Tormented.
+After using a sound move, all foes are Tormented.
 Can hold two different items, if both are Berries.
 Can hold two different items, if both are Berries.
 If an attack lowers its HP below half, lowers the attacker's highest stat by four steps.
@@ -40950,8 +40960,8 @@ Receives 33% less move damage, but this Pokémon is hurt for 1/10th HP each turn
 Receives 33% less move damage, but this Pokémon is hurt for 1/10th HP each turn.
 Has a 30% chance to burn targets when using physical moves.
 Has a 30% chance to burn targets when using physical moves.
-During hail, this Pokémon's Speed is boosted by 50% and twice as likely to crit.
-During hail, this Pokémon's Speed is boosted by 50% and twice as likely to crit.
+During hail, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
+During hail, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 After this Pokémon is hit thrice, a Sanctuary is set on its side for 5 turns. The attacker becomes drowsy.
 After this Pokémon is hit thrice, a Sanctuary is set on its side for 5 turns. The attacker becomes drowsy.
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
@@ -40988,8 +40998,8 @@ It changes form to match the move it selected.
 It changes form to match the move it selected.
 Boosts Sp. Atk and Speed by 30% in rainstorm.
 Boosts Sp. Atk and Speed by 30% in rainstorm.
-Can hold two items, but drops one when swapping out.
-Can hold two items, but drops one when swapping out.
+Can hold two different items, but drops one when swapping out.
+Can hold two different items, but drops one when swapping out.
 Its attacks are critical against frostbitten targets.
 Its attacks are critical against frostbitten targets.
 Boosts Sp. Atk by 75%, but this Pokémon becomes frostbitten after attacking.
@@ -41150,6 +41160,8 @@ Double this Pokémon's Speed if any enemy is below half health.
 Double this Pokémon's Speed if any enemy is below half health.
 Takes 30% less damage in a rainstorm.
 Takes 30% less damage in a rainstorm.
+Pulse moves multi-hit two to five times at 30% power.
+Pulse moves multi-hit two to five times at 30% power.
 While this Pokémon is on the field, all attacks restore their user's HP by 30% of damage dealt.
 While this Pokémon is on the field, all attacks restore their user's HP by 30% of damage dealt.
 While this Pokémon is on the field, all healing is boosted by 20% and can overheal.
@@ -41202,8 +41214,8 @@ This Pokémon changes type to that of the move it's about to use. However, it's 
 This Pokémon changes type to that of the move it's about to use. However, it's 20% less accurate.
 Counts as every tribe.
 Counts as every tribe.
-After using a Bite move, lowers the target's highest attacking stat by two steps.
-After using a Bite move, lowers the target's highest attacking stat by two steps.
+After using a biting move, lowers the target's highest attacking stat by two steps.
+After using a biting move, lowers the target's highest attacking stat by two steps.
 When hit with a special move, hits back instantly with that same move.
 When hit with a special move, hits back instantly with that same move.
 Boosts Attack and Speed by 30% in hail.
@@ -41356,8 +41368,8 @@ Upon entry, blinds all foes.
 Upon entry, blinds all foes.
 Summons sunshine for four turns when hit by an attack.
 Summons sunshine for four turns when hit by an attack.
-This Pokémon deals 30% more move damage, but is continually tormented.
-This Pokémon deals 30% more move damage, but is continually tormented.
+This Pokémon deals 30% more move damage, but is continually Tormented.
+This Pokémon deals 30% more move damage, but is continually Tormented.
 Hits opponent with Covet when switched out.
 Hits opponent with Covet when switched out.
 Upon entry, creates an Insight Room for four turns, giving everyone a fifth move.
@@ -41406,6 +41418,8 @@ The user's dance moves have increased priority.
 The user's dance moves have increased priority.
 Boosts power of sound-based moves by 30%. After using a sound move, all enemy attacks target this Pokémon this turn.
 Boosts power of sound-based moves by 30%. After using a sound move, all enemy attacks target this Pokémon this turn.
+This Pokémon's pulse attacks become spread and deal 25% more damage.
+This Pokémon's pulse attacks become spread and deal 25% more damage.
 Protected from critical hits. Can't be burned or frostbitten.
 Protected from critical hits. Can't be burned or frostbitten.
 At the end of each turn, heals self by 1/20th and a party member by the amount this Pokémon was healed.
@@ -41428,6 +41442,8 @@ Copies the Ability of the Pokémon it switches in to replace.
 Copies the Ability of the Pokémon it switches in to replace.
 Effects placed by this Pokemon last 50% longer.
 Effects placed by this Pokemon last 50% longer.
+This Pokémon's Speed is doubled while using pulse moves.
+This Pokémon's Speed is doubled while using pulse moves.
 Boosts power of sound-based moves by 30%.
 Boosts power of sound-based moves by 30%.
 When hit while asleep, hits back instantly with Snore.
@@ -41450,6 +41466,8 @@ If an attack lowers this Pokémon's HP below half, the attacker becomes cursed.
 If an attack lowers this Pokémon's HP below half, the attacker becomes cursed.
 When attacking during moonglow, uses the target's Attack and Sp. Atk instead of its own.
 When attacking during moonglow, uses the target's Attack and Sp. Atk instead of its own.
+Boosts the power of pulse moves by 50%, and makes them physical when that would be more effective.
+Boosts the power of pulse moves by 50%, and makes them physical when that would be more effective.
 Physical moves have a 30% chance to waterlog targets.
 Physical moves have a 30% chance to waterlog targets.
 Repeats another Pokémon's punch and kick moves immediately at 50% power.
@@ -41514,8 +41532,8 @@ Boosts Speed by 50% in moonglow. Can't miss during moonglow.
 Boosts Speed by 50% in moonglow. Can't miss during moonglow.
 In moonglow, Attack is boosted by 50%, but this Pokémon is hurt for 1/10th HP each turn.
 In moonglow, Attack is boosted by 50%, but this Pokémon is hurt for 1/10th HP each turn.
-During moonglow, Speed is boosted by 50% and twice as likely to crit.
-During moonglow, Speed is boosted by 50% and twice as likely to crit.
+During moonglow, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
+During moonglow, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 Deals no damage to a target while they are using a status move.
 Deals no damage to a target while they are using a status move.
 Traps foes when they are below half health.
@@ -41722,8 +41740,8 @@ When it attacks from underground in sandstorm, it'll transform into Reaper form.
 When it attacks from underground in sandstorm, it'll transform into Reaper form.
 Boosts this Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
 Boosts this Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
-During sandstorm, this Pokémon's Speed is boosted by 50% and twice as likely to crit.
-During sandstorm, this Pokémon's Speed is boosted by 50% and twice as likely to crit.
+During sandstorm, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
+During sandstorm, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 Special moves have a 30% chance to waterlog targets.
 Special moves have a 30% chance to waterlog targets.
 Changes the weather to Ring Eclipse, which heralds the total Ring Eclipse. Lingers for three turns after leaving.
@@ -41868,6 +41886,8 @@ Ignores Abilities that would affect its moves. Its attacks can't be redirected t
 Ignores Abilities that would affect its moves. Its attacks can't be redirected to new targets.
 Makes foes stressed and unable to use their items.
 Makes foes stressed and unable to use their items.
+Doubles Defense, but this Pokémon can't use status moves.
+Doubles Defense, but this Pokémon can't use status moves.
 In rainstorm, each of its hits is followed by an extra hit at 25% power.
 In rainstorm, each of its hits is followed by an extra hit at 25% power.
 Prevents its stats from being lowered by more than one step at a time.
@@ -41884,8 +41904,8 @@ Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the 
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become frostbitten.
 Uses Rapid Spin if an attack lowers its HP below half.
 Uses Rapid Spin if an attack lowers its HP below half.
-If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
-If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
+If an attack lowers its HP below half, the attacker enters a sugar rush for four turns.
+If an attack lowers its HP below half, the attacker enters a sugar rush for four turns.
 After knocking out any Pokémon, summons sunshine for four turns.
 After knocking out any Pokémon, summons sunshine for four turns.
 At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
@@ -41966,6 +41986,8 @@ Powers up Ground-type moves by 50%.
 Powers up Ground-type moves by 50%.
 Powers up moves of the same type by 50%.
 Powers up moves of the same type by 50%.
+Boosts the power of punch and pulse moves by 50%.
+Boosts the power of punch and pulse moves by 50%.
 During moonglow, take 35% less damage from attacks that aren't Steel-type.
 During moonglow, take 35% less damage from attacks that aren't Steel-type.
 After knocking out any Pokémon, summons moonglow for four turns.
@@ -47069,10 +47091,14 @@ Grounded
 Grounded
 A grounded Pokémon loses their immunity to ground moves (from being Flying-type or having a Levitate ability).
 A grounded Pokémon loses their immunity to ground moves (from being Flying-type or having a Levitate ability).
-Sticky
-Sticky
+Shrinking
+Shrinking
 The affected Pokémon's highest stat becomes reduced by 2 steps for each turn of the effect.
 The affected Pokémon's highest stat becomes reduced by 2 steps for each turn of the effect.
+Sugar Rush
+Sugar Rush
+The affected Pokémon's speed is doubled, but they also take double damage from attacks.
+The affected Pokémon's speed is doubled, but they also take double damage from attacks.
 What are Critical Hits?
 What are Critical Hits?
 A critical hit deals 50% more damage than a regular hit. Certain moves are able to randomly critical hit.
@@ -48051,10 +48077,8 @@ Level
 Level
 Living Dex
 Living Dex
-"{1}" is not a valid type.
-"{1}" is not a valid type.
-"{1}" is not a valid tribe.
-"{1}" is not a valid tribe.
+Found {1}
+Found {1}
 The current box contains the only match.
 The current box contains the only match.
 The current box contains every match.
@@ -49743,8 +49767,6 @@ Boss using struggle!
 Boss using struggle!
 {1} is winding up a big attack!
 {1} is winding up a big attack!
-AI is calculating...
-AI is calculating...
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 Escorted by, Enthroned upon, Ensconced within this Empty Eminence
 An Avatar has been inserted into Yezera's party!
@@ -50951,6 +50973,8 @@ But {1} can't be switched out!
 {1} changes its cloak to fit its next move!
 {1} changes its form to fit its next move!
 {1} changes its form to fit its next move!
+Bright light bursts out of {1}!
+Bright light bursts out of {1}!
 {1} takes control of time itself!
 {1} takes control of time itself!
 {1} cannot use any of its moves, and will Struggle if it fights. Go ahead?
@@ -50973,6 +50997,8 @@ You were <imp>ambushed</imp>! The foe gets a free turn!
 You were <imp>ambushed</imp>! The foe gets a free turn!
 {1} reads {2}'s guilty soul!
 {1} reads {2}'s guilty soul!
+AI is calculating...
+AI is calculating...
 You can only Switch. Do you want to skip?
 You can only Switch. Do you want to skip?
 You can't catch trainers' Pokémon!
@@ -53063,10 +53089,6 @@ But {1} has already mutated!
 {1} reforms its genes with space energy!
 {1} used Light That Burns the Sky!
 {1} used Light That Burns the Sky!
-Bright lights bursts out of {1}!
-Bright lights bursts out of {1}!
-Bright lights bursts out of {1}
-Bright lights bursts out of {1}
 But it failed, since {1} has no valid allies to switch with!
 But it failed, since {1} has no valid allies to switch with!
 {1} and {2} switched places!
@@ -53335,18 +53357,18 @@ But it failed, since {1} can't have its type changed and its Speed can't be lowe
 But it failed, since {1} can't have its type changed and its Speed can't be lowered!
 Form effects:
 Form effects:
-<u>No Machine</u>: Numb
-<u>No Machine</u>: Numb
-<u>Heat</u>: Burn
-<u>Heat</u>: Burn
-<u>Wash</u>: Waterlog
-<u>Wash</u>: Waterlog
-<u>Frost</u>: Frostbite
-<u>Frost</u>: Frostbite
-<u>Fan</u>: Dizzy
-<u>Fan</u>: Dizzy
-<u>Mow</u>: Leech
-<u>Mow</u>: Leech
+<u>No Machine</u>: Electric-type, Numb
+<u>No Machine</u>: Electric-type, Numb
+<u>Heat</u>: Fire-type, Burn
+<u>Heat</u>: Fire-type, Burn
+<u>Wash</u>: Water-type, Waterlog
+<u>Wash</u>: Water-type, Waterlog
+<u>Frost</u>: Ice-type, Frostbite
+<u>Frost</u>: Ice-type, Frostbite
+<u>Fan</u>: Flying-type, Dizzy
+<u>Fan</u>: Flying-type, Dizzy
+<u>Mow</u>: Grass-type, Leech
+<u>Mow</u>: Grass-type, Leech
 Which type should {1} gift?
 Which type should {1} gift?
 But it failed, since the chosen type doesn't exist!
@@ -53693,6 +53715,8 @@ But it failed, because no one has any berries!
 But it failed, because no one has any berries!
 It's tea time! Everyone dug in to their Berries!
 It's tea time! Everyone dug in to their Berries!
+{1} cannot form a {2}!
+{1} cannot form a {2}!
 {1} forms a {2}!
 {1} forms a {2}!
 But {1} can't hold the {2}!
@@ -57945,6 +57969,8 @@ Can't warp to any shards because they're all collected already!
 \ss\wm"Budding hope, with 3-fold might."
 \ss\wm"We await you, o slayer..."
 \ss\wm"We await you, o slayer..."
+Makyan Champion
+Makyan Champion
 \wmThe victor is \PN!\me[Bug catching 1st]
 \wmThe victor is \PN!\me[Bug catching 1st]
 The game has been updated, you must take on the challenge from scratch!
@@ -59407,12 +59433,14 @@ Raises Attack by 2 steps after knocking out any Pokémon.
 Raises Attack by 2 steps after knocking out any Pokémon.
 Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.
 Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.
-Halves move damage when HP is greater than 50%.
-Halves move damage when HP is greater than 50%.
+Halves move damage dealt or taken when HP is greater than 50%.
+Halves move damage dealt or taken when HP is greater than 50%.
 It changes secondary type to that of the dance moves it's about to use.
 It changes secondary type to that of the dance moves it's about to use.
 Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.
 Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.
+Deals 50% more damage to targets who have already taken damage or moved this turn.
+Deals 50% more damage to targets who have already taken damage or moved this turn.
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.
@@ -59443,6 +59471,8 @@ This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat 
 This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat steps.
 It changes secondary type to that of the light moves it's about to use.
 It changes secondary type to that of the light moves it's about to use.
+Makes foes unable to use priority moves. Lowers priority of status moves used by any Pokémon.
+Makes foes unable to use priority moves. Lowers priority of status moves used by any Pokémon.
 The Pokémon is also Steel-type.
 The Pokémon is also Steel-type.
 It changes secondary type to that of the punching moves it's about to use.
@@ -63432,6 +63462,10 @@ Rusted Sword Dropped
 Rusted Sword Dropped
 Pokémon Entered
 Pokémon Entered
+Ho-oh's Ashes
+Ho-oh's Ashes
+Ho-oh's Ashes Count
+Ho-oh's Ashes Count
 Turns Till Move
 Turns Till Move
 Incoming
