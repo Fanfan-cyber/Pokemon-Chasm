@@ -164,7 +164,7 @@ Description = Boosts power of light-based moves by 30%.
 #-------------------------------
 [BELLOWER]
 Name = Bellower
-Description = After using a sound move, all foes are tormented.
+Description = After using a sound move, all foes are Tormented.
 #-------------------------------
 [BERRYBUNCH]
 Name = Berry Bunch
@@ -257,7 +257,7 @@ Description = Has a 30% chance to burn targets when using physical moves.
 #-------------------------------
 [CAFFEINERUSH]
 Name = Caffeine Rush
-Description = During hail, this Pokémon's Speed is boosted by 50% and twice as likely to crit.
+Description = During hail, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 Flags = HailSynergy
 #-------------------------------
 [CALMINGSCUTECHARM]
@@ -336,7 +336,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [CLUMSYKINESIS]
 Name = Clumsy Kinesis
-Description = Can hold two items, but drops one when swapping out.
+Description = Can hold two different items, but drops one when swapping out.
 Flags = MultipleItems
 #-------------------------------
 [COLDBLOODED]
@@ -1126,7 +1126,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [INSCRUTABLEORDERS]
 Name = Inscrutable Orders
-Description = This Pokémon deals 30% more move damage, but is continually tormented.
+Description = This Pokémon deals 30% more move damage, but is continually Tormented.
 #-------------------------------
 [INSECTCOLLECTOR]
 Name = Insect Collector
@@ -1479,7 +1479,7 @@ Flags = MoonglowSynergy
 #-------------------------------
 [NIGHTVISION]
 Name = Night Vision
-Description = During moonglow, Speed is boosted by 50% and twice as likely to crit.
+Description = During moonglow, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 Flags = MoonglowSynergy
 #-------------------------------
 [NOBLEBLADE]
@@ -1917,7 +1917,7 @@ Flags = SandstormSynergy
 #-------------------------------
 [SANDWORNAUGER]
 Name = Sandworn Auger
-Description = During sandstorm, this Pokémon's Speed is boosted by 50% and twice as likely to crit.
+Description = During sandstorm, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 Flags = SandstormSynergy
 #-------------------------------
 [SATURATER]
@@ -2272,7 +2272,7 @@ Description = Uses Rapid Spin if an attack lowers its HP below half.
 #-------------------------------
 [SUGARCOATED]
 Name = Sugarcoated
-Description = If an attack lowers its HP below half, the attacker enters a sugar rush. Their speed is doubled, but they take double damage from moves.
+Description = If an attack lowers its HP below half, the attacker enters a sugar rush for four turns.
 #-------------------------------
 [SUMMERSZENITH]
 Name = Summer's Zenith

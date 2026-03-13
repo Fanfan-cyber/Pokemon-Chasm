@@ -35,12 +35,6 @@ class PokeBattle_Battler
                 target.tookPhysicalHit = true if move.physicalMove?
                 target.tookSpecialHit = true if move.specialMove?
             end
-
-            # Learn the target's damage affecting abilities
-            target.eachActiveAbility do |abilityID|
-                next unless BattleHandlers::DamageCalcTargetAbility.hasKey?(abilityID)
-                target.aiLearnsAbility(abilityID)
-            end
         end
         if target.opposes?(user) && user.activatesTargetEffects?
             # Primal Forest
