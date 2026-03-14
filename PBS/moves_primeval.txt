@@ -11,7 +11,7 @@ Accuracy = 100
 TotalPP = 1
 Target = NearOther
 FunctionCode = EmpoweredSlash
-Flags = CanProtect,Blade,Empowered
+Flags = CanProtect,Slice,Empowered
 Description = The target is attacked with a slash of claws or blades, always critting.
 Animation = SLASH
 #-------------------------------
@@ -216,7 +216,7 @@ Accuracy = 100
 TotalPP = 1
 Target = AllNearFoes
 FunctionCode = 645
-Flags = CanProtect,Blade,Empowered
+Flags = CanProtect,Slice,Empowered
 Description = The user slashes all near foes with with poisonous blades or edges. Will be critical against poisoned targets.
 Animation = CROSSPOISON
 #-------------------------------
