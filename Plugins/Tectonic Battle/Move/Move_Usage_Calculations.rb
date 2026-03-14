@@ -376,8 +376,7 @@ class PokeBattle_Move
         return true if pbCriticalOverride(user, target) > 0
         return true if user.effectActive?(:AncestralSummonsReceiver)
         user.eachActiveAbility do |ability|
-            return true if BattleHandlers.triggerGuaranteedCriticalUserAbility(ability, user, target, @battle, self)
-            return true if AbilitySystem.apply_effect(:GuaranteedCriticalUserAbility, ability, self, user, target, @battle, checkingForAI)
+            return true if BattleHandlers.triggerGuaranteedCriticalUserAbility(ability, user, target, @battle, self, checkingForAI)
         end
         return false
     end

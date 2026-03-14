@@ -475,8 +475,8 @@ module BattleHandlers
         return !ret.nil? ? ret : c
     end
 
-    def self.triggerGuaranteedCriticalUserAbility(ability, user, target, battle, move)
-        ret = GuaranteedCriticalUserAbility.trigger(ability, user, target, battle, move)
+    def self.triggerGuaranteedCriticalUserAbility(ability, user, target, battle, move, aiCheck = false)
+        ret = GuaranteedCriticalUserAbility.trigger(ability, user, target, battle, move, aiCheck)
         return !ret.nil? ? ret : false
     end
 

@@ -377,3 +377,24 @@ GameData::BattleEffect.register_effect(:Field, {
     :info_displayed => false,
     :type => :Array,
 })
+
+GameData::BattleEffect.register_effect(:Field, {
+    :id => :HoohsAshes,
+    :real_name => "Ho-oh's Ashes",
+    :info_displayed => false,
+    :type => :Array,
+})
+
+GameData::BattleEffect.register_effect(:Field, {
+    :id => :HoohsAshesCount,
+    :real_name => "Ho-oh's Ashes Count",
+    :type => :Integer,
+    :ticks_down_sor => true,
+    :expire_proc => proc do |battle, _battler|
+        battle.field.effects[:HoohsAshes].each do |reviver|
+            reviver.heal
+            battle.pbDisplay(_INTL("{1} was revived to full health!", reviver.name))
+        end
+    end,
+    :sub_effects => [:HoohsAshes],
+})

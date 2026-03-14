@@ -366,23 +366,28 @@ class PokeBattle_Battler
             end
 
             # On-faint effect items
-            if hasActiveItem?(:HOOHSASHES)
+            if hasActiveItem?(:HOOHSASHES, true)
                 faintedPartyMembers = []
                 ownerParty.each do |partyPokemon|
                     next unless partyPokemon
-                    next if @battle.pbFindBattler(partyIndex, @index)
+                    #next if @battle.pbFindBattler(partyIndex, @index)
+                    next if partyPokemon.unique_id == unique_id
                     next unless partyPokemon.fainted?
                     faintedPartyMembers.push(partyPokemon)
                 end
-                pbDisplay(_INTL("{1}'s scattered its {2} when fainting.", pbThis, getItemName(:HOOHSASHES)))
+                @battle.pbDisplay(_INTL("{1}'s scattered its {2} when fainting.", pbThis, getItemName(:HOOHSASHES)))
                 if faintedPartyMembers.length == 0
-                    pbDisplay(_INTL("But there was no one to revive!"))
+                    #@battle.pbDisplay(_INTL("But there was no one to revive!"))
+                    if @battle.field.effectActive?(:HoohsAshes)
+                        @battle.field.effects[:HoohsAshes].push(@pokemon) unless @battle.field.effects[:HoohsAshes].include?(@pokemon)
+                    else
+                        @battle.field.applyEffect(:HoohsAshes, [@pokemon])
+                    end
+                    @battle.field.applyEffect(:HoohsAshesCount, 1)
                 else
                     reviver = faintedPartyMembers.sample
-                    reviver.heal_HP
-                    reviver.heal_status
-                    reviver.heal_PP
-                    pbDisplay(_INTL("Its allied {1} was revived to full health!", reviver.name))
+                    reviver.heal
+                    @battle.pbDisplay(_INTL("Its allied {1} was revived to full health!", reviver.name))
                 end
             end
 
