@@ -235,7 +235,7 @@ def moveTagKeywords
         "punch",
         "kicking",
         "kick",
-        "blade",
+        "slice",
         "dancing",
         "dance",
         "sound-based",

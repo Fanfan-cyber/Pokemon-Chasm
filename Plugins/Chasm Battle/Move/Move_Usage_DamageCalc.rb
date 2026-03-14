@@ -127,7 +127,7 @@ class PokeBattle_Move
 
     def userIsUnaware?(user, aiCheck: false)
         return true if user.shouldAbilityApply?(:UNAWARE, aiCheck)
-        return true if user.shouldAbilityApply?(:BLADEBRAINED, aiCheck) && bladeMove?
+        return true if user.shouldAbilityApply?(:BLADEBRAINED, aiCheck) && sliceMove?
         return true if user.shouldAbilityApply?(:TUNEDOUT, aiCheck) && soundMove?
         return true if empoweredMove?
         return false

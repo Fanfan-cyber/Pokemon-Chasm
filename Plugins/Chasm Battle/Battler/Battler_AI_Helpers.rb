@@ -168,9 +168,9 @@ class PokeBattle_Battler
         return false
     end
 
-    def hasBladeMove?
+    def hasSliceMove?
         eachAIKnownMove do |m|
-            next unless m.bladeMove?
+            next unless m.sliceMove?
             return true
         end
         return false

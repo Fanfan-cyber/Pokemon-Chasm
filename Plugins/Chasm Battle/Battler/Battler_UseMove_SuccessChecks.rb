@@ -46,7 +46,7 @@ class PokeBattle_Battler
             return false
         end
         # Disarming Shot
-        if effectActive?(:DisarmingShot) && move.bladeMove?
+        if effectActive?(:DisarmingShot) && move.sliceMove?
             if showMessages
                 msg = _INTL("{1} can't use {2} because of Disarming Shot!", pbThis, move.name)
                 commandPhase ? @battle.pbDisplayPaused(msg) : @battle.pbDisplay(msg)
