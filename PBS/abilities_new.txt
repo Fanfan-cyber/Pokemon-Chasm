@@ -194,7 +194,7 @@ Flags = HailSynergy
 #-------------------------------
 [BLADEBRAINED]
 Name = Bladebrained
-Description = Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
+Description = Boosts the power of slice moves by 30%. Slice moves ignore the target's modified Defense and Sp. Def.
 #-------------------------------
 [BLINDING]
 Name = Blinding
@@ -1768,7 +1768,7 @@ Description = Moves that can flinch are 50% more likely. Deals 50% more damage t
 #-------------------------------
 [RAZORSEDGE]
 Name = Razor's Edge
-Description = Boosts the power of blade moves by 30%. They're twice as likely to crit.
+Description = Boosts the power of slice moves by 30%. They're twice as likely to crit.
 #-------------------------------
 [REALIST]
 Name = Realist
@@ -2177,7 +2177,7 @@ Flags = EclipseSynergy
 #-------------------------------
 [STAYOFEXECUTION]
 Name = Stay of Execution
-Description = Blade moves always crit. However, their damage is dealt at the end of the round.
+Description = Slice moves always crit. However, their damage is dealt at the end of the round.
 #-------------------------------
 [STEAMPOWER]
 Name = Steam Power
@@ -2329,7 +2329,7 @@ Description = After attacking the same foe twice, they become numbed, and a Sanc
 #-------------------------------
 [SWORDPLAY]
 Name = Swordplay
-Description = Boosts the power of blade moves by 30%.
+Description = Boosts the power of slice moves by 30%.
 #-------------------------------
 [SWORDSMITHING]
 Name = Sword-Smithing

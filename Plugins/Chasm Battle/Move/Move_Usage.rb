@@ -429,7 +429,7 @@ class PokeBattle_Move
             end
         end
 
-        if user.hasActiveAbility?(:STAYOFEXECUTION) && bladeMove?
+        if user.hasActiveAbility?(:STAYOFEXECUTION) && sliceMove?
             delayedDamage = damage
             if delayedDamage > 0
                 target.effects[:DelayedDamage] = [] unless target.effectActive?(:DelayedDamage)
