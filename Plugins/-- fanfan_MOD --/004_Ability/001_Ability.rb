@@ -34,14 +34,12 @@ end
 class AbilitySystem
   def self.def_trigger(*triggers)
     triggers.each do |trigger|
-      class_eval <<~RUBY, __FILE__, __LINE__ + 1
-      attr_reader :#{trigger}_trigger_max_per_battle, :#{trigger}_trigger_max_per_switch, :#{trigger}_trigger_times_battle, :#{trigger}_trigger_times_switch
+      class_eval <<~ABILITYSYSTEM1, __FILE__, __LINE__ + 1
+        attr_reader :#{trigger}_trigger_max_per_battle, :#{trigger}_trigger_max_per_switch, :#{trigger}_trigger_times_battle, :#{trigger}_trigger_times_switch
 
         def #{trigger}_triggered_max?
-          return true if @#{trigger}_trigger_max_per_battle >= 0 && 
-                         @#{trigger}_trigger_times_battle >= @#{trigger}_trigger_max_per_battle
-          return true if @#{trigger}_trigger_max_per_switch >= 0 && 
-                         @#{trigger}_trigger_times_switch >= @#{trigger}_trigger_max_per_switch
+          return true if @#{trigger}_trigger_max_per_battle >= 0 && @#{trigger}_trigger_times_battle >= @#{trigger}_trigger_max_per_battle
+          return true if @#{trigger}_trigger_max_per_switch >= 0 && @#{trigger}_trigger_times_switch >= @#{trigger}_trigger_max_per_switch
           return false
         end
 
@@ -51,8 +49,7 @@ class AbilitySystem
         end
 
         def #{trigger}_reset_counter
-          @#{trigger}_trigger_times_battle = 0
-          @#{trigger}_trigger_times_switch = 0
+          @#{trigger}_trigger_times_battle = @#{trigger}_trigger_times_switch = 0
         end
 
         def #{trigger}_reset_battle_counter
@@ -75,21 +72,35 @@ class AbilitySystem
         def #{trigger}_set_switch_limit(switch_limit = -1)
           @#{trigger}_trigger_max_per_switch = switch_limit
         end
-      RUBY
+
+        def #{trigger}_initialize_counters
+          @#{trigger}_trigger_max_per_battle = @#{trigger}_trigger_max_per_switch = -1
+          @#{trigger}_trigger_times_battle   = @#{trigger}_trigger_times_switch   = 0
+        end
+      ABILITYSYSTEM1
     end
+
+    init_calls     = triggers.map { |trigger| "#{trigger}_initialize_counters" }
+    reset_counters = triggers.map { |trigger| "#{trigger}_reset_switch_counter" }
+    class_eval <<~ABILITYSYSTEM2, __FILE__, __LINE__ + 1
+      def initialize(ability, battle)
+        @ability = ability
+        @battle  = battle
+        #{init_calls.join("\n    ")}
+        pbInitialize(ability, battle)
+      end
+
+      def reset_switch_counter
+        #{reset_counters.join("\n    ")}
+      end
+    ABILITYSYSTEM2
   end
 
   attr_reader :ability, :battle
   def_trigger :on_switch_in
 
-  def initialize(ability, battle)
-    @ability                             = ability
-    @battle                              = battle
-    @on_switch_in_trigger_max_per_battle = -1
-    @on_switch_in_trigger_max_per_switch = -1
-    @on_switch_in_trigger_times_battle   = 0
-    @on_switch_in_trigger_times_switch   = 0
-    @on_switch_in_extra_trigger_times    = 0
+  def pbInitialize(ability, battle)
+    @on_switch_in_extra_trigger_times = 0
   end
 
   def ==(other)
@@ -100,13 +111,11 @@ class AbilitySystem
     end
   end
 
-  def reset_switch_counter
-    @on_switch_in_trigger_times_switch = 0
-  end
-
   def on_switch_in_blocked?(aiCheck = false); return false; end
 
   def on_switch_in_extra_trigger_times(aiCheck = false); return @on_switch_in_extra_trigger_times; end
+
+  def on_switch_in_effect(battler, aiCheck = false); return false; end
 
   def on_switch_in(battler, aiCheck = false)
     return false if on_switch_in_blocked?(aiCheck)
@@ -131,12 +140,10 @@ class AbilitySystem
     return total_ret if aiCheck
     return success
   end
-
-  def on_switch_in_effect(battler, aiCheck = false); return false; end
 end
 
 class AbilitySystem_EXAMPLE < AbilitySystem
-  def initialize(ability, battle)
+  def pbInitialize(ability, battle)
     super
     @on_switch_in_trigger_max_per_battle = 1
     @on_switch_in_trigger_max_per_switch = 1
