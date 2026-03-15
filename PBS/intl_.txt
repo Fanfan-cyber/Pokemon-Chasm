@@ -35627,8 +35627,8 @@ The user finds the highest base power move among your able party members, and us
 The user finds the highest base power move among your able party members, and uses it.
 A weak electric jolt is launched to numb the target.
 A weak electric jolt is launched to numb the target.
-The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
-The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
+The user slices with claws of light that have a 50% chance to numb. Can random critical hit. Counts as a Light and Slice move.
+The user slices with claws of light that have a 50% chance to numb. Can random critical hit. Counts as a Light and Slice move.
 Sends a pulse to flip the polarity of those nearby to damage a foe. Polarized Room is created for five turns.
 Sends a pulse to flip the polarity of those nearby to damage a foe. Polarized Room is created for five turns.
 Puts the target into a quarantine, trapping and disabling the move it last used for three turns.
@@ -35891,8 +35891,8 @@ The user tries to pick off a weak target. After damage, if the target is below 2
 The user tries to pick off a weak target. After damage, if the target is below 25% HP, they instantly faint.
 The user burrows into the target's subconscious with emotional manipulation. It has a 10% chance to leech.
 The user burrows into the target's subconscious with emotional manipulation. It has a 10% chance to leech.
-The user disarms the target's blade. The target cannot use blade-based moves for two turns.
-The user disarms the target's blade. The target cannot use blade-based moves for two turns.
+The user disarms the target's blade. The target cannot use slice-based moves for two turns.
+The user disarms the target's blade. The target cannot use slice-based moves for two turns.
 The target is forced underwater for a brief time, waterlogging it.
 The target is forced underwater for a brief time, waterlogging it.
 The user pushes the target violently into water. This has a 10% chance to waterlog.
@@ -35989,8 +35989,8 @@ The user makes a fool out of the target. This has a 50% chance of jinxing them.
 The user makes a fool out of the target. This has a 50% chance of jinxing them.
 The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
 The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
-The user draws the Crystal Caliburn, which empowers Light and Blade moves and transforms the holder into Royal form.
-The user draws the Crystal Caliburn, which empowers Light and Blade moves and transforms the holder into Royal form.
+The user draws the Crystal Caliburn, which empowers light and slice moves and transforms the holder into Royal form.
+The user draws the Crystal Caliburn, which empowers light and slice moves and transforms the holder into Royal form.
 The user flashes colorful light to damage the target. This move always goes first.
 The user flashes colorful light to damage the target. This move always goes first.
 The user chucks a party favor which explodes in the target's face.
@@ -38286,8 +38286,8 @@ These boots prevent the effects of hazards set on the battlefield.
 These boots prevent the effects of hazards set on the battlefield.
 Raises Sp. Atk by two steps when the Pokémon uses a sound move the first time each battle.
 Raises Sp. Atk by two steps when the Pokémon uses a sound move the first time each battle.
-Raises Attack by two steps when the Pokémon uses a blade move the first time each battle.
-Raises Attack by two steps when the Pokémon uses a blade move the first time each battle.
+Raises Attack by two steps when the Pokémon uses a slice move the first time each battle.
+Raises Attack by two steps when the Pokémon uses a slice move the first time each battle.
 Raises Speed by two steps when the Pokémon uses a wind move the first time each battle.
 Raises Speed by two steps when the Pokémon uses a wind move the first time each battle.
 Raises Speed by two steps when the Pokémon uses a kicking move the first time each battle.
@@ -38930,8 +38930,8 @@ An item to be held by a Pokémon. Protective moves like Light Screen and Reflect
 An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective for 6 turns longer.
 User heals 1/16th HP every turn. Will sacrifice itself to cure the user of status.
 User heals 1/16th HP every turn. Will sacrifice itself to cure the user of status.
-Boosts the power of Light and Blade moves by 50%.
-Boosts the power of Light and Blade moves by 50%.
+Boosts the power of light and slice moves by 50%.
+Boosts the power of light and slice moves by 50%.
 An empty vessel. It is freezing cold to the touch.
 An empty vessel. It is freezing cold to the touch.
 An item to test the PBS Extensions feature. It can be sold to shops for $1.
@@ -40930,8 +40930,8 @@ Boosts the power of biting moves by 30%.
 Boosts the power of biting moves by 30%.
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
-Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
-Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
+Boosts the power of slice moves by 30%. Slice moves ignore the target's modified Defense and Sp. Def.
+Boosts the power of slice moves by 30%. Slice moves ignore the target's modified Defense and Sp. Def.
 After using a light move, lowers each foe's Sp. Def.
 After using a light move, lowers each foe's Sp. Def.
 Move damage that's decreased by sunshine is decreased twice as much.
@@ -41670,8 +41670,8 @@ Heals 1/8th HP every turn if hit by an attack.
 Heals 1/8th HP every turn if hit by an attack.
 Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
 Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
-Boosts the power of blade moves by 30%. They're twice as likely to crit.
-Boosts the power of blade moves by 30%. They're twice as likely to crit.
+Boosts the power of slice moves by 30%. They're twice as likely to crit.
+Boosts the power of slice moves by 30%. They're twice as likely to crit.
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks.
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks.
 If this Pokémon faints from Perish Song, it is revived in a new form.
@@ -41862,8 +41862,8 @@ Sets a Light Screen for four turns upon entry.
 Sets a Light Screen for four turns upon entry.
 During eclipse, its moves can't miss and always activate their random effects.
 During eclipse, its moves can't miss and always activate their random effects.
-Blade moves always crit. However, their damage is dealt at the end of the round.
-Blade moves always crit. However, their damage is dealt at the end of the round.
+Slice moves always crit. However, their damage is dealt at the end of the round.
+Slice moves always crit. However, their damage is dealt at the end of the round.
 Takes 50% less damage from Water-type moves. Raises Speed by four steps when hit by one.
 Takes 50% less damage from Water-type moves. Raises Speed by four steps when hit by one.
 Its attacks are critical against waterlogged targets.
@@ -41928,8 +41928,8 @@ If an attack lowers this Pokémon's HP below half, the attacker becomes fracture
 If an attack lowers this Pokémon's HP below half, the attacker becomes fractured.
 After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
 After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
-Boosts the power of blade moves by 30%.
-Boosts the power of blade moves by 30%.
+Boosts the power of slice moves by 30%.
+Boosts the power of slice moves by 30%.
 Immune to Steel-type moves, and boosts Attack and Sp. Atk when hit by one.
 Immune to Steel-type moves, and boosts Attack and Sp. Atk when hit by one.
 During hail, boosts Speed and Grass-type damage by 50%.
@@ -45511,8 +45511,8 @@ Pulse
 Pulse
 Dance
 Dance
-Blade
-Blade
+Slice
+Slice
 Wind
 Wind
 Kick
@@ -51913,8 +51913,8 @@ No moves barred! {1} can use off-type moves again!
 {1}'s electromagnetism wore off.
 {1} can't use sound-based moves for the next {2} turns!
 {1} can't use sound-based moves for the next {2} turns!
-{1} can't use blade-based moves for the next {2} turns!
-{1} can't use blade-based moves for the next {2} turns!
+{1} can't use slice-based moves for the next {2} turns!
+{1} can't use slice-based moves for the next {2} turns!
 {1} was subjected to torment!
 {1} was subjected to torment!
 {1} was subjected to torture!
@@ -52165,6 +52165,8 @@ The Rusted Shield clatters on the ground!
 The Rusted Shield clatters on the ground!
 The Rusted Sword clatters on the ground!
 The Rusted Sword clatters on the ground!
+{1} was revived to full health!
+{1} was revived to full health!
 {1} took the {2} attack!
 {1} took the {2} attack!
 The healing wish came true for {1}!
@@ -63176,8 +63178,8 @@ Telekinesis Turns
 Telekinesis Turns
 Throat Injured Turns
 Throat Injured Turns
-Blade Disarming Turns
-Blade Disarming Turns
+Slice Disarming Turns
+Slice Disarming Turns
 Tormented
 Tormented
 Tortured

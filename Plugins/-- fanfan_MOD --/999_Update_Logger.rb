@@ -222,7 +222,9 @@ storymode/nostorymode，开启/关闭剧情模式
 38.现在Ho-oh's Ashes在生效时，如果没有其他精灵可以复活，则会复活精灵自身
 39.现在Ho-oh's Ashes在复活精灵自身时，不是立即复活，而是在下一个回合的回合开始时复活
 40.重构了Swift Stomps的代码
-41.
+41.修复了战斗中大师图鉴无法打开的Bug
+42.修复了在精灵的概览页打开大师图鉴时，游戏会崩溃的Bug
+43.
 
 0.4.6 Astra Resonantia / 星穹共鸣 03052026
 1.修复了Arc of Hope的中文错误翻译的Bug

@@ -1,23 +1,17 @@
 def openSingleDexScreen(pokemon, move_to_page = nil)
-	if pokemon.respond_to?('species')
-		$Trainer.pokedex.register_last_seen(pokemon)
-		return pokemon.species
-	else
-		speciesData = GameData::Species.get(pokemon)
-		$Trainer.pokedex.set_last_form_seen(speciesData.species, 0, speciesData.form)
-		return speciesData.species
-	end
 	ret = nil
 	pbFadeOutIn {
 		scene = PokemonPokedexInfo_Scene.new
 		screen = PokemonPokedexInfoScreen.new(scene)
-		ret = screen.pbStartSceneSingle(species, false, move_to_page)
+		ret = screen.pbStartSceneSingle(resolveDexSpecies(pokemon), false, move_to_page)
 	}
 	if ret.is_a?(Symbol)
 		echoln("Opening single dex screen from hyperlink to: #{ret}")
 		openSingleDexScreen(ret)
 	end
 end
+
+alias speciesEntry openSingleDexScreen
 
 def resolveDexSpecies(pokemon)
 	if pokemon.respond_to?('species')
@@ -85,10 +79,6 @@ def navigateDexChain(type, id)
 		end
 	end
 end
-
-def openSingleDexScreen(pokemon)
-end
-alias speciesEntry openSingleDexScreen
 
 def openPartyDexScreen(pokemon,index)
 	species = resolveDexSpecies(pokemon)
