@@ -340,7 +340,7 @@ Accuracy = 100
 TotalPP = 10
 Target = AllNearOthers
 FunctionCode = Basic
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user slashes broadly, cleanly slicing all nearby battlers.
 Animation = SLASH
 #-------------------------------
@@ -419,7 +419,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,DoubleCritChance,Blade
+Flags = CanProtect,CanRandomCrit,DoubleCritChance,Slice
 Description = The target is cut by a piercing slash. Can random critical hit, and does so twice as often.
 Animation = SLASH
 #-------------------------------
@@ -2455,7 +2455,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = RemoveScreensSubstituteProtections
-Flags = Blade
+Flags = Slice
 Description = The user slams the target with a rocky blade. Destroys screens, Substitutes, and protections on the target.
 Animation = ROCKSMASH
 #-------------------------------
@@ -2800,7 +2800,7 @@ Accuracy = 0
 TotalPP = 12
 Target = User
 FunctionCode = Trade6SpdForAtk
-Flags = CanSnatch,Blade
+Flags = CanSnatch,Slice
 Description = The user prepares its weapons. This raises the user's Attack by six steps but lowers Speed by six steps.
 Animation = SWORDSDANCE
 #-------------------------------
@@ -2813,7 +2813,7 @@ Accuracy = 100
 TotalPP = 20
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user rakes the target with sharp claws.
 Animation = FURYCUTTER
 #-------------------------------
@@ -2866,7 +2866,7 @@ Accuracy = 100
 TotalPP = 25
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user scratches the target with a flurry of claws, talons, etc.
 Animation = FURYCUTTER
 #-------------------------------
@@ -3373,7 +3373,7 @@ Accuracy = 50
 TotalPP = 5
 Target = NearOther
 FunctionCode = CurseTarget
-Flags = CanProtect
+Flags = CanProtect,Slice
 EffectChance = 100
 Description = The user snips the target's connection to life in order to curse them, damaging their HP by 25% each turn.
 #-------------------------------
@@ -3413,7 +3413,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = DoesSpecialDamage
-Flags = CanProtect
+Flags = CanProtect,Slice
 Description = The user rips into the target's soul, dealing damage through their Sp. Def rather than their Defense.
 Animation = SHADOWCLAW
 #-------------------------------
@@ -3455,7 +3455,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = AlliesAlsoUseSlashAgainstTarget
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user slashes with gusto, inspiring its allies to follow up by using Slash on the target.
 Animation = SACREDSWORD
 #-------------------------------
@@ -3665,7 +3665,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = IfFaintsTargetAddTonsOfMoneyGainedFromBattle
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user attacks the target with a sword. If the target faints, scatters many coins.
 Animation = SACREDSWORD
 #-------------------------------
@@ -3857,7 +3857,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = SuperEffectiveAgainstDragon
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user slashes at the target with a steel blade. Super effective versus Dragon-types.
 Animation = SACREDSWORD
 #-------------------------------
@@ -4859,7 +4859,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
 Animation = LIQUIDATION
 #-------------------------------
@@ -4990,7 +4990,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = BladesOfGrass
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user gracefully slashes the target three times. The next time this move is used, it will hit one extra time.
 Animation = RAZORLEAF
 #-------------------------------
@@ -5065,7 +5065,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = PoisonSpikes
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user flicks its thorns, dealing damage and setting a hazard layer of poison spikes around the target.
 #-------------------------------
 [ESSENCEARROW]
@@ -5146,7 +5146,7 @@ TotalPP = 5
 Target = AllNearFoes
 Priority = -3
 FunctionCode = UsedAfterUserTakesSpecialDamage
-Flags = CanProtect,Uninvocable,Blade
+Flags = CanProtect,Uninvocable,Slice
 Description = The user sheathes its blade. If hit by a foe's special move, it unsheathes it quickly, slashing all near foes.
 Animation = CAMOUFLAGE
 #-------------------------------
@@ -5555,7 +5555,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 #-------------------------------
 [FROMTHEBLUE]
@@ -5769,9 +5769,9 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Numb
-Flags = CanProtect,CanRandomCrit,Light
+Flags = CanProtect,CanRandomCrit,Light,Slice
 EffectChance = 50
-Description = The user slices with claws of light that have a 50% chance to numb. Can random critical hit.
+Description = The user slices with claws of light that have a 50% chance to numb. Can random critical hit. Counts as a Light and Slice move.
 #-------------------------------
 [POLARCHARGE]
 Name = Polar Charge
@@ -6004,7 +6004,7 @@ Accuracy = 50
 TotalPP = 5
 Target = NearOther
 FunctionCode = DisableTargetLastMoveUsed
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 EffectChance = 100
 Description = Splits off a section of the target's psyche. Disables their last used move for five turns.
 Animation = PSYCHOCUT
@@ -6358,7 +6358,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The user cuts using scissor-like blades of psychic energy. Can random critical hit.
 Animation = PSYCHOCUT
 #-------------------------------
@@ -6745,7 +6745,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetDef1
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 EffectChance = 20
 Description = The user slashes the target with ice like a sword. It has a 20% chance to lower Defense.
 Animation = SUBZEROSLAMMER
@@ -6995,7 +6995,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = DoubleDamageOnCrit
-Flags = CanProtect
+Flags = CanProtect,Slice
 Description = The user attacks fueled by ire. Deals double damage if it's a critical hit.
 Animation = SLASH
 #-------------------------------
@@ -7008,7 +7008,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = BurnTargetIfInEclipse
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 EffectChance = 100
 Description = The user slashes the foe while menacing. During eclipse, the target also becomes burned.
 Animation = DRAGONCLAW
@@ -7473,10 +7473,10 @@ Power = 80
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
-FunctionCode = DisableTargetBladeMoves3
+FunctionCode = DisableTargetSliceMoves3
 Flags = CanProtect
 EffectChance = 100
-Description = The user disarms the target's blade. The target cannot use blade-based moves for two turns.
+Description = The user disarms the target's blade. The target cannot use slice-based moves for two turns.
 #-------------------------------
 [DROWN]
 Name = Drown
@@ -7605,7 +7605,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = AlwaysCritialLowerUserSpeed1
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user prepares a precise cut. Always a critical hit. This lowers the user's Speed.
 Animation = NIGHTSLASH
 #-------------------------------
@@ -7788,7 +7788,7 @@ Accuracy = 100
 TotalPP = 10
 Target = AllNearFoes
 FunctionCode = LowerTargetAtk1
-Flags = CanProtect
+Flags = CanProtect,Slice
 EffectChance = 100
 Description = The user slashes all around them, creating deep scars on all nearby foes. This lowers each target's Attack.
 #-------------------------------
@@ -7813,7 +7813,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The user hacks at the target with great violence. Can random critical hit.
 Animation = NIGHTSLASH
 #-------------------------------
@@ -8113,8 +8113,8 @@ TotalPP = 1
 Target = User
 Priority = 6
 FunctionCode = GrantUserCrystalCaliburnChangeUserDiancieForm
-Flags = CanProtect,Blade
-Description = The user draws the Crystal Caliburn, which empowers Light and Blade moves and transforms the holder into Royal form.
+Flags = CanProtect,Slice
+Description = The user draws the Crystal Caliburn, which empowers light and slice moves and transforms the holder into Royal form.
 Animation = DAZZLINGGLEAM
 #-------------------------------
 [GLAMOURFLASH]

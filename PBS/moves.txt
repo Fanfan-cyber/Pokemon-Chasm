@@ -305,7 +305,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect,Blade,CanRandomCrit
+Flags = CanProtect,Slice,CanRandomCrit
 Description = The target is multi-hit two to five times with raking swipes. Can random critical hit.
 #-------------------------------
 [GIGAIMPACT]
@@ -703,7 +703,7 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = Hard, pointed, and sharp claws rake the target to inflict damage. Can random critical hit.
 #-------------------------------
 [SELFDESTRUCT]
@@ -771,7 +771,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The target is attacked with a slash of claws or blades. Can random critical hit.
 #-------------------------------
 [SMELLINGSALTS]
@@ -1421,7 +1421,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = IgnoreTargetDefSpDefEvaStatStages
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user attacks by slicing with its long horns. Ignores the target's stat step changes.
 #-------------------------------
 [SECRETSWORD]
@@ -1433,7 +1433,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = DoesPhysicalDamage
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user cuts with its long horn. The odd power contained in it does physical damage to the foe.
 #-------------------------------
 [STORMTHROW]
@@ -1521,7 +1521,7 @@ Accuracy = 0
 TotalPP = 15
 Target = NearOther
 FunctionCode = AlwaysHits
-Flags = Blade
+Flags = Slice
 Description = The user confounds the foe with speed, then slashes. Can't miss and skips protections.
 #-------------------------------
 [AIRSLASH]
@@ -1813,7 +1813,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = A slashing attack with a poisonous blade. Can random critical hit.
 #-------------------------------
 [GUNKSHOT]
@@ -2106,7 +2106,7 @@ Accuracy = 80
 TotalPP = 10
 Target = AllNearFoes
 FunctionCode = Basic
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user attacks its foes by manifesting the power of the land in fearsome blades of stone.
 #-------------------------------
 [SANDSEARSTORM]
@@ -2361,7 +2361,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = StealthRock
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user swings its stone axes. This leaves a levitating stone hazard floating around the target.
 Animation = STONEEDGE
 #-------------------------------
@@ -2666,7 +2666,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
 #-------------------------------
 #		GHOST MOVES
@@ -2858,7 +2858,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The user slashes with a sharp claw made from shadows. Can random critical hit.
 #-------------------------------
 [SHADOWFORCE]
@@ -2978,7 +2978,7 @@ Accuracy = 100
 TotalPP = 5
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user becomes a gigantic sword and cuts the target.
 #-------------------------------
 [BULLETPUNCH]
@@ -3136,7 +3136,7 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = RaiseUserAtk1
-Flags = CanProtect
+Flags = CanProtect,Slice
 EffectChance = 20
 Description = The target is raked with steel claws. It has a 20% chance to raise Attack.
 #-------------------------------
@@ -3811,7 +3811,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = LowerTargetDef1
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 EffectChance = 50
 Description = The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 #-------------------------------
@@ -4141,7 +4141,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The user handles a sharp leaf like a sword and attacks by slashing. Can random critical hit.
 #-------------------------------
 [LEAFSTORM]
@@ -4223,7 +4223,7 @@ Accuracy = 100
 TotalPP = 20
 Target = AllNearFoes
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit
+Flags = CanProtect,CanRandomCrit,Slice
 Description = Sharp-edged leaves are launched to slash at the opposing team. Can random critical hit.
 #-------------------------------
 [SEEDFLARE]
@@ -4910,7 +4910,7 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The user tears at the target with blades formed by psychic power. Can random critical hit.
 #-------------------------------
 [PSYCHOSHIFT]
@@ -5302,7 +5302,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect
+Flags = CanProtect,Slice
 Description = The user slashes the target with huge, sharp claws.
 #-------------------------------
 [DRAGONDANCE]
@@ -5522,7 +5522,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = SpikesFirstLayerOnly
-Flags = CanProtect,Blade
+Flags = CanProtect,Slice
 Description = The user slashes its shell blade, leaving a hazard layer of Spikes under the target if none have already been placed.
 Animation = NIGHTSLASH
 #-------------------------------
@@ -5747,7 +5747,7 @@ Accuracy = 100
 TotalPP = 12
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect,CanRandomCrit,Blade
+Flags = CanProtect,CanRandomCrit,Slice
 Description = The user slashes the target the instant an opportunity arises. Can random critical hit.
 Animation = NIGHTSLASH
 #-------------------------------

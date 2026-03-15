@@ -252,7 +252,7 @@ BattleHandlers::DamageCalcUserAbility.add(:EARSPLITTING,
 
 BattleHandlers::DamageCalcUserAbility.add(:SWORDPLAY,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
-    if move.bladeMove? || backfire
+    if move.sliceMove? || backfire
       mults[:base_damage_multiplier] *= 1.3
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -263,7 +263,7 @@ BattleHandlers::DamageCalcUserAbility.copy(:SWORDPLAY, :RAZORSEDGE, :BLADEBRAINE
 
 BattleHandlers::DamageCalcUserAbility.add(:SHARPNESS,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
-    if move.bladeMove? || backfire
+    if move.sliceMove? || backfire
       mults[:base_damage_multiplier] *= 1.5
       user.aiLearnsAbility(ability) unless aiCheck
     end

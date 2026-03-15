@@ -54,7 +54,7 @@ BattleHandlers::GuaranteedCriticalUserAbility.add(:STERN,
 
 BattleHandlers::GuaranteedCriticalUserAbility.add(:STAYOFEXECUTION,
     proc { |ability, _user, target, _battle, move, _aiCheck|
-        next true if move.bladeMove?
+        next true if move.sliceMove?
     }
 )
 

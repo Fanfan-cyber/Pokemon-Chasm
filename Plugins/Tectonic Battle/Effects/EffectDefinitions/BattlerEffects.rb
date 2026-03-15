@@ -1452,11 +1452,11 @@ GameData::BattleEffect.register_effect(:Battler, {
 
 GameData::BattleEffect.register_effect(:Battler, {
     :id => :DisarmingShot,
-    :real_name => "Blade Disarming Turns",
+    :real_name => "Slice Disarming Turns",
     :type => :Integer,
     :ticks_down_eor => true,
     :apply_proc => proc do |battle, battler, value|
-        battle.pbDisplay(_INTL("{1} can't use blade-based moves for the next {2} turns!", battler.pbThis, value - 1))
+        battle.pbDisplay(_INTL("{1} can't use slice-based moves for the next {2} turns!", battler.pbThis, value - 1))
     end,
 })
 
