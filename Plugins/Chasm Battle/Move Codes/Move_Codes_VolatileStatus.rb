@@ -617,16 +617,16 @@ class PokeBattle_Move_DisableTargetSoundMoves3 < PokeBattle_Move
 end
 
 #===============================================================================
-# Target cannot use blade-based moves for 2 more rounds. (Disarming Shot)
+# Target cannot use slice-based moves for 2 more rounds. (Disarming Shot)
 #===============================================================================
-class PokeBattle_Move_DisableTargetBladeMoves3 < PokeBattle_Move
+class PokeBattle_Move_DisableTargetSliceMoves3 < PokeBattle_Move
     def pbAdditionalEffect(user, target)
         return if target.fainted? || target.damageState.substitute
         target.applyEffect(:DisarmingShot, applyEffectDurationModifiers(3, user))
     end
 
     def getTargetAffectingEffectScore(_user, target)
-        return 30 if !target.effectActive?(:DisarmingShot) && target.hasBladeMove? && !target.substituted?
+        return 30 if !target.effectActive?(:DisarmingShot) && target.hasSliceMove? && !target.substituted?
         return 0
     end
 end
