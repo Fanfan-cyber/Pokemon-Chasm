@@ -622,10 +622,6 @@ class PokeBattle_AI_ROTOM < PokeBattle_AI_Boss
         user.assignMoveset(newMoveset)
     end
 
-    def onPhaseChange(user)
-        apply_form_moveset(user)
-    end
-
     def initialize(user, battle)
         super
         user.pokemon.instance_variable_set(:@ability_index, 1)
@@ -638,6 +634,9 @@ class PokeBattle_AI_ROTOM < PokeBattle_AI_Boss
                 user.pokemon.instance_variable_set(:@ability_index, 1)
                 apply_form_moveset(user)
             end
+        })
+        @onPhaseChange.push(proc { |user, _battle|
+                apply_form_moveset(user)
         })
     end
 end
