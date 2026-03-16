@@ -177,6 +177,7 @@ class PokeBattle_Battle
             movesetToAssign = avatarData.arrayOfMoveSets[b.avatarPhase - 1]
             echoln("ERROR: Unable to change moveset.") if movesetToAssign.nil?
             b.assignMoveset(movesetToAssign)
+            b.bossAI.afterPhaseChange(b,self)
             b.empoweredTimer = 0
             @scene.pbRefresh
 

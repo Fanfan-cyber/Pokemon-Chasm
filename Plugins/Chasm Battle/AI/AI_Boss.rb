@@ -71,6 +71,10 @@ class PokeBattle_AI_Boss
         @beforePhaseChange = []
 
         # An array of procs
+        # All of the procs are called right after the Avatar performs a phase change
+        @onPhaseChange = []
+
+        # An array of procs
         # All of the procs are called when the Avatar is destroyed
         @onDestroyed = []
 
@@ -112,6 +116,12 @@ class PokeBattle_AI_Boss
     def startPhaseChange(user, battle)
         @beforePhaseChange.each do |beforePhaseChangeProc|
             beforePhaseChangeProc.call(user, battle)
+        end
+    end
+
+    def afterPhaseChange(user, battle)
+        @onPhaseChange.each do |onPhaseChangeProc|
+            onPhaseChangeProc.call(user, battle)
         end
     end
 

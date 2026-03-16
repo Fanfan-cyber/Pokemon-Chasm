@@ -193,7 +193,7 @@ Puddle,20,15
     17,INKAY,9,11
     17,MGOLDEEN,9,11
     16,CLOBBOPUS,9,11
-Special,,20,20
+Special,,15,20
     1,SENTRET,15
     1,YUNGOOS,15
 #-------------------------------
