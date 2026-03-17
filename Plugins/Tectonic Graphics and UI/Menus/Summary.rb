@@ -1451,10 +1451,12 @@ class PokemonSummary_Scene
                     #dorefresh = pbOptions
                     dorefresh = pbOpenMasterDex
                 end
+=begin
             elsif MInput.trigger?(:A)
                 openSingleDexScreen(@pokemon, 2) if @page == 3
             elsif MInput.trigger?(:S)
                 openSingleDexScreen(@pokemon, 3) if @page == 3
+=end
             elsif Input.trigger?(Input::UP) && !@party.nil? && @partyindex > 0
                 oldindex = @partyindex
                 pbGoToPrevious

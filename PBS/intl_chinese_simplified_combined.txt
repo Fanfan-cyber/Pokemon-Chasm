@@ -48794,7 +48794,7 @@ Water Grass
 ABILITIES
 特性
 STATS
-属性
+能力
 DEF. MATCHUPS
 防御关系
 ATK. MATCHUPS
