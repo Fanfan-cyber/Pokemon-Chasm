@@ -24,7 +24,7 @@ BattleHandlers::GuaranteedCriticalUserAbility.add(:SEVERE,
 
 BattleHandlers::GuaranteedCriticalUserAbility.add(:WALLNINJA,
     proc { |ability, user, _target, _battle, move, _aiCheck|
-        next true if user.battle.roomActive?
+        next true if user.battle.roomActive? && (move.canRandomCrit? || user.effects[:RaisedCritChance] > 0)
     }
 )
 

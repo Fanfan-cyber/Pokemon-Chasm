@@ -11,6 +11,10 @@ def openSingleDexScreen(pokemon, move_to_page = nil)
 	end
 end
 
+def openSingleDexScreen(pokemon)
+	navigateDexChain(:species, pokemon)
+end
+
 alias speciesEntry openSingleDexScreen
 
 def resolveDexSpecies(pokemon)
