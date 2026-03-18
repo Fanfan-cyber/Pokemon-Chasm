@@ -4344,12 +4344,6 @@ Hey, no trying to distract me from my job!
 嘿，别想让我分心！
 Call me the 'sue' chef, because I'm gonna sue Helena for damages... or something...
 叫我"起诉"大厨吧，因为我要起诉海伦娜赔偿我的损失...
-Are you just -- fine, yeah, go on ahead. Just don't step on the bridge!
-你...还好吧，那你快走吧。别待在桥上了!
-Helena's instructions were quite clear. Try to cross the bridge, we battle you.
-海伦娜指示我们在这里，阻击所有试图过桥的训练师。
-When we've healed up, you'll be sorry for crossing us--er, the bridge.
-等我们痊愈了，你会后悔穿过我们...呃，这座桥的。
 North: Canal Desert
 北：运河沙漠
 South: East Tunnel
@@ -4358,6 +4352,22 @@ West: LuxTech Campus
 西：光华市
 An advertisement for LuxTech Technical Machines is painted under the directions.
 下面还有光华科技的广告。
+Are you just -- fine, yeah, go on ahead. Just don't step on the bridge!
+你...还好吧，那你快走吧。别待在桥上了!
+Helena's instructions were quite clear. Try to cross the bridge, we battle you.
+海伦娜指示我们在这里，阻击所有试图过桥的训练师。
+When we've healed up, you'll be sorry for crossing us--er, the bridge.
+等我们痊愈了，你会后悔穿过我们...呃，这座桥的。
+Ehehe, the water is so muddy!
+嘿嘿，水好浑啊!
+You're strong, so I'll let you in on a secret.
+你很厉害，所以我会告诉你1个秘密。
+There's a graveyard to the East. Check it out, it's suuuuper spooky.
+东边有个墓地，去看看吧，超级恐怖的。
+My mom's gonna kill me for ruining my shoes, but it's too fun to plod about.
+我的鞋子弄脏了，我妈妈肯定会揍我的，但是踢水玩可太有意思了。
+I get why Magikarp and Feebas use Splash a lot. It's fun to see all the water fly everywhere!
+我知道为什么鲤鱼王和丑丑鱼这么喜欢用水溅跃了，因为溅起水花真的很好玩！
 We were supposed to do catering for LuxTech, but Helena reassigned us to guard duty.
 我们本来是光华科技的后厨，但海伦娜现在让我们出来值班。
 She knows what she's doing... right?
@@ -4372,16 +4382,6 @@ Yeah, if she thinks we'll stay out here for another week, I've got a bridge to s
 ...再仔细检查一下情况吧。
 Oh, shut up. Let's just get back to the Pokecenter.
 哎呀，别说了。我们赶紧回精灵中心吧。
-Ehehe, the water is so muddy!
-嘿嘿，水好浑啊!
-You're strong, so I'll let you in on a secret.
-你很厉害，所以我会告诉你1个秘密。
-There's a graveyard to the East. Check it out, it's suuuuper spooky.
-东边有个墓地，去看看吧，超级恐怖的。
-My mom's gonna kill me for ruining my shoes, but it's too fun to plod about.
-我的鞋子弄脏了，我妈妈肯定会揍我的，但是踢水玩可太有意思了。
-I get why Magikarp and Feebas use Splash a lot. It's fun to see all the water fly everywhere!
-我知道为什么鲤鱼王和丑丑鱼这么喜欢用水溅跃了，因为溅起水花真的很好玩！
 I hear a Meowth makes you 33% luckier -- so now I'm guaranteed to win!
 听说喵喵会给我带来三分之一的幸运，所以现在我肯定能赢！
 Was that 33% increased luck or 33% more lucky? Maybe it isn't linear...?
@@ -6119,7 +6119,7 @@ A party game is loaded to the level select screen.
 A pile of tabloids on Pokémon Sumo.
 一堆关于精灵相扑的小报。
 On one cover you see a Rhyperior and Gigachu squaring off.
-其中一份封面上，1只超甲狂犀和1只巨卡超对峙。
+其中一份封面上，1只超甲暴龙和1只巨卡超对峙。
 "A rocky start. A shocking upset. All the stats that YOU need to know."
 “艰难开局。惊人的逆转。你需要知道的所有数据。”
 Huh? Oh yeah, uh, welcome or something.
@@ -6151,7 +6151,7 @@ I might have to go train it just so I can make it learn a different move...
 A Pokemon sumo competition is airing live.
 精灵相扑大会的直播现场。
 A match between an Hariyama and a Rhyperior is slowly playing out.
-双方选手是超力王和超甲狂犀。
+双方选手是超力王和超甲暴龙。
 I'm a huge fan of the Sumo Conference that happens every year in Johto.
 我是城都相扑大会的超级粉丝。
 They split Pokemon by both weight class and shape.
@@ -7476,18 +7476,6 @@ You present the Red Orb and the Blue Orb.
 你拿出了朱红色宝珠和靛蓝色宝珠。
 The stone activates at your touch.
 石头在你触摸时被激活了。
-Are you also here to dance at the top of a mountain?
-你也是来在山顶跳舞的吗？
-I regret coming up here dressed like this...
-我后悔穿成这样来这里了...
-I wish Lainie were here to dance with me...
-真希望兰妮能和我一起跳舞...
-You won't dance with me? Well, I'm sure you're very fun at parties.
-你不想和我跳舞吗？好吧，或许你对派对更感兴趣。
-Go on, back to your climbing or whatever you like to do.
-继续去做你喜欢的事情吧。
-Do you even have hobbies?
-你有什么爱好吗？
 You’re leaving me? Why?
 你要离开我？为什么？
 I was going to create a perfect world for you. Do you know that?
@@ -7546,6 +7534,20 @@ As an immortal being, though, it’s got plenty of time to forget this ever happ
 不过，作为1个不朽的存在，它有足够的时间忘记这件事情。
 It leaves with the mountain wind. Perhaps you’ll see it again on these snowy peaks...
 它随着山风离开了，也许你会在这雪山上再次见到它...
+Are you also here to dance at the top of a mountain?
+你也是来在山顶跳舞的吗？
+I regret coming up here dressed like this...
+我后悔穿成这样来这里了...
+I wish Lainie were here to dance with me...
+真希望兰妮能和我一起跳舞...
+You won't dance with me? Well, I'm sure you're very fun at parties.
+你不想和我跳舞吗？好吧，或许你对派对更感兴趣。
+Go on, back to your climbing or whatever you like to do.
+继续去做你喜欢的事情吧。
+Do you even have hobbies?
+你有什么爱好吗？
+Down: Gigalith's Guts
+下: 怪岩肠道
 The true power of the Dragon-type is only unlocked during an Eclipse!
 只有日食的时候，才能解放龙属性真正的力量！
 The only problem here is my own. I have failed my Pokemon.
@@ -7556,8 +7558,6 @@ Dragon-type Pokemon often roost on the peak of this mountain.
 龙属性精灵经常栖息在这座山的山顶。
 Hearing the songs of Hymnus is a true once-in-a- lifetime experience.
 听到赞美诗的歌声是真正一生难得的经历。
-Down: Gigalith's Guts
-下: 怪岩肠道
 I want to talk.
 要谈谈？
 Not why I'm here.
@@ -7665,6 +7665,18 @@ Some bigshot CEO’s kid needs his reserves trained up ASAP.
 某个大亨的孩子，需要尽快训练他的后备军。
 So, see ya 'round. Don’tcha keep me waitin’.
 那么，再见了。另外，别让我等太久！
+It would be foolish of me to talk about reciprocity and not reciprocate!
+既然是互惠互利，那怎么能没有回报呢！
+Here, Trainer. It is not much, but it is a gift.
+这是给你的礼物，训练师。虽然不多，但是心意到了。
+Enjoy the world, Trainer. It is there for us, and we are there for it.
+享受这个世界吧，训练师。它为我们而存在，我们也为它而存在。
+These Pokemon are happy as a direct result of your actions.
+这些精灵的快乐是由于你的行动带来的。
+Not every Pokemon will have a grand adventure with a Trainer.
+并不是每只精灵都会和训练师一起去冒险。
+It is important to remember that those Pokemon matter just the same.
+一定要记住，这些精灵同样重要。
 It is always important to give back from where you have taken!
 回报取决于付出！
 My friend and I have been feeding the Munchlax down here as thanks for providing us with important battle items.
@@ -7683,24 +7695,8 @@ I don't see enough for a batch, Trainer. Perhaps you are mistaken.
 训练师，你这好像不对啊。
 Big Malasadas are sold at the LuxTech Campus. You should be able to purchase a batch there.
 大马拉萨达可以在光华园区买，这玩意还挺常见的。
-It would be foolish of me to talk about reciprocity and not reciprocate!
-既然是互惠互利，那怎么能没有回报呢！
-Here, Trainer. It is not much, but it is a gift.
-这是给你的礼物，训练师。虽然不多，但是心意到了。
-Enjoy the world, Trainer. It is there for us, and we are there for it.
-享受这个世界吧，训练师。它为我们而存在，我们也为它而存在。
-These Pokemon are happy as a direct result of your actions.
-这些精灵的快乐是由于你的行动带来的。
-Not every Pokemon will have a grand adventure with a Trainer.
-并不是每只精灵都会和训练师一起去冒险。
-It is important to remember that those Pokemon matter just the same.
-一定要记住，这些精灵同样重要。
 You know, I feel a little bad about stealing all those Nuggets from the Pokemon down here...
 你知道吗，从下面的精灵那里偷走了所有的金块，我有点内疚...
-It reeks down here, but the Pokemon in this place are pretty friendly.
-这里闻起来很臭，但这里的精灵非常友好。
-They're more used to human contact than most, given how these are sewers and all.
-考虑到这里是下水道，它们比大多数精灵更习惯人类的接触。
 You're a LuxTech employee, aren't you?!
 你是光华的员工吗？
 I'm gonna steal your TMs!
@@ -7709,8 +7705,12 @@ Silver Ninjask isn't going to be happy...
 银色的铁面忍者可不会高兴...
 Now this job's gone completely sideways. Thanks a lot.
 现在工作都搞砸了，真特么的谢谢。
-Dialogue here.
-暂无对话。
+You better watch your back when you walk away or I might snatch those TMs from you after all.
+你走开时最好小心背后，否则我可能会把那些技能机从你手里抢走。
+It reeks down here, but the Pokemon in this place are pretty friendly.
+这里闻起来很臭，但这里的精灵非常友好。
+They're more used to human contact than most, given how these are sewers and all.
+考虑到这里是下水道，它们比大多数精灵更习惯人类的接触。
 I don't think I'm at the right river...
 我是不是游着游着偏航了...
 I guess I'm gonna go for a swim... Please close your eyes...
@@ -8330,22 +8330,22 @@ Yeah.
 Not really.
 不太需要。
 [Map129]
-A dark stone in the shape of a Nincada.
-1块铁面忍者形状的深色石头。
-It's slightly warm to the touch.
-摸上去还有点温度。
 I am the most powerful ninja in Makya! I traveled all the way from Sweetrock Harbor to prove it!
 我一路从蜜岩港来到这里，就是为了证明：我是马凯亚最强的忍者！
 No, my candies!
 不，我的糖！
 The Shinobi code dictates that I let you pass. But beware, for my revenge will be swift...
 根据忍者守则，我会让你过去，但是，我的报复很快就会...
+A dark stone in the shape of a Nincada.
+1块铁面忍者形状的深色石头。
+It's slightly warm to the touch.
+摸上去还有点温度。
 The door is thoroughly locked.
 房门紧锁。
-A dark stone in the shape of a Croagunk.
-1块不良蛙形状的深色石头。
 A dark stone in the shape of a Murkrow.
 1块黑暗鸦形状的深色石头。
+A dark stone in the shape of a Croagunk.
+1块不良蛙形状的深色石头。
 Hey, yo! Help me out for a second, would ya?
 嘿，你！帮我个忙好吗？
 There’s, like, a house up the road that this guy, like, totally keeps unlocked.
@@ -8372,14 +8372,6 @@ Back to Casaba Villa I go!
 我要回甜瓜度假区了！
 Well, it's a good thing a station is right there.
 还好站点就在旁边。
-Man, these lifelike Pokemon statues are crazy realistic.
-天啊，这些精灵雕像，也太逼真了！
-I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
-我脑海中突然蹦出1个想法，先去吃个冰淇淋，然后回家大哭1场...
-I wonder what the artist did to make these statues so... lifelike.
-我想知道这些艺术家，是怎么把雕像做得...这么栩栩如生的？
-Do you think those statues were... uhhh... you know... like, alive at one point?
-你是不是也觉得这些雕像...呃...就是...比如说...曾经...是活着的？
 A dark stone in the shape of a Lickitung.
 1颗形状像大舌头的黑石头。
 It's slightly slick to the --
@@ -8406,6 +8398,14 @@ You apply the Full Restore to the Lickitung. In an instant, it breaks free, shak
 你给大舌头使用了全复药。瞬间，它挣脱开来，抖落了几块石头。
 You don't have a Full Restore to use.
 你没有全复药。
+Man, these lifelike Pokemon statues are crazy realistic.
+天啊，这些精灵雕像，也太逼真了！
+I just had a pretty morbid revelation. I think I'm gonna go get some ice cream and cry.
+我脑海中突然蹦出1个想法，先去吃个冰淇淋，然后回家大哭1场...
+I wonder what the artist did to make these statues so... lifelike.
+我想知道这些艺术家，是怎么把雕像做得...这么栩栩如生的？
+Do you think those statues were... uhhh... you know... like, alive at one point?
+你是不是也觉得这些雕像...呃...就是...比如说...曾经...是活着的？
 North: Velenz
 北：夜幽市
 Leave it
@@ -11719,14 +11719,14 @@ That battle was fun, but not as fun as gaming.
 这场对决很有趣，但是没有游戏有趣！
 What a gorgeous place.
 真是个美丽的地方。
-The flowing water, the lushious flowers...
-流水潺潺，花香四溢...
+The flowing water, the luscious flowers...
+流水潺潺，繁花似锦...
 The gleam of the sun reflecting off of the pristine snow and ice...
 纯净的冰雪映着灿烂的阳光...
 Makes me wish Lainie were here to see it with me.
 真希望兰妮能跟我一起看到这些。
-Whoa, damnit, its cold!
-啊...好冷！
+Whoa, it's cold!
+哇，好冷！
 I must look like an idiot just standing out here without any extra layers.
 我跟个白痴一样站这里干嘛，早知道多穿件衣服了。
 Back to the lodge I go.
@@ -16904,8 +16904,8 @@ Alright! Let's get started. We'll start by heading to our R&D laboratories!
 好的！让我们开始吧，第1站，我们将前往研发实验室。
 Next, we'll be checking out the packing floor.
 接下来是包装区。
-Alright, here we are out the end of our tour!
-这里，就是此次参观的终点了！
+Alright, here we are at the end of our tour!
+好了，我们的旅程到此结束！
 Before we wrap things up, there's still one more person you need to meet...
 但在结束之前，你还需要见1个人...
 Me!
@@ -25275,7 +25275,7 @@ Rhyhorn
 Rhydon
 铁甲暴龙
 Rhyperior
-超甲狂犀
+超甲暴龙
 Happiny
 小福蛋
 Chansey
@@ -33792,7 +33792,7 @@ An attack that hits first and makes the target flinch. It only works the first t
 The user flails about aimlessly to attack. It becomes more powerful the less HP the user has.
 抓狂般乱打进行攻击。自身的HP越小，技能的威力越大。
 Enables random critical hits for the user, and quadruples its critical hit chance.
-让使用者能够随机命中要害，并将命中要害率增加至原来的4倍。
+让使用者可以随机命中要害，并将命中要害率增加至原来的4倍。
 The user draws attention to itself, making all targets take aim only at the user this turn.
 使用者吸引所有目标的注意力，使它们在本回合内只能瞄准使用者。
 The target is multi-hit two to five times with raking swipes. Can random critical hit.
@@ -34678,7 +34678,7 @@ The user pins the target with a dark, arresting look. The target becomes trapped
 The user faints in order to lower the target's Attack and Sp. Atk by five steps.
 使用者濒死，使目标的双攻减小5级。
 The user slashes the target the instant an opportunity arises. Can random critical hit.
-抓住瞬间的空隙切斩对手。能够随机命中要害。
+抓住瞬间的空隙切斩对手。可以随机命中要害。
 Protects the user from damage this turn. It also lowers the Defense of physical attackers by four steps.
 完全抵挡对手的攻击。一旦被攻击，就会使攻击者的物防减小4级。
 The user lowers the target's Attack and Sp. Atk by two steps. Then, the user switches out.
@@ -35130,7 +35130,7 @@ The user thrums ominously, lowering the target's Attack and Sp. Atk.
 The user carefully lobs a small stone at high speed.
 使用者小心地高速投掷1块小石头。
 A star falls on the target. Witnessing this lucky star also enables random critical hits and doubles the user's critical hit chance.
-让1颗星星坠落在目标身上。这颗幸运星让使用者能够随机命中要害，并使命中要害率翻倍。
+让1颗星星坠落在目标身上。这颗幸运星让使用者可以随机命中要害，并使命中要害率翻倍。
 The user attacks with shards from their rocky mane. For the next 3 turns, the Pokémon in the targeted slot loses 1/8th of their max HP.
 使用者以岩石鬃毛的碎片发动攻击。接下来3回合，被攻击位置的精灵每回合损失最大HP的1/8。
 Churns nearby rocks, dealing damage to nearby Pokémon and removing hazards from both sides.
@@ -35396,7 +35396,7 @@ The user roars with the force of a volcano, raising the Attack of itself by thre
 The user attacks with fire that can be seen in multiple places, then summons sunshine for eight turns.
 发动多重火焰攻击后，开启持续8回合的晴天。
 A lance of fire pierces the target from above, lowering their Sp. Atk. Can random critical hit, and does so twice as often.
-使用一柄火矛从上方刺穿目标，使对方的特攻减小1级，能够随机命中要害且命中要害率翻倍。
+使用一柄火矛从上方刺穿目标，使对方的特攻减小1级，可以随机命中要害且命中要害率翻倍。
 The user explodes itself into the target. The target is harmed, but also their Speed is raised.
 向火箭一样冲向对手然后爆炸，但会使对方的速度增加1级。
 Halves attack damage taken this turn. Burns any attackers. Fails if used successively.
@@ -35410,7 +35410,7 @@ Cloaked in flames, the user dances wildly, raising its Sp. Atk by two steps.
 The user sends up to two barrages of fire, each hitting two to five times. If two barrages were sent, the user is exhausted on the next turn.
 使用者发射最多2轮火焰连击，每轮命中2至5次。若发射了2轮，下1回合使用者将陷入僵直。
 Summons sunshine for six turns, boosting Fire-type attacks and hindering most others.
-召唤持续6回合的阳光，提升火属性攻击并阻碍大多数其他攻击。
+召唤持续6回合的阳光，增加火属性攻击并阻碍大多数其他攻击。
 The user launches volcanic debris, dealing damage and setting a hazard layer of burning spikes around the target.
 使用者发射火山碎片，造成伤害并在目标的场上设置焰菱。
 The user surrounds the target with fire which also destroys any clothing items it's holding.
@@ -35468,7 +35468,7 @@ The user opens a spring to blast the target, also forming an Aqua Ring around th
 Attacks with pressurized water. Deals 50% more damage if the user has been hurt by the foe in the same turn.
 使用加压水枪进行攻击，如果此回合内被对方攻击过，则伤害增加50%。
 Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
-开启持续6回合的雨天，提升水属性攻击并阻碍大多数其他攻击。
+开启持续6回合的雨天，增加水属性攻击并阻碍大多数其他攻击。
 The user rams its sharp face right into the target. This lowers the user's Speed by three steps.
 使用者用锐利的面部猛撞目标。速度减小3级。
 The user crashes into the target on a ripping current. This waterlogs the target.
@@ -35672,7 +35672,7 @@ By sacrificing half its max HP, the user makes the target fall asleep.
 The user's HP is restored by 50% of the damage dealt. Power doubles if the foe is asleep.
 回复自身造成伤害的50%的HP。如果对手处于睡眠状态，则威力翻倍。
 Summons eclipse for six turns, boosting Psychic-type attacks and heralding the total eclipse.
-召唤持续6回合的日食，提升超能属性攻击并预示着日全食的到来。
+召唤持续6回合的日食，增加超能属性攻击并预示着日全食的到来。
 The user slashes the target with aura-enriched wings. This boosts the user's Speed by two steps.
 使用充满灵气的翅膀攻击对手，并同时使自身的速度增加2级。
 The user psychically exploits weak points in the target's mind. Can random critical hit, and does so twice as often.
@@ -35730,7 +35730,7 @@ Charges with astral power and boosts its Attack by two steps on one turn, then a
 Protects the user from damage this turn. It also lowers the Sp. Def of special attackers by four steps.
 防住对手攻击的同时，减小对自身发动特殊类攻击的对手特防4级。
 The user does an arcane dance to summon a Pearl Of Wisdom to hold. The Pearl boosts all stats by 20% and can be flung for huge damage.
-使用者进行神秘舞蹈，召唤出1颗智慧之珠来携带。这颗珠子可以提升所有能力20%，并且可以投掷造成巨大伤害。
+使用者进行神秘舞蹈，召唤出1颗智慧之珠来携带。这颗珠子可以增加所有能力20%，并且可以投掷造成巨大伤害。
 The target is scrutinized, damaging their psyche. Can random critical hit.
 对目标进行仔细审视，对其精神造成伤害。可能随机命中要害。
 The user peruses its kingly stores of knowledge, selecting three random non-Psychic attacks. You choose which one it uses.
@@ -36020,7 +36020,7 @@ Attacks nearby foes with a misty explosion. The user loses half its current HP.
 The user disappears in a cloud of mist, charging and becoming hidden. On the next turn, the target becomes jinxed and frostbitten.
 使用者消失于雾气中蓄力并变得无敌。下1回合，目标将陷入不幸和冻伤。
 Summons moonglow for six turns, boosting Fairy-type attacks and heralding the Full Moon.
-开启持续6回合的月辉，提升妖精属性攻击并预示着满月的到来。
+开启持续6回合的月辉，增加妖精属性攻击并预示着满月的到来。
 The user invokes forbidden celestial powers to smite the target.
 调用禁忌的天体力量来攻击目标。
 The user throws a tricky punch. Can't miss and skips protections.
@@ -41882,8 +41882,8 @@ Upon entry, summons a Turbulent Sky on this Pokémon's side for six turns.
 出场时，开启持续6回合的动荡之空。
 Pokémon that swap in for this have their Speed raised.
 替换该精灵上场的精灵，速度增加1级。
-Ignores Abilities that would affect its moves. Its attacks can't be redirected to new targets.
-无视会影响到它技能的特性，且必定攻击选定的对手。
+This Pokémon's moves deal 20% more damage and ignore abilities that would affect them. Its moves can't be redirected.
+该精灵的技能伤害增加20%，并无视会影响到该精灵的特性。该精灵的技能不会被吸引。
 Makes foes stressed and unable to use their items.
 使对手的物品失效。
 Doubles Defense, but this Pokémon can't use status moves.
@@ -42028,8 +42028,8 @@ At the end of each turn, itself and each ally heals for 1/16th of their HP.
 每回合结束时，该精灵和每个队友会回复其最大生命值的1/16。
 Changes into another form of your choosing when its HP is lowered below half.
 HP减小到一半以下时，可以选择切换为另1种形态。
-This Pokémon's attacks are always critical if there is an active Room.
-存在空间类效果时，攻击必定会命中要害。
+This Pokémon's random crit moves are always critical if there is an active Room.
+存在空间时，该精灵的可以随机命中要害的技能必定会命中要害。
 During the Full Moon, this Pokémon saps the enemy Pokémon of their vitality, leeching them.
 满月时，使所有对手陷入寄生状态。
 Negates enemy status moves that target this Pokémon or create hazards around it.
@@ -42037,17 +42037,17 @@ Negates enemy status moves that target this Pokémon or create hazards around it
 Boosts this Pokémon's Attack by 30% in sunshine.
 晴天时，物攻增加30%。
 Double Sp. Def in eclipse.
-日食天气时，特防翻倍。
+日食时，特防翻倍。
 Boosts Speed by 50% in rainstorm. Can't miss during rainstorm.
-在雨天中，速度增加50%，且攻击必定命中。
+雨天时，速度增加50%，且攻击必定命中。
 Immune to weather downsides, and takes 20% less damage from attacks during weather.
 免疫天气的负面效果，存在天气时，受到的伤害减小20%。
 Powers up all tagged moves by 20%.
 所有具有标签的技能的威力增加20%。
 Takes 50% less damage from not-very-effective or barely-effective attacks.
-受到效果不佳的技能攻击时，减小受到的伤害。
+受到效果不佳的技能攻击时，受到的伤害减小50%。
 Draws in moves from foes with base power 100 or more. Takes 15% less move damage.
-吸引基础威力超过100的对手的攻击，并减小15%受到的伤害。
+吸引基础威力超过100的对手的攻击，并到的伤害减小15%。
 Uses Power Split upon entry or when hit by a move.
 进入战斗或被命中时，使用力量平分。
 Upon entry, summons a Primal Forest on this Pokémon's side for six turns.
@@ -47102,11 +47102,11 @@ The affected Pokémon's speed is doubled, but they also take double damage from 
 What are Critical Hits?
 什么是命中要害？
 A critical hit deals 50% more damage than a regular hit. Certain moves are able to randomly critical hit.
-命中要害造成的伤害比普通命中多50%。某些技能能够随机命中要害。
+命中要害造成的伤害比普通命中多50%。某些技能可以随机命中要害。
 How common are Critical Hits?
 命中要害率？
 For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects.
-对于能够随机命中要害的技能，其命中要害率为1/8。这个概率可以通过特性、物品或特殊效果增加。
+对于可以随机命中要害的技能，其命中要害率为1/8。这个概率可以通过特性、物品或特殊效果增加。
 Other Effects
 其他影响
 Critical hits ignore stat steps (on the user or the target) that would lower their damage. They also ignore protective screens like Reflect and Light Screen.
@@ -48794,7 +48794,7 @@ Water Grass
 ABILITIES
 特性
 STATS
-属性
+能力
 DEF. MATCHUPS
 防御关系
 ATK. MATCHUPS
