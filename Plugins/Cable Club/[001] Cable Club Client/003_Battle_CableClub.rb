@@ -100,7 +100,7 @@ class PokeBattle_CableClub < PokeBattle_Battle
       Dir.mkdir("Analysis") unless Dir.exist?("Analysis")
       timestamp = Time.now.strftime("%Y%m%d_%H%M%S")
       filename = "Analysis/rng_log_client#{client_id}_#{timestamp}.txt"
-      @rngLogFile = File.open(filename, "w")
+      @rngLogFile = File.open(filename, "w:UTF-8")
       @rngLogFile.puts("=== Cable Club RNG Diagnostic Log ===")
       @rngLogFile.puts("Client ID: #{client_id}")
       @rngLogFile.puts("Seed: #{seed}")
@@ -191,7 +191,8 @@ class PokeBattle_CableClub < PokeBattle_Battle
       # Battler state snapshot
       @battlers.each_with_index do |b, i|
         next unless b
-        @rngLogFile.puts("  Battler[#{i}]: #{b.pbThis} (#{b.species}) HP=#{b.hp}/#{b.totalhp} Status=#{b.status} Fainted=#{b.fainted?}")
+        name = b.pbThis.encode("UTF-8", invalid: :replace, undef: :replace, replace: "?")
+        @rngLogFile.puts("  Battler[#{i}]: #{name} (#{b.species}) HP=#{b.hp}/#{b.totalhp} Status=#{b.status} Fainted=#{b.fainted?}")
       end
       # Stack trace
       @rngLogFile.puts("Stack:")
