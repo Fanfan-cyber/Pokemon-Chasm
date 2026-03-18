@@ -5888,6 +5888,7 @@ Pokemon = TALONFLAME,70
 Pokemon = EELEKTROSS,70
     Moves = SUPERPOWER,ELECTROSLASH,POISONJAB,LIQUIDATION
     AbilityIndex = 1 # Frustrate
+    Item = AIRBALLOON
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 18,20,6,0,20,6
 Pokemon = SCOLIPEDE,70
@@ -5898,7 +5899,6 @@ Pokemon = SCOLIPEDE,70
 Pokemon = ARAICHU,70
     Moves = PSYCHICOVERLOAD,THUNDERBOLT,DREAMDANCE,SURF
     AbilityIndex = 1 # Surf's Up
-    Item = WATERGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 #-------------------------------
@@ -5913,7 +5913,7 @@ Pokemon = TALONFLAME,70
     Name = Dario
     Item = CLARITYSASH
 Pokemon = EELEKTROSS,70
-    Item = WHITEBOUGH
+    Item = LEADBALLOON
 Pokemon = SCOLIPEDE,70
     Item = DEATHORB
 Pokemon = ARAICHU,70
