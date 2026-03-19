@@ -2333,16 +2333,22 @@ Pokemon = DELCATTY,70
 [COOLTRAINER_F,Zinnia]
 TrainerTypeLabel = DEVELOPER
 Pokemon = GALVANTULA,70
-    AbilityIndex = 0 # Ocular
+    Moves = THUNDERBOLT,ENVENOM,BUGBUZZ,STINGINGJEALOUSY
+    AbilityIndex = 1 # Overcharge
 Pokemon = FERALIGATR,70
-    AbilityIndex = 0 # Ferocious
+    Moves = DIVE,LURK,AQUAJET,GLACIALCRUNCH
+    AbilityIndex = 1 # Live and Lurk
 Pokemon = CHANDELURE,70
+    Moves = CONFUSERAY,HEX,BURNINGJEALOUSY,FIREBLAST
     AbilityIndex = 0 # Light Trick
 Pokemon = CROBAT,70
-    AbilityIndex = 0 # Inner Focus
+    Moves = EXSANGUINATE,HUNTDOWN,PSYCHICFANGS,UTURN
+    AbilityIndex = 1 # Rapid Onset
 Pokemon = SWALOT,70
-    AbilityIndex = 0 # Pile On
+    Moves = POISONGAS,SWALLOW,STOCKPILE,ENCORE
+    AbilityIndex = 1 # Toxin Tax
 Pokemon = HYDREIGON,70
+    Moves = DRAGONPULSE,UTURN,DEFOG,HEATWAVE
     AbilityIndex = 0 # Vicious Cycle
 #-------------------------------
 [SUPERNERD,Agentbla]
