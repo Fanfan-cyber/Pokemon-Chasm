@@ -47522,7 +47522,7 @@ Music Volume
 The loudness of background music.
 背景音乐的响度。
 Jingle Volume
-音效音量
+叮咚音量
 The loudness of fanfares, jingles, and other musical effects.
 号角声、叮当声及其他音乐效果的响度。
 SE Volume
@@ -53852,7 +53852,7 @@ Error: Asked to remove item #{item} from Pokémon #{name}, but it doesn't have t
 Which do you want?
 你想要哪1个？
 This Trait has been set to {1}!
-此特性已设置为{1}！
+此性情已设置为{1}！
 The Like has been set to {1}!
 喜欢已设置为{1}！
 The Dislike has been set to {1}!

@@ -1207,6 +1207,10 @@ class Pokemon
         @title = value
     end
 
+    def clear_title
+      @title = ""
+    end
+
     def has_title?
         !title.empty?
     end
@@ -1632,6 +1636,7 @@ class Pokemon
         if all_new
             ret.name = nil
             ret.owner = Owner.new(0, "", 2, 2)
+            ret.clear_title
             ret.regeneratePersonalID
         end
         ret.set_used_by_player(used_by_player)

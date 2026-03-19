@@ -369,7 +369,7 @@ existingIndex)
             return true  
         elsif cmdSetTitle >= 0 && modifyCommand == cmdSetTitle
             title = pbEnterText(_INTL("Enter a new Title."), 0, 32)
-            @pkmn.title= title if title && !title.empty?
+            @pkmn.title = title if title && !title.empty?
         elsif cmdSetLike >= 0 && modifyCommand == cmdSetLike
             @pkmn.choose_like
         elsif cmdSetDislike >= 0 && modifyCommand == cmdSetDislike
