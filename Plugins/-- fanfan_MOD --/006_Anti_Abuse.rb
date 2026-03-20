@@ -68,7 +68,7 @@ module AntiAbuse
   PROMISE_CLAIM   = ["I promise", "我保证"]
   GAME_OFFICIAL   = %w[宝可饭堂 pokefans 地震啦！！！ 493645591].freeze
   GO_SOURCE_CHECK = false
-  OFFICIAL_SITE   = "https://bbs.pokefans.xyz/threads/598/"
+  OFFICIAL_SITE   = "https://share.note.youdao.com/s/Iq7JsH33"
   CHEAT_CLASS     = [:CheatItemsAdapter, :ScreenCheat_Items, :SceneCheat_Items, :Scene_Cheat, :Window_GetItem, :PokemonLoad].freeze
   CHEAT_METHOD    = [:pbenabledebug, :pbDebugMenu]
   CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe GearNT.exe].freeze
