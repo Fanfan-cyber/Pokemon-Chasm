@@ -587,6 +587,12 @@ class PokeBattle_Move
             multipliers[:base_damage_multiplier] *= (party_most_type[1] * 0.01 + 1.0)
         end
 
+        # Stand Punishment
+        turn_count = target.turnCount
+        turn_count += 1 if aiCheck
+        stand_punishment_count = turn_count - Settings::STAND_PUNISHMENT_THRESHOLD
+        multipliers[:base_damage_multiplier] *= (stand_punishment_count * Settings::STAND_PUNISHMENT * 0.01 + 1.0) if stand_punishment_count > 0
+
 =begin
         if user.pbOwnedByPlayer?
             legendary_count = $Trainer.legendary_count
