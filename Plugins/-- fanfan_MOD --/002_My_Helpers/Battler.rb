@@ -119,6 +119,7 @@ class PokeBattle_Battler
       @battle.pbHideAbilitySplash(self)
       #@battle.ai_update_abilities(self, abils: @ability_ids)
     end
+    track_all_abilities
 
     @battle.pbCalculatePriority(false, [@index])
   end

@@ -262,7 +262,7 @@ class PokeBattle_AI
                 currentHP = battler.hp.to_f
                 currentHP += battler.totalhp * 0.25 if battler.hasActiveAbilityAI?(:REGENERATOR) || battler.hasActiveAbilityAI?(:HOLIDAYCHEER)
                 currentHP += battler.totalhp * 0.1 if battler.hasActiveAbilityAI?(:NATURALCURE)
-                currentHP += battler.totalhp * ((battler.switch_healing_amt + Settings::REST_HEALING_AMT) / 100.0) # Switch Healing, default rest 1 turn
+                currentHP += battler.totalhp * ((battler.switch_healing_amt(true) + Settings::REST_HEALING_AMT) / 100.0) # Switch Healing, default rest 1 turn
                 currentHP += battler.totalhp * 0.1 if battler.hasTribeBonus?(:CARETAKER)
                 currentHP += battler.totalhp * ENTRY_LOWEST_HEALING_ABILITY_FRACTION if battler.hasActiveAbilityAI?(:REFRESHMENTS) && battler.ownersPolicies.include?(:SUN_TEAM)
                 currentHP += battler.totalhp * ENTRY_LOWEST_HEALING_ABILITY_FRACTION if battler.hasActiveAbilityAI?(:TOLLTHEBELLS) && battler.ownersPolicies.include?(:ECLIPSE_TEAM)

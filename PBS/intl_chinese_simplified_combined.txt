@@ -3958,7 +3958,7 @@ Yes
 You see a book titled "Dealing with Retirement."
 《如何应对退休生活》
 Hello, hello! I am the official Name Rater! Want me to rate the nicknames of your Pokémon?
-你好你好！我是1名职业的姓名鉴定师！想让我评估你的精灵昵称吗?
+你好你好！我是1名职业的取名大师！想让我评估你的精灵昵称吗?
 ...
 ...
 Is what I would say. In the modern day my services are no longer needed by trainers.
@@ -4646,7 +4646,7 @@ I hiked up to the top earlier to capture it, but it wouldn't even battle me.
 Beats me.
 我搞不懂。
 Name Rater's House
-名字专家 宅
+取名大师家
 Ohoho, so you've beat everyone in the club have you?
 哦吼吼，所以说...你已经打败了俱乐部的所有人对吧？
 Well, everyone but me.
@@ -44007,7 +44007,7 @@ Grand Hotel
 宏伟酒店
 48
 Name Rater's House
-名字大师之家
+取名大师家
 49
 Tourist's House
 甜瓜民宅

@@ -48,9 +48,16 @@ class PokeBattle_Battler
     #=============================================================================
     # Ability effects
     #=============================================================================
-    def switch_healing_amt
-        return Settings::SWITCH_HEALING_AMT * 1.5 if @battle.curseActive?(:CURSE_SPIKES)
+    def switch_healing_amt(aiCheck = false)
+        return 0 unless can_switch_healing?(aiCheck)
+        return Settings::SWITCH_HEALING_AMT * 1.5 if @battle.curseActive?(:CURSE_SPIKES) && !pbOwnedByPlayer?
         return Settings::SWITCH_HEALING_AMT
+    end
+
+    def can_switch_healing?(aiCheck = false)
+        turn_count = @turnCount
+        turn_count += 1 if aiCheck
+        return canHeal? && turn_count > 1
     end
 
     def pbAbilitiesOnSwitchOut
@@ -58,7 +65,7 @@ class PokeBattle_Battler
         @battle.tracker_get(:turn_switched)[unique_id] = @battle.turnCount
 
         # Switch Healing Switch part
-        pbRecoverHP(@totalhp * switch_healing_amt / 100.0, false, false, false) if canHeal?
+        pbRecoverHP(@totalhp * switch_healing_amt / 100.0, false, false, false)
 
         eachActiveAbility do |ability|
             BattleHandlers.triggerAbilityOnSwitchOut(ability, self, @battle, false)
@@ -306,7 +313,6 @@ class PokeBattle_Battler
     # Held item consuming/removing
     #=============================================================================
     def canConsumeBerry?
-
         ret = @battle.apply_field_effect(:block_berry, self)
         return false if ret
 
@@ -315,7 +321,6 @@ class PokeBattle_Battler
     end
 
     def canLeftovers?
-
         ret = @battle.apply_field_effect(:block_leftovers, self)
         return false if ret
 
@@ -324,7 +329,6 @@ class PokeBattle_Battler
     end
 
     def canConsumeGem?
-
         ret = @battle.apply_field_effect(:block_gem, self)
         return false if ret
 
