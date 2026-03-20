@@ -57,12 +57,16 @@ def pbBattleOnStepTakenEx(repel_active)
   encounter = $PokemonEncounters.choose_wild_pokemon(encounter_type)
   encounter = EncounterModifier.trigger(encounter)
   if $PokemonEncounters.allow_encounter?(encounter, repel_active)
-    if $PokemonEncounters.have_double_wild_battle?
-      encounter2 = $PokemonEncounters.choose_wild_pokemon(encounter_type)
-      encounter2 = EncounterModifier.trigger(encounter2)
-      pbDoubleWildBattle(encounter[0], encounter[1], encounter2[0], encounter2[1])
+    if pbConfirmMessage(_INTL("Oh! A wild {1} appeared! Run?", GameData::Species.get(encounter[0]).name))
+        pbMessage(_INTL("You got away safely!"))
     else
-      pbWildBattle(encounter[0], encounter[1])
+      if $PokemonEncounters.have_double_wild_battle?
+        encounter2 = $PokemonEncounters.choose_wild_pokemon(encounter_type)
+        encounter2 = EncounterModifier.trigger(encounter2)
+        pbDoubleWildBattle(encounter[0], encounter[1], encounter2[0], encounter2[1])
+      else
+        pbWildBattle(encounter[0], encounter[1])
+      end
     end
     $PokemonTemp.encounterType = nil
     $PokemonTemp.encounterTriggered = true

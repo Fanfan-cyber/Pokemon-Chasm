@@ -55297,6 +55297,8 @@ You have no more Pokémon that can fight!<<1>>
 You have no more Pokémon that can fight!<<1>>
 You blacked out!
 You blacked out!
+Oh! A wild {1} appeared! Run?
+Oh! A wild {1} appeared! Run?
 The repellent's effect wore off! Would you like to use another one?
 The repellent's effect wore off! Would you like to use another one?
 The repellent's effect wore off!

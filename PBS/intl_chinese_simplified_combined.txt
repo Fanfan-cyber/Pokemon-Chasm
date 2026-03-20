@@ -34324,7 +34324,7 @@ The user slams the opposing side with its flaming body. The heavier the user is,
 The user attacks by exhaling hot breath on the opposing team. It has a 20% chance to burn.
 使用者通过向对手队伍呼出热气进行攻击。有20%概率使目标陷入烧伤。
 The user attacks all foes nearby with fire. The targets' held Berry or Gem becomes burnt up and unusable.
-使用者用火焰攻击所有附近的敌人。目标携带的树果或宝石会被烧毁，无法使用。
+使用者用火焰攻击所有附近的敌人。目标携带的树果或宝石会被烧毁。
 The user attacks by engulfing the target in an intense fire. It leaves the target with a burn.
 用烈焰包裹住对手进行攻击。让对手陷入烧伤状态。
 The user spews magma around the target, trapping and binding it for three turns.
@@ -42109,7 +42109,7 @@ Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat st
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 当精灵等级达到25级或以上时，它会根据即将使用的技能的属性变为其家族的成员。
 Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
-HP减小到一半以下时，与目标交换HP。每场战斗仅发动1次。
+HP减小到一半以下时，与对手交换HP。每场战斗仅发动1次。
 Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
@@ -55297,6 +55297,8 @@ You have no more Pokémon that can fight!<<1>>
 你没有更多可以战斗的精灵了！<<1>>
 You blacked out!
 你濒死了！
+Oh! A wild {1} appeared! Run?
+野生的{1}出现了！<<n>>要逃跑吗？
 The repellent's effect wore off! Would you like to use another one?
 除虫喷雾的效果消失了，要使用下1个吗？
 The repellent's effect wore off!
