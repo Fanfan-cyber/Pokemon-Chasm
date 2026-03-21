@@ -6,6 +6,31 @@ module AbilityDex
   @@abilis_fanfan   = nil
   @@old_language    = "English"
   @@new_language    = "English"
+  @@abil_to_pkmn    = nil
+
+  def self.build_abil_to_pkmn_cache
+    return @@abil_to_pkmn if @@abil_to_pkmn
+    @@abil_to_pkmn = {}
+    GameData::Species.each do |species|
+      species.legalAbilities.each do |ability_id|
+        @@abil_to_pkmn[ability_id] ||= []
+        unless @@abil_to_pkmn[ability_id].include?(species)
+          @@abil_to_pkmn[ability_id] << species
+        end
+      end
+    end
+  end
+
+  def self.find_pkmn_by_abil(ability_id)
+    ret = pbChoosePkmnFromListEX(_INTL("Which Species?"), @@abil_to_pkmn[ability_id] || [])
+    return unless ret && ret[0]
+    species = GameData::Species.get(ret[0]).species
+    openSingleDexScreen(species)
+  end
+
+  def self.find_pkmn_by_value(value)
+    find_pkmn_by_abil(@@abil_to_pkmn[value])
+  end
 
   def self.language_changed?
     @@new_language != @@old_language
@@ -28,15 +53,16 @@ module AbilityDex
   end
 
   def self.open_abilitydex
+    build_abil_to_pkmn_cache
     set_language
     listIndex = 0
     loop do
-      id, listIndex = pbListScreenGuide(_INTL("AbilityDex (Search: Z)"), BattleGuideLister.new(abilityDexMainHash, listIndex))
+      id, listIndex = pbListScreenGuide(_INTL("AbilityDex (Search: D)"), BattleGuideLister.new(abilityDexMainHash, listIndex))
       break if id.nil?
       sectionLabel   = abilityDexMainDirectory.keys[listIndex]
       directoryEntry = abilityDexMainDirectory.values[listIndex]
       guideListHash  = send directoryEntry[1]
-      pbListScreenGuide(+ sectionLabel, BattleGuideLister.new(guideListHash), false)
+      pbListScreenGuide(+ sectionLabel, BattleGuideLister.new(guideListHash), false, true)
     end
   end
 
@@ -66,6 +92,7 @@ module AbilityDex
       next if abil.is_test?
       count += 1
       @@abilis_canon["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
+      @@abil_to_pkmn["#{count} #{abil.name}"] = abil.id
     end
     @@abilis_canon
   end
@@ -79,6 +106,7 @@ module AbilityDex
       next if abil.is_test?
       count += 1
       @@abilis_new["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
+      @@abil_to_pkmn["#{count} #{abil.name}"] = abil.id
     end
     @@abilis_new
   end
@@ -92,6 +120,7 @@ module AbilityDex
       next if abil.is_test?
       count += 1
       @@abilis_fanfan["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
+      @@abil_to_pkmn["#{count} #{abil.name}"] = abil.id
     end
     @@abilis_fanfan
   end
@@ -105,6 +134,7 @@ module AbilityDex
       next if abil.is_test?
       count += 1
       @@abilis_primeval["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
+      @@abil_to_pkmn["#{count} #{abil.name}"] = abil.id
     end
     @@abilis_primeval
   end
@@ -118,6 +148,7 @@ module AbilityDex
       next if abil.is_test?
       count += 1
       @@abilis_cut["#{count} #{abil.name}"] = addBattleKeywordHighlighting("#{abil.description}\n#{abil.details}", isAbility: true)
+      @@abil_to_pkmn["#{count} #{abil.name}"] = abil.id
     end
     @@abilis_cut
   end
@@ -158,7 +189,7 @@ module ItemDex
     set_language
     listIndex = 0
     loop do
-      id, listIndex = pbListScreenGuide(_INTL("ItemDex (Search: Z)"), BattleGuideLister.new(itemDexMainHash, listIndex))
+      id, listIndex = pbListScreenGuide(_INTL("ItemDex (Search: D)"), BattleGuideLister.new(itemDexMainHash, listIndex))
       break if id.nil?
       sectionLabel   = itemDexMainDirectory.keys[listIndex]
       directoryEntry = itemDexMainDirectory.values[listIndex]

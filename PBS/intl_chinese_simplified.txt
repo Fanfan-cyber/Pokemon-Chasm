@@ -49566,7 +49566,7 @@ Struggle
 {1} began charging up!
 {1}开始充电！
 {1}'s HP is full!
-{1}的HP满了！
+{1}的HP是满的！
 But it failed, since the effect is already active!
 但是失败了，因为效果已经激活！
 But it failed, since {1} used a protection move last turn!
@@ -51177,6 +51177,8 @@ But it couldn't swap into anybody!
 但是它没法替换上精灵！
 {1} resists its impending doom!
 {1}抵抗了即将到来的厄运！
+{1} stole {2}'s healing effects!
+{1}窃取了{2}的回复效果！
 Told to recover a negative amount
 被要求回复1个负数的量
 {1}'s HP was restored.
@@ -59261,8 +59263,10 @@ Do you want to take a Pokémon from the opposing party?
 你想从对方队伍中带走1只精灵吗？
 Which Pokémon do you want to take?
 你想带走哪只精灵？
-AbilityDex (Search: Z)
-特性图鉴(搜索: Z)
+Which Species?
+要查看哪个物种？
+AbilityDex (Search: D)
+特性图鉴(搜索: D)
 Ability Canon
 特性 旧
 Abilities that GF made.
@@ -59281,8 +59285,8 @@ Ability Cut
 特性 删除
 Abilities that have been cut.
 已被删除的特性。
-ItemDex (Search: Z)
-物品图鉴(搜索: Z)
+ItemDex (Search: D)
+物品图鉴(搜索: D)
 TM Machine
 TM
 TMs.

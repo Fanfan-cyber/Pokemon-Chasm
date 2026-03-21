@@ -186,7 +186,7 @@ def pbListScreenExtra(title,lister,breakOnUse = true)
 	return value, finalListIndex
 end
 
-def pbListScreenGuide(title,lister,breakOnUse = true)
+def pbListScreenGuide(title,lister,breakOnUse = true, ability_dex = false)
 	viewport = Viewport.new(0,0,Graphics.width,Graphics.height)
 	viewport.z = 99999
 	list = pbListWindow([], Graphics.width/2, true)
@@ -226,7 +226,8 @@ def pbListScreenGuide(title,lister,breakOnUse = true)
 	  elsif Input.trigger?(Input::USE) && breakOnUse
 		  break
 	  end
-    index = searchListWindow(list) if Input.trigger?(Input::ACTION)
+    index = searchListWindow(list) if Input.trigger?(Input::SPECIAL)
+    AbilityDex.find_pkmn_by_value(lister.value(selectedmap)) if Input.trigger?(Input::USE) && ability_dex
 	end
 	value = lister.value(selectedmap)
 	finalListIndex = list.index

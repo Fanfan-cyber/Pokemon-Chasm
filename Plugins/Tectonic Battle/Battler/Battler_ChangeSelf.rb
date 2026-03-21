@@ -205,27 +205,41 @@ class PokeBattle_Battler
         end
 
         # Actually perform the HP change
+        @battle.pbDisplay(customMessage) if customMessage
         unless aiCheck
-            oldHP = @hp
-            self.hp += amt
-            self.hp = 0 if self.hp.negative?
-            PBDebug.log("[HP change] #{pbThis} gained #{amt} HP (#{oldHP}=>#{@hp})") if amt.positive?
-            raise _INTL("HP greater than total HP") if @hp > @totalhp unless canOverheal
-            anyAnim = false if @autoTesting
-            @battle.scene.pbHPChanged(self, oldHP, anim) if anyAnim
-            if showMessage
-                if amt.positive?
-                    message = customMessage.nil? ? _INTL("{1}'s HP was restored.", pbThis) : customMessage
-                    @battle.pbDisplay(message)
-                elsif amt.negative?
-                    @battle.pbDisplay(_INTL("{1}'s lost HP.", pbThis))
-                end
+            stealers = []
+            @battle.eachOtherSideBattler(@index) do |stealer|
+                stealers << stealer if stealer.hasActiveAbility?(:HEALINGSTEALER)
             end
+            healers = [self]
+            healers = stealers unless stealers.empty?
+            healers.each do |healer|
+                if stealers.include?(healer)
+                    @battle.pbShowAbilitySplash(healer, :HEALINGSTEALER)
+                    @battle.pbDisplay(_INTL("{1} stole {2}'s healing effects!", healer.pbThis, pbThis(true)))
+                    @battle.pbHideAbilitySplash(healer)
+                end
 
-            if amt.negative?
-                pbItemHPHealCheck(items_to_skip: items_to_skip)
-                pbAbilitiesOnDamageTaken(oldHP)
-                pbFaint if fainted?
+                oldHP = healer.hp
+                healer.hp += amt
+                healer.hp = 0 if healer.hp.negative?
+                PBDebug.log("[HP change] #{healer.pbThis} gained #{amt} HP (#{oldHP}=>#{@hp})") if amt.positive?
+                raise _INTL("HP greater than total HP") if healer.hp > healer.totalhp unless canOverheal
+                anyAnim = false if @autoTesting
+                @battle.scene.pbHPChanged(healer, oldHP, anim) if anyAnim
+                if showMessage
+                    if amt.positive?
+                        @battle.pbDisplay(_INTL("{1}'s HP was restored.", healer.pbThis))
+                    elsif amt.negative?
+                        @battle.pbDisplay(_INTL("{1}'s lost HP.", healer.pbThis))
+                    end
+                end
+
+                if amt.negative?
+                    healer.pbItemHPHealCheck(items_to_skip: items_to_skip)
+                    healer.pbAbilitiesOnDamageTaken(oldHP)
+                    healer.pbFaint if healer.fainted?
+                end
             end
         end
         return amt

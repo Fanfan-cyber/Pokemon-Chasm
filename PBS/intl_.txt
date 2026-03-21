@@ -51177,6 +51177,8 @@ But it couldn't swap into anybody!
 But it couldn't swap into anybody!
 {1} resists its impending doom!
 {1} resists its impending doom!
+{1} stole {2}'s healing effects!
+{1} stole {2}'s healing effects!
 Told to recover a negative amount
 Told to recover a negative amount
 {1}'s HP was restored.
@@ -59261,8 +59263,10 @@ Do you want to take a Pokémon from the opposing party?
 Do you want to take a Pokémon from the opposing party?
 Which Pokémon do you want to take?
 Which Pokémon do you want to take?
-AbilityDex (Search: Z)
-AbilityDex (Search: Z)
+Which Species?
+Which Species?
+AbilityDex (Search: D)
+AbilityDex (Search: D)
 Ability Canon
 Ability Canon
 Abilities that GF made.
@@ -59281,8 +59285,8 @@ Ability Cut
 Ability Cut
 Abilities that have been cut.
 Abilities that have been cut.
-ItemDex (Search: Z)
-ItemDex (Search: Z)
+ItemDex (Search: D)
+ItemDex (Search: D)
 TM Machine
 TM Machine
 TMs.
