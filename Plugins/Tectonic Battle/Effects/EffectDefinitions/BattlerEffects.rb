@@ -1032,7 +1032,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :apply_proc => proc do |_battle, battler, _value|
         battler.currentMove = battler.lastMoveUsed unless battler.effectActive?(:RampageLocked)
     end,
-    :expire_proc => proc do |battle, battler|
+    :disable_proc => proc do |battle, battler|
         battle.pbDisplay(_INTL("{1} spun down from its rampage.", battler.pbThis))
         battler.currentMove = nil
         if battler.effectActive?(:WillFaintAfterRampage)
