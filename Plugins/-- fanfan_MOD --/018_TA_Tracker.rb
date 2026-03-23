@@ -7,8 +7,8 @@ class PokeBattle_BattleTracker
     @summoned_pokemon = {} # used to record the Pokemon that will be summoned
     @custom_effect    = [] # used to record the Custom Effect for the Battle Loader
 
-    @species_clause  = find_duplicate_species # used to record duplicate species
-    @legendary_clause  = find_extra_legendary_species # used to record extra legendary species
+    @species_clause   = find_duplicate_species # used to record duplicate species
+    @legendary_clause = find_extra_legendary_species # used to record extra legendary species
   end
 end
 
