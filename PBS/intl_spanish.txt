@@ -3526,7 +3526,7 @@ The Tournament has been growing in size and prestige every year.
 El Torneo ha estado creciendo en tamaño y prestigio cada año.
 Makyans have been battling here ever since Trainers became a thing.
 La gente de Makya ha estado combatiendo aquí desde la existencia de los Entrenadores.
-However, it got seriously large and respected once LuxTech started pumped in a bunch of sponsor money.
+However, it got seriously large and respected once LuxTech started pumping in a bunch of sponsor money.
 Sin embargo, pasó a ser especialmente grande y respetado una vez LuxTech empezó a poner un montón de dinero como patrocinador.
 Wow, a wallhacker! #content
 Tremendo, ¡Un atravesador de paredes! #contenido
@@ -4167,7 +4167,7 @@ First, you should restore your Pokémon to full health.
 Primero, deberías curar a tus Pokémon por completo.
 We hope you excel!
 ¡Te deseamos suerte!
-After beating the seventh gym, I decided that me and the team needed a vacation.
+After beating the seventh gym, I decided that the team and I needed a vacation.
 Después de vencer al séptimo gimnasio, decidí que mi equipo y yo necesitamos unas vacaciones.
 Need to be rested up before the championship, right?
 Hay que estar descansados antes del campeonato, ¿No?
@@ -6862,6 +6862,8 @@ A Glaceon used Aurora Veil and Frost Breath in sequence.
 Un Glaceon acaba de usar Velo Aurora y Vaho Gélido de forma seguida.
 The live audience is enraptured by the spectacular display!
 ¡El público es fascinado por la espectacular demostración!
+I'll trade you for any Normal-type Pokemon.
+Te intercambiaré cualquier Pokémon tipo Normal.
 [Map72]
 
 I was attacked by an avatar a few weeks ago.
@@ -7531,6 +7533,8 @@ Guides on teambuilding lay atop pages of basic arithmetic homework.
 Guías de teambuilding cubren páginas de tarea de aritmética básica.
 Need I remind you--knowledge is its own reward.
 Debo recordarte--el conocimiento es su propia recompensa.
+Looks like you prevailed against our most skilled staff in this facility. Great work!
+Parece que te hiciste frente a nuestros empleados más habilidosos. ¡Bien hecho!
 [Map80]
 
 Oh, hey. Didn't see you there. Nice to meet you.
@@ -7942,6 +7946,16 @@ En una portada puedes ver a Rhyperior y Gigachu listos para pelear.
 "Un inicio rocoso. Una derrota electrificante. Todas las estadísticas que te interesan a TI."
 This is a recreation area for LuxTech employees. The maintenance entrance is just north of this building.
 Esta es un área de recreación para empleados de LuxTech. La entrada de mantenimiento está al norte de este edificio.
+I got a crate of this fancy LuxTech brand whitening toothpaste for my Totodile. Figured it'd give her a leg up in contests back home.
+Compré una caja de este dentífrico marca LuxTech para mi Totodile. Supuse que le daría un empujón para sus concursos en casa.
+Instead she's just eating it straight from the tube! Keeps hunting it down, too, no matter where I hide it.
+¡Pero en su lugar lo está comiendo directamente del tubo! Y siempre los encuentra, no importa dónde los esconda.
+This is the last one. Quick, take it before she spots you - it's for the best.
+Este es el último. Rápido, antes de que te vea - es lo mejor para ella.
+Don't know what they put in that stuff that makes her go crazy over it. Wonder if they make mint-flavored Pokéblocks...
+No sé qué le ponen a esa cosa para que le encante tanto. Me pregunto si hacen Pokécubos con sabor de menta...
+...then goes back to slurping toothpaste straight from the tube.
+...y de nuevo a comer dentífrico.
 [Map88]
 My pal here eats the sludge the other workers track in.
 Mi compañero aquí come los residuos que los otros trabajadores encuentran.
@@ -8130,6 +8144,16 @@ Man, it sure is cold out there, huh?
 Viejo, sí que hace frío aquí, ¿eh?
 Not sure why I'm surprised. They did call this a "lodge", after all.
 No sé por qué me sorprende. Supongo que lo llamaron un "hospedaje", después de todo.
+Ahh, I've done it now...
+Ahh, finalmente lo hice...
+I was so excited for this vacation, I blew my whole paycheck on camera supplies.
+Tenía muchas ganas de estas vacaciones, así que gasté todo mi cheque en suministros para cámaras.
+I spent so much I didn't have enough to buy a camera... I can't even afford a ticket for the raffle downstairs...
+Gasté tanto que no tuve suficiente para comprar una cámara... ni siquiera me puedo permitir un ticket para la rifa...
+Take this away from me. I can't even look at it anymore.
+Toma esto. Ya ni siquiera puedo mirarlo.
+I was going to take so many pictures of Patrat... at least it's having fun playing with all the lenses.
+Estaba por tomar tantas fotos al Patrat... al menos es divertido jugar con todos los lentes.
 [Map93]
 
 In order to fight the climate, you have to keep you and your Pokemon in tip-top shape.
@@ -8946,10 +8970,12 @@ If not, forgive this flight of fancy wasting your time. Remember: SHE came up wi
 Si no, perdona esta elucubración por hacer perder tu tiempo. Recuerda: a ELLA se le ocurrió la idea.
 Hmm… maybe this trip was worth more than that changeling imagines.
 Hmm… Quizás este viaje valió más que esa imaginación de un cambio.  
-If you ever find yourself in the <imp>urban expanse</imp> with naught to do, find me.
-Si te encuentras a ti mismo en la <imp>extensión urbana</imp> con nada que hacer, encuéntrame.
+If you ever find yourself in the <imp>urban expanse</imp> of Prizca with naught to do, find me.
+Si te encuentras a ti mismo en la <imp>extensión urbana</imp> de Prizca sin nada que hacer, encuéntrame.
 I’ll be in the <imp>business sector</imp>, like as not. I have plans involving you and yours.
 Estaré en el <imp>sector urbano</imp>, como si nada. Tengo planes que te involucran.
+I’ll be at the riverside, like as not. I have plans involving you and yours.
+Estaré al lado del río, como si nada. Tengo planes que te involucran.
 Whoa! Is all well?
 ¡Wow! ¿Está todo bien?
 Here – I suppose I can spare some supplies. Let us get your team in shape, shall we?
@@ -8974,6 +9000,8 @@ Let's go.
 Vamos allá.
 If you ever find yourself in the urban expanse with naught to do, find me.
 Si algún día te encuentras en la expansión urbana sin nada que hacer, encuéntrame.
+If you ever find yourself in the <imp>urban expanse</imp> with naught to do, find me.
+Si algún día te encuentras en la <imp>expansión urbana</imp> sin nada que hacer, encuéntrame.
 [Map119]
 
 The storage PC in the Pokemon Center here is busted, so we set up an impromptu one here.
@@ -9809,6 +9837,8 @@ Silver Ninjask isn't going to be happy...
 Silver Ninjask no va a estar feliz...
 Now this job's gone completely sideways. Thanks a lot.
 Ahora este trabajo se fue por los suelos. Te lo agradezco.
+You better watch your back when you walk away or I might snatch those TMs from you after all.
+Ten cuidado al darte la vuelta o podría robarte esas MTs después de todo.
 [Map123]
 
 I brought some family heirlooms with me from Galar.
@@ -10654,7 +10684,7 @@ It's slightly slick to the --
 Es ligeramente escurridizo al --
 The Lickitung is unable to move, and in obvious distress.
 El Lickitung no puede moverse, y obviamente estresado.
-You apply the Moomoo Milk to the Lickitung, In an instant, it breaks free, shaking off bits of stone.
+You apply the Moomoo Milk to the Lickitung. In an instant, it breaks free, shaking off bits of stone.
 Le aplicas la Leche Mu-mu al Lickitung, en un instante, se libera, sacudiéndose pedazos de piedra.
 Lickitung brings over the Pokeball and enters it in front of you.
 Lickitung trae la Poké Ball y entra en ella en frente de ti.
@@ -11606,6 +11636,52 @@ I'm not sure, but I swear I saw a sparring match, where the two seemed identical
 No estoy segura, pero juraría haber visto un combate de prueba, donde los dos parecían idénticos...
 The berry plant is growing.
 El árbol de bayas está creciendo.
+Beyond elemental types, Pokémon species are defined by a second affinity.
+Además de los tipos elementales, las especies de Pokémon están definidas por una segunda afinidad.
+These are known as <imp>tribes</imp>.
+A estos se le llaman <imp>clanes</imp>.
+Unlike types, a Pokémon's tribes have no effect on their own.
+A diferencia de los tipos, los clanes de un Pokémon no tienen efectos por sí solos.
+But if you choose your Pokémon carefully, bringing together those that share a tribe...
+Pero si decides tus Pokémon con cuidado, y reúnes a aquellos que compartan un clan...
+They'll do fascinating things together!
+¡Y harán cosas fascinantes juntos!
+Back in my youth, I couldn't choose which Pokémon to use. It was too overwhelming.
+En mi juventud , no podía decidir qué Pokémon usar. Era muy abrumador.
+My wife said "Pick a tribe, and stick to it!"
+Mi esposa dijo "¡Elije un clan, y quédate con el!"
+So I restricted myself to Warriors, my favorite tribe. Problem solved!
+Así que me limité a usar Guerreros, mi clan favorito. ¡Problema solucionado!
+It's <i>usually</i> best to listen to her, I've found.
+Me di cuenta que <i>generalmente</i> es mejor hacerle caso.
+Got time to battle?
+¿Tienes tiempo para un combate?
+I'll be challenging Lambert's gym soon, but I need more practice with this team.
+Pronto voy a desafiar el gimnasio de Lambert, pero necesito practicar más con este equipo.
+Put it together just recently. Custom built to counter that ruffian.
+Lo formé hace poco. Hecho a la medida para contrarrestar a ese rufián.
+Gotta put in the work if I'm gonna perfect him!
+¡Debo ponerme a trabajar si quiero perfeccionarlo!
+I'm much too fun to deprive you of my presence so easily.
+No voy a privarte de mi divertida presencia tan fácilmente.
+If my personality isn't enough of an incentive, I've also got this backpack full of sweets.
+Si mi personalidad no es incentivo suficiente, también tengo esta mochila llena de caramelos.
+I'll give you some <imp>EXP Candy</imp> every time you manage to beat me.
+Te daré algunos <imp>Caramelos EXP</imp> cada vez que me derrotes.
+Sound good? Hit me up when you wanna try a battle!
+¿Suena bien? ¡Háblame cuando quieras un combate!
+Each Pokemon has their own Personality Traits.
+Cada Pokémon tiene sus propios Rasgos de Personalidad.
+Bonding with a Pokemon, and discovering what makes them unique, can be such a source of joy.
+Vincularse con un Pokémon, y descubrir qué los hace únicos, puede ser una fuente de felicidad.
+Don't worry about your battles. No matter the personality, any Pokemon can be an excellent battler.
+No te preocupes por tus combates. No importa su personalidad, cualquier Pokémon puede ser un excelente combatiente.
+Use whatever Pokemon you connect with the most.
+Usa cualquier Pokémon con el que más conectes.
+That's a lesson that my dear wife taught me.
+Esa es una lección que mi querida esposa me enseñó.
+She's correct <i>almost</i> all of the time!
+¡Ella tiene razón <i>casi</i> siempre!
 [Map137]
 
 I'm a safety minded person.
@@ -12512,6 +12588,12 @@ Hmm.... should I go make a different team? Agh, I'm not sure...
 Hmm.... ¿debería hacer un equipo diferente? Ahh, no lo sé...
 If only I had chosen different moves. Maybe I could have won that one.
 Si tan solo hubiera elegido diferentes movimientos. Quizás podría haber ganado en ese momento.
+That being said... where has Michi gone off to? She was here a moment ago...
+Dicho esto... ¿a dónde fue Michi? Estaba aquí hasta solo hace un momento...
+There you are! Come on Michi, we have a job to do.
+¡Aquí estás! Vamos Michi, tenemos trabajo que hacer.
+I gotta skedaddle, but if you wanna meet up, I'll be in <imp>Whitebloom Town</imp>.
+Debo salir pitando, pero si quieres verme, estaré en <imp>Pueblo Whitebloom</imp>.
 [Map157]
 
 The destruction of the bridge over at the Eleig River Crossing has really put a hamper on things.
@@ -19624,120 +19706,6 @@ First-rate Trainers gather here as a proving ground of sorts.
 Entrenadores del más alto nivel se juntan aquí para ponerse a prueba. 
 If you're trying to head to Whitebloom, good luck getting through it all.
 Si estás intentando llegar a Whitebloom, buena suerte en atravesar todo eso.
-Hey!
-¡Hey!
-Hey hey hey hey!
-¡Hey hey hey hey!
-OK, so, like, I know what you’re thinking: "Wow, Candy, you’re, like,
-Ok, entonces, sí, sé lo que estás pensando: "Wow, Candy, eres, como,
-super-cool for hanging out in such a super-cool place full of dangerous trainers." And, uh, yeah, thank you for noticing, I totally am.
-super-genial por estar en un lugar super-genial lleno de entrenadores peligrosos." Y, eh, seh, gracias por notarlo, realmente lo soy.
-But I’ve got a reason, and it’s not even illegal!
-Pero tengo un motivo, ¡Y ni siquiera es ilegal!
-So, apparently Tamarind shows up in Whitebloom Town every few months to like check in or whatever, and I just did a li'l recon and...
-Así que, aparentemente Tamarind aparece en Pueblo Whitebloom cada varios meses para ver qué tal o lo que sea, así que hice un pequeño reconocimiento y...
-OK, maybe it was actually a little illegal.
-Ok, quizás sí fue un poco ilegal.
-No, shh, I can feel you, like, being judgy right now, and I totally don’t need that energy in my life right now.
-No, shh, puedo sentir que estás siendo, como, muy juzgón, y realmente no necesito esa energía en mi vida ahora mismo.
-Because she’s the second-in-command of all Team Chasm! Like, duh!
-¡Porque ella es la segunda al mando de todo Team Chasm! ¡Osea, duh!
-She’s probably at the top of my hit list – I kinda forgot where I put it and now I can’t find it anymore but it’s almost 100 percent got her name in
-Ella probablemente está en lo más arriba de mi lista negra – medio que olvidé donde la puse y ya no puedo encontrarla pero es casi 100 por cien seguro que tengo su nombre en
-big letters at the top!
-grandes letras en lo alto!
-Ugh, I can’t believe how on the same wavelength we are. You are like my buddy cop soulmate.
-Ugh, no puedo creer cómo estamos en la misma onda. Eres como mi alma gemela pero como mi compañero en robos.
-Oh, uh, yeah, sorry, hi, love you too. Cool?
-Oh, eh, sí, lo siento, hola, también te amo. ¿Bien?
-Cool. Let’s talk about the interesting stuff!
-Bien. ¡Hablemos de las cosas interesantes!
-So, I broke into the abandoned lab and rooted around in there – which, it’s like mega-abandoned and super unsafe but, um, who cares – and found these.
-Entonces, entré al laboratorio abandonado y me quedé allí – el cual, está como mega-abandonado y es súper peligroso pero, em, a quién le importa – y encontra estos.
-Um, which is the part where I’d show you the stuff I’d found but I kinda shoved it in my backpack and that place is a total mess.
-Em, esta es la parte en la que te mostraría lo que encontré pero lo puse en mi mochila y ese lugar es todo un desastre.
-So, uh, instead of digging it out, just take my word on it!
-Así que, eh, en vez de buscarlo, ¡Sólo confía en mí!
-It’s this like dossier on a whole bunch of old Team Chasm operations that Tamarind must’ve left in there and forgot about!
-¡Es como un expediente en un montón de operaciones antiguas del Team Chasm que Tamarind debió dejar ahí y olvidar luego!
-Oh, all kinds of stuff with these, like, killer names.
-Oh, hay de todo aquí, tipo, tremendos nombres.
-Like “Operation Vagabond Plumage” or “Operation Cardinal Sin” or “Project Theodicy.” It gives me happy chills just thinking about it!
-Como "Operación Plumaje Vagabundo" o "Operación Pecado Cardinal" o "Proyecto Teodicea." ¡Me pone la piel de gallina de solo pensarlo!
-Yeah, but she’s like totally on that grindset 24/7 with running ex-Chasm stuff plus Professor work plus bureaucracy.
-Seh, pero ella está totalmente en esa rutina de 24/7 entre manejar a los ex-Chasm más trabajo de Profesor más burocracia.
-I knew she had to slip up eventually! Can’t just chug coffee forever!
-¡Sabía que tenía que meter la pata eventualmente! ¡No puede atragantarse con café para siempre!
-What? No! No way!
-¿Qué? ¡No! ¡Ni hablar!
-OK, wait, like, maybe that’s a good idea?
-Ok, espera, de hecho, ¿Quizás sí es una buena idea?
-Like, if I’ve already got everything I need to know, I can totally get her to lower her guard by giving it back.
-Bien, si ya tengo todo lo que tengo que saber, puedo realmente bajar su guarda al devolverlo.
-Anyways, the main thing I actually, like,
-Como sea, lo que realmente, tipo,
-care about is \nthis after-action report for something called “Project Testament.” Y’know how Velenz is, like, this total ghost town?
-me importa es \neste reporte para algo llamado "Proyecto Testamento". Ya sabes como Velenz es, tipo, ¿Todo un pueblo fantasma?
-Well if I’m reading this right – and I had to look up a few words but I think I am – Team Chasm caused that!
-Bueno si estoy leyendo esto correctamente – y tuve que buscar un par de palabras pero creo que lo estoy – ¡El Team Chasm causó eso!
-They found some way to make avatars show up and secretly made them swarm the town, ‘cause apparently Velenz was super-resistant to helping.
-Encontraron una forma para que los avatares aparezcan y secretamente hicieron que vayan al pueblo 'porque aparentemente Velenz fue súper-resistente a ayudar.
-Then they, like, intentionally lured avatars into the caves around there to mess up the foundations, and the whole thing started to sink into the mud!
-Entonces ellos, tipo, intencionalmente atrayeron avatares a las cuevas alrededor para arruinar los cimientos, ¡Y todo el pueblo empezó a hundirse en el lodo!
-Seriously, it’s screwed-up!
-En serio, ¡Es demasiado jodido!
-Yeah! Like, this is the stuff Team Chasm did, and people are still, like, totally OK with them running around!
-¡Sí! Osea, estas son las cosas que el Team Chasm hizo, y la gente todavía está, como, ¡Totalmente bien que ellos sigan por ahí! 
-Um... not completely sure, but I’m absolutely certain they did some evil stuff there, OK?
-Em... no estoy completamente segura, pero estoy absolutamente convencida de que hicieron cosas malvadas allí, ¿Ok? 
-I don’t know how they did it, or if the whole, uh, what was it called... “soil liquefication?”
-No sé cómo lo hicieron, o si toda esa, eh, cómo se llamaba... "¿Licuación del suelo?"
-Yeah, I dunno if that was intentional or not, but the report is pretty damn happy about it!
-Seh, no sé si eso fue intencional o no, ¡Pero estos reportas están muy contentos al respecto!
-I mean, like, kinda? The report doesn’t really get into the hows or whys that much, but, like, c’mon!
-Osea, tipo, ¿Más o menos? El reporte no detalla los cómos o porqués, pero, osea, ¡Vamos!
-If you don’t like these people, just, like, fight them? This is messed up.
-Si no te gusta esta gente, sólo, osea, ¿Combate contra ellos? Esto es jodido.
-No!
-¡No! 
-No, no, no. No talking.
-No, no, no. Nada de hablar.
-I know you’re friends with Tamarind, and, like, yeah, she did you a favor, and she’s cool. But this lady has done some evil stuff.
-Sé que Tamarind es tu amiga, y, osea, sí, te hizo un favor, y ella es genial. Pero esta señorita ha hecho cosas malvadas.
-I’ve got a plan to confront her, and I want your help, alright?
-Tengo un plan para enfrentarla, y quiero tu ayuda, ¿Bien?
-Once the tournament is about to start, pretty much everybody is gonna be there, so there’s gonna be way less goons just out and about.
-Una vez que el torneo esté a punto de empezar, prácticamente todos van a estar ahí, así que habrá menos matones de un lado para el otro.
-I’ll send her an anonymous li’l letter – ooh, I can cut up the dossiers for letters and glue them together! That’s awesome!
-¡Le enviaré una una cartita anónima – ooh, ¡éuedo recortar las letras del expediente y pegarlas juntas! ¡Eso es increíble!
-Anyways, yeah, send her a letter, tell her to come to the <imp>sewer maintenance building on the river banks</imp>. She’ll be there.
-Como sea, seh, mándale una carta, dile que venga al <imp>edificio de mantenimiento de las alcantarillas en la ribera</imp>. Ellá estará allí.
-Then you and me – we get some justice.
-Después tú y yo – conseguiremos justicias.
-Alright? Alright! Great, cool, not gonna let you respond to that because honestly you can’t change my mind!
-¿Bien? ¡Bien! Genial, perfecto, no te dejaré responderme a eso porque la verdad no puedes hacerme cambiar de opinión!
-You’re my friend and partner in crime and definitely not the minion of an evil mastermind! Toodles!
-¡Eres mi amigo y cómplice y definitivamente no el lacayo de un genio del mal! ¡Adiosito!
-Candy...
-Candy...
-Why Tamarind?
-¿Por qué Tamarind?
-Cool. What'd you find?
-Genial. ¿Qué encontrastE!
-Good to see you too.
-Es bueno verte.
-Like what?
-¿Cómo qué?
-Sloppy.
-Descuidado.
-Give it back.
-Devuélvelo.
-That's... horrible.
-Eso es... horrible.
-Are you sure?
-¿Segura?
-Impressive.
-Impresivo.
 I gotta talk to Tamarind.
 Debo hablar con Tamarind.
 HELP ME, LAINIE! HELP ME!
@@ -21116,6 +21084,12 @@ Don't give coffee.
 No dar café.
 Give coffee.
 Dar café.
+Exploring ruins is my hobby, my passion... my life.
+Explorar ruinas es mi hobby, mi pasión... mi vida.
+But I've already explored all the legal ones. And most of the illegal ones.
+Pero ya he explorado todas las legales. Y la mayoría de ilegales.
+Maybe you could do me a favor and... make a few more?
+Quizás podrías hacerme un favor y... ¿crear un par más?
 [Map293]
 
 Me and sister are much better battlers than our parents.
@@ -22574,6 +22548,123 @@ The trash can is filled entirely with old paperwork.
 El cubo de basura está lleno con papeleo antiguo.
 With the lack of light, you can't make out the book titles.
 Al no haber luz, no puedes ver los títulos de los libros.
+Hey!
+¡Hey!
+Hey hey hey hey!
+¡Hey hey hey hey!
+OK, so, like, I know what you’re thinking: "Wow, Candy, it’s super cool that we’re like right next door to where the girl who defeated Team Chasm grew up."
+Osea, entonces, sí, sé lo que estás pensando: "Wow Candy, es súper genial que estemos justo al lado de la casa de la chica que venció al Team Chasm."
+And, uh, yeah, it totally is.
+Y, eh, sí, lo es.
+But I’ve got a reason, and it’s not even illegal!
+Pero tengo un motivo, ¡Y ni siquiera es ilegal!
+So, apparently Tamarind shows up in Whitebloom Town every few months to like check in or whatever, and I just did a li'l recon and...
+Así que, aparentemente Tamarind aparece en Pueblo Whitebloom cada varios meses para ver qué tal o lo que sea, así que hice un pequeño reconocimiento y...
+OK, maybe it was actually a little illegal.
+Ok, quizás sí fue un poco ilegal.
+No, shh, I can feel you, like, being judgy right now, and I totally don’t need that energy in my life right now.
+No, shh, puedo sentir que estás siendo, como, muy juzgón, y realmente no necesito esa energía en mi vida ahora mismo.
+Because she’s the second-in-command of all Team Chasm! Like, duh!
+¡Porque ella es la segunda al mando de todo Team Chasm! ¡Osea, duh!
+She’s probably at the top of my hit list – I kinda forgot where I put it and now I can’t find it anymore but it’s almost 100 percent got her name in
+Ella probablemente está en lo más arriba de mi lista negra – medio que olvidé donde la puse y ya no puedo encontrarla pero es casi 100 por cien seguro que tengo su nombre en
+big letters at the top!
+grandes letras en lo alto!
+Ugh, I can’t believe how on the same wavelength we are. You are like my buddy cop soulmate.
+Ugh, no puedo creer cómo estamos en la misma onda. Eres como mi alma gemela pero como mi compañero en robos.
+Oh, uh, yeah, sorry, hi, love you too. Cool?
+Oh, eh, sí, lo siento, hola, también te amo. ¿Bien?
+Cool. Let’s talk about the interesting stuff!
+Bien. ¡Hablemos de las cosas interesantes!
+So, I broke into the abandoned lab and rooted around in there – which, it’s like mega-abandoned and super unsafe but, um, who cares – and found these.
+Entonces, entré al laboratorio abandonado y me quedé allí – el cual, está como mega-abandonado y es súper peligroso pero, em, a quién le importa – y encontra estos.
+Um, which is the part where I’d show you the stuff I’d found but I kinda shoved it in my backpack and that place is a total mess.
+Em, esta es la parte en la que te mostraría lo que encontré pero lo puse en mi mochila y ese lugar es todo un desastre.
+So, uh, instead of digging it out, just take my word on it!
+Así que, eh, en vez de buscarlo, ¡Sólo confía en mí!
+It’s this like dossier on a whole bunch of old Team Chasm operations that Tamarind must’ve left in there and forgot about!
+¡Es como un expediente en un montón de operaciones antiguas del Team Chasm que Tamarind debió dejar ahí y olvidar luego!
+Oh, all kinds of stuff with these, like, killer names.
+Oh, hay de todo aquí, tipo, tremendos nombres.
+Like “Operation Vagabond Plumage” or “Operation Cardinal Sin” or “Project Theodicy.” It gives me happy chills just thinking about it!
+Como "Operación Plumaje Vagabundo" o "Operación Pecado Cardinal" o "Proyecto Teodicea." ¡Me pone la piel de gallina de solo pensarlo!
+Yeah, but she’s like totally on that grindset 24/7 with running ex-Chasm stuff plus Professor work plus bureaucracy.
+Seh, pero ella está totalmente en esa rutina de 24/7 entre manejar a los ex-Chasm más trabajo de Profesor más burocracia.
+I knew she had to slip up eventually! Can’t just chug coffee forever!
+¡Sabía que tenía que meter la pata eventualmente! ¡No puede atragantarse con café para siempre!
+What? No! No way!
+¿Qué? ¡No! ¡Ni hablar!
+OK, wait, like, maybe that’s a good idea?
+Ok, espera, de hecho, ¿Quizás sí es una buena idea?
+Like, if I’ve already got everything I need to know, I can totally get her to lower her guard by giving it back.
+Bien, si ya tengo todo lo que tengo que saber, puedo realmente bajar su guarda al devolverlo.
+Anyways, the main thing I actually, like,
+Como sea, lo que realmente, tipo,
+care about is \nthis after-action report for something called “Project Testament.” Y’know how Velenz is, like, this total ghost town?
+me importa es \neste reporte para algo llamado "Proyecto Testamento". Ya sabes como Velenz es, tipo, ¿Todo un pueblo fantasma?
+Well if I’m reading this right – and I had to look up a few words but I think I am – Team Chasm caused that!
+Bueno si estoy leyendo esto correctamente – y tuve que buscar un par de palabras pero creo que lo estoy – ¡El Team Chasm causó eso!
+They found some way to make avatars show up and secretly made them swarm the town, ‘cause apparently Velenz was super-resistant to helping.
+Encontraron una forma para que los avatares aparezcan y secretamente hicieron que vayan al pueblo 'porque aparentemente Velenz fue súper-resistente a ayudar.
+Then they, like, intentionally lured avatars into the caves around there to mess up the foundations, and the whole thing started to sink into the mud!
+Entonces ellos, tipo, intencionalmente atrayeron avatares a las cuevas alrededor para arruinar los cimientos, ¡Y todo el pueblo empezó a hundirse en el lodo!
+Seriously, it’s screwed-up!
+En serio, ¡Es demasiado jodido!
+Yeah! Like, this is the stuff Team Chasm did, and people are still, like, totally OK with them running around!
+¡Sí! Osea, estas son las cosas que el Team Chasm hizo, y la gente todavía está, como, ¡Totalmente bien que ellos sigan por ahí! 
+Um... not completely sure, but I’m absolutely certain they did some evil stuff there, OK?
+Em... no estoy completamente segura, pero estoy absolutamente convencida de que hicieron cosas malvadas allí, ¿Ok? 
+I don’t know how they did it, or if the whole, uh, what was it called... “soil liquefication?”
+No sé cómo lo hicieron, o si toda esa, eh, cómo se llamaba... "¿Licuación del suelo?"
+Yeah, I dunno if that was intentional or not, but the report is pretty damn happy about it!
+Seh, no sé si eso fue intencional o no, ¡Pero estos reportas están muy contentos al respecto!
+I mean, like, kinda? The report doesn’t really get into the hows or whys that much, but, like, c’mon!
+Osea, tipo, ¿Más o menos? El reporte no detalla los cómos o porqués, pero, osea, ¡Vamos!
+If you don’t like these people, just, like, fight them? This is messed up.
+Si no te gusta esta gente, sólo, osea, ¿Combate contra ellos? Esto es jodido.
+No!
+¡No! 
+No, no, no. No talking.
+No, no, no. Nada de hablar.
+I know you’re friends with Tamarind, and, like, yeah, she did you a favor, and she’s cool. But this lady has done some evil stuff.
+Sé que Tamarind es tu amiga, y, osea, sí, te hizo un favor, y ella es genial. Pero esta señorita ha hecho cosas malvadas.
+I’ve got a plan to confront her, and I want your help, alright?
+Tengo un plan para enfrentarla, y quiero tu ayuda, ¿Bien?
+Once the tournament is about to start, pretty much everybody is gonna be there, so there’s gonna be way less goons just out and about.
+Una vez que el torneo esté a punto de empezar, prácticamente todos van a estar ahí, así que habrá menos matones de un lado para el otro.
+I’ll send her an anonymous li’l letter – ooh, I can cut up the dossiers for letters and glue them together! That’s awesome!
+¡Le enviaré una una cartita anónima – ooh, ¡éuedo recortar las letras del expediente y pegarlas juntas! ¡Eso es increíble!
+Anyways, yeah, send her a letter, tell her to come to the <imp>sewer maintenance building on the river banks</imp>. She’ll be there.
+Como sea, seh, mándale una carta, dile que venga al <imp>edificio de mantenimiento de las alcantarillas en la ribera</imp>. Ellá estará allí.
+Then you and me – we get some justice.
+Después tú y yo – conseguiremos justicias.
+Alright? Alright! Great, cool, not gonna let you respond to that because honestly you can’t change my mind!
+¿Bien? ¡Bien! Genial, perfecto, no te dejaré responderme a eso porque la verdad no puedes hacerme cambiar de opinión!
+You’re my friend and partner in crime and definitely not the minion of an evil mastermind! Toodles!
+¡Eres mi amigo y cómplice y definitivamente no el lacayo de un genio del mal! ¡Adiosito!
+Candy...
+Candy...
+Why Tamarind?
+¿Por qué Tamarind?
+Cool. What'd you find?
+Genial. ¿Qué encontrastE!
+Good to see you too.
+Es bueno verte.
+Like what?
+¿Cómo qué?
+Sloppy.
+Descuidado.
+Give it back.
+Devuélvelo.
+That's... horrible.
+Eso es... horrible.
+Are you sure?
+¿Segura?
+Impressive.
+Impresivo.
+
+
+
 [Map311]
 
 You decide not to pet it.
@@ -23368,7 +23459,7 @@ I've learned a thing or two watching you battle. It was so eye-opening!
 Aprendí un par de cosas observando tus combates. ¡Fue muy revelador!
 Next year, I know I can at least make it to the semi- finals!
 ¡En el siguiente año, sé que podré al menos llegar a las semifinales!
-Me and my Pokemon might be at a disadvantage since the Tournament is only single battles.
+My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
 Mis Pokémon y yo podremos estar en desventaja ya que el Torneo es exclusivamente en combates individuales.
 It matters not! We will fight through with pure determination!
 ¡No importa! ¡Nos abriremos paso con pura determinación!
@@ -23380,8 +23471,8 @@ Another successful day of guard duty.
 Otro día exitoso como guardia.
 The Emolga is too focused on battling to notice you.
 El Emolga está demasiado concentrado como para prestarte atención.
-Next year, me and my Minccino are gonna enter.
-El siguiente año, Minccino y yo vamos a entrar.
+Next year, my Minccino and I are gonna enter.
+El año que viene, Minccino y yo vamos a entrar.
 I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
 Puedo asegurarte que está ASÍ de evolucionar. Seremos imparables una vez formemos un equipo juntas.
 Just you wait! Minccino and I are gunning for your spot!
@@ -25640,6 +25731,42 @@ Thank you for this!
 ¡Gracias por esto!
 Yes
 Sí
+Welcome to the party! Want a moon rock?
+¡Bienvenido a la fiesta! ¿Quieres una roca espacial?
+No, seriously. I was on the space shuttle launch in Alola last month - we brought all kinds of Pokémon back with us!
+No, en serio. Estaba en el lazamiento del transbordador espacial en el mes pasado - ¡trajimos todo tipo de Pokémon con nosotros! 
+These ones didn't wind up being useful for research, so I've just been handing them out as party favors.
+Estos no terminaron siendo muy útiles para mi investigación, así que los he estado regalando como souvenirs.
+I've got Solrock and Lunatone. Which do you want?
+Tengo un Solrock y un Lunatone. ¿Cuál quieres?
+You sure? These rocks're pretty far from home. Could use a good friend.
+¿Seguro? Estas rocas están muy lejos de casa. Les vendría bien un amigo.
+We could all use a good friend.
+A todos nos vendría bien un amigo.
+Well, let me know if you change your mind. Enjoy the party!
+Bueno, dime si cambias de opinión. ¡Disfruta la fiesta!
+Here you are! One Solrock, fresh from the far reaches of space.
+¡Aquí tienes! Un Solrock, fresco de los confines del espacio.
+Here you are! One Lunatone, straight from the lunar surface.
+¡Aquí tienes! Un Solrock, fresco de la superficie lunar.
+Good memories on that mission, you know. Lots of new friends.
+Hice buenos recuerdos en esa misión, sabes. Hice muchos amigos.
+Like Lainie. I wonder what she's up to now?
+Como Lainie. ¿Me pregunto qué estará haciendo ahora?
+What? Where am I?
+¿Qué? ¿Dónde estoy?
+What- oh... oh god...
+Qué- oh... oh dios...
+Space was so dark... so cold, and so very dark...
+El espacio era tan oscuro... tan frío, demasiado oscuro...
+I need to go. I need to see the sun.
+Tengo que irme. Tengo que ver el sol.
+Maybe later.
+Quizás luego.
+I'll take a Solrock.
+Tomaré a Solrock.
+I'll take a Lunatone.
+Tomaré a Lunatone.
 [Map347]
 
 I used to do maintanence on the bridge that crosses the Eleig river to the west of here.
@@ -27312,35 +27439,12 @@ I heard a group of nerds roleplaying in a cave in Repora Forest.
 Escuché que un grupo de nerds están haciendo roleplay en el Bosque Repora.
 ...Do you think they'd let me join?
 ¿...Crees que me van a dejar unirme a ellos?
-If you're looking to explore more of southern Makya I recommend you got visit Svait.
+If you're looking to explore more of southern Makya I recommend you go visit Svait.
 Si buscas explorar más de la parte sur de Makya recomiendo que visites Svait.
 It snows there year round and there are plenty of places to ice skate!
 ¡Allí cae nieve todo el año y varios lugares donde puedes patinar sobre hielo!
 I don't recommend going to the Barren Crater. It's rather unsightly.
 No recomiendo ir al Cráter Desértico. No es muy vistoso.
-I was just given a Minccino from my family. I appreciate the thought, but this creature here just ain't it.
-Mi familia me acaba de dar este Minccino. Aprecio la idea, pero esta criatura no me va.
-It ain't suited to all the dirt me and my team get on us. Doesn't seem too happy with it's circumstance.
-No es apto para toda la tierra que nos cubre a mi equipo. No parece muy feliz con sus circunstancias.
-Tell you what Trainer, I'll give you the 'mon free of charge, so long as you promise to take care of it.
-Sabes qué Entrenador, te daré el 'mon sin cargos, siempre y cuando prometas que vas a cuidar de él.
-That's fair enough. Needs to feel like a good fit.
-Eso es justo. Necesita poder encajar. 
-I take those promises seriously. Make sure it gets something out of ya.
-Me tomo esas promesas en serio. Asegúrate de que te aporte algo de valor.
-Take care, Trainer.
-Cuídate, Entrenador.
-Word of advice. If it cares about it's fur routine, don't run it on a weather team.
-Un consejo. Si le importa su rutina de pelaje, no lo uses en un equipo climático.
-No thanks.
-No gracias.
-I promise.
-Lo prometo.
-If you're looking to explore more of southern Makya I recommend you go visit Svait.
-Si buscas explorar más de la parte sur de Makya te recomiendo visitar a Svait.
-They're offering evolution items for anyone who can beat them all in a battle.
-Ofrecen objetos evoluti
-[Map396]
 I was just given a Minccino from my family.
 Mi familia me acaba de dar este Minccino.
 I appreciate the thought, but this creature here just ain't it.
@@ -28437,8 +28541,8 @@ In order to fund further research, I want to find a buyer for this extremely rar
 Para financiar investigaciones futuras, quiero encontrar un comprador para esa sustancia extremadamente rara.
 You seem like the kind of person that'd like shiny Pokemon.
 Pareces ser el tipo de persona que le gustaría un Pokémon variocolor.
-Interested in purchasing this vial of Gleam Powder? Estimated costs total at 250,000.
-¿Te interesa comprar este vial de Polvo Brillante? Los costos estimados suman a 250.000.
+Interested in purchasing this vial of Gleam Powder? Estimated costs total at $250,000.
+¿Te interesa comprar este vial de Polvo Brillante? Los costos estimados suman a $250.000.
 I've had sponsors with that kind of money.
 He tenido patrocinadores con esa cantidad de dinero.
 I'm not surprised that you don't.
@@ -28741,6 +28845,38 @@ It looks you in the eyes with unexpected clarity and nods.
 Te mira a los ojos con una claridad inesperada y asiente.
 Sure.
 Seguro.
+Oh? It's a Crabrawler!
+¿Oh? ¡Es un Crabrawler!
+Half-eaten berries are scattered in the grass around it.
+Puedes ver montones de bayas a medio comer en el paso a su alrededor.
+It takes a quick snap towards your bag.
+Rápidamente mira hacia a tu mochila.
+Its claws are snapping aimlessly at the air.
+Está moviendo sus garras en el aire sin dirección alguna.
+Its eyes are glazed over, and it's staring up towards the sky.
+Sus ojos están vidriosos, y está observando hacia el cielo.
+It seems to be suffering from a severely altered mental state.
+Parece estar sufriendo de un estado mental severalmente alterado.
+You could use a Moomoo Milk or a Full Restore to clear its mind.
+Podrías usar una Leche Mu-mu o un Restaurar Todo para despejar su mente.
+You apply the Moomoo Milk to the Crabrawler. It blinks twice, then relaxes.
+Aplicas la Leche Mu-mu al Crabrawler. Parpadea dos veces, y se relaja.
+You don't have a Moomoo Milk to use.
+No tienes ninguna Leche Mu-mu.
+You apply the Full Restore to the Crabrawler. It blinks twice, then relaxes.
+Aplicas el Restaurar Todo al Crabrawler. Parpadea dos veces, y se relaja.
+You don't have a Full Restore to use.
+No tienes ningún Restaurar Todo.
+You notice an open Pokeball hidden in the grass.
+Notas una Poké Ball abierta escondida entre la hierba.
+The Crabrawler tosses the Pokeball into your hand and hops right in.
+El Crabrawler lanza la Poké Ball directo hacia tu mano y salta dentro.
+Leave it.
+Dejarlo.
+Use a Moomoo Milk.
+Usar una Leche Mu-mu.
+Use a Full Restore.
+Usar un Restaurar Todo.
 [Map431]
 You might want to slow down, Trainer. These ships are dangerous.
 Puede que quieras detenerte, Entrenador. Estos barcos son peligrosos.
@@ -29386,6 +29522,30 @@ M. Mantyke
 Mantyke M.
 M. Mantine
 Mantine M.
+M. Omanyte
+Omanyte M.
+M. Omastar
+Omastar M.
+M. Kabuto
+Kabuto M.
+M. Kabutops
+Kabutops M.
+M. Mudkip
+Mudkip M.
+M. Marshtomp
+Marshtomp M.
+M. Swampert
+Swampert M.
+M. Buneary
+Buneary M.
+M. Lopunny
+Lopunny M.
+M. Haerobic
+Haerobic M.
+M. Feebas
+Feebas M.
+M. Milotic
+Milotic M.
 [2]
 Seed
 Semilla
@@ -31073,6 +31233,14 @@ Candy Apple
 Manzamelo
 Apple Hydra
 Manzanhidra
+Facehugger
+Depredador
+Omnivore
+Omnívoro
+Coral Reef
+Arrecífe
+Lush Cave
+Exuberante
 [3]
 While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.
 Se le puede ver durmiendo la siesta a la luz del sol. Hay una semilla en su espalda. Al absorber los rayos del sol, la semilla crece progresivamente.
@@ -33276,7 +33444,7 @@ Food rots and milk curdles in their presence. Because of this, they're commonly 
 La comida se pudre y la leche se corta en su presencia. Dado a esto, comúnmente escapan de Pokémon enojados como Miltank o Alcremie.
 It pelts houses with hail that sounds like knocking, trying to get those inside to open a door or window. People used to import Skarmory to defend against them.
 Bombardea a casas con un poderoso granizo, intentando que aquellos dentro abran una puerta o ventana. Las personas solían importar Skarmory para defenderse de ellos.
-This Pokemon likes to team up with the strongest Pokémon it can find. Some researchers fear its dormant power.
+This Pokémon likes to team up with the strongest Pokémon it can find. Some researchers fear its dormant power.
 A este Pokémon le gusta juntarse con los Pokémon más fuertes que puede encontrar. Investigadores temen su poder latente.
 Some people claim this Pokémon ruled over an unnatural subterranean realm long ago. It resembles an enemy from a popular video game.
 Algunas personas aseguran que este Pokémon gobernó un reino subterráneo antinatural hace mucho tiempo. Se asemeja a un enemigo de un popular videojuego.
@@ -33288,7 +33456,7 @@ According to legend, the Buneary of Makya came from the moon. They have incredib
 Según las leyendas, los Buneary de Makya vienen de la luna. Tienen un gran control de sus orejas prensiles.
 The blue crystals that adorn Makyan Lopunny's fur resemble saccharite, but analysis shows that they're structurally distinct.
 Los cristales azules que adornan su pelaje se asemejan a la sacarita, pero análisis muestran que son estructuralmente distintos.
-A wanderer, Makyan Haerobic has a deep sense of justice and will use the full force of its lunar powers to rescue weaker Pokemon.
+A wanderer, Makyan Haerobic has a deep sense of justice and will use the full force of its lunar powers to rescue weaker Pokémon.
 Errando por el mundo, Haerobic de Makya tiene un gran sentido de justicia y usa toda la fuerza de sus poderes lunaras para rescatar a Pokémon más débiles.
 When the weather gets hot, these Pokémon turn into water vapor. Cryscross are almost never seen during summer.
 Cuando el clima se vuelve cálido, estos Pokémon se convierten en vapor. Casi nunca ves Cryscross en el verano.
@@ -33320,6 +33488,18 @@ The DNA from the original Mew has grown exponentially in this form. It has gaine
 El ADN del Mew original ha crecido exponencialmente en esta forma. Posee suficiente poder psíquico para controlar las mentes de las personas más obstinadas.
 This special Ursaluna can see in the dark with its left eye and protects itself with mud that is as hard as iron.
 Este Ursaluna tan particular se protege el cuerpo con una capa de barro tan dura como el hierro. Su ojo izquierdo le permite ver en la oscuridad.
+It will regrow any branches that break off its head. People keep particularly beautiful Curesola branches as charms to promote safe childbirth.
+Las ramas que le brotan de la cabeza se regeneran si se rompen. Las más bellas se emplean como amuleto en los partos.
+Its fossils were found in the depths of Makyan caves. However, it is alien to anything from the same time. It resembles a monster from a popular video game.
+Sus fósiles fueron encontrados en lo profundo de las cuevas de Makya. Pero no se parece en nada a criaturas de su era. Se asemeja a un monstruo de un popular videojuego. 
+After evolution, this Pokémon began to resemble other extinct Pokémon of their time. They multiply by converting native biomass into more Kabuto.
+Al evolucionar, este Pokémon empezó a asemejarse a otros Pokémon extintos de su tiempo. Se multiplican al convertir biomasa nativa en más Kabuto.
+This Pokémon was only found recently, as upheavals unsealed ancient caves rife with old life, where it promptly hid from sight in narrow spaces.
+Este Pokémon fue descubierto recientemente, luego de que se abrieran cuevas antiguas llenas de vida antigua, donde se escondía en espacios angostos.
+This Pokémon is much stronger than before, yet lazy. It is quick to make friends, but it might eat them in a pinch.
+Este Pokémon es mucho más fuerte que antes, pero perezoso. Hace amigos fácilmente, pero podrías comerlos en un apuro.
+Living in underwater caves with no light has given this Pokémon great sensitivity to vibrations. It pinpoints prey with extreme precision.
+Al vivir en cuevas submarinas sin iluminación, este Pokémon ha desarrollado gran sensibilidad a las vibraciones. Ubica presas con extrema precisión.
 [4]
 Bloodmoon
 Luna Carmesí
@@ -33711,6 +33891,8 @@ Harvest
 Cosecha
 White-Striped
 Raya Blanca
+Meteoric
+Meteórico
 [5]
 Suffocate
 Sofocar
@@ -36616,6 +36798,38 @@ Primeval Pacify
 Pacificar Primitivo
 Primeval Frost Spikes
 Púas Heladas Primitivas
+Atmospheric Burst
+Choque Atmosférico
+Mach Pulse
+Pulso Mach
+Thrust Pulse
+Pulso Explosivo
+Synaptic Unlock
+Desbloqueo Sináptico
+Coral Overgrowth
+Coral Exuberante
+Relic Recital
+Recital Arcaico
+Gulping Dive
+Atragantar
+Life Drain
+Devoravida
+Dragomast Waves
+Ondas Dragomasto
+Shattered Light
+Refracción
+Broil
+Asar
+Flare
+Fulgor
+Aqua Shock
+Acuashock
+Cavitation
+Cavitación
+Neural Pulse
+Pulso Neural
+Harsh Vibes
+Malas Vibras
 [6]
 The user spends 50% HP to create a Substitute. If successful, the user's Speed is raised by four steps.
 El usuario usa el 50% de sus PS máximos para crear un sustituto. Al hacerlo, la Velocidad del usuario es aumentada cuatro grados.
@@ -36702,6 +36916,8 @@ El usuario le grita al objetivo, disminuyendo su Ataque Especial dos grados.
 If the user moves after the target, this attack's power will be doubled.
 Si el usuario ataca luego del objetivo, la potencia del movimiento es duplicada.
 The user darkly follows the target before striking. Inflicts double damage on a target that is switching out.
+Inflicts double damage on a target that is switching out.
+Duplica la potencia del movimiento si el objetivo está a punto de cambiar.
 El usuario sigue al objetivo antes de atacar. Duplica la potencia del movimiento si el objetivo está a punto de cambiar.
 The user gets all the party Pokémon to attack the foe. The more party Pokémon, the more damage.
 El usuario hace que todos los Pokémon del equipo ataquen al objetivo. Cuantos más Pokémon haya en el equipo, más fuerte será el movimiento.
@@ -37039,6 +37255,8 @@ Attacks with energy from jealousy. All opposing Pokémon with stat boosts get bu
 El usuario ataca de forma celosa. Todos los objetivos con aumentos en stats son quemados.
 The user tucks in its wings and strikes from a low altitude. The user also takes 33% recoil.
 El usuario extiende sus alas y ataca desde una baja altura. El usuario recibe un 33% de daño de retroceso.
+The user tucks in its wings and charges from a low altitude. The user also takes 33% recoil.
+El usuario extiende sus alas y ataca desde una baja altura. El usuario recibe un 33% de daño de retroceso.
 The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by two steps.
 El usuario se eleva hacia el cielo y cae a alta velocidad. Disminuye las stats defensivas del usuario.
 A vortex of air is shot at the target to inflict damage. Can random critical hit.
@@ -37349,7 +37567,9 @@ The user approaches the target, then steals their item. Items stolen from wild P
 El usuario se acerca al objetivo, luego roba su objeto. Objetos robados a Pokémon salvajes son guardados.
 A unique attack that varies in type and intensity depending on the Pokémon using it.
 Un ataque único que varía de tipo y fuerza dependiendo del Pokémon que lo use.
-Makes everyone's hearts beat together. Others can join in the Round and make the attack do greater damage..
+The user attacks with a song. Others can join in the Round and make the attack do greater damage.
+El usuario ataca con una canción. Otros pueden unirse al Canon, duplicando su potencia.
+Makes everyone's hearts beat together. Others can join in the Round and make the attack do greater damage.
 Hace que los corazones de todos latan como uno. Otros pueden unirse al Canon, duplicando su potencia.
 Star-shaped rays are shot at the target. Can't miss and skips protections.
 El usuario dispara rayos con forma de estrella al objetivo. Siempre acierta y atraviesa protecciones.
@@ -37547,8 +37767,8 @@ The user lets out a damaging belch at the target. The user must eat a held Berry
 El usuario eructa con fuerza en contra del objetivo. El usuario debe haber comido su Baya para usar este movimiento.
 The user shoots filthy garbage at the target to attack. It has a 10% chance to poison.
 El usuario le lanza basura al objetivo. Tiene un 10% de probabilidad de envenenar al objetivo.
-It swamps the area around the user with a giant sludge wave. It has a 10% chance to poison.
-El usuario inunda el area a su alrededor con una onda venenosa. Tiene un 10% de probabilidad de envenenar a sus objetivos.
+It swamps the area around the user with a giant sludge wave, poisoning everyone struck.
+El usuario inunda el area a su alrededor con una onda venenosa. Envenenando a quienes ataca.
 The target is stabbed with a tentacle or arm seeped with poison. It has a 10% chance to poison.
 El objetivo apuñala con sus tentáculos o brazos llenos de veneno. Tiene un 10% de probabilida de envenenar al objetivo.
 A slashing attack with a poisonous blade that has a 20% chance to poison. Can random critical hit.
@@ -38115,6 +38335,8 @@ The user attacks the target while dashing skillfully past it.
 El usuario ataca rápidamente al objetivo yendo a su costado.
 The user shoots a pulse of neutral particles at the target.
 El usuario dispara un pulso de partículos neutras al objetivo.
+The user shoots a pulse of diffuse energy at the target.
+El usuario dispara un pulso de energía difusa al objetivo.
 The user shoots a pulse of uncharged particles at the target.
 El usuario dispara un pulso de partículas sin cargar al objetivo.
 A barrage of star-shaped rays are shot at the opposing team, never missing.
@@ -38189,8 +38411,8 @@ The user pulls the target under the waves, trapping and damaging it for three tu
 El usuario arrastra al objetivo debajo de las olas, atrapándolo y dañándolo durante tres turnos.
 The user dazzles nearby foes with light. Their Sp. Atk is lowered by two steps.
 El usuario deslumbra objetivos cercanos usando luz, disminuyendo su Ataque Especial dos grados.
-The user smirks with confidence. The Sp. Def of nearby enemies is lowered.
-El usuario sonríe con confianza. Disminuye la Defensa Especial de los objetivos cercanos.
+The user smirks with confidence. The Sp. Def of nearby enemies is lowered by two steps.
+El usuario sonríe con confianza. Disminuye la Defensa Especial de los objetivos cercanos dos grados.
 The user conserves for future attacks. This raises its Sp. Atk, Sp. Def, and accuracy by two steps each.
 El usuario se prepara para ataques futuros. Aumenta su Ataque Especial, Defensa Especial y Precisión dos grados.
 The target is struck by a pulse of negative energy. It has a 30% chance to numb.
@@ -38751,8 +38973,8 @@ The user summons hail for five turns. This lowers every foe's Speed by two steps
 El usuario invoca un granizo durante 5 turnos, disminuye la Velocidad del lado contrario dos grados, y se vuelve tipo Hielo.
 The user raises its Attack and Defense by two steps, gains a lot of weight. User becomes Fighting-type.
 El usuario aumenta su Ataque y Defensa dos grados y se vuelve much omás pesado. El usuario se vuelve tipo Lucha.
-The user lays 3 hazard layers of Spikes on the foe's side. User becomes Ground-type.
-El usuario coloca 3 capas de púas en el lado contrario, y se vuelve tipo Tierra.
+The user lays three hazard layers of Spikes on the foe's side. User becomes Ground-type.
+El usuario coloca tres capas de púas en el lado contrario, y se vuelve tipo Tierra.
 The user ups the Speed and attack count of itself and allies, and becomes Flying-type.
 El aumenta la Velocidad y Ataque de sí mismo y sus aliados, y se vuelve tipo Volador.
 The user raises its Sp. Atk and Sp. Def by two steps and maximizes its Accuracy. User becomes Psychic-type.
@@ -38851,8 +39073,8 @@ A two-turn attack. The user gathers light, then blasts all near foes on the seco
 El usuario concentra luz en el primer turno, luego ataca al lado contrario en el seguno turno.
 The user attacks with a sparkling gem-like ray, dizzying the target.
 El usario ataca con una rayo brillante como una gema, mareando al objetivo.
-The user forcefully shoots 6 seeds in rapid succession, spread among nearby enemies.
-El usuario dispara 6 semillas de forma seguida, entre todo el lado contrario.
+The user forcefully shoots six seeds in rapid succession, spread among nearby enemies.
+El usuario dispara seis semillas de forma seguida, entre todo el lado contrario.
 The user attacks twice using Dreepy, spreading the hits.
 El usuario ataca dos veces usando sus Dreepy.
 A nutrient-draining attack. The user's HP is restored by all the damage taken by the target.
@@ -38863,8 +39085,8 @@ It swamps the area around the user with a giant wave of toxic sludge.
 Una ola de veneno ataca a todos los Pokémon a su alrededo.
 The user exhales a mighty gust that inflicts damage and numbs the target.
 El usuario exhala un fuerte tornado que daña y aturde al objetivo.
-The user strikes the target with 3 punches like bullets. This move always goes first.
-El usuario ataca 3 veces rápido como una bala. Siempre va primero.
+The user strikes the target with three punches like bullets. This move always goes first.
+El usuario ataca tres veces rápido como una bala. Siempre va primero.
 The user attacks by breathing a special, hot fire. This lowers the target's Sp. Atk stat by six steps.
 El usuario ataca con un aliento ígneo especial. Disminuye el Ataque Especial del objetivo seis grados.
 A move that only the avatar of Rayquaza can use. All enemies struck lose their flinch immunity.
@@ -39065,8 +39287,8 @@ The user blows up to inflict damage on all Pokémon in battle. The user faints u
 El usuario explota para infligir daño a todos los Pokémon en combate. El usuario se debilita al usar este movimiento.
 The user's edges become sharper, raising its Attack stat by three steps.
 Las puntas del usuario se afilan, aumentando su Ataque tres grados.
-The user stockpiles power and raises its Defense and Sp. Def by two steps. The move can be stacked twice.
-El usuario reserva poder y aumenta su Defensa y Defensa Especial dos grados. Puedes acumularlo dos veces.
+The user stockpiles power, reducing move damage taken by 30%. This can be stacked twice.
+El usuario reserva poder, reduciendo daño de movimientos un 30%. Puedes acumularlo dos veces.
 The user eats its held Berry, then raises Defense and Sp. Def by one step each.
 El usuario come la Baya que tenga equipada, luego aumenta sus stats defensivas un grado.
 The user spends 25% HP to create a doll to protect it from move damage, additional effects, and status moves.
@@ -39429,7 +39651,7 @@ The user whips up a tornado to tear at the target. It has a 40% chance to make t
 El usuario levanta un tornado para atacar al objetivo. Tiene un 40% de probabilidad de amedrentar.
 The user insults the target using a compliment. The target's attacking stats are raised by 3 steps, but they hurt themselves in confusion.
 El usuario insulta al objetivo usando un cumplido. Las stats ofensivas del objetivo son aumentadas 3 grados, pero se daña a sí mismo confundido.  
-The user disarms the target's blade. The target cannot use blade-based moves for two turns.
+The user disarms the target's blade. The target cannot use slice-based moves for two turns.
 El usuario desarma el filo del objetivo. El objetivo no puede usar movimiento de corte durante dos turnos.
 The target is forced underwater for a brief time, waterlogging it.
 El objetivo fuerza debajo del rival al objetivo por un momento, embebiéndolo.
@@ -39443,8 +39665,8 @@ The user chomps hard, cutting the target's HP by 50%, and the user's HP is resto
 El usuario muerde fuertemente, quitándole al objetivo el 50% de sus PS, y el usuario recupera el 50% de eso.
 The user submerges the target in water, then bludgeons them repeatedly. This has a 10% chance to waterlog.
 El usuario sumerge al objetivo, luego lo aporrea repetidamente. Esto tiene un 10% de probabilidad de embeber.
-The target is pranked with a huge bucket of water. This has a 50% chance to waterlog it.
-El usuario hace una broma con un gran cubo de agua. Tiene un 50% de probabilidad de embeber al objetivo.
+The target is pranked with a huge bucket of water. This has a 30% chance to waterlog it.
+El usuario hace una broma con un gran cubo de agua. Tiene un 30% de probabilidad de embeber al objetivo.
 An enchanting outcry. This attack never misses and skips protections.
 Un grito encantador. Este ataque nunca falla y atraviesa protecciones.
 The user makes a fool out of the target. This has a 50% chance of jinxing them.
@@ -39593,8 +39815,8 @@ The user attacks with fire that can be seen in multiple places, then summons sun
 El usuario ataca con fuego que puede ser visto en múltiples lugares, invocando luz solar durante ocho turnos.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get leeched.
 Ataca con energía envidiosa. Todos los Pokémon rivales con aumentos de stats son infectados.
-Splits off a section of the target's psyche. Disables their last used move for 5 turns.
-Divide una sección de la psiquis del objetivo. Anula su último movimiento usado durante 5 turnos.
+Splits off a section of the target's psyche. Disables their last used move for five turns.
+Divide una sección de la psiquis del objetivo. Anula su último movimiento usado durante cinco turnos.
 The user summons a wind that drains vitality from all nearby foes. This has a 30% chance to frostbite them.
 El usuario invoca un viento que drena la vitalidad del lado rival. Tiene un 30% de probabilidad de helar al objetivo.
 The target is overwhelmed by cold energy. It has a 30% chance to frostbite.
@@ -39639,9 +39861,9 @@ The target is immersed in water. This has a 30% chance to waterlog.
 El usuario sumerge al objetivo en agua, con un 30% de probabilidad de embeber al objetivo.
 The user scatters bursts of spores to induce sleep on all foes. User becomes Grass-type.
 El usuario esparce esporas para dormir a todos los rivales, y luego se vuelve de tipo Planta.
-Bounces back status moves for the next 3 turns. User becomes Psychic-type.
-Rebota ataques de estado durante los siguientes 3 turnos, y el usuario se vuelve de tipo Psíquico.
-The user absorbs energy and raises all of its stats by two steps on the next turn.
+Bounces back status moves for the next three turns. User becomes Psychic-type.
+Rebota ataques de estado durante los siguientes tres turnos, y el usuario se vuelve de tipo Psíquico.
+The user charges with energy and raises all of its stats by two steps on the next turn.
 El usuario absorbe energía y aumenta todas sus estadísticas dos grados en el siguiente turno.
 The user pulses powerful dark light to expose the target's motives. This lower's their Sp. Def by two steps.
 El usuario ataca con un poderoso pulso oscuro que expone los motivos del objetivo. Esto disminuye la Defensa Especial del objetivo dos grados.
@@ -39877,7 +40099,7 @@ The user sacrifices their ally to cover all near foes in total darkness, making 
 El usuario sacrifica su aliado para cubrir al lado rival en oscuridad, adormeciéndolos. Falla si el usuario no tiene aliado.
 The user hides stealthily, charging and becoming hidden, then strikes from a blind spot on the second turn.
 El usuario se oculta, volviéndose invulnerable, y luego golpea desde un punto ciego en el segundo turno.
-The user draws the Crystal Caliburn, which empowers Light and Blade moves and transforms the holder into Royal form.
+The user draws the Crystal Caliburn, which empowers light and slice moves and transforms the holder into Royal form.
 El usuario desenvaina la Caliburn Cristalina, que potencia movimientos de Luz y Corte y transforma al usuario en su forma Real.
 The user disappears in a cloud of mist, charging and becoming hidden. On the next turn, the target becomes jinxed and frostbitten.
 El usuario desaparece en una nube de niebla, volviéndose invulnerable. En el siguiente turno, el objetivo es Embrujado y Helado.
@@ -39911,7 +40133,7 @@ The user sets a powerful tailwind for 6 turns, which also increases move damage 
 El usuario levanta un poderoso viento afín durante 6 turnos, que también aumenta el daño un 30%. El usuario se vuelve tipo Volador.
 The user raises its Attack, Defense, and Accuracy by two steps. Additionally, the user summons an ally Ekans. User becomes Poison-type.
 El usuario aumenta su Ataque, Defensa, y Precisión dos grados. Además, el usuario invoca un Ekans aliado. El usuario se vuelve de tipo Veneno.
-The user lays 2 hazard layers of poison spikes on the foe's side. User becomes Poison-type.
+The user lays two hazard layers of poison spikes on the foe's side. User becomes Poison-type.
 El usuario coloca dos capas púas venenosas en el lado contrario. El usuario se vuelve de tipo Veneno.
 Boulders are hurled at all near enemies, preventing their movement. This lowers their Speed by four steps.
 El usuario le lanza peñascos al lado rival. También disminuye la Velocidad del objetivo cuatro grados.
@@ -39923,13 +40145,13 @@ The target is obliterated by a meteoric strike. This raises the user's Attack by
 El objetivo es obliterado por un golpea meteórico. Esto aumenta el Ataque del usuario dos grados.
 The user attacks by breathing a special, hot fire. This lowers the target's Sp. Atk by six steps.
 El usuario ataca con un ardiente fuego especial. Esto disminuye el Ataque Especial seis grados.
-The user lays 2 hazard layers of burning spikes on the foe's side. User becomes Fire-type.
+The user lays two hazard layers of burning spikes on the foe's side. User becomes Fire-type.
 El usuario esparce 2 capas de púas ardientes en el lado contrario, y se vuelve de tipo Fuego.
 The user inflicts burns on all nearby foes. User becomes Fire-type.
 El usuario quema al lado rival. El usuario se vuelve de tipo Fuego.
-A spray of bubbles is forcefully ejected at all nearby foes. This lowers their Speed by 3 steps.
-Un rayo de burbujas es disparado con fuerza a rivales cercanos. Esto disminuye su Velocidad 3 grados.
-The user enters a state of Total Focus, prevents stat steps from being lowered, raises Attack. and Sp. Def, and becomes Water-type.
+A spray of bubbles is forcefully ejected at all nearby foes. This lowers their Speed by three steps.
+Un rayo de burbujas es disparado con fuerza a rivales cercanos. Esto disminuye su Velocidad tres grados.
+The user enters a state of total focus, prevents stat steps from being lowered, raises Attack and Sp. Def, and becomes Water-type.
 El usuario se concentra por completo, impidiendo que sus stats sean reducidas, aumenta Ataque, Defensa Especial, y se vuelve tipo Agua.
 The user inflicts waterlog on all nearby foes. User becomes Water-type.
 El usuario embebe a rivales cercanos. El usuario se vuelve tipo Agua.
@@ -39937,15 +40159,77 @@ The user charges by gathering light, then blasts all near foes on the second tur
 El usuario carga reuniendo luz, luego la dispara a los rivales cercanos en el segundo turno.
 The user inflicts numb on all nearby foes. User becomes Electric-type.
 El usuario aturde a los rivales cercanos, y se vuelve tipo Eléctrico.
-The user employs hypnotic suggestion to make a statused target fall into a deep sleep. User becomes Psychic-type.
-El usuario emplea sugestión hipnótica para que un objetivo con un problema de estado para dormirlo. El usuario se vuelve de tipo Psíquico.
-The user lays 2 hazard layers of frozen spikes on the foe's side. User becomes Ice-type.
+The user employs hypnotic suggestion to make all nearby statused foes fall into a deep sleep. User becomes Psychic-type.
+El usuario emplea sugestión hipnótica para que todos los objetivos con un problema de estado sean dormidos. El usuario se vuelve de tipo Psíquico.
+The user lays two hazard layers of frozen spikes on the foe's side. User becomes Ice-type.
 El usuario coloca dos capas púas heladas en el lado contrario. El usuario se vuelve de tipo Hielo.
 The user crushes all near foes with evil intent. This deals double damage to targets with a non-volatile status condition.
 El usuario aplasta a rivales cercanos con malas intenciones. Duplica su daño contra objetivos con problemas de estado no-volátiles.
+The user blocks the target's way with arms splayed wide to trap the target.
+El usuario bloquea el camino del objetivo con sus brazos estirados para atrapar al objetivo.
+The user performs a spirited dance for its allies and itself, raising their Speed and raising their Accuracy by four steps.
+El usuario realiza una danza animada para sí mismo y sus aliados, aumentando su Velocidad y aumentando su Precisión cuatro grados.
+The user performs a long-forgotten song and dance. This is both a Sound and Dance move.
+El usuario realiza una canción y danza olvidadas. Es un movimiento de Sonido y Baile a la vez.
+The user throws away up to 1000 scattered coins to bless its side, blocking random added effects and healing for 1/16th HP each turn. Lasts one turn per 100 coins.
+El usuario lanza un máximo de 1000 monedas esparcidas para bbendecir su lado, bloqueando efectos secundarios aleatorios y recuperando 1/16 de PS totales cada turno. Dura 1 turno por 100 monedas.
+The user compresses air around the target to impossible density. If the move is super- or hyper-effective, damage is increased by 30%.
+El usuario comprime aire alrededor de su objetivo a densidades imposibles. Si el movimiento es súper o híper efectivo, es potenciado un 30%.
+The user launches a pulse in the form of a shock wave. It has a 20% chance to raise Speed.
+EL usuario lanza un pulso en forma de onda expansiva. Tiene un 20% de probabilidad de aumentar Velocidad.
+The user shoots out a pulse of driving energy. Building up more power, it raises the user's Speed.
+El usuario dispara un puslo de energía torrencial. Aumenta la Velocidad del objetivo.
+Halves attack damage taken this turn. Burns any attackers. Fails if used successively.
+Divide a la mitad el daño recibido por un turno. Quema a cualquier atacante. Falla si es usado sucesivamente.
+The user sends up to two barrages of fire, each hitting two to five times. If two barrages were sent, the user is exhausted on the next turn.
+El usuario dispara dos ráfagas de fuego, cada una golpeando entre dos a cinco veces seguidas. Si envía dos ráfagas, el usuario es exhausto en el siguiente turno.
+The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its other legal ability.
+El usuario conecta las ondas cerebrales del objetivo para estabilizar su mente, curando su marea, y añadiéndole su otra habilidad legal.
+Healing coral forms on the foe's side. For the next four turns, attacks on foes heal the user for 33% of the damage dealt. This can overheal.
+Coral curativo es formado en el lado rival. Durante los siguientes cuatro turnos, ataques al oponente drenan el 33% del daño causado. Esto puede sobrecurar.
+Two turns after this move is used, a hunk of psychic energy attacks the target.
+Dos turnos después de que este movimiento sea usado, energía psíquica ataca al objetivo.
+Inflicts double damage on a target that is switching out.
+Duplica su potencia contra un objetivo que está a punto de cambiar.
+The user dives down with its beak wide open. Transforms into Gulping or Gorging form.
+El usuario bucea con su boca completamente abierta. Se transforma en su forma Tragatodo o Engulletodo.
+The user stabs the target with a sharp spike to drain its life force. The user's HP is restored by 50% of the damage dealt. This can overheal.
+El usuario apuñala al objetivo, recuperando la mitad de los PS que le quite al objetivo. Esto puede sobrecurar.
+Sends cloying waves of energy forward, lowering hit foes Evasion by four steps.
+El usuario ataca con olas de energía, disminuyendo la Evasión de los objetivos cuatro grados.
+A cloud of poison gas is sprayed in the face of the target, poisoning it.
+El usuario rocía un gas venenoso a la cara del objetivo, envenenándolo.
+The user attacks by exhaling hot breath on the opposing team. It has a 20% chance to burn.
+El usuario ataca con un aliento ardiente en el lado rival. Tiene un 20% de probabilidad de quemar al objetivo.
+The target is struck from all angles by light like gemstones. Deals double damage if the user has used a gem this battle.
+El usuario ataca con luz que viene por todas partes. Duplica su potencia si el usuario ha usado una gema en el combate.
+The user uses explosive force to shoot shards of its own body at the target. The user loses 1/8th of its max HP.
+El usuario dispara fragmentos de su propio cuerpo con energía explosiva. El usuario pierde 1/8 de sus PS totales.
+The user shoots shards of its own body at the target. The user loses 1/8th of its max HP.
+El usuario dispara fragmentos de su propio cuerpo al objetivo. El usuario pierde 1/8 de sus PS totales.
+The user shreds off bits of its own body to launch at the target. The user loses 1/8th of its max HP.
+El usuario dispara pequeños fragmentos de su objetivo. El usuario pierde 1/8 de sus PS totales.
+The user attacks by sending a wave of hot air towards the target. It has a 30% chance to burn.
+El usuario ataca con una onda de aire caliente al objetivo. Tiene un 30% de probabilidad de quemar al objetivo.
+The user flashes with a burst of intensely bright flame. Can random critical hit.
+El usuario ataca con una explosión de llamas brillantes. Puede ser un golpe crítico.
+The user launches a concentrated ball of searing, bright white flame. Can random critical hit.
+El usuario dispara una bola concentrada de llamas blancas. Puede ser un golpe crítico.
+The user rapidly changes water pressure, creating a pulsing shockwave. The user loses 1/8th of its max HP.
+El usuario cambia rápidamente la presión del agua, creando una onda de choque. El usuario pierde 1/8 de sus PS totales.
+A water vacuum is induced and rapidly collapsed, generating an intense pulsing water blast. The user loses 1/8th of its max HP.
+Un vacío de agua es generado y colapsado, generando un pulso intenso de agua. El usuario pierde 1/8 de sus PS totales.
+The user slices with claws of light that have a 50% chance to numb. Can random critical hit. Counts as a Light and Slice move.
+El usuario ataca con garras de luz que tienen un 50% de probabilidad de aturdir. Puede ser golpe crítico. Es un movimiento de Luz y Corte.
+The user summons a wind that drains vitality from all nearby foes. This has a 20% chance to frostbite them.
+El usuario invoca un viento que drena la vitalidad de rivales cercanos. Tiene un 20% de helar a sus objetivos.
+The user sprays the target with a shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
+El usuario rocía al objetivo con un líquido reductor. Durante los siguientes tres turnos, la stat más alta del objetivo será reducida dos grados.
+The target is attacked with a pulse of negative feelings. It has a 40% chance to make the target flinch.
+El usuario ataca con un pulso de sentimientos negativos. Tiene el 40% de probabilidad de amedrentar al objetivo.
 [7]
 Pearl of Wisdom
-Pearl Sabiduría
+Perla Sabiduría
 Repel
 Repelente
 Honey
@@ -41266,7 +41550,25 @@ Crystal Caliburn
 Caliburn Cristalina
 Unnamed
 Sin Nombre
+Technique Booster
+Potenciador Técnico
+Light Stone
+Orbe Claro
+Dark Stone
+Orbe Oscuro
+Stealth Spray
+Espray Oculto
+Alien Fossil
+Fósil Alien
+Empty Stone
+Orbe Hueco
 [8]
+Stealth Spray
+Esprays Ocultos
+Alien Fossils
+Fósiles Alien
+Technique Boosters
+Potenciadores Técnicos
 Courage Badges
 Medallas Valor
 Clear Amulets
@@ -42100,7 +42402,7 @@ A radiant wing. It radiates misery, but you feel peaceful holding it. Returning 
 Un ala radiante. Irradia miseria, pero siente paz al sostenerla. Regresar a casa, regresar a casa...
 A glamorous steel card. While holding it, all vendors cost 10% less and Pokécenter Marts have extra items.
 Una tarjeta metálica glamorosa. Al sostenterla, todos los vendedores cuestan un 10% y las Tiendas tienen más objetos.
-A vessel for negative emotions. If you perfectly defeat enough route or gym trainers, it will grant you rewards.
+A vessel for negative emotions. To earn its rewards, perfect trainers and make them flee from you.
 Un recipiente para emociones negaivos. Si perfeccionas suficientes entrenadores, te dará recompensas.
 An item that prevents wild Pokémon from appearing for 100 steps after its use.
 Un objeto que impide que Pokémon salvajes aparezcan por 100 pasos.
@@ -42243,7 +42545,7 @@ Este objeto aumenta el Ataque Especial del portador un 40%, pero permite el uso 
 Held item which boosts Speed by 40% but allows the use of only one move.
 Este objeto aumenta la Velocidad del portador un 40%, pero permite el uso de un sólo movimiento.
 A Pokémon held item. When the holder summons sunshine, it lasts twice as long.
-Un objeto equipable. Cuando el portador invoca luz solar, esta dura el doble.
+Un objeto equipable. Cuando el portador invoca luz solar, este dura el doble.
 A Pokémon held item. When the holder summons rain, it lasts twice as long.
 Un objeto equipable. Cuando el portador invoca la lluvia, esta dura el doble.
 A Pokémon held item. When the holder summons a sandstorm, it lasts twice as long.
@@ -42654,7 +42956,7 @@ These boots prevent the effects of hazards set on the battlefield.
 Estas botas previenen los efectos de trampas puestas en el campo.
 Raises Sp. Atk by two steps when the Pokémon uses a sound move the first time each battle.
 Aumenta el Ataque Especial por dos grados cuando el Pokémon usa un movimiento de sonido por primera vez en el combate.
-Raises Attack by two steps when the Pokémon uses a blade move the first time each battle.
+Raises Attack by two steps when the Pokémon uses a slice move the first time each battle.
 Aumenta el Ataque por dos grados cuando el Pokémon usa un movimiento de corte por primera vez en el combate.
 A held item. The holder is protected from the negative effects of weather.
 Un objeto equipable. El portador es protegido de los efectos negativos del clima.
@@ -42921,7 +43223,7 @@ Un Poké Ball especial que es 5x veces más efectiva contra Ultra Entes.
 A peculiar apple that can make a certain species of Pokémon evolve. It's exceptionally syrupy.
 Una manzana peculiar que hace evolucionar a ciertas especies de Pokémon. Es excepcionalmente melosa.
 A fossil from a strange Pokémon that once lived on the land. It resembles Makyan Omanyte.
-Un fósil de un Pokémon prehistórico que vivía en la tierra. Se asemeja a Omanyte de Makya.
+Un fósil de un Pokémon extraño que vivía en la tierra. Se asemeja a Omanyte de Makya.
 A held item. If the wielder enters a battle, money and coins generated in that battle are increased by 50%.
 Un objeto equipable. Si el portador entra en combate, dinero y monedas generadas en combate son aumentados 50%.
 A held item. Boosts the power of a special move by 15% and makes it physical, once per battle.
@@ -42958,6 +43260,24 @@ A drop of ancient clay. Use it to summon a Pokemon from a resonating totem.
 Una pizca de arcilla antigua. Úsala para invocar un Pokémon de un tótem resonante una vez.
 A lump of ancient clay. Allows you to summon any number of Pokemon from resonating totems.
 Un montón de arcilla antigua. Úsala para invocar Pokémon de tótems resonantes.
+An item to be held by a Pokémon. Signature attacks made by the holder are boosted by 40%.
+Uh objeto equipable. Movimientos característicos son potenciados un 40%.
+If held by a Pokémon and a physical attack hits it, raises the holder's Defense by four steps.
+Si es alcanzado por un ataque físico, aumenta la Defensa del portador cuatro grados.
+If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by four steps.
+Si es alcanzado por un ataque físico, aumenta la Defensa del portador cuatro grados.
+Reshiram's body was destroyed and changed into this stone. It is said to be waiting for a hero.
+El cuerpo de Reshiram fue destruído y transformado en piedra. Se dice que espera a un héroe.
+Zekrom's body was destroyed and changed into this stone. It is said to be waiting for a hero.
+El cuerpo de Zekrom fue destruído y transformado en piedra. Se dice que espera a un héroe.
+Used by a hero to halt a terrible disaster. The wielder takes 10% less move damage.
+Usado por un héroe para detener una calamidad. El portador recibe 10% menos daño.
+Used by a hero to halt a terrible disaster. The wielder deals 10% more move damage.
+Usada por un héroe para detener una calamidad. Los ataques del portador son potenciados un 10%.
+Rare contraband. Use it to become invisible to average solo trainers for 30 steps.
+Objeto de contrabando. Úsalo para volverte invisible para entrenadores individuales durante 30 pasos.
+A fossil from a strange Pokémon that once lived on the land. It resembles Makyan Kabuto.
+Un fósil de un Pokémon extraño que vivía en la tierra. Se asemeja a Omanyte de Makya.
 [10]
 Backwash
 Inundación
@@ -44347,8 +44667,6 @@ Ferrofluid
 Ferrofluido
 Fit to Survive
 Sobreviviente
-Hard As
-Macizo
 Mucus Layer
 Capa Mucosa
 Offensive
@@ -44683,6 +45001,84 @@ Wish of Summer
 Deseo Veraniego
 Wish of Winter
 Deseo Invernal
+Bait Fish
+Carnada
+Bird-Brained
+Pajarraco
+Diffraction
+Difracción
+Exospheric Descent
+Descenso Exosférico
+Haphazard
+Descuidado
+Inscrutable Orders
+Órdenes Extrañas
+Karmic Balance
+Balance Kármico
+Lead Dancer
+Bailarín Principal
+Lead Singer
+Cantante Principal
+Long-term View
+Visión a Largo Plazo
+Mounting Chill
+Frío Reparador
+Personal Demesne
+Dominio Personal
+Pile On
+Amontonar
+Primordial Seal
+Sello Primordial
+Rejuvenate
+Rejuvenecimiento
+Scene Change
+Cambio de EScena
+Scythe-Horn Style
+Estilo Guadaña
+Shield-Smithing
+Forja-Escudos
+Slumbering Shield
+Escudo Durmiente
+Slumbering Sword
+Espada Durmiente
+Sprig-Horn Style
+Estilo Rama
+Stay of Execution
+Ejecución Demorada
+Sword Breaker
+Macizo
+Sword-Horn Style
+Estilo Espada
+Sword-Smithing
+Forja-Espadas
+Primeval Boulder Nest
+Nido Rocoso Primitivo
+Primeval Break Through
+Irrumpir Primitivo
+Primeval Flourishing
+Próspero Primitivo
+Primeval Mega Launcher
+Megadisparador Primitivo
+Primeval Sword-Breaker
+Macizo Primitivo
+Biohazard
+Riesgo Biológico
+Fickle Union
+Unión Veleidosa
+Let 'Em Have It
+Ejecución
+Loose Cannon
+Cañón Fugaz
+Manifestation
+Manifestación
+Mindless
+Bestial
+Strike Corona
+Corona Impacto
+Tremor Sense
+Sentido Telúrico
+Ultra Buster
+Ultracañón
 [11]
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
 Al entrar al campo, consume monedas para curase por 1/10 de la cantidad consumida. Esto puede sobrecurar.
@@ -44746,8 +45142,8 @@ Raises this Pokémon's Attack by 50%, including Style Values and other bonuses.
 Aumenta el Ataque del Pokémon un 50%, incluyendo Puntos de Estilo y otros bonuses.
 Physical attacks against the Pokémon have a 30% chance to poison the attacker.
 Cuando el Pokémon es atacado por un movimiento físico, hay un 30% de probabilidad de que envenene al atacante.
-The Pokémon is protected from flinching, Intimidate, Fascinate, and Frustrate.
 This Pokémon is protected from flinching, Intimidate, Fascinate, and Frustrate.
+Este Pokémon no puede ser amedrentado, Intimidado, Fascinado ni Frustrado.
 Prevents the use of self-destructing moves.
 Anula los efectos de movimientos de explosión.
 The Pokémon may gather Honey from somewhere.
@@ -44872,7 +45268,7 @@ Doubles this Pokémon's Speed in a sandstorm.
 Duplica la Velocidad del Pokémon en tormenta de arena.
 Boosts move power when this Pokémon moves last by 30%.
 Potencia sus movimientos un 30% al moverse último.
-Comes out disguised as this Pokémon in back.
+Comes out disguised as the Pokémon in the party's last spot.
 Se hace pasar por el Pokémon en el último lúgar del equipo.
 It transforms itself into the Pokémon it is facing.
 Se transforma inmediatamente en el Pokémon que esté enfrentando.
@@ -45054,6 +45450,8 @@ Boosts power of sound-based moves by 30%.
 Potencia movimientos de sonido un 30%.
 Summons a sandstorm for four turns when hit by an attack.
 Invoca una tormenta de arena durante cuatro turnos al ser atacado.
+Summons a hail for four turns when hit by an attack.
+Invoca un granizo durante cuatro turnos al ser atacado.
 Upon entry, lowers the foe's Sp. Atk stat by two steps.
 Al entrar al campo, disminuye el Ataque Especial de los rivales por dos grados.
 Powers up Rock-type moves by 50%.
@@ -45162,7 +45560,7 @@ Physical attacks against the Pokémon have a 30% chance to dizzy the attacker.
 Cuando es alcanzado por un movimiento físico, tiene un 30% de marear al rival.
 Doubles Sp. Def. This Pokémon takes double damage from Psychic-type moves.
 Duplica su Defensa Especial. Los movimientos tipo Psíquico le dañan el doble.
-Boosts the power of blade moves by 30%.
+Boosts the power of slice moves by 30%.
 Potencia movimientos de corte un 30%.
 Has a 30% chance to burn targets when using special moves.
 Tiene un 30% de probabilidad de quemar al objetivo al usar un movimiento especial.
@@ -45326,6 +45724,8 @@ Negates enemy status moves that target this Pokémon or create hazards around it
 Niega todo movimiento de estado de los rivales, incluyendo los que crean trampas.
 Immune to Flying-type moves and deals 50% more damage with them.
 Sus movimientos tipo Volador son potenciados un 50%, además, es inmune a otros ataque de este tipo.
+Lays a hazard of levitating stones around the opponent when its HP is lowered below 75% HP.
+Cuando pierde el 75% de sus PS o más, coloca una trampa de rocas levitantes alrededor del oponente.
 Lays a hazard of levitating stones around the opponent when its HP is lowered below half.
 Cuando pierde la mitad de sus PS o más, coloca una trampa de rocas levitantes alrededor del oponente.
 Hits opponent with Gust when switched out.
@@ -45436,7 +45836,7 @@ Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th
 Velocidad aumenta cada turno. Es reiniciada al ser golpeado, pero el atacante pierde 1/8 PS totales por cada grado perdido.
 Powers up Ice-type moves by 50%.
 Potencia movimientos tipo Hielo un 50%.
-Boosts the power of blade moves by 30%. They're twice as likely to crit.
+Boosts the power of slice moves by 30%. They're twice as likely to crit.
 Potencia movimientos de corte un 30%, además, índice de golpe crítico es duplicado.
 If an attack lowers its HP to half or less, curses the attacker.
 Si pierde la mitad de sus PS o más, maldice al atacante.
@@ -45450,12 +45850,12 @@ This Pokémon and its allies take 25% less move damage during moonglow.
 Bajo el brillo lunar, hace que tanto sí mismo como su aliado reciban 25% menos de daño. 
 User heals by 25% after taking a special attack.
 El usuario recupera un 25% de sus PS totales luego recibir un ataque especial.
-Boosts Speed by 40% but the Pokémon is locked into the first move they use.
+Boosts Speed by 40% but this Pokémon is locked into the first move they use.
 Aumenta la Velocidad un 40%, pero el usuario no puede dejar de usar su primer movimiento.
 Draws in attacks from enemies with below half health.
 Atrae ataques de rivales que tengan menos de la mitad de sus PS.
-Prevents half the self-damage from recoil and Self-Destruct/Explosion.
-Sólo recibe la mitad de daño al usar movimientos de retroceso y Autodestrucción/Explosión
+Prevents half the self-damage from recoil and self-destructing.
+Sólo recibe la mitad de daño al usar movimientos de retroceso y explosiones.
 Its physical attacks go last but force the target to switch out after use.
 Siempre ataca al último usando movimientos físicos, pero fuerza al objetivo a regresar a su Poké Ball.
 Has a 30% chance to burn targets when using physical moves.
@@ -45672,7 +46072,7 @@ Raises Defense and Sp. Def whenever any Pokémon uses a dance move. Caps out at 
 Aumenta ambas stats defensivas cada vez que cualquier Pokémon use un movimiento de baile. Máximo de +4.
 Slips past all types of Spikes hazards. Deals 50% more damage to targets that switched in this turn.
 Ignora todo tipo de púas en el campo. Potencia sus ataques un 50% contra enemigos que hayan cambiado en el turno.
-After fainting from exploding, revives after five turns.
+After fainting from self-destructing, revives after five turns.
 Al debilitarse luego de explotar, revivirá después de five turnos.
 Powers up Grass-type moves of itself and its allies by 50%.
 Potencia sus movimientos tipo Planta y los de sus aliados un 50%.
@@ -45776,8 +46176,8 @@ After knocking out any Pokémon, raises its Attack and Defense.
 Al debilitar cualquier Pokémon, aumenta tanto su Ataque como Defensa un grado.
 After knocking out any Pokémon, raises its Sp. Atk and Sp. Def.
 Al debilitar cualquier Pokémon, aumenta tanto su Ataque Especial como Defensa Especial un grado.
-Can hold two items, but drops one when swapping out.
-Puedes equiparle dos objetos, pero suelta uno al regresar a su Poké Ball.
+Can hold two different items, but drops one when swapping out.
+Puedes equiparle dos objetos diferentes, pero suelta uno al regresar a su Poké Ball.
 Immune to Psychic-type moves, and raises Attack and Sp. Atk if hit by one.
 Inmune a movimientos tipo Psíquico y aumenta ambas stats ofensivas si es alcanzado por uno.
 Boosts this Pokémon's Speed by 50% in sandstorm or hail.
@@ -46184,7 +46584,7 @@ After being hit, the Pokémon raises either Defense or Sp. Def based on the atta
 Al ser alcanzado por un ataque, el Pokémon aumenta la stat defensiva correspondiente a la categoría del ataque. Máximo de +4.
 Raises Defense and Sp. Def by three steps when its HP is lowered below half.
 Aumenta ambas stats defensivas tres grados cuando sus PS son reducidos a la mitad o más.
-Boosts the power of blade moves by 30%. Blade moves ignore the target's modified Defense and Sp. Def.
+Boosts the power of slice moves by 30%. Slice moves ignore the target's modified Defense and Sp. Def.
 Potencia movimientos de corte un 30%. Movimientos de corte ignoran las Defensas modificadas del objetivo.
 When hit with a physical move, traps and binds the attacker for three turns. Fails on turns the user switched in.
 Al ser alcanzado por un movimiento físico, atrapa y daña al atacante durante tres turnos. Falla en el turno que el usuario entre al campo.
@@ -46234,7 +46634,7 @@ Heals from binding damage it deals. Takes 25% less damage from Pokémon that are
 Recupera salud cuando un Pokémon atrapado pierde salud. Recibe 25% menos de daño de Pokémon que estén atrapados.
 Powers up the Pokémon's Dark-type moves by 50% in sandstorm.
 Potencia movimientos de tipo Siniestro un 50% en tormenta de arena.
-Comes out disguised as this Pokémon in back. While disguised, copies its ability.
+Comes out disguised as the Pokémon in the party's last spot. While disguised, copies its ability.
 Se disfraza como el Pokémon en el último lugar de tu equipo. Mientras esté dsifrazado, copia su habilidad.
 Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
 Impide ataques críticos. Recupera 1/12 de sus PS máximos cada turno si es golpeado por un ataque.
@@ -46312,7 +46712,7 @@ After knocking out any Pokémon, summons hail for four turns.
 Invoca granizo durante cuatro turnos al debilitar cualquier Pokémon.
 When this Pokémon traps and binds a target, one hazard layer of Spikes is placed around the target.
 Cuando este Pokémon atrapa y daña a un objetivo, una capa de Púas es colocada en el objetivo.
-This Pokemon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
+This Pokémon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
 Este Pokémon gana un turno extra cuando obtiene un problema de estado no-volátil o es atrapado.
 When this Pokémon flinches a target that has already moved, it will flinch next turn.
 Cuando este Pokémon amedrenta a un objetivo que ya se ha movido, será amedrentado en el siguiente turno.
@@ -46340,7 +46740,7 @@ Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the 
 Aumenta Defensa Especial un 20%. Cuando este Pokémon recibe un segundo ataque especial del mismo atacante, este es quemado.
 Foretelling moves also hit for half power on the turn they are used.
 Movimientos presagiados también atacan por la mitad de su potencia en el turno que son usados.
-After using a Bite move, lowers the target's highest attacking stat by 2 steps.
+After using a Bite move, lowers the target's highest attacking stat by two steps.
 Luego de usar un movimiento de Mordida, disminuye la stat ofensiva más alta del objetivo dos grados. 
 After knocking out any Pokémon, summons rainstorm for four turns.
 Luego de invocar cualquier Pokémon, invoca tormenta de lluvia durante cuatro turnos.
@@ -46547,11 +46947,111 @@ Potencia movimientos de cualquier clase un 20%.
 Upon entry, summons Autumn Harvests on this Pokémon's side for four turns.
 Al entrar al campo, invoca Cosechas de Otoño en el lado del Pokémon durante cuatro turnos.
 Upon entry, summons Spring Plantings on this Pokémon's side for four turns.
-Al entrar al campo, invoca Siembras de Privamera en el lado del Pokémon durante cuatro turnos.
+Al entrar al campo, invoca Siembras de Primavera en el lado del Pokémon durante cuatro turnos.
 Upon entry, summons Summer Festivals on this Pokémon's side for four turns.
 Al entrar al campo, invoca Festivales de Verano en el lado del Pokémon durante cuatro turnos.
 Upon entry, summons Winter Hunts on this Pokémon's side for four turns.
 Al entrar al campo, invoca Cazas de Invierno en el lado del Pokémon durante cuatro turnos.
+When this Pokémon is knocked out by an attack, the attacker takes damage equal to this Pokémon's previous HP.
+Cuando es debilitado por un ataque, el atacante recibe daño igual a la cantidad de PS que este Pokémon tenía.
+Draws in moves from foes.
+Atrae movimientos de rivales.
+Moves that make the user become hidden hide the user for one turn longer.
+Movimientos que escondan al usuario lo hacen por un turno más.
+Light moves hit a second time for 33% damage if this Pokémon is protected by a screen.
+Movimientos de Luz golpean una segunda vez con el 33% de su daño si el Pokémon está detrás de una pantalla.
+Cannot enter battle unless all party members are below half HP. Upon entry, transforms into Meteoric Form.
+No puede entrar al combate a no ser que todo el equipo hayan perdido la mitad de sus PS o más. Al entrar, lo hace en su forma Meteórica.
+Boosts move damage by 50%, but lowers the attacking stat that was used by two steps.
+Potencia sus movimientos un 5%, pero disminuye el ataque usado durante dos turnos.
+This Pokémon deals 30% more damage with "two to five" multi-hit moves and moves with less than 100% accuracy.
+Sus ataques que golpean entre dos a cinco veces y movimientos con menos de 100% de precisión son potenciados un 30%.
+This Pokémon deals 30% more move damage, but is continually tormented.
+Sus ataques son potenciados un 30%, pero es permanentemente atormentado.
+After attacks, lower Attack and Sp. Atk by two steps, and raise Defense and Sp. Def by two steps. After status moves, do the opposite.
+Al atacar, disminuye ambos Ataques dos grados, y aumenta Defensas dos grados. Al usar movimientos de estado, hace lo contrario.
+The user's dance moves have increased priority.
+Los movimientos de baile del usuario tienen prioridad.
+Boosts power of sound-based moves by 30%. After using a sound move, all enemy attacks target this Pokémon this turn.
+Potencia movimientos de sonido un 30%. Al usar un movimiento de sonido, atrae ataques enemigos por un turno.
+Effects placed by this Pokemon last 50% longer.
+Efectos colocados por este Pokémon duran un 50% más.
+When hit while asleep, hits back instantly with Snore.
+Al ser atacado mientras duerme, inmediatamente usa Ronquido.
+At the end of each turn, all enemy Pokémon lose 1/10th HP if there is an active room.
+Al final de cada turno, todos los enemigos pierden 1/10 de sus PS totales si hay una zona activa.
+Every three turns, this Pokémon gains a stockpile.
+Cada tres turnos, este Pokémon gana una reserva.
+This Pokémon cannot enter the battle before Regidrago, Regice, Regirock, Registeel and Regieleki have.
+No puede entrar al campo hasta que Regidrago, Regice, Regirock, Registeel y Regieleki lo hagan.
+Heals 1/8th HP every turn if hit by an attack.
+Recupera 1/8 de sus PS totales si es atacado.
+At the end of each turn, heals from every volatile status condition.
+Al final de cada turno, se cura de cualquier problema de estado volátil.
+When using a physical move, switch to Pirouette Forme. When using a special move, switch to Aria Forme.
+Al usar un movimiento físico, cambia a la Forma Danza. Al usar uno especial, cambia a la Forma Lírica.
+After attacking the same foe twice, they become fractured, and a trap of levitating stones is set on their side.
+Al atacar al mismo oponente dos veces, son fracturados, y coloca trampa rocas en su lado.
+Moves used against this Pokémon are disabled for two turns.
+Movimientos usados contra este Pokémon son desactivados durante dos turnos.
+Immune to Steel-type moves, and boosts Defense and Sp. Def when hit by one.
+Inmune a movimientos tipo Acero, y aumenta ambas Defensas al ser alcanzado por uno.
+Cannot enter battle until a Rusted Shield is dropped on the field or after ten turns. Upon entry, transforms into Crowned form.
+No puede entrar al campo hasta que un Escudo Oxidado sea tirado o luego de diez turnos. Entra al campo en su forma Suprema.
+Cannot enter battle until a Rusted Sword is dropped on the field or after ten turns. Upon entry, transforms into Crowned form.
+No puede entrar al campo hasta que una Espada Oxidada sea tirada o luego de diez turnos. Entra al campo en su forma Suprema.
+Leaves two hazard layers of Spikes after self-destructing.
+Deja dos capas de Púas al explotar.
+After attacking the same foe twice, they become trapped for three turns, and this Pokémon heals 33% HP. This can overheal.
+Al atacar al mismo oponente dos veces, lo atrapa durante tres turnos, y recupera el 33% de sus PS totales. Puede sobrecurarse.
+Slice moves always crit. However, their damage is dealt at the end of the round.
+Los movimientos de corte siempre son críticos. Sin embargo, su daño no se aplica hasta el final del turno.
+After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
+Al atacar al mismo oponente dos veces, es aturdido, y un Santuario es colocado en el lado del usuario durante tres turnos.
+Immune to Steel-type moves, and boosts Attack and Sp. Atk when hit by one.
+Inmune a movimientos tipo Acero, y aumenta ambos Ataques al ser alcanzado por uno.
+Prevents half the self-damage from recoil and self-destructing.
+Lays a hazard of levitating stones around the opponent when its HP is lowered below 75% HP.
+This Pokémon's moves deal 20% more damage, ignore immunities due to typing and deal half damage to protected targets.
+Sus ataques son potenciados un 20%, ignoran inmundades de tipos y golpean a objetivos protegidos por la mitad del daño.
+After using a sound move, all foes are Tormented.
+Luego de usar un movimiento de sonido, todos los rivales son Atormentados.
+If an attack lowers its HP below half, lowers the attacker's highest stat by four steps.
+Si un ataque disminuye la mitad o más de los PS del objetivo, le disminuye su stat más alta durante cuatro turnos.
+During hail, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
+Bajo granizo, el índice de golpes críticos del Pokémon es duplicado y su Velocidad es aumentada un 50%.
+Pulse moves multi-hit two to five times at 30% power.
+Movimientos de pulso golpean entre dos a cinco veces con el 30% de su potencia.
+After using a biting move, lowers the target's highest attacking stat by two steps.
+Luego de usar un movimiento de mordida, disminuye la stat más alta del objetivo dos grados.
+This Pokémon deals 30% more move damage, but is continually Tormented.
+Los ataques del Pokémon son potenciados un 30%, pero está permanentemente Atormentado.
+This Pokémon's pulse attacks become spread and deal 25% more damage.
+Los ataques de pulso del Pokémon atacan a todo el lado rival y son potenciados un 25%.
+This Pokémon's Speed is doubled while using pulse moves.
+La Velocidad del Pokémon es duplicada al usar movimientos de pulso.
+Boosts the power of pulse moves by 50%, and makes them physical when that would be more effective.
+Potencia los movimientos de pulso un 50% y los hace físicos en caso de ser más efectivo. 
+This Pokémon is immune to mental effects and can't be Dizzied, or Flinched.
+Este Pokémon es inmune a efectos mentales y no puede ser Mareado ni Amedrentado.
+Immune to Psychic-type moves and mental effects.
+Inmune a movimientos Psíquico y efectos mentales.
+During moonglow, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
+Bajo brillo lunar, el índice de golpes críticos del Pokémon es duplicado y su Velocidad es aumentada un 50%.
+During sandstorm, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
+En tormenta de arena, el índice de golpes críticos del Pokémon es duplicado y su Velocidad es aumentada un 50%.
+This Pokémon's moves deal 20% more damage and ignore abilities that would affect them. Its moves can't be redirected.
+Los movimientos del Pokémon son potenciados un 20% e ignoran habilidades que los afectarían, tampoco pueden ser redirigidos.
+Doubles Defense, but this Pokémon can't use status moves.
+Duplica Defensa, pero no puede usar movimientos de estado.
+If an attack lowers its HP below half, the attacker enters a sugar rush for four turns.
+Si el Pokémon pierde la mitad de sus PS o más, el atacante entra en un subidón de azúcar durante cuatro turnos. 
+Whenever a grounded foe attacks, this Pokémon gains priority against them on the next turn.
+Cuando un Pokémon sobre el suelo ataca, este Pokémon obtiene prioridad en su contra en el siguiente turno.
+Boosts the power of punch and pulse moves by 50%.
+Potencia movimientos de puño y pulso un 50%.
+This Pokémon's random crit moves are always critical if there is an active Room.
+Los movimiento del Pokémon que pueden ser críticos siempre lo son si hay una Zona activa.
 [12]
 0
 Normal
@@ -54168,8 +54668,8 @@ Defeat Rafael, leader of Velenz Gym. Velenz is west of Repora Forest. He can be 
 Vence a Rafael, líder del Gimnasio de Velenz. Velenz está al oeste del Bosque Repora. Puede ser encontrado por una escalera al noroeste del pueblo. 
 Defend Grouz from the Avatar!
 ¡Defiende a Grouz del Avatar!
-Professor Tamarind called, informing you of an Avatar of Steelix which is rampaging in the Grouz Mine Yard. She's promised a reward if you can defeat the Avatar.
-La Profesora Tamarind llamó, informándote de un Avatar de Steelix que está suelta en la Mina Grouz. Te prometió una recompensa si puedes vencer al Avatar.
+Professor Tamarind called, informing you of an Avatar of Titanix which is rampaging in the Grouz Mine Yard. She's promised a reward if you can defeat the Avatar.
+La Profesora Tamarind llamó, informándote de un Avatar de Titanix que está suelto en la Mina Grouz. Te prometió una recompensa si puedes vencer al Avatar.
 Visit Tamarind at Helena's House
 Visita a Tamarind en la Casa de Helena
 Go to the County Park and find Helena's House, where Professor Tamarind is waiting for you with a reward. Helena's house can be found North West of the lake, very close to it.
@@ -59254,6 +59754,1272 @@ You've been offered a gauntlet of scientists to try to get past. How difficult c
 Se te ha prestado la oportunidad de vencer a un montón de científicos. ¿Qué tan duros podrían ser estos cerebritos de todos modos? 
 Overview:
 Resumen:
+Misc. Held Items
+Equipables Misc.
+Candy
+Caramelos
+Evolution Items
+Obj. Evolutivos
+Passive Tools
+Herr. Pasivas
+Active Tools
+Herr. Activas
+Held Berries
+Obj. Equipables
+Held Gems
+Gemas
+Held Herbs
+Hierbas
+Held Clothing
+Vestimenta
+Trade Items
+Intercambiables
+Star Storm
+Tormenta Estelar
+Ice Age
+Era Glacial
+Access your control settings with <imp>F1</imp> to customize it.
+Accede a los ajustes de control con <imp>F1</imp> para personalizarlos.
+A {1} was created!
+¡Un {1} fue creado!
+\i[{1}]Activate the {2} to summon {3}?
+\i[{1}]¿Activar {2} para invocar a {3}?
+\i[{1}]Expend the {2} to summon {3}?
+\i[{1}]¿Gastar {2} para invocar a {3}?
+The {1} was consumed in the summoning.
+{1} fue consumido en la invocación.
+Stats
+Estadísticas
+Legendary Abilities
+Habilidades Legendarias
+What do these legendary abilities do?
+¿Qué hacen estas habilidades legendarias?
+Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic. Psychic resists Steel.
+Roca resiste Hielo. Hada resiste Dragón. Hada es neutral contra Fuego. Bicho resiste Psíquico. Psíquico resiste Acero.
+Stat steps start at 0, and can increase up to +8 (3x) and down to -8 (.33x). Stat steps are reset if you swap the Pokémon out or it faints.
+Grados de stats empiezan en 0, con un máximo de +8 (3x) y un mínimo de -8 (.33x). Los cambios son reiniciados si cambias al Pokémon o si es debilitado.
+Sitrus and Cado Berry
+Baya Zidra y Gualta
+When poisoned, a Pokémon loses 1/12th HP every turn. This doubles every 2 turns. Poison- and Bug-types do the most poisoning. Poison is immune.
+Al ser envenenado, un Pokémon pierde 1/18 de sus PS totales cada turno. Esto es duplicado cada 2 turnos. Tipos Veneno y Bicho envenenan más seguido. Veneno es inmune.
+When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack damage. Water- and Dark-types do the most waterlogging. Water is immune.
+Al ser embebido, la Velocidad del Pokémon es dividida a la mitad, y recibe un 20% más de daño. Tipos Agua y Siniestro embeban más seguido. Agua es inmune.
+When leeched, a Pokémon loses 1/12th HP every turn, and its opponent(s) split that health. Grass- and Dark-types do the most leeching. Grass is immune.
+Al ser infectado, un Pokémon pierde 1/12 de sus PS totales cada turno, y sus oponentes se dividen esa salud. Tipos Planta y Siniestro infectan más seguido. Planta es inmune.
+Blindness
+Ceguera
+When blinded, a Pokemon deals 50% damage with its next attacking move. Blindness persists until a damaging move is used by the blinded Pokemon.
+Al estar cegado, el siguiente ataque del Pokémon es potenciado un 50%. La ceguera persiste hasta que un ataque sea usado por un Pokémon Cegado.
+Sticky
+Pegajoso
+The affected Pokémon's highest stat becomes reduced by 2 steps for each turn of the effect.
+La estadística más alta del Pokémon afectado es reducida 2 grados al final de cada turno.
+Tapu Koko: Storm Totem
+Tapu Koko: Tótem Tormentoso
+Pokémon on this side get a 30% move damage boost, but they are prevented from using moves that are the same type as the move they most recently used.
+Los ataques de los Pokémon en el lado afectado son potenciados un 30%, pero no pueden usar movimientos del mismo tipo del último que hayan usado.
+Tapu Fini: Fog Totem
+Tapu Fini: Tótem Nebuloso
+Whenever a foe finishes attacking a Pokemon on this side, the attacker is forced to switch out of battle. They are able to choose the replacement.
+Cuando un rival ataca un Pokémon en el lado afectado, el atacante es forzado a regresar a su Poké Ball. Puedes elegir el Pokémon que lo reemplaza.
+Tapu Bulu: Wild Totem
+Tapu Bulu: Tótem Salvaje
+Whenever a Pokemon on this side is hit, its defending stats are both lowered by 1 step and its attacking stats are both raised by 1 step.
+Cuando un Pokémon en el lado afectado es atacado, sus stats defensivas son reducidas 1 grado y ambas stats ofensivas son aumentadas 1 grado.
+Tapu Lele: Flutter Totem
+Tapu Lele: Tótem Ondulante
+At the end of each turn, the Pokemon on this side are all healed by 1/8th of their max HP, but each one of their moves has their PP reduced by 1.
+Al final de cada turno, los Pokémon en el lado afectado recuperan 1/8 de sus PS totales, pero todos sus movimientos pierden 1 PP.
+Zeraora: Hybrid Fighter
+Zeraora: Luchador Híbrido
+You gain effects for using moves in an order.<<n>>Kick -> Bite: Healed by 25%.<<n>>Punch -> Kick: You switch out.<<n>>Bite -> Punch: The target's Attack and Sp. Atk lowers by 2 steps.
+Ganas efectos por usar movimientos en un orden específico.<<n>>Patada -> Mordida: Te curas un 25%.<<n>>Puño -> Patada: Cambias.<<n>>Mordida -> Puño: Disminuyes los Ataques del objetivo 2 grados.
+Hybrid Fighter Part 2
+Luchador Híbrido 2
+Bite -> Kick: Your speed raises by 2 steps.<<n>>Kick -> Punch: Opponent is Numbed.<<n>>Punch -> Bite: You gain Energy Charged.
+Mordida -> Patada: Aumentas tu Velocidad 2 grados.<<n>>Patada -> Puño: El objetivo es Aturdido.<<n>>Puño -> Mordida: Eres Energizado.
+Articuno: Glacial Wings
+Articuno: Alas Glaciales
+Severe Frostbite: The same as Frostbite, but its end-of-turn chip deals double damage if the afflicted Pokémon is below half health.
+Heladura Severa: Igual que la Heladura, pero su daño al final del turno es duplicado si el Pokémon afectado tiene la mitad de sus PS o menos.
+Moltres: Searing Wings
+Moltres: Alas Ardientes
+Severe Burn: The same as Burn, but the afflicted Pokémon also takes 33% recoil from their attacks.
+Quemadura Severa: Igual que la Quemadura, pero el Pokémon afectado recibe un 33% de daño de retroceso con todos sus ataques.
+Zapdos: Galvanic Wings
+Zapdos: Alas Galvánicas
+Severe Numb: The same as Numb, but the afflicted Pokémon's highest stat is reduced at the end of each turn.
+Aturdimiento Severo: Igual que el Aturdimiento, pero la stat más alta del Pokémon afectado es reducida al final de cada turno.
+Kyogre: Primordial Sea
+Kyogre: Mar del Albor
+Boosts the damage of Water- and Electric-type attacks by 50%. Prevents Pokémon not immune to Rain from activating moves' random added effects.
+Los movimientos de tipo Agua y Eléctrico son potenciados un 50%. Impide que los Pokémon no inmunes a la Lluvia puedan activar sus efectos secundarios aleatorios.
+Groudon: Desolate Land
+Groudon: Tierra del Ocaso
+Boosts the damage of Fire- and Grass-type attacks by 50%. Prevents Pokémon not immune to Sun from activating critical hits.
+Los movimientos de tipo Fuego y Planta son potenciados un 50%. Impide que los Pokémon no inmunes al sol puedan realizar golpes críticos.
+Necrozma: Event Horizon
+Necrozma: Horizonte Final
+Rock- and Ground-types gain a 50% boost to Special Defense. Pokémon not immune to Sandstorm take increasing damage from end of round, doubling every two rounds.
+Aumenta un 50% la Defensa Especial de tipos Roca y Tierra. Los Pokémon no inmunes a la Tormenta de Arena son dañados al final de cada turno, este daño duplicándose cada dos turnos.
+Kyurem: Heat Death
+Kyurem: Muerte Térmica
+Ice- and Ghost-types gain a 50% boost to Defense. Healing is prevented from Pokémon not immune to Hail while active.
+Aumenta un 50% la Defensa de tipos Hielo y Fantasma. Los Pokémon no inmunes al Granizo no pueden curarse.
+Cresselia: Saturnal Sky
+Cresselia: Cielo Saturnal
+Boosts the damage of Psychic- and Dragon-type attacks by 50%. When the debuff applies from the Ring Eclipse effect, it lowers stats by 3 steps instead of 2.
+Los movimientos de tipo Psíquico y Dragón son potenciados un 50%. Al ocurrir el efecto del Eclipse de Anillo, disminuye todas las estadísticas 3 grados.
+Darkrai: Stygian Night
+Darkrai: Noche de Estigio
+Boosts the damage of Fairy- and Dark-type attacks by 50%. When the flinch happens from Blood Moon, it also damages targets by 25% of their Max HP.
+Los movimientos de tipo Hada y Siniestro son potenciados un 50%. Además de Amedrentar, la Luna de Sangre quita un 25% de los PS totales.
+Giratina: Distorted Gravity
+Giratina: Gravedad Distorsionada
+All foes take 1/16th damage at the end of the round. While the user is on the field, gravity does not decay.
+Todos los rivales pierden 1/16 de sus PS totales al final de cada turno. Cuando el usuario está en el campo, la gravedad no se deteriorará.
+Tornadus: Wish of Winter
+Tornadus: Deseo Invernal
+Raises the side's Accuracy by 50%. On the final turn, that side has +1 priority.
+Aumenta la Precisión del lado afectado un 50%. En el turno final, este tiene +1 de prioridad.
+Thundurus: Wish of Summer
+Thundurus: Deseo Veraniego
+Raises the side's Speed by 50%. On the final turn, that side deals 50% more move damage, but takes 25% recoil..
+Aumenta la Velocidad del lado afectado un 50%. En el turno final, los ataques de este son potenciados un 50%, pero recibe un 25% de daño de retroceso.
+Landorus: Wish of Autumn
+Landorus: Deseo Otoñal.
+Raises the side's Defense by 50%. On the final turn, that side is healed for 33% max HP. This can overheal.
+Aumenta la Defensa del lado afectado un 50%. En el turno final, este recupera un 33% de sus PS totales. Esto puede sobrecurar.
+Enamorus: Wish of Spring
+Enamorus: Deseo Primaveral
+Raises the side's Sp. Def by 50%. On the final turn, that side is cured of non-volatile status conditions and mental conditions.
+Aumenta la Defensa Especial un 50%. En el turno final, este es curado de problemas de estado no-volátiles y condiciones mentales.
+Swap Box
+Mover Cajas
+Can't swap boxes while you have a Pokémon in your hand!
+¡No puedes mover cajas mientras estás sosteniendo un Pokémon!
+Swap with which Box?
+¿Moverla por cualquier Caja?
+That's the current box!
+¡Esa es la caja actual!
+{1} has swapped position with {2}!
+¡{1} cambió de posiciones con {2}!
+Do you want to delete this save file?
+¿Quieres borrar este archivo de guardado?
+Fight her in Novo Town.
+Combate contra ella en Pueblo Novo
+Fight him in East Tunnel.
+Combate contra él en Túnel Oriental
+East Tunnel
+Túnel Oriental
+A flower keeper at the south entrance of Novo Town says she'll give you a reward to celebrate completing your 4th gym. You won't forget her, right?
+Una florista en la entrada sur de Pueblo Novo dice que te dará una recompensa para celebrar tu victoria ante tu cuarto gimnasio. No la olvidarás, ¿cierto?
+The Bucket List
+Lista de Deseos
+Old Lady
+Señora
+Show her a legendary.
+Muéstrale un legendario.
+East-Peaks Gatehouse
+Portería Oriental-Picos
+An elderly lady notices your strength and status, and figures you may have a legendary Pokémon. She only wishes to see it and admire it. How about humoring her request? I'm sure there is something powerful in this region that you could find.
+Una mujer mayor quiere ver tu fuerza y estatus, y piensa que debes tener un Pokémon legendario. Ella solo desea admirarlo. ¿Y si decides mostrarle uno?
+Dr. Hekata heard of your dealings in the Chamber of Regigigas, and wants you to return there to find a magical artifact.
+Dr. Hekata escuchó sobre tus escapadas en la Cámara de Regigigas, y quiere que regreses allí para encontrar un artefacto mágico.
+You've found the Primal Clay, the artifact that Dr. Hekata was interested in. Return to her house to show it to her.
+Has encontrado la Arcilla Primitiva, el artefacto en el que Dr. Hekata estaba interesada. Regresa a su hogar para mostrárselo.
+To Train Your Dragons
+Entrenar a tus Dragones
+Fully evolve every Dragon Egg.
+Evoluciona a todos tus Huevos Dragón.
+It appears Chara is your next target, found in Sweetrock. You're certain this won't be any more challenging than your previous fight.
+Parece que Chara es tu siguiente objetivo, encontrada en Sweetrock. Claramente no será más desafiante que tu combate anterior.
+But it failed, since the opposing side already has {1} layers of {2}!
+¡Pero falló, ya que el lado contrario ya tiene {1} capas de {2}!
+{1} gives a taste of what's to come!
+¡{1} muestra una pizca de lo que se viene!
+{1} weaves a tale of woe and horror!
+¡{1} teje una historia de infortunio y calamidad!
+{1} knows when {1}'s time will run out!
+¡{1} sabe cuando el tiempo de {1} terminará!
+{1} feels a chill on the air... winter is coming!
+¡{1} siente un escalofrío... el invierno se acerca!
+{1} is fully charged. It's about to explode!
+{1} está completamente cargado. ¡Está a punto de explotar!
+{1} is generating a repulsion field!
+¡{1} está generando un campo de repulsión!
+{1} yearns for a high-quality room!
+¡{1} anhela una zona de alta calidad!
+Cruel Cocoon is continually active on the opposing side.
+Crisálida Cruel está continuamente activo en el lado contrario.
+Misdirecting Fog is continually active on the opposing side.
+Niebla Ilusoria está continuamente activo en el lado contrario.
+Turbulent Sky is continually active on the opposing side.
+Cielo Turbulento está continuamente activo en el lado contrario.
+Primal Forest is continually active on the opposing side.
+Bosque Primitivo está continuamente activo en el lado contrario.
+{1} is crushed by the distorted gravity!
+¡{1} es aplastado por la gravedad distorsionada!
+{1} turns upside down! Its stat steps are inverted!
+¡{1} se da la vuelta! ¡Sus cambios de estadísticas son invertidos!
+{1} caramelizes slightly in the heat.
+{1} es caramelizado en el calor.
+Ions in the atmosphere react to {1}!
+¡Los iones en la atmósfera reaccionan a {1}!
+The ions around {1} settled down.
+Los iones alrededor de {1} se estabilizan.
+{1} is pierced by spines hidden near {2}!
+¡{1} es atravesado por espinas cerca de {2}!
+{1} anchors itself in the ground!
+¡{1} se clava en la tierra!
+{1} gathered up material.
+{1} reunió materiales.
+But {1} is already energized...
+Pero {1} ya está energizado...
+{1} scattered debris that became Spikes!
+¡{1} escombros que se convirtieron en Púas!
+{1}'s rainbows shine with an aura of {2}!
+¡Los arcoíris de {1} brillan con un aura de {2}!
+{1} is being magnetized!
+¡{1} está siendo magnetizado!
+{1} heals its party members!
+¡{1} cura a sus compañeros!
+{1} hurt itself in an extreme rage!
+¡{1} es lastimado en su ira extrema!
+{1} collected the {2} type!
+¡{1} colecciona el tipo {2}!
+{1} is caught in the pincers!
+¡{1} es atrapado en las tenazas!
+{1} is caught in a lasso!
+¡{1} es atrapado en un lazo!
+{1} takes on a new machine!
+¡{1} posee una nueva máquina!
+{1} prepares its response!
+¡{1} prepara su respuesta!
+{1} steals the energy from its moonstruck enemies!
+¡{1} extrae la energía de los enemigos!
+{1} is restored by the full moon!
+¡{1} es restaurado por la luna llena!
+{1} regenerates in safety.
+{1} se regenera en su seguridad.
+{1} bonds with its younger allies!
+¡{1} protege a sus jóvenes aliados!
+{1} is immune to the pressure of the walls!
+¡{1} es inmune a la presión de las paredes!
+The walls close in on {1}!
+¡Las paredes se cierran en {1}!
+{1} is a killjoy! Stats can't be raised!
+¡{1} es un aguafiestas! ¡Las estadísticas no pueden ser aumentadas!
+{1} is quick onto the scene!
+¡{1} entrá rápido a la escena!
+{1} is hopping mad!
+¡{1} salta furioso!
+{1} is shining with light speed!
+¡{1} brilla a la velocidad de la luz!
+{1} is quick on the draw!
+¡{1} dispara rápidamente!
+{1} is ferocious!
+¡{1} es feroz!
+{1} tricks the eye!
+¡{1} es engañoso!
+{1} saturates the field with death!
+¡{1} satura el campo con muerte!
+{1} saturates the field with life!
+¡{1} satura el campo con vida!
+{1} prevents rooms from decaying!
+¡{1} impide que las zonas decaigan!
+Which type should {1} fake?
+¿Qué tipo debería {1} fingir?
+{1} twists the dimensions!
+¡{1} retuerce las dimensiones!
+{1} is trailing rainbows behind it!
+¡Un rastro de arcoíris sigue a {1}!
+Stardust churns all around.
+Polvo estelar inunda el campo.
+An ice age is here.
+La era glacial está aquí.
+The star storm continues!
+¡La tormenta estelar continúa!
+The ice age may go on forever!
+¡La era glacial podría ser eterna!
+Stardust is churning around!
+¡Polvo estelar inunda el campo!
+An ice age began!
+¡La era glacial comienza!
+The star storm ceases!
+¡La tormenta estelar cesa!
+The ice age makes way!
+¡La era glacial finaliza!
+The barrage of stardust shows signs of stopping!
+¡La ráfaga de polvo estelar parece detenerse!
+The ice age begins to end!
+¡La edad glacial llega a su final!
+The star storm is unstoppable!
+¡La tormenta estelar es imparable!
+The ice age is still in control!
+¡La edad glacial aún está en control!
+The stardust expands! Its damage has doubled!
+¡La tormenta estelar se expande! ¡Su daño es duplicado!
+The stardust expands yet again!
+¡La tormenta estelar es expandidad una vez más!
+{1} is shredded by gigantic particles of iron stardust!
+¡{1} es destrozado por partículas gigantes de polvo estelar férreo!
+{1} is buffeted by gigantic particles of stardust!
+¡{1} es lastimado por partículas gigantes de polvo estelar!
+{1} is shredded by large particles of iron stardust!
+¡{1} es destrozado por grandes partículas de polvo estelar férreo!
+{1} is buffeted by large particles of stardust!
+¡{1} es lastimado por grandes partículas de polvo estelar!
+{1} is shredded by iron stardust!
+¡1} es lastimado por polvo estelar férreo!
+{1} is buffeted by stardust!
+¡{1} es lastimado por polvo estelar!
+{1} is pummeled by the bitterly cold shards of ice!
+¡{1} es apaleado por fragmentos de hielo!
+{1} is buffeted by shards of ice!
+¡{1} es lastimado por fragmentos de hielo!
+Rampaging Pokémon can't be switched out!
+¡No puedes cambiar un Pokémon que esté arrasando!
+{1} is about to send in {2}. Will you switch out {3}?
+{1} está a punto de enviar a {2}. ¿Quieres cambiar a {3}?
+{1} absorbed a layer of the {2}!
+¡{1} absorbió una capa de {2}!
+{1} takes control of time itself!
+¡{1} toma control del tiempo!
+You cannot mass-move Pokémon into a Donation Box.
+No puedes mover Pokémon en masa a una Caja de Donaciones.
+Move Selection
+Mover Selección
+Clear Selection
+Quitar Selección
+Do what with your {1} selected Pokémon?
+¿Qué vas a hacer con tus {1} Pokémon seleccionados?
+You cannot multi-select Pokémon that are in a Donation Box.
+No puedes seleccionar múltiples Pokémon que estén en una Caja de Donación.
+Cannot multi-select more than a box's worth of Pokémon.
+No puedes seleccionar más Pokémon de los que hay en una caja.
+Cannot mass move into an occupied spot.
+No puedes mover en masa hacia un espacio ocupado.
+Cannot move all able Pokémon out of your party.
+No puedes mover todos los Pokémon en tu equipo.
+Cannot mass move to this spot.
+No puedes mover en masa hacia este lugar.
+{1} open slots are needed, and there are only {2} here.
+{1} espacios vacíos son necesarios, y solo hay {2}.
+ERROR! Party ended up higher than the size maximum.
+¡ERROR! El equipo es mayor al tamaño máximo.
+{1} Pokémon have been mass moved to your party.
+{1} Pokémon han sido movidos en masa a tu equipo.
+ERROR! Couldn't move all Pokémon in a mass move.
+¡ERROR! No puedieron ser movidos en masa todos los Pokémon.
+{1} Pokémon have been mass moved to {2}.
+{1} Pokémon han sido movidos en masa a {2}.
+View Moves
+Ver Movimientos
+View Items
+Ver Objetos
+View Item
+Ver Objetos
+View which information?
+¿Qué quieres ver?
+View which item?
+¿Cuál objetos quieres ver?
+Take All Items
+Tomar Objetos
+Has Prevo and Evo
+Tiene Prevo y Evo
+Non-4-Tempo
+No-Ritmo-de-4
+Ends before value
+Termina antes de
+Too Many 1s
+Muchos 1s
+Above 70
+Más de 70
+No Pre-16 Stab
+No STAB Pre-16
+No 16-31 Stab
+No STAB 16-31
+No 32-44 Stab
+No STAB 32-44
+Duplicate Moves
+Duplicar Movimientos
+Not Legendary
+No Legendarios
+Save & Quit to Menu
+Guardar y Salir al Menú
+Save & Quit to Desktop
+Guardar y Salir al Escritorio
+Quit to Menu
+Salir al Menú
+{1}'s positive stat changes were eliminated!
+¡Los cambios de stats positivos de {1} fueron eliminados!
+It'll take one third recoil from its own attacks
+Recibirá un tercio del daño de retroceso de sus ataques
+Frostbite damage is double below half health
+El daño de la heladura es duplicado al perder la mitad de ps
+Its highest stat is lowered each turn
+Su stat más alta es disminuida cada turno
+{1} was severely burned! {2}!
+¡{1} fue severamente quemado! ¡{2}!
+{1} is severely numbed! {2}!
+¡{1} fue severamente aturdido! ¡{2}!
+{1} was severely frostbitten! {2}!
+¡{1} fue severamente helado! ¡{2}!
+{1} was severely burned!
+¡{1} fue severamente quemado!
+{1} is severely numbed!
+¡{1} fue severamente aturdido!
+{1} was severely frostbitten!
+¡{1} fue severamente helado!
+A neurotoxin emitter is in the opposing party!
+¡Un emisor de neurotoxinas está en el lado rival!
+Due to {1}, {2} will be unable to use the same move twice in a row.
+Debido a {1}, {2} no podrá usar el mismo movimiento dos veces seguidas.
+The poison starts already doubled!
+¡El veneno ya empieza duplicado!
+{1}'s poison worsened! The damage will be doubled until it leaves the field.
+¡El veneno de {1} empeoró! El damaño será duplicado hasta que salga del campo.
+{1}'s poison doubled yet again!
+¡El veneno de {1} es duplicado una vez más!
+{1} was hurt by its severe burn!
+¡{1} fue lastimado por su quemadura severa!
+{1} was intensely hurt by severe frostbite!
+¡{1} fue intensamente lastimado por su heladura severa!
+{1} was hurt by severe frostbite!
+¡{1} fue lastimado por su heladura severa!
+{1} cringes from their severe burn!
+¡{1} se resiente de su quemadura severa!
+{1} got too rowdy!
+¡{1} hace demasiado ruido!
+{1} was punished for its joy!
+¡{1} fue castigado por su alegría!
+The {1} supplemented {2}'s power and made it {3}!
+¡{1} suplementó el poder de {2} e hizo {3}!
+{1} used its energy to empower {2}!
+¡{1} uso su energía para empoderar {2}!
+{1} lands a flashy hit!
+¡{1} consigue final de película!
+The tangling vines strengthened the hit!
+¡Las lianas potenciaron el golpe!
+{1} is blinded, and partially misses!
+¡{1} está cegado, y falla parcialmente!
+{1} can't use the same move twice in a row due to the neurotoxin!
+¡{1} no puede usar el mismo movimiento dos veces seguidas por su neurotoxina!
+{1} can only use {2}-type moves!
+¡{1} solo puedo usar movimientos de tipo {2}!
+{1} can't use this attack while rampaging!
+¡{1} no puede usar este ataque mientras arrasa!
+{1} was flooded by {2}!
+¡{1} fue inundado por {2}!
+{1} was burned by {2}!
+¡{1} fue quemado por {2}!
+{1} was frostbitten by {2}!
+¡{1} fue helado por {2}!
+{1} lines up metal shards!
+¡{1} alinea fragmentos de metal!
+Ancient cold crystallizes around {1}!
+¡Frío antiguo se cristaliza alrededor de {1}!
+{1} begins to energize!
+¡{1} empieza a energizarse!
+The next physical hit from {1} will numb.
+El siguiente ataque físico de {1} aturdirá.
+The next special hit from {1} will numb.
+El siguiente ataque especial de {1} aturdirá.
+The next physical hit from {1} will poison.
+El siguiente ataque físico de {1} envenenará.
+The next special hit from {1} will poison.
+El siguiente ataque especial de {1} envenenará.
+The next physical hit from {1} will burn.
+El siguiente ataque físico de {1} quemará.
+The next special hit from {1} will burn.
+El siguiente ataque especial de {1} quemará.
+The next physical hit from {1} will frostbite.
+El siguiente ataque físico de {1} helará
+The next special hit from {1} will frostbite.
+El siguiente ataque especial de {1} helará.
+The next physical hit from {1} will dizzy.
+El siguiente ataque físico de {1} mareará.
+The next special hit from {1} will dizzy.
+El siguiente ataque especial de {1} mareará.
+The next physical hit from {1} will leech.
+El siguiente ataque físico de {1} infectará.
+The next special hit from {1} will leech.
+El siguiente ataque especial de {1} infectará.
+The next physical hit from {1} will waterlog.
+El siguiente ataque físico de {1} embebará.
+The next special hit from {1} will waterlog.
+El siguiente ataque especial de {1} embebará.
+{1} will flinch next turn!
+¡{1} será aturdido en el siguiente turno!
+{1} is stuck! It can't be moved!
+¡{1} está estancado! ¡No puede moverse!
+{1} is no longer stuck.
+{1} ya no está estancado.
+{1} spun down from its rampage.
+{1} ya no está arrasando.
+Exhaustion finally catches up with {1}!
+¡{1} está finalmente exhausto!
+{1} is no longer being type-restricted.
+{1} ya no está siendo restringido.
+{1} is no longer trapped by {2}!
+¡{1} ya no está atrapado por {2}!
+{1} is beginning to shrink down!
+¡{1} está empezando a reducirse!
+{1} is cured of its shrinking!
+¡{1} fue curado de su reducimiento!
+{1} is no longer shrinking down!
+¡{1} ya no está reduciéndose!
+{1} got smaller! Its highest stat is going down!
+¡{1} es más pequeño! ¡Su stat más alta se está reduciendo!
+{1} is experiencing a sugar rush!
+¡{1} está experimentando un subidón de azúcar!
+It'll take double move damage and have doubled speed, for {1} more turns!
+¡Recibirá el doble de daño y su velocidad será duplicada durante {1} turnos más!
+{1} was forced out of its sugar rush!
+¡{1} ya no sufre un subidón de azúcar!
+{1} calmed down from its sugar rush!
+¡El subidón de azúcar {1} terminó!
+{1} is blinded!
+¡{1} fue cegado!
+It'll deal half as much damage on its next attack!
+¡Su próximo ataque tendrá la mitad de potencia!
+{1} is no longer blinded.
+{1} ya no está cegado.
+{1} is bound in {2}'s tangling vines!
+¡{1} está atrapado en las lianas de {2}!
+{1} is no longer bound in tangling vines.
+{1} ya no está atrapado por las lianas.
+The spotlight will boost {1}'s next Normal-type attack!
+¡El foco potenciará el siguiente ataque de tipo Normal de {1}!
+{1} is carried off by feathers!
+¡{1} fue arrastrado por plumas!
+{1} was placed under quarantine!
+¡{1} fue puesto en cuarentena!
+The quarantine around {1} was lifted!
+¡{1} fue liberado de su cuarentena!
+The quarantine around {1} ended!
+¡La cuarentena de {1} terminó!
+{1} vanquishes its opponents!
+¡{1} aniquila a sus oponentes!
+{1} draws strength from patience!
+¡La paciencia de {1} da frutos!
+A fierce resolution gathers around {1}!
+¡Una fuerte resolución se concentra alrededor de {1}!
+This will last for the rest of the battle!
+¡Esto durará por el resto del combate!
+{1} comes to avenge {2}!
+¡{1} llega para vengar a {2}!
+{1} was powered up by the trail of stormy energy left by {2}!
+¡{1} fue potenciado por un rastro de energía tormentosa dejado por {2}!
+{1} was enwrapped by the trail of mist left by {2}!
+¡{1} fue envuelto en el rastro de niebla dejado por {2}!
+{1} was enraged by the trail of magma left by {2}!
+¡{1} fue enfurecido por el rastro de magma dejado de {2}!
+The ground below {1} was surrounded by rocky shards!
+¡La tierra debajo de {1} fue rodeada por fragmentos rocosos!
+{1} is hurt by the rocky shards!
+¡{1} es lastimado por los fragmentos rocosos!
+The rocky shards surrounding {1} were sent away.
+¡Los fragmentos rocosos alrededor de {1} fueron eliminados.
+The rocky shards surrounding {1} crumbled away.
+Los fragmentos rocosos alrededor de {1} se desmoronaron.
+{1} is protected by a blessed wall of light!
+¡{1} es protegido por una muro de luz bendito!
+{1}'s Sanctuary was removed!
+¡El Santuario de {1} fue removido!
+{1} is no longer protected by Sanctuary.
+{1} ya no está protegido por el Santuario.
+The fog on {1}'s side dissipated.
+La niebla en el lado de {1} se ha disipado.
+{1} began the spring plantings!
+¡{1} empieza las siembras de primavera!
+Their Sp. Def will be raised by 50 percent for {1} more turns!
+¡Su Defensa Especial será aumentada un 50 porciento durante {1} turnos más!
+{1} cancelled their spring plantings.
+{1} canceló sus siembras de primavera.
+{1} completed their spring plantings!
+¡{1} completo sus siembras de primavera!
+{1}'s spring plantings are finishing!
+¡Las siembras de primavera de {1} están finalizando!
+{1} is refreshed of physical and mental ailments!
+¡{1} se recuperó de sus condiciones físicas y mentales!
+{1} began the summer festivals!
+¡{1} empezó las festividades de verano!
+Their Speed will be raised by 50 percent for {1} more turns!
+¡Su Velocidad será aumentada un 50 porciento durante {1} turnos más!
+{1} cancelled their summer festivals.
+{1} canceló sus festividades de verano.
+{1} completed their summer festivals!
+¡{1} completó sus festividades de verano!
+{1}'s summer festivals are finishing!
+¡Las festividades de verano de {1} están finalizando!
+They'll deal 50 percent more move damage this turn, but take 25 percent recoil!
+¡Su daño es potenciado un 50 porciento este turno, pero recibirá 25 porciento de daño de retroceso!
+{1} began the autumn harvests!
+¡{1} empezó las cosechas de otoño!
+Their Defense will be raised by 50 percent for {1} more turns!
+¡Su Defensa será aumentada un 50 durante {1} turnos más!
+{1} cancelled their autumn harvests.
+¡{1} canceló las cosechas de otoño.
+{1} completed their autumn harvests!
+¡{1} completó las cosechas de otoño!
+{1}'s autumn harvests are finishing!
+¡Las cosechas de otoño de {1} están finalizando!
+They receive a healthy bounty!
+¡Recibe un aumento de salud!
+{1} began the winter hunts!
+¡{1} empieza las cacerías de invierno!
+Their Accuracy will be raised by 50 percent for {1} more turns!
+¡Su Precisión será aumentada un 50 porciento durante {1} turnos más!
+{1} cancelled their winter hunts.
+{1} canceló las cacerías de invierno.
+{1} completed their winter hunts!
+¡{1} completó las cacerías de invierno!
+{1}'s winter hunts are finishing!
+¡Las cacerías de invierno de {1} está finalizando!
+They'll have +1 priority this turn!
+¡Tendrán +1 de prioridad este turno!
+A Primeval Tailwind blew from behind {1}!
+¡Un Viento Afín Primitivo sopla detrás de {1}!
+{1}'s Primeval Tailwind was stopped!
+¡El Viento Afín de {1} fue detenido!
+{1}'s Primeval Tailwind petered out.
+El Viento Afín de {1} amainó.
+A feather fell to the ground around {1}.
+Una pluma cae al suelo alrededor de {1}.
+The second feather fell to the ground around {1}.
+Una segunda pluma cae al suelo alrededor de {1}.
+The third and final feather fell to the ground around {1}.
+La tercera y última pluma cae al suelo alrededor de {1}.
+{1} feathers fell to the ground around {2}.
+{1} pluman caen al suelo alrededor de {2}.
+The feathers around {1} were absorbed!
+¡Las plumas alrededor de {1} fueron absorbidas!
+A scale fell to the ground around {1}.
+Una escama cayó al suelo alrededor de {1}.
+The second scale fell to the ground around {1}.
+Una segunda escama cayó al suelo alrededor de {1}.
+The third and final scale fell to the ground around {1}.
+La tercera y última escama cayó al suelo alrededor de {1}.
+{1} scales fell to the ground around {2}.
+{1} escamas cayeron al suelo alrededor de {2}.
+The scales around {1} were absorbed!
+¡Las escamas alrededor de {1} fueron absorbidas!
+A fang fell to the ground around {1}.
+Un colmillo cayó al suelo alrededor de {1}.
+The second fang fell to the ground around {1}.
+Un segundo colmillo cayó al suelo alrededor de {1}.
+The third and final fang fell to the ground around {1}.
+El tercer y último colmillo cayó al suelo alrededor de {1}.
+{1} fang fell to the ground around {2}.
+{1} colmillos cayeron al suelo alrededor de {2}.
+The fangs around {1} were absorbed!
+¡Los colmillos alrededor de {1} fueron absorbidos!
+A scute fell to the ground around {1}.
+Una placa cayó al suelo alrededor de {1}.
+The second scute fell to the ground around {1}.
+Una segunda placa cayó al suelo alrededor de {1}.
+The third and final scute fell to the ground around {1}.
+La tercera y última placa cayó al suelo alrededor de {1}.
+{1} scutes fell to the ground around {2}.
+{1} placas cayeron al suelo alrededor de {2}.
+The scutes around {1} were absorbed!
+¡Las placas alrededor de {1} fueron absorbidas!
+{1} is blessed by the Wishing Well!
+¡{1} es bendecido por la Fuente de los Deseos!
+It'll block random added effects for {1} turns !
+¡Impedirá efectos secundarios aleatorios durante {1} turnos!
+{1} was healed by the Wishing Well!
+¡{1} fue curado por la Fuente de los Deseos!
+{1} is no longer blessed by the Wishing Well.
+{1} ya no está bendecido por la Fuente de los Deseos.
+{1} is veiled with crystal! It's a {2}-type!
+¡{1} está cubierto de cristales! ¡Es de tipo {2}!
+Balanced
+Balanceado
+There are still Style Points points left to assign!
+¡Aún quedan Puntos de Estilo que asignar!
+The harsh sunlight prevents the hit from being critical!
+¡El sol abrasador impide que el golpe sea crítico!
+The blessing around {1} prevented the hit from being critical!
+¡La bendición alrededor de {1} impide que el golpe sea crítico!
+The sanctuary around {1} prevented the hit from being critical!
+¡El santuario alrededor de {1} impide que el golpe sea crítico!
+The heavy rain prevents a random added effect!
+¡El diluvio impide el efecto secundario aleatorio!
+The Wishing Well protects {1} from a random added effect!
+¡La Fuente de los Deseos protege a {1} de un efecto secundario aleatorio!
+{1} is too powerful to be compelled to rest!
+¡{1} es demasiado poderoso para forzarlo a descansar!
+Heals more the heavier the user is.
+Cura más dependiendo del peso del usuario.
+<u>{1} {2} and more:</u> 100%
+<u>{1} {2} y más:</u> 100%
+<u>{1} {2} and less:</u> 6.25%
+<u>{1} {2} y menos:</u> 6.25%
+But it failed, since {1} has no team members to heal!
+¡Pero falló, ya que {1} no tiene compañeros a los que curar!
+A bell rings out! Dinner is on!
+¡Una campana suena! ¡La cena está lista!
+{1} used Light That Burns the Sky!
+¡{1} usó Fotodestrucción Apocalíptica!
+Bright lights bursts out of {1}!
+¡{1} expulsa luz por todas partes!
+But it failed, since there are not enough coins on the field!
+¡Pero falló, ya que no hay suficientes monedas en el campo!
+{1} coins were thrown in the Wishing Well!
+¡{1} monedas fueron lanzadas a la Fuente de los Deseos!
+There were no coins to throw in the Wishing Well...
+No habían monedas que lanzar a la Fuente de los Deseos...
+{1} sends another volley!
+¡{1} envía otra ráfaga!
+{1} created a golden pyre!
+¡{1} creó una llama dorada!
+{1} emerged from the pyre!
+¡{1} emergió de las llamas!
+{1} became ensnared by electricity!
+¡{1} es envuelto en electricidad!
+{1} takes a curative nap!
+¡{1} se toma una siesta curativa!
+{1} disappears into mist!
+¡{1} desaparece entre la niebla!
+{1} hid in the darkness!
+¡{1} se esconde en la oscuridad!
+{1} melded into the foliage!
+¡{1} se camufla en el follage!
+Does more damage the lower the user's HP is. Range 100-800
+Cuantos menos PS tenga el usuario, más daño hace. Rango 100-800
+<u>100% HP:</u> 100 BP
+<u>100% PS:</u> 100 PB
+<u>50% HP:</u> 200 BP
+<u>50% PS:</u> 200 PB
+<u>30% HP:</u> 280 BP
+<u>30% PS:</u> 280 PB
+<u>20% HP:</u> 400 BP
+<u>20% PS:</u> 400 PB
+<u>15% HP:</u> 480 BP
+<u>15% PS:</u> 480 PB
+<u>10% HP:</u> 660 BP
+<u>10% PS:</u> 660 PB
+<u>7.5% HP:</u> 800 BP
+<u>7.5% PS:</u> 800 PB
+{1} gathered energy!
+¡{1} reunió energía!
+{1} started singing!
+¡{1} empezó a contar!
+But it failed, since the Bug-type doesn't exist!
+¡Pero falló, ya que el tipo Bicho no existe!
+<u>No Machine</u>: Numb
+<u>Sin Máquina</u>: Aturdir
+Turns into a different move depending on the environment.
+Se convierte en un movimiento distinto dependiendo del ambiente.
+<u>Grassy</u>: Energy Ball
+<u>Frondoso</u>: Energibola
+<u>Water</u>: Bubble Blaster
+<u>Agua</u>: Cañón Burbuja
+<u>Caves</u>: Power Gem
+<u>Cuevas</u>: Joya de Luz
+<u>Rocky, Sandy</u>: Earth Power
+<u>Rocoso, Arenoso</u>: Tierra Viva
+<u>Snowy, Icy</u>: Ice Beam
+<u>Nevado, Helado</u>: Rayo Hielo
+<u>Volcanos</u>: Flamethrower
+<u>Volcanes</u>: Lanzallamas
+<u>Graveyards</u>: Shadow Ball
+<u>Cementerios</u>: Bola Sombra
+<u>In The Sky</u>: Air Slash
+<u>En el Cielo</u>: Tajo Aéreo
+<u>Space</u>: Draco Meteor
+<u>Espacio</u>: Meteoro Draco
+<u>Ultraspace</u>: Psycho Boost
+<u>Ultraespacio</u>: Psicoataque
+<u>Everywhere Else</u>: Ruin
+<u>Otros Lugares</u>: Ruina
+Which drive should {1} use?
+¿Cuál ROM debería usar {1}?
+{1} loaded a {2}!
+¡{1} cargó {2}!
+But it failed, since the target is already under quarantine!
+¡Pero falló, ya que el objetivo ya está en cuarentena!
+But it failed, since the target is already trapped and can't be disabled!
+¡Pero falló, ya que el objetivo ya está atrapado y no puede ser anulado!
+But it failed, since {1} is already blinded!
+¡Pero falló, ya que {1} ya estña cegado!
+But it failed, since {1} is already shrinking!
+¡Pero falló, ya que {1} ya está reduciéndose!
+But it failed, since there are already rocky shards on the ground beneath {1}!
+¡Pero falló, ya que ya hay fragmentos rocosos en la tierra debajo de {1}!
+{1} will revive in five turns!
+¡{1} revivirá en cinco turnos!
+Does more damage the more HP the user has left. Affected by Overhealing.
+Cuantos más PS tenga el usuario, más daño hace. Afectado por la Sobrecuración.
+Range 65-195
+Rango 65-195
+<u>50% HP:</u> 65 BP
+<u>50% PS:</u> 65 PB
+<u>75% HP:</u> 95 BP
+<u>75% PS:</u> 95 PB
+<u>100% HP:</u> 130 BP
+<u>100% PS:</u> 130 PB
+<u>125% HP:</u> 160 BP
+<u>125% PS:</u> 160 PB
+<u>150% HP:</u> 195 BP
+<u>150% PS:</u> 195 PB
+Does more damage the slower the user is compared to the target. Range 40-150
+Cuanto más lento sea el usuario comparado al objetivo, más daño hace. Rango 40-150
+<u>1/2 of the target's speed:</u> 50 BP
+<u>1/2 de la velocidad rival:</u> 50 PB
+<u>1/3 of the target's speed:</u> 75 BP
+<u>1/3 de la velocidad rival:</u> 75 PB
+<u>1/4 of the target's speed:</u> 100 BP
+<u>1/4 de la velocidad rival:</u> 100 PB
+<u>1/5 of the target's speed:</u> 125 BP
+<u>1/5 de la velocidad rival:</u> 125 PB
+<u>1/6 of the target's speed:</u> 150 BP
+<u>1/6 de la velocidad rival:</u> 150 PB
+Does more damage the lower the user's HP is. Range 25-200
+Cuanto menos PS tenga el usuario, más daño hace. Rango 25-200
+<u>100% HP:</u> 25 BP
+<u>100% PS:</u> 25 PB
+<u>50% HP:</u> 50 BP
+<u>50% PS:</u> 50 PB
+<u>30% HP:</u> 70 BP
+<u>30% PS:</u> 70 PB
+<u>20% HP:</u> 100 BP
+<u>20% PS:</u> 100 PB
+<u>15% HP:</u> 120 BP
+<u>15% PS:</u> 120 PB
+<u>10% HP:</u> 165 BP
+<u>10% PS:</u> 165 PB
+<u>7.5% HP:</u> 200 BP
+<u>7.5% PS:</u> 200 PB
+Does more damage the faster the user is compared to the target. Range 40-150
+Cuanto más veloz sea el usuario comparado al objetivo, más daño hace. Rango 40-150
+<u>Slower than target:</u> 40 BP
+<u>Más lento que el objetivo:</u> 40 PB
+<u>Same Speed as target:</u> 45 BP
+<u>Misma Velocidad que el objetivo:</u> 45 PB
+<u>1.5x faster than target:</u> 60 BP
+<u>1.5x más rapido que el objetivo:</u> 60 PB
+<u>2x faster than target:</u> 80 BP
+<u>2x más rapido que el objetivo:</u> 80 PB
+<u>3x faster than target:</u> 115 BP
+<u>3x más rapido que el objetivo:</u> 115 PB
+<u>4x faster than target:</u> 150 BP
+<u>4x más rapido que el objetivo:</u> 150 PB
+Does more damage the heavier the target is. Range 20-195
+Cuanto más pesado el objetivo sea, más daño hace. Rango 20-195
+<u>Less than {1} {2}:</u> 20 BP
+<u>Menos que {1} {2}:</u> 20 PB
+<u>{1} - {2} {3}:</u> 25 BP
+<u>{1} - {2} {3}:</u> 25 BP
+<u>{1} - {2} {3}:</u> 50 BP
+<u>{1} - {2} {3}:</u> 50 PB
+<u>{1} - {2} {3}:</u> 100 BP
+<u>{1} - {2} {3}:</u> 100 PB
+<u>{1} - {2} {3}:</u> 140 BP
+<u>{1} - {2} {3}:</u> 140 PB
+<u>>{1} {2}:</u> 160 BP
+<u>>{1} {2}:</u> 160 PB
+Does more damage the heavier the user is compared to the target. Range 40-125
+Cuanto más pesado sea el usuario comparado al objetivo, más daño hace. Rango 40-125
+<u>1/5 of target's weight:</u> 40 BP
+<u>1/5 del peso rival:</u> 40 PB
+<u>Same weight as target:</u> 55 BP
+<u>Mismo peso que el objetivo:</u> 55 PB
+<u>2x heavier than target:</u> 65 BP
+<u>2x más pesado que el objetivo:</u> 65 PB
+<u>5x heavier than target:</u> 90 BP
+<u>5x más pesado que el objetivo:</u> 90 PB
+<u>10x heavier than target:</u> 125 BP
+<u>10x más pesado que el objetivo:</u> 125 PB
+Does more damage the higher any ally's Defense is. Range 40-200
+Cuanta más Defensa tengo el aliado, más daño hace. Rango 40-200
+<u>No ally:</u> 40 BP
+<u>Sin aliado:</u> 40 PB
+<u>Ally Defense 44 or less:</u> 40 BP
+<u>Defensa del Aliado 44 o menos:</u> 40 PB
+<u>Ally Defense 45-49:</u> 45 BP
+<u>Defensa del Aliado 45-49:</u> 45 PB
+<u>Ally Defense 100-104:</u> 100 BP
+<u>Defensa del Aliado 100-104:</u> 100 PB
+<u>Ally Defense 200 or more:</u> 200 BP
+<u>Defensa del Aliado 200 o más:</u> 200 PB
+Does more damage the taller the user is compared to the target. Range 40-125
+Cuanto más alto sea el usuario comparado al objetivo, más daño hace. Rango 40-125
+<u>Target 5x taller than user:</u> 40 BP
+<u>Objetivo 5x más alto que el usuario:</u> 40 BP
+<u>Same height as target:</u> 55 BP
+<u>Misma altura que el objetivo:</u> 55 BP
+<u>2x taller than target:</u> 65 BP
+<u>2x más alto que el objetivo:</u> 65 BP
+<u>5x taller than target:</u> 90 BP
+<u>5x más alto que el objetivo:</u> 90 BP
+<u>10x taller than target:</u> 125 BP
+<u>10x más alto que el objetivo:</u> 125 BP
+{1} blew away the {2} on the other side of the field!
+¡{1} levantó a {2} en el otro lado del campo!
+The {1} was blown to the other side of the field!
+¡{1} fue arrrastrada al otro lado del campo!
+But it failed, since {1} can't be given a Black Sludge!
+¡Pero falló, ya que {1} no puede recibir un Lodo Negro!
+{1} was gifted an {2}!
+¡Un {2} fue otorgado a {1}!
+<u>300 BP</u>: Pearl of Wisdom
+<u>300 PB</u>: Perla Sabiduría
+<u>Burn</u>: Flame Orb
+<u>Quemar</u>: Llamasfera
+But {1} can't hold the {2}!
+¡Pero {1} no puede sostener {2}!
+{1} draws the {2} from the stone!
+¡{1} remueve {2} de la piedra!
+{1} swapped its unmodified speed stats with the target!
+¡{1} intercambió su velocidad con el objetivo!
+{1} gathers a new mind!
+¡{1} reune una nueva mente!
+But it failed, since {1} isn't statused!
+¡Pero falló, ya que {1} no tiene ningún problema de estado!
+But it failed, since {1} can't be waterlogged and {2} already has an Aqua Ring!
+¡Pero falló, ya que {1} no puede ser embebido y {2} ya tiene un Acua Aro!
+You clamber into the den!
+¡Te metes dentro del nido!
+Loyalty
+Lealtad
+Perseverance
+Perseverancia
+Patience
+Paciencia
+Reverence
+Reverencia
+Solidarity
+Solidaridad
+Clarity
+Claridad
+Generosity
+Generosidad
+Mercy
+Piedad
+\i[EXPEZDISPENSER]You have {1} EXP stored in the EXP-EZ Dispenser.
+\i[EXPEZDISPENSER]Tienes {1} EXP almacenada en el Dispensador EXP-EZ.
+\i[EXPEZDISPENSER]You can make {1} Medium, {2} Small and {3} Extra-Small candies. Would you like to?
+\i[EXPEZDISPENSER]Puedes hacer {1} caramelos Medios, {2} Pequeños y {3} Extra-pequeños. ¿Te gustaría?
+\i[EXPEZDISPENSER]You can make {1} Large, {2} Medium and {3} Small candies. Would you like to?
+\i[EXPEZDISPENSER]Puedes hacer {1} caramelos Grandes, {2} Medios y {3} Pequeños. ¿Te gustaría?
+\i[EXPEZDISPENSER]That's not enough to make any candies.
+\i[EXPEZDISPENSER]Eso no es suficiente para hacer caramelos.
+It has no effect on Pokémon other than Giratina.
+No tiene efectos en Pokémon que no sean Giratina.
+It has no effect on Pokémon other than Palkia.
+No tiene efectos en Pokémon que no sean Palkia.
+It has no effect on Pokémon other than Dialga.
+No tiene efectos en Pokémon que no sean Dialga.
+\i[OMINOUSEGG]...the next stage requires...
+\i[OMINOUSEGG]...la siguiente etapa requiere...
+\i[OMINOUSEGG]...{1} feedings...
+\i[OMINOUSEGG]...{1} alimentos...
+\i[OMINOUSEGG]...metamorphosis complete...
+\i[OMINOUSEGG]...metamorfosis completa...
+{1} is holding {2} {3}. Would you like to take it before transferring?
+{1} está sosteniendo {2} {3}. ¿Quieres tomarlo antes de transferirlo?
+{1} is looking at {2} with a determined gleam in its eye.
+{1} observa a {2} con determinación.
+{1} wants to catch a snowflake in its mouth.
+{1} quiere atrapar un copo de nieve en su boca.
+{1} suddenly started to sing! It seems to be feeling great.
+¡{1} empezó a cantar! Se está sintiendo genial.
+{1} has an intense look on its face.
+{1} tiene una mirada intensa.
+{1} seems to be trying to communicate with its eye(s).
+{1} parece intentar comunicarse con su mirada.
+{1} is doing its best to keep up with {2}.
+{1} hace lo que puede para mantener el ritmo de {2}.
+{1} started wriggling its entire body with excitement!
+¡{1} empezó a menear todo su cuerpo de la emoción!
+{1} bumps its head gently against {2}'s hand.
+{1} apoya gentilmente la mano de {2} con su cabeza.
+I... don't think I understand this fossil. Maybe try asking my assistant for help.
+Creo... que no entiendo este fósil. Quizás intenta pedirle ayuda a mi asistente.
+Error! Could not determine how to revive the given fossil.
+¡Error! No se pudo determinar cómo revivir el fósil dado.
+What!? You want me to make a combo fossil? Not a chance.
+¿¡Qué!? ¿Quieres darme un fósil de combinación? Ni hablar.
+Maybe someone else is interested in creative torture, but I sure am not.
+Quizás alguien más esté interesado en tortura creativa, pero no yo.
+I uh... can't actually revive this. Haven't completed the relevant coursework yet.
+No... puedo revivir esto. Aún no completo el curso relevante.
+Go talk to my supervisor. She can help you.
+Ve a hablar con mi supervisor. Ella te puede ayudar.
+Is that...? Very intriguing.
+¿Es eso...? Intrigante.
+Feels... familiar. Something I played long ago...
+Se siente... familiar. Algo que jugué hace mucho tiempo...
+I'll see what I can do.
+Veré lo que puedo hacer.
+Yes! It's aliiiiiiive! Muahahahahaha!
+¡Sí! ¡Esta viiiiivo! ¡Muajajajaja!
+Okay, now go away. I won't suffer any more EXP waste.
+Ok, ahora vete. No desperdiciaré más EXP.
+I've got the tools. Just don't tell anyone.
+Tengo las herramientas. Pero no se lo digas a nadie.
+Trust me, nobody needs these more than you.
+Confía en mí, nadie necesita estas más que tú.
+All the Pokéballs you could ever need.
+Todas las Poké Balls que podrías necesitar.
+You've been offered a gauntlet of scientists to try to get past. Can your team hold up against their clever tactics?
+Te has encontrado un grupo de científicos que derrotar. ¿Tu equipo estará a la altura de sus ingeniosas tácticas?
+May I Have This Dance?
+¿Me Concedes Esta Pieza?
+A secret lab deep in the sewer, guarded by frantic scientists. If you can overcome them, what might you find within?
+Un laboratorio secreto en las alcantarillas, protegido por científicos. ¿Qué podrías encontrar si los derrotas?
+Nora's on the trail of a mystery—its threads lead to Luxtech, and from there to parts unknown. If you help her on her hunt, what secrets will you two uncover?
+Nora está investigando un misterio—sus pistas la llevan a Luxtech, y el resto es un misterio. Si la ayudas en su cacería, ¿qué podrán descubrir?
+Find and free the four legends.
+Busca y encuentra los cuatro legendarios.
+Jovan's asked for your help—a gang called the Drillers is wreaking havoc in the depths of the cave. If you can find and free the imprisoned legendaries within, it should loosen their hold.
+Jovan te pidió ayuda—una banda llamada los Excavadores está haciendo destrozos en la cueva. Si puedes encontrar y liberar a los legendarios atrapados, darían su brazo a torcer.
+You've crossed paths with some of the former champions of Makya. Overcoming them will hone your skills, and may even earn you some rewards...
+Te has encontrado con algunos de los antiguos campeones de Makya. Vencerlos podría mejorar tus habilidaes, e incluso podrías conseguir recompensas.
+This former champion prefers spectating to fighting nowadays. If you can prove you're on his level, though, he'll put his team back in the ring.
+Este antiguo campeón prefier espectar antes que combatir. Pero si puedes demostrar que estás a su nivel, retirará a su equipo de su retiro.
+Ansel's given you an opportunity to meet up with the former champion Praveen. Is he up for a battle?
+Ansel te ha dado una oportunidad para encontrarte con el antigo campeón Praveen. ¿Estará listo para un combate?
+Scilla runs a dojo in Prizca East—if you prove yourself against her disciples, you might earn the chance to go up against her.
+Scilla opera un dojo en Prizca Oriental—si demuestras tu valía contra sus discípulos, podrías tener la posibilidad de desafiarla.
+Scilla's sister Chara keeps a lighthouse in Sweetrock. See if she's down for a challenge.
+Chara, la hermana de Scilla, tiene un faro en Sweetrock. Ve a ver si puedes desafiarla.
+Elise has claims on both a royal and a championship title—she should be quite the prestigious opponent.
+Elisia reclama un título de campeona y uno real—debería ser un oponente muy prestigioso.
+Elise mentioned Vincent likes finding strong trainers to fight. Bring him down and you'll make his day.
+Elise mencionó que a Vincent le gusta encontrar entrenadores fuerte. Aplástalo y le alegrará su día.
+Living on top of a nest of avatars can't be easy, but if anyone could manage it, it'd be a former champion. Still, Casey needs your help.
+Vivir a lo alto de un nido de avatares no debe ser fácil, pero si alguien puede hacerlo, sería un antiguo campeón. Aún así, Casey necesita tu ayuda.
+{1} is carried by a swift breeze!
+¡{1} es arrastrado por una rápida brisa!
+{1}'s {2} reflected a blinding glare!
+¡{2} de {1} reflejó un destello cegador!
+{1}'s {2} burst in a blinding flash!
+¡{2} de {1} emite un gran destello!
+{1} is invulnerable to all damage!
+¡{1} es invulnerable a todo daño!
+{1} can't hold a {2} while its ability is {3}!
+¡{1} no puede sostener un {2} mientras su habilidad sea {3}!
+A loss... I've still got to get used to that.
+Una derrota... todavía tengo que acostumbrarme a eso.
+Nth Stage of Line
+Número en su Línea
+Stage number...
+Número de etapa...
+Invalid stage input.
+Input inválido.
+What threshold for availability?
+¿Cuál umbral de disponibilidad?
+{1} would have gathered power, but it can't stockpile any more!
+¡{1} habría acumulado poder, pero ya no puede seguir reservando!
+{1} gathered up more power!
+¡{1} acumuló todavía más poder!
+A coral overgrowth coalesced around {1}!
+¡Un arrecífe se forma alrededor de {1}!
+The coral overgrowth around {1} shattered!
+¡El arrecífe alrededor de {1} fue destruido!
+The coral overgrowth around {1} withered!
+¡El arrecífe alrededor de {1} se marchitó!
+The damage reduction effect stacks multiplicatively.
+El efecto de reducción de daño es acumulado multiplicativamente.
+At two stacks, the reduction is 51%.
+Con dos reservas, la reducción es de 51%.
+There are no Pokémon responding to the Chroma Clarion here...
+No hay ningún Pokémon respondiendo al Clarín Cromático aquí...
+What do you want to say when you win?\<<n>>Navigate to browse, then confirm to select.
+¿Qué quieres decir al ganar?\<<n>>Navega entre las opciones, luego confirma tu selección. 
+What do you want to say when you lose?\<<n>>Navigate to browse, then confirm to select.
+¿Qué quieres decir al perder?\<<n>>Navega entre las opciones, luego confirma tu selección. 
+Star Them
+Estrellarlos
+Un-star them
+Des-estrellarlos
+Invert Stars
+Invertir Estrellas
+Change the starring for all species on this list?
+¿Cambiar el estado de las estrellas en todas las especies de la lista?
+Starring every species on the current MasterDex list.
+Estrellando todas las especies en la lista de MasterDex actual.
+{1} species became starred.
+{1} especies fueron estrelladas.
+Un-Starring every species on the current MasterDex list.
+Des-estrellando todas las especies en la lista de MasterDex actual.
+{1} species became un-starred.
+{1} especies fueron des-estrelladas.
+Toggling whether every species on the current MasterDex list is starred or not.
+Alternando el estado del estrellado de cada especie en la lista de MasterDex actual.
+{1} species were starred or unstarred
+{1} fueron estrelladas o des-estrelladas
+Find her in an abandoned building.
+Encuéntrala en un edificio abandonado.
+Un-Star Species
+Des-Estrellar Especies 
+Star Species
+Estrellar Especies
+SPECIAL/D to show map
+ESPECIAL/D para mostrar mapa
+Area unknown
+Área desconocida
+SPECIAL/D to hide map
+ESPECIAL/D para esconder mapa
+{1} is hurt by the foreboding presence!
+¡{1} es dañado por la presencia premonitoria!
+{1} draws strength from wisdom!
+¡{1} extrae poder de la sabiduría!
+{1} keeps cool, and can switch between rampaging moves!
+¡{1} se mantiene tranquilo, y puede cambiar entre movimientos que arrasan!
+Leftover energy runs through {1} despite exhaustion!
+¡A pesar de su agotamiento, energía extra atraviesa a {1}!
+{1} is caught in vines!
+¡{1} es atrapado en lianas!
+{1} foresees an imminent demise!
+¡{1} predice una defunción inminente!
+{1}'s growth was reverted!
+¡El crecimiento de {1} fue revertido!
+{1}'s growth was stunted!
+¡El crecimiento de {1} fue atrofiado!
+{1} takes center stage!
+¡{1} es el centro de atención!
+{1} steals the show!
+¡{1} se roba el show!
+{1} overpowers type immunities and protections!
+¡{1} ignora inmunidades de tipos y protecciones!
+{1} flies in like a comet!
+¡{1} entra volando como un cometa!
+{1} absorbs metal from the Rusted Sword!
+¡{1} absorbe metal de la Espada Oxidada!
+{1} crowns itself in steel!
+¡{1} se adorna en acero!
+{1} absorbs metal from the Rusted Shield!
+¡{1} absorbe metal del Escudo Oxidado!
+Eons course through {1}'s being!
+¡Eones atravisean el ser de {1}!
+The battle reaches an apex!
+¡El combate llega a su cúspide!
+Exhausted Pokémon can't be switched out!
+¡Los Pokémon exhaustos no pueden cambiar!
+{1} refuses to join the battle, as it deems its presence not necessary!
+¡{1} se rehusa a entrar al combate, ya que considera que su presencia no es necesaria!
+{1} is in a deep slumber, and cannot join the battle!
+¡{1} está en un letargo profundo, y no puede entrar al combate!
+{1} refuses to join the battle! It waits for its kin!
+¡{1} se rehusa a entrar al combate! ¡Está esperando a sus semejantes!
+{1} changes its form to fit its next move!
+¡{1} cambia su forma de acuerdo a su siguiente movimiento!
+{1} received the incoming damage!
+¡{1} recibió el daño venidero!
+A pulse bounced back to {1}!
+¡Un pulso rebotó de regreso a {1}!
+A howl can be heard in the distance! The Slumbering Shield wakes!
+¡Escuchas un aullido a lo lejos! ¡El Escudo Durmiente despierta!
+A howl can be heard in the distance! The Slumbering Shields wake!
+¡Escuchas un aullido a lo lejos! ¡Los Escudos Durmientes despiertan!
+A howl can be heard in the distance! The Slumbering Sword wakes!
+¡Escuchas un aullido a lo lejos! ¡La Espada Durmiente despierta!
+A howl can be heard in the distance! The Slumbering Swords wake!
+¡Escuchas un aullido a lo lejos! ¡Las Espadas Durmientes despiertan!
+The Rusted Shield clatters on the ground!
+¡El Escudo Oxidado retumba en el suelo!
+The Rusted Sword clatters on the ground!
+¡La Espada Oxidada retumba en el suelo!
+But it failed, since {1}'s mind is already unlocked!
+¡Pero falló, ya que la mente de {1} ya fue desbloqueada!
+{1} unlocks the mind of {2}!
+¡{1} desbloquea la mente de {2}!
+You may not make your last able Pokémon have this ability.
+Tu último Pokémon no puede tener esta habilidad.
+{1} knows when {2}'s time will run out!
+¡{1} sabe cuando el tiempo de {2} se agotará!
+{1} rejuvenates itself!
+¡{1} se rejuvenece!
+Cramorant ejects the Pikachu!
+¡Cramorant expulsa el Pikachu!
+Cramorant ejects its meal!
+¡Cramorant expulsa su comida!
+{1} fills its beak!
+{1} atiborra su pico!
+<u>Base Power per Hit</u>:
+<u>Poder Base por Golpe</u>:
+10 + (base Attack stat / 8)
+10 + (Ataque base / 8)
+10 + (base Special Attack stat / 8)
+10 + (Ataque Especial base / 8)
+But {1} couldn't change its type!
+¡Pero {1} no pudo cambiar su tipo!
+Cannot search on an empty tab.
+No puedes buscar en una pestaña vacía.
+Search for which move?
+¿Buscar qué movimiento?
+No matching move was found in this tab.
+No se encontró ninguna coincidencia en esta pestaña.
+No selected Pokémon are holding any items.
+Ningún Pokémon seleccionado tiene ningún objeto equipado.
+Custom Animation
+Animación Personalizada
+Is Canon?
+¿Es Canon?
+Does
+Tiene
+Has Custom Animation?
+¿Tiene Animación Personalizada?
+{1}'s PP was drained by its {2}!
+¡Los PP de {1} fueron drenados por su {2}!
+But a stealth spray's effect still lingers from earlier.
+Pero el espray oculto anterior sigue haciendo efecto.
+The stealth spray's effect wore off! Would you like to use another one?
+¡El espray oculto dejó de hacer efecto! ¿Te gustaría usar otro?
+The stealth spray's effect wore off!
+¡El espray oculto dejó de hacer efecto!
+{1} hands you a pouch of candy.
+{1} te alcanza una bolsa de caramelos 
+{1} sensed {2}'s movements...
+{1} sintió los movimientos de {2}...
+{1} ambushed {2}!
+¡{1} emboscó a {2}!
+"Canon Name Here"
+"Nombre Canon Aquí"
+Encore
+Otra Vez
+When encored, a Pokémon is forced to use the last used move again.
+Bajo los efectos de otra vez, un Pokémon es forzado a usar su último movimiento usado de nuevo.
+Heal Block
+Anticura
+When heal blocked, a Pokémon cannot use healing or draining moves.
+Bajo los efectos de anticura, un Pokémon no puede curarse ni usar movimientos de drenado.
+Torment, Taunt, Disable, Bar, Encore and Heal Block are mental effects.
+Tormento, Mofa, Anulación, Veto, Otra Vez y Anticura son efectos mentales.
+{1} predicted {2}'s actions, and struck first!
+¡{1} predijo las acciones de {2} y atacó primero!
+Slice
+Corte
+Shrinking
+Reducción
+Sugar Rush
+Subidón de Azúcar
+The affected Pokémon's speed is doubled, but they also take double damage from attacks.
+La velocidad del Pokémon afectado es duplicada, pero reciben el doble de daño por ataques.
+Bright light bursts out of {1}!
+¡{1} expulsa luz por todas partes!
+{1} can't use slice-based moves for the next {2} turns!
+¡{1} no podrá usar movimientos de corte durante {2} turnos más!
+<u>No Machine</u>: Electric-type, Numb
+<u>Base</u>: Tipo Eléctrico, Aturdir
+<u>Heat</u>: Fire-type, Burn
+<u>Calor</u>: Tipo Fuego, Quemar
+<u>Wash</u>: Water-type, Waterlog
+<u>Lavado</u>: Tipo Agua, Embeber
+<u>Frost</u>: Ice-type, Frostbite
+<u>Frío</u>: Tipo Hielo, Helar
+<u>Fan</u>: Flying-type, Dizzy
+<u>Ventilador</u>: Tipo Volador, Marear
+<u>Mow</u>: Grass-type, Leech
+<u>Corte</u>: Tipo Planta, Infectar
+{1} cannot form a {2}!
+¡{1} no puede formar {2}!
 [26]
 [27]
 [27]
@@ -59279,20 +61045,20 @@ Encantador
 Deceiver
 Farsante
 7
+Esoteric
+Esotérico
+8
 Fortune
 Suertudo
-8
+9
 Harmonic
 Armónico
-9
+10
 Industrious
 Diligente
-10
+11
 Loyal
 Leal
-11
-Mystic
-Místico
 12
 Noble
 Noble
@@ -59323,6 +61089,9 @@ Tiránico
 21
 Warrior
 Guerrero
+22
+Mystic
+Místico
 [28]
 0
 Your team members take one third less damage from sources that aren't attacks.
@@ -59343,53 +61112,56 @@ Tu equipo recupera 1/10 de sus PS al cambiar. Tu Botiquín cura un 25% más.
 Your team takes 20% less move damage on the turns they enter.
 Tu equipo recibe un 20% menos de daño en los turnos que entren al campo.
 6
-Enemy trainers majorly overestimate how much damage their moves do.
-Los rivales sobreestiman demasiado el daño que sus movimientos hacen. 
+Your team deals 15% more move damage with attacks that don't share a type with their species.
+Los movimientos de tu equipo son potenciados un 15% si no comparten tipo con la especie.
 7
-Your moves have a +20% chance to activate their moves' additional effects.
-Tus movimientos tienen un +20% de probabilidad de activar sus efectos secundarios.
+Whenever a member of your team uses a status move, they'll deal 25% more move damage next turn.
+Cuando un miembro de tu equipo usa un movimiento de estado, sus ataques serán potenciados un 25% en el siguiente turno.
 8
+Your team members' moves have a +30% chance to activate their additional effects.
+Tus movimientos tienen un +30% de probabilidad de activar sus efectos secundarios.
+9
 Your team take 10% less move damage.
 Tu equipo recibe un 10% menos de daño por movimientos.
-9
-You gain 10% more money from battles. If you have more than $100,000, your team gets a boost to all of their stats (before modifiers). This bonus scales with the level cap and is currently {b1}.
-Consigues un 10% más de dinero por batallas. Si tienes más de $100.000, tu equipo recibe un aumento en todas sus stats (antes de modificadores). Este bonus aumenta con tu límite de nivel y ahora mismo es {b1}.
 10
-Your team members gain 10% more EXP in battles. They also get a small boost to all of their stats (before modifiers). This bonus scales with the level cap and is currently {b}.
-Tu equipo gana un 10% más de EXP en batallas. También reciben un pequeño aumento en todas sus stats (antes de modificadores). Este bonus aumenta con tu límite de nivel y ahora mismo es {b}.
+You gain 10% more money and coins in battles. If you have more than $100,000, your team gets a boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b1}.
+Consigues un 10% más de dinero y monedas en batallas. Si tienes más de $100.000, tu equipo recibe un aumento en Ataque, Defensa, Ataque Especial y Defensa Especial (antes de modificadores). Este bonus aumenta con tu límite de nivel y ahora mismo es {b1}.
 11
-Whenever a member of your team uses a status move, they'll deal 25% more move damage next turn.
-Cuando un miembro de tu equipo use un movimiento de estado, su siguiente ataque será potenciado un 25%.
+Your team members gain 10% more EXP in battles. They also get a small boost to Attack, Defense, Sp. Atk, and Sp. Def (before modifiers). This bonus scales with the level cap and is currently {b}.
+Tu equipo gana un 10% más de EXP en batallas. También reciben un pequeño aumento en Ataque, Defensa, Ataque Especial y Defensa Especial (antes de modificadores). Este bonus aumenta con tu límite de nivel y ahora mismo es {b}.
 12
-Your team members take 12% less move damage if they're using a status move this turn.
-Tu equipo recibe un 12% menos de daño si están usando un movimiento de estado en el mismo turno.
+Your team members take 15% less move damage if they're using a status move this turn.
+Tu equipo recibe un 15% menos de daño si están usando un movimiento de estado en el mismo turno.
 13
-Your team has 20% increased Sp. Def. Foes can't lower your team's Sp. Def.
-Tu equipo tiene su Defensa Especial un 20%. Los rivales no podrán disminuir su Defensa Especial.
+Your team has 30% increased Sp. Def. Foes can't lower your team's Sp. Def.
+Tu equipo tiene su Defensa Especial un 30%. Los rivales no podrán disminuir su Defensa Especial.
 14
-Your team members berries heal them for 25% more (multiplicative) and their gem-boosted attacks deal 25% more damage (multiplicative).
-Las bayas de tu equipo lo curarán un 25% más (multiplicativo) y sus ataques potenciados por gemas lo estarán un 25% más (multiplicativo).
+Your team members berries heal them for 50% more (multiplicative) and their gem-boosted attacks deal 25% more damage (multiplicative).
+Las bayas de tu equipo lo curarán un 50% más (multiplicativo) y sus ataques potenciados por gemas lo estarán un 25% más (multiplicativo).
 15
 Your able party members and battlers heal for 1/10th HP whenever a foe faints.
 Tu equipo y combatientes recuperan 1/10 de sus PS cada vez que un rival sea debilitado.
 16
-Your team has 20% increased Defense. Foes can't lower your team's Defense.
-Tu equipo tiene su Defensa un 20%. Los rivales no podrán disminuir su Defensa.
+Your team has 30% increased Defense. Foes can't lower your team's Defense.
+Tu equipo tiene su Defensa un 30%. Los rivales no podrán disminuir su Defensa.
 17
-Enemy Pokemon's chance to activate their additional effects against your team members is halved.
-La probabilidad de los Pokémon rivales de activar sus efectos secundarios contra tu equipo es dividida a la mitad.
+Effects placed by your Pokémon last 50% longer (rounded down).
+Los efectos colocados en tus Pokémon duran un 50% más (redondeado para abajo).
 18
-Your team members take 12% less move damage if they're using an attack this turn.
-Tu equipo recibe un 12% menos de daño si están usando un ataque en el mismo turno.
+Your team has 15% increased Speed.
+Tu equipo tiene un 15% más de Velocidad.
 19
-Protects your team members from critical hits.
-Protege a tu equipo de movimientos críticos.
+Your Pokemon deal 15% more damage to targets that haven’t moved yet this turn. Your priority attacks and priority status moves have doubled PP.
+Tus Pokémon son potenciados un 15% en objetivos que aún no se hayan movido. Tus ataques y movimientos de estado con prioridad tienen el doble de PP.
 20
-Ignore the first time each battle that one of your team members would flinch or get a status condition.
-Ignora la primera vez en batalla que alguien de tu equipo sea amedrentado u obtenga un problema de estado.
+Ignore the first time each battle that one of your team members would flinch or get a non-volatile status condition.
+Ignora la primera vez en batalla que alguien de tu equipo sea amedrentado u obtenga un problema de estado no-volátil.
 21
-Your team's 'Super Effective' moves deals 12% more damage.
-Los movimientos “Súper Efectivos” de tu equipo son potenciados un 12%.
+Your team members take 15% less move damage if they choose an attack this turn.
+Tu equipo recibe un 15% menos de daño si están usando un ataque en el mismo turno.
+22
+Whenever a member of your team uses a status move, they'll deal 25% more move damage next turn.
+Si tus Pokémon usan un movimiento de estado, sus ataques serán potenciados un 25% en el siguiente turno.
 [29]
 0
 Abrasive
