@@ -82,6 +82,11 @@ Name = Slumbering Sword 2
 Description = Transforms into Crowned form when its HP is lowered below half.
 Flags = Immutable
 #-------------------------------
+[SOULSTEALER]
+Name = Soul Stealer
+Description = Steals foe's healing effects.
+Flags = Immutable
+#-------------------------------
 [SWALLOWMISSILE]
 Name = Swallow Missile
 Description = Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.

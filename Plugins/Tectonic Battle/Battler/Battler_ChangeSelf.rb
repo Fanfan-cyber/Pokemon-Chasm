@@ -205,17 +205,24 @@ class PokeBattle_Battler
         end
 
         # Actually perform the HP change
-        @battle.pbDisplay(customMessage) if customMessage
+        @battle.pbDisplay(customMessage) if customMessage && showMessage
+
+        steal = false
+        stealers = []
+        @battle.eachOtherSideBattler(@index) do |stealer|
+            stealers << stealer if stealer.hasActiveAbility?(:SOULSTEALER)
+        end
+        healers = [self]
+        unless stealers.empty?
+            healers = stealers
+            steal = true
+            amt = (amt / stealers.length.to_f).round
+        end
+ 
         unless aiCheck
-            stealers = []
-            @battle.eachOtherSideBattler(@index) do |stealer|
-                stealers << stealer if stealer.hasActiveAbility?(:HEALINGSTEALER)
-            end
-            healers = [self]
-            healers = stealers unless stealers.empty?
             healers.each do |healer|
                 if stealers.include?(healer)
-                    @battle.pbShowAbilitySplash(healer, :HEALINGSTEALER)
+                    @battle.pbShowAbilitySplash(healer, :SOULSTEALER)
                     @battle.pbDisplay(_INTL("{1} stole {2}'s healing effects!", healer.pbThis, pbThis(true)))
                     @battle.pbHideAbilitySplash(healer)
                 end
@@ -239,10 +246,14 @@ class PokeBattle_Battler
                     healer.pbItemHPHealCheck(items_to_skip: items_to_skip)
                     healer.pbAbilitiesOnDamageTaken(oldHP)
                     healer.pbFaint if healer.fainted?
+                elsif amt.positive?
+                    if healer.isSpecies?(:MIMIKYU) && stealers.include?(healer) && healer.form == 1 && healer.fullHealth?
+                        healer.pbChangeForm(0, _INTL("{1}'s disguise was restored!", healer.pbThis))
+                    end
                 end
             end
         end
-        return amt
+        return steal ? 0 : amt
     end
 
     def pbRecoverHPFromDrain(drainAmount, target, user: nil, canOverheal: false)

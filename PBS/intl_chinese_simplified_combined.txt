@@ -10606,13 +10606,13 @@ Catch you on the flipside.
 保持联系。
 [Map176]
 ...actually, a strange frequency appears again!
-奇怪的频率又出现了
+奇怪的频率又出现了！
 [Map177]
 Don't tell my teacher, but I'm totally skipping on school to attend the Battle Festival.
 千万别告诉我的老师，我是逃课来参加战斗节庆典的。
 [Map178]
 You've found IgnitedxSoul, a design contributor and community manager.
-你即将挑战设计参与及社区管理员IgnitedxSoul
+你即将挑战设计参与及社区管理员IgnitedxSoul。
 Thank you for playing our game!
 感谢您游玩我们的游戏！
 You've found Brickbat, the Project Lead.
@@ -10622,7 +10622,7 @@ You've found Agentbla, Lead Mapper and tileset arranger.
 You've found Pria, a designer, audio engineer and video producer.
 你找到了Pria，1位设计师、音频工程师和视频制作人。
 You've found Zinnia, Lead Designer and Lead Programmer.
-你即将挑战首席设计师和首席程序员Zinnia
+你即将挑战首席设计师和首席程序员Zinnia。
 [Map179]
 Estás a punto de enfrentar a Valrex, traductor al Español.
 你即将挑战西班牙语翻译Valrex。
@@ -35776,7 +35776,7 @@ The user absorbs the target's heat, frosbitting it and adding the Ice-type to it
 The user freezes the target in place, dealing damage and minimizing their Speed and Evasion.
 使用者将目标冻结在原地，造成伤害并使其速度和回避率的能力等级最小化。
 For the rest of the round, the target's healing is reversed.
-在本回合剩余时间内，目标的回复效果反转。
+在本回合剩余时间内，目使标的回复类效果反转。
 The user picks up an iceberg and slams it into the target. This lowers the user's Attack by four steps.
 使用者抓起冰山撞向目标。物攻减小4级。
 The user slashes the target with ice like a sword. It has a 20% chance to lower Defense.
@@ -35910,7 +35910,7 @@ The target is attacked with a pulse of negative feelings. It has a 40% chance to
 A punch that inflicts double the damage if the user has been hurt by the foe in the same turn.
 如果自身在同1回合中被对手伤害，那么这一拳会造成双倍的伤害。
 For the rest of the round, the healing of all damaged Pokémon is reversed.
-在本回合剩余时间内，所有受过伤的精灵的回复效果反转。
+在本回合剩余时间内，使所有受到过伤害的精灵的回复类效果反转。
 The user prepares a precise cut. Always a critical hit. This lowers the user's Speed.
 使用者使用1次精准斩击。必定会命中要害。速度减小1级。
 The target is dragged viciously through water. This has a 30% chance to waterlog.
@@ -38181,11 +38181,11 @@ An item to be held by a Pokémon. This discarded carapace lets the holder switch
 An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
 携带的精灵能得到稍微更多的经验值。
 A held item. If the wielder enters a battle, money and coins generated in that battle are increased by 50%.
-携带物。携带者进入战斗时，该战斗获得金钱增加50%。
+1种携带物。携带者进入战斗时，该战斗获得金钱增加50%。
 An item to be held by a Pokémon. The comforting chime of this bell makes it gain happiness twice as fast.
-携带后精灵显得很安稳，变得容易和训练师亲密。
+携带后，精灵显得很安稳，变得容易和训练师亲密。
 An item to be held by a Pokémon. It prevents wild Pokémon encounters if the holder is the first one in the party.
-携带后不容易遇到野生精灵。
+携带后，不容易遇到野生精灵。
 Held item which ups Attack by 40%, but allows the use of only one move.
 携带后，物攻增加40%，但只能使用相同的技能。
 Held item which ups Sp. Atk by 40%, but allows the use of only one move.
@@ -38207,17 +38207,17 @@ A Pokémon held item. When the holder summons eclipse, it lasts twice as long.
 A Pokémon held item. When the holder summons moonglow, it lasts twice as long.
 携带它的精灵使用月辉的话，月辉的持续时间会翻倍。
 An item to be held by a Pokémon. Protective screens will be effective for 3 more turns.
-当携带它的精灵使用具有屏障类效果的技能时，效果的持续时间增加3回合。
+1种携带物。携带者开启的屏障类效果的持续时间增加3回合。
 An item to be held by a Pokémon. It doubles the duration of Rooms created by the holder.
-1种携的物品。携带者开启的空间效果持续时间翻倍。
+1种携带物。携带者开启的空间效果持续时间翻倍。
 A Pokémon held item that doubles the duration of binding moves and abilities.
-携带后，使束缚类效果的束缚持续时间翻倍。
+1种携带物。使束缚类效果的束缚持续时间翻倍。
 A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
 1种携带物。它使多段伤害类技能可以稳定命中4到5次。
 An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
 1种携带物。使用者可以同时拥有2个合法特性，但能力值减小10%。
 An item to be held by a Pokémon. Signature attacks made by the holder are boosted by 40%.
-精灵携带的物品。携带者使用的专属技能的威力增加40%。
+1种携带物。携带者使用的专属技能的威力增加40%。
 A held item. The holder recovers 30% more HP from draining moves, Aqua Ring, and leech.
 1种携带物。携带者通过吸取类技能、水流环和寄生回复的HP增加30%。
 A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.
@@ -38237,9 +38237,9 @@ An item to be held by a Pokémon. Lowered stats on the holder are also applied t
 An item to be held by a Pokémon. Doubles the Speed of the holder's move once per battle.
 给精灵携带后，每场战斗中第1次出招时速度翻倍。
 A held item. Boosts the power of a special move by 15% and makes it physical, once per battle.
-携带物。将特殊类技能的威力增加15%，并使其变为物理类技能，每场战斗1次。
+1种携带物。将特殊类技能的威力增加15%，并使其变为物理类技能，每场战斗1次。
 A held item. Boosts the power of a physical move by 15% and makes it special, once per battle.
-携带物。将物理类技能的威力增加15%，并使其变为特殊类技能，每场战斗1次。
+1种携带物。将物理类技能的威力增加15%，并使其变为特殊类技能，每场战斗1次。
 A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
 携带它的精灵可以在第1回合使用需要蓄力的技能1次。
 A single-use item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
@@ -40491,6 +40491,8 @@ Aeroshell 2
 气流外壳2
 Ancestral Summons
 背水飞援
+Attendant's Grace
+侍者的优雅
 Backfire
 反噬
 Backup
@@ -40521,10 +40523,10 @@ Slumbering Shield 2
 沉睡之盾2
 Slumbering Sword 2
 沉睡之剑2
+Soul Stealer
+灵魂偷取
 Swallow Missile
 吞咽导弹
-Attendant's Grace
-侍者的优雅
 Adaptive AI v1
 自适应AI v1
 Adaptive AI v2
@@ -40540,7 +40542,7 @@ Chrono Rewind
 Forced Engagement
 强制交战
 72 Transformations
-七12变
+七十二变
 Temporal Shift
 时空转移
 Tideweaver's Reversal
@@ -40899,7 +40901,7 @@ At the beginning of every 5th turn, this Pokémon forcibly switches into battle.
 At the end of every turn, its stats shift position (Attack-> Defense -> Sp. Atk -> Sp. Def -> Speed -> Attack...)
 每回合结束后，能力都会发生转换。(物攻->物防->特攻->特防->速度->物攻...)
 Healing on this Pokémon is reversed.
-反转自身受到的回复效果。
+反转自身受到的回复类效果。
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become waterlogged.
 特防增加20%。当被同一精灵第2次特殊类技能攻击时，攻击者将陷入浸水。
 The effect of healing on foes is reversed.
@@ -41167,7 +41169,7 @@ Pulse moves multi-hit two to five times at 30% power.
 While this Pokémon is on the field, all attacks restore their user's HP by 30% of damage dealt.
 在场时，所有精灵会回复攻击造成伤害的30%HP。
 While this Pokémon is on the field, all healing is boosted by 20% and can overheal.
-在场时，所有回复效果增加20%，且可以过量回复。
+在场时，所有回复类效果增加20%，且可以过量回复。
 This Pokémon is also Fire-type.
 为自身增加火属性。
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become burned.
@@ -41685,7 +41687,7 @@ After knocking out any Pokémon, regenerates its previously-used item.
 Light moves change this Pokémon's secondary type and their power is boosted by 30%.
 自身的第2属性变为使用的光类技能的属性，并且技能威力增加30%。
 This Pokémon's moves heal for 25% more.
-回复类技能的回复效果增加25%。
+回复类技能的效果增加25%。
 Upon entry during sunshine, heals the lowest HP ally or self by 33%.
 晴天出场时，为HP最低的队友或自身回复33%的HP。
 Pokémon that swap in for this have their non-volatile status conditions healed, and take 30% less damage that turn.
@@ -41717,7 +41719,7 @@ Immune to Rock-type moves and to Stealth Rock, and raises Speed whenever one wou
 While this Pokémon is active, Rooms do not decay.
 在场时，空间类效果不会结束。
 Gets 50% more healing from all sources.
-所有治疗的回复效果增加50%。
+回复类效果增加50%。
 Makes foes unable to use priority moves.
 使对手的先制类技能使用失败。
 Immune to Fighting-type and Rock-type moves. Prevents Stealth Rock damage.
@@ -42104,6 +42106,8 @@ After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at 
 使用风类技能后，双防增加1级。
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 HP小于一半时，会返回队伍，替换上场的精灵的第1次攻击必定会命中要害，如果替换的精灵是嘟嘟或者嘟嘟利，还会立刻使用飞天。
+Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.
+使对手的先制类技能使用失败。出场时，使用借助。
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 当攻击的对手具有它自身在攻击时改变伤害的效果的特性时（如猛火），无视那个特性的发动条件并为自身发动该效果。
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat steps remain after switching.
@@ -42112,10 +42116,8 @@ When the Pokémon's level is 25 or higher, it transforms into a member of its fa
 当精灵等级达到25级或以上时，它会根据即将使用的技能的属性变为其家族的成员。
 Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
 HP减小到一半以下时，与对手交换HP。每场战斗仅发动1次。
-Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
-攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
 Turns target's item into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
-攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
+攻击时，把对手的物品变为金钱，当HP小于一半时，消耗场上的金钱，回复消耗金钱量10%的HP，可以过量回复。
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 当打倒对手时，回溯时间，将自身回溯到刚出场时的状态。
 After being attacked, uses Parting Shot to switch out. Leaves a Cursed Shell.
@@ -42132,10 +42134,10 @@ Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it 
 会自动使用30威力的追击攻击进行替换的对手，然后回复造成的伤害等量的HP，可以过量回复。
 Transforms into Crowned form when its HP is lowered below half.
 半血以下时，变身为冠冕形态。
+Steals foe's healing effects.
+偷取对手的回复类效果。
 Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
 使用浸泡、淹没、冲浪或潜水时，会捕获猎物。使用蓄力类技能时，速度翻倍。
-Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.
-使对手的先制类技能使用失败。出场时，使用借助。
 Adapts the move's type to ensure it is super-effective against the target.
 调整技能的类型，以确保其对目标具有效果拔群效果。
 Adapts the move's type to ensure it is truly super-effective against the target.
@@ -51191,6 +51193,8 @@ Told to recover a negative amount
 {1}的HP回复了。
 {1}'s lost HP.
 {1}失去了HP。
+{1}'s disguise was restored!
+{1}的画皮恢复了！
 {1} is loaded up with fluids!
 {1}装满了液体！
 {1} restored a little HP using its {2}!
@@ -59437,14 +59441,8 @@ You did great, but you still need to defeat me {1} more time(s).<<n>>You can't u
 \w[]\wm\c[12]\l[3]你带着精灵返回了{1}，希望能快点想出打倒道馆馆主的策略...
 Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle if it isn't in a pinch.
 当队伍只剩下自身后，将变为终结形态。若在终结形态不处于危急时取得了胜利，依然视为完胜。
-Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
-当队伍只剩下自身后，将变为终结形态。若在终结形态取得了胜利，依然视为完胜。
 Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
 HP减小到一半以下时速度增加4级。被攻击后，会紧跟着立刻行动。
-Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
-当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
-Turns target's item into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
-攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
 When this Pokémon eats a Berry, it restores 25% of its max health.
 当精灵吃下1颗树果时，会回复最大生命值的25%。
 Raises Attack by 2 steps after knocking out any Pokémon.
@@ -59489,8 +59487,6 @@ This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat 
 增加对手使用技能所消耗的PP。出场时，清除对手增加的能力等级。
 It changes secondary type to that of the light moves it's about to use.
 将附加属性变为即将使用的光类技能的属性。
-Makes foes unable to use priority moves. Lowers priority of status moves used by any Pokémon.
-使对手的先制类技能使用失败。减小变化类技能的先制度。
 The Pokémon is also Steel-type.
 为自身增加钢属性。
 It changes secondary type to that of the punching moves it's about to use.

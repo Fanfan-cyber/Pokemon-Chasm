@@ -5,6 +5,7 @@
 有人因为诅咒濒死时，耿鬼变身
 箱子可以搜索特性和技能以及批量放生
 修复战斗模拟器双打
+削弱声音队 锦标赛前增加前冠军战斗
 =end
 
 MOD_VERSION  = "0.4.7"
@@ -247,7 +248,10 @@ storymode/nostorymode，开启/关闭剧情模式
 65.现在Royal Majesty不再减小变化类技能的先制度
 66.现在Cash Flow还会把目标的物品变为金钱
 67.爱管侍的第一特性由Royal Majesty改为Attendant's Grace
-68.
+68.谜拟Q的破损形态的第二特性由Break Through改为Soul Stealer
+69.修复了当精灵的HP回复时，会异常显示特殊文本的Bug
+70.现在谜拟Q因为Soul Stealer而恢复到满血时，会重新拥有画皮
+71.
 
 0.4.6 Astra Resonantia / 星穹共鸣 03052026
 1.修复了Arc of Hope的中文错误翻译的Bug

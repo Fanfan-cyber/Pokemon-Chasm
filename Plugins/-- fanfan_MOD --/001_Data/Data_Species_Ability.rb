@@ -57,7 +57,7 @@ SPECIES_ABILITY_DATA = {
   [:MDUSTOX, 0]     => { :fixed => %i[], :changeable => %i[FLAMEBODY HARSH], },
 
   [:MIMIKYU, 0]     => { :fixed => %i[], :changeable => %i[DISGUISE BREAKTHROUGH], },
-  [:MIMIKYU, 1]     => { :fixed => %i[], :changeable => %i[VENGEANCE BREAKTHROUGH], },
+  [:MIMIKYU, 1]     => { :fixed => %i[], :changeable => %i[VENGEANCE SOULSTEALER], },
 
   [:MMANTYKE, 0]    => { :fixed => %i[], :changeable => %i[BLOODOFMALICE MISTFORM], },
   [:MMANTINE, 0]    => { :fixed => %i[], :changeable => %i[BLOODOFMALICE MISTFORM], },

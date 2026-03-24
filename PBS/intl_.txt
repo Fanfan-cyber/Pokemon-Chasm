@@ -40491,6 +40491,8 @@ Aeroshell 2
 Aeroshell 2
 Ancestral Summons
 Ancestral Summons
+Attendant's Grace
+Attendant's Grace
 Backfire
 Backfire
 Backup
@@ -40521,6 +40523,8 @@ Slumbering Shield 2
 Slumbering Shield 2
 Slumbering Sword 2
 Slumbering Sword 2
+Soul Stealer
+Soul Stealer
 Swallow Missile
 Swallow Missile
 Adaptive AI v1
@@ -42102,6 +42106,8 @@ After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at 
 After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
+Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.
+Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat steps remain after switching.
@@ -42110,8 +42116,8 @@ When the Pokémon's level is 25 or higher, it transforms into a member of its fa
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
 Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
-Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
-Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+Turns target's item into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+Turns target's item into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 After being attacked, uses Parting Shot to switch out. Leaves a Cursed Shell.
@@ -42128,6 +42134,8 @@ Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it 
 Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it deals. This can overheal.
 Transforms into Crowned form when its HP is lowered below half.
 Transforms into Crowned form when its HP is lowered below half.
+Steals foe's healing effects.
+Steals foe's healing effects.
 Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
 Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
 Adapts the move's type to ensure it is super-effective against the target.
@@ -51185,6 +51193,8 @@ Told to recover a negative amount
 {1}'s HP was restored.
 {1}'s lost HP.
 {1}'s lost HP.
+{1}'s disguise was restored!
+{1}'s disguise was restored!
 {1} is loaded up with fluids!
 {1} is loaded up with fluids!
 {1} restored a little HP using its {2}!
@@ -59429,12 +59439,10 @@ You did great, but you still need to defeat me {1} more time(s).<<n>>You can't u
 You did great, but you still need to defeat me {1} more time(s).<<n>>You can't use the Pokémon you've already used and you can check the recorded teams with the Battle Loader.<<n>>Keep it up!
 \w[]\wm\c[12]\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...
 \w[]\wm\c[12]\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...
-Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
-Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
+Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle if it isn't in a pinch.
+Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle if it isn't in a pinch.
 Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
 Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
-Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
-Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 When this Pokémon eats a Berry, it restores 25% of its max health.
 When this Pokémon eats a Berry, it restores 25% of its max health.
 Raises Attack by 2 steps after knocking out any Pokémon.
@@ -59479,8 +59487,6 @@ This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat 
 This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat steps.
 It changes secondary type to that of the light moves it's about to use.
 It changes secondary type to that of the light moves it's about to use.
-Makes foes unable to use priority moves. Lowers priority of status moves used by any Pokémon.
-Makes foes unable to use priority moves. Lowers priority of status moves used by any Pokémon.
 The Pokémon is also Steel-type.
 The Pokémon is also Steel-type.
 It changes secondary type to that of the punching moves it's about to use.
