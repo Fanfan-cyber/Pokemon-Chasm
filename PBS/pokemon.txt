@@ -3334,8 +3334,8 @@ Name = Rhyhorn
 Type1 = GROUND
 Type2 = ROCK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 70,70,45,40,70,70
-# Total = 365
+BaseStats = 70,75,45,40,75,70
+# Total = 375
 BaseEXP = 69
 Rareness = 95
 Happiness = 50
@@ -3356,8 +3356,8 @@ Name = Rhydon
 Type1 = GROUND
 Type2 = ROCK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 85,90,55,50,90,85
-# Total = 455
+BaseStats = 85,95,55,50,95,85
+# Total = 465
 BaseEXP = 170
 Rareness = 50
 Happiness = 50
@@ -3375,8 +3375,8 @@ Name = Rhyperior
 Type1 = GROUND
 Type2 = ROCK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 105,110,70,60,110,105
-# Total = 560
+BaseStats = 105,120,70,60,120,105
+# Total = 580
 BaseEXP = 241
 Rareness = 25
 Happiness = 50
