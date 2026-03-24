@@ -35,7 +35,7 @@ Description = Swaps HP with a foe when its HP is lowered below half. Triggered o
 #-------------------------------
 [CASHFLOW]
 Name = Cash Flow
-Description = Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+Description = Turns target's item into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 #-------------------------------
 [CHRONOREVERT]
 Name = Chrono Revert

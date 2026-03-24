@@ -35,6 +35,9 @@ SPECIES_ABILITY_DATA = {
   [:AEGISLASH, 0]   => { :fixed => %i[], :changeable => %i[STANCECHANGE ABSOLUTEDEFENSE], },
   [:AEGISLASH, 1]   => { :fixed => %i[], :changeable => %i[STANCECHANGE FULLMETALBODY], },
 
+  [:INDEEDEE, 0]    => { :fixed => %i[], :changeable => %i[ATTENDANTSGRACE MENTALBLOCK], },
+  [:INDEEDEE, 1]    => { :fixed => %i[], :changeable => %i[ATTENDANTSGRACE MENTALBLOCK], },
+
   [:LARVITAR, 0]    => { :fixed => %i[], :changeable => %i[SANDSTREAM STRESSFUL], },
   [:PUPITAR, 0]     => { :fixed => %i[], :changeable => %i[SANDSTREAM STRESSFUL], },
   [:TYRANITAR, 0]   => { :fixed => %i[], :changeable => %i[SANDSTREAM STRESSFUL], },

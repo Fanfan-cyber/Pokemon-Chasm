@@ -1,7 +1,6 @@
 ABILITY_DATA = {
   :ARCANEFINALE     => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle if it isn't in a pinch.") }, },
   :ADRENALINERUSH   => { :desc => proc { _INTL("Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.") }, },
-  :CASHFLOW         => { :desc => proc { _INTL("Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.") }, },
   :CHEEKPOUCH       => { :desc => proc { _INTL("When this Pokémon eats a Berry, it restores 25% of its max health.") }, },
   :CHILLINGNEIGH    => { :desc => proc { _INTL("Raises Attack by 2 steps after knocking out any Pokémon.") }, },
   :DARKSCALECLOUD   => { :desc => proc { _INTL("Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.") }, },

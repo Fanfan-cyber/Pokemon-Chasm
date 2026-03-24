@@ -40524,7 +40524,7 @@ Slumbering Sword 2
 Swallow Missile
 吞咽导弹
 Attendant's Grace
-逝者的优雅
+侍者的优雅
 Adaptive AI v1
 自适应AI v1
 Adaptive AI v2
@@ -42113,6 +42113,8 @@ When the Pokémon's level is 25 or higher, it transforms into a member of its fa
 Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
 HP减小到一半以下时，与对手交换HP。每场战斗仅发动1次。
 Turns the held item of a Pokémon it hits into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
+Turns target's item into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 当打倒对手时，回溯时间，将自身回溯到刚出场时的状态。
@@ -59441,6 +59443,8 @@ Raises Speed by four steps when its HP is lowered below half. Moves next when be
 HP减小到一半以下时速度增加4级。被攻击后，会紧跟着立刻行动。
 Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
+Turns target's item into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
+攻击时，把对手的物品变为金钱并散落在场上，当HP小于一半时，消耗场上的金钱，回复消耗金钱量的10%的HP，可以过量回复。
 When this Pokémon eats a Berry, it restores 25% of its max health.
 当精灵吃下1颗树果时，会回复最大生命值的25%。
 Raises Attack by 2 steps after knocking out any Pokémon.

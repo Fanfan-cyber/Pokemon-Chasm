@@ -245,7 +245,9 @@ storymode/nostorymode，开启/关闭剧情模式
 63.现在Arcane Finale需要在自身不处于危急时才能触发完胜
 64.现在Heroic Finale需要在自身不处于危急时才能触发完胜
 65.现在Royal Majesty不再减小变化类技能的先制度
-66.
+66.现在Cash Flow还会把目标的物品变为金钱
+67.爱管侍的第一特性由Royal Majesty改为Attendant's Grace
+68.
 
 0.4.6 Astra Resonantia / 星穹共鸣 03052026
 1.修复了Arc of Hope的中文错误翻译的Bug
