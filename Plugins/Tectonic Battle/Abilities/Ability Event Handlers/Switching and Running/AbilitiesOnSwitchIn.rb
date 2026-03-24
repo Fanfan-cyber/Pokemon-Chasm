@@ -293,8 +293,6 @@ BattleHandlers::AbilityOnSwitchIn.add(:HONORABLE,
   }
 )
 
-BattleHandlers::AbilityOnSwitchIn.copy(:HONORABLE, :ROYALMAJESTY)
-
 BattleHandlers::AbilityOnSwitchIn.add(:KILLJOY,
   proc { |ability, battler, battle, aiCheck|
       next 0 if aiCheck
@@ -895,6 +893,8 @@ BattleHandlers::AbilityOnSwitchIn.add(:ASSISTANT,
       next battle.forceUseMove(battler, :ASSIST, ability: ability, aiCheck: aiCheck)
   }
 )
+
+BattleHandlers::AbilityOnSwitchIn.copy(:ASSISTANT, :ATTENDANTSGRACE)
 
 # Only used to force the AI to use Sudden Turn somewhat properly
 BattleHandlers::AbilityOnSwitchIn.add(:SUDDENTURN,

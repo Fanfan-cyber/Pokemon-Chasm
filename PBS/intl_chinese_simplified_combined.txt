@@ -14124,7 +14124,7 @@ Hey, trying to get Samorn's badge as well? I've tried, but I've had no luck so f
 I was prepped for countering a Sandstorm strategy, based on the legends I heard.
 我明明已经根据收集到的情报，做好了应对沙暴队的准备。
 But she apparently hasn't used that strategy in forever, despite how well suited to it some of her Pokemon are.
-但是她还有其他的战斗策略，即便她的精灵很适合沙暴天气。
+但是她还有其他的战斗策略，即便她的精灵很适合沙暴。
 Maybe it's a "hiding your true power level" thing? I just don't get it...
 或许这也是1种“隐藏真实实力”的方法？
 You got the 8th badge? Damn, that means I gotta get myself one.
@@ -21552,7 +21552,7 @@ You see the scientist struggle with a computer that is rapidly blinking and turn
 There's something up with this computer. If only I had a Porygon to work it out...
 这台电脑有点问题。要是我有多边兽就好了...
 Actually hey, could you go and get me one please?
-嘿，你能给我我拿1个吗？
+嘿，你能给我拿1个吗？
 I've been needing one anyways, since I work with computers. So please do a trade with me for it, I'll figure out what to get you for it.
 反正我也需要1只，因为我经常和电脑打交道。所以请和我交换吧，我会想想给你什么作为回报。
 Well no rush, maybe it'll mysteriously start working again... and yes, I turned it off and on again.
@@ -34218,7 +34218,7 @@ The user frightens the target with a scary face to reduce its Speed stat by four
 The user hurls a shadowy blob at the target. It has a 20% chance to lower Sp. Def.
 投掷一团黑影进行攻击。有20%概率使对手的特防减小1级。
 The user beats the target with a bone containing a spirit. This lowers their Defense by three steps.
-用附有灵魂的骨头殴打对手进行攻击。减小对手防御3级。
+用附有灵魂的骨头殴打对手进行攻击。使对手的物防减小3级。
 The user slashes with a sharp claw made from shadows. Can random critical hit.
 以影子做成的锐爪，劈开对手。可能随机命中要害。
 The user disappears, charging and becoming hidden, then strikes on the second turn. It hits even if the foe protects itself.
@@ -34260,7 +34260,7 @@ The user hardens its body's surface like iron, raising its Defense stat by four 
 The foe slams the target with its steel-hard head. It has a 40% chance to make the target flinch.
 用钢铁般坚硬的头部进行攻击。40%概率使对手畏缩。
 Protects the user from damage this turn. It also lowers the Attack of physical attackers by two steps.
-防住对手攻击的同时，自身变为防御姿态。大幅减小所使用物理类技能攻击自身的对手的物攻2级。
+防住对手攻击的同时，自身变为防御姿态。使用物理类技能攻击自身的对手的物攻会减小2级。
 The user focuses intensely. For the next three turns, its attacks will be guaranteed critical hits.
 使用者集中精力。在接下来的3回合中，其攻击将必定会命中要害。
 The user retaliates with much greater power against the target that last inflicted damage on it.
@@ -34402,7 +34402,7 @@ The user forcefully shoots seeds at the target. It multi-hits two to five times.
 The user launches its amassed chlorophyll to inflict damage on the target. The user loses half its current HP.
 发射积累的叶绿素攻击对手，但会同时失去一半的HP。
 The user protects itself by wrapping its body in soft cotton, raising its Defense stat by five steps.
-用软绵绵的绒毛包裹住自身的身体进行守护。增加自身的防御5级。
+用软绵绵的绒毛包裹住自身的身体进行守护。自身的物防增加5级。
 The user releases cotton-like spores that cling to all foes nearby, reducing their Speed by four steps.
 使用者释放类似棉絮的孢子，黏附在所有附近的敌人身上，使其速度减小4级。
 The user attacks with the essence of life. It has a 20% chance to raise user's Sp. Atk.
@@ -35058,7 +35058,7 @@ The user attacks with a tectonic vibration. It also breaks any screens protectin
 By sacrificing 33% of its max HP, the user lays two hazard layers of Spikes at the foe's feet.
 以牺牲最大HP的33%为代价，使用者在敌人脚下设置2层菱。
 Hits the target with a sandy wind, then summons sandstorm for eight turns.
-用风沙攻击对手，然后召唤持续8回合的沙暴天气。
+用风沙攻击对手，然后召唤持续8回合的沙暴。
 The user slathers mud around to heal itself by half of its max HP. This extends any active screens by one turn.
 使用者涂抹淤泥回复自身最大HP的一半，并使现有的屏障类效果增加1回合。
 The user attacks by flattening the target into the ground. The target's stat step changes are returned to normal.
@@ -35088,7 +35088,7 @@ The user weakens the target's bones, making them fracture. They deal 33% less da
 The user rushes into the target with its stony body. The user also takes 25% recoil.
 使用者用石质身躯猛撞目标。自身受到25%的反伤。
 The user scratches the target with rough rocks. If in sandstorm, the target's Defense is lowered by three steps.
-用粗糙的岩石划伤对方，如果处于沙暴天气中，还会使对方的防御减小3级。
+用粗糙的岩石划伤对方。沙暴时，会使对方的物防减小3级。
 The user slams the target into a nearby hard object. Increases power the higher the Defense of any ally.
 将对手猛烈地撞向附近的坚硬物体。威力会随着队友的物防而增加。
 The user slams the target with blunt force, taking 20% recoil.
@@ -35450,7 +35450,7 @@ Halves attack damage taken this turn. Waterlogs any attackers. Fails if used suc
 The user struggles in the water, splashing it onto the target. They become waterlogged.
 使用者在水中挣扎，将水溅到目标身上。使目标陷入浸水。
 The user gains an instinctual knowledge of battle, raising its Attack and Sp. Def by two steps.
-使用者获得了战斗的本能知识，增加物攻和特防2级。
+使用者获得战斗的本能知识，增加物攻和特防2级。
 The user crashes into the target with its quills. It leaves the target poisoned.
 用自身尖刺撞击对手，让对手陷入中毒状态。
 The user propels a geyser of water at the target. This lowers the user's Sp. Atk and Sp. Def by two steps.
@@ -35942,7 +35942,7 @@ The user steals the target's stat boosts, and then attacks. Goes last.
 The user slashes all around them, creating deep scars on all nearby foes. This lowers each target's Attack.
 使用者向四周挥砍，对附近所有敌人造成撕裂伤害。使目标的物攻减小1级。
 The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
-让自身的双攻增加2级。月辉天气时，还大幅度能增加速度。
+让自身的双攻增加2级。月辉时，还大幅度能增加速度。
 The user hacks at the target with great violence. Can random critical hit.
 猛烈地砍击对手。可能随机命中要害。
 Explodes, dealing an extra 30 base power to all nearby for each Spikes hazard layer underneath them. The user faints.
@@ -38589,9 +38589,9 @@ If held by a Pokémon and a physical attack hits it, the attacker takes 25% HP d
 If held by a Pokémon and a special attack hits it, the attacker takes 25% HP damage.
 让精灵携带后，在受到特殊类技能攻击时，对手会受到25%HP伤害。
 If held by a Pokémon and a physical attack hits it, raises the holder's Defense by four steps.
-如果精灵携带此物品并受到物理类攻击，携带者的防御增加4级。
+让精灵携带后，在受到物理类技能攻击时，物防增加4级。
 If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by four steps.
-如果精灵携带此物品并受到特殊类攻击，携带者的特防增加4级。
+让精灵携带后，在受到特殊类技能攻击时，特防增加4级。
 A folding Bicycle that enables much faster movement than the Running Shoes.
 能比跑步鞋跑得还快的折叠式自行车。
 A very convenient map that can be viewed anytime. It even shows your present location.
@@ -40523,6 +40523,8 @@ Slumbering Sword 2
 沉睡之剑2
 Swallow Missile
 吞咽导弹
+Attendant's Grace
+逝者的优雅
 Adaptive AI v1
 自适应AI v1
 Adaptive AI v2
@@ -40869,7 +40871,7 @@ Doubles Speed in eclipse.
 This Pokémon moves after all other Pokémon do.
 必定在所有其他精灵之后才行动。
 Takes 35% less damage in eclipse, except in total eclipse.
-在日食中受到的伤害减小35%，全食除外。
+日食时，受到的伤害减小35%（全食除外）。
 Takes 40% less damage from attacks by Pokémon who have a non-volatile status condition.
 从处于异常的精灵的攻命中受到的伤害减小40%。
 Increases Sp. Atk by 30%.
@@ -41039,9 +41041,9 @@ Has a 30% chance to leech targets when using physical moves.
 After knocking out any Pokémon, summons hail for four turns.
 打倒对手时，开启持续4回合的冰雹。
 Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
-免疫异常，在沙暴中，特攻和速度增加30%。
+免疫异常。沙暴时，特攻和速度增加30%。
 Prevents Bug- or Poison-type moves during moonglow.
-在月辉天气中，免疫虫、毒属性技能。
+月辉时，免疫虫、毒属性技能。
 Boosts Attack by 50%, but physical moves deal 25% damage back as recoil.
 物攻增加50%，但使用物理类技能时，会造成25%的反伤。
 33% of all move damage taken by this Pokémon is instead taken at the end of the next turn.
@@ -41055,7 +41057,7 @@ Restores this Pokémon's HP based on damage taken by others from sandstorm.
 This Pokémon is immune to Ground-type moves and takes 20% less damage in sandstorm.
 沙暴时，受到的伤害减小20%。此精灵视为飞空单位。
 Prevents Water- or Grass-type moves during sandstorm.
-在沙暴天气中使水、草属性的技能失效。
+沙暴时，使水、草属性的技能失效。
 Enemies which swap in take damage equal to 1/8th their HP.
 换人入场的对手将会受到其1/8最大HP的伤害。
 Light moves hit a second time for 33% damage if this Pokémon is protected by a screen.
@@ -41709,7 +41711,7 @@ Has a 30% chance to burn targets when using special moves.
 When this Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 这吃下树果时，双攻增加2级。
 Heals 1/8th of its max HP each turn during sandstorm.
-沙暴天气时，每回合回复1/8的HP。
+沙暴时，每回合回复1/8的HP。
 Immune to Rock-type moves and to Stealth Rock, and raises Speed whenever one would hit it.
 受到岩石属性技能攻击时，免疫伤害并增加速度。
 While this Pokémon is active, Rooms do not decay.
@@ -41735,9 +41737,9 @@ After knocking out any Pokémon, summons sandstorm for four turns.
 Summons a sandstorm for four turns when hit by an attack.
 被击时，开启持续4回合的沙暴。
 Takes 30% less damage in a sandstorm.
-在沙暴中受到的伤害减小30%。
+沙暴时，受到的伤害减小30%。
 When it attacks from underground in sandstorm, it'll transform into Reaper form.
-在沙暴天气下从地下攻击时，会化身收割者形态。
+在沙暴中从地下攻击时，会化身收割者形态。
 Boosts this Pokémon's Speed by 50% in sandstorm. Can't miss during sandstorm.
 沙暴时，速度增加50%。攻击必定会命中。
 During sandstorm, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
@@ -41779,7 +41781,7 @@ Its attacks are critical against numbed targets.
 Doubles the critical hit chance of random crit moves. This Pokémon's Speed is doubled while using them.
 使可能随机命中要害的技能的命中要害率翻倍，当使用这些技能时，速度翻倍。
 Its physical attacks reduce the target's Defense.
-物理类伤害会减小对手的防御。
+物理类攻击会使目标的物防减小1级。
 Immune to Steel-type moves, and boosts Defense and Sp. Def when hit by one.
 免疫钢属性技能，被钢属性技能攻击时，双防增加1级。
 Punching moves change this Pokémon's secondary type and their power is boosted by 30%.
@@ -42130,6 +42132,8 @@ Transforms into Crowned form when its HP is lowered below half.
 半血以下时，变身为冠冕形态。
 Attacks with prey caught when using Immerse, Whelm, Surf, or Dive. This Pokémon's Speed is doubled while using charging moves.
 使用浸泡、淹没、冲浪或潜水时，会捕获猎物。使用蓄力类技能时，速度翻倍。
+Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.
+使对手的先制类技能使用失败。出场时，使用借助。
 Adapts the move's type to ensure it is super-effective against the target.
 调整技能的类型，以确保其对目标具有效果拔群效果。
 Adapts the move's type to ensure it is truly super-effective against the target.
@@ -47274,9 +47278,9 @@ Sandstorm deals damage to all Pokémon at the end of each turn. Rock and Ground-
 Hail deals damage to all Pokémon at the end of each turn. Ice and Ghost-types are immune to this. Additionally, Ice-types get +50% Defense.
 冰雹时，每回合结束时对所有精灵造成伤害。冰属性和幽灵属性免疫此效果。冰属性物防增加50%。
 Eclipse lowers all stats of all Pokémon every 4 turns (by 2 steps). Psychic and Dragon-types are immune to this. Additionally, Psychic-type attacks are boosted by 30%.
-日食中，每4回合会使所有精灵的所有能力减小2级。超能属性和龙属性免疫此效果。超能属性伤害增加30%。
+日食时，每4回合会使所有精灵的所有能力减小2级。超能属性和龙属性免疫此效果。超能属性伤害增加30%。
 Moonglow flinches all Pokémon every 4 turns. Fairy and Dark-types are immune to this. Additionally, Fairy-type attacks are boosted by 30%.
-月辉中，每4回合使所有精灵畏缩。妖精属性和恶属性免疫此效果。妖精属性伤害增加30%。
+月辉时，每4回合使所有精灵畏缩。妖精属性和恶属性免疫此效果。妖精属性伤害增加30%。
 Weather Downsides
 天气负面效果
 Each weather has both an upside and a downside. There are items and abilities that make your Pokémon immune to these downsides regardless of type.
@@ -51290,7 +51294,7 @@ It'll last the whole battle!
 {1} is protected by Mist!
 {1}受到了白雾的保护！
 {1}'s attitude prevents its Defense from lowering!
-{1}的态度使它的防御不会减小！
+{1}的态度使它的物防不会减小！
 {1}'s sheen prevents its Sp. Def from lowering!
 {1}的态度使它的特防不会减小！
 {1} is protected by its Clear Amulet!
@@ -53736,7 +53740,7 @@ But {1} can't hold the {2}!
 But it failed, since {1} has no stat changes!
 但它失败了，因为{1}没有任何能力等级！
 {1} switched its base Attack and Defense!
-{1}调换了它的攻击和防御！
+{1}调换了它的物攻和物防！
 {1} switched its base Sp. Atk and Sp. Def!
 {1}调换了它的特攻和特防！
 {1} averaged its base attacking stats with the target!
@@ -59429,6 +59433,8 @@ You did great, but you still need to defeat me {1} more time(s).<<n>>You can't u
 你做得很好，但你还需要再击败我{1}次。<<n>>你不能使用已经用过的精灵，你可以用战斗模拟器查看或者删除已被记录的队伍。<<n>>继续加油！
 \w[]\wm\c[12]\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...
 \w[]\wm\c[12]\l[3]你带着精灵返回了{1}，希望能快点想出打倒道馆馆主的策略...
+Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle if it isn't in a pinch.
+当队伍只剩下自身后，将变为终结形态。若在终结形态不处于危急时取得了胜利，依然视为完胜。
 Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.
 当队伍只剩下自身后，将变为终结形态。若在终结形态取得了胜利，依然视为完胜。
 Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.

@@ -77,7 +77,7 @@ class PokeBattle_Battle
     return true if TA.get(:casualmode) && casual
     if $Trainer.able_pokemon_count == 1
       able_pokemon = $Trainer.first_able_pokemon
-      return true if able_pokemon.isSpecies?(%i[GARDEVOIR GALLADE]) && able_pokemon.form == 1
+      return true if able_pokemon.isSpecies?(%i[GARDEVOIR GALLADE]) && able_pokemon.form == 1 && !able_pokemon.pinch?
     end
     return false
   end

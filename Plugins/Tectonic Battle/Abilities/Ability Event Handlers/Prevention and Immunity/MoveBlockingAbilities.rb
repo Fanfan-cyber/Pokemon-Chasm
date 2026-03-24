@@ -7,7 +7,7 @@ BattleHandlers::MoveBlockingAbility.add(:ROYALMAJESTY,
   }
 )
 
-BattleHandlers::MoveBlockingAbility.copy(:ROYALMAJESTY, :IMPERIOUS)
+BattleHandlers::MoveBlockingAbility.copy(:ROYALMAJESTY, :IMPERIOUS, :ATTENDANTSGRACE)
 
 BattleHandlers::MoveBlockingAbility.add(:DESICCATE,
     proc { |ability, _bearer, _user, _targets, move, battle, aiCheck|

@@ -1,5 +1,5 @@
 ABILITY_DATA = {
-  :ARCANEFINALE     => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.") }, },
+  :ARCANEFINALE     => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle if it isn't in a pinch.") }, },
   :ADRENALINERUSH   => { :desc => proc { _INTL("Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.") }, },
   :CASHFLOW         => { :desc => proc { _INTL("Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.") }, },
   :CHEEKPOUCH       => { :desc => proc { _INTL("When this Pokémon eats a Berry, it restores 25% of its max health.") }, },
@@ -13,7 +13,7 @@ ABILITY_DATA = {
   :EXTRASCOOP       => { :desc => proc { _INTL("Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.") }, },
   :FINESUGAR        => { :desc => proc { _INTL("Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.") }, },
   :GRIMNEIGH        => { :desc => proc { _INTL("Raises Sp. Atk by 2 steps after knocking out any Pokémon.") }, },
-  :HEROICFINALE     => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle.") }, },
+  :HEROICFINALE     => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle if it isn't in a pinch.") }, },
   :HUBRIS           => { :desc => proc { _INTL("Raises Sp. Atk by 2 steps after knocking out any Pokémon.") }, },
   :IGNITIONCYCLE    => { :desc => proc { _INTL("Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.") }, },
   :ILLUSION         => { :desc => proc { _INTL("Comes out disguised as a Pokémon in back. Reduces damage by 30% in disguise.") }, },
@@ -27,7 +27,6 @@ ABILITY_DATA = {
   :PLURIPOTENCE     => { :desc => proc { _INTL("Copies opponents' species' legal Abilities.") }, },
   :PRESSURE         => { :desc => proc { _INTL("This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat steps.") }, },
   :REFRACTIVE       => { :desc => proc { _INTL("It changes secondary type to that of the light moves it's about to use.") }, },
-  :ROYALMAJESTY     => { :desc => proc { _INTL("Makes foes unable to use priority moves. Lowers priority of status moves used by any Pokémon.") }, },
   :RUSTWRACK        => { :desc => proc { _INTL("The Pokémon is also Steel-type.") }, },
   :SHIFTINGFIST     => { :desc => proc { _INTL("It changes secondary type to that of the punching moves it's about to use.") }, },
   :SPEEDBOOST       => { :desc => proc { _INTL("Speed is raised by 1 step at the end of each of its turns.") }, },

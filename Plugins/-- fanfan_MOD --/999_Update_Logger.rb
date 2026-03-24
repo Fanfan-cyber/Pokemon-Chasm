@@ -241,7 +241,11 @@ storymode/nostorymode，开启/关闭剧情模式
 59.在Analysis文件夹里增加了random_record.txt空白文本文档，这应该能解决部分手机玩家的JoiPlay没有写入权限而导致的游戏卡住问题
 60.在Analysis文件夹里增加了random_replay.txt空白文本文档，这应该能解决部分手机玩家的JoiPlay没有写入权限而导致的游戏卡住问题
 61.修复了对手可能会在非极端情况下复制到他已有的精灵的Bug
-62.
+62.现在计算精灵是否处于危急状态时不再对HP向下取整
+63.现在Arcane Finale需要在自身不处于危急时才能触发完胜
+64.现在Heroic Finale需要在自身不处于危急时才能触发完胜
+65.现在Royal Majesty不再减小变化类技能的先制度
+66.
 
 0.4.6 Astra Resonantia / 星穹共鸣 03052026
 1.修复了Arc of Hope的中文错误翻译的Bug
