@@ -75,7 +75,7 @@ class Trainer
 
     pool = pokemon_party
     unless party.empty?
-      pool = pokemon_party.reject { |pkmn| party.include?(pkmn) }
+      pool = pokemon_party.reject { |pkmn| party.any? { |p| p.species_data.id == pkmn.species_data.id } }
       pool = pokemon_party if pool.empty?
     end
 

@@ -36921,11 +36921,11 @@ Pocket Totem
 Box Link
 箱子链接
 Styling Kit
-造型套件
+风格套件
 Tarot Amulet
 塔罗护身符
 Noise Machine
-噪声机械
+噪声机器
 Poké X-Ray
 精灵检测
 Cell Booster
@@ -37824,11 +37824,11 @@ Pocket Totems
 Box Links
 箱子链接
 Styling Kits
-造型套件
+风格套件
 Tarot Amulets
 塔罗护身符
 Noise Machines
-噪声机械
+噪声机器
 Poké X-Rays
 精灵检测
 Cell Boosters
@@ -38711,7 +38711,7 @@ An ancient kingly rod. You can use it to make certain plants grow.
 A teleporter which brings you to your last safe spot using the power of Abras.
 可以利用凯西的力量，将你传送到最近安全地点的传送器。
 A 3D printer which automatically copies consumed held items after battles.
-一款3Ｄ打印机，可以在战斗后自动恢复消耗的物品。
+一款3D打印机，可以在战斗后自动恢复消耗的物品。
 A machine that stores excess EXP. You can activate it to turn that stored EXP into candies.
 1台储存多余经验值的机器。激活后将储存的经验值变成糖果。
 Use on a Pokémon to switch it into another one of its forms.
@@ -51177,10 +51177,10 @@ But it couldn't swap into anybody!
 但是它没法替换上精灵！
 {1} resists its impending doom!
 {1}抵抗了即将到来的厄运！
-{1} stole {2}'s healing effects!
-{1}窃取了{2}的回复效果！
 Told to recover a negative amount
 被要求回复1个负数的量
+{1} stole {2}'s healing effects!
+{1}窃取了{2}的回复效果！
 {1}'s HP was restored.
 {1}的HP回复了。
 {1}'s lost HP.
@@ -54888,7 +54888,7 @@ Place the Noise Machine on which setting?
 The Noise Machine is now off.
 噪音机器现在已关闭。
 The Noise Machine begins playing a high-pitched noise.
-噪声机械开始播放高音噪音。
+噪声机器开始播放高音噪音。
 Wild Pokémon are now repelled!
 野生精灵现在被驱赶了！
 The Noise Machine begins playing soothing sounds.
@@ -63520,7 +63520,7 @@ Temporal Shift
 时间转移
 Ancestral Summons
 背水飞援
-Cursed Shed
+Cursed Shell
 诅咒之壳
 Echoed Voice Counter
 回声计数
