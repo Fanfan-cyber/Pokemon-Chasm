@@ -780,6 +780,11 @@ Name = Nesting
 Description = Heals 1/12th HP per turn if there's a weather. Immune to weather downsides.
 Flags = AllWeatherSynergy
 #-------------------------------
+[NEUTRALIZINGGAS]
+Name = Neutralizing Gas
+Description = Abilities will be nullified or will not be triggered.
+Flags = Immutable
+#-------------------------------
 [NIGHTLIGHT]
 Name = Night Light
 Description = Boosts Sp. Atk by 30% in moonglow.
