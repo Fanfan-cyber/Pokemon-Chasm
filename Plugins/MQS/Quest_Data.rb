@@ -96,6 +96,7 @@ module QuestModule
     :Location1 => _INTL("Repora Forest"),
     :Location2 => _INTL("Novo Apartments"),
     :QuestDescription => _INTL("The kid in Novo Apartments is asking you to find his Growlithe, which is lost in Repora Forest."),
+    :RewardString => _INTL("Pokémon Lure"),
   }
 
   QUEST_HIDE_AND_SEEK = {
