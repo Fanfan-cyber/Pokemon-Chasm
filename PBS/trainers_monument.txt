@@ -345,7 +345,7 @@ Pokemon = WORNET,70
 [POKEMANIAC,Chris]
 Pokemon = MUDSDALE,70
     Moves = TRAMPLE,ROCKALANCHE,STEALTHROCK,ROAR
-    AbilityIndex = 0 # Iron Heel
+    AbilityIndex = 1 # Stamina
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
