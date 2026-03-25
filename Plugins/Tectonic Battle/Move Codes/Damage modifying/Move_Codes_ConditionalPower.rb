@@ -594,6 +594,7 @@ class PokeBattle_Move_DoubleDamageMoneyTargetStatused < PokeBattle_Move
     def getMoneyMultiplier(target)
         money = 8
         money *= 2 if target.pbHasAnyStatus?
+        return money
     end
 
     def getEffectScore(user, target)

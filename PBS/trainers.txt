@@ -5894,7 +5894,7 @@ Pokemon = TALONFLAME,70
 Pokemon = EELEKTROSS,70
     Moves = SUPERPOWER,ELECTROSLASH,POISONJAB,LIQUIDATION
     AbilityIndex = 1 # Frustrate
-    Item = AIRBALLOON
+    Item = SITRUSBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 18,20,6,0,20,6
 Pokemon = SCOLIPEDE,70

@@ -251,7 +251,8 @@ storymode/nostorymode，开启/关闭剧情模式
 68.谜拟Q的破损形态的第二特性由Break Through改为Soul Stealer
 69.修复了当精灵的HP回复时，会异常显示特殊文本的Bug
 70.现在谜拟Q因为Soul Stealer而恢复到满血时，会重新拥有画皮
-71.
+71.修复了Royal Tribute会导致游戏崩溃的Bug
+72.
 
 0.4.6 Astra Resonantia / 星穹共鸣 03052026
 1.修复了Arc of Hope的中文错误翻译的Bug

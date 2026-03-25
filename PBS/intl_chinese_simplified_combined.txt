@@ -34068,7 +34068,7 @@ Inflicts physical or special damage, whichever will be more effective. This has 
 Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
 用污泥投掷对手进行攻击。有30%概率让对手陷入中毒状态。
 It swamps the area around the user with a giant wave of toxic sludge.
-它用毒污泥的巨浪淹没使用者周围的区域。
+用毒污泥的巨浪淹没使用者周围的区域。
 The target is attacked with an emission of filthy gases. It has a 30% chance to poison.
 释放污浊气体攻击目标。有30%概率使其中毒。
 The user shoots poisonous threads to poison the target and lowers the target's Speed stat by four steps.
@@ -40685,7 +40685,7 @@ Steals the held item of a Pokémon it hits.
 Boosts the power of pulse moves by 50%.
 脉冲类技能的威力增加50%。
 Its attacks are critical against poisoned targets.
-攻命中毒的对手时，必定会命中要害。
+攻击中毒的对手时，必定会命中要害。
 Bounces back stat-lowering effects.
 反弹受到的能力等级减小效果。
 Grants immunity to Electric-type moves and boosts Speed when hit by one.
