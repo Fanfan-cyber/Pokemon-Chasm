@@ -28,6 +28,23 @@ class PokeBattle_Move_HitThreeTimesAlwaysCriticalHit < PokeBattle_Move_AlwaysCri
 end
 
 #===============================================================================
+# Hits 3 times, reduces Defense by 1, and disables itself. (Featherlock Volley)
+#===============================================================================
+class PokeBattle_Move_HitThreeTimesLowerTargetDef1DisablesSelf < PokeBattle_TargetStatDownMove
+    def initialize(battle, move)
+        super
+        @statDown = [:DEFENSE, 1]
+    end
+    
+    def multiHitMove?; return true; end
+    def pbNumHits(_user, _targets, _checkingForAI = false); return 3; end
+    
+    def pbEffectAfterAllHits(user, _target)
+        user.applyEffect(:Disable, 5)
+    end
+end
+
+#===============================================================================
 # Hits three times as Beedrill and five times as Wornet. (Manyneedle)
 #===============================================================================
 class PokeBattle_Move_HitsThreeTimesAsBeedrillFiveTimesAsWornet < PokeBattle_Move
