@@ -310,11 +310,6 @@ Description = All non-volatile status conditions heal when switched out.
 Name = Neuroforce
 Description = Powers up super-effective moves by 30%.
 #-------------------------------
-[NEUTRALIZINGGAS]
-Name = Neutralizing Gas
-Description = Abilities will be nullified or will not be triggered.
-Flags = Immutable
-#-------------------------------
 [NOGUARD]
 Name = No Guard
 Description = Attacks by or against this Pokémon can't miss and hit hidden Pokémon.

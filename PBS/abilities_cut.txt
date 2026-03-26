@@ -521,6 +521,10 @@ Flags = EclipseSynergy
 Name = Heliocentrism
 Description = Traps the foe during gravity.
 #-------------------------------
+[HERDING]
+Name = Herding
+Description = Wild Pokémon are more likely to appear in pairs and to be species you've never caught before.
+#-------------------------------
 [HONEYGATHER]
 Name = Honey Gather
 Description = The Pokémon may gather Honey from somewhere.
@@ -779,6 +783,11 @@ Description = Raises Electric-type allies' Sp. Def by 50%.
 Name = Nesting
 Description = Heals 1/12th HP per turn if there's a weather. Immune to weather downsides.
 Flags = AllWeatherSynergy
+#-------------------------------
+[NEUTRALIZINGGAS]
+Name = Neutralizing Gas
+Description = Abilities will be nullified or will not be triggered.
+Flags = Immutable
 #-------------------------------
 [NIGHTLIGHT]
 Name = Night Light

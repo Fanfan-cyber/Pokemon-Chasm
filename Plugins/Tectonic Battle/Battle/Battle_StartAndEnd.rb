@@ -716,6 +716,13 @@ class PokeBattle_Battle
         return moneyMult
     end
 
+    # money multiplier only for end of battle rewards, not affecting scattered coins
+    def endOfBattleMoneyMult
+        mult = moneyMult
+        mult *= 1.5 if @field.effectActive?(:TreasureTracker)
+        return mult
+    end
+
     def pbGainMoney
         return if !@internalBattle || !@moneyGain || TA.get(:battle_loader)
         # Money rewarded from opposing trainers
@@ -726,7 +733,7 @@ class PokeBattle_Battle
                 baseMoney = 10 + baseMoney / 2
                 tMoney += pbMaxLevelInTeam(1, i) * baseMoney
             end
-            tMoney = (tMoney * moneyMult).floor
+            tMoney = (tMoney * endOfBattleMoneyMult).floor
             oldMoney = pbPlayer.money
             pbPlayer.money += tMoney
             moneyGained = pbPlayer.money - oldMoney
