@@ -422,7 +422,7 @@ BattleHandlers::DamageCalcUserAbility.add(:STEELWORKER,
 
 BattleHandlers::DamageCalcUserAbility.copy(:STEELWORKER, :STEELYSHELL, :PULVERIZE, :SUPERALLOY, :STEELYSPIRIT)
 
-BattleHandlers::DamageCalcUserAbility.add(:STRATAGEM,
+BattleHandlers::DamageCalcUserAbility.add(:PALEOLITHIC,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if type == :ROCK || backfire
       mults[:base_damage_multiplier] *= 1.5
@@ -430,8 +430,6 @@ BattleHandlers::DamageCalcUserAbility.add(:STRATAGEM,
     end
   }
 )
-
-BattleHandlers::DamageCalcUserAbility.copy(:STRATAGEM, :PALEOLITHIC)
 
 BattleHandlers::DamageCalcUserAbility.add(:SURFSUP,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|

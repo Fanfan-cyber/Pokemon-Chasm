@@ -7,6 +7,7 @@ SaveData.register_conversion(:vs_recorder_3_4_0) do
         selfSwitches = save_data[:self_switches]
         itemBag = save_data[:bag]
     
+        itemBag.pbDeleteItem(:VSRECORDER, itemBag.pbQuantity(:VSRECORDER))
         itemBag.pbStoreItem(:VSRECORDER, 1, false)
     end
 end

@@ -40270,7 +40270,7 @@ Storm Trail
 Straight Ahead
 一路向前
 Stratagem
-谋策
+宝石计谋
 Stressful
 寝食难安
 Strike Corona
@@ -46962,19 +46962,19 @@ Many abilities only do things under certain circumstances. Building around Weath
 Effect Of Evolution
 进化的影响
 A Pokémon's ability tends to stay the same when evolving, but can change. When this happens, the game will alert you.
-精灵的特性在进化时通常是不变的，但也有特殊情况，在发生变化时游戏会给予提示。
+精灵的特性在进化时通常是不变的，但也有特殊情况。
 Defeating Abilities
-打倒特性
-An enemy Trainer's ability too much? Abilities like Neutralizing Gas, and moves like Gastro Acid, can suppress abilities in battle.
-训练师的战斗力太强了？可以使用一些特定的特性或技能来限制他们的能力。
+无效特性
+An enemy Trainer's ability too much? The Dizzy status can suppress abilities in battle.
+对手的特性太强了？混乱可以使特性失效！
 Swapping Abilities
 交换特性
 Moves like Skill Swap can be used to give a new ability to Pokémon during battle, enabling unique and creative team synergies.
-某些技能和效果可以和对方交换特性，比如技能特性互换。
+某些技能和效果可以使精灵的特性发生改变，比如技能特性互换。
 What are Held Items?
 携带物？
 Held items are items which you can give your Pokémon to benefit them during battle. They can increase their damage, heal them, or other things.
-可以通过携带一些可以在战斗中使用的物品，增加精灵战斗中的表现。
+可以通过携带一些可以在战斗中使用的物品增加精灵在战斗中的表现。
 Equipping an item
 携带1个物品
 You can give a Pokémon an item from your bag, or through the summary screen. Not all items do an effect when held, so read carefully.
@@ -56599,13 +56599,13 @@ Evolves into {1} {2}
 进化为{1}{2}
 Find Text In Events
 在事件中查找文本
-Find events which have a peice of text in the params of their command list.
+Find events which have a piece of text in the params of their command list.
 查找命令列表参数中包含某段文本的事件。
 Results printed to console.
 结果已打印到控制台。
 Replace Text In Events
 在事件中替换文本
-Find events which have a peice of text in the params of their command list, and replace them with a new string.
+Find events with a piece of text in their command params, replace with new string.
 查找命令列表参数中包含某段文本的事件，并用新字符串替换它们。
 Analyze item distribution
 分析物品分布
