@@ -151,7 +151,7 @@ user.pbThis(true)))
     #=============================================================================
     # Effects after all hits (i.e. at end of move usage)
     #=============================================================================
-    def pbEffectsAfterMove(user, targets, move, numHits)
+    def pbEffectsAfterMove(user, targets, move, numHits, originalUserPokemon = nil)
         # Destiny Bond
         # NOTE: Although Destiny Bond is similar to Grudge, they don't apply at
         #       the same time (although Destiny Bond does check whether it's going
@@ -181,7 +181,7 @@ user.pbThis(true)))
         if user.hasActiveAbility?(:SHEERFORCE) && move.randomEffect?
             # Skip other additional effects too if sheer force is being applied to the move
         else
-            pbEffectsAfterMove2(user, targets, move, numHits, switchedBattlers)
+            pbEffectsAfterMove2(user, targets, move, numHits, switchedBattlers, originalUserPokemon)
         end
         # Ally Cushion
         if user.effectActive?(:KickbackSwap) && !switchedBattlers.include?(user.index)
@@ -221,7 +221,10 @@ user.pbThis(true)))
                 trySwitchOutUser(user, targets, numHits, switchedBattlers)
             end
         end
-        @battle.eachBattler { |b| b.pbItemEndOfMoveCheck } if numHits > 0
+        # Run unconditionally (not just when numHits > 0) so that White Herb and
+        # similar EndOfMoveStatRestoreItems activate even after stat-only moves
+        # (e.g. Growl, Screech) that deal no damage hits.
+        @battle.eachBattler { |b| b.pbItemEndOfMoveCheck }
     end
 
     def consumeMoveTriggeredItems(user)
@@ -309,8 +312,13 @@ user.pbThis(true)))
     end
 
     # Everything in this method is negated by Sheer Force.
-    def pbEffectsAfterMove2(user, targets, move, numHits, switchedBattlers)
+    def pbEffectsAfterMove2(user, targets, move, numHits, switchedBattlers, originalUserPokemon = nil)
         hpNow = user.hp # Intentionally determined now, before Shell Bell
+        # originalUserPokemon is captured in pbUseMove before any hits begin, so it
+        # correctly identifies the original attacker even if Eject Pack fired mid-hit
+        # (e.g. user self-lowers stats via Close Combat) and replaced the battler before
+        # pbEffectsAfterMove2 runs. Fall back to user.pokemon if not provided.
+        originalUserPokemon ||= user.pokemon
         # Target's held item (Eject Button, Red Card)
         switchByItem = []
         @battle.pbPriority(true).each do |b|
@@ -333,7 +341,11 @@ user.pbThis(true)))
         end
         switchByItem.each { |idxB| switchedBattlers.push(idxB) }
         # User's held item (Life Orb, Shell Bell)
-        if !switchedBattlers.include?(user.index)
+        # Also guard against the case where the user's Eject Pack fired during
+        # triggersOnStatLoss (replacing the user mid-move without updating switchedBattlers),
+        # which would otherwise cause the replacement's items to trigger with the
+        # original user's damage data.
+        if !switchedBattlers.include?(user.index) && user.pokemon.equal?(originalUserPokemon)
             user.eachActiveItem do |item|
                 BattleHandlers.triggerUserItemAfterMoveUse(item, user, targets, move, numHits, @battle)
             end

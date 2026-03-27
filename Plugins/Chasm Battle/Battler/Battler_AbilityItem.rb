@@ -14,6 +14,10 @@ class PokeBattle_Battler
             next unless (!fainted? && GameData::Ability.get(ability).is_immutable_ability?) || abilityActive?
             BattleHandlers.triggerAbilityOnSwitchIn(ability, self, @battle)
         end
+        # Activate Mirror Herb / Paradox Herb for opponents after ALL entry ability
+        # stat gains have accumulated (e.g. Slumbering Drake raising multiple stats).
+        # During moves this is handled by consumeMoveTriggeredItems in pbEffectsAfterMove.
+        consumeMoveTriggeredItems(self)
         # Check for end of primordial weather
         @battle.pbEndPrimordialWeather
         # Items that trigger upon switching in (Air Balloon message)
