@@ -3173,8 +3173,6 @@ Name = Primal Bead
 NamePlural = Primal Bead
 Pocket = 1
 Price = 30000
-Consumable = true
-Flags = KeyItem
 Description = A drop of ancient clay. Use it to summon a Pokemon from a resonating totem.
 #-------------------------------
 [PRIMALCLAY]
