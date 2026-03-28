@@ -3615,7 +3615,7 @@ Pokemon = GRAPIDASH,45
 Pokemon = GDARMANITAN,45
     Form = 1 # Zen Form
     Moves = BURNUP,SUBLIMATE,GRASSKNOT,BODYPRESS
-    AbilityIndex = 0 # Phase Shift
+    AbilityIndex = 1 # Rejuvenate
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,20,0,20,10
 #-------------------------------
