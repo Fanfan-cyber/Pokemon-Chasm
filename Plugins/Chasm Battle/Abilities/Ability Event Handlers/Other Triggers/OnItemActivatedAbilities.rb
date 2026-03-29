@@ -11,7 +11,7 @@ BattleHandlers::OnItemActivatedAbility.add(:JUGGLING,
         elsif user.pbOwnedByPlayer?
             choice = battle.scene.pbChooseWithThinkingLoop(
                 _INTL("Pass {1} to which ally?", getItemName(item)),
-                valid_allies.map { |b| b.pbThis })
+                valid_allies.map { |b| b.pbThis }
             )
             ally = valid_allies[choice]
         else
