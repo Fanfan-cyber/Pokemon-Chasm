@@ -2733,3 +2733,20 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Sword Horn First Hit",
     :info_displayed => false
 })
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :FleetingFootwork,
+    :real_name => "Fleeting Footwork",
+    :type => :Integer,
+    :ticks_down_eor => true,
+    :apply_proc => proc do |battle, battler, value|
+        battle.pbDisplay(_INTL("{1} will tire out in {2} turns!", battler.pbThis, value - 1))
+    end,
+    :expire_proc => proc do |battle, battler|
+        battle.pbDisplay(_INTL("{1} is too tired to keep up the footwork!", battler.pbThis))
+        if battler.hasAlteredStatSteps?
+            battler.pbResetStatSteps
+            battle.pbDisplay(_INTL("{1}'s stat changes were eliminated!", battler.pbThis))
+        end
+    end,
+})
