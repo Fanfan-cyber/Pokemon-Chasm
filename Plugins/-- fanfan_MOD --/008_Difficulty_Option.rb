@@ -23,7 +23,14 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Pokemon Copying
     copied_pkmn.copied_level = copied_pkmn.level
     party << copied_pkmn
   end
-  party.shuffle! if trainer.trainer_type.to_s.include?("LEADER_Lambert")
+}
+
+Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Illusion shuffling
+  next if TA.get(:battle_loader)
+  trainer = e[0]
+  next unless trainer
+  party = trainer.party
+  party.shuffle! if trainer.has_illusion_pkmn?
 }
 
 STATIDORDER = [:HP,:ATTACK,:DEFENSE,:SPECIAL_ATTACK,:SPECIAL_DEFENSE,:SPEED]

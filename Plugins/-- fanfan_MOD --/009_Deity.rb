@@ -11,15 +11,15 @@ end
 
 class PokeBattle_Move
   alias deity_pbCalcDamageMultipliers pbCalcDamageMultipliers
-  def pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers, aiCheck = false)
+  def pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers, aiCheck = false ,aiContext=nil)
     multipliers[:final_damage_multiplier] *= Deity::HUGE_POWER_RATIO if user.pbOwnedByPlayer? && TA.get(:hugepower)
-    deity_pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers, aiCheck)
+    deity_pbCalcDamageMultipliers(user, target, numTargets, type, baseDmg, multipliers, aiCheck, aiContext)
   end
 
   alias deity_pbAdditionalEffectChance pbAdditionalEffectChance
-  def pbAdditionalEffectChance(user, target, type, effectChance = 0, aiCheck = false)
+  def pbAdditionalEffectChance(user, target, type, effectChance = 0, aiCheck = false, aiContext = nil)
     return 100 if user.pbOwnedByPlayer? && TA.get(:guaranteedeffects)
-    deity_pbAdditionalEffectChance(user, target, type, effectChance, aiCheck)
+    deity_pbAdditionalEffectChance(user, target, type, effectChance, aiCheck, aiContext)
   end
 
   alias deity_isRandomCrit? isRandomCrit?

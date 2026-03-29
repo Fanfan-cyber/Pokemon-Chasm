@@ -100,6 +100,7 @@ BattleHandlers::TargetAbilityOnHit.add(:SICKENING,
 
 BattleHandlers::TargetAbilityOnHit.add(:TANGLINGHAIR,
     proc { |ability, user, target, move, _battle, aiCheck, aiNumHits|
+          next if user.dummy
           next unless move.physicalMove?
           if aiCheck
               ret = 0
@@ -230,6 +231,7 @@ BattleHandlers::TargetAbilityOnHit.add(:FORCEREVERSAL,
 
 BattleHandlers::TargetAbilityOnHit.add(:IRONBARBS,
   proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next unless move.physicalMove?
         if aiCheck
             next -10 * aiNumHits if user.takesIndirectDamage?
@@ -248,6 +250,7 @@ BattleHandlers::TargetAbilityOnHit.copy(:IRONBARBS, :ROUGHSKIN)
 
 BattleHandlers::TargetAbilityOnHit.add(:FEEDBACK,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next if user.fainted?
         next unless move.specialMove?(user)
         if aiCheck
@@ -265,6 +268,7 @@ BattleHandlers::TargetAbilityOnHit.add(:FEEDBACK,
   
 BattleHandlers::TargetAbilityOnHit.add(:ARCCONDUCTOR,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next unless battle.rainy?
         if aiCheck
             next -10 * aiNumHits if user.takesIndirectDamage?
@@ -281,6 +285,7 @@ BattleHandlers::TargetAbilityOnHit.add(:ARCCONDUCTOR,
 
 BattleHandlers::TargetAbilityOnHit.add(:SPINTENSITY,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next unless target.steps[:SPEED] > 0
         if aiCheck
             next -5 * target.steps[:SPEED] if user.takesIndirectDamage?
@@ -434,6 +439,7 @@ BattleHandlers::TargetAbilityOnHit.add(:SNORER,
 =begin
 BattleHandlers::TargetAbilityOnHit.add(:STATIC,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next unless move.physicalMove?
         next if user.numbed?
         if aiCheck
@@ -597,6 +603,7 @@ BattleHandlers::TargetAbilityOnHit.add(:BACKWASH,
 =begin
 BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next if user.fainted?
         next if user.effectActive?(:Curse)
         if aiCheck
@@ -620,6 +627,7 @@ BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
 
 BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next if user.fainted?
         next if user.effectActive?(:Curse)
         warned_battlers = user.battle_tracker_get(:warned)[ability]
@@ -644,6 +652,7 @@ BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
 
 BattleHandlers::TargetAbilityOnHit.add(:SEALINGBODY,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next if user.fainted?
         next if user.effectActive?(:Disable)
         next if move.id == :STRUGGLE
@@ -656,6 +665,7 @@ BattleHandlers::TargetAbilityOnHit.add(:SEALINGBODY,
 
 BattleHandlers::TargetAbilityOnHit.add(:PERISHBODY,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next if target.boss?
         next if user.effectActive?(:PerishSong)
         next if target.effectActive?(:PerishSong)
@@ -1030,6 +1040,7 @@ BattleHandlers::TargetAbilityOnHit.add(:PRIMEVALFLOURISHING,
 
 BattleHandlers::TargetAbilityOnHit.add(:OVERCHARGE,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next unless target.fainted?
         if aiCheck
             ret = 0

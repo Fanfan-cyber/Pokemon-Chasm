@@ -252,7 +252,17 @@ storymode/nostorymode，开启/关闭剧情模式
 69.修复了当精灵的HP回复时，会异常显示特殊文本的Bug
 70.现在谜拟Q因为Soul Stealer而恢复到满血时，会重新拥有画皮
 71.修复了Royal Tribute会导致游戏崩溃的Bug
-72.
+72.现在铁刺不一定会被预言类技能触发了
+73.现在Feedback不一定会被预言类技能触发了
+74.现在Arc Conductor不一定会被预言类技能触发了
+75.现在Spintensity不一定会被预言类技能触发了
+76.现在Cursed Tail不一定会被预言类技能触发了
+77.现在Sealing Body不一定会被预言类技能触发了
+78.现在灭亡之躯不一定会被预言类技能触发了
+79.现在Overcharge不一定会被预言类技能触发了
+80.修复了对手的幻觉在关闭复制机制时会不生效的Bug
+81.现在所有对手的幻觉都会生效了
+82.
 
 0.4.6 Astra Resonantia / 星穹共鸣 03052026
 1.修复了Arc of Hope的中文错误翻译的Bug
