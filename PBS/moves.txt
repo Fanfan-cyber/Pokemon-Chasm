@@ -655,7 +655,7 @@ Accuracy = 0
 TotalPP = 15
 Target = User
 FunctionCode = CureUserStatus
-Flags = CanSnatch
+Flags = CanSnatch,Staple
 Description = The user rests to cure itself of any non-volatile status condition.
 #-------------------------------
 [RETALIATE]
