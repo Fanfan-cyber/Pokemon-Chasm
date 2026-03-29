@@ -2911,7 +2911,7 @@ Environment = Ice
 # Mirror Maze
 Outdoor = false
 ShowArea = true
-Bicycle = true
+Bicycle = false
 BattleBack = cave1
 Environment = Ice
 #-------------------------------

@@ -877,6 +877,12 @@ BaseMoney = 32
 IntroBGM = POKEFAN
 CableClub = true
 #-------------------------------
+[KATY]
+Name = Katy
+Gender = Male
+BaseMoney = 120
+IntroBGM = BLACKBELT
+#-------------------------------
 [KIMONOGIRL]
 Name = Kimono Girl
 Gender = Female

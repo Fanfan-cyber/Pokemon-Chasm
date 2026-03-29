@@ -2874,6 +2874,234 @@ Pokemon = PORYGONZ,70
     AbilityIndex = 1 # Adapted
     Item = SITRUSBERRY
 #-------------------------------
+[GUITARIST3,Envy]
+TrainerTypeLabel = DEVELOPER
+Pokemon = SIGILYPH,70
+    Name = Malkuth
+    Gender = female
+    Moves = PRESSURESHOCK,FUTURESIGHT,WHIRLWIND,CHILL
+    AbilityIndex = 1 # Inscrutable Orders
+    Item = ENERGYLOCK
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,0,10,20,0
+Pokemon = PROBOPASS,70
+    Gender = female
+    Moves = DRILLPECK,WARDPRESS,NUMB,SHOREUP
+    AbilityIndex = 0 # Magnet Trap
+    Item = CRYSTALVEIL
+    ItemType = FLYING
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,10,0,0,20
+Pokemon = WYNAUT,70
+    Gender = female
+    Moves = COUNTER,MIRRORCOAT,PARTINGSHOT,GREYMIST
+    AbilityIndex = 1 # Bounce Back
+    Item = EVIOLITE
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,20,0,0,10
+Pokemon = GRAPIDASH,70
+    Name = Sunshine
+    Gender = female
+    Moves = TANTRUM,OMNISCIENTBLOW,UTURN,VOLTTACKLE
+    AbilityIndex = 1 # Heart of Justice
+    Item = CHOICEBAND
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = PORYGONZ,70
+    Name = Tiphereth
+    Moves = CRITICALERROR,NULLPULSE,DARKPULSE,DREAMDANCE
+    AbilityIndex = 1 # Adapted
+    Item = LIFEORB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = MMANDIBUZZ,70
+    Name = Binah
+    Gender = female
+    Moves = SHIVER,WILLOWISP,RECOVER,CRIMSONSTORM
+    AbilityIndex = 1 # Toil and Trouble
+    Item = LEFTOVERS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,20,0,0,10
+#-------------------------------
+[PUNKM,ValourDyke]
+TrainerTypeLabel = DEVELOPER
+Pokemon = AGGRON,70
+    Name = Macha
+    Moves = BEDROCKBREAKER,IRONHEAD,CRUNCH,ICECALIBUR
+    AbilityIndex = 1 # Motor Drive
+    Item = STRIKEVEST
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = LANTURN,70
+    Name = Clarity
+    Moves = ARCLAMP,MOONBLAST,SCALD,VOLTSWITCH
+    AbilityIndex = 1 # Blinding
+    Item = FLASHBULB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,0,10,20,0
+Pokemon = MAROWAK,70
+    Name = Nanaya
+    Moves = BONEMERANG,BRICKBREAK,INFERNOIMPACT,PROTECT
+    AbilityIndex = 1 # Break Through
+    Item = AGILITYHERB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,0,10,20,0
+Pokemon = MILTANK,70
+    Name = Hortensa
+    Moves = DINNERBELL,PROTECT,SLACKOFF,BODYSLAM
+    AbilityIndex = 0 # Refreshing
+    Item = LEFTOVERS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,0,20,0,10
+Pokemon = FLYGON,70
+    Name = Mercurial
+    Moves = GUTTURALROAR,BUGBUZZ,ENCHANTINGSONG,PROTECT
+    AbilityIndex = 1 # Siren Song
+    Item = THROATSPRAY
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = MANTINE,70
+    Name = Camilla
+    Moves = MACHPULSE,SKYFALL,WIDEGUARD,TAILWIND
+    AbilityIndex = 1 # Free Ride
+    Item = HIVISJACKET
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,0,10,0,20
+#-------------------------------
+[HEXMANIAC,Errata]
+Pokemon = INTELEON,70
+    Name = Glasses 2
+    Gender = female
+    Moves = SNIPESHOT,UTURN
+    AbilityIndex = 1 # Incognito
+    Item = CHOICESPECS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = GOLURK,70
+    Name = Toys
+    Moves = PULVERIZERCHORD,SUNDERFATE,BLIZZARD,ROCKETPUNCH
+    AbilityIndex = 1 # No Guard
+    Item = WILDCARD
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = HELECTRODE,70
+    Name = NootinsApl
+    Moves = CHLOROBLAST,EXPLOSION,VOLTSWITCH,THUNDERBOLT
+    AbilityIndex = 0 # Perennial Payload
+    Item = LIFEORB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = FARFETCHD,70
+    Name = Duck Soup
+    Gender = female
+    Moves = FURYSWIPES,FURYPECKS,EXTREMESPEED,UTURN
+    AbilityIndex = 0 # Perfect Luck
+    Item = POWERLOCK
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,0,10,20,0
+Pokemon = YANMEGA,70
+    Name = Glasses 1
+    Gender = female
+    Moves = MACHPULSE,LUMINBURST,UTURN,SCALESTORM
+    AbilityIndex = 1 # Tinted Lens
+    Item = CHOICESPECS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = FLAPPLE,70
+    Name = Nootin'
+    Gender = female
+    Moves = CLASSICALPHYSICS,UTURN
+    AbilityIndex = 0 # Hustle
+    Item = TECHNIQUEBOOSTER
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,0,10,20,0
+#-------------------------------
+[WAITRESS2,Fanfan]
+TrainerTypeLabel = DEVELOPER
+Pokemon = ZOROARK,70
+    Moves = DREAMDANCE,BLACKOUT,MASSDESTRUCTION,NEURALPULSE
+    AbilityIndex = 0 # Illusion
+    Item = FOCUSSASH
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 0,20,10,20,20,0
+Pokemon = PERSIAN,70
+    Moves = FAKEOUT,CHACHING,SWORDSDANCE,PLAYROUGH
+    AbilityIndex = 1 # All That Glitters
+    Item = NORMALGEM,FAIRYGEM
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 0,20,0,20,20,10
+Pokemon = INDEEDEE,70
+    Moves = RISINGPOWER,MYSTICALFIRE,LAUNDER,CALMMIND
+    AbilityIndex = 1 # Mental Block
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
+Pokemon = EELEKTROSS,70
+    Moves = VOLTSWITCH,TOXICTASTE,CRUNCH,AQUATICCRUNCH
+    AbilityIndex = 1 # Frustrate
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 18,20,6,0,20,6
+Pokemon = INCINEROAR,70
+    Moves = FAKEOUT,FLAMESPIKES,FLAREBLITZ,PARTINGSHOT
+    AbilityIndex = 0 # Intimidate
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,10,0,20,10,10
+Pokemon = MIMIKYU,70
+    Moves = SHADOWSNEAK,SWORDSDANCE,TANTRUM,WAILINGBLOW
+    AbilityIndex = 0 # Disguise
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,0,10,20,0
+#-------------------------------
+[KATY,Manycrows]
+TrainerTypeLabel = DEVELOPER
+Pokemon = ARAICHU,70
+    Name = Rex
+    Gender = female
+    Moves = ARCLAMP,RAINSTORM,NEURALPULSE,LIVEWIRE
+    AbilityIndex = 0 # Silver Lining
+    Item = DAMPROCK
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,10,0,20,10,10
+Pokemon = LANTURN,70
+    Name = DARYA
+    Gender = female
+    Moves = LUMINOUSBURST,BUBBLEBLASTER,WARDPRESS,MENDINGSPRING
+    AbilityIndex = 0 # Volt Absorb
+    Item = ASSAULTVEST
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 0,10,10,10,10,20
+Pokemon = MANERGETIC,70
+    Name = KATY
+    Gender = female
+    Moves = CAPACITYBURST,CRUNCH,PROTECT,GLACIALCRUNCH
+    AbilityIndex = 0 # Ruinous
+    Item = SHELLBELL
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,10,5,10,10,5
+Pokemon = ZEBSTRIKA,70
+    Name = Tiskhu
+    Gender = female
+    Moves = FLAREBLITZ,UTURN,SUBMISSION,VOLTTACKLE
+    AbilityIndex = 1 # Reckless
+    Item = SHELLBELL
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,10,5,10,10,5
+Pokemon = MAGNEZONE,70
+    Name = Hypatia
+    Gender = female
+    Moves = ZAPCANNON,INFERNO,ROCKAPULT,TERADRAIN
+    AbilityIndex = 1 # No Guard
+    Item = FOCUSSASH
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 0,20,10,10,20,10
+Pokemon = TROPIUS,70
+    Name = Mika
+    Gender = male
+    Moves = TAILWIND,PROTECT,LEECHSEED,GRASSKNOT
+    AbilityIndex = 0 # Mental Block
+    Item = LEFTOVERS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,0,20,0,0,20
+#-------------------------------
 [LEADER_Bence,Bence]
 Policies = BENCE
 Flags = NoPerfect
@@ -3387,7 +3615,7 @@ Pokemon = GRAPIDASH,45
 Pokemon = GDARMANITAN,45
     Form = 1 # Zen Form
     Moves = BURNUP,SUBLIMATE,GRASSKNOT,BODYPRESS
-    AbilityIndex = 0 # Phase Shift
+    AbilityIndex = 1 # Rejuvenate
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,20,0,20,10
 #-------------------------------

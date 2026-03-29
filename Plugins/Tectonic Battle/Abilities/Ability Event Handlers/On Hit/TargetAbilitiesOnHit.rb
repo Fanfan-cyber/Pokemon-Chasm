@@ -818,6 +818,7 @@ BattleHandlers::TargetAbilityOnHit.add(:INNARDSOUT,
   
 BattleHandlers::TargetAbilityOnHit.add(:MUMMY,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next if user.fainted?
         next if user.immutableAbility?
         next if user.hasAbility?(ability)
@@ -828,6 +829,7 @@ BattleHandlers::TargetAbilityOnHit.add(:MUMMY,
   
 BattleHandlers::TargetAbilityOnHit.add(:INFECTED,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next if user.fainted?
         next if user.immutableAbility?
         next if user.hasAbility?(ability)
@@ -840,6 +842,7 @@ BattleHandlers::TargetAbilityOnHit.add(:INFECTED,
 
 BattleHandlers::TargetAbilityOnHit.add(:WANDERINGSPIRIT,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next if user.fainted?
         next if user.immutableAbility?
         next -5 if aiCheck
@@ -986,6 +989,7 @@ BattleHandlers::TargetAbilityOnHit.add(:COLORCOLLECTOR,
 
 BattleHandlers::TargetAbilityOnHit.add(:TANGLINGVINES,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
         next if target.fainted?
         next -10 * aiNumHits if aiCheck
         target.showMyAbilitySplash(ability)
