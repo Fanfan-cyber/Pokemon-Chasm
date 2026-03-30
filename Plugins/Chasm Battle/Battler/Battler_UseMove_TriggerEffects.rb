@@ -152,6 +152,9 @@ user.pbThis(true)))
     # Effects after all hits (i.e. at end of move usage)
     #=============================================================================
     def pbEffectsAfterMove(user, targets, move, numHits, originalUserPokemon = nil)
+        # Snapshot Blindness state before any switch-in effects (e.g. Eject Button →
+        # Ink Spray) can apply a fresh Blindness that should persist to the next turn.
+        userWasBlindBeforeEffects = user.effectActive?(:Blindness)
         # Destiny Bond
         # NOTE: Although Destiny Bond is similar to Grudge, they don't apply at
         #       the same time (although Destiny Bond does check whether it's going
@@ -211,8 +214,10 @@ user.pbThis(true)))
 
             trySwitchOutUser(user, targets, numHits, switchedBattlers) if fogSending
         end
-        #Blindness
-        if user.effectActive?(:Blindness) && move.damagingMove?
+        # Blindness is a one-move debuff: clear it only if the user was already blind
+        # when this move started. Blindness applied by switch-in abilities mid-effects
+        # (e.g. Ink Spray after Eject Button) should persist to the next turn.
+        if userWasBlindBeforeEffects && move.damagingMove?
             user.disableEffect(:Blindness)
         end
         # Mending Feathers
