@@ -96,7 +96,7 @@ class PokeBattle_Battle
         end
         # Item effects that allow switching no matter what
         battler.eachActiveItem do |item|
-            return false if BattleHandlers.triggerCertainSwitchingUserItem(item, battler, self)
+            return false if BattleHandlers.triggerCertainSwitchingUserItem(item, battler, self, false)
         end
 
         # Other certain trapping effects
@@ -488,6 +488,21 @@ class PokeBattle_Battle
         eachOtherSideBattler(battler.index) do |enemy|
             enemy.eachActiveAbility do |ability|
                 BattleHandlers.triggerAbilityOnEnemySwitchIn(ability, battler, enemy, self)
+            end
+        end
+
+        # Announce immunity to passive trapping abilities (e.g. RUNNINGFREE)
+        eachOtherSideBattler(battler.index) do |enemy|
+            enemy.eachActiveAbility do |ability|
+                next unless BattleHandlers.triggerTrappingTargetAbility(ability, battler, enemy, self)
+                hasImmunity = false
+                battler.eachActiveAbility { |sa| hasImmunity = true if BattleHandlers.triggerCertainSwitchingUserAbility(sa, battler, self, false) }
+                battler.eachActiveItem { |si| hasImmunity = true if BattleHandlers.triggerCertainSwitchingUserItem(si, battler, self, false) }
+                next unless hasImmunity
+                pbShowAbilitySplash(enemy, ability)
+                battler.eachActiveAbility { |sa| BattleHandlers.triggerCertainSwitchingUserAbility(sa, battler, self, true) }
+                battler.eachActiveItem { |si| BattleHandlers.triggerCertainSwitchingUserItem(si, battler, self, true) }
+                pbHideAbilitySplash(enemy)
             end
         end
 
