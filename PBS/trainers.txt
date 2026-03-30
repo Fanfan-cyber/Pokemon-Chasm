@@ -3018,6 +3018,7 @@ Pokemon = FLAPPLE,70
 #-------------------------------
 [WAITRESS2,Fanfan]
 TrainerTypeLabel = DEVELOPER
+Policies = CURSE_TRAUMATIZING
 Pokemon = ZOROARK,70
     Moves = DREAMDANCE,BLACKOUT,MASSDESTRUCTION,NEURALPULSE
     AbilityIndex = 0 # Illusion

@@ -73,6 +73,7 @@ class PokeBattle_Battle
 	attr_accessor :is_replayed
 	attr_accessor :recorded_choice #Only used in recorded battles, logs the last non-move choice made
 	attr_accessor :replayed_choice #Only used in replayed battles, logs the next non-move choice that will be made
+    attr_reader   :preBattle
 
     #=============================================================================
     # Creating the battle class

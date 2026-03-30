@@ -465,13 +465,15 @@ class PokeBattle_Battler
         return lowerStatStepEX(stat, increment, user: user, showAnim: showAnim)
     end
 
-    def lowerStatStepEX(stat, increment, user: nil, showMessages: true, showAnim: true, multiple: false)
+    def lowerStatStepEX(stat, increment, user: nil, showMessages: true, showAnim: true, multiple: false, traumatize: false)
         # Perform the stat step change
         increment = pbLowerStatStepBasic(stat, increment)
         return false if increment <= 0
         # Stat down animation and message
-        trauma = user&.hasActiveAbility?(:TRAUMATIZING) && opposes?(user)
-        @battle.pbShowAbilitySplash(user, :TRAUMATIZING) if trauma && showMessages
+        trauma_abil = user&.hasActiveAbility?(:TRAUMATIZING) && opposes?(user)
+        trauma_tarot = pbOwnedByPlayer? && @battle.curseActive?(:CURSE_TRAUMATIZING)
+        trauma = !traumatize && (trauma_tarot || trauma_abil)
+        @battle.pbShowAbilitySplash(user, :TRAUMATIZING) if trauma_abil && showMessages
         @battle.pbCommonAnimation("StatDown", self) if showAnim
         increment /= 2.0 if boss? && AVATAR_DILUTED_STAT_STEPS
         
@@ -479,7 +481,7 @@ class PokeBattle_Battler
         
         # Traumatizing
         if trauma
-            @battle.pbDisplay(_INTL("It'll last the whole battle!")) if showMessages
+            @battle.pbDisplay(_INTL("It'll last the whole battle!")) if showMessages && !trauma_tarot
 
             # Initialize entire hash if needed
             pbOwnSide.applyEffect(:Traumatized, {}) unless pbOwnSide.effectActive?(:Traumatized)
@@ -746,7 +748,7 @@ class PokeBattle_Battler
 
     # Pass in array of form
     # [statToRaise, stepsToRaise, statToRaise2, stepsToRaise2, ...]
-    def pbLowerMultipleStatSteps(statArray, user = nil, move: nil, showFailMsg: false, showAnim: true, ability: nil, item: nil, ignoreContrary: false, ignoreMirrorArmor: false)
+    def pbLowerMultipleStatSteps(statArray, user = nil, move: nil, showFailMsg: false, showAnim: true, ability: nil, item: nil, ignoreContrary: false, ignoreMirrorArmor: false, traumatize: false)
         return unless pbCanLowerAnyOfStats?(statArray, user, move: move, showFailMsg: showFailMsg)
         @battle.pbShowAbilitySplash(user, ability) if ability
 
@@ -766,7 +768,7 @@ class PokeBattle_Battler
                     return false    
                 end
                 if user.pbCanLowerAnyOfStats?(statArray, nil, move: move, showFailMsg: showFailMsg)
-                    user.pbLowerMultipleStatSteps(statArray, user, showFailMsg: showFailMsg, showAnim: showAnim, ignoreContrary: ignoreContrary, ignoreMirrorArmor: true)
+                    user.pbLowerMultipleStatSteps(statArray, user, showFailMsg: showFailMsg, showAnim: showAnim, ignoreContrary: ignoreContrary, ignoreMirrorArmor: true, traumatize: traumatize)
                 end
                 battle.pbHideAbilitySplash(self)
                 return false
@@ -830,7 +832,7 @@ class PokeBattle_Battler
             stat = statArray[i * 2]
             increment = statArray[i * 2 + 1]
             next unless pbCanLowerStatStep?(stat, user, move, false, false)
-            increment = lowerStatStepEX(stat, increment, user: user, showMessages: false, showAnim: false, multiple: true)
+            increment = lowerStatStepEX(stat, increment, user: user, showMessages: false, showAnim: false, multiple: true, traumatize: traumatize)
             next if increment <= 0
             if endResult.key?(increment)
                 endResult[increment].push(stat)

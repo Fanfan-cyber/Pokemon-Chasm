@@ -1667,23 +1667,23 @@ Sure, I'll pay for that.
 [Map14]
 [Map15]
 You've found Kirbae, a playtester and coder.
-你找到了Kirbae，1位测试玩家和程序员。
+你找到了Kirbae，1位测试者和程序员。
 Thank you for playing our game!
 感谢你玩我们的游戏！
 You've found Lilypad, a playtester and contributor.
-你找到了Lilypad，1位测试玩家和贡献者。
+你找到了Lilypad，1位测试者和贡献者。
 You've found Attea, a spriter and design contributor.
-你找到了Attea，1位精灵画师和设计贡献者。
+你找到了Attea，1位画师和设计贡献者。
 You've found Riptide, a developer and designer.
 你找到了Riptide，1位开发者和设计师。
 Although "found" may not be the correct term, maybe "endured your way to me" is it.
 虽然“找到”可能不是正确的词，也许“忍受着来到我这里”更合适。
 Since well, you made it through my carefully constructed gauntlet of nuzlockers and perfecters.
-因为你成功通过了我精心设计的Nuzlockers和完美主义者的考验。
+因为你成功通过了我精心设计的用来完胜和Nuzlocke挑战的队伍。
 Now let us see if the AI can steer my signature strategy. Have fun!
 现在让我们看看AI是否能驾驭我的标志性策略。玩得开心！
 You've found Bella, a playtester.
-你找到了Bella，1位测试玩家。
+你找到了Bella，1位测试者。
 [Map16]
 I got some extra dynamite. Want it for $5000?
 我有些多余的炸药。5000金钱要吗？
@@ -51284,7 +51284,7 @@ nthTurnThisRound检查的是1回合或以上！
 {1}'s {2} won't go any higher!
 {1}的{2}不能再增加了！
 It'll last the whole battle!
-它能撑下整场战斗！
+这会在整场战斗中持续！
 {1}'s {2} raised its {3}!
 {1}的{2}增加了它的{3}！
 {1}'s {2} raised its {3} by {4} steps!

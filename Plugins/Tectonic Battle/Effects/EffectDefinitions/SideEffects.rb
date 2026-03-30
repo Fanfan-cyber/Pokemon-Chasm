@@ -969,6 +969,7 @@ GameData::BattleEffect.register_effect(:Side, {
     :info_displayed => false,
     :type => :Hash,
     :entry_proc => proc do |battle, battlerIndex, side, battler, value|
+        next if battle.preBattle
         echoln(value.to_s)
         if value.key?(battler.pokemonIndex)
             statHash = value[battler.pokemonIndex]
@@ -982,7 +983,7 @@ GameData::BattleEffect.register_effect(:Side, {
             echoln(statDown.to_s)
             unless statDown.empty?
                 battle.pbDisplay(_INTL("{1} remembers its fears!", battler.pbThis))
-                battler.pbLowerMultipleStatSteps(statDown, nil)
+                battler.pbLowerMultipleStatSteps(statDown, nil, traumatize: true)
             end
         end
     end,
