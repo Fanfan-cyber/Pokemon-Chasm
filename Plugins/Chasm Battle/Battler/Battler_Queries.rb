@@ -684,7 +684,7 @@ class PokeBattle_Battler
             return !hasAlly?
         end
         return false if fainted?
-        return @battle.pbGetOwnerFromBattlerIndex(@index).able_pokemon_count == 1
+        return @battle.pbGetOwnerFromBattlerIndex(@index).alive_pokemon_count == 1
     end
 
     def protectedAgainst?(user, move)
