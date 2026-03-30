@@ -8,7 +8,7 @@
 削弱声音队 锦标赛前增加前冠军战斗
 =end
 
-MOD_VERSION  = "0.4.7"
+MOD_VERSION  = "0.4.6"
 VERSION_NAME = ["Radiant Nexus", "星芒汇流"]
 
 CHANGE_LOG = <<-LOGGER

@@ -10,7 +10,7 @@ module SaveData
     save_data = get_data_from_file(file_path)
     save_data = to_hash_format(save_data) if save_data.is_a?(Array)
     save_data[:mod_version] = "0.0.1" unless save_data[:mod_version]
-    save_data[:game_version] = "3.3.0" if save_data[:game_version] == "3.4.0" && save_data[:mod_version] == "0.4.3"
+    save_data[:game_version] = "3.3.0" if save_data[:game_version] == "3.4.0" && (save_data[:mod_version] == "0.4.3" || save_data[:mod_version] == "0.4.6")
     outdated = (PluginManager.compare_versions(save_data[:mod_version], MOD_VERSION) < 0) || $DEBUG
     # Updating to a new version
     #if convert && !save_data.empty? && PluginManager.compare_versions(save_data[:game_version], Settings::GAME_VERSION) < 0
