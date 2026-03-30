@@ -97,6 +97,14 @@ class Trainer
       @party.each { |p| ret += 1 if p && p.able? }
       return ret
     end
+
+    # Counts party members that are alive (HP > 0, not afraid, not egg),
+    # regardless of ability-based restrictions like PACIFIST or UnableByDefault.
+    def alive_pokemon_count
+      ret = 0
+      @party.each { |p| ret += 1 if p && !p.fainted? }
+      return ret
+    end
   
     def party_full?
       return party_count >= Settings::MAX_PARTY_SIZE

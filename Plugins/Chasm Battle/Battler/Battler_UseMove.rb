@@ -456,6 +456,10 @@ class PokeBattle_Battler
             # Process each hit in turn
             # Skip all hits if the move is being magic coated, magic bounced, or magic shielded
             realNumHits = 0
+            # Capture original user before any hit effects that might trigger Eject Pack
+            # (e.g. user self-lowers stats via Close Combat). Used to suppress end-of-move
+            # item/ability effects that should not fire on the replacement Pokemon.
+            originalUserPokemon = user.pokemon
             moveIsBlocked = magicCoater >= 0 || magicBouncer >= 0 || warder >= 0
             unless moveIsBlocked
                 for i in 0...numHits
@@ -614,7 +618,7 @@ class PokeBattle_Battler
             user.pbFaint if user.fainted?
 
             # External/general effects after all hits. Eject Button, Shell Bell, etc.
-            pbEffectsAfterMove(user, targets, move, realNumHits)
+            pbEffectsAfterMove(user, targets, move, realNumHits, originalUserPokemon)
         end
 
         # End effect of Mold Breaker
@@ -943,14 +947,19 @@ class PokeBattle_Battler
             end
             # Close Combat/Superpower's stat-lowering, Flame Burst's splash damage,
             # and Incinerate's berry destruction
+            originalUserForHit = user.pokemon
             targets.each do |b|
                 next if b.damageState.unaffected
                 move.pbEffectWhenDealingDamage(user, b)
             end
             # Ability/item effects such as Static/Rocky Helmet, and Grudge, etc.
-            targets.each do |b|
-                next if b.damageState.unaffected
-                pbEffectsOnMakingHit(move, user, b)
+            # Skip if the user switched mid-hit (e.g. Eject Pack from a self-stat drop),
+            # so the replacement Pokemon does not inherit on-hit effects like Rapid Onset.
+            if user.pokemon.equal?(originalUserForHit)
+                targets.each do |b|
+                    next if b.damageState.unaffected
+                    pbEffectsOnMakingHit(move, user, b)
+                end
             end
             # Disguise/Endure/Sturdy/Focus Sash/Focus Band messages
             targets.each do |b|
