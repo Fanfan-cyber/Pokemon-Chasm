@@ -577,9 +577,21 @@ class PokeBattle_Battler
             BattleHandlers.triggerAbilityOnStatLoss(ability, self, user)
         end
 
-        # Trigger items upon stat loss
+        # Trigger White Herb / Black Herb immediately on stat loss. This covers
+        # entry-ability stat drops (e.g. Intimidate) that never reach the end-of-move
+        # pbItemEndOfMoveCheck. During moves the item is consumed here, so
+        # pbItemEndOfMoveCheck is a harmless no-op afterwards.
+        pbItemStatRestoreCheck
+
+        # Trigger items upon stat loss (e.g. Eject Pack)
+        # Track switches so pbEffectsOnSwitchIn is called exactly once per switch,
+        # matching the pattern used by pbEffectsAfterMove2 for Eject Button/Red Card.
+        switched = []
         eachActiveItem do |item|
-            BattleHandlers.triggerItemOnStatLoss(item, self, user, move, [], @battle)
+            BattleHandlers.triggerItemOnStatLoss(item, self, user, move, switched, @battle)
+        end
+        @battle.pbPriority(true).each do |b|
+            b.pbEffectsOnSwitchIn(true) if switched.include?(b.index)
         end
     end
 
