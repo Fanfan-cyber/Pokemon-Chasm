@@ -217,6 +217,23 @@ def candyQuestFailed?
     return getGlobalVariable(CANDY_STAGE_VAR) < 5 && wasNPCIdSelected?(5) && getGlobalSwitch(RECURRING_QUEST_FAILURE_SWITCH)
 end
 
+def pointOfNoReturnConfirmation
+    canCrimsonMaskNPCQuestFail = !getGlobalSwitch(NPC1_TRAITOR_SWITCH)
+    canTealMaskNPCQuestFail = !getGlobalSwitch(NPC2_TRAITOR_SWITCH)
+
+    if canCrimsonMaskNPCQuestFail && canTealMaskNPCQuestFail
+        pbMessage(_INTL("\\wm\\ss\\l[2]Beyond this door, a <imp>Crimson Masked</imp> and a <imp>Teal Mask</imp> await you."))
+    elsif canCrimsonMaskNPCQuestFail
+        pbMessage(_INTL("\\wm\\ss\\l[2]Beyond this door, a <imp>Crimson Mask</imp> awaits you."))
+    elsif canTealMaskNPCQuestFail
+        pbMessage(_INTL("\\wm\\ss\\l[2]Beyond this door, a <imp>Teal Mask</imp> awaits you."))
+    else
+        return true # Skip confirmation
+    end
+    pbMessage(_INTL("\\wm\\ss\\l[2]If you continue, reconciliation will <imp>become impossible</imp>."))
+    return pbConfirmMessageSerious(_INTL("Enter through the black door?"))
+end
+
 def enterPointOfNoReturn
     setGlobalSwitch(RECURRING_QUEST_FAILURE_SWITCH)
     failQuest(:QUEST_IMOGENE) if imogeneQuestFailed?

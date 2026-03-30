@@ -152,8 +152,8 @@ Special,,20,20
 FloweryGrass,20,40
     20,HAPPINY,31,33
     20,LILLIPUP,31,33
+    20,MTORCHIC,31,33
     20,SAWK,34,36
-    20,SKITTY,31,33
     20,THROH,34,36
 #-------------------------------
 [035] # Impromptu Lab
@@ -494,10 +494,11 @@ Special,,20,20
 #-------------------------------
 [155] # Prizca West
 Land,20,40
-    40,KOFFING,34,36
-    20,MVULPIX,34,36
-    20,PIDOVE,34,36
-    20,YUNGOOS,34,36
+    33,KOFFING,34,36
+    17,MVULPIX,34,36
+    17,PIDOVE,34,36
+    17,YUNGOOS,34,36
+    16,SKITTY,34,36
 Special,,40,40
     1,ROTOM,40
 #-------------------------------
