@@ -200,7 +200,7 @@ user.pbThis(true)))
             move.pbEndOfMoveUsageEffect(user, targets, numHits, switchedBattlers)
         end
         # Misdirecting Fog
-        unless switchedBattlers.include?(user.index)
+        unless switchedBattlers.include?(user.index) || user.effectActive?(:MisdirectingFogSelected)
             fogSending = false
             targets.each do |target|
                 next unless target.pbOwnSide.effectActive?(:MisdirectingFog)
@@ -208,8 +208,10 @@ user.pbThis(true)))
                 fogSending = true
                 break
             end
-
-            trySwitchOutUser(user, targets, numHits, switchedBattlers) if fogSending
+            if fogSending
+                user.applyEffect(:MisdirectingFogSelected)
+                trySwitchOutUser(user, targets, numHits, switchedBattlers)
+            end
         end
         #Blindness
         if user.effectActive?(:Blindness) && move.damagingMove?
