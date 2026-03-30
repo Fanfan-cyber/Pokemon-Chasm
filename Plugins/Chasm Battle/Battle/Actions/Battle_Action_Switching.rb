@@ -96,7 +96,7 @@ class PokeBattle_Battle
         end
         # Item effects that allow switching no matter what
         battler.eachActiveItem do |item|
-            return false if BattleHandlers.triggerCertainSwitchingUserItem(item, battler, self)
+            return false if BattleHandlers.triggerCertainSwitchingUserItem(item, battler, self, false)
         end
 
         # Other certain trapping effects
