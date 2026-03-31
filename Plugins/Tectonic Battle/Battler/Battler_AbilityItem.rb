@@ -61,7 +61,7 @@ class PokeBattle_Battler
     def can_switch_healing?(aiCheck = false)
         turn_count = @turnCount
         turn_count += 1 if aiCheck
-        return canHeal? && turn_count > 1
+        return turn_count > 1
     end
 
     def pbAbilitiesOnSwitchOut
@@ -69,7 +69,7 @@ class PokeBattle_Battler
         @battle.tracker_get(:turn_switched)[unique_id] = @battle.turnCount
 
         # Switch Healing Switch part
-        pbRecoverHP(@totalhp * switch_healing_amt / 100.0, false, false, false)
+        pbRecoverHP(@totalhp * switch_healing_amt / 100.0, false, false, false) if canHeal?
 
         eachActiveAbility do |ability|
             BattleHandlers.triggerAbilityOnSwitchOut(ability, self, @battle, false)

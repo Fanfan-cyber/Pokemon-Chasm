@@ -264,7 +264,10 @@ storymode/nostorymode，开启/关闭剧情模式
 81.现在所有对手的幻觉都会生效了
 82.现在Fanfan具有塔罗牌效果CURSE_TRAUMATIZING
 83.现在Traumatizing的效果在战斗的第0回合不会发动
-84.
+84.现在AI在检查替换回血机制时，不再检查条件
+85.现在替换回血机制会在最开始时检查精灵是否可以回血
+86.现在精灵在回复HP时，不再检查当前HP是否大于精灵的最大HP
+87.
 
 0.4.6 Astra Resonantia / 星穹共鸣 03052026
 1.修复了Arc of Hope的中文错误翻译的Bug

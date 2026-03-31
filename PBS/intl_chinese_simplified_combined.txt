@@ -41289,6 +41289,8 @@ After using a biting move, lowers the target's highest attacking stat by two ste
 使用咬类技能后，使目标较高的1项攻击减小2级。
 When hit with a special move, hits back instantly with that same move.
 被特殊类技能攻击时，立即使用同样的技能还击。
+After being attacked with a special move, hits back with that same move.
+被特殊类技能攻击后，立即使用同样的技能还击。
 Boosts Attack and Speed by 30% in hail.
 冰雹时，物攻和速度增加30%。
 Summons a hail for four turns when hit by an attack.
