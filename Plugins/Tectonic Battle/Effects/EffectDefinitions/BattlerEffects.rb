@@ -2179,6 +2179,11 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :MisdirectingFogSelected,
+    :real_name => "Selected for Misdirecting Fog Switch",
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :ExtremeEffort,
     :real_name => "Exhaustion",
     :type => :Integer,

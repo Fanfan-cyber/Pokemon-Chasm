@@ -809,7 +809,7 @@ Description = After using a biting move, lowers the target's highest attacking s
 #-------------------------------
 [FRIGIDREFLECTION]
 Name = Frigid Reflection
-Description = When hit with a special move, hits back instantly with that same move.
+Description = After being attacked with a special move, hits back with that same move.
 #-------------------------------
 [FROSTFANGED]
 Name = Frostfanged

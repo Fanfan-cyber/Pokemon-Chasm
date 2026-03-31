@@ -640,8 +640,8 @@ module BattleHandlers
         return !ret.nil? ? ret : false
     end
 
-    def self.triggerCertainSwitchingUserItem(item, switcher, battle)
-        ret = CertainSwitchingUserItem.trigger(item, switcher, battle)
+    def self.triggerCertainSwitchingUserItem(item, switcher, battle, trappingProc)
+        ret = CertainSwitchingUserItem.trigger(item, switcher, battle, trappingProc)
         return !ret.nil? ? ret : false
     end
 

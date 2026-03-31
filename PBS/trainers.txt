@@ -1413,10 +1413,10 @@ Pokemon = DRIFBLIM,30
     Moves = FLAMETHROWER,HEX,SHIVER,BOREALWIND
     AbilityIndex = 1 # Drifting Mist
 Pokemon = LOMBRE,30
-    Moves = BUBBLEBEAM,MEGADRAIN,FAKEOUT,GROWL
+    Moves = AQUASHOCK,AUTUMNBLAST,ICYWIND,TEETERDANCE
     AbilityIndex = 0 # Groovy
 Pokemon = GYAMASK,30
-    Moves = SHADOWCLAW,ROCKTOMB,SHADOWSNEAK,PROTECT
+    Moves = WILLOWISP,BLUNTFORCE,CURSEDOATH,PROTECT
     AbilityIndex = 0 # Wandering Spirit
     Item = CADOBERRY
 #-------------------------------
