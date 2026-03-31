@@ -3064,7 +3064,7 @@ Pokemon = ARAICHU,70
 Pokemon = LANTURN,70
     Name = DARYA
     Gender = female
-    Moves = LUMINOUSBURST,BUBBLEBLASTER,WARDPRESS,MENDINGSPRING
+    Moves = ILLICIUMIMPULSE,BUBBLEBLASTER,WARDPRESS,MENDINGSPRING
     AbilityIndex = 0 # Volt Absorb
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -6385,7 +6385,7 @@ Pokemon = WAILORD,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,15,0,20,15
 Pokemon = LANTURN,70
-    Moves = VOLTSWITCH,LUMINOUSBURST,SCALD,MOONBLAST
+    Moves = VOLTSWITCH,ILLICIUMIMPULSE,SCALD,MOONBLAST
     AbilityIndex = 1 # Blinding
     Item = CHOICESPECS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
