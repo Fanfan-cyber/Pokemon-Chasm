@@ -63,13 +63,14 @@ BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:BATTLEHARDENED,
   }
 )
 
-BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:WIRECUTTER,
+BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:RATSNEST,
   proc { |ability, battler, battle|
       battle.pbShowAbilitySplash(battler, ability)
       if battler.pbOpposingSide.effectActive?(:LiveWire)
           battle.pbDisplay(_INTL("But a live wire already sits near {1}!",
                 battler.pbOpposingTeam(true)))
       else
+          battle.pbAnimation(:THUNDERWAVE, battler, nil)
           battler.pbOpposingSide.applyEffect(:LiveWire)
       end
       battle.pbHideAbilitySplash(battler)
