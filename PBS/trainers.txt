@@ -1799,7 +1799,7 @@ Pokemon = GLACEON,35
     Moves = HALTINGCOLD,CHILL,BABYDOLLEYES,FRIGIDJEALOUSY
     AbilityIndex = 1 # Brilliant Flurry
 Pokemon = OCTILLERY,35
-    Moves = SPRAYANDPRAY,BUBBLEBARRAGE,HONESIGHT
+    Moves = FIREWORKS,BUBBLEBARRAGE,HONESIGHT
     AbilityIndex = 1 # Repetition
 Pokemon = CROBAT,35
     Moves = EXSANGUINATE,UTURN,SUCKBLOOD,AERIALACE
@@ -1995,7 +1995,7 @@ Pokemon = AEXEGGUTOR,37
     Moves = DRAGONHAMMER,KICKSTART,ENERGYBALL,FLASHSEED
     AbilityIndex = 0 # Realist
 Pokemon = OCTILLERY,37
-    Moves = SPRAYANDPRAY,BUBBLEBARRAGE,HONESIGHT
+    Moves = FIREWORKS,BUBBLEBARRAGE,HONESIGHT
     AbilityIndex = 1 # Repetition
 #-------------------------------
 [BIKER2,Chuck]
