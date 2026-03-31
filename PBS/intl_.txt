@@ -1149,6 +1149,18 @@ No
 Yes
 Yes
 [Map8]
+My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+We still battle people, but like... in a chill way...
+We still battle people, but like... in a chill way...
+I'm gonna leave now. Don't like your vibes.
+I'm gonna leave now. Don't like your vibes.
+Can you feel the energy given off by those evolution stones?
+Can you feel the energy given off by those evolution stones?
+It's doing wonders for my stress.
+It's doing wonders for my stress.
+Is life worth living if you can't take time to be transfixed by the beauty of nature?
+Is life worth living if you can't take time to be transfixed by the beauty of nature?
 Hey there. Miss me?
 Hey there. Miss me?
 I finally got here – all thanks to you. I have to say, you don’t look a mite worse for wear considering how much wilderness you trekked through.
@@ -1235,30 +1247,6 @@ Something like a Fire or Sun Stone would clash, and a Leaf or Dusk Stone is more
 Something like a Fire or Sun Stone would clash, and a Leaf or Dusk Stone is more of what they already have.
 I promise it’s a good cause.
 I promise it’s a good cause.
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-We still battle people, but like... in a chill way...
-We still battle people, but like... in a chill way...
-I'm gonna leave now. Don't like your vibes.
-I'm gonna leave now. Don't like your vibes.
-Can you feel the energy given off by those evolution stones?
-Can you feel the energy given off by those evolution stones?
-It's doing wonders for my stress.
-It's doing wonders for my stress.
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
-A notice about the Makyan Regional Tournament has been hastily scribbled over.
-A notice about the Makyan Regional Tournament has been hastily scribbled over.
-A note added below reads "Not Taking Challengers"
-A note added below reads "Not Taking Challengers"
-Velenz Gym
-Velenz Gym
-Leader: Rafael
-Leader: Rafael
-...
-...
-It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
-It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
 Improper planning ruined this place. I just know it.
 Improper planning ruined this place. I just know it.
 Founding a town over a cave system? In a swamp?
@@ -1275,12 +1263,18 @@ Hm, I didn't expect you to say no.
 Hm, I didn't expect you to say no.
 The math... I must have miscalculated...
 The math... I must have miscalculated...
-Temporary Velenz Ranger Outpost
-Temporary Velenz Ranger Outpost
-"Velenz, proud home of-"
-"Velenz, proud home of-"
-Claw marks on the sign render the text unreadable.
-Claw marks on the sign render the text unreadable.
+Velenz Gym
+Velenz Gym
+Leader: Rafael
+Leader: Rafael
+...
+...
+It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
+It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
+A notice about the Makyan Regional Tournament has been hastily scribbled over.
+A notice about the Makyan Regional Tournament has been hastily scribbled over.
+A note added below reads "Not Taking Challengers"
+A note added below reads "Not Taking Challengers"
 Don't tell the others, but I'm getting bored of waiting.
 Don't tell the others, but I'm getting bored of waiting.
 Well, might as well battle you before <i>they</i> arrive.
@@ -1297,6 +1291,12 @@ That mansion near the menagerie must have something to do with the light I saw.
 That mansion near the menagerie must have something to do with the light I saw.
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
+"Velenz, proud home of-"
+"Velenz, proud home of-"
+Claw marks on the sign render the text unreadable.
+Claw marks on the sign render the text unreadable.
+Temporary Velenz Ranger Outpost
+Temporary Velenz Ranger Outpost
 I thought this place was supposed to be scary.
 I thought this place was supposed to be scary.
 Just seems peaceful to me.
@@ -1313,10 +1313,12 @@ Got some rare things on sale, stranger!
 Got some rare things on sale, stranger!
 Come back anytime.
 Come back anytime.
-East: Repora Forest
-East: Repora Forest
-South: Barren Crater
-South: Barren Crater
+Shh.
+Shh.
+You want the stuff?
+You want the stuff?
+Forget you saw me.
+Forget you saw me.
 No earthlings allowed: that's the rule.
 No earthlings allowed: that's the rule.
 By the power of the Moon Stone, I will punish you!
@@ -1329,12 +1331,34 @@ I haven't been a real sailor since they scuttled my ship.
 I haven't been a real sailor since they scuttled my ship.
 I just like the clothes.
 I just like the clothes.
-Shh.
-Shh.
-You want the stuff?
-You want the stuff?
-Forget you saw me.
-Forget you saw me.
+East: Repora Forest
+East: Repora Forest
+South: Barren Crater
+South: Barren Crater
+There's supposed to be a gym leader around here, but he's not keen on taking challengers.
+There's supposed to be a gym leader around here, but he's not keen on taking challengers.
+He lives <imp>underground</imp> like some hermit.
+He lives <imp>underground</imp> like some hermit.
+Even locked himself up to make it harder to get in.
+Even locked himself up to make it harder to get in.
+Apparently the <imp>lock combination code</imp> is somewhere in the town.
+Apparently the <imp>lock combination code</imp> is somewhere in the town.
+This is all a bit too mental for me right now, so I'm taking a break.
+This is all a bit too mental for me right now, so I'm taking a break.
+A small handmade sign. It lists an eight-digit code in a big, blocky style.
+A small handmade sign. It lists an eight-digit code in a big, blocky style.
+Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
+Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
+I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
+I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
+It is, at its core, about dancing.
+It is, at its core, about dancing.
+His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
+His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
+If one was feeling particularly devilish, one could aquire a Hattrem.
+If one was feeling particularly devilish, one could aquire a Hattrem.
+That witch has a special ability which can prevent Pokemon from utilizing dance.
+That witch has a special ability which can prevent Pokemon from utilizing dance.
 Hey again. Bet you didn't expect to see me in a place like this, eh?
 Hey again. Bet you didn't expect to see me in a place like this, eh?
 I'm good at battling, less so at cryptic riddles and haunted towns.
@@ -1367,30 +1391,6 @@ You unlocked Rafael's front door?! That sure saves me the time and frustration.
 You unlocked Rafael's front door?! That sure saves me the time and frustration.
 Much appreciated, fellow trainer! Off I go!
 Much appreciated, fellow trainer! Off I go!
-Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
-Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
-I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
-I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
-It is, at its core, about dancing.
-It is, at its core, about dancing.
-His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
-His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
-If one was feeling particularly devilish, one could aquire a Hattrem.
-If one was feeling particularly devilish, one could aquire a Hattrem.
-That witch has a special ability which can prevent Pokemon from utilizing dance.
-That witch has a special ability which can prevent Pokemon from utilizing dance.
-There's supposed to be a gym leader around here, but he's not keen on taking challengers.
-There's supposed to be a gym leader around here, but he's not keen on taking challengers.
-He lives <imp>underground</imp> like some hermit.
-He lives <imp>underground</imp> like some hermit.
-Even locked himself up to make it harder to get in.
-Even locked himself up to make it harder to get in.
-Apparently the <imp>lock combination code</imp> is somewhere in the town.
-Apparently the <imp>lock combination code</imp> is somewhere in the town.
-This is all a bit too mental for me right now, so I'm taking a break.
-This is all a bit too mental for me right now, so I'm taking a break.
-A small handmade sign. It lists an eight-digit code in a big, blocky style.
-A small handmade sign. It lists an eight-digit code in a big, blocky style.
 Why are you here?
 Why are you here?
 Is this going somewhere?
@@ -2182,16 +2182,116 @@ Let's.
 Let's.
 [Map22]
 [Map23]
-Dialogue here.
-Dialogue here.
 I see you! I CAN be stink bombed or fooled with stealth spray.
 I see you! I CAN be stink bombed or fooled with stealth spray.
+Dialogue here.
+Dialogue here.
 I see you! I CANNOT be stink bombed or fooled with stealth spray.
 I see you! I CANNOT be stink bombed or fooled with stealth spray.
+Oh, hello there.
+Oh, hello there.
+You're a Pokémon Trainer, right? I'd like your help with something, if you have a minute.
+You're a Pokémon Trainer, right? I'd like your help with something, if you have a minute.
+My son has recently become dead set on becoming a... erm, "Pokémon Battler," in his own words.
+My son has recently become dead set on becoming a... erm, "Pokémon Battler," in his own words. 
+I know I should encourage him to follow his dreams, but...
+I know I should encourage him to follow his dreams, but...
+Money's tight, especially since the mine shut down, and I can only patch so many burn holes before a shirt stops being a shirt.
+Money's tight, especially since the mine shut down, and I can only patch so many burn holes before a shirt stops being a shirt.
+And to make things worse, the team he's assembled is... concerning. A child his age should NOT have a Voltorb.
+And to make things worse, the team he's assembled is... concerning. A child his age should NOT have a Voltorb.
+He won't listen to me, but maybe he'll listen to you.
+He won't listen to me, but maybe he'll listen to you.
+Can you talk him out of the whole "Pokémon Trainer" thing? There's a nice pair of boots in it for you if you do.
+Can you talk him out of the whole "Pokémon Trainer" thing? There's a nice pair of boots in it for you if you do.
+I told him a Trainer would be upstairs to visit him, and he's been bouncing off the walls ever since.
+I told him a Trainer would be upstairs to visit him, and he's been bouncing off the walls ever since.
+I didn't have the heart to tell him you're here to let him down.
+I didn't have the heart to tell him you're here to let him down.
 Your Pokemon are now healed.
 Your Pokemon are now healed.
+Pretend you're my opponent in the Championship!
+Pretend you're my opponent in the Championship!
+You send out (Follower), and I start with Infernape!
+You send out (Follower), and I start with Infernape!
+Pretend you're Infernape.
+Pretend you're Infernape.
+And- and pretend we use Flare Blitz!
+And- and pretend we use Flare Blitz!
+((follower says ?))
+((follower says ?))
+(Monferno seems unsure how to pretend to use Flare Blitz.)
+(Monferno seems unsure how to pretend to use Flare Blitz.)
+Mom said you're a real battler! Boy, I can't wait to see your Pokémon!
+Mom said you're a real battler! Boy, I can't wait to see your Pokémon!
+Can I tell you about mine?
+Can I tell you about mine?
+Please? Pleeeeeaaaaaaase??
+Please? Pleeeeeaaaaaaase??
+Pleeeeeeeeeeeaaaaaaa-- oh! Um.
+Pleeeeeeeeeeeaaaaaaa-- oh! Um.
+Am I being annoying?
+Am I being annoying?
+Sorry, I'll be quiet.
+Sorry, I'll be quiet.
+Oh. That's okay, I guess. Can you tell me about yours?
+Oh. That's okay, I guess. Can you tell me about yours?
+Or, or, what it's like to be a trainer! Is it fun?
+Or, or, what it's like to be a trainer! Is it fun?
+Really? Me too!
+Really? Me too!
+I can show you!
+I can show you!
+Okay, okay! First, I gotta Chimchar! From the starter store.
+Okay, okay! First, I gotta Chimchar! From the starter store.
+Dad got me a Fire Token for my birthday last year. Mom said he shoulda done a Grass one, but I wanted Fire.
+Dad got me a Fire Token for my birthday last year.  Mom said he shoulda done a Grass one, but I wanted Fire.
+And it evolved a few months ago, into Monferno! And now it's stronger and likes to kick and punch!
+And it evolved a few months ago, into Monferno!  And now it's stronger and likes to kick and punch!
+But I wanted to make Mom happy too, so I got a grass one up north. It's really spiky!
+But I wanted to make Mom happy too, so I got a grass one up north. It's really spiky!
+I think she likes it, but not when it tries to hug her.
+I think she likes it, but not when it tries to hug her.
+Oh, I forgot to say, it's called Cacnea!
+Oh, I forgot to say, it's called Cacnea!
+And then I HAD a Snubbull, but my friend wanted it so bad he traded me his Krokorok!
+And then I HAD a Snubbull, but my friend wanted it so bad he traded me his Krokorok!
+We're still getting to know each other, Krokorok 'n me, but it can open its mouth so big, and make the whole house shake!
+We're still getting to know each other, Krokorok 'n me, but it can open its mouth so big, and make the whole house shake!
+AAAAAAND! Ta-da! My Voltorb!
+AAAAAAND! Ta-da! My Voltorb!
+I had to make it forget Spark because we accidentally did something last week, but we still got my facorite move, which-- can I show you?
+I had to make it forget Spark because we accidentally did something last week, but we still got my facorite move, which-- can I show you?
+Or wait, you should tell me about your Pokémon first. Or what it's like to be a real trainer!
+Or wait, you should tell me about your Pokémon first. Or what it's like to be a real trainer!
+I'm not here about that.
+I'm not here about that.
+Sorry, I don't have time.
+Sorry, I don't have time.
+...
+...
+Sure, what's on your team?
+Sure, what's on your team?
+Thanks.
+Thanks.
+No, you can keep talking!
+No, you can keep talking!
+No, it's miserable.
+No, it's miserable.
+It's a lot of hard work.
+It's a lot of hard work.
+It's boring.
+It's boring.
+I like it a lot!
+I like it a lot!
 [Map24]
 [Map25]
+What're you doing?!
+What're you doing?!
+You're \PN, right? The trainer the Professor called in?
+You're \PN, right? The trainer the Professor called in?
+So go destroy that Avatar before we're all killed!
+So go destroy that Avatar before we're all killed!
 Presenting, my very own Flex-type attack!
 Presenting, my very own Flex-type attack!
 Is it Physical, you ask? Special, perhaps? It's both, of course!
@@ -2206,12 +2306,6 @@ Truly you've struck the motherload of moves!
 Truly you've struck the motherload of moves!
 Fine... I just wanted something to do now that the mine's closed...
 Fine... I just wanted something to do now that the mine's closed...
-What're you doing?!
-What're you doing?!
-You're \PN, right? The trainer the Professor called in?
-You're \PN, right? The trainer the Professor called in?
-So go destroy that Avatar before we're all killed!
-So go destroy that Avatar before we're all killed!
 I used to use a lot of Life Orbs. Didn't care if my Pokemon got hurt so long as they did the work.
 I used to use a lot of Life Orbs. Didn't care if my Pokemon got hurt so long as they did the work.
 But I'm not that kind of person any more. I'm looking to rid myself of them.
@@ -2262,10 +2356,6 @@ I laid out each of these starter tokens to maybe attract someone suitable... for
 I laid out each of these starter tokens to maybe attract someone suitable... for battle. 
 Perhaps you'll be able to satisfy both criteria...
 Perhaps you'll be able to satisfy both criteria...
-The top of the sign is labeled "Grouz Mine Bulletin."
-The top of the sign is labeled "Grouz Mine Bulletin." 
-Remnants of old, yellowed papers are still stapled to the rest.
-Remnants of old, yellowed papers are still stapled to the rest.
 What a disgrace.
 What a disgrace.
 We're supposed to be keeping this area safe.
@@ -2302,6 +2392,10 @@ You’re strong. You’ve proven that. This’ll be a piece of cake. Trust me. S
 …She hung up.
 Thanks for the help.
 Thanks for the help.
+The top of the sign is labeled "Grouz Mine Bulletin."
+The top of the sign is labeled "Grouz Mine Bulletin." 
+Remnants of old, yellowed papers are still stapled to the rest.
+Remnants of old, yellowed papers are still stapled to the rest.
 Dr. Hekata's House
 Dr. Hekata's House
 The door is boarded up.
@@ -2428,8 +2522,6 @@ I heard the stories, but it's still hard to believe that Avatars just... fade fr
 I heard the stories, but it's still hard to believe that Avatars just... fade from existence when they're defeated.
 When I saw that you were winning, I was mentally prepared to grab a pickaxe and begin the cleanup efforts.
 When I saw that you were winning, I was mentally prepared to grab a pickaxe and begin the cleanup efforts.
-It's holding a Life Orb!
-It's holding a Life Orb!
 Ohoh, does another fly enter my trap?
 Ohoh, does another fly enter my trap?
 Watch yourself, you may find yourself mesmerized.
@@ -2450,6 +2542,8 @@ I'm learning about important dates in history. The founding of Prizca, the fall 
 I'm learning about important dates in history. The founding of Prizca, the fall of the monarchy.
 All of them are fascinating, but I believe my favorite is the one we'll have, no?
 All of them are fascinating, but I believe my favorite is the one we'll have, no?
+It's holding a Life Orb!
+It's holding a Life Orb!
 Yes
 Yes
 No
@@ -12132,14 +12226,6 @@ It's been upgraded to a "College" since then.
 It's been upgraded to a "College" since then.
 Florian Park
 Florian Park
-A few months ago someone tried to bring their yacht through this river.
-A few months ago someone tried to bring their yacht through this river.
-His boat hit some rocks and sunk. Right here.
-His boat hit some rocks and sunk. Right here.
-It took the city service three weeks to clear everything.
-It took the city service three weeks to clear everything.
-It was completely stupid, but you have to respect his drive a little.
-It was completely stupid, but you have to respect his drive a little.
 I practice styling my Furfrou every day!
 I practice styling my Furfrou every day!
 Hey, do you have a Furfrou? I'd just love to style it!
@@ -12148,6 +12234,14 @@ It's just brilliant! Brilliant, I say!
 It's just brilliant! Brilliant, I say!
 Well, ok. I'll just be here with my Furfrou.
 Well, ok. I'll just be here with my Furfrou.
+A few months ago someone tried to bring their yacht through this river.
+A few months ago someone tried to bring their yacht through this river.
+His boat hit some rocks and sunk. Right here.
+His boat hit some rocks and sunk. Right here.
+It took the city service three weeks to clear everything.
+It took the city service three weeks to clear everything.
+It was completely stupid, but you have to respect his drive a little.
+It was completely stupid, but you have to respect his drive a little.
 Man, life is rough.
 Man, life is rough.
 I came here from Hoenn to get a shot at taking out some of the avatars, but I've had no luck.
@@ -13885,12 +13979,14 @@ Pride is right.
 Don't beat yourself up.
 Don't beat yourself up.
 [Map214]
-Some loose paper displaying the LuxTech logo.
-Some loose paper displaying the LuxTech logo.
 Leaving through -- oh. You -- you’re looking for something down here.
 Leaving through -- oh. You -- you’re looking for something down here.
 Come back and, uh, I’ll still be... around.
 Come back and, uh, I’ll still be... around.
+Some loose paper displaying the LuxTech logo.
+Some loose paper displaying the LuxTech logo.
+The door is locked shut.
+The door is locked shut.
 I took some classes in the gym here.
 I took some classes in the gym here.
 I was a bit scared cause I heard how tough Samorn is.
@@ -13899,10 +13995,6 @@ She's the strongest gym leader in the whole region!
 She's the strongest gym leader in the whole region!
 But she's really nice. I had a great time.
 But she's really nice. I had a great time.
-The door is locked shut.
-The door is locked shut.
-Samorn's House
-Samorn's House
 Oh! I knew I’d find you here, my hero.
 Oh! I knew I’d find you here, my hero.
 You’re looking particularly ravishing today.
@@ -13983,6 +14075,24 @@ Just like you. Goodbye, \PN. I love you.
 Just like you. Goodbye, \PN. I love you. 
 Forever.
 Forever.
+Samorn's House
+Samorn's House
+"Attention: All Team Chasm Grunts"
+"Attention: All Team Chasm Grunts"
+"Team Chasm is no longer in operation, and activities here are to cease."
+"Team Chasm is no longer in operation, and activities here are to cease."
+"Until further notice, this base is now part owned by the scholars of Novo College."
+"Until further notice, this base is now part owned by the scholars of Novo College."
+"Your admins thank you for your dedication."
+"Your admins thank you for your dedication."
+You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
+You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
+Especially in difficult terrain like this.
+Especially in difficult terrain like this.
+At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
+At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
+Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
+Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
 Hello. My Druddigon and I handle trips down to Samorn's gym.
 Hello. My Druddigon and I handle trips down to Samorn's gym.
 Stay away from the ledge and we won't have any problems.
@@ -14025,22 +14135,6 @@ You've bested the Dreadnaught! Well fought.
 You've bested the Dreadnaught! Well fought.
 My congratulations to you and your Pokemon.
 My congratulations to you and your Pokemon.
-You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
-You'd think that Samorn, the gym leader down there, would have issues getting around in her wheelchair.
-Especially in difficult terrain like this.
-Especially in difficult terrain like this.
-At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
-At first I thought she'd use her dragons to help her down, but apparently that's too awkward.
-Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
-Instead she just has her Runerigus do the heavy lifting. It isn't part of her team, so it gets to relax at home the rest of the day, too.
-"Attention: All Team Chasm Grunts"
-"Attention: All Team Chasm Grunts"
-"Team Chasm is no longer in operation, and activities here are to cease."
-"Team Chasm is no longer in operation, and activities here are to cease."
-"Until further notice, this base is now part owned by the scholars of Novo College."
-"Until further notice, this base is now part owned by the scholars of Novo College."
-"Your admins thank you for your dedication."
-"Your admins thank you for your dedication."
 The 8th gym already. I can't believe how time flies.
 The 8th gym already. I can't believe how time flies.
 I've been enjoying this. I really and truly hope that you have, too.
@@ -18112,6 +18206,12 @@ On second thought…
 Let’s do this.
 Let’s do this.
 [Map301]
+Helena's House
+Helena's House
+The door is securely locked.
+The door is securely locked.
+A sign reads "Email Me"
+A sign reads "Email Me"
 This place is too dangerous for you, kid. Those avatars'll send you packing -- if I don't first!
 This place is too dangerous for you, kid. Those avatars'll send you packing -- if I don't first!
 But my team was perfectly geometrically balanced between line, sphere, and triangle!
@@ -18120,10 +18220,8 @@ But my team was perfectly geometrically balanced between line, sphere, and trian
 ...Huh? What do you mean, "type?"
 My battle ferret! My anger sphere! My delightful tiny triangle being! How dare you -- you scoundrel!
 My battle ferret! My anger sphere! My delightful tiny triangle being! How dare you -- you scoundrel!
-The door is securely locked.
-The door is securely locked.
-A sign reads "Email Me"
-A sign reads "Email Me"
+The door seems to be locked.
+The door seems to be locked.
 I heard the Cave of Hatching has a lot of strong trainers.
 I heard the Cave of Hatching has a lot of strong trainers.
 I wonder how you stack up?
@@ -18136,20 +18234,18 @@ Look at this pretty egg-shaped stone!
 Look at this pretty egg-shaped stone!
 My friend got it from the Cave of Hatching and gave it to me!
 My friend got it from the Cave of Hatching and gave it to me!
-The door seems to be locked.
-The door seems to be locked.
-They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
-They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
-Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
-Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
-Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
-Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
 I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
 I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
 Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
 Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
 Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
 Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
+They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
+They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
+Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
+Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
+Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
+Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
 South: Gigalith's Guts
 South: Gigalith's Guts
 North: Eleig River Crossing
@@ -18174,8 +18270,6 @@ Yes! I knew I was due for a win!
 Yes! I knew I was due for a win!
 Hey, hey, not the result I wanted... but I'll keep on tryin'.
 Hey, hey, not the result I wanted... but I'll keep on tryin'.
-Helena's House
-Helena's House
 Come to Makya, they said. You'll be a huge hit, they said. Now I'm battling to make ends meet!
 Come to Makya, they said. You'll be a huge hit, they said. Now I'm battling to make ends meet!
 I can't do it anymore! I'm going back to Johto! (But also stream my album Cosmic Carousel now available wherever you get your music.)
@@ -41287,8 +41381,8 @@ Counts as every tribe.
 Counts as every tribe.
 After using a biting move, lowers the target's highest attacking stat by two steps.
 After using a biting move, lowers the target's highest attacking stat by two steps.
-When hit with a special move, hits back instantly with that same move.
-When hit with a special move, hits back instantly with that same move.
+After being attacked with a special move, hits back with that same move.
+After being attacked with a special move, hits back with that same move.
 Boosts Attack and Speed by 30% in hail.
 Boosts Attack and Speed by 30% in hail.
 Summons a hail for four turns when hit by an attack.
@@ -49243,8 +49337,16 @@ Has Signature Move
 Has Signature Move
 Doesn't
 Doesn't
-Has Signature Ability
-Has Signature Ability
+Signature abilities?
+Signature abilities?
+Neither
+Neither
+At Least One
+At Least One
+Exactly One
+Exactly One
+Both
+Both
 Has Signature
 Has Signature
 Search item name...
@@ -52695,6 +52797,8 @@ The coral overgrowth around {1} withered!
 {1}'s {2} made it no longer leeched!
 {1}'s {2} reversed its waterlogging!
 {1}'s {2} reversed its waterlogging!
+{1} can slip free with its {2}!
+{1} can slip free with its {2}!
 {1} floats in the air with its {2}!
 {1} floats in the air with its {2}!
 Oh? {1} is holding something!
@@ -60371,6 +60475,22 @@ Catch Imogene.
 Catch Imogene.
 Don't catch Imogene.
 Don't catch Imogene.
+I'm not here about that.
+I'm not here about that.
+Sorry, I don't have time.
+Sorry, I don't have time.
+Sure, what's on your team?
+Sure, what's on your team?
+No, you can keep talking!
+No, you can keep talking!
+No, it's miserable.
+No, it's miserable.
+It's a lot of hard work.
+It's a lot of hard work.
+It's boring.
+It's boring.
+I like it a lot!
+I like it a lot!
 Strike a pose and battle him.
 Strike a pose and battle him.
 Take it.
@@ -60533,8 +60653,6 @@ Explain what Yezera was doing inside Mt. Kilna?
 Explain what Yezera was doing inside Mt. Kilna?
 You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
 You explain to Dr. Hekata about how Yezera nearly reshaped the world using an ancient ritual.
-Neither
-Neither
 Create a Hisuian Pokemon
 Create a Hisuian Pokemon
 Clone a minor legendary
@@ -63446,6 +63564,8 @@ Indestructible
 Indestructible
 Swapping to Cushion
 Swapping to Cushion
+Selected for Misdirecting Fog Switch
+Selected for Misdirecting Fog Switch
 Exhaustion
 Exhaustion
 Protect Will Fail
