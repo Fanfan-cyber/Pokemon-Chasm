@@ -1429,6 +1429,10 @@ Description = Boosts the power of wind-based moves by 30%.
 Name = Summit Spirit
 Description = Boosts Sp. Atk by 30% in hail.
 #-------------------------------
+[WIRECUTTER]
+Name = Live Wire
+Description = Lays an electrical hazard around the opponent when its HP is lowered below half.
+#-------------------------------
 [WONDERSKIN]
 Name = Wonder Skin
 Description = Makes status-changing moves more likely to miss.
