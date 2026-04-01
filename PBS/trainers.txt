@@ -3360,7 +3360,7 @@ Pokemon = CACTURNE,36
 #-------------------------------
 [POKEMONRANGER_M2,Martel]
 Pokemon = APPLETUN,35
-    Moves = DRAGONPULSE,GIGADRAIN,LEECHSEED,CONFIDE
+    Moves = DRAGONPULSE,SUGARBALL,LEECHSEED,CONFIDE
     AbilityIndex = 0 # Ripen
     Item = SITRUSBERRY
 Pokemon = MNINETALES,36
