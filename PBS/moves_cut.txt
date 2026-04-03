@@ -3137,6 +3137,20 @@ Flags = CanProtect
 Description = Shoots a damaging spear at enemies, or a 4-step Speed-increasing electric charge at allies.
 Animation = THUNDERBOLT
 #-------------------------------
+[LUMINOUSBURST]
+Name = Luminous Burst
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Light
+EffectChance = 100
+Description = Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
+Animation = DISCHARGE
+#-------------------------------
 [MAGNETICFLUX]
 Name = Magnetic Flux
 Type = ELECTRIC

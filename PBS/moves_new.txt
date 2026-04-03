@@ -5612,6 +5612,20 @@ Flags = CanProtect,CanMagicCoat,Dance
 Description = The user dances to heal an ally by half of their max HP. They're cured of any non-volatile status conditions.
 Animation = HEALPULSE
 #-------------------------------
+[ILLICIUMIMPULSE]
+Name = Illicium Impulse
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = RaiseUserSpDef2
+Flags = CanProtect,Light
+EffectChance = 100
+Description = Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
+Animation = DISCHARGE
+#-------------------------------
 [INERTIASHOCK]
 Name = Inertia Shock
 Type = ELECTRIC
@@ -5726,20 +5740,6 @@ FunctionCode = AllyAttackGuaranteedCrit
 Flags = Dance
 Description = The user dances to encourage its ally. Their attacks this turn will be critical hits.
 Animation = HELPINGHAND
-#-------------------------------
-[LUMINOUSBURST]
-Name = Luminous Burst
-Type = ELECTRIC
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 20
-Target = NearOther
-FunctionCode = RaiseUserSpDef2
-Flags = CanProtect,Light
-EffectChance = 100
-Description = Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
-Animation = DISCHARGE
 #-------------------------------
 [MAGNETICCOIL]
 Name = Magnetic Coil

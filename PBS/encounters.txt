@@ -337,6 +337,10 @@ Special,,20,20
 Special,,20,20
     1,GZIGZAGOON,15
 #-------------------------------
+[089] # Svait Lodge
+Special,,20,20
+    1,EEVEE,15
+#-------------------------------
 [090] # Employees' House
 Special,,20,20
     1,SEEL,15
@@ -445,6 +449,10 @@ FloweryGrass,20,10
     25,BUDEW,7,9
     25,RATTATA,7,9
     25,TOGEPI,7,9
+#-------------------------------
+[137] # Svait Lodge Room 3
+Special,,20,20
+    1,CORSOLA,20
 #-------------------------------
 [138] # Scenic Trail
 Land,20,10
