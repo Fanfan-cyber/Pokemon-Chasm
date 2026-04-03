@@ -7493,7 +7493,7 @@ Abilities = JUGGLING,BOGGLINGBOLERO
 StepsToHatch = 5355
 Height = 0.9
 Weight = 19.5
-Kind = Canival
+Kind = Carnival
 Pokedex = This Pokémon invents a new dance routine every day. After performances, it tosses treats and trinkets into the crowd.
 Evolutions = MBLAZIKEN,Level,36
 #-------------------------------
