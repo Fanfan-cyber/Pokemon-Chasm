@@ -258,11 +258,11 @@ LandTall,20,20
     25,PSYDUCK,19,21
     25,YANMA,19,21
 Puddle,20,20
-    33,POLIWAG,19,21
-    17,BARBOACH,19,21
-    17,SURSKIT,19,21
-    17,TYMPOLE,19,21
-    16,CLAUNCHER,19,21
+    20,BARBOACH,19,21
+    20,CLAUNCHER,19,21
+    20,POLIWAG,19,21
+    20,SURSKIT,19,21
+    20,TYMPOLE,19,21
 #-------------------------------
 [056] # Novo Town
 FloweryGrass,20,20
@@ -372,6 +372,11 @@ DarkCave,20,20
     20,DUNSPARCE,18,20
     20,LARVITAR,18,20
     20,TYNAMO,18,20
+Puddle,20,40
+    25,DEWPIDER,35,37
+    25,MMUDKIP,35,37
+    25,POLIWHIRL,35,37
+    25,STUNFISK,35,37
 #-------------------------------
 [121] # Kilna Ascent
 Land,20,20
@@ -710,12 +715,11 @@ DarkCave,20,20
     17,GMEOWTH,25,27
     16,ROGGENROLA,25,27
 Mud,40,40
-    17,CARNIVINE,34,36
-    17,CRAMORANT,34,36
-    17,GSTUNFISK,34,36
-    17,STUNFISK,34,36
-    16,SEVIPER,34,36
-    16,ZANGOOSE,34,36
+    20,CARNIVINE,34,36
+    20,CRAMORANT,34,36
+    20,GSTUNFISK,34,36
+    20,SEVIPER,34,36
+    20,ZANGOOSE,34,36
 #-------------------------------
 [214] # Team Chasm HQ
 DarkCave,20,20
