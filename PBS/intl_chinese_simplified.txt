@@ -3163,7 +3163,7 @@ You decide to stop eavesdropping, and leave Professor Tamarind alone.
 This Pokéball contains Bounsweet!
 这颗精灵球里装的是甜竹竹！
 You look up Bounsweet in your new MasterDex..
-正在查看图鉴中甜竹竹的资料...
+你在大师图鉴中查看甜竹竹的资料...
 So, you want Bounsweet?
 要选择甜竹竹吗？
 One. <i>One</i>, and be happy you get that.
@@ -3171,7 +3171,7 @@ One. <i>One</i>, and be happy you get that.
 This Pokéball contains Numel!
 这颗精灵球里装的是呆火驼！
 You look up Numel in your new MasterDex...
-正在查看图鉴中呆火驼的资料...
+你在大师图鉴中查看呆火驼的资料...
 So, you want Numel?
 要选择呆火驼吗？
 The screen displays a news article titled "Lava Flows Put Pause On Casaba Expansion".
@@ -3179,7 +3179,7 @@ The screen displays a news article titled "Lava Flows Put Pause On Casaba Expans
 This Pokéball contains Krabby!
 这颗精灵球里装的是大钳蟹！
 You look up Krabby in your new MasterDex...
-正在查看图鉴中大钳蟹的资料...
+你在大师图鉴中查看大钳蟹的资料...
 So, you want Krabby?
 要选择大钳蟹吗？
 A variety of inoffensive books line the shelves.
@@ -3207,7 +3207,7 @@ Now go pick out your first starter. I ain't got all day.
 OK, next is the Normal-types.
 然后是那只一般属性的...
 You may want to look these up in your MasterDex, using the <imp>search feature</imp>.
-不确定的话可以先看一下它们在图鉴中的<imp>数据和介绍</imp>。
+不确定的话可以先看一下它们在大师图鉴中的<imp>数据和介绍</imp>。
 Skwovet, Zigzagoon, or Patrat?
 贪心栗鼠、蛇纹熊和探探鼠，你打算选哪个？
 Alright, come back to me when you know what you want.
@@ -5474,7 +5474,7 @@ She just loved phasing my carefully collected notes out of existence!
 I always thought of myself as quite dedicated, but my roommate blows me out of the water.
 我一直认为自身是死忠粉，但我的室友让我开了个大眼。
 I've gotta scrounge up some more Eevee Tickets and visit that pub in Prizca East.
-我还得再搞几张伊布票，然后去东宏礼市的酒吧。
+我还得再搞几张伊布兑换券，然后去东宏礼市的酒吧。
 Then, I'll be able to call myself a true fan!
 这样就能算是合格的死忠粉了吧！
 DO YOU LIKE GALARIAN ZIGZAGOON?
@@ -6139,10 +6139,88 @@ I tried fighting too, but they didn't want to fight me back.
 我也曾试着加入它们，但是它们都不理我。
 I guess my current form is too weak.
 毕竟我这点力气对它们来说，按摩都不够劲儿。
+Hey, kid. You look like a trainer with discerning taste.
+嘿，小子。你看起来是个有品味的训练师。
+Keep it on the down low, but truth is, I'm actually a Pokemon Professor.
+低调点，但说实话，我其实是个精灵教授。
+Yep, Professor, uh, Manchineel, that's my name.
+没错，教授，呃，石榴，那是我的名字。
+I bet you're on the lookout for all sortsa rare Pokemon, and buddy do I have a deal for you.
+我打赌你在寻找各种稀有精灵，伙计，我这儿有个交易给你。
+If yer interested, I'll be here any time.
+如果你感兴趣，我随时都在这儿。
+Ey, there you are. I knew you'd make the right decision.
+嘿，你来了。我就知道你会做出正确的决定。
+When the great and generous Professor Manchineel has a deal for ya, you can't just walk away.
+当伟大而慷慨的石榴教授有个交易给你时，你不能就这么走开。
+So how about it?
+那么怎么样？
+Great, fantastic.
+太好了，棒极了。
+Here's the rub: Here with me I've got some very special Pokemon.
+问题是：我这儿有一些非常特别的精灵。
+You kids like starter Pokemon right? All rare and one-of-a-kind.
+你们孩子喜欢初始精灵对吧？都很稀有，独一无二。
+Well I've got some for you right here.
+我这儿正好有一些给你。
+All I need from you is one measly Eevee Ticket.
+我只需要你一张微不足道的伊布兑换券。
+Not like you'll be heading all the way to the big city to use it yourself.
+反正你也不会大老远跑到大城市去用它。
+Whaddya say?
+你说呢？
+I tell ya, yer making the right choice.
+我告诉你，你在做正确的选择。
+Which of these little guys didja have yer eye on?
+这些小东西你看中哪个了？
+Oh, great choice. Don't tell the others I said this, but this one's my favorite.
+哦，好选择。别告诉其他人我这么说过，但这个是我的最爱。
+This sneaky little bastard can make off with your foe's items or cut and run when the going gets tough.
+这个狡猾的小混蛋可以偷走对手的物品，或者在情况不妙时溜之大吉。
+Reminds me of a certain someone.
+让我想起了某个家伙。
+This little bundl'a joy can dance all over the place and throw items back and fro.
+这个快乐的小家伙可以到处跳舞，把物品扔来扔去。
+This blind little cutie can feel your foe moving and get in there first.
+这个失明的小可爱可以感知对手的动作并抢先出手。
+This is the one you want?
+这就是你想要的？
+A pleasure doin' business wit'ya kid.
+很高兴和你做生意，小子。
+Now I gotta split to go find the next suck- ah, satisfied customer.
+现在我得去找下一个冤——啊，满意的顾客了。
+Alright, alright, no rush, take your time.
+好吧，好吧，不着急，慢慢来。
+'snot like I gotta run or anything.
+我又不是要跑什么的。
+What is this, some kinda scam? You ain't got no Eevee Ticket!
+这是什么，某种骗局吗？你没有伊布兑换券！
+Come back when you've got the goods.
+有货了再回来。
+I tell ya kid, yer missin' out.
+我告诉你小子，你在错过机会。
+I'll be here if you change your mind.
+如果你改变主意，我还会在这儿。
+*psst* Hey kid, c'mere.
+*嘘* 嘿，小子，过来。
+You look like a trainer with discerning taste.
+你看起来是个有品味的训练师。
 I've traveled throughout the world, and I've seen all sorts of different weathers.
 我走遍了世界各地，见过各种不同的天气。
 Likewise, I stocked up on the TMs which generate them.
 同时，我也准备了能生成这些天气的技能机。
+Yes
+是
+No
+否
+M. Treecko
+M.木守宫
+M. Torchic
+M.火稚鸡
+M. Mudkip
+M.水跃鱼
+Check MasterDex
+检查大师图鉴
 [Map83]
 A locked door. It has a slot for a keycard.
 一扇带有钥匙卡插槽的门，并且锁得很牢。
@@ -8338,11 +8416,11 @@ Remember to check the Info tab in battle.
 That’ll give you the nitty-gritty on your opponent’s stats – or yours.
 它会告诉你对手（或你自身）的详细数据。
 You can also check the MasterDex to see what kinds of moves your opponent learns.
-你也可以查看MasterDex，了解对手可能学会的技能。
+你也可以查看大师图鉴，了解对手可能学会的技能。
 Otherwise you might find out something learns Ice Shard the hard way.
 否则，你可能会在吃亏后才发现对手会冰砾。
 And, hey, you can use it after the fight to find potential team members. Just filter and search.
-而且，嘿，你可以在战斗后用MasterDex寻找潜在的队伍成员。只需筛选和搜索。
+而且，嘿，你可以在战斗后用大师图鉴寻找潜在的队伍成员。只需筛选和搜索。
 Hello again, champion.
 又见面了，冠军。
 Don't pay me any mind.
@@ -9282,6 +9360,32 @@ If you're going out and fighting those things, maybe that's somehow an upside fo
 如果你想主动跟那些东西战斗，这或许会是1种帮助？
 I'll need to check Eleig.com for any new safety products that will work on Avatars.
 我得去网店上看看，有没有什么针对化身的安全装置。
+My incantations keep faltering! I need a companion to assist in my rites.
+我的咒语总是出错！我需要一个同伴来协助我的仪式。
+I boarded a fishing boat to try and get a Galarian Corsola, but the fates could only bestow upon me the ordinary kind.
+我登上渔船试图获得伽勒尔太阳珊瑚，但命运只赐予我普通的那种。
+So, I'm trying a different approach.
+所以，我在尝试不同的方法。
+I'm willing to part with it, so long as you can provide me a fitting replacement.
+我愿意放弃它，只要你能给我一个合适的替代品。
+I'll trade you my Corsola for any Pokémon from the Esoteric tribe.
+我愿意用我的太阳珊瑚交换任何来自隐修之路部落的精灵。
+I see great misfortune in your future...
+我看到你未来会有巨大的不幸...
+Thank you, traveller.
+谢谢你，旅行者。
+May the stars guide you through your hardships.
+愿星辰指引你度过艰难。
+Ah, you again.
+啊，又是你。
+I must thank you for your prior assistance. My rites have gone splendidly since.
+我必须感谢你之前的帮助。从那以后我的仪式进行得非常顺利。
+Great misfortune has already befallen three of my enemies...
+巨大的不幸已经降临在我3个敌人身上...
+No
+否
+Yes
+是
 [Map138]
 The berry plant is growing.
 树果还在生长中。
@@ -9599,7 +9703,7 @@ Bence claims that they were here before plans to construct Prizca West, let alon
 Makya does have its fair share of strange rock formations, I'll give you that.
 马凯亚的确有一些奇特的岩石，哪怕是充满了怀疑精神的我也无法否认这个事实。
 But Chasm members could talk about Pikachu being an Electric-type and I'd still pull out my MasterDex to double check.
-要知道我可是1个，连裂隙队掏出电属性的皮卡超，都要对着图鉴看半天的人。
+要知道我可是1个，连裂隙队掏出电属性的皮卡超，都要对着大师图鉴看半天的人。
 Hey! \PN!
 嘿！\PN！
 Over here!
@@ -18208,10 +18312,6 @@ Let’s do this.
 [Map301]
 Helena's House
 海伦娜家
-The door is securely locked.
-这扇门上锁了。
-A sign reads "Email Me"
-纸条上写着“有事发邮件”。
 This place is too dangerous for you, kid. Those avatars'll send you packing -- if I don't first!
 孩子，这里对你来说太危险了，如果我不在这里拦下你，那些化身也会送你离开！
 But my team was perfectly geometrically balanced between line, sphere, and triangle!
@@ -18220,8 +18320,10 @@ But my team was perfectly geometrically balanced between line, sphere, and trian
 啥？“属性”？那是什么东西？
 My battle ferret! My anger sphere! My delightful tiny triangle being! How dare you -- you scoundrel!
 我的毕达哥拉斯！我的阿基米德！我的希帕蒂娅！你怎么敢的...你...你！
-The door seems to be locked.
-门好像上锁了。
+The door is securely locked.
+这扇门上锁了。
+A sign reads "Email Me"
+纸条上写着“有事发邮件”。
 I heard the Cave of Hatching has a lot of strong trainers.
 我听说启明之窟里有很多特别厉害的训练师。
 I wonder how you stack up?
@@ -18234,18 +18336,20 @@ Look at this pretty egg-shaped stone!
 看这块完美的蛋形石头！
 My friend got it from the Cave of Hatching and gave it to me!
 这是我朋友从启明之窟里带出来送给我的礼物！
-I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
-我从海的那边感受到了这里的危机与困境，而你，正处于其中心。
-Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
-如果光耀的目标！我已不需要再现于你的物语之中。不过，我想得到答案，究竟是意志的雕琢，还是仅为力量？
-Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
-也许我误读了以太的流转，毕竟，你的命格可能完全不同。
+The door seems to be locked.
+门好像上锁了。
 They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
 他们总是跟我说现在外面太危险，但我会证明，我能打败任何人！
 Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
 呃，那个...你能替我打败那些巨型精灵吗？这样我就能出来玩了。
 Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
 该死，我连你都打不赢，又怎么去对付那些大透明呢！
+I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
+我从海的那边感受到了这里的危机与困境，而你，正处于其中心。
+Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
+如果光耀的目标！我已不需要再现于你的物语之中。不过，我想得到答案，究竟是意志的雕琢，还是仅为力量？
+Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
+也许我误读了以太的流转，毕竟，你的命格可能完全不同。
 South: Gigalith's Guts
 南：怪岩肠道
 North: Eleig River Crossing
@@ -21670,7 +21774,7 @@ I'll take a Lunatone.
 No
 不
 Yes
-是的
+是
 [Map347]
 I used to do maintanence on the bridge that crosses the Eleig river to the west of here.
 我曾经负责维护西边的埃利格河大桥。
@@ -21678,8 +21782,8 @@ With recent events...well, I just hope I'll still have a job.
 但现在...我只求自身能保住工作。
 I specialize in training Pokemon to surf.
 我专门教精灵学习冲浪。
-You might look over at Gogoat and think to yourself: "That can learn Surf?"
-你可能在看着我的坐骑山羊想：“它也能学会冲浪？”
+You might look over at Rhyperior and think to yourself: "That can learn Surf?"
+你可能在看着我的超甲暴龙想：“它也能学会冲浪？”
 Yes, yes it can.
 没错，它能。
 My Bibarel, my beloved Bibarel...
@@ -25036,10 +25140,14 @@ You've found Errata, designer and playtester.
 你找到了设计师和测试员Errata。
 Thank you for playing our game!
 感谢你玩我们的游戏！
+You've found Killu, a spriter.
+你找到了画师奇鲁。
 You've found Envy, a QA tester and design contributor.
 你找到了QA测试员和设计贡献者Envy。
 You've found ValourDyke, a writer and QA tester.
 你找到了编剧和QA测试员ValourDyke。
+You've found Chus, a designer and QA tester.
+你找到了设计师和QA测试员Chus。
 You've found Fanfan, the Chinese translator.
 你找到了中文翻译员和Mod制作者Fanfan。
 You've found Crows, spriter and writer. You've also found Katy, his OC.
@@ -27648,8 +27756,8 @@ Blaze
 猛火
 Cheer
 助威
-Canival
-狂欢节
+Carnival
+嘉年华
 Saturnalia
 农神节
 Mud Fish
@@ -33249,6 +33357,8 @@ Gut Check
 意志考验
 Healthy Cheer
 健康欢呼
+Illicium Impulse
+八角电波
 Inertia Shock
 惯性冲击
 Ion Exchange
@@ -33267,8 +33377,6 @@ Live Wire
 带电导线
 Lucky Cheer
 幸运欢呼
-Luminous Burst
-夜光爆破
 Magnetic Coil
 磁力线圈
 Metaform
@@ -34279,7 +34387,7 @@ The user launches a huge boulder at the target to attack. The user is exhausted 
 Summons sandstorm for six turns. Damages non-Rock, non-Ground Pokémon every turn.
 召唤持续6回合的沙暴。每回合对非岩石属性、非地面属性精灵造成伤害。
 The user lays a levitating hazard around the foe. It deals Rock-typed 1/10th HP damage.
-使用者在敌人周围布置悬浮陷阱。造成岩石属性的十分之一HP的伤害。
+使用者在敌人周围设置悬浮陷阱。造成岩石属性的十分之一HP的伤害。
 The user swings its stone axes. This leaves a levitating stone hazard floating around the target.
 使用者挥动石斧。这会在目标周围留下隐型岩。
 The user stabs the foe with sharpened stones from below.
@@ -35746,6 +35854,8 @@ The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, de
 使用者勇敢地发起攻击。如果状态为饱腹，则设置菱。如果状态为饥饿，则造成双倍伤害并变为暗属性。
 The user dances to heal an ally by half of their max HP. They're cured of any non-volatile status conditions.
 使用者跳舞为队友回复其最大HP的一半，同时回复其异常状态。
+Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
+将自身隐藏在光能中，并用震荡波攻击对方，同时大幅度增加自身的特防。
 Deals 50% more damage if faster than the target. This lowers the user's Speed.
 若速度大于目标，伤害增加50%。速度减小1级。
 The user swaps the target's held item with its own. It also switches its unmodified Speed with the target's Speed.
@@ -35761,11 +35871,9 @@ The user dances with the speed of lightning, raising its Sp. Atk by two steps an
 The user slams down into the target with electricity. It has a 10% chance to numb.
 使用者用电流猛击目标。有10%概率使目标麻痹。
 The user lays a hazard around the foe. It deals Electric-typed 1/12th HP damage, or double that in rainstorm.
-使用者在敌人周围设下陷阱。造成电属性HP12分之一的伤害，在雨天伤害翻倍。
+使用者在敌人周围设置陷阱。造成电属性HP12分之一的伤害，在雨天伤害翻倍。
 The user dances to encourage its ally. Their attacks this turn will be critical hits.
 跳起舞蹈鼓励队友，使其此回合的攻击必定会命中要害。
-Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
-将自身隐藏在光能中，并用震荡波攻击对方，同时大幅度增加自身的特防。
 The user coils its body to generate an electric field, levitating for five turns and raising its Attack and Sp. Def by two steps.
 使用者蜷缩身体产生电场，漂浮5回合，物攻和特防增加2级。
 The user finds the highest base power move among your able party members, and uses it.
@@ -40210,6 +40318,8 @@ Rapid Onset
 急速发作
 Rapid Refresh
 快速回复
+Rat's Nest
+鼠巢
 Rattle 'Em
 震魂咆哮​
 Razor's Edge
@@ -40606,8 +40716,6 @@ Winter Insulation
 冬日之温
 Winter's Wages
 冬季的报酬
-Live Wire
-带电导线
 Wise Hunter
 心愿猎手
 Wish Maker
@@ -41835,6 +41943,8 @@ On the first turn, its attacks poison the target.
 出场第1回合的攻击会使目标陷入中毒。
 Heals 1/8th HP every turn if hit by an attack.
 被攻击时，，每回合恢复HP的八分之一。
+Lays an electrical hazard around the opponent when this Pokémon's HP is lowered below half.
+当HP减小到一半以下时，在对手场上设置电气陷阱。
 Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
 使目标畏缩的技能发动畏缩效果的概率增加50%。对处于畏缩免疫效果的精灵造成的伤害增加50%。
 Boosts the power of slice moves by 30%. They're twice as likely to crit.
@@ -42229,8 +42339,6 @@ During hail, immune to Fire- and Electric-type moves.
 冰雹时，免疫火和电属性技能。
 Restores HP based on damage taken by others from hail.
 根据其他精灵因冰雹所受的伤害回复HP。
-Lays an electrical hazard around the opponent when its HP is lowered below half.
-当其HP减小到一半以下时，在对手周围布置带电陷阱。
 After knocking out any Pokémon, raises its Sp. Atk and Sp. Def.
 打倒对手时，特攻和特防增加1级。
 The random added effects of moves by all battlers always activate.
@@ -42736,6 +42844,10 @@ Fanfan
 Fanfan
 Manycrows
 Manycrows
+Chus
+Chus
+Killu
+奇鲁
 Bence
 本斯
 Zoé
@@ -43171,7 +43283,7 @@ Micah
 Aaron
 亚伦
 Milja
-Milja
+米尔雅
 Airi
 爱莉
 Holly
@@ -46914,7 +47026,7 @@ NPC训练师？
 What are avatars and what do they do?
 什么是化身？
 What does the MasterDex do and how should I use it?
-图鉴有什么用？
+大师图鉴有什么用？
 Weathers
 天气
 What are weathers, and what does each do?
@@ -47026,7 +47138,7 @@ Ineffective moves deal no damage at all. This can happen if one of a Pokémon's 
 Looking Up Matchups
 对战情况
 The 5th and 6th pages of a MasterDex entry show that Pokémon's type matchups. Open the MasterDex in battle to check matchups if you're not sure.
-大师图鉴的第5、6页显示了精灵的属性相关，不确定的话可以在战斗中打开图鉴查看。
+大师图鉴的第5、6页显示了精灵的属性相关，不确定的话可以在战斗中打开大师图鉴查看。
 Psychic vs Steel
 超能和钢
 Psychic is now Super-Effective vs Steel. Think of magicians bending spoons.
@@ -47430,7 +47542,7 @@ You can begin a search while you're already looking at the results of a search. 
 Storing Searches
 搜索结果
 When you hold CTRL while closing out of a search, it will close the MasterDex and store the search for the next time you open it.
-在关闭搜索时按住CTRL键，将关闭图鉴并储存搜索结果，以便下次打开使用。
+在关闭搜索时按住CTRL键，将关闭大师图鉴并储存搜索结果，以便下次打开使用。
 Quick Navigation
 快速翻阅
 Press A to go up a page at a time, or S to go down a page. Use the number keys (1-9) to quickly go to one of the tab's of a Pokémon's MasterDex entry.
@@ -47748,7 +47860,7 @@ Whether the game should ask you to set nicknames for newly caught Pokémon.
 Dex Register Popup
 图鉴弹窗
 Whether to show a species' MasterDex entry when you first catch one.
-当你首次捕获1种精灵时，是否显示其主图鉴条目。
+当你首次捕获1种精灵时，是否显示其大师图鉴条目。
 Item Popups
 物品弹出窗口
 Whether to show an item's description when you acquire one for the first time.
@@ -48559,6 +48671,8 @@ Apollyon
 阿波利翁
 Snow Whip
 雪鞭
+Prof. Manchineel
+石榴教授
 Enter text using the keyboard. Press<<n>>Enter to confirm, or Esc to cancel.
 使用键盘输入文本，<<n>>按回车键确认，ESC取消。
 Enter text using the keyboard.<<n>>Press Enter to confirm.
@@ -54239,10 +54353,10 @@ Set Frame
 设置帧
 Delete Timing
 删除定时
-<user's cry>
-<用户的叫声>
 <<[>>Play user's cry<<]>>
 <<[>>播放用户的叫声<<]>>
+<user's cry>
+<用户的叫声>
 File: "{1}"
 文件："{1}"
 Volume:
@@ -60263,6 +60377,14 @@ Fair enough.
 有道理。
 ...Alright.
 ...好吧。
+M. Treecko
+M.木守宫
+M. Torchic
+M.火稚鸡
+M. Mudkip
+M.水跃鱼
+Check MasterDex
+检查大师图鉴
 I'd tell you anyways.
 本就没打算隐瞒。
 Seems unenforceable.
@@ -64189,6 +64311,8 @@ Juggler
 杂耍艺人
 Katy
 凯蒂
+Killu
+奇鲁
 Kimono Girl
 和服女孩
 Lady

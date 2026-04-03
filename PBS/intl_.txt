@@ -6139,10 +6139,88 @@ I tried fighting too, but they didn't want to fight me back.
 I tried fighting too, but they didn't want to fight me back.
 I guess my current form is too weak.
 I guess my current form is too weak.
+Hey, kid. You look like a trainer with discerning taste.
+Hey, kid. You look like a trainer with discerning taste.
+Keep it on the down low, but truth is, I'm actually a Pokemon Professor.
+Keep it on the down low, but truth is, I'm actually a Pokemon Professor.
+Yep, Professor, uh, Manchineel, that's my name.
+Yep, Professor, uh, Manchineel, that's my name.
+I bet you're on the lookout for all sortsa rare Pokemon, and buddy do I have a deal for you.
+I bet you're on the lookout for all sortsa rare Pokemon, and buddy do I have a deal for you.
+If yer interested, I'll be here any time.
+If yer interested, I'll be here any time.
+Ey, there you are. I knew you'd make the right decision.
+Ey, there you are. I knew you'd make the right decision.
+When the great and generous Professor Manchineel has a deal for ya, you can't just walk away.
+When the great and generous Professor Manchineel has a deal for ya, you can't just walk away.
+So how about it?
+So how about it?
+Great, fantastic.
+Great, fantastic.
+Here's the rub: Here with me I've got some very special Pokemon.
+Here's the rub: Here with me I've got some very special Pokemon.
+You kids like starter Pokemon right? All rare and one-of-a-kind.
+You kids like starter Pokemon right? All rare and one-of-a-kind.
+Well I've got some for you right here.
+Well I've got some for you right here.
+All I need from you is one measly Eevee Ticket.
+All I need from you is one measly Eevee Ticket.
+Not like you'll be heading all the way to the big city to use it yourself.
+Not like you'll be heading all the way to the big city to use it yourself.
+Whaddya say?
+Whaddya say?
+I tell ya, yer making the right choice.
+I tell ya, yer making the right choice.
+Which of these little guys didja have yer eye on?
+Which of these little guys didja have yer eye on?
+Oh, great choice. Don't tell the others I said this, but this one's my favorite.
+Oh, great choice. Don't tell the others I said this, but this one's my favorite.
+This sneaky little bastard can make off with your foe's items or cut and run when the going gets tough.
+This sneaky little bastard can make off with your foe's items or cut and run when the going gets tough.
+Reminds me of a certain someone.
+Reminds me of a certain someone.
+This little bundl'a joy can dance all over the place and throw items back and fro.
+This little bundl'a joy can dance all over the place and throw items back and fro.
+This blind little cutie can feel your foe moving and get in there first.
+This blind little cutie can feel your foe moving and get in there first.
+This is the one you want?
+This is the one you want?
+A pleasure doin' business wit'ya kid.
+A pleasure doin' business wit'ya kid.
+Now I gotta split to go find the next suck- ah, satisfied customer.
+Now I gotta split to go find the next suck- ah, satisfied customer.
+Alright, alright, no rush, take your time.
+Alright, alright, no rush, take your time.
+'snot like I gotta run or anything.
+'snot like I gotta run or anything.
+What is this, some kinda scam? You ain't got no Eevee Ticket!
+What is this, some kinda scam? You ain't got no Eevee Ticket!
+Come back when you've got the goods.
+Come back when you've got the goods.
+I tell ya kid, yer missin' out.
+I tell ya kid, yer missin' out.
+I'll be here if you change your mind.
+I'll be here if you change your mind.
+*psst* Hey kid, c'mere.
+*psst* Hey kid, c'mere.
+You look like a trainer with discerning taste.
+You look like a trainer with discerning taste.
 I've traveled throughout the world, and I've seen all sorts of different weathers.
 I've traveled throughout the world, and I've seen all sorts of different weathers.
 Likewise, I stocked up on the TMs which generate them.
 Likewise, I stocked up on the TMs which generate them.
+Yes
+Yes
+No
+No
+M. Treecko
+M. Treecko
+M. Torchic
+M. Torchic
+M. Mudkip
+M. Mudkip
+Check MasterDex
+Check MasterDex
 [Map83]
 A locked door. It has a slot for a keycard.
 A locked door. It has a slot for a keycard.
@@ -9282,6 +9360,32 @@ If you're going out and fighting those things, maybe that's somehow an upside fo
 If you're going out and fighting those things, maybe that's somehow an upside for you...?
 I'll need to check Eleig.com for any new safety products that will work on Avatars.
 I'll need to check Eleig.com for any new safety products that will work on Avatars.
+My incantations keep faltering! I need a companion to assist in my rites.
+My incantations keep faltering! I need a companion to assist in my rites.
+I boarded a fishing boat to try and get a Galarian Corsola, but the fates could only bestow upon me the ordinary kind.
+I boarded a fishing boat to try and get a Galarian Corsola, but the fates could only bestow upon me the ordinary kind.
+So, I'm trying a different approach.
+So, I'm trying a different approach.
+I'm willing to part with it, so long as you can provide me a fitting replacement.
+I'm willing to part with it, so long as you can provide me a fitting replacement.
+I'll trade you my Corsola for any Pokémon from the Esoteric tribe.
+I'll trade you my Corsola for any Pokémon from the Esoteric tribe.
+I see great misfortune in your future...
+I see great misfortune in your future...
+Thank you, traveller.
+Thank you, traveller.
+May the stars guide you through your hardships.
+May the stars guide you through your hardships.
+Ah, you again.
+Ah, you again.
+I must thank you for your prior assistance. My rites have gone splendidly since.
+I must thank you for your prior assistance. My rites have gone splendidly since.
+Great misfortune has already befallen three of my enemies...
+Great misfortune has already befallen three of my enemies...
+No
+No
+Yes
+Yes
 [Map138]
 The berry plant is growing.
 The berry plant is growing.
@@ -18208,10 +18312,6 @@ Let’s do this.
 [Map301]
 Helena's House
 Helena's House
-The door is securely locked.
-The door is securely locked.
-A sign reads "Email Me"
-A sign reads "Email Me"
 This place is too dangerous for you, kid. Those avatars'll send you packing -- if I don't first!
 This place is too dangerous for you, kid. Those avatars'll send you packing -- if I don't first!
 But my team was perfectly geometrically balanced between line, sphere, and triangle!
@@ -18220,8 +18320,10 @@ But my team was perfectly geometrically balanced between line, sphere, and trian
 ...Huh? What do you mean, "type?"
 My battle ferret! My anger sphere! My delightful tiny triangle being! How dare you -- you scoundrel!
 My battle ferret! My anger sphere! My delightful tiny triangle being! How dare you -- you scoundrel!
-The door seems to be locked.
-The door seems to be locked.
+The door is securely locked.
+The door is securely locked.
+A sign reads "Email Me"
+A sign reads "Email Me"
 I heard the Cave of Hatching has a lot of strong trainers.
 I heard the Cave of Hatching has a lot of strong trainers.
 I wonder how you stack up?
@@ -18234,18 +18336,20 @@ Look at this pretty egg-shaped stone!
 Look at this pretty egg-shaped stone!
 My friend got it from the Cave of Hatching and gave it to me!
 My friend got it from the Cave of Hatching and gave it to me!
-I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
-I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
-Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
-Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
-Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
-Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
+The door seems to be locked.
+The door seems to be locked.
 They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
 They say it's too dangerous out here now. Well, I'll show them! I'll beat all of you!
 Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
 Hey, could ya... could ya beat those giant Pokemon for me? So I can come out here to play again?
 Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
 Dammit! I can't even crush you! And you're like a baby compared to those big see-through things!
+I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
+I sensed this region's distress from across the seas, and you -- you are at the heart of its plight!
+Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
+Such shining purpose! My role in your path is over. I wonder: is it carved by force of will, or merely force alone?
+Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
+Perhaps I have misread the flow of the aether. Your role may be entirely different after all.
 South: Gigalith's Guts
 South: Gigalith's Guts
 North: Eleig River Crossing
@@ -21678,8 +21782,8 @@ With recent events...well, I just hope I'll still have a job.
 With recent events...well, I just hope I'll still have a job.
 I specialize in training Pokemon to surf.
 I specialize in training Pokemon to surf.
-You might look over at Gogoat and think to yourself: "That can learn Surf?"
-You might look over at Gogoat and think to yourself: "That can learn Surf?"
+You might look over at Rhyperior and think to yourself: "That can learn Surf?"
+You might look over at Rhyperior and think to yourself: "That can learn Surf?"
 Yes, yes it can.
 Yes, yes it can.
 My Bibarel, my beloved Bibarel...
@@ -25036,10 +25140,14 @@ You've found Errata, designer and playtester.
 You've found Errata, designer and playtester.
 Thank you for playing our game!
 Thank you for playing our game!
+You've found Killu, a spriter.
+You've found Killu, a spriter.
 You've found Envy, a QA tester and design contributor.
 You've found Envy, a QA tester and design contributor.
 You've found ValourDyke, a writer and QA tester.
 You've found ValourDyke, a writer and QA tester.
+You've found Chus, a designer and QA tester.
+You've found Chus, a designer and QA tester.
 You've found Fanfan, the Chinese translator.
 You've found Fanfan, the Chinese translator.
 You've found Crows, spriter and writer. You've also found Katy, his OC.
@@ -27648,8 +27756,8 @@ Blaze
 Blaze
 Cheer
 Cheer
-Canival
-Canival
+Carnival
+Carnival
 Saturnalia
 Saturnalia
 Mud Fish
@@ -33249,6 +33357,8 @@ Gut Check
 Gut Check
 Healthy Cheer
 Healthy Cheer
+Illicium Impulse
+Illicium Impulse
 Inertia Shock
 Inertia Shock
 Ion Exchange
@@ -33267,8 +33377,6 @@ Live Wire
 Live Wire
 Lucky Cheer
 Lucky Cheer
-Luminous Burst
-Luminous Burst
 Magnetic Coil
 Magnetic Coil
 Metaform
@@ -35746,6 +35854,8 @@ The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, de
 The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, deals double damage and is Dark-type.
 The user dances to heal an ally by half of their max HP. They're cured of any non-volatile status conditions.
 The user dances to heal an ally by half of their max HP. They're cured of any non-volatile status conditions.
+Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
+Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
 Deals 50% more damage if faster than the target. This lowers the user's Speed.
 Deals 50% more damage if faster than the target. This lowers the user's Speed.
 The user swaps the target's held item with its own. It also switches its unmodified Speed with the target's Speed.
@@ -35764,8 +35874,6 @@ The user lays a hazard around the foe. It deals Electric-typed 1/12th HP damage,
 The user lays a hazard around the foe. It deals Electric-typed 1/12th HP damage, or double that in rainstorm.
 The user dances to encourage its ally. Their attacks this turn will be critical hits.
 The user dances to encourage its ally. Their attacks this turn will be critical hits.
-Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
-Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
 The user coils its body to generate an electric field, levitating for five turns and raising its Attack and Sp. Def by two steps.
 The user coils its body to generate an electric field, levitating for five turns and raising its Attack and Sp. Def by two steps.
 The user finds the highest base power move among your able party members, and uses it.
@@ -40210,6 +40318,8 @@ Rapid Onset
 Rapid Onset
 Rapid Refresh
 Rapid Refresh
+Rat's Nest
+Rat's Nest
 Rattle 'Em
 Rattle 'Em
 Razor's Edge
@@ -40606,8 +40716,6 @@ Winter Insulation
 Winter Insulation
 Winter's Wages
 Winter's Wages
-Live Wire
-Live Wire
 Wise Hunter
 Wise Hunter
 Wish Maker
@@ -41835,6 +41943,8 @@ On the first turn, its attacks poison the target.
 On the first turn, its attacks poison the target.
 Heals 1/8th HP every turn if hit by an attack.
 Heals 1/8th HP every turn if hit by an attack.
+Lays an electrical hazard around the opponent when this Pokémon's HP is lowered below half.
+Lays an electrical hazard around the opponent when this Pokémon's HP is lowered below half.
 Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
 Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
 Boosts the power of slice moves by 30%. They're twice as likely to crit.
@@ -42229,8 +42339,6 @@ During hail, immune to Fire- and Electric-type moves.
 During hail, immune to Fire- and Electric-type moves.
 Restores HP based on damage taken by others from hail.
 Restores HP based on damage taken by others from hail.
-Lays an electrical hazard around the opponent when its HP is lowered below half.
-Lays an electrical hazard around the opponent when its HP is lowered below half.
 After knocking out any Pokémon, raises its Sp. Atk and Sp. Def.
 After knocking out any Pokémon, raises its Sp. Atk and Sp. Def.
 The random added effects of moves by all battlers always activate.
@@ -42736,6 +42844,10 @@ Fanfan
 Fanfan
 Manycrows
 Manycrows
+Chus
+Chus
+Killu
+Killu
 Bence
 Bence
 Zoé
@@ -48559,6 +48671,8 @@ Apollyon
 Apollyon
 Snow Whip
 Snow Whip
+Prof. Manchineel
+Prof. Manchineel
 Enter text using the keyboard. Press<<n>>Enter to confirm, or Esc to cancel.
 Enter text using the keyboard. Press<<n>>Enter to confirm, or Esc to cancel.
 Enter text using the keyboard.<<n>>Press Enter to confirm.
@@ -54239,10 +54353,10 @@ Set Frame
 Set Frame
 Delete Timing
 Delete Timing
-<user's cry>
-<user's cry>
 <<[>>Play user's cry<<]>>
 <<[>>Play user's cry<<]>>
+<user's cry>
+<user's cry>
 File: "{1}"
 File: "{1}"
 Volume:
@@ -60263,6 +60377,14 @@ Fair enough.
 Fair enough.
 ...Alright.
 ...Alright.
+M. Treecko
+M. Treecko
+M. Torchic
+M. Torchic
+M. Mudkip
+M. Mudkip
+Check MasterDex
+Check MasterDex
 I'd tell you anyways.
 I'd tell you anyways.
 Seems unenforceable.
@@ -64189,6 +64311,8 @@ Juggler
 Juggler
 Katy
 Katy
+Killu
+Killu
 Kimono Girl
 Kimono Girl
 Lady
