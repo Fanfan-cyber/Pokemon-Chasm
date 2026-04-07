@@ -329,6 +329,12 @@ Puddle,20,20
     20,STARYU,18,20
     20,TENTACOOL,18,20
 #-------------------------------
+[082] # Alloy Station 531
+Special,,20,20
+    1,MMUDKIP,15
+    1,MTORCHIC,15
+    1,MTREECKO,15
+#-------------------------------
 [085] # Worried Man's House
 Special,,20,20
     1,FRILLISH,15
@@ -406,6 +412,7 @@ Special,,20,20
     1,FURRET,15
     1,KABUTO,15
     1,LILEEP,15
+    1,MKABUTO,15
     1,MOMANYTE,15
     1,OMANYTE,15
     1,SHIELDON,15
