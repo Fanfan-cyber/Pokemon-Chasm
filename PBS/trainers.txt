@@ -7757,7 +7757,7 @@ Pokemon = SEVIPER,58
 #-------------------------------
 [MEDIUM,Paula]
 Pokemon = GENGAR,57
-    Moves = SLUDGEWAVE,ICEBEAM,SHADOWBALL,AURASPHERE
+    Moves = SLUDGEWAVE,ICEBEAM,SHADOWBALL,NEURALPULSE
     AbilityIndex = 0 # Levitate
     Item = ICEGEM
 Pokemon = MMUSHARNA,57
