@@ -7462,6 +7462,7 @@ Target = NearOther
 FunctionCode = Waterlog
 Flags = CanProtect,CanMagicCoat
 Description = The target is forced underwater for a brief time, waterlogging it.
+Animation = SOAK
 #-------------------------------
 [DUNK]
 Name = Dunk
