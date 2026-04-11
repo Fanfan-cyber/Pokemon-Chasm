@@ -3985,8 +3985,8 @@ Type = FIRE
 Category = Special
 Power = 60
 Accuracy = 100
-TotalPP = 10
-Target = AllNearFoes
+TotalPP = 15
+Target = NearOther
 FunctionCode = Burn
 Flags = CanProtect,Wind
 EffectChance = 30
@@ -7502,6 +7502,7 @@ Target = NearOther
 FunctionCode = Waterlog
 Flags = CanProtect,CanMagicCoat
 Description = The target is forced underwater for a brief time, waterlogging it.
+Animation = SOAK
 #-------------------------------
 [DUNK]
 Name = Dunk
