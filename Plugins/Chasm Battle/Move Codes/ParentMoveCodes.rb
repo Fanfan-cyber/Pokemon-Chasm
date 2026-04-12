@@ -538,7 +538,6 @@ class PokeBattle_TwoTurnMove < PokeBattle_Move
 
     def worksWithNoTargets?(user = nil)
         return false if user.nil?
-        pbIsChargingTurn?(user)
         return true if @chargingTurn && !@damagingTurn
         return false
     end
