@@ -3109,7 +3109,7 @@ Name = Marowak
 Type1 = GROUND
 Type2 = FIGHTING
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 80,120,120,55,100,70
+BaseStats = 80,120,120,65,80,80
 # Total = 545
 BaseEXP = 149
 Rareness = 60
