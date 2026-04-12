@@ -3142,7 +3142,7 @@ StepsToHatch = 5355
 Height = 1.0
 Weight = 34.0
 Kind = Bone Keeper
-Pokedex = Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak
+Pokedex = Its custom is to mourn its lost companions. Mounds of dirt by the side of the road mark the graves of the Marowak.
 Generation = 7
 #-------------------------------
 [TYROGUE]
