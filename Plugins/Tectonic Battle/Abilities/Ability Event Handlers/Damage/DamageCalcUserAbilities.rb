@@ -99,8 +99,8 @@ BattleHandlers::DamageCalcUserAbility.add(:ULTRABUSTER,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:FADINGFURY,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if move.lightMove? || move.kickingMove?
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
+    if move.lightMove? || move.kickingMove? || backfire
       mults[:base_damage_multiplier] *= 1.5
       user.aiLearnsAbility(ability) unless aiCheck
     end

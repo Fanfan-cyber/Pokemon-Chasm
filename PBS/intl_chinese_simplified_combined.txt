@@ -2317,7 +2317,7 @@ Isn't that right, buddy?
 You see, my partner here has the Sheer Force ability.
 你看，我的伙伴有强行。
 It means Nidoking can use moves that have random added effects, like Trample, without losing HP in the process.
-这意味着尼多王可以使用带有随机附加效果的技能，例如猛烈踏击，而不会在这个过程中损失HP。（这个Bug已经被修复）
+这意味着尼多王可以使用带有随机附加效果的技能，例如猛烈踏击，而不会在这个过程中损失HP。
 I've just got one left. I'll sell it to you for $6,000. Fair market value.
 我只有1个了。6000金钱卖给你，市场价。
 Sounds good. I'll be on patrol for awhile now, so hit me up if you change your mind.
@@ -34193,7 +34193,7 @@ The user attacks with a swift chop. It also breaks any screens protecting the ta
 The user tenses its muscles to bulk up, raising its Attack and Defense by two steps.
 使用者紧绷肌肉以增强体力，物攻和物防增加2级。
 The user fights the foe up close without guarding itself. This lowers the user's Defense and Sp. Def by two steps.
-使用者与目标不设防的近身搏斗。物防和特防减小2级。
+使用者与目标不设防的近身搏斗。双防减小2级。
 The user coaches its ally Pokémon, raising their Attack and Defense by two steps.
 使用者指导其队友，队友的物攻和物防增加2级。
 A retaliation move that counters any physical attack, inflicting double the damage taken.
@@ -34623,7 +34623,7 @@ The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 The user shoots boiling hot water at its target. This has a 30% chance to burn.
 向对手喷射煮得翻滚的开水进行攻击。有30%概率让对手陷入烧伤状态。
 The user breaks its shell. This raises the user's Attack, Sp. Atk and Speed by three steps, but lowers Defense and Sp. Def by two steps.
-使用者打破外壳。物攻、特攻和速度增加3级，但物防和特防减小2级。
+使用者打破外壳。物攻、特攻和速度增加3级，但双防减小2级。
 The target is struck with a supersonic water blast. Can random critical hit.
 目标被超音速水柱命中。可能随机命中要害。
 The user bursts into a bubbly song. Pokémon hit by this are cured of burn. Deals 50% less damage to allies.
@@ -35225,7 +35225,7 @@ The target is struck with large, imposing wings. The user also takes 20% recoil.
 The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
 使用者向目标投掷强酸。有20%概率使目标的特防减小1级。
 The user and target bathe in acid. This lowers the user's Defense and Sp. Def by two steps.
-使用者让自身和目标被酸液包围。物防和特防减小2级。
+使用者让自身和目标被酸液包围。双防减小2级。
 The user lashes the target with its corroded tail. This hits Steel-types for neutral damage and lowers Defense.
 使用者用锈蚀的尾巴抽打目标。对钢属性造成一般伤害，并使其物防减小1级。
 The user infects the target with a touch and also destroys any Herbs it's holding.
@@ -35382,7 +35382,7 @@ The user carefully lobs a small stone at high speed.
 使用者小心地高速投掷1块小石头。
 A star falls on the target. Witnessing this lucky star also enables random critical hits and doubles the user's critical hit chance.
 让1颗星星坠落在目标身上。这颗幸运星让使用者可以随机命中要害，并使命中要害率翻倍。
-The user attacks with shards from their rocky mane. For the next 3 turns, the Pokémon in the targeted slot loses 1/8th of their max HP.
+The user attacks with shards from their rocky mane. For the next three turns, the Pokémon in the targeted slot loses 1/8th of their max HP.
 使用者以岩石鬃毛的碎片发动攻击。接下来3回合，被攻击位置的精灵每回合损失最大HP的1/8。
 Churns nearby rocks, dealing damage to nearby Pokémon and removing hazards from both sides.
 翻搅周围的岩石，对周围精灵造成伤害，并清除掉全场的陷阱。
@@ -36375,7 +36375,7 @@ Boulders are hurled at all near enemies, preventing their movement. This lowers 
 The user raises its Speed by six steps and gains a Rock Gem. User becomes Rock-type.
 使用者的速度增加6级，并获得岩石宝石。变为岩石属性。
 The user summons sandstorm for five turns. This raises its Defense and Sp. Def. User becomes Rock-type.
-开启持续5回合的沙暴。物防和特防增加1级。变为岩石属性。
+开启持续5回合的沙暴。双防增加1级。变为岩石属性。
 The user restores 1/8th of its HP and summons an allied Combee. User becomes Bug-type.
 回复自身HP的八分之一，并召唤三蜜蜂。变为虫属性。
 The user raises its Sp. Atk, Sp. Def, and Speed by two steps. User becomes Bug-type.
@@ -36397,7 +36397,7 @@ The user raises its Defense by four steps and gains the ability Filter. User bec
 The user focuses intently, making every future attack critical. User becomes Steel-type.
 使用者专注集中，使之后的每次攻击都必定会命中要害。变为钢属性。
 The user creates a Polarized Room for eight turns. This raises its Defense and Sp. Def. User becomes Steel-type.
-使用者开启持续8回合的极化空间。物防和特防增加1级。变为钢属性。
+使用者开启持续8回合的极化空间。双防增加1级。变为钢属性。
 A frenetic dance to uplift the fighting spirit. This raises the user's Attack by four steps. User becomes Steel-type.
 使用狂热的舞蹈振奋战斗精神。物攻增加4级。变为钢属性。
 The user cloaks itself in fire and charges at the foe, burning it. The user also takes 33% recoil.
@@ -36483,9 +36483,9 @@ The user torments all near foes, preventing them from repeating moves. User beco
 The user raises its Sp. Atk by four steps. User becomes Fairy-type.
 特攻增加4级。变为妖精属性。
 The user summons moonglow for five turns. This raises the Defense and Sp. Def of all allies. User becomes Fairy-type.
-开启持续5回合月辉。所有队友的物防和特防增加1级。变为妖精属性。
+开启持续5回合月辉。所有队友的双防增加1级。变为妖精属性。
 The user creates a Puzzle Room for eight turns. This raises its Attack and Sp. Atk. User becomes Fairy-type.
-开启持续8回合迷惑空间。物攻和特攻增加1级。变为妖精属性。
+开启持续8回合迷惑空间。双攻增加1级。变为妖精属性。
 This move exists just to showcase the PBS Extensions system.
 这个技能只是为了展示PBS扩展系统。
 [7]
@@ -39397,7 +39397,7 @@ Shadow Shield
 Shed Skin
 蜕皮
 Sheer Force
-强行
+纯粹之力
 Shield Dust
 鳞粉
 Shields Down
@@ -41734,7 +41734,7 @@ At end of turn, heals 1/12th HP if holding a clothing item.
 This Pokémon's Speed is doubled while using Sound-based moves.
 使用声音类技能时，速度翻倍。
 Pokémon that swap in for this have their Attack and Sp. Atk raised.
-替换该精灵上场的精灵，物攻和特攻增加1级。
+替换该精灵上场的精灵，双攻增加1级。
 When hit with a special move, traps and binds the attacker for three turns. Fails on turns the user switched in.
 被特殊类技能攻击时，束缚攻击者3回合。出场的回合无效。
 If an attack lowers this Pokémon's HP below half, the attacker becomes cursed.
@@ -41768,7 +41768,7 @@ Immune to Psychic-type moves and mental effects.
 Slips past hazards. Takes one third less damage if it switched in this turn.
 无视陷阱。替换上场的回合受到的伤害减小1/3。
 Pokémon that swap in for this have their Defense and Sp. Defense raised.
-替换该精灵上场的精灵，物防和特防增加1级。
+替换该精灵上场的精灵，双防增加1级。
 When using Techno Blast, the user can choose the move's type, switching to that form.
 使用高科技光炮时，使用者可以选择技能的属性并切换为对应形态。
 If an attack lowers its HP below half, waterlogs the attacker.
@@ -42002,7 +42002,7 @@ Protected from random added effects. Takes 30% less damage from moves with rando
 All Pokémon deal 40% more move damage.
 所有精灵增加40%技能伤害。
 Can't be numbed, waterlogged, trapped, or have its Speed lowered.
-不会被麻痹、浸水和无法逃走，速度也不会减小。
+不会被麻痹、浸水和困住，速度也不会减小。
 This Pokémon is also Steel-type, but it takes 15% more damage from moves.
 为自身增加钢属性，但受到的技能伤害增加15%。
 Doubles Defense in rainstorm.
@@ -47162,7 +47162,7 @@ Ice now resists Flying and Ground. Ice is Super-Effective against those types, s
 Other changes
 其它改动
 Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic. Psychic resists Steel.
-岩石属性可以抵抗冰属性，妖精属性不再免疫龙属性，火属性抵抗妖精属性，虫属性可以抵抗超能属性，超能属性抵抗钢属性。
+岩石属性抵抗冰属性，妖精属性抵抗龙属性，妖精属性对火属性效果一般，虫属性抵抗超能属性，超能属性抵抗钢属性。
 Why Get More?
 需培养更多？
 Having choices of Pokémon is important when facing challenges. A team of six is a bare minimum--it's best to catch more and pull them from the PC as needed.
@@ -51569,7 +51569,7 @@ Your team
 我方
 {1} can't hold a {2}!
 {1}不能携带{2}！
-But {1} hold's tightly onto its {2}!
+But {1} holds tightly onto its {2}!
 但{1}紧紧地抓着它的{2}！
 {1}-type doesn't exist!
 {1}属性不存在！
@@ -52508,7 +52508,7 @@ The healing wish came true for {1}!
 {1} will receive the...
 {1}将接受...
 {2} reads {1}'s heart and gains its stats!
-{2}读取了{1}的心，并获得了它的状态！
+{2}读取了{1}的心扉，并获得了它的能力！
 {1} comes to avenge {2}!
 {1}前来为{2}复仇！
 {1}'s cushions the blow for {2}!
@@ -63533,7 +63533,7 @@ Snatch
 Spotlight
 聚光灯
 Stockpile Charges
-囤积电量
+蓄力层数
 Substitute Health
 替身HP
 Taunted Turns
