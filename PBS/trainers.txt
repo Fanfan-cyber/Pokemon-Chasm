@@ -3011,7 +3011,7 @@ Pokemon = FLAPPLE,70
     Name = Nootin'
     Gender = female
     Moves = CLASSICALPHYSICS,UTURN
-    AbilityIndex = 0 # Hustle
+    AbilityIndex = 1 # Tinted Lens
     Item = TECHNIQUEBOOSTER
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,10,20,0
