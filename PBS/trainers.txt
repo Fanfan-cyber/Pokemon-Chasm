@@ -3208,6 +3208,56 @@ Pokemon = MHAEROBIC,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 #-------------------------------
+[LADY2,Eseria]
+TrainerTypeLabel = DEVELOPER
+Pokemon = RUBARIOR,70
+    Name = Stasis
+    Gender = female
+    Moves = STEALTHROCK,FOULPLAY,WILLOWISP,STITCHUP
+    AbilityIndex = 0 # Warding
+    Item = LEFTOVERS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,20,0,0,10
+Pokemon = SIMISAGE,70
+    Name = Overgrowth
+    Gender = female
+    Moves = DREAMDANCE,FRENZYPLANT,HYPERBEAM,TAUNT
+    AbilityIndex = 1 # Reclamation
+    Item = ENERGYHERB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = MJELLICENT,70
+    Name = Despair
+    Gender = female
+    Moves = BADENDING,RECOVER,DISTURB,LIGHTNINGSLAM
+    AbilityIndex = 1 # No Hope
+    Item = POWERLOCK
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,20,0,20,0
+Pokemon = MANIKLAW,70
+    Name = Entropy
+    Gender = female
+    Moves = WILLOWISP,SIXFEETUNDER,STITCHUP,HORIZONSLICE
+    AbilityIndex = 0 # Malice
+    Item = SITRUSBERRY
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,20,0,20,0
+Pokemon = SKUNTANK,70
+    Gender = female
+    Moves = GRIMEGRAPPLE,CRUNCH,SWEETSELENE,POISONJAB
+    AbilityIndex = 0 # Offensive
+    Item = LIFEORB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = GDARMANITAN,70
+    Name = Violence
+    Gender = female
+    Moves = EARTHQUAKE,CLOSECOMBAT,GLACIALRAM,ADAMANTINEPRESS
+    AbilityIndex = 0 # Gorilla Tactics
+    Item = CHOICEBAND
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+#-------------------------------
 [LEADER_Bence,Bence]
 Policies = BENCE
 Flags = NoPerfect
