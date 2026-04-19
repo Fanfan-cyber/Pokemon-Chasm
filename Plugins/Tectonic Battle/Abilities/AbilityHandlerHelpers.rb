@@ -15,7 +15,7 @@ end
 
 def applyEffectDurationModifiers(value, user)
     value *= 1.5 if user.hasTribeBonus?(:SERENE)
-    value *= 1.5 if user.hasAbility?(:LONGTERMVIEW)
+    value *= 1.5 if user.hasActiveAbility?(:LONGTERMVIEW)
     return value.floor
 end
 
