@@ -59773,8 +59773,8 @@ The team has been deleted.
 该队伍已被删除。
 Badge {1} Team_{2}
 徽章{1}队_{2}
-You have defeated the 8th Gym Leader!<<n>>Now you can challenge the Former Champions' teams in the Battle Loader.<<n>>Good luck!
-你已经击败了第8位道馆馆主！<<n>>现在你可以在战斗模拟器中挑战前冠军的队伍。<<n>>祝你好运！
+You have defeated the 6th Gym Leader!<<n>>Now you can challenge the Former Champions' teams in the Battle Loader.<<n>>Good luck!
+你已经击败了第6位道馆馆主！<<n>>现在你可以在战斗模拟器中挑战前冠军的队伍。<<n>>祝你好运！
 You did great, but you still need to defeat me {1} more time(s).<<n>>You can't use the Pokémon you've already used and you can check the recorded teams with the Battle Loader.<<n>>Keep it up!
 你做得很好，但你还需要再击败我{1}次。<<n>>你不能使用已经用过的精灵，你可以用战斗模拟器查看或者删除已被记录的队伍。<<n>>继续加油！
 \w[]\wm\c[12]\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...
@@ -59975,8 +59975,8 @@ Which team do you want to challenge?
 你想要挑战哪1个队伍？
 Do you want to use other battle rules?
 你想使用其他战斗规则吗？
-You can't challenge Former Champion Team, because you don't have 8 badges!
-你无法挑战前冠军队，因为你没有集齐8个徽章！
+You can't challenge Former Champion Team, because you don't have 6 badges!
+你无法挑战前冠军队，因为你没有集齐6个徽章！
 Which battle rule do you want?
 你想使用哪种战斗规则？
 Would you like to give it a Curse Effect?

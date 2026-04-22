@@ -199,7 +199,7 @@ module BattleLoader
                 #start_battle(rules[0], team, curse)
               end
             when 3 # Former Champion Team
-              if $Trainer&.checkBadge(8) || $DEBUG
+              if $Trainer&.checkBadge(6) || $DEBUG
                 teams = @@battle_loader.select { |team| team[6] == :FormerChampion }
                 names = teams.map { |team_info| "#{team_info[0]} #{team_info[1]}" << ($Trainer.battle_loader_teams.include?(team_info[3]) ? " V" : " ") }
                 index = pbMessage(_INTL("Which team do you want to challenge?"), names, -1)
@@ -220,7 +220,7 @@ module BattleLoader
                   #end
                 end
               else
-                pbMessage(_INTL("You can't challenge Former Champion Team, because you don't have 8 badges!"))
+                pbMessage(_INTL("You can't challenge Former Champion Team, because you don't have 6 badges!"))
                 break
               end
             when 0 # All Teams

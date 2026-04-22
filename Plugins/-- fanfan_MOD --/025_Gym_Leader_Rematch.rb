@@ -158,8 +158,8 @@ def postGymSnapshot(badge_num)
   return if TA.get(:simplemode)
   result = $Trainer.gym_leader_rematch.process(badge_num)
   if result[0]
-    if badge_num == 8
-      pbMessage(_INTL("You have defeated the 8th Gym Leader!\nNow you can challenge the Former Champions' teams in the Battle Loader.\nGood luck!"))
+    if badge_num == 6
+      pbMessage(_INTL("You have defeated the 6th Gym Leader!\nNow you can challenge the Former Champions' teams in the Battle Loader.\nGood luck!"))
     end
   else
     if badge_num == 5 # Bence and Joe
