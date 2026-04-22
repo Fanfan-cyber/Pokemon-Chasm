@@ -101,11 +101,18 @@ module CDKey
         pbMessage(_INTL("You can't use the code now!"))
       end
     end
-    if automatic_generated_pkmn(text)
+    if $Trainer.debug_code.include?(text) && !$DEBUG
       valid_code = true
-    end
-    if automatic_generated_item(text)
-      valid_code = true
+      pbMessage(_INTL("The code has been used!"))
+    else
+      if automatic_generated_pkmn(text)
+        valid_code = true
+        $Trainer.debug_code << text
+      end
+      if automatic_generated_item(text)
+        valid_code = true
+        $Trainer.debug_code << text
+      end
     end
     pbMessage(_INTL("Please enter a valid code!")) unless valid_code
   end

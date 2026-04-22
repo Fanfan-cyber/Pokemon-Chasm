@@ -31365,7 +31365,7 @@ Pa'u Style
 Sensu Style
 扇子风格
 School
-学校
+群聚
 Type: Fighting
 属性：格斗
 Type: Flying

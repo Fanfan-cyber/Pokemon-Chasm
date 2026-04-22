@@ -29,6 +29,10 @@ class Player
     @gift_code ||= { :pkmn => [], :item => [] }
   end
 
+  def debug_code
+    @debug_code ||= []
+  end
+
   def team_switcher
     @team_switcher ||= []
   end
