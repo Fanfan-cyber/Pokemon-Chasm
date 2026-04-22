@@ -2443,7 +2443,7 @@ Target = NearOther
 FunctionCode = StartPreventCriticalHitsAndReduceDamageAgainstUserSide5
 Flags = CanProtect
 EffectChance = 100
-Description = The user headbutts the target while maintaining a defensive aura. Sets Sanctuary for 5 turns.
+Description = The user headbutts the target while maintaining a defensive aura. Sets Sanctuary for five turns.
 Animation = HEADBUTT
 #-------------------------------
 [SIEGEBREAKER]
@@ -2789,7 +2789,7 @@ TotalPP = 5
 Target = UserSide
 FunctionCode = StartUserSideLessDamageFromNonAttackDamage
 Flags = CanSnatch
-Description = The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
+Description = The user makes a plea for survival, halving the damage their side takes from non-attack sources for eight turns.
 Animation = SAFEGUARD
 #-------------------------------
 [PATIENTBLADE]
@@ -3524,7 +3524,7 @@ Target = NearOther
 FunctionCode = HitThreeTimesLowerTargetDef1DisablesSelf
 Flags = CanProtect
 EffectChance = 100
-Description = The user launches piercing feathers 3 times, lowering the foe's Defense. Then, this move is disabled.
+Description = The user launches piercing feathers three times, lowering the foe's Defense. Then, this move is disabled.
 Animation = SPIKECANNON
 #-------------------------------
 [FEATHERWARD]
@@ -6197,7 +6197,7 @@ Target = NearOther
 FunctionCode = DisableTargetLastMoveUsed
 Flags = CanProtect
 EffectChance = 100
-Description = The user psychically alters the target's brain to forget. This move disables the target's last move for 5 turns.
+Description = The user psychically alters the target's brain to forget. This move disables the target's last move for five turns.
 Animation = DISABLE
 #-------------------------------
 [MINDLINK]
@@ -6321,7 +6321,7 @@ TotalPP = 10
 Target = NearFoe
 FunctionCode = StartEclipse8
 Flags = CanProtect
-Description = Psychic energy assaults the foe and darkens the sky, summoning eclipse for 8 turns.
+Description = Psychic energy assaults the foe and darkens the sky, summoning eclipse for eight turns.
 Animation = DARKVOID
 #-------------------------------
 [PIERCINGDOUBT]
@@ -6589,7 +6589,7 @@ TotalPP = 10
 Target = BothSides
 FunctionCode = StartGreyMist5StartHail5
 Flags = CanMagicCoat
-Description = The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for 5 turns.
+Description = The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for five turns.
 Animation = HAIL
 #-------------------------------
 [FRIGIDFLURRY]
@@ -7348,7 +7348,7 @@ TotalPP = 12
 Target = AllNearOthers
 FunctionCode = StartGreyMist5
 Flags = CanProtect
-Description = Darkness rolls over the field, damaging all other Pokémon and setting Grey Mist for 5 turns.
+Description = Darkness rolls over the field, damaging all other Pokémon and setting Grey Mist for five turns.
 Animation = GREYMIST
 #-------------------------------
 [BACKHAND]
