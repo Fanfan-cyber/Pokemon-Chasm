@@ -35372,7 +35372,7 @@ The target is struck from all angles by light like gemstones. Deals double damag
 让目标被如宝石般的光芒从各个角度攻击。如果使用者本回合使用过宝石，伤害翻倍。
 The user grinds stone into shrapnel and sprays it at the target. This has a 50% chance to fracture it.
 使用者将石头磨成碎片并喷洒向目标。有50%概率使其破碎。
-The user headbutts the target while maintaining a defensive aura. Sets Sanctuary for 5 turns.
+The user headbutts the target while maintaining a defensive aura. Sets Sanctuary for five turns.
 使用者以头槌攻击目标，同时生成防御性效果。开启持续5回合的圣地。
 The user slams the target with a rocky blade. Destroys screens, Substitutes, and protections on the target.
 使用者用岩石之刃重击目标。破坏目标的屏障类效果、替身和保护类效果。
@@ -35424,7 +35424,7 @@ All foes have their Attack and Sp. Atk lowered. They can only target the user th
 让所有敌人的双攻减小1级。本回合它们只能以使用者为目标使用技能。
 The foe is stabbed once by each of the user's stingers.
 身上的每一根刺都会刺击对方1次。
-The user makes a plea for survival, halving the damage their side takes from non-attack sources for 8 turns.
+The user makes a plea for survival, halving the damage their side takes from non-attack sources for eight turns.
 使我方队伍在8回合内受到的非攻击类伤害减半。
 The user prepares its weapons. This raises the user's Attack by six steps but lowers Speed by six steps.
 使用者准备武器。物攻增加6级，但速度减小6级。
@@ -35534,7 +35534,7 @@ Inflicts physical or special damage, whichever deals more. Then, raises Attack o
 是造成物理还是特殊类伤害，以伤害更高者为准，然后增加未使用的物攻或特攻1级。
 Conductive materials ensnare the target, trapping and binding it for three turns.
 导电材料缠绕目标，困住并束缚目标3回合。
-The user launches piercing feathers 3 times, lowering the foe's Defense. Then, this move is disabled.
+The user launches piercing feathers three times, lowering the foe's Defense. Then, this move is disabled.
 使用者发射穿透性羽毛3次，使对手的物防减小1级，然后此技能被禁用。
 The user lays a levitating hazard of sharp feathers around the foe. It deals Steel-typed 1/8th HP damage.
 使用者在敌人周围布置悬浮的锐利羽毛陷阱。造成钢属性HP八分之一的伤害。
@@ -35944,7 +35944,7 @@ The user conjures a giant fist to crush the target, trapping and binding it for 
 使用者召唤巨拳碾压目标，困住并束缚目标3回合。
 The user grabs the target with a conjured hand, trapping and binding it for three turns.
 使用者以幻手抓住目标，困住并束缚目标3回合。
-The user psychically alters the target's brain to forget. This move disables the target's last move for 5 turns.
+The user psychically alters the target's brain to forget. This move disables the target's last move for five turns.
 使用者以心灵之力改变目标大脑使其遗忘。使目标最后使用的技能无法使用5回合。
 The user syncs its mind with its teammates, raising its Sp. Atk by three steps, and its allies' by one.
 使用者与队友同步思维，自身的特攻增加3级，其队友的特攻增加1级。
@@ -35964,7 +35964,7 @@ The user employs hypnotic suggestion to make a dizzy target fall into a deep sle
 利用催眠暗示，让1个处于混乱的目标陷入睡眠。
 Unveiling its ears, the released psychic power causes the user to rampage and multi-hit two to five times for two turns.
 展开耳朵，释放出的超能力让使用者在连续2回合中陷入暴走状态，每次连续攻击2至5次。
-Psychic energy assaults the foe and darkens the sky, summoning eclipse for 8 turns.
+Psychic energy assaults the foe and darkens the sky, summoning eclipse for eight turns.
 用精神能量攻击对手，使天空变暗，并召唤持续8个回合的日食。
 Pierces the mind of the target, inflicting doubt in their abilities, guaranteeing a critical hit on foes with boosted stats.
 穿透目标的心智，在其能力上制造怀疑，对有能力等级增加的目标必定会命中要害。
@@ -36006,7 +36006,7 @@ The user readies an attack with memories of ancient cold before attacking. If hi
 使用者在攻击前以远古寒冷记忆蓄力。若被敌方特殊攻击命中，使攻击者冻伤。
 The target is put to sleep via a deep freeze. The user is exhausted on the next turn.
 用深度冷冻使目标陷入睡眠。下1回合将陷入僵直状态。
-The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for 5 turns.
+The user covers the field with an fog of ice crystals, summoning hail and creating Grey Mist for five turns.
 使用者用冰晶雾气覆盖整个场地，召唤冰雹并制造持续5回合的灰雾。
 The user summons a wind that drains vitality from all nearby foes. This has a 20% chance to frostbite them.
 使用者召唤一股风，吸取附近所有敌人的生命力。有20%概率使目标陷入冻伤。
@@ -36122,7 +36122,7 @@ The Pokémon blots out the sky, summoning eclipse for eight turns and lowering e
 遮蔽天空，制造持续8回合的日食天气，并减小对手的物攻2级。
 The user roots itself, then strikes at the target with serpentine strength. This has a 30% chance to leech.
 声援自身并蛇行攻击对方，有30%概率使其被寄生。
-Darkness rolls over the field, damaging all other Pokémon and setting Grey Mist for 5 turns.
+Darkness rolls over the field, damaging all other Pokémon and setting Grey Mist for five turns.
 黑暗笼罩整个场地，对全部精灵造成伤害，设置持续5回合的灰雾。
 The user insults the target using a compliment. Their Attack and Sp. Atk are raised by three steps, but they hurt themselves in confusion.
 使用者用赞美来侮辱目标，让目标的双攻增加3级，但目标会因混乱而伤害自身。
@@ -58303,7 +58303,7 @@ Set NPC2 Chosen
 设置已选择NPC2
 Set which NPC was chosen for NPC Randomization slot 2
 设置NPC随机化槽2中选择的NPC
-\wm\ss\l[2]Beyond this door, a <imp>Crimson Masked</imp> and a <imp>Teal Mask</imp> await you.
+\wm\ss\l[2]Beyond this door, a <imp>Crimson Mask</imp> and a <imp>Teal Mask</imp> await you.
 \wm\ss\l[2]在这扇门后，<imp>深红崇拜者</imp>和<imp>茶色崇拜者</imp>在等待着你。
 \wm\ss\l[2]Beyond this door, a <imp>Crimson Mask</imp> awaits you.
 \wm\ss\l[2]在这扇门后，<imp>深红崇拜者</imp>在等待着你。
