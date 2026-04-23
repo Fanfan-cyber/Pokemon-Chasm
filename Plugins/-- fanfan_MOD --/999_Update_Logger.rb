@@ -9,7 +9,7 @@
 兑换初始硬币
 =end
 
-MOD_VERSION  = "0.4.6"
+MOD_VERSION  = "0.4.7"
 VERSION_NAME = ["Radiant Nexus", "星芒汇流"]
 
 CHANGE_LOG = <<-LOGGER
@@ -181,7 +181,7 @@ casualmode/nocasualmode，开启/关闭休闲模式
 simplemode/nosimplemode，开启/关闭简单模式
 storymode/nostorymode，开启/关闭剧情模式
 
-0.4.7 Radiant Nexus / 星芒汇流 03122026
+0.4.7 Radiant Nexus / 星芒汇流 04232026
 1.增加了疯狂模式，现在可以通过输入密码crazymode开启疯狂模式，开启疯狂模式后，对手训练师的精灵将获得3倍的风格点数
 2.现在可以通过输入密码nocrazymode关闭疯狂模式
 3.将中文翻译的“心灵”状态标准化为“心控”状态
@@ -280,7 +280,6 @@ storymode/nostorymode，开启/关闭剧情模式
 96.现在第一次遇到野生的精灵时，会直接进入战斗
 97.为CURSE_EXTRA_ITEMS增加了新的效果，现在玩家的精灵的物品会失效3回合
 98.在工具中加入了“我是谁”小游戏
-99.
 
 0.4.6 Astra Resonantia / 星穹共鸣 03052026
 1.修复了Arc of Hope的中文错误翻译的Bug
