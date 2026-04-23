@@ -284,7 +284,7 @@ class PokeBattle_Battler
 
     def itemActive?(ignoreFainted = false)
         return false if fainted? && !ignoreFainted
-        return false if effectActive?(:Embargo)
+        return false if effectActive?(:Embargo) || effectActive?(:Stressed)
         return false if pbOwnSide.effectActive?(:EmpoweredEmbargo)
         return false if hasActiveAbility?(:KLUTZ, ignoreFainted)
         return false if @battle.pbCheckOpposingAbility(%i[STRESSFUL], @index)

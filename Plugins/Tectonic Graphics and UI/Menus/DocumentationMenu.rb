@@ -72,6 +72,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     cmdTeamSwitcher = -1
     cmdAdoptionCenter = -1
     cmdGiftCode    = -1
+    cmdMiniGame    = -1
     infoCommands = []
     infoCommands[cmdMasterDex   = infoCommands.length] = _INTL("MasterDex")
     infoCommands[cmdMoveDex     = infoCommands.length] = _INTL("MoveDex")
@@ -83,6 +84,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     infoCommands[cmdBattleLoader = infoCommands.length] = _INTL("Battle Loader")
     #infoCommands[cmdTeamSwitcher = infoCommands.length] = _INTL("Team Switcher")
     infoCommands[cmdGiftCode    = infoCommands.length] = _INTL("Code Inputter")
+    infoCommands[cmdMiniGame    = infoCommands.length] = _INTL("Mini Game")
     infoCommands.push(_INTL("Cancel"))
     loop do
       infoCommand = @scene.pbShowCommands(infoCommands)
@@ -110,6 +112,8 @@ class PokemonDocumentationMenu < PokemonPauseMenu
           AdoptionCenter.open_adoption_center
       elsif cmdGiftCode > -1 && infoCommand == cmdGiftCode
           CDKey.enter_cd_key
+      elsif cmdMiniGame > -1 && infoCommand == cmdMiniGame
+          whoAmI
       else
         pbPlayCloseMenuSE
         break

@@ -6,7 +6,7 @@ class WhoAmI_Scene
 
   def initialize
     @viewport      = Viewport.new(0, 0, Graphics.width, Graphics.height)
-    @viewport.z    = 9998
+    @viewport.z    = 99999
     @sprites       = {}
     @sprites["bg"] = IconSprite.new(0, 0, @viewport)
     @sprites["bg"].setBitmap("Graphics/Pictures/Who am I")
@@ -88,7 +88,7 @@ class WhoAmI_Scene
 
   def check_entering_limit
     if $Trainer.money < LEAST_MONEY
-      pbMessage(_INTL("You don't have enough money to play the game!"))
+      #pbMessage(_INTL("You don't have enough money to play the game!"))
       return false
     end
     return true
@@ -103,7 +103,7 @@ class WhoAmI_Scene
       return false if @press_back
       if Input.trigger?(Input::USE)
         return false if !check_entering_limit
-        return true if pbConfirmMessage(_INTL("Are you sure you want to select {1}?", @names[@selection]))
+        return true #if pbConfirmMessage(_INTL("Are you sure you want to select {1}?", @names[@selection]))
       end
     end
   end
@@ -154,7 +154,7 @@ class WhoAmI_Scene
       [_INTL("{1}", @name), 380, 120, 2, YELLOW, BROWN, 1],
       [_INTL("Money: {1}", $Trainer.money), 8, 0, false, WHITE, SHADOW, 1],
       #[_INTL("Pokédex Seen: {1}", $Trainer.pokedex.seen_count), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
-      [_INTL("Correct: {1}   Incorrect: {2}", TA.get(:who_am_i_correct), TA.get(:who_am_i_incorrect)), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
+      [_INTL("Correct: {1}   Incorrect: {2}", TA.get(:who_am_i_correct, 0), TA.get(:who_am_i_incorrect, 0)), Graphics.width - 18, 0, true, WHITE, SHADOW, 1],
       [_INTL("{1}", msg), 380, 192, 2, WHITE, SHADOW, 1],
       [_INTL("[C]: Continue   [X]: Exit"), Graphics.width / 2, Graphics.height - 42, 2, WHITE, SHADOW, 1]
     ]
@@ -163,17 +163,17 @@ class WhoAmI_Scene
     animate_reveal
   end
 
-  AWARD_MONEY = 500
-  LOST_MONEY  = 500
-  LEAST_MONEY = 500
+  AWARD_MONEY = 100
+  LOST_MONEY  = 3000
+  LEAST_MONEY = 3000
 
   def apply_award(correct = true)
-    if correct 
-      $Trainer.money += AWARD_MONEY
+    if correct
       TA.increase(:who_am_i_correct)
+      $Trainer.money += (AWARD_MONEY * TA.get(:who_am_i_correct))
     else
-      $Trainer.money = [0, $Trainer.money - LOST_MONEY].max
       TA.increase(:who_am_i_incorrect)
+      $Trainer.money = [0, $Trainer.money - (LOST_MONEY * TA.get(:who_am_i_incorrect))].max
     end
     #$Trainer.pokedex.set_seen(@species)
   end
@@ -221,7 +221,7 @@ class WhoAmIScreen
 end
 
 def whoAmI
-  pbFadeOutIn(9997) do
+  pbFadeOutIn do
     scene = WhoAmI_Scene.new
     screen = WhoAmIScreen.new(scene)
     screen.pbShowScreen

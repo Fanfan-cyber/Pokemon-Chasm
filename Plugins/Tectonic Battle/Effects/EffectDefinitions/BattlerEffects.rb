@@ -2809,3 +2809,22 @@ GameData::BattleEffect.register_effect(:Battler, {
     :info_displayed => false,
     :resets_battlers_eot => true,
 })
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :Stressed,
+    :real_name => "Stressed",
+    :is_mental => true,
+    :type => :Integer,
+    :ticks_down_eor => true,
+    :apply_proc => proc do |battle, battler, _value|
+        battle.pbDisplay(_INTL("{1} is too stressed to use their items!", battler.pbThis))
+        battler.refreshDataBox
+    end,
+    :disable_proc => proc do |battle, battler|
+        battler.refreshDataBox
+    end,
+    :expire_proc => proc do |battle, battler|
+        battle.pbDisplay(_INTL("{1} can use its item now!", battler.pbThis))
+        battler.refreshDataBox
+    end,
+})
