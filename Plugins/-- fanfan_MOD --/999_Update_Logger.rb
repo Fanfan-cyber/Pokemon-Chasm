@@ -7,10 +7,12 @@
 箱子可以搜索特性和技能以及批量放生
 削弱声音队 锦标赛前增加前冠军战斗
 兑换初始硬币
+部族快速搜索联动大师图鉴
+箱子搜索启用半透明
 =end
 
 MOD_VERSION  = "0.4.7"
-VERSION_NAME = ["Radiant Nexus", "星芒汇流"]
+VERSION_NAME = ["Overture of Dawn", "破晓序曲"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -180,6 +182,9 @@ tectonic/disabletectonic，开启/关闭构造模式
 casualmode/nocasualmode，开启/关闭休闲模式
 simplemode/nosimplemode，开启/关闭简单模式
 storymode/nostorymode，开启/关闭剧情模式
+
+0.4.8 Overture of Dawn / 破晓序曲 04242026
+1.
 
 0.4.7 Radiant Nexus / 星芒汇流 04232026
 1.增加了疯狂模式，现在可以通过输入密码crazymode开启疯狂模式，开启疯狂模式后，对手训练师的精灵将获得3倍的风格点数
