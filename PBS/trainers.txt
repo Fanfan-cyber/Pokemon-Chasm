@@ -6529,7 +6529,7 @@ Pokemon = SLOWBRO,70
 Flags = NoPerfect
 Pokemon = PINCURCHIN,70
     Moves = POISONSPIKES,THUNDERBOLT,EXPLOSION,ELECTROWEB
-    AbilityIndex = 0 # Arc Conductor
+    AbilityIndex = 1 # Spinesplode
     Item = EJECTBUTTON
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,10,0,10,10
@@ -6548,12 +6548,12 @@ Pokemon = LANTURN,70
     EV = 10,20,10,0,20,10
 Pokemon = SKARMORY,70
     Moves = ROOST,SPIKES,SLAG,STEALTHROCK
-    AbilityIndex = 1 # Weathered
+    AbilityIndex = 0 # Mental Block
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,20,0,10,0
 Pokemon = FEAROW,70
     Moves = BRAVEBIRD,DRILLRUN,JETSTREAM,UTURN
-    AbilityIndex = 1 # Territorial
+    AbilityIndex = 0 # Tough
     Item = SITRUSBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,0,0,10,20
