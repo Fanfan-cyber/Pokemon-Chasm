@@ -66,7 +66,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TrapTarget
 Flags = CanMagicCoat
-Description = The user blocks the target's way with arms splayed wide to trap the target.
+Description = The user traps the target by physically blocking its way or scaring it in place.
 #-------------------------------
 [BODYSLAM]
 Name = Body Slam
@@ -5692,17 +5692,6 @@ FunctionCode = DoubleDamageUserStatsLowered
 Flags = CanProtect
 EffectChance = 100
 Description = If the user's stats were lowered during the turn, the power of this move is doubled.
-#-------------------------------
-[MEANLOOK]
-Name = Mean Look
-Type = DARK
-Category = Status
-Accuracy = 0
-TotalPP = 5
-Target = NearOther
-FunctionCode = TrapTarget
-Flags = CanMagicCoat
-Description = The user pins the target with a dark, arresting look. The target becomes trapped.
 #-------------------------------
 [MEMENTO]
 Name = Memento

@@ -4049,6 +4049,17 @@ EffectChance = 40
 Description = The target is confronted with painful words. It has a 40% chance to make the target flinch.
 Animation = DARKPULSE
 #-------------------------------
+[MEANLOOK]
+Name = Mean Look
+Type = DARK
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanMagicCoat
+Description = The user pins the target with a dark, arresting look. The target becomes trapped.
+#-------------------------------
 [NASTYPLOT]
 Name = Nasty Plot
 Type = DARK

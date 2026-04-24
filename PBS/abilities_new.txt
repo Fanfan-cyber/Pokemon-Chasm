@@ -2384,10 +2384,6 @@ Name = Territorial
 Description = Boosts damage by 20% if there is a weather. Immune to weather downsides.
 Flags = AllWeatherSynergy
 #-------------------------------
-[TERRORIZE]
-Name = Terrorize
-Description = Flinching moves always activate their random effects. However, this Pokémon deals 10% less move damage.
-#-------------------------------
 [TESLACOILS]
 Name = Tesla Coils
 Description = Becomes energized upon entry, doubling the power of its next Electric-type attack.

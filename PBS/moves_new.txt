@@ -1384,6 +1384,21 @@ FunctionCode = RemoveWeather
 Flags = CanProtect
 Description = Attacks while clearing weather. This move fails in the absence of a weather.
 #-------------------------------
+[SONICSHRIEK]
+Name = Sonic Shriek
+Type = FLYING
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+Priority = 3
+FunctionCode = FlinchTargetFailsIfNotUserFirstTurn
+Flags = CanProtect,Sound
+EffectChance = 100
+Description = The user swoops into battle with a piercing shriek, flinching the target. It only works the first turn the user is in battle.
+Animation = HYPERVOICE
+#-------------------------------
 [SQUALLDART]
 Name = Squall Dart
 Type = FLYING
