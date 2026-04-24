@@ -6,7 +6,8 @@ SaveData.register_conversion(:primal_beads_3_4_0) do
         globalVariables = save_data[:variables]
         selfSwitches = save_data[:self_switches]
         itemBag = save_data[:bag]
-    
+
+        itemBag.pbDeleteItem(:PRIMALBEAD, itemBag.pbQuantity(:PRIMALBEAD))
         itemBag.pbStoreItem(:PRIMALBEAD, 1, false) if selfSwitches[[258,17,'C']] # defeated whitebloom yezera
         itemBag.pbStoreItem(:PRIMALBEAD, 1, false) if selfSwitches[[215,3,'A']] # defeated rayquaza avatar
     end

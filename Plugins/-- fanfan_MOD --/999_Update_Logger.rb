@@ -184,7 +184,13 @@ simplemode/nosimplemode，开启/关闭简单模式
 storymode/nostorymode，开启/关闭剧情模式
 
 0.4.8 Overture of Dawn / 破晓序曲 04242026
-1.
+1.修改了大量中文的翻译
+2.优化了存档升级的逻辑
+3.现在存档升级时，不再会异常获得多个Pokémon Lure了
+4.现在存档升级时，不再会异常获得多个Primal Bead了
+5.现在存档升级时，不再会异常获得多个Technique Booster了
+6.现在存档升级时，不再会异常获得多个战斗记录器了
+7.
 
 0.4.7 Radiant Nexus / 星芒汇流 04232026
 1.增加了疯狂模式，现在可以通过输入密码crazymode开启疯狂模式，开启疯狂模式后，对手训练师的精灵将获得3倍的风格点数
@@ -285,6 +291,7 @@ storymode/nostorymode，开启/关闭剧情模式
 96.现在第一次遇到野生的精灵时，会直接进入战斗
 97.为CURSE_EXTRA_ITEMS增加了新的效果，现在玩家的精灵的物品会失效3回合
 98.在工具中加入了“我是谁”小游戏
+99.修改了大量中文的翻译
 
 0.4.6 Astra Resonantia / 星穹共鸣 03052026
 1.修复了Arc of Hope的中文错误翻译的Bug

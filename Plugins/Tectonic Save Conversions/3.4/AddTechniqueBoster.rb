@@ -6,7 +6,8 @@ SaveData.register_conversion(:technique_booster_3_4_0) do
         globalVariables = save_data[:variables]
         selfSwitches = save_data[:self_switches]
         itemBag = save_data[:bag]
-    
+
+        itemBag.pbDeleteItem(:TECHNIQUEBOOSTER, itemBag.pbQuantity(:TECHNIQUEBOOSTER))
         itemBag.pbStoreItem(:TECHNIQUEBOOSTER, 1, false) if selfSwitches[[5,1,'A']] # defeated avatar of genesect
     end
 end

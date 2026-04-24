@@ -8,6 +8,7 @@ SaveData.register_conversion(:pokemon_lure_3_4_0) do
         itemBag = save_data[:bag]
 
         if selfSwitches[[32,14,'C']] # Completed Lost Growlithe quest
+            itemBag.pbDeleteItem(:POKEMONLURE, itemBag.pbQuantity(:POKEMONLURE))
             itemBag.pbStoreItem(:POKEMONLURE, 1, false)
         end
     end

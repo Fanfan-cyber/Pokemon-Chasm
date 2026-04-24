@@ -38457,7 +38457,7 @@ Smart Phone
 VS Recorder
 战斗记录器
 Primal Bead
-太古之珠
+原始之珠
 Primal Clay
 原始粘土
 Choice Crown
@@ -39362,7 +39362,7 @@ Smart Phones
 VS Recorders
 战斗记录器
 Primal Bead
-太古之珠
+原始之珠
 Primal Clay
 原始粘土
 Choice Crowns
