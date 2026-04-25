@@ -1292,6 +1292,10 @@ Description = Prevents foes whose Attack is less than its from fleeing.
 Name = Teravolt
 Description = Moves can be used regardless of Abilities.
 #-------------------------------
+[TERRORIZE]
+Name = Terrorize
+Description = Flinching moves always activate their random effects. However, this Pokémon deals 10% less move damage.
+#-------------------------------
 [TIMESTRETCH]
 Name = Time Stretch
 Description = Between each turn there's another turn where no one moves.

@@ -66,7 +66,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = TrapTarget
 Flags = CanMagicCoat
-Description = The user blocks the target's way with arms splayed wide to trap the target.
+Description = The user traps the target by physically blocking its way or scaring it in place.
 #-------------------------------
 [BODYSLAM]
 Name = Body Slam
@@ -2072,18 +2072,6 @@ Target = BothSides
 FunctionCode = StartGravity5
 Description = Gravity is intensified for five turns, grounding all Pokémon, doubling their weight, and doubling all move Accuracy.
 #-------------------------------
-[LANDSWRATH]
-Name = Land's Wrath
-Type = GROUND
-Category = Physical
-Power = 90
-Accuracy = 100
-TotalPP = 10
-Target = AllNearFoes
-FunctionCode = Basic
-Flags = CanProtect
-Description = The user gathers the energy of the land and focuses that power on foes to damage them.
-#-------------------------------
 [MUDSHOT]
 Name = Mud Shot
 Type = GROUND
@@ -2251,7 +2239,7 @@ Description = Charges with space power and boosts its Sp. Atk by two steps on on
 Name = Power Gem
 Type = ROCK
 Category = Special
-Power = 90
+Power = 95
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -5704,17 +5692,6 @@ FunctionCode = DoubleDamageUserStatsLowered
 Flags = CanProtect
 EffectChance = 100
 Description = If the user's stats were lowered during the turn, the power of this move is doubled.
-#-------------------------------
-[MEANLOOK]
-Name = Mean Look
-Type = DARK
-Category = Status
-Accuracy = 0
-TotalPP = 5
-Target = NearOther
-FunctionCode = TrapTarget
-Flags = CanMagicCoat
-Description = The user pins the target with a dark, arresting look. The target becomes trapped.
 #-------------------------------
 [MEMENTO]
 Name = Memento

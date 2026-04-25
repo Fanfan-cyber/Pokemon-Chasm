@@ -1291,6 +1291,12 @@ BaseMoney = 16
 IntroBGM = AROMALADY
 CableClub = true
 #-------------------------------
+[POKEMONCHAMPION_Vanya]
+Name = Champion
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = Battle vanya
+#-------------------------------
 [POKEMONMASTER_Vanya]
 Name = Pokémon Master
 Gender = Unknown
@@ -1402,6 +1408,12 @@ BaseMoney = 60
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
+#-------------------------------
+[POKEMONTRAINER_Vanya]
+Name = Pokémon Trainer
+Gender = Unknown
+BaseMoney = 100
+BattleBGM = Battle vanya
 #-------------------------------
 [POKEMONTRAINER_Yezera]
 Name = Pokémon Trainer
