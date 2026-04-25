@@ -8366,6 +8366,123 @@ Pokemon = PINCURCHIN,70
     Moves = EXPLOSION,STUNNINGCURL,SHORTCIRCUIT,THUNDERCAGE
     AbilityIndex = 1 # Spinesplode
 #-------------------------------
+[POKEMONTRAINER_Vanya,Vanya]
+Flags = NoPerfect
+Pokemon = PINCURCHIN,70
+    Moves = EXPLOSION,POISONSPIKES,STUNNINGCURL,SHORTCIRCUIT
+    AbilityIndex = 1 # Spinesplode
+    Item = EMPTYSTONE
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,20,0,0,10
+Pokemon = KOMMOO,70
+    Moves = DRAGONPULSE,AURASPHERE,FLASHCANNON,CLANGOROUSSOUL
+    AbilityIndex = 0 # Well Rounded
+    Item = STRESSBALL
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = MHAEROBIC,70
+    Moves = HYPERVOICE,LUNASUCRE,MOONBLAST,STEALTHROCK
+    AbilityIndex = 1 # Heart of Justice
+    Item = FOCUSSASH
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = CONIFEAR,70
+    Moves = ICEBERGBASH,LEAFSTORM,SEISMICWAVE,ROOTSHELTER
+    AbilityIndex = 1 # Frustrate
+    Item = WHITEHERB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = MZANGOOSE,70
+    Moves = SIXFEETUNDER,CLOSECOMBAT,POWDERBOMB,FLOWSTATE
+    AbilityIndex = 1 # Mental Damage
+    Item = SEVENLEAGUEBOOTS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = KLAWSAR,70
+    Moves = SLAMSHUT,XSCISSOR,STOMPINGTANTRUM,ERODINGFOAM
+    AbilityIndex = 1 # Bottom Feeder
+    Item = GRIPCLAW
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,10,0,20,0
+#-------------------------------
+[POKEMONCHAMPION_Vanya,Vanya]
+Flags = NoPerfect
+Pokemon = PINCURCHIN,70
+    Moves = EXPLOSION,POISONSPIKES,STUNNINGCURL,THUNDERCAGE
+    AbilityIndex = 1 # Spinesplode
+    Item = REDCARD
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,20,0,0,10
+Pokemon = MZANGOOSE,70
+    Moves = SIXFEETUNDER,CLOSECOMBAT,ICECALIBUR,SWORDSDANCE
+    AbilityIndex = 1 # Mental Damage
+    Item = SEVENLEAGUEBOOTS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = KLAWSAR,70
+    Moves = SLAMSHUT,KNOCKOFF,FARADAYCAGE,BAR
+    AbilityIndex = 1 # Bottom Feeder
+    Item = GRIPCLAW
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,10,0,20,0
+Pokemon = MSCEPTILE,70
+    Moves = FEATHERLOCKVOLLEY,SEVER,PARTINGSHOT,DRAGBENEATH
+    AbilityIndex = 1 # Hit and Run
+    Item = CHOICEBAND
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = SALAZZLE,70
+    Moves = WHITEFLAME,ACIDBATH,HYPOTHERMIATE,DARKALLURE
+    AbilityIndex = 1 # Domineering
+    Item = EXPERTBELT
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = DELIBIRD,70
+    Moves = PACKAGE,RAPIDSPIN,COLDFRONT,EARTHPOWER
+    AbilityIndex = 1 # Holiday Cheer
+    Item = HEAVYDUTYBOOTS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
+#-------------------------------
+[POKEMONTRAINER_Vanya,Vanya,3]
+Flags = NoPerfect,HailTeam
+Pokemon = KYUREM,70
+    Moves = ICEHAMMER,DRACOMETEOR,WYRMWOUNDING,ROOST
+    AbilityIndex = 0 # Heat Death
+    Item = EJECTPACK
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,20,0,20,0
+Pokemon = MNOCTOWL,70
+    Moves = SHEDCOAT,AIRSLASH,SUBLIMATE,EARTHPOWER
+    AbilityIndex = 1 # Winter Insulation
+    Item = WHITEHERB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,0,10,20,0
+Pokemon = EMPOLEON,70
+    Moves = FRAGMENTATION,HARBORBREAKER,BRAVEBIRD,AURASPHERE
+    AbilityIndex = 1 # Winter's Wages
+    Item = CHOICESCARF
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = HDECIDUEYE,70
+    Moves = THREEFOLDVOLLEY,DEEPBREATHING,LEAFSTORM,TOTALCONTROL
+    AbilityIndex = 0 # Taiga Trekker
+    Item = SCOPELENS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = HZOROARK,70
+    Moves = MALEFACTION,GHOSTLYTALE,DRIFTOFF,HAIL
+    AbilityIndex = 1 # Snow Shroud
+    Item = LEFTOVERS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = DRAGAPULT,70
+    Moves = FLY,DIVE,SIXFEETUNDER,UTURN
+    AbilityIndex = 0 # Fascinate
+    Item = LIFEORB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
+#-------------------------------
 [POKEMONMASTER_Vanya,Vanya]
 Flags = NoPerfect
 Pokemon = KLAWSAR,70
