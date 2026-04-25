@@ -1048,17 +1048,17 @@ Special,,40,40
     1,SOLROCK,40
 #-------------------------------
 [349] # UB Portal
-Special,,60,60
-    1,BLACEPHALON,56,58
-    1,BUZZWOLE,56,58
-    1,CELESTEELA,56,58
-    1,GUZZLORD,56,58
-    1,KARTANA,56,58
-    1,NIHILEGO,56,58
-    1,PHEROMOSA,56,58
-    1,POIPOLE,56,58
-    1,STAKATAKA,56,58
-    1,XURKITREE,56,58
+DarkCave,10,60
+    13,BUZZWOLE,56,58
+    13,NIHILEGO,56,58
+    13,PHEROMOSA,56,58
+    13,XURKITREE,56,58
+    12,BLACEPHALON,56,58
+    12,CELESTEELA,56,58
+    12,GUZZLORD,56,58
+    12,KARTANA,56,58
+    12,POIPOLE,56,58
+    12,STAKATAKA,56,58
 #-------------------------------
 [353] # Crumbling Canyon B4
 DarkCave,20,60

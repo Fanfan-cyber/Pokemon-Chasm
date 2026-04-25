@@ -30,7 +30,7 @@ bag swinging!"))
 end
 
 def startUBBattle()
-    encounter = $PokemonEncounters.choose_wild_pokemon_for_map(349, :Special)
+    encounter = $PokemonEncounters.choose_wild_pokemon_for_map(349, :DarkCave)
     chosenUBspecies = encounter[0]
     speciesDisplayName = GameData::Species.get(chosenUBspecies).name
 	pbMessage(_INTL("A {1} emerged from the wormhole!", speciesDisplayName))
