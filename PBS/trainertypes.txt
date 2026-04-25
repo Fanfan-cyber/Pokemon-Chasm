@@ -1403,6 +1403,11 @@ Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
+[POKEMONTRAINER_Vanya]
+Name = Pokémon Trainer
+Gender = Unknown
+BaseMoney = 100
+#-------------------------------
 [POKEMONTRAINER_Yezera]
 Name = Pokémon Trainer
 Gender = Female
