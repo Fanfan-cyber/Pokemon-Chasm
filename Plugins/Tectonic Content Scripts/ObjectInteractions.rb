@@ -35,6 +35,5 @@ def startUBBattle()
     speciesDisplayName = GameData::Species.get(chosenUBspecies).name
 	pbMessage(_INTL("A {1} emerged from the wormhole!", speciesDisplayName))
 	level = [encounter[1],getLevelCap].min
-    pbSetNextBattleBGM("Battle ultra beast.ogg")
 	pbWildBattleCore(chosenUBspecies, level)
 end
