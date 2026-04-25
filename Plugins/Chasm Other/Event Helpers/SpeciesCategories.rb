@@ -37,8 +37,14 @@ def isBandMember?(species)
 	return array.include?(species)
 end
 
+def isTurtle?(species)
+	array = %i[CARRACOSTA TIRTOUGA TORKOAL TURTWIG GROTLE TORTERRA CHEWTLE DREDNAW SEISMAW SQUIRTLE WARTORTLE BLASTOISE TURTONATOR]
+	return array.include?(species)
+end
+
 def isTMNT?(species)
-	array = %i[CARRACOSTA TIRTOUGA TORKOAL TORTERRA GROTLE TURTWIG CHEWTLE DREDNAW SEISMAW SQUIRTLE WARTORTLE BLASTOISE RATICATE RATTATA CUBONE MAROWAK]
+	return true if isTurtle?(species)
+	array = %i[RATICATE RATTATA CUBONE MAROWAK]
 	return array.include?(species)
 end
 
