@@ -124,6 +124,7 @@ Description = At the end of every turn, its stats shift position (Attack-> Defen
 [AUTUMNAL]
 Name = Autumnal
 Description = Healing on this Pokémon is reversed.
+Flags = ForceSignature
 #-------------------------------
 [BACKWASH]
 Name = Backwash
@@ -267,6 +268,7 @@ Flags = HailSynergy
 [CALMINGSCUTECHARM]
 Name = Calming Scute Charm
 Description = After this Pokémon is hit thrice, a Sanctuary is set on its side for 5 turns. The attacker becomes drowsy.
+Flags = ForceSignature
 #-------------------------------
 [CANDYVEIL]
 Name = Candy Veil
@@ -480,6 +482,7 @@ Description = At the end of each turn, its Sp. Atk is lowered. Then, you choose 
 [DISASTERRESPONSE]
 Name = Disaster Response
 Description = This Pokémon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
+Flags = ForceSignature
 #-------------------------------
 [DISCOMBOBULATOR]
 Name = Discombobulator
@@ -954,6 +957,7 @@ Description = When this Pokémon gains a non-volatile status condition, its Spee
 [HAUNTED]
 Name = Haunted
 Description = This Pokémon is also Ghost-type.
+Flags = ForceSignature
 #-------------------------------
 [HEADACHE]
 Name = Headache
@@ -1205,6 +1209,7 @@ Description = If an attack lowers this Pokémon's HP below half, the attacker be
 [KARMICBALANCE]
 Name = Karmic Balance
 Description = After attacks, lower Attack and Sp. Atk by two steps, and raise Defense and Sp. Def by two steps. After status moves, do the opposite.
+Flags = ForceSignature
 #-------------------------------
 [KELPLINK]
 Name = Kelp Link
@@ -1242,6 +1247,7 @@ Description = On the first turn, its special attacks trap the target and damage 
 [LEADDANCER]
 Name = Lead Dancer
 Description = The user's dance moves have increased priority.
+Flags = ForceSignature
 #-------------------------------
 [LEADSINGER]
 Name = Lead Singer
@@ -1367,6 +1373,7 @@ Description = All Pokémon's damage is decreased proportional to their health re
 [MENDINGFEATHERCHARM]
 Name = Mending Feather Charm
 Description = When this Pokémon is hit thrice, all party members heal for 1/8th HP. The attacker is forced to switch out.
+Flags = ForceSignature
 #-------------------------------
 [MENTALBLOCK]
 Name = Mental Block
@@ -1729,7 +1736,7 @@ Description = This Pokémon's Dragon-type hits deal additional damage equal to h
 [PURESTLIGHT]
 Name = Purest Light
 Description = Has Light That Burns the Sky as its 5th move.
-Flags = Immutable
+Flags = Immutable,ForceSignature
 #-------------------------------
 [PUZZLING]
 Name = Puzzling
@@ -1754,6 +1761,7 @@ Description = When this Pokémon is rampaging, it can choose the rampage moves i
 [RAGINGSCALECHARM]
 Name = Raging Scale Charm
 Description = When this Pokémon is hit thrice, a Live Wire is set on the foe's side. The attacker hits itself in a rage.
+Flags = ForceSignature
 #-------------------------------
 [RAINBOWGUARDIAN]
 Name = Rainbow Guardian
@@ -1846,6 +1854,7 @@ Description = Critical hits lower all of the victim's stats.
 [RENDINGFANGCHARM]
 Name = Rending Fang Charm
 Description = When this Pokémon is hit thrice, two layers of Spikes are set on the foe's side. The attacker will flinch next turn.
+Flags = ForceSignature
 #-------------------------------
 [REPETITION]
 Name = Repetition
@@ -2122,6 +2131,7 @@ Description = Whenever this Pokémon falls asleep, each other battler becomes dr
 [SNORER]
 Name = Snorer
 Description = When hit while asleep, hits back instantly with Snore at half power.
+Flags = ForceSignature
 #-------------------------------
 [SNOWSHROUD]
 Name = Snow Shroud
@@ -2224,6 +2234,7 @@ Description = Prevents half the self-damage from recoil. Powers up moves that ha
 [STONESYMBOL]
 Name = Stone Symbol
 Description = During sandstorm, immune to non-volatile status conditions and stat reductions.
+Flags = ForceSignature
 #-------------------------------
 [STORMBRINGER]
 Name = Stormbringer
@@ -2556,7 +2567,7 @@ Description = At the end of each turn, itself and each ally heals for 1/16th of 
 [VOIDWARRANTY]
 Name = Void Warranty
 Description = Changes into another form of your choosing when its HP is lowered below half.
-Flags = Uncopyable
+Flags = Uncopyable,ForceSignature
 #-------------------------------
 [WALLNINJA]
 Name = Wall Ninja
