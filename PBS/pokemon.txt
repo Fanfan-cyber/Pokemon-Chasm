@@ -20,6 +20,7 @@ Weight = 6.9
 Kind = Seed
 Pokedex = While it is young, it uses the nutrients that are stored in the seed on its back in order to grow.
 Generation = 1
+Flags = Frog
 Evolutions = IVYSAUR,Level,16
 #-------------------------------
 [IVYSAUR]
@@ -39,6 +40,7 @@ Weight = 13.0
 Kind = Seed
 Pokedex = To support its weight, Ivysaur's legs and trunk grow thick and strong. If it spends more time lying in the sunlight, it's a sign that the bud will bloom soon.
 Generation = 1
+Flags = Frog,Smasher
 Evolutions = VENUSAUR,Level,36
 #-------------------------------
 [VENUSAUR]
@@ -59,6 +61,7 @@ Weight = 100.0
 Kind = Seed
 Pokedex = Its plant blooms when it is absorbing solar energy. It stays on the move to seek sunlight.
 Generation = 1
+Flags = Frog
 #-------------------------------
 [CHARMANDER]
 Name = Charmander
@@ -119,6 +122,7 @@ Weight = 90.5
 Kind = Flame
 Pokedex = If Charizard becomes furious, the flame at the tip of its tail flares up in a whitish-blue color.
 Generation = 1
+Flags = Smasher
 #-------------------------------
 [SQUIRTLE]
 Name = Squirtle
@@ -140,6 +144,7 @@ Weight = 9.0
 Kind = Tiny Turtle
 Pokedex = Its shell is not just for protection. Its rounded shape and the grooves on its surface minimize resistance in water, enabling Squirtle to swim at high speeds.
 Generation = 1
+Flags = Turtle,Smasher
 Evolutions = WARTORTLE,Level,16
 #-------------------------------
 [WARTORTLE]
@@ -159,6 +164,7 @@ Weight = 22.5
 Kind = Turtle
 Pokedex = Its large tail is covered with rich, thick fur that deepens in color with age. The scratches on its shell are evidence of this Pokémon's toughness in battle.
 Generation = 1
+Flags = Turtle
 Evolutions = BLASTOISE,Level,36
 #-------------------------------
 [BLASTOISE]
@@ -179,6 +185,7 @@ Weight = 85.5
 Kind = Shellfish
 Pokedex = The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.
 Generation = 1
+Flags = Turtle,PirateCrew
 #-------------------------------
 [CATERPIE]
 Name = Caterpie
@@ -419,6 +426,7 @@ Weight = 3.5
 Kind = Mouse
 Pokedex = Cautious in the extreme, its hardy vitality lets it live in any kind of environment.
 Generation = 1
+Flags = TMNT
 Evolutions = RATICATE,Level,34
 #-------------------------------
 [RATICATE]
@@ -437,6 +445,7 @@ Weight = 18.5
 Kind = Mouse
 Pokedex = With its long fangs, this surprisingly violent Pokémon can gnaw away even thick concrete with ease.
 Generation = 1
+Flags = TMNT
 #-------------------------------
 [ARATTATA]
 Name = A. Rattata
@@ -596,6 +605,7 @@ Weight = 6.0
 Kind = Mouse
 Pokedex = This intelligent Pokémon roasts hard berries with electricity to make them tender enough to eat.
 Generation = 1
+Flags = Smasher
 WildItemUncommon = AGILITYHERB
 Evolutions = RAICHU,Level,36,ARAICHU,Item,ALOLANWREATH,GIGACHU,Item,DAWNSTONE
 #-------------------------------
@@ -799,6 +809,7 @@ Weight = 60.0
 Kind = Drill
 Pokedex = It pacifies offspring by placing them in the gaps between the spines on its back. The spines will never secrete poison while young are present.
 Generation = 1
+Flags = Queen
 #-------------------------------
 [NIDORANmA]
 Name = Nidoran-M
@@ -859,6 +870,7 @@ Weight = 62.0
 Kind = Drill
 Pokedex = When it goes on a rampage, it's impossible to control. But in the presence of a Nidoqueen it's lived with for a long time, Nidoking calms down.
 Generation = 1
+Flags = King
 #-------------------------------
 [CLEFFA]
 Name = Cleffa
@@ -880,6 +892,7 @@ Weight = 3.0
 Kind = Star Shape
 Pokedex = Many appear when the night skies are filled with shooting stars. They disappear with sunrise.
 Generation = 2
+Flags = Alien
 WildItemUncommon = MIRROREDROCK
 Evolutions = CLEFAIRY,Level,22
 #-------------------------------
@@ -901,6 +914,7 @@ Weight = 7.5
 Kind = Fairy
 Pokedex = On every night of a full moon they come out to play. When dawn arrives, they return to their quiet mountain retreats and sleep nestled up against each other.
 Generation = 1
+Flags = Alien
 WildItemUncommon = MIRROREDROCK
 Evolutions = CLEFABLE,Level,45
 #-------------------------------
@@ -922,6 +936,7 @@ Weight = 40.0
 Kind = Fairy
 Pokedex = A Clefable uses its wings to skip lightly as if it were flying. Its bouncy step lets it even walk on water. On quiet, moonlit nights, it strolls on lakes.
 Generation = 1
+Flags = Alien
 WildItemUncommon = MIRROREDROCK
 #-------------------------------
 [VULPIX]
@@ -1074,6 +1089,7 @@ Weight = 1.0
 Kind = Balloon
 Pokedex = It has a very soft body. If it starts to roll, it will bounce all over and be impossible to stop.
 Generation = 2
+Flags = BandMember
 Evolutions = JIGGLYPUFF,Level,16
 #-------------------------------
 [JIGGLYPUFF]
@@ -1093,6 +1109,7 @@ Weight = 5.5
 Kind = Balloon
 Pokedex = By freely changing the wavelength of its voice, Jigglypuff sings a mysterious melody sure to make any listener sleepy.
 Generation = 1
+Flags = BandMember,Smasher
 Evolutions = WIGGLYTUFF,Item,MOONSTONE
 #-------------------------------
 [WIGGLYTUFF]
@@ -1113,6 +1130,7 @@ Weight = 12.0
 Kind = Balloon
 Pokedex = The surfaces of its saucerlike eyes are always covered with a thin layer of tears. If any dust gets in this Pokémon's eyes, it is quickly washed away.
 Generation = 1
+Flags = BandMember
 #-------------------------------
 [ZUBAT]
 Name = Zubat
@@ -1133,6 +1151,7 @@ Weight = 7.5
 Kind = Bat
 Pokedex = Their skin is so thin that they'll be burned if sunlight hits them. When it gets cold out, they gather together to warm one another's bodies.
 Generation = 1
+Flags = Bat
 Evolutions = GOLBAT,Level,22
 #-------------------------------
 [GOLBAT]
@@ -1151,6 +1170,7 @@ Weight = 55.0
 Kind = Bat
 Pokedex = Its thick fangs are hollow like straws, making them unexpectedly fragile. These fangs are specialized for sucking blood.
 Generation = 1
+Flags = Bat
 Evolutions = CROBAT,Item,DUSKSTONE
 #-------------------------------
 [CROBAT]
@@ -1170,6 +1190,7 @@ Weight = 75.0
 Kind = Bat
 Pokedex = Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.
 Generation = 2
+Flags = Bat
 #-------------------------------
 [ODDISH]
 Name = Oddish
@@ -1273,6 +1294,7 @@ Weight = 5.4
 Kind = Mushroom
 Pokedex = No matter how much it eats, the mushrooms growing on its back steal away most of the nutrients it consumes.
 Generation = 1
+Flags = Mushroom
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 Evolutions = PARASECT,Level,36
@@ -1294,6 +1316,7 @@ Weight = 29.5
 Kind = Mushroom
 Pokedex = The large mushroom on its back controls it. It often fights over territory with Shiinotic.
 Generation = 1
+Flags = Mushroom
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 #-------------------------------
@@ -1440,6 +1463,7 @@ Weight = 4.2
 Kind = Scratch Cat
 Pokedex = It loves coins, so if you give it one, you can make friends with Meowth easily. But it's fickle, so you can't count on that friendship lasting.
 Generation = 1
+Flags = Cat
 WildItemUncommon = PEARL
 Evolutions = PERSIAN,Level,31,NIBELONG,Item,DAWNSTONE
 #-------------------------------
@@ -1462,6 +1486,7 @@ Weight = 32.0
 Kind = Classy Cat
 Pokedex = Behind its lithe, elegant appearance lies a barbaric side. It will tear apart its prey on a mere whim.
 Generation = 1
+Flags = Cat
 WildItemUncommon = NUGGET
 #-------------------------------
 [NIBELONG]
@@ -1504,6 +1529,7 @@ Weight = 4.2
 Kind = Scratch Cat
 Pokedex = It's impulsive, selfish, and fickle. It's very popular with some Trainers who like giving it the attention it needs.
 Generation = 7
+Flags = Cat
 WildItemUncommon = PEARL
 Evolutions = APERSIAN,Item,ALOLANWREATH
 #-------------------------------
@@ -1524,6 +1550,7 @@ Weight = 33.0
 Kind = Classy Cat
 Pokedex = Its round face is a symbol of wealth. Persian that have bigger, plumper faces are considered more beautiful.
 Generation = 7
+Flags = Cat
 WildItemUncommon = PEARL
 #-------------------------------
 [GMEOWTH]
@@ -1546,6 +1573,7 @@ Weight = 4.2
 Kind = Scratch Cat
 Pokedex = These daring Pokémon have coins on their foreheads. Darker coins are harder, and harder coins garner more respect among Meowth.
 Generation = 8
+Flags = Cat
 WildItemUncommon = PEARL
 Evolutions = PERRSERKER,Item,ICESTONE
 #-------------------------------
@@ -1567,6 +1595,7 @@ Weight = 28.0
 Kind = Viking
 Pokedex = After many battles, it evolved dangerous claws that come together to form daggers when extended.
 Generation = 8
+Flags = Cat
 #-------------------------------
 [PSYDUCK]
 Name = Psyduck
@@ -1766,6 +1795,7 @@ Weight = 12.4
 Kind = Tadpole
 Pokedex = In rivers with fast-flowing water, this Pokémon will cling to a rock by using its thick lips, which act like a suction cup.
 Generation = 1
+Flags = Frog
 Evolutions = POLIWHIRL,Level,25
 #-------------------------------
 [POLIWHIRL]
@@ -1784,6 +1814,7 @@ Weight = 20.0
 Kind = Tadpole
 Pokedex = This Pokémon's sweat is a slimy mucus. When captured, Poliwhirl can slither from its enemies' grasp and escape.
 Generation = 1
+Flags = Frog
 WildItemUncommon = MYSTICWATER
 Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,Level,34
 #-------------------------------
@@ -1805,6 +1836,7 @@ Weight = 54.0
 Kind = Tadpole
 Pokedex = Its percentage of body fat is nearly zero. Its body is entirely muscle, which makes it heavy and forces its swimming prowess to develop.
 Generation = 1
+Flags = Frog
 WildItemUncommon = MYSTICWATER
 #-------------------------------
 [POLITOED]
@@ -1824,6 +1856,7 @@ Weight = 33.9
 Kind = Frog
 Pokedex = If Poliwag and Poliwhirl hear its echoing cry, they respond by gathering from far and wide.
 Generation = 2
+Flags = Frog
 WildItemUncommon = MYSTICWATER
 #-------------------------------
 [ABRA]
@@ -1845,7 +1878,7 @@ Weight = 19.5
 Kind = Psi
 Pokedex = It can read others' minds and will teleport away when danger approaches. You must clear your mind if you want to catch it.
 Generation = 1
-Flags = Floating
+Flags = Floating,Smart
 WildItemUncommon = TWISTEDSPOON
 Evolutions = KADABRA,Level,20
 #-------------------------------
@@ -1865,6 +1898,7 @@ Weight = 56.5
 Kind = Psi
 Pokedex = It stares at a silver spoon to amplify its psychic powers before it lets loose. Apparently, gold spoons are no good.
 Generation = 1
+Flags = Smart
 WildItemUncommon = TWISTEDSPOON
 Evolutions = ALAKAZAM,Level,36
 #-------------------------------
@@ -1885,6 +1919,7 @@ Weight = 48.0
 Kind = Psi
 Pokedex = Alakazam's brain continually grows, making its head far too heavy to support with its neck. This Pokémon holds its head up using its psychokinetic power instead.
 Generation = 1
+Flags = Smart
 WildItemUncommon = TWISTEDSPOON
 #-------------------------------
 [MACHOP]
@@ -2313,7 +2348,7 @@ Weight = 79.5
 Kind = Royal
 Pokedex = When its head was bitten, toxins entered Slowpoke's head and unlocked an extraordinary power.
 Generation = 2
-Flags = Swimming
+Flags = Swimming,Smart,King
 WildItemUncommon = MYSTICWATER
 #-------------------------------
 [GSLOWPOKE]
@@ -2379,6 +2414,7 @@ Weight = 79.5
 Kind = Hexpert
 Pokedex = Slowking can solve any problem present to it, but no one can understand a thing Slowking says.
 Generation = 8
+Flags = Smart,King
 WildItemUncommon = POISONBARB
 #-------------------------------
 [MAGNEMITE]
@@ -2509,6 +2545,7 @@ Weight = 117.0
 Kind = Wild Duck
 Pokedex = After deflecting attacks with its hard leaf shield, it strikes back with its sharp leek stalk. The leek stalk is both weapon and food.
 Generation = 8
+Flags = Knight
 WildItemUncommon = STRENGTHHERB
 #-------------------------------
 [DODUO]
@@ -2916,7 +2953,7 @@ Weight = 60.0
 Kind = Pincer
 Pokedex = Kingler has an enormous, oversized claw, which it waves in the air to communicate with others. However, because the claw is so heavy, it quickly tires.
 Generation = 1
-Flags = Grounded
+Flags = Grounded,King
 Evolutions = KLAWSAR,Level,36
 #-------------------------------
 [KLAWSAR]
@@ -3100,6 +3137,7 @@ Weight = 6.5
 Kind = Lonely
 Pokedex = This Pokémon wears the skull of its deceased mother. Sometimes Cubone's dreams make it cry, but each tear Cubone sheds makes it stronger.
 Generation = 1
+Flags = TMNT
 WildItemUncommon = RAREBONE
 Evolutions = MAROWAK,Level,36,AMAROWAK,Item,ALOLANWREATH
 #-------------------------------
@@ -3122,6 +3160,7 @@ Weight = 45.0
 Kind = Bone Keeper
 Pokedex = This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.
 Generation = 1
+Flags = TMNT
 WildItemUncommon = RAREBONE
 #-------------------------------
 [AMAROWAK]
@@ -3617,6 +3656,7 @@ Weight = 152.0
 Kind = Dragon
 Pokedex = It stores energy by sleeping at underwater depths at which no other life-forms can survive.
 Generation = 2
+Flags = King
 WildItemUncommon = MYSTICWATER
 #-------------------------------
 [GOLDEEN]
@@ -3660,6 +3700,7 @@ Weight = 39.0
 Kind = Goldfish
 Pokedex = Trainers who are crazy for Seaking are divided into horn enthusiasts and fin enthusiasts. The two groups do not get along well.
 Generation = 1
+Flags = King
 WildItemUncommon = MYSTICWATER
 #-------------------------------
 [MGOLDEEN]
@@ -3723,6 +3764,7 @@ Weight = 34.5
 Kind = Star Shape
 Pokedex = This Pokémon gets nibbled on by Lumineon and others. Thanks to its red core, it regenerates fast, so it's unconcerned by their snack attacks.
 Generation = 1
+Flags = Alien
 WildItemCommon = STARDUST
 WildItemUncommon = STARPIECE
 Evolutions = STARMIE,Level,37
@@ -3744,6 +3786,7 @@ Weight = 80.0
 Kind = Mysterious
 Pokedex = This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.
 Generation = 1
+Flags = Alien
 WildItemCommon = STARDUST
 WildItemUncommon = STARPIECE
 #-------------------------------
@@ -4316,6 +4359,7 @@ Weight = 6.5
 Kind = Evolution
 Pokedex = Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives.
 Generation = 1
+Flags = Cat
 Evolutions = VAPOREON,Item,WATERSTONE,JOLTEON,Item,THUNDERSTONE,FLAREON,Item,FIRESTONE,LEAFEON,Item,LEAFSTONE,GLACEON,Item,ICESTONE,SYLVEON,Item,DAWNSTONE,ESPEON,Item,SUNSTONE,UMBREON,Item,MOONSTONE,GIGANTEON,Level,40
 #-------------------------------
 [VAPOREON]
@@ -4337,6 +4381,7 @@ Weight = 29.0
 Kind = Bubble Jet
 Pokedex = When Vaporeon's fins begin to vibrate, it is a sign that rain will come within a few hours.
 Generation = 1
+Flags = Cat
 #-------------------------------
 [JOLTEON]
 Name = Jolteon
@@ -4357,6 +4402,7 @@ Weight = 24.5
 Kind = Lightning
 Pokedex = Its lungs contain an organ that creates electricity. The crackling sound of electricity can be heard when it exhales.
 Generation = 1
+Flags = Cat
 #-------------------------------
 [FLAREON]
 Name = Flareon
@@ -4377,6 +4423,7 @@ Weight = 25.0
 Kind = Flame
 Pokedex = A dedicated omnivore, Flareon will eat anything - as long as it's been slow-roasted first.
 Generation = 1
+Flags = Cat
 #-------------------------------
 [ESPEON]
 Name = Espeon
@@ -4397,6 +4444,7 @@ Weight = 26.5
 Kind = Sun
 Pokedex = Its fur is so sensitive, it can feel minute shifts in the air and predict the weather...and its foes' thoughts.
 Generation = 2
+Flags = Cat
 #-------------------------------
 [UMBREON]
 Name = Umbreon
@@ -4417,6 +4465,7 @@ Weight = 27.0
 Kind = Moonlight
 Pokedex = When exposed to the moon's aura, the rings on its body glow faintly and it's filled with a mysterious power.
 Generation = 2
+Flags = Cat
 #-------------------------------
 [LEAFEON]
 Name = Leafeon
@@ -4437,6 +4486,7 @@ Weight = 25.5
 Kind = Verdant
 Pokedex = Just like a plant, it uses photosynthesis. As a result, it is always enveloped in clear air.
 Generation = 4
+Flags = Cat
 #-------------------------------
 [GLACEON]
 Name = Glaceon
@@ -4457,6 +4507,7 @@ Weight = 25.9
 Kind = Fresh Snow
 Pokedex = It lowers its body heat to freeze its fur. The hairs then become like needles it can fire.
 Generation = 4
+Flags = Cat
 #-------------------------------
 [SYLVEON]
 Name = Sylveon
@@ -4477,6 +4528,7 @@ Weight = 23.5
 Kind = Intertwining
 Pokedex = Sylveon's ribbon-like feelers emit an aura that erases any sense of hostility, enabling it to stop fights. It wraps its feelers to its Trainer in order to read their feelings.
 Generation = 6
+Flags = Cat
 #-------------------------------
 [GIGANTEON]
 Name = Giganteon
@@ -4496,6 +4548,7 @@ Height = 10.3
 Weight = 300.5
 Kind = Massive Fluff
 Pokedex = Its fluffiness, friendliness, and massive size make it beloved by nearly everyone. Attackers don't know where to begin.
+Flags = Cat
 #-------------------------------
 [PORYGON]
 Name = Porygon
@@ -5880,6 +5933,7 @@ Weight = 20.3
 Kind = Long Tail
 Pokedex = To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.
 Generation = 4
+Flags = PirateCrew
 #-------------------------------
 [SUNKERN]
 Name = Sunkern
@@ -6297,6 +6351,7 @@ Weight = 64.8
 Kind = FlyScorpion
 Pokedex = It flies straight at its target's face, then clamps down on the startled victim to inject poison.
 Generation = 2
+Flags = Bat
 Evolutions = GLISCOR,Level,36
 #-------------------------------
 [GLISCOR]
@@ -6316,6 +6371,7 @@ Weight = 42.5
 Kind = Fang Scorp
 Pokedex = Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.
 Generation = 4
+Flags = Bat
 #-------------------------------
 [SNUBBULL]
 Name = Snubbull
@@ -6815,6 +6871,7 @@ Weight = 28.5
 Kind = Jet
 Pokedex = It traps foes with the suction cups on its tentacles, then smashes them with its rock-hard head.
 Generation = 2
+Flags = PirateCrew
 #-------------------------------
 [MANTYKE]
 Name = Mantyke
@@ -7014,7 +7071,7 @@ StepsToHatch = 5355
 Height = 0.5
 Weight = 33.5
 Kind = Long Nose
-Pokedex = Phanpy uses its snout to shower itself with water. However its snout is so strong that when it bumps into you, it may send you flying.
+Pokedex = Phanpy uses its snout to shower itself with water. However, its snout is so strong that when it bumps into you, it may send you flying.
 Generation = 2
 Evolutions = DONPHAN,Level,26
 #-------------------------------
@@ -7176,7 +7233,7 @@ Weight = 178.0
 Kind = Thunder
 Pokedex = Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
 Generation = 2
-Flags = Legendary
+Flags = Legendary,Cat
 #-------------------------------
 [ENTEI]
 Name = Entei
@@ -7198,7 +7255,7 @@ Weight = 198.0
 Kind = Volcano
 Pokedex = Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.
 Generation = 2
-Flags = Legendary
+Flags = Legendary,Cat
 #-------------------------------
 [SUICUNE]
 Name = Suicune
@@ -7220,7 +7277,7 @@ Weight = 187.0
 Kind = Aurora
 Pokedex = Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pokémon has the power to purify dirty water.
 Generation = 2
-Flags = Legendary
+Flags = Legendary,Cat
 #-------------------------------
 [LUGIA]
 Name = Lugia
@@ -8238,6 +8295,7 @@ Weight = 48.4
 Kind = Embrace
 Pokedex = It has the power to predict the future. Its power peaks when it is protecting its Trainer.
 Generation = 3
+Flags = Queen
 #-------------------------------
 [GALLADE]
 Name = Gallade
@@ -8259,6 +8317,7 @@ Weight = 52.0
 Kind = Blade
 Pokedex = A master of courtesy and swordsmanship, it fights using extending swords on its elbows.
 Generation = 4
+Flags = Knight
 #-------------------------------
 [SURSKIT]
 Name = Surskit
@@ -8319,6 +8378,7 @@ Weight = 4.5
 Kind = Mushroom
 Pokedex = It spouts poison spores from the top of its head. These spores cause pain all over if inhaled.
 Generation = 3
+Flags = Mushroom
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 Evolutions = BRELOOM,Level,32
@@ -8340,6 +8400,7 @@ Weight = 39.2
 Kind = Mushroom
 Pokedex = It scatters poisonous spores and throws powerful punches while its foe is hampered by inhaled spores.
 Generation = 3
+Flags = Mushroom
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 #-------------------------------
@@ -8397,6 +8458,7 @@ Weight = 130.5
 Kind = Lazy
 Pokedex = It is the world's most slothful Pokémon. However, it can exert horrifying power by releasing pent-up energy all at once.
 Generation = 3
+Flags = King
 #-------------------------------
 [NINCADA]
 Name = Nincada
@@ -8484,6 +8546,7 @@ Weight = 16.3
 Kind = Whisper
 Pokedex = If it senses danger, it scares the foe by crying out with the volume of a jet-plane engine.
 Generation = 3
+Flags = BandMember
 Evolutions = LOUDRED,Level,20
 #-------------------------------
 [LOUDRED]
@@ -8502,6 +8565,7 @@ Weight = 40.5
 Kind = Big Voice
 Pokedex = The shock waves from its cries can tip over trucks. It stamps its feet to power up.
 Generation = 3
+Flags = BandMember
 Evolutions = EXPLOUD,Level,40
 #-------------------------------
 [EXPLOUD]
@@ -8520,6 +8584,7 @@ Weight = 84.0
 Kind = Loud Noise
 Pokedex = Its roar in battle shakes the ground like a tremor--or like an earthquake has struck.
 Generation = 3
+Flags = BandMember
 #-------------------------------
 [MAKUHITA]
 Name = Makuhita
@@ -8623,6 +8688,7 @@ Weight = 11.0
 Kind = Kitten
 Pokedex = It shows its cute side by chasing its own tail until it gets dizzy.
 Generation = 3
+Flags = Cat
 Evolutions = DELCATTY,Item,MOONSTONE
 #-------------------------------
 [DELCATTY]
@@ -8642,6 +8708,7 @@ Weight = 32.6
 Kind = Prim
 Pokedex = It is highly popular among female Trainers for its sublime fur. It does not keep a nest.
 Generation = 3
+Flags = Cat
 #-------------------------------
 [SABLEYE]
 Name = Sableye
@@ -8683,6 +8750,7 @@ Height = 0.5
 Weight = 161.0
 Kind = Jewel
 Pokedex = Attackers find their weaknesses and regrets reflected in the jewel Rubarior carries. If it feels unloved, it will make its Trainer cry.
+Flags = PirateCrew
 WildItemUncommon = WIDELENS
 #-------------------------------
 [MAWILE]
@@ -9044,6 +9112,7 @@ Weight = 14.5
 Kind = Bouquet
 Pokedex = With the movements of a dancer, it strikes with whips that are densely lined with poison thorns.
 Generation = 4
+Flags = Knight
 WildItemUncommon = POISONBARB
 #-------------------------------
 [GULPIN]
@@ -9147,6 +9216,7 @@ Height = 2.5
 Weight = 176.3
 Kind = Scarred
 Pokedex = Its propulsion system is the basis for many ramjet engine designs. It eats four times its body weight in food before a battle and will still be hungry by the end.
+Flags = PirateCrew
 #-------------------------------
 [WAILMER]
 Name = Wailmer
@@ -9264,6 +9334,7 @@ Weight = 80.4
 Kind = Coal
 Pokedex = It burns coal inside its shell for energy. It blows out black soot if it is endangered.
 Generation = 3
+Flags = Turtle
 WildItemUncommon = CHARCOAL
 #-------------------------------
 [SPOINK]
@@ -9508,6 +9579,7 @@ Weight = 40.3
 Kind = Cat Ferret
 Pokedex = Its fur would all stand on end if it smelled a Seviper nearby. Its sharp claws tear up its foes.
 Generation = 3
+Flags = Cat
 WildItemUncommon = SCOPELENS
 #-------------------------------
 [SEVIPER]
@@ -9549,7 +9621,7 @@ Height = 1.2
 Weight = 16.8
 Kind = Vendetta
 Pokedex = Even being bisected by a Seviper's tail couldn't quell its rage. It attacks enemies on a physical and spiritual level simultaneously.
-Flags = Floating
+Flags = Floating,Cat
 #-------------------------------
 [MSEVIPER]
 Name = M. Seviper
@@ -9592,7 +9664,7 @@ Weight = 168.0
 Kind = Meteorite
 Pokedex = It was discovered at the site of a meteor strike 40 years ago. Its stare can lull its foes to sleep.
 Generation = 3
-Flags = Floating
+Flags = Floating,Alien
 WildItemCommon = STARDUST
 #-------------------------------
 [SOLROCK]
@@ -9616,7 +9688,7 @@ Weight = 154.0
 Kind = Meteorite
 Pokedex = It absorbs solar energy during the day. Always expressionless, it can sense what its foe is thinking.
 Generation = 3
-Flags = Floating
+Flags = Floating,Alien
 WildItemCommon = STARDUST
 #-------------------------------
 [BARBOACH]
@@ -9700,6 +9772,7 @@ Weight = 32.8
 Kind = Rogue
 Pokedex = Loving to battle, this Pokémon pinches all Pokémon that enter its territory with its pincers and throws them out.
 Generation = 3
+Flags = PirateCrew
 #-------------------------------
 [BALTOY]
 Name = Baltoy
@@ -10166,6 +10239,7 @@ Weight = 47.0
 Kind = Disaster
 Pokedex = Swift as the wind, Absol races through fields and mountains. Its curved, bow-like horn is acutely sensitive to the warning signs of natural disasters.
 Generation = 3
+Flags = Cat
 Evolutions = ABSOLUS,Level,45
 #-------------------------------
 [ABSOLUS]
@@ -10185,6 +10259,7 @@ Height = 1.4
 Weight = 59.0
 Kind = Harbinger
 Pokedex = It's loved for its elegantly intimidating looks. It may herald a coming cataclysm, but nothing gets between a trainer and a fashionable Pokémon.
+Flags = Cat
 #-------------------------------
 [SNORUNT]
 Name = Snorunt
@@ -10532,7 +10607,7 @@ Weight = 95.2
 Kind = Iron Ball
 Pokedex = From its rear, Beldum emits a magnetic force that rapidly pulls opponents in. They get skewered on Beldum's sharp claws.
 Generation = 3
-Flags = Floating
+Flags = Floating,Smart
 WildItemUncommon = MAGNET
 Evolutions = METANG,Level,21
 #-------------------------------
@@ -10555,7 +10630,7 @@ Weight = 202.5
 Kind = Iron Claw
 Pokedex = Using magnetic forces to stay aloft, this Pokémon flies at high speeds, weaving through harsh mountain terrain in pursuit of prey.
 Generation = 3
-Flags = Floating
+Flags = Floating,Smart
 WildItemUncommon = MAGNET
 Evolutions = METAGROSS,Level,45
 #-------------------------------
@@ -10578,6 +10653,7 @@ Weight = 550.0
 Kind = Iron Leg
 Pokedex = Metagross is the result of the fusion of two Metang. This Pokémon defeats its opponents through use of its supercomputer-level brain.
 Generation = 3
+Flags = Smart
 WildItemUncommon = MAGNET
 #-------------------------------
 [REGIROCK]
@@ -10875,7 +10951,7 @@ Kind = DNA
 Pokedex = DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.
 FormName = Normal
 Generation = 3
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Alien
 Formalizer = 0,1,2,3
 #-------------------------------
 [TURTWIG]
@@ -10897,6 +10973,7 @@ Weight = 10.2
 Kind = Tiny Leaf
 Pokedex = It relies heavily on water to keep its plant healthy, and thus it spends most of its time near lakes. When thirsty, the plant on its head wilts.
 Generation = 4
+Flags = Turtle
 Evolutions = GROTLE,Level,16
 #-------------------------------
 [GROTLE]
@@ -10915,6 +10992,7 @@ Weight = 97.0
 Kind = Grove
 Pokedex = It knows where pure water wells up. It carries fellow Pokémon there on its back.
 Generation = 4
+Flags = Turtle
 Evolutions = TORTERRA,Level,36
 #-------------------------------
 [TORTERRA]
@@ -10934,6 +11012,7 @@ Weight = 310.0
 Kind = Continent
 Pokedex = Small Pokémon occasionally gather on its unmoving back to begin building their nests.
 Generation = 4
+Flags = Turtle
 #-------------------------------
 [CHIMCHAR]
 Name = Chimchar
@@ -11049,6 +11128,7 @@ Weight = 84.5
 Kind = Emperor
 Pokedex = The three horns that extend from its beak attest to its power. The leader has the biggest horns.
 Generation = 4
+Flags = PirateCrew
 #-------------------------------
 [STARLY]
 Name = Starly
@@ -11163,6 +11243,7 @@ Weight = 2.2
 Kind = Cricket
 Pokedex = When its antennae hit each other, it sounds like the music of a xylophone.
 Generation = 4
+Flags = BandMember
 WildItemUncommon = METRONOME
 Evolutions = KRICKETUNE,Level,31
 #-------------------------------
@@ -11181,6 +11262,7 @@ Weight = 25.5
 Kind = Cricket
 Pokedex = It signals its emotions with its melodies. Scientists are studying these melodic patterns.
 Generation = 4
+Flags = BandMember
 WildItemUncommon = METRONOME
 #-------------------------------
 [SHINX]
@@ -11202,6 +11284,7 @@ Weight = 9.5
 Kind = Flash
 Pokedex = All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.
 Generation = 4
+Flags = Cat
 Evolutions = LUXIO,Level,22
 #-------------------------------
 [LUXIO]
@@ -11221,6 +11304,7 @@ Weight = 30.5
 Kind = Spark
 Pokedex = Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.
 Generation = 4
+Flags = Cat
 Evolutions = LUXRAY,Item,THUNDERSTONE
 #-------------------------------
 [LUXRAY]
@@ -11240,6 +11324,7 @@ Weight = 42.0
 Kind = Gleam Eyes
 Pokedex = Luxray's ability to see through objects comes in handy when it's scouting for danger.
 Generation = 4
+Flags = Cat
 #-------------------------------
 [CRANIDOS]
 Name = Cranidos
@@ -11429,7 +11514,7 @@ Weight = 38.5
 Kind = Beehive
 Pokedex = Its abdomen is a honeycomb for grubs. It raises its grubs on honey collected by Combee.
 Generation = 4
-Flags = Floating
+Flags = Floating,Queen
 WildItemCommon = HONEY
 #-------------------------------
 [PACHIRISU]
@@ -11756,6 +11841,7 @@ Weight = 3.9
 Kind = Catty
 Pokedex = When it's happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.
 Generation = 4
+Flags = Cat
 WildItemUncommon = SILKSCARF
 Evolutions = PURUGLY,Level,32
 #-------------------------------
@@ -11776,6 +11862,7 @@ Weight = 43.8
 Kind = Tiger Cat
 Pokedex = To make itself appear intimidatingly beefy, it tightly cinches its waist with its twin tails.
 Generation = 4
+Flags = Cat
 WildItemUncommon = SILKSCARF
 #-------------------------------
 [STUNKY]
@@ -11886,7 +11973,7 @@ Weight = 1.9
 Kind = Music Note
 Pokedex = It can learn and speak human words. If they gather, they all learn the same saying.
 Generation = 4
-Flags = Grounded
+Flags = Grounded,BandMember,PirateCrew
 WildItemUncommon = METRONOME
 #-------------------------------
 [SPIRITOMB]
@@ -12010,6 +12097,7 @@ Weight = 54.0
 Kind = Aura
 Pokedex = By reading the auras of all things, it can tell how others are feeling from over half a mile away.
 Generation = 4
+Flags = Smasher,Smasher
 Evolutions = RIOJIN,Level,45
 #-------------------------------
 [RIOJIN]
@@ -12131,6 +12219,7 @@ Weight = 23.0
 Kind = Toxic Mouth
 Pokedex = Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.
 Generation = 4
+Flags = Frog
 Evolutions = TOXICROAK,Level,31
 #-------------------------------
 [TOXICROAK]
@@ -12151,6 +12240,7 @@ Weight = 44.4
 Kind = Toxic Mouth
 Pokedex = Its knuckle claws secrete a toxin so vile that even a scratch could prove fatal.
 Generation = 4
+Flags = Frog
 #-------------------------------
 [CARNIVINE]
 Name = Carnivine
@@ -12336,7 +12426,7 @@ Weight = 0.3
 Kind = Knowledge
 Pokedex = Known as "The Being of Knowledge." It is said that it can wipe out the memory of those who see its eyes.
 Generation = 4
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Smart
 #-------------------------------
 [MESPRIT]
 Name = Mesprit
@@ -12780,6 +12870,7 @@ Weight = 94.6
 Kind = Formidable
 Pokedex = One swing of the sword incorporated in its armor can fell an opponent. A simple glare from one of them quiets everybody.
 Generation = 5
+Flags = Knight
 #-------------------------------
 [HSAMUROTT]
 Name = H. Samurott
@@ -12912,6 +13003,7 @@ Weight = 10.1
 Kind = Devious
 Pokedex = They steal from people for fun, but their victims can't help but forgive them. Their deceptively cute act is perfect.
 Generation = 5
+Flags = Cat
 Evolutions = LIEPARD,Level,28
 #-------------------------------
 [LIEPARD]
@@ -12931,6 +13023,7 @@ Weight = 37.5
 Kind = Cruel
 Pokedex = Stealthily, it sneaks up on its target, striking from behind before its victim has a chance to react.
 Generation = 5
+Flags = Cat
 #-------------------------------
 [PANSAGE]
 Name = Pansage
@@ -13310,6 +13403,7 @@ Height = 0.4
 Weight = 18.0
 Kind = Aberrant
 Pokedex = It was first unearthed in forbidden lands. Its body doesn't abide by the physical laws of this universe.
+Flags = Alien
 WildItemUncommon = EVERSTONE
 Evolutions = MBOLDORE,Level,25
 #-------------------------------
@@ -13329,6 +13423,7 @@ Height = 0.9
 Weight = 102.0
 Kind = Interloper
 Pokedex = It is more comfortable in alien dimensions than on Earth. The rocky parts of its body can't be analyzed by modern science.
+Flags = Alien
 WildItemUncommon = EVERSTONE
 Evolutions = MGIGALITH,Level,43
 #-------------------------------
@@ -13349,6 +13444,7 @@ Height = 1.7
 Weight = 260.0
 Kind = Unfathomable
 Pokedex = They can't be understood or predicted, making them dangerous opponents. At the end of their lifespan they return to their home universe, reporting to a higher will.
+Flags = Alien
 WildItemUncommon = EVERSTONE
 #-------------------------------
 [WOOBAT]
@@ -13371,6 +13467,7 @@ Weight = 2.1
 Kind = Bat
 Pokedex = The heart-shaped mark left on a body after a Woobat has been attached to it is said to bring good fortune.
 Generation = 5
+Flags = Bat
 Evolutions = SWOOBAT,Level,26
 #-------------------------------
 [SWOOBAT]
@@ -13390,6 +13487,7 @@ Weight = 10.5
 Kind = Courting
 Pokedex = Anyone who comes into contact with the ultrasonic waves emitted by a courting male experiences a positive mood shift.
 Generation = 5
+Flags = Bat
 #-------------------------------
 [DRILBUR]
 Name = Drilbur
@@ -13557,7 +13655,7 @@ Weight = 4.5
 Kind = Tadpole
 Pokedex = By vibrating its cheeks, it emits sound waves imperceptible to humans. It uses the rhythm of these sounds to talk.
 Generation = 5
-Flags = Swimming
+Flags = Swimming,Frog
 Evolutions = PALPITOAD,Level,22
 #-------------------------------
 [PALPITOAD]
@@ -13578,7 +13676,7 @@ Weight = 17.0
 Kind = Vibration
 Pokedex = It lives in the water and on land. It uses its long, sticky tongue to immobilize its opponents.
 Generation = 5
-Flags = Swimming
+Flags = Swimming,Frog
 Evolutions = SEISMITOAD,Level,32
 #-------------------------------
 [SEISMITOAD]
@@ -13599,7 +13697,7 @@ Weight = 62.0
 Kind = Vibration
 Pokedex = They shoot paralyzing liquid from their head bumps. They use vibration to hurt their opponents.
 Generation = 5
-Flags = Swimming
+Flags = Swimming,Frog
 #-------------------------------
 [THROH]
 Name = Throh
@@ -14110,6 +14208,7 @@ Weight = 28.0
 Kind = Cactus
 Pokedex = Arid regions are their habitat. They move rhythmically, making a sound similar to maracas.
 Generation = 5
+Flags = BandMember
 WildItemUncommon = MIRACLESEED
 #-------------------------------
 [DWEBBLE]
@@ -14322,6 +14421,7 @@ Weight = 16.5
 Kind = Prototurtle
 Pokedex = This Pokémon inhabited ancient seas. Although it can only crawl, it still comes up onto land in search of prey.
 Generation = 5
+Flags = Turtle
 Evolutions = CARRACOSTA,Level,37
 #-------------------------------
 [CARRACOSTA]
@@ -14340,6 +14440,7 @@ Weight = 81.0
 Kind = Prototurtle
 Pokedex = Carracosta completely devours its prey - bones, shells, and all. Because of this, Carracosta's own shell grows thick and sturdy.
 Generation = 5
+Flags = Turtle
 #-------------------------------
 [ARCHEN]
 Name = Archen
@@ -14644,7 +14745,7 @@ Weight = 1.0
 Kind = Cell
 Pokedex = They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.
 Generation = 5
-Flags = Floating
+Flags = Floating,Smart
 WildItemCommon = RAREBONE
 Evolutions = DUOSION,Level,24
 #-------------------------------
@@ -14665,7 +14766,7 @@ Weight = 8.0
 Kind = Mitosis
 Pokedex = When their two divided brains think the same thoughts, their psychic power is maximized.
 Generation = 5
-Flags = Floating
+Flags = Floating,Smart
 Evolutions = REUNICLUS,Level,40
 #-------------------------------
 [REUNICLUS]
@@ -14687,7 +14788,7 @@ Weight = 20.1
 Kind = Multiplying
 Pokedex = When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.
 Generation = 5
-Flags = Floating
+Flags = Floating,Smart
 #-------------------------------
 [DUCKLETT]
 Name = Ducklett
@@ -14900,7 +15001,7 @@ Weight = 33.0
 Kind = Cavalry
 Pokedex = These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.
 Generation = 5
-Flags = Floating
+Flags = Floating,Knight
 #-------------------------------
 [FOONGUS]
 Name = Foongus
@@ -14921,6 +15022,7 @@ Weight = 1.0
 Kind = Mushroom
 Pokedex = It lures Pokémon with its pattern that looks just like a Poké Ball, then releases poison spores.
 Generation = 5
+Flags = Mushroom
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 Evolutions = AMOONGUSS,Level,34
@@ -14941,6 +15043,7 @@ Weight = 10.5
 Kind = Mushroom
 Pokedex = It lures prey close by dancing and waving its arm caps, which resemble Poké Balls, in a swaying motion.
 Generation = 5
+Flags = Mushroom
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 #-------------------------------
@@ -15257,7 +15360,7 @@ Weight = 9.0
 Kind = Cerebral
 Pokedex = Rumors of its origin are linked to a UFO crash site in the desert 50 years ago.
 Generation = 5
-Flags = Floating
+Flags = Floating,Alien
 WildItemUncommon = TWISTEDSPOON
 Evolutions = BEHEEYEM,Level,34
 #-------------------------------
@@ -15279,7 +15382,7 @@ Weight = 34.5
 Kind = Cerebral
 Pokedex = It uses psychic power to control an opponent's brain and tamper with its memories.
 Generation = 5
-Flags = Floating
+Flags = Floating,Alien
 WildItemUncommon = TWISTEDSPOON
 #-------------------------------
 [LITWICK]
@@ -15670,6 +15773,7 @@ Weight = 330.0
 Kind = Automaton
 Pokedex = It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.
 Generation = 5
+Flags = Knight
 WildItemUncommon = LIGHTCLAY
 #-------------------------------
 [PAWNIARD]
@@ -15712,6 +15816,7 @@ Weight = 70.0
 Kind = Sword Blade
 Pokedex = Bisharp pursues prey in the company of a large group of Pawniard. Then Bisharp finishes off the prey.
 Generation = 5
+Flags = Knight
 WildItemUncommon = SKILLHERB
 Evolutions = KINGAMBIT,Level,41
 #-------------------------------
@@ -16517,6 +16622,7 @@ Weight = 7.0
 Kind = Bubble Frog
 Pokedex = It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.
 Generation = 6
+Flags = Frog
 Evolutions = FROGADIER,Level,16
 #-------------------------------
 [FROGADIER]
@@ -16535,6 +16641,7 @@ Weight = 10.9
 Kind = Bubble Frog
 Pokedex = Its swiftness is unparalleled. It can scale a tower of more than 2,000 feet in a minute's time.
 Generation = 6
+Flags = Frog
 Evolutions = GRENINJA,Level,36
 #-------------------------------
 [GRENINJA]
@@ -16554,6 +16661,7 @@ Weight = 40.0
 Kind = Ninja
 Pokedex = It appears and vanishes with a ninja's grace. It toys with its enemies using swift movements, while slicing them with throwing stars of sharpest water.
 Generation = 6
+Flags = Frog,Smasher
 #-------------------------------
 [BUNNELBY]
 Name = Bunnelby
@@ -16738,6 +16846,7 @@ Weight = 13.5
 Kind = Lion Cub
 Pokedex = They set off on their own from their pride and live by themselves to become stronger. These hot-blooded Pokémon are quick to fight.
 Generation = 6
+Flags = Cat
 Evolutions = PYROAR,Item,SUNSTONE
 #-------------------------------
 [PYROAR]
@@ -16758,6 +16867,7 @@ Weight = 81.5
 Kind = Royal
 Pokedex = With fiery breath of more than 10,000 degrees Fahrenheit, they viciously threaten any challenger. The females protect the pride's cubs.
 Generation = 6
+Flags = Cat
 #-------------------------------
 [FLABEBE]
 Name = Flabébé
@@ -16942,6 +17052,7 @@ Weight = 3.5
 Kind = Restraint
 Pokedex = It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.
 Generation = 6
+Flags = Cat
 WildItemUncommon = INTELLECTHERB
 Evolutions = MEOWSTIC,Level,31
 #-------------------------------
@@ -16963,6 +17074,7 @@ Kind = Constraint
 Pokedex = The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.
 FormName = Male
 Generation = 6
+Flags = Cat
 WildItemUncommon = INTELLECTHERB
 #-------------------------------
 [HONEDGE]
@@ -17839,6 +17951,7 @@ Weight = 8.0
 Kind = Sound Wave
 Pokedex = Even a robust wrestler will become dizzy and unable to stand when exposed to its 200,000-hertz ultrasonic waves.
 Generation = 6
+Flags = Bat,BandMember
 WildItemUncommon = DRAGONFANG
 Evolutions = NOIVERN,Level,34
 #-------------------------------
@@ -17860,6 +17973,7 @@ Weight = 85.0
 Kind = Sound Wave
 Pokedex = The ultrasonic waves it emits from its ears can reduce a large boulder to pebbles. It swoops out of the dark to attack.
 Generation = 6
+Flags = Bat,BandMember
 WildItemUncommon = DRAGONFANG
 #-------------------------------
 [XERNEAS]
@@ -18083,6 +18197,7 @@ Weight = 4.3
 Kind = Fire Cat
 Pokedex = If you try too hard to get close to it, it won't open up to you. Even if you do grow close, giving it too much affection is still a no-no.
 Generation = 7
+Flags = Cat
 Evolutions = TORRACAT,Level,16
 #-------------------------------
 [TORRACAT]
@@ -18103,6 +18218,7 @@ Weight = 25.0
 Kind = Fire Cat
 Pokedex = It can act spoiled if it grows close to its Trainer. A powerful Pokémon, its sharp claws can leave its Trainer's whole body covered in scratches.
 Generation = 7
+Flags = Cat
 Evolutions = INCINEROAR,Level,36
 #-------------------------------
 [INCINEROAR]
@@ -18123,6 +18239,7 @@ Weight = 83.0
 Kind = Heel
 Pokedex = Although it's rough mannered and egotistical, it finds beating down unworthy opponents boring. It gets motivated for stronger opponents.
 Generation = 7
+Flags = Cat
 #-------------------------------
 [POPPLIO]
 Name = Popplio
@@ -18144,6 +18261,7 @@ Weight = 7.5
 Kind = Sea Lion
 Pokedex = The balloons it inflates with its nose grow larger and larger as it practices day by day.
 Generation = 7
+Flags = BandMember
 Evolutions = BRIONNE,Level,16
 #-------------------------------
 [BRIONNE]
@@ -18163,6 +18281,7 @@ Weight = 17.5
 Kind = Pop Star
 Pokedex = It gets excited when it sees a dance it doesn't know. This hard worker practices diligently until it can learn that dance.
 Generation = 7
+Flags = BandMember
 Evolutions = PRIMARINA,Level,36
 #-------------------------------
 [PRIMARINA]
@@ -18183,6 +18302,7 @@ Weight = 44.0
 Kind = Soloist
 Pokedex = To Primarina, every battle is a stage. It takes down its prey with beautiful singing and dancing.
 Generation = 7
+Flags = BandMember
 #-------------------------------
 [PIKIPEK]
 Name = Pikipek
@@ -18736,6 +18856,7 @@ Weight = 1.5
 Kind = Illuminating
 Pokedex = It scatters its shining spores around itself. Even though they're dangerous, nighttime tours of forests where Morelull live are popular.
 Generation = 7
+Flags = Mushroom
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 Evolutions = SHIINOTIC,Level,29
@@ -18758,6 +18879,7 @@ Weight = 11.5
 Kind = Illuminating
 Pokedex = It puts its prey to sleep and siphons off their vitality through the tip of its arms. If one of its kind is weakened, it helps by sending it vitality.
 Generation = 7
+Flags = Mushroom
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 #-------------------------------
@@ -18801,6 +18923,7 @@ Weight = 22.2
 Kind = Toxic Lizard
 Pokedex = Salazzle lives deep in caves and forces the Salandit it has attracted with its pheromones to serve it.
 Generation = 7
+Flags = Queen
 #-------------------------------
 [STUFFUL]
 Name = Stufful
@@ -18899,6 +19022,7 @@ Weight = 21.4
 Kind = Fruit
 Pokedex = A master of grand and beautiful kicks, it can knock out even kickboxing champions with a single blow.
 Generation = 7
+Flags = Queen
 #-------------------------------
 [COMFEY]
 Name = Comfey
@@ -19133,6 +19257,7 @@ Kind = Meteor
 Pokedex = It lives in the ozone layer, where it becomes food for stronger Pokémon. When it tries to run away, it falls to the ground.
 FormName = Meteor
 Generation = 7
+Flags = Alien
 WildItemCommon = STARDUST
 WildItemUncommon = STARPIECE
 #-------------------------------
@@ -19175,6 +19300,7 @@ Weight = 212.0
 Kind = Blast Turtle
 Pokedex = It lives in volcanoes and eats sulfur and other minerals. Materials from the food it eats form the basis of its explosive shell.
 Generation = 7
+Flags = Turtle
 WildItemUncommon = CHARCOAL
 #-------------------------------
 [TOGEDEMARU]
@@ -19285,7 +19411,7 @@ Weight = 210.0
 Kind = Sea Creeper
 Pokedex = It wraps its prey in green seaweed and sucks away their vitality. It only likes to go after big prey like Wailord.
 Generation = 7
-Flags = Floating
+Flags = Floating,PirateCrew
 #-------------------------------
 [JANGMOO]
 Name = Jangmo-o
@@ -19943,6 +20069,7 @@ Weight = 5.0
 Kind = Chimp
 Pokedex = It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped.
 Generation = 8
+Flags = BandMember
 Evolutions = THWACKEY,Level,16
 #-------------------------------
 [THWACKEY]
@@ -19961,6 +20088,7 @@ Weight = 14.0
 Kind = Beat
 Pokedex = When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent.
 Generation = 8
+Flags = BandMember
 Evolutions = RILLABOOM,Level,36
 #-------------------------------
 [RILLABOOM]
@@ -19980,6 +20108,7 @@ Weight = 90.0
 Kind = Drummer
 Pokedex = By drumming, it taps into the power of its special tree stump. The roots of the stump follow its direction in battle.
 Generation = 8
+Flags = BandMember
 #-------------------------------
 [SCORBUNNY]
 Name = Scorbunny
@@ -20196,6 +20325,7 @@ Weight = 75.0
 Kind = Raven
 Pokedex = With their great intellect and flying skills, these Pokémon very successfully act as the Galar region's airborne taxi service.
 Generation = 8
+Flags = Knight
 #-------------------------------
 [BLIPBUG]
 Name = Blipbug
@@ -20217,6 +20347,7 @@ Weight = 8.0
 Kind = Larva
 Pokedex = Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.
 Generation = 8
+Flags = Smart
 Evolutions = DOTTLER,Level,22
 #-------------------------------
 [DOTTLER]
@@ -20236,6 +20367,7 @@ Weight = 19.5
 Kind = Radome
 Pokedex = As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.
 Generation = 8
+Flags = Smart
 Evolutions = ORBEETLE,Item,MOONSTONE
 #-------------------------------
 [ORBEETLE]
@@ -20256,7 +20388,7 @@ Weight = 40.8
 Kind = Seven Spot
 Pokedex = It emits psychic energy to observe and study what's around it, and what's around it can include things over six miles away.
 Generation = 8
-Flags = Floating
+Flags = Floating,Smart
 #-------------------------------
 [NICKIT]
 Name = Nickit
@@ -20399,6 +20531,7 @@ Weight = 8.5
 Kind = Snapping
 Pokedex = It starts off battles by attacking with its rock-hard horn, but as soon as the opponent flinches, this Pokémon bites down and never lets go.
 Generation = 8
+Flags = Turtle
 Evolutions = DREDNAW,Level,22
 #-------------------------------
 [DREDNAW]
@@ -20418,6 +20551,7 @@ Weight = 115.5
 Kind = Bite
 Pokedex = This Pokémon rapidly extends its retractable neck to sink its sharp fangs into distant enemies and take them down.
 Generation = 8
+Flags = Turtle
 Evolutions = SEISMAW,Level,42
 #-------------------------------
 [SEISMAW]
@@ -20437,6 +20571,7 @@ Height = 1.6
 Weight = 165.5
 Kind = Jaw Fortress
 Pokedex = It balances itself like a sumo wrestler, making it nearly impossible to topple. Its squishy flesh is even more resilent than its shell.
+Flags = Turtle
 #-------------------------------
 [YAMPER]
 Name = Yamper
@@ -20782,6 +20917,7 @@ Weight = 11.0
 Kind = Baby
 Pokedex = It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.
 Generation = 8
+Flags = BandMember
 Evolutions = TOXTRICITY,Level,22
 #-------------------------------
 [TOXTRICITY]
@@ -20801,6 +20937,7 @@ Weight = 40.0
 Kind = Punk
 Pokedex = This short-tempered and aggressive Pokémon chugs stagnant water to absorb any toxins it might contain.
 Generation = 8
+Flags = BandMember
 Evolutions = ARCLAMOR,Level,43
 #-------------------------------
 [ARCLAMOR]
@@ -20820,6 +20957,7 @@ Height = 2.6
 Weight = 130.0
 Kind = Broadcast
 Pokedex = It subconsciously broadcasts the audio of its battles over radio waves. Tuning in at the right time will let you hear the performance of a lifetime.
+Flags = BandMember
 #-------------------------------
 [SIZZLIPEDE]
 Name = Sizzlipede
@@ -21699,7 +21837,7 @@ Weight = 950.0
 Kind = Gigantic
 Pokedex = It was inside a meteorite that fell 20,000 years ago. There seems to be a connection between this Pokémon and the Dynamax phenomenon.
 Generation = 8
-Flags = Legendary,Floating
+Flags = Legendary,Floating,Alien
 #-------------------------------
 [KUBFU]
 Name = Kubfu
