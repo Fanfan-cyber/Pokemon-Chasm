@@ -7071,7 +7071,7 @@ StepsToHatch = 5355
 Height = 0.5
 Weight = 33.5
 Kind = Long Nose
-Pokedex = Phanpy uses its snout to shower itself with water. However its snout is so strong that when it bumps into you, it may send you flying.
+Pokedex = Phanpy uses its snout to shower itself with water. However, its snout is so strong that when it bumps into you, it may send you flying.
 Generation = 2
 Evolutions = DONPHAN,Level,26
 #-------------------------------
