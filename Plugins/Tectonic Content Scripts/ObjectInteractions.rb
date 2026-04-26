@@ -28,3 +28,12 @@ bag swinging!"))
         pbMessage(_INTL("You get some strange looks from around the gym."))
     end
 end
+
+def startUBBattle()
+    encounter = $PokemonEncounters.choose_wild_pokemon_for_map(349, :DarkCave)
+    chosenUBspecies = encounter[0]
+    speciesDisplayName = GameData::Species.get(chosenUBspecies).name
+	pbMessage(_INTL("A {1} emerged from the wormhole!", speciesDisplayName))
+	level = [encounter[1],getLevelCap].min
+	pbWildBattleCore(chosenUBspecies, level)
+end

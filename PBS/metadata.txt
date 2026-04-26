@@ -2493,6 +2493,7 @@ Bicycle = false
 Outdoor = false
 ShowArea = true
 Bicycle = true
+WildBattleBGM = Battle ultra beast.ogg
 Environment = UltraSpace
 #-------------------------------
 [350]

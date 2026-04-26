@@ -1048,7 +1048,7 @@ Special,,40,40
     1,SOLROCK,40
 #-------------------------------
 [349] # UB Portal
-DarkCave,20,60
+DarkCave,10,60
     13,BUZZWOLE,56,58
     13,NIHILEGO,56,58
     13,PHEROMOSA,56,58
