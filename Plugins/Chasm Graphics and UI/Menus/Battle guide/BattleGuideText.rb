@@ -48,7 +48,7 @@ def battleGuideMovesHash
         _INTL("Special Moves") => _INTL("Special moves are notated by the symbol of a splash. Their damage is based on the Special Attack (Sp. Atk) of the attacker and the Special Defense (Sp. Def) of the target."),
         _INTL("Targeting") => _INTL("Most moves target only a single Pokémon, but many can target multiple Pokémon at once. Some moves differ in how far they can target in the bigger battle styles (doubles, triples)."),
         _INTL("Move Types") => _INTL("Every move has a type. Attacking moves deal different amounts of damage to different Pokémon based on those Pokémon's types. This is called 'type effectiveness'."),
-        _INTL("Same-Type Bonus") => _INTL("Pokémon deal 50% more damage with moves the share a type with them. For example, a Raichu deals 50% more damage with an Electric move than a Normal move."),
+        _INTL("Same-Type Bonus") => _INTL("Pokémon deal 50% more damage with moves they share a type with. For example, a Raichu deals 50% more damage with an Electric move than a Normal move."),
         _INTL("Learning Moves") => _INTL("Pokémon learn new moves as they level up. They can also learn moves from the 'Move Tutors' who sit in the left side of every PokéCenter."),
         _INTL("Base Power") => _INTL("Moves with higher Base Power deal more damage. Some moves deal variable Base Power depending on the situation. Status moves have no base power."),
         _INTL("Accuracy") => _INTL("Accuracy is a move's chance of hitting. Most moves have 100% accuracy. Some effects can raise accuracy to let you use low-accuracy moves consistently."),
@@ -72,12 +72,12 @@ end
 
 def battleGuideTypeChartHash
     return {
-        _INTL("Psychic vs Steel") => _INTL("Psychic is now Super-Effective vs Steel. Think of magicians bending spoons."),
+        _INTL("Psychic vs Steel") => _INTL("Psychic is now Super-Effective vs Steel. Psychic also resists Steel. Think of magicians bending spoons."),
         _INTL("Poison vs Water") => _INTL("Poison is now Super-Effective vs Water. Think of chemicals polluting a river."),
         _INTL("Bug vs Fairy") => _INTL("Bug is now Super-Effective vs Fairy. Think of insects scaring children."),
         _INTL("Grass resistances") => _INTL("Grass now resists Fairy and Ghost. Think of incense warding off magic."),
         _INTL("Ice resistances") => _INTL("Ice now resists Flying and Ground. Ice is Super-Effective against those types, so it's only natural!"),
-        _INTL("Other changes") => _INTL("Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic. Psychic resists Steel."),
+        _INTL("Other changes") => _INTL("Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic."),
     }
 end
 
@@ -155,7 +155,7 @@ def battleGuideVolatileStatusesHash
         _INTL("Jinx") => _INTL("When jinxed, a Pokémon cannot Protect itself, and all attacks against it are guaranteed critical hits. Jinx wears off after 3 turns. Fairy-types do the most jinxing."),
         _INTL("Fractured") => _INTL("When fractured, a Pokémon deals 33% less damage with its moves. Fracture wears off after 3 turns. Rock-types do the most fracturing."),
         _INTL("Curse") => _INTL("When cursed, a Pokémon loses 25% of its HP every turn. Ghost-types do the most cursing."),
-        _INTL("Blindness") => _INTL("When blinded, a Pokemon deals 50% damage with its next attacking move. Blindness persists until a damaging move is used by the blinded Pokemon."),
+        _INTL("Blindness") => _INTL("When blinded, a Pokémon deals 50% damage with its next attacking move. Blindness persists until a damaging move is used by the blinded Pokémon."),
         _INTL("Torment") => _INTL("When tormented, a Pokémon cannot use the same move twice in a row. If something prevents it from moving for a turn, it can choose the same move the following turn."),
         _INTL("Taunt") => _INTL("When taunted, a Pokémon is prevented from using status moves."),
         _INTL("Disable") => _INTL("When disabled, a Pokémon cannot use the move it last selected."),
@@ -178,7 +178,7 @@ def battleGuideCriticalHitsHash
         _INTL("What are Critical Hits?") => _INTL("A critical hit deals 50% more damage than a regular hit. Certain moves are able to randomly critical hit."),
         _INTL("How common are Critical Hits?") => _INTL("For moves that can random crit, the chance is 1/8. This chance can be raised by abilities, items, or special effects."),
         _INTL("Other Effects") => _INTL("Critical hits ignore stat steps (on the user or the target) that would lower their damage. They also ignore protective screens like Reflect and Light Screen."),
-        _INTL("Preventing Criticals") => _INTL("Certain abilities prevent critical hits against that Pokemon. The Lucky Chant effect protects their side from critical hits."),
+        _INTL("Preventing Criticals") => _INTL("Certain abilities prevent critical hits against that Pokémon. The Sanctuary effect protects their side from critical hits."),
         _INTL("Guaranteed Criticals") => _INTL("Some moves or abilities are not random, but guarantee a critical hit under certain conditions. Otherwise, these act the same as random critical hits."),
     }
 end
@@ -256,9 +256,9 @@ end
 def battleGuideLegendaryAbilitiesHash
     return {
         _INTL("Tapu Koko: Storm Totem") => _INTL("Pokémon on this side get a 30% move damage boost, but they are prevented from using moves that are the same type as the move they most recently used."),
-        _INTL("Tapu Fini: Fog Totem") => _INTL("Whenever a foe finishes attacking a Pokemon on this side, the attacker is forced to switch out of battle. They are able to choose the replacement."),
-        _INTL("Tapu Bulu: Wild Totem") => _INTL("Whenever a Pokemon on this side is hit, its defending stats are both lowered by 1 step and its attacking stats are both raised by 1 step."),
-        _INTL("Tapu Lele: Flutter Totem") => _INTL("At the end of each turn, the Pokemon on this side are all healed by 1/8th of their max HP, but each one of their moves has their PP reduced by 1."),
+        _INTL("Tapu Fini: Fog Totem") => _INTL("Whenever a foe finishes attacking a Pokémon on this side, the attacker is forced to switch out of battle. They are able to choose the replacement."),
+        _INTL("Tapu Bulu: Wild Totem") => _INTL("Whenever a Pokémon on this side is hit, its defending stats are both lowered by 1 step and its attacking stats are both raised by 1 step."),
+        _INTL("Tapu Lele: Flutter Totem") => _INTL("At the end of each turn, the Pokémon on this side are all healed by 1/8th of their max HP, but each one of their moves has their PP reduced by 1."),
         _INTL("Zeraora: Hybrid Fighter") => _INTL("You gain effects for using moves in an order.\nKick -> Bite: Healed by 25%.\nPunch -> Kick: You switch out.\nBite -> Punch: The target's Attack and Sp. Atk lowers by 2 steps."),
         _INTL("Hybrid Fighter Part 2") => _INTL("Bite -> Kick: Your speed raises by 2 steps.\nKick -> Punch: Opponent is Numbed.\nPunch -> Bite: You gain Energy Charged."),
         _INTL("Articuno: Glacial Wings") => _INTL("Severe Frostbite: The same as Frostbite, but its end-of-turn chip deals double damage if the afflicted Pokémon is below half health."),
