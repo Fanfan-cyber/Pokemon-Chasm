@@ -215,7 +215,7 @@ class PokeBattle_Move_PoisonSpikes < PokeBattle_StatusSpikeMove
 
     def getDetailsForMoveDex(detailsList = [])
         detailsList << _INTL("Can be stacked up to 2 layers.")
-        detailsList << _INTL("Causes damage or status depending on the amount of layers.")
+        detailsList << _INTL("Causes damage or status depending on the number of layers.")
         detailsList << _INTL("Grounded Poison-types absorb 1 layer on switch-in.")
         detailsList << _INTL("<u>1 Layer:</u> 1/16th")
         detailsList << _INTL("<u>2 Layers:</u> causes Poison")
@@ -235,7 +235,7 @@ class PokeBattle_Move_FlameSpikes < PokeBattle_StatusSpikeMove
 
     def getDetailsForMoveDex(detailsList = [])
         detailsList << _INTL("Can be stacked up to 2 layers.")
-        detailsList << _INTL("Causes damage or status depending on the amount of layers.")
+        detailsList << _INTL("Causes damage or status depending on the number of layers.")
         detailsList << _INTL("Grounded Fire-types absorb 1 layer on switch-in.")
         detailsList << _INTL("<u>1 Layer:</u> 1/16th")
         detailsList << _INTL("<u>2 Layers:</u> causes Burn")
@@ -255,7 +255,7 @@ class PokeBattle_Move_FrostSpikes < PokeBattle_StatusSpikeMove
 
     def getDetailsForMoveDex(detailsList = [])
         detailsList << _INTL("Can be stacked up to 2 layers.")
-        detailsList << _INTL("Causes damage or status depending on the amount of layers.")
+        detailsList << _INTL("Causes damage or status depending on the number of layers.")
         detailsList << _INTL("Grounded Ice-types absorb 1 layer on switch-in.")
         detailsList << _INTL("<u>1 Layer:</u> 1/16th")
         detailsList << _INTL("<u>2 Layers:</u> causes Frostbite")
