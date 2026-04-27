@@ -270,7 +270,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,11,3
 BattleBack = city
-MapSize = 1,1
+MapSize = 3,111
 #-------------------------------
 [035]
 # Impromptu Lab
@@ -2493,6 +2493,7 @@ Bicycle = false
 Outdoor = false
 ShowArea = true
 Bicycle = true
+WildBattleBGM = Battle ultra beast.ogg
 Environment = UltraSpace
 #-------------------------------
 [350]

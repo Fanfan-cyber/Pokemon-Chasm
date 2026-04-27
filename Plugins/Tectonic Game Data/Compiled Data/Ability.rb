@@ -232,7 +232,7 @@ module GameData
         end
   
         def is_signature?()
-            return !@signature_of.nil?
+            return !@signature_of.nil? || @flags.include?("ForceSignature")
         end
 
         def is_test?
