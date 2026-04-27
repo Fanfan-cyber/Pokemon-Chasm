@@ -602,7 +602,7 @@ def tmShop
 
 	pbPokemonMart(
 		tmsStock,
-		_INTL("One-Stop Tech Shop, for all your electronic need."),
+		_INTL("One-Stop Tech Shop, for all your electronic needs."),
 		!CAN_SELL_IN_VENDORS
 	)
 end
