@@ -7091,6 +7091,19 @@ EffectChance = 100
 Description = The user slashes the foe while menacing. During eclipse, the target also becomes burned.
 Animation = DRAGONCLAW
 #-------------------------------
+[CARNAGE]
+Name = Carnage
+Type = DRAGON
+Category = Physical
+Power = 130
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+FunctionCode = RecoilHalfOfDamageDealt
+Flags = CanProtect
+Description = The user rips and tears its way across the battlefield, damaging all near Pokémon and taking 50% recoil.
+Animation = DEVASTATINGDRAKE
+#-------------------------------
 [CLASH]
 Name = Clash
 Type = DRAGON
