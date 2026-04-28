@@ -17,6 +17,6 @@ SCOURGE,5,Scourge,"Your able party members and battlers heal for 1/10th HP whene
 SCRAPPER,5,Scrapper,"Your team has 30% increased Defense. Foes can't lower your team's Defense."
 SERENE,5,Serene,"Effects placed by your Pokémon last 50% longer (rounded down)."
 STAMPEDE,5,Stampede,"Your team has 15% increased Speed."
-TACTICIAN,5,Tactician,"Your Pokemon deal 15% more damage to targets that haven’t moved yet this turn. Your priority attacks and priority status moves have doubled PP."
+TACTICIAN,5,Tactician,"Your Pokémon deal 15% more damage to targets that haven’t moved yet this turn. Your priority attacks and priority status moves have doubled PP."
 TYRANNICAL,5,Tyrannical,"Ignore the first time each battle that one of your team members would flinch or get a non-volatile status condition."
 WARRIOR,5,Warrior,"Your team members take 15% less move damage if they choose an attack this turn."
