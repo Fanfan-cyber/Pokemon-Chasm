@@ -3938,6 +3938,19 @@ Flags = CanProtect
 EffectChance = 20
 Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
 #-------------------------------
+[REND]
+Name = Rend
+Type = DRAGON
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
+Animation = DRAGONCLAW
+#-------------------------------
 [SCALEGLINT]
 Name = Scale Glint
 Type = DRAGON
