@@ -1301,7 +1301,7 @@ Description = Copies the Ability of the Pokémon it switches in to replace.
 #-------------------------------
 [LONGTERMVIEW]
 Name = Long-term View
-Description = Effects placed by this Pokemon last 50% longer.
+Description = Effects placed by this Pokémon last 50% longer.
 #-------------------------------
 [LOOSECANNON]
 Name = Loose Cannon
