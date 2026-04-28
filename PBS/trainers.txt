@@ -6119,9 +6119,9 @@ Pokemon = GALVANTULA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = CROBAT,70
-    Moves = UTURN,LEECHLIFE,TOXICTASTE,DIVININGTALON
+    Moves = UTURN,LEECHLIFE,EXSANGUINATE,DIVININGTALON
     AbilityIndex = 1 # Rapid Onset
-    Item = BIGROOT
+    Item = EXPERTBELT
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,20,0,0
 Pokemon = PAPELLUMEN,70
