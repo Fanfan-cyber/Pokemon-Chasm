@@ -9960,8 +9960,8 @@ Name = Shuppet
 Type1 = GHOST
 Type2 = NORMAL
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 45,70,65,55,55,55
-# Total = 345
+BaseStats = 45,65,65,55,50,55
+# Total = 335
 BaseEXP = 59
 Rareness = 170
 Happiness = 35
@@ -9984,8 +9984,8 @@ Name = Banette
 Type1 = GHOST
 Type2 = NORMAL
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 55,95,85,75,70,70
-# Total = 450
+BaseStats = 60,90,80,70,70,70
+# Total = 440
 BaseEXP = 159
 Rareness = 35
 Happiness = 35
@@ -10005,8 +10005,8 @@ Name = Maniklaw
 Type1 = GHOST
 Type2 = NORMAL
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 70,115,100,90,85,85
-# Total = 545
+BaseStats = 70,110,100,85,85,85
+# Total = 535
 BaseEXP = 259
 Rareness = 25
 Happiness = 35
