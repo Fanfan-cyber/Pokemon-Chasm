@@ -12,5 +12,6 @@ SaveData.register_conversion(:tm_fixing_340) do
     save_data[:bag].pbChangeItem(:TMSEERSTRIKE,:TMPSYCHOSCISSION)
     save_data[:bag].pbChangeItem(:TMPSYCHIC,:TMNEURALPULSE)
     save_data[:bag].pbChangeItem(:TMSLEEPTALK,:TMPLAYDEAD)
+    save_data[:bag].pbChangeItem(:TMREND,:TMDRAGONHAMMER)
   end
 end
