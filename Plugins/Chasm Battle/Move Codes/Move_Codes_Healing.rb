@@ -848,16 +848,16 @@ end
 class PokeBattle_Move_HealUserHalfOfTotalHPExtendScreens1 < PokeBattle_HalfHealingMove
     def pbEffectGeneral(user)
         super
-        pbOwnSide.eachEffect(true) do |effect, value, data|
+        user.pbOwnSide.eachEffect(true) do |effect, value, data|
             next unless data.is_screen?
-            pbOwnSide.effects[effect] += 1
-            @battle.pbDisplay(_INTL("{1}'s {2} was extended 1 turn!", pbTeam, data.name))
+            user.pbOwnSide.effects[effect] += 1
+            @battle.pbDisplay(_INTL("{1}'s {2} was extended 1 turn!", user.pbTeam, data.name))
         end
     end
 
     def getEffectScore(user, target)
         score = super
-        pbOwnSide.eachEffect(true) do |effect, value, data|
+        user.pbOwnSide.eachEffect(true) do |effect, value, data|
             next unless data.is_screen?
             score += 30
         end
