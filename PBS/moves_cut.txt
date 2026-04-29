@@ -1603,6 +1603,18 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The user causes a huge landslide to cover the field.
 #-------------------------------
+[LANDSWRATH]
+Name = Land's Wrath
+Type = GROUND
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user gathers the energy of the land and focuses that power on foes to damage them.
+#-------------------------------
 [MAGNITUDE]
 Name = Magnitude
 Type = GROUND
@@ -2046,6 +2058,17 @@ Priority = 1
 FunctionCode = Invalid
 Flags = CanProtect
 Description = The user attacks the target from a blind spot. Always goes first. Deals 50% more damage in a hailstorm.
+#-------------------------------
+[NIGHTMARE]
+Name = Nightmare
+Type = GHOST
+Category = Status
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = A sleeping target sees a nightmare that inflicts 25% damage every turn.
 #-------------------------------
 [NIGHTSHADE]
 Name = Night Shade
@@ -3137,6 +3160,20 @@ Flags = CanProtect
 Description = Shoots a damaging spear at enemies, or a 4-step Speed-increasing electric charge at allies.
 Animation = THUNDERBOLT
 #-------------------------------
+[LUMINOUSBURST]
+Name = Luminous Burst
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Light
+EffectChance = 100
+Description = Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
+Animation = DISCHARGE
+#-------------------------------
 [MAGNETICFLUX]
 Name = Magnetic Flux
 Type = ELECTRIC
@@ -3901,6 +3938,19 @@ Flags = CanProtect
 EffectChance = 20
 Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
 #-------------------------------
+[REND]
+Name = Rend
+Type = DRAGON
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
+Animation = DRAGONCLAW
+#-------------------------------
 [SCALEGLINT]
 Name = Scale Glint
 Type = DRAGON
@@ -4011,6 +4061,17 @@ Flags = CanProtect,Sound
 EffectChance = 40
 Description = The target is confronted with painful words. It has a 40% chance to make the target flinch.
 Animation = DARKPULSE
+#-------------------------------
+[MEANLOOK]
+Name = Mean Look
+Type = DARK
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanMagicCoat
+Description = The user pins the target with a dark, arresting look. The target becomes trapped.
 #-------------------------------
 [NASTYPLOT]
 Name = Nasty Plot

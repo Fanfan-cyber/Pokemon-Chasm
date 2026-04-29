@@ -343,7 +343,7 @@ class PokeBattle_Battler
             end
         end
         if %i[FRAGILELOCKET LUNCHBOX].include?(checkitem)
-            @battle.pbDisplay(_INTL("But {1} hold's tightly onto its {2}!", pbThis(false), getItemName(checkitem))) if showMessages
+            @battle.pbDisplay(_INTL("But {1} holds tightly onto its {2}!", pbThis(false), getItemName(checkitem))) if showMessages
             return true
         end
         # Other unlosable items
@@ -684,7 +684,7 @@ class PokeBattle_Battler
             return !hasAlly?
         end
         return false if fainted?
-        return @battle.pbGetOwnerFromBattlerIndex(@index).able_pokemon_count == 1
+        return @battle.pbGetOwnerFromBattlerIndex(@index).alive_pokemon_count == 1
     end
 
     def protectedAgainst?(user, move)

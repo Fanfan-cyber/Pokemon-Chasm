@@ -3,6 +3,7 @@
 [AIRLOCK]
 Name = Air Lock
 Description = Suppresses the effects of weather.
+Flags = ForceSignature
 #-------------------------------
 [ANALYTIC]
 Name = Analytic
@@ -11,12 +12,12 @@ Description = Boosts move power when this Pokémon moves last by 30%.
 [ASONEGHOST]
 Name = As One
 Description = Possesses two Abilities: Unnerve and Grim Neigh.
-Flags = Immutable
+Flags = Immutable,ForceSignature
 #-------------------------------
 [ASONEICE]
 Name = As One
 Description = Possesses two Abilities: Unnerve and Chilling Neigh.
-Flags = Immutable
+Flags = Immutable,ForceSignature
 #-------------------------------
 [BADDREAMS]
 Name = Bad Dreams
@@ -46,7 +47,7 @@ Flags = SunshineSynergy
 [CLEARBODY]
 Name = Clear Body
 Description = Prevents stat steps from being lowered (except when self-inflicted).
-Flags = OtherStatDropImmunity
+Flags = OtherStatDropImmunity,ForceSignature
 #-------------------------------
 [COMATOSE]
 Name = Comatose
@@ -309,6 +310,7 @@ Description = All non-volatile status conditions heal when switched out.
 [NEUROFORCE]
 Name = Neuroforce
 Description = Powers up super-effective moves by 30%.
+Flags = ForceSignature
 #-------------------------------
 [NOGUARD]
 Name = No Guard
@@ -605,6 +607,7 @@ Description = Physical attacks against this Pokémon raise its Speed by two step
 [WIMPOUT]
 Name = Wimp Out
 Description = Cowardly switches out if its HP is lowered below half.
+Flags = ForceSignature
 #-------------------------------
 [WONDERGUARD]
 Name = Wonder Guard

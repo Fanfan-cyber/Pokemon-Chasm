@@ -763,7 +763,7 @@ class PokeBattle_Move_UseChoiceOfElementalFangs < PokeBattle_Move
         ]
     end
 
-    def resolutionChoice(user)
+    def resolutionChoice(user, replayed_choice)
         validMoveNames = []
         @validMoves.each do |move|
             validMoveNames.push(getMoveName(move))
@@ -857,6 +857,15 @@ class PokeBattle_Move_FailsIfUserNotAsleep < PokeBattle_Move
     def pbMoveFailedAI?(user, targets)
         return true unless user.willStayAsleepAI?
         return pbMoveFailed?(user, targets, false)
+    end
+end
+
+#===============================================================================
+# Fails if the user is not asleep and wakes up the user. (Wakeful Tide)
+#===============================================================================
+class PokeBattle_Move_FailsIfUserNotAsleepWakeUpUser < PokeBattle_Move_FailsIfUserNotAsleep
+    def pbEffectAfterAllHits(user, targets)
+        user.pbCureStatus(true, :SLEEP)
     end
 end
 

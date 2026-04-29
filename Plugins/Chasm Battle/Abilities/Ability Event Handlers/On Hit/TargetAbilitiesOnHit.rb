@@ -382,14 +382,6 @@ BattleHandlers::TargetAbilityOnHit.add(:BOUNCEBACK,
   }
 )
 
-BattleHandlers::TargetAbilityOnHit.add(:FRIGIDREFLECTION,
-    proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
-        next unless move.specialMove?
-        next if target.fainted?
-        next -60 if aiCheck
-        battle.forceUseMove(target, move.id, user.index, ability: ability)
-    }
-)
 
 BattleHandlers::TargetAbilityOnHit.add(:HUGGABLE,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
@@ -923,7 +915,6 @@ BattleHandlers::TargetAbilityOnHit.add(:INFECTED,
         next unless user.canChangeType?
         next -15 if aiCheck
         user.replaceAbility(ability, user.opposes?(target), target)
-        user.applyEffect(:Type3,:GRASS) unless user.pbHasType?(:GRASS)
     }
 )
 
