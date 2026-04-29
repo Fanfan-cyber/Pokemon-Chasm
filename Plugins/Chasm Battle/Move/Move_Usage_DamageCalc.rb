@@ -370,9 +370,10 @@ class PokeBattle_Move
         # STAB
         if stabActive
             stab = 1.5
-            if user.shouldAbilityApply?(:ADAPTED,checkingForAI)
+            stabBoostingAbility = user.shouldAbilityApply?(GameData::Ability.getByFlag("STABBoosting"),checkingForAI)
+            if stabBoostingAbility
                 stab *= 4.0/3.0
-                user.aiLearnsAbility(:ADAPTED)
+                user.aiLearnsAbility(stabBoostingAbility)
             elsif user.shouldAbilityApply?(:ULTRAADAPTED,checkingForAI)
                 stab *= 3.0/2.0
                 user.aiLearnsAbility(:ULTRAADAPTED)
@@ -386,6 +387,16 @@ class PokeBattle_Move
         multipliers[:final_damage_multiplier] *= effectiveness
 
         echoln("[DAMAGE CALC] Calcing damage based on expected type effectiveness mult of #{effectiveness}") if DAMAGE_CALC_DEBUG
+
+        # Harsh Truths
+        if Effectiveness.resistant?(typeMod) && @battle.pbCheckGlobalAbility(:HARSHTRUTHS)
+            multipliers[:final_damage_multiplier] *= 1.5
+        end
+
+        # Grand Ideals
+        if Effectiveness.super_effective?(typeMod) && @battle.pbCheckGlobalAbility(:GRANDIDEALS)
+            multipliers[:final_damage_multiplier] *= 1.5
+        end
 
         # Charge
         if user.effectActive?(:EnergyCharge) && type == :ELECTRIC
