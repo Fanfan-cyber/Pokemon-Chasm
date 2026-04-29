@@ -7131,6 +7131,32 @@ EffectChance = 100
 Description = The user slashes the foe while menacing. During eclipse, the target also becomes burned.
 Animation = DRAGONCLAW
 #-------------------------------
+[CARNAGE]
+Name = Carnage
+Type = DRAGON
+Category = Physical
+Power = 130
+Accuracy = 100
+TotalPP = 10
+Target = AllNearOthers
+FunctionCode = RecoilHalfOfDamageDealt
+Flags = CanProtect
+Description = The user rips and tears its way across the battlefield, damaging all near Pokémon and taking 50% recoil.
+Animation = DEVASTATINGDRAKE
+#-------------------------------
+[CHOWDOWN]
+Name = Chow Down
+Type = DRAGON
+Category = Physical
+Power = 50
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,Biting
+Description = The user bites to drain the target's energy. The user's HP is restored by 50% of the damage dealt.
+Animation = BITE
+#-------------------------------
 [CLASH]
 Name = Clash
 Type = DRAGON
@@ -7155,6 +7181,19 @@ FunctionCode = DoubleDamageTargetStatused
 Flags = CanProtect
 Description = The user crushes the target with evil intent. This deals double damage if the target has a non-volatile status condition.
 Animation = CRUSHCLAW
+#-------------------------------
+[DEVOUR]
+Name = Devour
+Type = DRAGON
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,Biting
+Description = The user bites to drain the target's energy.  The user's HP is restored by 50% of the damage dealt.
+Animation = CRUNCH
 #-------------------------------
 [DIAMETRICBREATH]
 Name = Diametric Breath
@@ -7235,6 +7274,19 @@ Flags = CanProtect
 EffectChance = 30
 Description = The user spits venom at the target. It has a 30% chance to poison.
 Animation = ACIDSPRAY
+#-------------------------------
+[GNAW]
+Name = Gnaw
+Type = DRAGON
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = CanProtect,Biting
+Description = The user bites to drain the target's energy. The user's HP is restored by 50% of the damage dealt.
+Animation = BITE
 #-------------------------------
 [GUTTURALROAR]
 Name = Guttural Roar
@@ -7324,19 +7376,6 @@ Flags = CanMagicCoat
 Description = The user sprays the target with a shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
 Animation = APPLEACID
 #-------------------------------
-[REND]
-Name = Rend
-Type = DRAGON
-Category = Physical
-Power = 90
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = IgnoreTargetDefSpDefEvaStatStagesAndTargetAbility
-Flags = CanProtect
-Description = The user shreds through the opponent's defenses, ignoring positive stat changes and abilities.
-Animation = DRAGONCLAW
-#-------------------------------
 [SACREDLOTS]
 Name = Sacred Lots
 Type = DRAGON
@@ -7367,13 +7406,13 @@ Description = The user whips up a tornado to tear at the target. It has a 40% ch
 Name = Shred
 Type = DRAGON
 Category = Physical
-Power = 55
+Power = 65
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
-FunctionCode = IgnoreTargetDefSpDefEvaStatStagesAndTargetAbility
+FunctionCode = Basic
 Flags = CanProtect
-Description = The user attacks with overwhelming power, ignoring positive stat changes and abilities.
+Description = The user attacks with a flurry of claws.
 Animation = DRAGONCLAW
 #-------------------------------
 [SLUMBERINGROAR]

@@ -383,7 +383,7 @@ Item = CADOBERRY
 #-------------------------------
 [GYARADOS]
 Ability = INTIMIDATE,CITYRAZER
-Moves1 = REND,WATERFALL,PRIMEVALTORMENT
+Moves1 = DEVOUR,WATERFALL,PRIMEVALTORMENT
 Moves2 = CRUNCH,WATERFALL
 Item = LIFEORB
 #-------------------------------
@@ -484,7 +484,7 @@ HPMult = 4.0
 [EXCADRILL]
 Ability = JUGGERNAUT
 Moves1 = EARTHQUAKE,IRONHEAD,PRIMEVALDRAGONDANCE
-Moves2 = REND
+Moves2 = CARNAGE
 HPMult = 4.0
 #-------------------------------
 [DRAMPA]

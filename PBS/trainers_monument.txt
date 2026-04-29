@@ -286,7 +286,7 @@ Pokemon = LURANTIS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
 Pokemon = MSEAKING,70
-    Moves = PLAYROUGH,REND,FLIPTURN,DRILLRUN
+    Moves = PLAYROUGH,DRAGONHAMMER,FLIPTURN,DRILLRUN
     AbilityIndex = 0 # Irrefutable
     Item = CHOICESCARF
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -745,7 +745,7 @@ Pokemon = BLASTOISE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
 Pokemon = SALAMENCE,70
-    Moves = FLY,REND,EARTHQUAKE,ACROBATICS
+    Moves = FLY,DRAGONHAMMER,EARTHQUAKE,ACROBATICS
     AbilityIndex = 0 # Intimidate
     Item = POWERHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1025,7 +1025,7 @@ Pokemon = STARMIE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = HAXORUS,70
-    Moves = XSCISSOR,CLOSECOMBAT,REND,CROSSPOISON
+    Moves = XSCISSOR,CLOSECOMBAT,DRAGONHAMMER,CROSSPOISON
     AbilityIndex = 0 # Anarchic
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1209,7 +1209,7 @@ Pokemon = INFERNAPE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = NIDOKING,70
-    Moves = POISONJAB,EARTHSPLITTER,SUCKERPUNCH,REND
+    Moves = POISONJAB,EARTHSPLITTER,SUCKERPUNCH,DRAGONCLAW
     AbilityIndex = 1 # Stressful
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2322,7 +2322,7 @@ Pokemon = CHANDELURE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = MSEAKING,70
-    Moves = REND,PLAYROUGH,DRILLRUN,AGILITY
+    Moves = DRAGONHAMMER,PLAYROUGH,DRILLRUN,AGILITY
     AbilityIndex = 0 # Irrefutable
     Item = PRISMATICPLATE
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

@@ -891,14 +891,14 @@ FieldUse = TM
 Flags = SkipPocketMessage
 Move = SHADOWBALL
 #-------------------------------
-[TMREND]
+[TMDRAGONHAMMER]
 Name = Unnamed
 NamePlural = Unnamed
 Pocket = 5
 Price = 4000
 FieldUse = TM
 Flags = SkipPocketMessage
-Move = REND
+Move = DRAGONHAMMER
 #-------------------------------
 [TMDRAGONPULSE]
 Name = Unnamed
