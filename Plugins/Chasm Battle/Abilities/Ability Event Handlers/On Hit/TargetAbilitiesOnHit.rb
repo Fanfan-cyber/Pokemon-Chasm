@@ -386,7 +386,7 @@ BattleHandlers::TargetAbilityOnHit.add(:BOUNCEBACK,
 BattleHandlers::TargetAbilityOnHit.add(:HUGGABLE,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if target.fainted?
-        next unless move.baseDamage >= 95
+        next unless target.damageState.finalBaseDamage >= 95
         if aiCheck
             score = -5
             score -= getNumbEffectScore(target, user)
