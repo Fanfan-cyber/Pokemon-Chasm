@@ -18,6 +18,8 @@ class PokeBattle_Move
         # Calcuate base power of move
         baseDmg = pbBaseDamage(@baseDamage,user,target)
 
+        target.damageState.finalBaseDamage = baseDmg
+
         # Calculate whether this hit deals critical damage
         target.damageState.critical,target.damageState.forced_critical = pbIsCritical?(user,target)
         
