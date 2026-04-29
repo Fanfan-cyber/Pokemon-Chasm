@@ -229,7 +229,7 @@ Mud,40,15,15
     25,PHANPY,9,11
 #-------------------------------
 [053] # The Shelf
-Land,20,20,25
+Land,20,20,20
     40,SCYTHER,22,24
     20,MORELULL,22,24
     20,PANSEAR,22,24
@@ -330,37 +330,37 @@ Puddle,20,20,25
     20,TENTACOOL,18,20
 #-------------------------------
 [082] # Alloy Station 531
-Special,,20,20
+Special,,20,25
     1,MMUDKIP,15
     1,MTORCHIC,15
     1,MTREECKO,15
 #-------------------------------
 [085] # Worried Man's House
-Special,,20,20
+Special,,20,25
     1,FRILLISH,15
 #-------------------------------
 [086] # Zigzagoon Nest
-Special,,20,20
+Special,,20,25
     1,GZIGZAGOON,15
 #-------------------------------
 [089] # Svait Lodge
-Special,,20,20
+Special,,20,30
     1,EEVEE,15
 #-------------------------------
 [090] # Employees' House
-Special,,20,20
+Special,,20,30
     1,SEEL,15
 #-------------------------------
 [095] # Snowbird's House F2
-Special,,20,20
+Special,,20,30
     1,ARATTATA,15
 #-------------------------------
 [096] # LuxTech Cold Storage
-Special,,20,20
+Special,,20,25
     1,SEWADDLE,15
 #-------------------------------
 [103] # Velenz Mart
-Special,,20,20
+Special,,20,30
     1,SINISTEA,20
 #-------------------------------
 [117] # Ice Cave
@@ -426,7 +426,7 @@ Land,20,20,30
     17,MTANGELA,24,26
     17,SPOINK,24,26
     16,VULLABY,24,26
-Special,,20,20
+Special,,20,30
     1,LICKITUNG,15
 #-------------------------------
 [130] # Canal Desert
