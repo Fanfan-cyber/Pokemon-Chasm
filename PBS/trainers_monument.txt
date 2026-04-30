@@ -96,7 +96,7 @@ Pokemon = HOUNDOMINUS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = PORYGONZ,70
-    Moves = HEX,PROFANE,ICEBEAM,DETACHMENT
+    Moves = HEX,PROFANE,ICEBEAM,TRIATTACK
     AbilityIndex = 0 # Realist
     Item = SKILLHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
