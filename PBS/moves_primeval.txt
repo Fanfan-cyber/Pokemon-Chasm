@@ -764,6 +764,18 @@ Flags = CanProtect,Light,Empowered
 Description = The user charges by gathering light, then blasts all near foes on the second turn.
 Animation = SOLARBEAM
 #-------------------------------
+[PRIMEVALAROMATHERAPY]
+Name = Primeval Aromatherapy
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = UserAndAllies
+FunctionCode = EmpoweredAromatherapy
+Flags = Empowered
+Description = The user heals all non-volatile status conditions affecting their party, gains the ability Stability, and heals itself for 25% HP. User becomes Grass-type.
+Animation = AROMATHERAPY
+#-------------------------------
 [PRIMEVALINGRAIN]
 Name = Primeval Ingrain
 Type = GRASS
