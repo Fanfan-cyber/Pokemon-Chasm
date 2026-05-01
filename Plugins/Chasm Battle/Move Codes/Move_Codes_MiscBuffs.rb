@@ -195,7 +195,7 @@ class PokeBattle_Move_WishingWellScalesWithMoney < PokeBattle_Move
         actualCoinAmountConsumed = beforeCoins - user.pbOwnSide.effects[:PayDay]
         if actualCoinAmountConsumed > 0
             @battle.pbDisplay(_INTL("{1} coins were thrown in the Wishing Well!", actualCoinAmountConsumed))
-            user.pbOwnSide.applyEffect(:WishingWell, applyEffectDurationModifiers((actualCoinAmountConsumed / 100).floor))
+            user.pbOwnSide.applyEffect(:WishingWell, applyEffectDurationModifiers((actualCoinAmountConsumed / 100).floor, user))
         else
             @battle.pbDisplay(_INTL("There were no coins to throw in the Wishing Well..."))
         end
