@@ -137,41 +137,41 @@ BattleHandlers::LoadDataDependentAbilityHandlers += proc {
 }
 
 BattleHandlers::AbilityOnSwitchIn.add(:PRESSURE,
-proc { |ability, battler, battle, aiCheck|
-    next 0 if aiCheck
-    battle.pbShowAbilitySplash(battler, ability)
-    battle.pbDisplay(_INTL("{1} is exerting its pressure!", battler.pbThis))
-    battle.pbHideAbilitySplash(battler)
-}
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} is exerting its pressure!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
 )
 
 BattleHandlers::AbilityOnSwitchIn.add(:UNNERVE,
-proc { |ability, battler, battle, aiCheck|
-    next 0 if aiCheck
-    battle.pbShowAbilitySplash(battler, ability)
-    battle.pbDisplay(_INTL("{1} is too nervous to eat Berries or Leftovers!", battler.pbOpposingTeam))
-    battle.pbHideAbilitySplash(battler)
-}
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} is too nervous to eat Berries or Leftovers!", battler.pbOpposingTeam))
+      battle.pbHideAbilitySplash(battler)
+  }
 )
 
 BattleHandlers::AbilityOnSwitchIn.add(:STRESSFUL,
-proc { |ability, battler, battle, aiCheck|
-    next 0 if aiCheck
-    battle.pbShowAbilitySplash(battler, ability)
-    battle.pbDisplay(_INTL("{1} is too stressed to use their items!", battler.pbOpposingTeam))
-    battle.pbHideAbilitySplash(battler)
-}
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} is too stressed to use their items!", battler.pbOpposingTeam))
+      battle.pbHideAbilitySplash(battler)
+  }
 )
 
 BattleHandlers::AbilityOnSwitchIn.add(:ASONEICE,
-proc { |ability, battler, battle, aiCheck|
-    next 0 if aiCheck
-    battle.pbShowAbilitySplash(battler, ability)
-    battle.pbDisplay(_INTL("{1} has 2 Abilities!", battler.name))
-    battle.pbShowAbilitySplash(battler, :UNNERVE)
-    battle.pbDisplay(_INTL("{1} is too nervous to eat Berries or Leftovers!", battler.pbOpposingTeam))
-    battle.pbHideAbilitySplash(battler)
-}
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} has 2 Abilities!", battler.name))
+      battle.pbShowAbilitySplash(battler, :UNNERVE)
+      battle.pbDisplay(_INTL("{1} is too nervous to eat Berries or Leftovers!", battler.pbOpposingTeam))
+      battle.pbHideAbilitySplash(battler)
+  }
 )
 
 BattleHandlers::AbilityOnSwitchIn.copy(:ASONEICE, :ASONEGHOST)
@@ -479,6 +479,24 @@ BattleHandlers::AbilityOnSwitchIn.add(:PROTECTIVEINSTINCT,
       next unless battler.hasAnyNotFullyEvolvedAllies?
       battle.pbShowAbilitySplash(battler, ability)
       battle.pbDisplay(_INTL("{1} bonds with its younger allies!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
+BattleHandlers::AbilityOnSwitchIn.add(:GRANDIDEALS,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} boosts all super effective or hyper effective attacks!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
+BattleHandlers::AbilityOnSwitchIn.add(:HARSHTRUTHS,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} boosts all not very effective or barely effective attacks!", battler.pbThis))
       battle.pbHideAbilitySplash(battler)
   }
 )
@@ -1112,6 +1130,24 @@ BattleHandlers::AbilityOnSwitchIn.add(:HAUNTED,
       next 0 if aiCheck
       battle.pbShowAbilitySplash(battler, ability)
       battle.pbDisplay(_INTL("{1} is haunted!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
+BattleHandlers::AbilityOnSwitchIn.add(:MOLTENADAPTED,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} has fused with fire!", battler.pbThis))
+      battle.pbHideAbilitySplash(battler)
+  }
+)
+
+BattleHandlers::AbilityOnSwitchIn.add(:PLASMAADAPTED,
+  proc { |ability, battler, battle, aiCheck|
+      next 0 if aiCheck
+      battle.pbShowAbilitySplash(battler, ability)
+      battle.pbDisplay(_INTL("{1} has fused with electricity!", battler.pbThis))
       battle.pbHideAbilitySplash(battler)
   }
 )

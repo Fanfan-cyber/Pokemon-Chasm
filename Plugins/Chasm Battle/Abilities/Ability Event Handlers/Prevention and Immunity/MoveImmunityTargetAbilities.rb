@@ -95,6 +95,12 @@ BattleHandlers::MoveImmunityTargetAbility.add(:SHIELDSMITHING,
   }
 )
 
+BattleHandlers::MoveImmunityTargetAbility.add(:COLDFUSION,
+  proc { |ability, user, target, move, type, battle, showMessages, aiCheck|
+      next pbBattleMoveImmunityStatAbility(ability, user, target, move, type, %i[FIRE ELECTRIC], ATTACKING_STATS_2, nil, battle, showMessages, aiCheck)
+  }
+)
+
 # pbBattleMoveImmunityHealAbility
 
 BattleHandlers::MoveImmunityTargetAbility.add(:HEARTLESS,

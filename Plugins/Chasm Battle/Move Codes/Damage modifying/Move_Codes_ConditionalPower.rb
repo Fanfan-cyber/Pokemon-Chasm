@@ -615,6 +615,7 @@ class PokeBattle_Move_DoubleDamageMoneyTargetStatused < PokeBattle_Move
         user.generateMoney(money)
     end
 end
+
 #===============================================================================
 # Power is increased by 30% if the move is super-effective or hyper-effective. (Atmospheric Burst)
 #===============================================================================
@@ -626,5 +627,47 @@ class PokeBattle_Move_DamageBoost30PercentSuperOrHyperEffective < PokeBattle_Mov
 
     def shouldHighlight?(user, target)
         return pbCalcTypeMod(:FLYING, user, target, true) == Effectiveness::SUPER_EFFECTIVE
+    end
+end
+
+#===============================================================================
+# Always critical vs targets with modified stats. (Cleansing Flames)
+# Resets those stats.
+#===============================================================================
+class PokeBattle_Move_CritsAgainstModifiedStatsResetsStats < PokeBattle_Move
+    def pbCriticalOverride(_user, target)
+        return 1 if target.hasAlteredStatSteps?
+        return 0
+    end
+
+    def pbEffectAgainstTarget(user, target)
+        return if target.damageState.hpLost <= 0
+        battle.pbDisplay(_INTL("{1}'s stat changes were cleansed by fire!", target.pbThis))
+        target.pbResetStatSteps
+    end
+
+    def shouldHighlight?(_user, target)
+        return target.hasAlteredStatSteps?
+    end
+end
+
+#===============================================================================
+# Always critical vs targets with unmodified stats. (Advancing Voltage)
+# Raises all of the target's stats by one step.
+#===============================================================================
+class PokeBattle_Move_CritsAgainstUnmodifiedStatsRaiseTargetMainStatsOne < PokeBattle_Move
+    def pbCriticalOverride(_user, target)
+        return 1 unless target.hasAlteredStatSteps?
+        return 0
+    end
+
+    def pbEffectAgainstTarget(user, target)
+        return if target.damageState.hpLost <= 0
+        battle.pbDisplay(_INTL("{1}'s stats are advanced by an energy surge!", target.pbThis))
+        target.pbRaiseMultipleStatSteps(ALL_STATS_1, user, move: self)
+    end
+
+    def shouldHighlight?(_user, target)
+        return !target.hasAlteredStatSteps?
     end
 end
