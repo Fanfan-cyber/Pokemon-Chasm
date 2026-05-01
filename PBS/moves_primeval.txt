@@ -543,6 +543,19 @@ Flags = Empowered
 Description = The user focuses intently, making every future attack critical. User becomes Steel-type.
 Animation = LASERFOCUS
 #-------------------------------
+[PRIMEVALMIRRORSHIELD]
+Name = Primeval Mirror Shield
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = User
+Priority = 4
+FunctionCode = EmpoweredMirrorShield
+Flags = Empowered
+Description = The user raises its Sp. Def by two steps and gains the ability Feedback. User becomes Steel-type.
+Animation = MIRRORSHIELD
+#-------------------------------
 [PRIMEVALPOLARIZEDROOM]
 Name = Primeval Polarized Room
 Type = STEEL
@@ -774,6 +787,19 @@ FunctionCode = EmpoweredLeechSeed
 Flags = CanProtect,Empowered
 Description = The user inflicts leech on all nearby foes. User becomes Grass-type.
 Animation = LEECHSEED
+#-------------------------------
+[PRIMEVALSPIKYSHIELD]
+Name = Primeval Spiky Shield
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = User
+Priority = 4
+FunctionCode = EmpoweredSpikyShield
+Flags = Empowered
+Description = The user raises its Defense by two steps and gains the ability Iron Barbs. User becomes Grass-type.
+Animation = SPIKYSHIELD
 #-------------------------------
 [PRIMEVALSPORE]
 Name = Primeval Spore
