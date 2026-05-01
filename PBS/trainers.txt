@@ -9243,8 +9243,8 @@ Pokemon = INCINEROAR,70
     EV = 10,10,0,20,10,10
 Pokemon = KYUREM,70
     Form = 3 # White Form
-    Moves = FUSIONFLARE,BLIZZARD,DRACOMETEOR,HUNDREDHANDCLAP
-    AbilityIndex = 0 # Juggernaut
+    Moves = CLEANSINGFLAMES,BLIZZARD,DRACOMETEOR,PIERCINGDOUBT
+    AbilityIndex = 0 # Molten Adapted
     Item = CHOICESPECS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
