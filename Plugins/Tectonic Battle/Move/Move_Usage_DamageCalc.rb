@@ -24,6 +24,8 @@ class PokeBattle_Move
         # Calcuate base power of move
         baseDmg = pbFinalBaseDamage(user, target)
 
+        target.damageState.finalBaseDamage = baseDmg
+
         # Calculate whether this hit deals critical damage
         target.damageState.critical,target.damageState.forced_critical = pbIsCritical?(user,target)
         
@@ -411,7 +413,7 @@ class PokeBattle_Move
     def calc_stab(user, target, type, checkingForAI = false)
         stab = 1.5
         stab = 1.25 if !user.mono_type? || user.shouldAbilityApply?(:IMPRESSIONABLE, checkingForAI)
-        stab *= 4.0 / 3.0 if user.shouldAbilityApply?(:ADAPTED, checkingForAI)
+        stab *= 4.0 / 3.0 if user.shouldAbilityApply?(GameData::Ability.getByFlag("STABBoosting"), checkingForAI)
         stab *= 3.0 / 2.0 if user.shouldAbilityApply?(:ULTRAADAPTED, checkingForAI)
         return stab
     end
@@ -453,6 +455,16 @@ class PokeBattle_Move
         multipliers[:final_damage_multiplier] *= effectiveness
 
         echoln("[DAMAGE CALC] Calcing damage based on expected type effectiveness mult of #{effectiveness}") if DAMAGE_CALC_DEBUG
+
+        # Harsh Truths
+        if Effectiveness.resistant?(typeMod) && @battle.pbCheckGlobalAbility(:HARSHTRUTHS)
+            multipliers[:final_damage_multiplier] *= 1.5
+        end
+
+        # Grand Ideals
+        if Effectiveness.super_effective?(typeMod) && @battle.pbCheckGlobalAbility(:GRANDIDEALS)
+            multipliers[:final_damage_multiplier] *= 1.5
+        end
 
         # Charge
         if user.effectActive?(:EnergyCharge) && type == :ELECTRIC

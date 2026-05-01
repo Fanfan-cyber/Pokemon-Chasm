@@ -1183,6 +1183,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Base Attack Set",
     :type => :Integer,
     :baton_passed => true,
+    :default => -1,
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
@@ -1190,6 +1191,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Base Sp. Atk Set",
     :type => :Integer,
     :baton_passed => true,
+    :default => -1,
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
@@ -1197,6 +1199,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Base Defense Set",
     :type => :Integer,
     :baton_passed => true,
+    :default => -1,
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
@@ -1204,6 +1207,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Base Sp. Def Set",
     :type => :Integer,
     :baton_passed => true,
+    :default => -1,
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
@@ -1211,6 +1215,7 @@ GameData::BattleEffect.register_effect(:Battler, {
     :real_name => "Base Speed Set",
     :type => :Integer,
     :baton_passed => true,
+    :default => -1,
 })
 
 GameData::BattleEffect.register_effect(:Battler, {

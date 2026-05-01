@@ -573,7 +573,7 @@ def getMultiStatDownEffectScore(statDownArray, user, target, fakeStepModifier: 0
             return -100
         end
 
-        # Give no extra points for attacking stats you can't use
+        # Give no extra points for attacking stats the target can't use
         if statSymbol == :ATTACK && !target.hasPhysicalAttack?
             echoln("\t\t[EFFECT SCORING] Ignoring Attack changes, the target has no physical attacks")
             next
@@ -583,7 +583,7 @@ def getMultiStatDownEffectScore(statDownArray, user, target, fakeStepModifier: 0
             next
         end
 
-        # Increase the score more for boosting attacking stats
+        # Increase the score more for decreasing attacking stats
         if %i[ATTACK SPECIAL_ATTACK].include?(statSymbol)
             scoreIncrease = 20
         else
@@ -604,14 +604,7 @@ def getMultiStatDownEffectScore(statDownArray, user, target, fakeStepModifier: 0
         echoln("\t\t[EFFECT SCORING] The change to #{statSymbol} by #{statDecreaseAmount} at step #{step} increases the score by #{scoreIncrease}")
     end
 
-    # Stat downs tend to be stronger when the target has HP to use
-    score *= 1.2 if target.firstTurn?
-
-    # Stat downs tend to be stronger when the target has HP to use
-    score *= 1.2 if target.hp > target.totalhp / 2
-
-    # Stat downs tend to be weaker when the target is able to swap out
-    score /= 2 if user.battle.pbCanSwitch?(target.index)
+    score = stepAgnosticStatReductionScoreMods(target, score)
 
     if target.hasActiveAbilityAI?(:CONTRARY)
         score *= -1
@@ -652,6 +645,19 @@ def getMultiStatDownEffectScore(statDownArray, user, target, fakeStepModifier: 0
     end
 
     return score.ceil
+end
+
+def stepAgnosticStatReductionScoreMods(target, score)
+    # Stat downs tend to be stronger when the target has HP to use
+    score *= 1.2 if target.firstTurn?
+
+    # Stat downs tend to be stronger when the target has HP to use
+    score *= 1.2 if target.hp > target.totalhp / 2
+
+    # Stat downs tend to be weaker when the target is able to swap out
+    score /= 2 if target.battle.pbCanSwitch?(target.index)
+
+    return score
 end
 
 def getWeatherSettingEffectScore(weatherType, user, battle, finalDuration = 4, checkExtensions = true)

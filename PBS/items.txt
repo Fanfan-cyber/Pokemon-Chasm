@@ -22,7 +22,7 @@ NamePlural = Stealth Spray
 Pocket = 1
 Price = 5000
 FieldUse = Direct
-Description = Rare contraband. Use it to become invisible to average solo trainers for 30 steps.
+Description = Rare contraband. Use it to become invisible to average solo trainers for 15 steps.
 #-------------------------------
 [FIRESTONE]
 Name = Fire Stone
@@ -2370,7 +2370,7 @@ Pocket = 8
 Price = 0
 FieldUse = OnPokemon
 Flags = KeyItem
-Description = An item holding Zygarde's Cores and Cells. You can use it to change Zygarde's ability.
+Description = An item holding Zygarde's Cores and Cells. You can use it to change Zygarde's forme.
 #-------------------------------
 [EXPCANDYXS]
 Name = Exp. Candy XS

@@ -4083,6 +4083,19 @@ Flags = CanProtect,Wind
 EffectChance = 30
 Description = The user attacks by sending a wave of hot air towards the target. It has a 30% chance to burn.
 #-------------------------------
+[CLEANSINGFLAMES]
+Name = Cleansing Flames
+Type = FIRE
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = CritsAgainstModifiedStatsResetsStats
+Flags = CanProtect
+Description = Guaranteed to critical hit if the target has stat step changes. The target is cleansed, reseting their stat changes.
+Animation = FLAMETHROWER
+#-------------------------------
 [CRIMSONSTORM]
 Name = Crimson Storm
 Type = FIRE
@@ -5312,7 +5325,7 @@ Type = GRASS
 Category = Special
 Power = 95
 Accuracy = 100
-TotalPP = 12
+TotalPP = 10
 Target = AllNearOthers
 FunctionCode = Basic
 Flags = CanProtect,Wind
@@ -5535,6 +5548,19 @@ Description = The user whips their legs into the target like a plant. This has a
 Animation = TROPKICK
 #-------------------------------
 #		ELECTRIC MOVES
+#-------------------------------
+[ADVANCINGVOLTAGE]
+Name = Advancing Voltage
+Type = ELECTRIC
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = CritsAgainstUnmodifiedStatsRaiseTargetMainStatsOne
+Flags = CanProtect
+Description = Guaranteed to critical hit if the target has no stat step changes. The target is surged forward, raising all its stats.
+Animation = VOLTTACKLE
 #-------------------------------
 [AMPUP]
 Name = Amp Up
@@ -6617,6 +6643,20 @@ Description = The user imparts knowledge on its ally Pokémon, raising their Sp.
 Animation = COACHING
 #-------------------------------
 #		ICE MOVES
+#-------------------------------
+[ABSOLUTEZERO]
+Name = Absolute Zero
+Type = ICE
+Category = Adaptive
+Power = 65
+Accuracy = 100
+TotalPP = 10
+Target = AllNearFoes
+FunctionCode = SetTargetSpeedZero
+Flags = CanProtect
+EffectChance = 100
+Description = The user chills all near foes so severely that their speed becomes zero.
+Animation = SHEERCOLD
 #-------------------------------
 [AURORAFLASH]
 Name = Aurora Flash

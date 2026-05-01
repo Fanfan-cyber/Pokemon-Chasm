@@ -21,6 +21,7 @@ Description = After landing a super-effective or hyper-effective hit, deals 30% 
 [ADAPTED]
 Name = Adapted
 Description = Powers up moves of the same type by 33%.
+Flags = STABBoosting
 #-------------------------------
 [ADRENALINERUSH]
 Name = Adrenaline Rush
@@ -354,6 +355,10 @@ Description = Its attacks are critical against frostbitten targets.
 Name = Cold Calculation
 Description = Boosts Sp. Atk by 75%, but this Pokémon becomes frostbitten after attacking.
 #-------------------------------
+[COLDFUSION]
+Name = Cold Fusion
+Description = Immune to Fire and Electric-type moves, and raises Attack and Sp. Atk by two steps if hit by one.
+#-------------------------------
 [COLDRECEPTION]
 Name = Cold Reception
 Description = Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
@@ -627,7 +632,7 @@ Flags = ChoiceLocking
 #-------------------------------
 [EXPERTISE]
 Name = Expertise
-Description = Powers up super-effective moves by 30%.
+Description = Powers up super-effective or hyper-effective moves by 30%.
 #-------------------------------
 [EXTRASCOOP]
 Name = Extra Scoop
@@ -896,6 +901,10 @@ Description = This Pokémon's Speed is doubled while using wind-based moves.
 Name = Gourmand
 Description = Eats pinch berries earlier than normal. Gets a random pinch berry at the end of each turn if it has no item.
 #-------------------------------
+[GRANDIDEALS]
+Name = Grand Ideals
+Description = While this Pokémon is on the field, super-effective or hyper-effective moves are boosted by 50%.
+#-------------------------------
 [GRAVITAS]
 Name = Gravitas
 Description = Upon entry, intensifies gravity for four turns.
@@ -949,6 +958,10 @@ Description = Deals 30% more move damage to Pokémon that are taller than it.
 [HARSH]
 Name = Harsh
 Description = Its attacks are critical against burned targets.
+#-------------------------------
+[HARSHTRUTHS]
+Name = Harsh Truths
+Description = While this Pokémon is on the field, not-very-effective or barely-effective moves are boosted by 50%.
 #-------------------------------
 [HASTY]
 Name = Hasty
@@ -1426,6 +1439,11 @@ Flags = Immutable
 Name = Moist Skin
 Description = If an attack lowers its HP below half, waterlogs the attacker.
 #-------------------------------
+[MOLTENADAPTED]
+Name = Molten Adapted
+Description = This Pokémon is also Fire-type. Powers up moves of the same type by 33%.
+Flags = STABBoosting
+#-------------------------------
 [MONKEYMISCHIEF]
 Name = Monkey Mischief
 Description = When hit by another Pokémon, destroys one of their items.
@@ -1656,6 +1674,11 @@ Description = Takes no damage from non-volatile status conditions.
 [PLANARVEIL]
 Name = Planar Veil
 Description = Sets screens for two more turns.
+#-------------------------------
+[PLASMAADAPTED]
+Name = Plasma Adapted
+Description = This Pokémon is also Electric-type. Powers up moves of the same type by 33%.
+Flags = STABBoosting
 #-------------------------------
 [PLASMAGLOBE]
 Name = Plasma Globe
