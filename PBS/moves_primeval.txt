@@ -1029,6 +1029,18 @@ EffectChance = 100
 Description = The user exhales a mighty gust that inflicts damage and numbs the target.
 Animation = DRAGONBREATH
 #-------------------------------
+[IDEALWORLD]
+Name = Ideal World
+Type = DRAGON
+Category = Status
+Accuracy = 0
+TotalPP = 3
+Target = AllBattlers
+FunctionCode = AddSteelTypeToTargetResetTargetStats
+Flags = AvatarSignature
+Description = A move that only the avatar of Zekrom can use. All battlers gain Steel-type and have their stat changes reset.
+Animation = TRICKROOM
+#-------------------------------
 [PRIMEVALDRAGONDANCE]
 Name = Primeval Dragon Dance
 Type = DRAGON
@@ -1052,6 +1064,18 @@ FunctionCode = EmpoweredLoomOver
 Flags = Empowered
 Description = The user lowers each near foe's highest stat by four steps. User becomes Dragon-type.
 Animation = LOOMOVER
+#-------------------------------
+[TRUEGLORY]
+Name = True Glory
+Type = DRAGON
+Category = Status
+Accuracy = 0
+TotalPP = 3
+Target = AllBattlers
+FunctionCode = RaiseTargetAllMainStats2
+Flags = AvatarSignature
+Description = A move that only the avatar of Reshiram can use. All battlers have all of their stats raised by two steps.
+Animation = WISH
 #-------------------------------
 #		DARK MOVES
 #-------------------------------
