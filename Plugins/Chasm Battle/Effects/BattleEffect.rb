@@ -325,7 +325,7 @@ module GameData
                 when :Boolean
                     active = value
                 when :Integer
-                    active = value > 0
+                    active = value != @default
                 when :Position, :PartyPosition
                     active = value >= 0
                 when :String
