@@ -642,7 +642,7 @@ def stepAgnosticStatReductionScoreMods(target, score)
     score *= 1.2 if target.hp > target.totalhp / 2
 
     # Stat downs tend to be weaker when the target is able to swap out
-    score /= 2 if user.battle.pbCanSwitch?(target.index)
+    score /= 2 if target.battle.pbCanSwitch?(target.index)
 
     return score
 end
