@@ -30676,7 +30676,7 @@ The flames it breathes when angry contain toxins. If they cause a burn, it will 
 恐怖的长嚎是其特征。过去人们曾认为它是来自地狱的使者而对其心存畏惧。
 They are the steeds of the Elite Four of the Apocalypse, and their howls will ring in the end of days... or so the stories go.
 据说它们是天启四骑士的坐骑，它们的嚎叫将在世界末日时响彻天际...
-Phanpy uses its snout to shower itself with water. However its snout is so strong that when it bumps into you, it may send you flying.
+Phanpy uses its snout to shower itself with water. However, its snout is so strong that when it bumps into you, it may send you flying.
 在河边挖个竖坑生活。会在住处附近做上鼻子标记，以此来告诉伙伴这里是自身的领地哦。
 The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.
 擅长把身体蜷成1团，边高速滚动边向对手猛撞的攻击。一旦开始滚动就很难停下来。
@@ -35533,7 +35533,7 @@ Throws scorching sand at the target to attack. It has a 10% chance to burn.
 将滚烫的沙子砸向对手进行攻击。10%概率让对手陷入烧伤状态。
 The user heals itself by half of its max HP, or 66% in sandstorm.
 使用者回复自身最大HP的1半。沙暴时可回复66%。
-The user lays a hazard layer of Spikes at the foe's feet. Foes that switch into battle are hurt a bit for each layer.
+The user lays a hazard layer of Spikes on the foe's side. Foes that switch into battle are hurt a bit for each layer.
 使用者在对手脚下放置1层菱。替换进入战斗的对手会因每1层而受到1些伤害。
 The user attacks driven by frustration. Power increases if previous move failed.
 化悔恨为力量进行攻击。如果上1回合技能没有命中，威力就会翻倍。
@@ -39478,8 +39478,8 @@ An item that prevents wild Pokémon from appearing for 100 steps after its use.
 使用后，在较短的1段时间内，弱小的野生精灵将完全不会出现。
 Rare contraband. Any average solo trainer will flee from the stench of its explosion.
 1种稀有违禁品。使用后普通的单人训练师会被它爆炸所产生的臭味熏得落荒而逃。
-Rare contraband. Use it to become invisible to average solo trainers for 30 steps.
-1种稀有违禁品。使用后可以隐形30步，普通的单人训练师无法察觉到你。
+Rare contraband. Use it to become invisible to average solo trainers for 15 steps.
+1种稀有违禁品。使用后可以隐形15步，普通的单人训练师无法察觉到你。
 A peculiar stone that makes certain species of Pokémon evolve. It is colored orange.
 能让某些特定精灵进化的神奇石头。
 A peculiar stone that makes certain species of Pokémon evolve. It has a thunderbolt pattern.
@@ -40070,8 +40070,8 @@ A machine to fuse Necrozma, which needs light, and Solgaleo.
 用来让需求光的奈克洛兹玛和索尔迦雷欧合体的机器。
 A machine to fuse Necrozma, which needs light, and Lunala.
 用来让需求光的奈克洛兹玛和露奈雅拉合体的机器。
-An item holding Zygarde's Cores and Cells. You can use it to change Zygarde's ability.
-用于收集精灵基格尔德的核心和细胞的物品。还可以教基格尔德技能。
+An item holding Zygarde's Cores and Cells. You can use it to change Zygarde's forme.
+用于收集精灵基格尔德的核心和细胞的物品。还可以用于改变基格尔德的形态。
 A candy that is packed with energy. When consumed, it will grant a single Pokémon 250 Exp. Points.
 充满能量的糖果，吃下后可以获得250Exp。
 A candy that is packed with energy. When consumed, it will grant a single Pokémon 1000 Exp. Points.
@@ -42898,7 +42898,7 @@ Multi-hit moves can hit up to twice as many times.
 多段伤害类技能最多可以打出原先最大次数的2倍的次数。
 Copies the Ability of the Pokémon it switches in to replace.
 替换上场时，复制被替换的精灵的特性。
-Effects placed by this Pokemon last 50% longer.
+Effects placed by this Pokémon last 50% longer.
 该精灵开启的效果的持续时间增加50%。
 This Pokémon's Speed is doubled while using pulse moves.
 使用脉冲类技能时，速度翻倍。
@@ -47771,7 +47771,7 @@ Which move should be forgotten?
 要忘记哪个技能呢？
 Are you sure you want {1} to forget {2}?
 你确定要让{1}忘记{2}吗？
-Success! {1} forget {2} completely.
+Success! {1} forgot {2} completely.
 成功！{1}完全忘记了{2}。
 TYPE
 属性
@@ -48281,7 +48281,7 @@ Every move has a type. Attacking moves deal different amounts of damage to diffe
 每个技能都有1种属性，攻击会根据攻击者和承受者的属性不同，造成不同伤害。
 Same-Type Bonus
 本属性加成
-Pokémon deal 50% more damage with moves the share a type with them. For example, a Raichu deals 50% more damage with an Electric move than a Normal move.
+Pokémon deal 50% more damage with moves they share a type with. For example, a Raichu deals 50% more damage with an Electric move than a Normal move.
 精灵使用与自身属性相同的技能，会额外增加技能威力。
 Learning Moves
 学习技能
@@ -48333,8 +48333,8 @@ The 5th and 6th pages of a MasterDex entry show that Pokémon's type matchups. O
 大师图鉴的第5、6页显示了精灵的属性相关，不确定的话可以在战斗中打开大师图鉴查看。
 Psychic vs Steel
 超能和钢
-Psychic is now Super-Effective vs Steel. Think of magicians bending spoons.
-超能属性现在克制钢属性，想想魔术师的勺子吧。
+Psychic is now Super-Effective vs Steel. Psychic also resists Steel. Think of magicians bending spoons.
+超能属性现在不仅克制钢属性，还抵抗钢属性，想想魔术师的勺子吧。
 Poison vs Water
 毒和水
 Poison is now Super-Effective vs Water. Think of chemicals polluting a river.
@@ -48353,8 +48353,8 @@ Ice now resists Flying and Ground. Ice is Super-Effective against those types, s
 冰属性现在可以抵抗飞行和地面属性，本身冰属性就克制它们，能抵抗1下也正常。
 Other changes
 其它改动
-Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic. Psychic resists Steel.
-岩石属性抵抗冰属性，妖精属性抵抗龙属性，妖精属性对火属性效果一般，虫属性抵抗超能属性，超能属性抵抗钢属性。
+Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic.
+岩石属性抵抗冰属性，妖精属性抵抗龙属性，妖精属性对火属性效果一般，虫属性抵抗超能属性。
 Why Get More?
 需培养更多？
 Having choices of Pokémon is important when facing challenges. A team of six is a bare minimum--it's best to catch more and pull them from the PC as needed.
@@ -48533,7 +48533,7 @@ When cursed, a Pokémon loses 25% of its HP every turn. Ghost-types do the most 
 被诅咒时，精灵每回合损失25%的HP。幽灵属性最容易造成诅咒。
 Blindness
 失明
-When blinded, a Pokemon deals 50% damage with its next attacking move. Blindness persists until a damaging move is used by the blinded Pokemon.
+When blinded, a Pokémon deals 50% damage with its next attacking move. Blindness persists until a damaging move is used by the blinded Pokémon.
 处于失明状态时，该精灵的下1次技能攻击的伤害减半。失明状态会持续，直到该精灵使用伤害类技能为止。
 Torment
 折磨
@@ -48605,8 +48605,8 @@ Critical hits ignore stat steps (on the user or the target) that would lower the
 命中要害的1击不会受到能力等级导致的伤害减小的影响，也不会受到屏障类效果的影响。
 Preventing Criticals
 阻止被命中要害
-Certain abilities prevent critical hits against that Pokémon. The Lucky Chant effect protects their side from critical hits.
-某些特性可以阻止对该精灵的命中要害。幸运咒语的效果可以保护其所在的1方免受命中要害。
+Certain abilities prevent critical hits against that Pokémon. The Sanctuary effect protects their side from critical hits.
+某些特性可以阻止对该精灵的命中要害。圣地的效果可以保护其所在的1方免受命中要害。
 Guaranteed Criticals
 确保命中要害
 Some moves or abilities are not random, but guarantee a critical hit under certain conditions. Otherwise, these act the same as random critical hits.
@@ -48787,15 +48787,15 @@ Pokémon on this side get a 30% move damage boost, but they are prevented from u
 场上同侧精灵的技能伤害增加30%，但无法连续使用同1个属性的技能。
 Tapu Fini: Fog Totem
 卡璞·鳍鳍：迷雾图腾
-Whenever a foe finishes attacking a Pokemon on this side, the attacker is forced to switch out of battle. They are able to choose the replacement.
+Whenever a foe finishes attacking a Pokémon on this side, the attacker is forced to switch out of battle. They are able to choose the replacement.
 当对手攻击我方的精灵后，攻击者将被强制替换下场。对手可以选择用于替换的精灵。
 Tapu Bulu: Wild Totem
 卡璞·哞哞：荒野图腾
-Whenever a Pokemon on this side is hit, its defending stats are both lowered by 1 step and its attacking stats are both raised by 1 step.
+Whenever a Pokémon on this side is hit, its defending stats are both lowered by 1 step and its attacking stats are both raised by 1 step.
 当我方的精灵受到攻击时，其双防减小1级，双攻增加1级。
 Tapu Lele: Flutter Totem
 卡璞·蝶蝶：翩翩图腾
-At the end of each turn, the Pokemon on this side are all healed by 1/8th of their max HP, but each one of their moves has their PP reduced by 1.
+At the end of each turn, the Pokémon on this side are all healed by 1/8th of their max HP, but each one of their moves has their PP reduced by 1.
 回合结束时，我方的精灵回复最大HP的1/8，但所有技能的PP减少1点。
 Zeraora: Hybrid Fighter
 捷拉奥拉：混合斗士
@@ -56015,6 +56015,10 @@ I'm sorry, but you don't seem to have enough money.
 抱歉，你的钱不太够。
 You hand over ${1}.
 你交出{1}金钱。
+\\PN hands over the ${1}.
+你交出{1}金钱。
+\PN hands over the ${1}.
+你交出{1}金钱。
 Alright, let me roll for you...\|
 好的，让我们来看一看...\|
 Congratulations, you have won the raffle! Here is your {1}, as promised.
@@ -59733,7 +59737,7 @@ Maybe you'll be the one to bring them back?
 也许你就是那个把它们带回来的人？
 Ohoh! I'm honored that you would pay my store a visit, champion.
 哦吼，冠军愿意光临，小店真是蓬荜生辉啊。
-One-Stop Tech Shop, for all your electronic need.
+One-Stop Tech Shop, for all your electronic needs.
 如一维修，满足你对电子产品的所有需求。
 Hurry and buy some.
 赶紧买买买吧。
@@ -62897,7 +62901,7 @@ Effects placed by your Pokémon last 50% longer (rounded down).
 Your team has 15% increased Speed.
 全员速度增加15%。
 19
-Your Pokemon deal 15% more damage to targets that haven’t moved yet this turn. Your priority attacks and priority status moves have doubled PP.
+Your Pokémon deal 15% more damage to targets that haven’t moved yet this turn. Your priority attacks and priority status moves have doubled PP.
 全员对于还没有行动的对手的伤害增加15%，先制类技能需要多消耗1点PP。
 20
 Ignore the first time each battle that one of your team members would flinch or get a non-volatile status condition.

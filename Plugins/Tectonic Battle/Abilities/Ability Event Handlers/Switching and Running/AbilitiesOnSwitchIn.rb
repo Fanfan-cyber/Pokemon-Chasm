@@ -162,19 +162,19 @@ BattleHandlers::LoadDataDependentAbilityHandlers += proc {
 
 BattleHandlers::AbilityOnSwitchIn.add(:PRESSURE,
   proc { |ability, battler, battle, aiCheck|
-      done = false
-      score = 0
-	    battler.eachOpposing do |b|
-          next unless b.hasRaisedStatSteps?
-          score += b.pbResetRaisedStatSteps(false, aiCheck)
-          done = true
-      end
-      next score if aiCheck
+    done = false
+    score = 0
+    battler.eachOpposing do |b|
+        next unless b.hasRaisedStatSteps?
+        score += b.pbResetRaisedStatSteps(false, aiCheck)
+        done = true
+    end
+    next score if aiCheck
 
-      battle.pbShowAbilitySplash(battler, ability)
-      battle.pbDisplay(_INTL("{1} is exerting its pressure!", battler.pbThis))
-      battle.pbDisplay(_INTL("All foes positive stat changes were eliminated!")) if done
-      battle.pbHideAbilitySplash(battler)
+    battle.pbShowAbilitySplash(battler, ability)
+    battle.pbDisplay(_INTL("{1} is exerting its pressure!", battler.pbThis))
+    battle.pbDisplay(_INTL("All foes positive stat changes were eliminated!")) if done
+    battle.pbHideAbilitySplash(battler)
   }
 )
 

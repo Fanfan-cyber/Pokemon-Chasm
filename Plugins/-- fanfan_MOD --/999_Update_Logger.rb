@@ -9,10 +9,11 @@
 兑换初始硬币
 部族快速搜索联动大师图鉴
 箱子搜索启用半透明
+增加起源矿石获取
 =end
 
 MOD_VERSION  = "0.4.7"
-VERSION_NAME = ["Overture of Dawn", "破晓序曲"]
+VERSION_NAME = ["Radiant Nexus", "星芒汇流"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
