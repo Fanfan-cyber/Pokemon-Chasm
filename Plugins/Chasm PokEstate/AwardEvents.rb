@@ -23,7 +23,7 @@ PokEstate::LoadDataDependentAwards += proc {
 ##############################################
 # TRIBE REWARDS (22 of them)
 ##############################################
-tribeThreshold = [50]
+tribeThreshold = [100]
 tribeRewards = [[:EXPCANDYXL,4]]
 
 PokEstate::LoadDataDependentAwards += proc {
