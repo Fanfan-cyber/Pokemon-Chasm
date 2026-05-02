@@ -838,6 +838,7 @@ def predictedEOTDamage(battle,battler)
 
     # Curse
     damage += battler.getFractionalDamageAmount(CURSE_DAMAGE_FRACTION, aggravate: aggravate) if battler.effectActive?(:Curse)
+    damage += battler.getFractionalDamageAmount(PHARAOHS_CURSE_DAMAGE_FRACTION, aggravate: aggravate) if battler.effectActive?(:PharaohsCurse)
 
     # Trapping DOT
     damage += battler.getFractionalDamageAmount(trappingDamageFraction(battler), aggravate: aggravate) if battler.effectActive?(:Trapping)
