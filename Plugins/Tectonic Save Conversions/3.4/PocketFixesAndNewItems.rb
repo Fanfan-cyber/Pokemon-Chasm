@@ -16,6 +16,7 @@ SaveData.register_conversion(:pokemon_lure_3_4_0) do
       itemBag = save_data[:bag]
 
       if selfSwitches[[32,14,'C']] # Completed Lost Growlithe quest
+          itemBag.pbDeleteItem(:POKEMONLURE, itemBag.pbQuantity(:POKEMONLURE))
           itemBag.pbStoreItem(:POKEMONLURE, 1, false)
       end
   end
@@ -30,6 +31,7 @@ SaveData.register_conversion(:primal_beads_3_4_0) do
       selfSwitches = save_data[:self_switches]
       itemBag = save_data[:bag]
   
+      itemBag.pbDeleteItem(:PRIMALBEAD, itemBag.pbQuantity(:PRIMALBEAD))
       itemBag.pbStoreItem(:PRIMALBEAD, 1, false) if selfSwitches[[258,17,'C']] # defeated whitebloom yezera
       itemBag.pbStoreItem(:PRIMALBEAD, 1, false) if selfSwitches[[215,3,'A']] # defeated rayquaza avatar
   end
@@ -44,6 +46,7 @@ SaveData.register_conversion(:technique_booster_3_4_0) do
       selfSwitches = save_data[:self_switches]
       itemBag = save_data[:bag]
   
+      itemBag.pbDeleteItem(:TECHNIQUEBOOSTER, itemBag.pbQuantity(:TECHNIQUEBOOSTER))
       itemBag.pbStoreItem(:TECHNIQUEBOOSTER, 1, false) if selfSwitches[[5,1,'A']] # defeated avatar of genesect
   end
 end
@@ -57,6 +60,7 @@ SaveData.register_conversion(:vs_recorder_3_4_0) do
       selfSwitches = save_data[:self_switches]
       itemBag = save_data[:bag]
   
+      itemBag.pbDeleteItem(:VSRECORDER, itemBag.pbQuantity(:VSRECORDER))
       itemBag.pbStoreItem(:VSRECORDER, 1, false)
   end
 end

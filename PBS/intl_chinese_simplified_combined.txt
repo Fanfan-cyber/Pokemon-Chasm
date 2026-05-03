@@ -35245,8 +35245,8 @@ The user holds back when it attacks, and the target is left with at least 1 HP.
 在攻击的时候手下留情，从而使对手的HP至少会留下1HP。
 The foe is attacked with a powerful beam. The user is exhausted on the next turn.
 发射强力光线攻击。下1回合将陷入僵直状态。
-The user bites hard on the target with its sharp front fangs. It has a 50% to make the target flinch.
-用锐利的门牙牢牢地咬住对手进行攻击。50%概率使对手畏缩。
+The user bites hard on the target with its sharp fangs. It has a 50% to make the target flinch.
+用锐利的牙牢牢地咬住对手进行攻击。50%概率使对手畏缩。
 The user lets loose a horribly echoing shout with the power to inflict damage.
 给予对手又吵又响的巨大声音震动进行攻击。
 The user releases countless shots of light. Its type varies with the kind of Plate the user is holding.
