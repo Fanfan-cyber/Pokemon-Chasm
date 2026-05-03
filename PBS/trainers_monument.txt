@@ -2120,7 +2120,7 @@ Pokemon = FROSMOTH,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
 Pokemon = MMUSHARNA,70
-    Moves = CHARGEBEAM,SNORE,NEURALPULSE,GUTTURALROAR
+    Moves = CHARGEBEAM,STERTOR,REMBURST,GUTTURALROAR
     AbilityIndex = 1 # Fatigued
     Item = CHESTOBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2266,9 +2266,9 @@ Pokemon = ESCAVALIER,70
 #-------------------------------
 [NECKBEARD,James]
 Pokemon = SNORLAX,70
-    Moves = BEDFELLOWS,SNORE,KNOCKOFF,WORKUP
+    Moves = BEDFELLOWS,STERTOR,KNOCKOFF,WORKUP
     AbilityIndex = 0 # Loud Sleeper
-    Item = ENERGYLOCK
+    Item = THROATSPRAY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,20,0,20,10
 Pokemon = TORTERRA,70
@@ -2278,7 +2278,7 @@ Pokemon = TORTERRA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
 Pokemon = MMUSHARNA,70
-    Moves = POWERGEM,SNORE,NEURALPULSE,GUTTURALROAR
+    Moves = POWERGEM,STERTOR,NEURALPULSE,SLUMBERINGROAR
     AbilityIndex = 1 # Fatigued
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

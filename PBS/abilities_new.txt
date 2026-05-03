@@ -2257,7 +2257,7 @@ Description = Prevents half the self-damage from recoil. Powers up moves that ha
 [STONESYMBOL]
 Name = Stone Symbol
 Description = During sandstorm, immune to non-volatile status conditions and stat reductions.
-Flags = ForceSignature
+Flags = ForceSignature,SandstormSynergy
 #-------------------------------
 [STORMBRINGER]
 Name = Stormbringer

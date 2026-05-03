@@ -3322,11 +3322,11 @@ Name = Pharaoh's Curse
 Type = GHOST
 Category = Status
 Accuracy = 0
-TotalPP = 5
+TotalPP = 10
 Target = NearOther
-FunctionCode = CurseTargetEarnMoneyFromCurse
+FunctionCode = StartDamageTargetAndEarnMoneyEachTurn
 Flags = CanProtect,CanMagicCoat
-Description = The target becomes cursed. Scatters coins equal to health lost from the curse.
+Description = The target begins transforming into gold. They lose 1/8th HP every turn, scattering ten times as many coins as health lost.
 Animation = CURSE
 #-------------------------------
 [POSSESSION]

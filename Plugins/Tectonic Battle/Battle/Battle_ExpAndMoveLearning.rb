@@ -116,16 +116,11 @@ class PokeBattle_Battle
         end
         return if exp <= 0
         # Pokémon gain more Exp from trainer battles
-        if trainerBattle? || defeatedBattler.boss?
+        if trainerBattle? || (defeatedBattler.boss? && defeatedBattler.species_data.isLegendary?)
             exp *= 1.5
-            if $PokemonBag.pbHasItem?(:PERFORMANCEANALYZER2)
-                exp *= 1.1
-            elsif $PokemonBag.pbHasItem?(:PERFORMANCEANALYZER)
-                exp *= 1.0
-            end
-            exp = exp.floor
         end
-        exp /= 5
+        exp *= 1.1 if $PokemonBag.pbHasItem?(:PERFORMANCEANALYZER2)
+        exp = (exp/5.0).floor
         # Scale the gained Exp based on the gainer's level (or not)
         if Settings::SCALED_EXP_FORMULA
             levelAdjust = (2 * level + 10.0) / (pkmn.level + level + 10.0)

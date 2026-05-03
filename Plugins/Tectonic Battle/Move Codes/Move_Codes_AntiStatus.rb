@@ -80,6 +80,25 @@ class PokeBattle_Move_CureUserPartyStatus < PokeBattle_Move
     end
 end
 
+# Empowered Aromatherapy
+class PokeBattle_Move_EmpoweredAromatherapy < PokeBattle_Move_CureUserPartyStatus
+    include EmpoweredMove
+
+    def healingMove?; return true; end
+
+    def pbEffectGeneral(user)
+        super
+        user.applyFractionalHealing(1.0/4.0, user: user) unless user.fainted?
+        user.addAbility(:STABILITY, true)
+        transformType(user, :GRASS)
+    end
+
+    def pbShowAnimation(id, user, targets, hitNum = 0, showAnimation = true)
+        super
+        @battle.pbDisplay(_INTL("A soothing aroma wafted through the area!"))
+    end
+end
+
 #===============================================================================
 # Heals the party of status conditions and gains an Aqua Ring. (Whale Song)
 #===============================================================================

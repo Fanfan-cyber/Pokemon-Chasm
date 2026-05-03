@@ -637,83 +637,6 @@ class PokeBattle_Move_ChangeUserDeerlingSawsbuckForm < PokeBattle_Move
     end
 end
 
-########################################################
-### Specific avatar only moves
-########################################################
-
-#===============================================================================
-# Targets struck lose their flinch immunity. Only usable by the avatar of Rayquaza (Stratosphere Scream)
-#===============================================================================
-class PokeBattle_Move_RayquazaTargetLosesFlinchImmunity < PokeBattle_Move
-    def ignoresSubstitute?(_user); return true; end
-
-    def pbMoveFailed?(user, _targets, show_message)
-        if !user.countsAs?(:RAYQUAZA) || !user.boss?
-            @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis(true))) if show_message
-            return true
-        end
-        return false
-    end
-
-    def pbEffectAfterAllHits(_user, target)
-        return if target.fainted?
-        return if target.damageState.unaffected
-        if target.effectActive?(:FlinchImmunity)
-            target.disableEffect(:FlinchImmunity)
-            @battle.pbDisplay(_INTL("{1} is newly afraid. It can be flinched again!", target.pbThis))
-        end
-    end
-end
-
-#===============================================================================
-# Summons an Avatar of Luvdisc and an Avatar of Remoraid.
-# Only usable by the avatar of Kyogre (Seven Seas Edict)
-#===============================================================================
-class PokeBattle_Move_KyogreSummonAvatarLuvdiscRemoraid < PokeBattle_Move
-    def pbMoveFailed?(user, _targets, show_message)
-        if !user.countsAs?(:KYOGRE) || !user.boss?
-            @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis(true))) if show_message
-            return true
-        end
-        unless @battle.pbSideSize(user.index) == 1
-            @battle.pbDisplay(_INTL("But there is no room for fish to join!", user.pbThis(true))) if show_message
-            return true
-        end
-        return false
-    end
-
-    def pbEffectGeneral(user)
-        @battle.pbDisplay(_INTL("Fish are drawn to the field!", user.pbThis))
-        @battle.summonAvatarBattler(:LUVDISC, user.level, 0, user.index % 2)
-        @battle.summonAvatarBattler(:REMORAID, user.level, 0, user.index % 2)
-        @battle.pbSwapBattlers(user.index, user.index + 2)
-
-        @battle.remakeDataBoxes
-    end
-end
-
-#===============================================================================
-# Summons permanent Gravity, which also doubles the weight of Pokemon on the opposing side.
-# Only usable by the avatar of Groudon (Warping Core)
-#===============================================================================
-class PokeBattle_Move_GroudonStartGravityDoubleAllWeight < PokeBattle_Move
-    def pbMoveFailed?(user, _targets, show_message)
-        if !user.countsAs?(:GROUDON) || !user.boss?
-            @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis(true))) if show_message
-            return true
-        end
-        if @battle.field.effectActive?(:WarpingCore)
-            @battle.pbDisplay(_INTL("But gravity is already warped!", user.pbThis(true))) if show_message
-            return true
-        end
-        return false
-    end
-
-    def pbEffectGeneral(_user)
-        @battle.field.applyEffect(:WarpingCore)
-    end
-end
-
 #===============================================================================
 # All Normal-type moves become Electric-type for the rest of the round.
 # (Plasma Fists)
@@ -907,5 +830,165 @@ class PokeBattle_Move_UseAllOtherSoundMoves < PokeBattle_Move
 
     def getEffectScore(user, _target)
         return getAllOtherSoundMoves(user).length * 100
+    end
+end
+
+########################################################
+### Specific avatar only moves
+########################################################
+
+#===============================================================================
+# Targets struck lose their flinch immunity. Only usable by the avatar of Rayquaza (Stratosphere Scream)
+#===============================================================================
+class PokeBattle_Move_RayquazaTargetLosesFlinchImmunity < PokeBattle_Move
+    def ignoresSubstitute?(_user); return true; end
+
+    def pbMoveFailed?(user, _targets, show_message)
+        if !user.countsAs?(:RAYQUAZA) || !user.boss?
+            @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis(true))) if show_message
+            return true
+        end
+        return false
+    end
+
+    def pbEffectAfterAllHits(_user, target)
+        return if target.fainted?
+        return if target.damageState.unaffected
+        if target.effectActive?(:FlinchImmunity)
+            target.disableEffect(:FlinchImmunity)
+            @battle.pbDisplay(_INTL("{1} is newly afraid. It can be flinched again!", target.pbThis))
+        end
+    end
+end
+
+#===============================================================================
+# Summons an Avatar of Luvdisc and an Avatar of Remoraid.
+# Only usable by the avatar of Kyogre (Seven Seas Edict)
+#===============================================================================
+class PokeBattle_Move_KyogreSummonAvatarLuvdiscRemoraid < PokeBattle_Move
+    def pbMoveFailed?(user, _targets, show_message)
+        if !user.countsAs?(:KYOGRE) || !user.boss?
+            @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis(true))) if show_message
+            return true
+        end
+        unless @battle.pbSideSize(user.index) == 1
+            @battle.pbDisplay(_INTL("But there is no room for fish to join!", user.pbThis(true))) if show_message
+            return true
+        end
+        return false
+    end
+
+    def pbEffectGeneral(user)
+        @battle.pbDisplay(_INTL("Fish are drawn to the field!", user.pbThis))
+        @battle.summonAvatarBattler(:LUVDISC, user.level, 0, user.index % 2)
+        @battle.summonAvatarBattler(:REMORAID, user.level, 0, user.index % 2)
+        @battle.pbSwapBattlers(user.index, user.index + 2)
+
+        @battle.remakeDataBoxes
+    end
+end
+
+#===============================================================================
+# Summons permanent Gravity, which also doubles the weight of Pokemon on the opposing side.
+# Only usable by the avatar of Groudon (Warping Core)
+#===============================================================================
+class PokeBattle_Move_GroudonStartGravityDoubleAllWeight < PokeBattle_Move
+    def pbMoveFailed?(user, _targets, show_message)
+        if !user.countsAs?(:GROUDON) || !user.boss?
+            @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis(true))) if show_message
+            return true
+        end
+        if @battle.field.effectActive?(:WarpingCore)
+            @battle.pbDisplay(_INTL("But gravity is already warped!", user.pbThis(true))) if show_message
+            return true
+        end
+        return false
+    end
+
+    def pbEffectGeneral(_user)
+        @battle.field.applyEffect(:WarpingCore)
+    end
+end
+
+#===============================================================================
+# Targets gain Steel-type and have their stat steps reset. (Ideal World)
+#===============================================================================
+class PokeBattle_Move_AddSteelTypeToTargetResetTargetStats < PokeBattle_Move
+    def isValidTarget?(target)
+        canGainSteelType = !target.pbHasType?(:STEEL) && target.canChangeType?
+        return canGainSteelType || target.hasAlteredStatSteps?
+    end
+
+    def pbMoveFailed?(user, _targets, show_message)
+        # if !user.countsAs?(:ZEKROM) || !user.boss?
+        #     @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis(true))) if show_message
+        #     return true
+        # end
+        anyValidTargets = false
+        @battle.eachBattler do |b|
+            next unless isValidTarget?(b)
+            anyValidTargets = true
+            break
+        end
+        unless anyValidTargets
+            @battle.pbDisplay(_INTL("But {1} it failed! No battler can gain Steel-type or has any altered stat steps!", user.pbThis(true))) if show_message
+            return true
+        end
+        return false
+    end
+
+    def pbEffectGeneral(_user)
+        @battle.pbDisplay(_INTL("The world has moved forward!"))
+    end
+
+    def pbFailsAgainstTarget?(_user, target, _show_message)
+        return !isValidTarget?(target)
+    end
+
+    def pbEffectAgainstTarget(_user, target)
+        target.applyEffect(:Type3, :STEEL) if !target.pbHasType?(:STEEL) && target.canChangeType?
+        if target.hasAlteredStatSteps?
+            @battle.pbDisplay(_INTL("{1}'s stat changes were eliminated!", target.pbThis))
+            target.pbResetStatSteps
+        end
+    end
+end
+
+#===============================================================================
+# Targets have all main battle stats raised by two steps. (True Glory)
+#===============================================================================
+class PokeBattle_Move_RaiseTargetAllMainStats2 < PokeBattle_Move
+    def isValidTarget?(target)
+        return target.pbCanRaiseAnyOfStats?(ALL_STATS_2, nil, move: self)
+    end
+
+    def pbMoveFailed?(user, _targets, show_message)
+        # if !user.countsAs?(:ZEKROM) || !user.boss?
+        #     @battle.pbDisplay(_INTL("But {1} can't use the move!", user.pbThis(true))) if show_message
+        #     return true
+        # end
+        anyValidTargets = false
+        @battle.eachBattler do |b|
+            next unless isValidTarget?(b)
+            anyValidTargets = true
+            break
+        end
+        unless anyValidTargets
+            @battle.pbDisplay(_INTL("But {1} it failed! No battler can have any of its stats raised!", user.pbThis(true))) if show_message
+            return true
+        end
+        return false
+    end
+
+    def pbEffectGeneral(_user)
+        @battle.pbDisplay(_INTL("Glory has been revealed!"))
+    end
+
+    def pbFailsAgainstTarget?(_user, target, _show_message)
+        return !isValidTarget?(target)
+    end
+
+    def pbEffectAgainstTarget(user, target)
+        target.pbRaiseMultipleStatSteps(ALL_STATS_2, user, move: self)
     end
 end

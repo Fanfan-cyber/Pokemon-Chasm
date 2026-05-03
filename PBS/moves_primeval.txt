@@ -543,6 +543,19 @@ Flags = Empowered
 Description = The user focuses intently, making every future attack critical. User becomes Steel-type.
 Animation = LASERFOCUS
 #-------------------------------
+[PRIMEVALMIRRORSHIELD]
+Name = Primeval Mirror Shield
+Type = STEEL
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = User
+Priority = 4
+FunctionCode = EmpoweredMirrorShield
+Flags = Empowered
+Description = The user raises its Sp. Def by two steps and gains the ability Feedback. User becomes Steel-type.
+Animation = MIRRORSHIELD
+#-------------------------------
 [PRIMEVALPOLARIZEDROOM]
 Name = Primeval Polarized Room
 Type = STEEL
@@ -751,6 +764,18 @@ Flags = CanProtect,Light,Empowered
 Description = The user charges by gathering light, then blasts all near foes on the second turn.
 Animation = SOLARBEAM
 #-------------------------------
+[PRIMEVALAROMATHERAPY]
+Name = Primeval Aromatherapy
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = UserAndAllies
+FunctionCode = EmpoweredAromatherapy
+Flags = Empowered
+Description = The user heals all non-volatile status conditions affecting their party, gains the ability Stability, and heals itself for 25% HP. User becomes Grass-type.
+Animation = AROMATHERAPY
+#-------------------------------
 [PRIMEVALINGRAIN]
 Name = Primeval Ingrain
 Type = GRASS
@@ -774,6 +799,19 @@ FunctionCode = EmpoweredLeechSeed
 Flags = CanProtect,Empowered
 Description = The user inflicts leech on all nearby foes. User becomes Grass-type.
 Animation = LEECHSEED
+#-------------------------------
+[PRIMEVALSPIKYSHIELD]
+Name = Primeval Spiky Shield
+Type = GRASS
+Category = Status
+Accuracy = 0
+TotalPP = 1
+Target = User
+Priority = 4
+FunctionCode = EmpoweredSpikyShield
+Flags = Empowered
+Description = The user raises its Defense by two steps and gains the ability Iron Barbs. User becomes Grass-type.
+Animation = SPIKYSHIELD
 #-------------------------------
 [PRIMEVALSPORE]
 Name = Primeval Spore
@@ -1029,6 +1067,18 @@ EffectChance = 100
 Description = The user exhales a mighty gust that inflicts damage and numbs the target.
 Animation = DRAGONBREATH
 #-------------------------------
+[IDEALWORLD]
+Name = Ideal World
+Type = DRAGON
+Category = Status
+Accuracy = 0
+TotalPP = 3
+Target = AllBattlers
+FunctionCode = AddSteelTypeToTargetResetTargetStats
+Flags = AvatarSignature
+Description = A move that only the avatar of Zekrom can use. All battlers gain Steel-type and have their stat changes reset.
+Animation = TRICKROOM
+#-------------------------------
 [PRIMEVALDRAGONDANCE]
 Name = Primeval Dragon Dance
 Type = DRAGON
@@ -1052,6 +1102,18 @@ FunctionCode = EmpoweredLoomOver
 Flags = Empowered
 Description = The user lowers each near foe's highest stat by four steps. User becomes Dragon-type.
 Animation = LOOMOVER
+#-------------------------------
+[TRUEGLORY]
+Name = True Glory
+Type = DRAGON
+Category = Status
+Accuracy = 0
+TotalPP = 3
+Target = AllBattlers
+FunctionCode = RaiseTargetAllMainStats2
+Flags = AvatarSignature
+Description = A move that only the avatar of Reshiram can use. All battlers have all of their stats raised by two steps.
+Animation = WISH
 #-------------------------------
 #		DARK MOVES
 #-------------------------------

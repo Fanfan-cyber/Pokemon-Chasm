@@ -424,7 +424,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect,Biting
 EffectChance = 50
-Description = The user bites hard on the target with its sharp front fangs. It has a 50% to make the target flinch.
+Description = The user bites hard on the target with its sharp fangs. It has a 50% to make the target flinch.
 #-------------------------------
 [HYPERVOICE]
 Name = Hyper Voice

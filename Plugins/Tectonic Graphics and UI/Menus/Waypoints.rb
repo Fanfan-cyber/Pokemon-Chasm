@@ -166,12 +166,13 @@ class WaypointsTracker
 		end
 	end
 
-    def checkForWaypointsAchievement
+    def checkForWaypointsAchievement(listMissing = false)
         unlockedAll = true
         $waypoints_tracker.eachWaypoint do |event, mapID, waypointName|
             next if @activeWayPoints.has_key?(waypointName)
             unlockedAll = false
-            break
+            break unless listMissing
+			echoln("Missing waypoint: #{waypointName}, #{event.name} (#{event.id}), #{mapID}")
         end
         return unless unlockedAll
         unlockAchievement(:UNLOCK_ALL_WAYPOINTS)
