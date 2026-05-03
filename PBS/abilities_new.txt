@@ -749,7 +749,7 @@ Description = Powers up priority moves by 30%.
 #-------------------------------
 [FITTOSURVIVE]
 Name = Fit to Survive
-Description = Upon entry, summons Natural Protection for four turns.
+Description = Upon entry, summons Natural Protection for eight turns.
 #-------------------------------
 [FLASHFREEZE]
 Name = Flash Freeze
