@@ -739,7 +739,7 @@ Name = Water Balloon
 NamePlural = Water Balloons
 Pocket = 13
 Price = 8000
-Description = A held item. At half health, the holder breaks the balloon and gains an Aqua Ring.
+Description = A held item. At half health, the holder breaks the balloon and gains an Aqua Ring, healing 10% HP per turn.
 #-------------------------------
 [MENTALHERB]
 Name = Mental Herb
