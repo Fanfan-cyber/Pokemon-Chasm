@@ -1657,7 +1657,7 @@ Description = Poison-type foes can be poisoned. Poison applied to foes starts al
 #-------------------------------
 [PILEON]
 Name = Pile On
-Description = Every three turns, this Pokémon gains a stockpile.
+Description = Every three turns, this Pokémon gains a stockpile stack. This reduces move damage taken by 30% per stack.
 #-------------------------------
 [PINDOWN]
 Name = Pin Down
@@ -1738,7 +1738,7 @@ Description = While this Pokémon has an ally that isn't fully evolved, both Pok
 #-------------------------------
 [PUFFUP]
 Name = Puff Up
-Description = Deals 25% more damage per stockpile.
+Description = Deals 25% more damage per stockpile stack.
 #-------------------------------
 [PUNISHER]
 Name = Punisher
