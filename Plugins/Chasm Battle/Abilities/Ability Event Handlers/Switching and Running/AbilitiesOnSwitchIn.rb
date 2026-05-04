@@ -829,7 +829,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:DRIFTINGMIST,
 BattleHandlers::AbilityOnSwitchIn.add(:FITTOSURVIVE,
   proc { |ability, battler, battle, aiCheck|
       if aiCheck
-          next getGravityEffectScore(battler, 4)
+          next getNaturalProtectionEffectScore(battler, 8)
       else
           battle.pbShowAbilitySplash(battler, ability)
           battle.pbAnimation(:NATURALPROTECTION, battler, nil, 0)
