@@ -312,7 +312,7 @@ Name = Pretty Feather
 NamePlural = Pretty Feathers
 Pocket = 15
 Price = 3000
-Description = A beautiful feather. It can be sold to shops for $1500.
+Description = A beautiful feather. It can be sold to shops for $1,500.
 #-------------------------------
 [TINYMUSHROOM]
 Name = Tiny Mushroom
@@ -326,98 +326,98 @@ Name = Big Mushroom
 NamePlural = Big Mushrooms
 Pocket = 15
 Price = 5000
-Description = A large and rare mushroom. It can be sold to shops for $2500.
+Description = A large and rare mushroom. It can be sold to shops for $2,500.
 #-------------------------------
 [BALMMUSHROOM]
 Name = Balm Mushroom
 NamePlural = Balm Mushrooms
 Pocket = 15
 Price = 15000
-Description = A rare mushroom which gives off a nice fragrance. It can be sold to shops for $7500.
+Description = A rare mushroom which gives off a nice fragrance. It can be sold to shops for $7,500.
 #-------------------------------
 [PEARL]
 Name = Pearl
 NamePlural = Pearls
 Pocket = 15
 Price = 2000
-Description = A somewhat-small pearl that sparkles in a pretty silver color. It can be sold to shops for $1000.
+Description = A somewhat-small pearl that sparkles in a pretty silver color. It can be sold to shops for $1,000.
 #-------------------------------
 [BIGPEARL]
 Name = Big Pearl
 NamePlural = Big Pearls
 Pocket = 15
 Price = 8000
-Description = A quite-large pearl that sparkles in a pretty silver color. It can be sold to shops for $4000.
+Description = A quite-large pearl that sparkles in a pretty silver color. It can be sold to shops for $4,000.
 #-------------------------------
 [PEARLSTRING]
 Name = Pearl String
 NamePlural = Pearl Strings
 Pocket = 15
 Price = 20000
-Description = Very large pearls that sparkle in a pretty silver color. It can be sold to shops for $10000.
+Description = Very large pearls that sparkle in a pretty silver color. It can be sold to shops for $10,000.
 #-------------------------------
 [STARDUST]
 Name = Stardust
 NamePlural = Stardusts
 Pocket = 15
 Price = 3000
-Description = Lovely, red-colored sand with a loose, silky feel. It can be sold to shops for $1500.
+Description = Lovely, red-colored sand with a loose, silky feel. It can be sold to shops for $1,500.
 #-------------------------------
 [STARPIECE]
 Name = Star Piece
 NamePlural = Star Pieces
 Pocket = 15
 Price = 12000
-Description = A shard of a pretty gem that sparkles in a red color. It can be sold to shops for $6000.
+Description = A shard of a pretty gem that sparkles in a red color. It can be sold to shops for $6,000.
 #-------------------------------
 [COMETSHARD]
 Name = Comet Shard
 NamePlural = Comet Shards
 Pocket = 15
 Price = 25000
-Description = A shard which fell to the ground when a comet approached. It can be sold to shops for $12500.
+Description = A shard which fell to the ground when a comet approached. It can be sold to shops for $12,500.
 #-------------------------------
 [NUGGET]
 Name = Gold Nugget
 NamePlural = Gold Nuggets
 Pocket = 15
 Price = 10000
-Description = A nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $5000.
+Description = A nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $5,000.
 #-------------------------------
 [BIGNUGGET]
 Name = Big Nugget
 NamePlural = Big Nuggets
 Pocket = 15
 Price = 40000
-Description = A big nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $20000.
+Description = A big nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $20,000.
 #-------------------------------
 [SLOWPOKETAIL]
 Name = Slowpoke Tail
 NamePlural = Slowpoke Tails
 Pocket = 15
 Price = 8000
-Description = A very tasty tail of something. It can be sold to shops for $4000.
+Description = A very tasty tail of something. It can be sold to shops for $4,000.
 #-------------------------------
 [RAREBONE]
 Name = Rare Bone
 NamePlural = Rare Bones
 Pocket = 15
 Price = 5000
-Description = A bone that is extremely valuable for Pokémon archaeology. It can be sold to shops for $2500.
+Description = A bone that is extremely valuable for Pokémon archaeology. It can be sold to shops for $2,500.
 #-------------------------------
 [RELICCOPPER]
 Name = Relic Copper
 NamePlural = Relic Coppers
 Pocket = 15
 Price = 2000
-Description = A copper coin used in a civilization about 3,000 years ago. It can be sold to shops for $1000.
+Description = A copper coin used in a civilization about 3,000 years ago. It can be sold to shops for $1,000.
 #-------------------------------
 [RELICSILVER]
 Name = Relic Silver
 NamePlural = Relic Silvers
 Pocket = 15
 Price = 10000
-Description = A silver coin used in a civilization about 3,000 years ago. It can be sold to shops for $5000.
+Description = A silver coin used in a civilization about 3,000 years ago. It can be sold to shops for $5,000.
 #-------------------------------
 [RELICGOLD]
 Name = Relic Gold
@@ -583,7 +583,7 @@ Name = Cleanse Tag
 NamePlural = Cleanse Tags
 Pocket = 13
 Price = 5000
-Description = An item to be held by a Pokémon. It prevents wild Pokémon encounters if the holder is the first one in the party.
+Description = A held item. It prevents wild Pokémon encounters if the holder is the first one in the party.
 #-------------------------------
 [CHOICEBAND]
 Name = Choice Band
@@ -795,7 +795,7 @@ NamePlural = Power Herbs
 Pocket = 11
 Price = 4000
 Flags = Herb
-Description = A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
+Description = An item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
 #-------------------------------
 [ENERGYHERB]
 Name = Energy Herb
@@ -803,7 +803,7 @@ NamePlural = Energy Herbs
 Pocket = 11
 Price = 4000
 Flags = Herb
-Description = A single-use item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
+Description = An item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
 #-------------------------------
 [MIRRORHERB]
 Name = Mirror Herb
@@ -1690,7 +1690,7 @@ Pocket = 14
 Price = 300
 BattleUse = OnFoe
 Flags = PokeBall,SnagBall,SkipPocketMessage
-Description = A mentally disrupting Poké Ball that disables the Pokémon's last used move for 10 turns if it fails to catch it.
+Description = A disorienting Poké Ball that disables the Pokémon's last used move for 10 turns if it fails to catch it.
 #-------------------------------
 [HEALBALL]
 Name = Heal Ball
@@ -2470,7 +2470,7 @@ Pocket = 8
 Price = 0
 FieldUse = OnPokemon
 Flags = KeyItem
-Description = Reins that people presented to the king. They enable Calyrex to connect and communicate with its beloved steed.
+Description = Reins that people presented to the king. They enable Calyrex to connect with its beloved steed.
 #-------------------------------
 [EXPCHARM]
 Name = EXP Charm
@@ -2478,7 +2478,7 @@ NamePlural = EXP Charms
 Pocket = 7
 Price = 0
 Flags = KeyItem,SkipPocketMessage
-Description = A charm that increases the Exp. Points that Pokémon can get by 10%. A machine-like object is inside the charm.
+Description = A charm that increases the EXP. Pokémon earn by 10%. A machine-like object is inside the charm.
 #-------------------------------
 [CATCHINGCHARM]
 Name = Catching Charm
