@@ -10288,3 +10288,42 @@ Pokemon = OBSTAGOON,70
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
+#-------------------------------
+[ANOTHERPOSSIBLERAFAEL,Rafael]
+Pokemon = DIANCIE,70
+    Moves = GEMFORGEDOATH,PSYCHOSCISSION,DIAMONDSTORM,MOONBLAST
+    AbilityIndex = 0 # Magic Bounce
+    Item = RUSTEDSWORD
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = CALYREX,70
+    Form = 2 # Shadow Form
+    Moves = PSYCHOBOOST,ASTRALBARRAGE,LUMINBURST,DREAMDANCE
+    AbilityIndex = 0 # As One
+    Item = FOCUSSASH
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = ZACIAN,70
+    Moves = BEHEMOTHBLADE,PLAYROUGH,STOMPINGTANTRUM,ICECALIBUR
+    AbilityIndex = 0 # Slumbering Sword
+    Item = EXPERTBELT
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = YVELTAL,70
+    Moves = OBLIVIONWING,KNOCKOFF,ICEBERGBASH,MASSDESTRUCTION
+    AbilityIndex = 1 # Field of Death
+    Item = ASSAULTVEST
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
+Pokemon = GROUDON,70
+    Moves = PRECIPICEBLADES,FIREBLAST,STONEEDGE,SOLARBEAM
+    AbilityIndex = 0 # Desolate Land
+    Item = REDORB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = RAYQUAZA,70
+    Moves = CARNAGE,ATMOSPHERICBURST,OVERHEAT,SWORDSDANCE
+    AbilityIndex = 1 # Exospheric Descent
+    Item = LIFEORB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
