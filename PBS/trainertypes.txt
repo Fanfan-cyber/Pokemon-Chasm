@@ -18,6 +18,12 @@ Gender = Female
 BaseMoney = 80
 BattleBGM = Battle another
 #-------------------------------
+[ANOTHERPOSSIBLERAFAEL]
+Name = Another Possible
+Gender = Male
+BaseMoney = 80
+BattleBGM = Battle another
+#-------------------------------
 [ANOTHERPOSSIBLETAMARIND]
 Name = Another Possible
 Gender = Female
