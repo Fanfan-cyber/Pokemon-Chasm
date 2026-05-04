@@ -10293,18 +10293,15 @@ Pokemon = OBSTAGOON,70
 Pokemon = DIANCIE,70
     Moves = GEMFORGEDOATH,PSYCHOSCISSION,DIAMONDSTORM,MOONBLAST
     AbilityIndex = 0 # Magic Bounce
-    Item = RUSTEDSWORD
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = CALYREX,70
     Form = 2 # Shadow Form
-    Moves = PSYCHOBOOST,ASTRALBARRAGE,LUMINBURST,DREAMDANCE
+    Moves = PSYCHOBOOST,ASTRALBARRAGE,LUMINBURST,FLING
     AbilityIndex = 0 # As One
-    Item = FOCUSSASH
-    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 10,20,0,20,20,0
+    Item = RUSTEDSWORD
 Pokemon = ZACIAN,70
-    Moves = BEHEMOTHBLADE,PLAYROUGH,STOMPINGTANTRUM,ICECALIBUR
+    Moves = BEHEMOTHBLADE,PLAYROUGH,GLACIALCRUNCH,VOLTCRUNCH
     AbilityIndex = 0 # Slumbering Sword
     Item = EXPERTBELT
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
