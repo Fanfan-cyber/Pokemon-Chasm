@@ -3353,7 +3353,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = FirePledge
 Flags = CanProtect
-Description = A column of fire hits the target. When used with its Grass equivalent, it creates a Sea of Fire.
+Description = A column of fire hits the target. When used with its Grass equivalent, it creates a Sea of Fire for four turns.
 #-------------------------------
 [FIREPUNCH]
 Name = Fire Punch
@@ -3889,7 +3889,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = WaterPledge
 Flags = CanProtect
-Description = A column of water hits the target. When used with its Fire equivalent, it creates a Rainbow.
+Description = A column of water hits the target. When used with its Fire equivalent, it creates a Rainbow for four turns.
 #-------------------------------
 [WATERSHURIKEN]
 Name = Water Shuriken
@@ -4049,7 +4049,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = GrassPledge
 Flags = CanProtect
-Description = A column of grass hits the target. When used with its Water equivalent, it creates a vast Swamp.
+Description = A column of grass hits the target. When used with its Water equivalent, it creates a vast Swamp for four turns.
 #-------------------------------
 [GROWTH]
 Name = Growth
