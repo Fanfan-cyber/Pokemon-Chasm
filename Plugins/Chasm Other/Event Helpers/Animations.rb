@@ -15,6 +15,8 @@ def showNormal(eventID = 0)
 	showAnimation(FollowerSettings::Emo_Normal,eventID)
 end
 
+alias showThinking showNormal
+
 def showSad(eventID = 0)
 	showAnimation(FollowerSettings::Emo_Sad,eventID)
 end
