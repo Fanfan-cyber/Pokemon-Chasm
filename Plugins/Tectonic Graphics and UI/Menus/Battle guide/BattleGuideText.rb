@@ -1,21 +1,23 @@
 def battleGuideMainDirectory
     return {
-        _INTL("Basic Strategy")    => [_INTL("How do I win battles?"),:battleGuideBasicsHash],
-        _INTL("Acquiring Pokémon") => [_INTL("How do I get more Pokémon?"),:battleGuideAquiringPokemonHash],
-        _INTL("Moves")             => [_INTL("What are moves and what are the differences between them?"),:battleGuideMovesHash],
-        _INTL("Type Matchups")     => [_INTL("When and how are types better or worse against one another?"),:battleGuideTypeMatchupsHash],
-        _INTL("Type Chart")        => [_INTL("How were type matchups changes compared to canon?"),:battleGuideTypeChartHash],
-        _INTL("Stats")             => [_INTL("What are stats, and how do they affect battles?"),:battleGuideStatsHash],
-        _INTL("Abilities")         => [_INTL("How do abilities work?"),:battleGuideAbilitiesHash],
-        _INTL("Held Items")        => [_INTL("What are held items and how to use them?"),:battleGuideHeldItemsHash],
-        _INTL("Status Conditions") => [_INTL("What are the Conditions a Pokémon can be afflicted with?"),:battleGuideStatusConditionsHash],
-        _INTL("Volatile Statuses") => [_INTL("What are the Volatile Statuses a Pokémon can be afflicted with?"),:battleGuideVolatileStatusesHash],
-        _INTL("Critical Hits")     => [_INTL("What are critical hits and when do they happen?"),:battleGuideCriticalHitsHash],
-        _INTL("Trainers")          => [_INTL("How do enemy Trainers work?"),:battleGuideTrainersHash],
-        _INTL("Avatars")           => [_INTL("What are avatars and what do they do?"),:battleGuideAvatarsHash],
-        _INTL("MasterDex")         => [_INTL("What does the MasterDex do and how should I use it?"),:battleGuideMasterdexHash],
-        _INTL("Weathers")          => [_INTL("What are weathers, and what does each do?"),:battleGuideWeathersHash],
-        _INTL("Tribes")            => [_INTL("What are Tribes and what do they do?"),:battleGuideTribesHash],
+        _INTL("Basic Strategy")      => [_INTL("How do I win battles?"),:battleGuideBasicsHash],
+        _INTL("Acquiring Pokémon")   => [_INTL("How do I get more Pokémon?"),:battleGuideAquiringPokemonHash],
+        _INTL("Moves")               => [_INTL("What are moves and what are the differences between them?"),:battleGuideMovesHash],
+        _INTL("Type Matchups")       => [_INTL("When and how are types better or worse against one another?"),:battleGuideTypeMatchupsHash],
+        _INTL("Type Chart")          => [_INTL("How were type matchups changes compared to canon?"),:battleGuideTypeChartHash],
+        _INTL("Stats")               => [_INTL("What are stats, and how do they affect battles?"),:battleGuideStatsHash],
+        _INTL("Abilities")           => [_INTL("How do abilities work?"),:battleGuideAbilitiesHash],
+        _INTL("Held Items")          => [_INTL("What are held items and how to use them?"),:battleGuideHeldItemsHash],
+        _INTL("Status Conditions")   => [_INTL("What are the Conditions a Pokémon can be afflicted with?"),:battleGuideStatusConditionsHash],
+        _INTL("Volatile Statuses")   => [_INTL("What are the Volatile Statuses a Pokémon can be afflicted with?"),:battleGuideVolatileStatusesHash],
+        _INTL("Critical Hits")       => [_INTL("What are critical hits and when do they happen?"),:battleGuideCriticalHitsHash],
+        _INTL("Trainers")            => [_INTL("How do enemy Trainers work?"),:battleGuideTrainersHash],
+        _INTL("Avatars")             => [_INTL("What are avatars and what do they do?"),:battleGuideAvatarsHash],
+        _INTL("MasterDex")           => [_INTL("What does the MasterDex do and how should I use it?"),:battleGuideMasterdexHash],
+        _INTL("Weathers")            => [_INTL("What are weathers, and what does each do?"),:battleGuideWeathersHash],
+        _INTL("Field Effects")       => [_INTL("What field effects are there and what are their effects?"),:battleGuideFieldEffectsHash],
+        _INTL("Side Effects")        => [_INTL("What side effects are there and what are their effects?"),:battleGuideSideEffectsHash],
+        _INTL("Tribes")              => [_INTL("What are Tribes and what do they do?"),:battleGuideTribesHash],
         _INTL("Legendary Abilities") => [_INTL("What do these legendary abilities do?"),:battleGuideLegendaryAbilitiesHash],
 }
 end
@@ -77,7 +79,7 @@ def battleGuideTypeChartHash
         _INTL("Bug vs Fairy") => _INTL("Bug is now Super-Effective vs Fairy. Think of insects scaring children."),
         _INTL("Grass resistances") => _INTL("Grass now resists Fairy and Ghost. Think of incense warding off magic."),
         _INTL("Ice resistances") => _INTL("Ice now resists Flying and Ground. Ice is Super-Effective against those types, so it's only natural!"),
-        _INTL("Other changes") => _INTL("Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic."),
+        _INTL("Other changes") => _INTL("Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic. Steel can be poisoned."),
     }
 end
 
@@ -163,8 +165,11 @@ def battleGuideVolatileStatusesHash
         _INTL("Encore") => _INTL("When encored, a Pokémon is forced to use the last used move again."),
         _INTL("Heal Block") => _INTL("When heal blocked, a Pokémon cannot use healing or draining moves."),
         _INTL("Mental") => _INTL("Torment, Taunt, Disable, Bar, Encore and Heal Block are mental effects."),
-        _INTL("Trapping") => _INTL("When trapped, a  Pokémon cannot switch out of battle. Includes manually switching, being forced out, or using a move like U-Turn."),
+        _INTL("Trapping") => _INTL("When trapped, a Pokémon cannot switch out of battle. Includes manually switching, being forced out, or using a move like U-Turn."),
         _INTL("Substitute") => _INTL("A substitute blocks attacks and status effects. It has HP equal to the amount of HP it took to create it. Sound tag moves ignore substitute."),
+        _INTL("Stockpile") => _INTL("Can be stacked 2 times. Reduces damage taken by 30% for 1 stack or 51% for 2 stacks."),
+        _INTL("Aqua Ring") => _INTL("A Pokémon affected by Aqua Ring restores 10% HP at the end of each turn."),
+        _INTL("Energized") => _INTL("When Energized, a Pokémon's next used Electric-type move does double damage."),
         _INTL("Transformed") => _INTL("A transformed Pokémon becomes a copy of another. It gains their ability, moves, stats (except HP), and step boosts."),
         _INTL("Perish Song") => _INTL("A Pokémon affected by Perish Song will faint when the timer ends. Avatars will be damaged for half of an HP bar."),
         _INTL("Grounded") => _INTL("A grounded Pokémon loses their immunity to ground moves (from being Flying-type or having a Levitate ability)."),
@@ -239,7 +244,7 @@ end
 
 def battleGuideWeathersHash
     return {
-        _INTL("What are weathers?") => _INTL("Weathers are special states that effect the entire battlefield and help or hinder the Pokémon battling. Only one weather can be active at once."),
+        _INTL("What are weathers?") => _INTL("Weathers are special states that affect the entire battlefield and help or hinder the Pokémon battling. Only one weather can be active at once."),
         _INTL("Weather Duration") => _INTL("Weathers last a certain number of turns. The length differs depending on what move or ability summoned the weather. The duration can be extended by certain items."),
         _INTL("Sunshine") => _INTL("Sunshine lowers attack damage by 15%. Fire and Grass-type moves/Pokémon are immune to this. Fire-type attacks are boosted by 30%."),
         _INTL("Rain") => _INTL("Rainstorm lowers attack damage by 15%. Water and Electric-type moves/Pokémon are immune to this. Water-type attacks are boosted by 30%."),
@@ -250,6 +255,42 @@ def battleGuideWeathersHash
         _INTL("Weather Downsides") => _INTL("Each weather has both an upside and a downside. There are items and abilities that make your Pokémon immune to these downsides regardless of type."),
         _INTL("Weather Areas") => _INTL("Certain areas in the game experience intense weather. That weather will also be present in the battles of that area. Simple daily weather will not do this."),
         _INTL("Weather Synergies") => _INTL("Each weather has dozens of moves and abilities that benefit from that weather. Pokémon using these moves/abilities ignore the downsides of their favored weather!"),
+    }
+end
+
+def battleGuideFieldEffectsHash
+    return {
+        _INTL("What are field effects?") => _INTL("Field effects are special effects that affect the entire battlefield. Multiple field effects can be active at the same time."),
+        _INTL("Field Effect Duration") => _INTL("Field effects last a certain number of turns. The length differs depending on what move or ability summoned the field effect. Some durations can be enhanced by certain items."),
+        _INTL("Room Effects") => _INTL("Puzzle Room, Odd Room, Polarized Room and Trick Room are rooms. Multiple can be active at the same time. Their duration can be doubled with the Reinforcing Rod item."),
+        _INTL("Puzzle Room") => _INTL("Puzzle Room swaps each Pokémon's Attack and Sp. Attack stats."),
+        _INTL("Odd Room") => _INTL("Odd Room swaps each Pokémon's Attack and Defense and Sp. Attack and Sp. Defense."),
+        _INTL("Polarized Room") => _INTL("Polarized Room raises super- and hyper-effective damage by 25% and lowers not-very and barely-effective damage by 25% of all Pokémon."),
+        _INTL("Trick Room") => _INTL("Trick Room reverses the turn order, making slower Pokémon move first and faster Pokémon move last."),
+        _INTL("Gravity") => _INTL("Gravity grounds all Pokémon, doubles their weight, and doubles all move Accuracy."),
+        _INTL("Grey Mist") => _INTL("Grey Mist resets all positive and negative stat changes back to neutral at the end of every turn."),
+        _INTL("Floral Gramarye") => _INTL("Floral Gramarye heals every Pokémon on the field for 1/8th HP at the end of every turn."),
+    }
+end
+
+def battleGuideSideEffectsHash
+    return {
+        _INTL("What are field effects?") => _INTL("Side effects are special effects that affect only one side. Multiple side effects can be active at the same time."),
+        _INTL("Field Effect Duration") => _INTL("Side effects last a certain number of turns. The length differs depending on what move or ability summoned the field effect. Some durations can be enhanced by certain items."),
+        _INTL("Screen Effects") => _INTL("Reflect, Light Screen, Aurora Veil, Sanctuary and Repulsion Field are screens. These effects do not stack with one another. Their duration can be enhanced with the Light Clay item."),
+        _INTL("Reflect") => _INTL("Reflect lowers damage from incoming physical moves by 50% in a Singles battle or 33% in a Doubles/Triples battle."),
+        _INTL("Light Screen") => _INTL("Light Screen lowers damage from incoming special moves by 50% in a Singles battle or 33% in a Doubles/Triples battle."),
+        _INTL("Aurora Veil") => _INTL("Aurora Veil lowers damage from incoming moves by 50% in a Singles battle or 33% in a Doubles/Triples battle. It can only be used during Hail."),
+        _INTL("Sanctuary") => _INTL("Sanctuary lowers damage from incoming moves by 25% in a Singles battle or 20% in a Doubles/Triples battle. It also prevents incoming critical hits."),
+        _INTL("Repulsion Field") => _INTL("Repulsion Field lowers damage from incoming moves with 100 BP or more by 50% in a Singles battle or 33% in a Doubles/Triples battle."),
+        _INTL("Pledge Effects") => _INTL("Sea of Fire, Swamp and Rainbow are Pledge effects. They are acquired by using 2 different Pledge moves in the same turn."),
+        _INTL("Sea of Fire") => _INTL("Sea of Fire is created on the opposing side by combining Fire- and Grass Pledge. Non-Fire-type Pokémon take 1/8th HP damage at the end of each turn."),
+        _INTL("Swamp") => _INTL("Swamp is created on the opposing side by combining Water- and Grass Pledge. Halves the Speed stat of all Pokémon on the active side."),
+        _INTL("Rainbow") => _INTL("Rainbow is created on the opposing side by combining Fire- and Water Pledge. Doubles the chance of random added effects against all Pokémon on the active side."),
+        _INTL("Tailwind") => _INTL("Tailwind doubles the Speed stat of all Pokémon on the active side."),
+        _INTL("Natural Protection") => _INTL("Natural Protection halves recoil damage and other passive damage like burn or sandstorm on the active side."),
+        _INTL("Coral Overgrowth") => _INTL("Coral Overgrowth causes attacks against the opponent to heal the user for 33% of the damage dealt. This can also overheal."),
+        _INTL("Wishing Well") => _INTL("Wishing Well consumes up to 1000 scattered coins to block random added effects and heal the active side for 1/16th HP each turn. 100 coins per turn for a max. of 10 turns."),
     }
 end
 
