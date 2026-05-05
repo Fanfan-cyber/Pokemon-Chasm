@@ -39,7 +39,7 @@ def showPokeballEnter(eventID = 0)
 	showAnimation(FollowerSettings::Animation_Come_In,eventID)
 end
 
-def showPokeballExit(eventID = 0, animationID)
+def showPokeballExit(eventID = 0)
 	showAnimation(FollowerSettings::Animation_Come_Out,eventID)
 end
 
