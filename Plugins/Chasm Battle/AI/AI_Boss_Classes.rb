@@ -337,6 +337,41 @@ class PokeBattle_AI_CALYREX_1 < PokeBattle_AI_Boss
 end
 
 ##################################################
+# Tao Duo
+##################################################
+class PokeBattle_AI_RESHIRAM < PokeBattle_AI_Boss
+    def initialize(user, battle)
+        super
+        @useMoveIFF.add(:TRUEGLORY, proc { |_move, user, _target, battle|
+            next false if user.firstTurnThisRound?
+            next false if user.movesUsedLastTurn.include?(:TRUEGLORY)
+            anyFoeHasUnmodifiedStats = false
+            user.eachOpposing do |opp|
+                next if opp.hasAlteredStatSteps?
+                anyFoeHasUnmodifiedStats = true 
+            end
+            next anyFoeHasUnmodifiedStats
+        })
+    end
+end
+
+class PokeBattle_AI_ZEKROM < PokeBattle_AI_Boss
+    def initialize(user, battle)
+        super
+        @useMoveIFF.add(:IDEALWORLD, proc { |_move, user, _target, battle|
+            next false unless user.firstTurnThisRound?
+            next false if user.movesUsedLastTurn.include?(:IDEALWORLD)
+            anyFoeHasUnmodifiedStats = false
+            user.eachOpposing do |opp|
+                next unless opp.hasAlteredStatSteps?
+                anyFoeHasUnmodifiedStats = true 
+            end
+            next anyFoeHasUnmodifiedStats
+        })
+    end
+end
+
+##################################################
 # Other Legends
 ##################################################
 class PokeBattle_AI_GENESECT < PokeBattle_AI_Boss
