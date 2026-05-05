@@ -1399,6 +1399,18 @@ EffectChance = 100
 Description = The user swoops into battle with a piercing shriek, flinching the target. It only works the first turn the user is in battle.
 Animation = HYPERVOICE
 #-------------------------------
+[SPOTTING]
+Name = Spotting
+Type = FLYING
+Category = Status
+Accuracy = 0
+TotalPP = 15
+Target = NearAlly
+Priority = 5
+FunctionCode = PowerUpAndIncreaseAccOfAllyMove
+Description = The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
+Animation = MINDREADER
+#-------------------------------
 [SQUALLDART]
 Name = Squall Dart
 Type = FLYING
