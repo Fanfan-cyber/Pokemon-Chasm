@@ -3245,7 +3245,7 @@ ShowArea = true
 Bicycle = true
 #-------------------------------
 [453]
-# Deep Dissipated Planes
+# Deep Dissipated Plane
 ShowArea = true
 Bicycle = true
 Weather = Blizzard,100
