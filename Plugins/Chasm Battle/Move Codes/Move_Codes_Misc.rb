@@ -71,7 +71,7 @@ class PokeBattle_Move_CannotMakeTargetFaint < PokeBattle_Move
 end
 
 #===============================================================================
-# Swaps form if the user is Meloetta. (Relic Song)
+# Swaps form if the user is Meloetta.
 #===============================================================================
 class PokeBattle_Move_ChangeUserMeloettaForm < PokeBattle_Move
     def pbEndOfMoveUsageEffect(user, _targets, numHits, _switchedBattlers)
