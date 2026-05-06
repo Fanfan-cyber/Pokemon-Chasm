@@ -2160,6 +2160,18 @@ Gender = Female
 BaseMoney = 100
 BattleBGM = Battle lainie ultra
 #-------------------------------
+[VANYADAD]
+Name = Collector
+Gender = Male
+BaseMoney = 64
+IntroBGM = POKEFAN
+#-------------------------------
+[VANYAMOM]
+Name = Scientist
+Gender = Female
+BaseMoney = 32
+IntroBGM = SCIENTIST
+#-------------------------------
 [VETERANM]
 Name = Veteran
 Gender = Male
