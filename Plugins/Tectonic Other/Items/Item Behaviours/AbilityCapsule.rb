@@ -1,4 +1,8 @@
 def pbSwapAbility(pkmn, scene = nil)
+  unless TA.get(:monoabil) || TA.get(:tectonic)
+    pbMessage(_INTL("Pokémon's Ability can be changed only in Mono Ability or Tectonic mode!"))
+    return false
+  end
   unless teamEditingAllowed?
     showNoTeamEditingMessage
     return false
@@ -42,10 +46,6 @@ def pbSwapAbility(pkmn, scene = nil)
 end
 
 ItemHandlers::UseOnPokemon.add(:ABILITYCAPSULE,proc { |item,pkmn,scene|
-    unless TA.get(:monoabil) || TA.get(:tectonic)
-      pbMessage(_INTL("Ability Capsule can be only used in Mono Ability or Tectonic mode!"))
-      next false
-    end
     next pbSwapAbility(pkmn, scene)
 })
   

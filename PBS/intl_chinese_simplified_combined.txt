@@ -35733,8 +35733,8 @@ The user bites with flame-cloaked fangs. It has a 20% chance to burn and a 20% c
 使用者用火焰包裹的牙齿咬击。有20%的概率使目标烧伤，有20%的概率使目标的物防减小2级。
 The user strikes the target with a flaming lash. This also lowers the target's Defense stat by two steps.
 使用者用火焰鞭子抽打目标。这还会使目标的物防减小2级。
-A column of fire hits the target. When used with its Grass equivalent, it creates a Sea of Fire.
-用火柱命中目标。与草属性对应技能配合时，可形成火海。
+A column of fire hits the target. When used with its Grass equivalent, it creates a Sea of Fire for four turns.
+用火柱命中目标。与草属性对应技能配合时，可形成4回合火海。
 The target is punched with a fiery fist. It has a 10% chance to burn.
 用充满火焰的拳头攻击对手。10%概率让对手陷入烧伤状态。
 The user engulfs the target in fierce flames, trapping and binding it for three turns.
@@ -35817,8 +35817,8 @@ The user lunges at the target and has a 40% chance to make it flinch.
 猛扑攻击目标。有40%概率使对手畏缩。
 The target is blasted with a forceful shot of water. Can random critical hit.
 目标被强力水柱命中。可能随机命中要害。
-A column of water hits the target. When used with its Fire equivalent, it creates a Rainbow.
-用水柱命中目标。与火属性对应技能配合时，可形成彩虹。
+A column of water hits the target. When used with its Fire equivalent, it creates a Rainbow for four turns.
+用水柱命中目标。与火属性对应技能配合时，可形成4回合彩虹。
 The user multi-hits the target two to five times with throwing stars. This move always goes first.
 使用者用飞镖连续攻击目标2至5次。
 The user spouts water to damage the foe. Weakens in damage as the user loses HP. Weakest at half HP.
@@ -35841,8 +35841,8 @@ The user slams the target with an enormous tree. The user is exhausted on the ne
 用巨树砸向目标。下1回合将陷入僵直状态。
 The user snares the target with grass and trips it. The heavier the target, the greater the damage.
 用草缠住并绊倒对手。对手越重，威力越大。
-A column of grass hits the target. When used with its Water equivalent, it creates a vast Swamp.
-用草柱命中目标。与水属性对应技能配合时，可形成广袤的沼泽。
+A column of grass hits the target. When used with its Water equivalent, it creates a vast Swamp for four turns.
+用草柱命中目标。与水属性对应技能配合时，可形成4回合沼泽。
 The user's body grows all at once, raising Attack and Sp. Atk by two steps, or four in sunshine.
 使用者的身体瞬间生长，双攻增加2级，如果在阳光下，则增加4级。
 The user heals itself and allies by 25% of their max HP, as well as healing non-volatile status conditions.
@@ -36931,7 +36931,7 @@ The user crashes into the target with the force of a large wave. This has a 30% 
 使用者以大浪的冲击力撞向目标。有30%概率减小目标的物防。
 The user attacks the target using graceful fluid movements, also forming an Aqua Ring around themselves, healing 10% HP per turn.
 用流畅优美的动作攻击对手，并给自身1个水流环，每回合回复10%HP。
-The user's song heals the non-volatile status conditions of all the party Pokémon, and forms an Aqua Ring around itself, healing 10% HP per turn.
+The user's song heals the non-volatile status conditions of all party Pokémon, and forms an Aqua Ring around itself, healing 10% HP per turn.
 用回复之歌回复全队异常状态，同时形成每回合回复10%HP的水流环。
 The target is inundated with a wave of seaweater. This has a 30% chance to waterlog.
 目标被1股海水淹没。有30%概率使目标浸水。
@@ -39546,38 +39546,38 @@ A fossil from a strange Pokémon that once lived on the land. It resembles Makya
 1种曾经生活在陆地上的奇怪精灵的化石。看起来马凯亚化石盔。
 A sweet honey with a sweeter aroma. It can be sold to shops for $750.
 1种极其香甜的蜂蜜，可以在商店卖出750金钱。
-A beautiful feather. It can be sold to shops for $1500.
-1种漂亮的羽毛，可以在商店卖出1500金钱。
+A beautiful feather. It can be sold to shops for $1,500.
+1种漂亮的羽毛，可以在商店卖出1,500金钱。
 A small and rare mushroom. It can be sold to shops for $250.
 1个较小的蘑菇，可以在商店卖出250金钱。
-A large and rare mushroom. It can be sold to shops for $2500.
-1种较大的蘑菇，可以在商店卖出2500金钱。
-A rare mushroom which gives off a nice fragrance. It can be sold to shops for $7500.
-1种有奇特香味的蘑菇，可以在商店卖出7500金钱。
-A somewhat-small pearl that sparkles in a pretty silver color. It can be sold to shops for $1000.
-1颗略小的珍珠，可以在商店卖出1000金钱。
-A quite-large pearl that sparkles in a pretty silver color. It can be sold to shops for $4000.
-1颗略大的珍珠，可以在商店卖出4000金钱。
-Very large pearls that sparkle in a pretty silver color. It can be sold to shops for $10000.
+A large and rare mushroom. It can be sold to shops for $2,500.
+1种较大的蘑菇，可以在商店卖出2,500金钱。
+A rare mushroom which gives off a nice fragrance. It can be sold to shops for $7,500.
+1种有奇特香味的蘑菇，可以在商店卖出7,500金钱。
+A somewhat-small pearl that sparkles in a pretty silver color. It can be sold to shops for $1,000.
+1颗略小的珍珠，可以在商店卖出1,000金钱。
+A quite-large pearl that sparkles in a pretty silver color. It can be sold to shops for $4,000.
+1颗略大的珍珠，可以在商店卖出4,000金钱。
+Very large pearls that sparkle in a pretty silver color. It can be sold to shops for $10,000.
 1颗极其稀有的珍珠，可以在商店卖出10,000金钱。
-Lovely, red-colored sand with a loose, silky feel. It can be sold to shops for $1500.
-1种可爱的红色沙子，可以在商店卖出1500金钱。
-A shard of a pretty gem that sparkles in a red color. It can be sold to shops for $6000.
-1种可爱的红色碎片，可以在商店卖出6000金钱。
-A shard which fell to the ground when a comet approached. It can be sold to shops for $12500.
-1种比较大的可爱红色碎片，可以在商店卖出12500金钱。
-A nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $5000.
-1颗散发着光泽的纯金，可以在商店卖出5000金钱。
-A big nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $20000.
+Lovely, red-colored sand with a loose, silky feel. It can be sold to shops for $1,500.
+1种可爱的红色沙子，可以在商店卖出1,500金钱。
+A shard of a pretty gem that sparkles in a red color. It can be sold to shops for $6,000.
+1种可爱的红色碎片，可以在商店卖出6,000金钱。
+A shard which fell to the ground when a comet approached. It can be sold to shops for $12,500.
+1种比较大的可爱红色碎片，可以在商店卖出12,500金钱。
+A nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $5,000.
+1颗散发着光泽的纯金，可以在商店卖出5,000金钱。
+A big nugget of pure gold that gives off a lustrous gleam. It can be sold to shops for $20,000.
 1颗较大的，散发着光泽的纯金，可以在商店卖出20,000金钱。
-A very tasty tail of something. It can be sold to shops for $4000.
-1种非常美味的食材，可以在商店卖出4000金钱。
-A bone that is extremely valuable for Pokémon archaeology. It can be sold to shops for $2500.
-1种非常稀有的精灵骨头，可以在商店卖出2500金钱。
-A copper coin used in a civilization about 3,000 years ago. It can be sold to shops for $1000.
-1种记录着文明的铜币，可以在商店卖出1000金钱。
-A silver coin used in a civilization about 3,000 years ago. It can be sold to shops for $5000.
-1种记录着文明的银币，可以在商店卖出5000金钱。
+A very tasty tail of something. It can be sold to shops for $4,000.
+1种非常美味的食材，可以在商店卖出4,000金钱。
+A bone that is extremely valuable for Pokémon archaeology. It can be sold to shops for $2,500.
+1种非常稀有的精灵骨头，可以在商店卖出2,500金钱。
+A copper coin used in a civilization about 3,000 years ago. It can be sold to shops for $1,000.
+1种记录着文明的铜币，可以在商店卖出1,000金钱。
+A silver coin used in a civilization about 3,000 years ago. It can be sold to shops for $5,000.
+1种记录着文明的银币，可以在商店卖出5,000金钱。
 A gold coin used in a civilization about 3,000 years ago. It can be sold to shops for $10,000.
 1种记录着文明的金钱，可以在商店卖出10,000金钱。
 A vase made in a civilization about 3,000 years ago. It can be sold to shops for $30,000.
@@ -39664,8 +39664,8 @@ A held item. The holder's HP is restored by 1/16th at the end of each turn.
 1种携带物。携带后，每回合结束时回复1/16HP。
 An item to be held by a Pokémon. The holder restores 1/5th HP of the damage it deals with moves.
 1种携带物。会使携带者通过技能造成伤害时回复伤害的1/5的HP。
-A held item. At half health, the holder breaks the balloon and gains an Aqua Ring.
-1种携带物。携带后，HP在1半以下时，被击后获得水流环。
+A held item. At half health, the holder breaks the balloon and gains an Aqua Ring, healing 10% HP per turn.
+1种携带物。携带后，HP在1半以下时，被击后获得水流环，使每回合回复10%HP。
 An item to be held by a Pokémon. It snaps the holder out of a variety of mental warping effects.
 携带它的精灵会回复心控状态1次。
 An item to be held by a Pokémon. It restores any lowered stat in battle.
@@ -39678,10 +39678,10 @@ A held item. Boosts the power of a special move by 15% and makes it physical, on
 1种携带物。将特殊类技能的威力增加15%，并使其变为物理类技能，每场战斗1次。
 A held item. Boosts the power of a physical move by 15% and makes it special, once per battle.
 1种携带物。将物理类技能的威力增加15%，并使其变为特殊类技能，每场战斗1次。
-A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
-携带它的精灵可以在第1回合使用需要蓄力的技能1次。
-A single-use item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
-携带它的精灵可以跳过1次使用技能后的僵直回合。
+An item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
+1种携带物。携带它的精灵可以在第1回合使用需要蓄力的技能1次。
+An item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
+1种携带物。携带它的精灵可以跳过1次使用技能后的僵直回合。
 A held item. When a foe raises their stats, the herb is consumed to copy the increase.
 1种携带物。携带后当对手增加能力等级时，复制对手的能力等级。
 A held item. When a foe raises their stats, the herb is consumed to reset their stats.
@@ -39906,18 +39906,18 @@ A medicinal Poké Ball that heals the Pokémon for 1/4th of its HP if it fails t
 有点与众不同的球。如果没能捉住，回复其1/4HP。
 A parasitic Poké Ball that leeches the Pokémon if it fails to catch it.
 有点与众不同的球。如果没能捉住，就会将其寄生。
-A mentally disrupting Poké Ball that disables the Pokémon's last used move for 10 turns if it fails to catch it.
+A disorienting Poké Ball that disables the Pokémon's last used move for 10 turns if it fails to catch it.
 有点与众不同的球。如果没能捉住，使其最后使用的技能失效10回合。
 A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.
-有点温柔的球。能回复捉到的精灵的HP和异常状态。
+有点与众不同的球。能回复捉到的精灵的HP和异常状态。
 A Poké Ball that makes caught Pokémon more friendly.
 有点与众不同的球。捉到的野生精灵会立刻变得和训练师亲密起来。
 A comfortable Poké Ball that makes a caught wild Pokémon gain happiness twice as quickly.
-住着十分惬意的球。捉到的野生精灵会变得容易和训练师亲密。
+有点与众不同的球。捉到的野生精灵会变得容易和训练师亲密。
 A somewhat different Ball that becomes up to 4x better the more turns there are in a battle.
 有点与众不同的球。回合数花费得越多，精灵就会越容易捕捉。
 A somewhat different Poké Ball which has 3x strength on the first turn of a wild encounter.
-1种略有不同的精灵球，在和野生精灵的对战的第1回合中，捕获率是普通球的3倍。
+有点与众不同的球。在和野生精灵的对战的第1回合中，捕获率是普通球的3倍。
 A somewhat different Poké Ball that works better the lower the Pokémon's level is below your level cap.
 有点与众不同的球。捕捉的野生精灵越弱，就会越容易捕捉。
 A somewhat different Poké Ball that works at 3.5x strength on Pokémon species that were previously caught.
@@ -40061,7 +40061,7 @@ Shalour City's famous shortbread. It can be used once to heal all the status con
 The Alola region's specialty--fried bread. It can be used once to heal all the status conditions of a Pokémon.
 阿罗拉地区的特产--油炸面包。使用1次可以回复精灵的所有状态。
 A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.
-单特性模式下可用，能将精灵的现有特性变为另1种特性的胶囊。
+能将精灵的现有特性变为另1种特性的胶囊，仅在单特性模式或构造模式下可用。
 A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in soft soil.
 浇水的物品。能让埋在松软土壤里的树果快快长大。
 A bottle believed to have been used to seal away the power of a certain Pokémon long, long ago.
@@ -40091,13 +40091,13 @@ The fossil of an ancient Pokémon that once roamed the land. Is it Dracozolt or 
 The fossil of an ancient Pokémon that once lived in the sea. Is it Arctozolt or Arctovish...?
 1种曾生活在海里的古代精灵的化石。是雷鸟海兽还是鳃鱼海兽...？
 Used by a hero to halt a terrible disaster. The wielder takes 10% less move damage.
-1个英雄用来阻止巨大灾难的物品。携带者受到的技能伤害减少10%。
+1个英雄用来阻止巨大灾难的物品。携带者受到的技能伤害减小10%。
 Used by a hero to halt a terrible disaster. The wielder deals 10% more move damage.
 1个英雄用来阻止巨大灾难的物品。携带者使用的技能伤害增加10%。
-Reins that people presented to the king. They enable Calyrex to connect and communicate with its beloved steed.
-拿到光下即可生辉的布。人们曾经将其进献给丰饶之王以表感谢之意。
-A charm that increases the Exp. Points that Pokémon can get by 10%. A machine-like object is inside the charm.
-增加精灵10%可获得的经验。
+Reins that people presented to the king. They enable Calyrex to connect with its beloved steed.
+人们献给国王的缰绳。可以使蕾冠王能够与它心爱的坐骑建立联系。
+A charm that increases the EXP. Pokémon earn by 10%. A machine-like object is inside the charm.
+使精灵获得的经验增加10%。
 A charm that doubles the chance of getting a critical catch.
 带上这个神奇的可增强的护身符，就能更容易发动会心1击捕捉。
 A long, durable rope. Use it to escape instantly from a cave or a dungeon.
@@ -42636,8 +42636,8 @@ Immune to Fire-type moves, and raises Attack and Sp. Atk if hit by one.
 免疫火属性技能，被火属性技能命中时双攻增加1级。
 Powers up priority moves by 30%.
 先制类技能威力增加30%。
-Upon entry, summons Natural Protection for four turns.
-出场时，开启持续4回合的自然防护。
+Upon entry, summons Natural Protection for eight turns.
+出场时，开启持续8回合的自然防护。
 On the first turn, its attacks frostbite the target.
 出场第1回合的攻击会使对手陷入冻伤。
 Attacks this Pokémon uses that don't share a type with it are boosted by 30%.
@@ -43054,8 +43054,8 @@ This Pokémon's moves deal 50% more damage if they're a different type than last
 使用的技能若与上次使用的属性不同，伤害增加50%。
 Poison-type foes can be poisoned. Poison applied to foes starts already worsened.
 能够使毒属性中毒。对手陷入中毒时，将直接视为中毒已加剧。
-Every three turns, this Pokémon gains a stockpile.
-每3回合，获得1层蓄力效果。
+Every three turns, this Pokémon gains a stockpile stack. This reduces move damage taken by 30% per stack.
+每3回合，获得1层蓄力效果。每层可以使受到的伤害减小30%。
 The user's moves cannot miss against trapped targets. Takes 20% less damage from Pokémon that are trapped.
 对于被困住的目标的攻击必定会命中，从被困住的精灵那里受到的伤害减小20%。
 Deals 30% more damage to trapped foes.
@@ -43090,7 +43090,7 @@ This Pokémon cannot enter the battle before Regidrago, Regice, Regirock, Regist
 在雷吉铎拉戈、雷吉艾斯、雷吉洛克、雷吉斯奇鲁和雷吉艾勒奇都进入过战斗之前，该精灵无法进入战斗。
 While this Pokémon has an ally that isn't fully evolved, both Pokémon take 33% less move damage.
 当有未完全进化的队友时，自身和队友受到的技能伤害减小33%。
-Deals 25% more damage per stockpile.
+Deals 25% more damage per stockpile stack.
 每蓄力1次，造成的伤害增加25%。
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become leeched.
 特防增加20%。当被同1精灵第2次特殊类技能攻击时，攻击者将陷入寄生。
@@ -47980,7 +47980,7 @@ Sp. Atk
 Sp. Def
 特防
 Main Ability is disabled.
-自选特性现在不可用，通过开启自选特性模式以激活主特性。
+自选特性现在不可用，通过开启自选特性模式以激活自选特性。
 {1} doesn't have Main Ability.
 {1}没有自选特性。
 {1} (USE: Check more)
@@ -48353,8 +48353,8 @@ Ice now resists Flying and Ground. Ice is Super-Effective against those types, s
 冰属性现在可以抵抗飞行和地面属性，本身冰属性就克制它们，能抵抗1下也正常。
 Other changes
 其它改动
-Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic.
-岩石属性抵抗冰属性，妖精属性抵抗龙属性，妖精属性对火属性效果一般，虫属性抵抗超能属性。
+Rock resists Ice. Fairy resists Dragon. Fairy is neutral against Fire. Bug resists Psychic. Steel can be poisoned.
+岩石属性抵抗冰属性，妖精属性抵抗龙属性，妖精属性对火属性效果一般，虫属性抵抗超能属性，并且钢属性的精灵可以中毒。
 Why Get More?
 需培养更多？
 Having choices of Pokémon is important when facing challenges. A team of six is a bare minimum--it's best to catch more and pull them from the PC as needed.
@@ -48749,7 +48749,7 @@ Press the Use key (defaults to C) on the evolutions tab to choose a Pokémon in 
 在进化界面按C，可以选择同1进化树中的精灵，并进入其条目。
 What are weathers?
 天气
-Weathers are special states that effect the entire battlefield and help or hinder the Pokémon battling. Only one weather can be active at once.
+Weathers are special states that affect the entire battlefield and help or hinder the Pokémon battling. Only one weather can be active at once.
 天气是1种影响整个战场的特殊状态，会帮助或阻碍精灵战斗，同1时间只能有1种天气。
 Weather Duration
 天气持续时间
@@ -48796,7 +48796,7 @@ Whenever a Pokémon on this side is hit, its defending stats are both lowered by
 Tapu Lele: Flutter Totem
 卡璞·蝶蝶：翩翩图腾
 At the end of each turn, the Pokémon on this side are all healed by 1/8th of their max HP, but each one of their moves has their PP reduced by 1.
-回合结束时，我方的精灵回复最大HP的1/8，但所有技能的PP减少1点。
+回合结束时，我方的精灵回复最大HP的1/8，但所有技能的PP减小1点。
 Zeraora: Hybrid Fighter
 捷拉奥拉：混合斗士
 You gain effects for using moves in an order.<<n>>Kick -> Bite: Healed by 25%.<<n>>Punch -> Kick: You switch out.<<n>>Bite -> Punch: The target's Attack and Sp. Atk lowers by 2 steps.
@@ -56285,6 +56285,8 @@ The Bag is full. The Pokémon's {1} could not be removed.
 背包满了，无法取出精灵的{1}。
 Received the {1} from {2}.
 从{2}那里取出了{1}。
+Pokémon's Ability can be changed only in Mono Ability or Tectonic mode!
+精灵的自选特性只有在单特性模式或构造模式下才允许被改变！
 Ability Capsule can be only used in Mono Ability or Tectonic mode!
 特性胶囊只能在单特性模式或构造模式下使用！
 You may not make your last able Pokémon a pacifist.
@@ -56293,6 +56295,8 @@ You may not make your last able Pokémon have this ability.
 你不能让你最后1只可用的精灵拥有这个特性。
 Would you like to change {1}'s Ability to {2}?
 你想将{1}的特性更改为{2}吗？
+{1}'s Ability changed to {2}!
+{1}的特性已改为{2}！
 {1}'s ability has been changed to {2}!
 {1}的特性已改为{2}！
 You get the sense that you shouldn't teleport away right now.
@@ -56624,7 +56628,7 @@ Which form shall the Pokémon take?
 Cannot use this item on that Pokémon.
 不能在该精灵上使用这个物品。
 {1}'s Ability changed to {2}!
-{1}的特性变成了{2}！
+{1}的特性已改为{2}！
 The VS Recorder is WIP so it might have some bugs!
 战斗记录器正在开发中，可能存在1些Bug！请知悉！
 The VS Recorder buzzes erratically. Save your progress to make it work properly.
@@ -61106,11 +61110,11 @@ The user's Speed is doubled while using kicking moves. Every third kicking hit m
 Charges after using every 2 damaging moves in sandstorm, doubling the power of its next Electric-type move.
 沙暴时，每使用2次伤害类技能后，进入能量充盈状态，下1个电属性技能的威力翻倍。
 Foes suffer 50% more move damage reduction from burn, frostbite, numb, and poison.
-对手因烧伤、冻伤、麻痹和中毒减少的伤害增加50%。
+对手因烧伤、冻伤、麻痹和中毒减小的伤害增加50%。
 Heals this Pokémon by 1.5x the damage other battlers take from being poisoned.
 根据其他精灵因中毒所受的伤害的1.5倍回复HP。
 Takes 20% less damage if the move is more than normal-effective.
-受到的效果一般以上的伤害减少20%。
+受到的效果一般以上的伤害减小20%。
 This Pokémon is Mutant-type. If it is Deoxys, it will have multiple movesets.
 此精灵视为基因属性，如果此精灵是代欧奇希斯，还会获得多套技能组。
 Powers up Grass-type moves of itself and its allies by 30%.
@@ -61118,7 +61122,7 @@ Powers up Grass-type moves of itself and its allies by 30%.
 Can hold two items.
 可以携带2个物品。
 A capsule that allows a Pokémon to switch to another Ability. Used in Mono Ability or Tectonic Mode.
-仅在单特性和构造模式下可用，能将精灵的现有特性变为另1种特性的胶囊。
+能将精灵的现有特性变为另1种特性的胶囊，仅在单特性模式或构造模式下可用。
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 让精灵携带后，当HP小于25%时，可回复1半HP。
 An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.
