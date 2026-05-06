@@ -1301,7 +1301,7 @@ CableClub = true
 Name = Champion
 Gender = Unknown
 BaseMoney = 100
-BattleBGM = Battle vanya
+BattleBGM = Battle champion vanya
 #-------------------------------
 [POKEMONMASTER_Vanya]
 Name = Pokémon Master

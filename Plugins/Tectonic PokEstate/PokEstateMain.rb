@@ -518,6 +518,7 @@ class PokEstate
 		cmdDeleteMove = -1
 		cmdEvolve  = -1
 		cmdStyle = -1
+		cmdSwapAbility = -1
 		cmdOmnitutor = -1
     cmdAdaptiveAI = -1
     cmdOpenAR     = -1
@@ -529,6 +530,7 @@ class PokEstate
 		newspecies = pokemon.check_evolution_on_level_up(false)
 		commands[cmdEvolve = commands.length]   = _INTL("Evolve") if newspecies
 		commands[cmdStyle = commands.length]  	= _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
+		commands[cmdSwapAbility = commands.length]  	= _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX)
 
 		if $PokemonGlobal.omnitutor_active && !getOmniMoves(pokemon).empty?
 			commands[cmdOmnitutor = commands.length]	= _INTL("OmniTutor")
@@ -576,6 +578,8 @@ class PokEstate
       change_ability_choose_from_list(pokemon, Pokemon::ADAPTIVE_AI)
 		elsif cmdStyle >= 0 && modifyCommand == cmdStyle
 			pbStyleValueScreen(pokemon)
+		elsif cmdSwapAbility >= 0 && modifyCommand == cmdSwapAbility
+			pbSwapAbility(pokemon)
 		elsif cmdOmnitutor >= 0 && modifyCommand == cmdOmnitutor
 			omniTutorScreen(pokemon)
 		elsif cmdCancel > -1 && modifyCommand == cmdCancel

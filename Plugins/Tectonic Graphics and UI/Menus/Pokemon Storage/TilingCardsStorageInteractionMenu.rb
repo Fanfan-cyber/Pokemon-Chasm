@@ -286,6 +286,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
     cmdSetDislike = -1
     cmdSetTitle   = -1
     cmdSetTrait   = -1
+		cmdSwapAbility = -1
 
 		# Build the commands
     commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
@@ -303,6 +304,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
     commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
     commands[cmdSetLike = commands.length]      = _INTL("Set Like") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
     commands[cmdSetDislike = commands.length]   = _INTL("Set Dislike") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
+		commands[cmdSwapAbility = commands.length]  = _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX)
 		commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
 		commands[commands.length]                   = _INTL("Cancel")
 		modifyCommand = pbShowCommands(_INTL("Do what with {1}?",@pkmn.name),commands)
@@ -389,6 +391,8 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
         end
 		elsif cmdStyle >= 0 && modifyCommand == cmdStyle
 			pbStyleValueScreen(@pkmn)
+		elsif cmdSwapAbility >= 0 && modifyCommand == cmdSwapAbility
+			pbSwapAbility(@pkmn)
 		elsif cmdOmnitutor >= 0 && modifyCommand == cmdOmnitutor
 			omniTutorScreen(@pkmn)
 		end

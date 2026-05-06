@@ -602,6 +602,27 @@ module QuestModule
     :QuestDescription => _INTL("This scientist keeps crossing your way. He keeps giving you interesting stuff, may as well continue finding him."),
   }
 
+  QUEST_VANYA_TAO_TRIO = {
+    :Name => _INTL("Cold Reality"),
+    :QuestGiver => _INTL("Vanya"),
+    :Stage1 => _INTL("Meet Vanya for a battle."),
+    :Stage2 => _INTL("Meet Vanya for a battle."),
+    :Stage3 => _INTL("Meet Vanya for a battle."),
+    :Stage4 => _INTL("Meet Vanya for a battle."),
+    :Stage5 => _INTL("Investigate Vanya's mind."),
+    :Stage6 => _INTL("Find the dragon stones."),
+    :Stage7 => _INTL("Find and rescue Vanya."),
+    :Location1 => _INTL("Bluepoint Beach"),
+    :Location2 => _INTL("Repora Forest"),
+    :Location3 => _INTL("Split Peaks"),
+    :Location4 => _INTL("Frostflow Farms"),
+    :Location5 => _INTL("Frostflow Farms...?"),
+    :Location6 => _INTL("Frostflow Farms...?"),
+    :Location7 => _INTL("Frostflow Farms...?"),
+    :QuestDescription => _INTL("Shaken by their loss at the tournament, Vanya needs time to think and a good battling partner: you."),
+  }
+
+
   # Former Champions
 
   QUEST_FORMER_CHAMPIONS = {

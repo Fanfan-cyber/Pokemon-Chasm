@@ -4171,17 +4171,6 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = This attack's power increases by 10 for every one of the target's positive stat steps.
 #-------------------------------
-[SPOTTING]
-Name = Spotting
-Type = DARK
-Category = Status
-Accuracy = 0
-TotalPP = 15
-Target = NearAlly
-Priority = 5
-FunctionCode = Invalid
-Description = The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
-#-------------------------------
 [ULTRAVIOLETPULSE]
 Name = Ultraviolet Pulse
 Type = DARK

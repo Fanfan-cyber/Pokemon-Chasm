@@ -246,6 +246,7 @@ existingIndex)
         cmdDeleteMove = -1
         cmdSetTitle   = -1
         cmdSetTrait   = -1
+        cmdSwapAbility = -1
 
         newspecies = @pkmn.check_evolution_on_level_up(false)
         # Build the commands
@@ -263,6 +264,7 @@ existingIndex)
         commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
         commands[cmdSetLike = commands.length]      = _INTL("Set Like") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
         commands[cmdSetDislike = commands.length]   = _INTL("Set Dislike") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
+        commands[cmdSwapAbility = commands.length]  = _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX)
         commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
         commands[commands.length]                   = _INTL("Cancel")
 
@@ -395,6 +397,8 @@ existingIndex)
             DeoxysExtraMoves.learnExtraMove(@pkmn)
         elsif cmdStyle >= 0 && modifyCommand == cmdStyle
             pbStyleValueScreen(@pkmn)
+        elsif cmdSwapAbility >= 0 && modifyCommand == cmdSwapAbility
+            pbSwapAbility(@pkmn)
         end
 
         return false

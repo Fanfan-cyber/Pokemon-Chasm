@@ -12,6 +12,7 @@ class PokeBattle_Battler
     attr_accessor  :lastRoundMoved, :lastMoveFailed, :lastRoundMoveFailed, :movesUsed, :currentMove
     attr_accessor  :tookDamage, :tookPhysicalHit, :tookSpecialHit, :tookPhysicalHitLastRound, :tookSpecialHitLastRound
     attr_accessor :damageState, :initialHP, :lastRoundHighestTypeModFromFoe
+    attr_accessor :movesUsedThisTurn, :movesUsedLastTurn
 
     # Avatar stuff
     attr_accessor  :boss, :avatarPhase
