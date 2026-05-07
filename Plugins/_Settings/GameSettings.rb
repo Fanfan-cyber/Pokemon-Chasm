@@ -229,6 +229,7 @@ module Settings
             [0, SPIRIT_ATOLL_VISITED_SWITCH, 0, 0, "Spirit Atoll", false],
             [0, BARREN_ISLAND_VISITED_SWITCH, 0, 0, "Barren Island", false],
             [0, WINDBORN_ISLAND_VISITED_SWITCH, 0, 0, "Windborn Island", false],
+            [0, HOLLOWED_LAYER_VISITED_SWITCH, 0, 0, "Hollowed Layer", false],
         ]
     end
   

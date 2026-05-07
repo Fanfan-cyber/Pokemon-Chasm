@@ -8445,6 +8445,36 @@ Pokemon = DELIBIRD,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
 #-------------------------------
+[VANYADAD,Avram]
+Flags = NoPerfect
+Pokemon = PLUSLE,70
+    Moves = LUCKYCHEER,RETREAT,NUZZLE,LIGHTSCREEN
+    AbilityIndex = 0 # Battery
+    Item = LIGHTCLAY
+Pokemon = SENSIBELLE,70
+    Moves = HEALPULSE,RECOVER,WARDPRESS,NULLPULSE
+    AbilityIndex = 1 # Regenerator
+    Item = LEFTOVERS
+Pokemon = MMILOTIC,70
+    Moves = ARCOFHOPE,BODYPRESS,STANDTOGETHER,LIFEDEW
+    AbilityIndex = 0 # Rainbow Guardian
+    Item = WILDCARD
+#-------------------------------
+[VANYAMOM,Vidya]
+Flags = NoPerfect
+Pokemon = BRONZONG,70
+    Moves = PSYCHOBOOST,FRAGMENTATION,SKYFALL,TAKESHELTER
+    AbilityIndex = 1 # Puzzling
+    Item = REINFORCINGROD
+Pokemon = CROBAT,70
+    Moves = UTURN,SLUDGEWAVE,HEATWAVE,ROOST
+    AbilityIndex = 1 # Rapid Onset
+    Item = FIREGEM
+Pokemon = DUSKNOIR,70
+    Moves = STITCHUP,CURSEDOATH,SHORTCIRCUIT,WILLOWISP
+    AbilityIndex = 0 # Aggravate
+    Item = FRAGILELOCKET
+#-------------------------------
 [POKEMONTRAINER_Vanya,Vanya,3]
 Flags = NoPerfect,HailTeam
 Pokemon = KYUREM,70
@@ -10291,6 +10321,7 @@ Pokemon = OBSTAGOON,70
     EV = 10,20,0,20,20,0
 #-------------------------------
 [ANOTHERPOSSIBLERAFAEL,Rafael]
+Policies = CURSE_FORCE_PERFECT
 Pokemon = DIANCIE,70
     Moves = GEMFORGEDOATH,PSYCHOSCISSION,DIAMONDSTORM,MOONBLAST
     AbilityIndex = 0 # Magic Bounce
