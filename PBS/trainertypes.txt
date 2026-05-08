@@ -410,6 +410,13 @@ BaseMoney = 64
 IntroBGM = POKEFAN
 CableClub = true
 #-------------------------------
+[COLLECTOR_F]
+Name = Collector
+Gender = Female
+BaseMoney = 64
+IntroBGM = POKEFAN
+CableClub = true
+#-------------------------------
 [COOLTRAINERSQUAD_2]
 Name = Cool Squad
 Gender = Unknown
