@@ -410,6 +410,13 @@ BaseMoney = 64
 IntroBGM = POKEFAN
 CableClub = true
 #-------------------------------
+[COLLECTOR_F]
+Name = Collector
+Gender = Female
+BaseMoney = 64
+IntroBGM = POKEFAN
+CableClub = true
+#-------------------------------
 [COOLTRAINERSQUAD_2]
 Name = Cool Squad
 Gender = Unknown
@@ -1426,7 +1433,6 @@ BaseMoney = 60
 Name = Pokémon Trainer
 Gender = Unknown
 BaseMoney = 100
-BattleBGM = Battle vanya
 #-------------------------------
 [POKEMONTRAINER_Yezera]
 Name = Pokémon Trainer
