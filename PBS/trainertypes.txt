@@ -455,7 +455,6 @@ CableClub = true
 Name = Pro Trainer
 Gender = Female
 BaseMoney = 60
-Policies = PROACTIVE_MATCHUP_SWAPPER
 IntroBGM = ELITETRAINER
 BattleBGM = Battle pro
 CableClub = true
@@ -492,7 +491,6 @@ CableClub = true
 Name = Pro Trainer
 Gender = Male
 BaseMoney = 60
-Policies = PROACTIVE_MATCHUP_SWAPPER
 IntroBGM = ELITETRAINER
 BattleBGM = Battle pro
 CableClub = true
@@ -593,7 +591,6 @@ IntroBGM = DITTO_BACKPACKER
 Name = Pro Trainer
 Gender = Female
 BaseMoney = 32
-Policies = PROACTIVE_MATCHUP_SWAPPER
 IntroBGM = DITTO_ELITETRAINER
 BattleBGM = Battle pro
 #-------------------------------
@@ -1321,6 +1318,7 @@ BattleBGM = Battle champion vanya
 Name = Pokémon Master
 Gender = Unknown
 BaseMoney = 200
+Policies = SKEEVY_EEVEE_VANYA
 IntroBGM = TWINS2
 BattleBGM = Battle vanya final
 #-------------------------------
@@ -1438,7 +1436,6 @@ BaseMoney = 100
 Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 100
-Policies = PREDICTS_PLAYER
 #-------------------------------
 [POLICEMAN]
 Name = Policeman
