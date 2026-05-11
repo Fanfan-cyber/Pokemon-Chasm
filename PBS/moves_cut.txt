@@ -23,6 +23,32 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = If it is the opposite gender of the user, the target becomes infatuated and less likely to attack.
 #-------------------------------
+[ICEBURN]
+Name = Ice Burn
+Type = ICE
+Category = Special
+Power = 140
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = TwoTurnAttackBurnTarget
+Flags = CanProtect,ForceSignature
+EffectChance = 30
+Description = Charges up, then on the second turn, an ultracold, freezing wind surrounds the foe. It has a 30% chance to burn.
+#-------------------------------
+[FREEZESHOCK]
+Name = Freeze Shock
+Type = ICE
+Category = Physical
+Power = 140
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = TwoTurnAttackParalyzeTarget
+Flags = CanProtect,ForceSignature
+EffectChance = 30
+Description = Charges up, then on the second turn, the user strikes with electrified ice. It has a 30% chance to numb.
+#-------------------------------
 [BARRAGE]
 Name = Barrage
 Type = NORMAL
