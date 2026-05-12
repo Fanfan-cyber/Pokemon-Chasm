@@ -2849,30 +2849,47 @@ TrainerTypeLabel = DEVELOPER
 Pokemon = PORYGONZ,70
     Name = Beepo
     Shiny = yes
-    Moves = HYPERBEAM,CRITICALERROR,PHANTOMGATE,ICEBEAM
+    Moves = HYPERBEAM,CRITICALERROR,PHANTOMGATE,THUNDERBOLT
     AbilityIndex = 1 # Adapted
     Item = ENERGYHERB
-Pokemon = PORYGONZ,70
-    Moves = SUBLIMATE,CONVERSION,CRITICALERROR,RECOVER
-    AbilityIndex = 1 # Adapted
-    Item = ICEGEM
-Pokemon = PORYGONZ,70
-    Moves = CURSEDOATH,FOULPLAY,NUMB,RECOVER
-    AbilityIndex = 0 # Realist
-    Item = CRYSTALVEIL
-    ItemType = DARK
-Pokemon = INTELEON,70
-    Moves = HYDROPUMP,LASERFOCUS,PSYCHOBOOST,SHADOWBALL
-    AbilityIndex = 1 # Incognito
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = LYCANROC,70
+    Name = Fluffles
+    Moves = STORMSHARDS,CLOSECOMBAT,ROCKALANCHE,GLACIALCRUNCH
+    AbilityIndex = 1 # Serene Grace
     Item = LIFEORB
-Pokemon = PORYGONZ,70
-    Moves = POWERHAMMER,DISTURB,HORIZONSLICE,CONVERSION
-    AbilityIndex = 1 # Adapted
-    Item = POWERLOCK
-Pokemon = PORYGONZ,70
-    Moves = DREAMDANCE,LASTRESORT
-    AbilityIndex = 1 # Adapted
-    Item = SITRUSBERRY
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = WOLFEROC,70
+    Name = Ruffles
+    Moves = TRUMPCARD,POWERGEM,ACROBATICS,TRAMPLE
+    AbilityIndex = 0 # Fading Fury
+    Item = NORMALGEM
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = ROUGAROC,70
+    Name = Scruffles
+    Moves = MONOLITHDROP,NIGHTFELLING,RIPTIDE,STORMSHARDS
+    AbilityIndex = 0 # No Guard
+    Item = STRIKEVEST
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,20,0,20,0
+Pokemon = CURESOLA,70
+    Name = Lilypad
+    Shiny = yes
+    Moves = CORALOVERGROWTH,EXPLOSION
+    AbilityIndex = 0 # Long-term View
+    Item = CUSTAPBERRY
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,20,10,0,0
+Pokemon = MOTHIM,70
+    Moves = POWDERBOMB,LEECHSEED,LEAFSTORM,EARTHQUAKE
+    AbilityIndex = 0 # Spare Scales
+    Item = CRYSTALVEIL
+    ItemType = STEEL
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
 #-------------------------------
 [GUITARIST3,Envy]
 TrainerTypeLabel = DEVELOPER
@@ -3285,6 +3302,100 @@ Pokemon = MZANGOOSE,70
     Moves = COLDSHOULDER,VIMRIPPER,CLOSECOMBAT,QUICKATTACK
     AbilityIndex = 0 # Served Cold
     Item = SEVENLEAGUEBOOTS
+#-------------------------------
+[TOURISTM,Azeler]
+TrainerTypeLabel = DEVELOPER
+Pokemon = LEDIAN,70
+    Name = Orion
+    Moves = SUPERPOWER,ACROBATICS,DRAINPUNCH,ENCORE
+    AbilityIndex = 1 # Star Guardian
+    Item = EJECTPACK
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = MRMIME,70
+    Name = Mercury
+    Moves = HELPINGHAND,ILLWISHES,TEETERDANCE,BUCKETDROP
+    AbilityIndex = 0 # Barrier Maker
+    Item = EJECTBUTTON
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,20,0,20,0
+Pokemon = CROBAT,70
+    Name = Mars
+    Moves = EXSANGUINATE,UTURN,LEECHLIFE,FLY
+    AbilityIndex = 1 # Rapid Onset
+    Item = LIFEORB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = SENSIBELLE,70
+    Name = Venus
+    Moves = HEALPULSE,WARDPRESS,RECOVER,NULLPULSE
+    AbilityIndex = 1 # Regenerator
+    Item = LEFTOVERS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,10,0,0,20
+Pokemon = BRONZONG,70
+    Name = Saturn
+    Moves = KINETICGRIP,SKYFALL,TAKESHELTER,HEALBELL
+    AbilityIndex = 0 # Levitate
+    Item = ROCKYHELMET
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,5,0,20,5
+Pokemon = RUBARIOR,70
+    Name = Phobos
+    Moves = CURSEDOATH,FOULPLAY,SWEETSELENE,DESTINYBOND
+    AbilityIndex = 1 # Prankster
+    Item = LEFTOVERS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,20,0,0,10
+#-------------------------------
+[FAIRYTALEGIRL,Emmi]
+Flags = NoPerfect
+Pokemon = HATTERENE,70
+    Name = Silence
+    Gender = female
+    Moves = EMOTIONALDELUGE,PSYCHOSCISSION,POWERWHIP,SWEETSELENE
+    AbilityIndex = 0 # Killjoy
+    Item = LIFEORB
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,20,10,0,20,0
+Pokemon = POLIWRATH,70
+    Name = CHERISH
+    Gender = female
+    Moves = LIQUIDATION,CLOSECOMBAT,REST,THROATCHOP
+    AbilityIndex = 0 # Counter Flow
+    Item = ROCKYHELMET
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,20,0,20,0
+Pokemon = MFURRET,70
+    Name = Walkies
+    Gender = female
+    Moves = ONEIROMANCY,REST,REMBURST,EARTHPOWER
+    AbilityIndex = 0 # Filter
+    Item = ENERGYLOCK
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
+Pokemon = MILOTIC,70
+    Name = worm
+    Gender = female
+    Moves = DRAGONPULSE,EARTHPOWER,CAVITATION,STARDANCE
+    AbilityIndex = 1 # Competitive
+    Item = STRESSBALL
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = MHAEROBIC,70
+    Name = The Bouny
+    Moves = RETALIATE,LUNASUCRE,PSYCHESWITCH,PARTINGSHOT
+    AbilityIndex = 1 # Heart of Justice
+    Item = EJECTBUTTON
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = BRONZONG,70
+    Name = BING-BONG
+    Moves = TAKESHELTER,PSYCHOBOOST,POWDERBOMB,HEALBELL
+    AbilityIndex = 0 # Levitate
+    Item = LEFTOVERS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,20,0,20,0
 #-------------------------------
 [LEADER_Bence,Bence]
 Policies = BENCE

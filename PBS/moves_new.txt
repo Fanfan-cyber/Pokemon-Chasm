@@ -408,7 +408,7 @@ Target = NearOther
 FunctionCode = ResetTargetStatSteps
 Flags = CanProtect,Pulse
 EffectChance = 100
-Description = The target is struck by a pulse of negative energy. This resets the target's stat changes.
+Description = The target is struck by a pulse of negative energy. This resets the target's positive stat changes.
 #-------------------------------
 [PALEBLADE]
 Name = Pale Blade
@@ -2126,7 +2126,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = ResetTargetStatSteps
 Flags = CanProtect,Kick
-Description = The user attacks by flattening the target into the ground. The target's stat step changes are returned to normal.
+Description = The user attacks by flattening the target into the ground. This resets the target's positive stat changes.
 Animation = STOMP
 #-------------------------------
 [TRAMPLE]
@@ -4104,7 +4104,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = CritsAgainstModifiedStatsResetsStats
-Flags = CanProtect
+Flags = CanProtect,ForceSignature
 Description = Guaranteed to critical hit if the target has stat step changes. The target is cleansed, reseting their stat changes.
 Animation = FLAMETHROWER
 #-------------------------------
@@ -5570,7 +5570,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = CritsAgainstUnmodifiedStatsRaiseTargetMainStatsOne
-Flags = CanProtect
+Flags = CanProtect,ForceSignature
 Description = Guaranteed to critical hit if the target has no stat step changes. The target is surged forward, raising all its stats.
 Animation = VOLTTACKLE
 #-------------------------------
@@ -8180,7 +8180,7 @@ Category = Status
 Accuracy = 100
 TotalPP = 5
 Target = NearOther
-FunctionCode = Sleep
+FunctionCode = SleepTargetIfInFullMoonglow
 Flags = CanProtect,CanMagicCoat
 Description = The target is lulled to sleep. Can only be used during a Full Moon.
 Animation = SING
