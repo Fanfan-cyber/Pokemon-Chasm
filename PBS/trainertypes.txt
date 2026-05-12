@@ -2229,12 +2229,6 @@ BaseMoney = 32
 IntroBGM = AROMALADY
 CableClub = true
 #-------------------------------
-[WHIMSICALBOY]
-Name = Whimsical Boy
-Gender = Male
-BaseMoney = 8
-IntroBGM = TWINS
-#-------------------------------
 [WAITER2]
 Name = Waiter
 Gender = Male
@@ -2269,6 +2263,12 @@ Gender = Female
 BaseMoney = 32
 IntroBGM = AROMALADY
 CableClub = true
+#-------------------------------
+[WHIMSICALBOY]
+Name = Whimsical Boy
+Gender = Male
+BaseMoney = 8
+IntroBGM = TWINS
 #-------------------------------
 [WILDPACK]
 Name = Wild Pack
