@@ -37203,7 +37203,7 @@ Rams the target with frigid force. This has a 10% chance to frostbite.
 向对手砸下1大块冰，10%概率让对手陷入冻伤状态。
 The user attacks the target with a frontal cold wind. It reduces the target's Speed by three steps.
 以凛冽的寒风攻击对手，使对手的速度减小3级。
-The user absorbs the target's heat, frosbitting it and adding the Ice-type to it.
+The user absorbs the target's heat, frostbiting it and adding the Ice-type to it.
 使用者吸收目标的热量，使其冻伤并获得冰属性。
 The user freezes the target in place, dealing damage and minimizing their Speed and Evasion.
 使用者将目标冻结在原地，造成伤害并使其速度和回避率的能力等级最小化。
@@ -37499,7 +37499,7 @@ The user gleams with light. This lowers each foe's Sp. Atk by two steps and rais
 使用者闪耀光芒。使每个目标的特攻减小2级，自身的特攻增加2级。
 The user prepares to defend itself. It'll survive the next three hits which would faint it.
 专心保护自身，接下来3回合内不会倒下。
-The user growls fiercly. This lowers each foe's Attack by two steps and raises its own Attack by two steps.
+The user growls fiercely. This lowers each foe's Attack by two steps and raises its own Attack by two steps.
 使用者发出凶猛的咆哮。使每个目标的物攻减小2级，自身的物攻增加2级。
 The user copies and gains the first ability of each foe.
 使用者复制并获得所有对手的第1特性。
@@ -59877,6 +59877,8 @@ Find him in Velenz.
 在夜幽市找到他。
 Find him north east.
 在东北方向找到他。
+Find him south east.
+在东南方向找到他。
 Find him after your 7th badge.
 在获得第7个徽章后找到他。
 Find him after the tournament.
