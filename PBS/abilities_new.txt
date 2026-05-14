@@ -29,7 +29,7 @@ Description = Raises Speed by four steps when its HP is lowered below half.
 #-------------------------------
 [AERODYNAMIC]
 Name = Aerodynamic
-Description = Grants immunity to Flying-type moves and raises Speed if hit by one.
+Description = Immune to Flying-type moves and raises Speed if hit by one.
 #-------------------------------
 [AFROTECTION]
 Name = Afrotection
@@ -301,7 +301,7 @@ Description = This Pokémon's Speed is doubled while using light-based moves.
 #-------------------------------
 [CHALLENGER]
 Name = Challenger
-Description = Immune to Fighting-type moves, and raises Attack and Sp. Atk if hit by one.
+Description = Immune to Fighting-type moves and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [CHILLEDBODY]
 Name = Chilled Body
@@ -357,11 +357,11 @@ Description = Boosts Sp. Atk by 75%, but this Pokémon becomes frostbitten after
 #-------------------------------
 [COLDFUSION]
 Name = Cold Fusion
-Description = Immune to Fire and Electric-type moves, and raises Attack and Sp. Atk by two steps if hit by one.
+Description = Immune to Fire- and Electric-type moves and raises Attack and Sp. Atk by two steps if hit by one.
 #-------------------------------
 [COLDRECEPTION]
 Name = Cold Reception
-Description = Immune to Ice-type moves, and raises Attack and Sp. Atk if hit by one.
+Description = Immune to Ice-type moves and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [COLORCOLLECTOR]
 Name = Color Collector
@@ -434,6 +434,10 @@ Flags = HailSynergy
 Name = Debris Field
 Description = Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
 Flags = SandstormSynergy
+#-------------------------------
+[DEBUGGER]
+Name = Debugger
+Description = Immune to Bug-type moves and raises Speed if hit by one.
 #-------------------------------
 [DECONTAMINATION]
 Name = Decontamination
@@ -741,7 +745,7 @@ Description = At the end of every turn, each Pokémon takes 1/8th HP damage. Thi
 #-------------------------------
 [FIREFIGHTER]
 Name = Firefighter
-Description = Immune to Fire-type moves, and raises Attack and Sp. Atk if hit by one.
+Description = Immune to Fire-type moves and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [FIRSTSTRIKE]
 Name = First Strike
@@ -778,7 +782,7 @@ Description = Hits opponent with Gust when switched out.
 #-------------------------------
 [FLYTRAP]
 Name = Flytrap
-Description = Grants immunity to Bug-type moves, and raises Attack and Sp. Atk when hit by one.
+Description = Immune to Bug-type moves and raises Attack and Sp. Atk when hit by one.
 #-------------------------------
 [FOGTOTEM]
 Name = Fog Totem
@@ -790,7 +794,7 @@ Description = Raises Speed by two steps after knocking out any Pokémon.
 #-------------------------------
 [FOOLHARDY]
 Name = Foolhardy
-Description = Immune to Psychic-type moves, and raises Attack and Sp. Atk if hit by one.
+Description = Immune to Psychic-type moves and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [FOREMAN]
 Name = Foreman
@@ -982,7 +986,7 @@ Description = Immune to Fairy-type moves and restores 25% of max HP if hit by on
 #-------------------------------
 [HEARTOFJUSTICE]
 Name = Heart of Justice
-Description = Immune to Dark-type moves, and boosts Attack and Sp. Atk when hit by one.
+Description = Immune to Dark-type moves and boosts Attack and Sp. Atk when hit by one.
 #-------------------------------
 [HEATDEATH]
 Name = Heat Death
@@ -1039,10 +1043,6 @@ Description = Powers up Bug-type moves of itself and its allies by 50%.
 [HOLIDAYCHEER]
 Name = Holiday Cheer
 Description = Upon entry, heals self and allies for 25% of their max health.
-#-------------------------------
-[HONORABLE]
-Name = Honorable
-Description = Lowers priority of status moves used by any Pokémon.
 #-------------------------------
 [HOOLIGAN]
 Name = Hooligan
@@ -1274,10 +1274,6 @@ Description = This Pokémon's pulse attacks become spread and deal 25% more dama
 Name = Leviathan
 Description = Protected from critical hits. Can't be burned or frostbitten.
 Flags = CritImmunity
-#-------------------------------
-[LIFELINE]
-Name = Lifeline
-Description = At the end of each turn, heals self by 1/20th and a party member by the amount this Pokémon was healed.
 #-------------------------------
 [LIGHTTRICK]
 Name = Light Trick
@@ -1816,10 +1812,6 @@ Description = Heals 1/8th HP every turn if hit by an attack.
 Name = Rat's Nest
 Description = Lays an electrical hazard around the opponent when this Pokémon's HP is lowered below half.
 #-------------------------------
-[RATTLEEM]
-Name = Rattle 'Em
-Description = Moves that can flinch are 50% more likely. Deals 50% more damage to Pokémon with flinch immunity.
-#-------------------------------
 [RAZORSEDGE]
 Name = Razor's Edge
 Description = Boosts the power of slice moves by 30%. They're twice as likely to crit.
@@ -1935,6 +1927,11 @@ Description = All Pokémon deal 40% more move damage.
 [RUNNINGFREE]
 Name = Running Free
 Description = Can't be numbed, waterlogged, trapped, or have its Speed lowered.
+#-------------------------------
+[RUNTHROUGH]
+Name = Run Through
+Description = Doubles critical hit chance for each Speed step up. All moves can random critical hit.
+Flags = EnablesRandomCrits
 #-------------------------------
 [RUSTWRACK]
 Name = Rust & Wrack
@@ -2057,15 +2054,11 @@ Description = Its physical attacks reduce the target's Defense.
 #-------------------------------
 [SHIELDSMITHING]
 Name = Shield-Smithing
-Description = Immune to Steel-type moves, and boosts Defense and Sp. Def when hit by one.
+Description = Immune to Steel-type moves and boosts Defense and Sp. Def when hit by one.
 #-------------------------------
 [SHIFTINGFIST]
 Name = Shifting Fist
 Description = Punching moves change this Pokémon's secondary type and their power is boosted by 30%.
-#-------------------------------
-[SHOCKSTYLE]
-Name = Shock Style
-Description = Powers up Fighting-type moves by 50%.
 #-------------------------------
 [SHOWOFF]
 Name = Show Off
@@ -2215,11 +2208,6 @@ Description = Can't be afflicted with any non-volatile status condition.
 Name = Stainless Steel
 Description = Prevents stat steps from being lowered (except when self-inflicted). Immune to weather downsides.
 Flags = AllWeatherSynergy,OtherStatDropImmunity
-#-------------------------------
-[STAMPEDE]
-Name = Stampede
-Description = Doubles critical hit chance for each Speed step up. All moves can random critical hit.
-Flags = EnablesRandomCrits
 #-------------------------------
 [STARGUARDIAN]
 Name = Star Guardian
@@ -2389,7 +2377,7 @@ Description = Boosts the power of slice moves by 30%.
 #-------------------------------
 [SWORDSMITHING]
 Name = Sword-Smithing
-Description = Immune to Steel-type moves, and boosts Attack and Sp. Atk when hit by one.
+Description = Immune to Steel-type moves and boosts Attack and Sp. Atk when hit by one.
 #-------------------------------
 [TAIGATREKKER]
 Name = Taiga Trekker
@@ -2525,11 +2513,6 @@ Description = Takes half damage from Dark- and Bug-type moves.
 Name = Unassuming
 Description = Before using a status move against a single foe, lowers their Defense by two steps.
 #-------------------------------
-[UNBOUND]
-Name = Unbound
-Description = Moves ignore Abilities that would affect its moves or activate after hitting the target, and immunities due to typing.
-Flags = MoldBreaking,BypassTypeImmunity
-#-------------------------------
 [UNBREAKABLE]
 Name = Unbreakable
 Description = Prevents half the self-damage from recoil and self-destructing.
@@ -2565,7 +2548,7 @@ Description = After an attack reduces its HP below half, deals 1/4th of the atta
 #-------------------------------
 [VENOMDETTA]
 Name = Venomdetta
-Description = Immune to Poison-type moves, and raises Attack and Sp. Atk if hit by one.
+Description = Immune to Poison-type moves and raises Attack and Sp. Atk if hit by one.
 #-------------------------------
 [VENOMGORGER]
 Name = Venom Gorger

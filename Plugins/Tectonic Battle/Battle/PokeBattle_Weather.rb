@@ -438,7 +438,7 @@ class PokeBattle_Battle
                 next unless b.hasActiveAbility?(:DESERTSCAVENGER)
                 next unless b.canHeal?
                 pbShowAbilitySplash(b, :DESERTSCAVENGER)
-                healingMessage = _INTL("{1} absorbs the suffering from the sandstorm", b.pbThis)
+                healingMessage = _INTL("{1} absorbs the suffering from the sandstorm.", b.pbThis)
                 b.pbRecoverHP(sandstormDamage, true, true, true, healingMessage)
                 pbHideAbilitySplash(b)
             end
