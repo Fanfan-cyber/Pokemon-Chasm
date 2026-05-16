@@ -85,7 +85,6 @@ Flags = Immutable
 [SOULSTEALER]
 Name = Soul Stealer
 Description = Steals foe's healing effects.
-Flags = Immutable
 #-------------------------------
 [SWALLOWMISSILE]
 Name = Swallow Missile

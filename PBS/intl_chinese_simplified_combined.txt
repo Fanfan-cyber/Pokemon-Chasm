@@ -3518,7 +3518,7 @@ Hey! Hey!
 Look at this cool Sentret! It's so so fast!
 看这只很酷的尾立，它很快！
 It's so fast that when it KOs something, it can switch out before another Pokémon comes in!
-它快到能在击倒对手后，在下1只精灵上场前就撤退！
+它快到能在击倒对手后，在下1只精灵出场前就撤退！
 I'll give you the Sentret for uh, $5000. I need a LOT of ice cream.
 我拿这只尾立给换你的，呃，5000金钱？我需要很多冰淇淋。
 But...ice cream...
@@ -28608,7 +28608,7 @@ Bivalve
 Gas
 气体
 Shadow
-影子
+暗影
 Rock Snake
 岩蛇
 Iron Snake
@@ -30239,7 +30239,7 @@ It sunbathes on the beach after meals. The rise in its body temperature helps it
 Its main source of food is the slimy industrial waste of factories. This Pokémon's numbers have been decreasing in recent years.
 诞生于海底的污泥。在干净的地方，它就会因体内的细菌无法增长而死去。
 Their food sources have decreased, and their numbers have declined sharply. Sludge ponds are being built to prevent their extinction.
-食物变少数量也会急剧减小。为了阻止它灭绝，人们开始了制造人工污泥池。
+食物变小数量也会急剧减小。为了阻止它灭绝，人们开始了制造人工污泥池。
 A Grimer, which had been brought in to solve a problem with garbage, developed over time into this form.
 为了解决垃圾问题，人们把它带到了阿罗拉。它能美美地吃光任何垃圾。
 The garbage it eats causes continuous chemical changes in its body, which produce its exceedingly vivid coloration.
@@ -32282,7 +32282,7 @@ Neutral Mode
 50%
 50%
 Hoopa Confined
-被拘束的胡帕
+拘束
 Baile Style
 芭蕾风格
 Solo
@@ -32618,7 +32618,7 @@ Rapid Strike
 Ice
 冰
 Shadow
-影子
+暗影
 Primal
 原始
 Meteoric
@@ -33119,7 +33119,7 @@ Perish Song
 Scary Face
 鬼面
 Shadow Ball
-影子球
+暗影球
 Shadow Bone
 暗影之骨
 Shadow Claw
@@ -35946,7 +35946,7 @@ The user foretells an attack. Two turns later, a hunk of psychic energy hits the
 The user employs psychic power to average its unmodified Defense and Sp. Def stats with those of its target.
 使用者运用超能力，使其与目标的基础双防平分。
 The user faints. In return, the Pokémon taking its place will have its HP restored and non-volatile status conditions cured.
-使用者陷入濒死，替换上场的精灵会回复HP和异常状态。
+使用者陷入濒死，替换出场的精灵会回复HP和异常状态。
 The user emits a healing pulse which heals the target's HP by half of its max HP.
 使用者发出脉冲波，为目标回复其最大HP的1半。
 The user unleashes a vicious blow after a cute act. It has a 40% chance to cause flinching.
@@ -35960,7 +35960,7 @@ The user instructs the target to use the target's last move again.
 A wondrous wall of light is put up to suppress damage from special attacks for five turns.
 在5回合内使用神奇的墙，减小从对手那受到的特殊类攻击的伤害。
 The user faints. In return, the Pokémon taking its place will have its non-volatile status conditions and HP fully restored.
-使用者陷入濒死，替换上场的精灵会完全回复HP和异常状态。
+使用者陷入濒死，替换出场的精灵会完全回复HP和异常状态。
 Until end of turn, reflects status moves that target the user or create hazards around it.
 当对手使用会变成异常状态的技能或陷阱等时，会将对手的技能反射回去。
 A retaliation move that counters any special attack, inflicting double the damage taken.
@@ -36804,7 +36804,7 @@ The user targets the opponents soft spots with a fiery strike. Its power doubles
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
 增加自身的特攻3级，在被替换下场前，所有技能都会波及到对方全部精灵。
 The user creates a golden pyre that revives a fainted Pokémon. That Pokémon switches in and its stats are boosted.
-使用者创造黄金火葬堆，复活1只濒死的精灵。该精灵替换上场，其全能力的等级增加1级。
+使用者创造黄金火葬堆，复活1只濒死的精灵。该精灵替换出场，其全能力的等级增加1级。
 The user dances with great heat. Pokémon hit by this are cured of frostbite. Deals 50% less damage to allies.
 使用者跳起炽热之舞。被命中的精灵会回复冻伤。对队友造成的伤害减半。
 The user pauses to plan its ranged attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
@@ -39721,7 +39721,7 @@ An item to be held by a Pokémon. A bizarre orb that inflicts poison on the hold
 A held item that damages the holder on every turn. It may latch on to Pokémon that attacks the holder.
 携带后，每回合都会受到伤害。有时也会附着到碰到自身的对手身上。
 An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.
-当携带它的精灵的能力等级被减小时，同行的精灵就会自动替换上场。
+当携带它的精灵的能力等级被减小时，同行的精灵就会自动替换出场。
 These boots prevent the effects of hazards set on the battlefield.
 这双靴子可以防止场上设置的陷阱带来的影响。
 Raises Sp. Atk by two steps when the Pokémon uses a sound move the first time each battle.
@@ -42043,7 +42043,7 @@ Lowers everyone else's Speed by two steps when hit by an attack.
 When this Pokémon eats a Berry, it will regurgitate that Berry at the end of the next turn and eat it one more time.
 当吃下树果时，它将在下1个回合结束时吐出该树果并再次吃下。
 Upon entry, clears the stat changes of other Pokémon.
-上场时，清除其他所有精灵所有能力的等级。
+出场时，清除其他所有精灵所有能力的等级。
 Repeats another Pokémon's dance move immediately.
 有精灵使用舞蹈类技能时，自身也会跟着使用这个技能。
 Powers up each Pokémon's Dark-type moves by 33%.
@@ -42201,15 +42201,15 @@ Immune to Grass-type moves and raises Attack and Sp. Atk when hit by one.
 Forms a powerful school while it has a lot of HP.
 HP多的时候会聚起来变强。
 Doubles the likelihood of the user's random added effects activating.
-托天恩的福，技能的附加效果更加容易出现。
+技能的随机附加效果出现的概率翻倍。
 Resists damage while its HP is full.
-HP全满时，受到的伤害会变少。
+HP全满时，受到的伤害会变小。
 At the end of each turn, heals from every non-volatile status condition (except Sleep).
-回合结束时，回复异常状态（睡眠除外）。
+回合结束时，回复除睡眠外的异常状态。
 Removes random added effects of attacks to increase their damage by 30%.
-技能的附加效果消失，但因此能以更高的威力使用技能。
+技能的随机附加效果消失，但该技能的伤害增加30%。
 Blocks all random added effects of attacks taken.
-被鳞粉守护着，不会受到技能的附加效果影响。
+不会受到攻击的随机附加效果的影响。
 Immune to non-volatile status conditions while it has its shell. Below half HP, its shell breaks and it turns aggressive.
 拥有壳时免疫异常，HP小于1半时，壳破裂并变得好斗。
 Stat changes in this Pokémon are doubled.
@@ -42309,7 +42309,7 @@ Immune to Flying-type moves and raises Speed if hit by one.
 Protects this Pokémon from recoil damage. This Pokémon doesn't trigger items, abilities, or effects of targets it hits.
 不会受到反伤。攻击不会发动被命中的目标的物品、特性和其他效果。
 Slips past all types of Spikes hazards. Deals 50% more damage to targets that switched in this turn.
-避开所有陷阱，对这1回合替换上场的目标造成的伤害增加50%。
+避开所有陷阱，对这1回合替换出场的目标造成的伤害增加50%。
 HP-fraction-based damage effects deal 35% more damage to opponents.
 基于HP比例的伤害的效果（如烧伤）对对手造成的伤害增加35%。
 When another Pokémon faints, consumes their item, ability, and stat steps.
@@ -42377,7 +42377,7 @@ If an attack lowers its HP below half, lowers the attacker's highest stat by fou
 Moves that make the user become hidden hide the user for one turn longer.
 让隐藏类技能的隐藏时间增加1回合。
 Deals 30% more damage to targets that are below half health or that swapped in this turn.
-对HP小于1半或在本回合交换上场的目标，造成的伤害增加30%。
+对HP小于1半或在本回合交换出场的目标，造成的伤害增加30%。
 Boosts the power of biting moves by 30%.
 咬类技能威力增加30%。
 Causes hail to deal double damage and increase Defense of Ice-types by 2.0x instead of 1.5x.
@@ -42565,7 +42565,7 @@ Uses Lightning Dance if an attack lowers its HP below half.
 Upon entry, creates an Emotion Room for four turns, which swaps each Pokémon's ability to its other ability each turn.
 出场时，开启持续4回合的情感空间，所有精灵每回合会交换自身的特性。
 When a foe switches to replace a fainted Pokémon, gives information about the switch and lets you switch beforehand.
-当对手因精灵濒死而替换新的精灵时，获得新精灵的信息，然后我方可以在新精灵上场之前进行1次替换。
+当对手因精灵濒死而替换新的精灵时，获得新精灵的信息，然后我方可以在新精灵出场之前进行1次替换。
 Can't be numbed, waterlogged, or have its Speed reduced.
 不会陷入麻痹、浸水，速度也不会被减小。
 This Pokémon's moves have priority against single targets with increased stats.
@@ -42761,7 +42761,7 @@ Can hold two different items, if both are Herbs.
 Turns to Finale Form when only unfainted on team. Ability becomes Inner Focus.
 当队伍只剩下自身后，将变为终结形态，特性更改为精神力。
 After switching in for a fainted ally, using a status move and knocking out a foe, heals to full and transforms.
-因队友濒死而替换上场，若使用过变化类技能，在打倒对手时，将完全回复HP并变身为新形态。
+因队友濒死而替换出场，若使用过变化类技能，在打倒对手时，将完全回复HP并变身为新形态。
 Has Judgment as its 5th move.
 自动获得技能制裁光砾。
 This Pokémon and its allies are immune to weather downsides.
@@ -42899,7 +42899,7 @@ Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
 Multi-hit moves can hit up to twice as many times.
 多段伤害类技能最多可以打出原先最大次数的2倍的次数。
 Copies the Ability of the Pokémon it switches in to replace.
-替换上场时，复制被替换的精灵的特性。
+替换出场时，复制被替换的精灵的特性。
 Effects placed by this Pokémon last 50% longer.
 该精灵开启的效果的持续时间增加50%。
 This Pokémon's Speed is doubled while using pulse moves.
@@ -42919,7 +42919,7 @@ At end of turn, heals 1/12th HP if holding a clothing item.
 This Pokémon's Speed is doubled while using Sound-based moves.
 使用声音类技能时，速度翻倍。
 Pokémon that swap in for this have their Attack and Sp. Atk raised.
-替换该精灵上场的精灵，双攻增加1级。
+替换该精灵出场的精灵，双攻增加1级。
 When hit with a special move, traps and binds the attacker for three turns. Fails on turns the user switched in.
 被特殊类技能攻击时，束缚攻击者3回合。出场的回合无效。
 If an attack lowers this Pokémon's HP below half, the attacker becomes cursed.
@@ -42951,9 +42951,9 @@ Powers up this Pokémon's Dark-type moves by 50% in sunshine.
 Immune to Psychic-type moves and mental effects.
 免疫超能属性技能和心控状态。
 Slips past hazards. Takes one third less damage if it switched in this turn.
-无视陷阱。替换上场的回合受到的伤害减小1/3。
+无视陷阱。替换出场的回合受到的伤害减小1/3。
 Pokémon that swap in for this have their Defense and Sp. Defense raised.
-替换该精灵上场的精灵，双防增加1级。
+替换该精灵出场的精灵，双防增加1级。
 When using Techno Blast, the user can choose the move's type, switching to that form.
 使用高科技光炮时，使用者可以选择技能的属性并切换为对应形态。
 If an attack lowers its HP below half, waterlogs the attacker.
@@ -43019,7 +43019,7 @@ After knocking out any Pokémon, raises its Attack and Speed.
 After knocking out any Pokémon, raises its Sp. Atk and Speed.
 打倒对手时，特攻和速度增加1级。
 Copies the unmodified stats of the Pokémon it switches in to replace.
-替换上场时，复制被替换的精灵的基础能力值。
+替换出场时，复制被替换的精灵的基础能力值。
 Boosts Sp. Atk by 30%, but lowers Sp. Atk after using a special move.
 特攻增加30%，但使用特殊类技能后特攻会减小1级。
 Boosts Sp. Atk by 30% in rainstorm.
@@ -43149,7 +43149,7 @@ This Pokémon's moves heal for 25% more.
 Upon entry during sunshine, heals the lowest HP ally or self by 33%.
 晴天出场时，为HP最低的队友或自身回复33%的HP。
 Pokémon that swap in for this have their non-volatile status conditions healed, and take 30% less damage that turn.
-替换该精灵上场的精灵会回复其异常，并且在那1回合受到的伤害减小30%。
+替换该精灵出场的精灵会回复其异常，并且在那1回合受到的伤害减小30%。
 At the end of each turn, heals from every volatile status condition.
 回合结束时，回复所有非稳定型异常。
 Below half health, it has a doubled crit chance and has +30% attack.
@@ -43343,7 +43343,7 @@ Summons rainstorm for four turns when hit by an attack.
 Upon entry, summons a Turbulent Sky on this Pokémon's side for six turns.
 出场时，开启持续6回合的动荡之空。
 Pokémon that swap in for this have their Speed raised.
-替换该精灵上场的精灵，速度增加1级。
+替换该精灵出场的精灵，速度增加1级。
 This Pokémon's moves deal 20% more damage and ignore abilities that would affect them. Its moves can't be redirected.
 该精灵的技能伤害增加20%，并无视会影响到该精灵的特性。该精灵的技能不会被吸引。
 At the end of each turn, if it has no item, gets a random gem that matches the type of one of its attacking moves.
@@ -43385,7 +43385,7 @@ Powers up Water-type moves by 50%.
 It avoids hazards and can't be knocked out with one hit.
 免疫陷阱，并且不会被1击打倒。
 When an ally switches in, this Pokémon's Speed is increased.
-队友替换上场时，自身的速度增加1级。
+队友替换出场时，自身的速度增加1级。
 This Pokémon's Speed is doubled while using kicking moves.
 使用踢类技能时，该精灵的速度翻倍。
 If an attack lowers this Pokémon's HP below half, the attacker becomes fractured.
@@ -43420,7 +43420,7 @@ Becomes energized when hit by an attack, doubling the power of its next Electric
 受到攻击时，进入能量充盈状态，使下次电属性技能威力翻倍。
 Its attacks have priority, deal 25% less damage and become special.
 可以率先发起攻击，伤害减小25%，并变成特殊类技能。
-Every two turns, another turn happens where no one moves.
+Every two turns, starting with the first, another turn happens where no one moves.
 回合结束时，会直接来到下下回合。不会连续发动。
 Foes suffer 50% more move damage reduction from burn, frostbite, and numb.
 对手因烧伤、冻伤和麻痹而受到的技能伤害减小效果增加50%。
@@ -43565,7 +43565,7 @@ Protects the Pokémon and its allies from spread moves. Defense increased by 20%
 After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 使用风类技能后，双防增加1级。
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
-HP小于1半时，会返回队伍，替换上场的精灵的第1次攻击必定会命中要害，如果替换的精灵是嘟嘟或者嘟嘟利，还会立刻使用飞天。
+HP小于1半时，会返回队伍，替换出场的精灵的第1次攻击必定会命中要害，如果替换的精灵是嘟嘟或者嘟嘟利，还会立刻使用飞天。
 Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.
 使对手的先制类技能使用失败。出场时，使用借助。
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
@@ -43615,7 +43615,7 @@ The targets cannot avoid facing the attack by the Pokémon.
 Changes to a random Pokémon at the end of each turn.
 在每个回合结束时，随机变为1只精灵。
 Can switch out of battle without wasting a turn.
-可以和队伍里的其他精灵进行替换，替换上场的精灵依然可以使用行动。
+可以和队伍里的其他精灵进行替换，替换出场的精灵依然可以使用行动。
 Turns rainstorm into Harsh Sunlight, sunshine into Heavy Rain.
 将雨天改为大晴天，将晴天改为大雨天。
 Stats that the Pokémon raises remain raised even after switching.
@@ -54082,7 +54082,7 @@ The coral overgrowth around {1} withered!
 {1} held up its {2} against {3}!
 {1}举起了{2}对抗{3}！
 {1} was dragged out!
-{1}被迫上场了！
+{1}被迫出场了！
 {1} lost some of its HP!
 {1}损失了1些HP！
 {1}'s {2} reflected a blinding glare!
@@ -54298,7 +54298,7 @@ Choose a party member to hold the {1}!
 {1} is now holding the {2}!
 {1}正携带着{2}！
 {1} switches in!
-{1}上场了！
+{1}出场了！
 But it failed, since {1} doesn't have an item!
 但它失败了，因为{1}没有物品！
 But it failed!
@@ -54948,7 +54948,7 @@ Turns into a different move depending on the environment.
 <u>Volcanos</u>: Flamethrower
 <u>火山</u>: 喷射火焰
 <u>Graveyards</u>: Shadow Ball
-<u>墓地</u>: 影子球
+<u>墓地</u>: 暗影球
 <u>In The Sky</u>: Air Slash
 <u>在空中</u>: 空气斩
 <u>Space</u>: Draco Meteor
@@ -59398,7 +59398,7 @@ Tapu Fini's ability "Fog Totem" creates a "Misdirecting Fog" upon entry that onl
 Whenever a foe finishes attacking a Pokémon on its side, the attacker is forced to switch out of battle.
 每当敌方攻击其同侧的精灵后，攻击者会被迫替换出战斗。
 Unlike moves such as Roar or Whirlwind, however, the trainer has enough time to select the replacement themselves.
-不过跟吼叫之类的技能不同，对方可以自行选择要上场的精灵。
+不过跟吼叫之类的技能不同，对方可以自行选择要出场的精灵。
 You put down the book.
 你放下这个本子。
 Leave it.

@@ -610,7 +610,6 @@ class PokeBattle_Battle
                 break if @decision > 0
                 recordSkippedTurn
                 @turnCount += 1
-                @recorded_choices.push([]) # for battle recording, check def pbCommandPhase
             end
 
         end
