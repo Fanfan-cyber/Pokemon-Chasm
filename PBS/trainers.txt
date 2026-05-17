@@ -3886,8 +3886,8 @@ Pokemon = MBEAUTIFLY,45
 Pokemon = METAGROSS,45
     Name = Armiger
     Shiny = yes
-    Moves = METEORMASH,TRAMPLE,BULLETPUNCH,HUNDREDHANDCLAP
-    AbilityIndex = 1 # Optimized Alloy
+    Moves = FARADAYCAGE,CENSOR,CRUSHINGCHASM,MONOLITHDROP
+    AbilityIndex = 0 # Pin Down
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
