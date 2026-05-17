@@ -48853,7 +48853,7 @@ Raises the side's Accuracy by 50%. On the final turn, that side has +1 priority.
 我方命中率增加50%。在最后1回合时，我方先制度+1。
 Thundurus: Wish of Summer
 雷电云：夏之愿
-Raises the side's Speed by 50%. On the final turn, that side deals 50% more move damage, but takes 25% recoil..
+Raises the side's Speed by 50%. On the final turn, that side deals 50% more move damage, but takes 25% recoil.
 我方速度增加50%。在最后1回合时，我方技能伤害增加50%，但会受到25%的反伤。
 Landorus: Wish of Autumn
 土地云：秋之愿

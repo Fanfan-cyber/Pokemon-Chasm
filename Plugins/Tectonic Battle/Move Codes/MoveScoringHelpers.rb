@@ -859,7 +859,7 @@ def predictedEOTDamage(battle,battler)
     end
     
     # Pain Presence
-    damage += battler.getFractionalDamageAmount(NOXIOUS_DAMAGE_FRACTION, aiCheck: true) if battle.pbCheckOtherAbility(:NOXIOUS, battler.index)
+    damage += battler.getFractionalDamageAmount(NOXIOUS_DAMAGE_FRACTION, aiCheck: true) if battle.pbCheckOtherAbility(:NOXIOUS, battler.index) && !battler.pbHasType?(:POISON)
 
     # Extreme Energy, Extreme Power, Solar Power, Night Stalker
     damage += battler.getFractionalDamageAmount(EOR_SELF_HARM_ABILITY_DAMAGE_FRACTION, aiCheck: true) if battler.hasActiveAbilityAI?(:EXTREMEVOLTAGE)
