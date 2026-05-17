@@ -3899,7 +3899,7 @@ Pokemon = MPOLTEAGEIST,45
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = BRUXISH,45
-    Moves = CRUNCH,PSYCHICFANGS,ELEMENTALCRUNCH
+    Moves = CRUNCH,PSYCHICFANGS,ELEMENTALCRUNCH,BARETEETH
     AbilityIndex = 1 # Bitey
     Item = EXPERTBELT
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -9755,8 +9755,8 @@ Pokemon = FROSLASS,70
     Moves = PIERCINGDOUBT,SUFFOCATE,THUNDERBOLT,ICEBEAM
     AbilityIndex = 0 # Sealing Body
 Pokemon = CARNIVINE,70
-    Moves = TRAPJAW,CRUNCH,SEARINGCRUNCH,STRAFE
-    AbilityIndex = 0 # Strong Jaw
+    Moves = CAMOUFLAGE,LURK,SEARINGCRUNCH,FLY
+    AbilityIndex = 0 # Ambush Predator
     Item = STRIKEVEST
 Pokemon = BASTIODON,70
     Moves = CURLUP,SHOREUP,FARADAYCAGE,BODYPRESS

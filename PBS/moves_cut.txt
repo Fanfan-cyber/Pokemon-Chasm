@@ -3073,6 +3073,18 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = A sweet scent that lowers the foe's evasiveness. It also lures wild Pokémon if used in grass, etc.
 #-------------------------------
+[TRAPJAW]
+Name = Trap Jaw
+Type = GRASS
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Biting
+Description = Lures an enemy into its jaws. If they hit the user this turn, the user's HP is restored by 66% the damage dealt.
+#-------------------------------
 [VINEBIND]
 Name = Vinebind
 Type = GRASS
@@ -3751,6 +3763,17 @@ Target = NearOther
 FunctionCode = Invalid
 Flags = CanProtect
 Description = The user catches the target off guard and swaps its held item with its own.
+#-------------------------------
+[TRICKROOM]
+Name = Trick Room
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = BothSides
+Priority = -7
+FunctionCode = Invalid
+Description = The user creates a bizarre area in which slower Pokémon get to move first for four turns.
 #-------------------------------
 [TWINBEAM]
 Name = Twin Beam

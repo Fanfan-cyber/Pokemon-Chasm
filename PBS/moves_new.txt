@@ -837,7 +837,7 @@ Accuracy = 0
 TotalPP = 15
 Target = User
 FunctionCode = RaiseUserAtkDef2SetUserTypesToRock
-Flags = CanSnatch,ForceSignature
+Flags = CanSnatch
 Description = The user flexes its rocky skin, raising its Attack and Defense by two steps and gaining the Rock-type.
 Animation = BULKUP
 #-------------------------------
@@ -5419,6 +5419,18 @@ Flags = CanSnatch
 Description = Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The user becomes trapped.
 Animation = INGRAIN
 #-------------------------------
+[SAPPINGJAW]
+Name = Sapping Jaw
+Type = GRASS
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = HealUserByTwoThirdsOfDamageDoneIfTargetHurtUserThisTurn
+Flags = CanProtect,Biting
+Description = Saps an enemy lured into its jaws. If they hit the user this turn, the user's HP is restored by 66% the damage dealt.
+#-------------------------------
 [SAPPINGJEALOUSY]
 Name = Sapping Jealousy
 Type = GRASS
@@ -5520,18 +5532,6 @@ FunctionCode = SwitchOutTargetDamagingMoveNonRandom
 Flags = CanProtect,Sound
 Description = The user makes a scary sound by shaking, forcing the target to switch out. Always goes last.
 Animation = UPROAR
-#-------------------------------
-[TRAPJAW]
-Name = Trap Jaw
-Type = GRASS
-Category = Physical
-Power = 85
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = HealUserByTwoThirdsOfDamageDoneIfTargetHurtUserThisTurn
-Flags = CanProtect,Biting
-Description = Lures an enemy into its jaws. If they hit the user this turn, the user's HP is restored by 66% the damage dealt.
 #-------------------------------
 [VINETRAP]
 Name = Vine Trap
@@ -6642,6 +6642,18 @@ FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit
 Description = The user takes control of the target's mind to unleash an attack on it. Can random critical hit.
 Animation = PSYCHOCUT
+#-------------------------------
+[TRICKSTERSDOMAIN]
+Name = Trickster's Domain
+Type = PSYCHIC
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = BothSides
+Priority = -7
+FunctionCode = StartSwapSpeedOrder5
+Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+Animation = TRICKROOM
 #-------------------------------
 [TUTELAGE]
 Name = Tutelage
