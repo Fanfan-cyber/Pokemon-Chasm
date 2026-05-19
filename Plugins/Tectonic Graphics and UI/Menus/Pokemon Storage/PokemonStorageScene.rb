@@ -751,6 +751,13 @@ class PokemonStorageScene
                 opt = _INTL("Found {1}", i + 1)
                 possibleboxes[opt] = found[i][0]
             end
+=begin
+            found.each do |result|
+                boxIndex = result[0]
+                boxName = @storage.boxes[boxIndex].getName(boxIndex)
+                possibleboxes[boxName] = boxIndex
+            end
+=end
         end
 
         if possibleboxes.length > 0
