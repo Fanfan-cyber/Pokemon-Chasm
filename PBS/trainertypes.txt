@@ -89,6 +89,13 @@ BaseMoney = 32
 IntroBGM = ARTIST
 CableClub = true
 #-------------------------------
+[ARTIST3_GHOST]
+Name = Artist
+Gender = Female
+BaseMoney = 32
+IntroBGM = ARTIST
+CableClub = true
+#-------------------------------
 [ARTIST4]
 Name = Artist
 Gender = Male
@@ -802,6 +809,13 @@ IntroBGM = PSYCHIC
 CableClub = true
 #-------------------------------
 [HEXMANIAC_1]
+Name = Hex Maniac
+Gender = Female
+BaseMoney = 32
+IntroBGM = PSYCHIC
+CableClub = true
+#-------------------------------
+[HEXMANIAC_GHOST]
 Name = Hex Maniac
 Gender = Female
 BaseMoney = 32
@@ -1701,6 +1715,13 @@ IntroBGM = LASS2
 CableClub = true
 #-------------------------------
 [SCHOOLKID_F4]
+Name = School Kid
+Gender = Female
+BaseMoney = 20
+IntroBGM = LASS2
+CableClub = true
+#-------------------------------
+[SCHOOLKID_GHOST]
 Name = School Kid
 Gender = Female
 BaseMoney = 20
