@@ -73,7 +73,6 @@ Target = NearOther
 FunctionCode = TargetsAttackDefends
 Flags = CanProtect
 Description = The user engages the target in a head-to-head fight. The damage is based on the target's Attack rather than their Defense.
-Animation = HEADBUTT
 #-------------------------------
 [CENTER]
 Name = Center
@@ -342,7 +341,6 @@ Target = AllNearOthers
 FunctionCode = Basic
 Flags = CanProtect,Slice
 Description = The user slashes broadly, cleanly slicing all nearby battlers.
-Animation = SLASH
 #-------------------------------
 [LATHER]
 Name = Lather
@@ -421,7 +419,6 @@ Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit,DoubleCritChance,Slice
 Description = The target is cut by a piercing slash. Can random critical hit, and does so twice as often.
-Animation = SLASH
 #-------------------------------
 [PARTICLEPULSE]
 Name = Particle Pulse
@@ -878,7 +875,6 @@ Target = NearOther
 FunctionCode = DisableTargetUsingOffTypeMove4
 Flags = CanProtect
 Description = Pins the target with building materials. The target becomes barred.
-Animation = SMACKDOWN
 #-------------------------------
 [CONCUSS]
 Name = Concuss
@@ -903,7 +899,6 @@ Target = User
 FunctionCode = RaiseUserSpd2CriticalHitRate2
 Flags = CanSnatch
 Description = Enables random critical hits for the user, quadruples its critical hit chance, and raises its Speed by two steps.
-Animation = FOCUSENERGY
 #-------------------------------
 [DETACHMENT]
 Name = Detachment
@@ -916,7 +911,6 @@ Target = NearOther
 FunctionCode = DoubleDamageNoItem
 Flags = CanProtect
 Description = The user attacks freed from earthly attachments. Doubles in damage if the user has no item when the move starts.
-Animation = AURASPHERE
 #-------------------------------
 [DISCOURAGE]
 Name = Discourage
@@ -1148,7 +1142,6 @@ Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = CanProtect
 Description = A reckless rushing attack from the air. The user also takes 25% recoil.
-Animation = BRAVEBIRD
 #-------------------------------
 [ATMOSPHERICBURST]
 Name = Atmospheric Burst
@@ -1673,7 +1666,6 @@ FunctionCode = Poison
 Flags = CanProtect,Wind
 EffectChance = 30
 Description = The user envelops the target in a foul wind. It has a 30% chance to poison.
-Animation = SMOG
 #-------------------------------
 [NASTYNIP]
 Name = Nasty Nip
@@ -1687,7 +1679,6 @@ FunctionCode = Poison
 Flags = CanProtect
 EffectChance = 10
 Description = The user stabs the opponent with a toxin-infused limb. It has a 10% chance to poison.
-Animation = POISONJAB
 #-------------------------------
 [POISONDART]
 Name = Poison Dart
@@ -2050,7 +2041,6 @@ Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit
 Description = The user blasts the target with highly pressurized sand. Can random critical hit.
-Animation = SANDATTACK
 #-------------------------------
 [SANDTOSS]
 Name = Sand Toss
@@ -2282,7 +2272,6 @@ Target = NearOther
 FunctionCode = RecoilQuarterOfDamageDealt
 Flags = CanProtect
 Description = The user rushes into the target with its stony body. The user also takes 25% recoil.
-Animation = HEADSMASH
 #-------------------------------
 [GRINDSTONE]
 Name = Grind Stone
@@ -2466,7 +2455,6 @@ FunctionCode = RaiseUserAttack2
 Flags = CanProtect,Dance
 EffectChance = 100
 Description = The user dances wildly while churning rocks towards the target. This raises the user's Attack by two steps.
-Animation = ROCKSLIDE
 #-------------------------------
 [ROLLINGBOULDER]
 Name = Rolling Boulder
@@ -2658,7 +2646,6 @@ Priority = 1
 FunctionCode = Basic
 Flags = CanProtect,Light
 Description = The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
-Animation = SIGNALBEAM
 #-------------------------------
 [CARAPACECRUSH]
 Name = Carapace Crush
@@ -2686,7 +2673,6 @@ FunctionCode = LowerTargetSpDef1
 Flags = CanProtect,Sound
 EffectChance = 20
 Description = The user attacks with a horrible clattering noise. It has a 20% chance to lower Sp. Def.
-Animation = BUGBUZZ
 #-------------------------------
 [CREEPOUT]
 Name = Creep Out
@@ -3201,7 +3187,6 @@ FunctionCode = LowerTargetSpDef1
 Flags = CanProtect,Sound
 EffectChance = 20
 Description = The user sings with deathly sounds to harm the target. It has a 20% chance to reduce Sp. Def.
-Animation = PERISHSONG
 #-------------------------------
 [DISTURB]
 Name = Disturb
@@ -3274,7 +3259,6 @@ Target = NearOther
 FunctionCode = ScalesTargetsWeight
 Flags = CanProtect
 Description = Spectral hands reach from the ground to trip the target. The heavier the target, the greater the damage.
-Animation = CRUSHGRIP
 #-------------------------------
 [GHOSTLYTALE]
 Name = Ghostly Tale
@@ -3327,7 +3311,6 @@ Target = NearOther
 FunctionCode = LowerUserSpAtkSpDef2
 Flags = CanProtect
 Description = The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
-Animation = OMINOUSWIND
 #-------------------------------
 [PHARAOHSCURSE]
 Name = Pharaoh's Curse
@@ -3365,7 +3348,6 @@ Target = NearOther
 FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
 Description = The user summons apparitions that dance around hypnotically before they multi-hit two to five times.
-Animation = WILLOWISP
 #-------------------------------
 [SHADOWBOXING]
 Name = Shadow Boxing
@@ -3377,7 +3359,6 @@ Target = User
 FunctionCode = RaiseUserAtkSpdAcc1
 Flags = CanSnatch,Punch
 Description = The user practices its punches against ghostly illusions, raising its Attack, Speed, and Accuracy.
-Animation = SPITE
 #-------------------------------
 [SHIVER]
 Name = Shiver
@@ -3532,7 +3513,6 @@ FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
 Description = The user attacks while wailing. This has a 40% chance to make the target flinch.
-Animation = SHADOWCLAW
 #-------------------------------
 [WRAITHWRATH]
 Name = Wraith Wrath
@@ -3808,7 +3788,6 @@ Target = AllNearOthers
 FunctionCode = Basic
 Flags = CanProtect
 Description = The user creates an explosion from powdered metal, inflicting damage to all nearby battlers.
-Animation = SELFDESTRUCT
 #-------------------------------
 [POWERHAMMER]
 Name = Power Hammer
@@ -3899,7 +3878,6 @@ FunctionCode = LowerTargetSpDef1
 Flags = CanProtect,Light
 EffectChance = 30
 Description = The user looses a flash of energy from its polished body. It has a 30% chance to lower Sp. Def.
-Animation = MIRRORSHOT
 #-------------------------------
 [SHININGSHELL]
 Name = Shining Shell
@@ -4119,7 +4097,6 @@ Target = NearOther
 FunctionCode = BindTarget3
 Flags = CanProtect,Wind
 Description = The foe is engulfed in a firestorm, trapping and binding it for three turns.
-Animation = FIRESPIN
 #-------------------------------
 [DRYHEAT]
 Name = Dry Heat
@@ -4657,7 +4634,6 @@ FunctionCode = Waterlog
 Flags = CanProtect
 EffectChance = 10
 Description = The user pulls the target under the waves with crushing force. This has a 10% chance to waterlog.
-Animation = WRAP
 #-------------------------------
 [EBBFLOW]
 Name = Ebb & Flow
@@ -5147,7 +5123,6 @@ TotalPP = 1
 Target = None
 FunctionCode = ReviveGrassTypePartyMemberToFullHP
 Description = Restores a fainted Grass-type party member to full HP. Only one use per battle.
-Animation = GRASSYTERRAIN
 #-------------------------------
 [CAMOUFLAGE]
 Name = Camouflage
@@ -5583,7 +5558,6 @@ TotalPP = 15
 Target = NearAlly
 FunctionCode = TargetActsNextBoostsTheirDamage
 Description = The user assists an ally's next move, boosting its power by 50% and letting it move right after the user.
-Animation = HELPINGHAND
 #-------------------------------
 [ARCLAMP]
 Name = Arc Lamp
@@ -6004,7 +5978,6 @@ Target = NearOther
 FunctionCode = TwoTurnAttackOneTurnInRainstorm
 Flags = CanProtect
 Description = The user charges, then attacks on the second turn. Charges instantly in rainstorm.
-Animation = BOLTSTRIKE
 #-------------------------------
 [STUNNINGDISPLAY]
 Name = Stunning Display
@@ -6503,7 +6476,6 @@ Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit,Slice
 Description = The user cuts using scissor-like blades of psychic energy. Can random critical hit.
-Animation = PSYCHOCUT
 #-------------------------------
 [PSYPIERCE]
 Name = Psypierce
@@ -6695,7 +6667,6 @@ FunctionCode = LowerTargetAtk1
 Flags = CanProtect,Light
 EffectChance = 100
 Description = An aurora borealis flashes brightly at the target, lowering their Attack. Always goes first.
-Animation = AURORABEAM
 #-------------------------------
 [CHILL]
 Name = Chill
@@ -7310,7 +7281,6 @@ Priority = 1
 FunctionCode = Basic
 Flags = CanProtect
 Description = The user inspires a sudden dread in the target, damaging it. This move always goes first.
-Animation = GLARE
 #-------------------------------
 [DREEPYBARRAGE]
 Name = Dreepy Barrage
@@ -7375,7 +7345,6 @@ Target = User
 Priority = 4
 FunctionCode = ProtectUserExtendEclipse1Turn
 Description = Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
-Animation = PROTECT
 #-------------------------------
 [HISS]
 Name = Hiss
@@ -7906,7 +7875,6 @@ Target = NearOther
 FunctionCode = HealUserByTargetSpAtkLowerTargetSpAtk1
 Flags = CanProtect,CanMagicCoat
 Description = Lowers the target's Sp. Atk, then heals itself by the target's Sp. Atk.
-Animation = STRENGTHSAP
 #-------------------------------
 [MOUTHFUL]
 Name = Mouthful
@@ -8050,7 +8018,6 @@ Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit,Slice
 Description = The user hacks at the target with great violence. Can random critical hit.
-Animation = NIGHTSLASH
 #-------------------------------
 [SPIKYBURST]
 Name = Spiky Burst
@@ -8171,7 +8138,6 @@ FunctionCode = Dizzy
 Flags = CanProtect,Sound
 EffectChance = 30
 Description = The user sings with reckless abandon, annoying the target. There's a 30% chance they become dizzy.
-Animation = ENCHANTINGSONG
 #-------------------------------
 [BASHANDBORROW]
 Name = Bash and Borrow
@@ -8195,7 +8161,6 @@ Target = NearOther
 FunctionCode = SleepTargetIfInFullMoonglow
 Flags = CanProtect,CanMagicCoat
 Description = The target is lulled to sleep. Can only be used during a Full Moon.
-Animation = SING
 #-------------------------------
 [BUCKETDROP]
 Name = Bucket Drop
@@ -8234,7 +8199,6 @@ Target = FoeSide
 FunctionCode = CoralOvergrowth
 Flags = CanMagicCoat
 Description = Healing coral forms on the foe's side. For the next four turns, attacks on foes heal the user for 33% of the damage dealt. This can overheal.
-Animation = STEALTHROCK
 #-------------------------------
 [CRUELKISS]
 Name = Cruel Kiss
@@ -8591,7 +8555,6 @@ Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect
 Description = The user invokes forbidden celestial powers to smite the target.
-Animation = SPIRITBREAK
 #-------------------------------
 [PIXIEPUNCH]
 Name = Pixie Punch
@@ -8654,7 +8617,6 @@ Target = NearOther
 FunctionCode = ScalesSlowerThanTarget
 Flags = CanProtect
 Description = The user spins sugar into a ball launched at the target. The slower the user, the greater the damage.
-Animation = GYROBALL
 #-------------------------------
 [SUPERSTITION]
 Name = Superstition
@@ -8680,7 +8642,6 @@ Target = User
 FunctionCode = RaiseUserSpAtkSpdAcc1
 Flags = CanSnatch,Wind
 Description = A spirited wind blesses the user, raising its Sp. Atk, Speed, and Accuracy.
-Animation = FAIRYWIND
 #-------------------------------
 [TANTRUM]
 Name = Tantrum
