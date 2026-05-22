@@ -7978,6 +7978,19 @@ FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit,Slice
 Description = The user hacks at the target with great violence. Can random critical hit.
 #-------------------------------
+[SHAREDSPOILS]
+Name = Shared Spoils
+Type = DARK
+Category = Physical
+Power = 85
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = StealsTargetItemForSelfOrPartyMember
+Flags = CanProtect
+Description = The user attacks and steals the foe's held item simultaneously. You then choose a party member to hold it.
+Animation = KNOCKOFF
+#-------------------------------
 [SPIKYBURST]
 Name = Spiky Burst
 Type = DARK
