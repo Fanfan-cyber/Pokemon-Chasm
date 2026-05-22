@@ -8599,7 +8599,7 @@ Pokemon = WEAVILE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = MDRAGALGE,70
-    Moves = POWERWHIP,RIPTIDE,HIGHJUMPKICK,SWORDSDANCE
+    Moves = POWERWHIP,RIPTIDE,WETWORK,SWORDSDANCE
     AbilityIndex = 0 # Sinking Feeling
     Item = SEVENLEAGUEBOOTS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
