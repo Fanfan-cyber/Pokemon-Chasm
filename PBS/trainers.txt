@@ -8619,9 +8619,9 @@ Pokemon = WEAVILE,70
 Pokemon = CURSOLA,70
     Moves = ROCKAPULT,WILLOWISP,PROTECT,STRENGTHSAP
     AbilityIndex = 0 # Gravity Well
-    Item = LIFEORB
+    Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 10,20,0,20,20,0
+    EV = 20,10,20,0,10,0
 #-------------------------------
 [POKEMONTRAINER_Vanya,Vanya,3]
 Flags = NoPerfect,HailTeam
