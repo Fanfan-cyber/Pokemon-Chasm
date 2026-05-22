@@ -1098,6 +1098,10 @@ Name = Shaky Code
 Description = During eclipse, changes the Pokémon's type to the type of the move it's using.
 Flags = EclipseSynergy
 #-------------------------------
+[SHAREDSPOILS]
+Name = Shared Spoils
+Description = When this Pokémon removes a foe's item, choose a party member to hold it.
+#-------------------------------
 [SHARPNESS]
 Name = Swordplay
 Description = Boosts the power of blade moves by 30%.
