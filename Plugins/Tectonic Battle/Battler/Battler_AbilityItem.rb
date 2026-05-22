@@ -284,9 +284,11 @@ class PokeBattle_Battler
         item = GameData::Item.get(item).id
         disableEffect(:ItemLost)
         @pokemon.giveItem(item)
+        
         refreshDataBox
 
         @addedItems.push(item)
+        aiLearnsItem(item)
 
         @battle.updateTribeCounts
     end
