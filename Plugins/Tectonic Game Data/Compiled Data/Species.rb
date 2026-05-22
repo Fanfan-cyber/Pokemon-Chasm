@@ -621,14 +621,31 @@ module GameData
         end
 
         def new_abilities
-            spec_abils = SPECIES_ABILITY_DATA[[@species, @form]]
-            if spec_abils
-              abils = spec_abils[:changeable]
+          spec_abils = SPECIES_ABILITY_DATA[[@species, @form]]
+          return [] unless spec_abils
+          selectable_abils = spec_abils[:changeable]
+
+          if selectable_abils.length <= 2
+            abils = selectable_abils
+          else
+            trainer_selected = $Trainer.species_selected_abilities[[@species, @form]]
+            if trainer_selected
+              abils = selectable_abils & trainer_selected
+              if abils.length < 2
+                selectable_abils.each do |abil|
+                  next if abils.include?(abil)
+                  abils.push(abil)
+                  break if abils.length >= 2
+                end
+                $Trainer.record_selected_abilities(@species, @form, abils.clone)
+              end
             else
-              return []
+              abils = selectable_abils[0..1]
             end
-            abils.reject! { |abil| !GameData::Ability.exists?(abil) }
-            return abils
+          end
+
+          abils.reject! { |abil| !GameData::Ability.exists?(abil) }
+          return abils
         end
 
         def legalAbilities

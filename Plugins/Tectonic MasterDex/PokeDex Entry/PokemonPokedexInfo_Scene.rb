@@ -10,7 +10,7 @@ class PokemonPokedexInfo_Scene
     FORMS_PAGE_ID = 10
 
     def pageTitles
-        return [_INTL("INFO"), _INTL("ABILITIES"), _INTL("STATS"), _INTL("DEF. MATCHUPS"),
+        return [_INTL("INFO"), _INTL("ABILITIES[Z]"), _INTL("STATS"), _INTL("DEF. MATCHUPS"),
                 _INTL("ATK. MATCHUPS"), _INTL("LEVEL UP MOVES"), _INTL("OTHER MOVES"),
                 _INTL("EVOLUTIONS"), _INTL("AREA"), _INTL("FORMS"), _INTL("ANALYSIS")]
     end
@@ -1565,7 +1565,12 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
             pbUpdate
             dorefresh = false
             if Input.trigger?(Input::ACTION)
-                GameData::Species.play_cry_from_species(@species, @form) if @page == 1
+                if @page == 1
+                  GameData::Species.play_cry_from_species(@species, @form)
+                elsif @page == 2
+                  $Trainer.set_species_abilities(@species, @form)
+                  dorefresh = true
+                end
             elsif Input.trigger?(Input::BACK)
                 pbPlayCloseMenuSE
                 break

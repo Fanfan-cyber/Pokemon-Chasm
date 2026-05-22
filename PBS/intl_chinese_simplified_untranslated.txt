@@ -1,1494 +1,1849 @@
-﻿# To localize this text for a particular language, please
-# translate every second line of this file.
-[Map0]
-...
-...
-[Map1]
-[Map2]
-[Map3]
-[Map4]
-[Map5]
-[Map6]
+﻿[Map0]
+Apologies for the interruption, young master.
+抱歉打扰了，年轻的主人。
+Or should I say, young champion.
+或者我该说，年轻的冠军。
+My heartfelt congratulations.
+我衷心祝贺你。
+Regardless, I bear good news.
+无论如何，我带来了好消息。
+You have received a formal invitation from MonumentSoft, a subsidiary of LuxTech.
+你收到了来自纪念碑软件——光科公司子公司的正式邀请。
+They desire your presence at the <imp>Battle Monument</imp>.
+他们希望你在<imp>对战纪念碑</imp>现身。
+Apparently it hosts quite the grueling challenge, an "AI Trainer Gauntlet" as they describe it.
+ apparently 那里举办着相当艰苦的挑战，正如他们所描述的"AI训练家试炼"。
+There is to be some manner of reward for successful completions.
+成功完成者将获得某种奖励。
+The Monument is best reached by sea. Should you wish to visit, I will see you there immediately.
+纪念碑最好乘船前往。如果你希望访问，我会立即在那里见你。
+That is all. I will distract you no further, young champion.
+就这些了。我不会再打扰你了，年轻的冠军。
+She must really want to talk with you.
+她一定很想和你谈谈。
+Meet me in the <imp>Circuit Cave</imp>. It's under the <imp>Canal Desert</imp>.
+在<imp>电路洞穴</imp>见我。它在<imp>运河沙漠</imp>下面。
 [Map7]
+Hey! Pretty cool place, right?
+嘿！挺酷的地方，对吧？
+Feels like one of the more quiet areas of Makya.
+感觉像是玛基亚比较安静的区域之一。
+Maybe because Velenz attracts all the avatars and repels most of the people.
+也许因为维伦兹吸引了所有化身，却排斥了大多数人。
+What was up with that place, anyway?
+话说回来，那地方到底怎么回事？
+Like, why keep a gym there...? And that mansion to the west?
+比如，为什么要在那里设道馆……？还有西边那座豪宅？
+Straight up bizarre.
+简直 bizarre。
+But, anyway, I've got a new team here put together just for this battle.
+但是，不管怎样，我组建了一支新队伍专门打这场对战。
+A doubles team, too! I'm expanding my horizons.
+也是双打队伍！我在拓展我的视野。
+I can promise they won't bore you to sleep. They're fun-guys.
+我保证他们不会让你无聊到睡着。它们是有趣的家伙。
+Don't sleep on this team! Or do.
+别小看这支队伍！或者你就小看吧。
+You'll probably lose if you do, though.
+不过如果你小看的话，你可能会输。
+Ready to go?
+准备好了吗？
+Sure thing, sleepy head.
+当然，瞌睡虫。
+Gimmick strat, go!
+ gimmick 策略，上！
+The Empty Stone? Not likely.
+空洞之石？不太可能。
+I mean, it's good at keeping my lunch chilled.
+我是说，它用来给我的午餐保鲜还不错。
+And it's nice to look at, I guess.
+而且看起来挺好看的，我猜。
+But, when I give it to one of my Pokémon, it seems to just wear them out.
+但是，当我把它给我的宝可梦时，它似乎只会让它们精疲力竭。
+I'm gonna keep it for now, see if I can't figure out the trick later.
+我先留着它，看看以后能不能弄明白其中的诀窍。
+Either way, it won't be showing up in this battle.
+不管怎样，它不会出现在这场对战中。
+Never thought I'd get to try out that team.
+从没想过我能试试那支队伍。
+Always seemed like a fun idea!
+一直看起来是个有趣的想法！
+I wasn't gonna enter the tournament with it, cause I figured the chances weren't great.
+我没打算带着它参加锦标赛，因为我觉得胜算不大。
+It's also just not as fun in 1v1s.
+而且在1对1中也没那么有趣。
+Thanks for humoring me, but uh...
+谢谢你迁就我，但是呃...
+What're <i>your</i> feelings on the tournament?
+<i>你</i>对锦标赛有什么看法？
+Yeah, definitely! Kinda part of why I'm sore about it.
+是啊，当然！这也是我为此感到 sore 的部分原因。
+I'm hoping I'll be able to catch your rounds.
+我希望能看到你的比赛。
+I'll be cheering for you.
+我会为你加油的。
+Maybe get some vicarious joy when you inevitably get the guy who beat me.
+当你 inevitably 打败那个击败我的家伙时，也许能获得一些间接的快乐。
+Just kidding! Holding grudges like that is exhausting.
+开玩笑的！怀恨在心太累了。
+You sure didn't say that like it was a good thing.
+你这么说听起来可不像是什么好事。
+I guess I never asked about your family, before.
+我想我以前从没问过你的家庭情况。
+Whatever it is, I hope things turn out well for you.
+不管是什么，我希望你一切顺利。
+Gonna go straight through this league and tournament and onto even greater glories, huh?
+要直接冲过这个联盟和锦标赛，迈向更伟大的荣耀，对吧？
+If anyone could ride that momentum it'd probably be you.
+如果有人能乘势而上，那 probably 就是你。
+Just remember to slow down long enough for me to catch you at your coronation.
+只要记得慢下来，让我能在你的加冕礼上找到你。
+Yeah, definitely! Kinda part of why I'm sore about it.
+是啊，当然！这也是我为此感到 sore 的部分原因。
+I cheered for you during your rounds.
+我在你的比赛期间为你加油。
+Got some vicarious joy watching you beat your asshole brother.
+看着你打败你那个混蛋哥哥，我获得了一些间接的快乐。
+Getting a bad vibe from the way you said that.
+从你说话的方式中感受到了不好的氛围。
+I guess I never asked about your family.
+我想我从没问过你的家庭情况。
+I saw a lot of tension during that grand finale.
+在那场大决赛中我看到了很多紧张气氛。
+Well, whatever happened between you two... hope things work out.
+好吧，不管你们两个之间发生了什么……希望事情能解决。
+You felt that earthquake, right?
+你感觉到那次地震了吧？
+Heard some rumors that it might have been manmade...?
+听说有些传言说可能是人为的……？
+Sounds like something a Champion should look into. Wink wink.
+听起来像是冠军应该调查的事情。眨眼示意。
+I know you're destined for even greater glories.
+我知道你注定会获得更伟大的荣耀。
+So... back to my memorial tour of the region.
+那么……回到我对这个地区的纪念之旅。
+For our next stop I was thinking the <imp>Split Peaks.</imp>
+我想我们的下一站是<imp>裂峰</imp>。
+Down at the south end of the mountain, where it connects to the estuary.
+在山的南端，那里与河口相连。
+Oh, almost forgot, I found this mushroom.
+哦，差点忘了，我找到了这个蘑菇。
+I bequeath it to you.
+我把它遗赠给你。
+See ya!
+再见！
+Gimme 5 minutes.
+给我5分钟。
+Yup!
+是的！
+Using that item again?
+又要用那个道具了？
+Seems fun!
+看起来很有趣！
+It's family business.
+这是家事。
+I have bigger concerns.
+我有更重要的事情要关心。
+It was fun!
+很有趣！
+It was family business.
+这是家事。
 [Map8]
-...
-...
-[Map9]
-[Map10]
-[Map11]
-[Map12]
-[Map13]
-[Map14]
+Heal up your party, get back to me.
+治好你的队伍，然后回来找我。
+ooooooOOOOOooooooooo...
+呜~~~~~~呜~~~~~~呜~~~~~~...
+OOOOOOOOOOOOOOOooooooooooooooooo...
+呜————————————————呜~~~~~~~~~~~~...
+I'm being silly to distract myself from fear.
+我在装傻来分散自己对恐惧的注意力。
+Anyway, let's get a round of applause for Vanya and \PN!
+总之，让我们为瓦尼亚和\PN鼓掌！
+We've both been collecting badges at lightning speed.
+我们俩都以闪电般的速度收集徽章。
+Plus, I'm perfecting every gym leader, without even using held items！
+而且，我完美击败了每一位道馆馆主，甚至都没使用持有道具！
+I'd say "not to brag", but I am absolutely bragging.
+我想说"不是吹牛"，但我绝对是在吹牛。
+To be fair, I <i>do</i> have the home field advantage.
+公平地说，我<i>确实</i>有主场优势。
+I may not look it, but I was born in Novo Town.
+我可能看起来不像，但我出生在新镇。
+Mom and I traveled all over Makya—though she always left me at home when it was time to visit Velenz.
+妈妈和我走遍了整个玛基亚——虽然每次要去维伦兹的时候她总是把我留在家里。
+Told me to stay far, far away from here.
+告诉我要离这里远远的。
+And that was <i>before</i> an avatar took over the PokéCenter.
+而且那是在化身占领宝可梦中心<i>之前</i>。
+Speaking of, the best place to rest is <imp>down south</imp>.
+说到这个，最好的休息地点是<imp>南边</imp>。
+A gaggle of grunts set up a <imp>healing spot</imp>.
+一群小兵设立了一个<imp>治疗点</imp>。
+If you need me, I'll be around, ready to battle at a moment's notice!
+如果你需要我，我会在附近，随时准备应战！
 [Map15]
-[Map16]
-[Map17]
-[Map18]
-...
-...
-[Map19]
-...
-...
-[Map20]
-[Map21]
-[Map22]
-[Map23]
-...
-...
-[Map24]
-[Map25]
+You've found Emmi, a designer.
+你找到了Emmi，一位设计师。
+Stream Disasterpiece by Mori Calliope!
+收听Mori Calliope的Disasterpiece！
 [Map26]
-[Map27]
-[Map28]
-[Map29]
-[Map30]
+\i[SPANNINGBAND]What? The Spanning Bands are suddenly glowing!
+\i[SPANNINGBAND]什么？跨越手环突然发光了！
+\i[SPANNINGBAND]They glow in sync with the <imp>Avatar Totem</imp>.
+\i[SPANNINGBAND]它们与<imp>化身图腾</imp>同步发光。
+\i[SPANNINGBAND]You sense that some sort of connection has been created.
+\i[SPANNINGBAND]你感觉到某种连接已经建立。
+Most trainers aren't brave enough to take one on in a straight-up fight.
+大多数训练家都没有勇气正面对决一只化身。
 [Map31]
-[Map32]
-[Map33]
-[Map34]
-...
-...
-[Map35]
-[Map36]
-[Map37]
+My job is done...
+我的任务完成了……
+But... what now?
+但是……现在怎么办？
 [Map38]
+\PN, you made it!
+\PN，你做到了！
+Rad.
+太棒了。
+Kinda weird being back on Casaba, right?
+回到卡萨巴有点奇怪，对吧？
+Starting point for both of us.
+我们俩的起点。
+I thought it was fitting.
+我觉得这很合适。
+Uh... come over here, I'm gonna prep for battle.
+呃……过来，我要准备对战了。
+Okay, so, different rules this time.
+好的，这次规则不同。
+I'll be using <imp>my tournament team</imp>, a full six-member squad.
+我会使用<imp>我的锦标赛队伍</imp>，一个完整的六人小队。
+Plus, held items are back on the menu.
+而且，持有道具也重新启用了。
+And after you beat me? Well, a trainer's gotta keep <i>some</i> secrets.
+打败我之后呢？好吧，训练家总得保留<i>一些</i>秘密。
+Battle imminent...?
+对战即将开始……？
+Yeah, sure!
+好啊，当然！
+Hell yeah!
+太棒了！
+A lot. The journey over cleared my head... a bit.
+很多。这段旅程让我清醒了一些……一点点。
+Beat me and I'll tell you about it.
+打败我，我就告诉你。
+Well, it certainly feels different losing when nothing is on the line.
+嗯，当没有什么利害关系时，输掉的感觉确实不同。
+A little fun, even.
+甚至有点有趣。
+Definitely not as bad as my stumble in Prizca.
+肯定没有我在普里斯卡的失足那么糟糕。
+Yeah, it's...
+是啊，这……
+Like yeah of course it happened. It's gotta be someone.
+就像，是啊，当然发生了。总会是某个人。
+Still sucks.
+还是很糟糕。
+Longterm, no. I wasn't expecting to win the entire thing.
+长远来看，没有。我没指望能赢得整个比赛。
+Getting pulped like that still stings.
+被那样痛扁仍然很刺痛。
+I just need time to process it.
+我只是需要时间消化它。
+True.
+确实。
+I've gone over the fight in my mind several times already.
+我已经在脑海中回顾了那场对战好几次。
+Thinking about what I did wrong and what I could've done better.
+思考我做错了什么，以及我本可以做得更好。
+But I can't do it again, so I doubt ruminating is going to make me feel better.
+但我无法重来，所以我怀疑反复思考不会让我感觉更好。
+Oh, don't worry about that.
+哦，别担心那个。
+Something I picked up here on the beach.
+我在海滩上捡到的东西。
+Just trying to shake things up. Get me outta the doldrums.
+只是想改变一下。让我摆脱低落情绪。
+Take this.
+拿着这个。
+A memento, or maybe not. It's yours now.
+一个纪念品，也许不是。现在它是你的了。
+Hey, speaking of losing.
+嘿，说到输。
+Wanna go on a tour with me? Memory lane or some such.
+想跟我一起去旅行吗？怀旧之旅之类的。
+Meet me in <imp>Repora Forest</imp>.
+在<<imp>雷波拉森林</imp>见我。
+It's got mushrooms, moss... combination mushrooms AND moss.
+那里有蘑菇、苔藓……蘑菇和苔藓的结合体。
+That's lichen.
+那是地衣。
+Okay, lichen isn't mushrooms and moss. It's fungi and bacteria.
+好吧，地衣不是蘑菇和苔藓。它是真菌和细菌。
+Either way, I'm <i>lichen</i> this idea already!
+不管怎样，我已经<i>地衣</i>这个想法了！
+See you there.
+那里见。
+I'm itching to get some more play with this team.
+我迫不及待想多用这支队伍打打。
+Finally using held items again! It's refreshing.
+终于又用持有道具了！真令人耳目一新。
+No, wait.
+不，等等。
+Agreed.
+同意。
+What's going on?
+怎么了？
+I get that.
+我明白。
+Is it really that bad?
+真的有那么糟吗？
+Skill issue.
+技术问题。
+That weird item...?
+那个奇怪的道具……？
 [Map39]
-[Map40]
-[Map41]
-[Map42]
+*sigh*
+*叹息*
+"Hello, valued customer."
+"您好，尊贵的顾客。"
+"Please be informed that, until further notice, QuickMart stores across Makya will not be stocking Potions or other healing medicine."
+"请注意，在另行通知之前，玛基亚全境的快客超市将不再进货伤药或其他治疗药品。"
+Not like anyone even uses those anymore...
+反正也没人会用那些了……
+Er, by that I mean... should you require healing items for your Pokemon...
+呃，我是说……如果您需要为您的宝可梦准备治疗道具……
+"Please access the VendCo <imp>vending machine</imp> conveniently placed near each QuickMart employee."
+"请使用放置在每位快客超市员工附近的文德科<<imp>自动售货机</imp>。"
+"VendCo is proud to provide for all of your healing needs here in Makya."
+"文德科很荣幸能为您在玛基亚的所有治疗需求提供服务。"
 [Map43]
-[Map44]
-[Map45]
-[Map46]
-[Map47]
-[Map48]
-...
-...
-[Map49]
-[Map50]
-[Map51]
-[Map52]
-[Map53]
-...
-...
-[Map54]
-[Map55]
-[Map56]
-[Map57]
-[Map58]
-[Map59]
-[Map60]
-...
-...
-[Map61]
+Room 201\nCurrent Residents: Theodore, Julian
+201号房间\n当前住户：西奥多、朱利安
 [Map62]
-[Map63]
-[Map64]
-[Map65]
-[Map66]
+I thought bringing Aron to this gym would be a good idea.
+我以为带可可多拉来这个道馆是个好主意。
+Rock is effective against Fire and Steel is immune to Poison after all.
+毕竟岩石克制火，钢免疫毒。
+Imagine my horror, because I forgot Steel types aren't immune to the poison status condition.
+想象一下我的惊恐，因为我忘了钢属性并不免疫中毒异常状态。
+My poor Aron got worn down in an instant!
+我可怜的可可多拉瞬间就被削弱了！
+Since then, I always carry Pecha Berries with me...
+从那以后，我总是随身携带桃桃果……
 [Map67]
-[Map68]
-[Map69]
-[Map70]
-[Map71]
-[Map72]
-[Map73]
-[Map74]
-[Map75]
-[Map76]
-[Map77]
-[Map78]
-...
-...
-[Map79]
-[Map80]
-[Map81]
-[Map82]
-[Map83]
-[Map84]
-[Map85]
-[Map86]
-[Map87]
-[Map88]
-[Map89]
-[Map90]
-[Map91]
-[Map92]
-[Map93]
-[Map94]
-[Map95]
-[Map96]
-[Map97]
-[Map98]
-[Map99]
-[Map100]
-[Map101]
-[Map102]
-[Map103]
-[Map104]
-[Map105]
-[Map106]
-[Map107]
-[Map108]
-[Map109]
-[Map110]
-[Map111]
-[Map112]
-[Map113]
+It's locked.
+锁上了。
+A sign on the door reads "Employees Only!!"
+门上的牌子写着"员工专用！！"
 [Map114]
-[Map115]
-[Map116]
-[Map117]
-[Map118]
-[Map119]
-[Map120]
-[Map121]
-[Map122]
-[Map123]
-[Map124]
-[Map125]
+Hello again.
+又见面了。
+You... wanna buy my last Stealth Spray?
+你……想买我最后一瓶隐形喷雾吗？
+I've... decided. $3000.
+我……决定了。3000美元。
+Hi.
+你好。
+Oh... why am I transparent?
+哦……我为什么是透明的？
+Yeah I suppose that does look a bit strange.
+是啊，我想那确实看起来有点奇怪。
+Hm. Well...
+嗯。好吧……
+I sprayed myself with Stealth. Using an item.
+我用隐形喷雾喷了自己。用了一个道具。
+The item is called Stealth Spray.
+这个道具叫隐形喷雾。
+Makes you invisible, sorta. Like how avatars are invisible, sorta.
+让你隐形，算是吧。就像化身是隐形的，算是吧。
+I thought... maybe they'd talk to me...?
+我想……也许它们会跟我说话……？
+My plan, uh...
+我的计划，呃……
+...didn't work.
+……没成功。
+I bought a couple. Want one...? Uh... not for free.
+我买了几瓶。想要一瓶吗……？呃……不是免费的。
+How much do these cost...?
+这些要多少钱……？
+I'll ask for $3000. That sounds fair... I think.
+我要价3000美元。听起来公平……我觉得。
+Thanks.
+谢谢。
+Oh, right, yeah... the thing.
+哦，对了，是的……那个东西。
+I'm gonna go... walk this off.
+我要走了……去散散心。
+You don't have enough money. Bummer.
+你没有足够的钱。真遗憾。
+Ok.
+好的。
 [Map126]
-[Map127]
-[Map128]
-[Map129]
-[Map130]
-[Map131]
-[Map132]
-[Map133]
-[Map134]
-[Map135]
-[Map136]
-...
-...
+Cower
+畏缩
+Battleth
+战斗
 [Map137]
-[Map138]
-...
-...
-[Map139]
-[Map140]
-[Map141]
-[Map142]
-[Map143]
-[Map144]
-[Map145]
-[Map146]
-[Map147]
-[Map148]
-[Map149]
-[Map150]
-[Map151]
-[Map152]
-[Map153]
-[Map154]
+For that reason, I wear a Hi-Viz Jacket with me wherever I go.
+因此，我无论去哪里都穿着反光背心。
 [Map155]
-...
-...
-[Map156]
-[Map157]
-[Map158]
+Stone pillars tower over the gym.
+石柱高耸于道馆之上。
+Bence and Zoé.... Zence.... Boé....
+本斯和佐伊……岑斯……博埃……
+Oh, forgive me, the thought of taking on two gym leaders at the same time is stressing me out a little.
+哦，请原谅，一想到要同时挑战两位道馆馆主就让我有点紧张。
+I hope my current team will work well against them, but I can't know for sure.
+我希望我当前的队伍能对他们有效，但我无法确定。
 [Map159]
-...
-...
-[Map160]
-[Map161]
-[Map162]
-[Map163]
-[Map164]
-[Map165]
-[Map166]
-[Map167]
-...
-...
-[Map168]
-[Map169]
-[Map170]
-[Map171]
-[Map172]
-[Map173]
-[Map174]
+Hey, is that a surfboard? You surf?
+嘿，那是冲浪板吗？你冲浪？
 [Map175]
-[Map176]
-[Map177]
-[Map178]
-[Map179]
-[Map180]
-[Map181]
-[Map182]
-[Map183]
-[Map184]
-[Map185]
+A very dusty-looking PC. It must not have been in use in a very long time.
+一台看起来非常积灰的电脑。肯定很久没用了。
 [Map186]
+Vanya is perfectly still, outside of the subtle rise and fall of their chest.
+瓦尼亚完全静止不动，除了胸部微微起伏。
+Their eyes are unblinking glass.
+他们的眼睛是不眨眼的玻璃。
+As you peer into them, you fall into a lull.
+当你凝视它们时，你陷入了恍惚。
+Peer deeper?
+要看得更深吗？
+You step away from Vanya.
+你从瓦尼亚身边退开。
+You feel a burden lift itself from your mind.
+你感到一种负担从脑海中卸下。
+The snow picks up. The cold intensifies into a burn, and your hair stands on end.
+雪越下越大。寒冷加剧成灼烧感，你的头发竖了起来。
+That... was... sick!
+那……太……酷了！
+Screw being Champion.
+去他的冠军。
+How many Champions get to throw down with a partner like this？
+有多少冠军能和这样的搭档一起战斗？
+Thanks, Kyurem. And thanks, \PN.
+谢谢，酋雷姆。还有谢谢，\PN。
+I got so caught up in my quest for perfection that I forgot how much fun this was.
+我太沉迷于追求完美，以至于忘了这有多有趣。
+Dueling, I mean. I took it up because I love it, not just to be Champion.
+我是说对战。我从事这个是因为热爱，不只是为了成为冠军。
+There's this job at the Skeevy Eevee that Aaron offered me.
+亚伦在猥琐伊比给我提供了一份工作。
+I could take it. Stay here, in Makya. Give myself a <i>break</i>.
+我可以接受。留在这里，在玛基亚。给自己放个<i>假</i>。
+But keep battling in my free time. Keep dreaming for a tournament win.
+但在空闲时间继续对战。继续梦想锦标赛胜利。
+<i>Most</i> Champions don't summit on their very first run! Elise only won once, and she enters every year.
+<i>大多数</i>冠军都不是第一次参赛就登顶的！伊莉丝只赢过一次，而她每年都参加。
+Hah! I could become an Eevee expert, start beating people with only Eevees!
+哈！我可以成为伊布专家，开始只用伊布打败别人！
+So, yeah... I could settle down for now, and try my best to win next year.
+所以，是啊……我可以暂时安定下来，然后尽最大努力明年获胜。
+Maybe it won't be the "perfect ending", but it can still be... it can still be good enough.
+也许这不会是"完美结局"，但它仍然可以……仍然可以足够好。
+I can still be good enough.
+我仍然可以足够好。
+Thanks, \PN. I wouldn't have realized that if it weren't for you.
+谢谢，\PN。如果不是你，我不会意识到这一点。
+I saw what you were dealing with while we were in that place, you know.
+你知道，我看到了我们在那个地方时你在面对什么。
+You've got a lot going on too, huh?
+你也有很多事情要处理，对吧？
+Yet you still helped me.
+但你还是帮助了我。
+Makya in crisis, and you still helped me.
+玛基亚陷入危机，而你仍然帮助了我。
+Dhanyavada very much!
+非常感谢！
+Now, you're wondering how all this happened.
+现在，你想知道这一切是怎么发生的。
+I meddled with something that... I definitely shouldn't have.
+我插手了某件……我绝对不该插手的事情。
+A stone that Team Chasm had locked away.
+裂隙队封锁的一块石头。
+Thought it was harmless until it, you know, absorbed my mind...
+以为它无害，直到它，你知道的，吸收了我的意识……
+Here, maybe you can find a way to destroy this thi —?
+给你，也许你能找到毁掉这东——？
+What the heck?!
+搞什么？！
+Uh, well. Change of plans.
+呃，好吧。计划有变。
+Here's a thank you gift. You need it more than I do.
+这是谢礼。你比我更需要它。
+That freaky stone... transformed into this.
+那块诡异的石头……变成了这个。
+I'm gonna try to not think too hard about how that works...
+我会尽量不去深究这是怎么运作的……
+Well then, I'm off to Prizca East.
+那么，我要去东普里斯卡了。
+Bring Kyurem next time we fight, okay, \PN?
+下次我们对战时带上酋雷姆，好吗，\PN？
+Bye byeeeeee!
+拜拜——！
 [Map187]
-...
-...
-[Map188]
+"Ta-ta!"
+"再见！"
+I'm not just doing errands right now, though.
+不过，我现在不只是跑腿。
 [Map189]
-...
-...
-[Map190]
-[Map191]
-[Map192]
-[Map193]
+I - the extraction's wrapping up. I have to get going.
+我——撤离要结束了。我得走了。
+If you find me again, we'll have a real battle.
+如果你再找到我，我们会来一场真正的对战。
+Bye, for now.
+暂时再见。
 [Map194]
-...
-...
-[Map195]
-[Map196]
-[Map197]
-[Map198]
-[Map199]
-[Map200]
-[Map201]
-[Map202]
+Ma'am, if you would!
+女士，如果您愿意的话！
 [Map203]
-.........
-.........
-[Map204]
-[Map205]
-[Map206]
-[Map207]
-[Map208]
-[Map209]
-[Map210]
+I wonder where this place gets their treats.
+我想知道这个地方从哪里进货零食。
+Think they get some of their stuff from that farmstead out west?
+你觉得他们有些东西是从西边那个农场进的吗？
+See all those people and Pokemon?
+看到所有那些人和宝可梦了吗？
+Those are gonna be your friends, little one!
+那些都会是你的朋友，小家伙！
+A little less scary this time, right?
+这次没那么可怕了吧，对吧？
+Good girl, here's a treat!
+乖女孩，给你零食！
+Hey hey, \PN! Say hi to the Skeevee Eevee's newest Behavioural Trainer!
+嘿嘿，\PN！跟猥琐伊布最新的行为训练师打个招呼！
+I get to <i>socialize the Eevees</i>! It's kind of a sick gig!
+我可以<i>让伊布们社交</i>！这工作挺酷的！
+Oh, and I asked the manager about battling in here. Totally okay, as long as we clean up afterwards.
+哦，我还问了经理能不能在这里对战。完全没问题，只要我们之后清理干净。
+Apparently great battles bring in more customers!
+ apparently 精彩的对战能带来更多顾客！
+Oh, and there's tons of healing items here, so, I can heal your team in between bouts.
+哦，而且这里有大量的治疗道具，所以我可以在回合之间治疗你的队伍。
+So yeah, just lemme know if you wanna battle any of my... bajillion teams.
+所以是啊，如果你想跟我的……无数队伍中的任何一支对战，就告诉我。
+Gonna switch 'em up at random. Keep you on your toes.
+我会随机更换它们。让你保持警觉。
+Muahahahahahahahaha!
+哈哈哈哈哈哈哈哈！
+And here I put so much effort into preparing all these parties!
+我可是花了这么多精力准备所有这些队伍的！
+Oh well... I guess I'll just have to keep petting this Eevee...
+哦好吧……我想我只能继续抚摸这只伊布了……
+Let's get into it!
+让我们开始吧！
+A very young Eevee.
+一只非常年幼的伊布。
+It looks a little scared.
+它看起来有点害怕。
+You decide not to try to pet it.
+你决定不去试着抚摸它。
+Maybe later.
+也许以后吧。
+Sure, let's go.
+当然，走吧。
 [Map211]
-[Map212]
-...
-...
-[Map213]
-[Map214]
-...
-...
-[Map215]
-[Map216]
-...
-...
-[Map217]
-[Map218]
-[Map219]
-[Map220]
-[Map221]
-[Map222]
-[Map223]
-...
-...
-[Map224]
-[Map225]
-[Map226]
-[Map227]
-[Map228]
-...
-...
-[Map229]
-[Map230]
-[Map231]
-[Map232]
-[Map233]
+People always talk about how beautiful Makya is.
+人们总是谈论玛基亚有多美。
+Been underappreciating it for a while— tunnel visioned on my gym challenge.
+有一段时间没有好好欣赏它了——一心只想着道馆挑战。
+It takes views like this one to remind me how much I love it.
+需要这样的景色来提醒我我有多爱它。
+Vanya shivers.
+瓦尼亚发抖了。
+This place has such a sense of gravitas.
+这个地方有一种庄严感。
+Though, maybe not as much as my team does.
+不过，也许不如我的队伍那么有。
+Been trying to stay grounded recently. Figured I needed something to keep me down to Earth.
+最近一直在努力保持脚踏实地。觉得我需要一些东西让我接地气。
+Mentally, it's been a mixed bag, but physically...?
+精神上，结果好坏参半，但身体上……？
+Well, I fell over a few times.
+嗯，我摔倒了几次。
+Talking about "gravitas", this is the second to last spot I've got planned.
+说到"庄严感"，这是我计划的倒数第二个地点。
+Let's make it count, yeah?
+让我们好好把握，好吗？
+Gotcha.
+明白。
+Vanya nods.
+瓦尼亚点头。
+Yeah, it's... pretty chilly. Hard to tell that it's still summer.
+是啊，这里……挺冷的。很难相信还是夏天。
+Not gonna gripe and moan, though.
+不过不会抱怨和呻吟的。
+I’m... pretty exhausted, after everything that’s happened...
+我……在经历了这一切之后，非常疲惫……
+So, I need to save my energy for battling!
+所以，我需要为对战保存体力！
+Agreed?
+同意吗？
+I’m trying not to let my thoughts weigh me down.
+我试着不让思绪压垮我。
+Let’s keep a light mood for this battle.
+让我们为这场对战保持轻松的心情。
+These come from a good friend of mine. I think I’ll visit him after this is through.
+这些来自我的一位好朋友。我想这一切结束后我会去拜访他。
+One more stop.
+还有一站。
+One more and I’ll have to figure it all out.
+再有一站我就必须想明白一切了。
+I thought I’d dread it, but I feel drawn to it now.
+我以为我会害怕，但我现在感到被它吸引。
+It’s a contradiction: my lingering drive to see how far I can go, and the fact that I’m at the end.
+这是一种矛盾：我 lingering 地想看看自己能走多远，以及我已经到了终点的事实。
+I’m going to solve it.
+我要解决它。
+<<imp>Frostflow Farms</imp>. See you there.
+<<imp>霜流农场</imp>。那里见。
+Then that avatar appeared and I just... I just panicked.
+然后那个化身出现了，我就……我就慌了。
+One moment.
+等一下。
+Absolutely.
+当然。
+Feel cold to you?
+你觉得冷吗？
 [Map234]
-[Map235]
-[Map236]
-[Map237]
+Would you happen to have one, perchance?
+你碰巧有一个吗？
 [Map238]
-[Map239]
-[Map240]
-[Map241]
-[Map242]
-[Map243]
-[Map244]
-[Map245]
-[Map246]
-[Map247]
-[Map248]
-[Map249]
-[Map250]
+By jove!
+天哪！
+Your demeanour. An adventurer!
+你的气质。一位冒险家！
+A delver of secrets.
+一位秘密的探索者。
+One who leaves no stone unturned.
+一位不遗余力的人。
+You found something, haven’t you?
+你发现了什么，不是吗？
+<i>Sniff sniff<i>.
+<i>嗅嗅<i>。
+Yes, yes...
+是的，是的……
+The unmistakable scent of ancient Unova...
+ unmistakable 的古代合众气息……
+Could it be?
+难道会是？
+The legendary stones located once again?!
+传说中的石头再次出现了？！
+Yes, yes... there’s no other explanation...
+是的，是的……没有其他解释……
+I spent years poring over those old ruins.
+我花了多年时间钻研那些古老遗迹。
+I’ll never forget that scent.
+我永远不会忘记那种气息。
+Well, fledgeling, you’ve sure outshown this old man.
+好吧，雏鸟，你确实让这位老人相形见绌。
+I won’t ask where you acquired them. Wouldn’t be polite.
+我不会问你从哪里得到的。那不礼貌。
+But if you have it in you to share the glory, I know a thing or two about those stones.
+但如果你愿意分享这份荣耀，我对那些石头略知一二。
+It may just be possible. Yes, just maybe.
+也许有可能。是的，也许。
+To turn stone back to flesh.
+将石头变回血肉。
+Yes, I’ll prepare the reagents right away... right away indeed...
+是的，我立刻准备试剂……确实立刻……
+Quickly now, quickly—
+快点，快点——
+Hmmm... wait. I see a look of hesitation on your face.
+嗯……等等。我看到你脸上有犹豫的表情。
+Is it… not yet time?
+时机……还没到吗？
+I can wait! Oh, it’ll be exquisitely difficult, but I’m up to the task.
+我可以等！哦，这将极其困难，但我能胜任。
+Go!
+去吧！
+Follow your destiny, fledgling!
+追随你的命运，雏鸟！
+Quickly now, quickly.
+快点，快点。
+Hand over the ancient stone. The egg of legend.
+交出古老的石头。传说中的蛋。
+I have everything prepared.
+一切已准备就绪。
+Well, I say!
+哎呀，我说！
+That’s quite disappointing.
+这真令人失望。
+I wouldn’t suppose you know the location of the... other stone?
+你大概不知道……另一块石头的位置吧？
+Quite famously, they are a matching pair.
+众所周知，它们是一对。
+T’would be quite the tragedy to locate one and not the other.
+找到一块却找不到另一块，那将是莫大的悲剧。
+Those years of work and study in Unova were not in vain.
+在合众多年的工作和研究没有白费。
+This old man can finally rest at ease...
+这位老人终于可以安心休息了……
+No
+否
+Yes
+是
 [Map251]
-[Map252]
-[Map253]
-[Map254]
-[Map255]
-[Map256]
-[Map257]
-[Map258]
-[Map259]
-[Map260]
-[Map261]
-[Map262]
-[Map263]
-[Map264]
-[Map265]
-[Map266]
-[Map267]
-[Map268]
-[Map269]
-[Map270]
-[Map271]
-[Map272]
-[Map273]
-[Map274]
-[Map275]
-[Map276]
-[Map277]
-[Map278]
+Samorn is in the other room, if you'd like to discuss matters with her.
+萨莫恩在另一个房间，如果你想和她谈谈的话。
+...Hm? Who am I?
+……嗯？我是谁？
 [Map279]
-[Map280]
-[Map281]
-[Map282]
-[Map283]
-[Map284]
-[Map285]
-[Map286]
-[Map287]
-[Map288]
-[Map289]
+Find it south of the docks, down the ladder hidden on one of the crescent-shaped islands.
+在码头南边，其中一个新月形岛屿上隐藏的梯子下面找到它。
 [Map290]
-[Map291]
-[Map292]
-[Map293]
-[Map294]
-...
-...
-[Map295]
-[Map296]
-[Map297]
-[Map298]
-[Map299]
-[Map300]
-[Map301]
-[Map302]
-[Map303]
-[Map304]
-[Map305]
-[Map306]
-[Map307]
-[Map308]
-[Map309]
-[Map310]
-[Map311]
-[Map312]
-[Map313]
-[Map314]
-[Map315]
+hh, the artistic vigor—it’s coursing through me!
+啊，艺术的活力——它在我体内奔涌！
+The light source at the top of the lighthouse is a large fragment of the meteorite whose impact created our harbor.
+灯塔顶部的光源是一块巨大的陨石碎片，正是它的撞击形成了我们的港口。
 [Map316]
-[Map317]
+Ah!
+啊！
+Mm, oh, it's only you again.
+嗯，哦，又是你。
+Turtle? Do you have a turtle to show me?
+乌龟？你有乌龟要给我看吗？
+This Stealth Spray—useless to me, apparently—is what I can offer in return.
+这瓶隐形喷雾——显然对我没用——是我能提供的回报。
+It's not much, I know.
+我知道，这不算什么。
+Sorry, sorry, I'm just nervous around people.
+抱歉，抱歉，我在人身边就很紧张。
+REALLY nervous. So nervous that I went online and special ordered this stuff that makes you harder to see.
+非常紧张。紧张到我在网上特别订购了这种让你更难被看见的东西。
+I'm so stupid... it's a spray-on material. Of course I can't use it while <i>swimming</i>!
+我太蠢了……这是喷涂材料。当然我不能在<i>游泳</i>时使用它！
+But swimming is my only joy in life.
+但游泳是我生命中唯一的乐趣。
+I just... I've got to find a way to be less scared of people. At least while I'm in the water.
+我只是……我得找到一种不那么害怕人的方法。至少在水下的时候。
+My therapist said I could change how I think by being inspired by others. Said I could even do that with Pokemon!
+我的治疗师说我可以通过受到他人的启发来改变思维方式。说我甚至可以用宝可梦做到这一点！
+There's lots of Pokemon that can protect themselves!
+有很多宝可梦可以保护自己！
+That's it! Show me a TURTLE!
+就是这样！给我看看乌龟！
+Er, I mean, <i>please</i> show me a turtle. If I'm not harming you by asking...
+呃，我是说，<<i>请</i>给我看看乌龟。如果我问你没有冒犯到你的话……
+I'll give you my second bottle of Stealth Spray, if you do.
+如果你给我看，我就给你我的第二瓶隐形喷雾。
+Ah! Oh! Whatever am I going to do without a turtle to inspire me?
+啊！哦！没有乌龟来激励我，我该怎么办？
+Oh, thank you thank you thank you!
+哦，谢谢谢谢谢谢！
+The swimmer studies your Pokemon's shell with great interest.
+游泳者饶有兴趣地研究你宝可梦的壳。
+Wow!
+哇！
+Yes! Yes!!
+是的！是的！！
+I understand, now!
+我现在明白了！
+Here, take the stupid spray. I don't need it anymoooooore!
+给你，拿走这愚蠢的喷雾。我不再需要它了！
+This mental armor will protect me from judgmental gazes.
+这种精神盔甲将保护我免受审视的目光。
+I'll swim wherever and whenever I want!
+我想在哪里游就在哪里游，想什么时候游就什么时候游！
+No
+否
+Yes
+是
 [Map318]
-[Map319]
-[Map320]
-[Map321]
-[Map322]
-[Map323]
-[Map324]
-[Map325]
-[Map326]
-...
-...
+Oh! Sorry, \PN.
+哦！抱歉，\PN。
+Didn't see you there.
+没注意到你在那里。
+I was all hyped up for the end of my journey.
+我为旅程的终点感到非常兴奋。
+Built a team that I was really proud of.
+组建了一支我非常骄傲的队伍。
+Honestly, I thought I would go pretty far.
+说实话，我以为我能走得很远。
+Point is... I got swept first round by some guy with a Serperior.
+重点是……我在第一轮就被某个带着君主蛇的家伙横扫了。
+I know I usually take losses like a champ, but this time's different.
+我知道我通常像冠军一样接受失败，但这次不同。
+No chance to try again.
+没有机会再试一次了。
+Anyways... I'm gonna head out somewhere quiet.
+总之……我要去一个安静的地方。
+Wanna meet me at <imp>Bluepoint Beach</imp> on Casaba?
+想在卡萨巴的<<imp>蓝点海滩</imp>见我吗？
+For a duel, maybe. It would mean a lot to me.
+也许来场对战。这对我意义重大。
+Bye, \PN.
+再见，\PN。
+Oops, sorry! I'm usually more careful.
+哎呀，抱歉！我通常更小心。
+Oh, \PN. Took me a second to recognize you.
+哦，\PN。我花了一秒钟才认出你。
+I know we're not exactly close, but...
+我知道我们不算很亲近，但是……
+Feeling like a warm up round? Or maybe a victory lap?
+想来场热身赛？或者胜利巡游？
+Either way, I'll be at <imp>Bluepoint Beach</imp>.
+不管怎样，我会在<<imp>蓝点海滩</imp>。
+Remember? The one west of the Villa?
+记得吗？别墅西边那个？
+Meet you there...?
+那里见……？
 [Map327]
-[Map328]
-[Map329]
-[Map330]
-[Map331]
-[Map332]
-[Map333]
-[Map334]
-[Map335]
-[Map336]
-[Map337]
-[Map338]
-[Map339]
-[Map340]
-[Map341]
-[Map342]
-[Map343]
-...
-...
-[Map344]
-[Map345]
-[Map346]
-[Map347]
-[Map348]
+Yezera and the others are gone, I’m afraid. It’s just you… and… me.
+恐怕耶泽拉和其他人都走了。只剩你……和……我。
+We won. No reason for me to be here. Absolutely none.
+我们赢了。我没理由在这里。完全没有。
+Other than the immense enjoyment I’m about to extract from dismantling your team.
+除了我即将从拆解你的队伍中获得的巨大乐趣之外。
+A friend of Yezera’s. Besides that, I’m masked for a reason.
+耶泽拉的朋友。除此之外，我戴面具是有原因的。
+I would ask who you are, but quite frankly it doesn’t matter. I’m going to find out soon enough.
+我本想问你是谁，但坦白说这无关紧要。我很快就会知道。
+There’s only so many types of people in the world.
+世界上只有这么几种人。
+I just told you: because humiliating you will be fun.
+我刚告诉过你：因为羞辱你会很有趣。
+Unless you mean extracting Regidrago, in which case, no, I won’t tell.
+除非你是说提取雷吉铎拉戈，那样的话，不，我不会说。
+Humans have this infuriatingly self-destructive need to tell secrets. I’m better than that.
+人类有这种令人愤怒的自我毁灭式的倾诉秘密的需求。我比那强。
+Well, I see the dialogue’s broken down fast.
+好吧，看来对话很快就崩坏了。
+Fine. Suffer.
+很好。受着吧。
+But I didn’t come here to engage in small talk.
+但我不是来闲聊的。
+I assure you, it isn’t personal – no one has anything interesting to say. You’re no exception.
+我向你保证，这不是针对个人——没人有什么有趣的话要说。你也不例外。
+But you are exceptionally skilled, I understand, and that’s correlated with ego.
+但你确实技艺非凡，我明白，而这与自负相关。
+Allow me to show you what you’re really worth.
+让我来向你展示你真正的价值。
+…Ah, so be it. I doubt I could drill humility through your thick skull anyways.
+……啊，那就这样吧。反正我怀疑我无法把你那 thick 的 skull 钻出谦逊来。
+You’re good at playing shallow games – good for you.
+你擅长玩浅薄的游戏——为你高兴。
+A Totem calls. I’ve seen more than enough.
+图腾在召唤。我已经看得够多了。
+They got away. They won. A few that were dressed up like ancient Makyan priests, and whoever the hell THAT was. And Yezera…
+他们逃走了。他们赢了。几个打扮得像古代玛基亚祭司的人，还有那个该死的 whoever。还有耶泽拉……
+Wish I knew. That guy was a narcissist and an asshole, I can tell you that much.
+希望我知道。那家伙是个自恋狂和混蛋，我只能告诉你这么多。
+The rest of them… who knows.
+其他人……谁知道呢。
+Could be anything.
+可能是任何人。
+But if they were after Regidrago specifically, and Yezera’s with them… maybe even leading them…
+但如果他们专门冲着雷吉铎拉戈来的，而且耶泽拉和他们在一起……甚至可能领导他们……
+…I don’t know. It doesn’t make any sense.
+……我不知道。这完全说不通。
+She should be the last person to pull this kind of stunt.
+她应该是最不可能搞这种 stunt 的人。
+It is. It’s your problem now, and I know you aren’t gonna like that, but it is.
+是的。现在这是你的问题了，我知道你不会喜欢这样，但这就是事实。
+This is bigger than just one legendary Pokémon.
+这不只是关于一只传说宝可梦。
+Remember what I said about the big open secret?
+记得我说的那个公开的大秘密吗？
+The caves around Makya are tombs for the Regis. The weird ones I was talking about before. Ones like this.
+玛基亚周围的洞穴是雷吉们的陵墓。我之前说的那些奇怪的。像这样的。
+Well, some archaeological teams went to study them a couple decades back.
+嗯，几十年前有些考古队去研究它们。
+And then they found the Regis, and the rich mineral veins, and the ruins, and they figured they could leverage that.
+然后他们发现了雷吉们、丰富的矿脉和遗迹，他们觉得可以利用这些。
+We got some corporate backing from Andris and Mavis, and boom: Team Chasm. I was one of those original archaeologists.
+我们得到了安德里斯和梅维斯的企业赞助，然后砰：裂隙队。我是那些最初的考古学家之一。
+…Some of us. Helena wanted to run her own region. Andris wanted a piece of the organized crime bigtime.
+……我们中的一些人。海伦娜想经营自己的地区。安德里斯想分一杯羹，进入有组织犯罪的大 league。
+Me, I study the Regis. And some people wanted me to leave well enough alone.
+我，我研究雷吉们。有些人希望我别多管闲事。
+I had a Team and Regidrago on my side, and they didn’t, so I got to study what I damn well pleased.
+我有队伍和雷吉铎拉戈站在我这边，他们没有，所以我可以研究我 damn 想研究的东西。
+Some of us. I didn’t. I had five Regis – what did I need money for?
+我们中的一些人。我没有。我有五只雷吉——我要钱干什么？
+If I wanted lab equipment, I sent a list to Helena.
+如果我想要实验室设备，我就给海伦娜发一份清单。
+I lived in a research station and ate ramen. Best days of my life.
+我住在研究站里吃拉面。那是我一生中最美好的日子。
+I just wanted to study the Regis, and with their power, nobody could tell me no. Funny how that works out.
+我只想研究雷吉们，有了它们的力量，没人能对我说不。有趣的是事情就是这样发展的。
+You make it sound so pure and noble.
+你说得好像多么纯洁高尚。
+I was curious. Wanted answers. I got them – who could tell me no with Regidrago at my side?
+我很好奇。想要答案。我得到了——有雷吉铎拉戈在我身边，谁能对我说不？
+Not to mention the full might of Team Chasm, 'cause my research was VERY profitable.
+更不用说裂隙队的全部力量了，因为我的研究非常有利可图。
+I'm getting to that, but also, hey, it could come in handy some day, yeah?
+我正要说那个，不过，嘿，也许哪天会派上用场，对吧？
+As I was saying: we found the five lesser Regis.
+正如我说的：我们找到了五只较小的雷吉。
+It took me years, but I deciphered their inscriptions and understood their true nature.
+花了我多年时间，但我破译了它们的铭文，理解了它们的真正本质。
+That led us to Regigigas, and at that point we were cooking with gas.
+这引导我们找到了雷吉奇卡斯，那时我们进展神速。
+Gigas was stronger than the rest of the Regis put together, and smarter, too.
+奇卡斯比其他所有雷吉加起来还要强，也更聪明。
+Shape the earth, revert it back to some kind of primordial clay. Create seals and wards that nothing could get through.
+塑造大地，将其恢复成某种原始黏土。创造无法穿透的封印和结界。
+And, yeah, it could throw a mean Giga Impact.
+而且，是的，它能打出强力的终极冲击。
+It could do… other things, too. We found a way to make it create ethereal Pokémon with its power.
+它还能……做其他事情。我们找到了一种方法，让它用自己的力量创造幽灵宝可梦。
+They were hostile, powerful – had to be locked away.
+它们充满敌意、力量强大——必须被封锁起来。
+And then by the time Yezera kicked down our door and told us to stop, she was basically just confirming what we already knew.
+等到耶泽拉踹开我们的门叫我们停手时，她基本上只是在确认我们已经知道的事情。
+We were playing with fire. If we kept using Regigigas, we ran the very real chance of destroying the world.
+我们在玩火。如果我们继续使用雷吉奇卡斯，我们真的有毁灭世界的风险。
+Or at least permanently changing it. So we put each Regi back in their tomb and went legit.
+或者至少永久改变它。所以我们把每只雷吉放回它们的陵墓，然后洗白了。
+The tombs were reinforced, of course – just about nothing can get through the minor Regi chambers.
+陵墓当然被加固了——几乎没有什么能穿过较小的雷吉密室。
+Gigas's chamber can only be opened by the other five Regis together.
+奇卡斯的密室只能由其他五只雷吉一起打开。
+I don't know. She agreed with us: it was too dangerous. We were criminals, not lunatics.
+我不知道。她同意我们的看法：这太危险了。我们是罪犯，不是疯子。
+I know things… haven't been great for her, but this? This is insane.
+我知道她的情况……一直不太好，但这？这太疯狂了。
+Who knows. We knew some groups were trying to get them back – they always have been.
+谁知道呢。我们知道有些团体一直试图夺回它们——他们一直都是这样。
+But succeeding? There was no way. Impossible. But… apparently Yezera can.
+但成功？不可能。绝无可能。但……显然耶泽拉可以。
+…Probably. They might already have.
+……可能。他们可能已经有了。
+Gigas's chamber is deep down, though, and if they haven't broken the seal yet, it'd be for nothing.
+不过奇卡斯的密室在深处，如果他们还没打破封印，那就白费了。
+Or if they've resealed it. I can try and scout it out, but… no promises.
+或者如果他们重新封印了。我可以试着侦察一下，但……不保证。
+My POINT is that if you don't help out, you better get used to the look of white stone.
+我的重点是如果你不帮忙，你最好习惯白色石头的外观。
+You're gonna be seeing a whole lot more of it if someone tells Regigigas to let loose.
+如果有人让雷吉奇卡斯放开手脚，你会看到更多这样的景象。
+Listen, I don't know. I don't know a lot of things.
+听着，我不知道。很多事情我都不知道。
+So let me talk to Andris, our rangers, Helena, whoever else I can find. We'll figure out how bad things are.
+所以让我跟安德里斯、我们的护林员、海伦娜、我能找到的任何人谈谈。我们会弄清楚情况有多糟。
+And if these thieves show their faces aboveground, you can brawl with them.
+如果这些盗贼在地面上露面，你可以跟他们干一架。
+They've got at least one Regi, probably more, so there's a strong temptation to wreak havoc. Trust me – I'd know.
+他们至少有只雷吉，可能更多，所以有很强的破坏冲动。相信我——我知道。
+Hate to say it, but you just need to keep being your usual self, kid.
+不想这么说，但你只需要继续做你平常的自己，小子。
+Or, no, I shouldn’t call you kid. Take this – you’ve earned it.
+或者，不，我不该叫你小子。拿着这个——你 earned 了。
+Used to give these to Chasm strike teams, for cave scouting.
+以前把这些给裂隙突击队，用于洞穴侦察。
+It’ll get you just about anywhere in the region – nobody hides from you now.
+它能让你到达这个地区的任何地方——现在没人能躲着你了。
+So go get those badges and save the day, hero.
+所以去收集徽章，拯救世界吧，英雄。
+Who are you?
+你是谁？
+Why are you doing this?
+你为什么这么做？
+Shut up, edgelord.
+闭嘴，中二病。
+Who are they?
+他们是谁？
+What do they want?
+他们想要什么？
+Why Yezera?
+为什么是耶泽拉？
+Not my problem.
+不关我的事。
+You wanted power?
+你想要力量？
+You wanted money?
+你想要钱？
+You wanted knowledge?
+你想要知识？
+Why should I care?
+我为什么要在意？
+Then why is Yezera...
+那为什么耶泽拉……
+How many Regis are stolen?
+多少只雷吉被偷了？
+They're opening that door.
+他们在打开那扇门。
+Your point?
+你的重点是什么？
 [Map349]
-[Map350]
-[Map351]
-[Map352]
-[Map353]
-[Map354]
-[Map355]
-[Map356]
-[Map357]
-[Map358]
-[Map359]
-[Map360]
-[Map361]
-[Map362]
-...
-...
-[Map363]
-[Map364]
-[Map365]
-[Map366]
-[Map367]
-[Map368]
-[Map369]
-[Map370]
-[Map371]
-[Map372]
-[Map373]
-[Map374]
-[Map375]
-[Map376]
-[Map377]
-[Map378]
-[Map379]
-[Map380]
-[Map381]
-[Map382]
-[Map383]
-[Map384]
-[Map385]
-[Map386]
-[Map387]
-[Map388]
-[Map389]
-[Map390]
+The force of the Ultra Wormhole pushes you back!
+究极之洞的力量把你推了回去！
 [Map391]
-[Map392]
-[Map393]
-[Map394]
-[Map395]
-[Map396]
-[Map397]
-[Map398]
-[Map399]
-[Map400]
-[Map401]
-...
-...
-[Map402]
-[Map403]
-[Map404]
-[Map405]
-[Map406]
-[Map407]
-[Map408]
-[Map409]
-[Map410]
-[Map411]
-[Map412]
-[Map413]
-[Map414]
-...
-...
-[Map415]
-[Map416]
-[Map417]
-[Map418]
-[Map419]
-[Map420]
-[Map421]
-[Map422]
-[Map423]
-[Map424]
-[Map425]
-[Map426]
-[Map427]
-[Map428]
-[Map429]
-[Map430]
-[Map431]
-[Map432]
-[Map433]
-[Map434]
-[Map435]
-[Map436]
+They have the best <imp>coffee</imp> around.
+他们有周围最好的<imp>咖啡</imp>。
+Hey, uh... is that <imp>coffee</imp> I smell?
+嘿，呃……我闻到的是<imp>咖啡</imp>吗？
+I'll let you by if you solve my caffeine needs.
+如果你解决我的咖啡因需求，我就让你过去。
+Well, then, orders are orders.
+好吧，那么，命令就是命令。
+Gotta protect the citizenry. Keep young persons like you from getting themselves killed in The Shelf.
+必须保护市民。防止像你这样的年轻人去架子区送命。
+Go back to Novo Town.
+回新镇去。
+You hand over the cup of coffee.
+你递上了那杯咖啡。
+Ah...
+啊……
+I feel normal again.
+我感觉恢复正常了。
+Thanks. You can go on ahead.
+谢谢。你可以继续前进了。
+Woah, woah! No can do, buddy.
+哇哦，哇哦！不行，伙计。
+I got official orders to stop all young trainers trying to enter The Shelf.
+我有官方命令阻止所有试图进入架子区的年轻训练家。
+It's a treacherous place at the best of times, and nowadays it's even worse.
+即使在最好的时候这也是个危险的地方，而现在更糟了。
+Well, huh. You look like you <i>really</i> wanna try your luck. And I guess you're not really all that young.
+嗯，哈。你看起来<i>真的</i>想试试运气。而且我想你也不算那么年轻了。
+I need my third <imp>cup of coffee</imp>. Grab it for me, and I'll... consider letting you through.
+我需要第三杯<imp>咖啡</imp>。帮我拿来，我就……考虑让你过去。
+So... you gonna help me get some <imp>coffee</imp>?
+所以……你要帮我弄点<imp>咖啡</imp>吗？
+I don't know where you come from but I expect it's rude to lie to people there, too.
+我不知道你来自哪里，但我猜在那里对人说谎也是粗鲁的。
+Get out of here.
+离开这里。
+I'm still supposed to stop all young trainers from passing by, but...
+我仍然应该阻止所有年轻训练家通过，但是……
+You're good by me.
+你在我这里没问题。
+Huh. You look a lot more skillful than I first thought.
+哈。你看起来比我最初想的要熟练得多。
+New blood in Makya. Always fun to see.
+玛基亚的新鲜血液。总是很高兴看到。
+Don't give coffee.
+不给咖啡。
+Give coffee.
+给咖啡。
 [Map437]
-[Map438]
-[Map439]
-[Map440]
-[Map441]
-[Map442]
-[Map443]
-[Map444]
-[Map445]
-[Map446]
-[Map447]
+I've been exploring Makya's for years. My dream is to take a trip to see some of the tunnels under Kalos.
+我探索玛基亚多年了。我的梦想是去卡洛斯看看一些地下隧道。
 [Map448]
+The floating rock contains a <imp>semicircular indent</imp>.
+浮石包含一个<imp>半圆形凹槽</imp>。
+It emanates a sense of loss, and of yearning.
+它散发出一种失落感和渴望感。
+You take out the Light Stone.
+你拿出光明石。
+It warm your palms as you approach the rock.
+当你靠近岩石时，它温暖了你的手掌。
+It fits neatly into the recess.
+它完美地嵌入凹槽中。
+You feel a sense of a weight lifted.
+你感到一种如释重负的感觉。
+Without you noticing how, the Light Stone is returned to your bag.
+在你没有注意到的情况下，光明石回到了你的包里。
+The rock is satisfied.
+岩石满足了。
+You take out the Dark Stone.
+你拿出黑暗石。
+Without you noticing how, the Dark Stone is returned to your bag.
+在你没有注意到的情况下，黑暗石回到了你的包里。
+The door seems to bend and stretch the more you look at it.
+你越看那扇门，它似乎越弯曲和伸展。
+Overlapping textures combine and fall apart, but never leave an opening.
+重叠的纹理组合又分离，但从不留下开口。
+Despite the visual array in front of you, it is smooth and still to the touch.
+尽管眼前的视觉阵列如此，摸起来却光滑而静止。
+A desire for unification slips into your mind, but the other half is still missing.
+一种统一的渴望滑入你的脑海，但另一半仍然缺失。
+With a sense of catharsis that is not yours, the door opens.
+带着一种不属于你的宣泄感，门打开了。
 [Map449]
+As a kid, It seemed like <i>everyone I knew</i> wanted to be Champion.
+小时候，似乎<i>我认识的每个人</i>都想成为冠军。
+To win the tournament. To be <i>the best</i>.
+赢得锦标赛。成为<i>最强</i>。
+But I wanted it the most.
+但我最想要它。
+I dreamed. Saw myself as Champion...
+我做梦。看到自己成为冠军……
+Earning recognition for my hard work...
+为我的努力获得认可……
+Unlocking even greater challenges...
+解锁更伟大的挑战……
+Inspiring trainers just like me to follow their dreams...
+激励像我一样的训练家追寻他们的梦想……
+It propelled me to perfection. Pushed me to keep going, against every setback.
+它推动我走向完美。推动我继续前行，克服每一次挫折。
+Justifying every sacrifice.
+为每一次牺牲辩护。
+Is this really how it ends?! Swept like a chump? Not even an iota of reward?
+这真的是结局吗？！像个傻瓜一样被横扫？连一丝奖励都没有？
+I just need to try again. Keep moving forward.
+我只需要再试一次。继续前进。
+I'll have to work even harder to be perfect.
+我必须更加努力才能完美。
+I can grow. I can change. I can do anything I set my mind to.
+我可以成长。我可以改变。我可以做任何我下定决心要做的事。
+Anything.
+任何事。
+Anything...
+任何事……
+...Anything...
+……任何事……
 [Map450]
+How... how did you get over here to talk to me?
+怎么……你怎么过来跟我说话的？
+Are you... a Marshadow? Here to steal my face?!
+你是……玛夏多？来偷我的脸？！
+You're too strong!
+你太强大了！
+Maybe if I Regenerate, my new self could defeat you...
+也许如果我再生，我的新自我可以打败你……
+Hello, \PN. We're glad to finally meet you.
+你好，\PN。很高兴终于见到你。
+Surprised that we recognize you?
+惊讶于我们认识你吗？
+When Vanya has a story to share, we're all ears, and you've been the focus of more than one.
+当瓦尼亚有故事要分享时，我们都洗耳恭听，而你不止一次成为焦点。
+It's a rare trainer that can go head to head with our Vanya.
+能与我们瓦尼亚正面交锋的训练家可不多见。
+He really does love battling more than anything else.
+他确实热爱对战胜过一切。
+Of course she does, love! We're top-tier parents.
+她当然爱，亲爱的！我们是顶级父母。
+Hmm...
+嗯……
+You look cold, \PN. Spending too much time in the wild outdoors?
+你看起来很冷，\PN。在野外待太久了吗？
+In that case—prepare to receive a max level warm family welcome!
+既然如此——准备好接受最高级别的温暖家庭欢迎吧！
+Let the battle... begin!!
+让对战……开始！！
+We used 100% of our power... and yet you vanquished us!
+我们用尽了100%的力量……然而你还是打败了我们！
+Ughh... uurrgghh... aachh....
+呃……呃啊……啊咳……
+Power draining away... slowly... dieing...
+力量正在流失……慢慢地……消逝……
+Spare us the theatrics, dear...
+省省你的戏剧表演吧，亲爱的……
+Yes, yes, I love it, but \PN has experienced enough weirdness today already.
+是的，是的，我喜欢，但\PN今天已经经历了足够多的怪异事情了。
+You need to keep moving, right, \PN?
+你需要继续前进，对吧，\PN？
+There are questions that need answering.
+有需要回答的问题。
+Problems that need solving.
+有需要解决的问题。
+Keep your wits about you.
+保持警觉。
+Game developers tend to prefer you play the game inside the boundaries they set.
+游戏开发者通常更喜欢你在他们设定的边界内玩游戏。
+At the very least, please try not to cause any bugs.
+至少，请尽量不要引起任何bug。
+Just to make things clear, I won't answer any questions about Team Chasm.
+先说清楚，我不会回答任何关于裂隙队的问题。
+Sorry, it's just... when people知道我曾经在科学团队，他们总是试图从我这里撬出秘密。
+抱歉，只是……当人们知道我曾经在科学团队时，他们总是试图从我这里撬出秘密。
+I like to get ahead of the issue.
+我喜欢先发制人。
+People look at me funny just 'cause Mom wasn't born here.
+人们用奇怪的眼光看我，只是因为妈妈不是在这里出生的。
+Or because she was Chasm. Some of my classmates wouldn't talk to me because of that.
+或者因为她是裂隙队的。我的一些同学因此不跟我说话。
+But I belong here. I know it.
+但我属于这里。我知道。
+If I become Champion... I'll prove it to them.
+如果我成为冠军……我会向他们证明。
+The Champion is the very best of Makya. If I'm Champion... then I'm Makyan, right?
+冠军是玛基亚最优秀的人。如果我是冠军……那我就是玛基亚人，对吧？
+This is my home. I love this place.
+这是我的家。我爱这个地方。
+Travelling around while I was getting my badges was... honestly so cool.
+收集徽章时四处旅行……说实话太酷了。
+I lost touch with that while prepping for the tournament.
+在为锦标赛做准备时，我失去了那种感觉。
+Visiting all those places again with you... the feeling came rushing back to me.
+和你一起再次拜访所有那些地方……那种感觉涌回了我心头。
+My journey was <i>fun</i>! And not </i>just<i> because I love duelling.
+我的旅程<i>很有趣</i>！而且不仅仅</i>是因为<i>我喜欢对战。
+But even after all that hard work, I wasn’t good enough for Makya...
+但即使付出了那么多努力，我对玛基亚来说还是不够好……
+I could do it all again somewhere else.
+我可以在别的地方重新开始。
+Be the perfect trainer... in another region...
+成为完美的训练家……在另一个地区……
+But it wouldn't be Makya, would it...
+但那就不是玛基亚了，对吧……
 [Map451]
+You've found Azeler, designer and programmer.
+你找到了阿泽勒，设计师和程序员。
+Oh? Krabby is holding a Muscle Band.
+哦？大钳蟹持有一个气势披带。
+Something about it is strange, however...
+不过，有些东西很奇怪……
+It feels like it emits an evil aura...
+感觉它散发出邪恶的气息……
+You've found Destiny, an Artist and Spriter.
+你找到了命运，一位艺术家和像素画师。
 [Map452]
-[1]
-[2]
-[3]
-[4]
-A
-A
-50%
-50%
-B
-B
-C
-C
-D
-D
-E
-E
-F
-F
-G
-G
-H
-H
-I
-I
-J
-J
-K
-K
-L
-L
-M
-M
-N
-N
-O
-O
-P
-P
-Q
-Q
-R
-R
-S
-S
-T
-T
-U
-U
-V
-V
-W
-W
-X
-X
-Y
-Y
-Z
-Z
-?
-?
-!
-!
-10%
-10%
+An old industrial generator hums quietly in the corner.
+一台旧工业发电机在角落里安静地嗡嗡作响。
+It's cold to the touch...
+摸起来很冷……
+A steel crate.
+一个钢箱。
+The room is so cold that you are afraid to touch it.
+房间太冷了，你不敢碰它。
+It's front face has been slid up, revealing the emptiness inside.
+它的正面被滑了上去，露出里面的空虚。
+A thin layer of frost coats the top of this crate. The logo on the side is too faded to make out...
+这个箱子顶部覆盖着一层薄薄的霜。侧面的标志太模糊，无法辨认……
+Lab Notes 1 - February 16
+实验室笔记1 - 2月16日
+Initial Ex-Nihilo Construction experiments successful.
+初始无中生有构造实验成功。
+Subject TEKTON 96% success rate with complex objects up to 0.2 meters in diameter.
+对象TEKTON对直径达0.2米的复杂物体成功率达96%。
+Operational parameter requirements for OBJ-TAO-3 achieved.
+OBJ-TAO-3的运行参数要求已达成。
+First-pass instructions list completed by science team.
+科学团队已完成首轮指令清单。
+Keep reading?
+继续阅读吗？
+Lab Notes 2 - February 24
+实验室笔记2 - 2月24日
+OBJ-TAO-3 successfully constructed after 9 iterations on instruction list.
+OBJ-TAO-3在指令清单经过9次迭代后成功构造。
+Subject TEKTON noted particularly exhausted after process completion.
+对象TEKTON在过程完成后被记录为特别疲惫。
+Initial scans conclude 86% match with predicted structure.
+初始扫描显示与预测结构匹配度为86%。
+Anecdotal qualitative observations note object's extremely low temperature.
+轶事定性观察记录该物体温度极低。
+OBJ-TAO-3 temporarily housed in laboratory sub-storage room 4.
+OBJ-TAO-3暂时存放于实验室子储藏室4号。
+Lab Notes 3 - March 8
+实验室笔记3 - 3月8日
+Shipment received from Unova.
+收到来自合众的货物。
+Contents: Schematics detailing OBJ-TAO-X, both visible light and x-ray imaging.
+内容：详细描述OBJ-TAO-X的示意图，包括可见光和X射线成像。
+Official objection submitted by science team: Recreating well-studied objects seen as waste of limited subject TEKTON activity time.
+科学团队提交正式反对意见：重建已充分研究的对象被视为浪费有限的对象TEKTON活动时间。
+Objection overruled by operations team—OBJ-TAO-X construction process set to start immediately.
+反对被运营团队驳回——OBJ-TAO-X建造过程立即开始。
+Construction completed after 2 iterations on instruction list.
+指令清单经过2次迭代后建造完成。
+Lab Notes 4 - March 20
+实验室笔记4 - 3月20日
+Laboratory sub-storage room 4 internal temperature measured -16 C, a new lowest value.
+实验室子储藏室4号内部温度测量为-16°C，创下新低。
+Concerns about storage structural integrity raised to engineering team.
+对储藏结构完整性的担忧已提交给工程团队。
+Severe mental exhaustion noted in science team members interacting with OBJ-TAO-3.
+与OBJ-TAO-3互动的科学团队成员被记录为严重精神疲惫。
+OBJ-TAO-3 hazard class upgraded from level 1 to level 2.
+OBJ-TAO-3危险等级从1级提升至2级。
+Lab Notes 5 - May 4
+实验室笔记5 - 5月4日
+10:15: Lab assistant (ID E-SCI213) collapsed while conducting routine materials analysis of OBJ-TAO-3.
+10:15：实验室助理（编号E-SCI213）在对OBJ-TAO-3进行常规材料分析时倒下。
+10:20: E-SCI213 found unresponsive to all stimuli. Medical team alerted.
+10:20：E-SCI213对所有刺激无反应。医疗队已警报。
+10:30: Medical team arrival. Initial medical diagnosis: sudden onset stroke.
+10:30：医疗队到达。初步医学诊断：突发性中风。
+11:00: Stroke theory dismissed by results of CT scan. Employee E-SCI213 catatonia unexplained.
+11:00：CT扫描结果排除了中风理论。员工E-SCI213的紧张症无法解释。
+12:15: Emergency safety team meeting.
+12:15：紧急安全团队会议。
+14:45: OBJ-TAO-3 hazard class upgraded from level 2 to level 4.
+14:45：OBJ-TAO-3危险等级从2级提升至4级。
+Lab Notes 6 - May 5
+实验室笔记6 - 5月5日
+Science team concerned about ability to predict hazard class of novel constructions.
+科学团队担心预测新型构造物危险等级的能力。
+Science and internal affairs teams meeting tomorrow to iterate on safety review processes.
+科学和内部事务团队明天开会，迭代安全审查流程。
+OBJ-TAO-3, OBJ-TAO-X, and all TAO project research notes moved to permanent isolation storage in volcanic environment.
+OBJ-TAO-3、OBJ-TAO-X及所有TAO项目研究笔记已移至火山环境的永久隔离储存处。
+The shelves are barren.
+架子是空的。
+Yes
+是
+No
+否
+[Map453]
+I don't think we're in Makya anymore, \PN...
+我想我们不在玛基亚了，\PN...
+Sorry for the bad joke... this atmosphere is getting to me.
+抱歉，这个糟糕的玩笑……这种气氛让我受影响。
+And, well, so is everything else.
+而且，嗯，其他一切也是。
+You saw my thoughts, I guess? My memories...? Kinda spooky, honestly.
+你看到了我的想法，我猜？我的记忆……？说实话有点诡异。
+I couldn't stop my head from running, so I went for a walk.
+我无法停止思绪奔涌，所以去散步了。
+Then I ended up here somehow. Wack, right?
+然后不知怎么就到了这里。很怪，对吧？
+...I guess I should stop joking around. Not like you don't know what's going on.
+……我想我应该停止开玩笑了。你又不是不知道发生了什么。
+Yeah, those. Weird having your thoughts standing in front of you like that.
+是啊，那些。你的想法像这样站在你面前，很奇怪。
+I saw you too, a bit. You're kind of a mess, huh?
+我也看到了你，一点点。你有点混乱，对吧？
+Well, not nearly as much as I am.
+嗯，远不及我混乱。
+Ah, uh.... yeah. About that.
+啊，呃……是啊。关于那件事。
+Thinking it might have been a bad idea, taking that with me.
+想着带上那个可能是个坏主意。
+Just a string of bad decisions from me lately.
+最近我做出了一连串糟糕的决定。
+I... really wish I was. I want to be okay.
+我……真希望我是。我想好起来。
+I want to be more than okay.
+我想不止是好起来。
+I think this has been... a long time coming.
+我想这……已经酝酿很久了。
+I spent so much time chasing perfection. I wanted the perfect ending, too.
+我花了太多时间追求完美。我也想要完美的结局。
+Really sucks having your entire dream crushed, just like that.
+整个梦想就这样被粉碎，真的很糟糕。
+I could still be the best. Start over and hone my skills somewhere else.
+我仍然可以成为最好的。在别处重新开始，磨练技艺。
+But this is my home. Even if I win it all, would it feel right?
+但这是我的家。即使我赢得一切，感觉会对吗？
+I just... want something to work for again.
+我只是……想再次有为之奋斗的东西。
+Arrgh, I'm getting lost in my thoughts again. My head's so foggy...
+啊，我又陷入思绪了。我的脑袋好迷糊……
+I need to clear my head, \PN. And there's only one way to do that.
+我需要清醒一下，\PN。而且只有一个办法。
+Let's battle! Maybe that'll help me get my head on straight.
+我们对战吧！也许这能帮助我理清思路。
+Take all the time you need.
+慢慢来。
+I'll just wait here, with my thoughts.
+我就在这里等着，带着我的思绪。
+Wow! I feel...
+哇！我感觉……
+I... feel...
+我……感觉……
+The ghosts?
+那些幽灵？
+That stone?
+那块石头？
+You ok?
+你还好吗？
+Not yet.
+还没。
+Of course.
+当然。
 [5]
+Play Dead
+装死
+Stertor
+鼾声
+Sleepwalk Strike
+梦游打击
+Plummet
+坠落
+Sonic Shriek
+声波尖啸
+Spotting
+发现
+Astral Shift
+星体转移
+Possession
+附身
+Cleansing Flames
+净化之焰
+Sapping Jaw
+吸能之颚
+Advancing Voltage
+推进电压
+REM Burst
+快速眼动爆发
+Trickster's Domain
+Trickster 领域
+Absolute Zero
+绝对零度
+Carnage
+大屠杀
+Chow Down
+大吃特吃
+Devour
+吞噬
+Gnaw
+啃咬
+Slumbering Roar
+沉睡咆哮
+Toss n' Turn
+辗转反侧
+Dreamscape
+梦境
+Primeval Mirror Shield
+原始镜面盾
+Primeval Aromatherapy
+原始芳香疗法
+Primeval Spiky Shield
+原始尖刺盾
+Ideal World
+理想世界
+True Glory
+真正荣耀
+Empowered Moonblast
+强化月亮之力
 [6]
-[7]
-[8]
+The user traps the target by physically blocking its way or scaring it in place.
+使用者通过物理阻挡目标的去路或将其吓住来困住目标。
+The user draws attention to itself, making all foes' moves get redirected to the user this turn.
+使用者吸引注意力，使本回合所有对手的招式都转移向使用者。
+The user emits a snoring sound. This move can only be used while asleep.
+使用者发出鼾声。此招式只能在睡眠状态下使用。
+The user attacks with a cloud of white smoke. This resets the target's positive stat changes.
+使用者用一团白烟攻击。这会重置目标的正面能力变化。
+The target is struck by a pulse of negative energy. This resets the target's positive stat changes.
+目标被负能量脉冲击中。这会重置目标的正面能力变化。
+The user suddenly falls asleep for one turn, making enemies drop their guard, lowering their Defense and Sp. Def by four steps.
+使用者突然沉睡一回合，使敌人放松警惕，降低其防御和特防四级。
+The user emits a deep, rumbling snore. This move can only be used while asleep.
+使用者发出深沉的隆隆鼾声。此招式只能在睡眠状态下使用。
+The user mimics Kung Fu techniques while sleeping. This move can only be used while asleep.
+使用者在睡梦中模仿功夫技巧。此招式只能在睡眠状态下使用。
+The user falls from up high, crushing the target beneath. This move does 30% more damage if the user is asleep.
+使用者从高处坠落，将目标压在下方。如果使用者处于睡眠状态，此招式伤害提升30%。
+The user swoops into battle with a piercing shriek, flinching the target. It only works the first turn the user is in battle.
+使用者以刺耳尖啸俯冲入战，使目标畏缩。仅在使用者上场的第一回合有效。
+The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
+使用者协助同伴，使其下一次攻击的威力和命中率提升50%。
+The user attacks with sticky slime, rendering the target's item unusable.
+使用者用黏性黏液攻击，使目标的道具无法使用。
+The user attacks by flattening the target into the ground. This resets the target's positive stat changes.
+使用者将目标压扁到地面进行攻击。这会重置目标的正面能力变化。
+Protects the user and its allies from spread moves this turn and foes' moves get redirected to the user. Fails if used in succession.
+本回合保护使用者及其同伴免受扩散招式影响，对手的招式转移向使用者。连续使用会失败。
+All foes have their Attack and Sp. Atk lowered. All foes' moves get redirected to the user this turn.
+所有对手的攻击和特攻降低。本回合所有对手的招式都转移向使用者。
+The user goes into another plane and displaces the target's soul. This move does 30% more damage if the user is asleep.
+使用者进入另一个位面并置换目标的灵魂。如果使用者处于睡眠状态，此招式伤害提升30%。
+The target begins transforming into gold. They lose 1/8th HP every turn, scattering ten times as many coins as health lost.
+目标开始变成黄金。它们每回合失去最大HP的1/8，散落的硬币数量为失去生命值的十倍。
+The user makes the target hit itself by possessing its body. This move does 50% more damage if the target is asleep.
+使用者通过附身目标的身体使其攻击自己。如果目标处于睡眠状态，此招式伤害提升50%。
+Guaranteed to critical hit if the target has stat step changes. The target is cleansed, reseting their stat changes.
+如果目标有能力阶级变化，必定会心一击。目标被净化，重置其能力变化。
+The user communes with全世界的水，使目标水浸并在自身周围形成水流环，每回合恢复10%HP。
+使用者与全世界的水沟通，使目标水浸并在自身周围形成水流环，每回合恢复10%HP。
+The user wakes to unleash devastating tides. Can only be used while asleep, and wakes the user up.
+使用者醒来释放毁灭性的潮汐。只能在睡眠状态下使用，并唤醒使用者。
+Saps an enemy lured into its jaws. If they hit the user this turn, the user's HP is restored by 66% the damage dealt.
+吸取被诱入其颚中的敌人的能量。如果它们本回合击中使用者，使用者的HP恢复造成伤害的66%。
+Guaranteed to critical hit if the target has no stat step changes. The target is surged forward, raising all its stats.
+如果目标没有能力阶级变化，必定会心一击。目标被向前推进，提升所有能力值。
+The user forces its dreams to manifest, attacking the opponent. This move can only be used while asleep.
+使用者强迫自己的梦境具现化，攻击对手。此招式只能在睡眠状态下使用。
+The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+使用者创造一个奇特的区域，在五回合内速度较慢的宝可梦先行动。
+The user chills all near foes so severely that their speed becomes zero.
+使用者将所有附近的敌人严重冰冻，使其速度变为零。
+The user rips and tears its way across the battlefield, damaging all near Pokémon and taking 50% recoil.
+使用者在战场上撕裂穿行，伤害所有附近的宝可梦并受到50%反作用力伤害。
+The user bites to drain the target's energy. The user's HP is restored by 50% of the damage dealt.
+使用者啃咬以吸取目标的能量。使用者的HP恢复造成伤害的50%。
+Sends hindering waves of energy forward, lowering hit foes' Evasion by four steps.
+向前发送阻碍性能量波，降低被击中对手的闪避四级。
+The user attacks with a flurry of claws.
+使用者用一连串爪击进行攻击。
+The user lets out a thunderous noise while sleeping. This move can only be used while asleep.
+使用者在睡眠中发出雷鸣般的噪音。此招式只能在睡眠状态下使用。
+The user swings aggressively while suffering from nightmares. This move can only be used while asleep.
+使用者在遭受噩梦时 aggressively 挥击。此招式只能在睡眠状态下使用。
+The user goes to sleep and enters a dreamscape. This sets Sanctuary on the user's side for eight turns.
+使用者入睡并进入梦境。在使用者的一方设置庇护所，持续八回合。
+The user raises its Sp. Def by two steps and gains the ability Feedback. User becomes Steel-type.
+使用者提升特防两级并获得反馈能力。使用者变为钢属性。
+The user heals all non-volatile status conditions on their side, gains the ability Stability, heals itself for 25% HP and becomes Grass-type.
+使用者治愈己方所有非异常状态，获得稳定能力，恢复自身25%HP并变为草属性。
+The user raises its Defense by two steps and gains the ability Iron Barbs. User becomes Grass-type.
+使用者提升防御两级并获得铁刺能力。使用者变为草属性。
+A move that only the avatar of Zekrom can use. All battlers gain Steel-type and have their stat changes reset.
+只有捷克罗姆化身才能使用的招式。所有战斗者获得钢属性并重置能力变化。
+A move that only the avatar of Reshiram can use. All battlers have all of their stats raised by two steps.
+只有莱希拉姆化身才能使用的招式。所有战斗者所有能力值提升两级。
+The user blasts all nearby foes with the moon's full power, lowering their Sp. Atk by three steps.
+使用者以月亮的全部力量轰击附近所有敌人，降低其特攻三级。
 [9]
+A held item. It prevents wild Pokémon encounters if the holder is the first one in the party.
+一个持有道具。如果持有者是队伍中的第一位，可以防止野生宝可梦遭遇。
+Reshiram's body, in stone form. An expert in ancient relics may be able to transform it.
+莱希拉姆的身体，石头形态。一位古代遗物专家可能能够转化它。
+Zekrom's body, in stone form. An expert in ancient relics may be able to transform it.
+捷克罗姆的身体，石头形态。一位古代遗物专家可能能够转化它。
 [10]
+Ambush Predator
+伏击掠食者
+Cold Fusion
+冷聚变
+Debugger
+调试者
+Grand Ideals
+伟大理想
+Harsh Truths
+严酷真相
+Luring Maw
+诱引之颚
+Molten Adapted
+熔融适应
+Plasma Adapted
+等离子适应
+Run Through
+贯穿
 [11]
-[12]
-[14]
-Brickbat
-Brickbat
-Zinnia
-Zinnia
-IgnitedxSoul
-IgnitedxSoul
-Drawingbox
-Drawingbox
-Lichenprincess
-Lichenprincess
-Tiki
-Tiki
-Splitmoon
-Splitmoon
-Steeb
-Steeb
-D
-D
-Jaggedthorn
-Jaggedthorn
-Darlvon
-Darlvon
-Minty
-Minty
-LunaFlare
-LunaFlare
-Valrex
-Valrex
-Jbsundown
-Jbsundown
-Miss Zesty
-Miss Zesty
-Riptide
-Riptide
-Attea
-Attea
-Bella
-Bella
-Kirbae
-Kirbae
-Pechapanda
-Pechapanda
-Lilypad
-Lilypad
-Envy
-Envy
-ValourDyke
-ValourDyke
-Errata
-Errata
-Fanfan
-Fanfan
-Manycrows
-Manycrows
-Chus
-Chus
-Eseria
-Eseria
-X
-X
-BRADY
-BRADY
-CONNER
-CONNER
-BRADLEY
-BRADLEY
-CYBIL
-CYBIL
-RODETTE
-RODETTE
-PEGGY
-PEGGY
-KEITH
-KEITH
-GRAYSON
-GRAYSON
-GLENN
-GLENN
-LILIANA
-LILIANA
-ELISE
-ELISE
-ZOEY
-ZOEY
-MANUEL
-MANUEL
-RUSS
-RUSS
-DUSTIN
-DUSTIN
-TINA
-TINA
-GILLIAN
-GILLIAN
-ZOE
-ZOE
-CHEN
-CHEN
-AL
-AL
-MITCH
-MITCH
-ANNE
-ANNE
-ALIZE
-ALIZE
-LAUREN
-LAUREN
-KIPP
-KIPP
-JASON
-JASON
-JOHN
-JOHN
-ANN
-ANN
-EILEEN
-EILEEN
-CARLIE
-CARLIE
-GORDON
-GORDON
-AYDEN
-AYDEN
-MARCO
-MARCO
-CIERRA
-CIERRA
-MARCY
-MARCY
-KATHY
-KATHY
-PEYTON
-PEYTON
-JULIAN
-JULIAN
-QUINN
-QUINN
-HAYLEE
-HAYLEE
-AMANDA
-AMANDA
-STACY
-STACY
-RAFAEL
-RAFAEL
-OLIVER
-OLIVER
-PAYTON
-PAYTON
-PAMELA
-PAMELA
-ELIZA
-ELIZA
-MARISA
-MARISA
-LEWIS
-LEWIS
-YOSHI
-YOSHI
-DESTIN
-DESTIN
-KEON
-KEON
-STUART
-STUART
-NESTOR
-NESTOR
-DERRICK
-DERRICK
-BRYSON
-BRYSON
-CLAYTON
-CLAYTON
-TRENTON
-TRENTON
-JENSON
-JENSON
-WESLEY
-WESLEY
-ANTON
-ANTON
-LAWSON
-LAWSON
-SAMMY
-SAMMY
-ARNIE
-ARNIE
-ADRIAN
-ADRIAN
-TRISTAN
-TRISTAN
-JULIANA
-JULIANA
-RYLEE
-RYLEE
-CHELSEA
-CHELSEA
-DANELA
-DANELA
-LIZBETH
-LIZBETH
-AMELIA
-AMELIA
-JILLIAN
-JILLIAN
-ABBIE
-ABBIE
-BRIANA
-BRIANA
-ANTONIO
-ANTONIO
-JADEN
-JADEN
-DAKOTA
-DAKOTA
-BRAYDEN
-BRAYDEN
-CORSON
-CORSON
-TREVIN
-TREVIN
-PATRICK
-PATRICK
-KADEN
-KADEN
-MAXWELL
-MAXWELL
-DARYL
-DARYL
-KENNETH
-KENNETH
-RICH
-RICH
-CADEN
-CADEN
-MARLON
-MARLON
-NASH
-NASH
-ROBBY
-ROBBY
-REECE
-REECE
-KATHRYN
-KATHRYN
-ELLEN
-ELLEN
-RAMON
-RAMON
-ARTHUR
-ARTHUR
-ALONDRA
-ALONDRA
-ADRIANA
-ADRIANA
-MALIK
-MALIK
-JILL
-JILL
-ERIK
-ERIK
-YAZMIN
-YAZMIN
-JAMAL
-JAMAL
-LESLIE
-LESLIE
-DAVE
-DAVE
-CARLO
-CARLO
-EMILIA
-EMILIA
-DALIA
-DALIA
-HITOMI
-HITOMI
-RICARDO
-RICARDO
-SHIZUKA
-SHIZUKA
-JOANA
-JOANA
-KELLY
-KELLY
-RAYNA
-RAYNA
-EVAN
-EVAN
-JORDAN
-JORDAN
-JOEL
-JOEL
-KRISTEN
-KRISTEN
-SELPHY
-SELPHY
-CHLOE
-CHLOE
-NORTON
-NORTON
-LUKAS
-LUKAS
-ZACH
-ZACH
-KAITLYN
-KAITLYN
-BREANNA
-BREANNA
-KENDRA
-KENDRA
-MOLLY
-MOLLY
-JAZMIN
-JAZMIN
-KELSEY
-KELSEY
-JALEN
-JALEN
-GRIFFEN
-GRIFFEN
-XANDER
-XANDER
-MARVIN
-MARVIN
-BRENNAN
-BRENNAN
-BALEY
-BALEY
-ZACKARY
-ZACKARY
-GABRIEL
-GABRIEL
-EMILY
-EMILY
-JORDYN
-JORDYN
-SOFIA
-SOFIA
-BRADEN
-BRADEN
-KAYDEN
-KAYDEN
-COOPER
-COOPER
-JULIA
-JULIA
-AMARA
-AMARA
-LYNN
-LYNN
-JOVAN
-JOVAN
-DOMINIC
-DOMINIC
-NIKOLAS
-NIKOLAS
-VALERIA
-VALERIA
-DELANEY
-DELANEY
-MEGHAN
-MEGHAN
-ROBERTO
-ROBERTO
-DAMIAN
-DAMIAN
-BRODY
-BRODY
-GRAHAM
-GRAHAM
-TYLOR
-TYLOR
-JAREN
-JAREN
-CORDELL
-CORDELL
-JAZLYN
-JAZLYN
-ZACHERY
-ZACHERY
-JOHAN
-JOHAN
-SHEA
-SHEA
-KAILA
-KAILA
-ISIAH
-ISIAH
-GARRETT
-GARRETT
-HAYLIE
-HAYLIE
-MEGAN
-MEGAN
-ISSAC
-ISSAC
-QUINTON
-QUINTON
-SALMA
-SALMA
-ANSLEY
-ANSLEY
-HOLDEN
-HOLDEN
-LUCA
-LUCA
-JAMISON
-JAMISON
-GUNNAR
-GUNNAR
-CRAIG
-CRAIG
-PIERCE
-PIERCE
-REGINA
-REGINA
-ALISON
-ALISON
-HANK
-HANK
-EARL
-EARL
-RAMIRO
-RAMIRO
-HUNTER
-HUNTER
-AIDEN
-AIDEN
-XAVIER
-XAVIER
-CLINTON
-CLINTON
-JESSE
-JESSE
-EDUARDO
-EDUARDO
-HAL
-HAL
-GAGE
-GAGE
-ARNOLD
-ARNOLD
-JARRETT
-JARRETT
-GARETT
-GARETT
-EMANUEL
-EMANUEL
-GUSTAVO
-GUSTAVO
-KAMERON
-KAMERON
-ALFREDO
-ALFREDO
-RUBEN
-RUBEN
-LAMAR
-LAMAR
-JAXON
-JAXON
-LOGAN
-LOGAN
-EMILEE
-EMILEE
-JOSIE
-JOSIE
-ARMANDO
-ARMANDO
-SKYLER
-SKYLER
-RUTH
-RUTH
-MELODY
-MELODY
-PEDRO
-PEDRO
-ERICK
-ERICK
-ELAINE
-ELAINE
-JOYCE
-JOYCE
-TODD
-TODD
-GAVIN
-GAVIN
-MALORY
-MALORY
-ESTHER
-ESTHER
-OSCAR
-OSCAR
-WILSON
-WILSON
-CLARE
-CLARE
-TESS
-TESS
-LEON
-LEON
-ALONZO
-ALONZO
-VINCE
-VINCE
-BRYON
-BRYON
-AVA
-AVA
-MIRIAM
-MIRIAM
-CARRIE
-CARRIE
-TYLER
-TYLER
-CHAZ
-CHAZ
-NELSON
-NELSON
-SHANIA
-SHANIA
-STELLA
-STELLA
-DORINE
-DORINE
-MADDOX
-MADDOX
-DAVIN
-DAVIN
-TREVON
-TREVON
-MATEO
-MATEO
-BRET
-BRET
-RAUL
-RAUL
-KAY
-KAY
-ELENA
-ELENA
-ALANA
-ALANA
-ALEXAS
-ALEXAS
-WESTON
-WESTON
-JASPER
-JASPER
-NADIA
-NADIA
-MIRANDA
-MIRANDA
-EMMA
-EMMA
-ROLANDO
-ROLANDO
-STANLY
-STANLY
-DARIO
-DARIO
-KARLEE
-KARLEE
-JAYLIN
-JAYLIN
-INGRID
-INGRID
-DELILAH
-DELILAH
-CARLY
-CARLY
-LEXIE
-LEXIE
-MILLER
-MILLER
-MARV
-MARV
-LAYTON
-LAYTON
-BROOKS
-BROOKS
-GREGORY
-GREGORY
-REESE
-REESE
-MASON
-MASON
-TOBY
-TOBY
-DOROTHY
-DOROTHY
-PIPER
-PIPER
-FINN
-FINN
-SAMIR
-SAMIR
-FIONA
-FIONA
-GLORIA
-GLORIA
-NICO
-NICO
-JEREMY
-JEREMY
-CAITLIN
-CAITLIN
-REENA
-REENA
-AVERY
-AVERY
-LIAM
-LIAM
-THEO
-THEO
-BAILEY
-BAILEY
-HUGO
-HUGO
-BRYCE
-BRYCE
-GIDEON
-GIDEON
-TRISTON
-TRISTON
-CHARLES
-CHARLES
-RAYMOND
-RAYMOND
-DIRK
-DIRK
-HAROLD
-HAROLD
-OMAR
-OMAR
-PETER
-PETER
-DEV
-DEV
-COREY
-COREY
-ANDRE
-ANDRE
-FERRIS
-FERRIS
-ALIVIA
-ALIVIA
-PAIGE
-PAIGE
-ANYA
-ANYA
-DAWN
-DAWN
-ABBY
-ABBY
-GRETEL
-GRETEL
-[18]
+Moves that cause the user to become hidden deal additional damage equal to half this Pokémon's level.
+使使用者进入隐藏状态的招式造成额外伤害，数值等于这只宝可梦等级的一半。
+All foes' moves get redirected to this Pokémon while it's on the field.
+当这只宝可梦在场时，所有对手的招式都转移向它。
+Immune to Fire- and Electric-type moves and raises Attack and Sp. Atk by two steps if hit by one.
+免疫火属性和电属性招式，如果被击中则提升攻击和特攻两级。
+Powers up super-effective or hyper-effective moves by 30%.
+超级有效或极有效招式威力提升30%。
+While this Pokémon is on the field, super-effective or hyper-effective moves are boosted by 50%.
+当这只宝可梦在场时，超级有效或极有效招式威力提升50%。
+While this Pokémon is on the field, not-very-effective or barely-effective moves are boosted by 50%.
+当这只宝可梦在场时，不太有效或几乎无效招式威力提升50%。
+Draws in moves from foes with non-volatile status conditions.
+吸引处于非异常状态的对手的招式。
+This Pokémon is also Fire-type. Powers up moves of the same type by 33%.
+这只宝可梦也是火属性。同类型招式威力提升33%。
+This Pokémon is also Electric-type. Powers up moves of the same type by 33%.
+这只宝可梦也是电属性。同类型招式威力提升33%。
+If this Pokémon would faint while rampaging, it faints when the rampage ends instead. Its rampages last an additional turn.
+如果这只宝可梦在狂暴状态下昏倒，它会在狂暴结束后才昏倒。它的狂暴持续额外一回合。
 [19]
-[20]
+Hollowed Layer
+空洞层
 [21]
-[22]
-[23]
+453
+Deep Dissipated Plane
+深层消散平面
+454
+Old Back Room
+旧后室
+455
+Karanfil Estates
+卡兰菲尔庄园
 [24]
-TM {1}
-TM {1}
-HM {1}
-HM {1}
-{1} +{2}
-{1} +{2}
-{1} TMs
-{1} TMs
-{1} HMs
-{1} HMs
-{1} ({2})
-{1} ({2})
-HP
-HP
-.\|.\|.\|.\|.\|
-.\|.\|.\|.\|.\|
-<u>???</u>
-<u>???</u>
-<<[>>{1}/{2}<<]>>
-<<[>>{1}/{2}<<]>>
-IDNo.<r>{1}<br>
-IDNo.<r>{1}<br>
-No. ???
-No. ???
-No. {1:03d}
-No. {1:03d}
-Lv. {1}
-Lv. {1}
-IDNo.{1}
-IDNo.{1}
-PP
-PP
-{1}/{2}
-{1}/{2}
->99
->99
-x{1}
-x{1}
-♂
-♂
-♀
-♀
-ID No.
-ID No.
-<c3=F8F8F8{2},686868>{1}
-<c3=F8F8F8{2},686868>{1}
-<c3=404040{2},B0B0B0>{1}
-<c3=404040{2},B0B0B0>{1}
-${1}
-${1}
-{1}h {2}m
-{1}h {2}m
-{1}m
-{1}m
-\wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
-\wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
-x{1:03d}
-x{1:03d}
-x{1: 3d}
-x{1: 3d}
-x{1: 2d}
-x{1: 2d}
-1
-1
-2
-2
-3
-3
-4
-4
-5
-5
-6
-6
-12
-12
-18
-18
-24
-24
-#{pokemon.name} Lv. #{pokemon.level.to_s}
-#{pokemon.name} Lv. #{pokemon.level.to_s}
-{1} (PP: ---)
-{1} (PP: ---)
-{1} (PP: {2}/{3})
-{1} (PP: {2}/{3})
-x{1}<r>{2}
-x{1}<r>{2}
-<ac>{1:02d}:{2:02d}
-<ac>{1:02d}:{2:02d}
-{1}K
-{1}K
-{1}M
-{1}M
-{1}B
-{1}B
-{1}T
-{1}T
-<ac><c3={1}>{2}</c3></ac>
-<ac><c3={1}>{2}</c3></ac>
-#{title}
-#{title}
-...
-...
-...{1}...
-...{1}...
-{1}{2} {3}
-{1}{2} {3}
-50/50
-50/50
-{1:d}'{2:02d}"
-{1:d}'{2:02d}"
-{1:4.1f} lbs.
-{1:4.1f} lbs.
-{1:.1f} m
-{1:.1f} m
-{1:.1f} kg
-{1:.1f} kg
-E
-E
-<b>{1}</b> {2}
-<b>{1}</b> {2}
-{1}: {2} ({3}\%)
-{1}: {2} ({3}\%)
-A-Z
-A-Z
-Z-A
-Z-A
-\ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
-\ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
-<imp>{1}</imp>
-<imp>{1}</imp>
-\ss#{msg}\<<1>>
-\ss#{msg}\<<1>>
-{1} #{aboveHalfHealth? ? 'deactivated' : 'activated'}!
-{1} #{aboveHalfHealth? ? 'deactivated' : 'activated'}!
-<u>{1} - {2} {3}:</u> 75%
-<u>{1} - {2} {3}:</u> 75%
-<u>{1} - {2} {3}:</u> 50%
-<u>{1} - {2} {3}:</u> 50%
-<u>{1} - {2} {3}:</u> 25%
-<u>{1} - {2} {3}:</u> 25%
-<u>{1} - {2} {3}:</u> 12.5%
-<u>{1} - {2} {3}:</u> 12.5%
-<u>100% HP:</u> 100 BP
-<u>100% HP:</u> 100 BP
-<u>50% HP:</u> 200 BP
-<u>50% HP:</u> 200 BP
-<u>30% HP:</u> 280 BP
-<u>30% HP:</u> 280 BP
-<u>20% HP:</u> 400 BP
-<u>20% HP:</u> 400 BP
-<u>15% HP:</u> 480 BP
-<u>15% HP:</u> 480 BP
-<u>10% HP:</u> 660 BP
-<u>10% HP:</u> 660 BP
-<u>7.5% HP:</u> 800 BP
-<u>7.5% HP:</u> 800 BP
-<u>50% HP:</u> 65 BP
-<u>50% HP:</u> 65 BP
-<u>75% HP:</u> 95 BP
-<u>75% HP:</u> 95 BP
-<u>100% HP:</u> 130 BP
-<u>100% HP:</u> 130 BP
-<u>125% HP:</u> 160 BP
-<u>125% HP:</u> 160 BP
-<u>150% HP:</u> 195 BP
-<u>150% HP:</u> 195 BP
-<u>100% HP:</u> 25 BP
-<u>100% HP:</u> 25 BP
-<u>50% HP:</u> 50 BP
-<u>50% HP:</u> 50 BP
-<u>30% HP:</u> 70 BP
-<u>30% HP:</u> 70 BP
-<u>20% HP:</u> 100 BP
-<u>20% HP:</u> 100 BP
-<u>15% HP:</u> 120 BP
-<u>15% HP:</u> 120 BP
-<u>10% HP:</u> 165 BP
-<u>10% HP:</u> 165 BP
-<u>7.5% HP:</u> 200 BP
-<u>7.5% HP:</u> 200 BP
-<u>{1} - {2} {3}:</u> 25 BP
-<u>{1} - {2} {3}:</u> 25 BP
-<u>{1} - {2} {3}:</u> 50 BP
-<u>{1} - {2} {3}:</u> 50 BP
-<u>{1} - {2} {3}:</u> 100 BP
-<u>{1} - {2} {3}:</u> 100 BP
-<u>{1} - {2} {3}:</u> 140 BP
-<u>{1} - {2} {3}:</u> 140 BP
-<u>>{1} {2}:</u> 160 BP
-<u>>{1} {2}:</u> 160 BP
-{1}<<1>>
-{1}<<1>>
-{1}
-{1}
-{1}: {2}
-{1}: {2}
-\cl\l[5]\op\wu\i[{1}]\or{2}\wt[30]
-\cl\l[5]\op\wu\i[{1}]\or{2}\wt[30]
-\i[{1}]{2}
-\i[{1}]{2}
-{1} x{2}
-{1} x{2}
-{1}-{2}
-{1}-{2}
-{1} - ${2}
-{1} - ${2}
--
--
-{1} {2} ({3}) x{4}
-{1} {2} ({3}) x{4}
-{1} {2} x{3}
-{1} {2} x{3}
-\wm\ss<i>{1}</i>
-\wm\ss<i>{1}</i>
-\wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
-\wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
-\cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
-\cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
-\wm\<ac>\c<<[>>2<<]>>{1}</c><<n>>{2}</ac>\wtnp<<[>>{3}<<]>>
-\wm\<ac>\c<<[>>2<<]>>{1}</c><<n>>{2}</ac>\wtnp<<[>>{3}<<]>>
-<u>{1}</u>
-<u>{1}</u>
-Lv. 70
-Lv. 70
-<ac>00:00
-<ac>00:00
-? ? ? ?
-? ? ? ?
-GF
-GF
-[27]
-[28]
-[29]
-[30]
-[31]
+Progression
+进展
+What field effects are there and what are their effects?
+有哪些场地效果，它们的效果是什么？
+Side Effects
+副作用
+What side effects are there and what are their effects?
+有哪些副作用，它们的效果是什么？
+Stockpile
+蓄力
+Can be stacked 2 times. Reduces damage taken by 30% for 1 stack or 51% for 2 stacks.
+可叠加2次。1层减少30%受到的伤害，2层减少51%。
+Aqua Ring
+水流环
+A Pokémon affected by Aqua Ring restores 10% HP at the end of each turn.
+受到水流环影响的宝可梦每回合结束时恢复10%HP。
+Energized
+充能
+When Energized, a Pokémon's next used Electric-type move does double damage.
+处于充能状态时，宝可梦下一次使用的电属性招式伤害翻倍。
+What are field effects?
+什么是场地效果？
+Field effects are special effects that affect the entire battlefield. Multiple field effects can be active at the same time.
+场地效果是影响整个战场的特殊效果。多个场地效果可以同时生效。
+Field Effect Duration
+场地效果持续时间
+Field effects last a certain number of turns. The length differs depending on what move or ability summoned the field effect. Some durations can be enhanced by certain items.
+场地效果持续一定回合数。持续时间因召唤场地效果的招式或特性而异。某些道具可以延长持续时间。
+Room Effects
+房间效果
+Puzzle Room, Odd Room and Polarized Room are rooms. Multiple can be active at the same time. Their duration can be doubled with the Reinforcing Rod item.
+谜题房间、奇异房间和极化房间是房间效果。多个可以同时生效。它们的持续时间可以用强化棒道具翻倍。
+Puzzle Room
+谜题房间
+Puzzle Room swaps each Pokémon's Attack and Sp. Attack stats.
+谜题房间交换每只宝可梦的攻击和特攻能力值。
+Odd Room
+奇异房间
+Odd Room swaps each Pokémon's Attack and Defense and Sp. Attack and Sp. Defense.
+奇异房间交换每只宝可梦的攻击和防御、特攻和特防能力值。
+Polarized Room
+极化房间
+Polarized Room raises super- and hyper-effective damage by 25% and lowers not-very and barely-effective damage by 25% of all Pokémon.
+极化房间提升所有宝可梦超级有效和极有效伤害25%，降低不太有效和几乎有效伤害25%。
+Gravity
+重力
+Gravity grounds all Pokémon, doubles their weight, and doubles all move Accuracy.
+重力使所有宝可梦 grounded，体重翻倍，所有招式命中率翻倍。
+Grey Mist
+灰雾
+Grey Mist resets all positive and negative stat changes back to neutral at the end of every turn.
+灰雾在每回合结束时将所有正面和负面的能力变化重置为中性。
+Floral Gramarye
+花之魔法
+Floral Gramarye heals every Pokémon on the field for 1/8th HP at the end of every turn.
+花之魔法在每回合结束时为场上所有宝可梦恢复最大HP的1/8。
+Side effects are special effects that affect only one side. Multiple side effects can be active at the same time.
+副作用是影响单方的特殊效果。多个副作用可以同时生效。
+Side effects last a certain number of turns. The length differs depending on what move or ability summoned the field effect. Some durations can be enhanced by certain items.
+副作用持续一定回合数。持续时间因召唤场地效果的招式或特性而异。某些道具可以延长持续时间。
+Screen Effects
+屏障效果
+Reflect, Light Screen, Aurora Veil, Sanctuary and Repulsion Field are screens. These effects do not stack with one another. Their duration can be enhanced with the Light Clay item.
+反射壁、光墙、极光幕、庇护所和排斥力场是屏障效果。这些效果不会互相叠加。它们的持续时间可以用光之黏土道具延长。
+Reflect
+反射壁
+Reflect lowers damage from incoming physical moves by 50% in a Singles battle or 33% in a Doubles/Triples battle.
+反射壁在单打对战中降低受到的物理招式伤害50%，在双打/三打对战中降低33%。
+Light Screen
+光墙
+Light Screen lowers damage from incoming special moves by 50% in a Singles battle or 33% in a Doubles/Triples battle.
+光墙在单打对战中降低受到的特殊招式伤害50%，在双打/三打对战中降低33%。
+Aurora Veil
+极光幕
+Aurora Veil lowers damage from incoming moves by 50% in a Singles battle or 33% in a Doubles/Triples battle. It can only be used during Hail.
+极光幕在单打对战中降低受到的所有招式伤害50%，在双打/三打对战中降低33%。只能在冰雹天气下使用。
+Sanctuary
+庇护所
+Sanctuary lowers damage from incoming moves by 25% in a Singles battle or 20% in a Doubles/Triples battle. It also prevents incoming critical hits.
+庇护所在单打对战中降低受到的所有招式伤害25%，在双打/三打对战中降低20%。还可以防止受到会心一击。
+Repulsion Field
+排斥力场
+Repulsion Field lowers damage from incoming moves with 100 BP or more by 50% in a Singles battle or 33% in a Doubles/Triples battle.
+排斥力场在单打对战中降低受到威力100或以上的招式伤害50%，在双打/三打对战中降低33%。
+Pledge Effects
+誓约效果
+Sea of Fire, Swamp and Rainbow are Pledge effects. They are acquired by using 2 different Pledge moves in the same turn.
+火海、沼泽和彩虹是誓约效果。通过在同一回合使用两种不同的誓约招式获得。
+Sea of Fire
+火海
+Sea of Fire is created on the opposing side by combining Fire- and Grass Pledge. Non-Fire-type Pokémon take 1/8th HP damage at the end of each turn.
+火海通过组合火之誓约和草之誓约在对手一侧创造。非火属性宝可梦每回合结束时受到最大HP的1/8伤害。
+Swamp
+沼泽
+Swamp is created on the opposing side by combining Water- and Grass Pledge. Halves the Speed stat of all Pokémon on the active side.
+沼泽通过组合水之誓约和草之誓约在对手一侧创造。使活跃方所有宝可梦的速度减半。
+Rainbow
+彩虹
+Rainbow is created on the opposing side by combining Fire- and Water Pledge. Doubles the chance of random added effects against all Pokémon on the active side.
+彩虹通过组合火之誓约和水之誓约在对手一侧创造。使对活跃方所有宝可梦的随机附加效果几率翻倍。
+Tailwind
+顺风
+Tailwind doubles the Speed stat of all Pokémon on the active side.
+顺风使活跃方所有宝可梦的速度翻倍。
+Natural Protection
+自然保护
+Natural Protection halves recoil damage and other passive damage like burn or sandstorm on the active side.
+自然保护使活跃方受到的反作用力伤害和其他被动伤害如灼伤或沙暴减半。
+Coral Overgrowth
+珊瑚过度生长
+Coral Overgrowth causes attacks against the opponent to heal the user for 33% of the damage dealt. This can also overheal.
+珊瑚过度生长使攻击对手时使用者恢复造成伤害的33%。这也可以超额恢复。
+Wishing Well
+许愿井
+Wishing Well consumes up to 1000 scattered coins to block random added effects and heal the active side for 1/16th HP each turn. 100 coins per turn for a max. of 10 turns.
+许愿井消耗最多1000枚散落的硬币来阻挡随机附加效果，并每回合为活跃方恢复最大HP的1/16。每回合100枚硬币，最多10回合。
+Rock- and Ground-types gain a 50% boost to Special Defense. Deals sandstorm damage at end of turn. Pokémon not immune to Sandstorm take 50% more HP-fraction-based damage.
+岩石属性和地面属性宝可梦特防提升50%。回合结束时造成沙暴伤害。不免疫沙暴的宝可梦受到基于HP百分比的伤害增加50%。
+Ice- and Ghost-types gain a 50% boost to Defense. Deals hail damage at end of turn. Pokémon struck by the hail become unable to heal.
+冰属性和幽灵属性宝可梦防御提升50%。回合结束时造成冰雹伤害。被冰雹击中的宝可梦无法恢复HP。
+Swap Ability
+交换特性
+3.4 Changelog
+3.4更新日志
+Level cap {1}
+等级上限{1}
+The trainer exudes an overwhelming negative energy!
+训练家散发出压倒性的负能量！
+Keldeo gallops in to protect the King's tomb!
+凯路迪欧疾驰而来保护国王的陵墓！
+{1} combines song and dance!
+{1}结合了歌舞！
+{1} takes aim at {2}'s {3}!
+{1}瞄准了{2}的{3}！
+Pressure of Perfection
+完美压力
+You immediately white out if one of your Pokémon faints.
+如果你的宝可梦有一只昏倒，你会立即白屏。
+You're overwhelmed by the power of the curse!
+你被诅咒的力量压倒了！
+Oh, hiiii Kyurem! You being a good Pokemon for my friend?
+哦，嗨嗨酋雷姆！你有好好做我朋友的好宝可梦吗？
+It's really COOL of you to bring it like I asked.
+你能按我说的带来，真是太酷了。
+{1} boosts all super effective or hyper effective attacks!
+{1}增强所有超级有效或极有效的攻击！
+{1} boosts all not very effective or barely effective attacks!
+{1}增强所有不太有效或几乎无效的攻击！
+{1} intensifies fractional damage!
+{1}增强基于百分比的伤害！
+{1} has fused with fire!
+{1}与火焰融合了！
+{1} has fused with electricity!
+{1}与电流融合了！
+{1} is turning into gold!
+{1}正在变成黄金！
+{1} is afflicted by the pharaoh's curse!
+{1}受到了法老的诅咒！
+But {1} it failed! No battler can gain Steel-type or has any altered stat steps!
+但是{1}失败了！没有战斗者能获得钢属性或有任何改变的能力阶级！
+The world has moved forward!
+世界已经前进了！
+But {1} it failed! No battler can have any of its stats raised!
+但是{1}失败了！没有战斗者能提升任何能力值！
+Glory has been revealed!
+荣耀已经揭示！
+But it failed, since {1} is already experiencing the pharaoh's curse!
+但是失败了，因为{1}已经在经历法老的诅咒了！
+{1}'s stat changes were cleansed by fire!
+{1}的能力变化被火焰净化了！
+{1}'s stats are advanced by an energy surge!
+{1}的能力值被能量 surge 提升了！
+Can be stacked up to 3 layers.
+最多可叠加3层。
+Does more damage the more layers there are on the field.
+场上层数越多，造成的伤害越高。
+<u>1 Layer:</u> 1/8th
+<u>1层：</u> 1/8
+<u>2 Layers:</u> 1/6th
+<u>2层：</u> 1/6
+<u>3 Layers:</u> 1/4th
+<u>3层：</u> 1/4
+Can be stacked up to 2 layers.
+最多可叠加2层。
+Causes damage or status depending on the number of layers.
+根据层数造成伤害或异常状态。
+Grounded Poison-types absorb 1 layer on switch-in.
+地面上的毒属性宝可梦替换上场时吸收1层。
+<u>1 Layer:</u> 1/16th
+<u>1层：</u> 1/16
+<u>2 Layers:</u> causes Poison
+<u>2层：</u> 造成中毒
+Grounded Fire-types absorb 1 layer on switch-in.
+地面上的火属性宝可梦替换上场时吸收1层。
+<u>2 Layers:</u> causes Burn
+<u>2层：</u> 造成灼伤
+Grounded Ice-types absorb 1 layer on switch-in.
+地面上的冰属性宝可梦替换上场时吸收1层。
+<u>2 Layers:</u> causes Frostbite
+<u>2层：</u> 造成冻伤
+{1} was slowed to zero!
+{1}被减速到零！
+{1} played dead!
+{1}装死了！
+Using my own technology against us, I see.
+用我自己的技术来对付我们，我明白了。
+I suppose I should be flattered.
+我想我应该感到受宠若惊。
+The blizzard is too strong! You cannot go this way!
+暴风雪太猛烈了！你不能走这条路！
+A {1} emerged from the wormhole!
+一只{1}从虫洞中出现了！
+Was this an attempt at a gaff?
+这是想开个玩笑吗？
+Prank the dottering old man, eh?
+戏弄这个步履蹒跚的老人，是吧？
+I've not gone blind yet, fledgling!
+我还没瞎呢，雏鸟！
+Error! Could not determine how to revive the given stone.
+错误！无法确定如何复活给定的石头。
+I have never been more overcome with emotion than in this very moment.
+我从未像此刻这样情绪激动。
+It's beautiful.
+太美了。
+Here, take it.
+给你，拿着它。
+All I ask is that you appreciate it for many years, young one.
+我只求你多年来一直珍惜它，年轻人。
+Investigate the voices.
+调查声音。
+Carnation Stockpile
+康乃馨储备
+You heard some strange voices echoing deep in a cave. Who will you encounter, if you decide to investigate where they're coming from?
+你听到一些奇怪的声音在洞穴深处回响。如果你决定调查声音的来源，你会遇到谁？
+Cold Reality
+冷酷现实
+Meet Vanya for a battle.
+与瓦尼亚见面进行对战。
+Investigate Vanya's mind.
+调查瓦尼亚的思想。
+Find the dragon stones.
+寻找龙之石。
+Find and rescue Vanya.
+找到并救出瓦尼亚。
+Split Peaks
+裂峰
+Frostflow Farms...?
+霜流农场……？
+Shaken by their loss at the tournament, Vanya needs time to think and a good battling partner: you.
+因在锦标赛中失利而深受打击，瓦尼亚需要时间思考，以及一个好的对战伙伴：你。
+Please enter a valid trainer ID of 5 digits.
+请输入有效的5位数训练家ID。
+I'm sorry, that trainer connected to someone else with the same ID as you.
+抱歉，那位训练家连接到了另一个与你ID相同的人。
+Gimme 5 minutes.
+给我5分钟。
+Yup!
+是的！
+Using that item again?
+又要用那个道具了？
+Seems fun!
+看起来很有趣！
+It's family business.
+这是家事。
+I have bigger concerns.
+我有更重要的事情要关心。
+It was fun!
+很有趣！
+It was family business.
+这是家事。
+Absolutely.
+当然。
+Feel cold to you?
+你觉得冷吗？
+No, wait.
+不，等等。
+Agreed.
+同意。
+What's going on?
+怎么了？
+I get that.
+我明白。
+Is it really that bad?
+真的有那么糟吗？
+Skill issue.
+技术问题。
+That weird item...?
+那个奇怪的道具……？
+You good at that price?
+那个价格你可以吗？
+The ghosts?
+那些幽灵？
+That stone?
+那块石头？
+You ok?
+你还好吗？
+Cower
+畏缩
+Battleth
+战斗
 [32]
+Hit and Run Switch
+打了就跑替换
+Trickster's Domain
+Trickster 领域
 [33]
+The Final Straw
+最后一根稻草
 [34]
+Defeat Pokémon Master Vanya with a full team of genderless Pokémon.
+用全性别不明队伍击败宝可梦大师瓦尼亚。
+Defeat Another Possible Rafael in the Path of Paradise.
+在天堂之路击败另一个可能的拉斐尔。
 [1313]
+Whimsical Boy
+异想天开的男孩
