@@ -16,13 +16,18 @@ def martStock
     return stock
 end
 
+def setPokeMartPrices
+	setPrice(:SITRUSBERRY,2000)
+	setPrice(:EXPCANDYXS,100)
+end
+
 def basicPokeMart
-    setPrice(:SITRUSBERRY,2000)
+    setPokeMartPrices
     pbPokemonMart(martStock)
 end
 
 def rangerMart
-    setPrice(:SITRUSBERRY,2000)
+    setPokeMartPrices
     if vipCardActive?
         message = _INTL("You a big shot, huh? Well, we're here to supply you.")
     else
