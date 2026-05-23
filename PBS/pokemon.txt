@@ -14506,7 +14506,7 @@ Weight = 31.0
 Kind = Trash Bag
 Pokedex = Inhaling the gas they belch will make you sleep for a week. They prefer unsanitary places.
 Generation = 5
-WildItemCommon = NUGGET
+WildItemUncommon = NUGGET
 Evolutions = GARBODOR,Level,25
 #-------------------------------
 [GARBODOR]
@@ -14526,6 +14526,7 @@ Weight = 107.3
 Kind = Trash Heap
 Pokedex = Consuming garbage makes new kinds of poison gases and liquids inside their bodies.
 Generation = 5
+WildItemUncommon = NUGGET
 Evolutions = DONSTER,Level,40
 #-------------------------------
 [DONSTER]
@@ -14545,6 +14546,7 @@ Height = 2.4
 Weight = 443.1
 Kind = Landfill
 Pokedex = It's unclear what the objects embedded in its body are or where they came from. More must be added over time, though, as anything it absorbs is quickly dissolved.
+WildItemUncommon = NUGGET
 #-------------------------------
 [ZORUA]
 Name = Zorua
