@@ -6131,7 +6131,7 @@ Pokemon = FROSLASS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
 Pokemon = GOLURK,70
-    Moves = THUNDERPUNCH,DRAINPUNCH,THRUSTPULSE,TRAMPLE
+    Moves = THUNDERPUNCH,DRAINPUNCH,MACHPULSE,TRAMPLE
     AbilityIndex = 0 # Ultra Buster
     Item = SALACBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
