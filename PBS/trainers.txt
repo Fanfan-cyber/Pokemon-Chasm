@@ -8714,7 +8714,7 @@ Pokemon = SENSIBELLE,70
 Pokemon = MMILOTIC,70
     Moves = ARCOFHOPE,BODYPRESS,STANDTOGETHER,LIFEDEW
     AbilityIndex = 0 # Rainbow Guardian
-    Item = WILDCARD
+    Item = COVERTCLOAK
 #-------------------------------
 [VANYAMOM,Vidya]
 Flags = NoPerfect
