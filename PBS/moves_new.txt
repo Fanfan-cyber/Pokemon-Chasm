@@ -1238,13 +1238,13 @@ Animation = SUPERSONIC
 Name = Fury Pecks
 Type = FLYING
 Category = Physical
-Power = 20
+Power = 25
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect,CanRandomCrit
-Description = The target is jabbed repeatedly with a horn or beak that multi-hits two to five times. Can random critical hit.
+Flags = CanProtect
+Description = The target is jabbed repeatedly with a horn or beak that multi-hits two to five times.
 #-------------------------------
 [HOP]
 Name = Hop
@@ -5878,14 +5878,13 @@ Animation = BAR
 Name = Rapid Hertz
 Type = ELECTRIC
 Category = Special
-Power = 20
+Power = 25
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = HitTwoToFiveTimesNumb
+FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
-EffectChance = 10
-Description = The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
+Description = The target is struck with an electric current and multi-hit two to five times.
 Animation = THUNDERSHOCK
 #-------------------------------
 [REPULSIONFIELD]
