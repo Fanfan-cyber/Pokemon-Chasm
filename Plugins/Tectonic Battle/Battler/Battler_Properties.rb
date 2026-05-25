@@ -15,7 +15,7 @@ class PokeBattle_Battler
     attr_accessor :movesUsedThisTurn, :movesUsedLastTurn
 
     # Avatar stuff
-    attr_accessor  :boss, :avatarPhase
+    attr_accessor  :boss, :avatarPhase, :phaseTransitioning
     attr_accessor  :indicesTargetedThisRound, :indicesTargetedLastRound, :indicesTargetedRoundBeforeLast
     attr_accessor  :empoweredTimer, :dmgMult, :dmgResist
 

@@ -2048,10 +2048,6 @@ Flags = HailSynergy
 Name = Severe
 Description = Its attacks are critical against numbed targets.
 #-------------------------------
-[SHAREDSPOILS]
-Name = Shared Spoils
-Description = When this Pokémon removes a foe's item, choose a party member to hold it.
-#-------------------------------
 [SHARPSHOOTER]
 Name = Sharpshooter
 Description = Doubles the critical hit chance of random crit moves. This Pokémon's Speed is doubled while using them.

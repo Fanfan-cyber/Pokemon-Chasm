@@ -269,6 +269,7 @@ class PokeBattle_Battler
 
         # Boss stuff
         @avatarPhase           = 1
+        @phaseTransitioning    = false
         @empoweredTimer		   = 0
         @extraMovesPerTurn = 0
         @indicesTargetedRoundBeforeLast = []

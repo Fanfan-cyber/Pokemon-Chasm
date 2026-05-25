@@ -172,7 +172,8 @@ class PokeBattle_Battle
             b.pbCancelMoves # Cancels multi-turn moves
 
             # Use each empowered status move
-            b.eachEmpoweredStatusMove do |move, index|               
+            b.phaseTransitioning = true
+            b.eachEmpoweredStatusMove do |move, index|
                 if showMessages
                   if usedEmpoweredMove
                     pbDisplaySlower(_INTL("What?! Even more energy rises up from inside {1}!!", b.pbThis(true)))
@@ -180,10 +181,11 @@ class PokeBattle_Battle
                     pbDisplaySlower(_INTL("A great energy rises up from inside {1}!", b.pbThis(true)))
                   end
                 end
-                
+
                 b.pbUseMove([:UseMove, index, move, -1, 0])
                 usedEmpoweredMove = true
             end
+            b.phaseTransitioning = false
             
             next unless usedEmpoweredMove
 

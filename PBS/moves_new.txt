@@ -719,7 +719,7 @@ Accuracy = 0
 TotalPP = 10
 Target = NearOther
 FunctionCode = TransformTargetPreEvolution
-Flags = CanProtect
+Flags = CanProtect,CanMagicCoat
 Description = The user conjures up the past, transforming the target into their previous evolutionary form.
 Animation = TRANSFORM
 #-------------------------------
@@ -8017,6 +8017,19 @@ Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit,Slice
 Description = The user hacks at the target with great violence. Can random critical hit.
+#-------------------------------
+[SHAREDSPOILS]
+Name = Shared Spoils
+Type = DARK
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = StealsTargetItemForSelfOrPartyMember
+Flags = CanProtect
+Description = The user attacks and steals the foe's held item simultaneously. You then choose a party member to hold it.
+Animation = KNOCKOFF
 #-------------------------------
 [SPIKYBURST]
 Name = Spiky Burst

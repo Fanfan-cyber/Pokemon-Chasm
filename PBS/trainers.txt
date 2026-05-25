@@ -6132,7 +6132,7 @@ Pokemon = FROSLASS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
 Pokemon = GOLURK,70
-    Moves = THUNDERPUNCH,DRAINPUNCH,THRUSTPULSE,TRAMPLE
+    Moves = THUNDERPUNCH,DRAINPUNCH,MACHPULSE,TRAMPLE
     AbilityIndex = 0 # Ultra Buster
     Item = SALACBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -8600,7 +8600,7 @@ Pokemon = WEAVILE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = MDRAGALGE,70
-    Moves = POWERWHIP,RIPTIDE,HIGHJUMPKICK,SWORDSDANCE
+    Moves = POWERWHIP,RIPTIDE,WETWORK,SWORDSDANCE
     AbilityIndex = 0 # Sinking Feeling
     Item = SEVENLEAGUEBOOTS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -8715,7 +8715,7 @@ Pokemon = SENSIBELLE,70
 Pokemon = MMILOTIC,70
     Moves = ARCOFHOPE,BODYPRESS,STANDTOGETHER,LIFEDEW
     AbilityIndex = 0 # Rainbow Guardian
-    Item = WILDCARD
+    Item = COVERTCLOAK
 #-------------------------------
 [VANYAMOM,Vidya]
 Flags = NoPerfect

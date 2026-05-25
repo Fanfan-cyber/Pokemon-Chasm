@@ -52,6 +52,7 @@ class PokeBattle_Battler
         return false if shouldAbilityApply?(GameData::Ability.getByFlag("MoonglowSynergy"), checkingForAI)
         return false if hasActiveItem?(:COURAGEBADGE)
         return false if effectActive?(:FlinchImmunity)
+        return false if tyrannicalPreventsFlinch?
         return true
     end
 end

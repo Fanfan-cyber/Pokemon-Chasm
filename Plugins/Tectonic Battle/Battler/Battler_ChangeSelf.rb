@@ -210,7 +210,7 @@ class PokeBattle_Battler
             amt = 1 if amt < 1 && @hp < @totalhp
 
             # Cap boss healing at the next health boundary
-            if boss?
+            if boss? && !@phaseTransitioning
                 if @hp <= avatarPhaseLowerHealthBound && @hp + amt > avatarPhaseLowerHealthBound
                     amt = avatarPhaseLowerHealthBound - @hp
                 end

@@ -6512,7 +6512,7 @@ ShadowSize = 2
 #-------------------------------
 [TYRANITAR]
 BackSprite = 0,9
-FrontSprite = 3,10
+FrontSprite = 0,9
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
