@@ -2334,7 +2334,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [SUNCHASER]
 Name = Sun Chaser
-Description = Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine
+Description = Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine.
 Flags = SunshineSynergy
 #-------------------------------
 [SUNEATER]
