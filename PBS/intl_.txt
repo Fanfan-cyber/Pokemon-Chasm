@@ -614,14 +614,6 @@ East: Grouz
 East: Grouz
 North: Gigalith's Guts
 North: Gigalith's Guts
-Formation 4C, Gurdurr!
-Formation 4C, Gurdurr!
-Get ready to block 'em!
-Get ready to block 'em!
-Our defensive line collapsed...
-Our defensive line collapsed...
-We need to hit the gym. I hope Eko is taking challengers!
-We need to hit the gym. I hope Eko is taking challengers!
 Hey champ, how's it hanging?
 Hey champ, how's it hanging?
 Recently got a few uhh... assets, that I'm looking to sell. Fell off of a Trainer's backpack.
@@ -642,6 +634,14 @@ You missing the cash? Hmm.
 You missing the cash? Hmm.
 You've... got your own set of problems, huh?
 You've... got your own set of problems, huh?
+Formation 4C, Gurdurr!
+Formation 4C, Gurdurr!
+Get ready to block 'em!
+Get ready to block 'em!
+Our defensive line collapsed...
+Our defensive line collapsed...
+We need to hit the gym. I hope Eko is taking challengers!
+We need to hit the gym. I hope Eko is taking challengers!
 Oh… you destroyed it.
 Oh… you destroyed it.
 I was watching that avatar, and you just… dismissed it.
@@ -708,12 +708,6 @@ I swear, if our fourth was here, we'd kick your teeth in! Where'd that chick run
 I swear, if our fourth was here, we'd kick your teeth in! Where'd that chick run off to, anyways? She needs some teeth-kicking too...
 I've taken worse! If you think I'm done protecting the boss, you don't know me!
 I've taken worse! If you think I'm done protecting the boss, you don't know me!
-Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
-Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
-Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
-Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
-Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
-Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
 Excuse me! We were about to settle this in battle.
 Excuse me! We were about to settle this in battle.
 But, fine, I guess we can find common ground in disposing of you.
@@ -738,24 +732,30 @@ You too, you old hag.
 You too, you old hag.
 I think you'll find me back here so long as you keep trying to gain entrance, you entitled brat.
 I think you'll find me back here so long as you keep trying to gain entrance, you entitled brat.
+Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
+Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
+Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
+Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
+Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
+Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
 Those Evolution Stones are all ours! You can't have any!
 Those Evolution Stones are all ours! You can't have any!
 Aagh! Fine! I'll leave! I've got my evolutions, anyways.
 Aagh! Fine! I'll leave! I've got my evolutions, anyways.
 ...I'll be back. I'll be back, and if I ever see you again, things're gonna be different. I swear I'll...
 ...I'll be back. I'll be back, and if I ever see you again, things're gonna be different. I swear I'll...
-I refuse to let someone like her into the Academy.
-I refuse to let someone like her into the Academy.
-We have enough of her sort at the Academy as it stands...
-We have enough of her sort at the Academy as it stands...
+The berry plant is growing.
+The berry plant is growing.
 Yo...so I heard there was like, some items to steal on this route?
 Yo...so I heard there was like, some items to steal on this route?
 I got nothin' to say. You good at battling.
 I got nothin' to say. You good at battling.
 Bruh. Ok then, I guess.
 Bruh. Ok then, I guess.
-The berry plant is growing.
-The berry plant is growing.
+I refuse to let someone like her into the Academy.
+I refuse to let someone like her into the Academy.
+We have enough of her sort at the Academy as it stands...
+We have enough of her sort at the Academy as it stands...
 Listen, kid, I'm gonna give you one last warning: you can either hit the road, or bite the dust. No? Fine. We'll do it the hard way.
 Listen, kid, I'm gonna give you one last warning: you can either hit the road, or bite the dust. No? Fine.  We'll do it the hard way.
 Hah, well, you win some, you lose some. I'm not so broken up about it.
@@ -1267,6 +1267,18 @@ It was fun!
 It was family business.
 It was family business.
 [Map8]
+My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
+We still battle people, but like... in a chill way...
+We still battle people, but like... in a chill way...
+I'm gonna leave now. Don't like your vibes.
+I'm gonna leave now. Don't like your vibes.
+Can you feel the energy given off by those evolution stones?
+Can you feel the energy given off by those evolution stones?
+It's doing wonders for my stress.
+It's doing wonders for my stress.
+Is life worth living if you can't take time to be transfixed by the beauty of nature?
+Is life worth living if you can't take time to be transfixed by the beauty of nature?
 Hey there. Miss me?
 Hey there. Miss me?
 I finally got here – all thanks to you. I have to say, you don’t look a mite worse for wear considering how much wilderness you trekked through.
@@ -1353,30 +1365,6 @@ Something like a Fire or Sun Stone would clash, and a Leaf or Dusk Stone is more
 Something like a Fire or Sun Stone would clash, and a Leaf or Dusk Stone is more of what they already have.
 I promise it’s a good cause.
 I promise it’s a good cause.
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-My cousin and I like to hang out here. Take in the cool atmosphere and the night sky.
-We still battle people, but like... in a chill way...
-We still battle people, but like... in a chill way...
-I'm gonna leave now. Don't like your vibes.
-I'm gonna leave now. Don't like your vibes.
-Can you feel the energy given off by those evolution stones?
-Can you feel the energy given off by those evolution stones?
-It's doing wonders for my stress.
-It's doing wonders for my stress.
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
-Is life worth living if you can't take time to be transfixed by the beauty of nature?
-A notice about the Makyan Regional Tournament has been hastily scribbled over.
-A notice about the Makyan Regional Tournament has been hastily scribbled over.
-A note added below reads "Not Taking Challengers"
-A note added below reads "Not Taking Challengers"
-Velenz Gym
-Velenz Gym
-Leader: Rafael
-Leader: Rafael
-...
-...
-It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
-It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
 Improper planning ruined this place. I just know it.
 Improper planning ruined this place. I just know it.
 Founding a town over a cave system? In a swamp?
@@ -1393,12 +1381,18 @@ Hm, I didn't expect you to say no.
 Hm, I didn't expect you to say no.
 The math... I must have miscalculated...
 The math... I must have miscalculated...
-Temporary Velenz Ranger Outpost
-Temporary Velenz Ranger Outpost
-"Velenz, proud home of-"
-"Velenz, proud home of-"
-Claw marks on the sign render the text unreadable.
-Claw marks on the sign render the text unreadable.
+Velenz Gym
+Velenz Gym
+Leader: Rafael
+Leader: Rafael
+...
+...
+It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
+It seems like the Gym Leader was supposed to write a title here, but the space has been left blank.
+A notice about the Makyan Regional Tournament has been hastily scribbled over.
+A notice about the Makyan Regional Tournament has been hastily scribbled over.
+A note added below reads "Not Taking Challengers"
+A note added below reads "Not Taking Challengers"
 Don't tell the others, but I'm getting bored of waiting.
 Don't tell the others, but I'm getting bored of waiting.
 Well, might as well battle you before <i>they</i> arrive.
@@ -1415,6 +1409,12 @@ That mansion near the menagerie must have something to do with the light I saw.
 That mansion near the menagerie must have something to do with the light I saw.
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
 My cousin says I'm paranoid, but I definitely saw the place glowing last night.
+"Velenz, proud home of-"
+"Velenz, proud home of-"
+Claw marks on the sign render the text unreadable.
+Claw marks on the sign render the text unreadable.
+Temporary Velenz Ranger Outpost
+Temporary Velenz Ranger Outpost
 I thought this place was supposed to be scary.
 I thought this place was supposed to be scary.
 Just seems peaceful to me.
@@ -1431,10 +1431,12 @@ Got some rare things on sale, stranger!
 Got some rare things on sale, stranger!
 Come back anytime.
 Come back anytime.
-East: Repora Forest
-East: Repora Forest
-South: Barren Crater
-South: Barren Crater
+Shh.
+Shh.
+You want the stuff?
+You want the stuff?
+Forget you saw me.
+Forget you saw me.
 No earthlings allowed: that's the rule.
 No earthlings allowed: that's the rule.
 By the power of the Moon Stone, I will punish you!
@@ -1447,12 +1449,34 @@ I haven't been a real sailor since they scuttled my ship.
 I haven't been a real sailor since they scuttled my ship.
 I just like the clothes.
 I just like the clothes.
-Shh.
-Shh.
-You want the stuff?
-You want the stuff?
-Forget you saw me.
-Forget you saw me.
+East: Repora Forest
+East: Repora Forest
+South: Barren Crater
+South: Barren Crater
+There's supposed to be a gym leader around here, but he's not keen on taking challengers.
+There's supposed to be a gym leader around here, but he's not keen on taking challengers.
+He lives <imp>underground</imp> like some hermit.
+He lives <imp>underground</imp> like some hermit.
+Even locked himself up to make it harder to get in.
+Even locked himself up to make it harder to get in.
+Apparently the <imp>lock combination code</imp> is somewhere in the town.
+Apparently the <imp>lock combination code</imp> is somewhere in the town.
+This is all a bit too mental for me right now, so I'm taking a break.
+This is all a bit too mental for me right now, so I'm taking a break.
+A small handmade sign. It lists an eight-digit code in a big, blocky style.
+A small handmade sign. It lists an eight-digit code in a big, blocky style.
+Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
+Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
+I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
+I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
+It is, at its core, about dancing.
+It is, at its core, about dancing.
+His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
+His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
+If one was feeling particularly devilish, one could aquire a Hattrem.
+If one was feeling particularly devilish, one could aquire a Hattrem.
+That witch has a special ability which can prevent Pokemon from utilizing dance.
+That witch has a special ability which can prevent Pokemon from utilizing dance.
 Fighting me's better than fighting any of those Avatars, I'd wager. Prove me right?
 Fighting me's better than fighting any of those Avatars, I'd wager. Prove me right?
 Understood.
@@ -1473,30 +1497,6 @@ You unlocked Rafael's front door?! That sure saves me the time and frustration.
 You unlocked Rafael's front door?! That sure saves me the time and frustration.
 Much appreciated, fellow trainer! Off I go!
 Much appreciated, fellow trainer! Off I go!
-Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
-Rafael may have a layer of earth protecting him from the surface, but it doesn't protect him from my astral projection.
-I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
-I've been watching his battles with some fervor. I wish to grasp the essence of his strategy.
-It is, at its core, about dancing.
-It is, at its core, about dancing.
-His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
-His Oricorio and Alolan Marowak both gain power from dancing done by their allies.
-If one was feeling particularly devilish, one could aquire a Hattrem.
-If one was feeling particularly devilish, one could aquire a Hattrem.
-That witch has a special ability which can prevent Pokemon from utilizing dance.
-That witch has a special ability which can prevent Pokemon from utilizing dance.
-There's supposed to be a gym leader around here, but he's not keen on taking challengers.
-There's supposed to be a gym leader around here, but he's not keen on taking challengers.
-He lives <imp>underground</imp> like some hermit.
-He lives <imp>underground</imp> like some hermit.
-Even locked himself up to make it harder to get in.
-Even locked himself up to make it harder to get in.
-Apparently the <imp>lock combination code</imp> is somewhere in the town.
-Apparently the <imp>lock combination code</imp> is somewhere in the town.
-This is all a bit too mental for me right now, so I'm taking a break.
-This is all a bit too mental for me right now, so I'm taking a break.
-A small handmade sign. It lists an eight-digit code in a big, blocky style.
-A small handmade sign. It lists an eight-digit code in a big, blocky style.
 ooooooOOOOOooooooooo...
 ooooooOOOOOooooooooo...
 OOOOOOOOOOOOOOOooooooooooooooooo...
@@ -1527,6 +1527,10 @@ A gaggle of grunts set up a <imp>healing spot</imp>.
 A gaggle of grunts set up a <imp>healing spot</imp>.
 If you need me, I’ll be around, ready to battle at a moment’s notice!
 If you need me, I’ll be around, ready to battle at a moment’s notice!
+Oh, by the way, don't worry about pronouns for me—I like 'em all.
+Oh, by the way, don't worry about pronouns for me—I like 'em all.
+Well, they <i>can</i> get a bit stale after a while, so... mix it up!
+Well, they <i>can</i> get a bit stale after a while, so... mix it up!
 Why are you here?
 Why are you here?
 Is this going somewhere?
@@ -2719,12 +2723,6 @@ Any other memories?
 Where is she now?
 Where is she now?
 [Map26]
-\i[SPANNINGBAND]What? The Spanning Bands are suddenly glowing!
-\i[SPANNINGBAND]What? The Spanning Bands are suddenly glowing!
-\i[SPANNINGBAND]They glow in sync with the <imp>Avatar Totem</imp>.
-\i[SPANNINGBAND]They glow in sync with the <imp>Avatar Totem</imp>.
-\i[SPANNINGBAND]You sense that some sort of connection has been created.
-\i[SPANNINGBAND]You sense that some sort of connection has been created.
 What the...
 What the...
 Nevermind. Kid, I need some help.
@@ -3386,10 +3384,12 @@ Point is, surprise! You get two starters: One standard three-stage Grass, Water 
 Point is, surprise! You get two starters: One standard three-stage Grass, Water or Fire, you know the drill, but also a Normal-type.
 But first things first...
 But first things first...
-The <imp>MasterDex</imp> is a Pokédex, but it comes preloaded with data on every non-legendary species.
-The <imp>MasterDex</imp> is a Pokédex, but it comes preloaded with data on every non-legendary species.
+The <imp>MasterDex</imp> is a Pokédex, but it comes preloaded with data on every species.
+The <imp>MasterDex</imp> is a Pokédex, but it comes preloaded with data on every species.
 Moves, Abilities, stats, evolutions - it's all in there.
 Moves, Abilities, stats, evolutions - it's all in there.
+Though, if you prefer the thrill of discovery, you can have it hide the info until you've seen one.
+Though, if you prefer the thrill of discovery, you can have it hide the info until you've seen one.
 It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
 It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
 Both useful resources that I'm sure you can figure out on your own.
@@ -3398,10 +3398,18 @@ Now go pick out your first starter. I ain't got all day.
 Now go pick out your first starter. I ain't got all day.
 OK, next is the Normal-types.
 OK, next is the Normal-types.
-You may want to look these up in your MasterDex, using the <imp>search feature</imp>.
-You may want to look these up in your MasterDex, using the <imp>search feature</imp>.
-Skwovet, Zigzagoon, or Patrat?
-Skwovet, Zigzagoon, or Patrat?
+I've got a Skwovet, a Zigzagoon, and a Patrat.
+I've got a Skwovet, a Zigzagoon, and a Patrat.
+You may want to look them up in your MasterDex, using the <imp>search feature</imp>.
+You may want to look them up in your MasterDex, using the <imp>search feature</imp>.
+In case you've got the data hidden, let me just reveal those for you.
+In case you've got the data hidden, let me just reveal those for you.
+Each of those species has a signature move, and strong ones at that. It's good reading.
+Each of those species has a signature move, and strong ones at that. It's good reading.
+Let me know when you've made your choice.
+Let me know when you've made your choice.
+OK, now - Skwovet, Zigzagoon, or Patrat?
+OK, now - Skwovet, Zigzagoon, or Patrat?
 Alright, come back to me when you know what you want.
 Alright, come back to me when you know what you want.
 Sure, good choice. Now, uh... oh, yeah.
@@ -4822,12 +4830,6 @@ Hey, no trying to distract me from my job!
 Hey, no trying to distract me from my job!
 Call me the 'sue' chef, because I'm gonna sue Helena for damages... or something...
 Call me the 'sue' chef, because I'm gonna sue Helena for damages... or something...
-Are you just -- fine, yeah, go on ahead. Just don't step on the bridge!
-Are you just -- fine, yeah, go on ahead. Just don't step on the bridge!
-Helena's instructions were quite clear. Try to cross the bridge, we battle you.
-Helena's instructions were quite clear. Try to cross the bridge, we battle you.
-When we've healed up, you'll be sorry for crossing us--er, the bridge.
-When we've healed up, you'll be sorry for crossing us--er, the bridge.
 North: Canal Desert
 North: Canal Desert
 South: East Tunnel
@@ -4836,6 +4838,22 @@ West: LuxTech Campus
 West: LuxTech Campus
 An advertisement for LuxTech Technical Machines is painted under the directions.
 An advertisement for LuxTech Technical Machines is painted under the directions.
+Are you just -- fine, yeah, go on ahead. Just don't step on the bridge!
+Are you just -- fine, yeah, go on ahead. Just don't step on the bridge!
+Helena's instructions were quite clear. Try to cross the bridge, we battle you.
+Helena's instructions were quite clear. Try to cross the bridge, we battle you.
+When we've healed up, you'll be sorry for crossing us--er, the bridge.
+When we've healed up, you'll be sorry for crossing us--er, the bridge.
+Ehehe, the water is so muddy!
+Ehehe, the water is so muddy!
+You're strong, so I'll let you in on a secret.
+You're strong, so I'll let you in on a secret.
+There's a graveyard to the East. Check it out, it's suuuuper spooky.
+There's a graveyard to the East. Check it out, it's suuuuper spooky.
+My mom's gonna kill me for ruining my shoes, but it's too fun to plod about.
+My mom's gonna kill me for ruining my shoes, but it's too fun to plod about.
+I get why Magikarp and Feebas use Splash a lot. It's fun to see all the water fly everywhere!
+I get why Magikarp and Feebas use Splash a lot. It's fun to see all the water fly everywhere!
 We were supposed to do catering for LuxTech, but Helena reassigned us to guard duty.
 We were supposed to do catering for LuxTech, but Helena reassigned us to guard duty.
 She knows what she's doing... right?
@@ -4850,16 +4868,6 @@ Yeah, if she thinks we'll stay out here for another week, I've got a bridge to s
 ...Let's just go double-check.
 Oh, shut up. Let's just get back to the Pokecenter.
 Oh, shut up. Let's just get back to the Pokecenter.
-Ehehe, the water is so muddy!
-Ehehe, the water is so muddy!
-You're strong, so I'll let you in on a secret.
-You're strong, so I'll let you in on a secret.
-There's a graveyard to the East. Check it out, it's suuuuper spooky.
-There's a graveyard to the East. Check it out, it's suuuuper spooky.
-My mom's gonna kill me for ruining my shoes, but it's too fun to plod about.
-My mom's gonna kill me for ruining my shoes, but it's too fun to plod about.
-I get why Magikarp and Feebas use Splash a lot. It's fun to see all the water fly everywhere!
-I get why Magikarp and Feebas use Splash a lot. It's fun to see all the water fly everywhere!
 I hear a Meowth makes you 33% luckier -- so now I'm guaranteed to win!
 I hear a Meowth makes you 33% luckier -- so now I'm guaranteed to win!
 Was that 33% increased luck or 33% more lucky? Maybe it isn't linear...?
@@ -11144,16 +11152,18 @@ A small feeding bowl, refilled as needed by the Estate Caretaker.
 A small feeding bowl, refilled as needed by the Estate Caretaker.
 A small feeding bowl, refilled as needed by the Estate Caretaker.
 [Map165]
+Oh, no payment required for entry!
+Oh, no payment required for entry!
+This is just for the gift shop.
+This is just for the gift shop.
 We hope you enjoy your trip to The Aquatopia Menagerie.
 We hope you enjoy your trip to The Aquatopia Menagerie.
 While it is encouraged to interact with the Pokemon, bringing them outside of their designated pool is strictly prohibited.
 While it is encouraged to interact with the Pokemon, bringing them outside of their designated pool is strictly prohibited.
 If you're interested in taking part in the Ocean Fishing Contest, speak to The Captain in the western room.
 If you're interested in taking part in the Ocean Fishing Contest, speak to The Captain in the western room.
-Oh, no payment required for entry!
-Oh, no payment required for entry!
-This is just for the gift shop.
-This is just for the gift shop.
+This plant is thriving in the humid air.
+This plant is thriving in the humid air.
 Heh.
 Heh. 
 I could sense your darkness the minute you entered this place.
@@ -11188,32 +11198,10 @@ Go forth, and master your darkness, Trainer. Great things await you.
 Go forth, and master your darkness, Trainer. Great things await you.
 For now... I go.
 For now... I go.
-This plant is thriving in the humid air.
-This plant is thriving in the humid air.
 A stack of Magikarp plushies.
 A stack of Magikarp plushies.
 They're large enough that they'd be hard to carry around.
 They're large enough that they'd be hard to carry around.
-It's open to a forum page.
-It's open to a forum page.
-Dozens of blurry photos of a large, white Pokémon are being discussed.
-Dozens of blurry photos of a large, white Pokémon are being discussed.
-One user insists it's a Flygon.
-One user insists it's a Flygon.
-Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
-Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
-You'll earn a prize depending on the best creature yer capable of haulin' in.
-You'll earn a prize depending on the best creature yer capable of haulin' in.
-Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
-Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
-\PN hands over $1000.
-\PN hands over $1000.
-You don't have enough for it.
-You don't have enough for it.
-What, lost all yer money in a shipwreck?
-What, lost all yer money in a shipwreck?
-Ay, that's too bad.
-Ay, that's too bad.
 All o' us saw a great Pokemon under the waves during one trip or another.
 All o' us saw a great Pokemon under the waves during one trip or another.
 I ordered me one o' them fancy Master Balls in case I e'er saw her again.
@@ -11240,18 +11228,34 @@ So? Ye' got that cup o' coffee?
 So? Ye' got that cup o' coffee?
 Maybe one day you'll get a glimpse...
 Maybe one day you'll get a glimpse...
+Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
+Me and me crew host a Fishing Contest in an ocean preserve on Makya's eastern shore.
+You'll earn a prize depending on the best creature yer capable of haulin' in.
+You'll earn a prize depending on the best creature yer capable of haulin' in.
+Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
+Only condition is ya' bring your own Pokeballs and ya' pitch in $1000 for fuelin' costs.
+\PN hands over $1000.
+\PN hands over $1000.
+You don't have enough for it.
+You don't have enough for it.
+What, lost all yer money in a shipwreck?
+What, lost all yer money in a shipwreck?
+Ay, that's too bad.
+Ay, that's too bad.
+It's open to a forum page.
+It's open to a forum page.
+Dozens of blurry photos of a large, white Pokémon are being discussed.
+Dozens of blurry photos of a large, white Pokémon are being discussed.
+One user insists it's a Flygon.
+One user insists it's a Flygon.
+It holds snacks you can feed to the Pokémon here.
+It holds snacks you can feed to the Pokémon here.
 Hey, don't run when near a pool.
 Hey, don't run when near a pool.
 Slips and falls are one of the most common causes of pool injuries.
 Slips and falls are one of the most common causes of pool injuries.
-It holds snacks you can feed to the Pokémon here.
-It holds snacks you can feed to the Pokémon here.
-Boss loves to bring us out to crazy spots to catch rare Pokemon.
-Boss loves to bring us out to crazy spots to catch rare Pokemon.
-A few weeks ago we were facing 20 meter waves.
-A few weeks ago we were facing 20 meter waves.
-That was a crazy ride, but boss got us through it.
-That was a crazy ride, but boss got us through it.
+Fishing Contest! Sign up here!
+Fishing Contest! Sign up here!
 Ah, it's good to see ya again.
 Ah, it's good to see ya again.
 Here to reminisce with me about your best catch?
@@ -11260,16 +11264,18 @@ Don't recognize ya. Must never have joined us on an ocean fishing trip, eh?
 Don't recognize ya. Must never have joined us on an ocean fishing trip, eh?
 Talk to the captain if you want to try.
 Talk to the captain if you want to try.
-Fishing Contest! Sign up here!
-Fishing Contest! Sign up here!
+Boss loves to bring us out to crazy spots to catch rare Pokemon.
+Boss loves to bring us out to crazy spots to catch rare Pokemon.
+A few weeks ago we were facing 20 meter waves.
+A few weeks ago we were facing 20 meter waves.
+That was a crazy ride, but boss got us through it.
+That was a crazy ride, but boss got us through it.
 Brochures advertising cruises, fishing trips, and submarine dives.
 Brochures advertising cruises, fishing trips, and submarine dives.
-I love hanging with my boy Shellder.
-I love hanging with my boy Shellder.
-He justs sits around all day and eats whatever is given to him.
-He justs sits around all day and eats whatever is given to him.
-I respect that, we can all learn a bit from Shellder.
-I respect that, we can all learn a bit from Shellder.
+Aquatopia hires a few Trainers to take care of the Pokemon here.
+Aquatopia hires a few Trainers to take care of the Pokemon here.
+While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
+While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
 The fishing spot we found is great, but the storms are ferocious.
 The fishing spot we found is great, but the storms are ferocious.
 During one of the worst ones, I swear I saw a massive Pokemon inside one of the waves.
@@ -11278,10 +11284,14 @@ It had to be almost 5 meters long.
 It had to be almost 5 meters long.
 It wasn't a Wailord, that's for sure.
 It wasn't a Wailord, that's for sure.
-Aquatopia hires a few Trainers to take care of the Pokemon here.
-Aquatopia hires a few Trainers to take care of the Pokemon here.
-While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
-While Water-type Pokemon have similar needs, there are some specifics to freshwater and saltwater care.
+I love hanging with my boy Shellder.
+I love hanging with my boy Shellder.
+He justs sits around all day and eats whatever is given to him.
+He justs sits around all day and eats whatever is given to him.
+I respect that, we can all learn a bit from Shellder.
+I respect that, we can all learn a bit from Shellder.
+Brochures advertising other aquariums and Pokémon sanctuaries.
+Brochures advertising other aquariums and Pokémon sanctuaries.
 Hey Trainer! I found this weird rock!
 Hey Trainer! I found this weird rock!
 Want to take a look?
@@ -11298,8 +11308,8 @@ That's cool, I'm glad you like the rock as much as me.
 That's cool, I'm glad you like the rock as much as me.
 You hand back the Big Pearl.
 You hand back the Big Pearl.
-Thanks! It's a prety cool rock, huh?
-Thanks! It's a prety cool rock, huh?
+Thanks! It's a pretty cool rock, huh?
+Thanks! It's a pretty cool rock, huh?
 Huh? Where's my rock?
 Huh? Where's my rock?
 Did you lose it somewhere?
@@ -11308,8 +11318,10 @@ That's ok, just bring it back when you find it.
 That's ok, just bring it back when you find it.
 I love my rock! I'm gonna show it to my mom later!
 I love my rock! I'm gonna show it to my mom later!
-Brochures advertising other aquariums and Pokémon sanctuaries.
-Brochures advertising other aquariums and Pokémon sanctuaries.
+I love swimming with the Pokemon!
+I love swimming with the Pokemon!
+Sometimes I touch the Qwilfish and it hurts!
+Sometimes I touch the Qwilfish and it hurts!
 Being a cook on a ship is hard work.
 Being a cook on a ship is hard work.
 All that rocking back and forth can lead to tons of spills if you're not careful.
@@ -11322,10 +11334,6 @@ You ever think about becoming an electrician?
 You ever think about becoming an electrician?
 We could sure use one on the ship...
 We could sure use one on the ship...
-I love swimming with the Pokemon!
-I love swimming with the Pokemon!
-Sometimes I touch the Qwilfish and it hurts!
-Sometimes I touch the Qwilfish and it hurts!
 I'm having fun hanging out here, but my mom packed too much in my lunch.
 I'm having fun hanging out here, but my mom packed too much in my lunch.
 Want some?
@@ -15811,10 +15819,6 @@ Doesn’t really make us even, but thanks.
 Doesn’t really make us even, but thanks.
 I need to get Phione somewhere safer, but I’ll see you. Thanks for everything.
 I need to get Phione somewhere safer, but I’ll see you. Thanks for everything.
-North: Cave of Hatching
-North: Cave of Hatching
-East: Frostflow Farms
-East: Frostflow Farms
 Have you seen my new avatar defense technique? Pokésand, go!
 Have you seen my new avatar defense technique? Pokésand, go!
 Hmm, back to the drawing board on this one.
@@ -15823,6 +15827,10 @@ The technique is for avatars, not Trainers. I can't expect it to work perfectly 
 The technique is for avatars, not Trainers. I can't expect it to work perfectly here.
 Huh? Weather wars? What's that?
 Huh? Weather wars? What's that?
+North: Cave of Hatching
+North: Cave of Hatching
+East: Frostflow Farms
+East: Frostflow Farms
 Hey! It's uh... the guy you saw near the Regice Chamber.
 Hey! It's uh... the guy you saw near the Regice Chamber.
 I think I got a decent understanding of what's happened to me.
@@ -15843,14 +15851,14 @@ That's a nice feeling, you know?
 That's a nice feeling, you know?
 How are you... here? This isn't even the right map... I don't actually exist. Sort of, at least... Please... don't cheat when we fight...
 How are you... here? This isn't even the right map... I don't actually exist. Sort of, at least...  Please... don't cheat when we fight...
-Stop that
-Stop that
 Sheeeeeeesh, let's get a looksie at this this little Trainer now!
 Sheeeeeeesh, let's get a looksie at this this little Trainer now!
 Well butter my butt and call me a biscuit, this here Trainer's got us slapped silly!
 Well butter my butt and call me a biscuit, this here Trainer's got us slapped silly!
 What a howdown from our Trainer friend here. Bet they got one o' those fancy candy thingamajigs.
 What a howdown from our Trainer friend here. Bet they got one o' those fancy candy thingamajigs.
+Stop that
+Stop that
 A Pokemon world, and within every battle, a world of struggle.
 A Pokemon world, and within every battle, a world of struggle.
 How much can I fit, into a haiku format? I'm running out of...
@@ -15861,12 +15869,14 @@ I write, erase, rewrite. Erase again, and then, my Ditto changes.
 I write, erase, rewrite. Erase again, and then, my Ditto changes.
 You can barely make out the outline of a cave entrance behind the waterfall.
 You can barely make out the outline of a cave entrance behind the waterfall.
-Well golly me we got a cheater! Looks like they did a little bit of hackerooni.
-Well golly me we got a cheater! Looks like they did a little bit of hackerooni.
-Well I ain't never seen a scrap like that since before my pa started herding Tauros with his bare hands.
-Well I ain't never seen a scrap like that since before my pa started herding Tauros with his bare hands.
-Real shame what happened to his favorite knee.
-Real shame what happened to his favorite knee.
+My Pokemon love the trees and grass. They also love battling!
+My Pokemon love the trees and grass. They also love battling!
+What's that, my Pokemon? You want to go to the pub?
+What's that, my Pokemon? You want to go to the pub?
+I have no choice, I must listen to them. Bye bye!
+I have no choice, I must listen to them. Bye bye!
+Good battling! You should fight my brother, too. He's all the way at the end of the river.
+Good battling! You should fight my brother, too. He's all the way at the end of the river.
 Heya, Trainer!
 Heya, Trainer!
 I heard that a Champion was going to be here, but I coulnd't find them.
@@ -15887,20 +15897,12 @@ Maybe I'll get chocolate today...
 Maybe I'll get chocolate today...
 Haha, you're poor! That's really funny!
 Haha, you're poor! That's really funny!
-My Pokemon love the trees and grass. They also love battling!
-My Pokemon love the trees and grass. They also love battling!
-What's that, my Pokemon? You want to go to the pub?
-What's that, my Pokemon? You want to go to the pub?
-I have no choice, I must listen to them. Bye bye!
-I have no choice, I must listen to them. Bye bye!
-Good battling! You should fight my brother, too. He's all the way at the end of the river.
-Good battling! You should fight my brother, too. He's all the way at the end of the river.
-...
-...
-You're cheating, right?
-You're cheating, right?
-I'm just here to play my guitar. No idea who the other guy is...
-I'm just here to play my guitar. No idea who the other guy is...
+Well golly me we got a cheater! Looks like they did a little bit of hackerooni.
+Well golly me we got a cheater! Looks like they did a little bit of hackerooni.
+Well I ain't never seen a scrap like that since before my pa started herding Tauros with his bare hands.
+Well I ain't never seen a scrap like that since before my pa started herding Tauros with his bare hands.
+Real shame what happened to his favorite knee.
+Real shame what happened to his favorite knee.
 Welp, I'll have to abandon my Cave of Hatching visit...
 Welp, I'll have to abandon my Cave of Hatching visit...
 The entrance is blocked, and I stupidly didn't bring any climbing gear.
@@ -15911,6 +15913,12 @@ All I wanted was to experience the legend...
 All I wanted was to experience the legend...
 Take this item, I'm clearly not worthy of it...
 Take this item, I'm clearly not worthy of it...
+...
+...
+You're cheating, right?
+You're cheating, right?
+I'm just here to play my guitar. No idea who the other guy is...
+I'm just here to play my guitar. No idea who the other guy is...
 It was an avatar.
 It was an avatar.
 You're here?
@@ -20741,22 +20749,6 @@ Well, no use hanging around here. Already got all the workout I needed for the d
 Well, no use hanging around here. Already got all the workout I needed for the day.
 I'll try to catch you around, yeah? If not, well, have a great career I guess.
 I'll try to catch you around, yeah? If not, well, have a great career I guess.
-I don't need a ship, I'm a natural swimmer!
-I don't need a ship, I'm a natural swimmer!
-A natural sinker as well...
-A natural sinker as well...
-I work on a boat because I need cash to live. If I could swim instead of eat, I would.
-I work on a boat because I need cash to live. If I could swim instead of eat, I would.
-My biceps are beyond your comprehension.
-My biceps are beyond your comprehension.
-The water here can get really deep! If I didn't have this tube, I'd probably drown!
-The water here can get really deep! If I didn't have this tube, I'd probably drown!
-I must rely on myself! I must get swimming lessons!
-I must rely on myself! I must get swimming lessons!
-I trust this tube with my life.
-I trust this tube with my life.
-Do you know how to swim? Why'd you have to use your board to get here?
-Do you know how to swim? Why'd you have to use your board to get here?
 \PN!
 \PN!
 So, we know where they're all going.
@@ -20823,22 +20815,28 @@ I... can understand your hesitation.
 I... can understand your hesitation.
 Do your preparations, then. Please hurry.
 Do your preparations, then. Please hurry.
+The water here can get really deep! If I didn't have this tube, I'd probably drown!
+The water here can get really deep! If I didn't have this tube, I'd probably drown!
+I must rely on myself! I must get swimming lessons!
+I must rely on myself! I must get swimming lessons!
+I trust this tube with my life.
+I trust this tube with my life.
+Do you know how to swim? Why'd you have to use your board to get here?
+Do you know how to swim? Why'd you have to use your board to get here?
+I don't need a ship, I'm a natural swimmer!
+I don't need a ship, I'm a natural swimmer!
+A natural sinker as well...
+A natural sinker as well...
+I work on a boat because I need cash to live. If I could swim instead of eat, I would.
+I work on a boat because I need cash to live. If I could swim instead of eat, I would.
+My biceps are beyond your comprehension.
+My biceps are beyond your comprehension.
 West: Canal Desert
 West: Canal Desert
 Northwest: Split Peaks
 Northwest: Split Peaks
 Northeast: Sweetrock Harbor
 Northeast: Sweetrock Harbor
-It’s Michi, the Tropius.
-It’s Michi, the Tropius.
-She looks excited to fly off on an adventure!
-She looks excited to fly off on an adventure!
-She came back to fly you back to the Empty Island!
-She came back to fly you back to the Empty Island!
-You give her a soft pat on the back, but decide to not fly with her.
-You give her a soft pat on the back, but decide to not fly with her.
-She makes a content noise.
-She makes a content noise.
 I come here to relax with my Pokemon. Though, a battle or two won't hurt, either.
 I come here to relax with my Pokemon. Though, a battle or two won't hurt, either.
 The Skeevy Eevee needs us, I can feel it.
@@ -20849,6 +20847,16 @@ That was fun! You should fight my sister, too. She's all the way at the start of
 That was fun! You should fight my sister, too. She's all the way at the start of the river!
 Good battling! You should fight my sister, too. She's all the way at the start of the river!
 Good battling! You should fight my sister, too. She's all the way at the start of the river!
+It’s Michi, the Tropius.
+It’s Michi, the Tropius.
+She looks excited to fly off on an adventure!
+She looks excited to fly off on an adventure!
+She came back to fly you back to the Empty Island!
+She came back to fly you back to the Empty Island!
+You give her a soft pat on the back, but decide to not fly with her.
+You give her a soft pat on the back, but decide to not fly with her.
+She makes a content noise.
+She makes a content noise.
 Halt, in the name of justice!
 Halt, in the name of justice!
 I really gotta stop using that opening when stopping people for inspections...
@@ -20859,6 +20867,18 @@ You see any crime lately?
 You see any crime lately?
 No? Hmm, suspicious.
 No? Hmm, suspicious.
+I lost my glasses! Here, my Pokemon can help us find them!
+I lost my glasses! Here, my Pokemon can help us find them!
+Aha! Found them! Now we can battle!
+Aha! Found them! Now we can battle!
+...huh? Did my Pokemon battle on their own?
+...huh? Did my Pokemon battle on their own?
+I still can't find my glasses...
+I still can't find my glasses...
+I should really switch to contacts...
+I should really switch to contacts...
+Maybe get a guide Pokemon...
+Maybe get a guide Pokemon...
 Ah!
 Ah!
 Mm, oh, it's only you again.
@@ -20907,18 +20927,6 @@ This mental armor will protect me from judgmental gazes.
 This mental armor will protect me from judgmental gazes.
 I'll swim wherever and whenever I want!
 I'll swim wherever and whenever I want!
-I lost my glasses! Here, my Pokemon can help us find them!
-I lost my glasses! Here, my Pokemon can help us find them!
-Aha! Found them! Now we can battle!
-Aha! Found them! Now we can battle!
-...huh? Did my Pokemon battle on their own?
-...huh? Did my Pokemon battle on their own?
-I still can't find my glasses...
-I still can't find my glasses...
-I should really switch to contacts...
-I should really switch to contacts...
-Maybe get a guide Pokemon...
-Maybe get a guide Pokemon...
 Zarude stares at you with its arms crossed. After giving you a quick sniff, it locks eyes.
 Zarude stares at you with its arms crossed. After giving you a quick sniff, it locks eyes.
 It probably wants to join your team. It gives a smile that's hard to read while holding up its Pokeball.
@@ -20931,12 +20939,6 @@ You take the Pokeball from the Zarude.
 You take the Pokeball from the Zarude.
 It gives a few grunts as it re-enters its Pokeball.
 It gives a few grunts as it re-enters its Pokeball.
-To whomever it may concern:
-To whomever it may concern:
-This, is my island. And mine alone. I have stolen every object here fair and square.
-This, is my island. And mine alone. I have stolen every object here fair and square.
-You are free to look, but not to touch. Enjoy your stay.
-You are free to look, but not to touch. Enjoy your stay.
 A large wooden lock holds the door shut.
 A large wooden lock holds the door shut.
 You insert the Ruined Tower Key.
@@ -20945,6 +20947,12 @@ With some effort, you slowly turn the key.
 With some effort, you slowly turn the key.
 The lock falls to the ground with a dull thud.
 The lock falls to the ground with a dull thud.
+To whomever it may concern:
+To whomever it may concern:
+This, is my island. And mine alone. I have stolen every object here fair and square.
+This, is my island. And mine alone. I have stolen every object here fair and square.
+You are free to look, but not to touch. Enjoy your stay.
+You are free to look, but not to touch. Enjoy your stay.
 Not now.
 Not now.
 Yeah, let's go.
@@ -35845,6 +35853,8 @@ Scheme
 Scheme
 Sever
 Sever
+Shared Spoils
+Shared Spoils
 Spiky Burst
 Spiky Burst
 Stalking
@@ -38362,6 +38372,8 @@ The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, 
 The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, also raises Speed by two steps.
 The user hacks at the target with great violence. Can random critical hit.
 The user hacks at the target with great violence. Can random critical hit.
+The user attacks and steals the foe's held item simultaneously. You then choose a party member to hold it.
+The user attacks and steals the foe's held item simultaneously. You then choose a party member to hold it.
 Explodes, dealing an extra 30 base power to all nearby for each Spikes hazard layer underneath them. The user faints.
 Explodes, dealing an extra 30 base power to all nearby for each Spikes hazard layer underneath them. The user faints.
 The user darkly follows the target before striking. Inflicts double damage on a target that is switching out.
@@ -42598,8 +42610,6 @@ Served Cold
 Served Cold
 Severe
 Severe
-Shared Spoils
-Shared Spoils
 Sharpshooter
 Sharpshooter
 Shellcracker
@@ -44229,8 +44239,6 @@ Boosts Attack by 20% in hail, or 40% if also below half health.
 Boosts Attack by 20% in hail, or 40% if also below half health.
 Its attacks are critical against numbed targets.
 Its attacks are critical against numbed targets.
-When this Pokémon removes a foe's item, choose a party member to hold it.
-When this Pokémon removes a foe's item, choose a party member to hold it.
 Doubles the critical hit chance of random crit moves. This Pokémon's Speed is doubled while using them.
 Doubles the critical hit chance of random crit moves. This Pokémon's Speed is doubled while using them.
 Its physical attacks reduce the target's Defense.
@@ -51421,8 +51429,8 @@ Surfing
 Surfing
 Water Grass
 Water Grass
-ABILITIES
-ABILITIES
+ABILITIES[Z]
+ABILITIES[Z]
 STATS
 STATS
 DEF. MATCHUPS
@@ -54297,6 +54305,8 @@ The effects of the {1} prevent status moves from being used!
 {1} can't use the same type twice in a row due to the Torture!
 {1} can't use this attack while rampaging!
 {1} can't use this attack while rampaging!
+{1} refuses to flinch!
+{1} refuses to flinch!
 {1} is an ice sculpture! It can't move!
 {1} is an ice sculpture! It can't move!
 {1} must recharge!
@@ -54313,8 +54323,6 @@ A flicker of pity passes through {1}'s eyes, it has no desire to lower itself to
 {1} is loafing around!
 {1} would have flinched, but it's immune now!
 {1} would have flinched, but it's immune now!
-{1} refuses to flinch!
-{1} refuses to flinch!
 {1} would have flinched, but it holds a Courage Badge!
 {1} would have flinched, but it holds a Courage Badge!
 {1} flinched and couldn't move!
@@ -56369,6 +56377,8 @@ But it failed, since a Sticky Web is already laid out!
 But it failed, since a Sticky Web is already laid out!
 But it failed, since a live wire already sits near the opponent!
 But it failed, since a live wire already sits near the opponent!
+But nobody could receive the item!
+But nobody could receive the item!
 {1} stole and ate its target's {2}!
 {1} stole and ate its target's {2}!
 {1}'s {2} was destroyed!
@@ -60773,6 +60783,14 @@ Here, take it.
 Here, take it.
 All I ask is that you appreciate it for many years, young one.
 All I ask is that you appreciate it for many years, young one.
+\i[SPANNINGBAND]What? The Spanning Bands are suddenly glowing!
+\i[SPANNINGBAND]What? The Spanning Bands are suddenly glowing!
+\i[SPANNINGBAND]They glow in sync with the <imp>Avatar Totem</imp>.
+\i[SPANNINGBAND]They glow in sync with the <imp>Avatar Totem</imp>.
+\i[SPANNINGBAND]A vision of Casaba Villa flashes across your mind.
+\i[SPANNINGBAND]A vision of Casaba Villa flashes across your mind.
+\i[SPANNINGBAND]You sense that some sort of <imp>connection</imp> has been made.
+\i[SPANNINGBAND]You sense that some sort of <imp>connection</imp> has been made.
 Makyan Champion
 Makyan Champion
 \wmThe victor is \PN!\me[Bug catching 1st]
@@ -62379,6 +62397,18 @@ The user connects to the target's brainwaves to stabilize its mind, curing its d
 The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its legal abilities.
 {1} change to {2} type!
 {1} change to {2} type!
+The Pokémon's species abilities can't be changed!
+The Pokémon's species abilities can't be changed!
+You can change a Pokémon's species abilities here!
+You can change a Pokémon's species abilities here!
+Which do you want to choose?
+Which do you want to choose?
+You don't have enough money to change the Pokémon's species abilities!
+You don't have enough money to change the Pokémon's species abilities!
+It costs $5000, are you sure?
+It costs $5000, are you sure?
+The Pokémon's species abilities changed!
+The Pokémon's species abilities changed!
 {1} has been removed!
 {1} has been removed!
 {1} can't be removed!
