@@ -433,6 +433,12 @@ class PokeBattle_AI
             realDamage = target.hp
             damageScore = 250
             willFaint = true
+        elsif target.aboveHalfHealth? &&
+              target.hp - realDamage <= target.totalhp / 2 &&
+              (target.hasActiveAbilityAI?(:EMERGENCYEXIT) || target.hasActiveAbilityAI?(:WIMPOUT))
+            damageScore = 200 # A bit less valuable than a true faint
+            willFaint = true # Golisopod should treat getting outsped like a faint risk in this scenario, it won't get off an attack
+            echoln("\t[MOVE SCORING] #{target.pbThis(true)} has Emergency Exit/Wimp Out and will be forced out; treating as near-faint")
         else
             # Only care about KO thresholds
             if damagePercentage >= 50 || subDestroyed == true # Breaking a sub is as good as doing 50%
