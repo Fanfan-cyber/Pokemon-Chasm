@@ -446,6 +446,14 @@ class PokeBattle_AI
     # Add to a move's score based on how much damage it will deal (as a percentage
     # of the target's current HP)
     #=============================================================================
+    def moveWillTriggerEmergencyExit?(target, damage)
+        return false unless target.aboveHalfHealth?
+        return false unless target.hp - damage <= target.totalhp / 2
+        return false unless target.hasActiveAbilityAI?(:EMERGENCYEXIT) || target.hasActiveAbilityAI?(:WIMPOUT)
+        return false unless @battle.pbCanSwitch?(target.index) && @battle.pbCanChooseNonActive?(target.index)
+        return true
+    end
+
     def pbGetMoveScoreDamage(move, user, target, numTargets = 1, aiContext = nil)
         realDamage,damagePercentage,subDestroyed = getDamageAnalysisAI(move, user, target, numTargets, aiContext)
 
@@ -455,6 +463,10 @@ class PokeBattle_AI
             realDamage = target.hp
             damageScore = 250
             willFaint = true
+        elsif moveWillTriggerEmergencyExit?(target, realDamage)
+            damageScore = 200 # A bit less valuable than a true faint
+            willFaint = true # Golisopod should treat getting outsped like a faint risk in this scenario, it won't get off an attack
+            echoln("\t[MOVE SCORING] #{target.pbThis(true)} has Emergency Exit/Wimp Out and will be forced out; treating as near-faint")
         else
             # Only care about KO thresholds
             if damagePercentage >= 50 || subDestroyed == true # Breaking a sub is as good as doing 50%
