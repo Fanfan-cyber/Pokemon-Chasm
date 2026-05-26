@@ -257,6 +257,18 @@ class PokeBattle_AI
                 echoln("\t[MOVE SCORING] #{target.pbThis(true)} has intact Disguise; scoring as a disguise-breaking move (base #{damageScore})")
             end
 
+            if willFaint
+                # Check if the target has an endure-type protection that will prevent the KO
+                abilityEndures = !@battle.moldBreaker && target.fullHealth? &&
+                    (target.hasActiveAbilityAI?(:STURDY) || target.hasActiveAbilityAI?(:SURVIVALIST))
+                itemEndures = target.fullHealth? && target.hasActiveItemAI?(GameData::Item.getByFlag("Endure"))
+                clarityEndures = target.hasActiveItemAI?(:CLARITYSASH)
+                if abilityEndures || itemEndures || clarityEndures
+                    willFaint = false
+                    echoln("\t[MOVE SCORING] #{target.pbThis(true)} has endure protection; won't actually faint")
+                end
+            end
+
             numHits = move.numberOfHits(user, [target], true).ceil
 
             # Account for triggered abilities of the user
