@@ -314,6 +314,13 @@ Pocket = 15
 Price = 3000
 Description = A beautiful feather. It can be sold to shops for $1,500.
 #-------------------------------
+[NOBLEFEATHER]
+Name = Noble Feather
+NamePlural = Noble Feathers
+Pocket = 15
+Price = 15000
+Description = A beautiful metal feather. It can be sold to shops for $7,000.
+#-------------------------------
 [TINYMUSHROOM]
 Name = Tiny Mushroom
 NamePlural = Tiny Mushrooms
