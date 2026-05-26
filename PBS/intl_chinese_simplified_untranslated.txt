@@ -1,919 +1,1519 @@
-﻿[Map0]
-Apparently it hosts quite the grueling challenge, an “AI Trainer Gauntlet” as they describe it.
-Apparently 那里举办着相当艰苦的挑战，正如他们所描述的"AI训练家试炼"。
-
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+[Map0]
+...
+...
+[Map1]
+[Map2]
+[Map3]
+[Map4]
+[Map5]
+[Map6]
 [Map7]
-If anyone could ride that momentum it’d probably be you.
-如果有人能乘势而上，那 probably 就是你。
-Yeah, definitely! Kinda part of why I’m sore about it.
-是啊，当然！这也是我为此感到 sore 的部分原因。
-I know you’re destined for even greater glories.
-我知道你注定会获得更伟大的荣耀。
-
 [Map8]
-I’m being silly to distract myself from fear.
-我在装傻来分散自己对恐惧的注意力。
-Anyway, let’s get a round of applause for Vanya and \PN!
-总之，让我们为瓦尼亚和\PN鼓掌！
-We’ve both been collecting badges at lightning speed.
-我们俩都以闪电般的速度收集徽章。
-Plus, I’m perfecting every gym leader, without even using held items!
-而且，我完美击败了每一位道馆馆主，甚至都没使用持有道具！
-I’d say “not to brag”, but I am absolutely bragging.
-我想说"不是吹牛"，但我绝对是在吹牛。
-If you need me, I’ll be around, ready to battle at a moment’s notice!
-如果你需要我，我会在附近，随时准备应战！
-Oh, by the way, don't worry about pronouns for me—I like 'em all.
-哦，顺便说一下，不用担心我的代词——我全都喜欢。
-Well, they <i>can</i> get a bit stale after a while, so... mix it up!
-嗯，它们<i>确实</i>过一段时间会有点乏味，所以……换着用！
-
+...
+...
+[Map9]
+[Map10]
+[Map11]
+[Map12]
+[Map13]
+[Map14]
+[Map15]
+[Map16]
+[Map17]
+[Map18]
+...
+...
+[Map19]
+...
+...
+[Map20]
+[Map21]
+[Map22]
+[Map23]
+...
+...
+[Map24]
+[Map25]
+[Map26]
+[Map27]
+[Map28]
+[Map29]
+[Map30]
+[Map31]
+...
+...
+[Map32]
+[Map33]
+[Map34]
+...
+...
 [Map35]
-The <imp>MasterDex</imp> is a Pokédex, but it comes preloaded with data on every species.
-<<imp>大师图鉴</imp>是一个宝可梦图鉴，但它预装了每个物种的数据。
-Though, if you prefer the thrill of discovery, you can have it hide the info until you've seen one.
-不过，如果你喜欢发现的刺激感，你可以让它隐藏信息直到你亲眼见过。
-I've got a Skwovet, a Zigzagoon, and a Patrat.
-我有一只贪心栗鼠、一只蛇纹熊和一只探探鼠。
-You may want to look them up in your MasterDex, using the <imp>search feature</imp>.
-你可能想在你的大师图鉴中查找它们，使用<<imp>搜索功能</imp>。
-In case you've got the data hidden, let me just reveal those for you.
-如果你隐藏了数据，让我为你揭示它们。
-Each of those species has a signature move, and strong ones at that. It's good reading.
-这些物种每一个都有专属招式，而且都很强。值得一读。
-Let me know when you've made your choice.
-做好选择后告诉我。
-OK, now - Skwovet, Zigzagoon, or Patrat?
-好了，现在——贪心栗鼠、蛇纹熊还是探探鼠？
-
+[Map36]
+[Map37]
 [Map38]
-I’ll be using <imp>my tournament team</imp>, a full six-member squad.
-我会使用<<imp>我的锦标赛队伍</imp>，一个完整的六人小队。
-And after you beat me? Well, a trainer’s gotta keep <i>some</i> secrets.
-打败我之后呢？好吧，训练家总得保留<i>一些</i>秘密。
-Beat me and I’ll tell you about it.
-打败我，我就告诉你。
-Yeah, it’s...
-是啊，这……
-Like yeah of course it happened. It’s gotta be someone.
-就像，是啊，当然发生了。总会是某个人。
-Longterm, no. I wasn’t expecting to win the entire thing.
-长远来看，没有。我没指望能赢得整个比赛。
-I’ve gone over the fight in my mind several times already.
-我已经在脑海中回顾了那场对战好几次。
-Thinking about what I did wrong and what I could’ve done better.
-思考我做错了什么，以及我本可以做得更好。
-But I can’t do it again, so I doubt ruminating is going to make me feel better.
-但我无法重来，所以我怀疑反复思考不会让我感觉更好。
-Oh, don’t worry about that.
-哦，别担心那个。
-A memento, or maybe not. It’s yours now.
-一个纪念品，也许不是。现在它是你的了。
-It’s got mushrooms, moss... combination mushrooms AND moss.
-那里有蘑菇、苔藓……蘑菇和苔藓的结合体。
-That’s lichen.
-那是地衣。
-Okay, lichen isn’t mushrooms and moss. It’s fungi and bacteria.
-好吧，地衣不是蘑菇和苔藓。它是真菌和细菌。
-Either way, I’m <i>lichen</i> this idea already!
-不管怎样，我已经<i>地衣</i>这个想法了！
-I’m itching to get some more play with this team.
-我迫不及待想多用这支队伍打打。
-Finally using held items again! It’s refreshing.
-终于又用持有道具了！真令人耳目一新。
-
+[Map39]
+[Map40]
+[Map41]
+[Map42]
 [Map43]
-Room 204\nCurrent Resident: Noah
-204号房间\n当前住户：诺亚
-1, 2, 3, 4!
-1、2、3、4！
-Lets go, lets go!
-走吧，走吧！
-You should keep active, it has a ton of health benefits.
-你应该保持活跃，这对健康有很多好处。
-Both for you and your Pokemon!
-对你和你的宝可梦都有好处！
-Room 203\nCurrent Residents: Dana, Sophia
-203号房间\n当前住户：达娜、索菲亚
-I'm glad this complex has this room, where I can train my Pokemon safely.
-我很高兴这个公寓有这个房间，我可以在这里安全地训练我的宝可梦。
-Not that much tends to happen between these two...
-这两个人之间通常不会发生太多事……
-Room 202\nCurrent Resident: Ruby
-202号房间\n当前住户：露比
-You can work out all you want, but you won't build any muscle if you don't get enough protein.
-你可以尽情锻炼，但如果蛋白质摄入不足，你就长不出肌肉。
-Here, the perfect drink for exercise...
-给你，运动的最佳饮品……
-You can tell how many of those I've guzzled down over the years.
-你能看出这些年来我喝了多少这种饮料。
-
+[Map44]
+[Map45]
+[Map46]
+[Map47]
+[Map48]
+...
+...
+[Map49]
+[Map50]
+[Map51]
+[Map52]
+[Map53]
+...
+...
+[Map54]
+[Map55]
+[Map56]
+[Map57]
+[Map58]
+[Map59]
+[Map60]
+...
+...
+[Map61]
 [Map62]
-I thought bringing Aron to this gym would be a good idea.
-我以为带可可多拉来这个道馆是个好主意。
-Rock is effective against Fire and Steel is immune to Poison after all.
-毕竟岩石克制火，钢免疫毒。
-Imagine my horror, because I forgot Steel types aren't immune to the poison status condition.
-想象一下我的惊恐，因为我忘了钢属性并不免疫中毒异常状态。
-My poor Aron got worn down in an instant!
-我可怜的可可多拉瞬间就被削弱了！
-Since then, I always carry Pecha Berries with me...
-从那以后，我总是随身携带桃桃果……
-
+[Map63]
+[Map64]
+[Map65]
+[Map66]
+[Map67]
+[Map68]
+[Map69]
+[Map70]
+[Map71]
+[Map72]
+[Map73]
+[Map74]
+[Map75]
+[Map76]
+[Map77]
+[Map78]
+...
+...
+[Map79]
+[Map80]
+[Map81]
+[Map82]
+[Map83]
+[Map84]
+[Map85]
+[Map86]
+[Map87]
+[Map88]
+[Map89]
+[Map90]
+[Map91]
+[Map92]
+[Map93]
+[Map94]
+[Map95]
+[Map96]
+[Map97]
+[Map98]
+[Map99]
+[Map100]
+[Map101]
+[Map102]
+[Map103]
+[Map104]
+[Map105]
+[Map106]
+[Map107]
+[Map108]
+[Map109]
+[Map110]
+[Map111]
+[Map112]
+[Map113]
+[Map114]
+[Map115]
+[Map116]
+[Map117]
+[Map118]
+[Map119]
+[Map120]
+[Map121]
+[Map122]
+[Map123]
+[Map124]
+[Map125]
+[Map126]
+[Map127]
+[Map128]
+[Map129]
+[Map130]
+[Map131]
+[Map132]
+[Map133]
+[Map134]
+[Map135]
+[Map136]
+...
+...
 [Map137]
-I'm a safety minded person.
-我是个注重安全的人。
-Everything's changed now that Avatars are around.
-现在化身出现了，一切都变了。
-I'm worried they'll be drawn to me by the reflections.
-我担心它们会被反射吸引到我这里。
-If you're going out and fighting those things, maybe that's somehow an upside for you...?
-如果你要出去和那些东西战斗，也许这对你来说某种程度上是个优势……？
-I'll need to check Eleig.com for any new safety products that will work on Avatars.
-我需要查看埃莱格网，寻找对化身有效的新安全产品。
-My incantations keep faltering! I need a companion to assist in my rites.
-我的咒语总是出错！我需要一个同伴来协助我的仪式。
-I boarded a fishing boat to try and get a Galarian Corsola, but the fates could only bestow upon me the ordinary kind.
-我登上渔船试图获得伽勒尔太阳珊瑚，但命运只赐予我普通的那种。
-So, I'm trying a different approach.
-所以，我在尝试不同的方法。
-I'm willing to part with it, so long as you can provide me a fitting replacement.
-我愿意放弃它，只要你能给我一个合适的替代品。
-I'll trade you my Corsola for any Pokémon from the Esoteric tribe.
-我愿意用我的太阳珊瑚交换任何来自神秘部落的宝可梦。
-I see great misfortune in your future...
-我看到你未来会有巨大的不幸……
-Thank you, traveller.
-谢谢你，旅行者。
-May the stars guide you through your hardships.
-愿星辰指引你度过艰难。
-Ah, you again.
-啊，又是你。
-I must thank you for your prior assistance. My rites have gone splendidly since.
-我必须感谢你之前的帮助。从那以后我的仪式进行得非常顺利。
-Great misfortune has already befallen three of my enemies...
-巨大的不幸已经降临在我三个敌人身上……
-No
-否
-Yes
-是
-
+[Map138]
+...
+...
+[Map139]
+[Map140]
+[Map141]
+[Map142]
+[Map143]
+[Map144]
+[Map145]
+[Map146]
+[Map147]
+[Map148]
+[Map149]
+[Map150]
+[Map151]
+[Map152]
+[Map153]
+[Map154]
 [Map155]
-Stone pillars tower over the gym.
-石柱高耸于道馆之上。
-Bence and Zoé.... Zence.... Boé....
-本斯和佐伊……岑斯……博埃……
-I hope my current team will work well against them, but I can't know for sure.
-我希望我当前的队伍能对他们有效，但我无法确定。
-
+...
+...
+[Map156]
+[Map157]
+[Map158]
 [Map159]
-This Old Amber has been carved into a relief of a dog-like Pokémon.
-这块秘密琥珀被雕刻成了一只类似狗的宝可梦的浮雕。
-Travel Agency: Orre
-旅行社：奥雷
-This statue's smile feels malicious.
-这座雕像的微笑感觉充满恶意。
-It looms over you like it intends to devour you whole.
-它笼罩着你，仿佛打算将你整个吞噬。
-This looks like an abstract painting of a garden.
-这看起来是一幅花园的抽象画。
-On closer inspection, it's a painting of Vivillion's wings!
-仔细一看，这是一幅彩粉蝶翅膀的画！
-Ahem.
-咳咳。
-Pardon, that's my tea you're eying.
-抱歉，你盯着的可是我的茶。
-I'd offer to brew you a cup, had I a kettle on me.
-如果我身上有壶的话，我会给你泡一杯的。
-Dash it all, I've had enough!
-该死的，我受够了！
-That's MY tea you're ogling!
-你盯着的可是我的茶！
-I'm not sure why you're so fixated on it, but I simply cannot drink it with you staring like that.
-我不明白你为什么这么执着于它，但你那样盯着，我根本没法喝。
-The gentleman behind the counter sputters a bit, but decides it's not worth it to chastise you.
-柜台后的绅士有点气急败坏，但决定责骂你不值得。
-Its wings look like a Pokéball!
-它的翅膀看起来像个精灵球！
-These flowers have a distinctive smell.
-这些花有一种独特的气味。
-It almost reminds you of perfume...
-它几乎让你想起了香水...
-It's a little hard to see, but Makya and Alola have a lot in common.
-有点难以看出，但玛基亚和阿罗拉有很多共同点。
-Team Chasm has gone the way of Team Skull.
-裂隙队已经走上了骷髅队的道路。
-While Team Skull was never as menacing, both regions still have to deal with what comes next.
-虽然骷髅队从未那么具有威胁性，但两个地区仍然要应对接下来发生的事情。
-A tall pillar with a celestial symbol on top.
-一根高大的柱子，顶部有一个天体符号。
-A sign claims it's a scale replica of a pillar found at the Altar of the Moone!
-标牌声称这是月轮祭坛发现的柱子的等比例复制品！
-It's full of packaging.
-里面全是包装。
-The King and First Champion of Galar.
-伽勒尔的国王和第一任冠军。
-...at least according to the plaque.
-...至少根据牌匾是这么说的。
-Yo. I'm the travel guide to Orre.
-哟。我是奥雷的旅行向导。
-Yeah, this setup is pretty scuffed.
-是啊，这个布置挺简陋的。
-If you know what Orre's about and you're still here, you probably don't care about fanfare anyways.
-如果你知道奥雷是什么地方还留在这里，你可能根本不在乎繁文缛节。
-Travelling the globe really puts everything in perspective.
-环球旅行真的能让人看清一切。
-This young lass I met in Alola -- Lainie...? I think was her name.
-我在阿罗拉遇到的这个年轻姑娘——莱妮……？我想那是她的名字。
-She really was a curious character, but she gave me some amazing advice...
-她真是个古怪的角色，但她给了我一些很棒的建议……
-Anyways, I uh... got to go.
-总之，我呃……得走了。
-Lined with classic literature.
-排列着经典文学。
-Most of the spines look uncracked.
-大部分书脊看起来都未翻开过。
-Alola! Welcome to the Alolan Travel Agency!
-阿罗拉！欢迎来到阿罗拉旅行社！
-Here we can get you set up with a...
-在这里我们可以帮你安排……
-Hey! Parker! C'mere, this dude surfs!
-嘿！帕克！过来，这家伙会冲浪！
-Man, how cool is that!
-哇，太酷了！
-Yo, tell ya what, dude. You might be able to help us.
-哟，跟你说，伙计。你也许能帮上我们。
-We were trying to catch some waves out on County Park Lake.
-我们想在县公园湖上冲浪。
-We had a box of stuff we were gonna use to par --
-我们有一箱东西本来打算用来派——
-Enjoy a nice evening with. But we got attacked by this huge Gyarados!
-享受一个美好的夜晚。但我们被一只巨大的暴鲤龙攻击了！
-If you manage to grab it and bring it back to us, we'll hook you up with an Alolan Wreath.
-如果你能拿到它并带回来给我们，我们会给你一顶阿罗拉花环。
-A whole evolution item! How cool, right?
-一整个进化道具！多酷啊，对吧？
-Just bring back the box of stuff, and don't tell anyone.
-只要把那箱东西带回来，别告诉任何人。
-You got the box of stuff? The one we lost at the County Park Lake?
-你拿到那箱东西了？我们在县公园湖丢的那个？
-Yo! You got it! Hot damn!
-哟！你拿到了！该死！
-A deal is a freakin' deal! The Wreath's all yours.
-一言为定！花环归你了。
-You know, I bet there's all sorts of cool items tucked away in water-y areas all over Makya.
-你知道吗，我打赌玛基亚各地的水域里藏着各种酷炫的道具。
-Tons of dummies have probably lost some important crap while trying to swim.
- tons 的傻瓜可能在试图游泳时丢了一些重要的东西。
-It's the same way in Alola.
-阿罗拉也是一样。
-C'moooooooon, champ. Don't mess with me like that.
-拜托了，冠军。别这样耍我。
-We owe you one kid. We can't get you a ticket since that would be, like, suuuuuuper illegal.
-我们欠你一个人情，小子。我们不能给你弄票，因为那会是，呃，超级违法的。
-But we owe you one. A non-illegal one.
-但我们欠你一个人情。一个合法的人情。
-A sign claims it's a scale replica of a pillar found at the Altar of the Sunne!
-标牌声称这是日轮祭坛发现的柱子的等比例复制品！
-These crates are covered in stickers.
-这些板条箱上贴满了贴纸。
-It looks like imports from Orre go through heavy screening.
-看起来来自奥雷的进口货物要经过严格检查。
-You see your reflection on the glass of the clock, as time ticks on.
-随着时间流逝，你在钟表的玻璃上看到了自己的倒影。
-Travel Agency: Galar
-旅行社：伽勒尔
-These flowers are rustling slightly...
-这些花正在轻轻摇曳...
-...a Flabébé peeks out of hiding!
-...一只花蓓蓓从藏身处探出头来！
-This plant looks well-pruned.
-这株植物看起来修剪得很好。
-There's a lot of places to travel in the world.
-世界上有很多地方可以去旅行。
-It's nice to see that other regions are open to Makya, despite all the stuff with Team Chasm.
-很高兴看到其他地区对玛基亚开放，尽管发生了裂隙队的那些事。
-Well hello, young one.
-你好啊，年轻人。
-I'm rather spiritless right now. Not many people appreciate the noble history of Galar, I suppose.
-我现在相当无精打采。我想没多少人欣赏伽勒尔高贵的历史。
-Would you fancy a battle? If you win, I'll gift you one of these Galarica Wreaths.
-你想来场对战吗？如果你赢了，我会送你一顶伽勒卡花环。
-You can use it to evolve certain Pokemon.
-你可以用它来进化某些宝可梦。
-All of this stuff on display are replicas anyways, so don't worry about wrecking the place.
-所有展出的东西都是复制品，所以不用担心会破坏这个地方。
-Very well then. They pay me by the hour, so I can stay here as long as I want.
-那好吧。他们按小时付我工资，所以我想待多久就待多久。
-Wonderful! Let's get started.
-太棒了！让我们开始吧。
-Fantastic showing! You deserve this.
-精彩的表现！这是你应得的。
-You're a fantastic battler!
-你是个了不起的对战家！
-I can see you're busy now.
-我能看出你现在很忙。
-When you're ready, you should take a trip to Galar.
-等你准备好了，你应该去伽勒尔旅行一趟。
-I'm sure the Trainers there would appreciate having you.
-我相信那里的训练家会很高兴有你的到来。
-A globe, with Makya and various other regions highlighted.
-一个地球仪，玛基亚和其他各个地区被标注出来。
-It shows the most common shipment routes between them.
-它显示了它们之间最常见的运输路线。
-Several different drawings of cheerful travel agency rooms.
-几张欢快的旅行社房间设计图。
-If these are serving as inspiration, this room has a long way to go.
-如果这些是用作灵感的话，这个房间还有很长的路要走。
-I've been on an journey all around the world to hone my artistic talents.
-我一直在世界各地旅行，磨练我的艺术才能。
-If you have a Vivillon, I could change its pattern to one from just about anywhere!
-如果你有一只彩粉蝶，我可以把它的花纹改成几乎任何地方的花纹！
-Fantastic! A true work of art, if I do say so myself.
-太棒了！如果我自己这么说的话，这真是一件艺术品。
-That's alright. Sometimes natural is best, after all!
-没关系。毕竟有时候自然才是最好的！
-Travel Agency: Alola
-旅行社：阿罗拉
-A fancy pinboard, decorated with pictures of tropical sun.
-一块精美的布告板，装饰着热带阳光的照片。
-Alongside the pictures are various pricing plans.
-照片旁边是各种价格方案。
-A painting of a Pokéball in the process of being made.
-一幅正在制作中的精灵球的画。
-A machine is about to join the top and bottom halves together.
-一台机器即将把上下两半合在一起。
-A note identifies this as a Galarica shrub.
-一张纸条标明这是伽勒卡灌木。
-It looks like some twigs have been snapped off.
-看起来有些小枝被折断了。
-Interested in a little trip to Kalos, no?
-有兴趣去卡洛斯小旅行一下吗？
-Perhaps you are interested in visiting the grand city of Lumiose?
-也许你有兴趣参观宏伟的密阿雷市？
-Or are you enticed by some landmarks like the Pokeball Factory or the Castle of Chivalry?
-或者你被一些地标吸引，比如精灵球工厂或骑士城堡？
-Or are you one of those weirdos who want to visit Pikachu Land?
-或者你是那些想参观皮卡丘乐园的怪人之一？
-A display of colorful brochures.
-一排彩色宣传册的展示。
-Some are focused on regional battle specialties, while others highlight nature and culture.
-有些侧重于地区对战特色，而其他的则突出自然和文化。
-Nothing's on display yet.
-还没有任何东西展出。
-Someone left a half-empty can of lemonade on one of the shelves.
-有人在一个架子上留下了一罐喝了一半的柠檬水。
-Travel Agency: Kalos
-旅行社：卡洛斯
-It flutters its Fancy-patterned wings!
-它扇动着花纹翅膀！
-This statue's smile feels benevolent and kind.
-这座雕像的微笑感觉仁慈而和善。
-It peers down at you protectively.
-它保护性地俯视着你。
-A painting of a garden.
-一幅花园的画。
-The closer you look, the more Fairy-types you see!
-你看得越仔细，看到的妖精属性宝可梦就越多！
-A painting of the countryside from a cottage window.
-一幅从农舍窗户看出去的乡村风景画。
-Flocks of Wooloo mirror the clouds in the sky.
-成群的毛辫羊映照着天空中的云朵。
-I just came back from a trip to Alola with some of my co-workers.
-我刚和一些同事从阿罗拉旅行回来。
-I wanted to catch some Pokemon to help with my dance routines, so I caught a few Oricorio.
-我想抓一些宝可梦来帮我编舞，所以我抓了几只花舞鸟。
-Unfortunately, my sound system broke on the flight back, so now I need to either get a new system or have a Pokemon do it.
-不幸的是，我的音响系统在回程航班上坏了，所以现在我要么买一个新系统，要么让宝可梦来做。
-I'd probably need a Pokemon with the Loud ability. If you've got one, I'll trade you one of the Oricorio I caught.
-我大概需要一只拥有大声特性的宝可梦。如果你有的话，我可以用我抓的一只花舞鸟跟你交换。
-A new sound system it is...
-那就买新音响系统吧……
-Asking my manager for another huge purchase is gonna suck...
-向经理申请又一笔大额采购会很糟糕……
-Oh wow! Yeah, that Pokemon is perfect!
-哦哇！是啊，那只宝可梦太完美了！
-This Pokemon is exactly what I needed.
-这只宝可梦正是我需要的。
-Thanks for the help, gotta get back to work now.
-谢谢你的帮助，现在得回去工作了。
-Its wings are the color of a Sandstorm.
-它的翅膀是沙暴的颜色。
-This plant is fake.
-这株植物是假的。
-Its leaves are made of cheap plastic.
-它的叶子是用廉价塑料做的。
-Nah.
-不用了。
-Sure.
-当然。
-No thanks.
-不用了，谢谢。
-
+...
+...
+[Map160]
+[Map161]
+[Map162]
+[Map163]
+[Map164]
 [Map165]
-Thanks! It's a pretty cool rock, huh?
-谢谢！这是块很酷的石头，对吧？
-
+[Map166]
+[Map167]
+...
+...
+[Map168]
+[Map169]
+[Map170]
+[Map171]
+[Map172]
+[Map173]
+[Map174]
 [Map175]
-A very dusty-looking PC. It must not have been in use in a very long time.
-一台看起来非常积灰的电脑。肯定很久没用了。
-
+[Map176]
+[Map177]
+[Map178]
+[Map179]
+[Map180]
+[Map181]
+[Map182]
+[Map183]
+[Map184]
+[Map185]
 [Map186]
-How many Champions get to throw down with a partner like this?
-有多少冠军能和这样的搭档一起战斗？
-There's this job at the Skeevy Eevee that Aaron offered me.
-亚伦在猥琐伊布给我提供了一份工作。
-Maybe it won't be the "perfect ending", but it can still be... it can still be good enough.
-也许这不会是"完美结局"，但它仍然可以……仍然可以足够好。
-Now, you're wondering how all this happened.
-现在，你想知道这一切是怎么发生的。
-I meddled with something that... I definitely shouldn't have.
-我插手了某件……我绝对不该插手的事情。
-Here's a thank you gift. You need it more than I do.
-这是谢礼。你比我更需要它。
-I'm gonna try to not think too hard about how that works...
-我会尽量不去深究这是怎么运作的……
-Well then, I'm off to Prizca East.
-那么，我要去东普里斯卡了。
-
+...
+...
 [Map187]
-The name on the mail box has worn away.
-邮箱上的名字已经磨损不清了。
-A small plastic tag reads "\PN's House".
-一个小塑料牌上写着"\PN的家"。
-A shiny brass plaque reads "\PN's Residence".
-一块闪亮的铜匾上写着"\PN的住所"。
-"Emma's Empoloreum!"
-"艾玛的帝王拿波馆！"
-A Piplup standee points you to the door.
-一个波加曼立牌指向门口。
-The door is locked.
-门是锁着的。
-I got a lot of energy, but my Rockruff somehow has even more.
-我精力充沛，但我的岩狗狗不知怎的精力更旺盛。
-Too many candy treats, maybe?
-也许是糖果吃太多了？
-Yeah, you should probably have these instead.
-是啊，你或许应该收下这些。
-Nevermind, it looks like he's just like this...
-算了，看来他天生就这样……
-An Empoleon standee points you to the door.
-一个帝王拿波立牌指向门口。
-Condensed sweat fogs the window.
-凝结的汗水使窗户蒙上了雾气。
-My god, this park is so much better than the one at LuxTech.
-天哪，这个公园比LuxTech的那个好太多了。
-West: Battle Plaza
-西：对战广场
-North: Prizca Castle
-北：普里兹卡城堡
-East: Split Peaks
-东：裂峰
-You read the plaque.
-你阅读了牌匾。
-"The Capital Building represents the prosperity that came after the establishment of the Makyan Congress."
-"首都大厦象征着Makyan国会建立后带来的繁荣。"
-"An unbroken era of peace which followed the decades of strife, which had left much of Makya razed."
-"在长达数十年的战乱使Makya大部分地区化为焦土之后，迎来了一个持续不断的和平时代。"
-"Makya's monarchy was unable to govern the land, and the people of Makya came together to end the region's suffering."
-"Makya的君主无力治理这片土地，Makya的人民团结起来，终结了这个地区的苦难。"
-Kantonian-Kalosian Fusion
-关都-卡洛斯融合料理
-Someone seems to have left a note on the sign.
-似乎有人在标牌上留了张便条。
-"Now closed indefinitely, thanks for all the memories!"
-"现已无限期停业，感谢所有的回忆！"
-A sign is hung on the front door. It reads:
-前门挂着一块牌子，上面写着：
-"We're off to Casaba Villa for the summer! Any business inquiries can be given to our assistant!"
-"我们夏天去卡萨巴别墅了！任何业务咨询可以交给我们的助理！"
-Bicycles are the only correct way to get around a dense town like this one.
-在像这样密集的城镇里，自行车是唯一正确的出行方式。
-I'm getting some circles done!
-我正在完成一些圆圈！
-Nature's Gallery
-自然画廊
-"Prizca has stood for over 3500 years, making it the oldest capital city on the continent."
-"普里兹卡已屹立超过3500年，是这片大陆上最古老的都城。"
-"The people of Prizca will prosper for as long as the city stands."
-"只要这座城市屹立不倒，普里兹卡的人民就会繁荣昌盛。"
-"May it last for another 3500 years!"
-"愿它再延续3500年！"
-"Prizca, where the future is built with the past."
-"普里兹卡，一个以过去筑就未来的地方。"
-A poster for an upcoming show. A notice says it's almost sold out!
-一张 upcoming 演出的海报。通知上说票快卖光了！
-Next to it is a calendar of other upcoming events.
-旁边是其他 upcoming 活动的日历。
-Prizca Castle predates even the city itself.
-普里兹卡城堡甚至比这座城市本身还要古老。
-Some historians say it could be almost 4000 years old!
-一些历史学家说它可能有近4000年的历史了！
-The cityscape here always inspires me.
-这里的城市景观总能给我带来灵感。
-The shapes, the colors, the fashion, it's all wonderful.
-造型、色彩、时尚，一切都美妙极了。
-It's an artist's paradise, I can see why Noel sets up shop here.
-这里是艺术家的天堂，我明白为什么诺埃尔会在这里开店了。
-I saw a famous singer appear out of thin air.
-我看到一位著名歌手凭空出现了。
-Right in front of that clay statue near the castle.
-就在城堡附近那座泥塑雕像的正前方。
-I tried reporting it to the rangers, but they all just laughed at me.
-我试着向护林员报告，但他们都嘲笑我。
-I know what I saw!
-我知道我看到了什么！
-Just because I can't remember his name doesn't mean you shouldn't believe me...
-我只是记不起他的名字，但这不代表你不该相信我……
-Skeevy Eevee Pub
-猥琐伊布酒馆
-Prizca's East Gym
-普里兹卡东道馆
-Leader: Noel
-馆主：诺埃尔
-Sculptor, Battler, Artist.
-雕塑家、对战者、艺术家。
-A lineup for an upcoming music festival.
-一场 upcoming 音乐节的演出阵容。
-Electrique!, Mandibles of the Land, OHKO Queen, HippowDon't... it's a long list.
-Electrique!、大地之颚、一击必杀女王、别河马……名单很长。
-Museum-quality artifacts behind shiny metal bars.
-闪闪发光的金属栏杆后陈列着博物馆级别的文物。
-I'll take your Pokémon for a --
-让我来照顾你的宝可梦——
-Wow, you have no idea how easy it is to slip into that habit.
-哇，你根本想不到养成那个习惯有多容易。
-I'm just here to have a smoke before I have to go back to work.
-我只是趁回去工作之前来抽根烟。
-The cafe inside is pretty nice, you should check it out.
-里面的咖啡馆挺不错的，你应该去看看。
-Their coffee is pretty good.
-他们的咖啡相当不错。
-Bit pricey though.
-不过有点贵。
-"Best bang for your buck in Makya!"
-"Makya性价比最高的地方！"
-I used to be Chasm, but now I work at the Capitol Building.
-我以前是Chasm的人，但现在我在国会大厦工作。
-Got myself a nice office and everything. A pretty decent setup for being a former grunt.
-给自己弄了间不错的办公室，该有的都有。对一个前杂兵来说，这待遇相当不错了。
-I mean, mostly everyone got off alright. Helena made sure everyone at least had a job before the Team disbanded.
-我是说，基本上大家都过得不错。Helena在队伍解散前确保每个人至少都有份工作。
-I wonder what my former squadmates are doing. I hope they're alright.
-我想知道我以前的队友们都在做什么。希望他们一切都好。
-Noel's House
-诺埃尔的家
-The shops on this side of town are quite quaint.
-镇子这边的店铺相当古朴雅致。
-Lot of odds and ends, stuff you won't find anywhere else!
-有很多杂七杂八的小玩意儿，你在别处根本找不到！
-Ironclad Dojo
-铁壁道场
-Make yourself as tough as iron!
-把自己锻炼得如铁般坚硬！
-The West end of Prizca was constructed rapidly over the last thirty or so years.
-普里兹卡的西区是在过去大约三十年里快速建设起来的。
-No time for beauty or community to form, it's all very lifeless over there.
-没时间去形成美感或社区氛围，那边一切都死气沉沉的。
-This side of the city is much more charming.
-城市的这一边要有魅力得多。
-Noel may be chill, but the trainers in his gym are anything but.
-诺埃尔可能很随和，但他道馆里的训练家可完全不是那么回事。
-Lording their position over challengers, making them run petty errands to 'earn' the 'right' to fight them.
-仗着地位对挑战者作威作福，让他们跑些琐碎的差事来"赢得"与他们战斗的"权利"。
-Makes me sick that they can be so openly corrupt.
-他们能如此明目张胆地腐败，真让我恶心。
-The Houndominus has its eyes locked on its trainer.
-那只Houndominus的目光紧紧锁定着它的训练家。
-Y'know, \PN, I never thought to ask your name.
-你知道吗，\PN，我从没想过要问你的名字。
-Figured it out on the way here when I did a quick li’l background check on my client up here, and then on you too.
-来这儿的路上，我顺便快速调查了一下我的客户，然后也查了你。
-Guess this breaks some kinda confidentiality rule, but I ain't never been an honorable sort: it's Zain.
-我猜这违反了某种保密规定，但我从来就不是什么正人君子：是Zain。
-Your big brother’s hired me, lookin’ to get his reserves in shape.
-你大哥雇了我，想让他后备的宝可梦练练身手。
-Keepin’ it cool. Gotta make sure it ain’t just bravado, though. Ya know how it is.
-保持冷静。不过得确认那不只是虚张声势。你懂的。
-Lotsa folks talk a big talk. It’s been a while since we last had a chat, so maybe ya lost your touch.
-很多人只会吹牛。咱们好久没聊了，说不定你退步了呢。
-'Fraid not. I ain't honorable, but I do what I do, and I do a mighty fine job of it.
-恐怕不是。我虽不正派，但我干我的活，而且干得很漂亮。
-I got paid, I got Pokémon, and you know what that means.
-我拿了钱，带了宝可梦，你知道这意味着什么。
-Oh, ya don’t have to tell me twice.
-哦，不用你说两遍。
-I figure lettin’ you have a crack at 'em gives you a neat little leg up in a way that’s still me doing my job, ya get it?
-我想让你试试身手，这样既能给你一点小小的优势，也算我在履行职责，你明白吧？
-So, ya got time for a match?
-所以，你有时间对战一场吗？
-I know, I know, I do it every time, but I got debts to pay. We can chat afterwards, if that’s what you’re after.
-我知道，我知道，我每次都是这样，但我有债要还。如果你想聊天，咱们之后可以聊。
-Whaddya say?
-你说呢？
-I ain’t goin’ nowhere. Drop by, yeah?
-我哪儿也不去。有空来坐坐，好吗？
-Well, let’s see what your brother’s got for ya.
-好吧，来看看你哥哥给你准备了什么。
-Back for a li’l sneak peek? Ya damned rascal.
-回来偷看一点？你这个小混蛋。
-Well, ya took care of that well enough, didn’t ya?
-嗯，你处理得不错，不是吗？
-Maybe Zain’s better than I am. He’s going through gyms, ain’t he?
-也许Zain比我强。他在挑战道馆，不是吗？
-I never did have the time for that.
-我从来没时间做那个。
-I was working for Chasm back when Yezera and I were fightin’. Then they set up the gyms.
-我和Yezera打架那会儿，我还在为Chasm工作。后来他们设立了道馆。
-Yezera got through 'em like nothin’, but at that point… I wasn’t feelin’ it.
-Yezera轻松通过了那些道馆，但那时候……我没那个心情。
-Don’t feel like talkin’ about her too much, though. She’s got enough on her plate without me gossipin’.
-不过我不想多谈她。不用我八卦，她手头的事已经够多了。
-Didn’t I just say I wasn’t gonna gossip?
-我不是刚说了我不会八卦吗？
-But everybody knows it: she went missin’. Couldn’t handle the spotlight.
-但大家都知道：她失踪了。她承受不了聚光灯的压力。
-Hell, could barely handle a conversation with most folks. Been like that since she was a tot.
-见鬼，她连和大多数人正常交谈都困难。从小就这样。
-Ya better respect your elders, kid.
-你最好尊重长辈，小子。
-I ain't talked your ear off half as much as my grandpappy did.
-我没像我爷爷那样唠叨你半天。
-Ya know you don't hafta come find me, yeah? I didn't hunt you down.
-你知道你不必来找我，对吧？我又没追着你跑。
-What, of Yezera's?
-什么，Yezera的？
-Best damn friend there ever was.
-有史以来最好的朋友。
-Sure, I was a bully back then, but ain't nobody bullied her but me.
-当然，我以前是个恶霸，但除了我没人欺负她。
-We fought like Zangoose and Seviper, ya know that?
-我们打得像猫鼬斩和饭匙蛇一样，你知道吗？
-But 'nuff said. I gotta get out of town.
-但说得够多了。我得离开这个镇子。
-Things are 'bout to get messy – I gotta feeling.
-事情要变糟了——我有这种感觉。
-So if you end up in the thick of it, keep your guard up.
-所以如果你陷入其中，保持警惕。
-'Member: slow is smooth, smooth is fast. Make it out of that, then we'll talk.
-记住：慢就是稳，稳就是快。从那里活着出来，咱们再聊。
-Catch ya at that <imp>, yeah? And take this. Better you than Zain.
-咱们在<<imp>见，好吗？拿着这个。给你总比给Zain好。
-I'm here to challenge the gym, but the people in there are just the worst.
-我是来挑战道馆的，但里面的人简直糟透了。
-I don't have enough money to buy all the stuff they're making me grab!
-我没有足够的钱买他们让我买的所有东西！
-Maybe I can scare one of them into giving me back my items...
-也许我可以吓唬他们中的一个，让他们把我的东西还回来……
-Its nametag reads "Thor".
-它的名牌上写着"Thor"。
-East End Exclusives
-东区独家精品
-I know, I know, it's a <i> park, not a <i> park.
-我知道，我知道，这是<i>公园，不是<i>公园。
-But my little menace has more energy than I know what to do with.
-但我的小捣蛋鬼精力充沛得我都不知道该怎么办。
-I had to find an outlet!
-我得找个发泄的地方！
-This man doesn't notice you, he seems to be rambling to someone over the phone.
-这个男人没注意到你，他似乎在对着电话自言自语。
-You don't see a phone though. Maybe an earpiece?
-不过你没看到电话。也许是耳机？
-Who's a good boy? Who's a good boy?
-谁是乖孩子？谁是乖孩子？
-You are boy, you are!
-你是乖孩子，你是！
-Yo yo, if it ain't my favorite person to lose over and over to.
-哟哟，这不是我最喜欢一遍又一遍输给的人吗。
-Just kidding. That's Aaron. He's very polite.
-开玩笑的。那是Aaron。他非常有礼貌。
-Back on topic: The gym here is pretty straightforward.
-回到正题：这里的道馆相当简单直接。
-Once I grabbed a Knight Helmet from Prizca Castle to evolve this Escavalier, I knew I was about 50% there already.
-当我从普里兹卡城堡拿到骑士头盔来进化这只骑士蜗牛时，我就知道我已经完成大约一半了。
-Though, I'm still a crazy perfectionist, so I want to battle for more practice, if you're up to it.
-不过，我还是个疯狂的完美主义者，所以如果你愿意，我想通过对战再多练习一下。
-So much culture here. Makes me want to say something poetic.
-这里文化氛围真浓。让我想说些富有诗意的话。
-But, eh, let's just battle instead.
-但是，呃，咱们还是直接对战吧。
-Understood.
-明白了。
-I'll be here until you wish to battle.
-我会一直待在这里，直到你想对战。
-CHAAAAAARGE!
-冲——啊！
-Aaron would have found a way to compliment my battling just now, despite how lop-sided that was.
-尽管刚才那场对战多么一边倒，Aaron肯定还是会想办法称赞我的。
-Two Dark-types will be great against Noel, but it seems that its less good against you.
-两只恶属性宝可梦对付Noel会很棒，但看来对你就不太奏效了。
-Gimme a minute, and we'll be right as rain, and ready to compete yet again.
-给我一分钟，我们马上就能恢复如初，准备好再次对战。
-Wow, they were right about word traveling fast in these parts.
-哇，他们说在这些地方消息传得飞快，果然没错。
-A passing socialite told me about your victory a full minute ago.
-一位路过的上流人士整整一分钟前就告诉我你的胜利了。
-I gotta travel fast, too! So begins my attempts at a perfect victory over Prizca East gym...
-我也得快点赶路！就这样，我开始尝试完美战胜普里兹卡东道馆……
-Noel is such a cool dude.
-Noel真是个酷家伙。
-Everyone focuses on his sculptures, but I know that his true art is in battling!
-大家都关注他的雕塑，但我知道他真正的艺术在于对战！
-The amount of offensive pressure his Pokemon create is simply breathtaking.
-他的宝可梦制造的进攻压力简直令人叹为观止。
-Especially if he manages to set up Frost Spikes.
-尤其是如果他成功布置了Frost Spikes的话。
-So cool!
-太酷了！
-W-what?! You got Noel's badge?
-什——什么？！你拿到Noel的徽章了？
-You're sick! Sick! I wish I got to see it!
-你太厉害了！厉害！我真希望当时能在场看到！
-What was once a printed notice has been painted over with a scene of a beautiful glacier at sunrise.
-原本的一张印刷告示，现在被涂画成了一幅日出时美丽冰川的景象。
-"TMs you NEED at prices you WANT!"
-"你需要的技术机器，你想要的价格！"
-Florian Park
-弗洛里安公园
-My life has moved so fast.
-我的人生过得太快了。
-Feels like just yesterday that I was attending the newly founded Novo Academy.
-Feels like just yesterday that I was attending the newly founded Novo Academy.
-Of course, that was over 50 years ago!
-Of course, that was over 50 years ago!
-It's been upgraded to a "College" since then.
-It's been upgraded to a "College" since then.
-I practice styling my Furfrou every day!
-I practice styling my Furfrou every day!
-Hey, do you have a Furfrou? I'd just love to style it!
-Hey, do you have a Furfrou? I'd just love to style it!
-It's just brilliant! Brilliant, I say!
-It's just brilliant! Brilliant, I say!
-Well, ok. I'll just be here with my Furfrou.
-Well, ok. I'll just be here with my Furfrou.
-A few months ago someone tried to bring their yacht through this river.
-A few months ago someone tried to bring their yacht through this river.
-His boat hit some rocks and sunk. Right here.
-His boat hit some rocks and sunk. Right here.
-It took the city service three weeks to clear everything.
-It took the city service three weeks to clear everything.
-It was completely stupid, but you have to respect his drive a little.
-It was completely stupid, but you have to respect his drive a little.
-Man, life is rough.
-Man, life is rough.
-I came here from Hoenn to get a shot at taking out some of the avatars, but I've had no luck.
-I came here from Hoenn to get a shot at taking out some of the avatars, but I've had no luck.
-This Gyarados avatar completely demolished my team the other day.
-This Gyarados avatar completely demolished my team the other day.
-I really, really need a Fairy-type.
-I really, really need a Fairy-type. 
-If you happen to have one, I'll trade you a Relicanth for it.
-If you happen to have one, I'll trade you a Relicanth for it. 
-Tsk. Maybe I'm just not cut out for this...
-Tsk. Maybe I'm just not cut out for this...
-If you get your hands on an Fairy-type, I'd appreciate a trade.
-If you get your hands on an Fairy-type, I'd appreciate a trade.
-Oh, you're a dear! Let's get this trade going.
-Oh, you're a dear! Let's get this trade going.
-Sweet, I'm off to find another avatar to battle!
-Sweet, I'm off to find another avatar to battle!
-"Phones, batteries, accessories-- you name it, we have it!"
-"Phones, batteries, accessories-- you name it, we have it!"
-My Snubbull is simply the most creative Pokemon this side of the Eleig River.
-My Snubbull is simply the most creative Pokemon this side of the Eleig River.
-Don't you agree? You can clearly see it on her face!
-Don't you agree? You can clearly see it on her face!
-So?
-So?
-Don't train them.
-Don't train them.
-Let me fight them.
-Let me fight them.
-Not now.
-Not now.
-Let's go.
-Let's go.
-Like what?
-Like what?
-Oh, good.
-Oh, good.
-You're a good friend.
-You're a good friend.
-Maybe later.
-Maybe later.
-Sure, let's go.
-Sure, let's go.
-No
-No
-Yes
-Yes
+...
+...
+[Map188]
 [Map189]
-I - the extraction's wrapping up. I have to get going.
-I - the extraction's wrapping up. I have to get going.
-If you find me again, we'll have a real battle.
-If you find me again, we'll have a real battle.
-Bye, for now.
-Bye, for now.
+...
+...
+[Map190]
+[Map191]
+[Map192]
+[Map193]
+[Map194]
+...
+...
+[Map195]
+[Map196]
+[Map197]
+[Map198]
+[Map199]
+[Map200]
+[Map201]
+[Map202]
 [Map203]
-Hey hey, \PN! Say hi to the Skeevee Eevee’s newest Behavioural Trainer!
-Hey hey, \PN! Say hi to the Skeevee Eevee’s newest Behavioural Trainer!
-I get to <i>socialize the Eevees</i>! It’s kind of a sick gig!
-I get to <i>socialize the Eevees</i>! It’s kind of a sick gig!
-Oh, and there’s tons of healing items here, so, I can heal your team in between bouts.
-Oh, and there’s tons of healing items here, so, I can heal your team in between bouts.
-Gonna switch ‘em up at random. Keep you on your toes.
-Gonna switch ‘em up at random. Keep you on your toes.
+.........
+.........
+[Map204]
+[Map205]
+[Map206]
+[Map207]
+[Map208]
+[Map209]
+[Map210]
 [Map211]
-Mentally, it’s been a mixed bag, but physically...?
-Mentally, it’s been a mixed bag, but physically...?
-Talking about “gravitas”, this is the second to last spot I’ve got planned.
-Talking about “gravitas”, this is the second to last spot I’ve got planned.
-Let’s make it count, yeah?
-Let’s make it count, yeah?
-Yeah, it’s... pretty chilly. Hard to tell that it’s still summer.
-Yeah, it’s... pretty chilly. Hard to tell that it’s still summer.
-<imp>Frostflow Farms</imp>. See you there.
-<imp>Frostflow Farms</imp>. See you there.
+...
+...
+[Map212]
+...
+...
+[Map213]
+[Map214]
+...
+...
+[Map215]
+[Map216]
+...
+...
+[Map217]
+[Map218]
+[Map219]
+[Map220]
+[Map221]
+[Map222]
+[Map223]
+...
+...
+[Map224]
+[Map225]
+[Map226]
+[Map227]
+[Map228]
+...
+...
+[Map229]
+[Map230]
+[Map231]
+[Map232]
+[Map233]
+[Map234]
+[Map235]
+[Map236]
+[Map237]
+[Map238]
+...
+...
+[Map239]
+[Map240]
+[Map241]
+[Map242]
+[Map243]
+[Map244]
+[Map245]
+[Map246]
+[Map247]
+[Map248]
+[Map249]
+[Map250]
+[Map251]
+[Map252]
+[Map253]
+[Map254]
+[Map255]
+[Map256]
+[Map257]
+[Map258]
+[Map259]
+[Map260]
+[Map261]
+[Map262]
+[Map263]
+[Map264]
+[Map265]
+[Map266]
+[Map267]
+[Map268]
+[Map269]
+[Map270]
+[Map271]
+[Map272]
+[Map273]
+[Map274]
+[Map275]
+[Map276]
+[Map277]
+[Map278]
+[Map279]
+[Map280]
+[Map281]
+[Map282]
+[Map283]
+[Map284]
+[Map285]
+[Map286]
+[Map287]
+[Map288]
+[Map289]
 [Map290]
-Ahh, the artistic vigor—it's coursing through me!
-Ahh, the artistic vigor—it's coursing through me!
+[Map291]
+[Map292]
+[Map293]
+[Map294]
+...
+...
+[Map295]
+[Map296]
+[Map297]
+[Map298]
+[Map299]
+[Map300]
+[Map301]
+[Map302]
+[Map303]
+[Map304]
+[Map305]
+[Map306]
+[Map307]
+[Map308]
+[Map309]
+[Map310]
+[Map311]
+[Map312]
+[Map313]
+[Map314]
+[Map315]
+[Map316]
+[Map317]
 [Map318]
-Didn’t see you there.
-Didn’t see you there.
-I know I usually take losses like a champ, but this time’s different.
-I know I usually take losses like a champ, but this time’s different.
-Anyways... I’m gonna head out somewhere quiet.
-Anyways... I’m gonna head out somewhere quiet.
-Oops, sorry! I’m usually more careful.
-Oops, sorry! I’m usually more careful.
-I know we’re not exactly close, but...
-I know we’re not exactly close, but...
-Either way, I’ll be at <imp>Bluepoint Beach</imp>.
-Either way, I’ll be at <imp>Bluepoint Beach</imp>.
+[Map319]
+[Map320]
+[Map321]
+[Map322]
+[Map323]
+[Map324]
+[Map325]
+[Map326]
+...
+...
 [Map327]
-I’m getting to that, but also, hey, it could come in handy some day, yeah?
-I’m getting to that, but also, hey, it could come in handy some day, yeah?
-Gigas’s chamber can only be opened by the other five Regis together.
-Gigas’s chamber can only be opened by the other five Regis together.
-I don’t know. She agreed with us: it was too dangerous. We were criminals, not lunatics.
- I don’t know. She agreed with us: it was too dangerous. We were criminals, not lunatics.
-I know things… haven’t been great for her, but this? This is insane.
-I know things… haven’t been great for her, but this?  This is insane.
-Gigas’s chamber is deep down, though, and if they haven’t broken the seal yet, it’d be for nothing.
-Gigas’s chamber is deep down, though, and if they haven’t broken the seal yet, it’d be for nothing.
-Or if they’ve resealed it. I can try and scout it out, but… no promises.
-Or if they’ve resealed it. I can try and scout it out, but… no promises.
-My POINT is that if you don’t help out, you better get used to the look of white stone.
-My POINT is that if you don’t help out, you better get used to the look of white stone.
-You’re gonna be seeing a whole lot more of it if someone tells Regigigas to let loose.
-You’re gonna be seeing a whole lot more of it if someone tells Regigigas to let loose.
-Listen, I don’t know. I don’t know a lot of things.
-Listen, I don’t know. I don’t know a lot of things.
-So let me talk to Andris, our rangers, Helena, whoever else I can find. We’ll figure out how bad things are.
-So let me talk to Andris, our rangers, Helena, whoever else I can find. We’ll figure out how bad things are.
-They’ve got at least one Regi, probably more, so there’s a strong temptation to wreak havoc. Trust me – I’d know.
-They’ve got at least one Regi, probably more, so there’s a strong temptation to wreak havoc. Trust me – I’d know.
+[Map328]
+[Map329]
+[Map330]
+[Map331]
+[Map332]
+[Map333]
+[Map334]
+[Map335]
+[Map336]
+[Map337]
+[Map338]
+[Map339]
+[Map340]
+[Map341]
+[Map342]
+[Map343]
+...
+...
+[Map344]
+[Map345]
+[Map346]
+[Map347]
+[Map348]
+[Map349]
+[Map350]
+[Map351]
+[Map352]
+[Map353]
+[Map354]
+[Map355]
+[Map356]
+[Map357]
+[Map358]
+[Map359]
+[Map360]
+[Map361]
+[Map362]
+...
+...
+[Map363]
+[Map364]
+[Map365]
+[Map366]
+[Map367]
+[Map368]
+[Map369]
+[Map370]
+[Map371]
+[Map372]
+[Map373]
+[Map374]
+[Map375]
+[Map376]
+[Map377]
+[Map378]
+[Map379]
+[Map380]
+[Map381]
+[Map382]
+[Map383]
+[Map384]
+[Map385]
+[Map386]
+[Map387]
+[Map388]
+[Map389]
+[Map390]
+[Map391]
+[Map392]
+[Map393]
+[Map394]
+[Map395]
+[Map396]
+[Map397]
+[Map398]
+[Map399]
+[Map400]
+[Map401]
+...
+...
+[Map402]
+[Map403]
+[Map404]
+[Map405]
+[Map406]
+[Map407]
+[Map408]
+[Map409]
+[Map410]
+[Map411]
+[Map412]
+[Map413]
+[Map414]
+...
+...
+[Map415]
+[Map416]
+[Map417]
+[Map418]
+[Map419]
+[Map420]
+[Map421]
+[Map422]
+[Map423]
+[Map424]
+[Map425]
+[Map426]
+[Map427]
+[Map428]
+[Map429]
+[Map430]
+[Map431]
+[Map432]
+[Map433]
+[Map434]
+[Map435]
+[Map436]
+[Map437]
+[Map438]
+[Map439]
+[Map440]
+[Map441]
+[Map442]
+[Map443]
+[Map444]
+[Map445]
+[Map446]
+[Map447]
+[Map448]
 [Map449]
-I’ll have to work even harder to be perfect.
-I’ll have to work even harder to be perfect.
+...
+...
 [Map450]
-Sorry, it's just... when people know that I was on the science team, they invariably try to pry secrets out of me.
-Sorry, it's just... when people know that I was on the science team, they invariably try to pry secrets out of me.
+...
+...
+[Map451]
 [Map452]
-Anecdotal qualitative observations note object’s extremely low temperature.
-Anecdotal qualitative observations note object’s extremely low temperature.
-OBJ-TAO-3 temporarily housed in laboratory sub- storage room 4.
-OBJ-TAO-3 temporarily housed in laboratory sub- storage room 4.
+[Map453]
+[Map454]
+[Map455]
+[1]
+[2]
+[3]
+[4]
+A
+A
+50%
+50%
+B
+B
+C
+C
+D
+D
+E
+E
+F
+F
+G
+G
+H
+H
+I
+I
+J
+J
+K
+K
+L
+L
+M
+M
+N
+N
+O
+O
+P
+P
+Q
+Q
+R
+R
+S
+S
+T
+T
+U
+U
+V
+V
+W
+W
+X
+X
+Y
+Y
+Z
+Z
+?
+?
+!
+!
+10%
+10%
 [5]
-Shared Spoils
-Shared Spoils
 [6]
-The user communes with all the world's water, waterlogging the target and forming an Aqua Ring around themselves, healing 10% HP per turn.
-The user communes with all the world's water, waterlogging the target and forming an Aqua Ring around themselves, healing 10% HP per turn.
-The user attacks and steals the foe's held item simultaneously. You then choose a party member to hold it.
-The user attacks and steals the foe's held item simultaneously. You then choose a party member to hold it.
+[7]
+[8]
+[9]
+[10]
+[11]
+[12]
+[14]
+Brickbat
+Brickbat
+Zinnia
+Zinnia
+IgnitedxSoul
+IgnitedxSoul
+Drawingbox
+Drawingbox
+Lichenprincess
+Lichenprincess
+Tiki
+Tiki
+Splitmoon
+Splitmoon
+Steeb
+Steeb
+D
+D
+Jaggedthorn
+Jaggedthorn
+Darlvon
+Darlvon
+Minty
+Minty
+LunaFlare
+LunaFlare
+Valrex
+Valrex
+Jbsundown
+Jbsundown
+Miss Zesty
+Miss Zesty
+Riptide
+Riptide
+Attea
+Attea
+Bella
+Bella
+Kirbae
+Kirbae
+Pechapanda
+Pechapanda
+Lilypad
+Lilypad
+Envy
+Envy
+ValourDyke
+ValourDyke
+Errata
+Errata
+Fanfan
+Fanfan
+Manycrows
+Manycrows
+Chus
+Chus
+Eseria
+Eseria
+Destiny
+Destiny
+Azeler
+Azeler
+Emmi
+Emmi
+X
+X
+Avram
+Avram
+Vidya
+Vidya
+BRADY
+BRADY
+CONNER
+CONNER
+BRADLEY
+BRADLEY
+CYBIL
+CYBIL
+RODETTE
+RODETTE
+PEGGY
+PEGGY
+KEITH
+KEITH
+GRAYSON
+GRAYSON
+GLENN
+GLENN
+LILIANA
+LILIANA
+ELISE
+ELISE
+ZOEY
+ZOEY
+MANUEL
+MANUEL
+RUSS
+RUSS
+DUSTIN
+DUSTIN
+TINA
+TINA
+GILLIAN
+GILLIAN
+ZOE
+ZOE
+CHEN
+CHEN
+AL
+AL
+MITCH
+MITCH
+ANNE
+ANNE
+ALIZE
+ALIZE
+LAUREN
+LAUREN
+KIPP
+KIPP
+JASON
+JASON
+JOHN
+JOHN
+ANN
+ANN
+EILEEN
+EILEEN
+CARLIE
+CARLIE
+GORDON
+GORDON
+AYDEN
+AYDEN
+MARCO
+MARCO
+CIERRA
+CIERRA
+MARCY
+MARCY
+KATHY
+KATHY
+PEYTON
+PEYTON
+JULIAN
+JULIAN
+QUINN
+QUINN
+HAYLEE
+HAYLEE
+AMANDA
+AMANDA
+STACY
+STACY
+RAFAEL
+RAFAEL
+OLIVER
+OLIVER
+PAYTON
+PAYTON
+PAMELA
+PAMELA
+ELIZA
+ELIZA
+MARISA
+MARISA
+LEWIS
+LEWIS
+YOSHI
+YOSHI
+DESTIN
+DESTIN
+KEON
+KEON
+STUART
+STUART
+NESTOR
+NESTOR
+DERRICK
+DERRICK
+BRYSON
+BRYSON
+CLAYTON
+CLAYTON
+TRENTON
+TRENTON
+JENSON
+JENSON
+WESLEY
+WESLEY
+ANTON
+ANTON
+LAWSON
+LAWSON
+SAMMY
+SAMMY
+ARNIE
+ARNIE
+ADRIAN
+ADRIAN
+TRISTAN
+TRISTAN
+JULIANA
+JULIANA
+RYLEE
+RYLEE
+CHELSEA
+CHELSEA
+DANELA
+DANELA
+LIZBETH
+LIZBETH
+AMELIA
+AMELIA
+JILLIAN
+JILLIAN
+ABBIE
+ABBIE
+BRIANA
+BRIANA
+ANTONIO
+ANTONIO
+JADEN
+JADEN
+DAKOTA
+DAKOTA
+BRAYDEN
+BRAYDEN
+CORSON
+CORSON
+TREVIN
+TREVIN
+PATRICK
+PATRICK
+KADEN
+KADEN
+MAXWELL
+MAXWELL
+DARYL
+DARYL
+KENNETH
+KENNETH
+RICH
+RICH
+CADEN
+CADEN
+MARLON
+MARLON
+NASH
+NASH
+ROBBY
+ROBBY
+REECE
+REECE
+KATHRYN
+KATHRYN
+ELLEN
+ELLEN
+RAMON
+RAMON
+ARTHUR
+ARTHUR
+ALONDRA
+ALONDRA
+ADRIANA
+ADRIANA
+MALIK
+MALIK
+JILL
+JILL
+ERIK
+ERIK
+YAZMIN
+YAZMIN
+JAMAL
+JAMAL
+LESLIE
+LESLIE
+DAVE
+DAVE
+CARLO
+CARLO
+EMILIA
+EMILIA
+DALIA
+DALIA
+HITOMI
+HITOMI
+RICARDO
+RICARDO
+SHIZUKA
+SHIZUKA
+JOANA
+JOANA
+KELLY
+KELLY
+RAYNA
+RAYNA
+EVAN
+EVAN
+JORDAN
+JORDAN
+JOEL
+JOEL
+KRISTEN
+KRISTEN
+SELPHY
+SELPHY
+CHLOE
+CHLOE
+NORTON
+NORTON
+LUKAS
+LUKAS
+ZACH
+ZACH
+KAITLYN
+KAITLYN
+BREANNA
+BREANNA
+KENDRA
+KENDRA
+MOLLY
+MOLLY
+JAZMIN
+JAZMIN
+KELSEY
+KELSEY
+JALEN
+JALEN
+GRIFFEN
+GRIFFEN
+XANDER
+XANDER
+MARVIN
+MARVIN
+BRENNAN
+BRENNAN
+BALEY
+BALEY
+ZACKARY
+ZACKARY
+GABRIEL
+GABRIEL
+EMILY
+EMILY
+JORDYN
+JORDYN
+SOFIA
+SOFIA
+BRADEN
+BRADEN
+KAYDEN
+KAYDEN
+COOPER
+COOPER
+JULIA
+JULIA
+AMARA
+AMARA
+LYNN
+LYNN
+JOVAN
+JOVAN
+DOMINIC
+DOMINIC
+NIKOLAS
+NIKOLAS
+VALERIA
+VALERIA
+DELANEY
+DELANEY
+MEGHAN
+MEGHAN
+ROBERTO
+ROBERTO
+DAMIAN
+DAMIAN
+BRODY
+BRODY
+GRAHAM
+GRAHAM
+TYLOR
+TYLOR
+JAREN
+JAREN
+CORDELL
+CORDELL
+JAZLYN
+JAZLYN
+ZACHERY
+ZACHERY
+JOHAN
+JOHAN
+SHEA
+SHEA
+KAILA
+KAILA
+ISIAH
+ISIAH
+GARRETT
+GARRETT
+HAYLIE
+HAYLIE
+MEGAN
+MEGAN
+ISSAC
+ISSAC
+QUINTON
+QUINTON
+SALMA
+SALMA
+ANSLEY
+ANSLEY
+HOLDEN
+HOLDEN
+LUCA
+LUCA
+JAMISON
+JAMISON
+GUNNAR
+GUNNAR
+CRAIG
+CRAIG
+PIERCE
+PIERCE
+REGINA
+REGINA
+ALISON
+ALISON
+HANK
+HANK
+EARL
+EARL
+RAMIRO
+RAMIRO
+HUNTER
+HUNTER
+AIDEN
+AIDEN
+XAVIER
+XAVIER
+CLINTON
+CLINTON
+JESSE
+JESSE
+EDUARDO
+EDUARDO
+HAL
+HAL
+GAGE
+GAGE
+ARNOLD
+ARNOLD
+JARRETT
+JARRETT
+GARETT
+GARETT
+EMANUEL
+EMANUEL
+GUSTAVO
+GUSTAVO
+KAMERON
+KAMERON
+ALFREDO
+ALFREDO
+RUBEN
+RUBEN
+LAMAR
+LAMAR
+JAXON
+JAXON
+LOGAN
+LOGAN
+EMILEE
+EMILEE
+JOSIE
+JOSIE
+ARMANDO
+ARMANDO
+SKYLER
+SKYLER
+RUTH
+RUTH
+MELODY
+MELODY
+PEDRO
+PEDRO
+ERICK
+ERICK
+ELAINE
+ELAINE
+JOYCE
+JOYCE
+TODD
+TODD
+GAVIN
+GAVIN
+MALORY
+MALORY
+ESTHER
+ESTHER
+OSCAR
+OSCAR
+WILSON
+WILSON
+CLARE
+CLARE
+TESS
+TESS
+LEON
+LEON
+ALONZO
+ALONZO
+VINCE
+VINCE
+BRYON
+BRYON
+AVA
+AVA
+MIRIAM
+MIRIAM
+CARRIE
+CARRIE
+TYLER
+TYLER
+CHAZ
+CHAZ
+NELSON
+NELSON
+SHANIA
+SHANIA
+STELLA
+STELLA
+DORINE
+DORINE
+MADDOX
+MADDOX
+DAVIN
+DAVIN
+TREVON
+TREVON
+MATEO
+MATEO
+BRET
+BRET
+RAUL
+RAUL
+KAY
+KAY
+ELENA
+ELENA
+ALANA
+ALANA
+ALEXAS
+ALEXAS
+WESTON
+WESTON
+JASPER
+JASPER
+NADIA
+NADIA
+MIRANDA
+MIRANDA
+EMMA
+EMMA
+ROLANDO
+ROLANDO
+STANLY
+STANLY
+DARIO
+DARIO
+KARLEE
+KARLEE
+JAYLIN
+JAYLIN
+INGRID
+INGRID
+DELILAH
+DELILAH
+CARLY
+CARLY
+LEXIE
+LEXIE
+MILLER
+MILLER
+MARV
+MARV
+LAYTON
+LAYTON
+BROOKS
+BROOKS
+GREGORY
+GREGORY
+REESE
+REESE
+MASON
+MASON
+TOBY
+TOBY
+DOROTHY
+DOROTHY
+PIPER
+PIPER
+FINN
+FINN
+SAMIR
+SAMIR
+FIONA
+FIONA
+GLORIA
+GLORIA
+NICO
+NICO
+JEREMY
+JEREMY
+CAITLIN
+CAITLIN
+REENA
+REENA
+AVERY
+AVERY
+LIAM
+LIAM
+THEO
+THEO
+BAILEY
+BAILEY
+HUGO
+HUGO
+BRYCE
+BRYCE
+GIDEON
+GIDEON
+TRISTON
+TRISTON
+CHARLES
+CHARLES
+RAYMOND
+RAYMOND
+DIRK
+DIRK
+HAROLD
+HAROLD
+OMAR
+OMAR
+PETER
+PETER
+DEV
+DEV
+COREY
+COREY
+ANDRE
+ANDRE
+FERRIS
+FERRIS
+ALIVIA
+ALIVIA
+PAIGE
+PAIGE
+ANYA
+ANYA
+DAWN
+DAWN
+ABBY
+ABBY
+GRETEL
+GRETEL
+[18]
+[19]
+[20]
+[21]
+[22]
+[23]
 [24]
-ABILITIES[Z]
-ABILITIES[Z]
-But nobody could receive the item!
-But nobody could receive the item!
-\i[SPANNINGBAND]What? The Spanning Bands are suddenly glowing!
-\i[SPANNINGBAND]What? The Spanning Bands are suddenly glowing!
-\i[SPANNINGBAND]They glow in sync with the <imp>Avatar Totem</imp>.
-\i[SPANNINGBAND]They glow in sync with the <imp>Avatar Totem</imp>.
-\i[SPANNINGBAND]A vision of Casaba Villa flashes across your mind.
-\i[SPANNINGBAND]A vision of Casaba Villa flashes across your mind.
-\i[SPANNINGBAND]You sense that some sort of <imp>connection</imp> has been made.
-\i[SPANNINGBAND]You sense that some sort of <imp>connection</imp> has been made.
-The Pokémon's species abilities can't be changed!
-The Pokémon's species abilities can't be changed!
-You can change a Pokémon's species abilities here!
-You can change a Pokémon's species abilities here!
-Which do you want to choose?
-Which do you want to choose?
-You don't have enough money to change the Pokémon's species abilities!
-You don't have enough money to change the Pokémon's species abilities!
-It costs $5000, are you sure?
-It costs $5000, are you sure?
-The Pokémon's species abilities changed!
-The Pokémon's species abilities changed!
+TM {1}
+TM {1}
+HM {1}
+HM {1}
+{1} +{2}
+{1} +{2}
+{1} TMs
+{1} TMs
+{1} HMs
+{1} HMs
+{1} ({2})
+{1} ({2})
+HP
+HP
+.\|.\|.\|.\|.\|
+.\|.\|.\|.\|.\|
+<u>???</u>
+<u>???</u>
+<<[>>{1}/{2}<<]>>
+<<[>>{1}/{2}<<]>>
+IDNo.<r>{1}<br>
+IDNo.<r>{1}<br>
+No. ???
+No. ???
+No. {1:03d}
+No. {1:03d}
+Lv. {1}
+Lv. {1}
+IDNo.{1}
+IDNo.{1}
+PP
+PP
+{1}/{2}
+{1}/{2}
+>99
+>99
+x{1}
+x{1}
+♂
+♂
+♀
+♀
+ID No.
+ID No.
+<c3=F8F8F8{2},686868>{1}
+<c3=F8F8F8{2},686868>{1}
+<c3=404040{2},B0B0B0>{1}
+<c3=404040{2},B0B0B0>{1}
+${1}
+${1}
+{1}h {2}m
+{1}h {2}m
+{1}m
+{1}m
+\wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
+\wm#{tutorialMessage}\wtnp<<[>>#{tutorialMessageDuration}<<]>><<1>>
+x{1:03d}
+x{1:03d}
+x{1: 3d}
+x{1: 3d}
+x{1: 2d}
+x{1: 2d}
+1
+1
+2
+2
+3
+3
+4
+4
+5
+5
+6
+6
+12
+12
+18
+18
+24
+24
+#{pokemon.name} Lv. #{pokemon.level.to_s}
+#{pokemon.name} Lv. #{pokemon.level.to_s}
+{1} (PP: ---)
+{1} (PP: ---)
+{1} (PP: {2}/{3})
+{1} (PP: {2}/{3})
+x{1}<r>{2}
+x{1}<r>{2}
+<ac>{1:02d}:{2:02d}
+<ac>{1:02d}:{2:02d}
+{1}K
+{1}K
+{1}M
+{1}M
+{1}B
+{1}B
+{1}T
+{1}T
+<ac><c3={1}>{2}</c3></ac>
+<ac><c3={1}>{2}</c3></ac>
+#{title}
+#{title}
+...
+...
+...{1}...
+...{1}...
+{1}{2} {3}
+{1}{2} {3}
+50/50
+50/50
+{1:d}'{2:02d}"
+{1:d}'{2:02d}"
+{1:4.1f} lbs.
+{1:4.1f} lbs.
+{1:.1f} m
+{1:.1f} m
+{1:.1f} kg
+{1:.1f} kg
+E
+E
+<b>{1}</b> {2}
+<b>{1}</b> {2}
+{1}: {2} ({3}\%)
+{1}: {2} ({3}\%)
+A-Z
+A-Z
+Z-A
+Z-A
+\ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
+\ts[]<c3=4C0D0D,FFFFFF22><b><outln2><ac><fs={1}>\w[]\wu\l[12]{2}</fs></ac></outln2></b></c3>\wt[{3}]
+<imp>{1}</imp>
+<imp>{1}</imp>
+\ss#{msg}\<<1>>
+\ss#{msg}\<<1>>
+{1} #{aboveHalfHealth? ? 'deactivated' : 'activated'}!
+{1} #{aboveHalfHealth? ? 'deactivated' : 'activated'}!
+<u>{1} - {2} {3}:</u> 75%
+<u>{1} - {2} {3}:</u> 75%
+<u>{1} - {2} {3}:</u> 50%
+<u>{1} - {2} {3}:</u> 50%
+<u>{1} - {2} {3}:</u> 25%
+<u>{1} - {2} {3}:</u> 25%
+<u>{1} - {2} {3}:</u> 12.5%
+<u>{1} - {2} {3}:</u> 12.5%
+<u>100% HP:</u> 100 BP
+<u>100% HP:</u> 100 BP
+<u>50% HP:</u> 200 BP
+<u>50% HP:</u> 200 BP
+<u>30% HP:</u> 280 BP
+<u>30% HP:</u> 280 BP
+<u>20% HP:</u> 400 BP
+<u>20% HP:</u> 400 BP
+<u>15% HP:</u> 480 BP
+<u>15% HP:</u> 480 BP
+<u>10% HP:</u> 660 BP
+<u>10% HP:</u> 660 BP
+<u>7.5% HP:</u> 800 BP
+<u>7.5% HP:</u> 800 BP
+<u>50% HP:</u> 65 BP
+<u>50% HP:</u> 65 BP
+<u>75% HP:</u> 95 BP
+<u>75% HP:</u> 95 BP
+<u>100% HP:</u> 130 BP
+<u>100% HP:</u> 130 BP
+<u>125% HP:</u> 160 BP
+<u>125% HP:</u> 160 BP
+<u>150% HP:</u> 195 BP
+<u>150% HP:</u> 195 BP
+<u>100% HP:</u> 25 BP
+<u>100% HP:</u> 25 BP
+<u>50% HP:</u> 50 BP
+<u>50% HP:</u> 50 BP
+<u>30% HP:</u> 70 BP
+<u>30% HP:</u> 70 BP
+<u>20% HP:</u> 100 BP
+<u>20% HP:</u> 100 BP
+<u>15% HP:</u> 120 BP
+<u>15% HP:</u> 120 BP
+<u>10% HP:</u> 165 BP
+<u>10% HP:</u> 165 BP
+<u>7.5% HP:</u> 200 BP
+<u>7.5% HP:</u> 200 BP
+<u>{1} - {2} {3}:</u> 25 BP
+<u>{1} - {2} {3}:</u> 25 BP
+<u>{1} - {2} {3}:</u> 50 BP
+<u>{1} - {2} {3}:</u> 50 BP
+<u>{1} - {2} {3}:</u> 100 BP
+<u>{1} - {2} {3}:</u> 100 BP
+<u>{1} - {2} {3}:</u> 140 BP
+<u>{1} - {2} {3}:</u> 140 BP
+<u>>{1} {2}:</u> 160 BP
+<u>>{1} {2}:</u> 160 BP
+{1}<<1>>
+{1}<<1>>
+{1}
+{1}
+{1}: {2}
+{1}: {2}
+\cl\l[5]\op\wu\i[{1}]\or{2}\wt[30]
+\cl\l[5]\op\wu\i[{1}]\or{2}\wt[30]
+\i[{1}]{2}
+\i[{1}]{2}
+{1} x{2}
+{1} x{2}
+{1}-{2}
+{1}-{2}
+{1} - ${2}
+{1} - ${2}
+-
+-
+{1} {2} ({3}) x{4}
+{1} {2} ({3}) x{4}
+{1} {2} x{3}
+{1} {2} x{3}
+\wm\ss<i>{1}</i>
+\wm\ss<i>{1}</i>
+\wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
+\wm{1}\me<<[>>Slots win<<]>>\wtnp<<[>>80<<]>><<1>>
+\cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
+\cl\l[2]\op\wu<ac>{1}</ac>\wtnp[{2}]
+\wm\<ac>\c<<[>>2<<]>>{1}</c><<n>>{2}</ac>\wtnp<<[>>{3}<<]>>
+\wm\<ac>\c<<[>>2<<]>>{1}</c><<n>>{2}</ac>\wtnp<<[>>{3}<<]>>
+<u>{1}</u>
+<u>{1}</u>
+Lv. 70
+Lv. 70
+<ac>00:00
+<ac>00:00
+? ? ? ?
+? ? ? ?
+GF
+GF
+[27]
+[28]
+[29]
+[30]
+[31]
+[32]
+[33]
+[34]
+[1313]

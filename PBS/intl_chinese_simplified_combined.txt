@@ -240,11 +240,11 @@ My heartfelt congratulations.
 Regardless, I bear good news.
 无论如何，我带来了好消息。
 You have received a formal invitation from MonumentSoft, a subsidiary of LuxTech.
-你收到了来自纪念碑软件——光华科技子公司的正式邀请。
+你收到了来自纪念碑软件——光华市子公司的正式邀请。
 They desire your presence at the <imp>Battle Monument</imp>.
 他们希望你在<imp>对战纪念碑</imp>现身。
 Apparently it hosts quite the grueling challenge, an “AI Trainer Gauntlet” as they describe it.
-Apparently it hosts quite the grueling challenge, an “AI Trainer Gauntlet” as they describe it.
+显然那里举办着相当艰苦的挑战，正如他们所描述的"AI训练师试炼"。
 There is to be some manner of reward for successful completions.
 成功完成者将获得某种奖励。
 The Monument is best reached by sea. Should you wish to visit, I will see you there immediately.
@@ -1199,11 +1199,11 @@ Whatever it is, I hope things turn out well for you.
 Gonna go straight through this league and tournament and onto even greater glories, huh?
 要直接冲过这个联盟和锦标赛，迈向更伟大的荣耀，对吧？
 If anyone could ride that momentum it’d probably be you.
-If anyone could ride that momentum it’d probably be you.
+如果有人能乘势而上，那可能就是你。
 Just remember to slow down long enough for me to catch you at your coronation.
 只要记得慢下来，让我能在你的加冕礼上找到你。
 Yeah, definitely! Kinda part of why I’m sore about it.
-Yeah, definitely! Kinda part of why I’m sore about it.
+是啊，当然！这也是我为此感到酸涩的部分原因。
 I cheered for you during your rounds.
 我在你的比赛期间为你加油。
 Got some vicarious joy watching you beat your asshole brother.
@@ -1223,7 +1223,7 @@ Heard some rumors that it might have been manmade...?
 Sounds like something a Champion should look into. Wink wink.
 听起来像是冠军应该调查的事情。眨眼示意。
 I know you’re destined for even greater glories.
-I know you’re destined for even greater glories.
+我知道你注定会获得更伟大的荣耀。
 So... back to my memorial tour of the region.
 那么...回到我对这个地区的纪念之旅。
 For our next stop I was thinking the <imp>Split Peaks.</imp>
@@ -1502,15 +1502,15 @@ ooooooOOOOOooooooooo...
 OOOOOOOOOOOOOOOooooooooooooooooo...
 呜~~~~~~~~~~~~呜~~~~~~~~~~~~...
 I’m being silly to distract myself from fear.
-I’m being silly to distract myself from fear.
+我在装傻来分散自己对恐惧的注意力。
 Anyway, let’s get a round of applause for Vanya and \PN!
-Anyway, let’s get a round of applause for Vanya and \PN!
+总之，让我们为凡雅和\PN鼓掌！
 We’ve both been collecting badges at lightning speed.
-We’ve both been collecting badges at lightning speed.
+我们俩都以闪电般的速度收集徽章。
 Plus, I’m perfecting every gym leader, without even using held items!
-Plus, I’m perfecting every gym leader, without even using held items!
+而且，我完胜了每一位道馆馆主，甚至都没使用携带物！
 I’d say “not to brag”, but I am absolutely bragging.
-I’d say “not to brag”, but I am absolutely bragging.
+我想说"不是吹牛"，但我绝对是在吹牛。
 To be fair, I <i>do</i> have the home field advantage.
 公平地说，我<i>确实</i>有主场优势。
 I may not look it, but I was born in Novo Town.
@@ -1526,11 +1526,11 @@ Speaking of, the best place to rest is <imp>down south</imp>.
 A gaggle of grunts set up a <imp>healing spot</imp>.
 一群小兵设立了一个<imp>治疗点</imp>。
 If you need me, I’ll be around, ready to battle at a moment’s notice!
-If you need me, I’ll be around, ready to battle at a moment’s notice!
+如果你需要我，我会在附近，随时准备应战！
 Oh, by the way, don't worry about pronouns for me—I like 'em all.
-Oh, by the way, don't worry about pronouns for me—I like 'em all.
+哦，顺便说一下，不用担心我的代词——我全都喜欢。
 Well, they <i>can</i> get a bit stale after a while, so... mix it up!
-Well, they <i>can</i> get a bit stale after a while, so... mix it up!
+嗯，它们<i>确实</i>过一段时间会有点乏味，所以...换着用！
 Why are you here?
 你为什么在这？
 Is this going somewhere?
@@ -3328,9 +3328,9 @@ Aw man, I was late for the tournament and missed all the cool battles!
 At least the shops here in the Plaza are still open...
 好在商店还营业...
 Not right now.
-稍等一下
+稍等一下。
 Ready.
-来吧
+来吧。
 [Map35]
 \PN, get back here. I've got more free stuff. You want free stuff, right?
 \PN，过来这边，我这里有些东西要给你。
@@ -3365,7 +3365,7 @@ You look up Numel in your new MasterDex...
 So, you want Numel?
 要选择呆火驼吗？
 The screen displays a news article titled "Lava Flows Put Pause On Casaba Expansion".
-电脑屏幕中正显示着一篇报道，标题为"被岩浆按下暂停键的甜瓜岛建设工作"。
+电脑屏幕中正显示着一篇报道，标题为"被岩浆按下暂停键的甜瓜度假区建设工作"。
 This Pokéball contains Krabby!
 这颗精灵球里装的是大钳蟹！
 You look up Krabby in your new MasterDex...
@@ -3385,11 +3385,11 @@ Point is, surprise! You get two starters: One standard three-stage Grass, Water 
 But first things first...
 但在那之前...
 The <imp>MasterDex</imp> is a Pokédex, but it comes preloaded with data on every species.
-The <imp>MasterDex</imp> is a Pokédex, but it comes preloaded with data on every species.
+<<imp>大师图鉴</imp>是一个精灵图鉴，但它预装了每个物种的数据。
 Moves, Abilities, stats, evolutions - it's all in there.
 技能，特性，数据，进化型等等，这里面都能查到。
 Though, if you prefer the thrill of discovery, you can have it hide the info until you've seen one.
-Though, if you prefer the thrill of discovery, you can have it hide the info until you've seen one.
+不过，如果你喜欢发现的刺激感，你可以让它隐藏信息直到你亲眼见过。
 It also comes along with a <imp>MoveDex</imp> and a <imp>DexNav</imp>.
 它还附带了一个<imp>技能图鉴</imp>和一个<imp>图鉴导航</imp>。
 Both useful resources that I'm sure you can figure out on your own.
@@ -3399,17 +3399,17 @@ Now go pick out your first starter. I ain't got all day.
 OK, next is the Normal-types.
 然后是那只一般属性的...
 I've got a Skwovet, a Zigzagoon, and a Patrat.
-I've got a Skwovet, a Zigzagoon, and a Patrat.
+我有一只贪心栗鼠、一只蛇纹熊和一只探探鼠。
 You may want to look them up in your MasterDex, using the <imp>search feature</imp>.
-You may want to look them up in your MasterDex, using the <imp>search feature</imp>.
+你可能想在你的大师图鉴中查找它们，使用<<imp>搜索功能</imp>。
 In case you've got the data hidden, let me just reveal those for you.
-In case you've got the data hidden, let me just reveal those for you.
+如果你隐藏了数据，让我为你揭示它们。
 Each of those species has a signature move, and strong ones at that. It's good reading.
-Each of those species has a signature move, and strong ones at that. It's good reading.
+这些物种每一个都有专属技能，而且都很强。值得一读。
 Let me know when you've made your choice.
-Let me know when you've made your choice.
+做好选择后告诉我。
 OK, now - Skwovet, Zigzagoon, or Patrat?
-OK, now - Skwovet, Zigzagoon, or Patrat?
+好了，现在——贪心栗鼠、蛇纹熊还是探探鼠？
 Alright, come back to me when you know what you want.
 那你拿定主意再说。
 Sure, good choice. Now, uh... oh, yeah.
@@ -3716,11 +3716,11 @@ Uh... come over here, I'm gonna prep for battle.
 Okay, so, different rules this time.
 好的，这次规则不同。
 I’ll be using <imp>my tournament team</imp>, a full six-member squad.
-I’ll be using <imp>my tournament team</imp>, a full six-member squad.
+我会使用<<imp>我的锦标赛队伍</imp>，一个完整的六精灵小队。
 Plus, held items are back on the menu.
 而且，携带物也重新启用了。
 And after you beat me? Well, a trainer’s gotta keep <i>some</i> secrets.
-And after you beat me? Well, a trainer’s gotta keep <i>some</i> secrets.
+打败我之后呢？好吧，训练师总得保留<i>一些</i>秘密。
 Battle imminent...?
 对战即将开始...？
 Yeah, sure!
@@ -3730,7 +3730,7 @@ Hell yeah!
 A lot. The journey over cleared my head... a bit.
 很多。这段旅程让我清醒了一些...一点点。
 Beat me and I’ll tell you about it.
-Beat me and I’ll tell you about it.
+打败我，我就告诉你。
 Well, it certainly feels different losing when nothing is on the line.
 嗯，当没有什么利害关系时，输掉的感觉确实不同。
 A little fun, even.
@@ -3738,13 +3738,13 @@ A little fun, even.
 Definitely not as bad as my stumble in Prizca.
 肯定没有我在宏礼市的失足那么糟糕。
 Yeah, it’s...
-Yeah, it’s...
+是啊，这...
 Like yeah of course it happened. It’s gotta be someone.
-Like yeah of course it happened. It’s gotta be someone.
+就像，是啊，当然发生了。总会是某个人。
 Still sucks.
 还是很糟糕。
 Longterm, no. I wasn’t expecting to win the entire thing.
-Longterm, no. I wasn’t expecting to win the entire thing.
+长远来看，没有。我没指望能赢得整个比赛。
 Getting pulped like that still stings.
 被那样痛扁仍然很刺痛。
 I just need time to process it.
@@ -3752,13 +3752,13 @@ I just need time to process it.
 True.
 确实。
 I’ve gone over the fight in my mind several times already.
-I’ve gone over the fight in my mind several times already.
+我已经在脑海中回顾了那场对战好几次。
 Thinking about what I did wrong and what I could’ve done better.
-Thinking about what I did wrong and what I could’ve done better.
+思考我做错了什么，以及我本可以做得更好。
 But I can’t do it again, so I doubt ruminating is going to make me feel better.
-But I can’t do it again, so I doubt ruminating is going to make me feel better.
+但我无法重来，所以我怀疑反复思考不会让我感觉更好。
 Oh, don’t worry about that.
-Oh, don’t worry about that.
+哦，别担心那个。
 Something I picked up here on the beach.
 我在海滩上捡到的东西。
 Just trying to shake things up. Get me outta the doldrums.
@@ -3766,7 +3766,7 @@ Just trying to shake things up. Get me outta the doldrums.
 Take this.
 拿着这个。
 A memento, or maybe not. It’s yours now.
-A memento, or maybe not. It’s yours now.
+一个纪念品，也许不是。现在它是你的了。
 Hey, speaking of losing.
 嘿，说到输。
 Wanna go on a tour with me? Memory lane or some such.
@@ -3774,13 +3774,13 @@ Wanna go on a tour with me? Memory lane or some such.
 Meet me in <imp>Repora Forest</imp>.
 在<<imp>枯槁森林</imp>见我。
 It’s got mushrooms, moss... combination mushrooms AND moss.
-It’s got mushrooms, moss... combination mushrooms AND moss.
+那里有蘑菇、苔藓...蘑菇和苔藓的结合体。
 That’s lichen.
-That’s lichen.
+那是地衣。
 Okay, lichen isn’t mushrooms and moss. It’s fungi and bacteria.
-Okay, lichen isn’t mushrooms and moss. It’s fungi and bacteria.
+好吧，地衣不是蘑菇和苔藓。它是真菌和细菌。
 Either way, I’m <i>lichen</i> this idea already!
-Either way, I’m <i>lichen</i> this idea already!
+不管怎样，我已经<i>地衣</i>这个想法了！
 See you there.
 那里见。
 <i>Sniff sniff</i>
@@ -3832,9 +3832,9 @@ Maybe we’ll see each other there.
 Until then, best of luck against Lambert!
 直到那时，祝你对抗兰伯特好运！
 I’m itching to get some more play with this team.
-I’m itching to get some more play with this team.
+我迫不及待想多用这支队伍打打。
 Finally using held items again! It’s refreshing.
-Finally using held items again! It’s refreshing.
+终于又用携带物了！真令人耳目一新。
 Yes
 学
 No
@@ -4165,37 +4165,37 @@ Come see me again some time. I’m itching for a rematch.
 The door is securely locked.
 这扇门上锁了。
 Not right now.
-稍等一下
+稍等一下。
 Let’s go.
-来吧
+来吧。
 [Map42]
 [Map43]
 Room 204\nCurrent Resident: Noah
-Room 204\nCurrent Resident: Noah
+204号房间\n当前住户：诺亚
 1, 2, 3, 4!
-1, 2, 3, 4!
+1、2、3、4！
 Lets go, lets go!
-Lets go, lets go!
+走吧，走吧！
 You should keep active, it has a ton of health benefits.
-You should keep active, it has a ton of health benefits.
+你应该保持活跃，这对健康有很多好处。
 Both for you and your Pokemon!
-Both for you and your Pokemon!
+对你和你的精灵都有好处！
 Room 203\nCurrent Residents: Dana, Sophia
-Room 203\nCurrent Residents: Dana, Sophia
+203号房间\n当前住户：达娜、索菲亚
 Room 201\nCurrent Residents: Theodore, Julian
 201号房间\n当前住户：西奥多、朱利安
 I'm glad this complex has this room, where I can train my Pokemon safely.
-I'm glad this complex has this room, where I can train my Pokemon safely.
+我很高兴这个公寓有这个房间，我可以在这里安全地训练我的精灵。
 Not that much tends to happen between these two...
-Not that much tends to happen between these two...
+这两个人之间通常不会发生太多事...
 Room 202\nCurrent Resident: Ruby
-Room 202\nCurrent Resident: Ruby
+202号房间\n当前住户：露比
 You can work out all you want, but you won't build any muscle if you don't get enough protein.
-You can work out all you want, but you won't build any muscle if you don't get enough protein.
+你可以尽情锻炼，但如果蛋白质摄入不足，你就长不出肌肉。
 Here, the perfect drink for exercise...
-Here, the perfect drink for exercise...
+给你，运动的最佳饮品...
 You can tell how many of those I've guzzled down over the years.
-You can tell how many of those I've guzzled down over the years.
+你能看出这些年来我喝了多少这种饮料。
 [Map44]
 A well-used punching bag.
 一个有些旧的沙袋。
@@ -5624,11 +5624,11 @@ I've heard reports of increasing Chasm presence in that area.
 Plus, the caverns there will provide great ambush spots.
 而且，那里的洞穴很适合伏击。
 No.
-不打
+不打。
 A Togekiss?
 用波克基斯？
 Let's go.
-来吧
+来吧。
 [Map61]
 Ello, landlubber, welcome to the Fin.
 你好，旱鸭子，欢迎来到鱼鳍港。
@@ -5640,15 +5640,15 @@ Damn rich folk and their careless sailin'...
 那些脑残的有钱人连船都不爱惜...
 [Map62]
 I thought bringing Aron to this gym would be a good idea.
-I thought bringing Aron to this gym would be a good idea.
+我以为带可可多拉来这个道馆是个好主意。
 Rock is effective against Fire and Steel is immune to Poison after all.
-Rock is effective against Fire and Steel is immune to Poison after all.
+毕竟岩石克制火，钢免疫毒。
 Imagine my horror, because I forgot Steel types aren't immune to the poison status condition.
-Imagine my horror, because I forgot Steel types aren't immune to the poison status condition.
+想象一下我的惊恐，因为我忘了钢属性并不免疫中毒。
 My poor Aron got worn down in an instant!
-My poor Aron got worn down in an instant!
+我可怜的可可多拉瞬间就被削弱了！
 Since then, I always carry Pecha Berries with me...
-Since then, I always carry Pecha Berries with me...
+从那以后，我总是随身携带桃桃果...
 Heal Bell would be so nice to have for this gym.
 如果带一个治愈铃声就好了。
 I did a mistake letting my Skitty forget it.
@@ -8971,12 +8971,6 @@ I'm just here to discuss some possible changes to the monument with Jovan.
 我只是来和约凡讨论纪念碑的一些可能的改动。
 You've met, I believe?
 你们见过，对吧？
-I'll take your Pokémon for a few seconds.
-请允许我暂时拿走您的精灵。
-First, you should restore your Pokémon to full health.
-现在你的精灵已经恢复活力了。
-We hope you excel!
-祝您一路顺风！
 Offensive Pokémon need offensive moves.
 攻击型精灵需要伤害类技能。
 Most of the time you’ve got more moves than types.
@@ -8991,6 +8985,12 @@ If your team’s weak to Ice, maybe here’s where you slip in a Mach Punch or a
 如果你的队伍弱冰，也许可以在这里加入音速拳或喷射火焰。
 Think about it.
 好好想想。
+I'll take your Pokémon for a few seconds.
+请允许我暂时拿走您的精灵。
+First, you should restore your Pokémon to full health.
+现在你的精灵已经恢复活力了。
+We hope you excel!
+祝您一路顺风！
 Heyo, \PN. Want some guaranteed one-hundred- percent success rate advice?
 嘿，\PN。想要一些百分百成功的建议吗？
 Never be afraid to bring, like, five Pokémon that all do the same thing.
@@ -9176,7 +9176,7 @@ That's a wrap folks, I'll see y'all on the next episode of Beatdown Breakdowns!
 That Trainer really proved their worth. Let's look at the replays to see how they did it!
 这个训练师证明了他的实力，让我们看看他究竟是怎么做到的！
 I'd like to take a moment to thank our sponsor, Emma's Empolorium!
-接下来插播一段广告，艾玛的商店，你想要的都在这里！
+接下来插播一段广告，艾玛的小店，你想要的都在这里！
 Whoaaaa there Trainer, slow down.
 训练师，慢点走。
 What a showin' pardner.
@@ -9882,7 +9882,7 @@ I'll take this as the cue to go make my attempt as well. Wish me luck!
 You haven't completed what you need to on the island yet!
 先处理完这座岛上的事情再出发吧！
 Would you like to leave Casaba Villa and go to the Mainland?
-要离开甜瓜岛前往大陆吗？
+要离开甜瓜度假区前往大陆吗？
 Oh, you just got a MasterDex? They're pretty neat.
 哦，你拿到大师图鉴了？
 Of all its features, the DexNav is my favorite.
@@ -9942,21 +9942,21 @@ You are the shuttle of fate’s weave. Undoubtedly who I have awaited.
 Your future is fraught with danger, of course, so I made this to ward off evil influences. Please, take it.
 你的前路充满了艰难险阻，所以我为你准备了这个，它或许能帮你渡过难关。
 Well, I think my stalker and I shall be off now.
-现在我要跟她离开了，
+现在我要跟她离开了。
 She wishes to visit some <imp>ice cave</imp> or another to prove a point.
-她貌似想去<imp>冰之洞窟</imp>看看，
+她貌似想去<imp>冰之洞窟</imp>看看。
 I dare not leave her alone, claiming to be me, so off I go!
 我不可能放任另一个自身在外游荡，所以我必须跟上去！
 Fare you well, traveler!
 最后祝你好运，旅行者！
 We'll see.
-走着瞧
+走着瞧。
 ...
 ...
 Oh, shut up.
 闭嘴！
 Sure.
-需要
+需要。
 I don't need your help.
 谁需要你帮忙？
 No
@@ -9964,50 +9964,50 @@ No
 Yes
 走
 Maybe later.
-稍等一会儿
+稍等一会儿。
 Sure, let's go.
-来吧
+来吧。
 No way.
-没门
+没门。
 [Map137]
 I'm a safety minded person.
-I'm a safety minded person.
+我是个注重安全的人。
 For that reason, I wear a Hi-Viz Jacket with me wherever I go.
 因此，我无论去哪里都穿着反光背心。
 Everything's changed now that Avatars are around.
-Everything's changed now that Avatars are around.
+现在化身出现了，一切都变了。
 I'm worried they'll be drawn to me by the reflections.
-I'm worried they'll be drawn to me by the reflections.
+我担心它们会被反射吸引到我这里。
 If you're going out and fighting those things, maybe that's somehow an upside for you...?
-If you're going out and fighting those things, maybe that's somehow an upside for you...?
+如果你要出去和那些东西战斗，也许这对你来说某种程度上是个优势...？
 I'll need to check Eleig.com for any new safety products that will work on Avatars.
-I'll need to check Eleig.com for any new safety products that will work on Avatars.
+我需要查看埃莱格网，寻找对化身有效的新安全产品。
 My incantations keep faltering! I need a companion to assist in my rites.
-My incantations keep faltering! I need a companion to assist in my rites.
+我的咒语总是出错！我需要一个同伴来协助我的仪式。
 I boarded a fishing boat to try and get a Galarian Corsola, but the fates could only bestow upon me the ordinary kind.
-I boarded a fishing boat to try and get a Galarian Corsola, but the fates could only bestow upon me the ordinary kind.
+我登上渔船试图获得伽勒尔太阳珊瑚，但命运只赐予我普通的那种。
 So, I'm trying a different approach.
-So, I'm trying a different approach.
+所以，我在尝试不同的方法。
 I'm willing to part with it, so long as you can provide me a fitting replacement.
-I'm willing to part with it, so long as you can provide me a fitting replacement.
+我愿意放弃它，只要你能给我一个合适的替代品。
 I'll trade you my Corsola for any Pokémon from the Esoteric tribe.
-I'll trade you my Corsola for any Pokémon from the Esoteric tribe.
+我愿意用我的太阳珊瑚交换任何来自隐修之路部落的精灵。
 I see great misfortune in your future...
-I see great misfortune in your future...
+我看到你未来会有巨大的不幸...
 Thank you, traveller.
-Thank you, traveller.
+谢谢你，旅行者。
 May the stars guide you through your hardships.
-May the stars guide you through your hardships.
+愿星辰指引你度过艰难。
 Ah, you again.
-Ah, you again.
+啊，又是你。
 I must thank you for your prior assistance. My rites have gone splendidly since.
-I must thank you for your prior assistance. My rites have gone splendidly since.
+我必须感谢你之前的帮助。从那以后我的仪式进行得非常顺利。
 Great misfortune has already befallen three of my enemies...
-Great misfortune has already befallen three of my enemies...
+巨大的不幸已经降临在我三个敌人身上...
 No
-No
+否
 Yes
-Yes
+是
 [Map138]
 The berry plant is growing.
 树果还在生长中。
@@ -10483,7 +10483,7 @@ Those ruffians give Prizca a bad name!
 Poké Ball Depot
 精灵球仓库
 Stone pillars tower over the gym.
-Stone pillars tower over the gym.
+石柱高耸于道馆之上。
 They almost look like fingers, reaching through the ground.
 它们看起来几乎像手指，从地面伸出来。
 Prizca Traffic Control
@@ -10521,11 +10521,11 @@ Leaders: Bence, Zoé
 Two birds for every stone.
 一石二鸟。
 Bence and Zoé.... Zence.... Boé....
-Bence and Zoé.... Zence.... Boé....
+本斯和佐伊...佐斯...本伊...
 Oh, forgive me, the thought of taking on two gym leaders at the same time is stressing me out a little.
 Oh, forgive me, the thought of taking on two gym leaders at the same time is stressing me out a little.
 I hope my current team will work well against them, but I can't know for sure.
-I hope my current team will work well against them, but I can't know for sure.
+我希望我当前的队伍能对他们有效，但我无法确定。
 Help me out, pal, by being my test dummy? I'll wait for your answer.
 能帮帮我不，朋友？来几场训练赛？
 The choice to battle me is an easy one. Got a round in ye?
@@ -10886,256 +10886,256 @@ No
 Yes
 是的
 Not interested.
-没兴趣
+没兴趣。
 Sure, I'll adopt it.
-我来吧
+我来吧。
 [Map159]
 This Old Amber has been carved into a relief of a dog-like Pokémon.
-This Old Amber has been carved into a relief of a dog-like Pokémon.
+这块秘密琥珀被雕刻成了一只类似狗的精灵的浮雕。
 Travel Agency: Orre
-Travel Agency: Orre
+旅行社：奥雷
 This statue's smile feels malicious.
-This statue's smile feels malicious.
+这座雕像的微笑感觉充满恶意。
 It looms over you like it intends to devour you whole.
-It looms over you like it intends to devour you whole.
+它笼罩着你，仿佛打算将你整个吞噬。
 This looks like an abstract painting of a garden.
-This looks like an abstract painting of a garden.
+这看起来是一幅花园的抽象画。
 On closer inspection, it's a painting of Vivillion's wings!
-On closer inspection, it's a painting of Vivillion's wings!
+仔细一看，这是一幅彩粉蝶翅膀的画！
 Ahem.
-Ahem.
+咳咳。
 Pardon, that's my tea you're eying.
-Pardon, that's my tea you're eying. 
+抱歉，你盯着的可是我的茶。
 I'd offer to brew you a cup, had I a kettle on me.
-I'd offer to brew you a cup, had I a kettle on me.
+如果我身上有壶的话，我会给你泡一杯的。
 Dash it all, I've had enough!
-Dash it all, I've had enough!
+该死的，我受够了！
 That's MY tea you're ogling!
-That's MY tea you're ogling!
+你盯着的可是我的茶！
 I'm not sure why you're so fixated on it, but I simply cannot drink it with you staring like that.
-I'm not sure why you're so fixated on it, but I simply cannot drink it with you staring like that.
+我不明白你为什么这么执着于它，但你那样盯着，我根本没法喝。
 The gentleman behind the counter sputters a bit, but decides it's not worth it to chastise you.
-The gentleman behind the counter sputters a bit, but decides it's not worth it to chastise you.
+柜台后的绅士有点气急败坏，但决定责骂你不值得。
 Its wings look like a Pokéball!
-Its wings look like a Pokéball!
+它的翅膀看起来像个精灵球！
 These flowers have a distinctive smell.
-These flowers have a distinctive smell.
+这些花有一种独特的气味。
 It almost reminds you of perfume...
-It almost reminds you of perfume...
+它几乎让你想起了香水...
 It's a little hard to see, but Makya and Alola have a lot in common.
-It's a little hard to see, but Makya and Alola have a lot in common.
+有点难以看出，但玛基亚和阿罗拉有很多共同点。
 Team Chasm has gone the way of Team Skull.
-Team Chasm has gone the way of Team Skull. 
+裂隙队已经走上了骷髅队的道路。
 While Team Skull was never as menacing, both regions still have to deal with what comes next.
-While Team Skull was never as menacing, both regions still have to deal with what comes next.
+虽然骷髅队从未那么具有威胁性，但两个地区仍然要应对接下来发生的事情。
 A tall pillar with a celestial symbol on top.
-A tall pillar with a celestial symbol on top.
+一根高大的柱子，顶部有一个天体符号。
 A sign claims it's a scale replica of a pillar found at the Altar of the Moone!
-A sign claims it's a scale replica of a pillar found at the Altar of the Moone!
+标牌声称这是月轮祭坛发现的柱子的等比例复制品！
 It's full of packaging.
-It's full of packaging.
+里面全是包装。
 The King and First Champion of Galar.
-The King and First Champion of Galar.
+伽勒尔的国王和第一任冠军。
 ...at least according to the plaque.
-...at least according to the plaque.
+...至少根据牌匾是这么说的。
 Yo. I'm the travel guide to Orre.
-Yo. I'm the travel guide to Orre.
+哟。我是奥雷的旅行向导。
 Yeah, this setup is pretty scuffed.
-Yeah, this setup is pretty scuffed. 
+是啊，这个布置挺简陋的。
 If you know what Orre's about and you're still here, you probably don't care about fanfare anyways.
-If you know what Orre's about and you're still here, you probably don't care about fanfare anyways.
+如果你知道奥雷是什么地方还留在这里，你可能根本不在乎繁文缛节。
 Travelling the globe really puts everything in perspective.
-Travelling the globe really puts everything in perspective.
+环球旅行真的能让人看清一切。
 This young lass I met in Alola -- Lainie...? I think was her name.
-This young lass I met in Alola -- Lainie...? I think was her name.
+我在阿罗拉遇到的这个年轻姑娘——莱妮...？我想那是她的名字。
 She really was a curious character, but she gave me some amazing advice...
-She really was a curious character, but she gave me some amazing advice...
+她真是个古怪的角色，但她给了我一些很棒的建议...
 Anyways, I uh... got to go.
-Anyways, I uh... got to go.
+总之，我呃...得走了。
 Lined with classic literature.
-Lined with classic literature.
+排列着经典文学。
 Most of the spines look uncracked.
-Most of the spines look uncracked.
+大部分书脊看起来都未翻开过。
 Alola! Welcome to the Alolan Travel Agency!
-Alola! Welcome to the Alolan Travel Agency!
+阿罗拉！欢迎来到阿罗拉旅行社！
 Here we can get you set up with a...
-Here we can get you set up with a...
+在这里我们可以帮你安排...
 ...
 ...
 Hey, is that a surfboard? You surf?
 嘿，那是冲浪板吗？你冲浪？
 Hey! Parker! C'mere, this dude surfs!
-Hey! Parker! C'mere, this dude surfs!
+嘿！帕克！过来，这家伙会冲浪！
 Man, how cool is that!
-Man, how cool is that!
+哇，太酷了！
 Yo, tell ya what, dude. You might be able to help us.
-Yo, tell ya what, dude. You might be able to help us.
+哟，跟你说，伙计。你也许能帮上我们。
 We were trying to catch some waves out on County Park Lake.
-We were trying to catch some waves out on County Park Lake.
+我们想在县公园湖上冲浪。
 We had a box of stuff we were gonna use to par --
-We had a box of stuff we were gonna use to par --
+我们有一箱东西本来打算用来派——
 Enjoy a nice evening with. But we got attacked by this huge Gyarados!
-Enjoy a nice evening with. But we got attacked by this huge Gyarados!
+享受一个美好的夜晚。但我们被一只巨大的暴鲤龙攻击了！
 If you manage to grab it and bring it back to us, we'll hook you up with an Alolan Wreath.
-If you manage to grab it and bring it back to us, we'll hook you up with an Alolan Wreath.
+如果你能拿到它并带回来给我们，我们会给你一顶阿罗拉花环。
 A whole evolution item! How cool, right?
-A whole evolution item! How cool, right?
+一整个进化物品！多酷啊，对吧？
 Just bring back the box of stuff, and don't tell anyone.
-Just bring back the box of stuff, and don't tell anyone.
+只要把那箱东西带回来，别告诉任何人。
 You got the box of stuff? The one we lost at the County Park Lake?
-You got the box of stuff? The one we lost at the County Park Lake?
+你拿到那箱东西了？我们在县公园湖丢的那个？
 Yo! You got it! Hot damn!
-Yo! You got it! Hot damn!
+哟！你拿到了！该死！
 A deal is a freakin' deal! The Wreath's all yours.
-A deal is a freakin' deal! The Wreath's all yours.
+一言为定！花环归你了。
 You know, I bet there's all sorts of cool items tucked away in water-y areas all over Makya.
-You know, I bet there's all sorts of cool items tucked away in water-y areas all over Makya.
+你知道吗，我打赌玛基亚各地的水域里藏着各种酷炫的物品。
 Tons of dummies have probably lost some important crap while trying to swim.
-Tons of dummies have probably lost some important crap while trying to swim.
+超级多的傻瓜可能在试图游泳时丢了一些重要的东西。
 It's the same way in Alola.
-It's the same way in Alola.
+阿罗拉也是一样。
 C'moooooooon, champ. Don't mess with me like that.
-C'moooooooon, champ. Don't mess with me like that.
+拜托了，冠军。别这样耍我。
 We owe you one kid. We can't get you a ticket since that would be, like, suuuuuuper illegal.
-We owe you one kid. We can't get you a ticket since that would be, like, suuuuuuper illegal.
+我们欠你一个人情，小子。我们不能给你弄票，因为那会是，呃，超级违法的。
 But we owe you one. A non-illegal one.
-But we owe you one. A non-illegal one.
+但我们欠你一个人情。一个合法的人情。
 A sign claims it's a scale replica of a pillar found at the Altar of the Sunne!
-A sign claims it's a scale replica of a pillar found at the Altar of the Sunne!
+标牌声称这是日轮祭坛发现的柱子的等比例复制品！
 These crates are covered in stickers.
-These crates are covered in stickers.
+这些板条箱上贴满了贴纸。
 It looks like imports from Orre go through heavy screening.
-It looks like imports from Orre go through heavy screening.
+看起来来自奥雷的进口货物要经过严格检查。
 You see your reflection on the glass of the clock, as time ticks on.
-You see your reflection on the glass of the clock, as time ticks on.
+随着时间流逝，你在钟表的玻璃上看到了自己的倒影。
 Travel Agency: Galar
-Travel Agency: Galar
+旅行社：伽勒尔
 These flowers are rustling slightly...
-These flowers are rustling slightly...
+这些花正在轻轻摇曳...
 ...a Flabébé peeks out of hiding!
-...a Flabébé peeks out of hiding!
+...一只花蓓蓓从藏身处探出头来！
 This plant looks well-pruned.
-This plant looks well-pruned.
+这株植物看起来修剪得很好。
 There's a lot of places to travel in the world.
-There's a lot of places to travel in the world.
+世界上有很多地方可以去旅行。
 It's nice to see that other regions are open to Makya, despite all the stuff with Team Chasm.
-It's nice to see that other regions are open to Makya, despite all the stuff with Team Chasm.
+很高兴看到其他地区对玛基亚开放，尽管发生了裂隙队的那些事。
 Well hello, young one.
-Well hello, young one.
+你好啊，年轻人。
 I'm rather spiritless right now. Not many people appreciate the noble history of Galar, I suppose.
-I'm rather spiritless right now. Not many people appreciate the noble history of Galar, I suppose.
+我现在相当无精打采。我想没多少人欣赏伽勒尔高贵的历史。
 Would you fancy a battle? If you win, I'll gift you one of these Galarica Wreaths.
-Would you fancy a battle? If you win, I'll gift you one of these Galarica Wreaths.
+你想来场对战吗？如果你赢了，我会送你一顶伽勒尔花环。
 You can use it to evolve certain Pokemon.
-You can use it to evolve certain Pokemon.
+你可以用它来进化某些精灵。
 All of this stuff on display are replicas anyways, so don't worry about wrecking the place.
-All of this stuff on display are replicas anyways, so don't worry about wrecking the place.
+所有展出的东西都是复制品，所以不用担心会破坏这个地方。
 Very well then. They pay me by the hour, so I can stay here as long as I want.
-Very well then. They pay me by the hour, so I can stay here as long as I want.
+那好吧。他们按小时付我工资，所以我想待多久就待多久。
 Wonderful! Let's get started.
-Wonderful! Let's get started.
+太棒了！让我们开始吧。
 Fantastic showing! You deserve this.
-Fantastic showing! You deserve this.
+精彩的表现！这是你应得的。
 You're a fantastic battler!
-You're a fantastic battler!
+你是个了不起的对战家！
 I can see you're busy now.
-I can see you're busy now. 
+我能看出你现在很忙。
 When you're ready, you should take a trip to Galar.
-When you're ready, you should take a trip to Galar.
+等你准备好了，你应该去伽勒尔旅行一趟。
 I'm sure the Trainers there would appreciate having you.
-I'm sure the Trainers there would appreciate having you.
+我相信那里的训练师会很高兴有你的到来。
 A globe, with Makya and various other regions highlighted.
-A globe, with Makya and various other regions highlighted.
+一个地球仪，玛基亚和其他各个地区被标注出来。
 It shows the most common shipment routes between them.
-It shows the most common shipment routes between them.
+它显示了它们之间最常见的运输路线。
 Several different drawings of cheerful travel agency rooms.
-Several different drawings of cheerful travel agency rooms.
+几张欢快的旅行社房间设计图。
 If these are serving as inspiration, this room has a long way to go.
-If these are serving as inspiration, this room has a long way to go.
+如果这些是用作灵感的话，这个房间还有很长的路要走。
 I've been on an journey all around the world to hone my artistic talents.
-I've been on an journey all around the world to hone my artistic talents.
+我一直在世界各地旅行，磨练我的艺术才能。
 If you have a Vivillon, I could change its pattern to one from just about anywhere!
-If you have a Vivillon, I could change its pattern to one from just about anywhere!
+如果你有一只彩粉蝶，我可以把它的花纹改成几乎任何地方的花纹！
 Fantastic! A true work of art, if I do say so myself.
-Fantastic! A true work of art, if I do say so myself.
+太棒了！如果我自己这么说的话，这真是一件艺术品。
 That's alright. Sometimes natural is best, after all!
-That's alright. Sometimes natural is best, after all!
+没关系。毕竟有时候自然才是最好的！
 Travel Agency: Alola
-Travel Agency: Alola
+旅行社：阿罗拉
 A fancy pinboard, decorated with pictures of tropical sun.
-A fancy pinboard, decorated with pictures of tropical sun.
+一块精美的布告板，装饰着热带阳光的照片。
 Alongside the pictures are various pricing plans.
-Alongside the pictures are various pricing plans.
+照片旁边是各种价格方案。
 A painting of a Pokéball in the process of being made.
-A painting of a Pokéball in the process of being made.
+一幅正在制作中的精灵球的画。
 A machine is about to join the top and bottom halves together.
-A machine is about to join the top and bottom halves together.
+一台机器即将把上下两半合在一起。
 A note identifies this as a Galarica shrub.
-A note identifies this as a Galarica shrub.
+一张纸条标明这是伽勒卡灌木。
 It looks like some twigs have been snapped off.
-It looks like some twigs have been snapped off.
+看起来有些小枝被折断了。
 Interested in a little trip to Kalos, no?
-Interested in a little trip to Kalos, no?
+有兴趣去卡洛斯小旅行一下吗？
 Perhaps you are interested in visiting the grand city of Lumiose?
-Perhaps you are interested in visiting the grand city of Lumiose?
+也许你有兴趣参观宏伟的密阿雷市？
 Or are you enticed by some landmarks like the Pokeball Factory or the Castle of Chivalry?
-Or are you enticed by some landmarks like the Pokeball Factory or the Castle of Chivalry?
+或者你被一些地标吸引，比如精灵球工厂或骑士城堡？
 Or are you one of those weirdos who want to visit Pikachu Land?
-Or are you one of those weirdos who want to visit Pikachu Land?
+或者你是那些想参观皮卡丘乐园的怪人之一？
 A display of colorful brochures.
-A display of colorful brochures.
+一排彩色宣传册的展示。
 Some are focused on regional battle specialties, while others highlight nature and culture.
-Some are focused on regional battle specialties, while others highlight nature and culture.
+有些侧重于地区对战特色，而其他的则突出自然和文化。
 Nothing's on display yet.
-Nothing's on display yet.
+还没有任何东西展出。
 Someone left a half-empty can of lemonade on one of the shelves.
-Someone left a half-empty can of lemonade on one of the shelves.
+有人在一个架子上留下了一罐喝了一半的柠檬水。
 Travel Agency: Kalos
-Travel Agency: Kalos
+旅行社：卡洛斯
 It flutters its Fancy-patterned wings!
-It flutters its Fancy-patterned wings!
+它扇动着花纹翅膀！
 This statue's smile feels benevolent and kind.
-This statue's smile feels benevolent and kind.
+这座雕像的微笑感觉仁慈而和善。
 It peers down at you protectively.
-It peers down at you protectively.
+它保护性地俯视着你。
 A painting of a garden.
-A painting of a garden.
+一幅花园的画。
 The closer you look, the more Fairy-types you see!
-The closer you look, the more Fairy-types you see!
+你看得越仔细，看到的妖精属性精灵就越多！
 A painting of the countryside from a cottage window.
-A painting of the countryside from a cottage window.
+一幅从农舍窗户看出去的乡村风景画。
 Flocks of Wooloo mirror the clouds in the sky.
-Flocks of Wooloo mirror the clouds in the sky.
+成群的毛辫羊映照着天空中的云朵。
 I just came back from a trip to Alola with some of my co-workers.
-I just came back from a trip to Alola with some of my co-workers.
+我刚和一些同事从阿罗拉旅行回来。
 I wanted to catch some Pokemon to help with my dance routines, so I caught a few Oricorio.
-I wanted to catch some Pokemon to help with my dance routines, so I caught a few Oricorio.
+我想抓一些精灵来帮我编舞，所以我抓了几只花舞鸟。
 Unfortunately, my sound system broke on the flight back, so now I need to either get a new system or have a Pokemon do it.
-Unfortunately, my sound system broke on the flight back, so now I need to either get a new system or have a Pokemon do it.
+不幸的是，我的音响系统在回程航班上坏了，所以现在我要么买一个新系统，要么让精灵来做。
 I'd probably need a Pokemon with the Loud ability. If you've got one, I'll trade you one of the Oricorio I caught.
-I'd probably need a Pokemon with the Loud ability. If you've got one, I'll trade you one of the Oricorio I caught.
+我大概需要一只拥有洪亮嗓门特性的精灵。如果你有的话，我可以用我抓的一只花舞鸟跟你交换。
 A new sound system it is...
-A new sound system it is...
+那就买新音响系统吧...
 Asking my manager for another huge purchase is gonna suck...
-Asking my manager for another huge purchase is gonna suck...
+向经理申请又一笔大额采购会很糟糕...
 Oh wow! Yeah, that Pokemon is perfect!
-Oh wow! Yeah, that Pokemon is perfect!
+哦哇！是啊，那只精灵太完美了！
 This Pokemon is exactly what I needed.
-This Pokemon is exactly what I needed.
+这只精灵正是我需要的。
 Thanks for the help, gotta get back to work now.
-Thanks for the help, gotta get back to work now.
+谢谢你的帮助，现在得回去工作了。
 Its wings are the color of a Sandstorm.
-Its wings are the color of a Sandstorm.
+它的翅膀是沙暴的颜色。
 This plant is fake.
-This plant is fake.
+这株植物是假的。
 Its leaves are made of cheap plastic.
-Its leaves are made of cheap plastic.
+它的叶子是用廉价塑料做的。
 Nah.
-Nah.
+不用了。
 Sure.
-Sure.
+当然。
 No thanks.
-No thanks.
+不用了，谢谢。
 [Map160]
 A small feeding bowl, refilled as needed by the Estate Caretaker.
 一个小号喂食碗，庄园管理员会按需投喂。
@@ -11309,7 +11309,7 @@ That's cool, I'm glad you like the rock as much as me.
 You hand back the Big Pearl.
 你归还了大珍珠。
 Thanks! It's a pretty cool rock, huh?
-Thanks! It's a pretty cool rock, huh?
+谢谢！这是块很酷的石头，对吧？
 Huh? Where's my rock?
 嗯？我的石头在哪里？
 Did you lose it somewhere?
@@ -11633,7 +11633,7 @@ Yes
 [Map174]
 [Map175]
 A very dusty-looking PC. It must not have been in use in a very long time.
-A very dusty-looking PC. It must not have been in use in a very long time.
+一台看起来非常积灰的电脑。肯定很久没用了。
 I don’t know what’s inside.
 我不知道扇门里面有什么。
 I don’t know why the door’s there.
@@ -12790,7 +12790,7 @@ That... was... sick!
 Screw being Champion.
 去他的冠军。
 How many Champions get to throw down with a partner like this?
-How many Champions get to throw down with a partner like this?
+有多少冠军能和这样的搭档一起战斗？
 Thanks, Kyurem. And thanks, \PN.
 谢谢，酋雷姆。还有谢谢，\PN。
 I got so caught up in my quest for perfection that I forgot how much fun this was.
@@ -12798,7 +12798,7 @@ I got so caught up in my quest for perfection that I forgot how much fun this wa
 Dueling, I mean. I took it up because I love it, not just to be Champion.
 我是说对战。我从事这个是因为热爱，不只是为了成为冠军。
 There’s this job at the Skeevy Eevee that Aaron offered me.
-There’s this job at the Skeevy Eevee that Aaron offered me.
+亚伦在爱布伊布酒吧给我介绍了份工作。
 I could take it. Stay here, in Makya. Give myself a <i>break</i>.
 我可以接受。留在这里，在马凯亚。给自己放个<i>假</i>。
 But keep battling in my free time. Keep dreaming for a tournament win.
@@ -12810,7 +12810,7 @@ Hah! I could become an Eevee expert, start beating people with only Eevees!
 So, yeah... I could settle down for now, and try my best to win next year.
 所以，是啊...我可以暂时安定下来，然后尽最大努力明年获胜。
 Maybe it won't be the “perfect ending”, but it can still be... it can still be good enough.
-Maybe it won't be the “perfect ending”, but it can still be... it can still be good enough.
+也许这不会是"完美结局"，但它仍然可以...仍然可以足够好。
 ...
 ...
 I can still be good enough.
@@ -12828,9 +12828,9 @@ Makya in crisis, and you still helped me.
 Dhanyavada very much!
 非常感谢！
 Now, you’re wondering how all this happened.
-Now, you’re wondering how all this happened.
+现在，你想知道这一切是怎么发生的。
 I meddled with something that... I definitely shouldn’t have.
-I meddled with something that... I definitely shouldn’t have.
+我插手了一些...我绝对不该碰的东西。
 A stone that Team Chasm had locked away.
 裂隙队封锁的一块石头。
 Thought it was harmless until it, you know, absorbed my mind...
@@ -12842,13 +12842,13 @@ What the heck?!
 Uh, well. Change of plans.
 呃，好吧。计划有变。
 Here’s a thank you gift. You need it more than I do.
-Here’s a thank you gift. You need it more than I do.
+这是份谢礼。你比我更需要它。
 That freaky stone... transformed into this.
 那块诡异的石头...变成了这个。
 I’m gonna try to not think too hard about how that works...
-I’m gonna try to not think too hard about how that works...
+我会尽量不去深究那是怎么运作的...
 Well then, I’m off to Prizca East.
-Well then, I’m off to Prizca East.
+那么，我要去东宏礼市了。
 Bring Kyurem next time we fight, okay, \PN?
 下次我们对战时带上酋雷姆，好吗，\PN？
 Bye byeeeeee!
@@ -12975,381 +12975,381 @@ Yes
 换
 [Map187]
 The name on the mail box has worn away.
-The name on the mail box has worn away.
+邮箱上的名字已经磨损不清了。
 A small plastic tag reads "\PN's House".
-A small plastic tag reads "\PN's House".
+一个小塑料牌上写着"\PN的家"。
 A shiny brass plaque reads "\PN's Residence".
-A shiny brass plaque reads "\PN's Residence".
+一块闪亮的铜匾上写着"\PN的住所"。
 "Emma's Empoloreum!"
-"Emma's Empoloreum!"
+"艾玛的小店！"
 A Piplup standee points you to the door.
-A Piplup standee points you to the door.
+一个波加曼立牌指向门口。
 The door is locked.
-The door is locked.
+门是锁着的。
 I got a lot of energy, but my Rockruff somehow has even more.
-I got a lot of energy, but my Rockruff somehow has even more.
+我精力充沛，但我的岩狗狗不知怎的精力更旺盛。
 Too many candy treats, maybe?
-Too many candy treats, maybe?
+也许是糖果吃太多了？
 Yeah, you should probably have these instead.
-Yeah, you should probably have these instead.
+是啊，你或许应该收下这些。
 Nevermind, it looks like he's just like this...
-Nevermind, it looks like he's just like this...
+算了，看来他天生就这样...
 An Empoleon standee points you to the door.
-An Empoleon standee points you to the door.
+一个帝王拿波立牌指向门口。
 Condensed sweat fogs the window.
-Condensed sweat fogs the window.
+凝结的汗水使窗户蒙上了雾气。
 My god, this park is so much better than the one at LuxTech.
-My god, this park is so much better than the one at LuxTech.
+天哪，这个公园比光华市的那个好太多了。
 West: Battle Plaza
-West: Battle Plaza
+西：对战区
 North: Prizca Castle
-North: Prizca Castle
+北：宏礼城堡
 East: Split Peaks
-East: Split Peaks
+东：嵌口峰
 You read the plaque.
-You read the plaque.
+你阅读了牌匾。
 "The Capital Building represents the prosperity that came after the establishment of the Makyan Congress."
-"The Capital Building represents the prosperity that came after the establishment of the Makyan Congress."
+"首都大厦象征着马凯亚国会建立后带来的繁荣。"
 "An unbroken era of peace which followed the decades of strife, which had left much of Makya razed."
-"An unbroken era of peace which followed the decades of strife, which had left much of Makya razed."
+"在长达数十年的战乱使马凯亚大部分地区化为焦土之后，迎来了一个持续不断的和平时代。"
 "Makya's monarchy was unable to govern the land, and the people of Makya came together to end the region's suffering."
-"Makya's monarchy was unable to govern the land, and the people of Makya came together to end the region's suffering."
+"马凯亚马凯亚的君主无力治理这片土地，马凯亚的人民团结起来，终结了这个地区的苦难。"
 Kantonian-Kalosian Fusion
-Kantonian-Kalosian Fusion
+关都-卡洛斯融合料理
 Someone seems to have left a note on the sign.
-Someone seems to have left a note on the sign.
+似乎有人在标牌上留了张便条。
 "Now closed indefinitely, thanks for all the memories!"
-"Now closed indefinitely, thanks for all the memories!"
+"现已无限期停业，感谢所有的回忆！"
 A sign is hung on the front door. It reads:
-A sign is hung on the front door. It reads:
+前门挂着一块牌子，上面写着：
 "We're off to Casaba Villa for the summer! Any business inquiries can be given to our assistant!"
-"We're off to Casaba Villa for the summer! Any business inquiries can be given to our assistant!"
+"我们夏天去甜瓜度假区了！任何业务咨询可以交给我们的助理！"
 "Ta-ta!"
 "再见！"
 Bicycles are the only correct way to get around a dense town like this one.
-Bicycles are the only correct way to get around a dense town like this one.
+在像这样密集的城镇里，自行车是唯一正确的出行方式。
 I'm not just doing errands right now, though.
 不过，我现在不只是跑腿。
 I'm getting some circles done!
-I'm getting some circles done!
+我正在完成一些圆圈！
 Nature's Gallery
-Nature's Gallery
+自然画廊
 "Prizca has stood for over 3500 years, making it the oldest capital city on the continent."
-"Prizca has stood for over 3500 years, making it the oldest capital city on the continent."
+"宏礼市已屹立超过3500年，是这片大陆上最古老的都城。"
 "The people of Prizca will prosper for as long as the city stands."
-"The people of Prizca will prosper for as long as the city stands."
+"只要这座城市屹立不倒，宏礼的人民就会繁荣昌盛。"
 "May it last for another 3500 years!"
-"May it last for another 3500 years!"
+"愿它再延续3500年！"
 "Prizca, where the future is built with the past."
-"Prizca, where the future is built with the past."
+"宏礼市，一个以过去筑就未来的地方。"
 A poster for an upcoming show. A notice says it's almost sold out!
-A poster for an upcoming show. A notice says it's almost sold out!
+一张即将到来的演出的海报。通知上说票快卖光了！
 Next to it is a calendar of other upcoming events.
-Next to it is a calendar of other upcoming events.
+旁边是其他即将到来的活动的日历。
 Prizca Castle predates even the city itself.
-Prizca Castle predates even the city itself.
+宏礼城堡甚至比这座城市本身还要古老。
 Some historians say it could be almost 4000 years old!
-Some historians say it could be almost 4000 years old!
+一些历史学家说它可能有近4000年的历史了！
 The cityscape here always inspires me.
-The cityscape here always inspires me.
+这里的城市景观总能给我带来灵感。
 The shapes, the colors, the fashion, it's all wonderful.
-The shapes, the colors, the fashion, it's all wonderful.
+造型、色彩、时尚，一切都美妙极了。
 It's an artist's paradise, I can see why Noel sets up shop here.
-It's an artist's paradise, I can see why Noel sets up shop here.
+这里是艺术家的天堂，我明白为什么诺埃尔会在这里开店了。
 I saw a famous singer appear out of thin air.
-I saw a famous singer appear out of thin air.
+我看到一位著名歌手凭空出现了。
 Right in front of that clay statue near the castle.
-Right in front of that clay statue near the castle.
+就在城堡附近那座泥塑雕像的正前方。
 I tried reporting it to the rangers, but they all just laughed at me.
-I tried reporting it to the rangers, but they all just laughed at me.
+我试着向护林员报告，但他们都嘲笑我。
 I know what I saw!
-I know what I saw!
+我知道我看到了什么！
 Just because I can't remember his name doesn't mean you shouldn't believe me...
-Just because I can't remember his name doesn't mean you shouldn't believe me...
+我只是记不起他的名字，但这不代表你不该相信我...
 Skeevy Eevee Pub
-Skeevy Eevee Pub
+爱布伊布酒吧酒馆
 Prizca's East Gym
-Prizca's East Gym
+东宏礼市道馆
 Leader: Noel
-Leader: Noel
+馆主：诺埃尔
 Sculptor, Battler, Artist.
-Sculptor, Battler, Artist.
+雕塑家、对战者、艺术家。
 A lineup for an upcoming music festival.
-A lineup for an upcoming music festival.
+一场即将到来的音乐节的演出阵容。
 Electrique!, Mandibles of the Land, OHKO Queen, HippowDon't... it's a long list.
-Electrique!, Mandibles of the Land, OHKO Queen, HippowDon't... it's a long list.
+电击烧烤！、大地之颚、一击必杀女王、别河马...名单很长。
 Museum-quality artifacts behind shiny metal bars.
-Museum-quality artifacts behind shiny metal bars.
+闪闪发光的金属栏杆后陈列着博物馆级别的文物。
 I'll take your Pokémon for a --
-I'll take your Pokémon for a --
+让我来照顾你的精灵——
 ...
 ...
 Wow, you have no idea how easy it is to slip into that habit.
-Wow, you have no idea how easy it is to slip into that habit.
+哇，你根本想不到养成那个习惯有多容易。
 I'm just here to have a smoke before I have to go back to work.
-I'm just here to have a smoke before I have to go back to work.
+我只是趁回去工作之前来抽根烟。
 The cafe inside is pretty nice, you should check it out.
-The cafe inside is pretty nice, you should check it out.
+里面的咖啡馆挺不错的，你应该去看看。
 Their coffee is pretty good.
-Their coffee is pretty good.
+他们的咖啡相当不错。
 Bit pricey though.
-Bit pricey though.
+不过有点贵。
 "Best bang for your buck in Makya!"
-"Best bang for your buck in Makya!"
+"马凯亚性价比最高的地方！"
 I used to be Chasm, but now I work at the Capitol Building.
-I used to be Chasm, but now I work at the Capitol Building.
+我以前是裂隙队的人，但现在我在国会大厦工作。
 Got myself a nice office and everything. A pretty decent setup for being a former grunt.
-Got myself a nice office and everything. A pretty decent setup for being a former grunt.
+给自己弄了间不错的办公室，该有的都有。对一个前杂兵来说，这待遇相当不错了。
 I mean, mostly everyone got off alright. Helena made sure everyone at least had a job before the Team disbanded.
-I mean, mostly everyone got off alright. Helena made sure everyone at least had a job before the Team disbanded.
+我是说，基本上大家都过得不错。海伦娜在队伍解散前确保每个人至少都有份工作。
 I wonder what my former squadmates are doing. I hope they're alright.
-I wonder what my former squadmates are doing. I hope they're alright.
+我想知道我以前的队友们都在做什么。希望他们一切都好。
 Noel's House
-Noel's House
+诺埃尔的家
 The shops on this side of town are quite quaint.
-The shops on this side of town are quite quaint.
+镇子这边的店铺相当古朴雅致。
 Lot of odds and ends, stuff you won't find anywhere else!
-Lot of odds and ends, stuff you won't find anywhere else!
+有很多杂七杂八的小玩意儿，你在别处根本找不到！
 Ironclad Dojo
-Ironclad Dojo
+钢铁道场
 Make yourself as tough as iron!
-Make yourself as tough as iron!
+把自己锻炼得如铁般坚硬！
 The West end of Prizca was constructed rapidly over the last thirty or so years.
-The West end of Prizca was constructed rapidly over the last thirty or so years.
+西宏礼市是在过去大约三十年里快速建设起来的。
 No time for beauty or community to form, it's all very lifeless over there.
-No time for beauty or community to form, it's all very lifeless over there.
+没时间去形成美感或社区氛围，那边一切都死气沉沉的。
 This side of the city is much more charming.
-This side of the city is much more charming. 
+城市的这一边要有魅力得多。
 Noel may be chill, but the trainers in his gym are anything but.
-Noel may be chill, but the trainers in his gym are anything but.
+诺埃尔可能很随和，但他道馆里的训练师可完全不是那么回事。
 Lording their position over challengers, making them run petty errands to 'earn' the 'right' to fight them.
-Lording their position over challengers, making them run petty errands to 'earn' the 'right' to fight them.
+仗着地位对挑战者作威作福，让他们跑些琐碎的差事来"赢得"与他们战斗的"权利"。
 Makes me sick that they can be so openly corrupt.
-Makes me sick that they can be so openly corrupt.
+他们能如此明目张胆地腐败，真让我恶心。
 The Houndominus has its eyes locked on its trainer.
-The Houndominus has its eyes locked on its trainer.
+那只黑堕弥的目光紧紧锁定着它的训练师。
 Y'know, \PN, I never thought to ask your name.
-Y'know, \PN, I never thought to ask your name.
+你知道吗，\PN，我从没想过要问你的名字。
 Figured it out on the way here when I did a quick li’l background check on my client up here, and then on you too.
-Figured it out on the way here when I did a quick li’l background check on my client up here, and then on you too.
+来这儿的路上，我顺便快速调查了一下我的客户，然后也查了你。
 Guess this breaks some kinda confidentiality rule, but I ain’t never been an honorable sort: it’s Zain.
-Guess this breaks some kinda confidentiality rule, but I ain’t never been an honorable sort: it’s Zain.
+我猜这违反了某种保密规定，但我从来就不是什么正人君子：是赞恩。
 Your big brother’s hired me, lookin’ to get his reserves in shape.
-Your big brother’s hired me, lookin’ to get his reserves in shape.
+你大哥雇了我，想让他后备的精灵练练身手。
 Keepin’ it cool. Gotta make sure it ain’t just bravado, though. Ya know how it is.
-Keepin’ it cool. Gotta make sure it ain’t just bravado, though. Ya know how it is.
+保持冷静。不过得确认那不只是虚张声势。你懂的。
 Lotsa folks talk a big talk. It’s been a while since we last had a chat, so maybe ya lost your touch.
-Lotsa folks talk a big talk. It’s been a while since we last had a chat, so maybe ya lost your touch.
+很多人只会吹牛。咱们好久没聊了，说不定你退步了呢。
 'Fraid not. I ain't honorable, but I do what I do, and I do a mighty fine job of it.
-'Fraid not. I ain't honorable, but I do what I do, and I do a mighty fine job of it.
+恐怕不是。我虽不正派，但我干我的活，而且干得很漂亮。
 I got paid, I got Pokémon, and you know what that means.
-I got paid, I got Pokémon, and you know what that means.
+我拿了钱，带了精灵，你知道这意味着什么。
 Oh, ya don’t have to tell me twice.
-Oh, ya don’t have to tell me twice.
+哦，不用你说两遍。
 I figure lettin’ you have a crack at 'em gives you a neat little leg up in a way that’s still me doing my job, ya get it?
-I figure lettin’ you have a crack at 'em gives you a neat little leg up in a way that’s still me doing my job, ya get it?
+我想让你试试身手，这样既能给你一点小小的优势，也算我在履行职责，你明白吧？
 So, ya got time for a match?
-So, ya got time for a match?
+所以，你有时间对战一场吗？
 I know, I know, I do it every time, but I got debts to pay. We can chat afterwards, if that’s what you’re after.
-I know, I know, I do it every time, but I got debts to pay. We can chat afterwards, if that’s what you’re after.
+我知道，我知道，我每次都是这样，但我有债要还。如果你想聊天，咱们之后可以聊。
 Whaddya say?
-Whaddya say?
+你说呢？
 I ain’t goin’ nowhere. Drop by, yeah?
-I ain’t goin’ nowhere. Drop by, yeah?
+我哪儿也不去。有空来坐坐，好吗？
 Well, let’s see what your brother’s got for ya.
-Well, let’s see what your brother’s got for ya.
+好吧，来看看你哥哥给你准备了什么。
 Back for a li’l sneak peek? Ya damned rascal.
-Back for a li’l sneak peek? Ya damned rascal.
+回来偷看一点？你这个小混蛋。
 Well, ya took care of that well enough, didn’t ya?
-Well, ya took care of that well enough, didn’t ya?
+嗯，你处理得不错，不是吗？
 Maybe Zain’s better than I am. He’s going through gyms, ain’t he?
-Maybe Zain’s better than I am. He’s going through gyms, ain’t he?
+也许赞恩比我强。他在挑战道馆，不是吗？
 I never did have the time for that.
-I never did have the time for that.
+我从来没时间做那个。
 I was working for Chasm back when Yezera and I were fightin’. Then they set up the gyms.
-I was working for Chasm back when Yezera and I were fightin’. Then they set up the gyms.
+我和叶泽拉打架那会儿，我还在为裂隙队工作。后来他们设立了道馆。
 Yezera got through 'em like nothin’, but at that point… I wasn’t feelin’ it.
-Yezera got through 'em like nothin’, but at that point… I wasn’t feelin’ it.
+叶泽拉轻松通过了那些道馆，但那时候...我没那个心情。
 Don’t feel like talkin’ about her too much, though. She’s got enough on her plate without me gossipin’.
-Don’t feel like talkin’ about her too much, though.  She’s got enough on her plate without me gossipin’.
+不过我不想多谈她。不用我八卦，她手头的事已经够多了。
 Didn’t I just say I wasn’t gonna gossip?
-Didn’t I just say I wasn’t gonna gossip?
+我不是刚说了我不会八卦吗？
 But everybody knows it: she went missin’. Couldn’t handle the spotlight.
-But everybody knows it: she went missin’. Couldn’t handle the spotlight.
+但大家都知道：她失踪了。她承受不了聚光灯的压力。
 Hell, could barely handle a conversation with most folks. Been like that since she was a tot.
-Hell, could barely handle a conversation with most folks. Been like that since she was a tot.
+见鬼，她连和大多数人正常交谈都困难。从小就这样。
 Ya better respect your elders, kid.
-Ya better respect your elders, kid.
+你最好尊重长辈，小子。
 I ain’t talked your ear off half as much as my grandpappy did.
-I ain’t talked your ear off half as much as my grandpappy did.
+我没像我爷爷那样唠叨你半天。
 Ya know you don’t hafta come find me, yeah? I didn’t hunt you down.
-Ya know you don’t hafta come find me, yeah? I didn’t hunt you down.
+你知道你不必来找我，对吧？我又没追着你跑。
 What, of Yezera’s?
-What, of Yezera’s?
+什么，叶泽拉的？
 Best damn friend there ever was.
-Best damn friend there ever was.
+有史以来最好的朋友。
 Sure, I was a bully back then, but ain’t nobody bullied her but me.
-Sure, I was a bully back then, but ain’t nobody bullied her but me.
+当然，我以前是个恶霸，但除了我没人欺负她。
 We fought like Zangoose and Seviper, ya know that?
-We fought like Zangoose and Seviper, ya know that?
+我们打得像猫鼬斩和饭匙蛇一样，你知道吗？
 But 'nuff said. I gotta get out of town.
-But 'nuff said. I gotta get out of town.
+但说得够多了。我得离开这个镇子。
 Things are 'bout to get messy – I gotta feeling.
-Things are 'bout to get messy – I gotta feeling.
+事情要变糟了——我有这种感觉。
 So if you end up in the thick of it, keep your guard up.
-So if you end up in the thick of it, keep your guard up.
+所以如果你陷入其中，保持警惕。
 'Member: slow is smooth, smooth is fast. Make it out of that, then we’ll talk.
-'Member: slow is smooth, smooth is fast. Make it out of that, then we’ll talk.
+记住：慢就是稳，稳就是快。从那里活着出来，咱们再聊。
 Catch ya at that <imp>volcano in Casaba</imp>, yeah? And take this. Better you than Zain.
-Catch ya at that <imp>volcano in Casaba</imp>, yeah? And take this. Better you than Zain.
+咱们在<imp>甜瓜度假区的火山</imp>见，好吗？拿着这个。给你总比给赞恩好。
 I'm here to challenge the gym, but the people in there are just the worst.
-I'm here to challenge the gym, but the people in there are just the worst.
+我是来挑战道馆的，但里面的人简直糟透了。
 I don't have enough money to buy all the stuff they're making me grab!
-I don't have enough money to buy all the stuff they're making me grab!
+我没有足够的钱买他们让我买的所有东西！
 Maybe I can scare one of them into giving me back my items...
-Maybe I can scare one of them into giving me back my items...
+也许我可以吓唬他们中的一个，让他们把我的东西还回来...
 Its nametag reads "Thor".
-Its nametag reads "Thor".
+它的名牌上写着"索尔"。
 East End Exclusives
-East End Exclusives
+东区独家精品
 I know, I know, it's a <i>dog</i> park, not a <i>cat</i> park.
-I know, I know, it's a <i>dog</i> park, not a <i>cat</i> park.
+我知道，我知道，这是<i>狗</i>公园，不是<i>猫</i>公园。
 But my little menace has more energy than I know what to do with.
-But my little menace has more energy than I know what to do with.
+但我的小捣蛋鬼精力充沛得我都不知道该怎么办。
 I had to find an outlet!
-I had to find an outlet!
+我得找个发泄的地方！
 This man doesn't notice you, he seems to be rambling to someone over the phone.
-This man doesn't notice you, he seems to be rambling to someone over the phone.
+这个男人没注意到你，他似乎在对着电话自言自语。
 You don't see a phone though. Maybe an earpiece?
-You don't see a phone though. Maybe an earpiece?
+不过你没看到电话。也许是耳机？
 Who's a good boy? Who's a good boy?
-Who's a good boy? Who's a good boy?
+谁是乖孩子？谁是乖孩子？
 You are boy, you are!
-You are boy, you are!
+你是乖孩子，你是！
 Yo yo, if it ain't my favorite person to lose over and over to.
-Yo yo, if it ain't my favorite person to lose over and over to.
+哟哟，这不是我最喜欢一遍又一遍输给的人吗。
 Just kidding. That's Aaron. He's very polite.
-Just kidding. That's Aaron. He's very polite.
+开玩笑的。那是亚伦。他非常有礼貌。
 Back on topic: The gym here is pretty straightforward.
-Back on topic: The gym here is pretty straightforward.
+回到正题：这里的道馆相当简单直接。
 Once I grabbed a Knight Helmet from Prizca Castle to evolve this Escavalier, I knew I was about 50% there already.
-Once I grabbed a Knight Helmet from Prizca Castle to evolve this Escavalier, I knew I was about 50% there already.
+当我从宏礼城堡拿到骑士头盔来进化这只骑士蜗牛时，我就知道我已经完成大约一半了。
 Though, I'm still a crazy perfectionist, so I want to battle for more practice, if you're up to it.
-Though, I'm still a crazy perfectionist, so I want to battle for more practice, if you're up to it.
+不过，我还是个疯狂的完美主义者，所以如果你愿意，我想通过对战再多练习一下。
 So much culture here. Makes me want to say something poetic.
-So much culture here. Makes me want to say something poetic.
+这里文化氛围真浓。让我想说些富有诗意的话。
 But, eh, let's just battle instead.
-But, eh, let's just battle instead.
+但是，呃，咱们还是直接对战吧。
 Understood.
-Understood.
+明白了。
 I'll be here until you wish to battle.
-I'll be here until you wish to battle.
+我会一直待在这里，直到你想对战。
 CHAAAAAARGE!
-CHAAAAAARGE!
+冲——啊！
 Aaron would have found a way to compliment my battling just now, despite how lop-sided that was.
-Aaron would have found a way to compliment my battling just now, despite how lop-sided that was.
+尽管刚才那场对战多么一边倒，亚伦肯定还是会想办法称赞我的。
 Two Dark-types will be great against Noel, but it seems that its less good against you.
-Two Dark-types will be great against Noel, but it seems that its less good against you.
+两只恶属性精灵对付诺埃尔会很棒，但看来对你就不太奏效了。
 Gimme a minute, and we'll be right as rain, and ready to compete yet again.
-Gimme a minute, and we'll be right as rain, and ready to compete yet again.
+给我一分钟，我们马上就能恢复如初，准备好再次对战。
 Wow, they were right about word traveling fast in these parts.
-Wow, they were right about word traveling fast in these parts.
+哇，他们说在这些地方消息传得飞快，果然没错。
 A passing socialite told me about your victory a full minute ago.
-A passing socialite told me about your victory a full minute ago.
+一位路过的上流人士整整一分钟前就告诉我你的胜利了。
 I gotta travel fast, too! So begins my attempts at a perfect victory over Prizca East gym...
-I gotta travel fast, too! So begins my attempts at a perfect victory over Prizca East gym...
+我也得快点赶路！就这样，我开始尝试完美战胜宏礼东道馆...
 Noel is such a cool dude.
-Noel is such a cool dude.
+诺埃尔真是个酷家伙。
 Everyone focuses on his sculptures, but I know that his true art is in battling!
-Everyone focuses on his sculptures, but I know that his true art is in battling!
+大家都关注他的雕塑，但我知道他真正的艺术在于对战！
 The amount of offensive pressure his Pokemon create is simply breathtaking.
-The amount of offensive pressure his Pokemon create is simply breathtaking.
+他的精灵制造的进攻压力简直令人叹为观止。
 Especially if he manages to set up Frost Spikes.
-Especially if he manages to set up Frost Spikes.
+尤其是如果他成功布置了冰菱的话。
 So cool!
-So cool!
+太酷了！
 W-what?! You got Noel's badge?
-W-what?! You got Noel's badge? 
+什——什么？！你拿到诺埃尔的徽章了？
 You're sick! Sick! I wish I got to see it!
-You're sick! Sick! I wish I got to see it!
+你太厉害了！厉害！我真希望当时能在场看到！
 What was once a printed notice has been painted over with a scene of a beautiful glacier at sunrise.
-What was once a printed notice has been painted over with a scene of a beautiful glacier at sunrise.
+原本的一张印刷告示，现在被涂画成了一幅日出时美丽冰川的景象。
 "TMs you NEED at prices you WANT!"
-"TMs you NEED at prices you WANT!"
+"你需要的技术机器，你想要的价格！"
 Florian Park
-Florian Park
+弗洛里安公园
 My life has moved so fast.
-My life has moved so fast.
+我的人生过得太快了。
 Feels like just yesterday that I was attending the newly founded Novo Academy.
-Feels like just yesterday that I was attending the newly founded Novo Academy.
+感觉就像昨天我才刚进入新成立的望新大学。
 Of course, that was over 50 years ago!
-Of course, that was over 50 years ago!
+当然，那是50多年前的事了！
 It's been upgraded to a "College" since then.
-It's been upgraded to a "College" since then.
+从那以后它已经升级为"大学"了。
 I practice styling my Furfrou every day!
-I practice styling my Furfrou every day!
+我每天都在练习给我的多丽米亚做造型！
 Hey, do you have a Furfrou? I'd just love to style it!
-Hey, do you have a Furfrou? I'd just love to style it!
+嘿，你有一只多丽米亚吗？我很想给它做造型！
 It's just brilliant! Brilliant, I say!
-It's just brilliant! Brilliant, I say!
+太棒了！太棒了，我说！
 Well, ok. I'll just be here with my Furfrou.
-Well, ok. I'll just be here with my Furfrou.
+好吧。那我就和我的多丽米亚待在这里。
 A few months ago someone tried to bring their yacht through this river.
-A few months ago someone tried to bring their yacht through this river.
+几个月前有人试图把他们的游艇开进这条河。
 His boat hit some rocks and sunk. Right here.
-His boat hit some rocks and sunk. Right here.
+他的船撞到了一些岩石，沉了。就在这儿。
 It took the city service three weeks to clear everything.
-It took the city service three weeks to clear everything.
+城市服务部门花了三周时间才清理完所有东西。
 It was completely stupid, but you have to respect his drive a little.
-It was completely stupid, but you have to respect his drive a little.
+这完全很愚蠢，但你不得不稍微佩服一下他的冲劲。
 Man, life is rough.
-Man, life is rough.
+伙计，生活真艰难。
 I came here from Hoenn to get a shot at taking out some of the avatars, but I've had no luck.
-I came here from Hoenn to get a shot at taking out some of the avatars, but I've had no luck.
+我从丰缘来到这里，想尝试击败一些化身，但我运气不佳。
 This Gyarados avatar completely demolished my team the other day.
-This Gyarados avatar completely demolished my team the other day.
+前几天这只暴鲤龙化身彻底摧毁了我的队伍。
 I really, really need a Fairy-type.
-I really, really need a Fairy-type. 
+我真的、真的很需要一只妖精属性的精灵。
 If you happen to have one, I'll trade you a Relicanth for it.
-If you happen to have one, I'll trade you a Relicanth for it. 
+如果你碰巧有一只，我愿意用古空棘鱼跟你交换。
 Tsk. Maybe I'm just not cut out for this...
-Tsk. Maybe I'm just not cut out for this...
+啧。也许我根本不是干这个的料...
 If you get your hands on an Fairy-type, I'd appreciate a trade.
-If you get your hands on an Fairy-type, I'd appreciate a trade.
+如果你弄到一只妖精属性的精灵，我很乐意交换。
 Oh, you're a dear! Let's get this trade going.
-Oh, you're a dear! Let's get this trade going.
+哦，你真是个好人！咱们开始交换吧。
 Sweet, I'm off to find another avatar to battle!
-Sweet, I'm off to find another avatar to battle!
+太好了，我要去找另一只化身对战了！
 "Phones, batteries, accessories-- you name it, we have it!"
-"Phones, batteries, accessories-- you name it, we have it!"
+"手机、电池、配件——你说得出名字的，我们都有！"
 My Snubbull is simply the most creative Pokemon this side of the Eleig River.
-My Snubbull is simply the most creative Pokemon this side of the Eleig River.
+我的布鲁简直是埃利格河这边最有创意的精灵。
 Don't you agree? You can clearly see it on her face!
-Don't you agree? You can clearly see it on her face!
+你不觉得吗？你从她脸上就能清楚地看出来！
 So?
-So?
+所以呢？
 Don't train them.
-Don't train them.
+不要训练它们。
 Let me fight them.
-Let me fight them.
+让我来对战它们。
 Not now.
-Not now.
+现在不行。
 Let's go.
-Let's go.
+走吧。
 Like what?
-Like what?
+比如什么？
 Oh, good.
-Oh, good.
+哦，太好了。
 You're a good friend.
-You're a good friend.
+你真是个好朋友。
 Maybe later.
-Maybe later.
+也许待会儿吧。
 Sure, let's go.
-Sure, let's go.
+当然，走吧。
 No
-No
+不
 Yes
-Yes
+是
 [Map188]
 People are always doing cool things here!
 这里的人经常做些很酷的事情！
@@ -13371,16 +13371,16 @@ It's a baby.
 这是个婴儿。
 There's nothing interesting going on with this baby.
 他身上没什么值得注意的。
-Probably best to leave it alone.
-最好还是不要碰他。
+Probably best to leave them alone.
+最好别去打扰他们。
 The baby laughs at you.
 这个婴儿正笑眯眯地看着你。
-Once you take the candy out of the baby's hands, it begins wailing loudly.
-一旦你抢走了这个婴儿手中的糖果，他便会嚎啕大哭。
+Once you take the candy out of the baby's hands, they begin wailing loudly.
+一旦你抢走宝宝手里的糖果，他们就会开始大声哭闹。
 The baby is crying.
 他哭得撕心裂肺。
-It doesn't look like it will stop any time soon.
-看这势头他能哭一整天。
+It doesn't look like they will stop any time soon.
+看来他们一时半会儿不会停下来。
 Hey there kiddo, I got a little performance that I'm putting on here.
 嘿，小家伙，我这里有一场演出。
 I need a little assistant to help me. You want to have a battle?
@@ -13479,12 +13479,12 @@ This clown sucks.
 这个小丑太差劲了。
 I need to get a hobby, I can't spend all day like this.
 我需要找一个爱好，不能整天这样浑浑噩噩。
-Ignore it.
-不理他。
+Ignore them.
+无视他们。
 Make a funny face.
 做个鬼脸。
-Take its candy.
-抢走它的糖果。
+Take their candy.
+拿走他们的糖果。
 Nah.
 不要。
 Sure.
@@ -13543,11 +13543,11 @@ Don’t dive too deep – we’re getting out of here soon. Fend them off.
 But if they put up a fight… crush them.
 但如果它们反抗...就粉碎它们。
 I - the extraction's wrapping up. I have to get going.
-I - the extraction's wrapping up. I have to get going.
+我——撤离快结束了。我得走了。
 If you find me again, we'll have a real battle.
-If you find me again, we'll have a real battle.
+如果你再找到我，咱们就来一场真正的对战。
 Bye, for now.
-Bye, for now.
+先再见了。
 I can't - you make Alessa look like a rank-and-file grunt.
 我做不到...阿莱莎在你面前就像个普通士兵。
 Well. I've gotten what I came for; slowed you down.
@@ -13910,7 +13910,7 @@ Makya is at a critical point in its history.
 Either we become a fully fledged region, or we get relegated as merely secondary.
 要么我们成为一个完全成熟的独立地区，要么我们被降级为次要地区。
 I don't want this place to end up like Orre, dismissed as a third rate region with a fourth rate League.
-我不希望我们的家园最终像欧雷一样，被认定为一个人厌狗嫌地方，只能保留一个上不了档次的联盟。
+我不希望我们的家园最终像奥雷一样，被认定为一个人厌狗嫌地方，只能保留一个上不了档次的联盟。
 Makya's Pokemon League has gathered quite a few skeptics.
 马凯亚的精灵联盟聚集了很多阴谋论者。
 The region doesn't have a traditional Elite Four, and Gym Leaders here aren't exactly career Trainers either.
@@ -14122,7 +14122,7 @@ You bet.
 来吧.
 [Map196]
 Casaba Island is home to wonderful waterfront properties, but people are scared of the next wave -- lavafront!
-甜瓜岛拥有一流的海景房，但人们却害怕在这里，被薰衣草的海浪淹没！
+甜瓜度假区拥有一流的海景房，但人们却害怕在这里，被薰衣草的海浪淹没！
 You'd think that lavafront properties would be all the rage, but you'd be surprised.
 你觉得盥洗业务很超前吗？那种火暴超出你的想象。
 Lava is just so iconic! Talk about a killer backyard grilling session.
@@ -14393,19 +14393,19 @@ A little less scary this time, right?
 Good girl, here's a treat!
 乖女孩，给你零食！
 Hey hey, \PN! Say hi to the Skeevee Eevee’s newest Behavioural Trainer!
-Hey hey, \PN! Say hi to the Skeevee Eevee’s newest Behavioural Trainer!
+嘿嘿，\PN！来跟爱布伊布酒吧最新的行为训练师打个招呼！
 I get to <i>socialize the Eevees</i>! It’s kind of a sick gig!
-I get to <i>socialize the Eevees</i>! It’s kind of a sick gig!
+我得去<i>伊布社交</i>了！这工作挺酷的！
 Oh, and I asked the manager about battling in here. Totally okay, as long as we clean up afterwards.
 哦，我还问了经理能不能在这里对战。完全没问题，只要我们之后清理干净。
 Apparently great battles bring in more customers!
 显然精彩的对战能带来更多顾客！
 Oh, and there’s tons of healing items here, so, I can heal your team in between bouts.
-Oh, and there’s tons of healing items here, so, I can heal your team in between bouts.
+哦，这里有很多回复物品，所以我可以在对战间隙回复你的队伍。
 So yeah, just lemme know if you wanna battle any of my... bajillion teams.
 所以是啊，如果你想跟我的...无数队伍中的任何一支对战，就告诉我。
 Gonna switch ‘em up at random. Keep you on your toes.
-Gonna switch ‘em up at random. Keep you on your toes.
+我会随机轮换它们。让你保持警觉。
 Muahahahahahahahaha!
 哈哈哈哈哈哈哈哈！
 And here I put so much effort into preparing all these parties!
@@ -14632,7 +14632,7 @@ I love it here!
 Now that you've beat all of Scilla's students, she's probably going to make us do extra training.
 你打败了希拉和这里的所有学员，她估计要让我们翻倍训练了。
 She was talking about taking us to a volcanic area near the Casaba Villa, something about how the heat makes us burn fat faster.
-她说要带我们去甜瓜岛的火山区，说那里的热量能更快燃烧脂肪。
+她说要带我们去甜瓜度假区的火山区，说那里的热量能更快燃烧脂肪。
 I can't wait! We're probably going do a ton of swimming!
 说不定还能在海里游泳，我已经迫不及待了！
 It looks like Kubfu wants to join your team!
@@ -14940,9 +14940,9 @@ I really gotta start locking my doors.
 A documentary on the Unovan mafia is playing.
 正在播放关于黑帮的纪录片。
 Don't challenge him.
-不挑战
+不挑战。
 Challenge him.
-挑战
+挑战。
 [Map211]
 Southern Trail
 山南小径
@@ -15031,19 +15031,19 @@ Though, maybe not as much as my team does.
 Been trying to stay grounded recently. Figured I needed something to keep me down to Earth.
 最近一直在努力保持脚踏实地。觉得我需要一些东西让我接地气。
 Mentally, it’s been a mixed bag, but physically...?
-Mentally, it’s been a mixed bag, but physically...?
+精神上，有好有坏，但身体上...？
 Well, I fell over a few times.
 嗯，我摔倒了几次。
 Talking about “gravitas”, this is the second to last spot I’ve got planned.
-Talking about “gravitas”, this is the second to last spot I’ve got planned.
+说到"庄重感"，这是我计划的倒数第二个地点。
 Let’s make it count, yeah?
-Let’s make it count, yeah?
+咱们好好把握，好吗？
 Gotcha.
 明白。
 Vanya nods.
 凡雅点头。
 Yeah, it’s... pretty chilly. Hard to tell that it’s still summer.
-Yeah, it’s... pretty chilly. Hard to tell that it’s still summer.
+是啊，这里...挺冷的。很难相信现在还是夏天。
 Not gonna gripe and moan, though.
 不过不会抱怨和呻吟的。
 I’m... pretty exhausted, after everything that’s happened...
@@ -15071,7 +15071,7 @@ It’s a contradiction: my lingering drive to see how far I can go, and the fact
 I’m going to solve it.
 我要解决它。
 <imp>Frostflow Farms</imp>. See you there.
-<imp>Frostflow Farms</imp>. See you there.
+<imp>风霜农场</imp>。那里见。
 Casey's House
 凯斯家
 Yo, homeboss, you're pretty good at battling.
@@ -17091,7 +17091,7 @@ The door unlocks with a click.
 You saw those really big cacti out there, with all the arms?
 看到外面那长满手臂的仙人掌了吗？
 Those are Saguaro cacti, native to Orre.
-那是原产于欧雷地区的巨人仙人掌。
+那是原产于奥雷地区的巨人仙人掌。
 The Canal Desert is a strange place, but it never had Saguaro before recently.
 运河沙漠真是个奇怪的地方，这里以前从未出现过巨人仙人掌。
 Others may blame the Avatar of Maractus for that, but I don't.
@@ -19012,7 +19012,7 @@ The Makyan Rangers are hiding something.
 I mean -- they're always hiding something. They're former Chasm for crying out loud! But, this... this is huge.
 我是说...他们总在隐瞒，他们以前是裂隙队的队员，但是...这...这个太重要了。
 They've been moving gear in and out of certain areas. Casaba Island... Highland Lake... Gigalith's Guts...
-他们一直在某些地方搬运设备...甜瓜岛...云上湖...怪岩肠道...
+他们一直在某些地方搬运设备...甜瓜度假区...云上湖...怪岩肠道...
 What could they be doing there? Are they hiding something?
 所以他们到底在做什么？他们到底在隐瞒些什么？
 An internet browser is open to a website called "Team Fighters."
@@ -19162,7 +19162,7 @@ I think I just need some caffeine. You got any coffee?
 I guess its just me and these views of the sea.
 我想我只能和海景为伴了。
 Ahh, the artistic vigor—it's coursing through me!
-Ahh, the artistic vigor—it's coursing through me!
+啊，艺术活力——正流淌在我全身！
 Please take this hunk of uselessness away from me.
 这个给你了。
 I got my hopes up for nothing.
@@ -20840,7 +20840,7 @@ Northeast: Sweetrock Harbor
 I come here to relax with my Pokemon. Though, a battle or two won't hurt, either.
 我和我的精灵来这里，是为了放松下身心的，不过来场战斗也不错。
 The Skeevy Eevee needs us, I can feel it.
-我能感觉到，那只猥琐伊布需要我们。
+我能感觉到，那只爱布伊布酒吧需要我们。
 Maybe I'll see you there!
 或许我们在那里还会再见面！
 That was fun! You should fight my sister, too. She's all the way at the start of the river!
@@ -21145,7 +21145,7 @@ I like an underdog story, but I also like betting on the winning horse. G’luck
 Figured I’d be seein’ you again. It’s been a little while, hasn’t it?
 我就知道会有这么一天，距离上一次交手已经有段时间了。
 Seems like just yesterday you were showing up and showing down with me on Casaba.
-虽然感觉起来仿佛还是昨天，好像你离开甜瓜岛也没多久。
+虽然感觉起来仿佛还是昨天，好像你离开甜瓜度假区也没多久。
 I’m not about to go down so easy a second time.
 总之，我不会轻易倒下的。
 You ready? I am.
@@ -21209,19 +21209,19 @@ I’ll remember that one for a long time to come, lemme tell you. Gonna keep tra
 Glad to see you. Keep rocking, 'kay? Can’t wait for the rematch!
 总之，继续加油吧，期待我们下一次的比试！
 Same here.
-我也是
+我也是。
 Oh, I care.
-我要赢
+我要赢。
 Won't go easy on you.
-我不会手下留情
+我不会手下留情。
 We don't have to fight.
-我们未必要打
+我们未必要打。
 Good luck.
-祝你好运
+祝你好运。
 Good idea.
-好主意
+好主意。
 Don't.
-别这样
+别这样。
 Mavis...
 梅维斯...
 [Map318]
@@ -21280,7 +21280,7 @@ The Emolga is too focused on battling to notice you.
 Oh! Sorry, \PN.
 哦！抱歉，\PN。
 Didn’t see you there.
-Didn’t see you there.
+没注意到你在那儿。
 I was all hyped up for the end of my journey.
 我为旅程的终点感到非常兴奋。
 Built a team that I was really proud of.
@@ -21290,11 +21290,11 @@ Honestly, I thought I would go pretty far.
 Point is... I got swept first round by some guy with a Serperior.
 重点是...我在第一轮就被某个带着君主蛇的家伙横扫了。
 I know I usually take losses like a champ, but this time’s different.
-I know I usually take losses like a champ, but this time’s different.
+我知道我平时输得像冠军一样坦然，但这次不一样。
 No chance to try again.
 没有机会再试一次了。
 Anyways... I’m gonna head out somewhere quiet.
-Anyways... I’m gonna head out somewhere quiet.
+总之...我要去个安静的地方待会儿。
 Wanna meet me at <imp>Bluepoint Beach</imp> on Casaba?
 想在甜瓜度假区的<<imp>蓝莹海滩</imp>见我吗？
 For a duel, maybe. It would mean a lot to me.
@@ -21302,15 +21302,15 @@ For a duel, maybe. It would mean a lot to me.
 Bye, \PN.
 再见，\PN。
 Oops, sorry! I’m usually more careful.
-Oops, sorry! I’m usually more careful.
+哎呀，抱歉！我通常会更小心些的。
 Oh, \PN. Took me a second to recognize you.
 哦，\PN。我花了一秒钟才认出你。
 I know we’re not exactly close, but...
-I know we’re not exactly close, but...
+我知道我们不算亲近，但...
 Feeling like a warm up round? Or maybe a victory lap?
 想来场热身赛？或者胜利巡游？
 Either way, I’ll be at <imp>Bluepoint Beach</imp>.
-Either way, I’ll be at <imp>Bluepoint Beach</imp>.
+不管怎样，我会在<imp>蓝莹海滩</imp>。
 Remember? The one west of the Villa?
 记得吗？别墅西边那个？
 Meet you there...?
@@ -22131,7 +22131,7 @@ I was curious. Wanted answers. I got them – who could tell me no with Regidrag
 Not to mention the full might of Team Chasm, 'cause my research was VERY profitable.
 更不用说裂隙队的全部力量了，因为我的研究非常有利可图。
 I’m getting to that, but also, hey, it could come in handy some day, yeah?
-I’m getting to that, but also, hey, it could come in handy some day, yeah?
+我正要说那个，不过话说回来，嘿，说不定哪天能派上用场，对吧？
 As I was saying: we found the five lesser Regis.
 正如我说的：我们找到了五只较小的雷吉。
 It took me years, but I deciphered their inscriptions and understood their true nature.
@@ -22157,11 +22157,11 @@ Or at least permanently changing it. So we put each Regi back in their tomb and 
 The tombs were reinforced, of course – just about nothing can get through the minor Regi chambers.
 陵墓当然被加固了——几乎没有什么能穿过较小的雷吉密室。
 Gigas’s chamber can only be opened by the other five Regis together.
-Gigas’s chamber can only be opened by the other five Regis together.
+雷吉们的密室只能由其余五只雷吉共同开启。
 I don’t know. She agreed with us: it was too dangerous. We were criminals, not lunatics.
- I don’t know. She agreed with us: it was too dangerous. We were criminals, not lunatics.
+我不知道。她同意我们的看法：太危险了。我们是罪犯，不是疯子。
 I know things… haven’t been great for her, but this? This is insane.
-I know things… haven’t been great for her, but this?  This is insane.
+我知道她的处境...一直不太好，但这个？这太疯狂了。
 Who knows. We knew some groups were trying to get them back – they always have been.
 谁知道呢。我们知道有些团体一直试图夺回它们——他们一直都是这样。
 But succeeding? There was no way. Impossible. But… apparently Yezera can.
@@ -22169,21 +22169,21 @@ But succeeding? There was no way. Impossible. But… apparently Yezera can.
 …Probably. They might already have.
 ...可能。他们可能已经有了。
 Gigas’s chamber is deep down, though, and if they haven’t broken the seal yet, it’d be for nothing.
-Gigas’s chamber is deep down, though, and if they haven’t broken the seal yet, it’d be for nothing.
+不过Gigas的密室在深处，而且如果他们还没打破封印，那就白费了。
 Or if they’ve resealed it. I can try and scout it out, but… no promises.
-Or if they’ve resealed it. I can try and scout it out, but… no promises.
+或者他们重新封印了的话。我可以试着去侦察一下，但...不保证。
 My POINT is that if you don’t help out, you better get used to the look of white stone.
-My POINT is that if you don’t help out, you better get used to the look of white stone.
+我的重点是，如果你不帮忙，你最好习惯白色石头的外观。
 You’re gonna be seeing a whole lot more of it if someone tells Regigigas to let loose.
-You’re gonna be seeing a whole lot more of it if someone tells Regigigas to let loose.
+如果有人让雷吉奇卡斯放开手脚，你会看到多得多的这种景象。
 Listen, I don’t know. I don’t know a lot of things.
-Listen, I don’t know. I don’t know a lot of things.
+听着，我不知道。很多事情我都不知道。
 So let me talk to Andris, our rangers, Helena, whoever else I can find. We’ll figure out how bad things are.
-So let me talk to Andris, our rangers, Helena, whoever else I can find. We’ll figure out how bad things are.
+所以让我跟安德里斯、我们的护林员、海伦娜，还有其他我能找到的人谈谈。我们会弄清楚情况有多糟。
 And if these thieves show their faces aboveground, you can brawl with them.
 如果这些盗贼在地面上露面，你可以跟他们干一架。
 They’ve got at least one Regi, probably more, so there’s a strong temptation to wreak havoc. Trust me – I’d know.
-They’ve got at least one Regi, probably more, so there’s a strong temptation to wreak havoc. Trust me – I’d know.
+他们至少有一只雷吉，可能更多，所以有很强的破坏冲动。相信我——我最清楚。
 Hate to say it, but you just need to keep being your usual self, kid.
 不想这么说，但你只需要继续做你平常的自己，小子。
 Or, no, I shouldn’t call you kid. Take this – you’ve earned it.
@@ -23860,14 +23860,6 @@ You can also talk to the locals for advice.
 你也可以向当地人请教。
 We wish you the best of luck.
 我们祝你好运。
-You want a quick and easy start for a team?
-你想快速组建一支队伍吗？
-Try weathers. Set ‘em down, watch ‘em go.
-试试天气队。设置天气，然后看它们发挥。
-As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
-只要你能在比赛中保持天气效果，你就能碾压大多数没有准备的队伍。
-Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
-而且，它们还能让你轻松压制对手的天气——只需用你自身的天气覆盖它。
 Oh! This bush has a hidden switch.
 哦！这里面有个隐藏开关。
 Press the hidden switch?
@@ -23876,6 +23868,14 @@ You leave the hidden switch alone.
 你没有理会这个开关。
 You sense that a small hole has opened up somewhere!
 你能察觉到，某个地方出现了一个小洞！
+You want a quick and easy start for a team?
+你想快速组建一支队伍吗？
+Try weathers. Set ‘em down, watch ‘em go.
+试试天气队。设置天气，然后看它们发挥。
+As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
+只要你能在比赛中保持天气效果，你就能碾压大多数没有准备的队伍。
+Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
+而且，它们还能让你轻松压制对手的天气——只需用你自身的天气覆盖它。
 The Battle Monument
 对战纪念碑
 "The heroes of the past tower over us still."
@@ -25875,7 +25875,7 @@ We're too invested to back down now!
 Ah, poppycock, let's leave on our vacation early, dear.
 啊，简直离谱！亲爱的，我们还是度假去吧。
 Casaba Villa is gorgeous this time of year!
-每年这个时间，甜瓜别墅都很值得一去！
+每年这个时间，甜瓜度假区都很值得一去！
 A bird of myth shows up in what could be the biggest battery production plant in the world...
 凭借这只传说中的鸟精灵，或许能建设出全世界最大的电池厂...
 Stop running the game in debug mode!
@@ -27009,7 +27009,7 @@ Is this really how it ends?! Swept like a chump? Not even an iota of reward?
 I just need to try again. Keep moving forward.
 我只需要再试一次。继续前进。
 I’ll have to work even harder to be perfect.
-I’ll have to work even harder to be perfect.
+我得更加努力才能达到完美。
 I can grow. I can change. I can do anything I set my mind to.
 我可以成长。我可以改变。我可以做任何我下定决心要做的事。
 Anything.
@@ -27072,7 +27072,7 @@ At the very least, please try not to cause any bugs.
 Just to make things clear, I won't answer any questions about Team Chasm.
 先说清楚，我不会回答任何关于裂隙队的问题。
 Sorry, it's just... when people know that I was on the science team, they invariably try to pry secrets out of me.
-Sorry, it's just... when people know that I was on the science team, they invariably try to pry secrets out of me.
+抱歉，只是...当人们知道我在科学团队待过时，他们总是试图从我这里撬出秘密。
 I like to get ahead of the issue.
 我喜欢先发制人。
 People look at me funny just 'cause Mom wasn't born here.
@@ -27168,9 +27168,9 @@ Subject TEKTON noted particularly exhausted after process completion.
 Initial scans conclude 86% match with predicted structure.
 初始扫描显示与预测结构匹配度为86%。
 Anecdotal qualitative observations note object’s extremely low temperature.
-Anecdotal qualitative observations note object’s extremely low temperature.
+轶事定性观察记录显示该物体的温度极低。
 OBJ-TAO-3 temporarily housed in laboratory sub- storage room 4.
-OBJ-TAO-3 temporarily housed in laboratory sub- storage room 4.
+OBJ-TAO-3临时存放于实验室附属4号储藏室。
 Lab Notes 3 - March 8
 实验室笔记3 - 3月8日
 Shipment received from Unova.
@@ -35854,7 +35854,7 @@ Scheme
 Sever
 切裂
 Shared Spoils
-Shared Spoils
+共享战利品
 Spiky Burst
 爆破之菱
 Stalking
@@ -37338,8 +37338,8 @@ The user sends a chilly wind towards the target. This has a 10% chance to frostb
 向对方吹出寒风，10%概率使其冻伤。
 A high pitched screech lowers all nearby foes' Defense, Sp. Def, and Evasion by three steps. Can't miss and skips protections.
 一声高亢的尖叫，使所有附近敌人的物防、特防和回避率减小3级。必定命中，无视保护。
-The target is jabbed repeatedly with a horn or beak that multi-hits two to five times. Can random critical hit.
-目标被角或喙连续刺击，连续攻击2至5次。有可能随机命中要害。
+The target is jabbed repeatedly with a horn or beak that multi-hits two to five times.
+用角或喙反复戳击目标，连续攻击2至5次。
 The user hops high up to land on the target's head. It has a 10% chance to numb.
 使用者高高跃起，落在目标的头上。有10%概率使对手麻痹。
 The user chases the target and strikes it from above. It does more damage the faster the user is.
@@ -37895,7 +37895,7 @@ Strikes the target with harbor waters, then summons rainstorm for eight turns.
 The user rests in a riverbed, restoring its HP by half of max, and forming an Aqua Ring around themselves, healing 10% HP per turn.
 在河床附近休息，回复一半的最大HP，并给自身一个水流环，每回合回复10%HP。
 The user communes with all the world's water, waterlogging the target and forming an Aqua Ring around themselves, healing 10% HP per turn.
-The user communes with all the world's water, waterlogging the target and forming an Aqua Ring around themselves, healing 10% HP per turn.
+使用者与世间万水共鸣，使目标浸水并在自身周围形成水流环，每回合恢复10%HP。
 The user attacks with a wave of murky water, which hits all near foes and lowers their Speed by two steps.
 发射一股浑浊的水流，攻击对方并使它们的速度减小2级。
 The target is crushed in the user's shell, mouth, or claws, trapping and binding it for three turns.
@@ -38050,8 +38050,8 @@ Sends a pulse to flip the polarity of those nearby to damage a foe. Polarized Ro
 使用者发出脉冲反转周围的电荷来攻击目标。开启5回合的极化空间。
 Puts the target into a quarantine, trapping and disabling the move it last used for three turns.
 使目标进入隔离状态，困住并束缚目标3回合，并禁用其最后使用的技能。
-The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
-目标被电流命中，连续攻击2至5次。有10%概率使目标麻痹。
+The target is struck with an electric current and multi-hit two to five times.
+用电流击打目标，连续攻击2到5次。
 This move creates a directional magnetic field which reduces damage from attacks with 100 or more base power for five turns.
 产生一个定向磁场，在5回合内减小基础威力大于等于100的技能造成的伤害。
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
@@ -38373,7 +38373,7 @@ The user schemes to raise its Attack and Sp. Atk by two steps. During moonglow, 
 The user hacks at the target with great violence. Can random critical hit.
 猛烈地砍击对手。可能随机命中要害。
 The user attacks and steals the foe's held item simultaneously. You then choose a party member to hold it.
-The user attacks and steals the foe's held item simultaneously. You then choose a party member to hold it.
+使用者攻击并同时窃取对手的携带物，然后可以选择一名队友来携带它。
 Explodes, dealing an extra 30 base power to all nearby for each Spikes hazard layer underneath them. The user faints.
 爆炸攻击，每层菱会额外增加30点基础威力。对所有附近的敌人造成伤害。使用者会濒死。
 The user darkly follows the target before striking. Inflicts double damage on a target that is switching out.
@@ -38753,6 +38753,8 @@ Honey
 甜甜蜜
 Pretty Feather
 美丽之羽
+Noble Feather
+高贵之羽
 Tiny Mushroom
 小蘑菇
 Big Mushroom
@@ -39652,6 +39654,8 @@ Honey
 甜甜蜜
 Pretty Feathers
 美丽之羽
+Noble Feathers
+高贵之羽
 Tiny Mushrooms
 小蘑菇
 Big Mushrooms
@@ -40547,8 +40551,10 @@ A sweet honey with a sweeter aroma. It can be sold to shops for $750.
 一种极其香甜的蜂蜜，可以在商店卖出750金钱。
 A beautiful feather. It can be sold to shops for $1,500.
 一种漂亮的羽毛，可以在商店卖出1,500金钱。
+A beautiful metal feather. It can be sold to shops for $7,000.
+一种美丽的金属羽毛。可以在商店卖出7,000金钱。
 A small and rare mushroom. It can be sold to shops for $250.
-一个较小的蘑菇，可以在商店卖出250金钱。
+一种较小的蘑菇，可以在商店卖出250金钱。
 A large and rare mushroom. It can be sold to shops for $2,500.
 一种较大的蘑菇，可以在商店卖出2,500金钱。
 A rare mushroom which gives off a nice fragrance. It can be sold to shops for $7,500.
@@ -43616,7 +43622,7 @@ Double this Pokémon's Speed if any enemy is below half health.
 Takes 30% less damage in a rainstorm.
 雨天时，受到的伤害减小30%。
 Pulse moves multi-hit two to five times at 30% power.
-脉冲类技能会以30%的威力连续攻击2到5次。
+脉冲类技能会以30%的威力连续攻击2至5次。
 While this Pokémon is on the field, all attacks restore their user's HP by 30% of damage dealt.
 在场时，所有精灵会回复攻击造成伤害的30%HP。
 While this Pokémon is on the field, all healing is boosted by 20% and can overheal.
@@ -44371,7 +44377,7 @@ After knocking out any Pokémon, summons sunshine for four turns.
 打倒对手时，开启持续4回合的晴天。
 At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
 在阳光下的每个回合结束时，所有不免疫阳光的负面效果的精灵的双防减小1级。
-Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine
+Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine.
 晴天时，速度增加50%，受到的反伤减半。
 Summons eclipse for four turns when hit by an attack.
 被击时，开启持续4回合的日食。
@@ -46895,7 +46901,7 @@ Blustery Bosk
 西宏礼商店
 181
 Casaba Island
-甜瓜岛
+甜瓜度假区
 182
 Spirit Atoll
 圣灵环礁
@@ -46952,7 +46958,7 @@ Xerneas's Chamber
 哲尔尼亚斯的圣殿
 200
 Emma's Empolorium
-艾玛的商店
+艾玛的小店
 201
 Nature's Gallery
 自然画廊
@@ -46976,7 +46982,7 @@ The Tunes
 乐之家咖啡
 208
 Ironclad Dojo Mid-Fight
-铁甲道馆激战
+钢铁道场激战
 209
 Jesters' House
 小丑之家
@@ -51430,7 +51436,7 @@ Surfing
 Water Grass
 水草
 ABILITIES[Z]
-ABILITIES[Z]
+特性[Z]
 STATS
 能力
 DEF. MATCHUPS
@@ -52462,7 +52468,7 @@ Your Pokémon don't get extra damage on their same-type attacks.
 forge a blade<<n>>from gold/<<n>>pluck out its<<n>>silhouette and/<<n>>wield the<<n>>shadow too!
 用黄金锻造1柄利刃，<<n>>拔出它，<<n>>连其暗影也一同挥舞！
 Enemy Pokémon all have an extra item.<<n>>Your Pokémon's items don't have any effects for 3 turns!
-对手的精灵都持有一个额外物品。<<n>>你的精灵的物品会失效3回合！
+对手的精灵都会携带一个额外物品。<<n>>你的精灵的物品会失效3回合！
 A Portrait of the Opposition in Radiant Ulfire and Stygian Blue
 为敌手绘形，<<n>>以炽火，<<n>>以冥蓝。
 Enemy Pokémon all have an extra type.
@@ -56378,7 +56384,7 @@ But it failed, since a Sticky Web is already laid out!
 But it failed, since a live wire already sits near the opponent!
 但它失败了，因为对手附近已经有一根带电导线了！
 But nobody could receive the item!
-But nobody could receive the item!
+但是没有精灵能接收这个物品！
 {1} stole and ate its target's {2}!
 {1}偷走并吃掉了{2}！
 {1}'s {2} was destroyed!
@@ -60784,13 +60790,13 @@ Here, take it.
 All I ask is that you appreciate it for many years, young one.
 我只求你多年来一直珍惜它，年轻人。
 \i[SPANNINGBAND]What? The Spanning Bands are suddenly glowing!
-\i[SPANNINGBAND]What? The Spanning Bands are suddenly glowing!
+\i[SPANNINGBAND]什么？跨越之环突然发光了！
 \i[SPANNINGBAND]They glow in sync with the <imp>Avatar Totem</imp>.
-\i[SPANNINGBAND]They glow in sync with the <imp>Avatar Totem</imp>.
+\i[SPANNINGBAND]它们与<imp>化身图腾</imp>同步发光。
 \i[SPANNINGBAND]A vision of Casaba Villa flashes across your mind.
-\i[SPANNINGBAND]A vision of Casaba Villa flashes across your mind.
+\i[SPANNINGBAND]甜瓜度假区的景象在你脑海中一闪而过。
 \i[SPANNINGBAND]You sense that some sort of <imp>connection</imp> has been made.
-\i[SPANNINGBAND]You sense that some sort of <imp>connection</imp> has been made.
+\i[SPANNINGBAND]你感觉到某种<imp>连接</imp>已经建立。
 Makyan Champion
 马凯亚冠军
 \wmThe victor is \PN!\me[Bug catching 1st]
@@ -61200,7 +61206,7 @@ Find him.
 Find him again.
 再次找到他。
 Casaba Island
-甜瓜岛
+甜瓜度假区
 Play hide and seek with the kid who said they'd give you TMs.
 和那个说会给你技能机的小孩玩捉迷藏。
 TMs!
@@ -62398,17 +62404,17 @@ The user connects to the target's brainwaves to stabilize its mind, curing its d
 {1} change to {2} type!
 {1}变为{2}属性！
 The Pokémon's species abilities can't be changed!
-The Pokémon's species abilities can't be changed!
+该精灵的物种特性无法改变！
 You can change a Pokémon's species abilities here!
-You can change a Pokémon's species abilities here!
+你可以在这里改变精灵的物种特性！
 Which do you want to choose?
-Which do you want to choose?
+你想选择哪一个？
 You don't have enough money to change the Pokémon's species abilities!
-You don't have enough money to change the Pokémon's species abilities!
+你没有足够的钱来改变精灵的物种特性！
 It costs $5000, are you sure?
-It costs $5000, are you sure?
+这需要花费5000金钱，你确定吗？
 The Pokémon's species abilities changed!
-The Pokémon's species abilities changed!
+这只精灵的物种特性已经改变！
 {1} has been removed!
 {1}已被移除！
 {1} can't be removed!
@@ -63887,12 +63893,12 @@ Huh?
 哈？
 Why not?
 为什么不呢？
-Ignore it.
-不理他。
+Ignore them.
+无视他们。
 Make a funny face.
 做个鬼脸。
-Take its candy.
-抢走它的糖果。
+Take their candy.
+拿走他们的糖果。
 You're stealing Pokémon?
 你在偷精灵？
 You're rescuing Pokémon?

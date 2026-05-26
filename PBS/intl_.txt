@@ -8971,12 +8971,6 @@ I'm just here to discuss some possible changes to the monument with Jovan.
 I'm just here to discuss some possible changes to the monument with Jovan.
 You've met, I believe?
 You've met, I believe?
-I'll take your Pokémon for a few seconds.
-I'll take your Pokémon for a few seconds.
-First, you should restore your Pokémon to full health.
-First, you should restore your Pokémon to full health.
-We hope you excel!
-We hope you excel!
 Offensive Pokémon need offensive moves.
 Offensive Pokémon need offensive moves.
 Most of the time you’ve got more moves than types.
@@ -8991,6 +8985,12 @@ If your team’s weak to Ice, maybe here’s where you slip in a Mach Punch or a
 If your team’s weak to Ice, maybe here’s where you slip in a Mach Punch or a Flamethrower.
 Think about it.
 Think about it.
+I'll take your Pokémon for a few seconds.
+I'll take your Pokémon for a few seconds.
+First, you should restore your Pokémon to full health.
+First, you should restore your Pokémon to full health.
+We hope you excel!
+We hope you excel!
 Heyo, \PN. Want some guaranteed one-hundred- percent success rate advice?
 Heyo, \PN. Want some guaranteed one-hundred- percent success rate advice?
 Never be afraid to bring, like, five Pokémon that all do the same thing.
@@ -13371,16 +13371,16 @@ It's a baby.
 It's a baby.
 There's nothing interesting going on with this baby.
 There's nothing interesting going on with this baby.
-Probably best to leave it alone.
-Probably best to leave it alone.
+Probably best to leave them alone.
+Probably best to leave them alone.
 The baby laughs at you.
 The baby laughs at you.
-Once you take the candy out of the baby's hands, it begins wailing loudly.
-Once you take the candy out of the baby's hands, it begins wailing loudly.
+Once you take the candy out of the baby's hands, they begin wailing loudly.
+Once you take the candy out of the baby's hands, they begin wailing loudly.
 The baby is crying.
 The baby is crying.
-It doesn't look like it will stop any time soon.
-It doesn't look like it will stop any time soon.
+It doesn't look like they will stop any time soon.
+It doesn't look like they will stop any time soon.
 Hey there kiddo, I got a little performance that I'm putting on here.
 Hey there kiddo, I got a little performance that I'm putting on here.
 I need a little assistant to help me. You want to have a battle?
@@ -13479,12 +13479,12 @@ This clown sucks.
 This clown sucks.
 I need to get a hobby, I can't spend all day like this.
 I need to get a hobby, I can't spend all day like this.
-Ignore it.
-Ignore it.
+Ignore them.
+Ignore them.
 Make a funny face.
 Make a funny face.
-Take its candy.
-Take its candy.
+Take their candy.
+Take their candy.
 Nah.
 Nah.
 Sure.
@@ -23860,14 +23860,6 @@ You can also talk to the locals for advice.
 You can also talk to the locals for advice.
 We wish you the best of luck.
 We wish you the best of luck.
-You want a quick and easy start for a team?
-You want a quick and easy start for a team?
-Try weathers. Set ‘em down, watch ‘em go.
-Try weathers. Set ‘em down, watch ‘em go.
-As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
-As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
-Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
-Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
 Oh! This bush has a hidden switch.
 Oh! This bush has a hidden switch.
 Press the hidden switch?
@@ -23876,6 +23868,14 @@ You leave the hidden switch alone.
 You leave the hidden switch alone.
 You sense that a small hole has opened up somewhere!
 You sense that a small hole has opened up somewhere!
+You want a quick and easy start for a team?
+You want a quick and easy start for a team?
+Try weathers. Set ‘em down, watch ‘em go.
+Try weathers. Set ‘em down, watch ‘em go.
+As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
+As long as you can manage keeping ‘em up for the match, you can bulldoze most unprepared teams.
+Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
+Plus, they give you an easy way to shut down the competition’s weathers – just override that sucker with your own.
 The Battle Monument
 The Battle Monument
 "The heroes of the past tower over us still."
@@ -37338,8 +37338,8 @@ The user sends a chilly wind towards the target. This has a 10% chance to frostb
 The user sends a chilly wind towards the target. This has a 10% chance to frostbite.
 A high pitched screech lowers all nearby foes' Defense, Sp. Def, and Evasion by three steps. Can't miss and skips protections.
 A high pitched screech lowers all nearby foes' Defense, Sp. Def, and Evasion by three steps. Can't miss and skips protections.
-The target is jabbed repeatedly with a horn or beak that multi-hits two to five times. Can random critical hit.
-The target is jabbed repeatedly with a horn or beak that multi-hits two to five times. Can random critical hit.
+The target is jabbed repeatedly with a horn or beak that multi-hits two to five times.
+The target is jabbed repeatedly with a horn or beak that multi-hits two to five times.
 The user hops high up to land on the target's head. It has a 10% chance to numb.
 The user hops high up to land on the target's head. It has a 10% chance to numb.
 The user chases the target and strikes it from above. It does more damage the faster the user is.
@@ -38050,8 +38050,8 @@ Sends a pulse to flip the polarity of those nearby to damage a foe. Polarized Ro
 Sends a pulse to flip the polarity of those nearby to damage a foe. Polarized Room is created for five turns.
 Puts the target into a quarantine, trapping and disabling the move it last used for three turns.
 Puts the target into a quarantine, trapping and disabling the move it last used for three turns.
-The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
-The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
+The target is struck with an electric current and multi-hit two to five times.
+The target is struck with an electric current and multi-hit two to five times.
 This move creates a directional magnetic field which reduces damage from attacks with 100 or more base power for five turns.
 This move creates a directional magnetic field which reduces damage from attacks with 100 or more base power for five turns.
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
@@ -38753,6 +38753,8 @@ Honey
 Honey
 Pretty Feather
 Pretty Feather
+Noble Feather
+Noble Feather
 Tiny Mushroom
 Tiny Mushroom
 Big Mushroom
@@ -39652,6 +39654,8 @@ Honey
 Honey
 Pretty Feathers
 Pretty Feathers
+Noble Feathers
+Noble Feathers
 Tiny Mushrooms
 Tiny Mushrooms
 Big Mushrooms
@@ -40547,6 +40551,8 @@ A sweet honey with a sweeter aroma. It can be sold to shops for $750.
 A sweet honey with a sweeter aroma. It can be sold to shops for $750.
 A beautiful feather. It can be sold to shops for $1,500.
 A beautiful feather. It can be sold to shops for $1,500.
+A beautiful metal feather. It can be sold to shops for $7,000.
+A beautiful metal feather. It can be sold to shops for $7,000.
 A small and rare mushroom. It can be sold to shops for $250.
 A small and rare mushroom. It can be sold to shops for $250.
 A large and rare mushroom. It can be sold to shops for $2,500.
@@ -44371,8 +44377,8 @@ After knocking out any Pokémon, summons sunshine for four turns.
 After knocking out any Pokémon, summons sunshine for four turns.
 At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
 At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
-Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine
-Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine
+Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine.
+Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine.
 Summons eclipse for four turns when hit by an attack.
 Summons eclipse for four turns when hit by an attack.
 Doubles the speed of allied Pokémon.
@@ -63887,12 +63893,12 @@ Huh?
 Huh?
 Why not?
 Why not?
-Ignore it.
-Ignore it.
+Ignore them.
+Ignore them.
 Make a funny face.
 Make a funny face.
-Take its candy.
-Take its candy.
+Take their candy.
+Take their candy.
 You're stealing Pokémon?
 You're stealing Pokémon?
 You're rescuing Pokémon?
