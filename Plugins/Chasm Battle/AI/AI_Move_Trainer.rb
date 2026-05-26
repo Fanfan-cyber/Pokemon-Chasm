@@ -247,6 +247,16 @@ class PokeBattle_AI
                 pbPrintException($!) if $DEBUG
             end
 
+            if move.disguiseIntact?(target, true) and damageScore > 0
+                # Move will break disguise, exact damage doesn't matter so treat as flat value
+                # However we can't score it as 0 because then it won't try to use the move
+                # Later logic should reduce score for downsides and so prioritise less costly moves
+                # Also mark that it won't faint
+                damageScore = 80
+                willFaint = false
+                echoln("\t[MOVE SCORING] #{target.pbThis(true)} has intact Disguise; scoring as a disguise-breaking move (base #{damageScore})")
+            end
+
             numHits = move.numberOfHits(user, [target], true).ceil
 
             # Account for triggered abilities of the user
