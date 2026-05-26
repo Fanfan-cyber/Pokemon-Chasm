@@ -1217,7 +1217,7 @@ Flags = MoldBreaking
 #-------------------------------
 [JUGGLING]
 Name = Juggling
-Description = When this Pokémon consumes an item, it is passed to its ally. When its ally consumes an item, it is passed to this Pokémon.
+Description = The first time each turn this Pokémon consumes an item, it is passed to its ally, and vice versa.
 #-------------------------------
 [KARMA]
 Name = Karma
