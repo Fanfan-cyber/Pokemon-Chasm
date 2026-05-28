@@ -270,8 +270,8 @@ class PokeBattle_Battler
             pbMinimizeStatStep(stat, user, move, true, ability: ability)
         elsif hasActiveAbility?(:INVERSION) && !ignoreContrary
             aiLearnsAbility(:INVERSION)
-            increment = ((STAT_STEP_BOUND + @steps[stat]) / 2.0).ceil
-            tryLowerStat(stat, user, move: move, increment: increment, ability: ability)
+            increment = ((STAT_STEP_BOUND - @steps[stat]) / 2.0).ceil
+            tryLowerStat(stat, user, move: move, increment: increment, ability: ability, ignoreContrary: true)
         elsif pbCanRaiseStatStep?(stat, user, move, true, ignoreContrary)
             @battle.pbShowAbilitySplash(user, ability) if ability
             increment = STAT_STEP_BOUND - @steps[stat]
@@ -635,7 +635,7 @@ class PokeBattle_Battler
         elsif hasActiveAbility?(:INVERSION) && !ignoreContrary
             aiLearnsAbility(:INVERSION)
             increment = ((STAT_STEP_BOUND + @steps[stat]) / 2.0).ceil
-            tryRaiseStat(stat, user, move: move, increment: increment, ability: ability)
+            tryRaiseStat(stat, user, move: move, increment: increment, ability: ability, ignoreContrary: true)
         elsif pbCanLowerStatStep?(stat, user, move, true, ignoreContrary)
             @battle.pbShowAbilitySplash(user, ability) if ability
             increment = @steps[stat] + STAT_STEP_BOUND
