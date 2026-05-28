@@ -16264,8 +16264,8 @@ Flags = Legendary
 Name = Tornadus
 Type1 = FLYING
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 80,115,70,110,125,80
-# Total = 580
+BaseStats = 90,115,70,110,125,90
+# Total = 600
 GenderRate = AlwaysMale
 BaseEXP = 261
 Rareness = 5
@@ -16288,8 +16288,8 @@ Name = Thundurus
 Type1 = ELECTRIC
 Type2 = FLYING
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 80,115,70,110,125,80
-# Total = 580
+BaseStats = 90,115,70,120,125,80
+# Total = 600
 GenderRate = AlwaysMale
 BaseEXP = 261
 Rareness = 5
@@ -16336,8 +16336,8 @@ Name = Enamorus
 Type1 = FAIRY
 Type2 = FLYING
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 75,115,70,105,135,80
-# Total = 580
+BaseStats = 90,120,70,105,135,80
+# Total = 600
 GenderRate = AlwaysFemale
 BaseEXP = 261
 Rareness = 5
