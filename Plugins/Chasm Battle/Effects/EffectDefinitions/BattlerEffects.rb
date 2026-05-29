@@ -5,6 +5,20 @@ def aquaRingHealingFraction(battler)
 end
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :JugglingThrown,
+    :real_name => "Juggling Thrown",
+    :resets_battlers_eot => true,
+    :resets_battlers_sot => true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :JugglingCaught,
+    :real_name => "Juggling Caught",
+    :resets_battlers_eot => true,
+    :resets_battlers_sot => true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :AquaRing,
     :real_name => "Aqua Ring",
     :baton_passed => true,

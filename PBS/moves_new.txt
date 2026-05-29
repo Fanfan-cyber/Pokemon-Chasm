@@ -706,7 +706,7 @@ Accuracy = 0
 TotalPP = 10
 Target = NearOther
 FunctionCode = TransformTargetPreEvolution
-Flags = CanProtect
+Flags = CanProtect,CanMagicCoat
 Description = The user conjures up the past, transforming the target into their previous evolutionary form.
 Animation = TRANSFORM
 #-------------------------------
@@ -1238,13 +1238,13 @@ Animation = SUPERSONIC
 Name = Fury Pecks
 Type = FLYING
 Category = Physical
-Power = 20
+Power = 25
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = HitTwoToFiveTimes
-Flags = CanProtect,CanRandomCrit
-Description = The target is jabbed repeatedly with a horn or beak that multi-hits two to five times. Can random critical hit.
+Flags = CanProtect
+Description = The target is jabbed repeatedly with a horn or beak that multi-hits two to five times.
 #-------------------------------
 [HOP]
 Name = Hop
@@ -1833,7 +1833,6 @@ FunctionCode = Burn
 Flags = CanProtect,Wind
 EffectChance = 20
 Description = The user whips up a hot desert twister to attack the target. It has a 20% chance to burn.
-Animation = SCORCHINGSANDS
 #-------------------------------
 [DUSTSTORM]
 Name = Dust Storm
@@ -1981,13 +1980,13 @@ Animation = SCORCHINGSANDS
 Name = Rotary Headbutt
 Type = GROUND
 Category = Physical
-Power = 40
+Power = 55
 Accuracy = 100
-TotalPP = 15
+TotalPP = 10
 Target = NearOther
-FunctionCode = HitThreeTimes
+FunctionCode = TwoTurnAttackInvulnerableUndergroundHitThreeTimes
 Flags = CanProtect
-Description = The user hits the target with each of its heads from underground. Strikes three times.
+Description = The user burrows, charging and becoming hidden, then attacks three times on the second turn.
 Animation = DIG
 #-------------------------------
 [RUMBLE]
@@ -2027,7 +2026,7 @@ FunctionCode = Burn
 Flags = CanProtect
 EffectChance = 10
 Description = The user tosses hot desert sand on the target. It has a 10% chance to burn.
-Animation = SCORCHINGSANDS
+Animation = DUSTDEVIL
 #-------------------------------
 [SEISMICWAVE]
 Name = Seismic Wave
@@ -2825,7 +2824,7 @@ TotalPP = 5
 Target = UserSide
 FunctionCode = StartUserSideLessDamageFromNonAttackDamage
 Flags = CanSnatch
-Description = The user makes a plea for survival, halving the damage their side takes from non-attack sources for eight turns.
+Description = The user makes a plea for survival, halving the damage their side takes from non-attack sources for ten turns.
 Animation = SAFEGUARD
 #-------------------------------
 [PATIENTBLADE]
@@ -3699,7 +3698,7 @@ FunctionCode = LowerTargetSpd1
 Flags = CanProtect,Light
 EffectChance = 20
 Description = The user attacks with reflected light. It has a 20% chance to lower Sp. Def.
-Animation = FLASHCANNON
+Animation = SHINESHOT
 #-------------------------------
 [MAGNETIZE]
 Name = Magnetize
@@ -5879,14 +5878,13 @@ Animation = BAR
 Name = Rapid Hertz
 Type = ELECTRIC
 Category = Special
-Power = 20
+Power = 25
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = HitTwoToFiveTimesNumb
+FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
-EffectChance = 10
-Description = The target is struck with an electric current and multi-hit two to five times. Has a 10% chance to numb.
+Description = The target is struck with an electric current and multi-hit two to five times.
 Animation = THUNDERSHOCK
 #-------------------------------
 [REPULSIONFIELD]
@@ -7978,6 +7976,19 @@ Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit,Slice
 Description = The user hacks at the target with great violence. Can random critical hit.
+#-------------------------------
+[SHAREDSPOILS]
+Name = Shared Spoils
+Type = DARK
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = StealsTargetItemForSelfOrPartyMember
+Flags = CanProtect
+Description = The user attacks and steals the foe's held item simultaneously. You then choose a party member to hold it.
+Animation = KNOCKOFF
 #-------------------------------
 [SPIKYBURST]
 Name = Spiky Burst

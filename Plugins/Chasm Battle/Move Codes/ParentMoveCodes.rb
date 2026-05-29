@@ -596,6 +596,7 @@ class PokeBattle_TwoTurnMove < PokeBattle_Move
                 @battle.pbCommonAnimation("UseItem", user) unless %w[
                     TwoTurnAttackInvulnerableInSky
                     TwoTurnAttackInvulnerableUnderground
+					TwoTurnAttackInvulnerableUndergroundHitThreeTimes
                     TwoTurnAttackInvulnerableUnderwater
                     TwoTurnAttackInvulnerableHiding
                     TwoTurnAttackInvulnerableInFoliage

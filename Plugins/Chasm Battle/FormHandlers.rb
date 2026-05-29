@@ -199,7 +199,7 @@ MultipleForms.register(:ROTOM,{
         move_name = pkmn.moves[move_index].name
         pkmn.forget_move_at_index(move_index)
         pbMessage(_INTL("{1} forgot {2}...", pkmn.name, move_name))
-        pbLearnMove(pkmn, :MACHINATE, true)
+        pbLearnMove(pkmn, :PHANTOMGATE, true)
       end
     else
       # Turned into an alternate form; try learning that form's unique move
