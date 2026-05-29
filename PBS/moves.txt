@@ -1600,18 +1600,6 @@ FunctionCode = Defog
 Flags = CanProtect,CanMagicCoat,Wind
 Description = The user whips up a wind to blow away protective screens on the opponent's side. Also removes hazards on both sides.
 #-------------------------------
-[DRAGONASCENT]
-Name = Dragon Ascent
-Type = FLYING
-Category = Physical
-Power = 120
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = LowerUserDefSpDef2
-Flags = CanProtect
-Description = The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by two steps.
-#-------------------------------
 [DRILLPECK]
 Name = Drill Peck
 Type = FLYING

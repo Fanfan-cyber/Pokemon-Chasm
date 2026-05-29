@@ -1193,6 +1193,18 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The user soars up high, charging and becoming invulnerable, then dive bombs the target on the second turn.
 #-------------------------------
+[DRAGONASCENT]
+Name = Dragon Ascent
+Type = FLYING
+Category = Physical
+Power = 120
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user soars upward and drops at high speeds. This lowers the user's Defense and Sp. Def by two steps.
+#-------------------------------
 [HURRICANE]
 Name = Hurricane
 Type = FLYING
