@@ -2824,7 +2824,7 @@ TotalPP = 5
 Target = UserSide
 FunctionCode = StartUserSideLessDamageFromNonAttackDamage
 Flags = CanSnatch
-Description = The user makes a plea for survival, halving the damage their side takes from non-attack sources for eight turns.
+Description = The user makes a plea for survival, halving the damage their side takes from non-attack sources for ten turns.
 Animation = SAFEGUARD
 #-------------------------------
 [PATIENTBLADE]
