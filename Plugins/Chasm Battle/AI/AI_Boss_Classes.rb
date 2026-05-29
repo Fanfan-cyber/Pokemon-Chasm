@@ -189,7 +189,7 @@ class PokeBattle_AI_RAYQUAZA < PokeBattle_AI_Boss
         super
         @wholeRound += %i[STRATOSPHERESCREAM]
 
-        @warnedIFFMove.add(:DRAGONASCENT, {
+        @warnedIFFMove.add(:ATMOSPHERICBURST, {
             :condition => proc { |_move, _user, _target, battle|
                 next battle.turnCount == 0
             },
