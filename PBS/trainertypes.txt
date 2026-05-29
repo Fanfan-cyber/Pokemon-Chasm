@@ -1093,16 +1093,19 @@ CableClub = true
 #-------------------------------
 [POKEMONTRAINER_Androgynous]
 Name = Androgynous
+CableClubName = Pokémon Trainer
 Gender = Unknown
 BaseMoney = 60
 #-------------------------------
 [POKEMONTRAINER_Feminine]
 Name = Feminine
+CableClubName = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
 [POKEMONTRAINER_Masculine]
 Name = Masculine
+CableClubName = Pokémon Trainer
 Gender = Male
 BaseMoney = 60
 #-------------------------------
