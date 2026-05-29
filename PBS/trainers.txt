@@ -8657,7 +8657,7 @@ Pokemon = HZOROARK,70
     EV = 10,20,0,20,20,0
 Pokemon = DRAGAPULT,70
     Moves = FLY,DIVE,SIXFEETUNDER,UTURN
-    AbilityIndex = 0 # Fascinate
+    AbilityIndex = 1 # Phantasmal
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
