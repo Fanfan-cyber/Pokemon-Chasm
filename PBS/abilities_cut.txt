@@ -748,6 +748,11 @@ Description = Sets Fairy Terrain for five turns when hit by an attack.
 Name = Misty Surge
 Description = Turns the ground into Fairy Terrain for 5 turns when entering battle.
 #-------------------------------
+[MODUSSWITCH]
+Name = Modus Switch
+Description = When using Techno Blast, the user can choose the move's type, switching to that form.
+Flags = Immutable
+#-------------------------------
 [MOLDBREAKER]
 Name = Mold Breaker
 Description = Ignores Abilities that would affect its moves.

@@ -1434,11 +1434,6 @@ Flags = HazardImmunity
 Name = Mist Trail
 Description = Pokémon that swap in for this have their Defense and Sp. Defense raised.
 #-------------------------------
-[MODUSSWITCH]
-Name = Modus Switch
-Description = When using Techno Blast, the user can choose the move's type, switching to that form.
-Flags = Immutable
-#-------------------------------
 [MOISTSKIN]
 Name = Moist Skin
 Description = If an attack lowers its HP below half, waterlogs the attacker.
