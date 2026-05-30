@@ -3253,3 +3253,10 @@ Bicycle = true
 Weather = Blizzard,100
 BattleBack = snow
 Environment = Snow
+#-------------------------------
+[456]
+# Center Station
+Outdoor = false
+ShowArea = false
+Bicycle = false
+HealingSpot = 448,25,13
