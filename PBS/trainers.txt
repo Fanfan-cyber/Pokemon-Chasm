@@ -1018,7 +1018,7 @@ Pokemon = RAICHU,35
 ExtendsVersion = 4
 Policies = CURSE_DOUBLE_ABILITIES
 Pokemon = ILLUMISE,35
-    AbilityIndex = 1 # Fascinate
+    ExtraAbilities = FASCINATE
 Pokemon = RATICATE,35
     Moves = POISONFANG,HYPERFANG,CRUNCH,SEARINGCRUNCH
     AbilityIndex = 1 # Gnawing
@@ -8658,7 +8658,7 @@ Pokemon = HZOROARK,70
     EV = 10,20,0,20,20,0
 Pokemon = DRAGAPULT,70
     Moves = FLY,DIVE,SIXFEETUNDER,UTURN
-    AbilityIndex = 0 # Fascinate
+    AbilityIndex = 1 # Phantasmal
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20

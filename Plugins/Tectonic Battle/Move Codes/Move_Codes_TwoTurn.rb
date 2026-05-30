@@ -328,6 +328,22 @@ class PokeBattle_Move_TwoTurnAttackInvulnerableUnderground < PokeBattle_Move_Two
 end
 
 #===============================================================================
+# Two turn attack. Skips first turn, attacks three times second turn. (Rotary Headbutt)
+# (Handled in Battler's pbSuccessCheckPerHit): Is semi-invulnerable during use.
+#===============================================================================
+class PokeBattle_Move_TwoTurnAttackInvulnerableUndergroundHitThreeTimes < PokeBattle_Move_TwoTurnAttackInvulnerable
+    def multiHitMove?; return @damagingTurn; end
+    def pbNumHits(_user, _targets, _checkingForAI = false)
+        return 1 if @chargingTurn && !@damagingTurn
+        return 3
+    end
+
+    def pbChargingTurnMessage(user, _targets)
+        @battle.pbDisplay(_INTL("{1} burrowed its way under the ground!", user.pbThis))
+    end
+end
+
+#===============================================================================
 # Two turn attack. Skips first turn, attacks second turn. (Dive)
 # (Handled in Battler's pbSuccessCheckPerHit): Is semi-invulnerable during use.
 #===============================================================================

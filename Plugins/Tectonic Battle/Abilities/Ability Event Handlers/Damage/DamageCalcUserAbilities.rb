@@ -708,6 +708,7 @@ BattleHandlers::DamageCalcUserAbility.add(:TIMEINTERLOPER,
   }
 )
 
+=begin
 BattleHandlers::DamageCalcUserAbility.add(:MARINEMENACE,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
     if move.function == "TwoTurnAttackInvulnerableUnderwater" || backfire # Dive, # Depth Charge
@@ -734,6 +735,7 @@ BattleHandlers::DamageCalcUserAbility.add(:STEEPFLYING,
     end
   }
 )
+=end
 
 BattleHandlers::DamageCalcUserAbility.add(:GRIPSTRENGTH,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|

@@ -555,6 +555,7 @@ class PokeBattle_Battler
     def semiInvulnerable?
         return inTwoTurnAttack?("TwoTurnAttackInvulnerableInSky",
         "TwoTurnAttackInvulnerableUnderground",
+        "TwoTurnAttackInvulnerableUndergroundHitThreeTimes",
         "TwoTurnAttackInvulnerableUnderwater",
         "TwoTurnAttackInvulnerableHiding",
         "TwoTurnAttackInvulnerableInFoliage",
