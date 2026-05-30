@@ -8318,10 +8318,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 1
 Target = User
-Priority = 6
 FunctionCode = GrantUserCrystalCaliburnChangeUserDiancieForm
 Flags = CanProtect,Slice
-Description = The user draws the Crystal Caliburn, which empowers light and slice moves and transforms the holder into Royal form.
+Description = The user draws the Crystal Caliburn, which empowers light and slice moves by 50% and transforms the holder into Royal form.
 Animation = DAZZLINGGLEAM
 #-------------------------------
 [GLAMOURFLASH]
