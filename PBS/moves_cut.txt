@@ -213,6 +213,19 @@ FunctionCode = Invalid
 Flags = CanSnatch
 Description = The user curls up to conceal weak spots and raise both of its defensive stats.
 #-------------------------------
+[DISCOMBOBULATE]
+Name = Discombobulate
+Type = NORMAL
+Category = Adaptive
+Power = 75
+Accuracy = 0
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = Alters the reality of the area to damage a foe. Puzzle Room is created for five turns.
+Animation = CONFUSERAY
+#-------------------------------
 [DISSIPATION]
 Name = Dissipation
 Type = NORMAL
