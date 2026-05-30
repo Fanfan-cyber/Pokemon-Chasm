@@ -374,7 +374,7 @@ Pokemon = TOGEKISS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = GOLDUCK,70
-    Moves = SCALD,ICEBEAM,NEURALPULSE,CONFUSERAY
+    Moves = SCALD,MIASMA,NEURALPULSE,CONFUSERAY
     AbilityIndex = 0 # Headache
     Item = PERSIMBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1653,7 +1653,7 @@ Pokemon = GALVANTULA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = POLIWRATH,70
-    Moves = DRAINPUNCH,LIQUIDATION,POISONJAB,ICEPUNCH
+    Moves = DRAINPUNCH,LIQUIDATION,POISONJAB,HUNDREDHANDCLAP
     AbilityIndex = 0 # Counter Flow
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
