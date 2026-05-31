@@ -1711,7 +1711,7 @@ Bicycle = false
 # Renovated House
 Outdoor = false
 ShowArea = false
-Bicycle = false
+Bicycle = true
 HealingSpot = 187,55,37
 MapPosition = 0,15,4
 #-------------------------------
@@ -1719,7 +1719,7 @@ MapPosition = 0,15,4
 # Your House
 Outdoor = false
 ShowArea = false
-Bicycle = false
+Bicycle = true
 HealingSpot = 187,55,37
 MapPosition = 0,15,4
 #-------------------------------
@@ -3253,3 +3253,10 @@ Bicycle = true
 Weather = Blizzard,100
 BattleBack = snow
 Environment = Snow
+#-------------------------------
+[456]
+# Center Station
+Outdoor = false
+ShowArea = false
+Bicycle = false
+HealingSpot = 448,25,13

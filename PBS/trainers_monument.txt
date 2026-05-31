@@ -280,7 +280,7 @@ Pokemon = SAWSBUCK,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 5,20,5,20,20,0
 Pokemon = LURANTIS,70
-    Moves = SUPERPOWER,LEAFSTORM,STRAFE,POLLENPUFF
+    Moves = SUPERPOWER,LEAFSTORM,OMNISCIENTBLOW,SCALESTORM
     AbilityIndex = 0 # Inversion
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -374,7 +374,7 @@ Pokemon = TOGEKISS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = GOLDUCK,70
-    Moves = SCALD,ICEBEAM,NEURALPULSE,CONFUSERAY
+    Moves = SCALD,MIASMA,NEURALPULSE,PSYCHOSHIFT
     AbilityIndex = 0 # Headache
     Item = PERSIMBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -382,7 +382,7 @@ Pokemon = GOLDUCK,70
 #-------------------------------
 [POKEMONRANGER_M2,Qwinn]
 Pokemon = TITANIX,70
-    Moves = SLAG,SCORCHINGSANDS,STEALTHROCK,THUNDERBOLT
+    Moves = FLASHCANNON,SCORCHINGSANDS,STEALTHROCK,ARCLAMP
     AbilityIndex = 0 # Radiate
     Item = FOCUSSASH
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1589,7 +1589,7 @@ Pokemon = FURRET,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 5,20,5,20,20,0
 Pokemon = MANERGETIC,70
-    Moves = THUNDERBOLT,VOLTSWITCH,OVERHEAT,SIGNALBEAM
+    Moves = THUNDERBOLT,VOLTSWITCH,OVERHEAT,LUMINBURST
     AbilityIndex = 1 # Fascinate
     Item = ELECTRICGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1653,7 +1653,7 @@ Pokemon = GALVANTULA,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = POLIWRATH,70
-    Moves = DRAINPUNCH,LIQUIDATION,POISONJAB,ICEPUNCH
+    Moves = DRAINPUNCH,LIQUIDATION,POISONJAB,HUNDREDHANDCLAP
     AbilityIndex = 0 # Counter Flow
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1906,7 +1906,7 @@ Pokemon = MORPEKO,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = TITANIX,70
-    Moves = ZAPCANNON,PROFANE,EARTHPOWER,FLASHCANNON
+    Moves = ZAPCANNON,PROFANE,PULVERIZERCHORD,SHARDSURGE
     AbilityIndex = 1 # Gravitas
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
