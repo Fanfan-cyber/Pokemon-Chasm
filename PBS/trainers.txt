@@ -10499,7 +10499,7 @@ Pokemon = LANTURN,35
     EV = 20,0,10,0,0,20
 #-------------------------------
 [ANOTHERPOSSIBLERAFAEL,Rafael]
-Policies = CURSE_FORCE_PERFECT
+Policies = CURSE_FORCE_PERFECT,ALTERNATE_RAFAEL
 Pokemon = DIANCIE,70
     Moves = GEMFORGEDOATH,PSYCHOSCISSION,DIAMONDSTORM,MOONBLAST
     AbilityIndex = 0 # Magic Bounce
@@ -10534,3 +10534,6 @@ Pokemon = RAYQUAZA,70
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
+#-------------------------------
+[ANOTHERPOSSIBLERAFAEL,Rafael,1]
+ExtendsVersion = 0
