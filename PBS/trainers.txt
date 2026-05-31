@@ -2724,6 +2724,34 @@ Pokemon = POLIWAG,1
     Moves = FOLLOWME
     AbilityIndex = 0 # Clear Body
 #-------------------------------
+[HEXMANIAC_1,Riptide,1]
+TrainerTypeLabel = DEVELOPER
+Pokemon = HELECTRODE,70
+    Moves = EXPLOSION
+    AbilityIndex = 0 # Perennial Payload
+    Item = NORMALGEM
+Pokemon = AMUK,70
+    Moves = POISONJAB,WETWORK,EXPLOSION,PROTECT
+    AbilityIndex = 1 # Power of Alchemy
+    Item = CRYSTALVEIL
+    ItemType = GHOST
+Pokemon = MARACTUS,70
+    Moves = THORNRATTLE,SHOREUP,LEECHSEED,SPIKYSHIELD
+    AbilityIndex = 0 # Grit
+    Item = SITRUSBERRY
+Pokemon = MNINETALES,70
+    Moves = SHADOWBALL,FLASHCANNON,STEELBEAM,PULVERIZERCHORD
+    AbilityIndex = 1 # Luxury Taste
+    Item = ASSAULTVEST
+Pokemon = WISHIWASHI,70
+    Moves = EBBFLOW,DIVE,PROTECT,WATERLOG
+    AbilityIndex = 0 # Schooling
+    Item = LEFTOVERS
+Pokemon = ARCLAMOR,70
+    Moves = WALLOFSOUND,HYPERVOICE,BELCH,NOBLEROAR
+    AbilityIndex = 0 # Loud
+    Item = LEPPABERRY
+#-------------------------------
 [ROLLERSKATER_F,Attea]
 TrainerTypeLabel = DEVELOPER
 Policies = ALLOW_RANDOM_MOVES
