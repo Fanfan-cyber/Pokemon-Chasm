@@ -1,7 +1,7 @@
 PokeBattle_Battle::BattleStartApplyCurse.add(:CURSE_FORCE_PERFECT,
     proc { |curse_policy, battle, curses_array|
         battle.amuletActivates(
-            _INTL("Pressure of Perfection"),
+            _INTL("A single error cuts through the world-flesh/\nand the rot of entropy begins to feed"),
             _INTL("You immediately white out if one of your Pokémon faints."),
             true
         )
