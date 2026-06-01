@@ -2724,6 +2724,42 @@ Pokemon = POLIWAG,1
     Moves = FOLLOWME
     AbilityIndex = 0 # Clear Body
 #-------------------------------
+[HEXMANIAC_1,Riptide,1]
+TrainerTypeLabel = DEVELOPER
+Pokemon = HELECTRODE,70
+    Name = HECKIT
+    Shiny = yes
+    Moves = EXPLOSION,TAUNT
+    AbilityIndex = 0 # Perennial Payload
+    Item = FOCUSSASH
+Pokemon = AMUK,70
+    Name = Stacker
+    Moves = VENOMDRENCH,WETWORK,POISONGAS,RECOVER
+    AbilityIndex = 1 # Poison Punish
+    Item = COVERTCLOAK
+Pokemon = MARACTUS,70
+    Name = Soloer
+    Shiny = yes
+    Moves = THORNRATTLE,SHOREUP,LEECHSEED,SPIKES
+    AbilityIndex = 0 # Grit
+    Item = LEFTOVERS
+Pokemon = SNEASLER,70
+    Name = Diva
+    Gender = female
+    Moves = CROSSCHOP,CROSSPOISON,FOCUSENERGY,XSCISSOR
+    AbilityIndex = 0 # Rugged
+    Item = SCOPELENS
+Pokemon = WISHIWASHI,70
+    Name = Demon Tower
+    Moves = EBBFLOW,DIVE,ICEBEAM,FLOUNDER
+    AbilityIndex = 0 # Schooling
+    Item = LEFTOVERS
+Pokemon = ARCLAMOR,70
+    Name = Demondice
+    Moves = WALLOFSOUND,HYPERVOICE,BELCH,NOBLEROAR
+    AbilityIndex = 0 # Loud
+    Item = LEPPABERRY
+#-------------------------------
 [ROLLERSKATER_F,Attea]
 TrainerTypeLabel = DEVELOPER
 Policies = ALLOW_RANDOM_MOVES
