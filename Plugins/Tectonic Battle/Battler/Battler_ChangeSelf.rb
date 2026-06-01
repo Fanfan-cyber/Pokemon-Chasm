@@ -408,11 +408,8 @@ class PokeBattle_Battler
                 faintedPartyMembers = []
                 ownerParty.each do |partyPokemon|
                     next unless partyPokemon
-                    #next if @battle.pbFindBattler(partyIndex, @index)
                     next if partyPokemon.unique_id == unique_id
                     next unless partyPokemon.fainted?
-                    next if @battle.pbFindBattler(partyPokemon, @index)
-                    next if partyPokemon == @pokemon
                     faintedPartyMembers.push(partyPokemon)
                 end
                 @battle.pbDisplay(_INTL("{1}'s scattered its {2} when fainting.", pbThis, getItemName(:HOOHSASHES)))

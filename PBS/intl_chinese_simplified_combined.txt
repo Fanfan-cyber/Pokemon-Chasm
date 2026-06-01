@@ -29545,7 +29545,7 @@ Dopey
 Hermit Crab
 寄居蟹
 Royal
-王者
+皇家
 Hexpert
 专业
 Magnet
@@ -37447,7 +37447,7 @@ The user propels itself forward with a wave of mud which also slams into the tar
 The user attacks by hurling a blob of mud. It has a 20% chance to reduce the target's Speed.
 投掷一团泥浆。有20%概率使对手的速度减小1级。
 The user shapes primal clay to heal a nearby ally for their max HP. This can overheal. The user is exhausted on the next turn.
-用原初黏土为队友回复全部HP，可以过量回复。下1回合将陷入僵直状态。
+用原初黏土为附近队友回复全部HP，可以过量回复。下1回合将陷入僵直状态。
 The user opens a pit beneath the target, trapping and binding it for three turns.
 使用者在目标脚下开启坑洞，困住并束缚目标3回合。
 The user hits a pitch that turns earth and stone to dust, damaging its foes.
@@ -37580,8 +37580,8 @@ All foes have their Attack and Sp. Atk lowered. All foes' moves get redirected t
 使所有对手的双攻减小1级。该回合使用者会吸引对手的技能。
 The foe is stabbed once by each of the user's stingers.
 身上的每一根刺都会刺击对方一次。
-The user makes a plea for survival, halving the damage their side takes from non-attack sources for eight turns.
-使我方队伍在8回合内受到的非攻击类伤害减半。
+The user makes a plea for survival, halving the damage their side takes from non-attack sources for ten turns.
+使我方队伍在10回合内受到的非攻击类伤害减半。
 The user prepares its weapons. This raises the user's Attack by six steps but lowers Speed by six steps.
 使用者准备武器。物攻增加6级，但速度减小6级。
 The user rakes the target with sharp claws.
@@ -37831,7 +37831,7 @@ The user launches volcanic debris, dealing damage and setting a hazard layer of 
 The user surrounds the target with fire which also destroys any clothing items it's holding.
 使用者用火焰包围目标，同时破坏目标携带的任何衣物类物品。
 A distinguished attack that motivates nearby allies to follow, letting them act immediately after.
-激励附近的队友跟随自身，紧随其后进行行动。
+激励附近队友跟随自身，紧随其后进行行动。
 The user launches a concentrated ball of searing, bright white flame. Can random critical hit.
 使用者发射一团灼热的亮白色火焰球。可以随机命中要害。
 The user creates a storm using its flaming body, damaging everything around it and melting away hazards from both sides.
@@ -38424,8 +38424,8 @@ The user makes a fool out of the target. This has a 50% chance of jinxing them.
 使用者使目标出丑。有50%概率使目标陷入不幸。
 The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
 使用者强行和目标玩耍，有50%概率使目标的物攻减小1级。
-The user draws the Crystal Caliburn, which empowers light and slice moves and transforms the holder into Royal form.
-使用者拔出水晶卡利伯。光与切割类技能会增强，变为皇家形态。
+The user draws the Crystal Caliburn, which empowers light and slice moves by 50% and transforms the holder into Royal form.
+使用者拔出水晶卡利伯。光类与切割类技能会威力增加50%，变为皇家形态。
 The user flashes colorful light to damage the target. This move always goes first.
 使用闪烁的七彩光芒攻击对手。
 The user chucks a party favor which explodes in the target's face.
@@ -40551,8 +40551,8 @@ A sweet honey with a sweeter aroma. It can be sold to shops for $750.
 一种极其香甜的蜂蜜，可以在商店卖出750金钱。
 A beautiful feather. It can be sold to shops for $1,500.
 一种漂亮的羽毛，可以在商店卖出1,500金钱。
-A beautiful metal feather. It can be sold to shops for $7,000.
-一种美丽的金属羽毛。可以在商店卖出7,000金钱。
+A beautiful metal feather. It can be sold to shops for $7,500.
+一种美丽的金属羽毛。可以在商店卖出7,500金钱。
 A small and rare mushroom. It can be sold to shops for $250.
 一种较小的蘑菇，可以在商店卖出250金钱。
 A large and rare mushroom. It can be sold to shops for $2,500.
@@ -40593,21 +40593,21 @@ A stone figure made in a civilization about 3,000 years ago. Can be sold for $15
 一种记录着3000年文明的古物，可以在商店卖出150,000金钱。
 A crown made in a civilization about 3,000 years ago. Can be sold for $300,000.
 一种记录着3000年文明的古物，可以在商店卖出300,000金钱。
-An item to be held by a Pokémon. The holder will float in the air until hit. Once hit, this item will burst.
-让精灵携带后，精灵会浮在空中。受到攻击气球就会破裂。
+Held item that makes the holder immune to Ground-type moves. Bursts once hit with any attack.
+让精灵携带后，精灵会免疫地面属性技能。受到攻击气球就会破裂。
 When held by a Pokémon who can still evolve, reduces move damage taken by 33%. Prevents evolution.
 被还能进化的精灵携带时，会减小33%受到的技能伤害。
 A held item. In battles, it sets the holder's base Attack stat to 120.
 一种携带物。在战斗中，将携带者的攻击种族设为120。
 A held item. In battles, it sets the holder's base Sp. Atk stat to 120.
 一种携带物。在战斗中，将携带者的特攻种族设为120。
-A very light stone. It reduces the weight of a Pokémon when held.
-一块轻石头，携带后可以减轻精灵的重量。
-An item to be held by a Pokémon. It raises Sp. Def by 50% but prevents the use of status moves.
+A very light stone. It halves the weight of a Pokémon when held.
+一块轻石头，携带后可以使精灵的重量减半。
+A held item. It raises Sp. Def by 50% but prevents the use of status moves.
 携带该物品的精灵的特防增加50%，但是无法使用变化类技能。
-An item to be held by a Pokémon. It raises Defense by 50% but prevents the use of status moves.
+A held item. It raises Defense by 50% but prevents the use of status moves.
 携带该物品的精灵的物防增加50%，但是无法使用变化类技能。
-An item to be held by a Pokémon. Its Attack and Sp. Atk raise by four steps if hit by a move it's weak to.
+A held item. Its Attack and Sp. Atk raise by four steps if hit by a move it's weak to.
 被效果拔群攻击时，双攻增加4级。
 When held, it boosts Speed by two steps when intimidated, fascinated, or frustrated once per battle.
 使用后会容易呼唤伙伴，但使用后会消失。携带后，在受到威吓、震慑或阻挠时速度会增加。
@@ -40619,13 +40619,13 @@ If the holder is hit by an attack, it will switch with another Pokémon in your 
 携带它的精灵如果受到技能攻击，就能逃脱战斗，并和同行的其他精灵进行替换。
 A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
 有着神奇力量的卡片。携带后，能让使用了技能的对手退场。
-An item to be held by a Pokémon. This discarded carapace lets the holder switch out of battle without fail.
+A held item. This discarded carapace lets the holder switch out of battle without fail.
 结实坚硬的空壳。携带它的精灵必定可以和后备的精灵进行替换。
-An item to be held by a Pokémon. It is an egg filled with happiness that earns extra Exp. Points in battle.
+A held item. It is an egg filled with happiness that earns extra Exp. Points in battle.
 携带的精灵能得到稍微更多的经验值。
 A held item. If the wielder enters a battle, money and coins generated in that battle are increased by 50%.
 一种携带物。携带者进入战斗时，该战斗获得金钱增加50%。
-An item to be held by a Pokémon. The comforting chime of this bell makes it gain happiness twice as fast.
+A held item. The comforting chime of this bell makes it gain happiness twice as fast.
 携带后，精灵显得很安稳，变得容易和训练师亲密。
 A held item. It prevents wild Pokémon encounters if the holder is the first one in the party.
 一种携带物。如果携带者是队伍中的第一位，可以防止遭遇野生精灵。
@@ -40637,29 +40637,29 @@ Held item which boosts Speed by 40% but allows the use of only one move.
 携带后，速度增加40%，但只能使用相同的技能。
 Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
 携带后，伤害增加25%，但速度会减小15%。
-A Pokémon held item. When the holder summons sunshine, it lasts twice as long.
+A held item. When the holder summons sunshine, it lasts twice as long.
 携带它的精灵使用大晴天的话，晴天的持续时间会翻倍。
-A Pokémon held item. When the holder summons rainstorm, it lasts twice as long.
+A held item. When the holder summons rainstorm, it lasts twice as long.
 携带它的精灵使用倾盆大雨的话，雨天的持续时间会翻倍。
-A Pokémon held item. When the holder summons a sandstorm, it lasts twice as long.
+A held item. When the holder summons a sandstorm, it lasts twice as long.
 携带它的精灵使用沙暴的话，沙暴的持续时间会翻倍。
-A Pokémon held item. When the holder summons hail, it lasts twice as long.
+A held item. When the holder summons hail, it lasts twice as long.
 携带它的精灵使用冰雹的话，冰雹的持续时间会翻倍。
-A Pokémon held item. When the holder summons eclipse, it lasts twice as long.
+A held item. When the holder summons eclipse, it lasts twice as long.
 携带它的精灵使用日食的话，日食的持续时间会翻倍。
-A Pokémon held item. When the holder summons moonglow, it lasts twice as long.
+A held item. When the holder summons moonglow, it lasts twice as long.
 携带它的精灵使用月辉的话，月辉的持续时间会翻倍。
-An item to be held by a Pokémon. Protective screens will be effective for 3 more turns.
+A held item. Protective screens will be effective for 3 more turns.
 一种携带物。携带者开启的屏障类效果的持续时间增加3回合。
-An item to be held by a Pokémon. It doubles the duration of Rooms created by the holder.
+A held item. It doubles the duration of Rooms created by the holder.
 一种携带物。携带者开启的空间效果持续时间翻倍。
 A Pokémon held item that doubles the duration of binding moves and abilities.
 一种携带物。使束缚类效果的束缚持续时间翻倍。
 A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
 一种携带物。它使多段伤害类技能可以稳定命中4到5次。
-An item to be held by a Pokémon. The user gets both of its legal abilities, but its stats are cut by 10%.
+A held item. The user gets both of its legal abilities, but its stats are cut by 10%.
 一种携带物。使用者可以同时拥有2个合法特性，但能力值减小10%。
-An item to be held by a Pokémon. Signature attacks made by the holder are boosted by 40%.
+A held item. Signature attacks made by the holder are boosted by 40%.
 一种携带物。携带者使用的专属技能的威力增加40%。
 A held item. The holder recovers 30% more HP from draining moves, Aqua Ring, and leech.
 一种携带物。携带者通过吸取类技能、水流环和寄生回复的HP增加30%。
@@ -40667,33 +40667,33 @@ A held item that gradually restores the HP of Poison-type Pokémon. It inflicts 
 携带后，毒属性的精灵会缓缓回复HP。其他属性的话，HP则会减小。
 A held item. The holder's HP is restored by 1/16th at the end of each turn.
 一种携带物。携带后，每回合结束时回复1/16HP。
-An item to be held by a Pokémon. The holder restores 1/5th HP of the damage it deals with moves.
+A held item. The holder restores 1/5th HP of the damage it deals with moves.
 一种携带物。会使携带者通过技能造成伤害时回复伤害的1/5的HP。
 A held item. At half health, the holder breaks the balloon and gains an Aqua Ring, healing 10% HP per turn.
 一种携带物。携带后，HP在一半以下时，被击后获得水流环，使每回合回复10%HP。
-An item to be held by a Pokémon. It snaps the holder out of a variety of mental warping effects.
+A held item. It snaps the holder out of a variety of mental warping effects.
 携带它的精灵会回复心控状态一次。
-An item to be held by a Pokémon. It restores any lowered stat in battle.
+A held item. It restores any lowered stat in battle.
 给精灵携带后，能回复一次减小的能力等级。
-An item to be held by a Pokémon. Lowered stats on the holder are also applied to foes.
+A held item. Lowered stats on the holder are also applied to foes.
 给精灵携带后，能力等级减小也会影响到对手一次。
-An item to be held by a Pokémon. Doubles the Speed of the holder's move once per battle.
+A held item. Doubles the Speed of the holder's move once per battle.
 给精灵携带后，每场战斗中第一次出招时速度翻倍。
 A held item. Boosts the power of a special move by 15% and makes it physical, once per battle.
 一种携带物。将特殊类技能的威力增加15%，并使其变为物理类技能，每场战斗一次。
 A held item. Boosts the power of a physical move by 15% and makes it special, once per battle.
 一种携带物。将物理类技能的威力增加15%，并使其变为特殊类技能，每场战斗一次。
-An item to be held by a Pokémon. It allows the immediate use of a move that charges up first.
+A held item. It allows the immediate use of a move that charges up first.
 一种携带物。携带它的精灵可以在第1回合使用需要蓄力的技能一次。
-An item to be held by a Pokémon. It allows user to skip the recharging turn of an exhausting move.
+A held item. It allows user to skip the recharging turn of an exhausting move.
 一种携带物。携带它的精灵可以跳过一次使用技能后的僵直回合。
 A held item. When a foe raises their stats, the herb is consumed to copy the increase.
 一种携带物。携带后当对手增加能力等级时，复制对手的能力等级。
 A held item. When a foe raises their stats, the herb is consumed to reset their stats.
 一种携带物。当对手增加能力等级时，重置对手的能力等级。
-An item to be held by a Pokémon. Ensures a random additional effect activates once per battle.
+A held item. Ensures a random additional effect activates once per battle.
 一种携带物。确保随机附加效果发动一次。
-An item to be held by a Pokémon. Ensures a less than full accuracy move lands once per battle.
+A held item. Ensures a less than full accuracy move lands once per battle.
 携带后，确保一次命中不满的技能必定命中。
 A held item. It boosts the power of moves by 30%, but at the cost of 10% HP on each hit.
 一种携带物。携带后，虽然每次攻击时HP减小10%，但技能的威力会增加30%。
@@ -40701,29 +40701,29 @@ A well-worn belt that boosts the holder's supereffective moves by 20%.
 一条黑色带子。携带后，效果拔群的技能威力增加20%。
 A held item. Boosts a move used consecutively by 20% more each time. This resets if another move is used.
 一种携带物。携带后，连续使用同一个技能时，威力增加20%。
-An item to be held by a Pokémon. It is a headband that boosts the power of physical moves by 15%.
+A held item. It is a headband that boosts the power of physical moves by 15%.
 一种携带物。这是一条头带，可使物理类技能的威力增加15%。
-An item to be held by a Pokémon. It is a thick pair of glasses that boosts the power of special moves by 15%.
+A held item. It is a thick pair of glasses that boosts the power of special moves by 15%.
 一种携带物。这是一副厚眼镜，可使特殊类技能的威力增加15%。
-An item to be held by a Pokémon. They are boots that boost Speed by 10%.
+A held item. They are boots that boost Speed by 10%.
 携带后，速度增加10%。
 A held item. Doubles the holder's critical-hit chance.
 一种携带物。携带后，命中要害率翻倍。
 A held item. It is a magnifying lens that boosts the Accuracy of moves by 35%.
 一种携带物。使技能的命中率增加35%。
-An item to be held by a Pokémon. It is tremendously heavy and makes the holder move slower than usual.
+A held item. It is tremendously heavy and makes the holder move slower than usual.
 非常沉重的某种尾巴。携带后，行动会比平时更加迟缓。
-An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
+A held item. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
 携带后，在HP全满时，即便受到可能会导致濒死的技能，也能仅以1HP撑过去一次。
-An item to be held by a Pokémon. A bizarre orb that inflicts burn on the holder at the end of a turn.
+A held item. A bizarre orb that inflicts burn on the holder at the end of a turn.
 触碰后会放出热量的神奇宝珠。携带后，在战斗时会陷入烧伤状态。
-An item to be held by a Pokémon. A bizarre orb that inflicts frostbite on the holder at the end of a turn.
+A held item. A bizarre orb that inflicts frostbite on the holder at the end of a turn.
 触碰后会放出寒气的神奇宝珠。携带后，在战斗时会陷入冻伤状态。
-An item to be held by a Pokémon. A bizarre orb that inflicts poison on the holder at the end of a turn.
+A held item. A bizarre orb that inflicts poison on the holder at the end of a turn.
 触碰后会放出剧毒的神奇宝珠。携带后，在战斗时会陷入中毒状态。
 A held item that damages the holder on every turn. It may latch on to Pokémon that attacks the holder.
 携带后，每回合都会受到伤害。有时也会附着到碰到自身的对手身上。
-An item to be held by a Pokémon. When the holder's stats are lowered, it will be switched out of battle.
+A held item. When the holder's stats are lowered, it will be switched out of battle.
 当携带它的精灵的能力等级被减小时，同行的精灵就会自动替换出场。
 These boots prevent the effects of hazards set on the battlefield.
 这双靴子可以防止场上设置的陷阱带来的影响。
@@ -40751,7 +40751,7 @@ A set of memory discs, one for each type. If held by a Silvally, you can change 
 一套记忆光盘，每种类型各一个。如果由银伴战兽携带，可以在非战斗期间更换其属性。
 A tablet that boosts same-type moves by 20%. If held by Arceus, you can change its type between battles.
 本属性技能威力增加20%。阿尔宙斯携带时可在对战间切换属性。
-An item to be held by a Pokémon. It counts as a member of every tribe.
+A held item. It counts as a member of every tribe.
 携带后可以看作任何一个部族。自由部族模式时不会生效。
 A held item. The holder doesn't trigger items, abilities, or effects of targets it hits.
 一种携带物。携带它的精灵不会使目标的物品、特性或者效果发动。
@@ -40775,7 +40775,7 @@ A cassette to be held by Genesect. It changes Techno Blast to a Fire-type move.
 这是让盖诺赛克特携带的卡带。携带后，高科技光炮这技能就会变为火属性。
 A cassette to be held by Genesect. It changes Techno Blast to an Ice-type move.
 这是让盖诺赛克特携带的卡带。携带后，高科技光炮这技能就会变为冰属性。
-An item to be held by a Pokémon. The Pokémon holding this peculiar stone is prevented from evolving.
+A held item. The Pokémon holding this peculiar stone is prevented from evolving.
 能让携带的精灵不会进化的神奇石头。
 A Pokémon held item that cuts Speed. It makes Flying-type and levitating holders susceptible to Ground moves.
 携带后，速度会减小。飞行属性以及飘浮的精灵会被地面技能命中。
@@ -40965,42 +40965,42 @@ If held by a Pokémon, it heals its HP by 25% at half health.
 让精灵携带后，当HP小于一半时，可以回复25%HP。
 It may be held by a Pokémon to heal the user by 33% in a pinch (below 25% HP).
 让精灵携带后，当HP小于25%时，可以回复33%HP。
-Weakens a supereffective Fire-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的火属性技能攻击时，能令其威力减小。
-Weakens a supereffective Water-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的水属性技能攻击时，能令其威力减小。
-Weakens a supereffective Electric-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的电属性技能攻击时，能令其威力减小。
-Weakens a supereffective Grass-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的草属性技能攻击时，能令其威力减小。
-Weakens a supereffective Ice-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的冰属性技能攻击时，能令其威力减小。
-Weakens a supereffective Fighting-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的格斗属性技能攻击时，能令其威力减小。
-Weakens a supereffective Poison-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的毒属性技能攻击时，能令其威力减小。
-Weakens a supereffective Ground-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的地面属性技能攻击时，能令其威力减小。
-Weakens a supereffective Flying-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的飞行属性技能攻击时，能令其威力减小。
-Weakens a supereffective Psychic-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的超能属性技能攻击时，能令其威力减小。
-Weakens a supereffective Bug-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的虫属性技能攻击时，能令其威力减小。
-Weakens a supereffective Rock-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的岩石属性技能攻击时，能令其威力减小。
-Weakens a supereffective Ghost-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的幽灵属性技能攻击时，能令其威力减小。
-Weakens a supereffective Dragon-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的龙属性技能攻击时，能令其威力减小。
-Weakens a supereffective Dark-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的恶属性技能攻击时，能令其威力减小。
-Weakens a supereffective Steel-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的钢属性技能攻击时，能令其威力减小。
-Weakens a supereffective Fairy-type attack against the holding Pokémon.
-让精灵携带后，在受到效果拔群的妖精属性技能攻击时，能令其威力减小。
-Weakens a Normal-type attack against the holding Pokémon.
-让精灵携带后，在受到一般属性技能攻击时，能令其威力减小。
+Weakens a supereffective Fire-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的火属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Water-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的水属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Electric-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的电属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Grass-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的草属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Ice-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的冰属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Fighting-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的格斗属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Poison-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的毒属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Ground-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的地面属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Flying-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的飞行属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Psychic-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的超能属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Bug-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的虫属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Rock-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的岩石属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Ghost-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的幽灵属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Dragon-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的龙属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Dark-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的恶属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Steel-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的钢属性技能攻击时，能令其威力减小50%。
+Weakens a supereffective Fairy-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到效果拔群的妖精属性技能攻击时，能令其威力减小50%。
+Weakens a Normal-type attack against the holding Pokémon by 50%.
+让精灵携带后，在受到一般属性技能攻击时，能令其威力减小50%。
 If held by a Pokémon, it raises its Attack by two steps in a pinch.
 让精灵携带后，危急时，自身的物攻增加2级。
 If held by a Pokémon, it raises its Defense by two steps in a pinch.
@@ -41273,9 +41273,9 @@ Held item which doubles Sp. Atk, but allows the use of only one move.
 携带后特攻翻倍，但只能使用一种技能。
 Held item which doubles Speed, but allows the use of only one move.
 携带后速度翻倍，但只能使用一种技能。
-An item to be held by a Pokémon. The holder will endure one potential KO attack, leaving 1 HP.
+A held item. The holder will endure one potential KO attack, leaving 1 HP.
 携带后，被攻击时，如果要被打倒，则会留下1HP。
-An item to be held by a Pokémon. The holder's defenses are raised 50% but it can't use status moves.
+A held item. The holder's defenses are raised 50% but it can't use status moves.
 携带后，物防增加50%，但只能使用一种技能。
 The holder's Defense is raised 50%, and it harms those who use special attacks against it for 1/6th HP.
 携带后，物防增加50%，对其使用特殊类攻击的精灵会受到1/6HP的伤害。
@@ -41339,7 +41339,7 @@ A held item. Restores any lowered stats, then heals the holder by 50% HP.
 一种携带物。携带后，回复被减小的能力等级，并回复一半HP。
 While held, terrains set by the holder do not expire.
 携带后，制造的场地不会失效。
-An item to be held by a Pokémon. The holder floats in the air, making Ground attacks miss.
+A held item. The holder floats in the air, making Ground attacks miss.
 携带后，可以免疫地面属性攻击。
 The holder's HP is restored a little every time it inflicts damage. Boosts Ghost-type moves by 20%.
 携带后，幽灵属性技能威力增加20%，攻击后将回复少量HP。
@@ -41365,7 +41365,7 @@ An ancient scroll that makes the user that boosts the holder's supereffective mo
 携带者的效果拔群的技能威力增加20%。
 The holder's HP is restored by 1/8th each turn, and takes a third less damage at full HP. The holder won't drop it.
 携带者每回合回复1/8HP，满血时减小受到的伤害，且此物品不会被移除。
-An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective for 6 turns longer.
+A held item. Protective moves like Light Screen and Reflect will be effective for 6 turns longer.
 携带后，使屏障类效果的持续时间变为6回合。
 User heals 1/16th HP every turn. Will sacrifice itself to cure the user of status.
 携带后每回合回复1/16HP，可抵消一次异常状态。
@@ -43462,7 +43462,7 @@ Immune to Ice-type moves and raises Attack and Sp. Atk if hit by one.
 When hit with an attack, gains that attack's type.
 被攻击时，自身获得该攻击的属性。
 When hit with a physical move, traps and binds the attacker for three turns. Fails on turns the user switched in.
-被物理类技能命中时，束缚攻击者3回合。
+被物理类技能命中时，束缚攻击者3回合。出场的回合无效。
 Using or being hit by a physical move leaves a rock on the field. Status moves collect them, healing by 1/4th each.
 使用或被物理类技能攻击时，将留下一块岩石。使用变化类技能时，拾起岩石，每块回复25%HP。
 Changes to the form of your choosing after switching out.
@@ -43514,7 +43514,7 @@ Prevents Water- or Grass-type moves during sandstorm.
 Enemies which swap in take damage equal to 1/8th their HP.
 换人入场的对手将会受到其1/8最大HP的伤害。
 Light moves hit a second time for 33% damage if this Pokémon is protected by a screen.
-若该精灵受到屏障类效果的保护，它的光属性技能会以33%的伤害额外攻击一次。
+若该精灵受到屏障类效果的保护，它的光类技能会以33%的伤害额外攻击一次。
 At the end of each turn, its Sp. Atk is lowered. Then, you choose to raise its Speed or heal it for 1/5th HP.
 每回合结束时特攻减小，但会增加其速度或治疗20%HP。
 This Pokémon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
@@ -43857,8 +43857,8 @@ Uses Wish after knocking out any Pokémon.
 打倒对手时，使用祈愿。
 This Pokémon's moves deal 20% more damage and ignore abilities that would affect them.
 技能伤害增加20%，并无视会影响到该精灵的特性。
-When this Pokémon consumes an item, it is passed to its ally. When its ally consumes an item, it is passed to this Pokémon.
-当该精灵消耗物品时，物品会传递给它的同伴。当它的同伴消耗物品时，物品会传递给该精灵。
+The first time each turn this Pokémon consumes an item, it is passed to its ally, and vice versa.
+消耗物品时，物品会传递给队友。当队友消耗物品时，物品会传递给该精灵。一回合仅会发动一次。
 If an attack lowers this Pokémon's HP below half, the attacker becomes jinxed.
 被攻击使HP减小到一半以下时，攻击者将陷入不幸。
 After attacks, lower Attack and Sp. Atk by two steps, and raise Defense and Sp. Def by two steps. After status moves, do the opposite.
@@ -44136,7 +44136,7 @@ Ignores screens, Substitute, and Abilities that would affect its moves.
 On the first turn, its attacks poison the target.
 出场第1回合的攻击会使目标陷入中毒。
 Heals 1/8th HP every turn if hit by an attack.
-被攻击时，，每回合恢复HP的八分之一。
+被攻击时，每回合恢复HP的八分之一。
 Lays an electrical hazard around the opponent when this Pokémon's HP is lowered below half.
 当HP减小到一半以下时，在对手场上设置电气陷阱。
 Boosts the power of slice moves by 30%. They're twice as likely to crit.
@@ -44338,7 +44338,7 @@ Can hold a second item by stealing it.
 If an attack lowers its HP below half, leeches the attacker.
 被攻击使HP减小到一半以下时，攻击者将陷入寄生。
 Prevents half the self-damage from recoil. Powers up moves that have recoil damage by 20%.
-增加具有反伤效果的技能的威力20%，并且技能的反伤伤害减半。
+反伤类技能的威力增加20%，并且反伤减半。
 During sandstorm, immune to non-volatile status conditions and stat reductions.
 沙暴时，不会陷入异常状态，能力等级也不会被减小。
 Summons rainstorm for four turns when hit by an attack.
@@ -44464,13 +44464,13 @@ Takes half damage from Dark- and Bug-type moves.
 Before using a status move against a single foe, lowers their Defense by two steps.
 对单个对手使用变化类技能前，使其物防减小2级。
 Prevents half the self-damage from recoil and self-destructing.
-反伤类技能和自爆类技能的反伤效果减半。
+反伤类技能和自爆类技能的反伤减半。
 If an attacker would activate a random added effect on this Pokémon, that effect is placed on the attacker instead.
 当被攻击并且该次攻击将发动技能的随机附加效果时，该次效果由攻击者承受。
 Moves that use stats other than the default deal 50% more damage.
 使用非技能本身默认的进攻端能力时，技能威力增加50%。
 If this Pokémon would faint while rampaging, it faints when the rampage ends instead. Its rampages last an additional turn.
-处于狂暴状态时不会濒死。狂暴状态的持续时间增加1回合。
+处于暴走状态时不会濒死。暴走状态的持续时间增加1回合。
 Takes 20% less damage from neutrally effective attacks.
 受到效果一般的攻击时，受到的伤害减小20%。
 This Pokémon is Mutant-type.
@@ -58451,7 +58451,7 @@ The bright sunlight doesn't seem to bother {1} at all.
 耀眼的阳光对{1}毫无影响。
 {1} sent a ring-shaped cloud of spores into the air!
 {1}将一团团孢子送入风中！
-{1} is stretched out its body and is relaxing in the sunshine.
+{1} is stretching out its body and is relaxing in the sunshine.
 {1}正伸展着身体，在阳光下悠闲地晒着太阳。
 {1} is giving off a floral scent.
 {1}正散发着花香。
@@ -62391,7 +62391,7 @@ A capsule that allows a Pokémon to switch to another Ability. Used in Mono Abil
 能将精灵的现有特性变为另一种特性的胶囊，仅在单特性模式或构造模式下可用。
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 让精灵携带后，当HP小于25%时，可回复一半HP。
-An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.
+A held item. The user gets an extra ability, but its stats are cut by 10%.
 一种携带物。携带者额外获得一个随机特性，但其能力会减小10%。
 Rare contraband. Any average solo trainer will refused to battle due to the stench of its explosion.
 一种稀有违禁品。使用后普通的单人训练师会因它爆炸所产生的臭味不想战斗而主动认输。
@@ -66235,7 +66235,7 @@ Stunning Curl
 Venom Guard
 毒液守卫
 Root Shelter
-根庇护所
+根茎庇护
 Floodgate
 洪水闸门
 Red-Hot Retreat

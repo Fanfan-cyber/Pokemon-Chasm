@@ -911,7 +911,7 @@ class PokeBattle_Battle
         end
 
         restoreInitialItems
-        restorePartyMembers
+        #restorePartyMembers
 
         # Remove avatars from the trainer's party
         pbParty(0).reject! { |pkmn|
@@ -941,14 +941,14 @@ class PokeBattle_Battle
         has_party_restorer = party.any? do |pkmn|
             next false unless pkmn
             next false if pkmn.fainted?
-            party_restorer_ability?(pkmn.ability)
+            pkmn.abilities.any? { |ability| party_restorer_ability?(ability)}
         end
         return unless has_party_restorer
         revived_any = false
         party.each do |pkmn|
             next unless pkmn
             next unless pkmn.fainted?
-            next if party_restorer_ability?(pkmn.ability)
+            next if pkmn.abilities.any? { |ability| party_restorer_ability?(ability)}
             pkmn.heal
             pkmn.hp = 1
             revived_any = true
