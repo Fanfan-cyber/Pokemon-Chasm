@@ -1335,6 +1335,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:IMPOSTER,
       next 0 if choice.substituted?
       next 0 if choice.effectActive?(:SkyDrop)
       next 0 if choice.semiInvulnerable?
+      next 0 if GameData::Ability.getByFlag("UnableByDefault").include?(choice.pokemon.ability_id)
       next 40 if aiCheck
       battle.pbShowAbilitySplash(battler, ability, true)
       battle.pbHideAbilitySplash(battler)
