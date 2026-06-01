@@ -3090,7 +3090,7 @@ Target = None
 Priority = -5
 FunctionCode = CounterDamagePlusHalf
 Flags = CanProtect,Uninvocable
-Description = The user retaliates with much greater power against the target that last inflicted damage on it.
+Description = A retaliation move that counters any attack, inflicting 150% of the damage taken.
 #-------------------------------
 [METALCLAW]
 Name = Metal Claw
