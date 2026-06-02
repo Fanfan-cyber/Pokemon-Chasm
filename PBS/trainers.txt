@@ -3434,6 +3434,52 @@ Pokemon = BRONZONG,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,20,0,20,0
 #-------------------------------
+[ODDISH,Oddium]
+TrainerTypeLabel = DEVELOPER
+Flags = NoPerfect
+Pokemon = FLAPPLE,70
+    Name = Combo
+    Moves = CLASSICALPHYSICS,DRAGONHAMMER,GUNKSHOT,HELIOPAUSE
+    AbilityIndex = 0 # Hustle
+    Item = TECHNIQUEBOOSTER
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
+Pokemon = TITANIX,70
+    Name = Wombo
+    Moves = FRAGMENTATION,PULVERIZERCHORD,PROFANE,PROTECT
+    AbilityIndex = 1 # Gravitas
+    Item = ROCKYHELMET
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,20,0,20,0
+Pokemon = SHIFTRY,70
+    Name = Tree
+    Moves = TEMPEST,LEAFSTORM,HEATWAVE,MASSDESTRUCTION
+    AbilityIndex = 0 # Delta Stream
+    Item = CHOICESPECS
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
+Pokemon = CURSOLA,70
+    Name = Well
+    Moves = ROCKAPULT,SPITEFULCHANT,STRENGTHSAP,PROTECT
+    AbilityIndex = 0 # Gravity Well
+    Item = HIVISJACKET
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
+Pokemon = MSWAMPERT,70
+    Name = Noodle
+    Moves = ECHOLOCATE,PULVERIZERCHORD,DRAGONENERGY,VOLTSWITCH
+    AbilityIndex = 1 # Regenerator
+    Item = SHELLBELL
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,10,0,0,10,20
+Pokemon = MSCEPTILE,70
+    Name = Skeptile
+    Moves = FEATHERLOCKVOLLEY,RAILCANNON,KNOCKOFF,OMNISCIENTBLOW
+    AbilityIndex = 1 # Hit and Run
+    Item = CHOICEBAND
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,0,20,20
+#-------------------------------
 [LEADER_Bence,Bence]
 Policies = BENCE
 Flags = NoPerfect
