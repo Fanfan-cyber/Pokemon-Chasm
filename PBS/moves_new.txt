@@ -7882,9 +7882,9 @@ Power = 40
 Accuracy = 100
 TotalPP = 25
 Target = NearOther
-FunctionCode = StealsBerryGem
+FunctionCode = StealsItem
 Flags = CanProtect
-Description = The user attacks and steals the foe's held Berry or Gem. It can't steal if the user holds an item.
+Description = The user attacks and steals the foe's held item. It can't steal if the user holds an item.
 Animation = THIEF
 #-------------------------------
 [PLANTDOUBT]
