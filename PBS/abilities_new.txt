@@ -362,6 +362,7 @@ Description = Boosts Sp. Atk by 75%, but this Pokémon becomes frostbitten after
 [COLDFUSION]
 Name = Cold Fusion
 Description = Immune to Fire- and Electric-type moves and raises Attack and Sp. Atk by two steps if hit by one.
+Flags = ForceSignature
 #-------------------------------
 [COLDRECEPTION]
 Name = Cold Reception
@@ -1441,7 +1442,7 @@ Description = If an attack lowers its HP below half, waterlogs the attacker.
 [MOLTENADAPTED]
 Name = Molten Adapted
 Description = This Pokémon is also Fire-type. Powers up moves of the same type by 33%.
-Flags = STABBoosting
+Flags = STABBoosting,ForceSignature
 #-------------------------------
 [MONKEYMISCHIEF]
 Name = Monkey Mischief
@@ -1677,7 +1678,7 @@ Description = Sets screens for two more turns.
 [PLASMAADAPTED]
 Name = Plasma Adapted
 Description = This Pokémon is also Electric-type. Powers up moves of the same type by 33%.
-Flags = STABBoosting
+Flags = STABBoosting,ForceSignature
 #-------------------------------
 [PLASMAGLOBE]
 Name = Plasma Globe
