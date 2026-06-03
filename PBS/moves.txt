@@ -863,7 +863,7 @@ Accuracy = 0
 TotalPP = 10
 Target = User
 FunctionCode = UserMakesSubstitute25
-Flags = CanSnatch
+Flags = CanSnatch,Staple
 Description = The user spends 25% HP to create a doll to protect it from move damage, additional effects, and status moves.
 #-------------------------------
 [SUPERFANG]
