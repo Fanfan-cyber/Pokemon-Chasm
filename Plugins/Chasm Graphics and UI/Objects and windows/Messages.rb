@@ -626,7 +626,6 @@ def pbMessageDisplay(msgwindow, message, letterbyletter = true, commandProc = ni
     ########## Show text #############################
     msgwindow.text = text
     Graphics.frame_reset if Graphics.frame_rate > 40
-    showSpeaker
     iconFadeInCount = iconFadeInTime
     loop do
         if $SpeakerNameWindow
