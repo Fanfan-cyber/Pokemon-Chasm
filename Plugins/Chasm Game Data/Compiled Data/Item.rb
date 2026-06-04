@@ -266,6 +266,10 @@ module GameData
         return @flags.include?("Mulch")
       end
 
+      def is_exp_candy?
+        return @flags.include?("EXPCandy")
+      end
+
       def is_type_setting?
         return @flags.include?("TypeSetting")
       end
