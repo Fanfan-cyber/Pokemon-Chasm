@@ -248,8 +248,8 @@ existingIndex)
         cmdSetTrait   = -1
         cmdSwapAbility = -1
 
-        newspecies = @pkmn.check_evolution_on_level_up(false)
         # Build the commands
+        newspecies = @pkmn.check_evolution_on_level_up(false)
         commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
         commands[cmdDeleteMove = commands.length]   = _INTL("Delete Move") if @pkmn.numMoves > 1
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies

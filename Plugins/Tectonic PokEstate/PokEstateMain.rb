@@ -524,17 +524,17 @@ class PokEstate
     cmdOpenAR     = -1
 		cmdCancel = -1
 
+		# Build the commands
+		commands[cmdStyle = commands.length]  	= _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
+		commands[cmdSwapAbility = commands.length]  	= _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX)
+		if $PokemonGlobal.omnitutor_active && !getOmniMoves(pokemon).empty?
+			commands[cmdOmnitutor = commands.length]	= _INTL("OmniTutor")
+		end
 		commands[cmdRename = commands.length] 	= _INTL("Rename") unless donationBox
 		commands[cmdSwapPokeBall = commands.length]   = _INTL("Swap Ball")
 		commands[cmdDeleteMove = commands.length] = _INTL("Delete Move") if pokemon.numMoves > 1
 		newspecies = pokemon.check_evolution_on_level_up(false)
 		commands[cmdEvolve = commands.length]   = _INTL("Evolve") if newspecies
-		commands[cmdStyle = commands.length]  	= _INTL("Set Style") if pbHasItem?(:STYLINGKIT)
-		commands[cmdSwapAbility = commands.length]  	= _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX)
-
-		if $PokemonGlobal.omnitutor_active && !getOmniMoves(pokemon).empty?
-			commands[cmdOmnitutor = commands.length]	= _INTL("OmniTutor")
-		end
     commands[cmdOpenAR = commands.length]       = _INTL("Open AR") if TA.get(:customabil) && !$Trainer.ability_recorder.empty?
     commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai)
 		commands[cmdCancel = commands.length] = _INTL("Cancel")

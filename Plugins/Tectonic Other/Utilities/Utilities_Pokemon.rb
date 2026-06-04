@@ -86,8 +86,8 @@ def pbNicknameAndStore(pkmn, nickname = true, dexnav: false)
       return
   end
 
-  $Trainer.pokedex.set_seen(pkmn.species)
-  $Trainer.pokedex.set_owned(pkmn.species)
+  #$Trainer.pokedex.set_seen(pkmn.species)
+  #$Trainer.pokedex.set_owned(pkmn.species)
   
   discoverPokemon(pkmn)
 
@@ -119,6 +119,24 @@ def discoverPokemon(pkmn)
       itemName = getItemName(item)
       article  = itemName.starts_with_vowel? ? _INTL("an") : _INTL("a")
       pbMessage(_INTL("The {1} is holding {2} {3}!", pkmn.name, article, itemName))
+  end
+
+  registerNewPokemon(pkmn)
+end
+
+def registerNewPokemon(pkmn)
+  $Trainer.pokedex.set_seen(pkmn.species)
+  
+  # Record the Pokémon's species as owned in the Pokédex
+  unless $Trainer.owned?(pkmn.species)
+    $Trainer.pokedex.set_owned(pkmn.species)
+    if $Trainer.has_pokedex
+        $Trainer.pokedex.register_last_seen(pkmn)
+        if $Options.dex_shown_register == 0
+            pbMessage(_INTL("You register {1} as caught in the MasterDex.", pkmn.name))
+            openSingleDexScreen(pkmn.species)
+        end
+    end
   end
 end
 

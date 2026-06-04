@@ -622,7 +622,7 @@ Description = This Pokémon's Fighting-type attacks become spread and deal 35% m
 #-------------------------------
 [EVENTHORIZON]
 Name = Event Horizon
-Description = Changes the weather to Star Storm, which increases its damage over time. Lingers for three turns after leaving.
+Description = Changes weather to Star Storm. Damages and increases HP-fraction damage by 50%. Lingers for three turns after leaving.
 Flags = SandstormSynergy
 #-------------------------------
 [EXORCIST]
