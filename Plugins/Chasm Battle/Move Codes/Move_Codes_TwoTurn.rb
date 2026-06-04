@@ -284,6 +284,16 @@ class PokeBattle_Move_TwoTurnAttackInvulnerableScalesFaster < PokeBattle_Move_Tw
     def pbChargingTurnMessage(user, _targets)
         @battle.pbDisplay(_INTL("{1} flew up high!", user.pbThis))
     end
+
+    def getDetailsForMoveDex(detailsList = [])
+        detailsList << _INTL("Does more damage the faster the user is compared to the target. Range 60-200")
+        detailsList << _INTL("<u>30% slower than target:</u> 60 BP")
+        detailsList << _INTL("<u>Same Speed as target:</u> 80 BP")
+        detailsList << _INTL("<u>1.5x faster than target:</u> 105 BP")
+        detailsList << _INTL("<u>2x faster than target:</u> 130 BP")
+        detailsList << _INTL("<u>3x faster than target:</u> 180 BP")
+        detailsList << _INTL("<u>3.4x faster than target:</u> 200 BP")
+    end
 end
 
 #===============================================================================
