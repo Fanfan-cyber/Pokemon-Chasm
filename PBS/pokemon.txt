@@ -586,7 +586,6 @@ Weight = 2.0
 Kind = Tiny Mouse
 Pokedex = It is not yet skilled at storing electricity. It may send out a jolt if amused or startled.
 Generation = 2
-WildItemUncommon = AGILITYHERB
 Evolutions = PIKACHU,Level,16
 #-------------------------------
 [PIKACHU]
