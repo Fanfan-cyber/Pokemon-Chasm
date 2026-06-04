@@ -86,9 +86,6 @@ def pbNicknameAndStore(pkmn, nickname = true, dexnav: false)
       return
   end
 
-  #$Trainer.pokedex.set_seen(pkmn.species)
-  #$Trainer.pokedex.set_owned(pkmn.species)
-  
   discoverPokemon(pkmn)
 
   # Increase the caught count for the global metadata

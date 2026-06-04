@@ -37663,7 +37663,7 @@ The user drains heat from the air around the target, afflicting it with frostbit
 The user buries the target with somber force. Then, this move is disabled.
 用阴暗的力量埋葬对手。之后直到自身下场为止，这个技能会暂时不可使用。
 The user drains the target's soul. The user's HP is restored by 50% of the damage dealt. This can overheal.
-使用者吸取目标的灵魂。使用者的HP回复量等于造成伤害的50%。可以过量回复。
+使用者吸取目标的灵魂。使用者的HP回复量等于造成伤害的50%，可以过量回复。
 The user licks the target, numbing them, or cursing them if they're already numbed.
 舔舐对手使其麻痹，如果对手已经麻痹，则让它陷入诅咒。
 The user unleashes its grudge, damaging the target and cutting 4 PP from the move last used by it.
@@ -38356,8 +38356,8 @@ Damages the target's life force directly. During moonglow, the target also becom
 直接伤害对手，在月辉期间，对手还会陷入冻伤状态。
 The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
 突袭对手发起攻击。在月辉下该技能时必定命中。可能随机命中要害。
-The user attacks and steals the foe's held Berry or Gem. It can't steal if the user holds an item.
-可以窃取对手携带的树果或宝石。如果自身有携带物，则无法窃取。
+The user attacks and steals the foe's held item. It can't steal if the user holds an item.
+可以窃取对手的携带物。如果自身有携带物，则无法窃取。
 The user entangles the target's mind with dark thoughts, leeching it.
 使对手的思维被邪恶念头所缠绕，同时让其陷入寄生状态。
 The user invades deep into the target's mind, leeching it.
@@ -43050,7 +43050,7 @@ HP减小到一半时，双攻会减半。
 Raises Attack by four steps when a stat is lowered by a foe.
 能力等级被对手减小时，物攻增加4级。
 Summons Strong Winds, which remove Flying-type's weaknesses. Lingers for three turns after leaving.
-将天气变为强风，消除飞行属性的弱点，离场后持续3回合。
+将天气变为强风，消除飞行属性的弱点。离场后持续3回合。
 Summons Harsh Sunlight, which prevents most moves from critting. Lingers for three turns after leaving.
 将天气变为大晴天，减小大多数攻击的威力并阻止命中要害。离场后持续3回合。
 Its shroud protects it from an attack once.
@@ -43306,7 +43306,7 @@ Protects this Pokémon from recoil damage. This Pokémon doesn't trigger items, 
 Slips past all types of Spikes hazards. Deals 50% more damage to targets that switched in this turn.
 避开所有陷阱，对这1回合替换出场的目标造成的伤害增加50%。
 HP-fraction-based damage effects deal 35% more damage to opponents.
-基于HP比例的伤害的效果（如烧伤）对对手造成的伤害增加35%。
+对手受到的基于HP比例的伤害（如烧伤）增加35%。
 When another Pokémon faints, consumes their item, ability, and stat steps.
 当其他精灵濒死时，消除它的物品、复制它的特性，然后清除自身的能力等级。
 Can hold two different items, if both are Gems.
@@ -43577,8 +43577,8 @@ Powers up Psychic-type moves by 50%.
 超能属性技能的威力增加50%。
 This Pokémon's Fighting-type attacks become spread and deal 35% more damage.
 格斗属性攻击变为扩散，并且伤害增加35%。
-Changes the weather to Star Storm, which increases its damage over time. Lingers for three turns after leaving.
-将天气变为星辰风暴，随着时间推移，天气造成的伤害会递增，离场后持续3回合。
+Changes weather to Star Storm. Damages and increases HP-fraction damage by 50%. Lingers for three turns after leaving.
+将天气变为星辰风暴，天气会造成的伤害并且使基于HP比例的伤害增加50%。离场后持续3回合。
 Takes half damage from Psychic- and Ghost-type attacks.
 受到的超能、幽灵属性攻击的伤害减半。
 Cannot enter battle unless all party members are below half HP. Upon entry, transforms into Meteoric Form.
@@ -43756,7 +43756,7 @@ Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can ov
 Immune to Dark-type moves and boosts Attack and Sp. Atk when hit by one.
 免疫恶属性技能，被恶属性技能命中时双攻增加1级。
 Changes the weather to Ice Age, which damages and prevents healing. Lingers for three turns after leaving.
-将天气变为冰河时代，天气会造成伤害并且阻止精灵回复，离场后持续3回合。
+将天气变为冰河时代，天气会造成伤害并且阻止精灵回复。离场后持续3回合。
 Heals by 1/8th of its max HP each turn if in sunshine.
 晴天时，每回合回复最大HP的1/8。
 Doubles this Pokémon's Sp. Def in sunshine.
@@ -49916,7 +49916,7 @@ Natural Protection halves recoil damage and other passive damage like burn or sa
 Coral Overgrowth
 瑚茂
 Coral Overgrowth causes attacks against the opponent to heal the user for 33% of the damage dealt. This can also overheal.
-瑚茂使攻击对手时使用者回复造成伤害的33%。可以过量回复。
+瑚茂使攻击对手时使用者回复造成伤害的33%，可以过量回复。
 Wishing Well
 许愿井
 Wishing Well consumes up to 1000 scattered coins to block random added effects and heal the active side for 1/16th HP each turn. 100 coins per turn for a max. of 10 turns.
@@ -49968,7 +49968,7 @@ Boosts the damage of Fire- and Grass-type attacks by 50%. Prevents Pokémon not 
 Necrozma: Event Horizon
 奈克洛兹玛：事件视界
 Rock- and Ground-types gain a 50% boost to Special Defense. Deals sandstorm damage at end of turn. Pokémon not immune to Sandstorm take 50% more HP-fraction-based damage.
-岩石属性和地面属性精灵的特防增加50%。回合结束时造成沙暴伤害。不免疫沙暴的精灵受到的基于HP百分比的伤害增加50%。
+岩石属性和地面属性精灵的特防增加50%。回合结束时造成沙暴伤害。不免疫沙暴的精灵受到的基于HP比例的伤害增加50%。
 Kyurem: Heat Death
 酋雷姆：热寂
 Ice- and Ghost-types gain a 50% boost to Defense. Deals hail damage at end of turn. Pokémon struck by the hail become unable to heal.
@@ -64208,7 +64208,7 @@ Your team members take 15% less move damage if they're using a status move this 
 Your team has 30% increased Sp. Def. Foes can't lower your team's Sp. Def.
 全员获得特防增加30%，且特防不会减小。
 14
-Your team members berries heal them for 50% more (multiplicative) and their gem-boosted attacks deal 25% more damage (multiplicative).
+Your team members' berries heal them for 50% more (multiplicative) and their gem-boosted attacks deal 25% more damage (multiplicative).
 全员携带的树果的效果增加50%，宝石造成的伤害增加25%。
 15
 Your able party members and battlers heal for 1/10th HP whenever a foe faints.
