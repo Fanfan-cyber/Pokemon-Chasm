@@ -2271,14 +2271,14 @@ Description = A shiny blue orb that is said to have a legend tied to it. It's kn
 [LIGHTSTONE]
 Name = Light Stone
 NamePlural = Light Stones
-Pocket = 6
+Pocket = 16
 Price = 0
 Description = Reshiram's body, in stone form. An expert in ancient relics may be able to transform it.
 #-------------------------------
 [DARKSTONE]
 Name = Dark Stone
 NamePlural = Dark Stones
-Pocket = 6
+Pocket = 16
 Price = 0
 Description = Zekrom's body, in stone form. An expert in ancient relics may be able to transform it.
 #-------------------------------
