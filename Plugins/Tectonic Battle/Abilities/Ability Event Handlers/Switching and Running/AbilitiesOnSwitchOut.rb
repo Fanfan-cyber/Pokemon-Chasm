@@ -103,7 +103,7 @@ BattleHandlers::AbilityOnSwitchOut.add(:CLUMSYKINESIS,
               battler.loseableItems.each do |itemID|
                   itemNames.push(getItemName(itemID))
               end
-              chosenIndex = battle.scene.pbShowCommands(_INTL("Which item should {1} drop?", battler.pbThis(true)),itemNames,0)
+              chosenIndex = battle.scene.pbChooseWithThinkingLoop(_INTL("Which item should {1} drop?", battler.pbThis(true)),itemNames)
               chosenItem = battler.loseableItems[chosenIndex]
           end
       end
@@ -127,7 +127,7 @@ BattleHandlers::AbilityOnSwitchOut.add(:COSTUMECHANGE,
       elsif !battler.pbOwnedByPlayer? # Trainer AI
         choice = 0
       else
-        choice = battle.scene.pbShowCommands(_INTL("Which form should it take?"),choices,0)
+        choice = battle.scene.pbChooseWithThinkingLoop(_INTL("Which form should it take?"),choices)
       end
       battler.pbChangeForm(choice, _INTL("{1} takes on a new style!", battler.pbThis))
   }

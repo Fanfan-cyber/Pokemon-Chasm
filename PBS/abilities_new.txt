@@ -102,7 +102,7 @@ Description = Deals double damage against Pokémon that have raised defenses or 
 #-------------------------------
 [AROMATIC]
 Name = Aromatic
-Description = Uses Aromatherapy if an attack lowers its HP to half or below.
+Description = Uses Aromatherapy if an attack lowers its HP below half.
 #-------------------------------
 [ASSAULTSPINES]
 Name = Assault Spines
