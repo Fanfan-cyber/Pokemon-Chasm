@@ -30,4 +30,5 @@ server.log
 release_version_mod.txt
 field_effect_manual.txt
 PBS/pokemon_server.txt
-/Saves
+Saves/
+OnlinePresets/
