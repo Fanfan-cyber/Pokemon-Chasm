@@ -442,14 +442,14 @@ showMessages)
         return true
     end
 
-    def pbAdditionalEffectChance(user, target, type, effectChance = 0, aiCheck = false, aiContext = nil)
+    def pbAdditionalEffectChance(user, target, type, effect_chance = 0, aiCheck = false, aiContext = nil)
         return 100 if @battle.pbCheckGlobalAbility(:WISHMAKER)
         # Abilities ensure effect chance
         user.eachAbilityShouldApply(aiCheck) do |ability|
             return 100 if BattleHandlers.triggerCertainAddedEffectUserAbility(ability, @battle, user, target, self)
         end
         return 100 if !user.pbOwnedByPlayer? && @battle.curseActive?(:CURSE_PERFECT_LUCK)
-        ret = effectChance > 0 ? effectChance : @effectChance
+        ret = effect_chance > 0 ? effect_chance : effectChance # effectChance is the method for getting the additional effect chance of a move
         return 100 if ret >= 100 || debugControl
         ret += 30 if user.hasTribeBonus?(:FORTUNE)
 

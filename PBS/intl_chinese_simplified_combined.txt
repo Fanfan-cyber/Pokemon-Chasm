@@ -13087,7 +13087,7 @@ Figured it out on the way here when I did a quick li’l background check on my 
 Guess this breaks some kinda confidentiality rule, but I ain’t never been an honorable sort: it’s Zain.
 我猜这违反了某种保密规定，但我从来就不是什么正人君子：是赞恩。
 Your big brother’s hired me, lookin’ to get his reserves in shape.
-你大哥雇了我，想让他后备的精灵练练身手。
+你大哥雇了我，想让他后排的精灵练练身手。
 Keepin’ it cool. Gotta make sure it ain’t just bravado, though. Ya know how it is.
 保持冷静。不过得确认那不只是虚张声势。你懂的。
 Lotsa folks talk a big talk. It’s been a while since we last had a chat, so maybe ya lost your touch.
@@ -36564,7 +36564,7 @@ While resisting, the user attacks all nearby foes. The targets' Sp. Atk is lower
 The user stares at flashing lights to focus its mind, raising its Sp. Atk stat by five steps.
 凝视闪烁的光芒，集中自身的精神，从而使特攻增加5级。
 After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
-在攻击之后急速返回，和后备精灵进行替换。
+在攻击之后急速返回，和后排精灵进行替换。
 The user slashes at the foe by crossing its scythes or claws. Can random critical hit.
 将镰刀或爪子像剪刀般地交叉，顺势劈开对手。可能随机命中要害。
 The user attacks the target while shouting in a startling fashion. It has a 40% chance to flinch.
@@ -36895,8 +36895,8 @@ Using a hyperspace hole, the user appears next to the target and strikes. Can't 
 使用者通过虫洞瞬间出现在目标身边发起攻击。攻击必定会命中，且无视替身并破坏保护类效果。
 The user instructs the target to use the target's last move again.
 向对手下达指示，让其再次使用刚才的技能。
-A wondrous wall of light is put up to suppress damage from special attacks for five turns.
-在5回合内使用神奇的墙，减小从对手那受到的特殊类攻击的伤害。
+A wondrous screen is put up to halve special attacks for five turns, or reduce it by 33% in multi battles.
+在5回合内使用神奇的屏障，使从对手那受到的特殊类攻击的伤害减半，多打则只减小33%。
 The user faints. In return, the Pokémon taking its place will have its non-volatile status conditions and HP fully restored.
 使用者陷入濒死，替换出场的精灵会完全回复HP和异常状态。
 Until end of turn, reflects status moves that target the user or create hazards around it.
@@ -36917,8 +36917,8 @@ The user hypnotizes itself into copying any stat change made by the target.
 向自身施以自我暗示，将能力等级变得和对手一样。
 Cloaking itself in psychic energy, the user slams into the target, raising the user's Defense by two steps.
 将自身隐藏在精神能量中，猛烈撞击目标，同时使自身的物防增加2级。
-A wondrous wall of light is put up to suppress damage from physical attacks for five turns.
-在5回合内使用神奇的墙，减小从对手那受到的物理类攻击的伤害。
+A wondrous screen is put up to halve physical attacks for five turns, or reduce it by 33% in multi battles.
+在5回合内使用神奇的屏障，使从对手那受到的物理类攻击的伤害减半，多打则只减小33%。
 The user goes to sleep to fully restore their HP and heal any non-volatile status conditions.
 通过睡眠完全回复HP和异常状态。
 The user mimics the target completely, copying the target's natural Ability.
@@ -36929,8 +36929,8 @@ The user focuses its willpower to its head and attacks the foe. It has a 40% cha
 将思念的力量集中在前额进行攻击。有40%概率使对手畏缩。
 The target is hit with a rainbow-colored beam. It has a 30% chance to lower Attack.
 向对手发射虹色光线进行攻击。有30%概率使对手的物攻减小1级。
-The user puts up a rainbow-colored veil to reduce move damage for five turns. This can only be used in hail.
-使用者展开彩虹色的屏障，5回合内减小技能伤害。仅能在冰雹时使用。
+The user puts up a rainbow-colored screen to halve move damage for five turns, or reduce it by 33% in multi battles. Only usable in hail.
+使用者展开持续5回合的彩虹色屏障，使受到的技能伤害减半，多打则只减小33%。仅能在冰雹时使用。
 A blizzard strikes all near foes. Can't miss in hail. It has a 30% chance to frostbite.
 用暴风雪袭击附近所有敌人。冰雹时，攻击必定会命中。有30%概率造成冻伤。
 The user blows a cold breath on the target. This attack always results in a critical hit.
@@ -37150,7 +37150,7 @@ Channeling fear, the user bites the target. Deals double damage if the user is b
 The user channels ancient energy to grant a nearby ally an extra turn this round.
 引导远古能量，使附近队友在该回合额外行动一次。
 Deals more damage the less HP the user has. After attacking, the user switches out.
-HP越小伤害越大。在攻击之后急速返回，和后备精灵进行替换。
+HP越小伤害越大。在攻击之后急速返回，和后排精灵进行替换。
 The user's eyes glow with divine judgement, numbing the target and reducing both its Attack and Sp. Atk.
 使用者的眼睛散发着神圣的审判之光，使目标麻痹并减小其双攻1级。
 The user focuses its aim to raise its Sp. Atk and Accuracy by three steps.
@@ -37191,8 +37191,8 @@ The user attacks the target with stored power. Has 10 more base power for each r
 使用储存的力量攻击目标，每有1级能力值增加，基础威力增加10点。
 The user brings down a ruinous power on the target. This has a 20% chance of lowering all the target's stats.
 向对手施加毁灭能量，伤害对手，有20%概率使对手全能力减小1级。
-A blessed wall of light protects the user's side from critical hits for five turns, and slightly reduces move damage taken.
-生成一道神圣的光之墙保护使用者一方，5回合内不会被命中要害，并略微减小所受的技能伤害。
+A blessed screen protects the user's side from critical hits for five turns, reducing move damage taken by 33%, or 25% in multi battles.
+生成一道持续5回合的神圣光之屏障保护使用者一方，使精灵不会被命中要害，受到的技能伤害减小33%，多打则只减小25%。
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 一边进行攻击，一边召唤季节的力量，并改变自身的形态。
 The user shouts with force at the target. This move always hits first.
@@ -37595,8 +37595,8 @@ The user sings with deathly sounds to harm the target. It has a 20% chance to re
 以死亡般的歌声来伤害对手。有20%概率使对手的特防减小1级。
 The target is subjected to a violent and frightening prank. It has a 10% chance to numb.
 使对方遭受到暴力的恶作剧，10%概率使其麻痹。
-The user forces itself or the target to make a Substitute by turning it into a doll.
-使用者将自身或目标变成玩偶，迫使自身或目标制造一个替身。
+The user forces itself or the target to spend 25% HP to make a Substitute by turning it into a doll.
+使用者将自身或目标使用25%HP变成玩偶，迫使自身或目标制造一个替身。
 The user soothes the target, lowering its Speed by four steps. If in hail, they also become drowsy.
 使用者安抚目标，使其速度减小4级。如果处于冰雹时，目标还会变得瞌睡。
 The user channels its fallen allies to strike the target. This attack has 20 more power per fainted party member.
@@ -37852,7 +37852,7 @@ The user rams its sharp face right into the target. This lowers the user's Speed
 The user crashes into the target on a ripping current. This waterlogs the target.
 使用者在撕裂的水流中撞击目标。这会使目标浸水。
 The user rips the target, lowering their Defense by two steps. After attacking, the user switches out.
-造成伤害，并使对手物防减小2级。在攻击之后急速返回，和后备精灵进行替换。
+造成伤害，并使对手物防减小2级。在攻击之后急速返回，和后排精灵进行替换。
 Strikes the target with harbor waters, then summons rainstorm for eight turns.
 使用港湾中的海水攻击对方，并开启持续8回合的雨天。
 The user rests in a riverbed, restoring its HP by half of max, and forming an Aqua Ring around themselves, healing 10% HP per turn.
@@ -40565,13 +40565,13 @@ A held item. In battles, it sets the holder's base Attack stat to 120.
 A held item. In battles, it sets the holder's base Sp. Atk stat to 120.
 一种携带物。在战斗中，使携带者的特攻种族设为120。
 A very light stone. It halves the weight of a Pokémon when held.
-一块轻石头，携带后可以使精灵的重量减半。
+一块轻石头。携带后，可以使精灵的重量减半。
 A held item. It raises Sp. Def by 50% but prevents the use of status moves.
-携带该物品的精灵的特防增加50%，但是无法使用变化类技能。
+一种携带物。携带该物品的精灵的特防增加50%，但是无法使用变化类技能。
 A held item. It raises Defense by 50% but prevents the use of status moves.
-携带该物品的精灵的物防增加50%，但是无法使用变化类技能。
+一种携带物。携带该物品的精灵的物防增加50%，但是无法使用变化类技能。
 A held item. Its Attack and Sp. Atk raise by four steps if hit by a move it's weak to.
-被效果拔群攻击时，双攻增加4级。
+一种携带物。携带后，被效果拔群攻击时，双攻增加4级。
 When held, it boosts Speed by two steps when intimidated, fascinated, or frustrated once per battle.
 使用后会容易呼唤伙伴，但使用后会消失。携带后，在受到威吓、震慑或阻挠时速度会增加。
 Damages attackers for 1/8th of their HP when they hit the holder with physical attacks.
@@ -40583,13 +40583,13 @@ If the holder is hit by an attack, it will switch with another Pokémon in your 
 A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
 有着神奇力量的卡片。携带后，能让使用了技能的对手退场。
 A held item. This discarded carapace lets the holder switch out of battle without fail.
-结实坚硬的空壳。携带它的精灵必定可以和后备的精灵进行替换。
+一种携带物。结实坚硬的空壳，携带它的精灵必定可以和后排的精灵进行替换。
 A held item. It is an egg filled with happiness that earns 50% extra Exp. Points in battle.
 一种携带物。一个充满幸福的蛋，可在对战中获得50%额外经验值。
 A held item. If the wielder enters a battle, money and coins generated in that battle are increased by 50%.
 一种携带物。携带者进入战斗时，该场战斗获得的金钱增加50%。
 A held item. The comforting chime of this bell makes it gain happiness twice as fast.
-携带后，精灵显得很安稳，变得容易和训练师亲密。
+一种携带物。携带后，精灵显得很安稳，变得容易和训练师亲密。
 A held item. It prevents wild Pokémon encounters if the holder is the first one in the party.
 一种携带物。如果携带者是队伍中的第一位，可以防止遭遇野生精灵。
 Held item which ups Attack by 40%, but allows the use of only one move.
@@ -40601,17 +40601,17 @@ Held item which boosts Speed by 40% but allows the use of only one move.
 Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
 携带后，伤害增加25%，但速度会减小15%。
 A held item. When the holder summons sunshine, it lasts twice as long.
-携带它的精灵使用大晴天的话，晴天的持续时间会翻倍。
+一种携带物。携带它的精灵使用大晴天的话，晴天的持续时间会翻倍。
 A held item. When the holder summons rainstorm, it lasts twice as long.
-携带它的精灵使用倾盆大雨的话，雨天的持续时间会翻倍。
+一种携带物。携带它的精灵使用倾盆大雨的话，雨天的持续时间会翻倍。
 A held item. When the holder summons a sandstorm, it lasts twice as long.
-携带它的精灵使用沙暴的话，沙暴的持续时间会翻倍。
+一种携带物。携带它的精灵使用沙暴的话，沙暴的持续时间会翻倍。
 A held item. When the holder summons hail, it lasts twice as long.
-携带它的精灵使用冰雹的话，冰雹的持续时间会翻倍。
+一种携带物。携带它的精灵使用冰雹的话，冰雹的持续时间会翻倍。
 A held item. When the holder summons eclipse, it lasts twice as long.
-携带它的精灵使用日食的话，日食的持续时间会翻倍。
+一种携带物。携带它的精灵使用日食的话，日食的持续时间会翻倍。
 A held item. When the holder summons moonglow, it lasts twice as long.
-携带它的精灵使用月辉的话，月辉的持续时间会翻倍。
+一种携带物。携带它的精灵使用月辉的话，月辉的持续时间会翻倍。
 An item to be held by a Pokémon. Protective screens will be effective for 3 more turns.
 一种携带物。使屏障类效果的持续时间增加3回合。
 An item to be held by a Pokémon. It doubles the duration of Rooms created by the holder.
@@ -40635,13 +40635,13 @@ A held item. The holder restores 1/5th HP of the damage it deals with moves.
 A held item. At half health, the holder breaks the balloon and gains an Aqua Ring, healing 10% HP per turn.
 一种携带物。携带后，HP在一半以下时，被击后获得水流环，使每回合回复10%HP。
 A held item. It snaps the holder out of a variety of mental warping effects.
-携带它的精灵会回复心控状态一次。
+一种携带物。携带它的精灵会回复心控状态一次。
 A held item. It restores any lowered stat in battle.
-给精灵携带后，能回复一次减小的能力等级。
+一种携带物。给精灵携带后，能回复一次减小的能力等级。
 A held item. Lowered stats on the holder are also applied to foes.
-给精灵携带后，能力等级减小也会影响到对手一次。
+一种携带物。给精灵携带后，能力等级减小也会影响到对手一次。
 A held item. Doubles the Speed of the holder's move once per battle.
-给精灵携带后，每场战斗中第一次出招时速度翻倍。
+一种携带物。给精灵携带后，每场战斗中第一次出招时速度翻倍。
 A held item. Boosts the power of a special move by 15% and makes it physical, once per battle.
 一种携带物。将特殊类技能的威力增加15%，并使其变为物理类技能，每场战斗一次。
 A held item. Boosts the power of a physical move by 15% and makes it special, once per battle.
@@ -40657,7 +40657,7 @@ A held item. When a foe raises their stats, the herb is consumed to reset their 
 A held item. Ensures a random additional effect activates once per battle.
 一种携带物。确保随机附加效果发动一次。
 A held item. Ensures a less than full accuracy move lands once per battle.
-携带后，确保一次命中不满的技能必定命中。
+一种携带物。携带后，确保一次命中不满的技能必定命中。
 A held item. It boosts the power of moves by 30%, but at the cost of 10% HP on each hit.
 一种携带物。携带后，虽然每次攻击时HP减小10%，但技能的威力会增加30%。
 A well-worn belt that boosts the holder's supereffective moves by 20%.
@@ -40669,7 +40669,7 @@ A held item. It is a headband that boosts the power of physical moves by 15%.
 A held item. It is a thick pair of glasses that boosts the power of special moves by 15%.
 一种携带物。这是一副厚眼镜，可使特殊类技能的威力增加15%。
 A held item. They are boots that boost Speed by 10%.
-携带后，速度增加10%。
+一种携带物。携带后，速度增加10%。
 A held item. Doubles the holder's critical-hit chance.
 一种携带物。携带后，命中要害率翻倍。
 A held item. It is a magnifying lens that boosts the Accuracy of moves by 35%.
@@ -40677,17 +40677,17 @@ A held item. It is a magnifying lens that boosts the Accuracy of moves by 35%.
 Held item which forces the holder to move last in its priority bracket.
 一种携带物。使携带者强制最后行动。
 A held item. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.
-携带后，在HP全满时，即便受到可能会导致濒死的技能，也能仅以1HP撑过去一次。
+一种携带物。携带后，在HP全满时，即便受到可能会导致濒死的技能，也能仅以1HP撑过去一次。
 A held item. A bizarre orb that inflicts burn on the holder at the end of a turn.
-触碰后会放出热量的神奇宝珠。携带后，在战斗时会陷入烧伤状态。
+一种携带物。触碰后会放出热量的神奇宝珠。携带后，在战斗时会陷入烧伤状态。
 A held item. A bizarre orb that inflicts frostbite on the holder at the end of a turn.
-触碰后会放出寒气的神奇宝珠。携带后，在战斗时会陷入冻伤状态。
+一种携带物。触碰后会放出寒气的神奇宝珠。携带后，在战斗时会陷入冻伤状态。
 A held item. A bizarre orb that inflicts poison on the holder at the end of a turn.
-触碰后会放出剧毒的神奇宝珠。携带后，在战斗时会陷入中毒状态。
+一种携带物。触碰后会放出剧毒的神奇宝珠。携带后，在战斗时会陷入中毒状态。
 A held item that damages the holder on every turn. It may latch on to Pokémon that attacks the holder.
-携带后，每回合都会受到伤害。有时也会附着到碰到自身的对手身上。
+一种携带物。携带后，每回合都会受到伤害。有时也会附着到碰到自身的对手身上。
 A held item. When the holder's stats are lowered, it will be switched out of battle.
-当携带它的精灵的能力等级被减小时，同行的精灵就会自动替换出场。
+一种携带物。当携带它的精灵的能力等级被减小时，同行的精灵就会自动替换出场。
 These boots prevent the effects of hazards set on the battlefield.
 这双靴子可以防止场上设置的陷阱带来的影响。
 Raises Sp. Atk by two steps when the Pokémon uses a sound move the first time each battle.
@@ -40711,9 +40711,9 @@ A held item. The holder is protected from the negative effects of weather.
 A held item. It changes the holder's type in battle. You can change which type between battles.
 一种携带物。携带后，可以改变精灵在战斗中的属性。可以在战斗外切换。
 A set of memory discs, one for each type. If held by a Silvally, you can change its type between battles.
-一套记忆光盘，每种类型各一个。如果由银伴战兽携带，可以在非战斗期间更换其属性。
+一套记忆光盘，每种类型各一个。如果由银伴战兽携带，可以在战斗外更换其属性。
 A tablet that boosts same-type moves by 20%. If held by Arceus, you can change its type between battles.
-本属性技能威力增加20%。阿尔宙斯携带时可在对战间切换属性。
+一块石板。携带后使本属性技能的威力增加20%。如果由阿尔宙斯携带，可以在战斗外更换其属性。
 An item to be held by a Pokémon. It counts as a member of every tribe.
 一种携带物。使携带者被视为所有族群的成员。
 A held item. The holder doesn't trigger items, abilities, or effects of targets it hits.
@@ -51118,7 +51118,7 @@ A recoverable error has occured. Please report the following to a programmer.
 ERROR: Cannot find location to teleport you back to.
 错误：无法找到你要传送的位置。
 Bringing you to the fallback return position.
-已把你带回了后备位置。
+已把你带回了后排位置。
 Which plot would you like to visit?
 要参观哪个区域？
 Pick the landscape you'd like for this plot.

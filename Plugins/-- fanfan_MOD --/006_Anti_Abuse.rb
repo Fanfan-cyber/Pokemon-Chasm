@@ -76,9 +76,9 @@ module AntiAbuse
   @@debug_control = false
 
   def self.print_update_log
-    file = File.open("release_version.txt", "wb")
-    file.write(Settings::GAME_VERSION)
-    file.close
+    #file = File.open("release_version.txt", "wb")
+    #file.write(Settings::GAME_VERSION)
+    #file.close
     return unless is_chinese?
     file = File.open("release_version_mod.txt", "wb")
     file.write(CHANGE_LOG)
