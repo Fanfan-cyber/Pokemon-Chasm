@@ -143,7 +143,8 @@ class PokeBattle_Battler
         eachActiveAbility(true) do |ability|
             BattleHandlers.triggerAbilityOnHPDropped(ability, self, @battle, oldHP / totalhp_to_f, newHP / totalhp_to_f, damage_taken, damage_taken / totalhp_to_f, fainted?)
         end
-        return false if oldHP < @totalhp / 2 || newHP >= @totalhp / 2 # Didn't drop below half
+        half = @totalhp / 2.0
+        return false if oldHP < half || newHP >= half # Didn't drop below half
         ret = false
         eachActiveAbility(true) do |ability|
             ret = true if BattleHandlers.triggerAbilityOnHPDroppedBelowHalf(ability, self, @battle)
