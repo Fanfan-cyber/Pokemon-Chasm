@@ -18078,7 +18078,7 @@ Height = 0.5
 Weight = 9.0
 Kind = Mischief
 Pokedex = It gathers things it likes and passes them through its loop to teleport them to a secret place.
-FormName = Hoopa Confined
+FormName = Confined
 Generation = 6
 Flags = Legendary,Floating
 #-------------------------------
