@@ -10600,14 +10600,18 @@ Pokemon = DIANCIE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = CALYREX,70
-    Form = 2 # Shadow Form
-    Moves = PSYCHOBOOST,ASTRALBARRAGE,LUMINBURST,FLING
+    Form = 2 # Shadow Rider Form
+    Moves = PSYCHOBOOST,ASTRALBARRAGE,LUMINBURST,DREAMDANCE
     AbilityIndex = 0 # As One
-    Item = RUSTEDSWORD
-Pokemon = ZACIAN,70
-    Moves = BEHEMOTHBLADE,PLAYROUGH,GLACIALCRUNCH,VOLTCRUNCH
-    AbilityIndex = 0 # Slumbering Sword
-    Item = EXPERTBELT
+    Item = FOCUSSASH
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 10,20,0,20,20,0
+Pokemon = DEOXYS,70
+    Form = 1 # Attack Form
+    Moves = PSYCHOBOOST,ARCLAMP,FLASHCANNON,SUPERPOWER
+    AbilityIndex = 0 # Unidentified
+    Item = CRYSTALVEIL
+    ItemType = STEEL
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = YVELTAL,70
@@ -10621,7 +10625,7 @@ Pokemon = GROUDON,70
     AbilityIndex = 0 # Desolate Land
     Item = REDORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-    EV = 10,20,0,20,20,0
+    EV = 10,20,20,0,20,0
 Pokemon = RAYQUAZA,70
     Moves = CARNAGE,ATMOSPHERICBURST,OVERHEAT,SWORDSDANCE
     AbilityIndex = 1 # Exospheric Descent
