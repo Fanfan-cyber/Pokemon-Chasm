@@ -429,6 +429,14 @@ DOUSEDRIVE: weakToWater, }
             else
                 battle.pbDisplayBossNarration(_INTL("{1} loads a {2}!",user.pbThis,GameData::Item.get(chosenItem).real_name))
                 user.giveItem(chosenItem)
+                newForm = case chosenItem
+                    when :SHOCKDRIVE then 1
+                    when :BURNDRIVE  then 2
+                    when :CHILLDRIVE then 3
+                    when :DOUSEDRIVE then 4
+                    else 0
+                end
+                user.pbChangeForm(newForm, "")
             end
         })
     end
