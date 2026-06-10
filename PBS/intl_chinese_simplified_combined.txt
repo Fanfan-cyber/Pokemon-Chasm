@@ -860,9 +860,9 @@ Just like that, my team's put to the sidelines.
 A knack for tactics, that's what you got. Helena'll be impressed, I know it.
 这就是你的战斗诀窍？海伦娜一定会对你刮目相看的。
 Healing centers uhh... to the west. So go off and do that now.
-治疗中心呃...在西边，现在就去吧。
+回复中心呃...在西边，现在就去吧。
 Healing center's uhh... to the west. So go off and do that now.
-治疗中心呃...在西边。现在赶紧去治疗吧。
+回复中心呃...在西边。现在赶紧去回复吧。
 She just switches around a lot? That's the "tactics" everyone around here's been hyping up?
 她只是在频繁的换精灵？这就是他们鼓吹的“战术”？
 I'm a bit disappointed. Well, let's avoid getting too cocky. I should actually make my attempt before judging.
@@ -1524,7 +1524,7 @@ And that was <i>before</i> an avatar took over the PokéCenter.
 Speaking of, the best place to rest is <imp>down south</imp>.
 说到这个，最好的休息地点是<imp>南边</imp>。
 A gaggle of grunts set up a <imp>healing spot</imp>.
-一群小兵设立了一个<imp>治疗点</imp>。
+一群小兵设立了一个<imp>回复点</imp>。
 If you need me, I’ll be around, ready to battle at a moment’s notice!
 如果你需要我，我会在附近，随时准备应战！
 Oh, by the way, don't worry about pronouns for me—I like 'em all.
@@ -1588,7 +1588,7 @@ Phew... Glad that's over. I've had enough battling to last a lifetime.
 Time to transfer all my notes to PDF format. Hope the scanners aren't reserved today...
 是时候将所有的记录转成PDF格式了。希望扫描仪今天没有被人预约...
 Novo College sends us a daily batch of healing items to keep us going.
-望新大学每天都会给我们送来一批治疗药物，用来维持我们精灵的健康。
+望新大学每天都会给我们送来一批回复药物，用来维持我们精灵的健康。
 It's useful, but I don't think my team appreciates getting revived four times a day...
 这虽然很有用，但我觉得我的队伍不喜欢一天被复活4次...
 Sheesh, felt the shockwaves all the way back here.
@@ -1645,7 +1645,7 @@ Thanks. Don’t go easy on me, OK?
 Whoa. We actually did it.
 哇，我们真的做到了。
 Not without some scrapes here and there – wait, let me heal you.
-有些磕碰也是在所难免的...稍等，让我帮你治疗一下。
+有些磕碰也是在所难免的...稍等，让我帮你回复一下。
 Figure I might as well pay you back, huh?
 我一直觉得，该报答你一下。
 Uh, kinda? I’ve trained worse, but, uh, this little fella isn’t exactly a juggernaut.
@@ -3537,7 +3537,7 @@ I don’t know what came over me, \PN. I really lost myself for a moment.
 Shows how easy it could’ve been for the Seekers and Team Chasm to let this go to their heads.
 难怪当年的裂隙队...还有探索者，有那么多令人感觉疑惑又莽撞的行为。
 Here, let me heal your team up.
-来，让我治疗你的精灵。
+来，让我回复你的精灵。
 Let’s go find what we came here for together.
 然后一起去找这次的目的地吧。
 Yes
@@ -3813,15 +3813,15 @@ That weird item...?
 "Hello, valued customer."
 "您好，尊贵的顾客。"
 "Please be informed that, until further notice, QuickMart stores across Makya will not be stocking Potions or other healing medicine."
-"请注意，在另行通知之前，马凯亚全境的快客超市将不再进货伤药或其他治疗药品。"
+"请注意，在另行通知之前，马凯亚全境的快客超市将不再进货伤药或其他回复药品。"
 Not like anyone even uses those anymore...
 反正也没人会用那些了...
 Er, by that I mean... should you require healing items for your Pokemon...
-呃，我是说...如果您需要为您的精灵准备治疗物品...
+呃，我是说...如果您需要为您的精灵准备回复物品...
 "Please access the VendCo <imp>vending machine</imp> conveniently placed near each QuickMart employee."
 "请使用放置在每位快客超市员工附近的文德科<<imp>自动售货机</imp>。"
 "VendCo is proud to provide for all of your healing needs here in Makya."
-"文德科很荣幸能为您在马凯亚的所有治疗需求提供服务。"
+"文德科很荣幸能为您在马凯亚的所有回复需求提供服务。"
 Hello, and welcome to the Casaba Villa Pokécenter!
 你好，欢迎来到甜瓜度假区精灵中心！
 Oh, you're new to Makya, are you?
@@ -3831,11 +3831,11 @@ An emergency measure was introduced recently to help trainers who might be in da
 According to that new measure, I'm supposed to give you this.
 根据这项新措施，我应该把这个给你。
 Use this Aid Kit to heal your entire party!
-使用这个医疗包来治疗你的整个队伍！
+使用这个医疗包来回复你的整个队伍！
 Fainted Pokemon will be revived and their statuses will be healed.
 濒死的精灵将被复活，也会回复它们的异常状态。
 It has a limited number of uses, but any nurse or other healer you meet will restore its supplies back up to full!
-它的使用次数是有限的，但你遇到的任何护士或其他治疗者都会将其恢复到满！
+它的使用次数是有限的，但你遇到的任何护士或其他回复者都会将其恢复到满！
 Thank you for your patience while I explained all of that.
 感谢你耐心听我解释这一切。
 I will resume my normal duties now.
@@ -3890,7 +3890,7 @@ Hey, can I ask a favor?
 I’m really really sorry, but you got some medicine you can spare?
 我真的很抱歉，但你有多余的药吗?
 I’ve got a Pokémon that needs fixing up, and, uh, it’s pretty bad.
-我有只精灵需要治疗，它现在的情况很糟糕。
+我有只精灵需要回复，它现在的情况很糟糕。
 Uh, well – listen, if you promise to share I’ll let it out of its ball.
 呃...好吧，只要你答应帮忙，我就把它从球里放出来。
 I can’t take it to a Pokécenter because… you’ll see.
@@ -4103,7 +4103,7 @@ Impressive. You’re a damn sight better than most of the folks ‘round here.
 Might even be Champion material.
 说不定你还真是冠军的料。
 Let me get your Pokémon back into tip-top shape.
-但现在还是先让我帮你治疗一下精灵吧。
+但现在还是先让我帮你回复一下精灵吧。
 As for you, here: the Loyalty Badge. It ain’t much, but you earned it.
 给，这个就是忠诚徽章，虽说不是什么大不了的东西，但也是你用实力赢得的。
 Come see me again some time. I’m itching for a rematch.
@@ -5118,7 +5118,7 @@ Sounds good, come back if you change your mind.
 Ah, you got me. Good fight. Let's see if the next person could put up a better challenge.
 啊，你赢了，真不容易！不知道下次会不会有更强劲的对手。
 I'm not able to heal your Pokemon since I don't have my machine or my tools. Sorry.
-抱歉，这里没有治疗机或工具，我也没办法帮你的精灵治疗。
+抱歉，这里没有回复机或工具，我也没办法帮你的精灵回复。
 I was so excited by the idea of moving to a smaller town, away from the hustle and bustle of Prizca.
 我曾对搬到一个远离宏礼市喧嚣的小镇感到无比兴奋。
 Away from my parents, too.
@@ -5662,7 +5662,7 @@ I could use more challengers like you!
 Wow! I’m feeling the burn – how about you?
 哦，我感觉到灼烧感了，你呢，情况怎样？
 I’ll get your Pokémon healed.
-我会治疗你的精灵。
+我会回复你的精灵。
 That for them, and this for you: the Perseverance Badge!
 这是给它们的，也是给你的：毅力徽章！
 I yearn for the day I might challenge you again! Either here, or in the Championship!
@@ -5881,7 +5881,7 @@ But on the other hand, if somebody sicced a Salamence on my school, I'd be pisse
 但从另一方面来说，如果有人派一只暴飞龙攻击我们的学校，我也会很生气。
 [Map73]
 I've been working with the local Pokemon Center in order to improve the healing stations.
-为了改善治疗装置，我一直在与当地的精灵中心合作。
+为了改善回复装置，我一直在与当地的精灵中心合作。
 The college gave me a decent grant in order to do so. I'm trying to make the thing more energy efficient.
 学院也给了我一笔可观的补贴，支持我研究如何让这机器更加节能。
 Hopefully this research will let us set up centers in even more places.
@@ -7168,7 +7168,7 @@ That's too bad. Maybe you'll be stuck here too.
 这下麻烦大了，搞不好你永远都出不去了，和大家一起困在这鬼地方。
 [Map102]
 It looks like the machine is dead. You can't heal your Pokemon here.
-这台机器好像坏了，你无法在这里治疗你的精灵。
+这台机器好像坏了，你无法在这里回复你的精灵。
 The PC is dead. You can't access your storage from here.
 这台电脑死机了，你无法打开存储空间。
 I'll take your Pokémon for a few seconds.
@@ -7812,7 +7812,7 @@ That was -- you’re... yeah, you are, aren’t you?
 If you’re looking deeper in the caves, then I -- I mean, if you don’t mind, may I come along?
 我是想说，如果你要往里走...那样的话...我...如果你不介意...我们...一起？
 I have healing items for the both of us. It’s dangerous and we -- I’d like to talk. And that’s... that’s not very common for me.
-我这里有治疗用品...里面很危险，而且...我...我想...跟你谈谈...我...很少会出现这种想法...
+我这里有回复用品...里面很危险，而且...我...我想...跟你谈谈...我...很少会出现这种想法...
 So? I’m not moving until I get a double battle out of you.
 所以？你不跟我双打，我就不走了。
 I need to... oh, just fight me already!
@@ -8053,7 +8053,7 @@ I will steal for you. Kill for you. End this world for you, or remake it to be m
 So long as I can hold you, and love you, and know that you are mine and no one else’s.
 只要我能拥抱你，爱你，并确保你是我的，不是其他什么人的...
 I need help? That’s all you can say to me?
-我需要治疗？这就是你要对我说的全部？
+我需要回复？这就是你要对我说的全部？
 I love you more than anyone has loved anything! Do you expect me to keep it inside, wear masks, be... civil about it?
 我爱你胜过任何人，胜过任何事物！你希望我把它藏在心里，戴上面具，表现得...文明些？
 It drives me to madness and back not embracing you here and now! As it should! Everyone else is blind not seeing your radiance!
@@ -8231,7 +8231,7 @@ Very well.
 ...No?
 ...不需要吧...
 You need help.
-你需要治疗。
+你需要回复。
 Go to hell.
 下地狱吧。
 Last bit's a dealbreaker.
@@ -10319,7 +10319,7 @@ Duel me? Like, so they just see a fight and move on?
 Y’know, like in a movie when they kiss so the bad guys get all flustered?
 或者...大概...电影上那种...就...通过亲吻的方式躲过追捕？
 I figured you’d be more into, like, fighting me than kissing me. Especially if I, like, healed your team.
-如果要决斗的话，我...大概...会治疗你的队伍，大概...你更喜欢这种选择吧。
+如果要决斗的话，我...大概...会回复你的队伍，大概...你更喜欢这种选择吧。
 Y’know. No offense!
 你知道的，不冒犯
 Yeah! I knew you’d come through for me!
@@ -10335,7 +10335,7 @@ Which I am. Kinda cringe…
 Wait!
 等等！
 Don’t just scurry off. I’ve got, like, WAY too many Potions, so lemme fix you up.
-不要急着离开嘛！我手里...大概...有很多药品，现在让我帮你治疗一下。
+不要急着离开嘛！我手里...大概...有很多药品，现在让我帮你回复一下。
 Seriously, do you always just, like, bolt when you lose? You looked about ready to black out…
 难道说，你每次输，大概...都这样像兔子一样逃跑吗？你看起来就像要晕了一样...
 So! Yeah! That worked!
@@ -11694,7 +11694,7 @@ We used to get more guests a looooong time ago, but we don't get them much now. 
 Oh well! Can't save 'em all... just uhh... enjoy it while it lasts? Haha...
 好吧，这样也挺好...只是，呃...现在好好享受吧，哈哈！
 Anyways! We have a healing center! I'm qualified a nurse, actually! Just don't have the typical uniform.
-起码，我们这里还有治疗中心！其实我也是个有执照的护士，只是没有制服罢了。
+起码，我们这里还有回复中心！其实我也是个有执照的护士，只是没有制服罢了。
 We certainly like to battle here on this island! Just like uhhh... literally every other person... So that's cool!
 我们岛上的人也很喜欢对战，跟其它...地方的人一样，大概...毕竟这很酷！
 Anyways I'll be in that building behind me if you need me! Ummm, enjoy your stay and uhhh... talk with some of the locals!
@@ -12507,7 +12507,7 @@ I’ve done some pretty iffy stuff myself because I was, like, well, this is for
 Like that makes it OK.
 谢谢，我好多了。
 So, um, maybe working with Tamarind is a way for me to get justice for myself, too? And, yeah, I could probably use some therapy too.
-所以，嗯，也许和塔玛琳一起工作是我寻求正义的另一种方式？可能我需要一些心理治疗。
+所以，嗯，也许和塔玛琳一起工作是我寻求正义的另一种方式？可能我需要一些心理回复。
 And I understand if you don’t wanna be my friend after hearing that, but, um, I hope I see you again anyways. I’m gonna make things better.
 如果你听完刚刚这些后不愿再跟我做朋友，我也能理解，但是，我还是希望能再见到你。我会拼尽全力让一切变得更好。
 You go stop Yezera. Make sure all my hard work doesn’t get, like, undone, OK?
@@ -14917,7 +14917,7 @@ Northern Trail
 Have you come to this peak seeking my advice? To receive it, you must first impress me in battle.
 你是来这座山上寻求建议的吗？那就来打败我吧。
 Oh hoh! You're ready for my advice. Too bad I blew my shoulder and need immediate medical attention.
-哦，你准备好听我的建议了？但很遗憾，我肩膀受伤了，需要立即送医治疗！
+哦，你准备好听我的建议了？但很遗憾，我肩膀受伤了，需要立即送医回复！
 Not good enough! Come back when you're better!
 还不够！等你变更好后再来吧！
 You think that I'm battling you with my full strength?
@@ -15734,17 +15734,17 @@ Then it lashed out at me and bolted. I’ve been hunting it since then.
 It looks OK now… you couldn’t’ve KO’d it any gentler?
 现在...应该没事吧...你不能...轻轻地...打倒它吗？
 Ah, it’s alright. No major scrapes or bruises – it’ll be fine. Just need to do some first aid…
-啊，没事的...没有很严重的伤势...它会没事的，只需要治疗一下...
+啊，没事的...没有很严重的伤势...它会没事的，只需要回复一下...
 I get that, but c’mon.
 我知道，但是...
 It’s obviously – I don’t know, possessed or something. Messed up in the head.
 我..我不知道..它应该是被什么占据了...导致...头脑混乱什么的。
 It’s not too bruised. Just need to do some first aid…
-没有很严重的伤势...它会没事的，只需要治疗一下...
+没有很严重的伤势...它会没事的，只需要回复一下...
 Well… yeah. Sure. It’s an avatar.
 啊...也对，毕竟...现在它是一个化身。
 Don’t pull your punches. Well, no harm no foul. Just need to do some first aid…
-你没有理由手下留情...还好，没有很严重的伤势...它会没事的，只需要治疗一下...
+你没有理由手下留情...还好，没有很严重的伤势...它会没事的，只需要回复一下...
 Insane. Complete insanity. It attacked me, turned into an avatar, attacked you…
 这到底是怎么了？为什么，它会攻击我？然后还变成化身，攻击你...
 What would’ve happened if you hadn’t beaten it?
@@ -16874,7 +16874,7 @@ Err -- medicine, with honey. Like when the spoonful of medicine helps the sugar 
 Uh, the other way, I mean. Except with more sugar. But it's like not that much, because it would be unhealthy.
 嗯...只是形式不一样。加一些但是不会加太多，因为那样不健康。
 But also like, it helps with burns and wounds, so it's not like you'd eat it...
-但这种药也可以用来治疗外伤，所以不用吃掉它...
+但这种药也可以用来回复外伤，所以不用吃掉它...
 Maybe I shouldn't be using that metaphor.
 我不该用那个比喻...
 Anyways! I have a batch of this stuff coming up! It's, uhhh, cooking away...
@@ -17386,7 +17386,7 @@ You're already feeling pumped up.
 You take some swings at the punching bag.
 你打了几下沙袋。
 You're pumped up! Experience gain from battles is boosted until the next time you heal.
-你感到精力充沛，在下次治疗前能得到更多经验。
+你感到精力充沛，在下次回复前能得到更多经验。
 Styles Value Adjuster
 风格点数调整师
 Mentor Coordinator
@@ -20850,7 +20850,7 @@ But swimming is my only joy in life.
 I just... I've got to find a way to be less scared of people. At least while I'm in the water.
 我只是...我得找到一种不那么害怕人的方法。至少在水下的时候。
 My therapist said I could change how I think by being inspired by others. Said I could even do that with Pokemon!
-我的治疗师说我可以通过受到他人的启发来改变思维方式。说我甚至可以用精灵做到这一点！
+我的回复师说我可以通过受到他人的启发来改变思维方式。说我甚至可以用精灵做到这一点！
 There's lots of Pokemon that can protect themselves!
 有很多精灵可以保护自己！
 That's it! Show me a TURTLE!
@@ -25086,7 +25086,7 @@ Luckily, new life has been sprouting up from the ashes.
 There is something hauntingly beautiful about the cycle of life.
 生命的轮回中，真是一种令人向往的美丽。
 If you're in need of healing, go to the south-east most house in Velenz.
-如果你需要治疗，请前往夜幽市东南方的房子。
+如果你需要回复，请前往夜幽市东南方的房子。
 A group of rangers set up a rest stop to help out trainers such as yourself.
 那边有护林员建的临时站点，为来往的训练师提供帮助。
 The Velenz Menagerie was built by a very eccentric woman over 100 years ago.
@@ -26881,7 +26881,7 @@ We have the strength. We can keep Makya safe.
 Drillers! Give no ground!
 钻探者！寸步不让！
 I've got you. Let me heal your team.
-我来帮你。让我治疗你的队伍。
+我来帮你。让我回复你的队伍。
 Everyone would benefit from the Forces being under our control. Even you two!
 如果自然力量在我们的掌控之下，每个人都会受益。甚至包括你们2个！
 A battle will convince you of your mistake.
@@ -33037,7 +33037,7 @@ Glastrier has tremendous physical strength, and the mask of ice covering its fac
 As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and solitude.
 使用视觉以外的五感探索周围的情况。据说如果被它踢到，就会灵魂出窍。
 Calyrex is a merciful Pokémon, capable of providing healing and blessings. It has the power to cause hearts to mend and plants to spring forth.
-蕾冠王是一种仁慈的精灵，能够提供治疗和祝福。它有力量回复心灵并使植物生长。
+蕾冠王是一种仁慈的精灵，能够提供回复和祝福。它有力量回复心灵并使植物生长。
 This Pokemon exists just to test the PBS Extensions system.
 这种精灵的存在只是为了测试PBS扩展系统。
 This Pokemon exists just to test the PBS Extensions system. Again!
@@ -33207,7 +33207,7 @@ Neutral Mode
 中性模式
 50%
 50%
-Hoopa Confined
+Confined
 拘束
 Baile Style
 芭蕾风格
@@ -33289,6 +33289,10 @@ Hail
 冰雹
 Sand
 沙
+Sand Cloak
+沙
+Trash Cloak
+垃圾
 Moonglow
 月辉
 Eclipse
@@ -33543,8 +33547,12 @@ Rapid Strike
 连击流
 Ice
 冰
+Ice Rider
+骑冰
 Shadow
 暗影
+Shadow Rider
+骑幽
 Primal
 原始
 Meteoric
@@ -34077,7 +34085,7 @@ Gear Grind
 Gyro Ball
 陀螺球
 Heavy Slam
-重磅冲击
+重磅冲撞
 Iron Defense
 铁壁
 Iron Head
@@ -34221,7 +34229,7 @@ Water Spout
 Absorb
 吸取
 Aromatherapy
-芳香治疗
+芳香回复
 Bullet Seed
 种子机关枪
 Chloroblast
@@ -34243,7 +34251,7 @@ Grass Pledge
 Growth
 生长
 Jungle Healing
-丛林治疗
+丛林回复
 Leafage
 树叶
 Leaf Blade
@@ -35537,7 +35545,7 @@ Genotheosis
 Hundred-Hand Clap
 百手拍
 Hypnotherapy
-催眠治疗
+催眠回复
 Invite Eclipse
 召唤日食
 Kickstart
@@ -36059,7 +36067,7 @@ Empowered Giga Drain
 Empowered Solar Beam
 赋权阳光烈焰
 Primeval Aromatherapy
-原初芳香治疗
+原初芳香回复
 Primeval Leech Seed
 原初寄生种子
 Primeval Spiky Shield
@@ -36454,7 +36462,7 @@ The target is attacked with an emission of filthy gases. It has a 30% chance to 
 The user shoots poisonous threads to poison the target and lowers the target's Speed stat by four steps.
 将混有毒的丝吐向对手。使其中毒，从而减小对手的速度4级。
 Nearby poisoned foes have their Attack, Sp. Atk, and Speed lowered by three steps.
-使附近中毒的敌人的物攻、特攻和速度减小3级。
+使附近中毒的敌人的双攻和速度减小3级。
 The user drenches the foe in a special poisonous liquid. Its power doubles if the target is poisoned.
 将特殊的毒液泼向对手。对处于中毒状态的对手，威力会变成2倍。
 The user throws the bone it holds. The bone loops to hit the target twice, coming and going.
@@ -36534,7 +36542,7 @@ When the user knocks out a target with this move, the user's Attack stat rises b
 Only works on the first turn the user is in battle. This move always goes first.
 威力很高的技能，但仅可在使用者上场的第一回合使用。
 The user calls out its underlings to heal it. The user heals itself by 60% of its max HP.
-使用者召唤手下精灵进行治疗，回复自身最大HP的60%。
+使用者召唤手下精灵进行回复，回复自身最大HP的60%。
 The user summons bugs to swarm the target, trapping and binding it for three turns.
 使用者召唤虫群包围目标，将其困住并束缚3回合。
 The user drains the target's blood. The user's HP is restored by 50% of the damage dealt.
@@ -36744,7 +36752,7 @@ The user cuts the foe with sharp shells. It has a 50% chance to lower Defense.
 The user shoots boiling hot water at its target. This has a 30% chance to burn.
 向对手喷射煮得翻滚的开水进行攻击。有30%概率让对手陷入烧伤状态。
 The user breaks its shell. This raises the user's Attack, Sp. Atk and Speed by three steps, but lowers Defense and Sp. Def by two steps.
-使用者打破外壳。物攻、特攻和速度增加3级，但双防减小2级。
+使用者打破外壳。双攻和速度增加3级，但双防减小2级。
 The target is struck with a supersonic water blast. Can random critical hit.
 目标被超音速水柱命中。可能随机命中要害。
 The user bursts into a bubbly song. Pokémon hit by this are cured of burn. Deals 50% less damage to allies.
@@ -36808,7 +36816,7 @@ Sharp-edged leaves are launched to slash at the opposing team. Can random critic
 The user generates a shock wave from within its body. This lower's the target's Sp. Def.
 从身体里产生冲击波。减小对手的特防。
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
-使用者充能，然后在第二回合攻击。在阳光下会无需充能。
+使用者充能，然后第二回合攻击。在阳光下会无需充能。
 Protects the user from attacks. Physical attackers take 1/8th HP damage.
 防住对手攻击的同时，削减使用物理类技能攻击自身的对手的1/8HP。
 The user scatters bursts of spores that induce sleep. Only one use per battle.
@@ -37162,7 +37170,7 @@ The user cleans the target aggressively with soapy water. It has a 50% chance to
 The user spins the target with a cleansing vortex. It has a 30% chance to waterlog.
 使用者用清洁的漩涡旋转目标。有30%概率使对手浸水。
 The user lounges around with decadent laziness, restoring its HP by 66%. This move always goes last.
-慵懒地休息一会儿，回复66%的生命值。总是在最后使用。
+慵懒地休息一会儿，回复66%的HP。总是在最后使用。
 A lullaby is sung in a calming voice that puts the target with half its HP or less left into a deep sleep.
 用舒缓的声音哼唱摇篮曲，使HP一半的对手陷入沉睡。
 The target is struck by a pulse of negative energy. This resets the target's positive stat changes.
@@ -37191,8 +37199,8 @@ The user attacks the target with stored power. Has 10 more base power for each r
 使用储存的力量攻击目标，每有1级能力值增加，基础威力增加10点。
 The user brings down a ruinous power on the target. This has a 20% chance of lowering all the target's stats.
 向对手施加毁灭能量，伤害对手，有20%概率使对手全能力减小1级。
-A blessed screen protects the user's side from critical hits for five turns, reducing move damage taken by 33%, or 25% in multi battles.
-生成一道持续5回合的神圣光之屏障保护使用者一方，使精灵不会被命中要害，受到的技能伤害减小33%，多打则只减小25%。
+A blessed screen protects the user's side from critical hits for five turns, reducing move damage taken by 25%, or 20% in multi battles.
+生成一道持续5回合的神圣光之屏障保护使用者一方，使精灵不会被命中要害，受到的技能伤害减小25%，多打则只减小20%。
 The user strikes while inviting the power of seasons. The user changes form to the next season.
 一边进行攻击，一边召唤季节的力量，并改变自身的形态。
 The user shouts with force at the target. This move always hits first.
@@ -37416,7 +37424,7 @@ The user opens a pit beneath the target, trapping and binding it for three turns
 The user hits a pitch that turns earth and stone to dust, damaging its foes.
 使用能够将泥土和石头化为粉尘的音调，对对手造成伤害。
 The user burrows, charging and becoming hidden, then attacks three times on the second turn.
-使用者第一回合钻入地下进入隐藏状态，在第二回合连续攻击3次。
+使用者第一回合钻入地下进入隐藏状态，第二回合连续攻击3次。
 The user causes the earth to rumble, striking every Pokémon around it and underground.
 使大地颤动，攻击周围以及地下的所有精灵。
 The user blasts the target with highly pressurized sand. Can random critical hit.
@@ -37492,7 +37500,7 @@ The target is struck from all angles by light like gemstones. Deals double damag
 The user grinds stone into shrapnel and sprays it at the target. This has a 50% chance to fracture it.
 使用者将石头磨成碎片并喷洒向目标。有50%概率使其破碎。
 The user headbutts the target while maintaining a defensive aura. Sets Sanctuary for five turns.
-使用者以头槌攻击目标，同时生成防御性效果。开启持续5回合的圣地。
+使用者以头槌攻击目标，并开启持续5回合的圣地。
 The user slams the target with a rocky blade. Destroys screens, Substitutes, and protections on the target.
 使用者用岩石之刃重击目标。破坏目标的屏障类效果、替身和保护类效果。
 The user thrums ominously, lowering the target's Attack and Sp. Atk.
@@ -37552,7 +37560,7 @@ The user rakes the target with sharp claws.
 The user bites, claws, and stings the target while rolling. It has a 20% chance each to poison, waterlog, or leech.
 使用者在滚动时用咬、抓和刺攻击目标。每种异常——中毒、浸水或寄生——都有20%概率发生。
 The target is plastered with irritating scales, damaging it and changing its type to Bug.
-身上覆盖刺激性鳞片，对其造成伤害，并将对方变为虫属性。
+使用身上覆盖刺激性鳞片攻击目标对其造成伤害，并将对方变为虫属性。
 The user sheds a huge volley of scales at the target. Lands without fail. This lowers the user's Sp. Def and Speed.
 使用者向目标抛洒大量鳞片。攻击必定会命中。特防和速度减小1级。
 The user scratches the target with a flurry of claws, talons, etc.
@@ -37636,7 +37644,7 @@ The user heals itself by 66% of its max HP. Then, this move is disabled.
 The user suffocates the target by sucking the air from their lungs. Can random critical hit.
 使用者通过吸走目标肺中的空气使其窒息。可能随机命中要害。
 The user snips the target's connection to life in order to curse them, damaging their HP by 25% each turn.
-使用者切断目标与生命之间的联系来诅咒他们，每回合对目标造成25%最大生命值的伤害。
+使用者切断目标与生命之间的联系来诅咒他们，每回合对目标造成25%最大HP的伤害。
 The user thins the air around the target, depriving them of oxygen. Can random critical hit.
 使用者稀薄目标周围的空气，使其缺氧。可能随机命中要害。
 The target is pestered by a giant tongue. This has a 50% chance to numb it.
@@ -37810,9 +37818,9 @@ The user shoots purified water, also healing the non-volatile status conditions 
 The user jumps out of the water to attack. Has a 20% chance to reduce Defense.
 跳出水面进行攻击，有20%概率使对手的物防减小1级。
 The user creates numerous bubbles to explode against the target. Multi-hits two to five times.
-使用者制造许多气泡来对目标爆炸。连续攻击2至5次。
+使用者制造许多气泡来对目标爆炸攻击。连续攻击2至5次。
 The user creates a bubble to shield their ally. The next time they're hit, 50% of the move damage is instead dealt back as recoil.
-制造一个气泡保护队友，当处于气泡保护下的队友被攻击时，气泡会破裂，使受到的伤害减小50%，然后攻击者也会受到同等的伤害。
+制造一个气泡保护队友，该队友受到的伤害减小50%，被攻击后气泡就会破裂，攻击者也会受到同等的伤害。
 A blast of bubbles is shot at the target. It has a 20% chance to lower the target's Speed stat.
 用1串泡泡射向对手。有20%概率使对手的速度减小1级。
 A water vacuum is induced and rapidly collapsed, generating an intense pulsing water blast. The user loses 1/8th of its max HP.
@@ -37896,7 +37904,7 @@ Restores a fainted Grass-type party member to full HP. Only one use per battle.
 The user fades into the foliage, charging and becoming hidden, then strikes from stealth on the second turn.
 使用者第一回合隐匿于草丛之中进入隐藏状态，第二回合发动偷袭。
 The user drops some heads from high up. The taller the user compared to the target, the greater the damage.
-从高处落下一个头。自身比对手越大，威力就越大。
+从高处落下一个头。自身比对手越高，威力就越大。
 The user flicks its thorns, dealing damage and setting a hazard layer of poison spikes around the target.
 使用者弹出它的刺，造成伤害并在目标周围设置毒菱。
 The user fires a bolt of life energy at the target. It has a 20% chance to raise user's Sp. Atk.
@@ -37926,7 +37934,7 @@ The target is irritated by allergenic plants, poisoning it.
 The user bursts a ball of sleep-inducing powder. It fails unless the target hit the user this turn.
 若受到对手的攻击，就会释放一团催眠粉末，让对手陷入沉睡，否则就会失败。
 Attacks while destroying rooms. This move fails in the absence of a room.
-在存在空间类效果时使用可以将其破坏。
+存在空间类效果时使用可以将其破坏。如果没有空间类效果的话，该技能会失败
 The user kicks into the target like roots into earth. This has a 30% chance of leeching.
 像树根入土一样踢向对方，30%概率使其被寄生。
 Halves attack damage taken this turn. Leeches any attackers. Fails if used successively.
@@ -37962,7 +37970,7 @@ A flare of electricity creates a bright light, damaging all nearby battlers.
 The user charges, can used instantly for half of its power.
 使用者蓄力1回合，下一回合发动攻击，或者以一半的威力立刻发动攻击。
 For the rest of the round, the target's healing is reversed. Always goes first.
-在该回合剩余时间内，会逆转对手受到的治疗效果。
+在该回合内，使对手受到的回复类效果反转。
 The user and the target pit their energy against one another. The damage is based on the target's Sp. Atk rather than their Sp. Def.
 使用者和目标互相较量。伤害取决于目标的特攻而非特防。
 The user surges with electricity. If it deals less than 50% of the target's max health, the user takes the difference as recoil.
@@ -38160,7 +38168,7 @@ The user absorbs the target's heat, frostbiting it and adding the Ice-type to it
 The user freezes the target in place, dealing damage and minimizing their Speed and Evasion.
 使用者将目标冻结在原地，造成伤害并使其速度和回避率的能力等级最小化。
 For the rest of the round, the target's healing is reversed.
-在该回合剩余时间内，目使标的回复类效果反转。
+在该回合内，目使标的回复类效果反转。
 The user picks up an iceberg and slams it into the target. This lowers the user's Attack by four steps.
 使用者抓起冰山撞向目标。物攻减小4级。
 The user slashes the target with ice like a sword. It has a 20% chance to lower Defense.
@@ -38172,7 +38180,7 @@ The user targets the target's coldest spots. Its power doubles if the target is 
 The user pins the target down with icy spikes, applying frostbite and trapping it.
 使用者用冰刺钉住目标，使其冻伤并被困住。
 Injects supercold liquid into the target, damaging them and halving all future healing.
-将超低温液体注射到对手身上，对其造成伤害并减半其之后的治疗效果。
+将超低温液体注射到对手身上，对其造成伤害并减半其之后的回复类效果。
 The user inures themselves to a harsh environment, shedding their type weaknesses.
 使得自身适应恶劣的环境，摆脱自身的属性弱点。
 The user frostbites the target, then welcomes in hail for eight turns.
@@ -38180,7 +38188,7 @@ The user frostbites the target, then welcomes in hail for eight turns.
 The user foretells imminent winter. Two turns later, extreme cold attacks the targeted spot.
 使用者预言寒冬将至。2回合后，极度寒冷袭击目标位置。
 The user throws an exploding package at enemies, or one filled with healing treats at allies.
-向对手投掷爆炸包裹，或者向队友投掷治疗包裹。
+向对手投掷爆炸包裹，或者向队友投掷回复包裹。
 The user sheds excess covering. This raises the user's Sp. Atk and Speed by three steps, but lowers Sp. Def by two steps.
 使用者褪去多余覆盖物。特攻和速度增加3级，但特防减小2级。
 The user raises their Attack and Defense by two steps, and Speed by one step.
@@ -38298,7 +38306,7 @@ The target is attacked with a pulse of negative feelings. It has a 40% chance to
 A punch that inflicts double the damage if the user has been hurt by the foe in the same turn.
 如果自身在同1回合中被对手伤害，那么这1拳会造成双倍的伤害。
 For the rest of the round, the healing of all damaged Pokémon is reversed.
-在该回合剩余时间内，使所有受到过伤害的精灵的回复类效果反转。
+在该回合内，使所有受到过伤害的精灵的回复类效果反转。
 The user prepares a precise cut. Always a critical hit. This lowers the user's Speed.
 使用者使用一次精准斩击。必定会命中要害。速度减小1级。
 The target is dragged viciously through water. This has a 30% chance to waterlog.
@@ -38362,7 +38370,7 @@ The target is pranked with a huge bucket of water. This has a 30% chance to wate
 The target is hit with a generous donation. Consumes up to 1000 scattered coins. Base power is boosted by 10 for every 100 consumed.
 让目标被慷慨的馈赠命中。消耗最多1000枚散落的金钱。每消耗100枚，技能威力增加10点。
 Healing coral forms on the foe's side. For the next four turns, attacks on foes heal the user for 33% of the damage dealt. This can overheal.
-在对手场上形成治疗珊瑚。接下来4回合，向对手的攻击将会为使用者回复造成伤害的33%HP，可以过量回复。
+在对手场上形成回复珊瑚。接下来4回合，向对手的攻击将会为使用者回复造成伤害的33%HP，可以过量回复。
 Leeches the target by kissing them with its thin mouth.
 用嘴巴亲吻对手，从而使其陷入寄生。
 The user dances in tune with a dreamlike energy, raising their Sp. Atk by four steps.
@@ -38524,7 +38532,7 @@ The user restores 1/8th of its HP and summons an allied Combee. User becomes Bug
 The user raises its Sp. Atk, Sp. Def, and Speed by two steps. User becomes Bug-type.
 使用者特攻、特防和速度增加2级。变为虫属性。
 Nearby foes are bound with silk. This lowers their Attack, Sp. Atk and Speed by two steps. User becomes Bug-type.
-束缚附近的目标。使目标的物攻、特攻和速度减小2级。变为虫属性。
+束缚附近的目标。使目标的双攻和速度减小2级。变为虫属性。
 The user applies a damaging curse to all nearby foes. User becomes Ghost-type.
 使用者对所有附近的目标施加伤害诅咒。变为幽灵属性。
 Attackers against the user suffer recoil for the rest of the battle. User becomes Ghost-type.
@@ -40869,7 +40877,7 @@ A medicinal Poké Ball that heals the Pokémon for 1/4th of its HP if it fails t
 A parasitic Poké Ball that leeches the Pokémon if it fails to catch it.
 有点与众不同的球。如果没能捉住，就会将其寄生。
 A disorienting Poké Ball that disables the Pokémon's last used move for 10 turns if it fails to catch it.
-有点与众不同的球。如果没能捉住，使其最后使用的技能失效10回合。
+有点与众不同的球。如果没能捉住，使其最后使用的技能禁用10回合。
 A remedial Poké Ball that restores the caught Pokémon's HP and eliminates any status problem.
 有点与众不同的球。能回复捉到的精灵的HP和异常状态。
 A Poké Ball that makes caught Pokémon more friendly.
@@ -41032,7 +41040,7 @@ A machine to fuse Necrozma, which needs light, and Solgaleo.
 用来让需求光的奈克洛兹玛和索尔迦雷欧合体的机器。
 A machine to fuse Necrozma, which needs light, and Lunala.
 用来让需求光的奈克洛兹玛和露奈雅拉合体的机器。
-An item holding Zygarde's Cores and Cells. You can use it to change Zygarde's forme.
+An item holding Zygarde's Cores and Cells. You can use it to change Zygarde's form.
 用于收集精灵基格尔德的核心和细胞的物品。还可以用于改变基格尔德的形态。
 A candy that is packed with energy. When consumed, it will grant a single Pokémon 250 Exp. Points.
 充满能量的糖果，吃下后可以获得250Exp。
@@ -41319,7 +41327,7 @@ The user summons Hail for twice as long. The holder will endure one potential KO
 A held item. When the holder faints, a random other party member is fully revived.
 一种携带物。携带者倒下时，会随机复活一名队友。
 A held item. It boosts the power of moves by 30%. The user heals for a third of all move damage they deal.
-一种携带物。携带后技能威力增加30%，并回复技能伤害的1/3HP。
+一种携带物。携带后技能威力增加30%，并回复类技能伤害的1/3HP。
 A held item. In battles, it sets the holder's base Attack and base Defense stats to 120.
 一种携带物。携带后，物攻和物防的能力值将增加到120。
 A held item. In battles, it sets the holder's base Sp. Atk and base Sp. Def stats to 120.
@@ -41592,7 +41600,7 @@ Tinted Lens
 Transistor
 电晶体
 Triage
-先行治疗
+先行回复
 Truant
 懒惰
 Unaware
@@ -42983,7 +42991,7 @@ Powers up ally Pokémon's special moves by 30%.
 Raises Attack and Sp. Atk by two steps when its HP is lowered below half.
 当HP小于一半时，双攻增加2级。
 When this Pokémon eats a Berry, it restores 33% of its max health.
-当吃下树果时，会回复最大生命值的33%。
+当吃下树果时，会回复最大HP的33%。
 Boosts Attack after knocking out any Pokémon.
 打倒对手时，物攻增加1级。
 Doubles this Pokémon's Speed in sunshine.
@@ -43160,8 +43168,8 @@ Forms a powerful school while it has a lot of HP.
 HP多的时候会聚起来变强。
 Doubles the likelihood of the user's random added effects activating.
 技能的随机附加效果出现的概率翻倍。
-Resists damage while its HP is full.
-HP全满时，受到的伤害会变小。
+Reduces move damage taken by 50% when HP is full.
+HP全满时，受到的伤害减小50%。
 At the end of each turn, heals from every non-volatile status condition (except Sleep).
 回合结束时，回复除睡眠外的异常状态。
 Removes random added effects of attacks to increase their damage by 30%.
@@ -43190,7 +43198,7 @@ Speed is raised by two steps at the end of each of its turns.
 回合结束时，速度增加2级。
 Raises Defense when hit by an attack.
 被击时，物防增加1级。
-Changes between Blade and Shield Forme with attacks and King's Shield.
+Changes between Blade and Shield Form with attacks and King's Shield.
 随着使用攻击和王者盾牌技能，在刀剑与盾牌形态之间改变。
 Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become numbed.
 物防增加20%。当被同1精灵第2次物理类技能攻击时，攻击者将陷入麻痹。
@@ -43221,7 +43229,7 @@ Powers up Electric-type moves by 50%.
 Gives +3 priority to healing and draining moves.
 回复类技能的先制度+3。
 Every other turn, this Pokémon can't use any move but Slack Off.
-每隔1回合，只能使用“偷懒”技能。
+每隔1回合，只能使用技能偷懒。
 Ignores modified Defense and Sp. Def while attacking, and ignores modified Attack and Sp. Atk while being attacked.
 攻击时，无视对手增加或者减小的双防，被攻击时，无视对手增加或者减小的双攻。
 Doubles this Pokémon's Speed if its held item is consumed or lost.
@@ -43295,7 +43303,7 @@ Sound-based attacks turn Ice-type and are boosted by 30%.
 Deals double damage against Pokémon that have raised defenses or that are protected by a screen.
 对于增加了防御或受到屏障保护的精灵造成双倍伤害。
 Uses Aromatherapy if an attack lowers its HP below half.
-被攻击使HP减小到一半以下时，使用芳香治疗。
+被攻击使HP减小到一半以下时，使用芳香回复。
 Doubles Sp. Def, but this Pokémon can't use status moves.
 特防翻倍，但无法使用变化类技能。
 During eclipse, it restores its HP by half the damage it deals with attacks.
@@ -43311,7 +43319,7 @@ Healing on this Pokémon is reversed.
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become waterlogged.
 特防增加20%。当被同1精灵第2次特殊类技能攻击时，攻击者将陷入浸水。
 The effect of healing on foes is reversed.
-使敌方的治疗效果发生反转。
+使敌方的回复类效果发生反转。
 When free from non-volatile status conditions, non-damaging moves by foes are drawn in.
 当没有处于异常时，会吸引对手的非伤害类技能。
 Foretelling moves hit two turns quicker and deal 30% more damage.
@@ -43477,7 +43485,7 @@ Enemies which swap in take damage equal to 1/8th their HP.
 Light moves hit a second time for 33% damage if this Pokémon is protected by a screen.
 若该精灵受到屏障类效果的保护，它的光类技能会以33%的伤害额外攻击一次。
 At the end of each turn, its Sp. Atk is lowered. Then, you choose to raise its Speed or heal it for 1/5th HP.
-每回合结束时特攻减小，但会增加其速度或治疗20%HP。
+每回合结束时特攻减小，但会增加其速度或回复20%HP。
 This Pokémon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
 当陷入异常状态或者被束缚时，可以额外行动一次。
 When this Pokémon flinches a target that has already moved, it will flinch next turn.
@@ -43523,7 +43531,7 @@ This Pokémon and its allies are protected from flinching, Intimidate, Fascinate
 Boosts the power of pulse moves by 30%.
 脉冲类技能的威力增加30%，治愈脉冲的回复效果增加30%。
 Uses Lightning Dance if an attack lowers its HP below half.
-被攻击使HP减小到一半以下时，将使用闪电舞。
+被攻击使HP减小到一半以下时，使用闪电舞。
 Upon entry, creates an Emotion Room for four turns, which swaps each Pokémon's ability to its other ability each turn.
 出场时，开启持续4回合的情感空间，所有精灵每回合会交换自身的特性。
 When a foe switches to replace a fainted Pokémon, gives information about the switch and lets you switch beforehand.
@@ -43563,7 +43571,7 @@ Prevents itself and allies from being burned, frostbitten, or numbed.
 Upon entry, gains your choice of Fighting-, Dark-, or Fairy-type.
 出场时，获得格斗、恶或妖精属性（自选）。
 Upon entry, lowers the foe's Sp. Atk stat by two steps.
-出场时，使对方的特攻减小2级。
+出场时，使对手的特攻减小2级。
 Can hold two different items, if one is clothing and the other is not.
 在携带衣物类物品时，可额外携带一个非衣物类物品。
 Raises all of its stats whenever it knocks out a Pokémon with a critical hit.
@@ -43899,13 +43907,13 @@ Physical moves have a 30% chance to waterlog targets.
 Repeats another Pokémon's punch and kick moves immediately at 50% power.
 立即以50%的威力重复另一只精灵的拳类或者踢类技能。
 All Pokémon's damage is decreased proportional to their health remaining.
-所有精灵的伤害都会根据它们的剩余生命值按比例减小。
+所有精灵的伤害都会根据它们的剩余HP按比例减小。
 When this Pokémon is hit thrice, all party members heal for 1/8th HP. The attacker is forced to switch out.
 该精灵被命中3次时，所有队伍成员回复HP的八分之一。攻击者强制退场。
 This Pokémon is immune to mental effects and can't be Dizzied, or Flinched.
 免疫心控状态，不会混乱或畏缩。
 Disables the opponent's most recently-used move for two turns upon hitting it.
-命中对手后，使其最后使用的技能失效2回合。
+命中对手后，使其最后使用的技能禁用2回合。
 Boosts this Pokémon's Speed by 50% in sandstorm or hail.
 沙暴或冰雹时，速度增加50%。
 Boosts Attack by 50% if it used a special move last turn, or boosts Sp. Atk if physical.
@@ -44081,7 +44089,7 @@ Releases a hazard layer of Spikes when hit by an attack.
 Boosts power of light-based moves by 50%.
 光类技能的威力增加50%。
 When this Pokémon is rampaging, it can choose the rampage moves it uses.
-当陷入暴走状态时，可以自由选择使用暴走类技能。
+暴走状态时，可以自由选择使用暴走类技能。
 When this Pokémon is hit thrice, a Live Wire is set on the foe's side. The attacker hits itself in a rage.
 该精灵被击中3次后，在对手场上设置带电导线。攻击者会因愤怒而攻击自身。
 Protects other allies, reducing their move damage taken by 33% while this Pokémon is using a status move.
@@ -44117,7 +44125,7 @@ Upon entry during sunshine, heals the lowest HP ally or self by 33%.
 Pokémon that swap in for this have their non-volatile status conditions healed, and take 30% less damage that turn.
 替换该精灵出场的精灵会回复其异常，并且在那1回合受到的伤害减小30%。
 At the end of each turn, heals from every volatile status condition.
-回合结束时，回复所有非稳定型异常。
+回合结束时，回复非稳定型异常。
 Below half health, it has a doubled crit chance and has +30% attack.
 HP小于一半时，命中要害率翻倍，物攻增加30%。
 This Pokémon can use Electric-type moves when recharging from an exhausting move, but cannot switch out during them.
@@ -44178,7 +44186,7 @@ Powers up Poison-type moves by 50%.
 毒属性技能的威力增加50%。
 Boosts all of this Pokémon's move damage by 25% during eclipse.
 日食时，技能伤害增加25%。
-When using a physical move, switch to Pirouette Forme. When using a special move, switch to Aria Forme.
+When using a physical move, switch to Pirouette Form. When using a special move, switch to Aria Form.
 使用物理类技能时，变为舞步形态。使用特殊类技能时，变为歌声形态。
 Restores 1/4th health after any foe faints.
 有对手被打倒时，回复1/4HP。
@@ -44201,7 +44209,7 @@ Boosts one defending stat by two steps according to the foe's Attack and Sp. Atk
 Takes 25% less damage while using a status move.
 在使用变化类技能时受到的伤害减小25%。
 Boosts Attack by 20% in hail, or 40% if also below half health.
-冰雹时，物攻增加20%，若同时生命值小于一半则增加40%。
+冰雹时，物攻增加20%，若同时HP小于一半则增加40%。
 Its attacks are critical against numbed targets.
 攻击麻痹的对手时，必定会命中要害。
 Doubles the critical hit chance of random crit moves. This Pokémon's Speed is doubled while using them.
@@ -44449,7 +44457,7 @@ This Pokémon's Dragon-type attacks become spread and drain 33% HP.
 Heals non-volatile status conditions and resets stat changes after knocking out any Pokémon.
 打倒对手时，回复异常并重置能力等级。
 At the end of each turn, itself and each ally heals for 1/16th of their HP.
-每回合结束时，该精灵和每个队友会回复其最大生命值的1/16。
+每回合结束时，该精灵和每个队友会回复其最大HP的1/16。
 Changes into another form of your choosing when its HP is lowered below half.
 HP减小到一半以下时，可以选择切换为另一种形态。
 This Pokémon's random crit moves are always critical if there is an active Room.
@@ -49034,7 +49042,7 @@ If you encounter a Pokémon you don't want, run away. It's guaranteed!
 After a full party heal, defeated enemy trainers will be battle ready again!
 在回复全队精灵状态后，被打败的训练师就会再次准备好战斗了！
 For example, healing at a Pokémon Center triggers this.
-例如，在精灵中心治疗。
+例如，在精灵中心回复。
 Trainers who fled won't come back, however.
 不过已经离开的训练师，就不会再回来了。
 There's a shortcut key(F) to instantly mount the bicycle while walking.
@@ -49244,9 +49252,9 @@ Each Pokémon has a level from 1 to 70. A Pokémon's level determines its stats 
 Types are strong or weak against other types. Having a variety of different types on your team helps you take advantage of these relationships.
 不同属性之间有克制关系，一只队伍中含有不同属性可以更方便处理各种情况。
 Healing your Pokémon
-治疗精灵
+回复精灵
 Pokémon are healed after a trainer battle. You can heal your Pokémon at PokéCenters between battles. You can often use the Aid Kit instead to save on traveling time.
-训练师战斗后，精灵会回复健康。你可以在战斗之间的精灵中心治疗你的精灵。你通常也可以使用医疗包来节省旅行时间。
+训练师战斗后，精灵会回复健康。你可以在战斗之间的精灵中心回复你的精灵。你通常也可以使用医疗包来节省旅行时间。
 Who goes first?
 行动顺序？
 In battle, the Pokémon with the higher speed stat gets to use their move first. Some moves modify this. Speed ties are decided randomly.
@@ -49292,7 +49300,7 @@ Accuracy is a move's chance of hitting. Most moves have 100% accuracy. Some effe
 Power Points
 PP
 Power Points, or PP, is a number which limits how many times a move can be used. Healing at a PokéCenter, after a trainer battle or with the Aid Kit restores PP.
-技能点数（PP）是一个限制技能使用次数的数字。在精灵中心治疗、训练师战斗后或使用医疗包可以回复PP。
+技能点数（PP）是一个限制技能使用次数的数字。在精灵中心回复、训练师战斗后或使用医疗包可以回复PP。
 Each Pokémon has type weakness and type resistances based on its own type. eg. Water deals double damage to Fire, and Fire deals half damage to Water.
 每种精灵都有基于自身属性的弱点和抗性，如火弱水，水抗火。
 Type Combinations
@@ -49486,7 +49494,7 @@ Status Conditions are ailments a Pokémon can have which hurt or restrict them. 
 Healing Status Conditions
 回复异常状态
 Status Conditions are removed when you heal at the PokéCenter, after a trainer battle or when you use the Aid Kit.
-在精灵中心治疗、训练师战斗后或使用医疗包时，会移除异常状态。
+在精灵中心回复、训练师战斗后或使用医疗包时，会移除异常状态。
 Status Immunity
 免疫异常状态
 Type immunities do not prevent status moves. However, some types give immunities to certain status conditions. Don't confuse these two!
@@ -49672,9 +49680,9 @@ What are Avatars?
 Avatars are powerful enemy Pokémon with unique properties that you will fight and destroy during your adventure. They cannot be caught.
 化身是拥有独特能力的强大精灵，你可以在冒险过程中与它们战斗，它们无法被捕捉。
 Avatars are Healthy
-生命值
+HP
 Avatars have at least two health bars, which means they have a lot of health. Much more than double the normal amount!
-化身至少有2个生命条，这意味着它们拥有大量的生命值。比正常数量多得多！
+化身至少有2个生命条，这意味着它们拥有大量的HP。比正常数量多得多！
 Multi-Move
 多次行动
 Avatars can move twice each turn. Their second move will happen after every battler has used their regular move for the turn.
@@ -50180,7 +50188,7 @@ Whether to show how your Pokémon's stats change on level up or evolution.
 Aid Kit Animation
 医疗包动画
 Whether to play an animation showing your party being healed by the Aid Kit.
-是否播放动画来显示队伍正在被医疗包治疗。
+是否播放动画来显示队伍正在被医疗包回复。
 Quick Evolution
 快速进化
 Whether to shorten the cutscene that plays when a Pokémon evolves.
@@ -50288,7 +50296,7 @@ Running
 Autosave
 自动存档
 Whether the game should save when healing and every 40 steps taken.
-游戏是否应在治疗和每走40步时自动保存。
+游戏是否应在回复和每走40步时自动保存。
 Pokémon Follow
 精灵跟随
 Whether your first Pokémon follows behind you.
@@ -52746,7 +52754,7 @@ It doesn't affect {1}...
 {1} luxuriated in its fine clothing.
 {1}沉醉于自身优美的服装之中。
 Healing
-治疗
+回复
 Where to direct power?
 将力量引向何方？
 {1} incorporates hail into its body.
@@ -52954,7 +52962,7 @@ All foes positive stat changes were eliminated!
 {1} is a killjoy! Stats can't be raised!
 {1}是个扫兴鬼！没有精灵可以增加能力等级！
 {1} is a bad influence! Healing is reversed!
-{1}带来了不好的影响！治疗被逆转了！
+{1}带来了不好的影响！回复被逆转了！
 {1} is interfering! No one gets same-type damage bonus!
 {1}正在干扰！同属性伤害奖励消失了！
 {1} arrived on a breaking wave!
@@ -52970,7 +52978,7 @@ All foes positive stat changes were eliminated!
 {1} has a huge ego!
 {1}非常自负！
 {1} prioritizes healing!
-{1}优先考虑治疗！
+{1}优先考虑回复！
 {1} takes center stage!
 {1}占据了中心舞台！
 {1} steals the show!
@@ -53782,7 +53790,7 @@ PA: You have no Safari Balls left! Game over!
 \w[]\wm\c[12]\l[3]By the power of the Avatar Totem, your team is revived.
 \w[]\wm\c[12]\l[3]借助化身图腾的力量你的队伍获得了重生。
 An error has occured. Unable to spawn player at Avatar Totem. Attempting backup spawn at healing spot.
-发生错误。无法在化身图腾处生成玩家。尝试在治疗点进行备用生成。
+发生错误。无法在化身图腾处生成玩家。尝试在回复点进行备用生成。
 \w[]\wm\c[12]\l[3]You scurry back to {1}, protecting your exhausted Pokémon from any further harm...
 \w[]\wm\c[12]\l[3]你急忙跑回{1}，保护你的精灵不再受到伤害...
 Argument {1} expected a variable after it but didn't have one.
@@ -53881,7 +53889,7 @@ Its allied {1} was revived to full health!
 {1}的伙伴们离去了！
 You sense the presence of many!
 你感受到了一股强大的力量！
-{1} transformed into its Complete Forme!
+{1} transformed into its Complete Form!
 {1}变成了完全体形态！
 {1} transformed into {2}!
 {1}变成了{2}！
@@ -53928,7 +53936,7 @@ nthTurnThisRound检查的是1回合或以上！
 #{@name} isn't an avatar, but something is requesting its Health Per Phase!
 #{@name}不是化身，但有东西正在请求它的每阶段健康值！
 {1}'s healing is reversed!
-{1}的治疗效果被逆转了！
+{1}的回复类效果被逆转了！
 {1}'s {2} prevents {3} from raising its {4}!
 {1}的{2}阻止{3}增加它的{4}！
 {1} was punished for its joy!
@@ -54189,9 +54197,9 @@ The poison starts already doubled!
 {1}使用了{2}！
 But there was no PP left for the move!
 但是没有PP了！
-{1} changed to Blade Forme!
+{1} changed to Blade Form!
 {1}变成了刀剑形态！
-{1} changed to Shield Forme!
+{1} changed to Shield Form!
 {1}变成了盾牌形态！
 {1} tried to use {2}!
 {1}试图使用{2}！
@@ -54482,9 +54490,9 @@ Also, critical hits are now possible on all of {1}'s attacks!
 {1} firmly planted its evil roots! It can't be moved!
 {1}牢牢地种下了它的邪恶之根！它无法被移动！
 The evil roots will sap foe health each turn!
-邪恶之根将在每个回合吸取敌人的生命值！
+邪恶之根将在每个回合吸取敌人的HP！
 {1} is sapped by the evil roots!
-{1}被邪恶之根吸取了生命值！
+{1}被邪恶之根吸取了HP！
 {1} dug its roots deep into the earth! It can't be moved!
 {1}把根深深地扎进土里 无法被换走了！
 {1} consumed tons of nutrients with its roots!
@@ -54630,7 +54638,7 @@ No moves barred! {1} can use off-type moves again!
 {1} is now free to escape the battle!
 {1}现在可以自由逃离战斗了！
 {1}'s healing is reversed this turn!
-{1}的治疗效果在该回合被逆转！
+{1}的回复类效果在该回合被逆转！
 {1}'s filled with ice!
 {1}被冰填满了！
 {1} gained an extra attack!
@@ -55644,7 +55652,7 @@ But it failed, since {1}'s roots are already planted!
 But it failed, since none of {1} or its allies can be healed or have their status conditions removed!
 但它失败了，因为{1}及其队友都无法被回复HP或回复异常状态！
 But it failed, since there was no one to heal!
-但是它失败了，因为没有精灵需要治疗！
+但是它失败了，因为没有精灵需要回复！
 {1} is protected behind its substitute!
 {1}在其替身的保护下！
 But it failed, since {1} can't be healed!
@@ -57563,7 +57571,7 @@ It has no effect on Pokémon other than Shaymin.
 对谢米之外的精灵无影响。
 This can't be used on the fainted Pokémon.
 这个不能用于濒死的精灵。
-{1} changed Forme!
+{1} changed Form!
 {1}改变了形态！
 It has no effect on Pokémon other than Tornadus, Thundurus, Landorus, or Enamorus.
 对龙卷云，雷电云，土地云，眷恋云之外的精灵无影响。
@@ -60226,7 +60234,7 @@ Your party is not legal for this challenge.
 The match will now begin!
 比赛现在开始！
 Let me heal your party.
-让我治疗你的精灵。
+让我回复你的精灵。
 Congratulations on your victory!
 恭喜，你获胜了！
 Thanks for playing.
@@ -60302,7 +60310,7 @@ YES
 Choose a challenge.
 选择一项挑战。
 This challenge will use the Pokémon list from {1}.
-本次挑战将使用 {1}中的精灵队伍。
+本次挑战将使用{1}中的精灵队伍。
 This may take a long time. Are you sure?
 这回花费一些时间，你确定吗？
 Team generation complete.
@@ -60410,7 +60418,7 @@ All the little pieces of your team need their own role.
 Use whatever you want; just ensure that it's got something to do and the best odds of doing it.
 使用任何你想要的；只要确保它有事情要做，并且有最好的机会去做。
 Give bulky Pokémon Leftovers and healing moves.
-给耐久型精灵携带剩饭和治疗技能。
+给耐久型精灵携带剩饭和回复类技能。
 Give strong, slow Pokémon Focus Sashes, Vests, or ways to speed up.
 给强大但速度慢的精灵携带焦点披带、护符或加速的方法。
 You get the idea.
@@ -60800,7 +60808,7 @@ Once you enter, you will not be able to interact with your team in any way until
 This means swapping Pokemon, moves, abilities, or items, or even changing your team order.
 这意味着你不能改变队伍，也不能改变队伍中精灵的顺序，精灵的技能、物品、特性等等。
 A nurse is provided, however, for healing between matches.
-不过，在比赛期间会有一名护士负责治疗。
+不过，在比赛期间会有一名护士负责回复。
 Enter and begin the tournament?
 进入并开始比赛？
 If you leave, the tournament will be reset and your progress within it will be lost.
@@ -62306,7 +62314,7 @@ Turns to Finale Form when only unfainted on team. Ignores the condition of a per
 Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
 HP减小到一半以下时速度增加4级。被攻击后，会紧跟着立刻行动。
 When this Pokémon eats a Berry, it restores 25% of its max health.
-当精灵吃下一颗树果时，会回复最大生命值的25%。
+当精灵吃下一颗树果时，会回复最大HP的25%。
 Raises Attack by 2 steps after knocking out any Pokémon.
 打倒对手时，物攻增加2级。
 Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.
@@ -62322,7 +62330,7 @@ Deals 50% more damage to targets who have already taken damage or moved this tur
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 出场时，开启持续4回合的情感空间，所有精灵每回合随机获得一个特性。
 Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.
-出场时，精灵会回复最大生命值的1/5，可以过量回复。
+出场时，精灵会回复最大HP的1/5，可以过量回复。
 Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.
 晴天时，每回合HP回复1/8。被火属性技能攻击时，不受伤害，HP回复1/4。
 Raises Sp. Atk by 2 steps after knocking out any Pokémon.
@@ -63820,7 +63828,7 @@ Very well.
 ...No?
 ...不需要吧...
 You need help.
-你需要治疗。
+你需要回复。
 Go to hell.
 下地狱吧。
 Last bit's a dealbreaker.
@@ -66433,7 +66441,7 @@ Lunar Dance
 Turns Till Wish
 愿望前的回合
 Wish Heal Amount
-愿望治疗量
+愿望回复量
 Wish Maker User Index
 许愿者用户索引
 Wish Maker Party Index
