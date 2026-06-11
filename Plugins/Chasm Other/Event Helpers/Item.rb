@@ -106,7 +106,7 @@ end
 
 def useKitExpansionAuto
     if pbHasItem?(:AIDKIT) && pbHasItem?(:KITEXPANSION)
-        if pbConfirmMessageSerious(_INTL("\\i[KITEXPANSION]Use the Kit Expansion immediately?"))
+        if pbConfirmMessage(_INTL("\\i[KITEXPANSION]Use the Kit Expansion immediately?"))
 		    pbUseItem($PokemonBag,:KITEXPANSION)
         end
     end
@@ -114,7 +114,7 @@ end
 
 def useMedicalUpgradeAuto
     if pbHasItem?(:AIDKIT) && pbHasItem?(:MEDICALUPGRADE)
-        if pbConfirmMessageSerious(_INTL("\\i[MEDICALUPGRADE]Use the Medical Upgrade immediately?"))
+        if pbConfirmMessage(_INTL("\\i[MEDICALUPGRADE]Use the Medical Upgrade immediately?"))
 		    pbUseItem($PokemonBag,:MEDICALUPGRADE)
         end
     end
