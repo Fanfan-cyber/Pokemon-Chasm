@@ -12507,8 +12507,10 @@ Height = 5.4
 Weight = 683.0
 Kind = Temporal
 Pokedex = A Pokémon spoken of in legend. It is said that time began moving when Dialga was born.
+FormName = Altered
 Generation = 4
 Flags = Legendary
+Formalizer = 0,1
 #-------------------------------
 [PALKIA]
 Name = Palkia
@@ -12530,8 +12532,10 @@ Height = 4.2
 Weight = 336.0
 Kind = Spatial
 Pokedex = It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.
+FormName = Altered
 Generation = 4
 Flags = Legendary
+Formalizer = 0,1
 #-------------------------------
 [HEATRAN]
 Name = Heatran
@@ -12578,6 +12582,7 @@ Pokedex = This Pokémon is said to live in a world on the reverse side of ours, 
 FormName = Altered
 Generation = 4
 Flags = Legendary,Floating
+Formalizer = 0,1
 #-------------------------------
 [CRESSELIA]
 Name = Cresselia
@@ -12686,6 +12691,7 @@ Pokedex = The blooming of Gracidea flowers confers the power of flight upon it. 
 FormName = Land
 Generation = 4
 Flags = Legendary
+Formalizer = 0,1
 #-------------------------------
 [ARCEUS]
 Name = Arceus
@@ -18062,6 +18068,7 @@ Pokedex = Some say it can change to an even more powerful form when battling tho
 FormName = 50%
 Generation = 6
 Flags = Legendary
+Formalizer = 0,1
 #-------------------------------
 [HOOPA]
 Name = Hoopa
@@ -18086,6 +18093,7 @@ Pokedex = It gathers things it likes and passes them through its loop to telepor
 FormName = Confined
 Generation = 6
 Flags = Legendary,Floating
+Formalizer = 0,1
 #-------------------------------
 [VOLCANION]
 Name = Volcanion
