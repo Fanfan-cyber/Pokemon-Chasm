@@ -1156,6 +1156,10 @@ Description = This Pokémon is also Grass-type. When hit by an attack, the attac
 Name = Ink Spray
 Description = Upon entry, blinds all foes.
 #-------------------------------
+[INNARDSPUNCH]
+Name = Innards Punch
+Description = When hit with a move, hits back instantly with Mega Punch.
+#-------------------------------
 [INNERHEAT]
 Name = Inner Heat
 Description = Summons sunshine for four turns when hit by an attack.
