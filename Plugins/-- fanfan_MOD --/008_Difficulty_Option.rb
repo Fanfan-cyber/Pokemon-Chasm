@@ -26,14 +26,14 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Pokemon Copying
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Illusion shuffling
-  next if TA.get(:battle_loader)
+  #next if TA.get(:battle_loader)
   trainer = e[0]
   next unless trainer
   party = trainer.party
   party.shuffle! if trainer.has_illusion_pkmn?
 }
 
-STATIDORDER = [:HP,:ATTACK,:DEFENSE,:SPECIAL_ATTACK,:SPECIAL_DEFENSE,:SPEED]
+STATIDORDER = [:HP, :ATTACK, :DEFENSE, :SPECIAL_ATTACK, :SPECIAL_DEFENSE, :SPEED]
 Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Crazy Mode
   next unless TA.get(:crazymode)
   trainer = e[0]

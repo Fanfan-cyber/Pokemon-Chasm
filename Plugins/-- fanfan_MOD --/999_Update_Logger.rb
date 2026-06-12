@@ -13,9 +13,9 @@
 小游戏初始奖池
 Run and Bun式神奇糖果
 Rage Maneuvers
-Long Shot
-No Retreat
+Long Shot 90命中
 Agility 3回合先制度+1
+重做技能选择逻辑
 =end
 
 MOD_VERSION  = "0.4.7"
@@ -201,7 +201,8 @@ storymode/nostorymode，开启/关闭剧情模式
 7.Soul Stealer不再是不可变特性
 8.增加了可变物种特性的玩法
 9.现在电龙在使用Transcendant Energy之后进行替换时，不会再恢复成原本的形态了
-10.
+10.现在幻觉类特性的效果在战斗模拟器中也会应用
+11.
 
 0.4.7 Radiant Nexus / 星芒汇流 04232026
 1.增加了疯狂模式，现在可以通过输入密码crazymode开启疯狂模式，开启疯狂模式后，对手训练师的精灵将获得3倍的风格点数
