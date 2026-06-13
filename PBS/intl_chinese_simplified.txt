@@ -3583,19 +3583,19 @@ Having trouble predicting your opponent's moves, my child?
 孩子，是不是很难预测对手的技能？
 Then let me offer you a genuine mind-reader: this Yungoos!
 那就让我给你介绍一个真正的读心者：这只猫鼬少！
-No games, no tricks. Just, erm, $5000.
-不玩把戏，不搞花招。就只是，嗯，5000金钱。
+No games, no tricks. Just, erm, $3000.
+不玩把戏，不搞花招。就只是，嗯，3000金钱。
 Check your MasterDex! I'm telling you, it can read your opponent's mind!
 检查你的大师图鉴！我告诉你，它能读懂对手的想法！
-\PN hands over $5000.
-\PN交出了5000金钱。
+\PN hands over $3000.
+\PN交出了3000金钱。
 Now you will see its mystical powers!
 现在你要见识它神奇的力量了！
 Now, time to go treat myself to a salon day.
 现在，是时候去享受一下沙龙时光了。
 Make some more money and check your MasterDex! This is well worth it.
 多赚点钱，检查你的大师图鉴！这绝对值得。
-You've checked the documents and returned! Will you accept the mind-reading Yungoos for a mere $5000?
+You've checked the documents and returned! Will you accept the mind-reading Yungoos for a mere $3000?
 你查阅了文件后返回了！你会接受这只读心的猫鼬少吗？仅需5000金钱！
 Youngsters these days. So skeptical...
 现在的年轻人。真怀疑一切...
@@ -3621,8 +3621,8 @@ Look at this cool Sentret! It's so so fast!
 看这只很酷的尾立，它很快！
 It's so fast that when it KOs something, it can switch out before another Pokémon comes in!
 它快到能在击倒对手后，在下一只精灵出场前就撤退！
-I'll give you the Sentret for uh, $5000. I need a LOT of ice cream.
-我拿这只尾立给换你的，呃，5000金钱？我需要很多冰淇淋。
+I'll give you the Sentret for uh, $3000. I need a LOT of ice cream.
+我拿这只尾立给换你的，呃，3000金钱？我需要很多冰淇淋。
 But...ice cream...
 但是...冰淇淋...
 Go, Sentret! Super speed!

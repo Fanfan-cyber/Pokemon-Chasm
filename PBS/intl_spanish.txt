@@ -4333,20 +4333,20 @@ Having trouble predicting your opponent's moves, my child?
 ¿Te cuesta predecir los movimientos de tu oponente, mi niño?
 Then let me offer you a genuine mind-reader: this Yungoos!
 ¡Déjame ofrecerte un verdadero adivino: este Yungoos!
-No games, no tricks. Just, erm, $5000.
-Sin juegos, sin trucos. Solo, eh, $5000.
+No games, no tricks. Just, erm, $3000.
+Sin juegos, sin trucos. Solo, eh, $3000.
 Check your MasterDex! I'm telling you, it can read your opponent's mind!
 ¡Mira tu MasterDex! ¡No te miento, puede leer los pensamientos de tu oponente!
-\PN hands over $5000.
-\PN paga los $5000.
+\PN hands over $3000.
+\PN paga los $3000.
 Now you will see its mystical powers!
 ¡Ahora verás sus poderes místicos!
 Now, time to go treat myself to a salon day.
 Ahora, voy a regalarme un día en la peluquería.
 Make some more money and check your MasterDex! This is well worth it.
 ¡Haz algo de dinero y usa tu MasterDex! Esto vale mucho la pena.
-You've checked the documents and returned! Will you accept the mind-reading Yungoos for a mere $5000?
-¡Viste tus documentos y regresaste! ¿Aceptarás este Yungoos adivino por unos meros $5000?
+You've checked the documents and returned! Will you accept the mind-reading Yungoos for a mere $3000?
+¡Viste tus documentos y regresaste! ¿Aceptarás este Yungoos adivino por unos meros $3000?
 Youngsters these days. So skeptical...
 Los jóvenes estos días. Tan escépticos...
 It should be simple enough for many Pokemon.
@@ -4355,8 +4355,8 @@ Look at this cool Sentret! It's so so fast!
 ¡Mira a este Sentret! ¡Es tan tan rápido!
 It's so fast that when it KOs something, it can switch out before another Pokémon comes in!
 ¡Es tan rápido que cuando derrota a algo, puede cambiar antes de que otro Pokémon entre al campo!
-I'll give you the Sentret for uh, $5000. I need a LOT of ice cream.
-Te daré el Sentret por eh, $5000. Necesito MUCHO helado.
+I'll give you the Sentret for uh, $3000. I need a LOT of ice cream.
+Te daré el Sentret por eh, $3000. Necesito MUCHO helado.
 But...ice cream...
 Pero...helado...
 Go, Sentret! Super speed!

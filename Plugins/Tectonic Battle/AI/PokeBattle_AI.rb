@@ -10,6 +10,7 @@ class PokeBattle_AI
         @battle = battle
         @precalculatedChoices = {}
         @precalculatedDefensiveMatchup = {}
+        @typeModCache = {}
         @justswitched = [false,false,false,false]
         @battleArena = false
         @battlePalace = false
@@ -72,6 +73,7 @@ class PokeBattle_AI
     def resetPrecalculations
         @precalculatedChoices.clear
         @precalculatedDefensiveMatchup.clear
+        @typeModCache.clear
     end
 
     def pbPredictChoiceByPlayer(idxBattler)
