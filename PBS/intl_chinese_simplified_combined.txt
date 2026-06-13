@@ -3583,20 +3583,20 @@ Having trouble predicting your opponent's moves, my child?
 孩子，是不是很难预测对手的技能？
 Then let me offer you a genuine mind-reader: this Yungoos!
 那就让我给你介绍一个真正的读心者：这只猫鼬少！
-No games, no tricks. Just, erm, $5000.
-不玩把戏，不搞花招。就只是，嗯，5000金钱。
+No games, no tricks. Just, erm, $3000.
+不玩把戏，不搞花招。就只是，嗯，3000金钱。
 Check your MasterDex! I'm telling you, it can read your opponent's mind!
 检查你的大师图鉴！我告诉你，它能读懂对手的想法！
-\PN hands over $5000.
-\PN交出了5000金钱。
+\PN hands over $3000.
+\PN交出了3000金钱。
 Now you will see its mystical powers!
 现在你要见识它神奇的力量了！
 Now, time to go treat myself to a salon day.
 现在，是时候去享受一下沙龙时光了。
 Make some more money and check your MasterDex! This is well worth it.
 多赚点钱，检查你的大师图鉴！这绝对值得。
-You've checked the documents and returned! Will you accept the mind-reading Yungoos for a mere $5000?
-你查阅了文件后返回了！你会接受这只读心的猫鼬少吗？仅需5000金钱！
+You've checked the documents and returned! Will you accept the mind-reading Yungoos for a mere $3000?
+你查阅了文件后返回了！你会接受这只读心的猫鼬少吗？仅需3000金钱！
 Youngsters these days. So skeptical...
 现在的年轻人。真怀疑一切...
 Wait a minute sis! This loser doesn't even have two pokemon!
@@ -3621,8 +3621,8 @@ Look at this cool Sentret! It's so so fast!
 看这只很酷的尾立，它很快！
 It's so fast that when it KOs something, it can switch out before another Pokémon comes in!
 它快到能在击倒对手后，在下一只精灵出场前就撤退！
-I'll give you the Sentret for uh, $5000. I need a LOT of ice cream.
-我拿这只尾立给换你的，呃，5000金钱？我需要很多冰淇淋。
+I'll give you the Sentret for uh, $3000. I need a LOT of ice cream.
+我拿这只尾立给换你的，呃，3000金钱？我需要很多冰淇淋。
 But...ice cream...
 但是...冰淇淋...
 Go, Sentret! Super speed!
@@ -36370,7 +36370,7 @@ Attacks wildly with swords or fists. The user is exhausted on the next turn.
 The user traps itself into the battle and raises all of their stats by two steps.
 自身的全能力等级增加2级，但无法替换或逃走。
 Locks the target in and traps it. Lowers target's Defense and Sp. Def by two steps every turn.
-锁定目标并将其束缚。每回合目标的双防减小2级。
+锁定目标并将其束缚。每回合结束时，目标的双防减小2级。
 Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat by two steps.
 通过反复击打对手，使自身的拳头慢慢变硬。命中对手时，物攻增加2级。
 The user protects itself and its allies from priority moves. It always fails if it is used in succession.
@@ -36520,7 +36520,7 @@ Boulders are hurled at the target. It also lowers the target's Speed by two step
 The user launches a huge boulder at the target to attack. The user is exhausted on the next turn.
 投掷巨型岩石攻击目标。下一回合将陷入僵直。
 Summons sandstorm for six turns. Damages non-Rock, non-Ground Pokémon every turn.
-召唤持续6回合的沙暴。每回合对非岩石属性、非地面属性精灵造成伤害。
+召唤持续6回合的沙暴。每回合结束时对非岩石属性、非地面属性精灵造成伤害。
 The user lays a levitating hazard around the foe. It deals Rock-typed 1/10th HP damage.
 使用者在敌人周围设置悬浮陷阱。造成岩石属性的十分之一HP的伤害。
 The user swings its stone axes. This leaves a levitating stone hazard floating around the target.
@@ -36946,7 +36946,7 @@ The user blows a cold breath on the target. This attack always results in a crit
 The user attacks by hurling a blizzard-cloaked icicle lance at opposing Pokémon.
 向对手投掷掀起暴风雪的冰矛进行攻击。
 Summons hail for six turns. Damages non-Ice, non-Ghost-types every turn.
-召唤持续6回合的冰雹。每回合对非冰属性、非幽灵属性精灵造成伤害。
+召唤持续6回合的冰雹。每回合结束时对非冰属性、非幽灵属性精灵造成伤害。
 The target is struck with an icy-cold beam of energy. It has a 10% chance to frostbite.
 向对手发射冷冻光线进行攻击。有10%概率使对手陷入冻伤。
 The user bites with cold-infused fangs. It has a 20% chance to frostbite and a 20% chance to lower Defense by two steps.
@@ -37222,7 +37222,7 @@ The user strikes the target, then slinks into the water. The user takes 33% less
 The user causes the air around the target to explode. The move's type is changed based on the active weather.
 使目标周围的空气爆炸，根据当前天气类型决定此技能的属性。
 The user throws away up to 1000 scattered coins to bless its side, blocking random added effects and healing for 1/16th HP each turn. Lasts one turn per 100 coins.
-使用者丢弃最多1000枚散落的金钱以祝福己方，阻隔随机附加效果并每回合回复HP的1/16。每100枚金钱持续1回合。
+使用者丢弃最多1000枚散落的金钱以祝福己方，阻隔随机附加效果并在每回合结束时回复HP的1/16。每100枚金钱持续1回合。
 Alters the reality of the area to damage a foe. Puzzle Room is created for five turns.
 使用者改变区域的现实来伤害目标。开启5回合的迷惑空间。
 The user conjures up the past, transforming the target into their previous evolutionary form.
@@ -37510,7 +37510,7 @@ The user carefully lobs a small stone at high speed.
 A star falls on the target. Witnessing this lucky star also enables random critical hits and doubles the user's critical hit chance.
 让一颗星星坠落在目标身上。这颗幸运星让使用者可以随机命中要害，并使命中要害率翻倍。
 The user attacks with shards from their rocky mane. For the next three turns, the Pokémon in the targeted slot loses 1/8th of their max HP.
-使用者以岩石鬃毛的碎片发动攻击。接下来3回合，被攻击位置的精灵每回合损失最大HP的1/8。
+使用者以岩石鬃毛的碎片发动攻击。接下来3回合，被攻击位置的精灵每回合结束时损失最大HP的1/8。
 Churns nearby rocks, dealing damage to nearby Pokémon and removing hazards from both sides.
 翻搅周围的岩石，对周围精灵造成伤害，并清除掉全场的陷阱。
 The user emits a wave of green light to strike near foes. Deals double damage to those slower than the user.
@@ -37594,7 +37594,7 @@ The user attacks with bitter emotion. This lowers the target's Attack and Sp. At
 The user causes a glitch in reality. This attack always results in a critical hit.
 对现实进行干扰，必定会命中要害。
 The user loses 25% of their max HP to curse the target, damaging their HP by 25% each turn.
-损失自身25%HP来诅咒对方，使其每回合损失25%HP。
+损失自身25%HP来诅咒对方，使其每回合结束时损失25%HP。
 The user makes a dreadful bell noise, harming all near battlers with visions of impending doom.
 发出可怕的钟声，让所有附近的目标产生末日即将来临的感觉。
 The target becomes trapped, and takes 50% more damage from all attacks.
@@ -37622,7 +37622,7 @@ The user switches out using a cruel illusion. Always goes last.
 The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
 使用者打开灵魂释放巨大能量。这会使自身的特攻和特防减小2级。
 The target begins transforming into gold. They lose 1/8th HP every turn, scattering ten times as many coins as health lost.
-使目标逐渐变成金钱，金钱会散落在场上。目标每回合会失去最大HP的1/8，散落的金钱数量为失去HP的10倍。
+使目标逐渐变成金钱，金钱会散落在场上。目标每回合结束时会失去最大HP的1/8，散落的金钱数量为失去HP的10倍。
 The user makes the target hit itself by possessing its body. This move does 50% more damage if the target is asleep.
 使用者通过附身目标的身体使其攻击自己。如果目标处于睡眠，此技能伤害增加50%。
 The user summons apparitions that dance around hypnotically before they multi-hit two to five times.
@@ -37644,7 +37644,7 @@ The user heals itself by 66% of its max HP. Then, this move is disabled.
 The user suffocates the target by sucking the air from their lungs. Can random critical hit.
 使用者通过吸走目标肺中的空气使其窒息。可能随机命中要害。
 The user snips the target's connection to life in order to curse them, damaging their HP by 25% each turn.
-使用者切断目标与生命之间的联系来诅咒他们，每回合对目标造成25%最大HP的伤害。
+使用者切断目标与生命之间的联系来诅咒他们，每回合结束时对目标造成25%最大HP的伤害。
 The user thins the air around the target, depriving them of oxygen. Can random critical hit.
 使用者稀薄目标周围的空气，使其缺氧。可能随机命中要害。
 The target is pestered by a giant tongue. This has a 50% chance to numb it.
@@ -37850,7 +37850,7 @@ The target is immersed in water. This has a 30% chance to waterlog.
 The user waterlogs the target, then welcomes in rainstorm for eight turns.
 使用者使目标陷入浸水，并开启持续8回合的雨天。
 The user opens a spring to blast the target, also forming an Aqua Ring around themselves, healing 10% HP per turn.
-打开一眼泉水攻击对手，同时给自身一个水流环，每回合回复10%HP。
+打开一眼泉水攻击对手，同时给自身一个水流环，使自身在每回合结束时回复10%HP。
 Attacks with pressurized water. Deals 50% more damage if the user has been hurt by the foe in the same turn.
 使用加压水枪进行攻击，如果此回合内被对方攻击过，则伤害增加50%。
 Summons rainstorm for six turns, boosting Water-type attacks and hindering most others.
@@ -37864,9 +37864,9 @@ The user rips the target, lowering their Defense by two steps. After attacking, 
 Strikes the target with harbor waters, then summons rainstorm for eight turns.
 使用港湾中的海水攻击对方，并开启持续8回合的雨天。
 The user rests in a riverbed, restoring its HP by half of max, and forming an Aqua Ring around themselves, healing 10% HP per turn.
-在河床附近休息，回复一半的最大HP，并给自身一个水流环，每回合回复10%HP。
+在河床附近休息，回复一半的最大HP，并给自身一个水流环，使自身在每回合结束时回复10%HP。
 The user communes with all the world's water, waterlogging the target and forming an Aqua Ring around themselves, healing 10% HP per turn.
-使用者与世间万水共鸣，使目标陷入浸水并在自身周围形成水流环，每回合恢复10%HP。
+使用者与世间万水共鸣，使目标陷入浸水并在自身周围形成水流环，每回合结束时回复10%HP。
 The user attacks with a wave of murky water, which hits all near foes and lowers their Speed by two steps.
 发射一股浑浊的水流，攻击对方并使它们的速度减小2级。
 The target is crushed in the user's shell, mouth, or claws, trapping and binding it for three turns.
@@ -37884,9 +37884,9 @@ The target is doused with water in order to waterlog it.
 The user crashes into the target with the force of a large wave. This has a 30% chance to lower Defense.
 使用者以大浪的冲击力撞向目标。有30%概率减小目标的物防。
 The user attacks the target using graceful fluid movements, also forming an Aqua Ring around themselves, healing 10% HP per turn.
-用流畅优美的动作攻击对手，并给自身一个水流环，每回合回复10%HP。
+用流畅优美的动作攻击对手，并给自身一个水流环，使自身在每回合结束时回复10%HP。
 The user's song heals the non-volatile status conditions of all party Pokémon, and forms an Aqua Ring around itself, healing 10% HP per turn.
-用回复之歌回复全队异常状态，同时形成每回合回复10%HP的水流环。
+用回复之歌回复全队异常状态，同时形成水流环，使自身在每回合结束时回复10%HP。
 The target is inundated with a wave of seaweater. This has a 30% chance to waterlog.
 目标被一股海水淹没。有30%概率使目标陷入浸水。
 The user rides a wave, then crashes into the target. Has a 40% chance to cause a flinch.
@@ -37940,7 +37940,7 @@ The user kicks into the target like roots into earth. This has a 30% chance of l
 Halves attack damage taken this turn. Leeches any attackers. Fails if used successively.
 该回合受到的攻击伤害减半，使攻击者陷入寄生。连续使用则失败。
 Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The user becomes trapped.
-铺设根须，每回合吸收敌方1/8的HP来回复使用者，但使用者会陷入束缚状态。
+铺设根须，每回合结束时吸收敌方1/8的HP来回复使用者，但使用者会陷入束缚状态。
 Saps an enemy lured into its jaws. If they hit the user this turn, the user's HP is restored by 66% the damage dealt.
 会吸取被诱入其颚中的对手的能量。如果对手该回合攻击了使用者，使用者的HP回复造成伤害的66%。
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get leeched.
@@ -38388,7 +38388,7 @@ An enchanting outcry. Can't miss and skips protections.
 The user dances vigorously, raising all its stats by three steps. The user’s stat steps are reset two turns later.
 使用者热烈舞蹈，全能力等级增加3级。使用者的能力等级在2回合后会重置。
 A patch of medicinal flowers sprouts across the battlefield. This heals every Pokémon for 1/8th HP each turn for five turns.
-使周围催生出一片草药花海，5回合内每回合回复所有精灵1/8最大HP。
+使周围催生出一片草药花海，5回合内每回合结束时回复所有精灵1/8最大HP。
 The user makes a fool out of the target. This has a 50% chance of jinxing them.
 使用者使目标出丑。有50%概率使目标陷入不幸。
 The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
@@ -40635,13 +40635,13 @@ A held item. Signature attacks made by the holder are boosted by 40%.
 A held item. The holder recovers 30% more HP from draining moves, Aqua Ring, and leech.
 一种携带物。携带者通过吸取类技能、水流环和寄生回复的HP增加30%。
 Item that restores the HP of Poison-types by 1/16th. Inflicts 1/8th damage on other types.
-使毒属性精灵每回合回复1/16HP，对其他属性精灵造成1/8HP伤害。
+回合结束时，使毒属性精灵回复1/16HP，对其他属性精灵造成1/8HP伤害。
 A held item. The holder's HP is restored by 1/16th at the end of each turn.
-一种携带物。携带后，每回合结束时回复1/16HP。
+一种携带物。携带后，回合结束时回复1/16HP。
 A held item. The holder restores 1/5th HP of the damage it deals with moves.
 一种携带物。会使携带者通过技能造成伤害时回复伤害的1/5的HP。
 A held item. At half health, the holder breaks the balloon and gains an Aqua Ring, healing 10% HP per turn.
-一种携带物。携带后，HP在一半以下时，被击后获得水流环，使每回合回复10%HP。
+一种携带物。携带后，HP在一半以下时，被击后获得水流环，使自身在每回合结束时回复10%HP。
 A held item. It snaps the holder out of a variety of mental warping effects.
 一种携带物。携带它的精灵会回复心控状态一次。
 A held item. It restores any lowered stat in battle.
@@ -40693,7 +40693,7 @@ A held item. A bizarre orb that inflicts frostbite on the holder at the end of a
 A held item. A bizarre orb that inflicts poison on the holder at the end of a turn.
 一种携带物。触碰后会放出剧毒的神奇宝珠。携带后，在战斗时会陷入中毒。
 A held item that damages the holder on every turn. It may latch on to Pokémon that attacks the holder.
-一种携带物。携带后，每回合都会受到伤害。有时也会附着到碰到自身的对手身上。
+一种携带物。携带后，每回合结束时都会受到伤害。有时也会附着到碰到自身的对手身上。
 A held item. When the holder's stats are lowered, it will be switched out of battle.
 一种携带物。当携带它的精灵的能力等级被减小时，同行的精灵就会自动替换出场。
 These boots prevent the effects of hazards set on the battlefield.
@@ -41259,11 +41259,11 @@ Damages attackers for 1/3rd of their HP when they hit the holder with special at
 If held by a Pokémon, it heals its HP by 50% at half health.
 携带后，当HP小于一半时，回复一半HP。
 Halves the damage from one supereffective Fairy-type attack. Holder heals 1/16th HP each turn.
-携带后每回合回复1/16HP，可减小一次妖精属性攻击的伤害。
+携带后，回合结束时回复1/16HP，可减小一次妖精属性攻击的伤害。
 Halves the damage from one supereffective Fire-type attack. Holder heals 1/16th HP each turn.
-携带后每回合回复1/16HP，可减小一次火属性攻击的伤害。
+携带后，回合结束时回复1/16HP，可减小一次火属性攻击的伤害。
 Halves the damage from one supereffective Ground-type attack. Holder heals 1/16th HP each turn.
-携带后每回合回复1/16HP，可减小一次地面属性攻击的伤害。
+携带后，回合结束时回复1/16HP，可减小一次地面属性攻击的伤害。
 Held to recover from a status problem once per battle. Then, all of the holder's stats are raised by two stages.
 携带后可回复异常状态，并大幅度增加全属性。
 If held by a Pokémon which goes below 50% health, it maximizes its Speed stat.
@@ -41271,41 +41271,41 @@ If held by a Pokémon which goes below 50% health, it maximizes its Speed stat.
 A brilliant gem. Boosts the power of an attacking move by 50% once per battle.
 使第一次攻击的伤害增加50%。
 Boosts the power of a Normal move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次一般属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次一般属性技能的威力增加50%。
 Boosts the power of a Fire move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次火属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次火属性技能的威力增加50%。
 Boosts the power of a Water move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次水属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次水属性技能的威力增加50%。
 Boosts the power of a Grass move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次草属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次草属性技能的威力增加50%。
 Boosts the power of a Electric move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次电属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次电属性技能的威力增加50%。
 Boosts the power of a Ice move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次冰属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次冰属性技能的威力增加50%。
 Boosts the power of a Fighting move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次格斗属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次格斗属性技能的威力增加50%。
 Boosts the power of a Poison move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次毒属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次毒属性技能的威力增加50%。
 Boosts the power of a Ground move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次地面属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次地面属性技能的威力增加50%。
 Boosts the power of a Flying move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次飞行属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次飞行属性技能的威力增加50%。
 Boosts the power of a Psychic move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次超能属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次超能属性技能的威力增加50%。
 Boosts the power of a Bug move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次虫属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次虫属性技能的威力增加50%。
 Boosts the power of a Rock move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次岩石属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次岩石属性技能的威力增加50%。
 Boosts the power of a Ghost move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次幽灵属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次幽灵属性技能的威力增加50%。
 Boosts the power of a Dark move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次恶属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次恶属性技能的威力增加50%。
 Boosts the power of a Dragon move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次龙属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次龙属性技能的威力增加50%。
 Boosts the power of a Steel move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次钢属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次钢属性技能的威力增加50%。
 Boosts the power of a Fairy move by 50% once per battle. Holder heals 1/16th HP each round.
-每回合回复1/16HP，使一次妖精属性技能的威力增加50%。
+回合结束时回复1/16HP，使一次妖精属性技能的威力增加50%。
 A held item. Restores any lowered stats, then heals the holder by 50% HP.
 一种携带物。携带后，回复被减小的能力等级，并回复一半HP。
 While held, terrains set by the holder do not expire.
@@ -41335,11 +41335,11 @@ A held item. In battles, it sets the holder's base Sp. Atk and base Sp. Def stat
 An ancient scroll that makes the user that boosts the holder's supereffective moves by 20%.
 携带者的效果拔群的技能威力增加20%。
 The holder's HP is restored by 1/8th each turn, and takes a third less damage at full HP. The holder won't drop it.
-携带者每回合回复1/8HP，满血时减小受到的伤害，且此物品不会被移除。
+携带者回合结束时回复1/8HP，满血时减小受到的伤害，且此物品不会被移除。
 An item to be held by a Pokémon. Protective moves like Light Screen and Reflect will be effective for 6 turns longer.
 一种携带物。使屏障类技能的持续时间增加6回合。
 User heals 1/16th HP every turn. Will sacrifice itself to cure the user of status.
-携带后每回合回复1/16HP，可抵消一次异常状态。
+携带后，回合结束时回复1/16HP，可抵消一次异常状态。
 Boosts the power of light and slice moves by 50%.
 使光类与切割类技能的威力增加50%。
 An empty vessel. It is freezing cold to the touch.
@@ -43033,7 +43033,7 @@ Summons rainstorm for four turns upon entry.
 Summons sunshine for four turns upon entry.
 出场时，将天气变为晴天，持续4回合。
 Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves. Loses 1/8th in sunshine, Fire-type moves do 25% more.
-雨天时，每回合HP回复八分之一，被水属性技能命中时，回复四分之一。晴天时，每回合HP失去八分之一，被火属性技能攻击时，伤害增加25%。
+雨天时，回合结束时HP回复1/4，被水属性技能命中时，回复1/4。晴天时，回合结束时HP失去1/8，被火属性技能攻击时，伤害增加25%。
 Switches out if its HP is lowered below half.
 HP变为一半时，会慌慌张张逃走，退回同行队伍中。
 Powers up each Pokémon's Fairy-type moves by 33%.
@@ -43061,7 +43061,7 @@ Normal-type moves become Electric-type and power up by 30%.
 Will eat berries normally eaten at 25% HP (in a pinch) at 50% instead.
 会在HP一半时就吃掉原本HP在1/4时才会吃掉的树果。
 Physical moves against it lower the attacker's Speed and Attack.
-被物理类技能攻击时，使攻击者的速度和物攻减小1级。
+被物理类技能攻击时，攻击者的速度和物攻减小1级。
 Boosts Attack by 40% but the user is locked into the first move they use.
 物攻增加40%，但被锁定为只能使用第一次使用的技能。
 Boosts Sp. Atk after knocking out any Pokémon.
@@ -43069,11 +43069,11 @@ Boosts Sp. Atk after knocking out any Pokémon.
 Doubles this Pokémon's weight.
 体重翻倍。
 It alternates between an Electric-type Mode and a Dark-type Mode.
-每回合结束时会在满腹花纹与空腹花纹之间交替改变样子。
+回合结束时会在满腹花纹与空腹花纹之间交替改变样子。
 Boosts move damage by 50%, but lowers Accuracy by 20%.
 技能伤害增加50%，但是命中率减小20%。
 Heals non-volatile status conditions each turn if in rainstorm.
-雨天时，每回合回复异常。
+雨天时，回合结束时，回复异常。
 Doubles this Pokémon's Sp. Def.
 特防翻倍。
 Comes out disguised as the Pokémon in the party's last spot.
@@ -43097,7 +43097,7 @@ Reflects enemy status moves that target this Pokémon or create hazards around i
 This Pokémon only takes damage from attacks.
 只会受到技能攻击的伤害。
 Steals the held item of a Pokémon it hits.
-夺走被自身的技能命中的对手的物品。
+攻击时，夺走对手的物品。
 Boosts the power of pulse moves by 50%.
 脉冲类技能的威力增加50%。
 Its attacks are critical against poisoned targets.
@@ -43137,7 +43137,7 @@ When an ally faints, this Pokémon also gains their ability or abilities.
 Powers up nearby allies' moves by 30%.
 使周围队友的技能威力增加30%。
 Gives priority to status moves, but makes Dark-types immune to them.
-使变化类技能先制度加1，但是恶属性的精灵会免疫受加成的技能。
+使变化类技能先制度+1，但是恶属性的精灵会免疫受加成的技能。
 This Pokémon raises the foe's PP usage.
 增加对手使用技能所消耗的PP。
 Summons Heavy Rain, which prevents most moves' random added effects. Lingers for three turns after leaving.
@@ -43191,7 +43191,7 @@ Doubles the critical hit chance of random crit moves. Powers up critical hits by
 Summons a hailstorm for four turns upon entry.
 出场时，开启持续4回合的冰雹。
 In sunshine, Sp. Atk is boosted by 50%, but this Pokémon is hurt for 1/10th HP each turn.
-晴天时，特攻增加50%，但每回合损失HP的十分之一。
+晴天时，特攻增加50%，但回合结束时会损失HP的1/10。
 Boosts Sp. Atk each time a Pokémon faints.
 每当有精灵变为濒死状态时，特攻增加1级。
 Speed is raised by two steps at the end of each of its turns.
@@ -43233,7 +43233,7 @@ Every other turn, this Pokémon can't use any move but Slack Off.
 Ignores modified Defense and Sp. Def while attacking, and ignores modified Attack and Sp. Atk while being attacked.
 攻击时，无视对手增加或者减小的双防，被攻击时，无视对手增加或者减小的双攻。
 Doubles this Pokémon's Speed if its held item is consumed or lost.
-如果该精灵的携带物被消耗或失去，速度翻倍。
+如果该精灵的物品被消耗或失去，速度翻倍。
 Makes the foe nervous and unable to eat Berries or Leftovers.
 让对手紧张，使其无法食用树果或剩饭。
 Physical moves negate all protection effects.
@@ -43309,11 +43309,11 @@ Doubles Sp. Def, but this Pokémon can't use status moves.
 During eclipse, it restores its HP by half the damage it deals with attacks.
 日食时，回复自身攻击造成伤害的一半的HP。
 Attacks this Pokémon uses that don't share a type with it are boosted by 50%. It can't use attacks of its own types.
-无法使用与自身属性相同的技能，使用不同属性的技能时，伤害增加50%。
+无法使用与自身属性相同的技能。使用与自身属性不同的技能时，伤害增加50%。
 At the beginning of every 5th turn, this Pokémon forcibly switches into battle. It chooses which move it will use that turn.
 每到第5回合开始时，会强制加入战斗，会自主选择该回合使用的技能。
 At the end of every turn, its stats shift position (Attack-> Defense -> Sp. Atk -> Sp. Def -> Speed -> Attack...)
-每回合结束后，能力都会发生转换。(物攻->物防->特攻->特防->速度->物攻...)
+回合结束时，能力发生转换。(物攻->物防->特攻->特防->速度->物攻...)
 Healing on this Pokémon is reversed.
 反转自身受到的回复类效果。
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become waterlogged.
@@ -43377,7 +43377,7 @@ Takes 30% less move damage from Pokémon that are shorter than it.
 Self-destructing at full health leaves it at 1 HP.
 在满HP时自爆，会留下1HP。
 Receives 33% less move damage, but this Pokémon is hurt for 1/10th HP each turn.
-受到的技能伤害减小33%，但每回合损失HP的十分之一。
+受到的技能伤害减小33%，但回合结束时会损失HP的1/10。
 Has a 30% chance to burn targets when using physical moves.
 使用物理类技能时，有30%概率使对方陷入烧伤。
 During hail, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
@@ -43481,11 +43481,11 @@ This Pokémon is immune to Ground-type moves and takes 20% less damage in sandst
 Prevents Water- or Grass-type moves during sandstorm.
 沙暴时，使水、草属性的技能失效。
 Enemies which swap in take damage equal to 1/8th their HP.
-换人入场的对手将会受到其1/8最大HP的伤害。
+在场时，出场的对手将会受到其1/8最大HP的伤害。
 Light moves hit a second time for 33% damage if this Pokémon is protected by a screen.
 若该精灵受到屏障类效果的保护，它的光类技能会以33%的伤害额外攻击一次。
 At the end of each turn, its Sp. Atk is lowered. Then, you choose to raise its Speed or heal it for 1/5th HP.
-每回合结束时特攻减小，但会增加其速度或回复20%HP。
+回合结束时，特攻减小1级，速度增加1级或者回复20%HP（自选）。
 This Pokémon gains an extra turn whenever it gains a non-volatile status condition or becomes trapped.
 当陷入异常状态或者被束缚时，可以额外行动一次。
 When this Pokémon flinches a target that has already moved, it will flinch next turn.
@@ -43533,7 +43533,7 @@ Boosts the power of pulse moves by 30%.
 Uses Lightning Dance if an attack lowers its HP below half.
 被攻击使HP减小到一半以下时，使用闪电舞。
 Upon entry, creates an Emotion Room for four turns, which swaps each Pokémon's ability to its other ability each turn.
-出场时，开启持续4回合的情感空间，所有精灵每回合会交换自身的特性。
+出场时，开启持续4回合的情感空间，所有精灵回合结束时会交换自身的特性。
 When a foe switches to replace a fainted Pokémon, gives information about the switch and lets you switch beforehand.
 当对手因精灵濒死而替换新的精灵时，获得新精灵的信息，然后我方可以在新精灵出场之前进行一次替换。
 Can't be numbed, waterlogged, or have its Speed reduced.
@@ -43559,13 +43559,13 @@ Powers up super-effective or hyper-effective moves by 30%.
 Upon entry, this Pokémon heals itself for 1/4th max HP. This can overheal.
 出场时，回复自身最大HP的1/4，可以过量回复。
 Increases Attack by 50%, but this Pokémon is hurt for 1/10th HP each turn.
-物攻增加50%，但每回合损失HP的十分之一。
+物攻增加50%，但回合结束时会损失HP的1/10。
 Increases Sp. Atk by 50%, but this Pokémon is hurt for 1/10th HP each turn.
-特攻增加50%，但每回合损失HP的十分之一。
+特攻增加50%，但回合结束时会损失HP的1/10。
 Heals by 1/8th of its max HP each turn if in eclipse.
-日食时，每回合回复1/8最大HP。
+日食时，回合结束时回复1/8最大HP。
 Boosts the power of kick and light moves by 50%, but this Pokémon is hurt for 1/10th HP each turn.
-踢类和光类技能威力增加50%，但该精灵每回合受到最大HP的1/10的伤害。
+踢类和光类技能威力增加50%，但该精灵回合结束时会受到最大HP的1/10的伤害。
 Prevents itself and allies from being burned, frostbitten, or numbed.
 自身和队友不会被烧伤、冻伤或麻痹。
 Upon entry, gains your choice of Fighting-, Dark-, or Fairy-type.
@@ -43601,9 +43601,9 @@ This Pokémon is also Fire-type.
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become burned.
 特防增加20%。当被同1精灵第2次特殊类技能攻击时，攻击者将陷入烧伤。
 Heals 1/16th HP every turn. Protected from being numbed or waterlogged.
-每回合回复1/16的HP，并且不会陷入麻痹和浸水。
+回合结束时回复1/16的HP，并且不会陷入麻痹和浸水。
 Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves. Loses 1/8th in rainstorm, Water-type moves do 25% more.
-晴天时，每回合HP回复八分之一，被火属性技能命中时，回复四分之一。雨天时，每回合HP失去八分之一，被水属性技能攻击时，伤害增加25%。
+晴天时，回合结束时HP回复1/8，被火属性技能命中时，回复1/4。雨天时，回合结束时HP失去1/8，被水属性技能攻击时，伤害增加25%。
 At the end of every turn, each Pokémon takes 1/8th HP damage. This is treated as Fire-type.
 回合结束时，每只精灵受到1/8最大HP的火属性伤害。
 Immune to Fire-type moves and raises Attack and Sp. Atk if hit by one.
@@ -43617,7 +43617,7 @@ On the first turn, its attacks frostbite the target.
 Attacks this Pokémon uses that don't share a type with it are boosted by 30%.
 使用非本属性技能时，威力增加30%。
 Grows at the end of each turn, slowing down but improving other stats.
-每回合结束时长大，变成速度更小，但其他能力更大的形态。
+回合结束时长大，变成速度更小，但其他能力更大的形态。
 Doubles Attack, but this Pokémon becomes dizzy after attacking.
 物攻翻倍，但攻击后将陷入混乱。
 Upon entry, summons a Cruel Cocoon on this Pokémon's side for six turns.
@@ -43671,7 +43671,7 @@ Foes that become numbed are severely so. This Pokémon's Flying-type moves have 
 Completely protects allies from foes' spread moves.
 保护队友不受对手的扩散类技能的攻击。
 Turns the held item of a Pokémon it hits into scattered gold coins for you to take.
-攻击时，目标的携带物会变成金钱，金钱会散落在场上。
+攻击时，目标的物品会变成金钱，金钱会散落在场上。
 Foes that become frostbitten are severely so. This Pokémon's Flying-type moves have a 30% chance to severely frostbite.
 陷入冻伤的对手将陷入重度冻伤。飞行属性技能有30%的概率使目标重度冻伤。
 Immune to Fire-type moves and raises Defense and Sp. Def if hit by one.
@@ -43683,7 +43683,7 @@ Draining moves deal 30% more damage. Can overheal when draining.
 This Pokémon's Speed is doubled while using wind-based moves.
 使用风类技能时，速度翻倍。
 Eats pinch berries earlier than normal. Gets a random pinch berry at the end of each turn if it has no item.
-会更早吃掉树果，如果没有携带物，回合结束时会随机获得一个危急时会吃下的树果。
+在一半HP时就会吃掉危急树果。如果没有物品，回合结束时会随机获得一个危急树果。
 While this Pokémon is on the field, super-effective or hyper-effective moves are boosted by 50%.
 在场时，效果拔群和效果绝佳技的能威力增加50%。
 Upon entry, intensifies gravity for four turns.
@@ -43697,7 +43697,7 @@ Raises Sp. Def when hit by an attack.
 Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
 每当有精灵使用舞蹈类技能时，双攻增加1级。
 Heals 1/16th HP every turn. Protected from being poisoned.
-每回合HP回复1/16，并且不会陷入中毒。
+回合结束时HP回复1/16，并且不会陷入中毒。
 When suffering from recoil, this Pokémon cannot go below 1 HP.
 受到反伤时，HP不会小于1。
 During hail, this Pokémon takes 50% less move damage, but its Speed is halved.
@@ -43727,7 +43727,7 @@ Immune to Dark-type moves and boosts Attack and Sp. Atk when hit by one.
 Changes the weather to Ice Age, which damages and prevents healing. Lingers for three turns after leaving.
 将天气变为冰河时代，天气会造成伤害并且阻止精灵回复。离场后持续3回合。
 Heals by 1/8th of its max HP each turn if in sunshine.
-晴天时，每回合回复最大HP的1/8。
+晴天时，回合结束时回复最大HP的1/8。
 Doubles this Pokémon's Sp. Def in sunshine.
 晴天时，特防翻倍。
 Boosts the power of kicking moves by 30%. Immune to hazards.
@@ -43771,7 +43771,7 @@ Doubles Sp. Def in hail.
 During hail, it restores its HP by half the damage it deals with attacks.
 冰雹时，回复攻击造成的伤害的一半HP。
 Each turn, raises Speed by three steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
-每回合结束时，速度增加3级，HP减小1/8，如果速度已达到最大等级，重置速度并回复全部HP。
+回合结束时，速度增加3级，HP减小1/8，如果速度已达到最大等级，重置速度并回复全部HP。
 Boosts Sp. Atk by 30% in moonglow.
 在月辉时，特攻增加30%。
 Raises Speed by four steps when a stat is lowered by a foe.
@@ -43859,15 +43859,15 @@ Protected from critical hits. Can't be burned or frostbitten.
 Doubled Speed if any enemy has a non-volatile status condition.
 如果任何对手有异常，速度翻倍。
 Deals 50% more damage to targets that switched in this turn. Takes 50% less damage if it switched in this turn.
-对该回合换出的精灵造成额外伤害，如果自身在该回合换出，减小50%受到的伤害。
+对该回合换出的精灵造成的伤害增加50%。自身出场的回合受到的伤害减小50%。
 Doubles the damage and recoil of recoil moves.
 使用反伤类技能时，伤害和反伤都会翻倍。
 When this Pokémon charges and becomes hidden, it heals for 25% HP. This can overheal.
 当使用蓄力类技能并且隐藏时，回复25%的HP，可以过量回复。
 Boosts Speed by 50%, but this Pokémon is hurt for 1/10th HP each turn.
-速度增加50%，但每回合损失HP的十分之一。
+速度增加50%，但回合结束时会损失HP的1/10。
 Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
-不会被命中要害。被攻击后每回合回复1/12HP。
+不会被命中要害。被攻击后，每回合结束时回复1/12HP。
 Multi-hit moves can hit up to twice as many times.
 多段伤害类技能最多可以打出原先最大次数的2倍的次数。
 Copies the Ability of the Pokémon it switches in to replace.
@@ -43889,7 +43889,7 @@ Boosts Attack by 30% in moonglow.
 Draws in moves from foes with non-volatile status conditions.
 吸引处于异常状态的对手的技能。
 At end of turn, heals 1/12th HP if holding a clothing item.
-在回合结束时，若携带衣物类物品，则回复1/12的HP。
+回合结束时，若携带衣物类物品，则回复1/12的HP。
 This Pokémon's Speed is doubled while using Sound-based moves.
 使用声音类技能时，速度翻倍。
 Pokémon that swap in for this have their Attack and Sp. Atk raised.
@@ -43935,15 +43935,15 @@ This Pokémon is also Fire-type. Powers up moves of the same type by 33%.
 When hit by another Pokémon, destroys one of their items.
 被其他精灵命中时，会破坏对方的一个物品。
 Heals 1/8th of its max HP each turn if in moonglow.
-在月辉下每回合回复1/8的HP。
+月辉时，回合结束时回复1/8的HP。
 This Pokémon and its allies take 25% less move damage during moonglow.
 月辉时，自身和队友受到的技能伤害减小25%。
 Summons moonglow for four turns upon entry.
-出场时，开启月辉，持续4回合。
+出场时，开启持续4回合月辉。
 When the Full Moon rises, heals for 50% of its total HP. This can overheal.
 满月时，回复总HP的50%，可以过量回复。
 Heals 1/8th of its max HP each turn in a hail.
-冰雹时，每回合回复1/8的HP。
+冰雹时，回合结束时回复1/8的HP。
 While this Pokémon is below half health, takes 33% less damage from attacks.
 当HP小于一半时，受到的攻击伤害减小33%。
 This Pokémon's Psychic-type attacks become spread and deal 35% more damage.
@@ -43965,7 +43965,7 @@ Doubles Speed in moonglow.
 Boosts Speed by 50% in moonglow. Can't miss during moonglow.
 在月辉下增加50%的速度，且攻击必中。
 In moonglow, Attack is boosted by 50%, but this Pokémon is hurt for 1/10th HP each turn.
-月辉时，物攻增加50%，但每回合损失HP的十分之一。
+月辉时，物攻增加50%，但回合结束时损失HP的1/10。
 During moonglow, this Pokémon is twice as likely to crit and its Speed is boosted by 50%.
 月辉时，命中要害率翻倍，速度增加50%。
 Deals no damage to a target while they are using a status move.
@@ -43985,7 +43985,7 @@ On the first turn, its attacks cause the target to flinch.
 Prevents stat steps from being lowered (except when self-inflicted). This Pokémon's weight is doubled.
 防止能力等级减小效果（自降除外）。体重翻倍。
 This Pokémon's stat steps are inverted at the end of every turn.
-每回合结束时，能力等级会反转。
+回合结束时，能力等级会反转。
 This Pokémon is also Fairy-type.
 为自身增加妖精属性。
 After knocking out any Pokémon, raises its Attack and Speed.
@@ -43999,7 +43999,7 @@ Boosts Sp. Atk by 30%, but lowers Sp. Atk after using a special move.
 Boosts Sp. Atk by 30% in rainstorm.
 雨天时，特攻增加30%。
 Heals this Pokémon's non-volatile status conditions each turn if in sunshine.
-晴天时，每回合结束时，回复异常状态。
+晴天时，回合结束时，回复异常状态。
 This Pokémon refuses to fight. However, it gathers extra candy when trainers flee.
 拒绝战斗。当训练师逃跑时，会获得额外的糖果。
 This Pokémon receives 33% less move damage if there is an active Room.
@@ -44048,6 +44048,8 @@ During eclipse, immune to non-volatile status conditions and stat reductions.
 日食时，免疫异常和能力等级减小效果。
 At the first chance, copies an opponent's species' legal Abilities.
 复制对手的所有特性。
+At the first chance, copies the legal Abilities of the Pokémon it is facing.
+复制面对的对手的所有合法特性。
 Immune to Poison-type moves and restores 25% of max HP if hit by one.
 免疫毒属性技能，被毒属性技能攻击时，回复1/4的HP。
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become poisoned.
@@ -44103,9 +44105,9 @@ Ignores screens, Substitute, and Abilities that would affect its moves.
 On the first turn, its attacks poison the target.
 出场第一回合的攻击会使目标陷入中毒。
 Heals 1/8th HP every turn if hit by an attack.
-被攻击时，每回合恢复HP的八分之一。
+被攻击时，每回合结束时，回复HP的1/8。
 Lays an electrical hazard around the opponent when this Pokémon's HP is lowered below half.
-当HP减小到一半以下时，在对手场上设置电气陷阱。
+当HP减小到一半以下时，在对手场上设置带电导线。
 Boosts the power of slice moves by 30%. They're twice as likely to crit.
 切割类技能威力增加30%，命中要害率翻倍。
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks.
@@ -44145,7 +44147,7 @@ Has a 30% chance to burn targets when using special moves.
 When this Pokémon eats a Berry, it raises its Attack and Sp. Atk by two steps.
 这吃下树果时，双攻增加2级。
 Heals 1/8th of its max HP each turn during sandstorm.
-沙暴时，每回合回复1/8的HP。
+沙暴时，回合结束时回复1/8的HP。
 Immune to Rock-type moves and to Stealth Rock, and raises Speed whenever one would hit it.
 受到岩石属性技能攻击时，免疫伤害并增加速度。
 While this Pokémon is active, Rooms do not decay.
@@ -44223,7 +44225,7 @@ Punching moves change this Pokémon's secondary type and their power is boosted 
 When this Pokémon charges and becomes hidden, it lowers the Attack and Sp. Atk of all foes.
 该精灵蓄力并隐藏时，使所有对手的双攻减小1级。
 Special moves against it lower the attacker's Speed and Sp. Atk.
-被特殊类技能攻击时，使攻击者的速度和特攻减小1级。
+被特殊类技能攻击时，攻击者的速度和特攻减小1级。
 This Pokémon and other battlers don't benefit from same-type attacking bonus.
 所有精灵失去本属性加成。
 Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
@@ -44233,7 +44235,7 @@ Doubles critical hit chance. Restores HP for half the damage it does with critic
 Takes 30% less damage from all tagged moves.
 受到的所有具有标签分类的技能的伤害减小30%。
 At the end of each round, lowers other waterlogged Pokémon's Attack and Sp. Atk by two steps.
-在每回合结束时，使其他处于浸水状态的精灵的双攻减小2级。
+回合结束时，使其他处于浸水状态的精灵的双攻减小2级。
 On the first turn, its attacks leech the target.
 出场第一回合的攻击会使对手陷入寄生。
 After using a sound move, lowers one of each foe's Attack and Sp. Atk, whichever is higher.
@@ -44281,7 +44283,7 @@ This Pokémon and its allies' moves are twice as likely to be critical.
 Leaves two hazard layers of Spikes after self-destructing.
 使用自爆类技能后，在场上留下2层菱。
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost.
-每回合速度增加1级，被攻击时自身的速度能力等级还原，每还原1级速度，攻击者就受到1/8HP的伤害。
+回合结束时速度增加1级，被攻击时自身的速度能力等级还原，每还原1级速度，攻击者就受到1/8HP的伤害。
 Foes that attack this Pokémon while it is hidden take 25% HP damage.
 处于隐藏状态被攻击时，攻击者会受到25%HP的伤害。
 After attacking the same foe twice, they become trapped for three turns, and this Pokémon heals 33% HP. This can overheal.
@@ -44317,7 +44319,7 @@ Pokémon that swap in for this have their Speed raised.
 This Pokémon's moves deal 20% more damage and ignore abilities that would affect them. Its moves can't be redirected.
 该精灵的技能伤害增加20%，并无视会影响到该精灵的特性。该精灵的技能不会被吸引。
 At the end of each turn, if it has no item, gets a random gem that matches the type of one of its attacking moves.
-每回合结束时，如果该精灵没有物品，随机获得一个与其技能相匹配的宝石。
+回合结束时，如果该精灵没有物品，随机获得一个与其技能相匹配的宝石。
 Makes foes stressed and unable to use their items.
 使对手的物品失效。
 Doubles Defense, but this Pokémon can't use status moves.
@@ -44343,7 +44345,7 @@ If an attack lowers its HP below half, the attacker enters a sugar rush for four
 After knocking out any Pokémon, summons sunshine for four turns.
 打倒对手时，开启持续4回合的晴天。
 At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
-在阳光下的每个回合结束时，所有不免疫阳光的负面效果的精灵的双防减小1级。
+晴天时，回合结束时，所有不免疫晴天的负面效果的精灵的双防减小1级。
 Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine.
 晴天时，速度增加50%，受到的反伤减半。
 Summons eclipse for four turns when hit by an attack.
@@ -44369,7 +44371,7 @@ Immune to Steel-type moves and boosts Attack and Sp. Atk when hit by one.
 During hail, boosts Speed and Grass-type damage by 50%.
 冰雹时，速度和草属性伤害增加50%。
 When hit, the attacker's Speed is reduced, and this Pokémon's next attack against them is boosted by 30%.
-被击时，使攻击者的速度减小1级，该精灵下次对攻击者的攻击伤害增加30%。
+被击时，攻击者的速度减小1级，该精灵下次对攻击者的攻击伤害增加30%。
 Every three turns it gets to move twice.
 每3回合可以额外行动一次。
 At the end of each round, lowers other numbed Pokémon's Defense and Sp. Def by two steps.
@@ -44381,7 +44383,7 @@ Boosts damage by 20% if there is a weather. Immune to weather downsides.
 Becomes energized upon entry, doubling the power of its next Electric-type attack.
 出场时，进入能量充盈状态，下次电属性技能威力翻倍。
 Heals 1/16th HP every turn. Takes half damage from Fire- and Ice-type moves.
-每回合回复HP的1/16。受到的火属性和冰属性技能的伤害减半。
+回合结束时，回复HP的1/16。受到的火属性和冰属性技能的伤害减半。
 By sacrificing a held item this Pokémon didn't start with, it can negate one attack against it.
 通过消耗一个非出场前携带的物品，可以防止一次针对它的攻击。
 Becomes energized when hit by an attack, doubling the power of its next Electric-type attack.
@@ -44457,7 +44459,7 @@ This Pokémon's Dragon-type attacks become spread and drain 33% HP.
 Heals non-volatile status conditions and resets stat changes after knocking out any Pokémon.
 打倒对手时，回复异常并重置能力等级。
 At the end of each turn, itself and each ally heals for 1/16th of their HP.
-每回合结束时，该精灵和每个队友会回复其最大HP的1/16。
+回合结束时，该精灵和每个队友会回复其最大HP的1/16。
 Changes into another form of your choosing when its HP is lowered below half.
 HP减小到一半以下时，可以选择切换为另一种形态。
 This Pokémon's random crit moves are always critical if there is an active Room.
@@ -44591,7 +44593,7 @@ The user adds the type of whatever dance move they use.
 Once per switch-in, Charges in sandstorm, doubling the power of its next Electric-type move.
 使用技能后，如果天气为沙暴，会使自身进入能量充盈状态。（每次出场只会发动一次）
 Can hold two items, but loses 1/10th HP each turn and takes 15% more damage.
-可以携带2个物品，但是受到的伤害增加15%，每回合结束时，HP减小10%。
+可以携带2个物品，但是受到的伤害增加15%，回合结束时，HP减小10%。
 This ability exists just to showcase the PBS Extensions system.
 这个特性只是为了展示PBS扩展系统。
 [12]
@@ -49500,13 +49502,13 @@ Status Immunity
 Type immunities do not prevent status moves. However, some types give immunities to certain status conditions. Don't confuse these two!
 属性免疫无法阻止异常变化类技能，但某些属性会对异常状态本身产生免疫 ，这两者并不相同。
 When burned, a Pokémon's Attack is reduced by 33%, and loses 1/8th HP every turn. Fire- and Ghost-types do the most burning. Fire is immune.
-被烧伤的精灵攻击减小33%，每回合损失1/16HP，火属性与幽灵属性最擅长烧伤对手，火属性免疫烧伤。
+被烧伤的精灵攻击减小33%，回合结束时损失1/16HP，火属性与幽灵属性最擅长烧伤对手，火属性免疫烧伤。
 Frostbite
 冻伤
 When frostbitten, a Pokémon's Sp. Atk is reduced by 33%, and loses 1/8th HP every turn. Ice- and Flying-types do the most frostbiting. Ice is immune.
-被冻伤的精灵特攻减小33%，每回合损失1/16HP，冰属性与飞行属性最擅长冻伤对手，冰属性免疫冻伤。
+被冻伤的精灵特攻减小33%，回合结束时损失1/16HP，冰属性与飞行属性最擅长冻伤对手，冰属性免疫冻伤。
 When poisoned, a Pokémon loses 1/12th HP every turn. This doubles every 2 turns. Poison- and Bug-types do the most poisoning. Poison is immune.
-中毒时，伤害减小10%；每回合损失1/12的HP，每2回合翻倍。毒属性和虫属性最容易造成中毒。毒属性免疫。
+中毒时，伤害减小10%；回合结束时损失1/12的HP，每2回合翻倍。毒属性和虫属性最容易造成中毒。毒属性免疫。
 When numbed, a Pokémon's Speed is halved, and it deals 25% less damage. Electric- and Fighting-types do the most numbing. Electric is immune.
 麻痹的精灵速度减半，造成的伤害减小25%，电属性和格斗属性最擅长麻痹对手，电属性免疫麻痹。
 Waterlog
@@ -49516,7 +49518,7 @@ When waterlogged, a Pokémon's Speed is halved, and it takes 25% more attack dam
 When dizzied, a Pokémon takes 25% more attack damage, and its ability doesn't function. Psychic- and Fairy-types do the most dizzying.
 混乱的精灵特性会失效，超能属性和妖精属性最擅长混乱对手。
 When leeched, a Pokémon loses 1/12th HP every turn, and its opponent(s) split that health. Grass- and Dark-types do the most leeching. Grass is immune.
-被寄生时，精灵每回合损失1/12的HP，其对手平分这些HP。草属性和恶属性最容易造成寄生。草属性免疫。
+被寄生时，在回合结束时会损失1/12的HP，其对手平分这些HP。草属性和恶属性最容易造成寄生。草属性免疫。
 A rarer status that causes a Pokémon to be unable to do anything for 2 turns. Psychic- and Grass-types put Pokémon to sleep the most often.
 睡眠的精灵在2回合内无法行动，超能属性和草属性精灵擅长让对手睡眠。
 What are Volatile Statuses?
@@ -49534,7 +49536,7 @@ When fractured, a Pokémon deals 33% less damage with its moves. Fracture wears 
 Curse
 诅咒
 When cursed, a Pokémon loses 25% of its HP every turn. Ghost-types do the most cursing.
-被诅咒时，精灵每回合损失25%的HP。幽灵属性最容易造成诅咒。
+被诅咒时，在回合结束时会损失25%的HP。幽灵属性最容易造成诅咒。
 Blindness
 失明
 When blinded, a Pokémon deals 50% damage with its next attacking move. Blindness persists until a damaging move is used by the blinded Pokémon.
@@ -49582,7 +49584,7 @@ Can be stacked 2 times. Reduces damage taken by 30% for 1 stack or 51% for 2 sta
 Aqua Ring
 水流环
 A Pokémon affected by Aqua Ring restores 10% HP at the end of each turn.
-受到水流环影响的精灵每回合结束时恢复10%HP。
+受到水流环影响的精灵回合结束时回复10%HP。
 Energized
 能量充盈
 When Energized, a Pokémon's next used Electric-type move does double damage.
@@ -49602,7 +49604,7 @@ A grounded Pokémon loses their immunity to ground moves (from being Flying-type
 Shrinking
 萎缩
 The affected Pokémon's highest stat becomes reduced by 2 steps for each turn of the effect.
-受到该效果影响的精灵，每回合其最高的一项能力减小2级。
+受到该效果影响的精灵，回合结束时其最高的一项能力减小2级。
 Sugar Rush
 糖分激增
 The affected Pokémon's speed is doubled, but they also take double damage from attacks.
@@ -49778,9 +49780,9 @@ Sunshine lowers attack damage by 15%. Fire and Grass-type moves/Pokémon are imm
 Rainstorm lowers attack damage by 15%. Water and Electric-type moves/Pokémon are immune to this. Water-type attacks are boosted by 30%.
 雨天会使技能伤害减小15%。水属性和电属性的技能/精灵免疫此效果。水属性攻击的威力会增加30%。
 Sandstorm deals 1/16th max HP damage to all Pokémon at the end of each turn. Rock and Ground-types are immune to this. Additionally, Rock-types get +50% Special Defense.
-沙暴时，每回合结束时对所有精灵造成HP的1/16伤害，岩石属性和地面属性免疫此效果。岩石属性特防增加50%。
+沙暴时，回合结束时对所有精灵造成HP的1/16伤害，岩石属性和地面属性免疫此效果。岩石属性特防增加50%。
 Hail deals 1/16th max HP damage to all Pokémon at the end of each turn. Ice and Ghost-types are immune to this. Additionally, Ice-types get +50% Defense.
-冰雹时，每回合结束时对所有精灵造成HP的1/16伤害，冰属性和幽灵属性免疫此效果。冰属性物防增加50%。
+冰雹时，回合结束时对所有精灵造成HP的1/16伤害，冰属性和幽灵属性免疫此效果。冰属性物防增加50%。
 Eclipse lowers all stats of all Pokémon every 4 turns (by 2 steps). Psychic and Dragon-types are immune to this. Additionally, Psychic-type attacks are boosted by 30%.
 日食时，每4回合会使所有精灵的全能力减小2级。超能属性和龙属性免疫此效果。超能属性伤害增加30%。
 Moonglow flinches all Pokémon every 4 turns. Fairy and Dark-types are immune to this. Additionally, Fairy-type attacks are boosted by 30%.
@@ -49828,11 +49830,11 @@ Gravity grounds all Pokémon, doubles their weight, and doubles all move Accurac
 Grey Mist
 灰雾
 Grey Mist resets all positive and negative stat changes back to neutral at the end of every turn.
-灰雾在每回合结束时将重置所有精灵的全能力等级。
+灰雾在回合结束时将重置所有精灵的全能力等级。
 Floral Gramarye
 花卉魔法
 Floral Gramarye heals every Pokémon on the field for 1/8th HP at the end of every turn.
-花卉魔法在每回合结束时为场上所有精灵回复最大HP的1/8。
+花卉魔法在回合结束时为场上所有精灵回复最大HP的1/8。
 Side effects are special effects that affect only one side. Multiple side effects can be active at the same time.
 边类效果是影响单方的特殊效果。多个边类效果可以同时生效。
 Side effects last a certain number of turns. The length differs depending on what move or ability summoned the field effect. Some durations can be enhanced by certain items.
@@ -49868,7 +49870,7 @@ Sea of Fire, Swamp and Rainbow are Pledge effects. They are acquired by using 2 
 Sea of Fire
 火海
 Sea of Fire is created on the opposing side by combining Fire- and Grass Pledge. Non-Fire-type Pokémon take 1/8th HP damage at the end of each turn.
-火海通过组合火之誓约和草之誓约在对手一侧创造。使对手的所有非火属性精灵在每回合结束时受到最大HP的1/8伤害。
+火海通过组合火之誓约和草之誓约在对手一侧创造。使对手的所有非火属性精灵在回合结束时受到最大HP的1/8伤害。
 Swamp
 沼泽
 Swamp is created on the opposing side by combining Water- and Grass Pledge. Halves the Speed stat of all Pokémon on the active side.
@@ -49892,7 +49894,7 @@ Coral Overgrowth causes attacks against the opponent to heal the user for 33% of
 Wishing Well
 许愿井
 Wishing Well consumes up to 1000 scattered coins to block random added effects and heal the active side for 1/16th HP each turn. 100 coins per turn for a max. of 10 turns.
-许愿井可以消耗最多1000枚场上散落的金钱来阻挡随机附加效果，并每回合使我方回复最大HP的1/16。每回合消耗100枚金钱，最多10回合。
+许愿井可以消耗最多1000枚场上散落的金钱来阻挡随机附加效果，每回合结束时使我方回复最大HP的1/16。每回合消耗100枚金钱，最多10回合。
 Tapu Koko: Storm Totem
 卡璞·鸣鸣：风暴图腾
 Pokémon on this side get a 30% move damage boost, but they are prevented from using moves that are the same type as the move they most recently used.
@@ -62328,15 +62330,15 @@ Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.
 Deals 50% more damage to targets who have already taken damage or moved this turn.
 攻击该回合已受到过伤害或行动过的目标时，伤害增加50%。
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
-出场时，开启持续4回合的情感空间，所有精灵每回合随机获得一个特性。
+出场时，开启持续4回合的情感空间，所有精灵回合结束时随机获得一个特性。
 Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.
 出场时，精灵会回复最大HP的1/5，可以过量回复。
 Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.
-晴天时，每回合HP回复1/8。被火属性技能攻击时，不受伤害，HP回复1/4。
+晴天时，回合结束时HP回复1/8。被火属性技能攻击时，不受伤害，HP回复1/4。
 Raises Sp. Atk by 2 steps after knocking out any Pokémon.
 打倒对手时，特攻增加2级。
 Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
-每回合结束时，速度增加4级，HP减小1/8，如果速度已达到最大等级，重置速度并回复全部HP。
+回合结束时，速度增加4级，HP减小1/8，如果速度已达到最大等级，重置速度并回复全部HP。
 Comes out disguised as a Pokémon in back. Reduces damage by 30% in disguise.
 出场时伪装成队友，处于伪装状态时，受到的伤害减小30%。
 Raises Speed by four steps when a stat is lowered by a foe. Makes foes unable to use priority moves.
@@ -62364,7 +62366,7 @@ It changes secondary type to that of the punching moves it's about to use.
 Speed is raised by 1 step at the end of each of its turns.
 回合结束时，速度增加1级。
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost, this Pokémon takes 1/16th.
-每回合速度增加1级，被攻击时自身的速度能力等级还原，每还原1级速度，攻击者就受到1/8HP的伤害，自身受到1/16HP的伤害。
+回合结束时速度增加1级，被攻击时自身的速度能力等级还原，每还原1级速度，攻击者就受到1/8HP的伤害，自身受到1/16HP的伤害。
 Prevents its stats from being lowered by more than 1 step at a time. Pokémon that do this take damage equal to 1/4th their HP.
 防止能力等级每次被减小超过1级。试图这样做的精灵会损失其HP的四分之一。
 Summons sunshine for four turns when hit by an attack or knocks out any Pokémon.

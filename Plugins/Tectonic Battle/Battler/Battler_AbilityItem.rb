@@ -181,13 +181,15 @@ class PokeBattle_Battler
         end
         # Pluripotence
         if hasActiveAbility?(:PLURIPOTENCE)
-            battlerCopying = pbDirectOpposing
-            if battlerCopying
-                choices = []
-                battlerCopying.eachLegalAbility do |abilityID|
+            choices = {}
+            @battle.eachOtherSideBattler(@index) do |b|
+                copiableAbilities = []
+                b.eachLegalAbility do |abilityID|
                     next if GameData::Ability.get(abilityID).is_uncopyable_ability?
-                    choices.push(abilityID) unless @ability_ids.include?(abilityID)
+                    copiableAbilities.push(abilityID) unless @ability_ids.include?(abilityID)
                 end
+                next if copiableAbilities.empty?
+                choices[b] = copiableAbilities
             end
             unless choices.empty?
                 showMyAbilitySplash(:PLURIPOTENCE)

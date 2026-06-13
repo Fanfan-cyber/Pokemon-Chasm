@@ -77,7 +77,7 @@ class PokeBattle_AI
         # call and pbGetMoveScoreDamage both reuse the cached result for free.
         precomputedTypeMod = nil
         if user.index != target.index
-            moveType = pbRoughType(move, user)
+            moveType = pbRoughType(move, user, target)
             precomputedTypeMod = pbCalcTypeModAI(moveType, user, target, move)
             if precomputedTypeMod == 0
                 echoln("\t\t[AI FAILURE CHECK] #{user.pbThis} rejects #{move.id} -- completely ineffective against #{target.pbThis(false)}")
@@ -118,9 +118,7 @@ class PokeBattle_AI
 
         # Check for ineffective because of abilities or effects on the target
         if !fails && user.index != target.index
-            type = pbRoughType(move, user, target)
-            #typeMod = precomputedTypeMod
-            typeMod = pbCalcTypeModAI(type, user, target, move)
+            typeMod = precomputedTypeMod
             unless user.pbSuccessCheckAgainstTarget(move, user, target, typeMod, false, true)
                 fails = true
                 echoln("\t\t[AI FAILURE CHECK] #{user.pbThis} rejects #{move.id} -- thinks will fail against #{target.pbThis(false)} due to abilities, effects, or typemod.")
