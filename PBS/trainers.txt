@@ -10635,3 +10635,16 @@ Pokemon = RAYQUAZA,70
 #-------------------------------
 [ANOTHERPOSSIBLERAFAEL,Rafael,1]
 ExtendsVersion = 0
+Policies = CURSE_EXTRA_MOVES
+Pokemon = DIANCIE,70
+    ExtraMoves = THREEFOLDVOLLEY
+Pokemon = CALYREX,70
+    ExtraMoves = CLEANSINGFLAMES
+Pokemon = DEOXYS,70
+    ExtraMoves = PHOTONGEYSER
+Pokemon = YVELTAL,70
+    ExtraMoves = RIGHTEOUSKICK
+Pokemon = GROUDON,70
+    ExtraMoves = HYPERFROST
+Pokemon = RAYQUAZA,70
+    ExtraMoves = FEATHERLOCKVOLLEY
