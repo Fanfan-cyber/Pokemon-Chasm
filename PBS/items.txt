@@ -2731,6 +2731,15 @@ FieldUse = Direct
 Flags = KeyItem
 Description = If reversed, gym leaders and story fights will become harder through unique curses.
 #-------------------------------
+[TAROTAMULET_ACTIVE]
+Name = Tarot Amulet
+NamePlural = Tarot Amulets
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = If reversed, gym leaders and story fights will become harder through unique curses.
+#-------------------------------
 [NOISEMACHINE]
 Name = Noise Machine
 NamePlural = Noise Machines
