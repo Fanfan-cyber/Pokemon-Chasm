@@ -10545,13 +10545,13 @@ Pokemon = GIGANTEON,45
     Moves = RUIN,SHADOWBALL,SCHEME,RECOVER
     AbilityIndex = 1 # Friend to All
 Pokemon = GIGANTEON,45
-    Moves = RETREAT,NATURALPROTECTION,WISH,RECOVER
+    Moves = BODYSLAM,GLACIALCRUNCH,WISH,RECOVER
     AbilityIndex = 1 # Friend to All
 Pokemon = GIGANTEON,45
-    Moves = HEALBELL,CHARM,RECOVER,RETREAT
+    Moves = DOUBLEEDGE,SEARINGCRUNCH,RECOVER,HEALBELL
     AbilityIndex = 1 # Friend to All
 Pokemon = GIGANTEON,45
-    Moves = LASTRESORT,PROTECT
+    Moves = LASTRESORT,LASERFOCUS
     AbilityIndex = 1 # Friend to All
 #-------------------------------
 [COOLTRAINER_F7,Milja]
