@@ -12398,8 +12398,8 @@ Name = Rotom
 Type1 = ELECTRIC
 Type2 = GHOST
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 50,65,105,85,105,105
-# Total = 515
+BaseStats = 65,65,105,85,105,105
+# Total = 530
 GenderRate = Genderless
 BaseEXP = 154
 Rareness = 70
