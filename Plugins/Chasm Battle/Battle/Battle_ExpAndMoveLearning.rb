@@ -156,7 +156,7 @@ class PokeBattle_Battle
         end
         expFinal = expRaw.clamp(0, growth_rate.minimum_exp_for_level(level_cap))
         expGained = expFinal - pkmn.exp
-        expLeftovers -= pkmn.exp
+        expLeftovers -= expFinal
         expLeftovers = (expLeftovers * EXP_JAR_BASE_EFFICIENCY).floor
         @expStored += expLeftovers if expLeftovers > 0
         curLevel = pkmn.level
