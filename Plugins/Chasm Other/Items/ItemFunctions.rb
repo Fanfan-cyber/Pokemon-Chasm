@@ -107,6 +107,7 @@ end
 
 
 def pbCanRegisterItem?(item)
+  return false if GameData::Item.get(item).consumable
   return ItemHandlers.hasUseInFieldHandler(item) || ItemHandlers.hasUseOnPokemon(item)
 end
 
