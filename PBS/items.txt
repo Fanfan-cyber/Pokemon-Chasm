@@ -622,7 +622,7 @@ NamePlural = Heat Rocks
 Pocket = 13
 Price = 4000
 Flags = WeatherRock
-Description = A held item. When the holder summons sunshine, it lasts twice as long.
+Description = A held item. When the holder summons sunshine, it lasts 50% longer.
 #-------------------------------
 [DAMPROCK]
 Name = Damp Rock
@@ -630,7 +630,7 @@ NamePlural = Damp Rocks
 Pocket = 13
 Price = 4000
 Flags = WeatherRock
-Description = A held item. When the holder summons rainstorm, it lasts twice as long.
+Description = A held item. When the holder summons rainstorm, it lasts 50% longer.
 #-------------------------------
 [SMOOTHROCK]
 Name = Smooth Rock
@@ -638,7 +638,7 @@ NamePlural = Smooth Rocks
 Pocket = 13
 Price = 4000
 Flags = WeatherRock
-Description = A held item. When the holder summons a sandstorm, it lasts twice as long.
+Description = A held item. When the holder summons a sandstorm, it lasts 50% longer.
 #-------------------------------
 [ICYROCK]
 Name = Icy Rock
@@ -646,7 +646,7 @@ NamePlural = Icy Rocks
 Pocket = 13
 Price = 4000
 Flags = WeatherRock
-Description = A held item. When the holder summons hail, it lasts twice as long.
+Description = A held item. When the holder summons hail, it lasts 50% longer.
 #-------------------------------
 [PINPOINTROCK]
 Name = Pin-Point Rock
@@ -654,7 +654,7 @@ NamePlural = Pin-Point Rocks
 Pocket = 13
 Price = 4000
 Flags = WeatherRock
-Description = A held item. When the holder summons eclipse, it lasts twice as long.
+Description = A held item. When the holder summons eclipse, it lasts 50% longer.
 #-------------------------------
 [MIRROREDROCK]
 Name = Mirrored Rock
@@ -662,7 +662,7 @@ NamePlural = Mirrored Rocks
 Pocket = 13
 Price = 4000
 Flags = WeatherRock
-Description = A held item. When the holder summons moonglow, it lasts twice as long.
+Description = A held item. When the holder summons moonglow, it lasts 50% longer.
 #-------------------------------
 [LIGHTCLAY]
 Name = Light Clay
