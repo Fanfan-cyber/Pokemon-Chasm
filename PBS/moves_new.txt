@@ -5313,7 +5313,7 @@ Target = NearOther
 Priority = -1
 FunctionCode = SleepTargetIfDealtDamageToUserThisTurn
 Flags = CanProtect,CanMagicCoat
-Description = The user bursts a ball of sleep-inducing powder. It fails unless the target hit the user this turn.
+Description = The user bursts a ball of sleep-inducing powder. It fails unless the targeted slot hit the user this turn.
 Animation = SLEEPPOWDER
 #-------------------------------
 [RAZINGVINES]
