@@ -115,6 +115,7 @@ end
 def addEXPCandyToDispenser(item, quantity = 1)
     expAmount = getEXPAmountForCandy(item) * quantity
     expAmount = applyEXPCandyMultipliers(expAmount)
+	$PokemonGlobal.expJAR = 0 if $PokemonGlobal.expJAR.nil?
     $PokemonGlobal.expJAR += expAmount
 end
 
