@@ -629,6 +629,7 @@ Name = Damp Rock
 NamePlural = Damp Rocks
 Pocket = 13
 Price = 4000
+Flags = WeatherRock
 Description = A held item. When the holder summons rainstorm, it lasts twice as long.
 #-------------------------------
 [SMOOTHROCK]
