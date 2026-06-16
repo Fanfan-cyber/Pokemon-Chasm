@@ -85,7 +85,7 @@ class Window_PokemonBag < Window_DrawableCommand
             pbDrawImagePositions(self.contents,[
                 [addLanguageSuffix("Graphics/Pictures/Bag/icon_register"),rect.x+rect.width-72,rect.y+8,0,0,-1,24]
             ])
-          elsif pbCanRegisterItem?(item)
+          else
             pbDrawImagePositions(self.contents,[
                 [addLanguageSuffix("Graphics/Pictures/Bag/icon_register"),rect.x+rect.width-72,rect.y+8,0,24,-1,24]
             ])
