@@ -87,17 +87,11 @@ class PokeBattle_Battle
     def pbGainExpOne(idxParty, defeatedBattler, numPartic, expShare, expAll, hasExpJAR, showMessages = true)
         pkmn = pbParty(0)[idxParty] # The Pokémon gaining exp from defeatedBattler
         growth_rate = pkmn.growth_rate
-        # Don't bother calculating if gainer is already at max Exp
-        if pkmn.exp >= growth_rate.maximum_exp
-            pkmn.calc_stats
-            return
-        end
         isPartic    = defeatedBattler.participants.include?(idxParty)
         hasExpShare = expShare.include?(idxParty)
-        level = defeatedBattler.level
         # Main Exp calculation
         exp = 0
-        a = level * defeatedBattler.pokemon.base_exp
+        a = defeatedBattler.level * defeatedBattler.level * (defeatedBattler.pokemon.base_exp + 200) / 2
         if expShare.length > 0 && (isPartic || hasExpShare)
             if numPartic == 0 # No participants, all Exp goes to Exp Share holders
                 exp = a / (Settings::SPLIT_EXP_BETWEEN_GAINERS ? expShare.length : 1)
@@ -120,7 +114,6 @@ class PokeBattle_Battle
             exp *= 1.5
         end
         exp *= 1.1 if $PokemonBag.pbHasItem?(:PERFORMANCEANALYZER2)
-        exp = (exp/5.0).floor
         # Scale the gained Exp based on the gainer's level (or not)
         if Settings::SCALED_EXP_FORMULA
             levelAdjust = (2 * level + 10.0) / (pkmn.level + level + 10.0)
@@ -129,11 +122,6 @@ class PokeBattle_Battle
             exp *= levelAdjust
             exp = exp.floor
             exp += 1 if isPartic || hasExpShare
-        end
-        # Increase Exp gain based on battling streak
-        pkmn.battlingStreak = 0 if pkmn.battlingStreak.nil?
-        if pkmn.onHotStreak? && HOT_STREAKS_ACTIVE
-            exp = (exp * 1.3).floor
         end
         exp = (exp * Settings::EXP_RATE_BOOST).floor # TectoQuake bonus
         exp = (exp * 1.1).floor if playerTribalBonus.hasTribeBonus?(:LOYAL)
@@ -145,24 +133,28 @@ class PokeBattle_Battle
             modifiedEXP = BattleHandlers.triggerExpGainModifierItem(item, pkmn, modifiedEXP)
         end
         exp = modifiedEXP if modifiedEXP >= 0
+
+        # Scale it all down
+        exp = (exp/50.0).floor
+
         # If EXP in this battle is capped, store all XP instead of granting it
         if @expCapped
             @expStored += (exp * EXP_JAR_BASE_EFFICIENCY).floor
             return
         end
         # Make sure Exp doesn't exceed the maximum
-        level_cap = LEVEL_CAPS_USED ? getLevelCap : growth_rate.max_level
-        expFinal = growth_rate.add_exp(pkmn.exp, exp)
-        expLeftovers = expFinal.clamp(0, growth_rate.minimum_exp_for_level(level_cap))
+        level_cap = LEVEL_CAPS_USED ? getLevelCap : GrowthRate.max_level
+        expRaw = pkmn.exp + exp
+        expFinal = expRaw.clamp(0, growth_rate.minimum_exp_for_level(level_cap))
         # Calculates if there is excess exp and if it can be stored
-        if (expFinal > expLeftovers) && hasExpJAR
-            expLeftovers = expFinal.clamp(0, growth_rate.minimum_exp_for_level(level_cap + 1))
+        if (expRaw > expFinal) && hasExpJAR
+            expLeftovers = expRaw
         else
             expLeftovers = 0
         end
-        expFinal = expFinal.clamp(0, growth_rate.minimum_exp_for_level(level_cap))
+        expFinal = expRaw.clamp(0, growth_rate.minimum_exp_for_level(level_cap))
         expGained = expFinal - pkmn.exp
-        expLeftovers -= pkmn.exp
+        expLeftovers -= expFinal
         expLeftovers = (expLeftovers * EXP_JAR_BASE_EFFICIENCY).floor
         @expStored += expLeftovers if expLeftovers > 0
         curLevel = pkmn.level

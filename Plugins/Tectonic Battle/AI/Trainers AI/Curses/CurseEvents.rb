@@ -86,7 +86,7 @@ class PokeBattle_Battle
 
     def amuletActivates(curseName, explanation = nil, noAmulet = false)
         echoln("Amulet actives!")
-        announceText = _INTL("\\i[TAROTAMULET]The Tarot Amulet glows with power!")
+        announceText = _INTL("\\i[TAROTAMULET_ACTIVE]The Tarot Amulet glows with power!")
         if noAmulet
             announceText = _INTL("The trainer exudes an overwhelming negative energy!")
         end
