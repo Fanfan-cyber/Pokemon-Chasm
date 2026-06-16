@@ -196,8 +196,23 @@ BattleHandlers::TargetItemAfterMoveUse.add(:BIGREDBUTTON,
   }
 )
 
+# Heat Sash
+BattleHandlers::WeatherExtenderItem.copy(:HEATROCK,:HEATSASH)
+
+# Damp Sash
+BattleHandlers::WeatherExtenderItem.copy(:DAMPROCK,:DAMPSASH)
+
 # Smooth Sash
 BattleHandlers::WeatherExtenderItem.copy(:SMOOTHROCK,:SMOOTHSASH)
+
+# Icy Sash
+BattleHandlers::WeatherExtenderItem.copy(:ICYROCK,:ICYSASH)
+
+# Pin-Point Sash
+BattleHandlers::WeatherExtenderItem.copy(:PINPOINTROCK,:PINPOINTSASH)
+
+# Mirrored Sash
+BattleHandlers::WeatherExtenderItem.copy(:MIRROREDROCK,:MIRROREDSASH)
 
 # Death Orb
 BattleHandlers::DamageCalcUserItem.add(:DEATHORB,
