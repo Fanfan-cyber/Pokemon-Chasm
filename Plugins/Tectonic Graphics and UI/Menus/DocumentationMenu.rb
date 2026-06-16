@@ -149,7 +149,7 @@ class PokemonDocumentationMenu < PokemonPauseMenu
     infoCommands[cmdAbilityDex  = infoCommands.length] = _INTL("AbilityDex")
     infoCommands[cmdItemDex     = infoCommands.length] = _INTL("ItemDex")
     infoCommands[cmdBattleGuide = infoCommands.length] = _INTL("Battle Guide")
-    if @battle && @battle.trainerBattle?
+    if @battle
       infoCommands[cmdTribesMenu = infoCommands.length] = _INTL("Tribes")
     end
     infoCommands.push(_INTL("Cancel"))

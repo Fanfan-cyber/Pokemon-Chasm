@@ -11,7 +11,7 @@ class WhoAmI_Scene
     @sprites["bg"] = IconSprite.new(0, 0, @viewport)
     @sprites["bg"].setBitmap("Graphics/Pictures/Who am I")
 
-    @all_species = GameData::Species.keys
+    @all_species = TA.all_available_species
   end
 
   def pbStartScreen
