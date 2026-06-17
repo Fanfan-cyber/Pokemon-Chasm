@@ -79,7 +79,7 @@ module AntiAbuse
     #file = File.open("release_version.txt", "wb")
     #file.write(Settings::GAME_VERSION)
     #file.close
-    return unless is_chinese?
+    #return unless is_chinese?
     file = File.open("release_version_mod.txt", "wb")
     file.write(CHANGE_LOG)
     file.close

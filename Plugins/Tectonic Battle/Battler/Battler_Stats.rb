@@ -314,7 +314,7 @@ class PokeBattle_Battler
         
         # Other effects
         unless afterSwitching
-            speedMult *= 2.0 if pbOwnSide.effectActive?(:Tailwind) || pbOwnSide.effectActive?(:EmpoweredTailwind)
+            speedMult *= 2.0 if tailWind?
             speedMult /= 2.0 if pbOwnSide.effectActive?(:Swamp)
             speedMult *= 2.0 if effectActive?(:OnDragonRide)
             speedMult *= 2.0 if effectActive?(:SugarRush)
@@ -353,6 +353,12 @@ class PokeBattle_Battler
 
         # Calculation
         return [(speed * speedMult).round, 1].max
+    end
+
+    def tailWind?
+        return true if pbOwnSide.effectActive?(:Tailwind)
+        return true if pbOwnSide.effectActive?(:EmpoweredTailwind)
+        return false
     end
 
     def applySpeedTriggers(move = nil,aiCheck = false)

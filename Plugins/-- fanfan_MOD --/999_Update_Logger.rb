@@ -205,7 +205,9 @@ storymode/nostorymode，开启/关闭剧情模式
 11.修复了成就Motley Crew的描述的不正确的中文翻译
 12.修复了小游戏中会出现用于测试的精灵的Bug
 13.现在小游戏中不会出现传说精灵
-14.
+14.现在无论游戏使用何种语言，都会自动生成release_version_mod.txt文件
+15.现在无论游戏使用何种语言，都会自动生成field_effect_manual.txt文件
+16.
 
 0.4.7 Radiant Nexus / 星芒汇流 04232026
 1.增加了疯狂模式，现在可以通过输入密码crazymode开启疯狂模式，开启疯狂模式后，对手训练师的精灵将获得3倍的风格点数
@@ -238,7 +240,7 @@ storymode/nostorymode，开启/关闭剧情模式
 28.修复了电脑箱子搜索结果备选列表的名字错误的Bug
 29.修复了电脑箱子中按照属性搜索的功能失效的Bug
 30.修复了电脑箱子中按照部族搜索的功能失效的Bug
-31.现在自动生成的release_version_mod会显示每个版本的发布日期
+31.现在自动生成的release_version_mod.txt会显示每个版本的发布日期
 32.修复了AI在替换精灵时游戏会崩溃的Bug
 33.修复了Ho-oh's Ashes不生效的Bug
 34.修复了Ho-oh's Ashes会异常不生效的Bug
