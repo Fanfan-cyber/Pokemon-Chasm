@@ -8173,152 +8173,125 @@ Pokemon = TENTACRUEL,60
     Item = GRIPCLAW
 #-------------------------------
 [DELINQUENT,Jeralyn]
-Pokemon = DITTO,58
+Pokemon = DITTO,33
     AbilityIndex = 0 # Imposter
     Item = SEVENLEAGUEBOOTS
-Pokemon = ELECTRODE,60
-    Moves = ELECTROBALL,FOULPLAY,EXPLOSION,PETRIFY
-    AbilityIndex = 0 # Bunker Down
-Pokemon = MJELLICENT,59
-    Moves = ELECTROSLASH,SIXFEETUNDER,LIQUIDATION,LEECHLIFE
+Pokemon = MJELLICENT,34
+    Moves = ELECTROSLASH,SHADOWCLAW,LIQUIDATION,NUMB
     AbilityIndex = 1 # No Hope
-Pokemon = GREEDENT,58
+Pokemon = GREEDENT,33
     Moves = STUFFCHEEKS,RECYCLE,BODYPRESS,WARDPRESS
     AbilityIndex = 0 # Cheek Pouch
     Item = CADOBERRY
 #-------------------------------
 [COLLECTOR,Emre]
 Policies = HAIL_TEAM
-Pokemon = CASTFORM,58
+Pokemon = CASTFORM,33
     Moves = INVITEHAIL,BLIZZARD,DRIFTOFF,SANDBLASTING
     AbilityIndex = 0 # Forecast
-    Item = ICYROCK
-Pokemon = POLTEAGEIST,60
-    Moves = SHELLSMASH,SUFFOCATE,TOTALCONTROL,SNIPESHOT
+Pokemon = POLTEAGEIST,35
+    Moves = AROMATHERAPY,SUFFOCATE,TOTALCONTROL,SNIPESHOT
     AbilityIndex = 0 # Caffeine Rush
     Item = SCOPELENS
-Pokemon = HDECIDUEYE,59
-    Moves = THREEFOLDVOLLEY,ENERGYBALL,BLIZZARD,DRIFTOFF
-    AbilityIndex = 0 # Taiga Trekker
-Pokemon = ANNIHILAPE,58
-    Moves = COLDSHOULDER,CROSSCHOP,ACROBATICS,BULKUP
-    AbilityIndex = 1 # Dominating
+Pokemon = ABOMASNOW,34
+    Moves = ROOTSHELTER,LEAFBLADE,BLIZZARD,EARTHPOWER
+    AbilityIndex = 0 # Frost Scatter
 #-------------------------------
 [SAGE,Shion]
-Pokemon = MISMAGIUS,58
+Pokemon = MISMAGIUS,33
     Moves = DEATHKNELL,ENCHANTINGSONG,HYPERVOICE,FROSTBREATH
     AbilityIndex = 1 # Ear-Splitting
-Pokemon = BRELOOM,60
+Pokemon = BRELOOM,35
     Moves = SPORE,MACHPUNCH,BULLETSEED,ROCKTOMB
     AbilityIndex = 0 # Technician
     Item = LOADEDDICE
-Pokemon = COALOSSAL,59
+Pokemon = COALOSSAL,34
     Moves = STEALTHROCK,FLAREBLITZ,HEAVYSLAM,DIAMONDFORCE
     AbilityIndex = 1 # Fuel Hungry
-Pokemon = WALREIN,58
-    Moves = HALTINGCOLD,SUPERFANG,BRINE,BODYPRESS
-    AbilityIndex = 0 # Full Blubber
-    Item = STRIKEVEST
 #-------------------------------
 [DITTO_HIKER,Kevinick]
-Pokemon = GOLEM,59
-    Moves = BEDROCKBREAKER,EXPLOSION,TRAMPLE,FLAREBLITZ
-    AbilityIndex = 0 # Unbreakable
-    Item = FIREGEM
-Pokemon = RUBARIOR,59
-    Moves = STEALTHROCK,FOULPLAY,STITCHUP,GEMSEAL
-    AbilityIndex = 1 # Prankster
-Pokemon = LINOONE,59
-    Moves = BASHANDBORROW,EXTREMESPEED,SUPERFANG,WAILINGBLOW
-    AbilityIndex = 0 # Thief's Diversion
-Pokemon = MILOTIC,59
-    Moves = VANGUARD,WARDPRESS,RECOVER,SCALD
-    AbilityIndex = 1 # Competitive
-    Item = MARANGABERRY
+Pokemon = SCRAFTY,35
+    Moves = DROWN,BROWBEAT,DROPKICK,STINGINGJEALOUSY
+    AbilityIndex = 0 # Shed Skin
+Pokemon = MDRAGALGE,34
+    Moves = SPATTERINGRAM,WATERLOG,DROPKICK,ROOTDRIVER
+    AbilityIndex = 0 # Sinking Feeling
+    Item = SITRUSBERRY
+Pokemon = LAIRON,33
+    Moves = GRANITEHEAD,BULLETCHARGE,MAGNETIZE,BULLDOZE
+    AbilityIndex = 1 # Motor Drive
 #-------------------------------
 [DITTO_AROMALADY,Cindalice]
 Policies = ECLIPSE_TEAM
-Pokemon = LURANTIS,59
-    Moves = SCALESTORM,LEAFSTORM,WEATHERBURST,ECLIPSE
+Pokemon = LURANTIS,34
+    Moves = XSCISSOR,AUTUMNBLAST,WEATHERBURST,ECLIPSE
     AbilityIndex = 0 # Inversion
     Item = PINPOINTROCK
-Pokemon = KLINKLANG,59
-    Moves = GEARGRIND,SHIFTGEAR,BEDROCKBREAKER,WEATHERBURST
+Pokemon = KLANG,34
+    Moves = POWDERBOMB,VOLTSWITCH,BEDROCKBREAKER,WEATHERBURST
     AbilityIndex = 0 # Stainless Steel
-Pokemon = DRAGALGE,59
-    Moves = ACIDBREACH,CALAMITOUSSLASH,DRAGONTAIL,RECOVER
-    AbilityIndex = 0 # Deterrent
-    Item = BLACKSLUDGE
-Pokemon = VENOMOTH,59
+Pokemon = VENOMOTH,34
     Moves = PENUMBRA,PIERCINGDOUBT,BUGBUZZ,ENERGYBALL
     AbilityIndex = 0 # Fell Omen
 #-------------------------------
 [DITTO_CAMPER,Johnate]
-Pokemon = GRENINJA,59
-    Moves = SNIPESHOT,DARKPULSE,ACROBATICS,SLUDGEWAVE
-    AbilityIndex = 0 # Mutable
-Pokemon = SPINDA,59
+Pokemon = SPINDA,34
     Moves = FOULPLAY,WARDPRESS,SHORTCIRCUIT,BODYPRESS
     AbilityIndex = 1 # Unconventional
-    Item = SITRUSBERRY
-Pokemon = TREVENANT,59
-    Moves = LEAFBLADE,DISTURB,ADAMANTINEPRESS,SHIVERDANCE
+Pokemon = TREVENANT,34
+    Moves = LEAFBLADE,DISTURB,ADAMANTINEPRESS,FLOWSTATE
     AbilityIndex = 0 # Schadenfreude
-Pokemon = THROH,59
+Pokemon = THROH,34
     Moves = DRAINPUNCH,KNOCKOFF,ROCKALANCHE,POISONJAB
     AbilityIndex = 0 # Hard Fall
     Item = LEFTOVERS
 #-------------------------------
 [DITTO_RANGER,Hannamy]
-Pokemon = GRIMMSNARL,59
-    Moves = BACKHAND,SUCKERPUNCH,LEECHLIFE,HUMBLE
-    AbilityIndex = 0 # Unassuming
-    Item = MIRRORHERB
-Pokemon = TENTACRUEL,59
-    Moves = SLAMSHUT,KINETICGRIP,SLUDGEWAVE,WETWORK
-    AbilityIndex = 1 # Grip Strength
-Pokemon = CACTURNE,59
+Pokemon = CACTURNE,34
     Moves = SINISTERSPINES,SUCKERPUNCH,SPIKES,METEORMASH
     AbilityIndex = 1 # Schadenfreude
     Item = LIFEORB
-Pokemon = SAWK,59
+Pokemon = TENTACRUEL,34
+    Moves = SLAMSHUT,KINETICGRIP,SLUDGEWAVE,WETWORK
+    AbilityIndex = 1 # Grip Strength
+Pokemon = SAWK,34
     Moves = ICESHARD,ACCELEROCK,ENCHANTEDARROW,DETACHMENT
     AbilityIndex = 0 # First Strike
 #-------------------------------
 [DITTO_PROTRAINER,Xandevon]
-Pokemon = HZOROARK,60
+Pokemon = HZOROARK,35
     Moves = MALEFACTION,LIGHTSCREEN,REFLECT,AURASPHERE
     AbilityIndex = 0 # Illusion
     Item = LIGHTCLAY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
-Pokemon = ZOROARK,60
+Pokemon = ZOROARK,35
     Moves = BLACKOUT,TOTALCONTROL,FLAMETHROWER,SLUDGEWAVE
     AbilityIndex = 0 # Illusion
     Item = SEVENLEAGUEBOOTS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,10,0,20,10
-Pokemon = LINOONE,60
-    Moves = BASHANDBORROW,EXTREMESPEED,LIQUIDATION,BEDROCKBREAKER
+Pokemon = LINOONE,35
+    Moves = PLAYROUGH,COVET,LIQUIDATION,BEDROCKBREAKER
     AbilityIndex = 0 # Thief's Diversion
     Item = FAIRYGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,10,20,0
-Pokemon = FLAPPLE,60
+Pokemon = FLAPPLE,35
     Moves = UTURN,BRAVEBIRD,LEAFBLADE,KNOCKOFF
     AbilityIndex = 0 # Hustle
     Item = WIDELENS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
-Pokemon = DRAGALGE,60
+Pokemon = DRAGALGE,35
     Moves = ACIDBREACH,FLOWSTATE,ELECTROSLASH,STRAFE
     AbilityIndex = 0 # Deterrent
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,20,0,20,0
-Pokemon = MELMETAL,60
-    Moves = DOUBLEIRONBASH,ICEHAMMER,SUPERPOWER,TRAMPLE
-    AbilityIndex = 1 # Discombobulator
+Pokemon = ESCAVALIER,35
+    Moves = IRONHEAD,AGONIZE,UTURN,PALEBLADE
+    AbilityIndex = 1 # White Knight
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
