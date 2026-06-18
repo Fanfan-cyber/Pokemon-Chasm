@@ -1715,7 +1715,7 @@ TotalPP = 12
 Target = UserSide
 FunctionCode = StartUserSideDoubleSpeed4
 Flags = CanSnatch,Wind
-Description = The user whips up a turbulent whirlwind that ups the Speed of all party Pokémon for four turns.
+Description = The user whips up a turbulent whirlwind that doubles the Speed of all party Pokémon for four turns.
 #-------------------------------
 [WHIRLWIND]
 Name = Whirlwind
