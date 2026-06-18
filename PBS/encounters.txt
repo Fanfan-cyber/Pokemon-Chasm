@@ -104,14 +104,10 @@ Special,,20,20
 #-------------------------------
 [025] # Grouz
 Land,20,20,25
-    40,TYROGUE,18,20
-    20,GOTHITA,18,20
-    20,SCRAGGY,18,20
-    20,SNUBBULL,18,20
-Mud,20,20,25
-    50,RUFFLET,18,20
-    25,ELEKID,18,20
-    25,PAWNIARD,18,20
+    33,RUFFLET,18,20
+    33,TYROGUE,18,20
+    17,PAWNIARD,18,20
+    16,GOTHITA,18,20
 #-------------------------------
 [026] # Bluepoint Grotto
 DarkCave,20,15,15
@@ -170,7 +166,7 @@ DarkCave,20,20,25
     40,KOFFING,15,18
     20,KLINK,15,18
     20,MAGNEMITE,15,18
-	20,WOOBAT,15,18
+    20,WOOBAT,15,18
 #-------------------------------
 [037] # Svait
 Land,20,20,30
@@ -275,17 +271,16 @@ Special,,20,20
 #-------------------------------
 [059] # Feebas' Fin
 Land,20,20,20
-    40,GULPIN,13,15
-    20,CHINGLING,13,15
-    20,TAILLOW,13,15
-    20,TIMBURR,13,15
+    25,BINACLE,13,15
+    25,CHINGLING,13,15
+    25,GULPIN,13,15
+    25,TAILLOW,13,15
 Puddle,20,20,20
-    20,BINACLE,13,15
-    20,FEEBAS,13,15
-    20,MAGIKARP,13,15
-    20,MSKRELP,13,15
-    10,SHELLOS,13,15
-    10,SHELLOS_1,13,15
+    25,FEEBAS,13,15
+    25,MAGIKARP,13,15
+    25,MSKRELP,13,15
+    13,SHELLOS_1,13,15
+    12,SHELLOS,13,15
 #-------------------------------
 [060] # Shipping Lane
 Land,20,20,20
@@ -590,11 +585,10 @@ Special,,25,40
 #-------------------------------
 [187] # Prizca East
 FloweryGrass2,20,40,45
-    20,FURFROU,39,41
-    20,INDEEDEE,39,41
-    20,MINCCINO,39,41
-    20,SMEARGLE,39,41
-    20,SNUBBULL,31,33
+    25,FURFROU,39,41
+    25,INDEEDEE,39,41
+    25,MINCCINO,39,41
+    25,SMEARGLE,39,41
 #-------------------------------
 [192] # Field of Spires
 Land,20,60,60
@@ -637,16 +631,15 @@ Special,,40,45
 #-------------------------------
 [211] # Split Peaks
 Land,20,40,45
-    20,ABSOL,49,51
-    20,KOMALA,49,51
-    20,MTREECKO,49,51
-    20,PINSIR,49,51
-    20,SPINDA,49,51
+    25,ABSOL,49,51
+    25,KOMALA,49,51
+    25,MTREECKO,49,51
+    25,PINSIR,49,51
 LandSparse,20,40,45
     25,DELIBIRD,49,51
-    25,DRILBUR,49,51
     25,HAWLUCHA,49,51
     25,SKARMORY,49,51
+    25,SPINDA,49,51
 Special,,60,60
     1,BOUNSWEET,10
 #-------------------------------
@@ -1221,3 +1214,10 @@ Puddle,20,20
 [438] # Bogdan Cement Plant
 Special,,40,40
     1,SHUCKLE,10
+#-------------------------------
+[455] # Karanfil Estates
+Mud,20,40,45
+    20,DRILBUR,31,33
+    20,SCRAGGY,31,33
+    20,SNUBBULL,31,33
+    20,TIMBURR,31,33
