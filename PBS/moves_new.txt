@@ -7832,7 +7832,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = FixedDamageHalfTargetHealUserByHalfOfDamageDone
-Flags = CanProtect
+Flags = CanProtect,Biting
 Description = The user chomps hard, cutting the target's HP by 50%, and the user's HP is restored by 50% of that.
 Animation = SUPERFANG
 #-------------------------------
