@@ -172,9 +172,9 @@ Pokemon = MISMAGIUS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = LILLIGANT,70
-    Moves = FRENZYPLANT,MISTBURST,PIERCINGDOUBT,ENCHANTINGSONG
+    Moves = FRENZYPLANT,INFERNO,PIERCINGDOUBT,ENCHANTINGSONG
     AbilityIndex = 1 # Herbalist
-    Item = ENERGYHERB,INTELLECTHERB
+    Item = ENERGYHERB,SKILLHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = STARAPTOR,70

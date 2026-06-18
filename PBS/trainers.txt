@@ -1073,7 +1073,7 @@ Pokemon = CHANSEY,30
 Pokemon = SWOOBAT,30
     Moves = AERIALACE,HEARTSTAMP,SWEETKISS
     AbilityIndex = 0 # Clumsy Kinesis
-    Item = LUCKHERB,STRENGTHHERB
+    Item = LUCKHERB,TWISTEDSPOON
 Pokemon = DUDUNSPARCE,30
     AbilityIndex = 1 # Adapted
 Pokemon = GOLISOPOD,30
@@ -4261,6 +4261,7 @@ Flags = NoPerfect
 Pokemon = MSEVIPER,38
     Moves = IRONHEAD,ELECTROSLASH,COIL,WATERFALL
     AbilityIndex = 1 # Envy
+    Item = AIRBALLOON
 Pokemon = MZANGOOSE,38
     Moves = VIMRIPPER,PROTECT,SHIVER,BRICKBREAK
     AbilityIndex = 1 # Mental Damage
@@ -4272,7 +4273,6 @@ Pokemon = GDARMANITAN,39
 Pokemon = ARATICATE,40
     Moves = CRUNCH,MOUTHFUL,NATURALGIFT,BRAINFREEZE
     AbilityIndex = 1 # Gourmand
-    Item = STRENGTHHERB
 #-------------------------------
 [TRAINER_Keoni,Keoni,2]
 Policies = HAIL_TEAM
