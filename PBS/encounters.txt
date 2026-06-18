@@ -94,12 +94,13 @@ Special,,20,20
     1,MILCERY,15
 #-------------------------------
 [020] # Alloyed Thicket
-LandSparse,20,55,60
-    20,AMOONGUSS,53,55
-    20,ARIADOS,53,55
-    20,DITTO,53,55
-    20,DURANT,53,55
-    20,FERROTHORN,53,55
+LandSparse,20,20,35
+    40,SCYTHER,28,30
+    20,DITTO,28,30
+    20,FERROSEED,28,30
+    20,SPINARAK,28,30
+Special,,20,20
+    1,FOONGUS,20,35
 #-------------------------------
 [025] # Grouz
 Land,20,20,25
@@ -108,10 +109,9 @@ Land,20,20,25
     20,SCRAGGY,18,20
     20,SNUBBULL,18,20
 Mud,20,20,25
-    33,KOFFING,18,20
-    33,RUFFLET,18,20
-    17,ELEKID,18,20
-    17,PAWNIARD,18,20
+    50,RUFFLET,18,20
+    25,ELEKID,18,20
+    25,PAWNIARD,18,20
 #-------------------------------
 [026] # Bluepoint Grotto
 DarkCave,20,15,15
@@ -120,8 +120,8 @@ DarkCave,20,15,15
     25,SALANDIT,9,11
     25,WHISMUR,9,11
 LandSparse,20,15,15
-    25,DITTO,9,11
     25,GASTLY,9,11
+    25,INKAY,9,11
     25,PARAS,9,11
     25,SHELLDER,9,11
 #-------------------------------
@@ -167,10 +167,10 @@ Special,,15,15
 #-------------------------------
 [036] # Grouz Mine
 DarkCave,20,20,25
-    25,FERROSEED,15,18
-    25,KLINK,15,18
-    25,MAGNEMITE,15,18
-    25,SPINARAK,15,18
+    40,KOFFING,15,18
+    20,KLINK,15,18
+    20,MAGNEMITE,15,18
+	20,WOOBAT,15,18
 #-------------------------------
 [037] # Svait
 Land,20,20,30
@@ -188,11 +188,10 @@ Land,20,15,15
     17,WINGULL,9,11
     16,GRUBBIN,9,11
 Puddle,20,15,15
-    33,CLAMPERL,9,11
-    17,HORSEA,9,11
-    17,INKAY,9,11
-    17,MGOLDEEN,9,11
-    16,CLOBBOPUS,9,11
+    40,CLAMPERL,9,11
+    20,CLOBBOPUS,9,11
+    20,HORSEA,9,11
+    20,MGOLDEEN,9,11
 Special,,15,15
     1,SENTRET,15
     1,YUNGOOS,15
@@ -230,16 +229,15 @@ Mud,40,15,15
 #-------------------------------
 [053] # The Shelf
 Land,20,20,20
-    40,SCYTHER,22,24
-    20,MORELULL,22,24
-    20,PANSEAR,22,24
-    20,ZORUA,22,24
+    25,MORELULL,22,24
+    25,PANSEAR,22,24
+    25,STUFFUL,22,24
+    25,ZORUA,22,24
 Mud,40,20,25
-    33,SLOWPOKE,22,24
-    17,PANPOUR,22,24
-    17,STUFFUL,22,24
-    17,WOOPER,22,24
-    16,EKANS,22,24
+    40,SLOWPOKE,22,24
+    20,EKANS,22,24
+    20,PANPOUR,22,24
+    20,WOOPER,22,24
 LandTall,20,20,25
     40,ODDISH,22,24
     20,PANSAGE,22,24
@@ -444,11 +442,10 @@ FloweryGrass,20,25,25
 #-------------------------------
 [135] # Nebula Ruins
 Cloud,20,25,25
-    20,BLIPBUG,22,24
-    20,CLEFFA,22,24
-    20,MINIOR,22,24
-    20,STONJOURNER,22,24
-    20,WOOBAT,22,24
+    25,BLIPBUG,22,24
+    25,CLEFFA,22,24
+    25,MINIOR,22,24
+    25,STONJOURNER,22,24
 #-------------------------------
 [136] # Casaba Villa
 Land,20,15,15
