@@ -1216,7 +1216,7 @@ Special,,40,40
     1,SHUCKLE,10
 #-------------------------------
 [455] # Karanfil Estates
-Mud,20,40,45
+Mud,40,40,45
     20,DRILBUR,31,33
     20,SCRAGGY,31,33
     20,SNUBBULL,31,33
