@@ -950,7 +950,7 @@ If you plan on facing her, you best be wary of her hit and run tactics.
 Most of her Pokemon use switch-out moves: Flip Turn, Volt Switch, or U-Turn.
 她大部分精灵都会类似于快速折返，伏特替换之类的技能。
 If you want a leg up, hazards like Stealth Rocks and Spikes can help a lot.
-如果你想抢占先机，可以用隐型岩之类的对付她。
+如果你想抢占先机，可以用隐形岩之类的对付她。
 Or you could trap her 'mons, so they just...can't switch out!
 当然也可以束缚她的精灵，让其无法自由地进出战场！
 Oh, I see you have a MasterDex.
@@ -33969,7 +33969,7 @@ Rock Wrecker
 Sandstorm
 沙暴
 Stealth Rock
-隐型岩
+隐形岩
 Stone Axe
 岩斧
 Stone Edge
@@ -36412,7 +36412,7 @@ The user slams the target with its wings. The target is hit twice in a row.
 The user covers the target's body with a mass of down that lowers its Attack stat by five steps.
 撒出羽毛，笼罩在对手的周围，让对手的物攻减小5级。
 The user soars, charging and becoming hidden, then strikes on the second turn.
-使用者第一回合升空进入隐藏状态，下一回合发动攻击。
+使用者第一回合升空进入隐藏，下一回合发动攻击。
 The user whips up a gust of wind to attack the target.
 翅膀将刮起的狂风袭向对手进行攻击。
 The user absorbs its target's HP. The user's HP is restored by 75% of the damage dealt.
@@ -36470,7 +36470,7 @@ The user throws the bone it holds. The bone loops to hit the target twice, comin
 The user strikes everything around it by stomping on the ground. It reduces hit Pokémon's Speed.
 用力踩踏地面攻击自身周围所有的精灵，使被命中的精灵的速度减小1级。
 The user burrows, charging and becoming hidden, then attacks on the second turn.
-使用者第一回合钻地进入隐藏状态，下一回合发动攻击。
+使用者第一回合钻地进入隐藏，下一回合发动攻击。
 The user crashes into its target while rotating its body like a drill. Can random critical hit.
 像钢钻一样，一边旋转身体一边撞击对手。可能随机命中要害。
 The user makes the ground under the foe erupt with power. It has a 20% chance to lower Sp. Def.
@@ -36524,7 +36524,7 @@ Summons sandstorm for six turns. Damages non-Rock, non-Ground Pokémon every tur
 The user lays a levitating hazard around the foe. It deals Rock-typed 1/10th HP damage.
 使用者在敌人周围设置悬浮陷阱。造成岩石属性的HP的1/10的伤害。
 The user swings its stone axes. This leaves a levitating stone hazard floating around the target.
-使用者挥动石斧。这会在目标周围留下隐型岩。
+使用者挥动石斧。这会在目标周围留下隐形岩。
 The user stabs the foe with sharpened stones from below.
 用尖尖的岩石刺入对手进行攻击。
 Pours sticky tar over the target, lowering its Speed by six steps and making it weak to Fire.
@@ -36598,7 +36598,7 @@ The user adds its HP to the target's HP, then equally shares the combined HP wit
 Any Pokémon that hears this song faints in three turns, unless it switches out of battle.
 倾听歌声的精灵经过3回合陷入濒死。替换后效果消失。
 The user frightens the target with a scary face to reduce its Speed stat by four steps.
-用恐怖的脸瞪着对手，使其害怕，从而低对手的速度4级。
+用恐怖的脸瞪着对手，使其害怕，从而使对手的速度减小4级。
 The user hurls a shadowy blob at the target. It has a 20% chance to lower Sp. Def.
 投掷一团黑影进行攻击。有20%概率使对手的特防减小1级。
 The user beats the target with a bone containing a spirit. This lowers their Defense by three steps.
@@ -36606,7 +36606,7 @@ The user beats the target with a bone containing a spirit. This lowers their Def
 The user slashes with a sharp claw made from shadows. Can random critical hit.
 以影子做成的锐爪，劈开对手。可能随机命中要害。
 The user disappears, charging and becoming hidden, then strikes on the second turn. It hits even if the foe protects itself.
-使用者第一回合消失进入隐藏状态，下一回合攻击。无视对手的保护类效果。
+使用者第一回合消失进入隐藏，下一回合攻击。无视对手的保护类效果。
 The user throws a punch from the shadows. Lands without fail.
 使用者从暗影中出拳。攻击必定会命中。
 The user extends its shadow and attacks the target from behind. This move always goes first.
@@ -36682,7 +36682,7 @@ The user attacks in an explosive fury. Weakens in damage as the user loses HP. W
 The foe is attacked with an intense blast of all-consuming fire.
 用大字形状的火焰烧尽对手。
 The user bites with flame-cloaked fangs. It has a 20% chance to burn and a 20% chance to lower Defense by two steps.
-使用者用火焰包裹的牙齿咬击。有20%的概率使目标陷入烧伤，有20%的概率使目标的物防减小2级。
+使用者用火焰包裹的牙齿咬击。有20%概率使目标陷入烧伤，有20%概率使目标的物防减小2级。
 The user strikes the target with a flaming lash. This also lowers the target's Defense stat by two steps.
 使用者用火焰鞭子抽打目标。这还会使目标的物防减小2级。
 A column of fire hits the target. When used with its Grass equivalent, it creates a Sea of Fire for four turns.
@@ -36734,7 +36734,7 @@ A spray of bubbles is forcefully ejected at the target. It also lowers the foe's
 The user clamps onto the target, trapping and binding it for three turns.
 使用者紧扣目标，困住并束缚目标3回合。
 Diving on the first turn, charging and becoming hidden, the user hits from below water on the second turn.
-使用者第一回合潜水进入隐藏状态，下一回合从水下发动攻击。
+使用者第一回合潜水进入隐藏，下一回合从水下发动攻击。
 Rends the target with its hard gills. Deals 50% more damage unless the target has moved this turn.
 用坚硬的腮咬住对手。如果比对手先出手攻击，技能的伤害增加50%。
 The target is hit with a watery blast. The user is exhausted on the next turn.
@@ -36862,7 +36862,7 @@ A strong electric blast is loosed at the target. It has a 10% chance to numb.
 The user throws a cage of electricity around the target, trapping and binding it for three turns.
 使用者在目标周围抛出电笼，困住并束缚目标3回合。
 The user bites with electrified fangs. It has a 20% chance to numb and a 20% chance to lower Defense by two steps.
-使用者用带电的牙齿咬击。有20%的概率使目标陷入麻痹，有20%的概率使目标的物防减小2级。
+使用者用带电的牙齿咬击。有20%概率使目标陷入麻痹，有20%概率使目标的物防减小2级。
 The target is punched with an electrified fist. It has a 10% chance to numb.
 用充满电流的拳头攻击对手。有10%概率使对手陷入麻痹。
 A jolt of electricity is hurled at the foe to inflict damage. It has a 10% chance to numb.
@@ -36950,7 +36950,7 @@ Summons hail for six turns. Damages non-Ice, non-Ghost-types every turn.
 The target is struck with an icy-cold beam of energy. It has a 10% chance to frostbite.
 向对手发射冷冻光线进行攻击。有10%概率使对手陷入冻伤。
 The user bites with cold-infused fangs. It has a 20% chance to frostbite and a 20% chance to lower Defense by two steps.
-使用者用冰冷的牙齿咬击。有20%的概率使目标陷入冻伤，有20%的概率使目标的物防减小2级。
+使用者用冰冷的牙齿咬击。有20%概率使目标陷入冻伤，有20%概率使目标的物防减小2级。
 The user swings and hits with its strong, heavy fist. This lowers the user's Speed by two steps.
 使用者用强壮而沉重的拳头挥击。速度减小2级。
 The target is punched with an icy fist. It has a 10% chance to frostbite.
@@ -37130,7 +37130,7 @@ The user concentrates to stabilize its mood. It raises the user's Sp. Def by thr
 The user attacks with the full force of The Market. Scatters coins.
 使用者以“市场之力”发动攻击。金钱会四散在场上。
 The user thrashes while infused with elements. It has a 15% chance each to poison, waterlog or leech.
-使用者在被元素注入的状态下猛击。每种异常——中毒、浸水或寄生——都有15%的概率发生。
+使用者在被元素注入的状态下猛击。每种异常——中毒、浸水或寄生——都有15%概率发生。
 The user stimulates its brain by planning. It raises the user's Sp. Atk by three steps.
 通过规划刺激自身的大脑，使自身的特攻增加3级。
 The user chooses between the three most recent moves used by the opposing team, and uses that move themselves.
@@ -37320,11 +37320,11 @@ The user whips up a lingering tailwind that ups the Speed of all party Pokémon 
 The user takes off at sonic speeds, raising its Speed by four steps and gaining the Flying type.
 以音速起飞，速度增加4级并获得飞行属性。
 The user launches a pulse in the form of a shock wave. It has a 20% chance to raise Speed.
-使用者发射冲击波脉冲。有20%的概率速度增加1级。
+使用者发射冲击波脉冲。有20%概率速度增加1级。
 The user falls from up high, crushing the target beneath. This move does 30% more damage if the user is asleep.
 使用者从高处坠落，将目标压在下方。如果使用者处于睡眠，此技能伤害增加30%。
 The user quickly jumps high up, then falls onto the target. It has a 10% chance to numb.
-使用者迅速跳向高空，而后砸向目标。有10%的概率使目标陷入麻痹。
+使用者迅速跳向高空，而后砸向目标。有10%概率使目标陷入麻痹。
 The user quickly increases the air pressure to damage the target. This attack always goes before any other move.
 使用者迅速增压攻击目标。
 Clears hazards on the opponent's side of the field, moves hazards on the user's side to the opponent's, then forces the targets to switch.
@@ -37424,7 +37424,7 @@ The user opens a pit beneath the target, trapping and binding it for three turns
 The user hits a pitch that turns earth and stone to dust, damaging its foes.
 使用能够将泥土和石头化为粉尘的音调，对对手造成伤害。
 The user burrows, charging and becoming hidden, then attacks three times on the second turn.
-使用者第一回合钻入地下进入隐藏状态，第二回合连续攻击3次。
+使用者第一回合钻入地下进入隐藏，第二回合连续攻击3次。
 The user causes the earth to rumble, striking every Pokémon around it and underground.
 使大地颤动，攻击周围以及地下的所有精灵。
 The user blasts the target with highly pressurized sand. Can random critical hit.
@@ -37478,7 +37478,7 @@ The user numbs the target, then welcomes in sandstorm for eight turns.
 The target's item is spelled away with Lunar Magic. Additionally, the target is given an EXP Candy M.
 用月之魔法将目标的物品变为经验糖果M。
 The user calls all rocks to join it, summoning sandstorm for five turns and laying a hazard of levitating stones around the target.
-使用者召唤所有岩石进入战斗，开启持续5回合的沙暴，并在目标周围放置隐型岩。
+使用者召唤所有岩石进入战斗，开启持续5回合的沙暴，并在目标周围放置隐形岩。
 The user drops a single piece of solid bedrock on the target, fracturing them.
 使用者向目标投掷一块坚固的基岩，使其破碎。
 Protects the user and its allies from spread moves this turn and foes' moves get redirected to the user. Fails if used in succession.
@@ -37776,7 +37776,7 @@ The user burns the target, then welcomes in sunshine for eight turns.
 The user warms up its body and attacks the target. It has a 10% chance to burn.
 将身体加热并攻击对手。有10%概率使对手陷入烧伤。
 The user launches up high, charging and becoming hidden, then explodes down on the second turn, taking 25% recoil.
-使用者第一回合腾空进入隐藏状态，下一回合俯冲爆炸攻击，会受到25%的反伤。
+使用者第一回合腾空进入隐藏，下一回合俯冲爆炸攻击，会受到25%的反伤。
 The user roars with the force of a volcano, raising the Attack of itself by three steps and allies' by one.
 使用者以火山的力量咆哮，自身的物攻增加3级，其队友的物攻增加1级。
 The user attacks with fire that can be seen in multiple places, then summons sunshine for eight turns.
@@ -37810,7 +37810,7 @@ The user creates a storm using its flaming body, damaging everything around it a
 The user rapidly changes water pressure, creating a pulsing shockwave. The user loses 1/8th of its max HP.
 使用者快速改变水压，产生脉动冲击波。使用者失去最大HP的1/8。
 The user bites with watery fangs. It has a 20% chance to waterlog and a 20% chance to lower Defense by two steps.
-使用者以水流之牙咬住目标。有20%的概率使目标陷入浸水，20%的概率使目标的物防减小2级。
+使用者以水流之牙咬住目标。有20%概率使目标陷入浸水，有20%概率使目标的物防减小2级。
 Charges by summoning rainstorm for five turns, then overwhelms the foe with water on the second turn.
 第一回合开启持续5回合的雨天，下一回合用水流压制对手。
 The user shoots purified water, also healing the non-volatile status conditions of all the party Pokémon.
@@ -37902,7 +37902,7 @@ Flowers blooms with intensity, damaging the target and raising the user's Sp. At
 Restores a fainted Grass-type party member to full HP. Only one use per battle.
 回复一名已倒下的草属性队友的全部HP。每场战斗只能使用一次。
 The user fades into the foliage, charging and becoming hidden, then strikes from stealth on the second turn.
-使用者第一回合隐匿于草丛之中进入隐藏状态，第二回合发动偷袭。
+使用者第一回合隐匿于草丛之中进入隐藏，第二回合发动偷袭。
 The user drops some heads from high up. The taller the user compared to the target, the greater the damage.
 从高处落下一个头。自身比对手越高，威力就越大。
 The user flicks its thorns, dealing damage and setting a hazard layer of poison spikes around the target.
@@ -37931,8 +37931,8 @@ The user stirs up a violent petal tempest and attacks everything around it.
 挑起一场猛烈的花瓣风暴，攻击它周围的一切。
 The target is irritated by allergenic plants, poisoning it.
 用致敏植物刺激对手，从而使对手陷入中毒。
-The user bursts a ball of sleep-inducing powder. It fails unless the target hit the user this turn.
-若受到对手的攻击，就会释放一团催眠粉末，使对手陷入沉睡，否则就会失败。
+The user bursts a ball of sleep-inducing powder. It fails unless the targeted slot hit the user this turn.
+若该回合受到过目标的攻击，就会释放一团催眠粉末，使目标陷入睡眠。
 Attacks while destroying rooms. This move fails in the absence of a room.
 存在空间类效果时使用可以将其破坏。如果没有空间类效果的话，该技能会失败
 The user kicks into the target like roots into earth. This has a 30% chance of leeching.
@@ -38036,7 +38036,7 @@ The user creates an electric fueled cage, trapping and binding it for three turn
 The user takes an entire grid of power into its belly to slam the target. The user takes 100% recoil.
 将整个电网的能量注入腹部来猛击对手。但会受到100%的反伤。
 The user chomps down with high-voltage fangs. It has a 20% chance to numb and a 20% chance to lower Defense by two steps.
-使用者以高压电牙咬击。有20%的概率使目标陷入麻痹，有20%的概率使目标的物防减小2级。
+使用者以高压电牙咬击。有20%概率使目标陷入麻痹，有20%概率使目标的物防减小2级。
 Launches many homing bolts. Deals 50% more damage unless it's the first turn the target is in battle.
 发射多枚回旋弩箭，只要对方不是进入战斗的第一回合，将额外造成50%伤害。
 The user rocks out by using each Sound-based move they know. Only one use per battle.
@@ -38158,7 +38158,7 @@ The target is overwhelmed by cold energy. It has a 30% chance to frostbite.
 The user lays a hazard layer of frozen spikes on the foe's side. One layer hurts switched in foes, two layers frostbites.
 使用者在对手一侧放置一层冰菱。一层会使替换进入的对手受伤，2层会使对手陷入冻伤。
 The user chomps down with icy cold fangs. It has a 20% chance to frostbite and a 20% chance to lower Defense by two steps.
-使用者以冰冷的獠牙咬击。有20%的概率使目标陷入冻伤，有20%的概率使目标的物防减小2级。
+使用者以冰冷的獠牙咬击。有20%概率使目标陷入冻伤，有20%概率使目标的物防减小2级。
 Rams the target with frigid force. This has a 10% chance to frostbite.
 向对手砸下一大块冰。有10%概率使对手陷入冻伤。
 The user attacks the target with a frontal cold wind. It reduces the target's Speed by three steps.
@@ -38172,7 +38172,7 @@ For the rest of the round, the target's healing is reversed.
 The user picks up an iceberg and slams it into the target. This lowers the user's Attack by four steps.
 使用者抓起冰山撞向目标。物攻减小4级。
 The user slashes the target with ice like a sword. It has a 20% chance to lower Defense.
-使用者像用剑一样用冰斩击目标。有20%的概率使目标的物防减小1级。
+使用者像用剑一样用冰斩击目标。有20%概率使目标的物防减小1级。
 Halves attack damage taken this turn. Frostbites any attackers. Fails if used successively.
 该回合受到的攻击伤害减半，使攻击者陷入冻伤。连续使用则失败。
 The user targets the target's coldest spots. Its power doubles if the target is frostbitten.
@@ -38240,7 +38240,7 @@ Protects the user from attacks. If an eclipse is active, extends it by one turn.
 The target is harmed by a malevolent sound. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
 让目标被恶意的声音伤害。有20%概率使目标较高的一项攻击减小1级。
 The user flies high up into the air at supersonic speed, charging and becoming hidden. It greatly increases in power the faster the user is.
-使用者第一回合以超音速飞到高空进入隐藏状态，第二回合发动攻击。速度越大，威力越大。
+使用者第一回合以超音速飞到高空进入隐藏，第二回合发动攻击。速度越大，威力越大。
 The user looms over the target with awful menace, lowering their highest stat by four steps.
 以可怕的龙威震慑对手，使其最高的一项能力减小4级。
 Attacks all foes with dormant draconic energy. Power increases by 50% in eclipse.
@@ -38312,7 +38312,7 @@ The user prepares a precise cut. Always a critical hit. This lowers the user's S
 The target is dragged viciously through water. This has a 30% chance to waterlog.
 目标被凶狠地拖过水面。有30%概率使目标陷入浸水。
 The user hides stealthily, charging and becoming hidden, then strikes on the second turn.
-使用者第一回合隐匿身形进入隐藏状态，第二回合发动攻击。
+使用者第一回合隐匿身形进入隐藏，第二回合发动攻击。
 The user emits a wave of anxious feelings which overwhelms all nearby Pokémon, taking 50% recoil.
 散发出一股焦虑的情绪波动，影响所有的精灵，并受到50%的反伤。
 Summons moonglow for eight turns and raises the user's Attack by two steps.
@@ -38356,7 +38356,7 @@ The user bullies the target, causing mental damage. This has a 20% chance to lee
 The user swings aggressively while suffering from nightmares. This move can only be used while asleep.
 使用者在遭受噩梦时狂乱挥击。只能在睡眠时使用。
 The user transforms into a cloud of vermin, charging and becoming hidden. On the second turn it ambushes the target.
-使用者第一回合化为虫群进入隐藏状态，下一回合伏击目标。
+使用者第一回合化为虫群进入隐藏，下一回合伏击目标。
 The user submerges the target in water, then bludgeons them repeatedly. This has a 10% chance to waterlog.
 使用者将目标浸入水中，然后反复殴打目标。有10%概率使目标陷入浸水。
 The user sings with reckless abandon, annoying the target. There's a 30% chance they become dizzy.
@@ -38366,7 +38366,7 @@ The user smacks the target and steals its item while it is stunned. Items stolen
 The target is lulled to sleep. Can only be used during a Full Moon.
 使对手陷入睡眠。只能在满月使用。
 The target is pranked with a huge bucket of water. This has a 30% chance to waterlog it.
-向目标如恶作剧般地浇一大桶水。有30%的概率使其陷入浸水。
+向目标如恶作剧般地浇一大桶水。有30%概率使其陷入浸水。
 The target is hit with a generous donation. Consumes up to 1000 scattered coins. Base power is boosted by 10 for every 100 consumed.
 让目标被慷慨的馈赠命中。消耗最多1000枚散落的金钱。每消耗100枚，技能威力增加10点。
 Healing coral forms on the foe's side. For the next four turns, attacks on foes heal the user for 33% of the damage dealt. This can overheal.
@@ -38422,7 +38422,7 @@ The user causes the target to trip and fall. This has a 50% chance of jinxing th
 Attacks nearby foes with a misty explosion. The user loses half its current HP.
 对周围的所有精灵进行攻击，但自身会受到当前HP的50%的伤害。
 The user disappears in a cloud of mist, charging and becoming hidden. On the next turn, the target becomes jinxed and frostbitten.
-使用者第一回合消失于雾气中进入隐藏状态。下一回合，目标将陷入不幸和冻伤。
+使用者第一回合消失于雾气中进入隐藏。下一回合，目标将陷入不幸和冻伤。
 Summons moonglow for six turns, boosting Fairy-type attacks and heralding the Full Moon.
 开启持续6回合的月辉，增加妖精属性攻击并预示着满月的到来。
 The user invokes forbidden celestial powers to smite the target.
@@ -38456,7 +38456,7 @@ The user mutates its genetic code, transforming into any of its 3 other forms. O
 The user makes a risky, difficult attack. If it misses, the user's Accuracy is raised.
 使用者发起一次高风险、高难度的攻击。若攻击未命中，使用者的命中率增加1级。
 The user hides, charging and becoming hidden, then strikes the target on the second turn.
-使用者第一回合进入隐藏状态，第二回合发动攻击。
+使用者第一回合进入隐藏，第二回合发动攻击。
 The user makes a foolhardy, roundabout attack. It misses much of the time.
 进行一次愚蠢的赌徒式攻击。
 The target is multi-hit two to five times.
@@ -40608,20 +40608,20 @@ Held item which boosts Speed by 40% but allows the use of only one move.
 携带后，速度增加40%，但只能使用相同的技能。
 Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
 携带后，伤害增加25%，但速度会减小15%。
-A held item. When the holder summons sunshine, it lasts twice as long.
-一种携带物。携带它的精灵使用大晴天的话，晴天的持续时间会翻倍。
-A held item. When the holder summons rainstorm, it lasts twice as long.
-一种携带物。携带它的精灵使用倾盆大雨的话，雨天的持续时间会翻倍。
-A held item. When the holder summons a sandstorm, it lasts twice as long.
-一种携带物。携带它的精灵使用沙暴的话，沙暴的持续时间会翻倍。
-A held item. When the holder summons hail, it lasts twice as long.
-一种携带物。携带它的精灵使用冰雹的话，冰雹的持续时间会翻倍。
-A held item. When the holder summons eclipse, it lasts twice as long.
-一种携带物。携带它的精灵使用日食的话，日食的持续时间会翻倍。
-A held item. When the holder summons moonglow, it lasts twice as long.
-一种携带物。携带它的精灵使用月辉的话，月辉的持续时间会翻倍。
+A held item. When the holder summons sunshine, it lasts 50% longer.
+一种携带物。携带它的精灵开启的晴天的持续时间增加50%。
+A held item. When the holder summons rainstorm, it lasts 50% longer.
+一种携带物。携带它的精灵开启的雨天的持续时间增加50%。
+A held item. When the holder summons a sandstorm, it lasts 50% longer.
+一种携带物。携带它的精灵开启的沙暴的持续时间增加50%。
+A held item. When the holder summons hail, it lasts 50% longer.
+一种携带物。携带它的精灵开启的冰雹的持续时间增加50%。
+A held item. When the holder summons eclipse, it lasts 50% longer.
+一种携带物。携带它的精灵开启的日食的持续时间增加50%。
+A held item. When the holder summons moonglow, it lasts 50% longer.
+一种携带物。携带它的精灵开启的月辉的持续时间增加50%。
 An item to be held by a Pokémon. Protective screens will be effective for 3 more turns.
-一种携带物。使屏障类效果的持续时间增加3回合。
+一种携带物。携带者开启的屏障类效果的持续时间增加3回合。
 An item to be held by a Pokémon. It doubles the duration of Rooms created by the holder.
 一种携带物。携带者开启的空间类效果的持续时间翻倍。
 A held item that doubles the duration of binding moves and abilities.
@@ -41316,14 +41316,18 @@ The holder's HP is restored a little every time it inflicts damage. Boosts Ghost
 携带后，幽灵属性技能威力增加20%，攻击后将回复少量HP。
 When the holder is struck by a foe, it switches out, leaving a layer of spikes around the foe.
 携带后，被攻击将回到队伍中，并向对手撒出菱。
-The user summons Sunshine for twice as long. The holder will endure one potential KO.
-使开启的晴天的持续时间翻倍，且免疫一次致命伤害。
-The user summons Rain for twice as long. The holder will endure one potential KO.
-使开启的雨天的持续时间翻倍，且免疫一次致命伤害。
-The user summons Sandstorm for twice as long. The holder will endure one potential KO.
-使开启的沙暴的持续时间翻倍，且免疫一次致命伤害。
-The user summons Hail for twice as long. The holder will endure one potential KO.
-使开启的冰雹的持续时间翻倍，且免疫一次致命伤害。
+The user summons sunshine for 50% longer. The holder will endure one potential KO.
+使开启的晴天的持续时间增加50%，且免疫一次致命伤害。
+The user summons rain for 50% longer. The holder will endure one potential KO.
+使开启的雨天的持续时间增加50%，且免疫一次致命伤害。
+The user summons sandstorm for 50% longer. The holder will endure one potential KO.
+使开启的沙暴的持续时间增加50%，且免疫一次致命伤害。
+The user summons hail for 50% longer. The holder will endure one potential KO.
+使开启的冰雹的持续时间增加50%，且免疫一次致命伤害。
+The user summons eclipse for 50% longer. The holder will endure one potential KO.
+使开启的日食的持续时间增加50%，且免疫一次致命伤害。
+The user summons moonglow for 50% longer. The holder will endure one potential KO.
+使开启的月辉的持续时间增加50%，且免疫一次致命伤害。
 A held item. When the holder faints, a random other party member is fully revived.
 一种携带物。携带者倒下时，会随机复活一名队友。
 A held item. It boosts the power of moves by 30%. The user heals for a third of all move damage they deal.
@@ -43361,7 +43365,7 @@ After using a dance move, lowers one of each foe's Attack and Sp. Atk, whichever
 Heals from binding damage it deals. Takes 25% less damage from Pokémon that are trapped.
 从自身造成的束缚伤害中回复HP。从被束缚的精灵那里受到的伤害减小25%。
 Lays a hazard of levitating stones around the opponent when its HP is lowered below half.
-HP小于一半时，在对手周围放置隐型岩。
+HP小于一半时，在对手周围放置隐形岩。
 When hit with an attack, uses Pain Split on the attacker if its HP is lower than the attacker.
 被攻击时，若其HP小于攻击者，则会对攻击者使用痛苦平分。
 Slips past hazards. On the first turn, its attacks are always critical.
@@ -43573,7 +43577,7 @@ Upon entry, gains your choice of Fighting-, Dark-, or Fairy-type.
 Upon entry, lowers the foe's Sp. Atk stat by two steps.
 出场时，使对手的特攻减小2级。
 Can hold two different items, if one is clothing and the other is not.
-在携带衣物类物品时，可额外携带一个非衣物类物品。
+可以同时携带一个衣物类物品和一个非衣物类物品。
 Raises all of its stats whenever it knocks out a Pokémon with a critical hit.
 每次命中要害打倒敌方时，全能力增加1级。
 After attacking any foe, this Pokémon immediately uses Rest.
@@ -43667,13 +43671,13 @@ Boosts the power of wind-based moves by 50%.
 After knocking out any Pokémon, summons rainstorm for four turns.
 打倒对手时，开启持续4回合的雨天。
 Foes that become numbed are severely so. This Pokémon's Flying-type moves have a 30% chance to severely numb.
-陷入麻痹的对手将陷入重度麻痹。飞行属性技能有30%的概率使目标重度麻痹。
+陷入麻痹的对手将陷入重度麻痹。飞行属性技能有30%概率使目标重度麻痹。
 Completely protects allies from foes' spread moves.
 保护队友不受对手的扩散类技能的攻击。
 Turns the held item of a Pokémon it hits into scattered gold coins for you to take.
 攻击时，目标的物品会变成金钱，金钱会散落在场上。
 Foes that become frostbitten are severely so. This Pokémon's Flying-type moves have a 30% chance to severely frostbite.
-陷入冻伤的对手将陷入重度冻伤。飞行属性技能有30%的概率使目标重度冻伤。
+陷入冻伤的对手将陷入重度冻伤。飞行属性技能有30%概率使目标重度冻伤。
 Immune to Fire-type moves and raises Defense and Sp. Def if hit by one.
 免疫火属性技能，被火属性技能命中时，双防增加1级。
 Random added effects of bite attacks are +50% more likely to occur.
@@ -44157,7 +44161,7 @@ Gets 50% more healing from all sources.
 Makes foes unable to use priority moves.
 使对手的先制类技能使用失败。
 Immune to Fighting-type and Rock-type moves. Prevents Stealth Rock damage.
-免疫格斗属性和岩石属性技能。不受隐型岩伤害。
+免疫格斗属性和岩石属性技能。不受隐形岩伤害。
 Protected from random added effects. Takes 30% less damage from moves with random added effects.
 免疫技能的附加效果，受到的有附加效果的技能的伤害减小30%。
 All Pokémon deal 40% more move damage.
@@ -44195,11 +44199,11 @@ Restores 1/4th health after any foe faints.
 Upon entry during sandstorm, lowers foe's Attack and Sp. Atk by two steps.
 出场时，若存在沙暴，使对手的双攻减小2级。
 After attacking the same foe twice, they become fractured, and a trap of levitating stones is set on their side.
-该精灵2次攻击同一对手后，对手会陷入破碎状态，并且在对手场上设置隐型岩。
+该精灵2次攻击同一对手后，对手会陷入破碎状态，并且在对手场上设置隐形岩。
 Moves used against this Pokémon are disabled for two turns.
 对该精灵使用的技能将被禁用2回合。
 Foes that become burned are severely so. This Pokémon's Flying-type moves have a 30% chance to severely burn.
-陷入烧伤的对手将陷入重度烧伤。飞行属性技能有30%的概率使目标重度烧伤。
+陷入烧伤的对手将陷入重度烧伤。飞行属性技能有30%概率使目标重度烧伤。
 When targeted by a status move, the offending Pokémon becomes poisoned.
 对手对自身使用变化类技能后会陷入中毒。
 Special moves have a 30% chance to leech targets.
@@ -44285,7 +44289,7 @@ Leaves two hazard layers of Spikes after self-destructing.
 Speed is raised each turn. Speed is reset when hit, but the attacker takes 1/8th HP damage for each step lost.
 回合结束时速度增加1级，被攻击时自身的速度能力等级还原，每还原1级速度，攻击者就受到1/8HP的伤害。
 Foes that attack this Pokémon while it is hidden take 25% HP damage.
-处于隐藏状态被攻击时，攻击者会受到25%HP的伤害。
+处于隐藏被攻击时，攻击者会受到25%HP的伤害。
 After attacking the same foe twice, they become trapped for three turns, and this Pokémon heals 33% HP. This can overheal.
 该精灵2次攻击同一对手后，对手会被困住3回合，该精灵回复33%的HP，可以过量回复。
 Can't be afflicted with any non-volatile status condition.
@@ -44511,7 +44515,7 @@ Uses Dragon Dance if an attack lowers its HP below half.
 Boosts the power of rampaging moves by 30%, and makes them physical or special based on which would be more effective.
 将暴走类技能的威力增加30%，并根据哪种更有效将其变为物理或特殊类技能。
 Lays a hazard of levitating stones around the opponent when its HP is lowered below 75% HP.
-当HP减小到75%以下时，在对手场上设置隐型岩。
+当HP减小到75%以下时，在对手场上设置隐形岩。
 This Pokémon's moves deal 20% more damage, ignore immunities due to typing and deal half damage to protected targets.
 技能伤害增加20%，无视属性免疫，并对处于保护类效果的目标造成一半伤害。
 This Pokémon starts as a very convincing Pikachu!
@@ -51544,7 +51548,7 @@ Earliest level: {1}
 Faster than {1}% of final evos
 比{1}%的最终进化形态更快
 {1}% chance to catch at level 40, %15 health
-在40级时有{1}%的概率捕捉到，HP为15%
+在40级时有{1}%概率捕捉到，HP为15%
 BnB coverage {1}: {2}
 BnB覆盖范围{1}：{2}
 Covers {1}% of final evos
@@ -56656,7 +56660,7 @@ This ball has a very low chance to capture {1}.
 This ball is guaranteed to capture {1}!
 这个球保证能捕捉到{1}！
 This ball has a close to {1}% chance of capturing {2}.
-这个球有接近{1}%的概率捕捉到{2}。
+这个球有接近{1}%概率捕捉到{2}。
 Use on which Pokémon?
 对哪只精灵使用？
 Restore which move?
@@ -60400,7 +60404,7 @@ That's because wasting a turn setting them up in the short term pays off big in 
 If you like being alive, pack something that can clean up hazards – Defog, Terraform, or Rapid Spin, usually.
 如果你喜欢保持健康，那就带上一些能够清除陷阱的东西——通常是除雾、搅土翻壤或高速旋转。
 Stealth Rocks are the most common hazard, so prioritize hazard removal if you've got lots of Rock-weak Pokémon.
-隐型岩是最常见的陷阱，所以如果你有很多岩石属性弱点的精灵，就优先清除陷阱。
+隐形岩是最常见的陷阱，所以如果你有很多岩石属性弱点的精灵，就优先清除陷阱。
 Remember: if your favorite little gremlin is switching out nine times a match or is cripplingly weak to funny pebbles, put Heavy-Duty Boots on it.
 记住：如果你最喜欢的那只小妖精在一场比赛中切换了九次，或者对那些奇怪的小石头异常脆弱，就给它穿上重型靴子。
 They're cute and effective.
@@ -60602,7 +60606,7 @@ Tapu Bulu's ability "Wild Totem" creates a "Primal Forest" upon entry that only 
 Whenever a Pokémon on its side is hit by an offensive attack, it becomes enraged.
 每当其同侧的精灵被攻击命中时，它会陷入暴走。
 Thereby, its defense stats are both lowered by 1 step and its attack stats are both raised by 1 step.
-这会使其减小自身的双防，但增加自身的双攻。
+这会使自身的双防减小1级，但自身的双攻增加1级。
 Tapu Fini's ability "Fog Totem" creates a "Misdirecting Fog" upon entry that only affects its side and lasts for 6 turns.
 卡璞·鳍鳍的特性“迷雾图腾”，会在出场时开启持续6回合，且只影响己方的“迷惑之雾”。
 Whenever a foe finishes attacking a Pokémon on its side, the attacker is forced to switch out of battle.
@@ -66523,7 +66527,7 @@ Flame Spikes
 Frost Spikes
 冰菱
 Stealth Rock
-隐型岩
+隐形岩
 Feather Ward
 翎羽陷阱
 Live Wire

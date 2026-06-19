@@ -87,7 +87,7 @@ class WhoAmI_Scene
   end
 
   def check_entering_limit
-    if $Trainer.money < LEAST_MONEY
+    if $Trainer.money < lose_money
       #pbMessage(_INTL("You don't have enough money to play the game!"))
       return false
     end
@@ -163,9 +163,12 @@ class WhoAmI_Scene
     animate_reveal
   end
 
-  AWARD_MONEY = 100
+  AWARD_MONEY = 1
   LOST_MONEY  = 3000
-  LEAST_MONEY = 3000
+
+  def lose_money
+    LOST_MONEY * TA.get(:who_am_i_incorrect)
+  end
 
   def apply_award(correct = true)
     if correct
@@ -173,7 +176,7 @@ class WhoAmI_Scene
       $Trainer.money += (AWARD_MONEY * TA.get(:who_am_i_correct))
     else
       TA.increase(:who_am_i_incorrect)
-      $Trainer.money = [0, $Trainer.money - (LOST_MONEY * TA.get(:who_am_i_incorrect))].max
+      $Trainer.money = [0, $Trainer.money - lose_money].max
     end
     #$Trainer.pokedex.set_seen(@species)
   end

@@ -26,9 +26,10 @@ Data/PBSExtensions.rxdata
 Data/GraphicsExtensions.rxdata
 server.log
 .idea/
+OnlinePresets/
 !Library/gems/**
 release_version_mod.txt
+release_version_mod_old.txt
 field_effect_manual.txt
 PBS/pokemon_server.txt
 Saves/
-OnlinePresets/

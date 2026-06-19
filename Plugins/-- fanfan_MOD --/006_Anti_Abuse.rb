@@ -80,10 +80,42 @@ module AntiAbuse
     #file.write(Settings::GAME_VERSION)
     #file.close
     #return unless is_chinese?
-    file = File.open("release_version_mod.txt", "wb")
-    file.write(CHANGE_LOG)
-    file.close
+    handle_file_with_line_check(
+      filename: "release_version_mod.txt",
+      content: CHANGE_LOG,
+      line_number: 4
+    )
+    handle_file_with_line_check(
+      filename: "release_version_mod_old.txt",
+      content: CHANGE_LOG_OLD,
+      line_number: 5
+    )
     PokeBattle_Battle::Field.print_field_effect_manual
+  end
+
+  def self.handle_file_with_line_check(filename:, content:, line_number:)
+    target_line_index = line_number - 1
+
+    unless File.exist?(filename)
+      File.open(filename, "wb") { |f| f.write(content) }
+    else
+      current_line = nil
+      File.open(filename, "r") do |f|
+        f.each_line.with_index do |line, idx|
+          if idx == target_line_index
+            current_line = line.chomp
+            break 
+          end
+        end
+      end
+
+      new_line = content.lines[target_line_index].chomp
+
+      unless current_line == new_line
+        File.open(filename, "wb") { |f| f.write(content) }
+      else
+      end
+    end
   end
 
   def self.apply_anti_abuse
