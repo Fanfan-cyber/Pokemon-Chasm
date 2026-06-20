@@ -65,6 +65,7 @@ end
 
 module AntiAbuse
   DEBUG_PASSWORD  = "12138"
+  GAME_UID        = "earthquake"
   PROMISE_CLAIM   = ["I promise", "我保证"]
   GAME_OFFICIAL   = %w[宝可饭堂 pokefans 地震啦！！！ 493645591].freeze
   GO_SOURCE_CHECK = false
@@ -74,6 +75,27 @@ module AntiAbuse
   CHEAT_PROCESS   = %w[nw.exe cheatengine-i386.exe cheatengine-x86_64.exe cheatengine-x86_64-SSE4-AVX2.exe GearNT.exe].freeze
   FILES_TO_DELETE = ["Saves", "Achievements.dat", "Time Capsule.dat"].freeze
   @@debug_control = false
+
+  #ES's Hot Update
+  def self.check_update
+    return unless windows?
+    check_url = "http://api.pokefans.xyz/ess/check_update/?name=" + GAME_UID + "&version=" + UPDATE_VERSION.to_s
+    result = pbDownloadToString(check_url)
+
+    return if nil_or_empty?(result)
+    data = (eval(result) rescue nil)
+    return unless data
+    return unless data["status"] == 200
+    return if data["server_version"] <= UPDATE_VERSION
+    content = data["content"]
+
+    line = [9, content.count("\n") + 2].min
+    pbMessage(_INTL("\\l[{1}]The current version of the game is not the latest!\nAn update has been detected!\n{2}", line, content))
+    if pbConfirmMessage(_INTL("Check update?"))
+      System.launch(AntiAbuse::OFFICIAL_SITE)
+      exit
+    end
+  end
 
   def self.print_update_log
     #file = File.open("release_version.txt", "wb")
@@ -91,6 +113,7 @@ module AntiAbuse
       line_number: 5
     )
     PokeBattle_Battle::Field.print_field_effect_manual
+    pbMessage(_INTL("All the latest changelogs were printed and saved to the files release_version_mod.txt and release_version_mod_old.txt in the main folder!"))
   end
 
   def self.handle_file_with_line_check(filename:, content:, line_number:)

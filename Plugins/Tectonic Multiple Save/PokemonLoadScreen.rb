@@ -88,6 +88,7 @@ class PokemonLoadScreen
 
     def pbStartLoadScreen
         AntiAbuse.apply_anti_abuse
+        AntiAbuse.check_update
         commands = []
         cmd_continue        = -1
         cmd_load_game       = -1
@@ -114,7 +115,8 @@ class PokemonLoadScreen
         commands[cmd_website = commands.length]         = _INTL("Website")
         commands[cmd_discord = commands.length]         = _INTL("Discord") unless is_chinese?
         commands[cmd_wiki = commands.length]            = _INTL("Wiki")
-        commands[cmd_changelog = commands.length]       = _INTL("3.4 Changelog")
+        #commands[cmd_changelog = commands.length]       = _INTL("3.4 Changelog")
+        commands[cmd_changelog = commands.length]       = _INTL("Changelog")
         commands[cmd_quit = commands.length]            = _INTL("Quit Game")
         @scene.pbStartScene(commands, false, nil, 0, 0)
         @scene.pbStartScene2
@@ -184,7 +186,10 @@ class PokemonLoadScreen
             when cmd_wiki
                 System.launch("https://pokemontectonic.wiki.gg/")
             when cmd_changelog
-                System.launch("https://bit.ly/tectonic_changes_340")
+                #System.launch("https://bit.ly/tectonic_changes_340")
+                if pbConfirmMessage(_INTL("Do you want to print out the changelogs?", MOD_VERSION))
+                  AntiAbuse.print_update_log
+                end
             when cmd_quit
                 pbPlayCloseMenuSE
                 @scene.pbEndScene

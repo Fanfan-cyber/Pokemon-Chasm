@@ -51069,6 +51069,8 @@ Wiki
 维基百科
 3.4 Changelog
 3.4更新日志
+Changelog
+更新日志
 Current version is {1}.<<n>>Check update?
 当前版本是{1}。<<n>>要检查更新吗？
 Just Save

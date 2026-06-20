@@ -20,8 +20,9 @@ Agility 3回合先制度+1
 优化小游戏
 =end
 
-MOD_VERSION  = "0.4.7"
-VERSION_NAME = ["Radiant Nexus", "星芒汇流"]
+MOD_VERSION    = "0.4.7"
+UPDATE_VERSION = 47
+VERSION_NAME   = ["Radiant Nexus", "星芒汇流"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -217,7 +218,13 @@ storymode/nostorymode，开启/关闭剧情模式
 20.现在只会在必要时打印release_version_mod_old.txt文件
 21.现在“我是谁”小游戏的每题奖励金钱由100改为1
 22.现在允许开始“我是谁”小游戏的金钱不再固定是3000，而是由下一次答题失败的损失的金钱决定
-23.
+23.现在标题界面不再显示3.4 Changelog选项
+24.现在游戏不再在启动时自动生成release_version_mod.txt文件
+25.现在游戏不再在启动时自动生成release_version_mod_old.txt文件
+26.现在游戏不再在启动时自动生成field_effect_manual.txt文件
+27.现在标题界面会显示一个Changelog选项，使用该选项可以生成最新的release_version_mod.txt文件、release_version_mod_old.txt文件和field_effect_manual.txt文件
+28.现在当在Windows系统下游玩游戏时，在游戏启动时，如果游戏有更新，会出现一条提示提醒玩家对游戏进行更新
+29.
 
 #==============================================================================#
 以上部分记录了此游戏当前版本的更新记录，供参考。
