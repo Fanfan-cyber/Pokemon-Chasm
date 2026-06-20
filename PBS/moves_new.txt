@@ -5094,7 +5094,7 @@ Accuracy = 0
 TotalPP = 1
 Target = None
 FunctionCode = ReviveGrassTypePartyMemberToFullHP
-Description = Restores a fainted Grass-type party member to full HP. Only one use per battle.
+Description = Revives a fainted Grass-type party member to full HP. Only one use per battle.
 #-------------------------------
 [CAMOUFLAGE]
 Name = Camouflage
@@ -5606,7 +5606,7 @@ Accuracy = 0
 TotalPP = 1
 Target = None
 FunctionCode = RevivePartyMemberTo1HP
-Description = Restores a fainted party member to 1 HP. Only one use per battle.
+Description = Revives a fainted party member to 1 HP. Only one use per battle.
 Animation = ELECTRICTERRAIN
 #-------------------------------
 [DIELECTRICBREAKDOWN]

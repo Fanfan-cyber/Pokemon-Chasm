@@ -160,6 +160,7 @@ def battleKeywordsImportant
         "sugar rush",
         "self-destructing",
         "judgment",
+        "revives",
     ]
 end
 
