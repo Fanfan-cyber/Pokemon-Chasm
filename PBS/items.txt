@@ -2676,7 +2676,7 @@ NamePlural = EXP-EZ Dispensers
 Pocket = 3
 Price = 0
 FieldUse = OnPokemon
-Flags = KeyItem
+Flags = EXPCandy,KeyItem
 Description = A machine that stores EXP Candy and excess EXP. Use it on your Pokémon to feed them candy.
 #-------------------------------
 [UNIVERSALFORMALIZER]
