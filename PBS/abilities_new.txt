@@ -1918,7 +1918,7 @@ Description = Gets 50% more healing from all sources.
 #-------------------------------
 [ROYALMAJESTY]
 Name = Royal Majesty
-Description = Makes foes unable to use priority moves.
+Description = Prevents foes from using priority moves that target this Pokémon or its allies.
 #-------------------------------
 [RUGGED]
 Name = Rugged
