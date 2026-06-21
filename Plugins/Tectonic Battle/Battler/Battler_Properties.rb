@@ -140,26 +140,22 @@ class PokeBattle_Battler
     end
 
     def getMoves
-        if should_extra_moves?
-            movesArray = self.form == 0 ? @moves.clone : @moves_for_dexyos[self.form].clone
-        else
-            movesArray = @moves.clone
+        movesArray = @moves.clone
+        if should_extra_move_sets? && self.form != 0
+            movesArray = @moves_for_dexyos[self.form].clone
         end
+
         if hasActiveAbility?(:HIGHJUDGE)
-            hasJudgmentAlready = false
-            movesArray.each do |move|
-                next unless move.id == :JUDGMENT
-                hasJudgmentAlready = true
-                break
-            end
-            unless hasJudgmentAlready
+            unless movesArray.any? { |mv| mv && mv.id == :JUDGMENT }
                 judgment = @battle.getBattleMoveInstanceFromID(:JUDGMENT)
                 movesArray.push(judgment)
             end
         end
         if hasActiveAbility?(:PURESTLIGHT)
-            lightthatburnsthesky = @battle.getBattleMoveInstanceFromID(:LIGHTTHATBURNSTHESKY)
-            movesArray.push(lightthatburnsthesky)
+            unless movesArray.any? { |mv| mv && mv.id == :LIGHTTHATBURNSTHESKY }
+                lightthatburnsthesky = @battle.getBattleMoveInstanceFromID(:LIGHTTHATBURNSTHESKY)
+                movesArray.push(lightthatburnsthesky)
+            end
         end
         if @battle.field.effectActive?(:InsightRoom) && @pokemon
             speciesLearnSet = @pokemon.getMoveList
@@ -181,6 +177,14 @@ class PokeBattle_Battler
                 movesArray.push(insightMove)
                 break
             end
+        end
+
+        # Extra moves (from curses and avatar shenanigans), mirroring extra abilities.
+        # Added to movesArray so the AI can choose them
+        # and the fight menu's >MAX_MOVES handling can display them.
+        @pokemon.extraMoves.each do |moveID|
+            next if movesArray.any? { |mv| mv && mv.id == moveID }
+            movesArray.push(@battle.getBattleMoveInstanceFromID(moveID))
         end
         return movesArray
     end

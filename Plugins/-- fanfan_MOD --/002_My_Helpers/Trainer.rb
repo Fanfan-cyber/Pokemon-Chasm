@@ -30,7 +30,7 @@ class Trainer
   end
 
   def has_illusion_pkmn?
-    pokemon_party.any? { |pkmn| pkmn.hasAbility?(:ILLUSION) }
+    pokemon_party.any? { |pkmn| pkmn.hasAbility?([:ILLUSION, :INCOGNITO]) }
   end
 
   def fainted_pkmn_count

@@ -118,14 +118,14 @@ class Pokemon
 end
 
 class PokeBattle_Battler
-  def should_extra_moves?
+  def should_extra_move_sets?
     return false if boss?
     return false unless isSpecies?(:DEOXYS)
     return true
   end
 
-  def resetExtraMoves
-    return unless should_extra_moves?
+  def resetExtraMoveSets
+    return unless should_extra_move_sets?
     @moves_for_dexyos = Hash.new { |hash, key| hash[key] = [] }
     @pokemon.initializeExtraMoves
     @pokemon.moves_for_dexyos.each do |form_index, form_moves|

@@ -612,7 +612,7 @@ class PokeBattle_Battler
         end
         
         #@battle.ai_update_abilities(self, abils: abilities)
-        #@battle.initializeKnownMoves(self.pokemon, should_extra_moves? && self.form != 0)
+        #@battle.initializeKnownMoves(self.pokemon, should_extra_move_sets? && self.form != 0)
     end
 
     def pbCheckFormOnStatusChange

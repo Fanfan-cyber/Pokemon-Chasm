@@ -224,7 +224,15 @@ storymode/nostorymode，开启/关闭剧情模式
 26.现在游戏不再在启动时自动生成field_effect_manual.txt文件
 27.现在标题界面会显示一个Changelog选项，使用该选项可以生成最新的release_version_mod.txt文件、release_version_mod_old.txt文件和field_effect_manual.txt文件
 28.现在当在Windows系统下游玩游戏时，在游戏启动时，如果游戏有更新，会出现一条提示提醒玩家对游戏进行更新
-29.
+29.现在可以通过https://api.pokefans.xyz/ess/update/list.php?key=earthquake查看网页版更新记录了
+30.现在游戏的官网为https://share.note.youdao.com/s/Iq7JsH33，你可以在这个网站上面查询到关于这个游戏的一切必要信息
+31.修复了某些幻觉类特性的效果在战斗中不会应用的Bug
+32.优化了获取精灵的技能的获取逻辑
+33.优化了当精灵的技能大于4个时获取技能的逻辑
+34.优化了塔罗牌效果额外技能的获取逻辑
+35.现在通过塔罗牌效果额外技能所获得的技能与通过其他效果所获得的技能将使用相同的逻辑
+36.优化了Purest Light的检查逻辑
+37.
 
 #==============================================================================#
 以上部分记录了此游戏当前版本的更新记录，供参考。
