@@ -2134,7 +2134,7 @@ NamePlural = Enigma Berries
 Pocket = 9
 Price = 0
 Flags = Berry
-Description = If held by a Pokémon, it restores its HP if it is hit by any supereffective attack.
+Description = If held by a Pokémon, it heals its HP by 33% if it is hit by any supereffective attack.
 #-------------------------------
 [MICLEBERRY]
 Name = Micle Berry
