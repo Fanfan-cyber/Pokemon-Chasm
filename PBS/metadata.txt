@@ -271,7 +271,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,11,3
 BattleBack = city
-MapSize = 3,111
+MapSize = 2,11
 #-------------------------------
 [035]
 # Impromptu Lab
@@ -1334,7 +1334,7 @@ BattleBack = indoor3
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,13,6
+MapPosition = 0,12,6
 BattleBack = forest
 MapSize = 4,1111
 Environment = Forest
@@ -1355,16 +1355,16 @@ Environment = Ice
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,14,3
+MapPosition = 0,13,3
 BattleBack = city
-MapSize = 2,1111
+MapSize = 3,111111
 #-------------------------------
 [188]
 # Prizca Castle
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,14,2
+MapPosition = 0,13,2
 BattleBack = city
 #-------------------------------
 [189]
@@ -1372,7 +1372,7 @@ BattleBack = city
 Outdoor = false
 ShowArea = true
 Bicycle = true
-MapPosition = 0,14,2
+MapPosition = 0,13,2
 BattleBack = distortion
 Environment = Graveyard
 #-------------------------------
@@ -1713,7 +1713,7 @@ Outdoor = false
 ShowArea = false
 Bicycle = true
 HealingSpot = 187,55,37
-MapPosition = 0,15,4
+MapPosition = 0,14,4
 #-------------------------------
 [236]
 # Your House
@@ -1721,7 +1721,7 @@ Outdoor = false
 ShowArea = false
 Bicycle = true
 HealingSpot = 187,55,37
-MapPosition = 0,15,4
+MapPosition = 0,14,4
 #-------------------------------
 [237]
 # Ranger Bunks
@@ -2027,7 +2027,7 @@ Bicycle = false
 Outdoor = false
 ShowArea = true
 Bicycle = true
-MapPosition = 0,14,1
+MapPosition = 0,13,1
 BattleBack = distortion
 Environment = Graveyard
 #-------------------------------
@@ -2360,6 +2360,7 @@ Bicycle = false
 Outdoor = false
 ShowArea = false
 Bicycle = false
+MapPosition = 0,11,2
 #-------------------------------
 [330]
 # King's Chamber
@@ -3254,6 +3255,15 @@ Bicycle = true
 Weather = Blizzard,100
 BattleBack = snow
 Environment = Snow
+#-------------------------------
+[455]
+# Karanfil Estates
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,11,4
+BattleBack = city
+MapSize = 2,11
 #-------------------------------
 [456]
 # Center Station

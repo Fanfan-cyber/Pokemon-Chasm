@@ -144,6 +144,13 @@ class PokeBattle_Battler
             @moves[i] = PokeBattle_Move.from_pokemon_move(@battle, m)
         end
         resetExtraMoves
+        # Extra moves (from curses and avatar shenanigans), mirroring extra abilities.
+        # Added to @moves directly so the AI (which enumerates @moves) can choose them
+        # and the fight menu's >MAX_MOVES handling can display them.
+        @pokemon.extraMoves.each do |moveID|
+            next if @moves.any? { |mv| mv && mv.id == moveID }
+            @moves.push(@battle.getBattleMoveInstanceFromID(moveID))
+        end
     end
 
     def pbInitialize(pkmn, idxParty, batonPass = false)

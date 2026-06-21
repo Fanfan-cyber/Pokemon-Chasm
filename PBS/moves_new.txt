@@ -4734,7 +4734,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = GulpingDive
 Flags = CanProtect,Uninvocable
-Description = The user dives down with its beak wide open. Transforms into Gulping or Gorging form.
+Description = The user dives down with its beak wide open. Transforms into Gulping- or Gorging form, depending on HP.
 #-------------------------------
 [HARBORBREAKER]
 Name = Harbor Breaker
@@ -5121,7 +5121,7 @@ Accuracy = 0
 TotalPP = 1
 Target = None
 FunctionCode = ReviveGrassTypePartyMemberToFullHP
-Description = Restores a fainted Grass-type party member to full HP. Only one use per battle.
+Description = Revives a fainted Grass-type party member to full HP. Only one use per battle.
 #-------------------------------
 [CAMOUFLAGE]
 Name = Camouflage
@@ -5646,7 +5646,7 @@ Accuracy = 0
 TotalPP = 1
 Target = None
 FunctionCode = RevivePartyMemberTo1HP
-Description = Restores a fainted party member to 1 HP. Only one use per battle.
+Description = Revives a fainted party member to 1 HP. Only one use per battle.
 Animation = ELECTRICTERRAIN
 #-------------------------------
 [DIELECTRICBREAKDOWN]
@@ -7872,7 +7872,7 @@ Accuracy = 100
 TotalPP = 10
 Target = NearOther
 FunctionCode = FixedDamageHalfTargetHealUserByHalfOfDamageDone
-Flags = CanProtect
+Flags = CanProtect,Biting
 Description = The user chomps hard, cutting the target's HP by 50%, and the user's HP is restored by 50% of that.
 Animation = SUPERFANG
 #-------------------------------

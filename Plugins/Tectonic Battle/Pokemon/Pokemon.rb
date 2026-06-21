@@ -649,6 +649,19 @@ class Pokemon
         return @extraAbilities
     end
 
+    def addExtraMove(move)
+        extraMoves.push(move) unless extraMoves.include?(move)
+    end
+
+    def hasExtraMoves?
+        return extraMoves.length > 0
+    end
+
+    def extraMoves
+        @extraMoves = [] if @extraMoves.nil?
+        return @extraMoves
+    end
+
     def immuneToWeatherDownsides?
         return true if hasItem?(:UTILITYUMBRELLA)
         GameData::Ability.getByFlag("AllWeatherSynergy").each do |weatherAbilityID|
@@ -1664,6 +1677,7 @@ class Pokemon
         @ability_index    = nil
         @ability          = nil
         @extraAbilities   = []
+        @extraMoves       = []
         @nature           = nil
         @nature_for_stats = nil
         @items            = []
