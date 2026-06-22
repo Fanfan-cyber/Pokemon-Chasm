@@ -1315,7 +1315,7 @@ Description = Multi-hit moves can hit up to twice as many times.
 #-------------------------------
 [LONGRECEIVER]
 Name = Long Receiver
-Description = Copies the Ability of the Pokémon it switches in to replace.
+Description = Copies the Ability of the Pokémon it switches in to replace. This excludes fainted allies.
 #-------------------------------
 [LONGTERMVIEW]
 Name = Long-term View
