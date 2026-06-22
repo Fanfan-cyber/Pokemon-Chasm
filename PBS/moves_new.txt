@@ -4926,6 +4926,19 @@ EffectChance = 30
 Description = The user rams the target while splashing up a lot of water. This has a 30% chance to waterlog.
 Animation = WATERFALL
 #-------------------------------
+[STICKYSPINES]
+Name = Sticky Spines
+Type = WATER
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FixedDamageOneEighthWaterlogTarget
+Flags = CanProtect
+Description = The target gets covered in sticky spines, waterlogging it and losing 1/8th of their current HP.
+Animation = SOAK
+#-------------------------------
 [TIDEPULL]
 Name = Tide Pull
 Type = WATER
