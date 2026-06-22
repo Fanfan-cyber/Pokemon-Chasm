@@ -1679,6 +1679,18 @@ Flags = CanMagicCoat
 Description = The user lays a hazard layer of poison spikes on the foe's side. One layer hurts switched in foes, two layers poisons.
 Animation = TOXICSPIKES
 #-------------------------------
+[RETREATINGSTING]
+Name = Retreating Sting
+Type = POISON
+Category = Status
+Accuracy = 100
+TotalPP = 8
+Target = NearOther
+FunctionCode = PoisonTargetSwitchOutUserStatusMove
+Flags = CanProtect,CanMagicCoat
+Description = The user jabs the target with its stinger while retreating. This poisons the target and switches the user out.
+Animation = POISONSTING
+#-------------------------------
 [SLIMEBALL]
 Name = Slimeball
 Type = POISON
@@ -4914,6 +4926,19 @@ EffectChance = 30
 Description = The user rams the target while splashing up a lot of water. This has a 30% chance to waterlog.
 Animation = WATERFALL
 #-------------------------------
+[STICKYSPINES]
+Name = Sticky Spines
+Type = WATER
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FixedDamageOneEighthWaterlogTarget
+Flags = CanProtect
+Description = The target gets covered in sticky spines, waterlogging it and losing 1/8th of their current HP.
+Animation = SOAK
+#-------------------------------
 [TIDEPULL]
 Name = Tide Pull
 Type = WATER
@@ -6396,7 +6421,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = SwitchOutUserDamagingMove
 Flags = CanProtect
-Description = After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
+Description = After making its attack to the target's psyche, the user teleports back to switch places with a party Pokémon.
 Animation = ZENHEADBUTT
 #-------------------------------
 [PSYCHICOVERLOAD]
