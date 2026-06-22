@@ -10174,7 +10174,7 @@ Pokemon = LICKILICKY,70
 [CHEF,Gordon]
 Pokemon = PYUKUMUKU,70
     Moves = POISONGAS,LIFEDEW,LIGHTSCREEN,REFLECT
-    AbilityIndex = 1 # Realist
+    AbilityIndex = 0 # Innards Punch
     Item = LIGHTCLAY
 Pokemon = MAROMATISSE,70
     Moves = SHADOWSNEAK,INFINITEFORCE,HEX,FLORALGRAMARYE
@@ -10358,7 +10358,7 @@ Pokemon = DITTO,70
 Policies = MATCH_LEVEL_CAP
 Pokemon = PYUKUMUKU,70
     Moves = LIFEDEW,SYMBIOSIS,STANDTOGETHER,RECYCLE
-    AbilityIndex = 1 # Realist
+    AbilityIndex = 0 # Innards Punch
     Item = LEPPABERRY
 Pokemon = CRYOGONAL,70
     Moves = LIGHTSCREEN,RECOVER,MIRRORSHIELD,ICENINEWALL
