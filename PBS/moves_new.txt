@@ -1679,6 +1679,18 @@ Flags = CanMagicCoat
 Description = The user lays a hazard layer of poison spikes on the foe's side. One layer hurts switched in foes, two layers poisons.
 Animation = TOXICSPIKES
 #-------------------------------
+[RETREATINGSTING]
+Name = Retreating Sting
+Type = POISON
+Category = Status
+Accuracy = 100
+TotalPP = 8
+Target = NearOther
+FunctionCode = PoisonTargetSwitchOutUserStatusMove
+Flags = CanProtect,CanMagicCoat
+Description = The user jabs the target with its stinger while retreating. This poisons the target and switches the user out.
+Animation = POISONSTING
+#-------------------------------
 [SLIMEBALL]
 Name = Slimeball
 Type = POISON
