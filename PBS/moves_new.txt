@@ -4176,7 +4176,7 @@ TotalPP = 1
 Target = User
 Priority = -6
 FunctionCode = RevivePartyMemberTo50HPThenSwitch
-Description = The user creates a golden pyre that revives a fainted Pokémon. That Pokémon switches in and its stats are boosted.
+Description = The user creates a golden pyre that revives a fainted Pokémon at half HP. That Pokémon switches in and its stats are boosted.
 Animation = MORNINGSUN
 #-------------------------------
 [HEARTHFIREHULA]
