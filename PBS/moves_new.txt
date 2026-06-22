@@ -6421,7 +6421,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = SwitchOutUserDamagingMove
 Flags = CanProtect
-Description = After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
+Description = After making its attack to the target's psyche, the user teleports back to switch places with a party Pokémon.
 Animation = ZENHEADBUTT
 #-------------------------------
 [PSYCHICOVERLOAD]
