@@ -260,6 +260,11 @@ class PokeBattle_Battler
                     healer.pbAbilitiesOnDamageTaken(oldHP)
                     healer.pbFaint if healer.fainted?
                 elsif amt.positive?
+                    if healer.pbOwnedByPlayer? && @battle.curseActive?(:CURSE_TORMENTED)
+                        healer.effects[:IllusoryLife] = [] unless healer.effectActive?(:IllusoryLife)
+                        healer.effects[:IllusoryLife].push([3, amt])
+                    end
+
                     if healer.isSpecies?(:MIMIKYU) && stealers.include?(healer) && healer.form == 1 && healer.fullHealth?
                         healer.pbChangeForm(0, _INTL("{1}'s disguise was restored!", healer.pbThis))
                     end

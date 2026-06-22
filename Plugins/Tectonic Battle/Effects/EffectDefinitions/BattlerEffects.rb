@@ -2876,3 +2876,34 @@ GameData::BattleEffect.register_effect(:Battler, {
         battler.refreshDataBox
     end,
 })
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :IllusoryLife,
+    :real_name => "Illusory Life",
+    :type => :Array,
+    :info_displayed => false,
+    :eor_proc => proc do |battle, battler, value|
+        damageToApply = 0
+        value.each do |healingDamageEntry|
+            healingDamageEntry[0] -= 1
+            if healingDamageEntry[0] == 0
+                damageToApply += healingDamageEntry[1]
+            end
+        end
+        value.reject! { |entry| entry[0] <= 0 }
+
+        if damageToApply > 0
+            if battler.takesIndirectDamage?
+                battle.pbDisplay(_INTL("{1}'s healing became damage!", battler.pbThis))
+                oldHP = battler.hp
+                battler.damageState.displayedDamage = damageToApply
+                damageToApply = battler.hp if damageToApply > battler.hp
+                battler.pbReduceHP(damageToApply, false, false, false)
+                battle.scene.pbHitAndHPLossAnimation([[battler, oldHP, 1]], true)
+                battler.cleanupPreMoveDamage(battler, oldHP)
+            else
+                value << [1, damageToApply]
+            end
+        end
+    end,
+})

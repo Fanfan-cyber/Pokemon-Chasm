@@ -134,7 +134,7 @@ module CDKey
     calculated_checksum = name_part.length + level
     return false unless checksum == calculated_checksum
     expected_letters = checksum_str.chars.map do |digit|
-      # 1->a, 2->b, ..., 9->i, 0->j
+      # 1->a, 2->b, ..., 9->i
       if digit == '0'
         'z'
       else

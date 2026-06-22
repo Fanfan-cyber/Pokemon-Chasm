@@ -2,7 +2,7 @@ PokeBattle_Battle::BattleStartApplyCurse.add(:CURSE_TORMENTED,
     proc { |curse_policy, battle, curses_array|
         battle.amuletActivates(
             _INTL("Lucid? Lose it. Lunacy looms lucent. Let loose."),
-            _INTL("Your Pokémon are Tortured on entry.")
+            _INTL("Your Pokémon are Tortured on entry. Your Pokémon's healing effects will become damage in 3 turns.")
         )
         curses_array.push(curse_policy)
         next curses_array

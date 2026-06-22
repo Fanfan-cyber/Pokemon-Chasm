@@ -76,7 +76,7 @@ module AntiAbuse
   FILES_TO_DELETE = ["Saves", "Achievements.dat", "Time Capsule.dat"].freeze
   @@debug_control = false
 
-  #ES's Hot Update
+  # ES's Hot Update
   def self.check_update
     return unless windows?
     check_url = "http://api.pokefans.xyz/ess/check_update/?name=" + GAME_UID + "&version=" + UPDATE_VERSION.to_s
