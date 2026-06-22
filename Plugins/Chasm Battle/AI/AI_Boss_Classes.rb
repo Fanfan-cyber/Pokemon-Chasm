@@ -506,6 +506,7 @@ end
 class PokeBattle_AI_GOURGEIST < PokeBattle_AI_Boss
     def initialize(user, battle)
         super
+        user.pokemon.ability_index = 0
         secondMoveEveryTurn(:TRICKORTREAT)
         secondMoveEveryTurn(:YAWN)
     end
