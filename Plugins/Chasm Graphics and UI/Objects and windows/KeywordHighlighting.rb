@@ -163,15 +163,12 @@ def battleKeywordsImportant
         "judgment",
         "mega punch",
         "breach",
-        "gust",
         "nuzzle",
-        "snore",
         "parting shot",
         "covet",
         "wish",
         "power split",
         "pain split",
-        "rest",
         "dragon dance",
         "lightning dance",
         "rapid spin",
@@ -195,6 +192,9 @@ def battleKeywordsImportantCaseSensitive
         "Flame Spikes",
         "Poison Spikes",
         "Spikes",
+        "Rest",
+        "Gust",
+        "Snore",
     ]
 end
 
