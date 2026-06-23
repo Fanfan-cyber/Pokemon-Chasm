@@ -167,7 +167,7 @@ class WhoAmI_Scene
   LOST_MONEY  = 3000
 
   def lose_money
-    LOST_MONEY * TA.get(:who_am_i_incorrect)
+    LOST_MONEY * TA.get(:who_am_i_incorrect, 1)
   end
 
   def apply_award(correct = true)

@@ -14,7 +14,16 @@ BattleHandlers::MoveBlockingAbility.add(:ROYALMAJESTY,
   }
 )
 
-BattleHandlers::MoveBlockingAbility.copy(:ROYALMAJESTY, :IMPERIOUS, :ATTENDANTSGRACE)
+BattleHandlers::MoveBlockingAbility.add(:IMPERIOUS,
+  proc { |ability, bearer, user, targets, move, battle, aiCheck|
+        priority = battle.getMovePriority(move, user, targets, aiCheck)
+        next false unless priority && priority > 0
+        next false unless bearer.opposes?(user)
+        next true
+  }
+)
+
+BattleHandlers::MoveBlockingAbility.copy(:IMPERIOUS, :ATTENDANTSGRACE)
 
 BattleHandlers::MoveBlockingAbility.add(:DESICCATE,
     proc { |ability, _bearer, _user, _targets, move, battle, aiCheck|
