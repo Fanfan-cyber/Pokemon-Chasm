@@ -3124,7 +3124,7 @@ Animation = CURSE
 [DEADEND]
 Name = Dead End
 Type = GHOST
-Category = Special
+Category = Physical
 Power = 65
 Accuracy = 100
 TotalPP = 10
@@ -3132,7 +3132,7 @@ Target = NearOther
 FunctionCode = DoubleDamageTargetBelowHalf
 Flags = CanProtect
 Description = If the target's HP is half or less, this attack will hit with double the power.
-Animation = HEX
+Animation = SHADOWCLAW
 #-------------------------------
 [DEATHKNELL]
 Name = Death Knell
