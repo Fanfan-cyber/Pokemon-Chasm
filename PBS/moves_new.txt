@@ -3472,6 +3472,20 @@ EffectChance = 50
 Description = The target is pestered by a giant tongue. This has a 50% chance to numb it.
 Animation = LICK
 #-------------------------------
+[UMBRAGE]
+Name = Umbrage
+Type = GHOST
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect
+EffectChance = 40
+Description = The user shoots the target with darkness formed from anger. It has a 40% chance to lower Sp. Def.
+Animation = SHADOWBALL
+#-------------------------------
 [VIMRIPPER]
 Name = Vim Ripper
 Type = GHOST
