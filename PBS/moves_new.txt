@@ -3472,6 +3472,20 @@ EffectChance = 50
 Description = The target is pestered by a giant tongue. This has a 50% chance to numb it.
 Animation = LICK
 #-------------------------------
+[UMBRAGE]
+Name = Umbrage
+Type = GHOST
+Category = Special
+Power = 65
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect
+EffectChance = 40
+Description = The user shoots the target with darkness formed from anger. It has a 40% chance to lower Sp. Def.
+Animation = SHADOWBALL
+#-------------------------------
 [VIMRIPPER]
 Name = Vim Ripper
 Type = GHOST
@@ -4000,20 +4014,6 @@ FunctionCode = AddSteelTypeToTargetLowerTargetSpd4
 Flags = CanProtect,CanMagicCoat
 Description = Welds heavy steel onto the target, giving it the Steel type and reducing its Speed by four steps.
 Animation = SHOTPUT
-#-------------------------------
-#		QMARKS MOVES
-#-------------------------------
-[DISCOVEREDPOWER]
-Name = Discovered Power
-Type = QMARKS
-Category = Status
-Accuracy = 100
-TotalPP = 15
-Target = User
-FunctionCode = UseChoiceOf3RandomNonSignatureStatusMoves
-Flags = CanSnatch
-Description = The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
-Animation = METRONOME
 #-------------------------------
 #		FIRE MOVES
 #-------------------------------
@@ -8691,6 +8691,20 @@ FunctionCode = StartMoonglow8
 Flags = CanProtect,Light
 Description = Strikes the target with lunar light, then summons moonglow for eight turns.
 Animation = DAZZLINGGLEAM
+#-------------------------------
+#		QMARKS MOVES
+#-------------------------------
+[DISCOVEREDPOWER]
+Name = Discovered Power
+Type = QMARKS
+Category = Status
+Accuracy = 100
+TotalPP = 15
+Target = User
+FunctionCode = UseChoiceOf3RandomNonSignatureStatusMoves
+Flags = CanSnatch
+Description = The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
+Animation = METRONOME
 #-------------------------------
 #		MUTANT MOVES
 #-------------------------------

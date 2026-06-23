@@ -3190,21 +3190,6 @@ FunctionCode = RaiseUserAtk4
 Flags = CanSnatch,Dance
 Description = A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
 #-------------------------------
-#		QMARKS MOVES
-#-------------------------------
-[SECRETPOWER]
-Name = Secret Power
-Type = QMARKS
-Category = Adaptive
-Power = 80
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = EffectDependsOnEnvironment
-Flags = CanProtect
-EffectChance = 30
-Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
-#-------------------------------
 #		FIRE MOVES
 #-------------------------------
 [BLASTBURN]
@@ -5988,6 +5973,21 @@ FunctionCode = Dizzy
 Flags = CanProtect,CanMagicCoat
 Description = The user kisses the target with a sweet, angelic cuteness that dizzies the target.
 Animation = SWEETKISS
+#-------------------------------
+#		QMARKS MOVES
+#-------------------------------
+[SECRETPOWER]
+Name = Secret Power
+Type = QMARKS
+Category = Adaptive
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = EffectDependsOnEnvironment
+Flags = CanProtect
+EffectChance = 30
+Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
 #-------------------------------
 #		FLEX MOVES
 #-------------------------------
