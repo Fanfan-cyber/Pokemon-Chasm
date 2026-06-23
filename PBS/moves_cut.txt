@@ -1746,6 +1746,18 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The user spins a sandstorm around the target, trapping and damaging it for three turns.
 #-------------------------------
+[TREMOR]
+Name = Tremor
+Type = GROUND
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 15
+Target = AllNearOthers
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user slams the earth, damaging all Pokémon around it and underground.
+#-------------------------------
 [UNDERMINE]
 Name = Undermine
 Type = GROUND
