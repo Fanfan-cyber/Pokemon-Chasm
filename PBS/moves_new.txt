@@ -2103,6 +2103,20 @@ Flags = CanProtect,Kick
 Description = The user attacks by flattening the target into the ground. This resets the target's positive stat changes.
 Animation = STOMP
 #-------------------------------
+[TAILSLAM]
+Name = Tail Slam
+Type = GROUND
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetAtk1
+Flags = CanProtect
+EffectChance = 40
+Description = The user slams the earth with its tail, creating a shockwave to damage the target. It has a 40% chance to lower Attack.
+Animation = SLAM
+#-------------------------------
 [TRAMPLE]
 Name = Trample
 Type = GROUND
@@ -2130,18 +2144,6 @@ Flags = CanProtect,Kick
 EffectChance = 20
 Description = The user attacks the opposing Pokémon by trampling it. It has a 20% chance to lower Speed.
 Animation = STOMPINGTANTRUM
-#-------------------------------
-[TREMOR]
-Name = Tremor
-Type = GROUND
-Category = Physical
-Power = 65
-Accuracy = 100
-TotalPP = 15
-Target = AllNearOthers
-FunctionCode = HitsDiggers
-Flags = CanProtect
-Description = The user slams the earth, damaging all Pokémon around it and underground.
 #-------------------------------
 #		ROCK MOVES
 #-------------------------------
