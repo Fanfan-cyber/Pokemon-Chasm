@@ -1878,17 +1878,6 @@ FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit
 Description = The user hits the target with its tail. Can random critical hit.
 #-------------------------------
-[PURIFY]
-Name = Purify
-Type = POISON
-Category = Status
-Accuracy = 0
-TotalPP = 5
-Target = NearOther
-FunctionCode = CureTargetStatusHealUserHalfOfTotalHP
-Flags = CanProtect,CanMagicCoat
-Description = The user heals the target's non-volatile status condition. If so, it also heals itself by half of its max HP.
-#-------------------------------
 [SHELLSIDEARM]
 Name = Shell Side Arm
 Type = POISON

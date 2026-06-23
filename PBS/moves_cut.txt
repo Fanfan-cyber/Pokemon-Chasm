@@ -1450,6 +1450,17 @@ FunctionCode = Invalid
 Flags = CanProtect,CanMagicCoat
 Description = The user scatters a cloud of poisonous dust on the target. It poisons the target.
 #-------------------------------
+[PURIFY]
+Name = Purify
+Type = POISON
+Category = Status
+Accuracy = 0
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,CanMagicCoat
+Description = The user heals the target's non-volatile status condition. If so, it also heals itself by half of its max HP.
+#-------------------------------
 [SLUDGEBOMB]
 Name = Sludge Bomb
 Type = POISON

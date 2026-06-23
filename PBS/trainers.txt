@@ -8176,38 +8176,37 @@ Pokemon = TENTACRUEL,60
 [DELINQUENT,Jeralyn]
 Pokemon = DITTO,33
     AbilityIndex = 0 # Imposter
-    Item = SEVENLEAGUEBOOTS
 Pokemon = MJELLICENT,34
     Moves = ELECTROSLASH,SHADOWCLAW,LIQUIDATION,NUMB
     AbilityIndex = 1 # No Hope
 Pokemon = GREEDENT,33
-    Moves = STUFFCHEEKS,RECYCLE,BODYPRESS,WARDPRESS
+    Moves = STOCKPILE,RECYCLE,BODYSLAM,CREEPINGSTRIKE
     AbilityIndex = 0 # Cheek Pouch
     Item = CADOBERRY
 #-------------------------------
 [COLLECTOR,Emre]
 Policies = HAIL_TEAM
 Pokemon = CASTFORM,33
-    Moves = INVITEHAIL,BLIZZARD,DRIFTOFF,SANDBLASTING
+    Moves = INVITEHAIL,WEATHERBURST,DRIFTOFF,BUBBLEBLASTER
     AbilityIndex = 0 # Forecast
+    Item = ICYROCK
 Pokemon = POLTEAGEIST,35
     Moves = AROMATHERAPY,SUFFOCATE,TOTALCONTROL,SNIPESHOT
     AbilityIndex = 0 # Caffeine Rush
-    Item = SCOPELENS
 Pokemon = ABOMASNOW,34
-    Moves = ROOTSHELTER,LEAFBLADE,BLIZZARD,EARTHPOWER
+    Moves = ROOTSHELTER,LEAFBLADE,WEATHERBURST,EARTHPOWER
     AbilityIndex = 0 # Frost Scatter
 #-------------------------------
 [SAGE,Shion]
 Pokemon = MISMAGIUS,33
-    Moves = DEATHKNELL,ENCHANTINGSONG,HYPERVOICE,FROSTBREATH
+    Moves = SPITEFULCHANT,ENCHANTINGSONG,HYPERVOICE,FROSTBREATH
     AbilityIndex = 1 # Ear-Splitting
 Pokemon = BRELOOM,35
     Moves = SPORE,MACHPUNCH,BULLETSEED,ROCKTOMB
     AbilityIndex = 0 # Technician
     Item = LOADEDDICE
 Pokemon = COALOSSAL,34
-    Moves = STEALTHROCK,FLAREBLITZ,HEAVYSLAM,DIAMONDFORCE
+    Moves = STEALTHROCK,WHITEFLAME,CREEPINGSTRIKE,ADAMANTINEPRESS
     AbilityIndex = 1 # Fuel Hungry
 #-------------------------------
 [DITTO_HIKER,Kevinick]
@@ -8215,11 +8214,11 @@ Pokemon = SCRAFTY,35
     Moves = DROWN,BROWBEAT,DROPKICK,STINGINGJEALOUSY
     AbilityIndex = 0 # Shed Skin
 Pokemon = MDRAGALGE,34
-    Moves = SPATTERINGRAM,WATERLOG,DROPKICK,ROOTDRIVER
+    Moves = WATERFALL,WATERLOG,DROPKICK,SAPPINGJEALOUSY
     AbilityIndex = 0 # Sinking Feeling
     Item = SITRUSBERRY
 Pokemon = LAIRON,33
-    Moves = GRANITEHEAD,BULLETCHARGE,MAGNETIZE,BULLDOZE
+    Moves = GRANITEHEAD,IRONHEAD,MAGNETIZE,BULLDOZE
     AbilityIndex = 1 # Motor Drive
 #-------------------------------
 [DITTO_AROMALADY,Cindalice]
@@ -8229,18 +8228,18 @@ Pokemon = LURANTIS,34
     AbilityIndex = 0 # Inversion
     Item = PINPOINTROCK
 Pokemon = KLANG,34
-    Moves = POWDERBOMB,VOLTSWITCH,BEDROCKBREAKER,WEATHERBURST
+    Moves = GYROBALL,VOLTSWITCH,ADAMANTINEPRESS,WEATHERBURST
     AbilityIndex = 0 # Stainless Steel
 Pokemon = VENOMOTH,34
-    Moves = PENUMBRA,PIERCINGDOUBT,BUGBUZZ,ENERGYBALL
+    Moves = PENUMBRA,PIERCINGDOUBT,ALLERGY,OCCULTATION
     AbilityIndex = 0 # Fell Omen
 #-------------------------------
 [DITTO_CAMPER,Johnate]
 Pokemon = SPINDA,34
-    Moves = FOULPLAY,WARDPRESS,SHORTCIRCUIT,BODYPRESS
-    AbilityIndex = 1 # Unconventional
+    Moves = DIZZYPUNCH,PACIFY,DREAMABSORB,STOMPINGTANTRUM
+    AbilityIndex = 0 # Wibble Wobble
 Pokemon = TREVENANT,34
-    Moves = LEAFBLADE,DISTURB,ADAMANTINEPRESS,FLOWSTATE
+    Moves = CREEPINGSTRIKE,VIMRIPPER,ADAMANTINEPRESS,FLOWSTATE
     AbilityIndex = 0 # Schadenfreude
 Pokemon = THROH,34
     Moves = DRAINPUNCH,KNOCKOFF,ROCKALANCHE,POISONJAB
@@ -8249,12 +8248,12 @@ Pokemon = THROH,34
 #-------------------------------
 [DITTO_RANGER,Hannamy]
 Pokemon = CACTURNE,34
-    Moves = SINISTERSPINES,SUCKERPUNCH,SPIKES,METEORMASH
+    Moves = CREEPINGSTRIKE,SUCKERPUNCH,SPIKES,METEORMASH
     AbilityIndex = 1 # Schadenfreude
     Item = LIFEORB
-Pokemon = TENTACRUEL,34
-    Moves = SLAMSHUT,KINETICGRIP,SLUDGEWAVE,WETWORK
-    AbilityIndex = 1 # Grip Strength
+Pokemon = QWILFISH,34
+    Moves = WATERFALL,THROATCHOP,STINGINGJEALOUSY,STOCKPILE
+    AbilityIndex = 0 # Quiller Instinct
 Pokemon = SAWK,34
     Moves = ICESHARD,ACCELEROCK,ENCHANTEDARROW,DETACHMENT
     AbilityIndex = 0 # First Strike
@@ -8267,19 +8266,19 @@ Pokemon = HZOROARK,35
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,0,20,20
 Pokemon = ZOROARK,35
-    Moves = BLACKOUT,TOTALCONTROL,FLAMETHROWER,SLUDGEWAVE
+    Moves = DARKPULSE,TOTALCONTROL,FLAMETHROWER,UTURN
     AbilityIndex = 0 # Illusion
     Item = SEVENLEAGUEBOOTS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,10,0,20,10
 Pokemon = LINOONE,35
-    Moves = PLAYROUGH,COVET,LIQUIDATION,BEDROCKBREAKER
+    Moves = PLAYROUGH,COVET,LIQUIDATION,ADAMANTINEPRESS
     AbilityIndex = 0 # Thief's Diversion
     Item = FAIRYGEM
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,10,20,0
 Pokemon = FLAPPLE,35
-    Moves = UTURN,BRAVEBIRD,LEAFBLADE,KNOCKOFF
+    Moves = UTURN,CLASSICALPHYSICS,LEAFBLADE,KNOCKOFF
     AbilityIndex = 0 # Hustle
     Item = WIDELENS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -10175,7 +10174,7 @@ Pokemon = LICKILICKY,70
 [CHEF,Gordon]
 Pokemon = PYUKUMUKU,70
     Moves = POISONGAS,LIFEDEW,LIGHTSCREEN,REFLECT
-    AbilityIndex = 1 # Realist
+    AbilityIndex = 0 # Innards Punch
     Item = LIGHTCLAY
 Pokemon = MAROMATISSE,70
     Moves = SHADOWSNEAK,INFINITEFORCE,HEX,FLORALGRAMARYE
@@ -10359,7 +10358,7 @@ Pokemon = DITTO,70
 Policies = MATCH_LEVEL_CAP
 Pokemon = PYUKUMUKU,70
     Moves = LIFEDEW,SYMBIOSIS,STANDTOGETHER,RECYCLE
-    AbilityIndex = 1 # Realist
+    AbilityIndex = 0 # Innards Punch
     Item = LEPPABERRY
 Pokemon = CRYOGONAL,70
     Moves = LIGHTSCREEN,RECOVER,MIRRORSHIELD,ICENINEWALL
