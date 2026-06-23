@@ -635,7 +635,7 @@ BattleHandlers::TargetAbilityOnHit.add(:CURSEDTAIL,
         warned = warned_battlers.include?(target.unique_id) || target.fainted?
         if aiCheck
             if warned || aiNumHits > 1
-                next -30
+                next -(getCurseEffectScore(target, user) * 0.25)
             else
                 next -10
             end

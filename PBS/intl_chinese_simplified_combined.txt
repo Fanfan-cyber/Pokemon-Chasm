@@ -1590,7 +1590,7 @@ Time to transfer all my notes to PDF format. Hope the scanners aren't reserved t
 Novo College sends us a daily batch of healing items to keep us going.
 望新大学每天都会给我们送来一批回复药物，用来维持我们精灵的健康。
 It's useful, but I don't think my team appreciates getting revived four times a day...
-这虽然很有用，但我觉得我的队伍不喜欢一天被复活4次...
+这虽然很有用，但我觉得我的队伍不喜欢一天被完全回复4次...
 Sheesh, felt the shockwaves all the way back here.
 天啊，我甚至在这里也感受到了震颤。
 Must have been rough. Glad you showed up.
@@ -3847,7 +3847,7 @@ According to that new measure, I'm supposed to give you this.
 Use this Aid Kit to heal your entire party!
 使用这个医疗包来回复你的整个队伍！
 Fainted Pokemon will be revived and their statuses will be healed.
-濒死的精灵将被复活，也会回复它们的异常状态。
+濒死的精灵将被回复健康，也会回复它们的异常状态。
 It has a limited number of uses, but any nurse or other healer you meet will restore its supplies back up to full!
 它的使用次数是有限的，但你遇到的任何护士或其他回复者都会将其恢复到满！
 Thank you for your patience while I explained all of that.
@@ -8940,7 +8940,7 @@ You've met, I believe?
 I'll take your Pokémon for a few seconds.
 请允许我暂时拿走您的精灵。
 First, you should restore your Pokémon to full health.
-现在你的精灵已经恢复活力了。
+现在你的精灵已经回复活力了。
 We hope you excel!
 祝您一路顺风！
 Offensive Pokémon need offensive moves.
@@ -12317,7 +12317,7 @@ I can probably take a break, with Trainers like you walking around.
 See ya.
 再见。
 Well, they don't pay me to bring my Max Revives home...
-他们没有付给我购买全满药的薪水...
+他们没有付给我购买全复药的薪水...
 I'm tending to my Pokemon right now.
 我正在照顾我的精灵。
 A portent felt, a divination.
@@ -15644,7 +15644,7 @@ Rock doggy.... no....
 Heh, now I know how the grunts felt when Yezera whipped their butts.
 呵呵，现在我好像明白叶泽拉在面对那些士兵时的感受了。
 Leave me to the task of reviving my battlers.
-让我先复活我的战士吧。
+让我先回复我的战士吧。
 Vanya breathes out heavily.
 凡雅重重地出了口气。
 So, this is it. The very last badge. After this comes the championship, you know.
@@ -23895,7 +23895,7 @@ Stealing or removing items makes most Pokémon way easier to deal with.
 Or just go fast with a priority move!
 或者直接用先制类技能快攻！
 They can stop a sweep from being, um, swept, or just get one last punch in before your slow Pokémon go down.
-它们可以阻止对手的推队，或者在慢速精灵倒下前打出最后一击。
+它们可以阻止对手的推队，或者在慢速精灵濒死前打出最后一击。
 No
 不
 Yes
@@ -27186,7 +27186,7 @@ OBJ-TAO-3危险等级从1级增加至2级。
 Lab Notes 5 - May 4
 实验室笔记5 - 5月4日
 10:15: Lab assistant (ID E-SCI213) collapsed while conducting routine materials analysis of OBJ-TAO-3.
-10:15：实验室助理（编号E-SCI213）在对OBJ-TAO-3进行常规材料分析时倒下。
+10:15：实验室助理（编号E-SCI213）在对OBJ-TAO-3进行常规材料分析时崩溃。
 10:20: E-SCI213 found unresponsive to all stimuli. Medical team alerted.
 10:20：E-SCI213对所有刺激无反应。医疗队已警报。
 10:30: Medical team arrival. Initial medical diagnosis: sudden onset stroke.
@@ -32637,7 +32637,7 @@ It has enough psychic energy to blast everything within 300 feet of itself, but 
 The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.
 从耳朵内侧眼珠花纹的地方释放出精神力量。但因为太强力而一直堵住耳朵。
 If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.
-用蓝布卷住握剑柄之人的手臂，吸取生命直至其倒下。
+用蓝布卷住握剑柄之人的手臂，吸取生命直至其濒死。
 The complex attack patterns of its two swords are unstoppable, even for an opponent greatly accomplished at swordplay.
 要抵挡住2把剑发出的复杂的连续攻击，即便是用剑高手也不可能。
 Apparently, it can detect the innate qualities of leadership. According to legend, whoever it recognizes is destined to become king.
@@ -32759,7 +32759,7 @@ It can bend the tip of its beak to produce over a hundred different cries at wil
 They smack beaks with others of their kind to communicate. The strength and number of hits tell each other how they feel.
 因成双成对感情和睦而闻名。它被视为一种吉祥的象征，常被带到结婚仪式去。
 It wanders around in a never-ending search for food. At dusk, it collapses from exhaustion and falls asleep on the spot.
-它不断徘徊寻找食物。黄昏时，它因筋疲力尽而倒下，在原地睡着。
+它不断徘徊寻找食物。黄昏时，它因筋疲力尽而濒死，在原地睡着。
 Once it finds signs of prey, it will patiently stake out the location, waiting until the sun goes down.
 一旦发现猎物的踪迹，它就会耐心地监视该地点，一直等到太阳下山。
 If you find its nest, you shouldn't stick your hand inside. You'll get bitten by an irritated Grubbin.
@@ -33205,7 +33205,7 @@ Garchomp taking this form are rare due to its specific conditions required. This
 The already aggressive Gyarados is only amplified by this form. All it can feel in this form is pure rage. Cruise ships have been bisected for getting in its path.
 本就凶暴的暴鲤龙在此形态下更显狰狞。它眼中只剩纯粹怒火，曾有游轮挡路被其拦腰斩断。
 The pain of seeing those it cares for fall has brought out this form. Its pure heart powers its abilities to be much more powerful.
-目睹珍视之人倒下而觉醒的形态。纯粹的心灵使其力量产生质的飞跃。
+目睹珍视之人濒死而觉醒的形态。纯粹的心灵使其力量产生质的飞跃。
 The pain of seeing those it wishes to protect fall has causes this form to emerge. Its red blades are powered by pure heart.
 守护对象受伤的痛楚催生此形态。赤红刀刃由至纯心意驱动。
 Psychic power has augmented its muscles. Its arms are able to stretch up to ten feet, and it can crush titanium in its grip.
@@ -36304,7 +36304,7 @@ The user reflects the target's type, making it the same type as the target.
 The user rests to cure itself of any non-volatile status condition.
 通过休息回复自身异常状态。
 Gets revenge for a fainted ally. If an ally fainted in the last turn, this attack's damage doubles.
-为倒下的队友报仇。如果上1回合有队友倒下，这次攻击伤害翻倍。
+为濒死的队友报仇。如果上1回合有队友濒死，这次攻击伤害翻倍。
 The foe is forced to switch out to a random ally. Always goes last.
 迫使对手随机替换为一只队友。
 The user attacks with a song. Others can join in the Round and make the attack do greater damage.
@@ -37318,7 +37318,7 @@ The user drops onto the target with a kick, dealing 25% recoil to self.
 The user endures attacks with 1 HP. If so, raises its Attack by two steps. Fails if used in succession.
 受到攻击后会至少保留1HP，如果该效果发动，会同时使自身的物攻增加2级。连续使用则会失败。
 The user raises all of their stats by two steps. Fails unless a foe fainted last turn.
-跳起唤来胜利的舞蹈，如果上回合有对手倒下，则使自身全能力增加2级。
+跳起唤来胜利的舞蹈，如果上回合有对手濒死，则使自身全能力增加2级。
 The user strikes the target with a basic frontal kicking technique.
 使用者用基本的正面踢击技巧攻击目标。
 The user strikes the target's pressure points with precise punches, numbing it.
@@ -37664,7 +37664,7 @@ The user forces itself or the target to spend 25% HP to make a Substitute by tur
 The user soothes the target, lowering its Speed by four steps. If in hail, they also become drowsy.
 使用者安抚目标，使其速度减小4级。如果处于冰雹时，目标还会变得瞌睡。
 The user channels its fallen allies to strike the target. This attack has 20 more power per fainted party member.
-引导已经倒下的队友攻击对方，每有一名倒下的队友，此技能威力增加20。
+引导已经濒死的队友攻击对方，每有一名濒死的队友，此技能威力增加20。
 Disables the target's last used move for five turns, and cuts 5 PP from it.
 在5回合内禁止对方使用上一个技能，并削减其5PP。
 Spectral hands reach from the ground to trip the target. The heavier the target, the greater the damage.
@@ -37813,8 +37813,8 @@ The user targets the opponents soft spots with a fiery strike. Its power doubles
 以烈焰打击对手的弱点。如果其处于烧伤状态，威力翻倍。
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
 增加自身的特攻3级，在被替换下场前，所有技能都会波及到对方全部精灵。
-The user creates a golden pyre that revives a fainted Pokémon. That Pokémon switches in and its stats are boosted.
-使用者创造黄金火葬堆，复活一只濒死的精灵。该精灵替换出场，其全能力增加1级。
+The user creates a golden pyre that revives a fainted Pokémon at half HP. That Pokémon switches in and its stats are boosted.
+使用者创造黄金火葬堆，回复一只濒死的队友一半HP。该精灵替换出场，并且全能力增加1级。
 The user dances with great heat. Pokémon hit by this are cured of frostbite. Deals 50% less damage to allies.
 使用者跳起炽热之舞。被命中的精灵会回复冻伤。对队友造成的伤害减半。
 The user pauses to plan its ranged attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
@@ -37956,7 +37956,7 @@ The user gracefully slashes the target three times. The next time this move is u
 Flowers blooms with intensity, damaging the target and raising the user's Sp. Atk by two steps.
 在下方绽放鲜花，造成伤害。使自身的特攻增加2级。
 Revives a fainted Grass-type party member to full HP. Only one use per battle.
-回复一名已倒下的草属性队友的全部HP。每场战斗只能使用一次。
+回复一名濒死的草属性队友的全部HP。每场战斗只能使用一次。
 The user fades into the foliage, charging and becoming hidden, then strikes from stealth on the second turn.
 使用者第一回合隐匿于草丛之中进入隐藏，第二回合发动偷袭。
 The user drops some heads from high up. The taller the user compared to the target, the greater the damage.
@@ -38157,7 +38157,7 @@ Psychic energy assaults the foe and darkens the sky, summoning eclipse for eight
 用精神能量攻击对手，使天空变暗，并开启持续8回合的日食。
 Pierces the mind of the target, inflicting doubt in their abilities, guaranteeing a critical hit on foes with boosted stats.
 穿透目标的心智，在其能力上制造怀疑，对有能力等级增加的目标必定会命中要害。
-After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
+After making its attack to the target's psyche, the user teleports back to switch places with a party Pokémon.
 对目标的心智发动攻击后，使用者进行传送，与队伍中的精灵交换位置。
 The user overloads its mind to rampage for two turns.
 使用者过载心智，陷入暴走，连续攻击2回合。
@@ -38282,7 +38282,7 @@ Exhales magical fumes with a 30% chance to burn or frostbite the target dependin
 Sends hindering waves of energy forward, lowering hit foes' Evasion by four steps.
 向前发送阻碍性能量波，使被击中对手的回避率减小4级。
 Doubles target ally's Attack and Speed. However, if the user faints, so too does that ally.
-让队友的攻击和速度翻倍。但是如果自身倒下，那么队友也会倒下。
+让队友的攻击和速度翻倍。但是如果自身濒死，那么队友也会濒死。
 The user inspires a sudden dread in the target, damaging it. This move always goes first.
 使对方突然感到恐惧，并造成伤害。
 The user launches four Dreepies, which spread out equally to hit near foes. But, they avoid targets they can't hit.
@@ -38526,7 +38526,7 @@ The target is attacked with a slash of claws or blades, always critting.
 The user gleams with light. This lowers each foe's Sp. Atk by two steps and raises its own Sp. Atk by two steps.
 使用者闪耀光芒。使每个目标的特攻减小2级，自身的特攻增加2级。
 The user prepares to defend itself. It'll survive the next three hits which would faint it.
-专心保护自身，接下来3回合内不会倒下。
+专心保护自身，接下来3回合内不会濒死。
 The user growls fiercely. This lowers each foe's Attack by two steps and raises its own Attack by two steps.
 使用者发出凶猛的咆哮。使每个目标的物攻减小2级，自身的物攻增加2级。
 The user copies and gains the first ability of each foe.
@@ -41393,7 +41393,7 @@ The user summons eclipse for 50% longer. The holder will endure one potential KO
 The user summons moonglow for 50% longer. The holder will endure one potential KO.
 使开启的月辉的持续时间增加50%，且免疫一次致命伤害。
 A held item. When the holder faints, a random other party member is fully revived.
-一种携带物。携带者倒下时，会随机复活一名队友。
+一种携带物。携带者濒死时，会随机使一名队友回复健康。
 A held item. It boosts the power of moves by 30%. The user heals for a third of all move damage they deal.
 一种携带物。携带后技能威力增加30%，并回复类技能伤害的1/3HP。
 A held item. In battles, it sets the holder's base Attack and base Defense stats to 120.
@@ -42827,6 +42827,8 @@ Thermostasis
 热滞留
 Thief's Diversion
 盗贼转移
+Thrown In
+投掷入场
 Thunderstruck
 引雷入体
 Time Interloper
@@ -43186,8 +43188,8 @@ Powers up super-effective moves by 30%.
 效果拔群的技能的威力增加30%。
 Attacks by or against this Pokémon can't miss and hit hidden Pokémon.
 发动的或受到的攻击必定会命中。
-Non-Normal moves become Normal-type and are powered up by 50%.
-非一般属性技能全部会变为一般属性，并且威力增加50%。
+Non-Normal moves become Normal-type. All moves are powered up by 50%.
+该精灵使用的非一般属性技能全部会变为一般属性。所有技能威力增加50%。
 Child attacks after the parent, for 25% of the previous damage.
 攻击时，孩子会以25%的伤害再攻击一次。
 When it takes a hit, this Pokémon and the attacker both faint after three turns.
@@ -43862,7 +43864,7 @@ This Pokémon is also Grass-type. When hit by an attack, the attacker's ability 
 为自身增加草属性。被攻击时，攻击者的特性将变为感染者。
 Upon entry, blinds all foes.
 出场时，使所有对手陷入失明。
-When hit with a move, hits back instantly with Mega Punch.
+When hit with an attacking move, hits back instantly with Mega Punch.
 受到技能攻击时，立即以百万吨重拳还击。
 Summons sunshine for four turns when hit by an attack.
 被攻击时，开启持续4回合的晴天。
@@ -43936,7 +43938,7 @@ Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
 不会被命中要害。被攻击后，每回合结束时回复1/12HP。
 Multi-hit moves can hit up to twice as many times.
 多段伤害类技能最多可以打出原先最大次数的2倍的次数。
-Copies the Ability of the Pokémon it switches in to replace.
+Copies the Ability of the Pokémon it switches in to replace. This excludes fainted allies.
 替换出场时，复制被替换的精灵的特性。
 Effects placed by this Pokémon last 50% longer.
 该精灵开启的效果的持续时间增加50%。
@@ -44077,7 +44079,7 @@ Doubles Sp. Def. This Pokémon takes double damage from Psychic-type moves.
 Immune to Flying-type moves and deals 50% more damage with them.
 免疫飞行属性技能，并且使用飞行属性技能时伤害增加50%。
 After fainting from self-destructing, revives after five turns.
-使用自爆类技能濒死时，5回合后复活。
+使用自爆类技能濒死时，5回合后会回复健康。
 This Pokémon's hits deal half damage unless they are critical.
 如果没有命中要害，自身攻击造成的伤害减半。
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
@@ -44177,7 +44179,7 @@ Boosts the power of slice moves by 30%. They're twice as likely to crit.
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks.
 受到龙属性、妖精属性和幽灵属性攻击的伤害减半。
 If this Pokémon faints from Perish Song, it is revived in a new form.
-若因灭亡之歌而濒死，将以新形态复活。
+若因灭亡之歌而濒死，将以新形态回复健康。
 Maximizes Sp. Atk when its HP is lowered below half.
 自身HP小于一半时，特攻增加至最大。
 After knocking out any Pokémon, regenerates its previously-used item.
@@ -44450,6 +44452,8 @@ Heals 1/16th HP every turn. Takes half damage from Fire- and Ice-type moves.
 回合结束时，回复HP的1/16。受到的火属性和冰属性技能的伤害减半。
 By sacrificing a held item this Pokémon didn't start with, it can negate one attack against it.
 通过消耗一个非出场前携带的物品，可以防止一次针对它的攻击。
+When another party member uses Fling, they swap out for Pyukumuku.
+当队友使用投掷时，替换上场。
 Becomes energized when hit by an attack, doubling the power of its next Electric-type attack.
 受到攻击时，进入能量充盈状态，使下次电属性技能威力翻倍。
 Its attacks have priority, deal 25% less damage and become special.
@@ -49310,7 +49314,7 @@ What do these legendary abilities do?
 Winning Battles
 赢得战斗
 You win a battle when all enemy Pokémon faint: reach 0 health points. You lose a battle if any of your Pokémon faints. Fainted Pokémon will revive in several turns.
-当你使所有敌方精灵濒死：HP达到0时，你赢得战斗。如果你的任何精灵濒死，你就输掉战斗。濒死的精灵将在10个回合后复活。
+当你使所有敌方精灵濒死：HP达到0时，你赢得战斗。如果你的任何精灵濒死，你就输掉战斗。濒死的精灵将在10个回合后回复健康。
 1. Have as many Pokémon as you can. 2. Level up your Pokémon as much as you can. 3. Abuse type matchups. 4. Start battles with healthy Pokémon.
 多抓精灵，多升级，多用不同属性，用满HP精灵开始战斗。
 Team Size
@@ -49806,7 +49810,7 @@ Some Avatars have Empowered attacks, which are powered-up versions of other atta
 Experience Reward
 经验
 When an Avatar is destroyed, every Pokémon on your team is given experience, even those that are fainted.
-当化身被打倒后，队伍内所有精灵都会获得经验，即便是已经倒下的。
+当化身被打倒后，队伍内所有精灵都会获得经验，即便是已经濒死的。
 Legendary Avatars
 传说化身
 Legendary Avatars are unique. You fight them with 3 Pokémon, they have 3 HP bars, and they have more moves with more smarts about how to use them.
@@ -53882,7 +53886,7 @@ PA: You have no Safari Balls left! Game over!
 {1} is watching carefully!
 {1}正在仔细观察你！
 \w[]\wm\c[12]\l[3]You feel the pull of the nearby Avatar Totem. Would you like it to revive you?
-\w[]\wm\c[12]\l[3]你感觉到了附近的化身图腾在吸引着你，要利用它的力量复活自身吗？
+\w[]\wm\c[12]\l[3]你感觉到了附近的化身图腾在吸引着你，要利用它的力量回复自身吗？
 \w[]\wm\c[12]\l[3]By the power of the Avatar Totem, your team is revived.
 \w[]\wm\c[12]\l[3]借助化身图腾的力量你的队伍获得了重生。
 An error has occured. Unable to spawn player at Avatar Totem. Attempting backup spawn at healing spot.
@@ -53964,17 +53968,17 @@ Told to recover a negative amount
 {1} flees in fear!
 {1}惊恐地逃走了！
 {1} fainted!
-{1}倒下了！
+{1}濒死了！
 {1} fell to the ground!
 {1}落在了地上！
 {1}'s scattered its {2} when fainting.
-{1}在倒下时撒下了它的{2}。
+{1}在濒死时撒下了它的{2}。
 But there was no one to revive!
-但是没有精灵可以复活！
+但是没有精灵可以回复！
 Its allied {1} was revived to full health!
 它的队友{1}恢复到了满状态！
 {1} will revive in {2} turns!
-{1}将在{2}回合后复活！
+{1}将在{2}回合后回复健康！
 {1} triggered!
 {1}发动了！
 {1} #{aboveHalfHealth? ? 'deactivated' : 'activated'}!
@@ -54024,7 +54028,7 @@ But {1} holds tightly onto its {2}!
 {1} is unaffected!
 {1}没有受到影响！
 {1} is too angry to faint right now!
-{1}现在太愤怒了，无法倒下！
+{1}现在太愤怒了，无法濒死！
 nthTurnThisRound checks for turns 1 or above!
 nthTurnThisRound检查的是1回合或以上！
 #{@name} isn't an avatar, but something is requesting its Phase Lower Health Bound!
@@ -54252,7 +54256,7 @@ The poison starts already doubled!
 {1} was extremely hurt by poison!
 {1}受到了严重的中毒伤害！
 {1} was brought to its knees entirely by poison!
-{1}因中毒倒下了！
+{1}因中而毒濒死了！
 {1}'s poison worsened! The damage will be doubled until it leaves the field.
 {1}的中毒加强了！直到{1}离场，中毒的伤害将持续翻倍。
 {1}'s poison doubled yet again!
@@ -54640,7 +54644,7 @@ Exhaustion finally catches up with {1}!
 {1} heard the Perish Song! It will take massive damage in {2} turns!
 {1}听到了灭亡之歌！它将在{2}回合后受到巨大伤害！
 {1} heard the Perish Song! It will faint in {2} turns!
-{1}听到了灭亡之歌！它将在{2}回合后倒下！
+{1}听到了灭亡之歌！它将在{2}回合后濒死！
 {1} begins the harvest!
 {1}开始收获！
 {1} was freed from the memory of the Perish Song!
@@ -55284,7 +55288,7 @@ The coral overgrowth around {1} withered!
 {1} recovered to full health!
 {1}回复到了满状态！
 {1} is reviving!
-{1}正在复活！
+{1}正在回复健康！
 {1} filched {2}'s {3}!
 {1}偷走了{2}的{3}！
 {1} got a bit extra out of their {2}!
@@ -55700,7 +55704,7 @@ But it failed, since {1} hasn't absorbed any energy!
 {1} is storing energy!
 {1}正在积蓄能量！
 But it failed, since {1} was already waiting to take down others with it!
-但它失败了，因为{1}已经在等待与他人一同倒下！
+但它失败了，因为{1}已经在等待与其他精灵一同濒死！
 But it failed in the presence of an Avatar!
 但是在化身前失败了！
 {1} is hoping to take its attacker down with it!
@@ -58166,7 +58170,7 @@ The game has detected that the battery is low. You should save soon to avoid los
 {1} survived the burn.\<<n>>The burn faded away!<<1>>
 {1}撑住了灼烧。\<<n>>灼烧消失了!<<1>>
 {1} fainted...
-{1}倒下了...
+{1}濒死了...
 {1} survived the poisoning.\<<n>>The poison faded away!<<1>>
 {1}撑住了中毒。\<<n>>中毒消失了！<<1>>
 {1} survived the frostbite.\<<n>>The frostbite faded away!<<1>>
@@ -59136,7 +59140,7 @@ Warp to maps, edit switches/variables, use the PC, edit Day Care, etc.
 Battle options...
 战斗选项...
 Start battles, reset this map's trainers, ready rematches, edit roamers, etc.
-开始战斗，重置这张地图的训练师，准备重赛，编辑漫游者等。
+开始战斗，重置这张地图的训练师，准备重赛，编辑漫游精灵等。
 Pokémon options...
 精灵选项...
 Give Pokémon, heal party, fill/empty PC storage, etc.
@@ -60232,7 +60236,7 @@ Collected the {1} egg.
 <<[>>All roam to new locations<<]>>
 <<[>>所有漫游到新位置<<]>>
 <<[>>Clear all current roamer locations<<]>>
-<<[>>清除所有当前漫游者位置<<]>>
+<<[>>清除所有当前漫游精灵位置<<]>>
 Can only run this command when the game language isn't set to the default!
 只有在游戏语言未设置为默认时才能运行此命令！
 {1} already exists. Overwrite it?
@@ -60568,7 +60572,7 @@ Conserve its health and leverage its power.
 In the same match, an Aegislash may be far less valuable – be willing to sacrifice it.
 在同一场比赛中，阿罗拉盾甲龙可能就没那么有价值了——要愿意牺牲它。
 There's no shame in letting a Pokémon fall in order to get a safe switch to another.
-为了安全地切换到另一只精灵，让一只精灵倒下并没有什么可耻的。
+为了安全地切换到另一只精灵，让一只精灵濒死并没有什么可耻的。
 While they may seem drastic, moves such as Healing Wish or Explosion can turn the tide of a match in a single turn.
 虽然它们看起来很极端，但像治愈之愿或自爆这样的技能可以在1回合内扭转比赛的局面。
 Fainting the user can, if used with finesse, be an advantage – think of them as the ultimate U-Turn.
@@ -62478,7 +62482,7 @@ Heals all non-volatile status conditions and 10% of max HP when it switches out.
 After knocking out any Pokémon/being knocked out, raises/lowers its/attacker's Sp. Atk and Speed by 2 steps.
 打倒对手时，特攻和速度增加2级；被打倒时，攻击者的特攻和速度减小2级。
 After fainting from exploding, revives after five turns, but requires above 50% HP if caused by others.
-因自身的自爆类技能而濒死时，5回合后会重新苏醒，若是因其他精灵的自爆类技能而濒死，则需濒死前自身的HP在50%以上时才能苏醒。
+因自身的自爆类技能而濒死时，5回合后会回复健康，若是因其他精灵的自爆类技能而濒死，则需濒死前自身的HP在50%以上时才能苏醒。
 Copies opponents' species' legal Abilities.
 复制对手精灵的物种合法特性。
 This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat steps.

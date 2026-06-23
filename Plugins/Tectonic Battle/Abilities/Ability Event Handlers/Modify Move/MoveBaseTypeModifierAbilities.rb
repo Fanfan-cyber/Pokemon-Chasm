@@ -21,9 +21,9 @@ BattleHandlers::MoveBaseTypeModifierAbility.add(:LIQUIDVOICE,
 )
 
 BattleHandlers::MoveBaseTypeModifierAbility.add(:NORMALIZE,
-  proc { |ability, _user, move, _type|
-      next unless GameData::Type.exists?(:NORMAL)
-      move.powerBoost = true
+  proc { |ability, _user, move, type|
+      next if type == :NORMAL || !GameData::Type.exists?(:NORMAL)
+      #move.powerBoost = true
       next :NORMAL
   }
 )

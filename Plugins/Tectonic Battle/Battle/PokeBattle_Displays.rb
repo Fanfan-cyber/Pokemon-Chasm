@@ -66,7 +66,7 @@ class PokeBattle_Battle
     end
 
     def pbShowAbilitySplash(battler, ability, delay = false)
-        aiLearnsAbility(battler, ability)
+        #aiLearnsAbility(battler, ability)
         triggerAbilityTriggeredDialogue(battler, ability)
         return unless showMessages?
         @scene.pbShowAbilitySplash(battler, ability)
@@ -78,7 +78,7 @@ class PokeBattle_Battle
     end
 
     def pbShowPokemonAbilitySplash(pkmn, sideIndex, ability, delay = false)
-        aiLearnsPokemonAbility(pkmn, sideIndex, ability)
+        #aiLearnsPokemonAbility(pkmn, sideIndex, ability)
         return unless showMessages?
         @scene.pbShowPokemonAbilitySplash(pkmn, sideIndex, ability)
         if delay

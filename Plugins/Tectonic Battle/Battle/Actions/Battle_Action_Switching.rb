@@ -417,14 +417,15 @@ class PokeBattle_Battle
         end
         return if pyukuPartyIndex.nil?
         pyuku = pbParty(side)[pyukuPartyIndex]
-        pbShowPokemonAbilitySplash(pyuku, side, :THROWNIN)
+        #pbShowPokemonAbilitySplash(pyuku, side, :THROWNIN)
         pbDisplayPaused(_INTL("{1} was thrown into battle!", pbThisEx(side, pyukuPartyIndex)))
+        pbPursuit(user.index)
         battlerIndex = user.index
         pbRecallAndReplace(battlerIndex, pyukuPartyIndex)
         pbPriority(true).each do |b|
             b.pbEffectsOnSwitchIn(true) if b.index == battlerIndex
         end
-        pbHidePokemonAbilitySplash(side)
+        #pbHidePokemonAbilitySplash(side)
     end
 
     #=============================================================================
