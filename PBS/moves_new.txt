@@ -2429,6 +2429,19 @@ Flags = CanProtect
 Description = The user throws a large rock at the target. If it misses, the user's Accuracy is raised.
 Animation = ROCKTHROW
 #-------------------------------
+[ROCKDRIVE]
+Name = Rock Drive
+Type = ROCK
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Basic
+Flags = CanProtect
+Description = The user hits a rock in a precise way to launch it at the target.
+Animation = ROCKTHROW
+#-------------------------------
 [ROCKOUT]
 Name = Rock Out
 Type = ROCK
