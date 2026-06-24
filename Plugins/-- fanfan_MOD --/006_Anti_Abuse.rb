@@ -80,7 +80,7 @@ module AntiAbuse
   def self.check_update
     return unless windows?
     check_url = "http://api.pokefans.xyz/ess/check_update/?name=" + GAME_UID + "&version=" + UPDATE_VERSION.to_s
-    result = pbDownloadToString(check_url)
+    result = (pbDownloadToString(check_url) rescue nil)
 
     return if nil_or_empty?(result)
     data = (eval(result) rescue nil)
