@@ -1981,7 +1981,7 @@ Description = The user throws the bone it holds. The bone loops to hit the targe
 Name = Bulldoze
 Type = GROUND
 Category = Physical
-Power = 65
+Power = 60
 Accuracy = 100
 TotalPP = 15
 Target = AllNearOthers
@@ -3189,21 +3189,6 @@ Target = User
 FunctionCode = RaiseUserAtk4
 Flags = CanSnatch,Dance
 Description = A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
-#-------------------------------
-#		QMARKS MOVES
-#-------------------------------
-[SECRETPOWER]
-Name = Secret Power
-Type = QMARKS
-Category = Adaptive
-Power = 80
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = EffectDependsOnEnvironment
-Flags = CanProtect
-EffectChance = 30
-Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
 #-------------------------------
 #		FIRE MOVES
 #-------------------------------
@@ -5988,6 +5973,21 @@ FunctionCode = Dizzy
 Flags = CanProtect,CanMagicCoat
 Description = The user kisses the target with a sweet, angelic cuteness that dizzies the target.
 Animation = SWEETKISS
+#-------------------------------
+#		QMARKS MOVES
+#-------------------------------
+[SECRETPOWER]
+Name = Secret Power
+Type = QMARKS
+Category = Adaptive
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = EffectDependsOnEnvironment
+Flags = CanProtect
+EffectChance = 30
+Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
 #-------------------------------
 #		FLEX MOVES
 #-------------------------------

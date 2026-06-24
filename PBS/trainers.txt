@@ -478,7 +478,7 @@ Pokemon = PIDGEOTTO,22
     Moves = DUSTDEVIL,BOREALWIND,SHOUT,GROWL
     AbilityIndex = 1 # Brisk
 Pokemon = DRILBUR,23
-    Moves = RAPIDSPIN,TREMOR,METALCLAW,HONECLAWS
+    Moves = RAPIDSPIN,BULLDOZE,METALCLAW,HONECLAWS
     AbilityIndex = 1 # Juggernaut
 #-------------------------------
 [SCHOOLKID_M2,Branimir]
@@ -1453,7 +1453,7 @@ Pokemon = GLOOM,27
     AbilityIndex = 1 # Adapted
     Item = CADOBERRY
 Pokemon = QUAGSIRE,28
-    Moves = YAWN,PIXIEPUNCH,TREMOR,WAVEBREAK
+    Moves = YAWN,PIXIEPUNCH,TAILSLAM,WAVEBREAK
     AbilityIndex = 0 # Unaware
 #-------------------------------
 [POKEMONRANGER_F,Val]
@@ -1477,7 +1477,7 @@ Pokemon = WATCHOG,28
     Moves = SIGNALBEAM,PACIFY,LASERBEAM,CONFUSERAY
     AbilityIndex = 0 # Refractive
 Pokemon = SHEDINJA,28
-    Moves = UTURN,TREMOR,SHADOWSNEAK,SHADOWCLAW
+    Moves = UTURN,BULLDOZE,SHADOWSNEAK,SHADOWCLAW
     AbilityIndex = 1 # Last Gasp
 #-------------------------------
 [POKEMONRANGER_M,Ivan]
@@ -1489,7 +1489,7 @@ Pokemon = CORVISQUIRE,27
     Moves = STEELWING,TAUNT,PLUCK,HONECLAWS
     AbilityIndex = 0 # Mirror Armor
 Pokemon = GABITE,28
-    Moves = GLARE,BITE,TREMOR,CRUELTY
+    Moves = GLARE,BITE,TAILSLAM,CRUELTY
     AbilityIndex = 0 # Rough Skin
 #-------------------------------
 [FAIRYTALEGIRL,Maja]
@@ -1984,7 +1984,7 @@ Pokemon = EMOLGA,36
 #-------------------------------
 [WAITRESS,Carmilla]
 Pokemon = DURANT,37
-    Moves = CRUNCH,XSCISSOR,METALCLAW,TREMOR
+    Moves = CRUNCH,XSCISSOR,METALCLAW,TAILSLAM
     AbilityIndex = 0 # Hustle
     Item = WIDELENS
 Pokemon = HIPPOWDON,38
@@ -2027,7 +2027,7 @@ Pokemon = DRAGALGE,37
     Moves = ACIDBREACH,RECOVER,FRIGIDJEALOUSY,DRAGONTAIL
     AbilityIndex = 0 # Deterrent
 Pokemon = CRUSTLE,37
-    Moves = XSCISSOR,TREMOR,STEALTHROCK,ADAMANTINEPRESS
+    Moves = XSCISSOR,BULLDOZE,STEALTHROCK,ADAMANTINEPRESS
     AbilityIndex = 0 # Stratagem
 #-------------------------------
 [GENTLEMAN3,Oliver]
@@ -4310,7 +4310,7 @@ Pokemon = DWEBBLE,19
     AbilityIndex = 1 # Sturdy
     Item = SHELLBELL
 Pokemon = WOOPER,20
-    Moves = WAVEBREAK,TREMOR,FROLIC,WATERLOG
+    Moves = WAVEBREAK,BULLDOZE,FROLIC,WATERLOG
     AbilityIndex = 0 # Unaware
     Item = RINDOBERRY
 Pokemon = VANILLISH,20
@@ -4366,7 +4366,7 @@ Pokemon = PIDGEOT,36
     Moves = DUSTSTORM,COLDFRONT,SCOUR,SHOUT
     AbilityIndex = 1 # Brisk
 Pokemon = WHISCASH,37
-    Moves = TREMOR,WATERFALL,DRAGONTAIL,REST
+    Moves = TAILSLAM,WATERFALL,DRAGONTAIL,REST
     AbilityIndex = 0 # Gravity Well
     Item = CHESTOBERRY
 Pokemon = CRYOGONAL,37
@@ -4403,7 +4403,7 @@ Pokemon = FERROTHORN,38
     AbilityIndex = 0 # Iron Barbs
     Item = LEFTOVERS
 Pokemon = GLISCOR,38
-    Moves = FLY,KNOCKOFF,TREMOR,FEINTATTACK
+    Moves = FLY,KNOCKOFF,TAILSLAM,FEINTATTACK
     AbilityIndex = 0 # Grotesque Vitals
 Pokemon = HEATMOR,39
     Moves = IGNITE,GREYMIST,SLAG,CRIMSONSTORM
@@ -8404,10 +8404,10 @@ Pokemon = HONEDGE,15
 [CHALLENGER_Vanya,Vanya,1]
 Flags = NoPerfect
 Pokemon = BARBOACH,20
-    Moves = TREMOR,SPATTERINGRAM,FLOUNDER,SPARK
+    Moves = TAILSLAM,SPATTERINGRAM,FLOUNDER,SPARK
     AbilityIndex = 0 # Gravity Well
 Pokemon = MROGGENROLA,20
-    Moves = ROCKTOMB,TREMOR,HEARTSTAMP,ICYWIND
+    Moves = ROCKTOMB,TAILSLAM,HEARTSTAMP,ICYWIND
     AbilityIndex = 0 # Time Interloper
 Pokemon = SKRELP,20
     Moves = BREAKINGSWIPE,SPARK,NATURALPROTECTION,DRAGONTAIL
