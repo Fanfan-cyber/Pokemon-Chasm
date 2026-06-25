@@ -6482,14 +6482,14 @@ Description = The user cuts using scissor-like blades of psychic energy. Can ran
 Name = Psypierce
 Type = PSYCHIC
 Category = Special
-Power = 70
+Power = 60
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetSpDef1
 Flags = CanProtect
-EffectChance = 50
-Description = The user manifests a piercing bolt of psychic energy. It has a 50% chance to lower Sp. Def.
+EffectChance = 40
+Description = The user manifests a piercing bolt of psychic energy. It has a 40% chance to lower Sp. Def.
 Animation = PSYSHOCK
 #-------------------------------
 [PULSAR]
