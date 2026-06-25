@@ -557,31 +557,36 @@ def eastEndExclusives
 	)
 end
 
+def tierOneAttackTMShop
+	tmsStock = %i[
+		TMHEADBUTT TMLATHER
+		TMFLAMEWHEEL TMBROIL
+		TMWAVEBREAK TMBUBBLEBEAM
+		TMRAZORLEAF TMMAGICALLEAF
+		TMSPARK TMLASERBEAM
+		TMFROSTBARB TMFROSTOVER
+		TMPSYCHOCUT TMPSYPIERCE
+		TMCAUSTICPUNCH TMSLUDGE
+		TMRAKE TMDRONING
+		TMROCKDRIVE TMCRYSTALGLEAM
+		TMTAILSLAM TMVENT
+		TMAERIALACE TMBOREALWIND
+		TMFORCEPALM TMCONCUSS
+		TMSHADOWCLAW TMUMBRAGE
+		TMSHRED TMDRAGONBREATH
+		TMFEINTATTACK TMTEASE
+		TMMETALCLAW TMSHINESHOT
+		TMFROLIC TMDAZZLINGGLEAM
+	]
+
+	pbPokemonMart(
+		tmsStock,
+		_INTL("Technical Machines, by LuxTech."),
+		!CAN_SELL_IN_VENDORS
+	)
+end
+
 def tmShop
-	# Megapunch, Hypervoice
-	# Inferno Charge, Flame Thrower
-	# Liquidation, Bubble Blast
-
-	# Leaf Blade, Thriving Force
-	# Electroslash, Thunderbolt
-	# Crystal Crush, Ice Beam
-
-	# Brick Break, Aura Sphere
-	# Poison Jab, Miasma
-	# Trample, Earth Power
-
-	# Strafe, Cold Front
-	# Prediction Strike, Psychic
-	# X-Scissor, Bug Buzz
-
-	# Adamantine Press, Power Gem
-	# Wailing Blow, Shadow Ball
-	# Rend, Dragon Pulse
-
-	# Crunch, Dark Allure
-	# Bullet Train, Flash Cannon
-	# Play Rough, Moon Blast
-
 	tmsStock = %i[
 		TMMEGAPUNCH TMHYPERVOICE
 		TMINFERNOIMPACT TMFLAMETHROWER
