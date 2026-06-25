@@ -888,7 +888,7 @@ end
 
 def berryVendor
 	setPrice(:CADOBERRY,1000)
-	setPrice(:SITRUSBERRY,1000)
+	setPrice(:SITRUSBERRY,2000)
 	setPrice(:LUMBERRY,1000)
 	setPrice(:LEPPABERRY,500)
 	
