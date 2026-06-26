@@ -8744,7 +8744,7 @@ Category = Status
 Accuracy = 0
 TotalPP = 5
 Target = User
-FunctionCode = ChangeUserDeoxusChoiceOfForm
+FunctionCode = ChangeUserDeoxysChoiceOfForm
 Description = The user mutates its genetic code, transforming into any of its 3 other forms. Only useable as Deoxys Normal.
 Animation = TRANSFORM
 #-------------------------------

@@ -247,7 +247,7 @@ class PokeBattle_Move_DestroysClothing < PokeBattle_Move
 end
 
 #===============================================================================
-# User steals the target's items. (Covet, Thief)
+# User steals the target's items. (Covet, Thief, Pilfer)
 #===============================================================================
 class PokeBattle_Move_StealsItem < PokeBattle_Move
     def pbEffectAfterAllHits(user, target)
@@ -270,7 +270,7 @@ class PokeBattle_Move_StealsItem < PokeBattle_Move
 end
 
 #===============================================================================
-# Steals the targets first stealable berry or gem. (Pilfer)
+# Steals the targets first stealable berry or gem.
 #===============================================================================
 class PokeBattle_Move_StealsBerryGem < PokeBattle_Move
     def pbEffectAfterAllHits(user, target)
