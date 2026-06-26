@@ -86,7 +86,7 @@ end
 
 #===============================================================================
 # Interrupts a foe switching out or using U-turn/Volt Switch/Parting Shot. Power
-# is doubled in that case. (Pursuit)
+# is doubled in that case. (Pursuit, Stalking)
 # (Handled in Battle's pbAttackPhase): Makes this attack happen before switching.
 #===============================================================================
 class PokeBattle_Move_PursueSwitchingFoe < PokeBattle_Move
@@ -393,7 +393,7 @@ end
 #===============================================================================
 # Transforms the user into one of its forms. (Mutate)
 #===============================================================================
-class PokeBattle_Move_ChangeUserDeoxusChoiceOfForm < PokeBattle_Move
+class PokeBattle_Move_ChangeUserDeoxysChoiceOfForm < PokeBattle_Move
     def resolutionChoice(user, replayed_choice)
         if @battle.autoTesting
             @chosenForm = rand(3) + 1
@@ -716,7 +716,8 @@ class PokeBattle_Move_UseChoiceOfElementalFangs < PokeBattle_Move
 end
 
 #===============================================================================
-# The user chooses one of Searing Crunch, Glacial Crunch, Aquatic Crunch, and Volt Crunch to use. (Elemental Crunch)
+# The user chooses one of Searing Crunch, Glacial Crunch, Aquatic Crunch, and Volt Crunch to use.
+# (Elemental Crunch)
 #===============================================================================
 class PokeBattle_Move_UseChoiceOfElementalCrunches < PokeBattle_Move
     def callsAnotherMove?; return true; end
@@ -764,7 +765,8 @@ class PokeBattle_Move_UseChoiceOfElementalCrunches < PokeBattle_Move
 end
 
 #===============================================================================
-# Fails if the user is not asleep. (Snore)
+# Fails if the user is not asleep. 
+# (Snore, Stertor, Sleepwalk Strike, REM Burst, Slumbering Roar, Toss n' Turn)
 #===============================================================================
 class PokeBattle_Move_FailsIfUserNotAsleep < PokeBattle_Move
     def usableWhenAsleep?; return true; end
