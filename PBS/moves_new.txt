@@ -1372,10 +1372,10 @@ Category = Special
 Power = 130
 Accuracy = 100
 TotalPP = 5
-Target = NearOther
+Target = AllNearFoes
 FunctionCode = RemoveWeather
 Flags = CanProtect
-Description = Attacks while clearing weather. This move fails in the absence of a weather.
+Description = Attacks all near foes while clearing weather. This move fails in the absence of a weather.
 #-------------------------------
 [SONICSHRIEK]
 Name = Sonic Shriek
@@ -5377,10 +5377,10 @@ Category = Physical
 Power = 130
 Accuracy = 100
 TotalPP = 5
-Target = NearOther
+Target = AllNearFoes
 FunctionCode = RemoveRooms
 Flags = CanProtect
-Description = Attacks while destroying rooms. This move fails in the absence of a room.
+Description = Attacks all near foes while destroying rooms. This move fails in the absence of a room.
 #-------------------------------
 [ROOTDRIVER]
 Name = Root Driver
