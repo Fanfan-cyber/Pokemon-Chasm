@@ -7243,7 +7243,6 @@ FunctionCode = BurnOrFrostbiteTargetBasedOnHigherStat
 Flags = CanProtect
 EffectChance = 30
 Description = Exhales magical fumes with a 30% chance to burn or frostbite the target depending on their stats.
-Animation = DRAGONBREATH
 #-------------------------------
 [DRAGOMASTWAVES]
 Name = Dragomast Waves
@@ -7295,6 +7294,19 @@ FunctionCode = HitFourTimesTargetThenTargetAlly
 Flags = CanProtect
 Description = The user launches four Dreepies, which spread out equally to hit near foes. But, they avoid targets they can't hit.
 Animation = DRAGONDARTS
+#-------------------------------
+[FROSTFIREBLAST]
+Name = Frostfire Blast
+Type = DRAGON
+Category = Special
+Power = 130
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = TwoTurnAttackBurnOrFrostbiteTargetBasedOnHigherStat
+Flags = CanProtect
+Description = The user charges, then attacks on the second turn. This burns or frostbites the target depending on their stats.
+Animation = DIAMETRICBREATH
 #-------------------------------
 [GALLINGSPIT]
 Name = Galling Spit
