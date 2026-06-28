@@ -86,7 +86,7 @@ class PokeBattle_Move_TwoTurnAttackOneTurnInRainstorm < PokeBattle_TwoTurnMove
 end
 
 #===============================================================================
-# Two turn attack. Skips first turn, attacks second turn. (Freeze Shock)
+# Two turn attack. Skips first turn, attacks second turn.
 # May paralyze the target.
 #===============================================================================
 class PokeBattle_Move_TwoTurnAttackParalyzeTarget < PokeBattle_TwoTurnMove
@@ -105,7 +105,7 @@ class PokeBattle_Move_TwoTurnAttackParalyzeTarget < PokeBattle_TwoTurnMove
 end
 
 #===============================================================================
-# Two turn attack. Skips first turn, attacks second turn. (Ice Burn)
+# Two turn attack. Skips first turn, attacks second turn.
 # May burn the target.
 #===============================================================================
 class PokeBattle_Move_TwoTurnAttackBurnTarget < PokeBattle_TwoTurnMove
