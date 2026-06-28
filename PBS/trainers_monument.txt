@@ -1439,7 +1439,7 @@ Pokemon = MIMIKYU,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = MAMOSWINE,70
-    Moves = ICESHARD,EARTHQUAKE,ICEHAMMER,POWDERBOMB
+    Moves = ICESHARD,EARTHQUAKE,GLACIALCRUNCH,POWDERBOMB
     AbilityIndex = 0 # Thick Fat
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
