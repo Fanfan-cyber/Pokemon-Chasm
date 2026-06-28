@@ -37385,8 +37385,8 @@ The user quickly increases the air pressure to damage the target. This attack al
 使用者迅速增压攻击目标。
 Clears hazards on the opponent's side of the field, moves hazards on the user's side to the opponent's, then forces the targets to switch.
 清除对方场上的陷阱，将己方场上的陷阱移至对方，并迫使对手替换精灵。
-Attacks while clearing weather. This move fails in the absence of a weather.
-在消除天气的同时攻击敌方。如果没有天气的话，该技能会失败。
+Attacks all near foes while clearing weather. This move fails in the absence of a weather.
+在消除天气的同时攻击所有对手。如果没有天气的话，该技能会失败。
 The user swoops into battle with a piercing shriek, flinching the target. It only works the first turn the user is in battle.
 使用者以刺耳尖啸俯冲入战，使目标陷入畏缩。仅可在使用者上场的第一回合使用。
 The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
@@ -37989,8 +37989,8 @@ The target is irritated by allergenic plants, poisoning it.
 用致敏植物刺激对手，从而使对手陷入中毒。
 The user bursts a ball of sleep-inducing powder. It fails unless the targeted slot hit the user this turn.
 若该回合受到过目标的攻击，就会释放一团催眠粉末，使目标陷入睡眠。
-Attacks while destroying rooms. This move fails in the absence of a room.
-存在空间类效果时使用可以将其破坏。如果没有空间类效果的话，该技能会失败
+Attacks all near foes while destroying rooms. This move fails in the absence of a room.
+在破坏空间类效果的同时攻击所有对手。如果没有空间类效果的话，该技能会失败
 The user kicks into the target like roots into earth. This has a 30% chance of leeching.
 像树根入土一样踢向对方。有30%概率使目标陷入寄生。
 Halves attack damage taken this turn. Leeches any attackers. Fails if used successively.
@@ -38163,8 +38163,8 @@ The user overloads its mind to rampage for two turns.
 使用者过载心智，陷入暴走，连续攻击2回合。
 The user cuts using scissor-like blades of psychic energy. Can random critical hit.
 运用精神能量凝聚成的剑刃劈向对手。可以随机命中要害。
-The user manifests a piercing bolt of psychic energy. It has a 50% chance to lower Sp. Def.
-凝聚出一物品有穿透性的精神能量束。有50%概率使对手的特防减小1级。
+The user manifests a piercing bolt of psychic energy. It has a 40% chance to lower Sp. Def.
+凝聚出一物品有穿透性的精神能量束。有40%概率使对手的特防减小1级。
 The user sends waves of cosmic energy to overwhelm the target's senses. Multi-hits two to five times.
 使用者发送宇宙能量波来压倒目标的感官。连续攻击2至5次。
 Charges with astral power and boosts its Attack by two steps on one turn, then attacks on the second turn.
