@@ -4992,18 +4992,6 @@ Flags = CanProtect,Biting,FakeRandomEffect
 EffectChance = 100
 Description = The user bites with cold-infused fangs. It has a 20% chance to frostbite and a 20% chance to lower Defense by two steps.
 #-------------------------------
-[ICEHAMMER]
-Name = Ice Hammer
-Type = ICE
-Category = Physical
-Power = 100
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = LowerUserSpd2
-Flags = CanProtect,Punch
-Description = The user swings and hits with its strong, heavy fist. This lowers the user's Speed by two steps.
-#-------------------------------
 [ICEPUNCH]
 Name = Ice Punch
 Type = ICE

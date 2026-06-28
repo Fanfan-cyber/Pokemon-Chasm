@@ -4148,6 +4148,19 @@ Flags = CanProtect
 Description = The user fires off explosive rounds in a beautiful display that multi-hit two to five times.
 Animation = EMBER
 #-------------------------------
+[FLAMEFIST]
+Name = Flame Fist
+Type = FIRE
+Category = Physical
+Power = 115
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = CantRepeat
+Flags = CanProtect,Punch
+Description = The target is punched with a tremendous fiery force. This move can't be used twice in a row.
+Animation = FIREPUNCH
+#-------------------------------
 [FLAMESPIKES]
 Name = Flame Spikes
 Type = FIRE
@@ -5688,6 +5701,19 @@ FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit,Slice
 Description = The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 #-------------------------------
+[FLUXFIST]
+Name = Flux Fist
+Type = ELECTRIC
+Category = Physical
+Power = 115
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = CantRepeat
+Flags = CanProtect,Punch
+Description = The target is punched with a tremendous electric force. This move can't be used twice in a row.
+Animation = THUNDERPUNCH
+#-------------------------------
 [FROMTHEBLUE]
 Name = From the Blue
 Type = ELECTRIC
@@ -6771,6 +6797,19 @@ FunctionCode = LowerTargetDef1
 Flags = CanProtect
 EffectChance = 20
 Description = The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
+#-------------------------------
+[FROSTFIST]
+Name = Frost Fist
+Type = ICE
+Category = Physical
+Power = 115
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = CantRepeat
+Flags = CanProtect,Punch
+Description = The target is punched with a tremendous icy force. This move can't be used twice in a row.
+Animation = ICEPUNCH
 #-------------------------------
 [FROSTOVER]
 Name = Frost Over
