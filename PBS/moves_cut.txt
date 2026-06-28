@@ -3972,6 +3972,18 @@ Flags = CanMagicCoat
 Description = The user imprisons all near foes, reducing their attacking stats by one step each and trapping them until the next time they take a hit.
 Animation = CHILL
 #-------------------------------
+[ICEHAMMER]
+Name = Ice Hammer
+Type = ICE
+Category = Physical
+Power = 100
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Punch
+Description = The user swings and hits with its strong, heavy fist. This lowers the user's Speed by two steps.
+#-------------------------------
 [ICICLECRASH]
 Name = Icicle Crash
 Type = ICE
