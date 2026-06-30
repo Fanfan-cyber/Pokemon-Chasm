@@ -1552,17 +1552,18 @@ Flags = CanProtect
 Description = The user infects the target with a touch and also destroys any Herbs it's holding.
 Animation = POISONJAB
 #-------------------------------
-[CAUSTICPUNCH]
-Name = Caustic Punch
+[CLUMPUP]
+Name = Clump Up
 Type = POISON
 Category = Physical
 Power = 65
 Accuracy = 100
 TotalPP = 15
-Target = NearOther
+Target = AllNearFoes
 FunctionCode = DestroysBerriesGems
-Flags = CanProtect,Punch
-Description = The user strikes with an acidic punch that destroys Gems and Berries.
+Flags = CanProtect
+Description = The user launches a ball of trash to roll over all foes. The targets' held Berry or Gem stick to the ball and become unusable.
+Animation = GUNKSHOT
 #-------------------------------
 [DISSOLUTION]
 Name = Dissolution
@@ -1614,19 +1615,6 @@ EffectChance = 100
 Description = The user attacks while slathered in grime. This poisons the user.
 Animation = POISONJAB
 #-------------------------------
-[HONORLESSSTING]
-Name = Honorless Sting
-Type = POISON
-Category = Physical
-Power = 105
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = SuperEffectiveAgainstFighting
-Flags = CanProtect
-Description = The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
-Animation = POISONSTING
-#-------------------------------
 [MIASMA]
 Name = Miasma
 Type = POISON
@@ -1649,7 +1637,7 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Poison
-Flags = CanProtect
+Flags = CanProtect,Punch
 EffectChance = 10
 Description = The user stabs the opponent with a toxin-infused limb. It has a 10% chance to poison.
 #-------------------------------
@@ -1704,6 +1692,32 @@ Flags = CanProtect
 Description = The user attacks with sticky slime, rendering the target's item unusable.
 Animation = SLUDGEBOMB
 #-------------------------------
+[SLUDGYSLUG]
+Name = Sludgy Slug
+Type = POISON
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = Poison
+Flags = CanProtect,Punch
+EffectChance = 20
+Description = The user punches the target while holding a wad of slime. It has a 20% chance to poison.
+#-------------------------------
+[SPASMICSTING]
+Name = Spasmic Sting
+Type = POISON
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstFighting
+Flags = CanProtect
+Description = The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
+Animation = POISONSTING
+#-------------------------------
 [STINGINGJEALOUSY]
 Name = Stinging Jealousy
 Type = POISON
@@ -1743,6 +1757,20 @@ FunctionCode = SwitchOutTargetAndUserStatusMove
 Flags = CanMagicCoat,Wind
 Description = The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
 Animation = STINKCLOUD
+#-------------------------------
+[TOXICCRUNCH]
+Name = Toxic Crunch
+Type = POISON
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Poison
+Flags = CanProtect,Biting
+EffectChance = 30
+Description = The user bites the target with toxic fangs with a 30% chance to poison.
+Animation = POISONFANG
 #-------------------------------
 [TOXICTASTE]
 Name = Toxic Taste
