@@ -3240,7 +3240,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = UserLosesFireType
 Flags = CanProtect
-Description = To inflict massive damage, the user uses up its Fire-typing.
+Description = To inflict massive damage, the user uses up its Fire-typing. This move can't be used if the user is not a Fire type.
 #-------------------------------
 [EMBER]
 Name = Ember
@@ -5975,7 +5975,7 @@ Target = NearOther
 FunctionCode = EffectDependsOnEnvironment
 Flags = CanProtect
 EffectChance = 30
-Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
+Description = The user attacks with a secret power that has a 30% chance to cause an effect. The effect varies depending on the user's environment.
 #-------------------------------
 #		FLEX MOVES
 #-------------------------------
