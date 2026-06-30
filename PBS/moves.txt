@@ -5975,7 +5975,7 @@ Target = NearOther
 FunctionCode = EffectDependsOnEnvironment
 Flags = CanProtect
 EffectChance = 30
-Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
+Description = The user attacks with a secret power that has a 30% chance to cause an effect. The effect varies depending on the user's environment.
 #-------------------------------
 #		FLEX MOVES
 #-------------------------------
