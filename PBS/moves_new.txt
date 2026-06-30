@@ -7154,7 +7154,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = UserLosesIceType
 Flags = CanProtect
-Description = To inflict massive damage, the user uses up its Ice-type.
+Description = To inflict massive damage, the user uses up its Ice-typing. This move can't be used if the user is not an Ice type.
 Animation = ICEBEAM
 #-------------------------------
 [SUPERCOOL]
