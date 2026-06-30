@@ -140,7 +140,7 @@ class PokeBattle_Move_ConsumesTargetBerries < PokeBattle_Move
 end
 
 #===============================================================================
-# Target's berry/Gem is destroyed. (Incinerate)
+# Target's berry/Gem is destroyed. (Incinerate, Trash)
 #===============================================================================
 class PokeBattle_Move_DestroysBerriesGems < PokeBattle_Move
     def canIncinerateTargetsItem?(target, checkingForAI = false)
