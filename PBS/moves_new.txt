@@ -1715,7 +1715,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = SuperEffectiveAgainstFighting
 Flags = CanProtect
-Description = The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
+Description = The user uses venom that turns the target's body against it. Super effective versus Fighting-types.
 Animation = POISONSTING
 #-------------------------------
 [STINGINGJEALOUSY]
@@ -5291,7 +5291,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = SuperEffectiveAgainstGhost
 Flags = CanProtect
-Description = The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
+Description = The user attacks the target with the power of a warding charm. Super effective versus Ghost-types.
 Animation = BLOOMDOOM
 #-------------------------------
 [KICKDRUM]
@@ -7667,7 +7667,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = SuperEffectiveAgainstElectric
 Flags = CanProtect
-Description = The user removes the energy and light around the target. Super effective vs Electric-types.
+Description = The user removes the energy and light around the target. Super effective versus Electric-types.
 Animation = DARKVOID
 #-------------------------------
 [BROWBEAT]
