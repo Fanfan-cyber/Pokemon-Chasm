@@ -22,7 +22,7 @@ ABILITY_DATA = {
   :MOXIE            => { :desc => proc { _INTL("Raises Attack by 2 steps after knocking out any Pokémon.") }, },
   :NATURALCURE      => { :desc => proc { _INTL("Heals all non-volatile status conditions and 10% of max HP when it switches out.") }, },
   :OVERCHARGE       => { :desc => proc { _INTL("After knocking out any Pokémon/being knocked out, raises/lowers its/attacker's Sp. Atk and Speed by 2 steps.") }, },
-  :PERENNIALPAYLOAD => { :desc => proc { _INTL("After fainting from exploding, revives after five turns, but requires above 50% HP if caused by others.") }, },
+  :PERENNIALPAYLOAD => { :desc => proc { _INTL("After fainting from exploding, revives to 1 HP after five turns, but requires above 50% HP if caused by others.") }, },
   :PLURIPOTENCE     => { :desc => proc { _INTL("Copies opponents' species' legal Abilities.") }, },
   :PRESSURE         => { :desc => proc { _INTL("This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat steps.") }, },
   :REFRACTIVE       => { :desc => proc { _INTL("It changes secondary type to that of the light moves it's about to use.") }, },

@@ -36722,7 +36722,9 @@ The user slams into the target with the force of a meteor. Can't be stopped by t
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
 激烈地跳起战舞增加气势，使自身物攻增加4级。
 The user attacks with a secret power. Its added effects vary depending on the user's environment.
-根据使用场所不同，该技能的附加效果也会有所变化。
+根据使用环境的不同，该技能的随机附加效果也会有所变化。
+The user attacks with a secret power that has a 30% chance to cause an effect. The effect varies depending on the user's environment.
+该技能有30%的概率触发随机附加效果，根据使用环境的不同，随机附加效果也会有所变化。
 The target is razed by a fiery explosion. The user is exhausted on the next turn.
 引发火焰爆炸席卷目标。下一回合将陷入僵直。
 The user launches a fiery kick. It has a 10% chance to burn.
@@ -36730,7 +36732,9 @@ The user launches a fiery kick. It has a 10% chance to burn.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get burned.
 用嫉妒的能量攻击对手，会让有增加的能力等级的精灵陷入烧伤。
 To inflict massive damage, the user uses up its Fire-typing.
-将自身全身燃烧起火焰来，给予对手极大的伤害。自身的火属性将会消失。
+将自身全身燃烧起火焰，给予对手极大的伤害。消除自身的火属性。
+To inflict massive damage, the user uses up its Fire-typing. This move can't be used if the user is not a Fire type.
+将自身全身燃烧起火焰，给予对手极大的伤害。消除自身的火属性。自身没有火属性时无法使用。
 The target is attacked with small flames. It has a 10% chance to burn.
 向对手发射小型火焰进行攻击。有10%概率使对手陷入烧伤。
 The user attacks in an explosive fury. Weakens in damage as the user loses HP. Weakest at half HP.
@@ -38258,7 +38262,9 @@ The user makes the target to trip into a huge pile of snow, damaging them and su
 The user incants a snowy hex, dealing damage and setting a hazard layer of frozen spikes around the target.
 使用者吟唱冰雪咒语，造成伤害并在目标周围设置冰菱。
 To inflict massive damage, the user uses up its Ice-type.
-将自身全身附着起寒冰，给予对手极大的伤害。自身的冰属性将会消失。
+将自身全身附着起寒冰，给予对手极大的伤害。消除自身的冰属性。
+To inflict massive damage, the user uses up its Ice-typing. This move can't be used if the user is not an Ice type.
+将自身全身附着起寒冰，给予对手极大的伤害。消除自身的冰属性。自身没有冰属性时无法使用。
 The user saps all the target's heat with a frigid touch, frostbiting it.
 使用者用冰冷的触摸吸走目标的所有热量，使其冻伤。
 Drains the heat from the target. The user's HP is restored by 50% the damage dealt.
@@ -44080,6 +44086,8 @@ Immune to Flying-type moves and deals 50% more damage with them.
 免疫飞行属性技能，并且使用飞行属性技能时伤害增加50%。
 After fainting from self-destructing, revives after five turns.
 使用自爆类技能濒死时，5回合后会回复健康。
+After fainting from self-destructing, revives at 1 HP after five turns.
+使用自爆类技能濒死时，5回合后会回复到1HP。
 This Pokémon's hits deal half damage unless they are critical.
 如果没有命中要害，自身攻击造成的伤害减半。
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
@@ -62482,7 +62490,9 @@ Heals all non-volatile status conditions and 10% of max HP when it switches out.
 After knocking out any Pokémon/being knocked out, raises/lowers its/attacker's Sp. Atk and Speed by 2 steps.
 打倒对手时，特攻和速度增加2级；被打倒时，攻击者的特攻和速度减小2级。
 After fainting from exploding, revives after five turns, but requires above 50% HP if caused by others.
-因自身的自爆类技能而濒死时，5回合后会回复健康，若是因其他精灵的自爆类技能而濒死，则需濒死前自身的HP在50%以上时才能苏醒。
+因自身的自爆类技能而濒死时，5回合后会回复健康，若是因其他精灵的自爆类技能而濒死，则需濒死前自身的HP在50%以上时才能回复HP。
+After fainting from exploding, revives to 1 HP after five turns, but requires above 50% HP if caused by others.
+因自身的自爆类技能而濒死时，5回合后会回复到1HP，若是因其他精灵的自爆类技能而濒死，则需濒死前自身的HP在一半以上时才能回复HP。
 Copies opponents' species' legal Abilities.
 复制对手精灵的物种合法特性。
 This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat steps.
