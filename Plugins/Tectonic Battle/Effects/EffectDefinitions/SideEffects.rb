@@ -941,12 +941,12 @@ GameData::BattleEffect.register_effect(:Side, {
             if pkmn
                 if value[key] <= 0
                     # Revive the pokemon
-                    pkmn.heal_HP
+                    pkmn.hp = 1
                     pkmn.heal_status
                     if side.index == 0
-                        battle.pbDisplay(_INTL("{1} recovered all the way to full health!", pkmn.name))
+                        battle.pbDisplay(_INTL("{1} recovered to 1 HP!", pkmn.name))
                     else
-                        battle.pbDisplay(_INTL("The opposing {1} recovered all the way to full health!", pkmn.name))
+                        battle.pbDisplay(_INTL("The opposing {1} recovered to 1 HP!", pkmn.name))
                     end
                     value[key] = nil
                 elsif value[key] == 1

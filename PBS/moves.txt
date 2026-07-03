@@ -1820,7 +1820,7 @@ Description = The user shoots filthy garbage at the target to attack.
 Name = Poison Fang
 Type = POISON
 Category = Physical
-Power = 60
+Power = 55
 Accuracy = 100
 TotalPP = 20
 Target = NearOther
@@ -3240,7 +3240,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = UserLosesFireType
 Flags = CanProtect
-Description = To inflict massive damage, the user uses up its Fire-typing.
+Description = To inflict massive damage, the user uses up its Fire-typing. This move can't be used if the user is not a Fire type.
 #-------------------------------
 [EMBER]
 Name = Ember
@@ -4992,18 +4992,6 @@ Flags = CanProtect,Biting,FakeRandomEffect
 EffectChance = 100
 Description = The user bites with cold-infused fangs. It has a 20% chance to frostbite and a 20% chance to lower Defense by two steps.
 #-------------------------------
-[ICEHAMMER]
-Name = Ice Hammer
-Type = ICE
-Category = Physical
-Power = 100
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = LowerUserSpd2
-Flags = CanProtect,Punch
-Description = The user swings and hits with its strong, heavy fist. This lowers the user's Speed by two steps.
-#-------------------------------
 [ICEPUNCH]
 Name = Ice Punch
 Type = ICE
@@ -5987,7 +5975,7 @@ Target = NearOther
 FunctionCode = EffectDependsOnEnvironment
 Flags = CanProtect
 EffectChance = 30
-Description = The user attacks with a secret power. Its added effects vary depending on the user's environment.
+Description = The user attacks with a secret power that has a 30% chance to cause an effect. The effect varies depending on the user's environment.
 #-------------------------------
 #		FLEX MOVES
 #-------------------------------

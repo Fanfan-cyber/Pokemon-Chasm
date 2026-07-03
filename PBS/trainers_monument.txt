@@ -1439,7 +1439,7 @@ Pokemon = MIMIKYU,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = MAMOSWINE,70
-    Moves = ICESHARD,EARTHQUAKE,ICEHAMMER,POWDERBOMB
+    Moves = ICESHARD,EARTHQUAKE,GLACIALCRUNCH,POWDERBOMB
     AbilityIndex = 0 # Thick Fat
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1730,7 +1730,7 @@ Pokemon = HIPPOWDON,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,20,0,0,10
 Pokemon = DRAPION,70
-    Moves = KNOCKOFF,HONORLESSSTING,LEECHLIFE,LIQUIDATION
+    Moves = KNOCKOFF,SPASMICSTING,LEECHLIFE,LIQUIDATION
     AbilityIndex = 0 # Darkened Skies
     Item = STRIKEVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def

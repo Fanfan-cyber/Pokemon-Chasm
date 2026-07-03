@@ -1579,17 +1579,18 @@ Flags = CanProtect
 Description = The user infects the target with a touch and also destroys any Herbs it's holding.
 Animation = POISONJAB
 #-------------------------------
-[CAUSTICPUNCH]
-Name = Caustic Punch
+[CLUMPUP]
+Name = Clump Up
 Type = POISON
 Category = Physical
 Power = 65
 Accuracy = 100
 TotalPP = 15
-Target = NearOther
+Target = AllNearFoes
 FunctionCode = DestroysBerriesGems
-Flags = CanProtect,Punch
-Description = The user strikes with an acidic punch that destroys Gems and Berries.
+Flags = CanProtect
+Description = The user launches a ball of trash to roll over all foes. The targets' held Berry or Gem stick to the ball and become unusable.
+Animation = GUNKSHOT
 #-------------------------------
 [DISSOLUTION]
 Name = Dissolution
@@ -1641,19 +1642,6 @@ EffectChance = 100
 Description = The user attacks while slathered in grime. This poisons the user.
 Animation = POISONJAB
 #-------------------------------
-[HONORLESSSTING]
-Name = Honorless Sting
-Type = POISON
-Category = Physical
-Power = 105
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = SuperEffectiveAgainstFighting
-Flags = CanProtect
-Description = The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
-Animation = POISONSTING
-#-------------------------------
 [MIASMA]
 Name = Miasma
 Type = POISON
@@ -1676,7 +1664,7 @@ Accuracy = 100
 TotalPP = 30
 Target = NearOther
 FunctionCode = Poison
-Flags = CanProtect
+Flags = CanProtect,Punch
 EffectChance = 10
 Description = The user stabs the opponent with a toxin-infused limb. It has a 10% chance to poison.
 #-------------------------------
@@ -1731,6 +1719,32 @@ Flags = CanProtect
 Description = The user attacks with sticky slime, rendering the target's item unusable.
 Animation = SLUDGEBOMB
 #-------------------------------
+[SLUDGYSLUG]
+Name = Sludgy Slug
+Type = POISON
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = Poison
+Flags = CanProtect,Punch
+EffectChance = 20
+Description = The user punches the target while holding a wad of slime. It has a 20% chance to poison.
+#-------------------------------
+[SPASMICSTING]
+Name = Spasmic Sting
+Type = POISON
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstFighting
+Flags = CanProtect
+Description = The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
+Animation = POISONSTING
+#-------------------------------
 [STINGINGJEALOUSY]
 Name = Stinging Jealousy
 Type = POISON
@@ -1770,6 +1784,20 @@ FunctionCode = SwitchOutTargetAndUserStatusMove
 Flags = CanMagicCoat,Wind
 Description = The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
 Animation = STINKCLOUD
+#-------------------------------
+[TOXICCRUNCH]
+Name = Toxic Crunch
+Type = POISON
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Poison
+Flags = CanProtect,Biting
+EffectChance = 30
+Description = The user bites the target with toxic fangs with a 30% chance to poison.
+Animation = POISONFANG
 #-------------------------------
 [TOXICTASTE]
 Name = Toxic Taste
@@ -4175,6 +4203,19 @@ Flags = CanProtect
 Description = The user fires off explosive rounds in a beautiful display that multi-hit two to five times.
 Animation = EMBER
 #-------------------------------
+[FLAMEFIST]
+Name = Flame Fist
+Type = FIRE
+Category = Physical
+Power = 115
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = CantRepeat
+Flags = CanProtect,Punch
+Description = The target is punched with a tremendous fiery force. This move can't be used twice in a row.
+Animation = FIREPUNCH
+#-------------------------------
 [FLAMESPIKES]
 Name = Flame Spikes
 Type = FIRE
@@ -5728,6 +5769,19 @@ FunctionCode = Basic
 Flags = CanProtect,CanRandomCrit,Slice
 Description = The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 #-------------------------------
+[FLUXFIST]
+Name = Flux Fist
+Type = ELECTRIC
+Category = Physical
+Power = 115
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = CantRepeat
+Flags = CanProtect,Punch
+Description = The target is punched with a tremendous electric force. This move can't be used twice in a row.
+Animation = THUNDERPUNCH
+#-------------------------------
 [FROMTHEBLUE]
 Name = From the Blue
 Type = ELECTRIC
@@ -6812,6 +6866,19 @@ Flags = CanProtect
 EffectChance = 20
 Description = The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
 #-------------------------------
+[FROSTFIST]
+Name = Frost Fist
+Type = ICE
+Category = Physical
+Power = 115
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = CantRepeat
+Flags = CanProtect,Punch
+Description = The target is punched with a tremendous icy force. This move can't be used twice in a row.
+Animation = ICEPUNCH
+#-------------------------------
 [FROSTOVER]
 Name = Frost Over
 Type = ICE
@@ -7127,7 +7194,7 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = UserLosesIceType
 Flags = CanProtect
-Description = To inflict massive damage, the user uses up its Ice-type.
+Description = To inflict massive damage, the user uses up its Ice-typing. This move can't be used if the user is not an Ice type.
 Animation = ICEBEAM
 #-------------------------------
 [SUPERCOOL]
