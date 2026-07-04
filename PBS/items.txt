@@ -2274,6 +2274,7 @@ Name = Light Stone
 NamePlural = Light Stones
 Pocket = 16
 Price = 0
+Flags = KeyItem
 Description = Reshiram's body, in stone form. An expert in ancient relics may be able to transform it.
 #-------------------------------
 [DARKSTONE]
@@ -2281,6 +2282,7 @@ Name = Dark Stone
 NamePlural = Dark Stones
 Pocket = 16
 Price = 0
+Flags = KeyItem
 Description = Zekrom's body, in stone form. An expert in ancient relics may be able to transform it.
 #-------------------------------
 [LUMIOSEGALETTE]
