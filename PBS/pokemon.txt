@@ -16988,7 +16988,6 @@ Height = 0.6
 Weight = 8.5
 Kind = Constraint
 Pokedex = The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.
-FormName = Male
 Generation = 6
 WildItemUncommon = INTELLECTHERB
 #-------------------------------
