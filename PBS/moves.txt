@@ -3151,7 +3151,6 @@ TotalPP = 5
 Target = NearOther
 FunctionCode = UserLosesHalfOfCurrentHP
 Flags = CanProtect
-EffectChance = 100
 Description = Fires a beam of steel that it collected from its entire body. The user loses half its current HP.
 #-------------------------------
 [STEELWING]
