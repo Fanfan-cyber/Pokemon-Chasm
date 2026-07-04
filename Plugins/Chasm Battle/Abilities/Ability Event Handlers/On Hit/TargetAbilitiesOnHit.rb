@@ -65,7 +65,7 @@ BattleHandlers::TargetAbilityOnHit.add(:GRAVITYWELL,
 #########################################
 
 BattleHandlers::TargetAbilityOnHit.add(:GOOEY,
-  proc { |ability, user, target, move, _battle, aiCheck, aiNumHits|
+  proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if user.dummy
         next unless move.physicalMove?
         if aiCheck
@@ -76,11 +76,12 @@ BattleHandlers::TargetAbilityOnHit.add(:GOOEY,
             next ret
         end
         user.pbLowerMultipleStatSteps([:ATTACK,1,:SPEED,1], target, ability: ability)
-  }
+        battle.pbHideAbilitySplash(target)
+    }
 )
 
 BattleHandlers::TargetAbilityOnHit.add(:SICKENING,
-  proc { |ability, user, target, move, _battle, aiCheck, aiNumHits|
+  proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if user.dummy
         next unless move.specialMove?
         if aiCheck
@@ -91,20 +92,7 @@ BattleHandlers::TargetAbilityOnHit.add(:SICKENING,
             next ret
         end
         user.pbLowerMultipleStatSteps([:SPECIAL_ATTACK,1,:SPEED,1], target, ability: ability)
-  }
-)
-
-BattleHandlers::TargetAbilityOnHit.add(:TANGLINGHAIR,
-    proc { |ability, user, target, move, _battle, aiCheck, aiNumHits|
-          next unless move.physicalMove?
-          if aiCheck
-              ret = 0
-              aiNumHits.times do |i|
-                  ret -= getMultiStatDownEffectScore([:SPEED,3], target, user, fakeStepModifier: i)
-              end
-              next ret
-          end
-          user.tryLowerStat(:SPEED, target, ability: ability, increment: 3)
+        battle.pbHideAbilitySplash(target)
     }
 )
 
