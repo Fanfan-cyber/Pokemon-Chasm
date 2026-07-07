@@ -96,6 +96,12 @@ module CDKey
             newturns = pbMessageChooseNumber(_INTL("Set new Revival Turns."), params)
             TA.set(:customrevivalturndouble, newturns)
           end
+        elsif text == :customabiltimes
+          params = ChooseNumberParams.new
+          params.setRange(1, 5)
+          params.setDefaultValue(1)
+          newtimes= pbMessageChooseNumber(_INTL("Set new times."), params)
+          TA.set(:customabiltimes, newtimes)
         end
       else
         pbMessage(_INTL("You can't use the code now!"))
@@ -204,6 +210,7 @@ CDKey.register_other_key([:disablenotribecopy, :notribecopy], false)
 CDKey.register_other_key(:customtypechart)
 CDKey.register_other_key(:customtribethresh)
 CDKey.register_other_key(:customrevivalturn)
+CDKey.register_other_key(:customabiltimes)
 
 CDKey.register_other_key(:rocket, true)
 CDKey.register_other_key([:norocket, :rocket], false)

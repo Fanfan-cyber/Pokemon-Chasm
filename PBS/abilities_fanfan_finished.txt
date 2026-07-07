@@ -12,6 +12,10 @@ Description = After using a wind move, raises the Pokémon's Defense and Sp. Def
 Name = Ancestral Summons
 Description = Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 #-------------------------------
+[ASSISTANT2]
+Name = Assistant 2
+Description = Uses Assist upon entry, using a random move known by a party member.
+#-------------------------------
 [ATTENDANTSGRACE]
 Name = Attendant's Grace
 Description = Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.

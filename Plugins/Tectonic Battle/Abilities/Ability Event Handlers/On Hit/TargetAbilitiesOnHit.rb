@@ -942,7 +942,7 @@ BattleHandlers::TargetAbilityOnHit.add(:QUILLERINSTINCT,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if target.pbOpposingSide.effectAtMax?(:Spikes)
         if aiCheck
-            layerSlots = GameData::BattleEffect.get(:Spikes).maximum - target.pbOpposingSide.countEffect(:Spikes)
+            layerSlots = GameData::BattleEffect.get(:Spikes).maximum(battle) - target.pbOpposingSide.countEffect(:Spikes)
             aiNumHits = [aiNumHits,layerSlots].min
             next -getHazardSettingEffectScore(target, user) * aiNumHits
         end

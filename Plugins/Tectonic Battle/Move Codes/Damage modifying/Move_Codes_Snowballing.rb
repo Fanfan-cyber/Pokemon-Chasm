@@ -40,7 +40,7 @@ class PokeBattle_Move_OnARoll < PokeBattle_Move
         super
         oldEffectValues.each do |effect, oldValue|
             data = GameData::BattleEffect.get(effect)
-            user.effects[effect] = [oldValue + 1, data.maximum].min
+            user.effects[effect] = [oldValue + 1, data.maximum(@battle)].min
         end
     end
 end

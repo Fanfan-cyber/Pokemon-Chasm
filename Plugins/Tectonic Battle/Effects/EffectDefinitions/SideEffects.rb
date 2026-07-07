@@ -328,6 +328,9 @@ GameData::BattleEffect.register_effect(:Side, {
     :real_name => "Spikes",
     :type => :Integer,
     :maximum => 3,
+    :maximum_mod_proc => proc do |battle, curse_spikes|
+        next 6 if battle.curseActive?(:CURSE_SPIKES) && curse_spikes
+    end,
     :is_hazard => true,
     :is_spike => true,
     :increment_proc => proc do |battle, _side, teamName, _value, increment|

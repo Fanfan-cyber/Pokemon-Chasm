@@ -1032,7 +1032,7 @@ class PokeBattle_SnowballingMove < PokeBattle_Move
     def pbChangeUsageCounters(user, specialUsage)
         oldVal = user.effects[@usageCountEffect]
         super
-        user.effects[@usageCountEffect] = [oldVal + 1, @effectData.maximum].min
+        user.effects[@usageCountEffect] = [oldVal + 1, @effectData.maximum(@battle)].min
     end
 
     def damageAtCount(baseDmg, count)
@@ -1147,7 +1147,7 @@ class PokeBattle_StatusSpikeMove < PokeBattle_Move
     def pbMoveFailed?(user, _targets, show_message)
         return false if damagingMove?
         if user.pbOpposingSide.effectAtMax?(@spikeEffect)
-            maximum = @spikeData.maximum
+            maximum = @spikeData.maximum(@battle)
             if show_message
                 @battle.pbDisplay(_INTL("But it failed, since the opposing side already has {1} layers of {2}!", maximum, @spikeData.name))
             end

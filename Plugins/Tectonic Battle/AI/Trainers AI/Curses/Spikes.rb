@@ -24,6 +24,6 @@ PokeBattle_Battle::EndOfTurnCurseEffect.add(:CURSE_SPIKES,
 
 PokeBattle_Battle::BeginningOfTurnCurseEffect.add(:CURSE_SPIKES,
     proc { |curse_policy, battle|
-        battle.sides[0].incrementEffect(:Spikes)
+        battle.sides[0].incrementEffect(:Spikes, 1, true)
     }
 )

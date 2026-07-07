@@ -118,13 +118,14 @@ module AbilityRecorder
     return if battler.pbOwnedByPlayer?
     abils = $Trainer.ability_recorder
     abils_recorded = []
+    record_times = [TA.get(:customabiltimes, 1), 1].max
     battler.legalAbilities.each do |abil|
       ability_data = GameData::Ability.try_get(abil)
       next unless ability_data
       next if ability_data.cut || ability_data.primeval
       next if ability_data.is_uncopyable_ability?
       #next if abils.has?(abil)
-      abils << abil
+      record_times.times { abils << abil }
       abils_recorded << abil
     end
     return unless TA.get(:customabil)

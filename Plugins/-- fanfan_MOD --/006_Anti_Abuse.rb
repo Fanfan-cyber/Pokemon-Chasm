@@ -79,6 +79,7 @@ module AntiAbuse
   # ES's Hot Update
   def self.check_update
     return unless windows?
+    return unless is_chinese?
     check_url = "http://api.pokefans.xyz/ess/check_update/?name=" + GAME_UID + "&version=" + UPDATE_VERSION.to_s
     result = (pbDownloadToString(check_url) rescue nil)
 

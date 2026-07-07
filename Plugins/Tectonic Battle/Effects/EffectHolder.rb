@@ -34,13 +34,13 @@ module EffectHolder
         applyEffect(effect, battler.index)
     end
 
-    def incrementEffect(effect, incrementAmount = 1)
+    def incrementEffect(effect, incrementAmount = 1, curse_spikes = false)
         validateCorrectLocation(effect)
         effectData = GameData::BattleEffect.get(effect)
         validateInteger(effectData)
         oldValue = @effects[effect]
         newValue = oldValue + incrementAmount
-        if effectData.maximum && newValue > effectData.maximum
+        if effectData.maximum(@battle, curse_spikes) && newValue > effectData.maximum(@battle, curse_spikes)
             echoln("[EFFECT] Effect incremented while already at maximum: #{effectData.real_name}")
             return oldValue
         else
@@ -180,10 +180,10 @@ module EffectHolder
         validateCorrectLocation(effect)
         effectData = GameData::BattleEffect.get(effect)
         validateInteger(effectData)
-        return false if effectData.maximum.nil?
+        return false if effectData.maximum(@battle).nil?
         value = @effects[effect]
-        raise _INTL("Effect above maximum: #{effectData.name}") if value > effectData.maximum
-        return value == effectData.maximum
+        raise _INTL("Effect above maximum: #{effectData.name}") if value > effectData.maximum(@battle)
+        return value == effectData.maximum(@battle)
     end
 
     #################################################

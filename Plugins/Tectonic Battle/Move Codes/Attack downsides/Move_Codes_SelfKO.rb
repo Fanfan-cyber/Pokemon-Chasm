@@ -41,7 +41,7 @@ class PokeBattle_Move_UserFaintsExplosive < PokeBattle_Move
         score += 30 if user.hasActiveAbilityAI?(:PERENNIALPAYLOAD)
         if user.hasActiveAbility?(:SPINESPLODE)
             currentSpikeCount = user.pbOpposingSide.countEffect(:Spikes)
-            spikesMax = GameData::BattleEffect.get(:Spikes).maximum
+            spikesMax = GameData::BattleEffect.get(:Spikes).maximum(@battle)
             count = [spikesMax, currentSpikeCount + 2].min - currentSpikeCount
             score += count * getHazardSettingEffectScore(user, target)
         end

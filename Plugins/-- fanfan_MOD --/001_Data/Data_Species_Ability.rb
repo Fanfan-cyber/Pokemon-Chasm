@@ -80,6 +80,9 @@ SPECIES_ABILITY_DATA = {
   [:PORYGON2, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
   [:PORYGONZ, 0]    => { :fixed => %i[], :changeable => %i[DOWNLOAD2 BACKUP], },
 
+  [:PURRLOIN, 0]    => { :fixed => %i[], :changeable => %i[DAUNTLESS PRANKSTER ASSISTANT2], },
+  [:LIEPARD, 0]     => { :fixed => %i[], :changeable => %i[DAUNTLESS PRANKSTER ASSISTANT2], },
+
   [:RAYQUAZA, 0]    => { :fixed => %i[], :changeable => %i[AIRLOCK EXOSPHERICDESCENT2], },
   [:RAYQUAZA, 1]    => { :fixed => %i[], :changeable => %i[DELTASTREAM JUGGERNAUT], },
 

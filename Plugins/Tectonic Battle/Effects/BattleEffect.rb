@@ -17,7 +17,7 @@ module GameData
 
         # The maximum value attainable by the effect before moves and abilities dont increment it anymore
         # Only used for Integers
-        attr_reader :maximum
+        #attr_reader :maximum
 
         # Whether or not the effect should be displayed on the battle info menu
         attr_reader :info_displayed
@@ -202,6 +202,7 @@ module GameData
             @type                   = hash[:type] || :Boolean
             @default                = hash[:default]
             @maximum	= hash[:maximum]
+            @maximum_mod_proc = hash[:maximum_mod_proc]
             @info_displayed	= hash.has_key?(:info_displayed) ? hash[:info_displayed] : true
             @info_custom_description = hash[:info_custom_description]
             if @default.nil?
@@ -303,7 +304,7 @@ module GameData
                 raise _INTL("Battle effect #{@id} defines increment proc when its not an integer.") if @increment_proc
                 raise _INTL("Battle effect #{@id} defines expire proc when its not an integer.") if @expire_proc
                 raise _INTL("Battle effect #{@id} is set to tick down, but its not an integer.") if @ticks_down_eor || @ticks_down_sor || @ticks_down_proc
-                raise _INTL("Battle effect #{@id} was given a maximum, but its not an integer.") unless @maximum.nil?
+                raise _INTL("Battle effect #{@id} was given a maximum, but its not an integer.") if @maximum
             end
             if @entry_proc && @location != :Position && @location != :Side
                 raise _INTL("Battle effect #{@id} defines an entry proc when its not a position or side effect.")
@@ -412,6 +413,10 @@ module GameData
         def ticks_down?(battle, value)
             return @ticks_down_proc.call(battle, value) if @ticks_down_proc
             return true
+        end
+
+        def maximum(battle, curse_spikes = false)
+            @maximum_mod_proc&.call(battle, curse_spikes) || @maximum
         end
 
         ### Methods dealing with the effect when a battler is initialized

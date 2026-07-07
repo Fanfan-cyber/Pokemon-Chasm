@@ -17839,7 +17839,7 @@ Follow me.
 I'm sure you will be capable of reaching the Isle with your own boat.
 你应该有自身的船能到那里吧。
 May the winds be good on your journey.
-祝你一路顺风。
+祝您一路顺风。
 Greetings, fellow Master of Dragons.
 你好，巨龙的伙伴。
 Do you have more eggs which you wish me to hatch?
@@ -25448,7 +25448,7 @@ Do you think you could run a video game on this cave system?
 I thought this would be a cool place to fly my RC airplane. I was wrong.
 我本以为来这里能自由地玩我的无人机，但显然飞不起来。
 This is Tailwind-Actual, signing out...
-开了顺风也依然飞不起来...
+即使顺风也依然飞不起来...
 Rest in peace, Tailwind-One.
 安息吧，飞燕一号。
 I could have bought some nice held items with the money I spent...
@@ -42983,6 +42983,8 @@ Aeroshell 2
 气流外壳2
 Ancestral Summons
 背水飞援
+Assistant 2
+帮手2
 Attendant's Grace
 侍者的优雅
 Backfire
@@ -43002,7 +43004,7 @@ Cursed Shell
 Download 2
 下载2
 Exospheric Descent 2
-外逸层下降
+外逸层下降2
 Frightening Bite
 恐惧之咬
 Leviathan Aria
@@ -43523,7 +43525,7 @@ Powers up this Pokémon's Dark-type moves by 50% in sandstorm.
 While this Pokémon is below half health, its attacks poisons those hit.
 当该精灵的HP小于一半时，它的攻击会使目标陷入中毒。
 Takes 30% less move damage if a Tailwind is blowing.
-有顺风时，受到技能的伤害减小30%。
+处于顺风时，受到技能的伤害减小30%。
 Boosts Attack and Sp. Atk after knocking out any Pokémon.
 打倒对手时，双攻增加1级。
 On the first turn, its attacks burn the target.
@@ -44323,7 +44325,7 @@ Can't be leeched, drained, or trapped.
 This Pokémon deals double damage with moves that cause the user to become hidden.
 隐藏类技能的伤害翻倍。
 Attack is boosted by 50% if a Tailwind is blowing.
-顺风时，物攻增加50%。
+处于顺风时，物攻增加50%。
 This Pokémon is also Bug-type, but its Speed is halved.
 为自身增加虫属性，但速度减半。
 Its attacks deal 50% more move damage against sleeping targets.
@@ -44610,6 +44612,8 @@ After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at 
 使用风类技能后，双防增加1级。
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 HP小于一半时，会返回队伍，替换出场的精灵的第一次攻击必定会命中要害，如果替换的精灵是嘟嘟或者嘟嘟利，还会立刻使用飞天。
+Uses Assist upon entry, using a random move known by a party member.
+出场时，使用借助。
 Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.
 使对手的先制类技能使用失败。出场时，使用借助。
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
@@ -49977,6 +49981,8 @@ Tailwind
 顺风
 Tailwind doubles the Speed stat of all Pokémon on the active side.
 顺风使我方所有精灵的速度翻倍。
+Tailwind boosts allies' Speed by 33% and lowers foes' Speed by 33%.
+顺风使我方的精灵速度增加33%，对方的精灵速度减小33%。
 Natural Protection
 自然防护
 Natural Protection halves recoil damage and other passive damage like burn or sandstorm on the active side.
@@ -53707,10 +53713,16 @@ layer
 2层
 3 layers
 3层
+4 layers
+4层
+5 layers
+5层
+6 layers
+6层
 {1} is hurt by the {2} of spikes!
-{1}被{2}的撒菱伤害了！
+{1}被{2}的菱伤到了！
 {1} was caught in a sticky web!
-{1}被黏黏网束缚了！
+{1}被黏黏网抓住了！
 {1} was zapped by the exposed wiring!
 {1}被暴露的电线电到了！
 {1} absorbed the {2}!
@@ -62545,6 +62557,8 @@ A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat
 激烈地跳起战舞增加气势，自身物攻增加3级。
 The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its legal abilities.
 使用者连接目标的脑电波以稳定其心智，回复混乱状态，并使目标获得它的所有合法特性。
+The user whips up a turbulent whirlwind, boosting allies' Speed by 33% and lowering foes' Speed by 33% for 4 turns.
+从身后吹起猛烈的旋风4回合，使处于顺风的精灵速度增加33%，处于逆风的精灵速度减小33%。
 {1} change to {2} type!
 {1}变为{2}属性！
 The Pokémon's species abilities can't be changed!
@@ -62558,7 +62572,7 @@ You don't have enough money to change the Pokémon's species abilities!
 It costs $5000, are you sure?
 这需要花费5000金钱，你确定吗？
 The Pokémon's species abilities changed!
-这只精灵的物种特性已经改变！
+该物种的特性已经改变！
 {1} has been removed!
 {1}已被移除！
 {1} can't be removed!

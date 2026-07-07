@@ -160,7 +160,7 @@ class PokeBattle_Move_EmpoweredSpikes < PokeBattle_Move_Spikes
 
     def pbEffectGeneral(user)
         # Apply up to the maximum number of layers
-        increment = GameData::BattleEffect.get(:Spikes).maximum - user.pbOpposingSide.countEffect(:Spikes)
+        increment = GameData::BattleEffect.get(:Spikes).maximum(@battle) - user.pbOpposingSide.countEffect(:Spikes)
         user.pbOpposingSide.incrementEffect(:Spikes, increment) if increment > 0
         transformType(user, :GROUND)
     end
@@ -172,7 +172,7 @@ class PokeBattle_Move_EmpoweredPoisonSpikes < PokeBattle_Move_Spikes
 
     def pbEffectGeneral(user)
         # Apply up to the maximum number of layers
-        increment = GameData::BattleEffect.get(:PoisonSpikes).maximum - user.pbOpposingSide.countEffect(:PoisonSpikes)
+        increment = GameData::BattleEffect.get(:PoisonSpikes).maximum(@battle) - user.pbOpposingSide.countEffect(:PoisonSpikes)
         user.pbOpposingSide.incrementEffect(:PoisonSpikes, increment) if increment > 0
         transformType(user, :POISON)
     end
@@ -184,7 +184,7 @@ class PokeBattle_Move_EmpoweredFrostSpikes < PokeBattle_Move_Spikes
 
     def pbEffectGeneral(user)
         # Apply up to the maximum number of layers
-        increment = GameData::BattleEffect.get(:FrostSpikes).maximum - user.pbOpposingSide.countEffect(:FrostSpikes)
+        increment = GameData::BattleEffect.get(:FrostSpikes).maximum(@battle) - user.pbOpposingSide.countEffect(:FrostSpikes)
         user.pbOpposingSide.incrementEffect(:FrostSpikes, increment) if increment > 0
         transformType(user, :ICE)
     end
@@ -196,7 +196,7 @@ class PokeBattle_Move_EmpoweredFlameSpikes < PokeBattle_Move_Spikes
 
     def pbEffectGeneral(user)
         # Apply up to the maximum number of layers
-        increment = GameData::BattleEffect.get(:FlameSpikes).maximum - user.pbOpposingSide.countEffect(:FlameSpikes)
+        increment = GameData::BattleEffect.get(:FlameSpikes).maximum(@battle) - user.pbOpposingSide.countEffect(:FlameSpikes)
         user.pbOpposingSide.incrementEffect(:FlameSpikes, increment) if increment > 0
         transformType(user, :FIRE)
     end

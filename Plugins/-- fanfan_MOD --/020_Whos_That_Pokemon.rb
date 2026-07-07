@@ -15,6 +15,7 @@ class WhoAmI_Scene
   end
 
   def pbStartScreen
+    return unless check_entering_limit
     loop do
       setup_game
       break unless run_game_loop
@@ -88,7 +89,7 @@ class WhoAmI_Scene
 
   def check_entering_limit
     if $Trainer.money < lose_money
-      #pbMessage(_INTL("You don't have enough money to play the game!"))
+      pbMessage(_INTL("You don't have enough money to play the game!"))
       return false
     end
     return true
@@ -111,6 +112,7 @@ class WhoAmI_Scene
   def handle_input
     if Input.trigger?(Input::BACK)
       @press_back = true
+      apply_award(false)
     elsif Input.trigger?(Input::LEFT)
       @selection = @selection == 0 ? 2 : @selection - 1
       pbSEPlay("GUI sel decision")

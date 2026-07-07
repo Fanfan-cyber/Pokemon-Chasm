@@ -668,9 +668,9 @@ class PokeBattle_Battle
                     !battler.hasActiveAbility?(:AFTERIMAGE)
 
                     spikesIndex = battler.pbOwnSide.countEffect(:Spikes) - 1
-                    spikesDiv = [8,6,4][spikesIndex]
+                    spikesDiv = [8,6,4,3,2,1][spikesIndex]
                     spikesHPRatio = 1.0 / spikesDiv.to_f
-                    layerLabel = [_INTL("layer"), _INTL("2 layers"), _INTL("3 layers")][spikesIndex]
+                    layerLabel = [_INTL("layer"), _INTL("2 layers"), _INTL("3 layers"), _INTL("4 layers"), _INTL("5 layers"), _INTL("6 layers")][spikesIndex]
                     if aiCheck
                         spikesDamage = battler.applyFractionalDamage(spikesHPRatio, aiCheck: true)
                         hazardDamagePredicted += spikesDamage
