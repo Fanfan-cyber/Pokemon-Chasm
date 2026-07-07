@@ -40925,7 +40925,7 @@ A very sweet drink. It restores the HP of one Pokémon by 150 points.
 Nutritious milk. It fully restores the HP and heals any status problems of a single Pokémon.
 营养百分百，回复全部体力和异常状态。
 A candy that is packed with energy. It raises the level of a single Pokémon by one.
-能使精灵的等级增加1。
+满含着神奇能量的糖果，对精灵使用后，可以使精灵的等级增加1。
 Fried dough dipped in vanilla syrup. Heals a single Pokémon by 100 HP, and grants it 4000 Experience points.
 回复100HP并获得4000点经验值。
 A special Poké Ball that is used only in the Safari Zone. It is decorated in a camouflage pattern.
@@ -48802,7 +48802,7 @@ Achievements
 The current level cap is {1}.
 目前的等级上限为{1}。
 Once at level {1}, your Pokémon cannot gain experience or have Candies used on them.
-到达{1}级后，你的精灵就不能再获得经验或使用糖果了。
+到达{1}级后，你的精灵就不能再获得经验或使用经验糖果了。
 The level cap can be raised by reading Battle Reports (a consumable item).
 通过阅读战斗报告（一种消耗品）可以增加等级上限。
 You'll earn Battle Reports after defeating Gym Leaders and major story battles.
@@ -62549,6 +62549,8 @@ It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 让精灵携带后，当HP小于25%时，可回复一半HP。
 An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.
 一种携带物。使用者获得一个额外特性，但所有能力减小10%。
+It ignores the level cap and raises the level of a single Pokémon by one.
+给精灵使用后，可以无视等级上限使精灵的等级增加1。
 Rare contraband. Any average solo trainer will refused to battle due to the stench of its explosion.
 一种稀有违禁品。使用后普通的单人训练师会因它爆炸所产生的臭味不想战斗而主动认输。
 If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.

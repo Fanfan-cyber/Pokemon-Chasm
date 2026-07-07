@@ -64,8 +64,6 @@ Events.OnTalkToFollower += proc {|pkmn,event,random_val|
     items = %i[
       FULLRESTORE
       FULLRESTORE
-      RARECANDY
-      RARECANDY
       REPEL
       REPEL
       MAXREPEL
@@ -81,6 +79,8 @@ Events.OnTalkToFollower += proc {|pkmn,event,random_val|
       GREATBALL
       ULTRABALL
     ]
+      #RARECANDY
+      #RARECANDY
     # If no message or quantity is specified the default message is used and the quantity of item is 1
     next true if pbPokemonFound(items[rand(items.length)])
   end

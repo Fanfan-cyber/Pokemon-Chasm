@@ -166,7 +166,8 @@ def postGymSnapshot(badge_num)
       pbSetSelfSwitch(21, 'A', false)
     end
     playGmyLeaderRematchTutorial unless $PokemonGlobal.gmyLeaderRematchTutorialized
-    pbReceiveItem(:EXPCANDYXL, badge_num + 1)
+    #pbReceiveItem(:EXPCANDYXL, badge_num + 1)
+    pbReceiveItem(:RARECANDY)
     pbMessage(_INTL("You did great, but you still need to defeat me {1} more time(s).\nYou can't use the Pokémon you've already used and you can check the recorded teams with the Battle Loader.\nKeep it up!", GymLeaderRematch.rematch_times(badge_num) - result[1]))
     pbFadeOutIn { pbStartOver { |mapName| _INTL("\\w[]\\wm\\c[12]\\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...", mapName) } }
     command_end
