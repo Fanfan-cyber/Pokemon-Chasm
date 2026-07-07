@@ -308,14 +308,6 @@ MultipleForms.register(:SCATTERBUG,{
 
 MultipleForms.copy(:SCATTERBUG,:SPEWPA,:VIVILLON)
 
-MultipleForms.register(:ESPURR,{
-  "getFormOnCreation" => proc { |pkmn|
-    next pkmn.gender
-  }
-})
-
-MultipleForms.copy(:ESPURR,:MEOWSTIC)
-
 MultipleForms.register(:AEGISLASH,{
   "getFormOnLeavingBattle" => proc { |pkmn,battle,usedInBattle,endBattle|
     next 0

@@ -185,6 +185,19 @@ Flags = Sound
 Description = The user calls its team to a farm-fresh meal, sacrificing 25% HP to heal each of its party members by 25% HP.
 Animation = HEALBELL
 #-------------------------------
+[DISPELL]
+Name = Dispell
+Type = NORMAL
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstFairy
+Flags = CanProtect
+Description = The user attacks with a disrupting beam of common sense. Super effective versus Fairy-types.
+Animation = NULLPULSE
+#-------------------------------
 [DRAINAGE]
 Name = Drainage
 Type = NORMAL
@@ -1273,6 +1286,19 @@ FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect
 Description = The target is jabbed repeatedly with a horn or beak that multi-hits two to five times.
 #-------------------------------
+[HEAVENLYGALE]
+Name = Heavenly Gale
+Type = FLYING
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstDark
+Flags = CanProtect,Wind
+Description = The user attacks with a divine wind to punish the target. Super effective versus Dark-types.
+Animation = AIRCUTTER
+#-------------------------------
 [HOP]
 Name = Hop
 Type = FLYING
@@ -1543,13 +1569,13 @@ Animation = ACID
 Name = Acid Bath
 Type = POISON
 Category = Special
-Power = 110
+Power = 140
 Accuracy = 100
 TotalPP = 5
 Target = NearOther
-FunctionCode = LowerUserDefSpDef2
+FunctionCode = UserLosesHalfOfCurrentHP
 Flags = CanProtect
-Description = The user and target bathe in acid. This lowers the user's Defense and Sp. Def by two steps.
+Description = The user and target bathe in acid. The user loses half its current HP.
 Animation = ACIDDOWNPOUR
 #-------------------------------
 [ACIDBREACH]
@@ -1742,7 +1768,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = SuperEffectiveAgainstFighting
 Flags = CanProtect
-Description = The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
+Description = The user uses venom that turns the target's body against it. Super effective versus Fighting-types.
 Animation = POISONSTING
 #-------------------------------
 [STINGINGJEALOUSY]
@@ -2715,6 +2741,19 @@ FunctionCode = Basic
 Flags = CanProtect,Light
 Description = The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
 #-------------------------------
+[BURROWBLITZ]
+Name = Burrow Blitz
+Type = BUG
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstGround
+Flags = CanProtect
+Description = An army of insects, working as one, strike at the target from below. Super effective versus Ground-types.
+Animation = ATTACKORDER
+#-------------------------------
 [CARAPACECRUSH]
 Name = Carapace Crush
 Type = BUG
@@ -3353,6 +3392,19 @@ Flags = CanProtect
 EffectChance = 30
 Description = Changes type based on machine haunted. 30% chance of extra effect based on machine haunted.
 Animation = SHADOWBALL
+#-------------------------------
+[MADPURGE]
+Name = Mad Purge
+Type = GHOST
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstPoison
+Flags = CanProtect
+Description = The user cleanses the target's impurities with spiritual energy. Super effective versus Poison-types.
+Animation = OMINOUSWIND
 #-------------------------------
 [MALEFACTION]
 Name = Malefaction
@@ -5318,7 +5370,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = SuperEffectiveAgainstGhost
 Flags = CanProtect
-Description = The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
+Description = The user attacks the target with the power of a warding charm. Super effective versus Ghost-types.
 Animation = BLOOMDOOM
 #-------------------------------
 [KICKDRUM]
@@ -5756,6 +5808,19 @@ FunctionCode = Rampage
 Flags = CanProtect
 Description = The user breaks down all insulation to send a barrage of electricity to rampage for two turns.
 Animation = GIGAVOLTHAVOC
+#-------------------------------
+[ELECTROCUTE]
+Name = Electrocute
+Type = ELECTRIC
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstSteel
+Flags = CanProtect
+Description = The user forces electricity between opposite points on the target's body. Super effective versus Steel-types.
+Animation = SPARK
 #-------------------------------
 [ELECTROSLASH]
 Name = Electroslash
@@ -6482,6 +6547,19 @@ FunctionCode = RaiseUserMainStats2IfAsleep
 Flags = CanSnatch
 Description = This move raises all the user's stats by two steps. Can only be used while asleep.
 Animation = COSMICPOWER
+#-------------------------------
+[OUTWIT]
+Name = Outwit
+Type = PSYCHIC
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstNormal
+Flags = CanProtect
+Description = The user attacks with an overpowering, superior intellect. Super effective versus Normal-types.
+Animation = PSYCHIC
 #-------------------------------
 [PACIFY]
 Name = Pacify
@@ -7237,6 +7315,19 @@ Animation = ICEPUNCH
 #-------------------------------
 #		DRAGON MOVES
 #-------------------------------
+[APEXPREDATION]
+Name = Apex Predation
+Type = DRAGON
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstFlying
+Flags = CanProtect,Biting
+Description = The user bites a vulnerable spot from above. Super effective versus Flying-types.
+Animation = CRUNCH
+#-------------------------------
 [ARCHMYTH]
 Name = Archmyth
 Type = DRAGON
@@ -7707,7 +7798,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = SuperEffectiveAgainstElectric
 Flags = CanProtect
-Description = The user removes the energy and light around the target. Super effective vs Electric-types.
+Description = The user removes the energy and light around the target. Super effective versus Electric-types.
 Animation = DARKVOID
 #-------------------------------
 [BROWBEAT]
@@ -8724,6 +8815,19 @@ Target = BothSides
 FunctionCode = StartSwapAttackingStats6
 Description = The user creates a puzzling area for six turns in which Pokémon's unmodified Attack and Sp. Atk are swapped.
 Animation = MAGICROOM
+#-------------------------------
+[RIDDLEMETHIS]
+Name = Riddle Me This
+Type = FAIRY
+Category = Physical
+Power = 90
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = SuperEffectiveAgainstPsychic
+Flags = CanProtect
+Description = The user captivates the target with something puzzling, then strikes. Super effective versus Psychic-types.
+Animation = SPIRITBREAK
 #-------------------------------
 [STROKEOFMIDNIGHT]
 Name = Stroke of Midnight

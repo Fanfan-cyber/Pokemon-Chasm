@@ -69,7 +69,7 @@ BattleHandlers::TargetAbilityOnHit.add(:GRAVITYWELL,
 #########################################
 
 BattleHandlers::TargetAbilityOnHit.add(:GOOEY,
-  proc { |ability, user, target, move, _battle, aiCheck, aiNumHits|
+  proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if user.dummy
         next unless move.physicalMove?
         if aiCheck
@@ -80,11 +80,12 @@ BattleHandlers::TargetAbilityOnHit.add(:GOOEY,
             next ret
         end
         user.pbLowerMultipleStatSteps([:ATTACK,1,:SPEED,1], target, ability: ability)
-  }
+        battle.pbHideAbilitySplash(target)
+    }
 )
 
 BattleHandlers::TargetAbilityOnHit.add(:SICKENING,
-  proc { |ability, user, target, move, _battle, aiCheck, aiNumHits|
+  proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if user.dummy
         next unless move.specialMove?
         if aiCheck

@@ -3887,7 +3887,7 @@ Pokemon = MAMOSWINE,45
     AbilityIndex = 0 # Thick Fat
     Item = LUMBERAXE
 Pokemon = MEOWSTIC,45
-    Form = 1 # Female Form
+    Gender = female
     Moves = PATTERNRELEASE,PSYCHICFANGS,SUCKERPUNCH,ARMTHRUST
     AbilityIndex = 1 # Liminal
     Item = LOADEDDICE
@@ -9637,6 +9637,7 @@ Pokemon = GENGAR,70
 #-------------------------------
 [RICHCOUPLE,Diana and Edward]
 Pokemon = MEOWSTIC,70
+    Gender = male
     Moves = PSYCHICFANGS,HELPINGHAND,REFLECT,LIGHTSCREEN
     AbilityIndex = 0 # Prankster
     Item = LIGHTCLAY
@@ -9962,7 +9963,7 @@ Pokemon = ADUGTRIO,70
 #-------------------------------
 [OFFICEWORKER_M,Kurt]
 Pokemon = MEOWSTIC,70
-    Form = 1 # Female Form
+    Gender = female
     Moves = REFLECT,HELPINGHAND,HEALBELL,LIGHTSCREEN
     AbilityIndex = 0 # Prankster
     Item = LIGHTCLAY
