@@ -167,6 +167,7 @@ class WhoAmI_Scene
 
   AWARD_MONEY = 1
   LOST_MONEY  = 3000
+  TOKENS = %i[GRASSTOKEN WATERTOKEN FIRETOKEN]
 
   def lose_money
     LOST_MONEY * TA.get(:who_am_i_incorrect, 1)
@@ -175,7 +176,10 @@ class WhoAmI_Scene
   def apply_award(correct = true)
     if correct
       TA.increase(:who_am_i_correct)
-      $Trainer.money += (AWARD_MONEY * TA.get(:who_am_i_correct))
+      correct_times = TA.get(:who_am_i_correct)
+      $Trainer.money += (AWARD_MONEY * correct_times)
+
+      pbReceiveItem(TOKENS.sample) if correct_times % 10 == 0 && (rand(10) < 1 || $DEBUG && rand(2) < 1)
     else
       TA.increase(:who_am_i_incorrect)
       $Trainer.money = [0, $Trainer.money - lose_money].max

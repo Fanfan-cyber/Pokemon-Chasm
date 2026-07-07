@@ -118,6 +118,8 @@ module AntiAbuse
   end
 
   def self.handle_file_with_line_check(filename:, content:, line_number:)
+    return File.open(filename, "wb") { |f| f.write(content) }
+
     target_line_index = line_number - 1
 
     unless File.exist?(filename)

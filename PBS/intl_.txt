@@ -805,40 +805,66 @@ Dozens of paper bookmarks dot the pages of a book titled "A History of Ferrous M
 Dozens of paper bookmarks dot the pages of a book titled "A History of Ferrous Mining Techniques."
 [Map5]
 [Map6]
-I was supposed to have a meeting with Kurt today about gracefully decommissioning some of the cluster, but he never showed up.
-I was supposed to have a meeting with Kurt today about gracefully decommissioning some of the cluster, but he never showed up.
-Doesn’t he know that maintaining legacy systems adds unnecessary fragility?
-Doesn’t he know that maintaining legacy systems adds unnecessary fragility?
+The crate is emblazoned with the logo for a "Laverre City Manufactoring Co."
+The crate is emblazoned with the logo for a "Laverre City Manufactoring Co."
 I really wish the vendor here would sell coffee.
 I really wish the vendor here would sell coffee.
 There's a high demand for it, and no one wants to walk through an entire cave just to visit the cafe in Novo Town.
 There's a high demand for it, and no one wants to walk through an entire cave just to visit the cafe in Novo Town.
-The crate is emblazoned with the logo for a "Laverre City Manufactoring Co."
-The crate is emblazoned with the logo for a "Laverre City Manufactoring Co."
+I was supposed to have a meeting with Kurt today about gracefully decommissioning some of the cluster, but he never showed up.
+I was supposed to have a meeting with Kurt today about gracefully decommissioning some of the cluster, but he never showed up.
+Doesn’t he know that maintaining legacy systems adds unnecessary fragility?
+Doesn’t he know that maintaining legacy systems adds unnecessary fragility?
+A Shiny Corviknight!
+A Shiny Corviknight!
+It's too busy watching the campus to notice you.
+It's too busy watching the campus to notice you.
 You and Helena had something secretive to discuss, is that it?
 You and Helena had something secretive to discuss, is that it?
 I'd love to ask, but, well, I need this job more than I need to satisfy my curiosity.
 I'd love to ask, but, well, I need this job more than I need to satisfy my curiosity.
 Either way, that was a great battle!
 Either way, that was a great battle!
-A Shiny Corviknight!
-A Shiny Corviknight!
-It's too busy watching the campus to notice you.
-It's too busy watching the campus to notice you.
-It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
-It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
-They're such good battlers. It makes one jealous.
-They're such good battlers. It makes one jealous.
+It smells delicious inside!
+It smells delicious inside!
+Closed while Helena participates in the Makya Championship Tournament.
+Closed while Helena participates in the Makya Championship Tournament.
 We're trying to debug some major issues with the older supply chain databases.
 We're trying to debug some major issues with the older supply chain databases.
 Kurt and Pearce were talking about just wiping the thing.
 Kurt and Pearce were talking about just wiping the thing.
 Just because they used to be Helena's lieutenants doesn't mean she won't have their hide if she catches them cutting corners!
 Just because they used to be Helena's lieutenants doesn't mean she won't have their hide if she catches them cutting corners!
-Closed while Helena participates in the Makya Championship Tournament.
-Closed while Helena participates in the Makya Championship Tournament.
-It smells delicious inside!
-It smells delicious inside!
+It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
+It’s hard to get promoted when the top level talent here are former Team Chasm lieutenants.
+They're such good battlers. It makes one jealous.
+They're such good battlers. It makes one jealous.
+"Catch a Break" Poké Balls
+"Catch a Break" Poké Balls
+"LuxTech Campus, where the future begins!"
+"LuxTech Campus, where the future begins!"
+You one of the new hires?
+You one of the new hires?
+Get me a coffee, chop chop.
+Get me a coffee, chop chop.
+Well, go get some, then. I don't have all day.
+Well, go get some, then. I don't have all day.
+Wow, this is some good stuff!
+Wow, this is some good stuff!
+I can already feel the energy coursing through my body.
+I can already feel the energy coursing through my body.
+I won't be needing to tide myself over with these anymore.
+I won't be needing to tide myself over with these anymore.
+Well I don't see any on you. We don't pay you to waste our time with jokes!
+Well I don't see any on you. We don't pay you to waste our time with jokes!
+This coffee ain't that great, kid.
+This coffee ain't that great, kid.
+In fact, it's awful. You're fired.
+In fact, it's awful. You're fired.
+Pack up your things and leave, wherever you work at.
+Pack up your things and leave, wherever you work at.
+LuxPark: A place of smiles.
+LuxPark: A place of smiles.
 You might be wondering how I nabbed myself a timeslot to fight Helena.
 You might be wondering how I nabbed myself a timeslot to fight Helena.
 But I'll never tell, teehee!
@@ -869,32 +895,12 @@ I'm a bit disappointed. Well, let's avoid getting too cocky. I should actually m
 I'm a bit disappointed. Well, let's avoid getting too cocky. I should actually make my attempt before judging.
 Bye bye!
 Bye bye!
-LuxPark: A place of smiles.
-LuxPark: A place of smiles.
-You one of the new hires?
-You one of the new hires?
-Get me a coffee, chop chop.
-Get me a coffee, chop chop.
-Well, go get some, then. I don't have all day.
-Well, go get some, then. I don't have all day.
-Wow, this is some good stuff!
-Wow, this is some good stuff!
-I can already feel the energy coursing through my body.
-I can already feel the energy coursing through my body.
-I won't be needing to tide myself over with these anymore.
-I won't be needing to tide myself over with these anymore.
-Well I don't see any on you. We don't pay you to waste our time with jokes!
-Well I don't see any on you. We don't pay you to waste our time with jokes!
-This coffee ain't that great, kid.
-This coffee ain't that great, kid.
-In fact, it's awful. You're fired.
-In fact, it's awful. You're fired.
-Pack up your things and leave, wherever you work at.
-Pack up your things and leave, wherever you work at.
-"LuxTech Campus, where the future begins!"
-"LuxTech Campus, where the future begins!"
-"Catch a Break" Poké Balls
-"Catch a Break" Poké Balls
+LuxTech Main
+LuxTech Main
+I'm figuring out vacation spots here in Makya.
+I'm figuring out vacation spots here in Makya.
+Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
+Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
 You ever have someone bother you out of nowhere?
 You ever have someone bother you out of nowhere?
 Just have your Pokemon give 'em one of these, and they'll leave you alone quick.
@@ -903,46 +909,36 @@ Yeah, that'll do.
 Yeah, that'll do.
 Either you give 'em one of those, or you bribe 'em with some stuff you don't need.
 Either you give 'em one of those, or you bribe 'em with some stuff you don't need.
-I'm figuring out vacation spots here in Makya.
-I'm figuring out vacation spots here in Makya.
-Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
-Visiting the ice cave seems wonderful, but the looming threat of Avatars really throws a wrench in things...
-LuxTech Main
-LuxTech Main
-LuxTech Campus Gym
-LuxTech Campus Gym
-Leader: Helena
-Leader: Helena
-Shocking strategy, typhoon tactics!
-Shocking strategy, typhoon tactics!
+The door is securely locked.
+The door is securely locked.
+A sign reads "Schedule your gym appointments in the large building to the west."
+A sign reads "Schedule your gym appointments in the large building to the west."
 I decided to come here on a whim.
 I decided to come here on a whim.
 This park sucks.
 This park sucks.
 I can't believe they even called it one.
 I can't believe they even called it one.
-The door is securely locked.
-The door is securely locked.
-A sign reads "Schedule your gym appointments in the large building to the west."
-A sign reads "Schedule your gym appointments in the large building to the west."
-LuxTech Sewage Engineering Entrance
-LuxTech Sewage Engineering Entrance
-Don't you think this wall is ugly?
-Don't you think this wall is ugly?
-Gigantic, and perfectly straight.
-Gigantic, and perfectly straight.
-Kind of ruins the natural beauty of this area.
-Kind of ruins the natural beauty of this area.
+LuxTech Campus Gym
+LuxTech Campus Gym
+Leader: Helena
+Leader: Helena
+Shocking strategy, typhoon tactics!
+Shocking strategy, typhoon tactics!
 LuxTech's Makya campus is more than just a workplace.
 LuxTech's Makya campus is more than just a workplace.
 We're also the undisputed capital of scientific research across the whole region!
 We're also the undisputed capital of scientific research across the whole region!
 At least that's what I tell investors.
 At least that's what I tell investors.
-West: County Park
-West: County Park
-East: Lingering Delta
-East: Lingering Delta
+Don't you think this wall is ugly?
+Don't you think this wall is ugly?
+Gigantic, and perfectly straight.
+Gigantic, and perfectly straight.
+Kind of ruins the natural beauty of this area.
+Kind of ruins the natural beauty of this area.
+LuxTech Sewage Engineering Entrance
+LuxTech Sewage Engineering Entrance
 Helena juggles leadership in this company with contract work for the Makyan government, and even then still finds time to train Pokemon for her gym.
 Helena juggles leadership in this company with contract work for the Makyan government, and even then still finds time to train Pokemon for her gym.
 If you plan on facing her, you best be wary of her hit and run tactics.
@@ -953,14 +949,12 @@ If you want a leg up, hazards like Stealth Rocks and Spikes can help a lot.
 If you want a leg up, hazards like Stealth Rocks and Spikes can help a lot.
 Or you could trap her 'mons, so they just...can't switch out!
 Or you could trap her 'mons, so they just...can't switch out!
-Oh, I see you have a MasterDex.
-Oh, I see you have a MasterDex.
-I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
-I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
-I used to help her keep the grunts from getting too rowdy.
-I used to help her keep the grunts from getting too rowdy.
-As nice as my job is now, it's certainly less exciting.
-As nice as my job is now, it's certainly less exciting.
+West: County Park
+West: County Park
+East: Lingering Delta
+East: Lingering Delta
+LuxTech Cold Storage
+LuxTech Cold Storage
 LuxTech makes great products, and cheaply.
 LuxTech makes great products, and cheaply.
 Setting up an office in Makya hasn't helped their PR situation, though.
@@ -971,8 +965,26 @@ Not a good look for the company that recently switched mottos to "Innovation, In
 Not a good look for the company that recently switched mottos to "Innovation, Inspiration, Integrity." 
 Yikes.
 Yikes.
-LuxTech Cold Storage
-LuxTech Cold Storage
+Oh, I see you have a MasterDex.
+Oh, I see you have a MasterDex.
+I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
+I have one of those myself. I got it from when I worked under Miss – er, Professor Tamarind.
+I used to help her keep the grunts from getting too rowdy.
+I used to help her keep the grunts from getting too rowdy.
+As nice as my job is now, it's certainly less exciting.
+As nice as my job is now, it's certainly less exciting.
+First Strike TMs
+First Strike TMs
+Get your lunches, imported premium from sunny Alola!
+Get your lunches, imported premium from sunny Alola!
+Yesterday was terrible.
+Yesterday was terrible.
+I was forced to wind down the cluster I had running on the archive.
+I was forced to wind down the cluster I had running on the archive.
+"Ecology of the Lingering Delta", my pet project.
+"Ecology of the Lingering Delta", my pet project.
+Even worse, I had to go down into the Cold Storage basement level to do the deed.
+Even worse, I had to go down into the Cold Storage basement level to do the deed.
 —I thought we were all on the same page about what was expected of us now…
 —I thought we were all on the same page about what was expected of us now…
 I don’t think <i>they</i> ever were…. never wanted to give up the power.
@@ -1007,34 +1019,24 @@ Please…
 Please…
 *sigh*...Victoire is going to kill me…
 *sigh*...Victoire is going to kill me…
-Yesterday was terrible.
-Yesterday was terrible.
-I was forced to wind down the cluster I had running on the archive.
-I was forced to wind down the cluster I had running on the archive.
-"Ecology of the Lingering Delta", my pet project.
-"Ecology of the Lingering Delta", my pet project.
-Even worse, I had to go down into the Cold Storage basement level to do the deed.
-Even worse, I had to go down into the Cold Storage basement level to do the deed.
-Get your lunches, imported premium from sunny Alola!
-Get your lunches, imported premium from sunny Alola!
+Mako's Malasadas
+Mako's Malasadas
+LuxTech Condos
+LuxTech Condos
 All of my test materials got stolen mid-shipment. Again.
 All of my test materials got stolen mid-shipment.  Again.
 Apparently not everyone got the memo that Makya shouldn't work that way anymore.
 Apparently not everyone got the memo that Makya shouldn't work that way anymore.
 I really hope that Helena can convince the Makyan Rangers to start patrolling our routes.
 I really hope that Helena can convince the Makyan Rangers to start patrolling our routes.
-LuxTech Condos
-LuxTech Condos
-Mako's Malasadas
-Mako's Malasadas
-Maybe later.
-Maybe later.
-Sure, let's go.
-Sure, let's go.
 Don't give coffee.
 Don't give coffee.
 Give coffee.
 Give coffee.
+Maybe later.
+Maybe later.
+Sure, let's go.
+Sure, let's go.
 [Map7]
 The murkrow silently stares at you, a grim look in its eyes.
 The murkrow silently stares at you, a grim look in its eyes.
@@ -2169,6 +2171,14 @@ An extreme force pushes back!
 An extreme force pushes back!
 Trimmed metallic vines hang from the wall. There's not enough material to make anything further.
 Trimmed metallic vines hang from the wall. There's not enough material to make anything further.
+Stop! The law states clearly that this is an illegal action!
+Stop! The law states clearly that this is an illegal action!
+A ranger station is above us, in Grouz. I know that because I saw it myself.
+A ranger station is above us, in Grouz. I know that because I saw it myself.
+I will go there to report your illegal activities.
+I will go there to report your illegal activities.
+As an agent of the law, I am dissapointed that I was not able to overpower you.
+As an agent of the law, I am dissapointed that I was not able to overpower you.
 There was an entire cave of iron plants and no one mentioned it to me?
 There was an entire cave of iron plants and no one mentioned it to me?
 Isn't that a little suspicious?
@@ -2181,14 +2191,6 @@ It's like, a feeling of dread. That something is about to happen.
 It's like, a feeling of dread. That something is about to happen. 
 That a few words could cause something to wake up.
 That a few words could cause something to wake up.
-Stop! The law states clearly that this is an illegal action!
-Stop! The law states clearly that this is an illegal action!
-A ranger station is above us, in Grouz. I know that because I saw it myself.
-A ranger station is above us, in Grouz. I know that because I saw it myself.
-I will go there to report your illegal activities.
-I will go there to report your illegal activities.
-As an agent of the law, I am dissapointed that I was not able to overpower you.
-As an agent of the law, I am dissapointed that I was not able to overpower you.
 I'm sure there'll be some rare Pokémon to find here!
 I'm sure there'll be some rare Pokémon to find here!
 Early Chasm reports talk about a metallic giant lurking among the trees.
@@ -2328,10 +2330,10 @@ Let's.
 Let's.
 [Map22]
 [Map23]
-Dialogue here.
-Dialogue here.
 I see you! I CAN be stink bombed or fooled with stealth spray.
 I see you! I CAN be stink bombed or fooled with stealth spray.
+Dialogue here.
+Dialogue here.
 I see you! I CANNOT be stink bombed or fooled with stealth spray.
 I see you! I CANNOT be stink bombed or fooled with stealth spray.
 Your Pokemon are now healed.
@@ -2890,6 +2892,18 @@ Do you enter? There is no turning back.
 Do you enter? There is no turning back.
 There's nothing for you down there anymore.
 There's nothing for you down there anymore.
+You… who are you? You look familiar.
+You… who are you? You look familiar.
+...Yes, my lord. I will dispose of them for you, my lord. Without question.
+...Yes, my lord. I will dispose of them for you, my lord.  Without question.
+I... I shouldn’t be here... I almost remember you.
+I... I shouldn’t be here... I almost remember you.
+I... refuse to serve any longer.
+I... refuse to serve any longer.
+...Forgive me, my lord. I've failed you. I will retreat to ensure no harm comes to you.
+...Forgive me, my lord. I've failed you. I will retreat to ensure no harm comes to you.
+…Forgive me, my lord.
+…Forgive me, my lord.
 Ready for another lesson in humility?
 Ready for another lesson in humility?
 ...
@@ -2932,18 +2946,6 @@ Unfortunately, that means I have to keep you upright.
 Unfortunately, that means I have to keep you upright.
 Come back so I can crush you again!
 Come back so I can crush you again!
-You… who are you? You look familiar.
-You… who are you? You look familiar.
-...Yes, my lord. I will dispose of them for you, my lord. Without question.
-...Yes, my lord. I will dispose of them for you, my lord.  Without question.
-I... I shouldn’t be here... I almost remember you.
-I... I shouldn’t be here... I almost remember you.
-I... refuse to serve any longer.
-I... refuse to serve any longer.
-...Forgive me, my lord. I've failed you. I will retreat to ensure no harm comes to you.
-...Forgive me, my lord. I've failed you. I will retreat to ensure no harm comes to you.
-…Forgive me, my lord.
-…Forgive me, my lord.
 Not yet.
 Not yet.
 Yes.
@@ -3213,10 +3215,6 @@ I'm trying to set up my stall, but this crowd won't leave!
 I'm trying to set up my stall, but this crowd won't leave!
 Hopefully it'll all disperse eventually.
 Hopefully it'll all disperse eventually.
-I've got a whole fireworks thing planned for the Tournament.
-I've got a whole fireworks thing planned for the Tournament.
-This booth is a little side thing.
-This booth is a little side thing. 
 You cheated not only the game, but yourself.
 You cheated not only the game, but yourself.
 You didn't grow.
@@ -3235,14 +3233,10 @@ At least you seem like it.
 At least you seem like it. 
 If you aren't, you better get used to it fast if you want to do well at the Tournament.
 If you aren't, you better get used to it fast if you want to do well at the Tournament.
-I always look forward to battling here each year.
-I always look forward to battling here each year.
-Your team is so exciting to see! I'll be looking out for you.
-Your team is so exciting to see! I'll be looking out for you.
-A fun battle! I hope we can do that again.
-A fun battle! I hope we can do that again.
-You should come around again, I'm itching for a rematch.
-You should come around again, I'm itching for a rematch.
+I've got a whole fireworks thing planned for the Tournament.
+I've got a whole fireworks thing planned for the Tournament.
+This booth is a little side thing.
+This booth is a little side thing. 
 Hey hey, how's it hanging?
 Hey hey, how's it hanging?
 After taking that slamming I gotta go hit the routes for some training.
@@ -3251,6 +3245,14 @@ But for now, I'm just a part of the crowd. Maybe you'll fight me again during th
 But for now, I'm just a part of the crowd. Maybe you'll fight me again during the Tournament.
 What about The Bench? Ah, I wouldn't worry. The Bench calls to people. Someone will answer The Bench eventually.
 What about The Bench? Ah, I wouldn't worry. The Bench calls to people. Someone will answer The Bench eventually.
+I always look forward to battling here each year.
+I always look forward to battling here each year.
+Your team is so exciting to see! I'll be looking out for you.
+Your team is so exciting to see! I'll be looking out for you.
+A fun battle! I hope we can do that again.
+A fun battle! I hope we can do that again.
+You should come around again, I'm itching for a rematch.
+You should come around again, I'm itching for a rematch.
 Hey, 'miring my team?
 Hey, 'miring my team?
 Of course you are. You're looking at the current ruler of The Bench.
@@ -8937,12 +8939,6 @@ I'm just here to discuss some possible changes to the monument with Jovan.
 I'm just here to discuss some possible changes to the monument with Jovan.
 You've met, I believe?
 You've met, I believe?
-I'll take your Pokémon for a few seconds.
-I'll take your Pokémon for a few seconds.
-First, you should restore your Pokémon to full health.
-First, you should restore your Pokémon to full health.
-We hope you excel!
-We hope you excel!
 Offensive Pokémon need offensive moves.
 Offensive Pokémon need offensive moves.
 Most of the time you’ve got more moves than types.
@@ -8957,6 +8953,12 @@ If your team’s weak to Ice, maybe here’s where you slip in a Mach Punch or a
 If your team’s weak to Ice, maybe here’s where you slip in a Mach Punch or a Flamethrower.
 Think about it.
 Think about it.
+I'll take your Pokémon for a few seconds.
+I'll take your Pokémon for a few seconds.
+First, you should restore your Pokémon to full health.
+First, you should restore your Pokémon to full health.
+We hope you excel!
+We hope you excel!
 Heyo, \PN. Want some guaranteed one-hundred-percent success rate advice?
 Heyo, \PN. Want some guaranteed one-hundred-percent success rate advice?
 Never be afraid to bring, like, five Pokémon that all do the same thing.
@@ -15928,14 +15930,6 @@ No thanks.
 I'll take it.
 I'll take it.
 [Map217]
-It's the bottom of a conveyor belt. It'd be impossible to climb up.
-It's the bottom of a conveyor belt. It'd be impossible to climb up.
-For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
-For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
-We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
-We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
-We still have to rely on teleportation to get in and out of the harbor, though.
-We still have to rely on teleportation to get in and out of the harbor, though.
 Looks like the Trainer ahead is moving to block you from going any further.
 Looks like the Trainer ahead is moving to block you from going any further.
 Do you want to approach them? It looks like a tough fight.
@@ -16310,18 +16304,28 @@ If it isn’t, then, uh, I’ll give you a run for your money, ‘kay?
 If it isn’t, then, uh, I’ll give you a run for your money, ‘kay?
 Toodles. And don’t you dare follow – I’m playing hard to get, so respect it. Hah!
 Toodles. And don’t you dare follow – I’m playing hard to get, so respect it. Hah!
-More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
-More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
-That large mountain became two smaller mountains, which we now know as Split Peaks.
-That large mountain became two smaller mountains, which we now know as Split Peaks.
-The impact site itself would fill with water and become Sweetrock Harbor.
-The impact site itself would fill with water and become Sweetrock Harbor.
+For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
+For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
+We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
+We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
+We still have to rely on teleportation to get in and out of the harbor, though.
+We still have to rely on teleportation to get in and out of the harbor, though.
+It's the bottom of a conveyor belt. It'd be impossible to climb up.
+It's the bottom of a conveyor belt. It'd be impossible to climb up.
 The ocean to the east brings calming winds.
 The ocean to the east brings calming winds.
 But why? We might explain it with ocean currents, or weather patterns.
 But why? We might explain it with ocean currents, or weather patterns.
 But what makes the winds here calming? Of that, I am not so sure.
 But what makes the winds here calming? Of that, I am not so sure.
+More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
+More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
+That large mountain became two smaller mountains, which we now know as Split Peaks.
+That large mountain became two smaller mountains, which we now know as Split Peaks.
+The impact site itself would fill with water and become Sweetrock Harbor.
+The impact site itself would fill with water and become Sweetrock Harbor.
+Lightkeeper's House
+Lightkeeper's House
 I really want to know who that was in the weird outfit.
 I really want to know who that was in the weird outfit.
 Well, regardless, thanks for kicking them out of town.
@@ -16330,26 +16334,26 @@ I'm a firefighter, so I'm used to dealing with issues...
 I'm a firefighter, so I'm used to dealing with issues...
 But "Cultist with a Regirock" is outside of my job description.
 But "Cultist with a Regirock" is outside of my job description.
-Artisan Orbs
-Artisan Orbs
-Sweetrock Elementary School
-Sweetrock Elementary School
-"In loving memory of Mrs. and Mr. Diakos."
-"In loving memory of Mrs. and Mr. Diakos."
 I've been biking across the entire region over the past few months.
 I've been biking across the entire region over the past few months.
 Crossing the Split Peaks was by far the hardest part.
 Crossing the Split Peaks was by far the hardest part.
 The view from these cliffs, and the feeling that I've finally accomplished my goal, made it all worth it.
 The view from these cliffs, and the feeling that I've finally accomplished my goal, made it all worth it.
+"In loving memory of Mrs. and Mr. Diakos."
+"In loving memory of Mrs. and Mr. Diakos."
+Sweetrock Elementary School
+Sweetrock Elementary School
+Artisan Orbs
+Artisan Orbs
 West: Split Peaks
 West: Split Peaks
 South: Sandstone Estuary
 South: Sandstone Estuary
-"Sweetrock Harbor, satisfying the world's sweettooth!"
-"Sweetrock Harbor, satisfying the world's sweettooth!"
-"A sister city of Canalave!"
-"A sister city of Canalave!"
+Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
+Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
+Those people love their candy.
+Those people love their candy.
 I work at Sweetrock Candy factory, like many in town.
 I work at Sweetrock Candy factory, like many in town.
 That said, I rarely get to see Victoire, the manager and gym leader.
@@ -16368,14 +16372,10 @@ You gotta tell me what she's like as a trainer.
 You gotta tell me what she's like as a trainer.
 My curiosity's grown too big!
 My curiosity's grown too big!
-Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
-Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
-Those people love their candy.
-Those people love their candy.
-Shh... don't give away my hiding spot!
-Shh... don't give away my hiding spot!
-Is it... is it safe to come out now?
-Is it... is it safe to come out now?
+"Sweetrock Harbor, satisfying the world's sweettooth!"
+"Sweetrock Harbor, satisfying the world's sweettooth!"
+"A sister city of Canalave!"
+"A sister city of Canalave!"
 How goes your journey, young master?
 How goes your journey, young master?
 I've purchased a Clefable teleportation license, and reserved this pier for our use.
@@ -16384,6 +16384,20 @@ We can travel to and from any of our usual locations.
 We can travel to and from any of our usual locations.
 Where will we be heading?
 Where will we be heading?
+Shh... don't give away my hiding spot!
+Shh... don't give away my hiding spot!
+Is it... is it safe to come out now?
+Is it... is it safe to come out now?
+What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
+What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
+Sweetrock Candy Outlet
+Sweetrock Candy Outlet
+Sweetrock Harbor Gym
+Sweetrock Harbor Gym
+Leader: Victoire
+Leader: Victoire
+The Candy Queen!
+The Candy Queen!
 Have you slid down the conveyor belts?
 Have you slid down the conveyor belts?
 Preeeetty sure we're not allowed to, but it's crazy fun.
@@ -16412,28 +16426,18 @@ She as quirky as they say? I don't know why I bother asking. I'll be finding out
 She as quirky as they say? I don't know why I bother asking. I'll be finding out soon myself.
 The 7th badge... oh so sweet will it taste!
 The 7th badge... oh so sweet will it taste!
-Sweetrock Harbor Gym
-Sweetrock Harbor Gym
-Leader: Victoire
-Leader: Victoire
-The Candy Queen!
-The Candy Queen!
-Sweetrock Candy Outlet
-Sweetrock Candy Outlet
-What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
-What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
-Sweetrock Lighthouse
-Sweetrock Lighthouse
 Today's a good day for gaming.
 Today's a good day for gaming.
+Sweetrock Lighthouse
+Sweetrock Lighthouse
 Berry Greenhouse
 Berry Greenhouse
+I'm gaming over here!
+I'm gaming over here!
 I love to slide down the conveyor belt. But, my dad doesn't let me.
 I love to slide down the conveyor belt. But, my dad doesn't let me.
 I have to stay by the school until he gets off work so I don't get into trouble.
 I have to stay by the school until he gets off work so I don't get into trouble.
-I'm gaming over here!
-I'm gaming over here!
 No.
 No.
 Yes.
@@ -22312,14 +22316,8 @@ Can't tell them apart.
 Wandered off again?
 Wandered off again?
 [Map329]
-I wonder what drink I should get...
-I wonder what drink I should get...
-A battle is best enjoyed with a can in hand.
-A battle is best enjoyed with a can in hand.
-Oh... the tournament's already over?
-Oh... the tournament's already over?
-I took too long to decide what I wanted to drink...
-I took too long to decide what I wanted to drink...
+\wmYou decide not to bother someone trying to squeeze past the crowd...
+\wmYou decide not to bother someone trying to squeeze past the crowd...
 Oh! You're one of the Trainers entering the Tournament!
 Oh! You're one of the Trainers entering the Tournament!
 Could you do an interview with us? We've been asked to cover the competition.
@@ -22368,12 +22366,14 @@ Thanks for spending your precious time giving us an insight into your mind.
 Thanks for spending your precious time giving us an insight into your mind.
 We'll be rooting for you out there.
 We'll be rooting for you out there.
-\wmYou decide not to bother someone trying to squeeze past the crowd...
-\wmYou decide not to bother someone trying to squeeze past the crowd...
-<-- Competitors
-<-- Competitors
-^ Spectators
-^ Spectators
+I wonder what drink I should get...
+I wonder what drink I should get...
+A battle is best enjoyed with a can in hand.
+A battle is best enjoyed with a can in hand.
+Oh... the tournament's already over?
+Oh... the tournament's already over?
+I took too long to decide what I wanted to drink...
+I took too long to decide what I wanted to drink...
 You...
 You...
 Affixed is your love on creatures. A quality most appreciated.
@@ -22400,6 +22400,20 @@ Gleaned from this, a lesson I have.
 Gleaned from this, a lesson I have.
 But sorrow yet follows.
 But sorrow yet follows.
+<-- Competitors
+<-- Competitors
+^ Spectators
+^ Spectators
+Hey, got a moment? We're with the news.
+Hey, got a moment? We're with the news.
+If you've got the time to do an interview, we'd really appreciate it.
+If you've got the time to do an interview, we'd really appreciate it.
+Great interview \PN, I'm sure people all around Makya will be seeing it soon.
+Great interview \PN, I'm sure people all around Makya will be seeing it soon.
+I don't even like Pokemon that much...
+I don't even like Pokemon that much...
+You won the whole thing? That's pretty cool, I guess.
+You won the whole thing? That's pretty cool, I guess.
 I spent all night watching replays of last year's tournament to get pumped for this year.
 I spent all night watching replays of last year's tournament to get pumped for this year.
 I got front row seats this time. A year's worth of allowance well spent.
@@ -22410,16 +22424,28 @@ I uploaded a clip from your last battle! It's already got 50,000 views!
 I uploaded a clip from your last battle! It's already got 50,000 views! 
 The whole internet is gonna blow up from this!
 The whole internet is gonna blow up from this!
-I don't even like Pokemon that much...
-I don't even like Pokemon that much...
-You won the whole thing? That's pretty cool, I guess.
-You won the whole thing? That's pretty cool, I guess.
-Hey, got a moment? We're with the news.
-Hey, got a moment? We're with the news.
-If you've got the time to do an interview, we'd really appreciate it.
-If you've got the time to do an interview, we'd really appreciate it.
-Great interview \PN, I'm sure people all around Makya will be seeing it soon.
-Great interview \PN, I'm sure people all around Makya will be seeing it soon.
+Welcome, \PN!
+Welcome, \PN!
+The tournament started 30 minutes ago, so the first round has already occurred.
+The tournament started 30 minutes ago, so the first round has already occurred.
+However, Helena informed us to give you a first round bye due to emergency circumstances, so you are good to continue.
+However, Helena informed us to give you a first round bye due to emergency circumstances, so you are good to continue.
+Please continue straight and you'll find the player area eventually.
+Please continue straight and you'll find the player area eventually.
+The player area is down the western hallway.
+The player area is down the western hallway.
+Feel free to use our provided trainer services on the way!
+Feel free to use our provided trainer services on the way!
+Holy Miltank you won the whole thing!
+Holy Miltank you won the whole thing!
+I'm sorry to say but I didn't see that coming at all.
+I'm sorry to say but I didn't see that coming at all.
+I'll take your Pokémon for a few seconds.
+I'll take your Pokémon for a few seconds.
+First, you should restore your Pokémon to full health.
+First, you should restore your Pokémon to full health.
+We hope you excel!
+We hope you excel!
 I've crunched the numbers, evaluated teams, placed my bets...
 I've crunched the numbers, evaluated teams, placed my bets...
 This \PN person I'm telling ya, they're lookin' to take the whole thing.
@@ -22440,28 +22466,8 @@ I don't have cash on me right now, so you'll just have to take this instead.
 I don't have cash on me right now, so you'll just have to take this instead.
 I'll be watching your career with great interest.
 I'll be watching your career with great interest.
-I'll take your Pokémon for a few seconds.
-I'll take your Pokémon for a few seconds.
-First, you should restore your Pokémon to full health.
-First, you should restore your Pokémon to full health.
-We hope you excel!
-We hope you excel!
-Welcome, \PN!
-Welcome, \PN!
-The tournament started 30 minutes ago, so the first round has already occurred.
-The tournament started 30 minutes ago, so the first round has already occurred.
-However, Helena informed us to give you a first round bye due to emergency circumstances, so you are good to continue.
-However, Helena informed us to give you a first round bye due to emergency circumstances, so you are good to continue.
-Please continue straight and you'll find the player area eventually.
-Please continue straight and you'll find the player area eventually.
-The player area is down the western hallway.
-The player area is down the western hallway.
-Feel free to use our provided trainer services on the way!
-Feel free to use our provided trainer services on the way!
-Holy Miltank you won the whole thing!
-Holy Miltank you won the whole thing!
-I'm sorry to say but I didn't see that coming at all.
-I'm sorry to say but I didn't see that coming at all.
+No touching the MP.
+No touching the MP.
 Kalos is a rather competitive region.
 Kalos is a rather competitive region.
 Even then, it doesn't have nearly enough events for my family.
@@ -22470,22 +22476,12 @@ So we tour all the nearby regions each year.
 So we tour all the nearby regions each year.
 Excellent battling. I especially loved your team choices.
 Excellent battling. I especially loved your team choices.
-No touching the MP.
-No touching the MP.
 Are you ready to go Trainer? We'll escort you outside.
 Are you ready to go Trainer? We'll escort you outside.
 Alright, let me know when you're ready.
 Alright, let me know when you're ready.
 Alright, let's get this rolling.
 Alright, let's get this rolling.
-Pokemon are a way of life.
-Pokemon are a way of life.
-I don't think we'd be able to survive without Pokemon.
-I don't think we'd be able to survive without Pokemon.
-Your life is also about Pokemon, it seems.
-Your life is also about Pokemon, it seems.
-I respect that a lot. Well done, today.
-I respect that a lot. Well done, today.
 Stupid tournament organizers!
 Stupid tournament organizers!
 Almost everyone got a bye, but not me, of all people!
@@ -22496,10 +22492,16 @@ You won?!
 You won?!
 Must have been because you got a bye...
 Must have been because you got a bye...
-Ugh, someone only ate half of their Tulumba before up and leaving it sitting over there.
-Ugh, someone only ate half of their Tulumba before up and leaving it sitting over there.
-Gross.
-Gross.
+Pokemon are a way of life.
+Pokemon are a way of life.
+I don't think we'd be able to survive without Pokemon.
+I don't think we'd be able to survive without Pokemon.
+Your life is also about Pokemon, it seems.
+Your life is also about Pokemon, it seems.
+I respect that a lot. Well done, today.
+I respect that a lot. Well done, today.
+I'm just here to look like you have security. Talk to the other guy.
+I'm just here to look like you have security. Talk to the other guy.
 Hello there young competitor!
 Hello there young competitor!
 I hope everything has been running smoothly for you.
@@ -22510,22 +22512,24 @@ Young victor, amazing show!
 Young victor, amazing show!
 Would you happen to have time for a photo-shoot later today?
 Would you happen to have time for a photo-shoot later today?
-I'm just here to look like you have security. Talk to the other guy.
-I'm just here to look like you have security. Talk to the other guy.
+Ugh, someone only ate half of their Tulumba before up and leaving it sitting over there.
+Ugh, someone only ate half of their Tulumba before up and leaving it sitting over there.
+Gross.
+Gross.
 We bought one kind of every single piece of merch in the Battle Plaza.
 We bought one kind of every single piece of merch in the Battle Plaza.
 Worth it!
 Worth it!
 Do you sell merch? We're your biggest fans, so we'd love to have some!
 Do you sell merch? We're your biggest fans, so we'd love to have some!
-The left side of the screen shows a scrolling list of the round 2 matchups. You don't see your own name.
-The left side of the screen shows a scrolling list of the round 2 matchups. You don't see your own name.
-The right side shows a variety of highlights from the first round.
-The right side shows a variety of highlights from the first round.
 Whoa, not every day you get to escort a Makyan Champion.
 Whoa, not every day you get to escort a Makyan Champion.
 I hope I get a bonus for this.
 I hope I get a bonus for this.
+The left side of the screen shows a scrolling list of the round 2 matchups. You don't see your own name.
+The left side of the screen shows a scrolling list of the round 2 matchups. You don't see your own name.
+The right side shows a variety of highlights from the first round.
+The right side shows a variety of highlights from the first round.
 I wish I could be enjoying myself here, but I'm absolutely miserable.
 I wish I could be enjoying myself here, but I'm absolutely miserable.
 What kind of woman ditches her fiancé to hook up with a "professional trainer" she just met?
@@ -31698,8 +31702,8 @@ Treecko has small hooks on the bottom of its feet that enable it to scale vertic
 Treecko has small hooks on the bottom of its feet that enable it to scale vertical walls. This Pokémon attacks by slamming foes with its thick tail.
 The leaves growing out of Grovyle's body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.
 The leaves growing out of Grovyle's body are convenient for camouflaging it from enemies in the forest. This Pokémon is a master at climbing trees in jungles.
-The leaves growing on Sceptile's body are very sharp edged. This Pokémon is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.
-The leaves growing on Sceptile's body are very sharp edged. This Pokémon is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.
+The leaves growing on Sceptile's body are very sharp. This Pokémon is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.
+The leaves growing on Sceptile's body are very sharp. This Pokémon is very agile - it leaps all over the branches of trees and jumps on its foe from above or behind.
 These Pokémon travel in small groups, searching for travelers to rob. As they march, their tails drum a beat.
 These Pokémon travel in small groups, searching for travelers to rob. As they march, their tails drum a beat.
 Though they are skilled with swordplay, they never fight fair. They swish their tails in unison to intimidate groups of prey.
@@ -32698,8 +32702,8 @@ Its entire body is covered with gooey mucus that can dissolve anything. Be sure 
 Its entire body is covered with gooey mucus that can dissolve anything. Be sure to put gloves on if you're going to touch it.
 It attacks with retractable horns. It throws a punch that's the equivalent of the force of a hundred pro boxers.
 It attacks with retractable horns. It throws a punch that's the equivalent of the force of a hundred pro boxers.
-A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.
-A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.
+The iron in Sliggoo's drinking water turned its shell metallic. This Pokémon doesn't come out of its shell on sunny days.
+The iron in Sliggoo's drinking water turned its shell metallic. This Pokémon doesn't come out of its shell on sunny days.
 Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy-it will fume and run riot if those dearest to it ever leave its side.
 Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy-it will fume and run riot if those dearest to it ever leave its side.
 It never lets go of a key that it likes, so people give it the keys to vaults and safes as a way to prevent crime.
@@ -33259,8 +33263,6 @@ Red Flower
 Red Flower
 Natural
 Natural
-Male
-Male
 Shield
 Shield
 Small Size
@@ -33283,6 +33285,8 @@ Disguised
 Disguised
 Ice Face
 Ice Face
+Male
+Male
 Full Belly
 Full Belly
 Hero of Many Battles
@@ -33397,8 +33401,6 @@ Ghost Type
 Ghost Type
 Steel Type
 Steel Type
-Unknown Type
-Unknown Type
 Fire Type
 Fire Type
 Water Type
@@ -33507,8 +33509,6 @@ Kabuki Trim
 Kabuki Trim
 Pharaoh Trim
 Pharaoh Trim
-Female
-Female
 Blade
 Blade
 Average Size
@@ -33551,8 +33551,6 @@ Type: Ghost
 Type: Ghost
 Type: Steel
 Type: Steel
-Type: Unknown
-Type: Unknown
 Type: Fire
 Type: Fire
 Type: Water
@@ -33599,6 +33597,8 @@ Gorging
 Gorging
 Noice Face
 Noice Face
+Female
+Female
 Hangry
 Hangry
 Crowned
@@ -33952,8 +33952,6 @@ Poison Sting
 Poison Sting
 Poison Tail
 Poison Tail
-Purify
-Purify
 Shell Side Arm
 Shell Side Arm
 Sludge
@@ -34170,8 +34168,6 @@ Sunsteel Strike
 Sunsteel Strike
 Swords Dance
 Swords Dance
-Secret Power
-Secret Power
 Blast Burn
 Blast Burn
 Blaze Kick
@@ -34468,8 +34464,6 @@ Ice Beam
 Ice Beam
 Ice Fang
 Ice Fang
-Ice Hammer
-Ice Hammer
 Ice Punch
 Ice Punch
 Ice Shard
@@ -34630,6 +34624,8 @@ Springtide Storm
 Springtide Storm
 Sweet Kiss
 Sweet Kiss
+Secret Power
+Secret Power
 Revelation Dance
 Revelation Dance
 Acedian Impact
@@ -34662,6 +34658,8 @@ Diffuse Pulse
 Diffuse Pulse
 Dinner Bell
 Dinner Bell
+Dispell
+Dispell
 Drainage
 Drainage
 Elemental Crunch
@@ -34834,6 +34832,8 @@ Echolocate
 Echolocate
 Fury Pecks
 Fury Pecks
+Heavenly Gale
+Heavenly Gale
 Hop
 Hop
 Hunt Down
@@ -34880,8 +34880,8 @@ Acid Breach
 Acid Breach
 Blight
 Blight
-Caustic Punch
-Caustic Punch
+Clump Up
+Clump Up
 Dissolution
 Dissolution
 Exsanguinate
@@ -34890,8 +34890,6 @@ Grey Mist
 Grey Mist
 Grime Grapple
 Grime Grapple
-Honorless Sting
-Honorless Sting
 Miasma
 Miasma
 Nasty Nip
@@ -34900,14 +34898,22 @@ Poison Dart
 Poison Dart
 Poison Spikes
 Poison Spikes
+Retreating Sting
+Retreating Sting
 Slimeball
 Slimeball
+Sludgy Slug
+Sludgy Slug
+Spasmic Sting
+Spasmic Sting
 Stinging Jealousy
 Stinging Jealousy
 Stink Cloud
 Stink Cloud
 Stink Cover
 Stink Cover
+Toxic Crunch
+Toxic Crunch
 Toxic Taste
 Toxic Taste
 Trash Treasure
@@ -34964,12 +34970,14 @@ Stabilize
 Stabilize
 Stamp Down
 Stamp Down
+Tail Slam
+Tail Slam
 Trample
 Trample
 Tread On
 Tread On
-Tremor
-Tremor
+Vent
+Vent
 Adamantine Press
 Adamantine Press
 Bedrock Breaker
@@ -35014,6 +35022,8 @@ Rockalanche
 Rockalanche
 Rockapult
 Rockapult
+Rock Drive
+Rock Drive
 Rock Out
 Rock Out
 Rolling Boulder
@@ -35044,6 +35054,8 @@ Allergy
 Allergy
 Bio Flash
 Bio Flash
+Burrow Blitz
+Burrow Blitz
 Carapace Crush
 Carapace Crush
 Clackaclack
@@ -35144,6 +35156,8 @@ Ghostly Tale
 Ghostly Tale
 Machinate
 Machinate
+Mad Purge
+Mad Purge
 Malefaction
 Malefaction
 Phantom Gate
@@ -35176,6 +35190,8 @@ Thin Air
 Thin Air
 Tongue Twister
 Tongue Twister
+Umbrage
+Umbrage
 Vim Ripper
 Vim Ripper
 Wailing Blow
@@ -35258,8 +35274,6 @@ Weigh Anchor
 Weigh Anchor
 Weld
 Weld
-Discovered Power
-Discovered Power
 Absolute Radiance
 Absolute Radiance
 Blazing Speed
@@ -35276,6 +35290,8 @@ Evernal Flux
 Evernal Flux
 Fireworks
 Fireworks
+Flame Fist
+Flame Fist
 Flame Spikes
 Flame Spikes
 Flare
@@ -35402,6 +35418,8 @@ Slam Shut
 Slam Shut
 Spattering Ram
 Spattering Ram
+Sticky Spines
+Sticky Spines
 Tide Pull
 Tide Pull
 Torrent Scythe
@@ -35514,8 +35532,12 @@ Defibrillate
 Defibrillate
 Dielectric Breakdown
 Dielectric Breakdown
+Electrocute
+Electrocute
 Electroslash
 Electroslash
+Flux Fist
+Flux Fist
 From the Blue
 From the Blue
 Gut Check
@@ -35626,6 +35648,8 @@ Omniscient Blow
 Omniscient Blow
 Oneiromancy
 Oneiromancy
+Outwit
+Outwit
 Pacify
 Pacify
 Pattern Release
@@ -35686,6 +35710,8 @@ Frigid Jealousy
 Frigid Jealousy
 Frost Barb
 Frost Barb
+Frost Fist
+Frost Fist
 Frost Over
 Frost Over
 Frost Spikes
@@ -35742,6 +35768,8 @@ Thermal Drain
 Thermal Drain
 Winter Ops
 Winter Ops
+Apex Predation
+Apex Predation
 Archmyth
 Archmyth
 Axe to Grind
@@ -35768,6 +35796,8 @@ Dread
 Dread
 Dreepy Barrage
 Dreepy Barrage
+Frostfire Blast
+Frostfire Blast
 Galling Spit
 Galling Spit
 Gnaw
@@ -35972,6 +36002,8 @@ Play Bite
 Play Bite
 Puzzle Room
 Puzzle Room
+Riddle Me This
+Riddle Me This
 Stroke of Midnight
 Stroke of Midnight
 Sugar Ball
@@ -35990,6 +36022,8 @@ Ward Press
 Ward Press
 Waxing Light
 Waxing Light
+Discovered Power
+Discovered Power
 Mutate
 Mutate
 Fighting Chance
@@ -36505,8 +36539,6 @@ The user stabs the target with a poisonous stinger. This has a 30% chance to poi
 The user stabs the target with a poisonous stinger. This has a 30% chance to poison.
 The user hits the target with its tail. Can random critical hit.
 The user hits the target with its tail. Can random critical hit.
-The user heals the target's non-volatile status condition. If so, it also heals itself by half of its max HP.
-The user heals the target's non-volatile status condition. If so, it also heals itself by half of its max HP.
 Inflicts physical or special damage, whichever will be more effective. This has a 30% chance to poison.
 Inflicts physical or special damage, whichever will be more effective. This has a 30% chance to poison.
 Unsanitary sludge is hurled at the target. It has a 30% chance to poison.
@@ -36721,16 +36753,14 @@ The user slams into the target with the force of a meteor. Can't be stopped by t
 The user slams into the target with the force of a meteor. Can't be stopped by the target's Ability.
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
-The user attacks with a secret power. Its added effects vary depending on the user's environment.
-The user attacks with a secret power. Its added effects vary depending on the user's environment.
 The target is razed by a fiery explosion. The user is exhausted on the next turn.
 The target is razed by a fiery explosion. The user is exhausted on the next turn.
 The user launches a fiery kick. It has a 10% chance to burn.
 The user launches a fiery kick. It has a 10% chance to burn.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get burned.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get burned.
-To inflict massive damage, the user uses up its Fire-typing.
-To inflict massive damage, the user uses up its Fire-typing.
+To inflict massive damage, the user uses up its Fire-typing. This move can't be used if the user is not a Fire type.
+To inflict massive damage, the user uses up its Fire-typing. This move can't be used if the user is not a Fire type.
 The target is attacked with small flames. It has a 10% chance to burn.
 The target is attacked with small flames. It has a 10% chance to burn.
 The user attacks in an explosive fury. Weakens in damage as the user loses HP. Weakest at half HP.
@@ -37007,8 +37037,6 @@ The target is struck with an icy-cold beam of energy. It has a 10% chance to fro
 The target is struck with an icy-cold beam of energy. It has a 10% chance to frostbite.
 The user bites with cold-infused fangs. It has a 20% chance to frostbite and a 20% chance to lower Defense by two steps.
 The user bites with cold-infused fangs. It has a 20% chance to frostbite and a 20% chance to lower Defense by two steps.
-The user swings and hits with its strong, heavy fist. This lowers the user's Speed by two steps.
-The user swings and hits with its strong, heavy fist. This lowers the user's Speed by two steps.
 The target is punched with an icy fist. It has a 10% chance to frostbite.
 The target is punched with an icy fist. It has a 10% chance to frostbite.
 The user flash freezes chunks of ice and hurls them at the target. This move always goes first.
@@ -37167,6 +37195,8 @@ The user attacks foes with love and hate. It has a 30% chance to lower both Atta
 The user attacks foes with love and hate. It has a 30% chance to lower both Attack and Sp. Atk.
 The user kisses the target with a sweet, angelic cuteness that dizzies the target.
 The user kisses the target with a sweet, angelic cuteness that dizzies the target.
+The user attacks with a secret power that has a 30% chance to cause an effect. The effect varies depending on the user's environment.
+The user attacks with a secret power that has a 30% chance to cause an effect. The effect varies depending on the user's environment.
 The user attacks the target by dancing very hard.
 The user attacks the target by dancing very hard.
 An attack empowered by the might of a lazy king. It skips and destroys protections.
@@ -37199,6 +37229,8 @@ The user shoots a pulse of diffuse energy at the target.
 The user shoots a pulse of diffuse energy at the target.
 The user calls its team to a farm-fresh meal, sacrificing 25% HP to heal each of its party members by 25% HP.
 The user calls its team to a farm-fresh meal, sacrificing 25% HP to heal each of its party members by 25% HP.
+The user attacks with a disrupting beam of common sense. Super effective versus Fairy-types.
+The user attacks with a disrupting beam of common sense. Super effective versus Fairy-types.
 This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
 This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
 The user chooses between Searing Crunch, Glacial Crunch, Aquatic Crunch, and Volt Crunch to use this turn.
@@ -37367,6 +37399,8 @@ A high pitched screech lowers all nearby foes' Defense, Sp. Def, and Evasion by 
 A high pitched screech lowers all nearby foes' Defense, Sp. Def, and Evasion by three steps. Can't miss and skips protections.
 The target is jabbed repeatedly with a horn or beak that multi-hits two to five times.
 The target is jabbed repeatedly with a horn or beak that multi-hits two to five times.
+The user attacks with a divine wind to punish the target. Super effective versus Dark-types.
+The user attacks with a divine wind to punish the target. Super effective versus Dark-types.
 The user hops high up to land on the target's head. It has a 10% chance to numb.
 The user hops high up to land on the target's head. It has a 10% chance to numb.
 The user chases the target and strikes it from above. It does more damage the faster the user is.
@@ -37385,8 +37419,8 @@ The user quickly increases the air pressure to damage the target. This attack al
 The user quickly increases the air pressure to damage the target. This attack always goes before any other move.
 Clears hazards on the opponent's side of the field, moves hazards on the user's side to the opponent's, then forces the targets to switch.
 Clears hazards on the opponent's side of the field, moves hazards on the user's side to the opponent's, then forces the targets to switch.
-Attacks while clearing weather. This move fails in the absence of a weather.
-Attacks while clearing weather. This move fails in the absence of a weather.
+Attacks all near foes while clearing weather. This move fails in the absence of a weather.
+Attacks all near foes while clearing weather. This move fails in the absence of a weather.
 The user swoops into battle with a piercing shriek, flinching the target. It only works the first turn the user is in battle.
 The user swoops into battle with a piercing shriek, flinching the target. It only works the first turn the user is in battle.
 The user assists an ally by boosting the power and Accuracy of its next attack by 50%.
@@ -37407,14 +37441,14 @@ The target is struck with large, imposing wings. The user also takes 20% recoil.
 The target is struck with large, imposing wings. The user also takes 20% recoil.
 The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
 The user lobs harsh acid at the target. It has a 20% chance to lower Sp. Def.
-The user and target bathe in acid. This lowers the user's Defense and Sp. Def by two steps.
-The user and target bathe in acid. This lowers the user's Defense and Sp. Def by two steps.
+The user and target bathe in acid. The user loses half its current HP.
+The user and target bathe in acid. The user loses half its current HP.
 The user lashes the target with its corroded tail. This hits Steel-types for neutral damage and lowers Defense.
 The user lashes the target with its corroded tail. This hits Steel-types for neutral damage and lowers Defense.
 The user infects the target with a touch and also destroys any Herbs it's holding.
 The user infects the target with a touch and also destroys any Herbs it's holding.
-The user strikes with an acidic punch that destroys Gems and Berries.
-The user strikes with an acidic punch that destroys Gems and Berries.
+The user launches a ball of trash to roll over all foes. The targets' held Berry or Gem stick to the ball and become unusable.
+The user launches a ball of trash to roll over all foes. The targets' held Berry or Gem stick to the ball and become unusable.
 The user partially dissolves, raising its Sp. Def stat by five steps.
 The user partially dissolves, raising its Sp. Def stat by five steps.
 The user steals blood. If the target is knocked out, raises the user's Attack stat by five steps.
@@ -37423,8 +37457,6 @@ A Grey Mist covers the battlefield. For five turns, stats are reset at the end o
 A Grey Mist covers the battlefield. For five turns, stats are reset at the end of each turn.
 The user attacks while slathered in grime. This poisons the user.
 The user attacks while slathered in grime. This poisons the user.
-The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
-The user uses venom that turns the target's body against it. Super effective vs Fighting-types.
 The user envelops the target in a foul wind. It has a 30% chance to poison.
 The user envelops the target in a foul wind. It has a 30% chance to poison.
 The user stabs the opponent with a toxin-infused limb. It has a 10% chance to poison.
@@ -37433,14 +37465,22 @@ The user shoots the target with a dart made of poison. This move always goes fir
 The user shoots the target with a dart made of poison. This move always goes first.
 The user lays a hazard layer of poison spikes on the foe's side. One layer hurts switched in foes, two layers poisons.
 The user lays a hazard layer of poison spikes on the foe's side. One layer hurts switched in foes, two layers poisons.
+The user jabs the target with its stinger while retreating. This poisons the target and switches the user out.
+The user jabs the target with its stinger while retreating. This poisons the target and switches the user out.
 The user attacks with sticky slime, rendering the target's item unusable.
 The user attacks with sticky slime, rendering the target's item unusable.
+The user punches the target while holding a wad of slime. It has a 20% chance to poison.
+The user punches the target while holding a wad of slime. It has a 20% chance to poison.
+The user uses venom that turns the target's body against it. Super effective versus Fighting-types.
+The user uses venom that turns the target's body against it. Super effective versus Fighting-types.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get poisoned.
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get poisoned.
 The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
 The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
 The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
 The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
+The user bites the target with toxic fangs with a 30% chance to poison.
+The user bites the target with toxic fangs with a 30% chance to poison.
 The user chomps with venomous teeth. The user's HP is restored by 33% of the damage dealt.
 The user chomps with venomous teeth. The user's HP is restored by 33% of the damage dealt.
 The target is given a Black Sludge, replacing their item if any.
@@ -37497,12 +37537,14 @@ The user slathers mud around to heal itself by half of its max HP. This extends 
 The user slathers mud around to heal itself by half of its max HP. This extends any active screens by one turn.
 The user attacks by flattening the target into the ground. This resets the target's positive stat changes.
 The user attacks by flattening the target into the ground. This resets the target's positive stat changes.
+The user slams the earth with its tail, creating a shockwave to damage the target. It has a 40% chance to lower Attack.
+The user slams the earth with its tail, creating a shockwave to damage the target. It has a 40% chance to lower Attack.
 The user tramples the target. It has a 20% chance to lower the target's Speed stat.
 The user tramples the target. It has a 20% chance to lower the target's Speed stat.
 The user attacks the opposing Pokémon by trampling it. It has a 20% chance to lower Speed.
 The user attacks the opposing Pokémon by trampling it. It has a 20% chance to lower Speed.
-The user slams the earth, damaging all Pokémon around it and underground.
-The user slams the earth, damaging all Pokémon around it and underground.
+Stress cracks form underneath the target, blasting them with volcanic ash. It has a 40% chance to lower Sp. Def.
+Stress cracks form underneath the target, blasting them with volcanic ash. It has a 40% chance to lower Sp. Def.
 The user slams the target with their rock-hard body.
 The user slams the target with their rock-hard body.
 The user smashes its rock-hard head into the target. The user also takes 33% recoil.
@@ -37547,6 +37589,8 @@ Large boulders are hurled at the foes to inflict damage. This has a 30% chance t
 Large boulders are hurled at the foes to inflict damage. This has a 30% chance to fracture it.
 The user throws a large rock at the target. If it misses, the user's Accuracy is raised.
 The user throws a large rock at the target. If it misses, the user's Accuracy is raised.
+The user hits a rock in a precise way to launch it at the target.
+The user hits a rock in a precise way to launch it at the target.
 The user dances wildly while churning rocks towards the target. This raises the user's Attack by two steps.
 The user dances wildly while churning rocks towards the target. This raises the user's Attack by two steps.
 If this move misses, the target is forced to switch out. Always goes last.
@@ -37577,6 +37621,8 @@ The user makes the target have an allergic reaction. This reduces their Speed by
 The user makes the target have an allergic reaction. This reduces their Speed by three steps.
 The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
 The user shoots out a quick flash of bioluminescence to damage the target. This move always goes first.
+An army of insects, working as one, strike at the target from below. Super effective versus Ground-types.
+An army of insects, working as one, strike at the target from below. Super effective versus Ground-types.
 The user crushes the target with a hardened carapace. It has a 30% chance to lower the target's Defense stat.
 The user crushes the target with a hardened carapace. It has a 30% chance to lower the target's Defense stat.
 The user attacks with a horrible clattering noise. It has a 20% chance to lower Sp. Def.
@@ -37673,6 +37719,8 @@ The user foretells a terrifying danger. Two turns later, the targeted spot is mo
 The user foretells a terrifying danger. Two turns later, the targeted spot is mortally frightened.
 Changes type based on machine haunted. 30% chance of extra effect based on machine haunted.
 Changes type based on machine haunted. 30% chance of extra effect based on machine haunted.
+The user cleanses the target's impurities with spiritual energy. Super effective versus Poison-types.
+The user cleanses the target's impurities with spiritual energy. Super effective versus Poison-types.
 The user switches out using a cruel illusion. Always goes last.
 The user switches out using a cruel illusion. Always goes last.
 The user opens its soul to unleash massive energy. This lowers the user's Sp. Atk and Sp. Def by two steps.
@@ -37705,6 +37753,8 @@ The user thins the air around the target, depriving them of oxygen. Can random c
 The user thins the air around the target, depriving them of oxygen. Can random critical hit.
 The target is pestered by a giant tongue. This has a 50% chance to numb it.
 The target is pestered by a giant tongue. This has a 50% chance to numb it.
+The user shoots the target with darkness formed from anger. It has a 40% chance to lower Sp. Def.
+The user shoots the target with darkness formed from anger. It has a 40% chance to lower Sp. Def.
 The user rips into the target's soul, dealing damage through their Sp. Def rather than their Defense.
 The user rips into the target's soul, dealing damage through their Sp. Def rather than their Defense.
 The user attacks while wailing. This has a 40% chance to make the target flinch.
@@ -37787,8 +37837,6 @@ The user drags the target into the water with a heavy anchor. They become waterl
 The user drags the target into the water with a heavy anchor. They become waterlogged.
 Welds heavy steel onto the target, giving it the Steel type and reducing its Speed by four steps.
 Welds heavy steel onto the target, giving it the Steel type and reducing its Speed by four steps.
-The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
-The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
 Charges by summoning sunshine for five turns, then overwhelms the foe with fiery light on the second turn.
 Charges by summoning sunshine for five turns, then overwhelms the foe with fiery light on the second turn.
 The user rushes the target at blazing-fast speed. This attack always goes before any other move.
@@ -37805,6 +37853,8 @@ The user emits great amounts of heat, burning the target and adding the Fire-typ
 The user emits great amounts of heat, burning the target and adding the Fire-type to it.
 The user fires off explosive rounds in a beautiful display that multi-hit two to five times.
 The user fires off explosive rounds in a beautiful display that multi-hit two to five times.
+The target is punched with a tremendous fiery force. This move can't be used twice in a row.
+The target is punched with a tremendous fiery force. This move can't be used twice in a row.
 The user lays a hazard layer of burning spikes on the foe's side. One layer hurts switched in foes, two layers burns.
 The user lays a hazard layer of burning spikes on the foe's side. One layer hurts switched in foes, two layers burns.
 The user flashes with a burst of intensely bright flame. Can random critical hit.
@@ -37813,8 +37863,8 @@ The user targets the opponents soft spots with a fiery strike. Its power doubles
 The user targets the opponents soft spots with a fiery strike. Its power doubles if the target is burned.
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
-The user creates a golden pyre that revives a fainted Pokémon. That Pokémon switches in and its stats are boosted.
-The user creates a golden pyre that revives a fainted Pokémon. That Pokémon switches in and its stats are boosted.
+The user creates a golden pyre that revives a fainted Pokémon at half HP. That Pokémon switches in and its stats are boosted.
+The user creates a golden pyre that revives a fainted Pokémon at half HP. That Pokémon switches in and its stats are boosted.
 The user dances with great heat. Pokémon hit by this are cured of frostbite. Deals 50% less damage to allies.
 The user dances with great heat. Pokémon hit by this are cured of frostbite. Deals 50% less damage to allies.
 The user pauses to plan its ranged attacks. This raises its Sp. Atk, Sp. Def, and Accuracy by two steps.
@@ -37929,6 +37979,8 @@ The target is crushed in the user's shell, mouth, or claws, trapping and binding
 The target is crushed in the user's shell, mouth, or claws, trapping and binding it for three turns.
 The user rams the target while splashing up a lot of water. This has a 30% chance to waterlog.
 The user rams the target while splashing up a lot of water. This has a 30% chance to waterlog.
+The target gets covered in sticky spines, waterlogging it and losing 1/8th of their current HP.
+The target gets covered in sticky spines, waterlogging it and losing 1/8th of their current HP.
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
 The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
@@ -37969,8 +38021,8 @@ The target is disoriented by an explosive seed. It has a 30% chance to dizzy.
 The target is disoriented by an explosive seed. It has a 30% chance to dizzy.
 Round objects are hurled at the target to strike three times in a row.
 Round objects are hurled at the target to strike three times in a row.
-The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
-The user attacks the target with the power of a warding charm. Super effective vs Ghost-types.
+The user attacks the target with the power of a warding charm. Super effective versus Ghost-types.
+The user attacks the target with the power of a warding charm. Super effective versus Ghost-types.
 The user keeps time for the team while attacking. Raises user's and allies' Speed and Accuracy. Counts as a Sound and Kick move.
 The user keeps time for the team while attacking. Raises user's and allies' Speed and Accuracy. Counts as a Sound and Kick move.
 The user sheathes its blade. If hit by a foe's special move, it unsheathes it quickly, slashing all near foes.
@@ -37989,8 +38041,8 @@ The target is irritated by allergenic plants, poisoning it.
 The target is irritated by allergenic plants, poisoning it.
 The user bursts a ball of sleep-inducing powder. It fails unless the targeted slot hit the user this turn.
 The user bursts a ball of sleep-inducing powder. It fails unless the targeted slot hit the user this turn.
-Attacks while destroying rooms. This move fails in the absence of a room.
-Attacks while destroying rooms. This move fails in the absence of a room.
+Attacks all near foes while destroying rooms. This move fails in the absence of a room.
+Attacks all near foes while destroying rooms. This move fails in the absence of a room.
 The user kicks into the target like roots into earth. This has a 30% chance of leeching.
 The user kicks into the target like roots into earth. This has a 30% chance of leeching.
 Halves attack damage taken this turn. Leeches any attackers. Fails if used successively.
@@ -38037,8 +38089,12 @@ Revives a fainted party member to 1 HP. Only one use per battle.
 Revives a fainted party member to 1 HP. Only one use per battle.
 The user breaks down all insulation to send a barrage of electricity to rampage for two turns.
 The user breaks down all insulation to send a barrage of electricity to rampage for two turns.
+The user forces electricity between opposite points on the target's body. Super effective versus Steel-types.
+The user forces electricity between opposite points on the target's body. Super effective versus Steel-types.
 The user harnesses a blade of lightning and slices at the target. Can random critical hit.
 The user harnesses a blade of lightning and slices at the target. Can random critical hit.
+The target is punched with a tremendous electric force. This move can't be used twice in a row.
+The target is punched with a tremendous electric force. This move can't be used twice in a row.
 The user lets out an electric roar, raising the user's Speed by four steps.
 The user lets out an electric roar, raising the user's Speed by four steps.
 The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, deals double damage and is Dark-type.
@@ -38149,6 +38205,8 @@ The user perfectly predicts the target's future location, then strikes. Lands wi
 The user perfectly predicts the target's future location, then strikes. Lands without fail. This lowers the user's Defense and Speed.
 This move raises all the user's stats by two steps. Can only be used while asleep.
 This move raises all the user's stats by two steps. Can only be used while asleep.
+The user attacks with an overpowering, superior intellect. Super effective versus Normal-types.
+The user attacks with an overpowering, superior intellect. Super effective versus Normal-types.
 The user employs hypnotic suggestion to make a dizzy target fall into a deep sleep.
 The user employs hypnotic suggestion to make a dizzy target fall into a deep sleep.
 Unveiling its ears, the released psychic power causes the user to rampage and multi-hit two to five times for two turns.
@@ -38157,14 +38215,14 @@ Psychic energy assaults the foe and darkens the sky, summoning eclipse for eight
 Psychic energy assaults the foe and darkens the sky, summoning eclipse for eight turns.
 Pierces the mind of the target, inflicting doubt in their abilities, guaranteeing a critical hit on foes with boosted stats.
 Pierces the mind of the target, inflicting doubt in their abilities, guaranteeing a critical hit on foes with boosted stats.
-After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
-After making its attack to the targets psyche, the user teleports back to switch places with a party Pokémon.
+After making its attack to the target's psyche, the user teleports back to switch places with a party Pokémon.
+After making its attack to the target's psyche, the user teleports back to switch places with a party Pokémon.
 The user overloads its mind to rampage for two turns.
 The user overloads its mind to rampage for two turns.
 The user cuts using scissor-like blades of psychic energy. Can random critical hit.
 The user cuts using scissor-like blades of psychic energy. Can random critical hit.
-The user manifests a piercing bolt of psychic energy. It has a 50% chance to lower Sp. Def.
-The user manifests a piercing bolt of psychic energy. It has a 50% chance to lower Sp. Def.
+The user manifests a piercing bolt of psychic energy. It has a 40% chance to lower Sp. Def.
+The user manifests a piercing bolt of psychic energy. It has a 40% chance to lower Sp. Def.
 The user sends waves of cosmic energy to overwhelm the target's senses. Multi-hits two to five times.
 The user sends waves of cosmic energy to overwhelm the target's senses. Multi-hits two to five times.
 Charges with astral power and boosts its Attack by two steps on one turn, then attacks on the second turn.
@@ -38209,6 +38267,8 @@ Attacks with energy from jealousy. All opposing Pokémon with stat boosts get fr
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get frostbitten.
 The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
 The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
+The target is punched with a tremendous icy force. This move can't be used twice in a row.
+The target is punched with a tremendous icy force. This move can't be used twice in a row.
 The target is overwhelmed by cold energy. It has a 30% chance to frostbite.
 The target is overwhelmed by cold energy. It has a 30% chance to frostbite.
 The user lays a hazard layer of frozen spikes on the foe's side. One layer hurts switched in foes, two layers frostbites.
@@ -38257,12 +38317,14 @@ The user makes the target to trip into a huge pile of snow, damaging them and su
 The user makes the target to trip into a huge pile of snow, damaging them and summoning hail for eight turns.
 The user incants a snowy hex, dealing damage and setting a hazard layer of frozen spikes around the target.
 The user incants a snowy hex, dealing damage and setting a hazard layer of frozen spikes around the target.
-To inflict massive damage, the user uses up its Ice-type.
-To inflict massive damage, the user uses up its Ice-type.
+To inflict massive damage, the user uses up its Ice-typing. This move can't be used if the user is not an Ice type.
+To inflict massive damage, the user uses up its Ice-typing. This move can't be used if the user is not an Ice type.
 The user saps all the target's heat with a frigid touch, frostbiting it.
 The user saps all the target's heat with a frigid touch, frostbiting it.
 Drains the heat from the target. The user's HP is restored by 50% the damage dealt.
 Drains the heat from the target. The user's HP is restored by 50% the damage dealt.
+The user bites a vulnerable spot from above. Super effective versus Flying-types.
+The user bites a vulnerable spot from above. Super effective versus Flying-types.
 Invokes the aspects of many dragons, striking with a physical move and a special move.
 Invokes the aspects of many dragons, striking with a physical move and a special move.
 The user attacks fueled by ire. Deals double damage if it's a critical hit.
@@ -38287,6 +38349,8 @@ The user inspires a sudden dread in the target, damaging it. This move always go
 The user inspires a sudden dread in the target, damaging it. This move always goes first.
 The user launches four Dreepies, which spread out equally to hit near foes. But, they avoid targets they can't hit.
 The user launches four Dreepies, which spread out equally to hit near foes. But, they avoid targets they can't hit.
+The user charges, then attacks on the second turn. This burns or frostbites the target depending on their stats.
+The user charges, then attacks on the second turn. This burns or frostbites the target depending on their stats.
 The user spits venom at the target. It has a 30% chance to poison.
 The user spits venom at the target. It has a 30% chance to poison.
 The user shakes the target with a deep, rumbling roar. This attack does physical damage.
@@ -38329,8 +38393,8 @@ The user maximizes its Sp. Atk stat in exchange for HP equal to half its max HP.
 The user maximizes its Sp. Atk stat in exchange for HP equal to half its max HP.
 Bites a hole in reality, creating a black hole to damage all near foes. Gravity is intensified for five turns.
 Bites a hole in reality, creating a black hole to damage all near foes. Gravity is intensified for five turns.
-The user removes the energy and light around the target. Super effective vs Electric-types.
-The user removes the energy and light around the target. Super effective vs Electric-types.
+The user removes the energy and light around the target. Super effective versus Electric-types.
+The user removes the energy and light around the target. Super effective versus Electric-types.
 This attack deals 50% more damage if the target has any raised or lowered stat steps.
 This attack deals 50% more damage if the target has any raised or lowered stat steps.
 The user sacrifices their ally to cover all near foes in total darkness, making them drowsy. Fails if the user has no ally.
@@ -38489,6 +38553,8 @@ The user bites with playful abandon. This deals double damage on the user's firs
 The user bites with playful abandon. This deals double damage on the user's first turn out.
 The user creates a puzzling area for six turns in which Pokémon's unmodified Attack and Sp. Atk are swapped.
 The user creates a puzzling area for six turns in which Pokémon's unmodified Attack and Sp. Atk are swapped.
+The user captivates the target with something puzzling, then strikes. Super effective versus Psychic-types.
+The user captivates the target with something puzzling, then strikes. Super effective versus Psychic-types.
 The user foretells a terrible fate. Two turns later, the targeted spot is damaged by fated disaster.
 The user foretells a terrible fate. Two turns later, the targeted spot is damaged by fated disaster.
 The user spins sugar into a ball launched at the target. The slower the user, the greater the damage.
@@ -38507,6 +38573,8 @@ The user attacks with its wards, dealing damage based on the user's Sp. Def stat
 The user attacks with its wards, dealing damage based on the user's Sp. Def stat.
 Strikes the target with lunar light, then summons moonglow for eight turns.
 Strikes the target with lunar light, then summons moonglow for eight turns.
+The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
+The user ponders ancient wisdom, selecting three random status moves. You choose which one it uses.
 The user mutates its genetic code, transforming into any of its 3 other forms. Only useable as Deoxys Normal.
 The user mutates its genetic code, transforming into any of its 3 other forms. Only useable as Deoxys Normal.
 The user makes a risky, difficult attack. If it misses, the user's Accuracy is raised.
@@ -42827,6 +42895,8 @@ Thermostasis
 Thermostasis
 Thief's Diversion
 Thief's Diversion
+Thrown In
+Thrown In
 Thunderstruck
 Thunderstruck
 Time Interloper
@@ -42975,6 +43045,8 @@ Aeroshell 2
 Aeroshell 2
 Ancestral Summons
 Ancestral Summons
+Assistant 2
+Assistant 2
 Attendant's Grace
 Attendant's Grace
 Backfire
@@ -43186,8 +43258,8 @@ Powers up super-effective moves by 30%.
 Powers up super-effective moves by 30%.
 Attacks by or against this Pokémon can't miss and hit hidden Pokémon.
 Attacks by or against this Pokémon can't miss and hit hidden Pokémon.
-Non-Normal moves become Normal-type and are powered up by 50%.
-Non-Normal moves become Normal-type and are powered up by 50%.
+Non-Normal moves become Normal-type. All moves are powered up by 50%.
+Non-Normal moves become Normal-type. All moves are powered up by 50%.
 Child attacks after the parent, for 25% of the previous damage.
 Child attacks after the parent, for 25% of the previous damage.
 When it takes a hit, this Pokémon and the attacker both faint after three turns.
@@ -43862,8 +43934,8 @@ This Pokémon is also Grass-type. When hit by an attack, the attacker's ability 
 This Pokémon is also Grass-type. When hit by an attack, the attacker's ability becomes Infected.
 Upon entry, blinds all foes.
 Upon entry, blinds all foes.
-When hit with a move, hits back instantly with Mega Punch.
-When hit with a move, hits back instantly with Mega Punch.
+When hit with an attacking move, hits back instantly with Mega Punch.
+When hit with an attacking move, hits back instantly with Mega Punch.
 Summons sunshine for four turns when hit by an attack.
 Summons sunshine for four turns when hit by an attack.
 This Pokémon deals 30% more move damage, but is continually Tormented.
@@ -43936,8 +44008,8 @@ Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
 Protected against critical hits. Heals 1/12th HP every turn if hit by an attack.
 Multi-hit moves can hit up to twice as many times.
 Multi-hit moves can hit up to twice as many times.
-Copies the Ability of the Pokémon it switches in to replace.
-Copies the Ability of the Pokémon it switches in to replace.
+Copies the Ability of the Pokémon it switches in to replace. This excludes fainted allies.
+Copies the Ability of the Pokémon it switches in to replace. This excludes fainted allies.
 Effects placed by this Pokémon last 50% longer.
 Effects placed by this Pokémon last 50% longer.
 This Pokémon's Speed is doubled while using pulse moves.
@@ -44076,8 +44148,8 @@ Doubles Sp. Def. This Pokémon takes double damage from Psychic-type moves.
 Doubles Sp. Def. This Pokémon takes double damage from Psychic-type moves.
 Immune to Flying-type moves and deals 50% more damage with them.
 Immune to Flying-type moves and deals 50% more damage with them.
-After fainting from self-destructing, revives after five turns.
-After fainting from self-destructing, revives after five turns.
+After fainting from self-destructing, revives at 1 HP after five turns.
+After fainting from self-destructing, revives at 1 HP after five turns.
 This Pokémon's hits deal half damage unless they are critical.
 This Pokémon's hits deal half damage unless they are critical.
 Maximizes the frequency of multi-hit moves. Always deals critical hits.
@@ -44450,6 +44522,8 @@ Heals 1/16th HP every turn. Takes half damage from Fire- and Ice-type moves.
 Heals 1/16th HP every turn. Takes half damage from Fire- and Ice-type moves.
 By sacrificing a held item this Pokémon didn't start with, it can negate one attack against it.
 By sacrificing a held item this Pokémon didn't start with, it can negate one attack against it.
+When another party member uses Fling, they swap out for Pyukumuku.
+When another party member uses Fling, they swap out for Pyukumuku.
 Becomes energized when hit by an attack, doubling the power of its next Electric-type attack.
 Becomes energized when hit by an attack, doubling the power of its next Electric-type attack.
 Its attacks have priority, deal 25% less damage and become special.
@@ -44598,6 +44672,8 @@ After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at 
 After using a wind move, raises the Pokémon's Defense and Sp. Def. Caps out at +4.
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
 Switches out if its HP becomes half or less. The replacement Pokémon's ​​first hit must be a crit​​ and if it's Doduo or Dodrio, it will use Fly​​ immediately.
+Uses Assist upon entry, using a random move known by a party member.
+Uses Assist upon entry, using a random move known by a party member.
 Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.
 Makes foes unable to use priority moves. Uses Assist upon entry, using a random move known by a party member.
 When hitting a target that has an ability with an offensive damage-modifying effect, the Pokémon ignores the conditions and triggers the effect.
@@ -44689,35 +44765,35 @@ Ghost
 Steel
 Steel
 9
-???
-???
+Fire
+Fire
 10
-Fire
-Fire
+Water
+Water
 11
-Water
-Water
+Grass
+Grass
 12
-Grass
-Grass
+Electric
+Electric
 13
-Electric
-Electric
+Psychic
+Psychic
 14
-Psychic
-Psychic
+Ice
+Ice
 15
-Ice
-Ice
+Dragon
+Dragon
 16
-Dragon
-Dragon
+Dark
+Dark
 17
-Dark
-Dark
+Fairy
+Fairy
 18
-Fairy
-Fairy
+???
+???
 19
 Mutant
 Mutant
@@ -49965,6 +50041,8 @@ Tailwind
 Tailwind
 Tailwind doubles the Speed stat of all Pokémon on the active side.
 Tailwind doubles the Speed stat of all Pokémon on the active side.
+Tailwind boosts allies' Speed by 33% and lowers foes' Speed by 33%.
+Tailwind boosts allies' Speed by 33% and lowers foes' Speed by 33%.
 Natural Protection
 Natural Protection
 Natural Protection halves recoil damage and other passive damage like burn or sandstorm on the active side.
@@ -50201,6 +50279,20 @@ I know every single move that Pokémon learn while leveling up or evolving.
 I know every single move that Pokémon learn while leveling up or evolving.
 I can also help Pokémon to relearn moves they learned through TMs, Mentoring, or Sketching!
 I can also help Pokémon to relearn moves they learned through TMs, Mentoring, or Sketching!
+Use TMs
+Use TMs
+What are Technical Machines?
+What are Technical Machines?
+I'm the Tech Supporter. How can I help?
+I'm the Tech Supporter. How can I help?
+Technical Machines, or TMs for short, are items that teach moves to your Pokemon!
+Technical Machines, or TMs for short, are items that teach moves to your Pokemon!
+TMs are common place in our modern world, and they be unweildy to use.
+TMs are common place in our modern world, and they be unweildy to use.
+I'm here to help you use your TMs quickly and efficiently.
+I'm here to help you use your TMs quickly and efficiently.
+Just select a Pokemon, and you'll be able to teach it any of the compatible TMs you own!
+Just select a Pokemon, and you'll be able to teach it any of the compatible TMs you own!
 Speech frame {1}.
 Speech frame {1}.
 Audio Options
@@ -53679,6 +53771,8 @@ Your opponent's weak! Get 'em, {1}{2}!
 Your opponent's weak! Get 'em, {1}{2}!
 The {1} entered the battle!
 The {1} entered the battle!
+{1} was thrown into battle!
+{1} was thrown into battle!
 {1} remembered the happy hours of childhood!
 {1} remembered the happy hours of childhood!
 {1} jumps onto the pointed stones!
@@ -53695,6 +53789,12 @@ layer
 2 layers
 3 layers
 3 layers
+4 layers
+4 layers
+5 layers
+5 layers
+6 layers
+6 layers
 {1} is hurt by the {2} of spikes!
 {1} is hurt by the {2} of spikes!
 {1} was caught in a sticky web!
@@ -54859,6 +54959,8 @@ A pulse bounced back to {1}!
 {1} is too tired to keep up the footwork!
 {1} can use its item now!
 {1} can use its item now!
+{1} will take {2} healing damage next turn!
+{1} will take {2} healing damage next turn!
 {1}'s healing became damage!
 {1}'s healing became damage!
 Gravity intensified!
@@ -55253,10 +55355,10 @@ A rock lands on the ground around {1}.
 A rock lands on the ground around {1}.
 Each rock on the ground around {1} was absorbed!
 Each rock on the ground around {1} was absorbed!
-{1} recovered all the way to full health!
-{1} recovered all the way to full health!
-The opposing {1} recovered all the way to full health!
-The opposing {1} recovered all the way to full health!
+{1} recovered to 1 HP!
+{1} recovered to 1 HP!
+The opposing {1} recovered to 1 HP!
+The opposing {1} recovered to 1 HP!
 {1} is regrowing!
 {1} is regrowing!
 The opposing {1} is regrowing!
@@ -56001,8 +56103,8 @@ Moves that can be rolled:
 Moves that can be rolled:
 But it failed, since this is a wild battle!
 But it failed, since this is a wild battle!
-{1} recovered to 1 HP!
-{1} recovered to 1 HP!
+{1} recovered all the way to full health!
+{1} recovered all the way to full health!
 {1} created a golden pyre!
 {1} created a golden pyre!
 {1} emerged from the pyre!
@@ -56295,6 +56397,8 @@ But it failed, since {1} has no other moves!
 But it failed, since {1} has no other moves!
 But it failed, since {1} hasn't yet used all its other moves!
 But it failed, since {1} hasn't yet used all its other moves!
+{1} can't repeat that move!
+{1} can't repeat that move!
 But it failed, since {1} isn't Fire-type!
 But it failed, since {1} isn't Fire-type!
 But it failed, since {1} is not Ice-type!
@@ -56663,6 +56767,8 @@ But it failed, since {1} isn't statused!
 But it failed, since {1} isn't statused!
 But it failed, since {1} can neither be burned or frostbitten!
 But it failed, since {1} can neither be burned or frostbitten!
+{1} breathed in ice and fire!
+{1} breathed in ice and fire!
 But it failed, since {1} can neither be leeched or numbed!
 But it failed, since {1} can neither be leeched or numbed!
 But it failed, since {1} can't be waterlogged and {2} already has an Aqua Ring!
@@ -56679,6 +56785,8 @@ But it failed, since {1} has no party members to replace it!
 But it failed, since {1} has no party members to replace it!
 {1} charges away!
 {1} charges away!
+But it failed, since {1} can't be poisoned and {2} has no party allies to replace it!
+But it failed, since {1} can't be poisoned and {2} has no party allies to replace it!
 The level number ({1}) is invalid.
 The level number ({1}) is invalid.
 Attempted to set {1} as Pokémon status
@@ -61101,6 +61209,8 @@ Maybe you'll be the one to bring them back?
 Maybe you'll be the one to bring them back?
 Ohoh! I'm honored that you would pay my store a visit, champion.
 Ohoh! I'm honored that you would pay my store a visit, champion.
+Technical Machines, by LuxTech.
+Technical Machines, by LuxTech.
 One-Stop Tech Shop, for all your electronic needs.
 One-Stop Tech Shop, for all your electronic needs.
 Hurry and buy some.
@@ -62209,6 +62319,8 @@ Single battle? Or others?
 Single battle? Or others?
 Set new Revival Turns.
 Set new Revival Turns.
+Set new times.
+Set new times.
 Please enter a valid code!
 Please enter a valid code!
 The Pokémon don't have any abilities.
@@ -62463,6 +62575,8 @@ Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.
 Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.
 Raises Sp. Atk by 2 steps after knocking out any Pokémon.
 Raises Sp. Atk by 2 steps after knocking out any Pokémon.
+Powers up binding moves by 50%. Binding moves trap and bind targets for 5 turns.
+Powers up binding moves by 50%. Binding moves trap and bind targets for 5 turns.
 Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
 Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
 Comes out disguised as a Pokémon in back. Reduces damage by 30% in disguise.
@@ -62477,8 +62591,8 @@ Heals all non-volatile status conditions and 10% of max HP when it switches out.
 Heals all non-volatile status conditions and 10% of max HP when it switches out.
 After knocking out any Pokémon/being knocked out, raises/lowers its/attacker's Sp. Atk and Speed by 2 steps.
 After knocking out any Pokémon/being knocked out, raises/lowers its/attacker's Sp. Atk and Speed by 2 steps.
-After fainting from exploding, revives after five turns, but requires above 50% HP if caused by others.
-After fainting from exploding, revives after five turns, but requires above 50% HP if caused by others.
+After fainting from exploding, revives to 1 HP after five turns, but requires above 50% HP if caused by others.
+After fainting from exploding, revives to 1 HP after five turns, but requires above 50% HP if caused by others.
 Copies opponents' species' legal Abilities.
 Copies opponents' species' legal Abilities.
 This Pokémon raises the foe's PP usage. Upon entry, resets foe's positive stat steps.
@@ -62519,6 +62633,8 @@ It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
 An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.
 An item to be held by a Pokémon. The user gets an extra ability, but its stats are cut by 10%.
+It ignores the level cap and raises the level of a single Pokémon by one.
+It ignores the level cap and raises the level of a single Pokémon by one.
 Rare contraband. Any average solo trainer will refused to battle due to the stench of its explosion.
 Rare contraband. Any average solo trainer will refused to battle due to the stench of its explosion.
 If held by a Pokémon, it heals its HP by 25% at half health, or 33% in a pinch.
@@ -62527,6 +62643,8 @@ A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat
 A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by three steps.
 The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its legal abilities.
 The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its legal abilities.
+The user whips up a turbulent whirlwind, boosting allies' Speed by 33% and lowering foes' Speed by 33% for 4 turns.
+The user whips up a turbulent whirlwind, boosting allies' Speed by 33% and lowering foes' Speed by 33% for 4 turns.
 {1} change to {2} type!
 {1} change to {2} type!
 The Pokémon's species abilities can't be changed!

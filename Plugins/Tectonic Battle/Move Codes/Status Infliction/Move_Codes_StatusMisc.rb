@@ -115,17 +115,6 @@ class PokeBattle_Move_TwoTurnAttackBurnOrFrostbiteTargetBasedOnHigherStat < Poke
         @battle.pbDisplay(_INTL("{1} breathed in ice and fire!", user.pbThis))
     end
 
-    def pbFailsAgainstTarget?(user, target, show_message)
-        return false if damagingMove?
-        if !target.canBurn?(user, show_message, self) && !target.canFrostbite?(user, show_message, self)
-            if show_message
-                @battle.pbDisplay(_INTL("But it failed, since {1} can neither be burned or frostbitten!", target.pbThis(true)))
-            end
-            return true
-        end
-        return false
-    end
-
     def pbAttackingTurnEffect(user, target)
         burnOrFrostbite(user, target, self)
     end

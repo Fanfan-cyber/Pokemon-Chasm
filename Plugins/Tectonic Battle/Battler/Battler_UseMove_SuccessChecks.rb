@@ -9,6 +9,9 @@ class PokeBattle_Battler
     #=============================================================================
     def pbCanChooseMove?(move, commandPhase, showMessages = true, specialUsage = false)
         return true if move.empoweredMove? && boss?
+
+        return true if commandPhase && showMessages # major different change
+
         # Disable
         if @effects[:DisableMove] == move.id && !specialUsage
             msg = _INTL("{1}'s {2} is disabled!", pbThis, move.name)
@@ -133,7 +136,7 @@ class PokeBattle_Battler
             echoln(msg)
             return false
         end
-        #Type-Restricted
+        # Type-Restricted
         if effectActive?(:TypeRestricted) && move.id != :STRUGGLE && move.pbCalcType(self) != @effects[:TypeRestricted]
             effect_type = @effects[:TypeRestricted]
             msg = _INTL("{1} can only use {2}-type moves!", pbThis, effect_type.name.capitalize)
