@@ -2249,7 +2249,7 @@ You’re not the child I thought you were.
 I’m happy to give you this badge.
 我很乐意给你这枚徽章。
 Oh, and I would be very interested in another duel – there’s more for me to learn from you.
-我很愿意与你再来一场决斗，这对我来说也很有帮助。
+我很愿意与你再来一场战斗，这对我来说也很有帮助。
 I’ll make the time, whenever you want to give me yours. Good day, \PN.
 只要你想，我随时能抽出时间，祝你好运，\PN。
 A screensaver image of a Luxray bounces lazily around the screen.
@@ -5632,7 +5632,7 @@ It waits in the suspicious house in the Shipping Lane! Destroy it, and rid me of
 Oh? Have you sent the avatar back from whence it came?! Excellent! Your talents are second-to-none!
 哦？你已经把那个化身送到它该去的地方了？好！真是让人放心的实力！
 What, do you miss the lick of flames and bite of acid? Shall we duel once more?
-什么，你怀念火焰的舔舐和酸液的咬噬了？那就让我们再决斗一场吧！
+什么，你怀念火焰的舔舐和酸液的咬噬了？那就让我们再战斗一场吧！
 Congratulations on reaching me!
 恭喜你来到我的面前！
 And congratulations to all your Pokémon! Especially the ones that are on fire!
@@ -7571,7 +7571,7 @@ And I would like prove her wrong here and now.
 Fire-cracked bones can be read to divine the future. Ice forms a mirror that reflects oneself.
 火烧骨可以用来占卜未来，冰则可以形成反映自身的镜子。
 Let us combine the two – crater this ice with a duel and see our true identities in the fractures.
-让我们把两者结合起来，就在这个洞窟里决斗，让我们的真实身份在裂缝中显露。
+让我们把两者结合起来，就在这个洞窟里战斗，让我们的真实身份在裂缝中显露。
 Not without me you don’t! I’d rather you hex me than try and perform a reading without me!
 必须我们一起来完成这一切！我宁愿你施咒诅咒我，也不希望你在没有我参与的情况下进行占卜！
 The both of us, against our beloved traveler!
@@ -9249,7 +9249,7 @@ Nobody has been able to figure out how that happened, or what it means.
 Omanyte have no bones, except the modified bones that form their shells. Therefore only the shells were left behind to become fossils.
 菊石兽并没有骨骼，但是它们的壳有着类似的成分，因此可以形成化石留存下来。
 "Dueling Rampardos"
-"决斗中的战锤龙"
+"战斗中的战锤龙"
 Rampardos' skull withstands impacts of any magnitude.
 战锤龙的头骨能承受强大的冲击力。
 As a result, their brains never get the chance to grow.
@@ -10333,15 +10333,15 @@ So shut up and help me, OK?
 What I’m gonna need you to do is give me some cover.
 我需要你帮我打一下掩护。
 Duel me? Like, so they just see a fight and move on?
-类似于...跟我决斗？大概...让他们从而忽略我？
+类似于...跟我战斗？大概...让他们从而忽略我？
 Y’know, like in a movie when they kiss so the bad guys get all flustered?
 或者...大概...电影上那种...就...通过亲吻的方式躲过追捕？
 I figured you’d be more into, like, fighting me than kissing me. Especially if I, like, healed your team.
-如果要决斗的话，我...大概...会回复你的队伍，大概...你更喜欢这种选择吧。
+如果要战斗的话，我...大概...会回复你的队伍，大概...你更喜欢这种选择吧。
 Y’know. No offense!
-你知道的，不冒犯
+你知道的，无意冒犯！
 Yeah! I knew you’d come through for me!
-耶！我知道你会帮我的
+耶！我知道你会帮我的！
 Ready to see what a real hero fights like? Lead us off, Jeanne!
 准备好欣赏真正的英雄，是如何战斗了吗？上吧，让娜！
 Wow. I guess that worked.
@@ -10687,65 +10687,65 @@ What are you doing here?
 Which one are you?
 你是哪一个？
 Oh no. Not this again.
-完，又开始了
+完，又开始了。
 It's not so bad.
-也没那么糟
+也没那么糟。
 Pokémon live here too.
-精灵也住在这里
+精灵也住在这里。
 Humans need nests too.
-人类也需要巢穴
+人类也需要巢穴。
 I agree.
-我同意
+我同意。
 Yes.
-我相信
+我相信。
 No.
-我不信
+我不信。
 I don't know.
-我不知道
+我不知道。
 Accept the Corsola.
-收下它
+收下它。
 Refuse the Corsola.
-拒绝收下
+拒绝收下。
 What can I do?
 我能做什么？
 I'm not getting involved.
-我不想卷入其中
+我不想卷入其中。
 ...Why?
 ...为什么？
 Duel her.
-与她决斗
+与她战斗。
 Kiss her.
-吻她
+吻她。
 Refuse to duel or kiss her.
-既不决斗也不吻她
+既不战斗也不吻她。
 Maybe later.
-稍等一下
+稍等一下。
 Sure, let's go.
-好，来吧
+好，来吧。
 How did you know?
 你怎么知道？
 Sorry.
 对不起。
 No, I didn't.
-不在
+不在。
 Give me a minute.
-一分钟
+等一会儿。
 Alright. Let's go.
-打就打
+打就打。
 Just give me a minute.
-一分钟
+等一会儿。
 Fine.
-好吧
+好吧。
 No. I don't care.
-我不在乎
+我不在乎。
 Not interested.
-没兴趣
+没兴趣。
 Sure.
-签了
+签了。
 One moment.
-等一下
+等一下。
 Yeah. Let's go.
-来吧
+来吧。
 [Map156]
 [Map157]
 Calendars for July, August, and September are pinned to the wall.
@@ -12136,7 +12136,7 @@ You’re – you can talk to your Pokémon. You understand them.
 I mean, I don’t speak their language but – I’m sorry, I can’t explain very well.
 我想说的是，我并不会说它们的语言，但是...抱歉，我不知道该怎么表达才好。
 I only speak well… I only speak dueling. And you speak it too.
-我只会说“好的”...还有那些决斗用语，这些你也能说。
+我只会说“好的”...还有那些战斗用语，这些你也能说。
 Oh.
 哦。
 I guess that’s – I mean, that’s my life. First the arm, and then the shyness, and then suddenly you’re a thirteen-year-old hero and – oh. I’m so, so sorry.
@@ -12691,7 +12691,7 @@ No more vigilantism?
 A tearful farewell?
 含泪告别？
 A final duel?
-最后的决斗？
+最后的战斗？
 A kiss?
 一个吻？
 A forced moral?
@@ -13382,7 +13382,7 @@ Why was the knight fighting the tournament with a sword made from cheddar cheese
 Because the cheese was extra sharp!
 它会变成酪奶奶！
 What do you call a jouster for hire?
-你该如何称呼一位受雇佣参赛的决斗者呢？
+你该如何称呼一位受雇佣参赛的战斗者呢？
 You can call him a freelancer!
 你可以称呼他为雇佣者！
 What was the favorite pastime of peasants?
@@ -13683,7 +13683,7 @@ Wasn’t plannin’ on inviting you out here to chat, though.
 Goes like this: Yezera’s about to do somethin’ real stupid.
 你应该也知道一些：叶泽拉要做一些不折不扣的傻事。
 I ain’t bright enough to know if her plan’s worth it or not. Figure that’ll be settled with a duel – ain’t no other way for the likes of us.
-我不够聪明，分不清她的计划是否值得，我想这将通过决斗来解决，对于我们这样的人来说，没有其他的办法，不是吗？
+我不够聪明，分不清她的计划是否值得，我想这将通过战斗来解决，对于我们这样的人来说，没有其他的办法，不是吗？
 And she’ll be facin’ one of us, so why don’t we get some training done?
 她总要面对我们当中的一人，那不如趁此机会训练训练吧。
 Don’tcha burn yourself out now. Push yourself too hard and ya might just snap.
@@ -15238,7 +15238,7 @@ I mean, yeah, makes sense. She wants an heir to the company… to the legacy… 
 You know it is. Mavis is just as cutthroat as Helena – hell, maybe more.
 你也知道，梅维斯和海伦娜一样冷酷无情...甚至更甚。
 You think a normal mom would encourage her kids to have a showdown a continent away?
-你认为一个正常的妈妈会鼓励她的孩子在遥远的地方进行一场所谓的决斗吗？
+你认为一个正常的妈妈会鼓励她的孩子在遥远的地方进行一场所谓的战斗吗？
 Hah!
 哈！
 It’s just that easy for you, huh?
@@ -15355,7 +15355,7 @@ I would later discover her to be the former Champion, Yezera.
 I have reason to believe she is behind the emergence of the avatars.
 我有充足的理由相信她就是化身出现的幕后黑手。
 I understand you may be unwilling to part with any information you have concerning this. I suggest a duel.
-我知道你可能不愿意透露太多，那我们不妨靠决斗来决定吧！
+我知道你可能不愿意透露太多，那我们不妨靠战斗来决定吧！
 The loser will tell the victor the whole truth.
 输家要向胜者透露全部真相。
 Good.
@@ -16564,13 +16564,13 @@ I hope so! Not too many people have even seen one of these magical things. And f
 Oh, we’re on the same wavelength. You know what it means.
 哦，我想我们想到一处去了。
 That’s right. One last showdown. You and me. My new Manaphy.
-没错，最后一次决斗，你和我，还有我的玛纳霏。
+没错，最后一次战斗，你和我，还有我的玛纳霏。
 I’m gonna lose, I know. But I’m not going down easy, alright? You ready?
 我知道我会输，但我不会轻易放弃，你准备好了吗？
 Alright. Get ready. I want it to be a good one.
 好的，准备好再来找我吧，我不希望留下任何遗憾。
 I’ve never been happier to throw down against anyone.
-我从来没有像现在这样期待与某个人决斗过。
+我从来没有像现在这样期待与某个人战斗过。
 Manaphy’s debut. I don’t care if it’s good or bad. I just want to see it in action. Let’s do this.
 玛纳霏的首秀...我不在乎它能不能表现好，我只想看到它战斗时的身姿，让我们开始吧。
 You good? I’m ready when you are.
@@ -20993,7 +20993,7 @@ Oh, no, we do.
 It’s fun. It’s fun and it’s a way to wrap this whole thing up. Closure’s stupid but it’s important.
 这是整件事中最有趣的部分，也是结束一切的必要一环。
 …I know Mavis is going to be watching our duel. Makes me a little sick.
-而且...我知道梅维斯会看着我们这场决斗，这让我感觉有点恶心。
+而且...我知道梅维斯会看着我们这场战斗，这让我感觉有点恶心。
 Don’t want it to be tainted by knowing I’m supposed to be "proving myself."
 我不希望那些糟烂的争斗，玷污我想证明自身的决心。
 Nothing for it, though. One last battle? I’m not going to lose this one like all the others.
@@ -22828,7 +22828,7 @@ Hello there. You arrived just a teensy bit earlier than I expected – I was wri
 These black arches of stone like a starless sky will soon be replaced by brilliant alabaster, which, well, ruins the central symbolism.
 这黑色的拱门像是没有星星的夜空，很快就要被华丽的雪花石膏所代替，可这却破坏了中心的象征意义。
 What a shame. I assume you’re going to force me to duel you now?
-真可惜，我猜...你现在要逼我跟你决斗了吧？
+真可惜，我猜...你现在要逼我跟你战斗了吧？
 You march into my demesne, hauling your well- trained combat creatures with you.
 你闯进我的领地，带着你训练有素的战斗宠物。
 We’ve fought before. You’re completely opposed to my beautiful dream. And you still want to claim I have a choice in the matter?
@@ -22868,7 +22868,7 @@ I supposed as much. Excuse me, but in that case I must fight you.
 Universal knowledge is approaching. I would like to be there to witness it – alone, if possible.
 真正的知识正在接近，我想在那里见证它...如果可能的话，我也想独自一人。
 I do not either. Unfortunately, I can tell from your tone that we are, in fact, about to duel.
-我也不想，不幸的是，我可以从你的语气中感觉到我们确实将要决斗。
+我也不想，不幸的是，我可以从你的语气中感觉到我们确实将要战斗。
 I am unwilling to let you go further, and I am unwilling to lose. Please understand... and please consider conceding.
 我不愿让你继续前进，也不愿输给你。请理解...并考虑认输吧。
 That is the most I am willing to say pertaining to your odds against Yezera.
@@ -22878,7 +22878,7 @@ She is conventionally regarded as unbeatable when she applies herself, though I 
 Now, may we end the discussion of theory and add another data point?
 现在，我们可以结束理论讨论，再引入另一部分数据吗？
 Excuse my verbosity. If you would like to go straight to our duel, we can.
-请原谅我啰嗦，如果你想直接进行决斗，那就来吧。
+请原谅我啰嗦，如果你想直接进行战斗，那就来吧。
 I would not insult your intelligence by pretending we will not fight. That much should be evident.
 我不会侮辱你的智慧，假装我们不会打架，那没有什么意义。
 Shall we?
@@ -38995,7 +38995,7 @@ Covert Cloak
 Courage Badge
 勇气徽章
 Clear Amulet
-清净坠饰
+清洁坠饰
 Adamant Crystal
 坚固结晶
 Lustrous Globe
@@ -39329,7 +39329,7 @@ Rusted Shield
 Rusted Sword
 腐朽之剑
 Reins of Unity
-牵绊缰绳
+团结之缰
 EXP Charm
 经验护符
 Catching Charm
@@ -39900,7 +39900,7 @@ Covert Cloaks
 Courage Badges
 勇气徽章
 Clear Amulets
-清净坠饰
+清洁坠饰
 Adamant Crystals
 坚固结晶
 Lustrous Globes
@@ -40695,11 +40695,11 @@ An item to be held by a Pokémon. Protective screens will be effective for 3 mor
 An item to be held by a Pokémon. It doubles the duration of Rooms created by the holder.
 一种携带物。携带者开启的空间类效果的持续时间翻倍。
 A held item that doubles the duration of binding moves and abilities.
-一种携带物。使束缚类技能和特性的持续时间翻倍。
+一种携带物。使精灵造成的束缚效果的持续时间翻倍。
 A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
-一种携带物。它使多段伤害类技能可以稳定命中4到5次。
+一种携带物。使多段伤害类技能可以稳定命中4到5次。
 A held item. The user gets both of its legal abilities, but its stats are cut by 10%.
-一种携带物。使用者可以同时拥有2个合法特性，但能力值减小10%。
+一种携带物。携带者可以同时拥有2个合法特性，但能力值减小10%。
 A held item. Signature attacks made by the holder are boosted by 40%.
 一种携带物。携带者使用的专属技能的威力增加40%。
 A held item. The holder recovers 30% more HP from draining moves, Aqua Ring, and leech.
@@ -40709,13 +40709,13 @@ Item that restores the HP of Poison-types by 1/16th. Inflicts 1/8th damage on ot
 A held item. The holder's HP is restored by 1/16th at the end of each turn.
 一种携带物。携带后，回合结束时回复1/16HP。
 A held item. The holder restores 1/5th HP of the damage it deals with moves.
-一种携带物。会使携带者通过技能造成伤害时回复伤害的1/5的HP。
+一种携带物。使携带者可以回复造成伤害的1/5的HP。
 A held item. At half health, the holder breaks the balloon and gains an Aqua Ring, healing 10% HP per turn.
 一种携带物。携带后，HP在一半以下时，被击后获得水流环，使自身在每回合结束时回复10%HP。
 A held item. It snaps the holder out of a variety of mental warping effects.
-一种携带物。携带它的精灵会回复心控状态一次。
+一种携带物。携带它，精灵会回复一次心控状态。
 A held item. It restores any lowered stat in battle.
-一种携带物。给精灵携带后，能回复一次减小的能力等级。
+一种携带物。携带后，能回复一次减小的能力等级。
 A held item. Lowered stats on the holder are also applied to foes.
 一种携带物。给精灵携带后，能力等级减小也会影响到对手一次。
 A held item. Doubles the Speed of the holder's move once per battle.
@@ -40801,7 +40801,7 @@ A held item. Moves used against the holder deal 10% less move damage and can't t
 A held item. The holder is protected from flinching.
 一种携带物。携带者不会畏缩。
 A held item. The holder is protected from stat drops (except when self-inflicted).
-一种携带物。携带者不会受到能力减小的影响（自我造成的除外）。
+一种携带物。携带者不会受到除自身外的能力等级减小效果的影响。
 When used on Dialga, this large, glowing gem wells with power and allows the Pokémon to change form.
 当用于迪亚鲁加时，这颗巨大的发光宝石充满了力量，使精灵能够改变形态。
 When used on Palkia, this large, glowing orb wells with power and allows the Pokémon to change form.
@@ -41175,7 +41175,7 @@ A suite of medicines. If you use it, your Aid Kit will heal more efficiently.
 A stick of dynamite, perfectly suited to destroying small bits of rock.
 威力巨大的炸药，可以炸开较小的岩石。
 A wisp of ideas with infinite potential. Use it on a Pokémon to teach any one of their legal moves.
-一种充满无限潜力的思想碎片。对精灵使用，可以教会它们任何一个合法技能。
+一种充满无限潜力的思想碎片。对精灵使用时，可以教会它任何一个合法技能。
 A food grade mining tool. Allows you to extract EXP. Candy from saccharite deposits.
 一种食品级采矿工具。允许你从糖矿中提取经验糖果。
 A surf board, allowing you to surf on water.
@@ -44045,7 +44045,7 @@ During moonglow, this Pokémon is twice as likely to crit and its Speed is boost
 Deals no damage to a target while they are using a status move.
 在对方使用变化类技能时，无法对其造成伤害。
 Traps foes when they are below half health.
-束缚HP小于一半的对手。
+困住HP小于一半的对手。
 Reduces each other Pokémon's HP by 1/12th at the end of each turn.
 回合结束时，减小其他精灵1/12HP。
 Physical moves have a 30% chance to numb targets.
@@ -44057,7 +44057,7 @@ Upon entry, creates an Odd Room for four turns, swapping offensive and defensive
 On the first turn, its attacks cause the target to flinch.
 出场第一回合的攻击会使对手陷入畏缩。
 Prevents stat steps from being lowered (except when self-inflicted). This Pokémon's weight is doubled.
-防止能力等级减小效果（自降除外）。体重翻倍。
+不会受到除自身外的能力等级减小效果的影响。体重翻倍。
 This Pokémon's stat steps are inverted at the end of every turn.
 回合结束时，能力等级会反转。
 This Pokémon is also Fairy-type.
@@ -44347,7 +44347,7 @@ Doubles Defense in moonglow.
 Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become waterlogged.
 物防增加20%。当被同1精灵第2次物理类技能攻击时，攻击者将陷入浸水。
 Attacks hit twice for half damage, drain 25% of damage dealt and become special.
-攻击分为2次，吸取25%的伤害，并变成特殊类技能。
+所有技能变成特殊类技能并且会攻击2次，回复造成伤害25%的HP。
 Your attacks become spread.
 精灵的攻击变为能够攻击到对手全部的精灵。
 This Pokémon is healed for 1/5th HP after using a Grass-, Ground-, or Steel-type move. Can overheal.
@@ -44465,7 +44465,7 @@ When another party member uses Fling, they swap out for Pyukumuku.
 Becomes energized when hit by an attack, doubling the power of its next Electric-type attack.
 受到攻击时，进入能量充盈状态，使下次电属性技能威力翻倍。
 Its attacks have priority, deal 25% less damage and become special.
-可以率先发起攻击，伤害减小25%，并变成特殊类技能。
+所有技能变成特殊类技能并且先制度+1，但是造成的伤害减小25%。
 Every two turns, starting with the first, another turn happens where no one moves.
 回合结束时，会直接来到下下回合。不会连续发动。
 Foes suffer 50% more move damage reduction from burn, frostbite, and numb.
@@ -54072,7 +54072,7 @@ It'll last the whole battle!
 {1}'s sheen prevents its Sp. Def from lowering!
 {1}的态度使它的特防不会减小！
 {1} is protected by its Clear Amulet!
-{1}受到其清净坠饰的保护！
+{1}受到其清洁坠饰的保护！
 {1} is in a state of total focus!
 {1}正处于全神贯注！
 {1}'s {2} won't go any lower!
@@ -54428,7 +54428,7 @@ But the empowered attack pierces through!
 Actually, {1} partially pierces through!
 {1}居然穿透了一部分！
 {1} was ignored, and failed to protect {2}!
-{1}被忽略了，无法保护{2}！
+{1}被无视了，无法保护{2}！
 {1} shielded itself from the {2}!
 {1}保护自身不受{2}的伤害！
 {1} avoided the attack!
@@ -54871,6 +54871,8 @@ A pulse bounced back to {1}!
 {1}太累了，无法继续保持步法！
 {1} can use its item now!
 {1}现在可以使用物品了！
+{1} will take {2} healing damage next turn!
+{1}在下一回合会受到{2}回复伤害！
 {1}'s healing became damage!
 {1}的回复变成了伤害！
 Gravity intensified!
@@ -58058,7 +58060,7 @@ Cannot exit now, you are holding a tile!
 {1} x{2}
 {1} x{2}
 Choose {1} cards to use for this duel.
-选择{1}张卡片用于这场决斗。
+选择{1}张卡片用于这场战斗。
 {1} cards have been chosen.
 已选择{1}张卡片。
 Check opponent's cards.
@@ -59264,7 +59266,7 @@ Moves...
 Teach move
 教学技能
 Teach legal move
-教授合法技能
+教学合法技能
 Forget move
 遗忘技能
 {1} doesn't have any moves!
@@ -60776,7 +60778,7 @@ Ah, my dear friend \PN, care for another battle?
 Hey there, \PN! How about a friendly Pokémon showdown?
 就在这里，\PN！来一场友谊赛怎样？
 The time has come for us to engage in yet another thrilling battle!
-我们又要开始一场惊心动魄的决斗了！
+我们又要开始一场惊心动魄的战斗了！
 Greetings, esteemed champion! Fancy a clash of Pokémon prowess?
 你好，尊敬的冠军！想一决高下吗？
 \PN, my rival, I humbly request your presence on the battlefield.
@@ -62475,6 +62477,8 @@ Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.
 晴天时，回合结束时HP回复1/8。被火属性技能攻击时，不受伤害，HP回复1/4。
 Raises Sp. Atk by 2 steps after knocking out any Pokémon.
 打倒对手时，特攻增加2级。
+Powers up binding moves by 50%. Binding moves trap and bind targets for 5 turns.
+束缚类技能的威力增加50%且束缚目标5回合。
 Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.
 回合结束时，速度增加4级，HP减小1/8，如果速度已达到最大等级，重置速度并回复全部HP。
 Comes out disguised as a Pokémon in back. Reduces damage by 30% in disguise.
@@ -63352,11 +63356,11 @@ I'm not getting involved.
 ...Why?
 ...为什么？
 Duel her.
-与她决斗。
+与她战斗。
 Kiss her.
 吻她。
 Refuse to duel or kiss her.
-既不决斗也不吻她。
+既不战斗也不吻她。
 How did you know?
 你怎么知道？
 No, I didn't.
@@ -63866,7 +63870,7 @@ No more vigilantism?
 A tearful farewell?
 含泪告别？
 A final duel?
-最后的决斗？
+最后的战斗？
 A kiss?
 一个吻？
 A forced moral?

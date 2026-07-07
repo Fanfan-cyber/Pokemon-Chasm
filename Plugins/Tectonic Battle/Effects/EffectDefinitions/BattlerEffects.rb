@@ -2884,13 +2884,20 @@ GameData::BattleEffect.register_effect(:Battler, {
     :info_displayed => false,
     :eor_proc => proc do |battle, battler, value|
         damageToApply = 0
+        nextTurnDamage = 0
         value.each do |healingDamageEntry|
             healingDamageEntry[0] -= 1
             if healingDamageEntry[0] == 0
                 damageToApply += healingDamageEntry[1]
+            elsif healingDamageEntry[0] == 1
+                nextTurnDamage += healingDamageEntry[1]
             end
         end
         value.reject! { |entry| entry[0] <= 0 }
+
+        if nextTurnDamage > 0
+            battle.pbDisplay(_INTL("{1} will take {2} healing damage next turn!", battler.pbThis, nextTurnDamage)) if battler.takesIndirectDamage?
+        end
 
         if damageToApply > 0
             if battler.takesIndirectDamage?

@@ -10,6 +10,7 @@ class PokeBattle_Move_BindTarget3 < PokeBattle_Move
         return if user.fainted?
         # Set trapping effect duration and info
         trappingDuration = 3
+        trappingDuration = 5 if user.hasActiveAbility?(:GRIPSTRENGTH)
         trappingDuration *= 2 if user.hasActiveItem?(:GRIPCLAW)
         trappingDuration = applyEffectDurationModifiers(trappingDuration, user)
         target.applyEffect(:Trapping, trappingDuration)
