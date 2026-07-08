@@ -8,9 +8,9 @@
 箱子打开图鉴也能下键切换查看下一只精灵
 =end
 
-MOD_VERSION    = "0.4.7"
-UPDATE_VERSION = 47
-VERSION_NAME   = ["Radiant Nexus", "星芒汇流"]
+MOD_VERSION    = "0.4.8"
+UPDATE_VERSION = 48
+VERSION_NAME   = ["Overture of Dawn", "破晓序曲"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -187,7 +187,7 @@ casualmode/nocasualmode，开启/关闭休闲模式
 simplemode/nosimplemode，开启/关闭简单模式
 storymode/nostorymode，开启/关闭剧情模式
 
-0.4.8 Overture of Dawn / 破晓序曲 07072026
+0.4.8 Overture of Dawn / 破晓序曲 07082026
 1.修改了大量中文的翻译
 2.优化了存档升级的逻辑
 3.现在存档升级时，不再会异常获得多个Pokémon Lure了
@@ -252,9 +252,7 @@ storymode/nostorymode，开启/关闭剧情模式
 62.现在打倒馆主时会获得1个神奇糖果
 63.现在玩家可以绝对命令精灵使用任何技能了
 64.修复了Changelog可能在某些情况下不会导出最新的更新日志的Bug
-65.
-
-有人因为诅咒濒死时，耿鬼变身
+65.耿鬼的第一特性由漂浮改为Magic Girl
 
 #==============================================================================#
 以上部分记录了此游戏当前版本的更新记录，供参考。

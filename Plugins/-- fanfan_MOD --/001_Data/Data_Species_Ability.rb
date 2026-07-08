@@ -24,6 +24,10 @@ SPECIES_ABILITY_DATA = {
   [:FOONGUS, 0]     => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
   [:AMOONGUSS, 0]   => { :fixed => %i[], :changeable => %i[REGENERATOR BURDENED], },
 
+  [:GENGAR, 0]      => { :fixed => %i[], :changeable => %i[MAGICALGIRL BREAKTHROUGH], },
+  [:GENGAR, 1]      => { :fixed => %i[], :changeable => %i[MAGICALGIRL BREAKTHROUGH], },
+  [:GENGAR, 2]      => { :fixed => %i[], :changeable => %i[MAGICALGIRL BREAKTHROUGH], },
+
   [:GYARADOS, 1]    => { :fixed => %i[], :changeable => %i[JUGGERNAUT INTIMIDATE], },
 
   [:HAPPINY, 0]     => { :fixed => %i[], :changeable => %i[SERENEGRACE CURIOUSMEDICINE], },

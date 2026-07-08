@@ -2244,6 +2244,18 @@ FrontSprite = -2,14
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
+[GENGAR,1]
+BackSprite = 9,18
+FrontSprite = -4,24
+ShadowX = 6
+ShadowSize = 3
+#-------------------------------
+[GENGAR,2]
+BackSprite = 0,10
+FrontSprite = 0,14
+ShadowX = -1
+ShadowSize = 3
+#-------------------------------
 [GEODUDE]
 BackSprite = 0,33
 FrontSprite = -2,26

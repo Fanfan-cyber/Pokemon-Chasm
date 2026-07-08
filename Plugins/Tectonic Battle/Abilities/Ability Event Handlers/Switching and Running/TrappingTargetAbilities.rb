@@ -6,7 +6,15 @@ BattleHandlers::TrappingTargetAbility.add(:ARENATRAP,
 
 BattleHandlers::TrappingTargetAbility.add(:SHADOWTAG,
   proc { |ability, switcher, _bearer, _battle|
-      next true unless switcher.hasActiveAbility?(:SHADOWTAG)
+      next true unless switcher.hasActiveAbility?([:MAGICALGIRL, :SHADOWTAG])
+  }
+)
+
+BattleHandlers::TrappingTargetAbility.add(:MAGICALGIRL,
+  proc { |ability, switcher, bearer, _battle|
+      if bearer.form != 0 && !switcher.hasActiveAbility?([:MAGICALGIRL, :SHADOWTAG]) && !switcher.pbHasType?(:GHOST)
+          next true
+      end
   }
 )
 
