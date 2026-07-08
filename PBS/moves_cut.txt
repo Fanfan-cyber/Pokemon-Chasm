@@ -944,6 +944,18 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The user forces the target to switch out, to be replaced at random. In the wild, the battle ends.
 #-------------------------------
+[CLOSECOMBAT]
+Name = Close Combat
+Type = FIGHTING
+Category = Physical
+Power = 110
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user fights the foe up close without guarding itself. This lowers the user's Defense and Sp. Def by two steps.
+#-------------------------------
 [DETECT]
 Name = Detect
 Type = FIGHTING
