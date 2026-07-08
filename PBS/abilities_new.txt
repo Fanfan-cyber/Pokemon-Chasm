@@ -632,7 +632,7 @@ Description = Takes half damage from Psychic- and Ghost-type attacks.
 [EXOSPHERICDESCENT]
 Name = Exospheric Descent
 Description = Cannot enter battle unless all party members are below half HP. Upon entry, transforms into Meteoric Form.
-Flags = Immutable,UnableByDefault
+Flags = Immutable,UnableByDefault,BattleEndReviver
 #-------------------------------
 [EXOTHERMENGINE]
 Name = Exotherm Engine
