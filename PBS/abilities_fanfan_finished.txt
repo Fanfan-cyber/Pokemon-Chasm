@@ -69,7 +69,7 @@ Description = Completely protects allies from foes' spread moves. Summons rainst
 Flags = RainstormSynergy
 #-------------------------------
 [MAGICALGIRL]
-Name = Magic Girl
+Name = Magical Girl
 Description = Transforms into Cursed Form when any battler faints. Airborne before transformation; traps foes after.
 Flags = Immutable,Levitation
 #-------------------------------
