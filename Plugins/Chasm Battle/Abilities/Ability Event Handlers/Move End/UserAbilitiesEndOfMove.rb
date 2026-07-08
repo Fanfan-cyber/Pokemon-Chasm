@@ -510,10 +510,13 @@ BattleHandlers::UserAbilityEndOfMove.add(:FUELHUNGRY,
 )
 
 BattleHandlers::UserAbilityEndOfMove.add(:SIRENSONG,
-  proc { |ability, user, _targets, move, battle, _switchedBattlers|
+  proc { |ability, user, targets, move, battle, _switchedBattlers|
       next unless move.soundMove?
+      targets = []
+      user.eachOpposing { |b| targets << b unless b.fainted? }
+      next if targets.empty?
       battle.pbShowAbilitySplash(user, ability)
-      user.eachOpposing do |b|
+      targets.each do |b|
         if b.pbAttack > b.pbSpAtk
           b.tryLowerStat(:ATTACK, user, increment: 1, showFailMsg: true)
         else
@@ -525,10 +528,13 @@ BattleHandlers::UserAbilityEndOfMove.add(:SIRENSONG,
 )
 
 BattleHandlers::UserAbilityEndOfMove.add(:BOGGLINGBOLERO,
-  proc { |ability, user, _targets, move, battle, _switchedBattlers|
+  proc { |ability, user, targets, move, battle, _switchedBattlers|
       next unless move.danceMove?
+      targets = []
+      user.eachOpposing { |b| targets << b unless b.fainted? }
+      next if targets.empty?
       battle.pbShowAbilitySplash(user, ability)
-      user.eachOpposing do |b|
+      targets.each do |b|
         if b.pbAttack > b.pbSpAtk
           b.tryLowerStat(:ATTACK, user, increment: 1, showFailMsg: true)
         else
@@ -540,10 +546,13 @@ BattleHandlers::UserAbilityEndOfMove.add(:BOGGLINGBOLERO,
 )
 
 BattleHandlers::UserAbilityEndOfMove.add(:BELLOWER,
-  proc { |ability, user, _targets, move, battle, _switchedBattlers|
+  proc { |ability, user, targets, move, battle, _switchedBattlers|
       next unless move.soundMove?
+      targets = []
+      user.eachOpposing { |b| targets << b unless b.fainted? }
+      next if targets.empty?
       battle.pbShowAbilitySplash(user, ability)
-      user.eachOpposing do |b|
+      targets.each do |b|
         b.applyEffect(:Torment)
       end
       battle.pbHideAbilitySplash(user)
@@ -696,9 +705,9 @@ BattleHandlers::UserAbilityEndOfMove.add(:FRIGHTENINGFANGS,
           next if b.damageState.missed || b.damageState.unaffected
           battle.pbShowAbilitySplash(user, ability)
           if b.pbAttack > b.pbSpAtk
-          b.pbLowerMultipleStatSteps([:ATTACK,2], user, move: self)
+            b.tryLowerStat(:ATTACK, user, increment: 2, showFailMsg: true)
           else
-          b.pbLowerMultipleStatSteps([:SPECIAL_ATTACK,2], user, move: self)
+            b.tryLowerStat(:SPECIAL_ATTACK, user, increment: 2, showFailMsg: true)
           end
       battle.pbHideAbilitySplash(user)
       end
