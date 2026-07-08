@@ -43,7 +43,6 @@ class PokeBattle_Move_BindTarget3 < PokeBattle_Move
     def getEffectScore(user, target)
         return 0 if target.effectActive?(:Trapping) || target.substituted?
         score = 30
-        score *= 2 if user.hasActiveItemAI?(:BINDINGBAND)
         score *= 2 if user.hasActiveItemAI?(:GRIPCLAW)
         return score
     end
