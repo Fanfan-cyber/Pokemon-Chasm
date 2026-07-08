@@ -68,6 +68,11 @@ Name = Leviathan Aria
 Description = Completely protects allies from foes' spread moves. Summons rainstorm for four turns when hit by an attack.
 Flags = RainstormSynergy
 #-------------------------------
+[MAGICALGIRL]
+Name = Magic Girl
+Description = Transforms into Cursed Form when any battler faints. Airborne before transformation; traps foes after.
+Flags = Immutable,Levitation
+#-------------------------------
 [PREDATION2]
 Name = Predation 2
 Description = Has a 30% chance to leech targets when using physical moves.

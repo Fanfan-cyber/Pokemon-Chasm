@@ -33293,6 +33293,10 @@ Hero of Many Battles
 Hero of Many Battles
 Single Strike
 Single Strike
+Cursed
+Cursed
+Cursed Max
+Cursed Max
 B
 B
 C
@@ -43071,6 +43075,8 @@ Frightening Bite
 Frightening Bite
 Leviathan Aria
 Leviathan Aria
+Magic Girl
+Magic Girl
 Predation 2
 Predation 2
 Relentless Pursuit
@@ -44698,6 +44704,8 @@ After using a Bite move, lowers the target's highest attacking stat by 2 steps. 
 After using a Bite move, lowers the target's highest attacking stat by 2 steps. Immune to Ground-type moves. Immune to grounded hazards.
 Completely protects allies from foes' spread moves. Summons rainstorm for four turns when hit by an attack.
 Completely protects allies from foes' spread moves. Summons rainstorm for four turns when hit by an attack.
+Transforms into Cursed Form when any battler faints. Airborne before transformation; traps foes after.
+Transforms into Cursed Form when any battler faints. Airborne before transformation; traps foes after.
 Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it deals. This can overheal.
 Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it deals. This can overheal.
 Transforms into Crowned form when its HP is lowered below half.
@@ -54627,6 +54635,8 @@ It'll lose a quarter of its health each turn!
 It'll lose a quarter of its health each turn!
 {1} is afflicted by the curse!
 {1} is afflicted by the curse!
+{1} senses the breath of death and performs a dazzling transformation!
+{1} senses the breath of death and performs a dazzling transformation!
 {1} is turning into gold!
 {1} is turning into gold!
 {1} is afflicted by the pharaoh's curse!

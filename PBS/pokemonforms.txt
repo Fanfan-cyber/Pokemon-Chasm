@@ -1,5 +1,15 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[GENGAR,1]
+FormName = Cursed
+BaseStats = 80,65,80,130,170,95
+# Total = 620
+#-------------------------------
+[GENGAR,2]
+FormName = Cursed Max
+BaseStats = 80,65,80,130,170,95
+# Total = 620
+#-------------------------------
 [UNOWN,1]
 FormName = B
 #-------------------------------

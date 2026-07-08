@@ -33293,6 +33293,10 @@ Hero of Many Battles
 战斗英雄
 Single Strike
 一击流
+Cursed
+诅咒
+Cursed Max
+诅咒终章
 B
 B
 C
@@ -34111,7 +34115,7 @@ Shadow Force
 Shadow Punch
 暗影拳
 Shadow Sneak
-影子偷袭
+暗影偷袭
 Spectral Thief
 暗影偷盗
 Spirit Shackle
@@ -35169,7 +35173,7 @@ Possession
 Seance
 降灵
 Shadow Boxing
-影子拳击
+暗影搏击
 Shiver
 阴寒
 Six Feet Under
@@ -37740,7 +37744,7 @@ The user buries the target with somber force. Then, this move is disabled.
 The user drains the target's soul. The user's HP is restored by 50% of the damage dealt. This can overheal.
 使用者吸取目标的灵魂。使用者的HP回复量等于造成伤害的50%，可以过量回复。
 The user licks the target, numbing them, or cursing them if they're already numbed.
-舔舐对手使其麻痹，如果对手已经麻痹，则让它陷入诅咒。
+舔舐对手使其麻痹，如果对手已经麻痹，则让对手陷入诅咒。
 The user unleashes its grudge, damaging the target and cutting 4 PP from the move last used by it.
 宣泄出自身的怨念，造成伤害的同时，会削减其最后使用的技能的4点PP。
 The user heals itself by 66% of its max HP. Then, this move is disabled.
@@ -43071,6 +43075,8 @@ Frightening Bite
 恐惧之咬
 Leviathan Aria
 海兽咏叹调
+Magic Girl
+魔法少女
 Predation 2
 掠食2
 Relentless Pursuit
@@ -44698,6 +44704,8 @@ After using a Bite move, lowers the target's highest attacking stat by 2 steps. 
 使用咬类技能后，使对手较高的一项攻击减小2级。此精灵视为飞空单位。
 Completely protects allies from foes' spread moves. Summons rainstorm for four turns when hit by an attack.
 受到攻击时，开启持续4回合的雨天。保护队友不受对手的扩散类技能的攻击。
+Transforms into Cursed Form when any battler faints. Airborne before transformation; traps foes after.
+当有精灵因诅咒陷入濒死时，变为诅咒形态。改变形态前，视为飞空单位，改变形态后，落地并困住所有对手。
 Attacks switching opponents with a 30 BP Pursuit, then heals with the damage it deals. This can overheal.
 会自动使用30威力的追击攻击进行替换的对手，然后回复造成的伤害等量的HP，可以过量回复。
 Transforms into Crowned form when its HP is lowered below half.
@@ -54627,6 +54635,8 @@ It'll lose a quarter of its health each turn!
 它每回合会失去四分之一的HP！
 {1} is afflicted by the curse!
 {1}遭受着诅咒的折磨！
+{1} senses the breath of death and performs a dazzling transformation!
+{1}感受到了死亡的气息，华丽变身！
 {1} is turning into gold!
 {1}正在变成黄金！
 {1} is afflicted by the pharaoh's curse!
@@ -54756,7 +54766,7 @@ Exhaustion finally catches up with {1}!
 {1} finally got its act together!
 {1}聚集了所有的力量！
 {1} fell straight down!
-{1}被击落了！
+{1}落到了地面上！
 {1} waits for a move to steal!
 {1}等待着一种可偷取的技能！
 {1} stockpiled {2}!
@@ -59104,29 +59114,29 @@ Trainer Type
 Trainer type of this player.
 此玩家的训练师类型。
 Sprite
-精灵图像
+贴图
 Walking character sprite.
-行走角色精灵图像。
+行走角色贴图。
 Cycling
 骑自行车
 Cycling character sprite.
-骑自行车角色精灵图像。
+骑自行车角色贴图。
 Surfing character sprite.
-冲浪角色精灵图像。
+冲浪角色贴图。
 Running character sprite.
-跑步角色精灵图像。
+跑步角色贴图。
 Diving
 潜水
 Diving character sprite.
-潜水角色精灵图像。
+潜水角色贴图。
 Fishing
 钓鱼
 Fishing character sprite.
-钓鱼角色精灵图像。
+钓鱼角色贴图。
 Field Move
 场地技能
 Using a field move character sprite.
-使用场地技能角色精灵图像。
+使用场地技能角色贴图。
 Width
 宽度
 The width of this map in Region Map squares.
@@ -59922,17 +59932,17 @@ Edit Regional Dexes
 Create, rearrange and delete Regional Pokédex lists.
 创建、重新排列和删除地区精灵图鉴列表。
 Edit Pokémon Sprite Positions
-编辑精灵精灵图像位置
+编辑贴图位置
 Reposition Pokémon sprites in battle.
-重新定位战斗中的精灵精灵图像。
+重新定位战斗中的贴图。
 Auto-Position All Sprites
-自动定位所有精灵图像
+自动定位所有贴图
 Automatically reposition all Pokémon sprites in battle. Don't use lightly.
-自动重新定位战斗中的所有精灵精灵图像。不要轻易使用。
+自动重新定位战斗中的所有贴图。不要轻易使用。
 Are you sure you want to reposition all sprites?
-你确定要重新定位所有精灵图像吗？
+你确定要重新定位所有贴图吗？
 Repositioning all sprites. Please wait.
-正在重新定位所有精灵图像。请稍候。
+正在重新定位所有贴图。请稍候。
 Consolidate Egg Moves
 整合蛋技能
 For every tutor move that a whole line shares, move it into the egg moves list of the lowest stage pokemon instead.
@@ -60030,9 +60040,9 @@ Choose one or all PBS files and create it.
 File written.
 文件已写入。
 Rename Old Sprites
-重命名旧精灵图像
+重命名旧贴图
 Renames and moves Pokémon/item/trainer sprites from their old places.
-重命名并移动精灵/物品/训练师精灵图像到它们的旧位置。
+重命名并移动精灵/物品/训练师贴图到它们的旧位置。
 Fix Invalid Tiles
 修复无效瓦片
 Scans all maps and erases non-existent tiles.
@@ -60376,9 +60386,9 @@ No invalid tiles were found.
 Close RPG Maker XP to ensure the changes are applied properly.
 关闭RPG Maker XP以确保更改正确应用。
 Species {1} is not defined (trying to rename Pokémon graphic {2}).
-物种{1}未定义（尝试重命名精灵图像{2}）。
+物种{1}未定义（尝试重命名贴图{2}）。
 Converting Pokémon sprites {1}/{2}...
-正在转换精灵精灵图像{1}/{2}...
+正在转换贴图{1}/{2}...
 Converting Pokémon icons {1}/{2}...
 正在转换精灵图标{1}/{2}...
 Converting footprints {1}/{2}...
@@ -60392,17 +60402,17 @@ Converting Pokémon cries {1}/{2}...
 Species {1} is not defined (trying to rename species cry {2}).
 物种{1}未定义（尝试重命名物种叫声{2}）。
 Converting trainer sprites {1}/{2}...
-正在转换训练师精灵图像{1}/{2}...
+正在转换训练师贴图{1}/{2}...
 Trainer type {1} is not defined (trying to rename trainer charset {2}).
 训练师类型{1}未定义（尝试重命名训练师字符集{2}）。
 Trainer type {1} is not defined (trying to rename trainer sprite {2}).
-训练师类型{1}未定义（尝试重命名训练师精灵图像{2}）。
+训练师类型{1}未定义（尝试重命名训练师贴图{2}）。
 Trainer type {1} is not defined (trying to rename player metadata filename {2}).
 训练师类型{1}未定义（尝试重命名玩家元数据文件名{2}）。
 Trainer type {1} is not defined (trying to rename event's charset {2}).
 训练师类型{1}未定义（尝试重命名事件的字符集{2}）。
 All found sprites and icons were renamed and moved.
-所有找到的精灵图像和图标已被重命名并移动。
+所有找到的贴图和图标已被重命名并移动。
 Some map data was edited. Close and reopen RPG Maker XP to see the changes.
 部分地图数据已被编辑。关闭并重新打开RPG Maker XP以查看更改。
 D: Help
@@ -60430,15 +60440,15 @@ Go to Map
 Some metrics have been edited. Save changes?
 一些度量已被编辑。是否保存更改？
 This species has its own shadow sprite in Graphics/Pokemon/Shadow/. The shadow size metric cannot be edited.
-这个物种在Graphics/Pokemon/Shadow/中有自身的影子精灵。影子大小度量无法编辑。
+这个物种在Graphics/Pokemon/Shadow/中有自身的暗影精灵。阴影大小度量无法编辑。
 Set Ally Position
 设置队友位置
 Set Enemy Position
 设置敌方位置
 Set Shadow Size
-设置影子大小
+设置阴影大小
 Set Shadow Position
-设置影子位置
+设置阴影位置
 Auto-Position Sprites
 自动定位精灵
 {1} (form {2})

@@ -331,6 +331,15 @@ GameData::BattleEffect.register_effect(:Battler, {
                 moneyEarned = (battle.moneyMult * moneyEarned).floor
                 battler.pbOpposingSide.incrementEffect(:PayDay, moneyEarned)
             end
+            if battler.fainted?
+                battle.pbPriority(true).each do |b|
+                    if b && b.hasActiveAbility?(:MAGICALGIRL) && b.isSpecies?(:GENGAR) && b.form < 2
+                        battle.pbShowAbilitySplash(b, :MAGICALGIRL)
+                        b.pbChangeForm(b.form + 1, _INTL("{1} senses the breath of death and performs a dazzling transformation!", b.pbThis))
+                        battle.pbHideAbilitySplash(b)
+                    end
+                end
+            end
         end
     end,
     :stay_in_rating_proc => proc do |battle, battler, value, stay_in_rating|

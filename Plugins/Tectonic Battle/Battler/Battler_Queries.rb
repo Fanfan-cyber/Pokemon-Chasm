@@ -440,6 +440,7 @@ class PokeBattle_Battler
         return false if shouldItemApply?(:IRONBALL,checkingForAI)
         return false if effectActive?(:Ingrain)
         return false if effectActive?(:SmackDown)
+        return false if shouldAbilityApply?(:MAGICALGIRL,checkingForAI) && form != 0
         return false if @battle.gravityIntensified?
         return true if shouldTypeApply?(:FLYING, checkingForAI)
         return true if hasLevitate?(checkingForAI) && !@battle.moldBreaker

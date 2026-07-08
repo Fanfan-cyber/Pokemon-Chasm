@@ -407,6 +407,12 @@ MultipleForms.register(:GARCHOMP, {
   },
 })
 
+MultipleForms.register(:GENGAR, {
+  "getFormOnLeavingBattle" => proc { |pkmn, _battle, _usedInBattle, endBattle|
+      next 0 if pkmn.form != 0 && (pkmn.fainted? || endBattle)
+  },
+})
+
 MultipleForms.register(:GYARADOS, {
   "getFormOnLeavingBattle" => proc { |pkmn, _battle, _usedInBattle, endBattle|
       next 0 if pkmn.form == 1 && (pkmn.fainted? || endBattle)
