@@ -48430,9 +48430,9 @@ Ultra Space
 Use the {1} as a {2} on {3}?
 将{1}作为{2}用于{3}？
 A piece of <imp>Origin Ore</imp> inside your bag is glowing with power!
-你包里的一块<imp>原始矿石</imp>正散发着强大的光芒！
+你包里的一块<imp>起源矿石</imp>正散发着强大的光芒！
 Apply the Origin Ore to {1}?
-将原始矿石应用于{1}？
+将起源矿石应用于{1}？
 Always Male
 总是雄性
 Always Female

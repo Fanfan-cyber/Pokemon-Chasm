@@ -1,5 +1,5 @@
-TEAM_DATA = { :FormerChampion => {
-  ["1v1_yoyo_p6BfYka1ZbVF9vXgN42L587w", true] =>
+TEAM_DATA = { :group => {
+  "1v1_yoyo_p6BfYka1ZbVF9vXgN42L587w" =>
     "eJydmMmT41Ydx9sQenrx0huTTIqEyQQqVIVQ7p6ZXt5LwFqebMWypNHS25AY
     2VZ3Ky1LHkvuTE8IUFQlVG4BigvLJeRCsaSKUy5AFZeQAweqOFDFH8AN/gT4
     Ptnu6fGEySQHWe/93qK3fH7f93t+ZObmrHplZvVkdZpMM0e9Mnsan8bTdMq5
@@ -64,7 +64,7 @@ TEAM_DATA = { :FormerChampion => {
     +0vv7LA/D2tRZhJTHcXVUP+rGdsy/z8iPRiEk6TOu5Yo6BnUb2TngdtveZE/
     KdxLtsH/erEdV1YzLc79LQuj7bgdeOFlOx10gvsD3iUlu41LmgH5462i4d0T
     I0cjKYwR04wbYZV76+LB3rG3ut/aVrZOdg/1a2va9c2NTBD+B3byvnI=",
-  ["1v1_暗行队_45o2uq7hlx0anvd6cd18jruj", true] =>
+  "1v1_暗行队_45o2uq7hlx0anvd6cd18jruj" =>
     "eJy1l8uPG0kdx8dimcm87Hkl2axYHrPABhaCPZnMo2sBt9vlccdtd29325nH
     gtW2y3Zl2t2Ou3uSSchyAYFYJA6rFYgLisT+BZHQHvgDOMAdaS+cVnBB4oS4
     AN/q8UxmZq3NA3Eou+pX1fX4/T6/b3W/dGFvUl2+kDnIjEvj1FaXkx//+pd/
@@ -111,7 +111,7 @@ TEAM_DATA = { :FormerChampion => {
     PYHjxwJTuZDT5DwliFniJ89/s1w+d7MI2Zj/326Wxs1BHzftYWHndml1pbaW
     2eh0b6xvBidw/KcY3BVwfCDg+OApsvEYdIiLpQc66qCDP4dq4PuUmjWaBx69
     WDXwgcAG+HYZ8oHNrt7QV6I760X3Xlr2DvJrSiuzcdOs3hYj/gt+bFwy",
-  ["1v1_暴君队_iop50u48nxh17aznzbxlqm63", true] =>
+  "1v1_暴君队_iop50u48nxh17aznzbxlqm63" =>
     "eJytmM1zG0kVwC0ITvwhyYq92fUWuxDzkYWFMI4/M48PjUc9UkejGXlmJFs2
     7NTIalsdj2YUzcixsx+wNyrUVi1FUUXtFkVx4sYJij3vBQ5Ucd1/AKr4B+DK
     67HsVRIFJyyH9nS/19P9+r3fez3ypSu7k3ThyuLR4rg8Thy6kPnHB3/4+/sf
@@ -159,7 +159,7 @@ TEAM_DATA = { :FormerChampion => {
     8VYpF3vOUlw9XvfuhGtmcP/W8qp9u7NIT3nhl7b/VpYFLh8JXD66oL68j7yk
     fofAdBCYGvKy9uy3Sk41DZXqVHFMS+ByXeCSU8NgD38ne3HYG0YGDedmdUXq
     L68b2+3FNe9BsLNxrN+rrC4l/y8Y+w9xvmEN",
-  ["1v1_冰雹纯冰队_85xzvhpb19ec4naqio6gq3d0", true] =>
+  "1v1_冰雹纯冰队_85xzvhpb19ec4naqio6gq3d0" =>
     "eJy1l8uPI0cdx8cCZmfGM+N5ZTcbCIHhtVIIeHbeXRBcbpftzrS7Pd3t8XoG
     Ytp2eVxZ2+11t2dndkOySGFBJOJxiBQlh4gTJwRSLgEpEnABIZA45sAVIfIP
     cOVbPR6vd3F2WCIO7a76/cr1+NWnvr/qj08cTGnLEytHK+PKOHO05aW/3/3V
@@ -209,7 +209,7 @@ TEAM_DATA = { :FormerChampion => {
     /g/IPCAuR1srxW2mNq5lC/nd+olY33hhbXO16g6Q+d2dP92QyLwjkXnnHHF5
     Fcwc98Ul8nMgc+URkMkzK81URzMNecBeQs4DMgv4NqjzaiDv+34wTAwmv7V+
     7dZRI19Z2ebVNcO9oZkbmd3VVJhvkUwuhRtQTprAiaXKWarp/wa9dIY4",
-  ["1v1_冰雹单打队_cmz63uk5eph0slcgqr2v897y", true] =>
+  "1v1_冰雹单打队_cmz63uk5eph0slcgqr2v897y" =>
     "eJytmNFvG0kdx2NxpI1dx0nqa5uD4yBwXOE4aqdJk+xwh9e7Y+/W693t7jqp
     Ex1mHW/iIfau612nCaUgDnQCxElIRyWkezghcQ9IPJx0QioPvNwTD/wBPCEh
     cYh74ZVXvrNxUjf1XSnHw3RnfrOe+e1vPt/fb9Knzm4l1YWz+f38pDBJHXUh
@@ -260,7 +260,7 @@ TEAM_DATA = { :FormerChampion => {
     kImRFJL9ZCnkqn59JVxtL1XqN/IRLbNBN2euLe81T8iR//bX33By3uHkvPOY
     FPI20PGBzjbQ8UFOYyw5JVG16mPJSZZqul4HNi9zbJKlge8fjjADf6Xud69d
     HVSWPVPJhdr27i1rcX11baUe/5/EpHAxFm2jyDVN5Qb/I/c/VT2EiQ==",
-  ["1v1_冰雹厚重队_ni390ajsqhguhzl7124vgob8", true] =>
+  "1v1_冰雹厚重队_ni390ajsqhguhzl7124vgob8" =>
     "eJy1mF1zG1cZx6UBFFu2XpyoSd2hDLiUBAqNZMdv5/Ci1e5KWmu1K++u7Dgu
     iJW0lk4s7SralYmTpqUdJoXO0OsShmH4BswwDNOLMgNclAs+APdML3LBdbng
     gv9Zy64dlCZQuDjWOc/ZffY5z/k9/3PGn53ajSsLU7mDXIzEZEtZyHx4/9cP
@@ -309,7 +309,7 @@ TEAM_DATA = { :FormerChampion => {
     KDT6kydDYjzmREqNT6T5/4GsbA6CNddYllY22kvyocJq68O91dyNE0j+8feP
     fsYheZ9D8v4nQ3IPjOwDkXtcVe4/jpGzqoJ9RxiusrSetW+am+XSqHtDXc0t
     XjvoeIW18J8FMXJJxD1WboTHhCw1eIn9C57Davo=",
-  ["1v1_冰雹幽灵队_6bi37h1p9fn8dr2ajwemg5nd", true] =>
+  "1v1_冰雹幽灵队_6bi37h1p9fn8dr2ajwemg5nd" =>
     "eJytl0tsI0kZx2OxZCbx2I6TzMxmYXkEFlYClnYyeUwXDK50l909bnd7+uHE
     E9imbVfsmtjdjrudx86sEK8VAq20qxUSrxVCmiMHEOKwhxUSl+XAhROckVZo
     r1y48lXHYzwZz2ZGy6HcVV+Vq7/6vl/9q/qZi7uz6vLF3GFuWpwmtrq8+P5r
@@ -359,7 +359,7 @@ TEAM_DATA = { :FormerChampion => {
     m/21XDc4UnFnb8VbP7CF6oiOi70//e1J6bjN6XgX6Cjxk+W3QMfGJOGYkfmV
     chIhaQgcCC42a8BHxPlIW7RJ/cjrn4zRAX6v19XVjXaucn3P32yaK97NI9It
     runxJwnk+WqcBHfLAIUisssj/l+x8Hyn",
-  ["1v1_钉子队_ar6t2fbydg83vwphr07u41pm", true] =>
+  "1v1_钉子队_ar6t2fbydg83vwphr07u41pm" =>
     "eJy1l89v48YVx2001fqnZK3d/ZE2aeNk223TNpR/m7NNSUuUxIgStSQlre22
     CiWNpakpUhYprb3J5tqkh2JRYIHcggC5FEjRW1EgCAqkQNFD0VMPBXptD/kL
     eu13KFnaeH+6Pw4jzrwZDh/f9/PeUM9N7U+ry1OJfiIiRhRLXY5+/sv3/vnr
@@ -404,7 +404,7 @@ TEAM_DATA = { :FormerChampion => {
     5cGj/FTXDP6OqNbu+LPgdIpcH6sZnvzT2Bw1cPIuZs6t6P8iv88U+hVXaxyY
     ic0Wq/W3NtbLmWSpvm0IqZGiv4//7Bdc0Y+5oh8/XdHJe5A0zSW9d56j3tTx
     D2Vw1N8Nj3rTqzN7fNTDVbm7Ya2kayep5tZqv1JsGcJmby3RyfMV/wY7kS2N",
-  ["1v1_多弱点反转队_f79o2v5juq4fn68igzythwp0", true] =>
+  "1v1_多弱点反转队_f79o2v5juq4fn68igzythwp0" =>
     "eJytV1tzHEcVliqg20payVJ8SREKBCQOAWckS5Y0DWFnZ3q1k52dWc3MSloL
     GGa1rd22ZmfWO7OyZSdAUZUUl1DwABTlFy6VJ+CF4iWpgpfwwgM/gBeq8mIu
     v4BXvh5dLNtLZFeocnu6z+k93X2+73zd+tjI9pg+NzK/Pz8kD1FXn7tw/517
@@ -450,7 +450,7 @@ TEAM_DATA = { :FormerChampion => {
     oillCIZu0opNHYcMfgsvisFvk8FvYskzwX+lD/gDAP8SwB/4/9w90lJr487W
     6l73Fq+tByvLV6vXzAXNfQD+T179x8+eGPy3Bfg/BfhVgH8H4BfOlAnsobC8
     ai3sL93orS/umtdW9Ob1g6S1WZHSv6CH5IsqMKaeW6tQbxNPQGpS7b+Fziza",
-  ["1v1_反弹队_01j24hkx39ubaoisb78cqmrq", true] =>
+  "1v1_反弹队_01j24hkx39ubaoisb78cqmrq" =>
     "eJyll89v48YVxy009dqWZflXNutF0m2dtmmbbkv5tzltyhE1orjiD5mk/LMp
     S0ljadYUqRUpe42kSQMEaVEgyAK9+BYE6LUoij0FaO897KHH/gNB0b+g176h
     ZUfeCLt19jDizHvk/Hjzme8bvTR2MK4ujuWOc6PiKHHUxakvPvn4i799/p+z
@@ -499,7 +499,7 @@ TEAM_DATA = { :FormerChampion => {
     oFhDQOGKkh1QlBcE5cFJqbuRX9Zor7YZrq1vH9u51a0dY+UcFPbS7TtnWc7J
     E87Jk2dzAvph8+uDw97tK4p7DU6wU9IIiD1wMpfcUXHc8mnM6n1MYLJC7v7S
     Squ8u7zZy2NTjWrrG/WttpX8efkfSGVpJA==",
-  ["1v1_飞行队_ba3rs5md1qmub4v6w80z7hyo", true] =>
+  "1v1_飞行队_ba3rs5md1qmub4v6w80z7hyo" =>
     "eJyll02MI0cVx20Is/Nhj2d2vZtMPiBs+AgJsJ7vmS4g7mlX273T7na62zPj
     mQSnbdfYxbS7ve727MwmCwghAQsSVxQJUMQp5xzYA8oBIYQERw4cQOJIbiBF
     4sq/eryzsyvvFzlUd9Wr6qpX7/3eq+qnxvcmtMvj84fzY9IYdbTL0x/95lf/
@@ -548,7 +548,7 @@ TEAM_DATA = { :FormerChampion => {
     7R6tO4daZ3GpOb9294rB2v/5t6DhtqDh9sNpkEHDLmDg4lh5FzDsPz4MM2Wq
     ywZcrMOeDb4jaJgpM/zmNDv4w2sOcYDKDXmxby93C/PXyoONpa2V62u5G6ud
     milG/A9qjlR3",
-  ["1v1_鬼蝉毒队_tqp2sv0yoz3dkp91z4l6ew5l", true] =>
+  "1v1_鬼蝉毒队_tqp2sv0yoz3dkp91z4l6ew5l" =>
     "eJytl19w40Ydx52hOInzx0kc7ppCgaZAD0oP5f9FexTJkmzrLFuuJMeXS0HI
     thLvRZZ8luxL7sowBWZK6VufmGEYhveb4fUeGJ556BsvzPSdobwwwAMzTAf4
     ruz8aTCXK+Vhrd3fSru//e3n9931MxN7KXV5YqW/kuSTiqUuz3/w6Nd//Pnb
@@ -595,7 +595,7 @@ TEAM_DATA = { :FormerChampion => {
     Gfvh5UAU/wsQJwqR/h8U4sINwu1vrGmrxlb3wXqnudngKnfv3JJr1RsDIOgz
     mX/+5hrj4X3Gw/tP5qEKHtrggTIefgQebl7KAzyI7nVWzT63q99Zax5Wtlce
     rHubSm1Di/+aJ/klqWqYio1j3qqaNlNrTZH/DR1oQEE=",
-  ["1v1_简朴队_6pkdzn9q4p3tb2auj7bve0h5", true] =>
+  "1v1_简朴队_6pkdzn9q4p3tb2auj7bve0h5" =>
     "eJy1mM+T20gVx21YnMzYHnsms9lkIQtMFlhYYOX5magDSJbbtmJZ0kqynckA
     QrZ7xp2RJUWS50fCVnFhoTjtYana2qKK4rTsBYqCvwAuHFJUwYm/AIpUcaa4
     8Vr2OJPBbDIFHHrU/Vrqfnr9ed8nzwsXd+bllYulg1KGz2BLXln46y++95ef
@@ -643,7 +643,7 @@ TEAM_DATA = { :FormerChampion => {
     m2t1LhhZ5UNn84Cad0ur6xv9WmOqJ/eWen9ilHzIKPnwoyk5nMgJ6EoLtgQ9
     ee/5MVnAqlxrilZSXDYYJAvYo3tDJ56WFvB3M9jvP1Bv3l/X1+Lyqji6vdVt
     Y66+kfxvIPUvsa5b6Q==",
-  ["1v1_狂奔队_65ud07ah1l8rvo24zbocpdlx", true] =>
+  "1v1_狂奔队_65ud07ah1l8rvo24zbocpdlx" =>
     "eJytmO9vG0kZx2NxlzaxE+dXe5cTd0DKcYWDsm5+dqcUr71je+u119ldO7+O
     s9b2xp5kvevurtOm7bXcgRB39wbpQOJdxUm8vTfw9sRbhHiN+AcA8ZY3JyEh
     8Z1NnLapoS3lxcQzz7Mz+8wzn/nObF46uzOuLJxNHaRGxVFqKguTf/v4g7/8
@@ -692,7 +692,7 @@ TEAM_DATA = { :FormerChampion => {
     YaOymNrck3dXl/UBKC//cPr8s4KCSYKUT0CKCVICkCI9OylTSolLOi4mNQpg
     8hyYKaVrtRm+kPGFc8wNQl5Z7svCqlVIOWt+Tbu8tN3wmpWWuhn962Dk3xik
     X6c=",
-  ["1v1_猛士队_hw2yu43liduzw1elb689o0yv", true] =>
+  "1v1_猛士队_hw2yu43liduzw1elb689o0yv" =>
     "eJzNl01wI0cVgK0ieNeWbPkvu9kUIWD+EgLLyP+eXmBaMy1pLGlGnhnZ1hqY
     GkktqdejGaGZke1s2FzChqKgiuREhUMqxSnFhWPOXMJhuefAhQNFwQ04cKKK
     12P5Zx2Bd6FSxaGt7vf65/Xr7703fub6/oS6eD0zyIyL48RSF6f/9JNf/PGX
@@ -738,7 +738,7 @@ TEAM_DATA = { :FormerChampion => {
     gypXRqjSZgEr+u6/ySCpEq5qyhk+5wki8UOUeAMl3kSJh1dDUfvk68dKsHxY
     25JzHtluVY2MH62vNoTNDXYGxWtrd37HoXjEoXh0BRQPh98V0DGZ/URJAmzo
     7C7VqivLJVWJ7h5mqFtf29jUheMBn/Ev9DBFtg==",
-  ["1v1_宁静队_g9x76gkas4jiq0e1vcjry32y", true] =>
+  "1v1_宁静队_g9x76gkas4jiq0e1vcjry32y" =>
     "eJy1mE1sJEcVxz0ieNfzaXvNfkQJAQdIRPiY8berlqV7umt6OtPTPe7u8dhr
     yNAzU/ZU3NM9O93ttXcDK74kxCYICUWCA0LcuAAXDjlxAEXigJAioQgpFw7h
     kAPiyJVXPWN77R3kDRGHmq56VV31+r1f/avspy7vJNX5y4WDwiSaJLY6n/3H
@@ -787,7 +787,7 @@ TEAM_DATA = { :FormerChampion => {
     atGd7la/vDxYqu/n16XF7VW5vXJCx+9/tfgTTsdbnI63LqDjIdDR4QryEPDo
     AB3muJMnQ/jfoDxd4yjJSEa1ZlhEBlKe46RkJL/Xh0t2Z0QLl731w9UVZV+0
     ll5mG3la2Gy/ah4tLmzH/2SY+A+j+nGe",
-  ["1v1_欺诈队_ilv9dnsh4u136qa2fl5pjir8", true] =>
+  "1v1_欺诈队_ilv9dnsh4u136qa2fl5pjir8" =>
     "eJy1V91vG8cRJ9tUtkiRlGzVjtImTdSPGEjbnL6l3bS903HJO/N0d74PypTa
     skdxSa59vKN5R1myHTQF4iZo06eiQN+MAnkxEKCvQf+B9CFAX/sXFO0f0Oax
     nT1SDCsrVtwiD6ubnVnuzs7vNzOr5y7uZ9TFi0uHS1NoijjqYv5vH/zp7398
@@ -834,7 +834,7 @@ TEAM_DATA = { :FormerChampion => {
     kg7t4x5Ov4PTD8+H+/Uvvgloa+7GnfX+Uun23U17W1C7y+aKr7ePT14D1fce
     fomj/Zij/fjpaHcB7QoH+3cA9gDAbp4BNsqUFQPy7xTi4ArTDreKuq2sDpZW
     1u9Iyy1/rXdLtTaTf9JT/wENcj0f",
-  ["1v1_勤勉队_vdqblt859vo1tphg247iw0yu", true] =>
+  "1v1_勤勉队_vdqblt859vo1tphg247iw0yu" =>
     "eJzFl02MG0kVx8faZZIZf83XZpMVG2AWCCILtD3fXcvicnfZ7nXb7VS3PXEG
     aNp2jV0au9txtyczCdllLyxL+DruBUVIe4YjOXFYhIQQ4syJW4QQVyRuiFdt
     ezKZ9eYDacWhxlWvqqtevferf9W8eH5vTls9nzpMzcqzxNJWEw/vffjw3vv/
@@ -883,7 +883,7 @@ TEAM_DATA = { :FormerChampion => {
     lapuYooiP5eTu1pZtarlMtGfzofz6b9Z0tJunh1uruXaGyRlua3t617N2Ak6
     Ez4e/PP6lWe9cTrAx/6EDw543J2qHLtwVdOpygFXiYJVAq8Axq+Or5ImvObd
     YIyKuCNb1xp6sL2xUzNSVr/QTq9v8V2pPhQj/gv6UYWn",
-  ["1v1_勤勉忠诚_8FW1iVm2n0s3aDQkNu547oTR", true] =>
+  "1v1_勤勉忠诚_8FW1iVm2n0s3aDQkNu547oTR" =>
     "eJylWFtvG8cVFpFUtkRSlGTFiYKmceUmaZobdbEsz/TCJTkkN1zu0nuRRKkN
     uyRX4lgrLs1d2lbVC5KgNzhNH4qiQBIERtACCYqkD0mBFi0QIO1zgRZ9KNCH
     PgRu2v6AvrbfLClatlnLQQGudvbMzNnZM9/3nTO69/jmuDx3fP7S/CgZZaY8
@@ -946,7 +946,7 @@ TEAM_DATA = { :FormerChampion => {
     A9XLJnduL1qG19ZkTGzYAGuxjKXLveLisbDuzXQ7fEjJMo4zTSjDkf2evgbe
     EBGOG+C2poYDOyEqDbvTwPH6YKiIQW5tnq/uLrSS/qKdPb+jds8snfVMPfwv
     4Mh/ARGehIo=",
-  ["1v1_沙暴纯地队_3whm62l8s4sli0kzg5xkpig1", true] =>
+  "1v1_沙暴纯地队_3whm62l8s4sli0kzg5xkpig1" =>
     "eJytmM1vI0kVwG2xeMZxEufDzExWLB8RsCOWhXa+U8VHt9tlu8ftbqe7bU8m
     QNO2K3ZN7G6Pu51JZgaWhcuyK624LAKEhJD2iMSH0B6QlgMX9jB/ABIHTixC
     XLhx5VXHcTyJmbDDHmq66lW56tV7v/deZZ67ujelLF9NH6ZjKEYsZTn1/m9/
@@ -995,7 +995,7 @@ TEAM_DATA = { :FormerChampion => {
     e+T+N37Z/A13/zvc/e9cUmHeAv8Xwf2PwP1FcD/kmwn+jz6cXGMUCEP4wwky
     RzGsMYrL3x50LHGAwqu1QndjpbNlrvmQ5Q4e5NePimWllQ7/XyCGrkOhMomd
     0XXTIlmbP1T+A4V6ZvU=",
-  ["1v1_沙暴纯岩队_vgnq7c82p3gkl9s06eer1oxj", true] =>
+  "1v1_沙暴纯岩队_vgnq7c82p3gkl9s06eer1oxj" =>
     "eJzFmM1zI0cZxu1i8a4lW7LX3q8U4cOpJBQhIK2/pyGZ8cxIGns0o50Z2Wsb
     MhlZLanj0YxWM/KudrNJFVAULAc4QooqCm5wSKqyHFIcc+KQ4sSBf4BQcODK
     ladHste7K7IbQhVVbk/32z398fbvfbpHZ87tp7SFc/mj/IQwoTrawvzH7//i
@@ -1044,7 +1044,7 @@ TEAM_DATA = { :FormerChampion => {
     CO79g1tMQux/f9L8D2Vke+X24tqmf1jMda5arfayLtX6zlZ+/QQa8e7lX3Jo
     PuTQfPgEGXkT1BxyaN4BNHuAJnh6GUlvVpWiugtmDM5MerNXb9L+KWT4Z0wz
     uLEqr13tLBYP9XU7t6JSKx9e30x+bJgQLoE7W3U3+K6risuj9N/fVn36",
-  ["1v1_沙暴单打队_uxg6c3rj14m59xi07zreaneg", true] =>
+  "1v1_沙暴单打队_uxg6c3rj14m59xi07zreaneg" =>
     "eJylmE1sJEcVx22xeP0x9njXzu46YglYQAIh7PjbrgowPd01M+3p6R5393js
     dWBoe9ozZfd0j6d7HHs3aAUSUgIiCMJGwCUCIeUS5YA4cOHOgTNCQohDxErc
     kTjCv9of6/UO693kUJ6q97qrXr36vfeqfal/Y1Cd7J/an+ojfcxWJ8cf/O6X
@@ -1096,7 +1096,7 @@ TEAM_DATA = { :FormerChampion => {
     7P5p3rnxA/NdQc7bgpy3n0xOA+SE4lr0PaATgpzGM1SpElPEHUBciJy4SpXc
     GvLOI/chGFxey83LM+2dqdni3NIBTy3cMV3JZ/X4Pxx95Hp8Ea5mDAPRqlRF
     lP4Pk/qa3w==",
-  ["1v1_沙暴混地队_2va0ysjbxg43lwc8tp7r6p9s", true] =>
+  "1v1_沙暴混地队_2va0ysjbxg43lwc8tp7r6p9s" =>
     "eJy1mMtz40gdx2NYMpPEiZ3Hzuxs7fLIUiwwLCiPyUO9C+5IsqyxLXkk2Ukm
     sEK2FbsTWfJYch4zFENRW8vrArdli2KLqj3AZYqiqNq9cOBCcZgTJ/4Bpoo/
     gOLCgW8rj02yLjJT1B467v51q/XrX3/6+2vluatbo9rs1bm9uWFxWLG12Zkn
@@ -1146,7 +1146,7 @@ TEAM_DATA = { :FormerChampion => {
     8501ae5W6d7G9v3DFeWUt3996td/e9rbShG4PQRuDlegn4G3/ADexNF1yq+L
     g6DLmEq+pEjHKrTLmcuY3rbvNS6IEDyfr1FhM9qpb6iLC/6+tBJ3l3tLlVUr
     +UfEsHhdqpqW4iTZR5Edvmn/BVsPhrs=",
-  ["1v1_沙暴散杂队_b7y6qpbwz2i0g9za14lmieq5", true] =>
+  "1v1_沙暴散杂队_b7y6qpbwz2i0g9za14lmieq5" =>
     "eJylmM9vI0kVx2OxeBLHP5IZ78xmxO6yYYERy49OMvnVBYPL7XK71+1up7tt
     TxKgacfluCbtbo+7nZnMLBoJIXZB/NgDoAUJIQQcOMABceGwF1ZIHOayEgf+
     gpEQNy7cEK/aP/JjA7Mzc6h01Xvd1a9ffepbz3luejehLE4vHS7FxTixlMXs
@@ -1196,7 +1196,7 @@ TEAM_DATA = { :FormerChampion => {
     iv3g6UXkWaqWa2erFiWs1peW17v3areaG+1Gea3Ykzb3JyLymz+9d+vDclLm
     IvIAOMHjomXn3KIlOhnOpSUpg1YPa5YbnJWkDL/0TpcsEHR+/Wjtdq/Z2Flm
     grx5Dy9dd7sK2VqN/uUQF69IUKwSO69DaUQKNl+C/wKzNYFu",
-  ["1v1_善战队_9c67ex5cgnlztm41t2zmv3yj", true] =>
+  "1v1_善战队_9c67ex5cgnlztm41t2zmv3yj" =>
     "eJzNl8tv48Ydxy10q11bT6+dzXrR9OE+sm2aLuW3OW2qITWSGFGklg8/26iU
     NJbGpkhFpBzLmz4CBMEmQYECQYqghwb9C3oo0NtecuqhlwI99JDrFuhfUKCn
     /oayHa3XiL0oAvQw4sxvhjO/+c3n9x3q2o3dSWX+Ru4wFxfjxFLm049/+/Y/
@@ -1244,7 +1244,7 @@ TEAM_DATA = { :FormerChampion => {
     YdaO5IXF5R3JXsodl6rWcF3AzTNK/vjpr5uckkeckkefT0mT30bvcnH5HWDy
     c8Dk7tUxmcaSSTSrqkDUCoBKnKMyjRvwcR12+f/s1gkuXBGbK6vkaFkuaepO
     WF3KWQvH3cPF4T4f8V8hi2RU",
-  ["1v1_守护队_v87djc3lx0g5gb4zu9kvlfb6", true] =>
+  "1v1_守护队_v87djc3lx0g5gb4zu9kvlfb6" =>
     "eJy1l89zI0cVxy2y8a4tyZK93s1uihBw+B0C4992N4QZzfRIsxrNjGdGcmRT
     iJHVsjoezWg1I6+9uyFsFQmpHCBJFVUpDlBUUXDjzCVcw4E/gBvFAao45QZX
     Xo9kr9cr9gc/Dq3pfq+7583rT3+7deHS7pS2cGnxcHESTRJXW5j562/f+du7
@@ -1294,7 +1294,7 @@ TEAM_DATA = { :FormerChampion => {
     v7uftG8VHW2l51tbbF0waxubi2tyJzpeOkHkR+ves4DIpy6kgBH++1g5qXM5
     uQeM2MDIzpMzkpEqmlSADbnH0smdVuoyr+nTEScQ6+HGunJjb9k/EvZXi4WV
     29XNck1vN9d4j38Brcl/vA==",
-  ["1v1_束缚灭歌队_txdlqyghs8290wfz46n7i1ba", true] =>
+  "1v1_束缚灭歌队_txdlqyghs8290wfz46n7i1ba" =>
     "eJytmE1s48YVgO021VqyLclrdX+CJm3cbrNpmi39s/Z6Jk1JkSOJK4rUkpR/
     1mkJShpLU1OkVqSc1e4iTS5JEPRU9BAsUAS9Fsgph/bQe1pggV57KdBTghyL
     HnopkL6hadmb9f41OYw18x458+bN994b+pmpnYy6MLW4v5hCKWKrC4VPf/fh
@@ -1343,7 +1343,7 @@ TEAM_DATA = { :FormerChampion => {
     MZesLK/Zt0rF/hV3vX3d2NjtCKu95tUleYzB1F8/DzkGn3AMPnmCXHKcgtIJ
     FKBMuWJAgT4xoVTgO7QGUU0UYEGOa1GFdbqv9Pj3djuhAcyOthTt2qjcta4s
     rQubu9dXVv01tth0438mpNA5uWFaxKkTU7UqjmXoZaL8D/X3c7E=",
-  ["1v1_吞噬队_zxl937z402cyosl8jvrmn6di", true] =>
+  "1v1_吞噬队_zxl937z402cyosl8jvrmn6di" =>
     "eJy9mM1zG0kVwKVicWLZkmzHyW5SLMsaFsIubEa244/pZXdao5Y10Uij9MzI
     X4AYWS2p49GMMjNyYm/Y5asKigKKC1XLHqC4caByyWXPe1kO+QO4cOCwB65c
     qIKC4vVYdpSUNh9LwaE93e/N9Hv9+vdet/zc2d2UtnA2d5CbkCeIpS1kPv7l
@@ -1392,7 +1392,7 @@ TEAM_DATA = { :FormerChampion => {
     VsUvP7Cc/NmT8Sj/H+4mtRvFlbYUlpaOcIvbq956PmdsBWuneLz8t/1/Czzu
     CjzuPh6PosDjPYHHjwGPO09Ra07YmBvJaNsEPJLvCD7mzIH4jQJ3be4PwiEi
     4PXRlru+tLqzLC2q20aor107CHrVlRaP/82Q+A9ghXH+",
-  ["1v1_幸运贵血队_h7y1uar04l362nqyesrutx8d", true] =>
+  "1v1_幸运贵血队_h7y1uar04l362nqyesrutx8d" =>
     "eJzNl1tzI0cVgK0iaH2RLfmSTZwiCTGXDSQsI9vry5wQNBr1WLMazWhnRpa9
     XlCNpLbU69GMdmbkWLsp7lRRUEVRRUHxlgrkJc+BquWJVx74AfwBiuUReOCF
     2+mx5PUuKmeXSxUPrek+fTt9zndOt56ZPJhSVyazx9mkmCS2urL0u1/ef/Cr
@@ -1439,7 +1439,7 @@ TEAM_DATA = { :FormerChampion => {
     //dgBIeCedcr3pby2fWt/c1VBKXqHlVqZ2D87Hs//CkH4wMOxgcXg6EgGAGC
     wfgb41tIBnuKtKHqNv+PhEyU4rShevwBSoc4oKqdzf1sXzKFdW1tY9W7M6BW
     ULX3tlp8xD8BUBRRzg==",
-  ["1v1_幸运畏缩队_0lbnpjuwgw2iin83jx9c5a74", true] =>
+  "1v1_幸运畏缩队_0lbnpjuwgw2iin83jx9c5a74" =>
     "eJy1l91vI1cVwGMB2SRO/JGk281CK0ihLBTYyXcylw+PZ67ticcz0/mI1xuB
     GdvX9m3sGa9n7CTdFQiQStWiUgkV9aFSQVoekPgDFomKp0o88FzxhMQDKkg8
     8YLEC5w7sd3EsZouqIpufO85d84999zfOXPnkzOHs/LqzFp/bZqfxpa8uvzX
@@ -1489,7 +1489,7 @@ TEAM_DATA = { :FormerChampion => {
     9aK1vt/fKWwHL+6dKs4LW2vSxoiUrZsv/4KR8g4j5Z0rismrgErkNWClC6y4
     wEp+Eitz4SlMvrQUsAJv75ymhKjcCS8tBQIfaNUmfJsOYQHHOaXi6vv2caO4
     LlN1d+OFk73qlrCzyWb8F+VViLI=",
-  ["1v1_隐修队_6clxlubeiq592fyo80tvuf74", true] =>
+  "1v1_隐修队_6clxlubeiq592fyo80tvuf74" =>
     "eJy1l81v48YVwGUk9a6+7bW7GwdN07pfadNtKX97pk1FUUOJESXKJGWv7LQs
     JY2kiSlSK1KO7d0tkEPToKcCRYEgCFC056DnvRQFAqTooaec+gf0knMPRW99
     Q32s6gj7gUUPY715bzgf7/3evPGL10+iyvr1zFlmES0SU1lPff7hb/75lz99
@@ -1536,7 +1536,7 @@ TEAM_DATA = { :FormerChampion => {
     S/B5SMr7eOGXeOFXT+akPocTXh3SM9Xhed8SHXnDFN8O9irbZ5ul4iAj+N36
     Vs6dcvJb/a9vcU4+4Zx88nhOBsBJnxeH342LQ+3p3xIJqLYVHsEm2wiLArEH
     8I9XMAaEb7WpnjvDBlEOtvc32hfanhAc1uTdLT7ivxWxSRo=",
-  ["1v1_原野队_u659e7no4kaxqcl3hsbj02po", true] =>
+  "1v1_原野队_u659e7no4kaxqcl3hsbj02po" =>
     "eJy1l0twI0cZx60ieNe2HvbaeWyKQHBIWAgL8tue5qHxqCXNajQznhnJlg2I
     kdWWGkszWs3IWe+mKoGiCioFKQ4UUFwCRw6ccsklBw5UURSXreLAlQOHXLlQ
     xYl/j2St1hHJ7gKH1nR//fr661//u/XU1aMZdfnqytnKtDRNHXU5+fe33/ng
@@ -1586,7 +1586,7 @@ TEAM_DATA = { :FormerChampion => {
     judQ2dIwaewXT6Yg/2MuzrZX9neo0joolM29k3O+sfnd9a21Y3fExe/f/NNt
     wcW7got3P5oL7+LpYgow3gMYNyaCkYNQVCeCAdUvWw4dvF5eichQ/H4vZA/e
     LnC6vLmxw7Y8Y73oHtxWtLVWUL+VXjV90eLfPXyUUA==",
-  ["1v1_战术队_4ui02xkum3yzrse1tog5t68y", true] =>
+  "1v1_战术队_4ui02xkum3yzrse1tog5t68y" =>
     "eJy1l91vG1kVwGOxpHESx/nwttsVC0t2gcKyME7afMwpZSbjO/bEY487M85H
     A50d2zf2TcYzrmecNm3FA1rELhISaNXVCpAQD6uVKhD8A7wD4g9A4oG3lRB/
     AE9InDt2XDcbbVPQPlzPvefcuffMOb9z7vULE3tJbXEie5QdF8eJrS3OfPzO
@@ -1633,7 +1633,7 @@ TEAM_DATA = { :FormerChampion => {
     C5D4ESR++GwwbnwGYJxK+TvZVnRz5Vrd9RShWFiqLK8drR/k1Y1hyr/198c/
     5WR8yMn48Blk/ALJqCIZXSSjej4y+IHUY8LSzmG1vbx737RINjKa1+yVtWM+
     479t8Txp",
-  ["1v1_重炮队_70pcwxbgnm21b534jgrd6hyk", true] =>
+  "1v1_重炮队_70pcwxbgnm21b534jgrd6hyk" =>
     "eJzNl91v29YVwC00c2JLluzYTZNiWTdnW7N2zSh/+56uJUVREiOKVEhK8sc2
     gZKupRtTpCJSrpWPDiuwr7bb24AhL8Ue9xJg7+vzhmHAXvcfDO0fsGHAHnYu
     LSWO69bJgA17uOK951zee+45v3sOde7C7pS6eCF9kJ4kk4qtLiY/+ekv/vbe
@@ -1681,7 +1681,7 @@ TEAM_DATA = { :FormerChampion => {
     l3q3t1c8Zzmf3jhksqDdWV2zq5kxHG///XKCw/GIw/Hoi+Hojr9GfoVsxH6H
     cFSeHY45S9FySi4nyTybOOyA83HRou7eG3Rvz2ni34IRI2j1ulCWa1uZvFda
     SjdWl1dutvuttc5wn8/4N/lUWnQ=",
-  ["2v2_yoyo2_fbpOg8Y435kid6J9I7U1HSKe", true] =>
+  "2v2_yoyo2_fbpOg8Y435kid6J9I7U1HSKe" =>
     "eJydmE+MG1cdx9dQNtld/9l/pElFS5qCigRF3k2yyb7Xgp9n3tgTj2cm82f/
     0prxenb9urbH9YzTbAqqhCioF1RAINHeoBeKBNciOHHpAXFA6gGJM+IGElcO
     8H1je7PZpGnaw3je39+8P5/f9/2eHzu7O6NfOrt6a3WaTHNPvzR7FB1Fq9N0
@@ -1746,7 +1746,7 @@ TEAM_DATA = { :FormerChampion => {
     7Jwmdc53ysxMoX4jPQP8QTPohafFetG15P8rruereqq/mb+mwbIb7Ymgc9FN
     hi1xf1i7qKV3bsWwIHmyV290w8TI0UnpRAhjJp2wyvvNvnVwffvK5auHorV2
     Y12/5q9U3Vo6mP8D7Kq3oA==",
-  ["2v2_冰雹队_eloa68x7rxay9huq4k0gmz32", true] =>
+  "2v2_冰雹队_eloa68x7rxay9huq4k0gmz32" =>
     "eJy1l01wI0cVx60ieNe2LNle74e3SAAnkBAIjL/t7gU0GrWkWY1m5JmRP9aA
     GEljqdfSjFYz8tq7gZxICBcgqVSligOkigtUDlTlAlXcoYq9wYEbl3BIwYkL
     V/49kr1i15VdU+TQUvfrnu437/363z3PXNwbV+cvLh4ujpJRZqvzib+//puP
@@ -1796,7 +1796,7 @@ TEAM_DATA = { :FormerChampion => {
     c6T6ak5lCq/dWjyB5Nf/urD4tJA0AYkHSGLvgJLXAEn96SERX5bi4EgbO+Dk
     uuAkqeBbKHS7Vf9oCBX4zDRfXl0/WuvuOLsbzfLm8oHUKN5binxGyq8qiDGr
     pMWFkmUq4kv5P8Lbhx8=",
-  ["2v2_光辉队_32nk07wmd4gqlppbqy968slr", true] =>
+  "2v2_光辉队_32nk07wmd4gqlppbqy968slr" =>
     "eJy1l89v48YVxyUk9a5/yLLXziYOkqLxtk2aNFtZ/rXmpInGFCUxokmZpKyV
     3VagpLE0NUVqRcq72k1bLPoDTXvJpUAOAYKc0ntQIJfkWPSQYw/9A1qgvfVQ
     oNd+h5a1XlvN7iLIYcCZ98iZN+993pvh05cPJtXly+nj9IQ0odjq8uw/fv3u
@@ -1843,7 +1843,7 @@ TEAM_DATA = { :FormerChampion => {
     ZSM2LBvJr142ipsbYatcSclb+3W20hy87Vvp9dLx6gko/Ok/v/qfFwQnnwhO
     Pnl01cBdY3iFOAInS49fNpIoG8LpIhMdfk1AkkTRiH7Yg3CICQxeTetHqc1K
     p7nWuqWVutu71a2NG4Frijf+BwPRUqE=",
-  ["2v2_和声队_v3oa9fjwn025din87zcuqm4v", true] =>
+  "2v2_和声队_v3oa9fjwn025din87zcuqm4v" =>
     "eJylV89zI0cVlgvQrizL8g/tJhsIFZxAAgF2Vv7dHYJGo5E0K2lGmRnZlk0y
     O7LaUsfSjKwZeW1CoLgEiqIKKqccqKIoOMCNKg6BM4dwIIcUVSn+gRw4cOFC
     FSe+HsuO4zjr3dpDW92v37x+877vez3+/PWdhLZwPXuYjZO4amsL0x+9/fOP
@@ -1889,7 +1889,7 @@ TEAM_DATA = { :FormerChampion => {
     hr7yGbpOjnWdAPSxx4O+sVh6vVpX9pbXd49Ww6WVjY5b4WtZ8wz62Ns3fiGg
     /1BA/+GDoR+eyvqXgP4eoOcPD/1MTbYMpQwMNAXobwj0Z2pu4ON/XXx/744J
     gJQ3Fn15vXh305Oyy22ur61uK6OD/tKh8Pg/8JsywQ==",
-  ["2v2_活力队_lqzh8tuunj6a93x07mlhm14j", true] =>
+  "2v2_活力队_lqzh8tuunj6a93x07mlhm14j" =>
     "eJy1l8tzI1cVhy0IHj/0sD3OJE7IA5NAHoRpvz19eajVupJ61OqWu1uWHzCi
     JbWta0vdGnW3Y5MJWUGosA1VqckiBZUlO1jBAnZQ1KxT/ANQxY4FVWz53ZZk
     a2ZcmQxTLG7p3nNu38c53znn6qmJ/UllcWL5ZHlcHKeWspj8x+/+8PcPPv7n
@@ -1937,7 +1937,7 @@ TEAM_DATA = { :FormerChampion => {
     ZeP8jRNp+UuExH5KEEnw2P+cLFIjyeIJuThbOTF2tWW5zjY31vzVLeFgKbBy
     1cZ5sdiV/rXPwbjHwbj3iGxxB2SEACP2S5DRBBhvXQoG9m1v7RU2g7Di3ly3
     b6zsCBsltdVZWj3i+/4Xr0xP1w==",
-  ["2v2_奇异空间队_dle4cstkx1g60j2eky538aqu", true] =>
+  "2v2_奇异空间队_dle4cstkx1g60j2eky538aqu" =>
     "eJy1l81zI0cVwC0IXtuyJX8om2yKLMQFJCFkkeXv6RBmNOqRZjWaGfeMbGsd
     UI2kltXxaEarGfljF0iR8FVZ4JKiSHHZogoOXDhROVBwSXGgCv6AHLkEKtw4
     ceX1SLJlr8Pu8nFozev3Zrpfv/69160nJvYm1cWJzGFmXBjHtrqY+vCX3//w
@@ -1987,7 +1987,7 @@ TEAM_DATA = { :FormerChampion => {
     r2xkmFbe3KosHXtDOF7svLPM4Xifw/H+Q+C4B3CwIRsM2Nh5dDbmIGIKVhSJ
     /7EGPg6jcmNRt/kybTadOvwTGUACXudculK37IPjpf219M0MLp6sLm84W1Gd
     /BdVRX+i",
-  ["2v2_日食队_m8lwx2seaz351vjyo9lte0q6", true] =>
+  "2v2_日食队_m8lwx2seaz351vjyo9lte0q6" =>
     "eJy1l81zI0cVwK0iaC3Jlvy1mzhFIJgASxLY8bfdvQkzGrWsWY008szI8gdE
     GUktqePRjFbTcuxslhQVCBQcOUAVRW1RFH8AxSWXFFW5LAcOHCkuHKiiKieO
     XDjweixrtV4Te/k4tKb7dffr169/73XrmfGDmLYwvnS0FEVRYmsLyb/99Nef
@@ -2035,7 +2035,7 @@ TEAM_DATA = { :FormerChampion => {
     jrW5qG2s9Z005SVlZfl4ty4NgfjnH1/6swDiIwHER58OxO3BM4MJHn4CPARX
     5yFlVQhc7YZh58Rb4z1BRMp6m1LOfZ+3B0iIh9GGW9ldCojzzvLq4s6dE39T
     t6m0vSZG/AtI31K2",
-  ["2v2_沙暴队_3xk4yrcumwz927z56ag0fvid", true] =>
+  "2v2_沙暴队_3xk4yrcumwz927z56ag0fvid" =>
     "eJy1l1tv48YVxy009foqry/ZS9KkqXvbJk2Xltc3TpqIokiJK4rkkpS8ttuy
     lERLU1GkLFJeazfb9iVpUexbESBdBCj6BfLQ9BPsUx/6AfoJAhR9LZC3ov+h
     ZcM2lK63RR7GmjkzPBye+Z3/HL80sTepLE9kDjPj/LhkK8vpz//8h8+f/uUf
@@ -2083,7 +2083,7 @@ TEAM_DATA = { :FormerChampion => {
     mPFDf2uNu3fQW9/Ot1dsa3Uz1ymfcvHv+2+al+Ui0Ysn4KLB9OIJuNh9gfJD
     1MvsvlB0TUA5UaNvMDoWxLDTdSNWtLqxN2QE+149Kt3Z6dUr5Qe7W5mNh2vr
     QpOTq7TBVvwHL2ZiNw==",
-  ["2v2_月光队_ta4fcgkbtexqy7hv2mw18506", true] =>
+  "2v2_月光队_ta4fcgkbtexqy7hv2mw18506" =>
     "eJy1l89zI0cVx60ieNeWLck/solThIADJBAWxl7/2ukAGo1a8qxGM/LMyLZs
     iBhJLavXoxlFM/KP3RAuSSVQQKVqK1UcqKIoOFNU5ZJLDpzgwJED/8BS4S+A
     Ki58eyx7vbtmf/Cj7PF0v9fT/fq9z3vdfuby7pg2f3nxYHFUHqWONp/66y/e
@@ -2133,7 +2133,7 @@ TEAM_DATA = { :FormerChampion => {
     +4PlhbXW0jXzutFbPCNEvbWdFYR8LAj5+DHF4wNRPN4RjHwARnaASOXJEcF1
     UVNyuigdSUHHhNLlbsM7rRswNnKX2s3ifs6hRxu11c7mYvlwYW1ZWhEj/gX0
     xXzs",
-  ["2v2_忠诚队_b3ba5t6yjh8izp4ua712xftn", true] =>
+  "2v2_忠诚队_b3ba5t6yjh8izp4ua712xftn" =>
     "eJzFls9vI0kVx2MxZGI7sePEzOysWH5kWRjYHabzO+lalu60q+2O292d7rYz
     SYCmbZftmrS7Pe52JiEzCPFDLHBBgkWICyDtGf6C1Upz4rDijLhxYAUSBxAH
     Tki86jg/Nms2M1ohDmVXvaquevXep75V1yb2ksrcxMLBwjg/jm1lLvPnt3/1
@@ -2180,5 +2180,5 @@ TEAM_DATA = { :FormerChampion => {
     2yjxHdSB55NSFGEiReMzWlVV4dKyMEp8FyW+dzUfK//7d8d8Z3G16y9vVTgJ
     L5Fmb0FUN74ht1fO+Hjl9fZPGR9vMT7e+mA++oBH4ien7w6mFc6VfIAP9cUN
     cdleOdrsrNFdY6nqrs4vHLYijY34D2TxSzU=",
-    }.freeze
+  }.freeze
 }
