@@ -58,6 +58,7 @@ BattleHandlers::GuaranteedCriticalUserAbility.add(:SWIFTSTOMPS,
       hits += 1 if aiCheck
       next true if move.kickingMove? && hits % 3 == 0
   }
+)
 
 ############################################
 # Ability Code for cut or unused abilities

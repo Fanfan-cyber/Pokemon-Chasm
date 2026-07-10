@@ -80,14 +80,14 @@ class PokeBattle_Battle
             side.disableEffect(:EchoedVoiceCounter) unless side.effectActive?(:EchoedVoiceUsed)
         end
 
+        end_of_round_field_process
+
         # Tick down or reset battle effects
         allEffectHolders do |effectHolder|
             effectHolder.processEffectsEOR
         end
 
         processTriggersEOR(priority)
-
-        end_of_round_field_process
 
         pbGainExp
 

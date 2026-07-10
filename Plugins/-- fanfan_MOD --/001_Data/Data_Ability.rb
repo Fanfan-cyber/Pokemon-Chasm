@@ -9,6 +9,7 @@ ABILITY_DATA = {
   :DRYSKIN          => { :desc => proc { _INTL("Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves.") }, },
   :DOUBLECHECK      => { :desc => proc { _INTL("Deals 50% more damage to targets who have already taken damage or moved this turn.") }, },
   :EMOTIONAURA      => { :desc => proc { _INTL("Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.") }, },
+  :EMERGENCYEXIT    => { :desc => proc { _INTL("Switches out if its HP is lowered below half at the end of turn.") }, },
   :EXTRASCOOP       => { :desc => proc { _INTL("Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.") }, },
   :FINESUGAR        => { :desc => proc { _INTL("Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.") }, },
   :GRIMNEIGH        => { :desc => proc { _INTL("Raises Sp. Atk by 2 steps after knocking out any Pokémon.") }, },
@@ -41,4 +42,5 @@ ABILITY_DATA = {
   :UNIDENTIFIED     => { :desc => proc { _INTL("This Pokémon is Mutant-type. If it is Deoxys, it will have multiple movesets.") }, },
   :VERDANT          => { :desc => proc { _INTL("Powers up Grass-type moves of itself and its allies by 30%.") }, },
   :WELLEQUIPPED     => { :desc => proc { _INTL("Can hold two items.") }, },
+  :WIMPOUT          => { :desc => proc { _INTL("Switches out if its HP is lowered below half.") }, },
 }.freeze

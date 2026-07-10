@@ -275,9 +275,9 @@ BattleHandlers::EOREffectAbility.add(:INSCRUTABLEORDERS,
 =begin
 BattleHandlers::EOREffectAbility.add(:WELLEQUIPPED,
   proc { |ability, battler, battle|
-      battle.pbShowAbilitySplash(battler, ability)
-      battler.applyFractionalDamage(EOR_SELF_HARM_ABILITY_DAMAGE_FRACTION)
-      battle.pbHideAbilitySplash(battler)
+    battle.pbShowAbilitySplash(battler, ability)
+    battler.applyFractionalDamage(EOR_SELF_HARM_ABILITY_DAMAGE_FRACTION)
+    battle.pbHideAbilitySplash(battler)
   }
 )
 =end
@@ -287,6 +287,16 @@ BattleHandlers::EOREffectAbility.add(:SEVENTYTWOTRANSFORMATIONS,
     battler.transformSpeciesEX(nil, ability, true, true)
   }
 )
+
+BattleHandlers::EOREffectAbility.add(:EMERGENCYEXIT,
+  proc { |ability, battler, battle|
+    next unless battler.turnCount > 0
+    next unless battler.belowHalfHealth?
+    battle.triggeredSwitchOut(battler.index, ability: ability)
+  }
+)
+
+BattleHandlers::EOREffectAbility.copy(:EMERGENCYEXIT, :WIMPOUT)
 
 ############################################
 # Ability Code for cut or unused abilities

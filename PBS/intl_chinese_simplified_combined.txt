@@ -43183,7 +43183,7 @@ Summons sunshine for four turns upon entry.
 Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves. Loses 1/8th in sunshine, Fire-type moves do 25% more.
 雨天时，回合结束时HP回复1/4，被水属性技能命中时，回复1/4。晴天时，回合结束时HP失去1/8，被火属性技能攻击时，伤害增加25%。
 Switches out if its HP is lowered below half.
-HP变为一半时，会慌慌张张逃走，退回同行队伍中。
+HP低于一半时，会替换下场。
 Powers up each Pokémon's Fairy-type moves by 33%.
 所有精灵的妖精属性技能威力增加33%。
 Reduces damage from super-effective attacks by 25%.
@@ -43397,7 +43397,7 @@ Takes half from incoming Fire-type moves and doubles this Pokémon's Water-type 
 Physical attacks against this Pokémon raise its Speed by two steps but lower its Defense.
 被物理类攻击时，速度增加2级，物防减小1级。
 Cowardly switches out if its HP is lowered below half.
-HP低于一半时，会强制替换下场。
+HP低于一半时，会替换下场。
 Only super-effective moves will hit.
 只会受到效果拔群的技能的攻击。
 After being attacked, uses Parting Shot to switch out.
@@ -54384,7 +54384,7 @@ The poison starts already doubled!
 {1} woke up!
 {1}醒了！
 {1} was cured of its poisoning.
-{1}中毒痊愈了。
+{1}中毒回复了。
 {1}'s burn was healed.
 {1}烧伤回复了。
 {1}'s frostbite was healed.
@@ -62583,6 +62583,8 @@ Deals 50% more damage to targets who have already taken damage or moved this tur
 攻击该回合已受到过伤害或行动过的目标时，伤害增加50%。
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 出场时，开启持续4回合的情感空间，所有精灵回合结束时随机获得一个特性。
+Switches out if its HP is lowered below half at the end of turn.
+回合结束时，若该精灵的HP低于一半，会替换下场。
 Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.
 出场时，精灵会回复最大HP的1/5，可以过量回复。
 Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.

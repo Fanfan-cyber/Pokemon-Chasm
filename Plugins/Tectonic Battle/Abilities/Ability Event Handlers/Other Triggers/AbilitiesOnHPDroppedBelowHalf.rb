@@ -1,3 +1,4 @@
+=begin
 BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:EMERGENCYEXIT,
     proc { |ability, battler, battle|
         next false if battler.fainted?
@@ -7,6 +8,7 @@ BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:EMERGENCYEXIT,
 )
 
 BattleHandlers::AbilityOnHPDroppedBelowHalf.copy(:EMERGENCYEXIT, :WIMPOUT)
+=end
 
 BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:ANCESTRALSUMMONS,
     proc { |ability, battler, battle|

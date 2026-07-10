@@ -884,7 +884,7 @@ BattleHandlers::AbilityOnSwitchIn.add(:ASSISTANT,
   }
 )
 
-BattleHandlers::AbilityOnSwitchIn.copy(:ASSISTANT, :ATTENDANTSGRACE)
+BattleHandlers::AbilityOnSwitchIn.copy(:ASSISTANT, :ASSISTANT2, :ATTENDANTSGRACE)
 
 # Only used to force the AI to use Sudden Turn somewhat properly
 BattleHandlers::AbilityOnSwitchIn.add(:SUDDENTURN,
