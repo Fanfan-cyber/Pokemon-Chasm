@@ -64,4 +64,13 @@ BattleHandlers::GuaranteedCriticalUserAbility.add(:SWIFTSTOMPS,
       hits += 1 if aiCheck
       next true if move.kickingMove? && hits % 3 == 0
   }
+
+############################################
+# Ability Code for cut or unused abilities
+############################################
+
+BattleHandlers::GuaranteedCriticalUserAbility.add(:LURING,
+    proc { |ability, _user, target, _battle, move|
+        next true if target.dizzy?
+    }
 )

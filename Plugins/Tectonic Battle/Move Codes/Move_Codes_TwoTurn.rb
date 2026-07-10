@@ -382,6 +382,16 @@ class PokeBattle_Move_TwoTurnAttackInvulnerableInFoliage < PokeBattle_Move_TwoTu
 end
 
 #===============================================================================
+# Two turn attack. Skips first turn, attacks second turn. (Vermin Cloud)
+# (Handled in Battler's pbSuccessCheckPerHit): Is semi-invulnerable during use.
+#===============================================================================
+class PokeBattle_Move_TwoTurnAttackInvulnerableVerminCloud < PokeBattle_Move_TwoTurnAttackInvulnerable
+    def pbChargingTurnMessage(user, _targets)
+        @battle.pbDisplay(_INTL("{1} vanished into a cloud of vermin!", user.pbThis))
+    end
+end
+
+#===============================================================================
 # Two turn attack. Skips first turn, attacks second turn. (Shadow Force)
 # Is invulnerable during use. Ends target's protections upon hit.
 #===============================================================================

@@ -211,23 +211,6 @@ BattleHandlers::TargetAbilityOnHit.add(:STEAMPOWER,
     }
 )
 
-BattleHandlers::TargetAbilityOnHit.add(:FORCEREVERSAL,
-    proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
-        if aiCheck
-            expectedTypeMod = battle.battleAI.pbCalcTypeModAI(move.calcType, user, target, move)
-            next 0 unless Effectiveness.resistant?(target.damageState.typeMod)
-            ret = 0
-            aiNumHits.times do |i|
-                ret -= getMultiStatUpEffectScore(ATTACKING_STATS_2, user, target, fakeStepModifier: i, evaluateThreat: false)
-            end
-            next ret
-        else
-            next unless Effectiveness.resistant?(target.damageState.typeMod)
-            target.pbRaiseMultipleStatSteps(ATTACKING_STATS_2, target, ability: ability)
-        end
-    }
-)
-
 #########################################
 # Damaging abilities
 #########################################
@@ -360,15 +343,6 @@ BattleHandlers::TargetAbilityOnHit.add(:MAGNETTRAP,
 #########################################
 
 # TODO: Make the checks here more detailed
-
-BattleHandlers::TargetAbilityOnHit.add(:RELUCTANTBLADE,
-  proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
-        next unless move.physicalMove?
-        next if target.fainted?
-        next -30 * aiNumHits if aiCheck
-        battle.forceUseMove(target, :LEAFAGE, user.index, ability: ability)
-  }
-)
 
 BattleHandlers::TargetAbilityOnHit.add(:COUNTERFLOW,
   proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
@@ -804,32 +778,6 @@ BattleHandlers::TargetAbilityOnHit.add(:CALMINGSCUTECHARM,
 # Other abilities
 #########################################
 
-BattleHandlers::TargetAbilityOnHit.add(:INNARDSOUT,
-    proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
-        next if user.dummy
-        if aiCheck
-            if user.takesIndirectDamage?
-                next -50 / aiNumHits
-            else
-                next 0
-            end
-        end
-        next unless target.fainted?
-        battle.pbShowAbilitySplash(target, ability)
-        if user.takesIndirectDamage?(true)
-            battle.pbDisplay(_INTL("{1} is hurt!", user.pbThis))
-            oldHP = user.hp
-            damageTaken = target.damageState.hpLost
-            damageTaken /= 4 if target.boss?
-            user.damageState.displayedDamage = damageTaken
-            battle.scene.pbDamageAnimation(user)
-            user.pbReduceHP(damageTaken, false)
-            user.pbHealthLossChecks(oldHP)
-        end
-        battle.pbHideAbilitySplash(target)
-    }
-)
-  
 BattleHandlers::TargetAbilityOnHit.add(:MUMMY,
     proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if user.dummy
@@ -1070,4 +1018,60 @@ BattleHandlers::TargetAbilityOnHit.add(:JOYOUSSORROW,
         next -10 if aiCheck
         battle.forceUseMove(target, :WISH, target.index, ability: ability)
   }
+)
+
+############################################
+# Ability Code for cut or unused abilities
+############################################
+
+BattleHandlers::TargetAbilityOnHit.add(:FORCEREVERSAL,
+    proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        if aiCheck
+            expectedTypeMod = battle.battleAI.pbCalcTypeModAI(move.calcType, user, target, move)
+            next 0 unless Effectiveness.resistant?(target.damageState.typeMod)
+            ret = 0
+            aiNumHits.times do |i|
+                ret -= getMultiStatUpEffectScore(ATTACKING_STATS_2, user, target, fakeStepModifier: i, evaluateThreat: false)
+            end
+            next ret
+        else
+            next unless Effectiveness.resistant?(target.damageState.typeMod)
+            target.pbRaiseMultipleStatSteps(ATTACKING_STATS_2, target, ability: ability)
+        end
+    }
+)
+
+BattleHandlers::TargetAbilityOnHit.add(:RELUCTANTBLADE,
+  proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next unless move.physicalMove?
+        next if target.fainted?
+        next -30 * aiNumHits if aiCheck
+        battle.forceUseMove(target, :LEAFAGE, user.index, ability: ability)
+  }
+)
+
+BattleHandlers::TargetAbilityOnHit.add(:INNARDSOUT,
+    proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+        next if user.dummy
+        if aiCheck
+            if user.takesIndirectDamage?
+                next -50 / aiNumHits
+            else
+                next 0
+            end
+        end
+        next unless target.fainted?
+        battle.pbShowAbilitySplash(target, ability)
+        if user.takesIndirectDamage?(true)
+            battle.pbDisplay(_INTL("{1} is hurt!", user.pbThis))
+            oldHP = user.hp
+            damageTaken = target.damageState.hpLost
+            damageTaken /= 4 if target.boss?
+            user.damageState.displayedDamage = damageTaken
+            battle.scene.pbDamageAnimation(user)
+            user.pbReduceHP(damageTaken, false)
+            user.pbHealthLossChecks(oldHP)
+        end
+        battle.pbHideAbilitySplash(target)
+    }
 )

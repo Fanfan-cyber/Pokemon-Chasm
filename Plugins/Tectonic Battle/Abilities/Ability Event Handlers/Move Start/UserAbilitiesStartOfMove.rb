@@ -9,12 +9,6 @@ BattleHandlers::UserAbilityStartOfMove.add(:PROTEAN,
 
 BattleHandlers::UserAbilityStartOfMove.copy(:PROTEAN,:FREESTYLE)
 
-BattleHandlers::UserAbilityStartOfMove.add(:SHAKYCODE,
-  proc { |ability, user, targets, move, battle|
-    moveUseTypeChangeAbility(ability, user, move, battle) if battle.eclipsed?
-  }
-)
-
 BattleHandlers::UserAbilityStartOfMove.add(:MUTABLE,
   proc { |ability, user, targets, move, battle|
     next if user.effectActive?(:Mutated)
@@ -72,5 +66,15 @@ BattleHandlers::UserAbilityStartOfMove.add(:STAYOFEXECUTION,
 BattleHandlers::UserAbilityStartOfMove.add(:DISCOLIGHTS,
   proc { |ability, user, _targets, move, battle|
     moveUseTypeChangeAbility(ability, user, move, battle, true) if move.danceMove?
+  }
+)
+
+############################################
+# Ability Code for cut or unused abilities
+############################################
+
+BattleHandlers::UserAbilityStartOfMove.add(:SHAKYCODE,
+  proc { |ability, user, targets, move, battle|
+    moveUseTypeChangeAbility(ability, user, move, battle) if battle.eclipsed?
   }
 )

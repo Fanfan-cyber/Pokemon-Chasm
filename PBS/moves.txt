@@ -1143,18 +1143,6 @@ FunctionCode = RaiseUserAtkDef2
 Flags = CanSnatch
 Description = The user tenses its muscles to bulk up, raising its Attack and Defense by two steps.
 #-------------------------------
-[CLOSECOMBAT]
-Name = Close Combat
-Type = FIGHTING
-Category = Physical
-Power = 110
-Accuracy = 100
-TotalPP = 5
-Target = NearOther
-FunctionCode = LowerUserDefSpDef2
-Flags = CanProtect
-Description = The user fights the foe up close without guarding itself. This lowers the user's Defense and Sp. Def by two steps.
-#-------------------------------
 [COACHING]
 Name = Coaching
 Type = FIGHTING
