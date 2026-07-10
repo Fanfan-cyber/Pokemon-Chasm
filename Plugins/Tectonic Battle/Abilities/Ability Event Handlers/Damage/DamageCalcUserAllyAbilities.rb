@@ -17,7 +17,7 @@ BattleHandlers::DamageCalcUserAllyAbility.add(:STEELYSPIRIT,
 BattleHandlers::DamageCalcUserAllyAbility.add(:VERDANT,
     proc { |ability, user, _target, _move, mults, _baseDmg, type, aiCheck|
         if type == :GRASS
-            mults[:base_damage_multiplier] *= 3 / 2.0
+            mults[:base_damage_multiplier] *= 1.3
             user.aiLearnsAbility(ability) unless aiCheck
         end
     }

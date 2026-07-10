@@ -41276,6 +41276,8 @@ A fragrance that increases the chance of wild double battles, and attracts uncau
 一种可以增加野生双打对战概率并吸引未捕捉的精灵的物品。
 A high tech surveillance device. Use it to scout out the teams of nearby trainers.
 高科技侦测设备，可以用来探查附近训练师的队伍配置。
+A high tech surveillance device. Use it to scout out the teams of nearby trainers or mid-battle.
+高科技侦测设备，可以用来探查附近或者正在对战的训练师的队伍配置。
 Condensed essence of life. Holding it allows you to run, bike, and surf faster. Can be toggled on or off.
 浓缩的生命精华。携带它可以使你跑步、骑自行车和冲浪的速度更快。可以开启或关闭。
 A small compass. Relic of a heroic age. It can be used to find lootable items nearby.
@@ -54550,7 +54552,9 @@ Cramorant ejects the Pikachu!
 Cramorant ejects its meal!
 古月鸟吐出了它的猎物！
 {1}'s stance made {2}'s attack bounce off akwardly!
-{1}的姿态使得{2}的攻击被尴尬地弹开了!
+{1}的姿态使得{2}的攻击被尴尬地弹开了！
+{1}'s stance made {2}'s attack bounce off awkwardly!
+{1}的姿态使得{2}的攻击被尴尬地弹开了！
 The roots guarding {1} dig into {2}!
 保护{1}的根须深植在{2}中！
 {1} was stuck by {2}'s venom!

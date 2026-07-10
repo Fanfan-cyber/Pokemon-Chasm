@@ -34,12 +34,6 @@ BattleHandlers::GuaranteedCriticalUserAbility.add(:BREAKINGWAVE,
     }
 )
 
-BattleHandlers::GuaranteedCriticalUserAbility.add(:LURING,
-    proc { |ability, _user, target, _battle, move, _aiCheck|
-        next true if target.dizzy?
-    }
-)
-
 BattleHandlers::GuaranteedCriticalUserAbility.add(:PERFECTLUCK,
     proc { |ability, _user, target, _battle, move, _aiCheck|
         next true
@@ -70,7 +64,7 @@ BattleHandlers::GuaranteedCriticalUserAbility.add(:SWIFTSTOMPS,
 ############################################
 
 BattleHandlers::GuaranteedCriticalUserAbility.add(:LURING,
-    proc { |ability, _user, target, _battle, move|
+    proc { |ability, _user, target, _battle, move, _aiCheck|
         next true if target.dizzy?
     }
 )

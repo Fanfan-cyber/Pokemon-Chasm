@@ -11,7 +11,7 @@ BattleHandlers::DamageCalcTargetAbility.copy(:FILTER, :PRISMARMOR)
 
 BattleHandlers::DamageCalcTargetAbility.add(:UNFAZED,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
-    if Effectiveness.normal?(typeModToCheck(user.battle, type, user, target, move, aiCheck))
+    if Effectiveness.more_than_normal?(typeModToCheck(user.battle, type, user, target, move, aiCheck))
       mults[:final_damage_multiplier] *= 4 / 5.0
       target.aiLearnsAbility(ability) unless aiCheck
     end

@@ -64,13 +64,6 @@ BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:PRIMEVALDISGUISE,
     }
 )
 
-BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:BATTLEHARDENED,
-  proc { |ability, battler, _battle|
-      battler.pbRaiseMultipleStatSteps([:DEFENSE, 3, :SPECIAL_DEFENSE, 3], battler, ability: ability)
-      next false
-  }
-)
-
 BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:RATSNEST,
   proc { |ability, battler, battle|
       battle.pbShowAbilitySplash(battler, ability)
@@ -221,5 +214,16 @@ BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:SLUMBERINGSHIELD2,
     battler.pbChangeForm(1, _INTL("{1} crowns itself in steel!", battler.pbThis))
     battle.pbHideAbilitySplash(battler)
     next false
+  }
+)
+
+############################################
+# Ability Code for cut or unused abilities
+############################################
+
+BattleHandlers::AbilityOnHPDroppedBelowHalf.add(:BATTLEHARDENED,
+  proc { |ability, battler, _battle|
+      battler.pbRaiseMultipleStatSteps([:DEFENSE, 3, :SPECIAL_DEFENSE, 3], battler, ability: ability)
+      next false
   }
 )

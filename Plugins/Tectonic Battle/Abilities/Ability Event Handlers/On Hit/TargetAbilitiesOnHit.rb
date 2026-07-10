@@ -303,7 +303,6 @@ BattleHandlers::TargetAbilityOnHit.add(:CONSTRICTOR,
         trappingDuration = 3
         trappingDuration *= 2 if target.hasActiveItem?(:GRIPCLAW)
         score = -30
-        score *= 2 if target.hasActiveItemAI?(:BINDINGBAND)
         score *= 2 if target.hasActiveItemAI?(:GRIPCLAW)
         next score if aiCheck
         battle.pbShowAbilitySplash(target, ability)
@@ -326,7 +325,6 @@ BattleHandlers::TargetAbilityOnHit.add(:MAGNETTRAP,
         trappingDuration = 3
         trappingDuration *= 2 if target.hasActiveItem?(:GRIPCLAW)
         score = -30
-        score *= 2 if target.hasActiveItemAI?(:BINDINGBAND)
         score *= 2 if target.hasActiveItemAI?(:GRIPCLAW)
         next score if aiCheck
         battle.pbShowAbilitySplash(target, ability)
