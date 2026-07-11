@@ -1,5 +1,5 @@
-TEAM_DATA[:Type] = {
-  ["1v1_试炼-地超_2voA19HYa674EI5s3DNXgecl", true] =>
+TEAM_DATA[[:achievement, :type, :unremovable, :random_curse]] = {
+  "1v1_试炼-地超_2voA19HYa674EI5s3DNXgecl" =>
     "eJytl8tzI0cdx6UC/JCshx/s2kBCYsIryy4jvz0dwoykHmnQPLTzsKx1KDGy
     2lLHoxmtZuTHLnBICgqyJ4pKKgeqcuHEBXKhiqrkxg0O3OBMFcWe+Bv49ViW
     HxF4F3JoT/evW92/+X0/v1+PPzu1l5CXp3JHuQl+Alvy8tzT3777z7c+uvuP
@@ -45,7 +45,7 @@ TEAM_DATA[:Type] = {
     J/ZKLk+NjcORon99/zcHTNF3mKLv3KDoL0HRE1D0DVBUYun87rh0TpYM3YYb
     8ExYcGLlyBdz2+W6s7G5huX1YLWo7bbJfvQ/BCTkYsE2TNyoYgOKZANSrISL
     /wbMNg6P",
-  ["1v1_试炼-电飞_Svn5c6U94G8eYHj2D0irpZ7R", true] =>
+  "1v1_试炼-电飞_Svn5c6U94G8eYHj2D0irpZ7R" =>
     "eJytmMtzG0kdx60iyA9Zku2IxN5KdlmzbFEJgfEjfnQHmNFMS5popJHnIcc2
     MIykttXJaEbRjBwr2ZAiu1vA1h543ig4UFwotrhA1R6giivFZY/8BwsUfwS/
     HssPEu9uvHBoT/eve7p7fv35fX8tXxjbmVDnxxb2F5IoSSx1fuYfv//5h0//
@@ -95,7 +95,7 @@ TEAM_DATA[:Type] = {
     j5H492/f/tcLX0x+DEg4XDK+D0zUPvJiUtC2+KXyI9KJXTG3gIurw3TS74SD
     U1TAns19/2ZzxV5fLq7RrdLdRUVgve72qhH/pyCJZmXbMIlTI/BrueSYerVI
     lP8AWL9iYg==",
-  ["1v1_试炼-斗冰_Gp7PXvf2gW63MHbEjcy81Z49", true] =>
+  "1v1_试炼-斗冰_Gp7PXvf2gW63MHbEjcy81Z49" =>
     "eJy1l8uP28YZwFeos96ntA/VjyCPepO0btw41O56H5zUJUWORFp8yCQle3fT
     EJQ0kiZLkapIrS24MdCmSAIkPfZ1LdBrUqCXHHoqUBgIUCCXAr0XffwBvbff
     cKW1Ygtdu0YPI8583zy/7/d9MzozczCnrs3kjnLT/DR21LWVf372s3/8+Pdv
@@ -144,7 +144,7 @@ TEAM_DATA[:Type] = {
     PDEYvxkmg33gIgAu9idwwS+OUvXkpCCrRUMtqFgGPK4mSUGmrYA2KWmMwQE7
     L3a3y7ePmuutW1sbulLD79YHO7n9zd3kr/80f0GqWDZ2yxj8rLgQpEUs/wdV
     T1M7",
-  ["1v1_试炼-毒恶_B3F0wU54T1W2Hp7Ea6hrjLxt", true] =>
+  "1v1_试炼-毒恶_B3F0wU54T1W2Hp7Ea6hrjLxt" =>
     "eJy1VttzG1cZt6ZBjnWxfIuTFArUUKAJJSvb8WVPgV1JR9JGq93NXqQo7rBZ
     WcfWiVe7snblS5NAgaG0bwyd9LV/Qt8YHnjgib6SF6Yz4bnwX8B3VrKtuIIk
     MJ3xsc75vnP5zvf7fb89Fy5uJaSli9mDbJyPY1Namvvnp4//8as/vfXFp7//
@@ -192,7 +192,7 @@ TEAM_DATA[:Type] = {
     aO7/o9DxXjZcXhfz79Zvbu5wR2p5TekZq650SqEnbz79I6PQU0ahp/+dQvvA
     oArTiPeAQkdAIf2FKYSawJvYI0ackafnkDMQZ26lyB1aN1fNbH253F3Hzlq7
     d18+ir4yAP+VPEgvtkFqJKNsg8SXcOHfPTFQ1w==",
-  ["1v1_试炼-火草_yB2IXi17OYvU0w5h394bAoVr", true] =>
+  "1v1_试炼-火草_yB2IXi17OYvU0w5h394bAoVr" =>
     "eJy1l8tz28Ydx8VpSkt8iHqwfiS106iTprUbF9SLEjZ1AYJLEiYJ0ABIvdpi
     QHJFbgUCNAFIYtxMJsmlHbczncykMz1kcuqpkz5OvTQXX3rtsZeekz+jv4Uo
     mrJVW2qnhxV3f7/dxe7v99nvrl6Z3ovJS9OZw0yUj2JDXlr46k+ffPnh397+
@@ -239,7 +239,7 @@ TEAM_DATA[:Type] = {
     Z4debqWRX21RrKzpmxu1Sme9R8YI3Lv3u98yBL5gCHzxYgSOgID+qTp4QED2
     4gTMlGWFXSAqS/9MGf77ncg9LHSYW5a3aSar7hzWuaO17srmalN0G4PwX/so
     fx0A0rFZgweAXjJ1VSni/L8Br4xHXg==",
-  ["1v1_试炼-普幽_iGp9VkT3zly1CJF46X0d25fP", true] =>
+  "1v1_试炼-普幽_iGp9VkT3zly1CJF46X0d25fP" =>
     "eJy1mM1z28YVwMlpSkmkJOorjpU2aaN+xLVrF9SHJWHTFCC4IGGCAAOAkmil
     wYDiUlwLBGgClE07mTTJTNpOL81kemgOnR5y6UzqTjvTdDqND50em0Nmeuk/
     0I97z53pW5CUaEe1rEl7WGF332L34b3fe2+pJ8Z3k8rSeOYwk+AT2FKW5v75
@@ -290,7 +290,7 @@ TEAM_DATA[:Type] = {
     1PImiv8IxX/ITymGrhWwmEPg0jPfl/4X4DxUw7bWW42MGJhrkuIah6uVLrdy
     bbm9UTsC50+/FT9k4Nxn4Nx/DHDoEBwK4Nw5GZz+vQSOp/n25taBtXLH7WWk
     a/Lq1R2uvrzWKEf/i0nw56WKYWIbAlkxCzb8xsjj3H8AmnexOw==",
-  ["1v1_试炼-岩虫_On83SfNUKx5079kCy4MhGs2r", true] =>
+  "1v1_试炼-岩虫_On83SfNUKx5079kCy4MhGs2r" =>
     "eJytmM9zG0kVx21+yD9kSXasZJMtdmFdCyy7bBj/iu3pAGqNWtKsRhplZmRH
     a9ipkTWyOpZmFM3IiciGVMFSQDhRFAf+hBRVSxXc+HHZAyeoYm9cOFJsFfwR
     fHssy05i4kA4dNT9Xs/r7vc+73U7n5nenVWXppcPl2NyjFnq0oVPfvXzf3zv
@@ -339,7 +339,7 @@ TEAM_DATA[:Type] = {
     rqxLt67t3S5XnK2T++RfDx6K8H8swv/xObXiT4h/HvGvI/55xP/g7Pgf3R9Y
     Xfc2V81WpVa6uy5tbB0ow7VyuxCs9KP/B4jJl/HONJldZfhTuGibeqXAcv8G
     2q5a8A==",
-  ["2v2_试炼-钢妖_0K31nVy6r8QgUxoLSpC947zG", true] =>
+  "2v2_试炼-钢妖_0K31nVy6r8QgUxoLSpC947zG" =>
     "eJyll89v28gVx63uVoktWfKvTeLsbrbr7vbHpklpxz9ntltS1EhiRJEMSdlR
     3JagrLE0a4pURcqxnKboD/QH0FuBLbDopVgsetwecuihe+il6LEN0AIFeg7a
     ov0j+oamHcdx4aQ5UJp5bzScee/zvjN6+fzmmDJ3fmF3IY3SxFbmpv75mw/+
@@ -388,7 +388,7 @@ TEAM_DATA[:Type] = {
     E5GZRERmEkRmXgyRBW85EFaMu0ur63W7UGxE/e357uD22hEiv//77qcckU84
     Ip+cgch9QOQ+R+RXgMh9QKR12mViLNb1k1LCD7PqjXl/fbjcX73Vru8FqtWT
     1xZX9svxP/40uiTXTYs4BoE/vRXH0rUyKf4X/iVP5g==",
-  ["2v2_试炼-水龙_F0pB1bXv8wdQ329oC5IEhWx6", true] =>
+  "2v2_试炼-水龙_F0pB1bXv8wdQ329oC5IEhWx6" =>
     "eJzFl8tzG0kdxy0IdmzZku0or4XdZc1CkQ0h8iu2pxeYsdSSJhppJjMjP5cV
     I6llNZZmtJqRYydLpYpHFVTOe4AL/AU8arnxqOK0VZw4cKC4sCceVXCjitob
     3x49rE1ceZADh9Z0/7qnH7/f5/ft0bnz+1Pqwvmlo6VxaZza6sL833/23t++

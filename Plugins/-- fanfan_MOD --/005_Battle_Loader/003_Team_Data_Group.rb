@@ -1,4 +1,4 @@
-TEAM_DATA = { :group => {
+TEAM_DATA = { [:group, :unremovable, :random_curse] => {
   "1v1_yoyo_p6BfYka1ZbVF9vXgN42L587w" =>
     "eJydmMmT41Ydx9sQenrx0huTTIqEyQQqVIVQ7p6ZXt5LwFqebMWypNHS25AY
     2VZ3Ky1LHkvuTE8IUFQlVG4BigvLJeRCsaSKUy5AFZeQAweqOFDFH8AN/gT4

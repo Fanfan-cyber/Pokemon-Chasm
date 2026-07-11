@@ -1,5 +1,5 @@
-TEAM_DATA[:Tribe] = {
-  ["1v1_试炼-光辉队_G5x4B71cDq3jsQI8n92LlrKX", true] =>
+TEAM_DATA[[:achievement, :tribe, :unremovable, :random_curse]] = {
+  "1v1_试炼-光辉队_G5x4B71cDq3jsQI8n92LlrKX" =>
     "eJylmMtz28Ydx8lpKlkiRerlhzJNnSgzGTeuW1CyJAubuoRAkIRJAjQAkno0
     ZUFyJa4EAjQBqpbt9JFMpnWdzvTSmczk0HM7nekhvWSm7UwPPbe9dHrKrW1y
     6r/Q70KiXlb8qA8r7P4W+OG3v/38vgvqpXMbo+rsudRuakgcUix19vxnv/vl
@@ -49,7 +49,7 @@ TEAM_DATA[:Tribe] = {
     WLruri4XaXlxpXPnBtte6wqVQ5F5+7fGbzgrjzgrj57MyhXOyq/ByhV+Kn0I
     WK49GRYEkFu4e31lKdXM3Jnf9m+rN9zluaLTK6yG/0MYEi/JOAiUehnlaObr
     yHROyfwP7w5qRw==",
-  ["1v1_试炼-贵血队_2mjlZ8LuC4vR0A5B6YJy1k7i", true] =>
+  "1v1_试炼-贵血队_2mjlZ8LuC4vR0A5B6YJy1k7i" =>
     "eJylmM9v48YVx20klX/K8q/sj6BJGycN0N2mpfxzzUmyokRSokWRDEn5Z1uC
     kmhp1hKpFSmvtYttgwZFW6CXHAoUCIpNgL301ENbBAh66Km99th7i2b7D/TQ
     U79DS7bjNeJu9jDWzJvhzON7n/fm0S+O7o0rC6Ppw3SCT0i2svDSk9/96vOf
@@ -98,7 +98,7 @@ TEAM_DATA[:Tribe] = {
     4GP++fnYX7orrXXurSyKWVsu9fz1Qp5r3U/fOuHD5f78H8bHh4yPDy/JJT9l
     F9hHIOQ2I+QjELL2DISgyDCFLDJ9F/ozQoRa0HErTe8MIVB5sXWnuXtL7eaW
     D01OWMmu7mz00gdrNP6PQIK/Fpe2DpKNYhUcVBJ5SfwfTolfiw==",
-  ["1v1_试炼-和声队_DAR3L12psxF5UeMJbdz0i698", true] =>
+  "1v1_试炼-和声队_DAR3L12psxF5UeMJbdz0i698" =>
     "eJylmMtz28Ydx8lpKlkiRerlhzJNnSgzGTeuW1CyJAubuoRAkIRJAjQAkno0
     ZUFyJa4EAjQBqpbt9JFMpnWdzvTSmczk0HM7nekhvWSm7UwPPbe9dHrKrW1y
     6r/Q70KiXlb8qA8r7P4W+OG3v/38vgvqpXMbo+rsudRuakgcUix19vxnv/vl
@@ -148,7 +148,7 @@ TEAM_DATA[:Tribe] = {
     WLruri4XaXlxpXPnBtte6wqVQ5F5+7fGbzgrjzgrj57MyhXOyq/ByhV+Kn0I
     WK49GRYEkFu4e31lKdXM3Jnf9m+rN9zluaLTK6yG/0MYEi/JOAiUehnlaObr
     yHROyfwP7w5qRw==",
-  ["1v1_试炼-猛士队_uFPo2x7ncB89Wk6N0e5Ht4KC", true] =>
+  "1v1_试炼-猛士队_uFPo2x7ncB89Wk6N0e5Ht4KC" =>
     "eJyll99v29YVxyU0k3/IluTE+blmW91tCJJ1o+Lf93adKIqUGEmkQlJ2bK9j
     KYuWbi2Riki5NrKgXdauBdbXDgOGYQ973MMG9CUPQ4EOGPa6x2HvQ7f/Yt9L
     ybHjenG6AL7mvedc3nt4zuece3VufGtSnRvP7mUTJCFb6tzFf//xky8e/fm1
@@ -197,7 +197,7 @@ TEAM_DATA[:Tribe] = {
     u73X288fhvmj4uOXeZg/42H+7NlhFnmYP0GYmzx730ec3zwlziSJ21pR106p
     /lIJP3dkI6/fQ/W/FlV/Cb8rQrff8PdH1R82D5Saf3t/2dvOr6yu7y5pgrtY
     ChfKUvQTPkGuSHXDlG0cJapZspGXRbnwX5xFRo4=",
-  ["1v1_试炼-气场队_wDQ6kcudFo71vIX38PTN9e45", true] =>
+  "1v1_试炼-气场队_wDQ6kcudFo71vIX38PTN9e45" =>
     "eJy1mFuPI0cVgMeweMbj8WUue5nAEjIREO1mwZ77VC3B7XbZ7nG72+lu2+Od
     QNO2y3Zl7G7H3Z6dyW6ESCKBlNcESBQJCeUFBQkekJAQeck7gkg88MArt3/B
     qbbntvLeiJCmpqtOVVefOuc759TMpZn9WWllJnmYDKIgMaSVy//+zXv/evOP
@@ -248,7 +248,7 @@ TEAM_DATA[:Tribe] = {
     vkq9VqcuZHYrazVl3b27c7gpbSUL26fhv/vpr//8pMXgDg//908uIG+D429N
     jH/47t3My5sHjWEz62wlD6W9te2SoezQ9Q3/fwdBdE2EiklMKL3wB6PJo45k
     /gvzsG/f",
-  ["1v1_试炼-勤勉队_8GdlS6N3aUnrgJ954wD7B0cT", true] =>
+  "1v1_试炼-勤勉队_8GdlS6N3aUnrgJ954wD7B0cT" =>
     "eJylmMtzI0cdx61i0a4s6+HHvlIJEPM4ZNlEftvdC0xr1BqNNZrRzsOObYIY
     SW2p8WhGqxl515s4gVAEqFBwoKiCE1UUVVyo4hBu4c6VcOJIUbUFKf4Bjvx6
     JDveXdduNntoT/eve3p+/evP79stX7i0N6nOX1o4XEiiJLXV+cv/+dOv/v3u
@@ -299,7 +299,7 @@ TEAM_DATA[:Tribe] = {
     hQyNUzy0Py/+S+DxkcDjo6dfUo7Hl5RjoKP6KeUiVaO0CkxsCyZSNcYOxjCA
     g+tK27NW9SXX8QedzY2V5bultWKhZcf/b0iia7JjWrQBSQv32oa4k9LS/wEZ
     qHja",
-  ["1v1_试炼-善战队_M21ZpCW367Gc80qYehtilE5O", true] =>
+  "1v1_试炼-善战队_M21ZpCW367Gc80qYehtilE5O" =>
     "eJylV8tzG0kZlytZv2RLfsWOt1hgvSwFCQsjO351B5jRqEeaaKSR5yG/gKmR
     1bI6Hs3ImpETJ+uFgn1VceECtZet/RP4AzZXaq8UBwouXChg4W/gwNdj2She
     VZLdVKWj7q9nur/+fo8eXx/dH1eXRjMnmWE0TCx16cbnv//tv3755K1//O7d
@@ -346,7 +346,7 @@ TEAM_DATA[:Tribe] = {
     wTv98p8DG0JG2VyrnBwt+/pxZ+f+tlV6EJrrK+fwsuv/feVvqy+Krt1D96yH
     rv0s/cLepeXMXlveXllbzx9sCMe7tBkxj6zG9gGI3ZRtwyQOSEU1Cw7IJU9y
     /wPgDCGT",
-  ["2v2_试炼-忠诚队_8h4pamJr0Auy1637UGN5iDWR", true] =>
+  "2v2_试炼-忠诚队_8h4pamJr0Auy1637UGN5iDWR" =>
     "eJytmM1zG0kVwC1YHH/Jlm3la4ssrNlsQcKS8bfdHZZpjVrSRKMZMR9WFMPO
     jqy21Hg0o2hGTkyKr+XzsAeogqqtraKg+Af2wJWCGzeqqD1x4UIVxXIG7rwe
     SY6SeJMNy6E93a97Xr9+7/dej/zC1P6MujK1drw2iSapra6c/+C9X/zjrd+9

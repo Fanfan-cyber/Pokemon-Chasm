@@ -1,5 +1,5 @@
-TEAM_DATA[:Discord] = {
-  ["1v1_Uxie_sq3N19w47025LXgIFoVtKCxd", true] =>
+TEAM_DATA[[:discord, :unremovable, :random_curse]] = {
+  "1v1_Uxie_sq3N19w47025LXgIFoVtKCxd" =>
     "eJxNVM2S2kYQxhWHXf4Ws0s5qVScH5JbXC5YO+V4dJEshFe1LFAgtja1B9UI
     NWgKSSNrRhjiJ8gtxzxDKq+Q98gD5EHSM8Amt+6ve7p7vvl6Hp/eV93OaW/T
     K5Oy47mdynzLoGyUvPsyJ/UJX0PC0yvSMEUGCwaCVOZ3rkOq5pLnCSuRljIW

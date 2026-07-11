@@ -2,11 +2,43 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Battle Loader
   next unless TA.get(:battle_loader)
   trainer = e[0]
   next unless trainer
-  trainer.name = TA.get(:name)
-  trainer.policies.clear
-  trainer.policies.concat(TA.get(:curse))
-  trainer.party.clear
-  TA.get(:team).each { |pkmn| trainer.party << pkmn.clone_pkmn }
+  if TA.get(:single)
+    trainer.policies.clear
+    trainer.policies.concat(TA.get(:curses))
+    trainer.party.clear
+    trainer.name = TA.get(:name)
+    TA.get(:team).each { |pkmn| trainer.party << pkmn.clone_pkmn }
+  elsif TA.get(:double)
+    trainer.policies.clear
+    trainer.policies.concat(TA.get(:curses))
+    trainer.party.clear
+    if TA.get(:team1)
+      trainer.name = TA.get(:name1)
+      TA.get(:team1).each { |pkmn| trainer.party << pkmn.clone_pkmn }
+      TA.set(:team1, nil)
+    elsif TA.get(:team2)
+      trainer.name = TA.get(:name2)
+      TA.get(:team2).each { |pkmn| trainer.party << pkmn.clone_pkmn }
+      TA.set(:team2, nil)
+    end
+  else
+    trainer.policies.clear
+    trainer.policies.concat(TA.get(:curses))
+    trainer.party.clear
+    if TA.get(:team1)
+      trainer.name = TA.get(:name1)
+      TA.get(:team1).each { |pkmn| trainer.party << pkmn.clone_pkmn }
+      TA.set(:team1, nil)
+    elsif TA.get(:team2)
+      trainer.name = TA.get(:name2)
+      TA.get(:team2).each { |pkmn| trainer.party << pkmn.clone_pkmn }
+      TA.set(:team2, nil)
+    else
+      trainer.name = TA.get(:name3)
+      TA.get(:team3).each { |pkmn| trainer.party << pkmn.clone_pkmn }
+      TA.set(:team3, nil)
+    end
+  end
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Pokemon Copying
@@ -17,7 +49,6 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Pokemon Copying
   next if trainer.trainer_type == :ABSOL
   party = trainer.party
   if party.length < $Trainer.party.length || TA.get(:copywhatever)
-    #copied_pkmn = $Trainer.party_random_pkmn(false, true, false, TA.get(:copied_mon, []))
     copied_pkmn = $Trainer.most_battled_pkmn(party)
     next unless copied_pkmn
     copied_pkmn.copied_level = copied_pkmn.level
@@ -26,7 +57,6 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Pokemon Copying
 }
 
 Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Illusion shuffling
-  #next if TA.get(:battle_loader)
   trainer = e[0]
   next unless trainer
   party = trainer.party
@@ -102,7 +132,6 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Custom Ability Mode
   next unless trainer
   trainer.party.each do |pkmn|
     next if pkmn.has_main_ability?
-    #pkmn.ability = TA.choose_random_ability(pkmn)
     possible_abil = TA.choose_random_ability_from_player(pkmn)
     pkmn.public_send(:ability=, possible_abil, false) if possible_abil
   end

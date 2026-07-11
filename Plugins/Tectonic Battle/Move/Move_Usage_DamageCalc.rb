@@ -381,7 +381,7 @@ class PokeBattle_Move
     end
 
     def stabActive?(user, target, type, checkingForAI = false)
-        return false if user.pbOwnedByPlayer? && @battle.curses.include?(:DULLED)
+        return false if user.pbOwnedByPlayer? && @battle.curseActive?(:CURSE_DULLED)
         return false if @battle.pbCheckGlobalAbility(:SIGNALJAM)
 
         if user.shouldAbilityApply?(:IMPRESSIONABLE, checkingForAI)

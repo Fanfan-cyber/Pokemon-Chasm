@@ -8,12 +8,15 @@ module BattleLoader
   BATTLE_LOADER_PATH = "Team Data"
   @@battle_loader    = []
   @@coded_teams      = []
+  @@all_pkmn         = []
+  @@all_coded_pkmn   = []
   @@refresh          = true
 
   def self.load_data
     return unless @@refresh
     Dir.mkdir(BATTLE_LOADER_PATH) rescue nil
     @@battle_loader.clear
+    @@all_pkmn.clear
 
     # teams from text
     teams_data = Dir.glob("#{BATTLE_LOADER_PATH}/*.txt")
@@ -23,21 +26,24 @@ module BattleLoader
       team = TeamData.new(rule: team_data[0], name: team_data[1], team: team_data[2], unique_id: team_data[3], curses: team_data[4] || [], tags: team_data[5] || [])
       [:text, :removable].each { |tag| team.tags << tag }
       @@battle_loader.push(team)
+      @@all_pkmn.concat(team.team.flatten)
     end
-    @@battle_loader.sort_by!(&:first) # sort by rule
+    @@battle_loader.sort_by!(&:rule) # sort by rule
 
     # teams that hard-coded
     if @@coded_teams.empty? # only load once
-      TEAM_DATA.each do |tag, teams_data|
+      TEAM_DATA.each do |tags, teams_data|
         teams_data.each do |team_key, team_info| # the form of team_key is rule_name_unique_id, unused for now
           team_data = process_encrypted_data(team_info) # [rule, name, team, unique_id, curse, tag]
           team = TeamData.new(rule: team_data[0], name: team_data[1], team: team_data[2], unique_id: team_data[3], curses: team_data[4] || [], tags: team_data[5] || [])
-          [tag, :unremovable, :random_curse].each { |tag| team.tags << tag }
+          tags.each { |tag| team.tags << tag }
           @@coded_teams.push(team)
+          @@all_coded_pkmn.concat(team.team.flatten)
         end
       end
     end
     @@battle_loader.concat(@@coded_teams)
+    @@all_pkmn.concat(@@all_coded_pkmn)
 
     @@refresh = false
     PokemonDataBase.create_mass
@@ -83,50 +89,36 @@ module BattleLoader
     return if TA.get(:battle_loader)
     return if battle.is_replayed
     return unless battle.trainerBattle?
-    length = battle.opponent.length
-    return if length >= 3
     if pbConfirmMessageSerious(_INTL("Do you want to add the opposing team to the Battle Loader?"))
       load_data
       curse = battle.curses
-      rules = ["1v1", "2v2", "1v2", "2v1"]
-      ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, 0)
-      if ret >= 0
-        if length == 1
-          team = battle.pbParty(1)
-        else
-          team = []
-          battle.opponent.each_with_index do |trainer, index|
-            if index == 0
-              team.concat(trainer.party)
-            else
-              team.insert(1, trainer.party[0]) 
-              team.concat(trainer.party.drop_first)
-            end
-          end
-        end
-        team.each { |pkmn| pkmn.heal }
-        if pbConfirmMessage(_INTL("Would you like to give it a name?"))
-          name = pbEnterText(_INTL("What name?"), 0, 30)
-          if name.empty?
-            export_data(rules[ret], battle.opponent.sample.name, team, curse)
-          else
-            export_data(rules[ret], name, team, curse)
-          end
-        else
-          if length > 1
-            names = battle.opponent.map(&:name)
-            choose = pbMessage(_INTL("Which default name do you want to use?"), names, -1)
-            if choose >= 0
-              export_data(rules[ret], battle.opponent[choose].name, team, curse)
-            else
-              export_data(rules[ret], battle.opponent.sample.name, team, curse)
-            end
-          else
-            export_data(rules[ret], battle.opponent[0].name, team, curse)
-          end
-        end
-        pbMessage(_INTL("The team has been registered!"))
+      rule = nil
+
+      # record teams
+      length = battle.opponent.length
+      if length == 1
+        rules = ["1v1", "2v2", "1v2", "2v1"]
+        ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, 0)
+        rule = rules[ret]
+        team = battle.pbParty(1)
+      else
+        team = battle.opponent.map(&:party) # [party1, party2, party3]
       end
+      team.flatten.each { |pkmn| pkmn.heal }
+        
+      # name team
+      rule = rule || "#{length}v#{length}"
+      if pbConfirmMessage(_INTL("Would you like to give it a name?"))
+        name = pbEnterText(_INTL("What name?"), 0, 30)
+        if name.empty?
+          export_data(rule, battle.opponent.sample.name, team, curse)
+        else
+          export_data(rule, name, team, curse)
+        end
+      else
+        export_data(rule, battle.opponent.sample.name, team, curse)
+      end
+      pbMessage(_INTL("The team has been registered!"))
     end
   end
 
@@ -193,14 +185,7 @@ module BattleLoader
                   unique_id = teams[index][3]
                   INVALID_CURSE.each { |c| curse.delete(c) }
                   curse << get_random_curse if curse.empty?
-                  #rules = ["1v1", "2v2", "1v2", "2v1"]
-                  #rules.reject! {|other_rule| other_rule == rule }
-                  #ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
-                  #if ret >= 0
-                    #start_battle(rules[ret], team, curse, unique_id)
-                  #else
-                    start_battle(rule, team, curse, unique_id)
-                  #end
+                  start_battle(rule, team, curse, unique_id)
                 end
               end
             when 4 # Mirror Team
@@ -230,11 +215,15 @@ module BattleLoader
               index = pbMessage(_INTL("Which team do you want to challenge?"), teams_names, -1)
               if index >= 0
                 team = teams[index]
-                rules = ["1v1", "2v2", "1v2", "2v1"]
-                rules.reject! {|other_rule| other_rule == team.rule }
-                ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
-                if ret >= 0
-                  start_battle(team, rules[ret])
+                if team.team.pure?
+                  rules = ["1v1", "2v2", "1v2", "2v1"]
+                  rules.reject! {|other_rule| other_rule == team.rule }
+                  ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
+                  if ret >= 0
+                    start_battle(team, rules[ret])
+                  else
+                    start_battle(team)
+                  end
                 else
                   start_battle(team)
                 end
@@ -318,7 +307,7 @@ module BattleLoader
     { :CUSTOM_INFINITE_SCREEN => _INTL("The Screen Effects will never end during this battle!"), }
   end
 
-  def self.export_team
+  def self.export_team # Screen Capture
     load_data
     export_data("1v1")
     pbMessage(_INTL("Your team has been exported!"))
@@ -326,24 +315,18 @@ module BattleLoader
 
   def self.get_all_teams
     load_data
-    @@battle_loader.map { |team_data| team_data[2] }
+    @@battle_loader
   end
 
   def self.get_all_pkmn
-    get_all_teams.flatten
+    load_data
+    @@all_pkmn
   end
 
   def self.each_pokemon
-    TA.get(:team).each do |pokemon|
+    TA.get(:team).flatten.each do |pokemon|
       yield pokemon, _INTL("the Battle Loader")
     end
-=begin
-    @@battle_loader.each do |team_info|
-      team_info[2].each do |pokemon|
-        yield pokemon, _INTL("the Battle Loader")
-      end
-    end
-=end
   end
 
   def self.check_legality
@@ -351,47 +334,63 @@ module BattleLoader
     removeIllegalElementsFromAllPokemon(nil, method_object)
   end
 
-  def self.get_random_pkmn_team
-    battle_loader_data = @@battle_loader.map { |team_data| team_data[2] }
-    pkmn_data_base = PokemonDataBase.get_pkmn_data_base
-    battle_loader_data.concat(pkmn_data_base).flatten!.sample(6)
+  INVALID_CURSE = %i[CURSE_DELEVELED CURSE_BOOSTED_ELECTRIC CURSE_FIGHT_EXTENDED CURSE_NO_MERCY CURSE_SUPER_ITEMS
+                     CURSE_NO_MERCY_2 CURSE_AVATAR_GUARD CURSE_EXTRA_TYPES CURSE_SAND_ABILITIES CURSE_EXTRA_MOVES
+                     CURSE_EXTRA_ITEMS CURSE_NO_MERCY_3 CURSE_NO_MERCY_4]
+
+  @@available_curses = []
+  def self.get_random_curse
+    if @@available_curses.empty?
+      GameData::Policy::DATA.each_key do |policy|
+        next if INVALID_CURSE.include?(policy)
+        next unless policy.to_s.start_with?("CURSE_")
+        @@available_curses.push(policy)
+      end
+    end
+    @@available_curses.sample
   end
 
-  INVALID_CURSE = %i[CURSE_DELEVELED CURSE_BOOSTED_ELECTRIC CURSE_DULLED CURSE_FIGHT_EXTENDED CURSE_NO_MERCY
-                     CURSE_SUPER_ITEMS CURSE_NO_MERCY_2 CURSE_AVATAR_GUARD CURSE_EXTRA_TYPES CURSE_SAND_ABILITIES
-                     CURSE_EXTRA_ITEMS CURSE_NO_MERCY_3 CURSE_NO_MERCY_4] # need to check
-
-  def self.get_random_curse
-    curses = []
-    GameData::Policy::DATA.each_key do |policy|
-      next if INVALID_CURSE.include?(policy)
-      next unless policy.to_s.start_with?("CURSE_")
-      curses.push(policy)
-    end
-    curses.sample
+  def self.get_random_trainer_data
+    TA.set(:name,  [BOY_NAMES, GIRL_NAMES].sample.sample)
+    TA.set(:name1, [BOY_NAMES, GIRL_NAMES].sample.sample)
+    TA.set(:name2, [BOY_NAMES, GIRL_NAMES].sample.sample)
+    TA.set(:name3, [BOY_NAMES, GIRL_NAMES].sample.sample)
+    trainer = GameData::Trainer.values.sample
+    return trainer
   end
 
   def self.start_battle(team, force_rule = nil)
     INVALID_CURSE.each { |curse| team.curses.delete(curse) }
     team.curses << get_random_curse if team.curses.empty? && team.tags.include?(:random_curse)
-    setBattleRule(force_rule || team.rule)
     TA.set(:battle_loader, true)
+    TA.set(:curses, team.curses)
     TA.set(:team, team.team)
-    TA.set(:curse, team.curses)
     check_legality
-    trainer = GameData::Trainer.values.sample
-    trainer_type = trainer.trainer_type
-    trainer_type_data = GameData::TrainerType.get(trainer_type)
-    if trainer_type_data.male?
-      TA.set(:name, BOY_NAMES.sample)
-    elsif trainer_type_data.female?
-      TA.set(:name, GIRL_NAMES.sample)
-    else
-      TA.set(:name, _INTL("Unknown"))
-    end
     begin
-      #pbTrainerBattle(:LEADER_Lambert, "Lambert", nil, false, 0, true)
-      win = pbTrainerBattle(trainer_type, trainer.real_name, nil, false, 0, true)
+      if team.team.pure?
+        TA.set(:single, true)
+        setBattleRule(force_rule || team.rule)
+        trainer = get_random_trainer_data
+        #pbTrainerBattle(:LEADER_Lambert, "Lambert", nil, false, 0, true)
+        win = pbTrainerBattle(trainer.trainer_type, trainer.real_name, nil, false, 0, true)
+      elsif team.team.size == 2
+        TA.set(:double, true)
+        trainer1 = get_random_trainer_data
+        trainer2 = get_random_trainer_data
+        TA.set(:team1, team.team[0])
+        TA.set(:team2, team.team[1])
+        win = pbDoubleTrainerBattle(trainer1.trainer_type, trainer1.real_name, 0, nil, trainer2.trainer_type, trainer2.real_name, 0, nil, true)
+      elsif team.team.size == 3
+        TA.set(:triple, true)
+        TA.set(:team1, team.team[0])
+        TA.set(:team2, team.team[1])
+        TA.set(:team3, team.team[2])
+        trainer1 = get_random_trainer_data
+        trainer2 = get_random_trainer_data
+        trainer3 = get_random_trainer_data
+        win = pbTripleTrainerBattle(trainer1.trainer_type, trainer1.real_name, 0, nil, trainer2.trainer_type, trainer2.real_name, 0, nil, trainer3.trainer_type, trainer3.real_name, 0, nil, true)
+      end
+
       if win
         TA.increase(:battle_victory)
         battle_loader_teams = $Trainer.battle_loader_teams
@@ -402,54 +401,14 @@ module BattleLoader
     rescue
       start_battle(team, force_rule)
     ensure
-      TA.set(:battle_loader, false) 
+      TA.set(:battle_loader, false)
+      TA.set(:single, false)
+      TA.set(:double, false)
+      TA.set(:triple, false)
+      TA.set(:team, nil)
+      TA.set(:team1, nil)
+      TA.set(:team2, nil)
+      TA.set(:team3, nil)
     end
-  end
-end
-
-module PokemonDataBase
-  PKMN_DATA_AMOUNT  = 30
-  LOWEST_PKMN_BST   = 400
-  LOWEST_MOVE_POWER = 65
-
-  @@pkmn_data = []
-
-  def self.create_pkmn
-    species_list = GameData::Species.keys.shuffle
-    species_list.each do |species|
-      species_data = GameData::Species.get(species)
-      next if species_data.isTest?
-      next if species_data.base_stat_total < LOWEST_PKMN_BST
-      pkmn = Pokemon.new(species_data.id, 1)
-      learn_random_moves(pkmn, species_data)
-      pkmn.calc_stats
-      @@pkmn_data << pkmn
-      return pkmn
-    end
-  end
-
-  def self.learn_random_moves(pkmn, species_data = nil)
-    pkmn.forget_all_moves
-    species_data = GameData::Species.get(pkmn.species) unless species_data
-    legal_moves = species_data.learnable_moves.shuffle
-    legal_moves.each do |move|
-      move_data = GameData::Move.get(move)
-      next if move_data.base_damage < LOWEST_MOVE_POWER
-      pkmn.learn_move(move_data)
-      break if pkmn.moves.size == Pokemon::MAX_MOVES
-    end
-    legal_moves.each do |move|
-      break if pkmn.moves.size == Pokemon::MAX_MOVES
-      move_data = GameData::Move.get(move)
-      pkmn.learn_move(move_data)
-    end
-  end
-
-  def self.create_mass
-    PKMN_DATA_AMOUNT.times { create_pkmn }
-  end
-
-  def self.get_pkmn_data_base
-    @@pkmn_data
   end
 end
