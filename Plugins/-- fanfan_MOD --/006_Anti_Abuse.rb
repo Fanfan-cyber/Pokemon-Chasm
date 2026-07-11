@@ -182,7 +182,7 @@ module AntiAbuse
     unless GO_SOURCE_CHECK
       pbMessage(_INTL("This mod was created by Fanfan.\nIf you paid for it, you've been duped!"))
       pbMessage(_INTL("This mod is a hardcore game with extensive adjustments, and is not suitable for players with immature psychological age or non-hardcore gaming enthusiasts. Please be advised."))
-      pbMessage(_INTL("If you encounter difficulties, you can join QQ group 493645591 for help!\nYou can also check the release_version_mod.txt file in the game folder for a basic introduction, available passwords, and complete update history!"))
+      pbMessage(_INTL("If you encounter difficulties, you can join QQ group 493645591 for help!\nYou can also check the release_version_mod.txt file that is printed by Changelog in the game folder for a basic introduction, available passwords, and complete update history!"))
       pbMessage(_INTL("This may be the hardest game you've ever played, but I assure you, it's also the most interesting and most balanced game you've ever played!"))
       check_promise
       pbMessage(_INTL("Have a good run!"))

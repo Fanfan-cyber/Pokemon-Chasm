@@ -32,11 +32,11 @@ class WhoAmI_Scene
       pbMEPlay("Who am I Q")
     end
 
-    @species_arr = @all_species.sample(3)
+    @species_arr = @all_species.sample(3) # id
     @names = @species_arr.map { |s| GameData::Species.get(s).name }
 
-    @species = @species_arr.sample
-    @real_species = GameData::Species.get(@species).species
+    @species = @species_arr.sample # id
+    @real_species = GameData::Species.get(@species).species # species
     @name = GameData::Species.get(@species).name
 
     @selection = 0
@@ -144,7 +144,7 @@ class WhoAmI_Scene
     @sprites["text"].bitmap.clear
     @sprites["info"].bitmap.clear
 
-    if !@press_back && @species_arr[@selection] == @species
+    if !@press_back && GameData::Species.get(@species_arr[@selection]).species == @real_species
       msg = _INTL("You got it right!")
       apply_award
     else

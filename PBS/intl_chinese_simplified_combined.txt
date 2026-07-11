@@ -62303,8 +62303,8 @@ This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
 这个模组是由芳芳制作的。<<n>>如果你为这个模组付了钱，那么你被骗了！
 This mod is a hardcore game with extensive adjustments, and is not suitable for players with immature psychological age or non-hardcore gaming enthusiasts. Please be advised.
 本模组为难度游戏，且进行了大量的调整，不适合心理年龄未成年者和非难度游戏爱好者，请知悉。
-If you encounter difficulties, you can join QQ group 493645591 for help!<<n>>You can also check the release_version_mod.txt file in the game folder for a basic introduction, available passwords, and complete update history!
-如果你遇到了困难，可以加群493645591获取帮助！<<n>>你也可以查看游戏文件夹里的release_version_mod.txt获取游戏的基本介绍、可用密码，以及全部的更新记录！
+If you encounter difficulties, you can join QQ group 493645591 for help!<<n>>You can also check the release_version_mod.txt file that is printed by Changelog in the game folder for a basic introduction, available passwords, and complete update history!
+如果你遇到了困难，可以加群493645591获取帮助！<<n>>你也可以查看通过更新日志生成的在游戏文件夹里的release_version_mod.txt获取游戏的基本介绍、可用密码，以及全部的更新记录！
 This may be the hardest game you've ever played, but I assure you, it's also the most interesting and most balanced game you've ever played!
 这可能是你玩过的最难的游戏，但我也向你保证，这同时也是你玩过的最有趣和最平衡的游戏！
 Have a good run!

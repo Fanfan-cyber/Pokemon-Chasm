@@ -77,6 +77,7 @@ module BattleLoader
     if show_message
       if deleted
         pbMessage(_INTL("Team {1} has been deleted!", unique_id))
+        $Trainer.battle_loader_teams.delete(unique_id)
       else
         pbMessage(_INTL("The team can't be deleted!"))
       end
@@ -105,7 +106,7 @@ module BattleLoader
         team = battle.opponent.map(&:party) # [party1, party2, party3]
       end
       team.flatten.each { |pkmn| pkmn.heal }
-        
+
       # name team
       rule = rule || "#{length}v#{length}"
       if pbConfirmMessage(_INTL("Would you like to give it a name?"))
@@ -122,183 +123,165 @@ module BattleLoader
     end
   end
 
+  def self.delete_team
+    load_data
+    if @@battle_loader.empty?
+      pbMessage(_INTL("There aren't any teams in the Battle Loader!"))
+    else
+      teams = @@battle_loader.select { |team| team.tags.include?(:removable) }
+      teams_names = teams.map { |team| "#{team.rule} #{team.name}" }
+      index = pbMessage(_INTL("Which team do you want to delete?"), teams_names, -1)
+      if index >= 0 && pbConfirmMessage(_INTL("Do you really want to delete it?"))
+        unique_id = teams[index].unique_id
+        delete_data(unique_id)
+      end
+    end
+  end
+
+  def self.export_player_team
+    load_data
+    rules = ["1v1", "2v2", "1v2", "2v1"]
+    ret = pbMessage(_INTL("Which battle rule do you want?"), rules, -1)
+    if ret >= 0
+      name = ""
+      if pbConfirmMessage(_INTL("Would you like to give it a name?"))
+        name = pbEnterText(_INTL("What name?"), 0, 30)
+      end
+      add_curses = []
+      if pbConfirmMessage(_INTL("Would you like to give it a Curse Effect?"))
+        curses_names = get_curses.map(&:to_s)
+        curse_index = pbMessage(_INTL("Which Curse Effect do you want?"), curses_names, -1)
+        add_curses << get_curses[curse_index] if curse_index >= 0
+      end
+      if pbConfirmMessage(_INTL("Would you like to give it a Custom Effect?"))
+        curses_names = get_custom_effect.keys.map(&:to_s)
+        curse_index = pbMessage(_INTL("Which Custom Effect do you want?"), curses_names, -1)
+        add_curses << get_custom_effect[curse_index] if curse_index >= 0
+      end
+      export_data(rules[ret], name, nil, add_curses)
+      pbMessage(_INTL("Your team has been exported!"))
+    end
+  end
+
+  def self.copy_team
+    teams_names = @@battle_loader.map { |team| "#{team.rule} #{team.name}" }
+    index = pbMessage(_INTL("Which team do you want to copy?"), teams_names, -1)
+    if index >= 0
+      team_data = @@battle_loader[index]
+      team = team_data.team
+      TA.set(:team, team)
+      check_legality
+      $Trainer.party = team.flatten.map { |pkmn| pkmn.clone_pkmn(true, true) }
+      pbMessage(_INTL("Copied the party of {1}.", team_data.name))
+    end
+  end
+
+  def self.battle_choose_from_list(teams, force_rule = false, record = true)
+    teams_names = teams.map { |team| "#{team.rule} #{team.name}" << ($Trainer.battle_loader_teams.include?(team.unique_id) ? " V" : " ") }
+    index = pbMessage(_INTL("Which team do you want to challenge?"), teams_names, -1)
+    if index >= 0
+      team = teams[index]
+      battle_with_team(team, force_rule, record)
+    end
+  end
+
+  def self.battle_with_team(team_or_party, force_rule = false, record = false)
+    if team_or_party.is_a?(Array)
+      team_data = ["1v1", "", team_or_party, ""]
+      team = TeamData.new(rule: team_data[0], name: team_data[1], team: team_data[2], unique_id: team_data[3], curses: team_data[4] || [], tags: team_data[5] || [])
+    else
+      team = team_or_party
+    end
+    if team.team.pure? && force_rule
+      rules = ["1v1", "2v2", "1v2", "2v1"]
+      ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, -1)
+      if ret >= 0
+        start_battle(team, rules[ret], record)
+      else
+        start_battle(team, nil, record)
+      end
+    else
+      start_battle(team, nil, record)
+    end
+  end
+
+  def self.battle
+    load_data
+    if @@battle_loader.empty?
+      pbMessage(_INTL("There aren't any teams in the Battle Loader!"))
+    else
+      battle_mode = [_INTL("All Teams"), _INTL("Random Team"), _INTL("Random Pokémon Team"), _INTL("Former Champion Team"), _INTL("Mirror Team"), _INTL("Achievement Challenge"), _INTL("Cancel")]
+      battle_mode.insert(6, _INTL("Copy Team")) if $DEBUG
+      loop do
+        mode_chosen = pbMessage(_INTL("What do you want to do?"), battle_mode, -1)
+        case mode_chosen
+        when -1, 7 # Cancel
+          break
+        when 6 # Copy Team
+          break unless $DEBUG
+          copy_team
+        when 5 # Achievement Challenge
+          unless $Trainer&.checkBadge(8) || $DEBUG
+            pbMessage(_INTL("You can't take the Achievement Challenge, because you don't have 8 badges!"))
+            break
+          end
+          challenge_mode = [_INTL("Type"), _INTL("Tribe"), _INTL("Cancel")]
+          loop do
+            challenge_chosen = pbMessage(_INTL("Which do you want to challenge?"), challenge_mode, -1)
+            case challenge_chosen
+            when -1, 2
+              break
+            when 0 # Type
+              teams = @@battle_loader.select { |team| team.tags.include?(:type) }
+            when 1 # Tribe
+              teams = @@battle_loader.select { |team| team.tags.include?(:tribe) }
+            end
+            battle_choose_from_list(teams, false, true)
+          end
+        when 4 # Mirror Team
+          battle_with_team($Trainer.party, true, false)
+        when 3 # Former Champion Team
+          unless $Trainer&.checkBadge(6) || $DEBUG
+            pbMessage(_INTL("You can't challenge Former Champion Team, because you don't have 6 badges!"))
+            break
+          end
+          teams = @@battle_loader.select { |team| team.tags.include?(:group) }
+          battle_choose_from_list(teams, false, true)
+        when 2 # Random Pokémon Team
+          PokemonDataBase.create_mass
+          battle_with_team(get_all_pkmn.sample(6), true, false)
+          PokemonDataBase.create_mass
+        when 1 # Random Team
+          battle_with_team(@@battle_loader.sample, true, false)
+        when 0 # All Teams
+          teams = @@battle_loader.select { |team| team.tags.include?(:text) }
+          battle_choose_from_list(teams, true, true)
+        end
+      end
+    end
+  end
+
   def self.open_battle_loader
     unless $Trainer.has_pokemon?
       pbMessage(_INTL("You can't start a battle now because you don't have any Pokémon!"))
       return
     end
+    choice = [_INTL("Battle"), _INTL("Export Team"), _INTL("Delete Team"), _INTL("Check Stats"), _INTL("Check Recorded Teams"), _INTL("Cancel")]
     loop do
-      choice = [_INTL("Battle"), _INTL("Export Team"), _INTL("Delete Team"), _INTL("Check Stats"), _INTL("Check Recorded Teams"), _INTL("Cancel")]
       choose = pbMessage(_INTL("What do you want to do?"), choice, -1)
       case choose
       when -1, 5 # Cancel
         break
-      when 4
+      when 4 # Check Recorded Teams
         GymLeaderRematch.check_recorded_teams
       when 3 # Check Stats
         pbMessage(_INTL("Your Victory count is {1}!\nYour Defeat count is {2}!", TA.get(:battle_victory, 0), TA.get(:battle_defeat, 0)))
-      when 0 # Battle
-        load_data
-        if @@battle_loader.empty?
-          pbMessage(_INTL("There aren't any teams in the Battle Loader!"))
-        else
-          loop do
-            battle_mode = [_INTL("All Teams"), _INTL("Random Team"), _INTL("Random Pokémon Team"), _INTL("Former Champion Team"), _INTL("Mirror Team"), _INTL("Achievement Challenge"), _INTL("Cancel")]
-            battle_mode.insert(6, _INTL("Copy Team")) if $DEBUG
-            mode_chosen = pbMessage(_INTL("What do you want to do?"), battle_mode, -1)
-            case mode_chosen
-            when -1, 7 # Cancel
-              break
-            when 6 # Copy Team
-              break unless $DEBUG
-              names = @@battle_loader.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
-              index = pbMessage(_INTL("Which team do you want to copy?"), names, -1)
-              if index >= 0
-                team_data = @@battle_loader[index]
-                team = team_data[2]
-                TA.set(:team, team)
-                check_legality
-                $Trainer.party = team.map { |pkmn| pkmn.clone_pkmn(true, true) }
-                pbMessage(_INTL("Copied the party of {1}.", team_data[1]))
-              end
-            when 5 # Achievement Challenge
-              unless $Trainer&.checkBadge(8) || $DEBUG
-                pbMessage(_INTL("You can't take the Achievement Challenge, because you don't have 8 badges!"))
-                break
-              end
-              loop do
-                challenge_chosen = pbMessage(_INTL("Which do you want to challenge?"), [_INTL("Type"), _INTL("Tribe"), _INTL("Cancel")], -1)
-                case challenge_chosen
-                when -1, 2
-                  break
-                when 0 # Type
-                  teams = @@battle_loader.select { |team| team[6] == :Type }
-                when 1 # Tribe
-                  teams = @@battle_loader.select { |team| team[6] == :Tribe }
-                end
-                names = teams.map { |team_info| "#{team_info[0]} #{team_info[1]}" << ($Trainer.battle_loader_teams.include?(team_info[3]) ? " V" : " ") }
-                index = pbMessage(_INTL("Which team do you want to challenge?"), names, -1)
-                if index >= 0
-                  rule      = teams[index][0]
-                  team      = teams[index][2]
-                  curse     = teams[index][4]
-                  unique_id = teams[index][3]
-                  INVALID_CURSE.each { |c| curse.delete(c) }
-                  curse << get_random_curse if curse.empty?
-                  start_battle(rule, team, curse, unique_id)
-                end
-              end
-            when 4 # Mirror Team
-              rules = ["1v1", "2v2", "1v2", "2v1"]
-              ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, -1)
-              if ret >= 0
-                start_battle(rules[ret], $Trainer.party,)
-              else
-                #start_battle(rules[0], team, curse)
-              end
-            when 3 # Former Champion Team——group
-              if $Trainer&.checkBadge(6) || $DEBUG
-                teams = @@battle_loader.select { |team| team.tags.include?(:group) }
-                teams_names = teams.map { |team| "#{team.rule} #{team.name}" << ($Trainer.battle_loader_teams.include?(team.unique_id) ? " V" : " ") }
-                index = pbMessage(_INTL("Which team do you want to challenge?"), teams_names, -1)
-                if index >= 0
-                  team = teams[index]
-                  start_battle(team)
-                end
-              else
-                pbMessage(_INTL("You can't challenge Former Champion Team, because you don't have 6 badges!"))
-                break
-              end
-            when 0 # All Teams
-              teams = @@battle_loader.select { |team| team.tags.include?(:text) }
-              teams_names = teams.map { |team| "#{team.rule} #{team.name}" << ($Trainer.battle_loader_teams.include?(team.unique_id) ? " V" : " ") }
-              index = pbMessage(_INTL("Which team do you want to challenge?"), teams_names, -1)
-              if index >= 0
-                team = teams[index]
-                if team.team.pure?
-                  rules = ["1v1", "2v2", "1v2", "2v1"]
-                  rules.reject! {|other_rule| other_rule == team.rule }
-                  ret = pbMessage(_INTL("Do you want to use other battle rules?"), rules, -1)
-                  if ret >= 0
-                    start_battle(team, rules[ret])
-                  else
-                    start_battle(team)
-                  end
-                else
-                  start_battle(team)
-                end
-              end
-            when 1 # Random Team
-              random_chosen = @@battle_loader.sample
-              team  = random_chosen[2]
-              curse = random_chosen[4]
-              rules = ["1v1", "2v2", "1v2", "2v1"]
-              ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, -1)
-              if ret >= 0
-                start_battle(rules[ret], team, curse)
-              else
-                #start_battle(rules[0], team, curse)
-              end
-            when 2 # Random Pokémon Team
-              PokemonDataBase.create_mass
-              team = get_random_pkmn_team
-              rules = ["1v1", "2v2", "1v2", "2v1"]
-              ret = pbMessage(_INTL("Which battle rule do you want to use?"), rules, -1)
-              if ret >= 0
-                start_battle(rules[ret], team)
-              else
-                #start_battle(rules[0], team)
-              end
-              PokemonDataBase.create_mass
-            end
-          end
-        end
-      when 1 # Export Team
-        load_data
-        rules = ["1v1", "2v2", "1v2", "2v1"]
-        ret = pbMessage(_INTL("Which battle rule do you want?"), rules, -1)
-        if ret >= 0
-          name = ""
-          if pbConfirmMessage(_INTL("Would you like to give it a name?"))
-            name = pbEnterText(_INTL("What name?"), 0, 30)
-          end
-          curse = []
-          if pbConfirmMessage(_INTL("Would you like to give it a Curse Effect?"))
-            curses = []
-            GameData::Policy::DATA.each_key do |policy|
-              next if INVALID_CURSE.include?(policy)
-              policy = policy.to_s
-              next unless policy.start_with?("CURSE_")
-              curses.push(policy)
-            end
-            curse_index = pbMessage(_INTL("Which Curse Effect do you want?"), curses, -1)
-            curse << curses[curse_index].to_sym if curse_index >= 0
-          end
-          if pbConfirmMessage(_INTL("Would you like to give it a Custom Effect?"))
-            curses = []
-            get_custom_effect.each_key do |policy|
-              policy = policy.to_s
-              curses.push(policy)
-            end
-            curse_index = pbMessage(_INTL("Which Custom Effect do you want?"), curses, -1)
-            curse << curses[curse_index].to_sym if curse_index >= 0
-          end
-          export_data(rules[ret], name, nil, curse)
-          pbMessage(_INTL("Your team has been exported!"))
-        end
       when 2 # Delete Team
-        load_data
-        if @@battle_loader.empty?
-          pbMessage(_INTL("There aren't any teams in the Battle Loader!"))
-        else
-          teams = @@battle_loader.select { |team| team[5].nil? }
-          names = teams.map { |team_info| "#{team_info[0]} #{team_info[1]}" }
-          index = pbMessage(_INTL("Which team do you want to delete?"), names, -1)
-          if index >= 0 && pbConfirmMessage(_INTL("Do you really want to delete it?"))
-            unique_id = teams[index][3]
-            delete_data(unique_id)
-          end
-        end
+        delete_team
+      when 1 # Export Team
+        export_player_team
+      when 0 # Battle
+        battle
       end
     end
   end
@@ -339,7 +322,7 @@ module BattleLoader
                      CURSE_EXTRA_ITEMS CURSE_NO_MERCY_3 CURSE_NO_MERCY_4]
 
   @@available_curses = []
-  def self.get_random_curse
+  def self.get_curses
     if @@available_curses.empty?
       GameData::Policy::DATA.each_key do |policy|
         next if INVALID_CURSE.include?(policy)
@@ -347,7 +330,11 @@ module BattleLoader
         @@available_curses.push(policy)
       end
     end
-    @@available_curses.sample
+    @@available_curses
+  end
+
+  def self.get_random_curse
+    get_curses.sample
   end
 
   def self.get_random_trainer_data
@@ -359,7 +346,7 @@ module BattleLoader
     return trainer
   end
 
-  def self.start_battle(team, force_rule = nil)
+  def self.start_battle(team, force_rule = nil, record = true)
     INVALID_CURSE.each { |curse| team.curses.delete(curse) }
     team.curses << get_random_curse if team.curses.empty? && team.tags.include?(:random_curse)
     TA.set(:battle_loader, true)
@@ -394,7 +381,7 @@ module BattleLoader
       if win
         TA.increase(:battle_victory)
         battle_loader_teams = $Trainer.battle_loader_teams
-        battle_loader_teams << team.unique_id unless battle_loader_teams.include?(team.unique_id)
+        battle_loader_teams << team.unique_id if record && !team.unique_id.empty? && !battle_loader_teams.include?(team.unique_id)
       else
         TA.increase(:battle_defeat)
       end
