@@ -7605,7 +7605,7 @@ Name = M. Marshtomp
 Type1 = DRAGON
 Type2 = GROUND
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 100,50,50,75,80,50
+BaseStats = 105,45,50,75,80,50
 # Total = 405
 BaseEXP = 142
 Rareness = 80
@@ -7623,8 +7623,8 @@ Name = M. Swampert
 Type1 = DRAGON
 Type2 = GROUND
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 135,50,75,90,100,75
-# Total = 525
+BaseStats = 135,60,75,90,100,75
+# Total = 535
 BaseEXP = 241
 Rareness = 35
 Abilities = TREMORSENSE,REGENERATOR
