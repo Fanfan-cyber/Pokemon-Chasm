@@ -2121,7 +2121,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = DoubleDamageLastMoveFailed
 Flags = CanProtect,Kick
-Description = The user attacks driven by frustration. Power increases if previous move failed.
+Description = The user attacks driven by frustration. Power doubles if previous move failed.
 #-------------------------------
 [THOUSANDARROWS]
 Name = Thousand Arrows
