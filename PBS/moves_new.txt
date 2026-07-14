@@ -1592,6 +1592,20 @@ EffectChance = 100
 Description = The user lashes the target with its corroded tail. This hits Steel-types for neutral damage and lowers Defense.
 Animation = CROSSPOISON
 #-------------------------------
+[BATTERYACID]
+Name = Battery Acid
+Type = POISON
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Numb
+Flags = CanProtect
+EffectChance = 30
+Description = The user sprays the target with a corrosive chemical solution. It has a 30% chance to numb.
+Animation = ACIDSPRAY
+#-------------------------------
 [BLIGHT]
 Name = Blight
 Type = POISON
@@ -2055,6 +2069,20 @@ FunctionCode = BindTarget3
 Flags = CanProtect
 Description = The user opens a pit beneath the target, trapping and binding it for three turns.
 Animation = SANDTOMB
+#-------------------------------
+[PLOW]
+Name = Plow
+Type = GROUND
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = Leech
+Flags = CanProtect
+EffectChance = 30
+Description = The user churns the ground underneath the target, entangling them in plant matter. It has a 30% chance to leech.
+Animation = ROTOTILLER
 #-------------------------------
 [PULVERIZERCHORD]
 Name = Pulverizer Chord
@@ -7053,9 +7081,9 @@ Animation = ICEBEAM
 Name = Hypothermiate
 Type = ICE
 Category = Special
-Power = 80
+Power = 70
 Accuracy = 100
-TotalPP = 12
+TotalPP = 15
 Target = NearOther
 FunctionCode = ReverseTargetHealingThisTurn
 Flags = CanProtect
