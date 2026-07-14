@@ -1408,6 +1408,9 @@ GameData::BattleEffect.register_effect(:Battler, {
     :apply_proc => proc do |battle, battler, _value|
         battle.pbDisplay(_INTL("{1} put up a substitute!", battler.pbThis))
     end,
+    :switch_out_proc => proc do |battle, battler, value|
+        battler.pbRecoverHP(value, false, false, false) if battler.canHeal?
+    end,
 })
 
 GameData::BattleEffect.register_effect(:Battler, {

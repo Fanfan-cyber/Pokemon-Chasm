@@ -39,6 +39,9 @@ class PokeBattle_Battler
         @increment_proc = proc do |effectData, increment|
             effectData.increment_battler(@battle, self, increment)
         end
+        @switch_out_proc = proc do |effectData|
+            effectData.switch_out_battler(@battle, self)
+        end
     end
 
     def pbInitBlank

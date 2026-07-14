@@ -160,6 +160,10 @@ module GameData
             return !@disable_proc.nil?
         end
 
+        def has_switch_out_proc?
+            return !@switch_out_proc.nil?
+        end
+
         def has_eor_proc?
             return !@eor_proc.nil?
         end
@@ -233,6 +237,9 @@ module GameData
             # Called when the effect is applied by an action
             @apply_proc             = hash[:apply_proc]
 
+            # Called on switch out if active.
+            @switch_out_proc       = hash[:switch_out_proc]
+            
             # Called at the end of every round if active.
             @eor_proc               = hash[:eor_proc]
 
@@ -536,6 +543,12 @@ module GameData
         def eor_field(battle)
             value = battle.field.effects[@id]
             @eor_proc.call(battle, value) if @eor_proc
+        end
+
+        ### Methods dealing with effects on switch out
+        def switch_out_battler(battle, battler)
+            value = battler.effects[@id]
+            @switch_out_proc.call(battle, battler, value) if @switch_out_proc
         end
 
         ### Methods dealing with effects at the start of each round

@@ -36583,8 +36583,8 @@ The user heals itself by half of its max HP, or 66% in sandstorm.
 使用者回复自身最大HP的一半。沙暴时可回复66%。
 The user lays a hazard layer of Spikes on the foe's side. Foes that switch into battle are hurt a bit for each layer.
 使用者在对手脚下放置一层菱。替换进入战斗的对手会因每一层而受到一些伤害。
-The user attacks driven by frustration. Power increases if previous move failed.
-化悔恨为力量进行攻击。如果上1回合技能没有命中，威力就会翻倍。
+The user attacks driven by frustration. Power doubles if previous move failed.
+化悔恨为力量进行攻击。如果上一回合技能失败了，威力就会翻倍。
 This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground.
 可以命中浮在空中的精灵。空中的对手被击落后，会掉到地面。
 The user attacks with a wave that crawls along the ground. Those it hits are trapped.
@@ -41110,14 +41110,14 @@ Weakens a Normal-type attack against the holding Pokémon by 50%.
 让精灵携带后，在受到一般属性技能攻击时，能令其威力减小50%。
 If held by a Pokémon, it raises its Attack by two steps in a pinch.
 让精灵携带后，危急时，自身的物攻增加2级。
-If held by a Pokémon, it raises its Defense by two steps in a pinch.
-让精灵携带后，危急时，自身的物防增加2级。
+If held by a Pokémon, it raises its Defense by three steps in a pinch.
+让精灵携带后，危急时，自身的物防增加3级。
 If held by a Pokémon, it raises its Speed by two steps in a pinch.
 让精灵携带后，危急时，自身的速度增加2级。
 If held by a Pokémon, it raises its Sp. Atk by two steps in a pinch.
 让精灵携带后，危急时，自身的特攻增加2级。
-If held by a Pokémon, it raises its Sp. Def by two steps in a pinch.
-让精灵携带后，危急时，自身的特防增加2级。
+If held by a Pokémon, it raises its Sp. Def by three steps in a pinch.
+让精灵携带后，危急时，自身的特防增加3级。
 If held by a Pokémon, it raises its critical-hit ratio in a pinch.
 让精灵携带后，危急时，攻击会变得容易命中要害。
 If held by a Pokémon, it raises one of its stats by three steps in a pinch.
@@ -41132,10 +41132,10 @@ If held by a Pokémon and a physical attack hits it, the attacker takes 25% HP d
 让精灵携带后，在受到物理类技能攻击时，对手会受到25%HP伤害。
 If held by a Pokémon and a special attack hits it, the attacker takes 25% HP damage.
 让精灵携带后，在受到特殊类技能攻击时，对手会受到25%HP伤害。
-If held by a Pokémon and a physical attack hits it, raises the holder's Defense by four steps.
-让精灵携带后，在受到物理类技能攻击时，物防增加4级。
-If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by four steps.
-让精灵携带后，在受到特殊类技能攻击时，特防增加4级。
+If held by a Pokémon and a physical attack hits it, raises the holder's Defense by three steps.
+让精灵携带后，在受到物理类技能攻击时，物防增加3级。
+If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by three steps.
+让精灵携带后，在受到特殊类技能攻击时，特防增加3级。
 A folding Bicycle that enables much faster movement than the Running Shoes.
 能比跑步鞋跑得还快的折叠式自行车。
 A very convenient map that can be viewed anytime. It even shows your present location.
