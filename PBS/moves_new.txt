@@ -1791,11 +1791,11 @@ Type = POISON
 Category = Status
 Accuracy = 0
 TotalPP = 10
-Target = NearFoe
+Target = NearOther
 Priority = -6
 FunctionCode = SwitchOutTargetAndUserStatusMove
 Flags = CanMagicCoat,Wind
-Description = The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
+Description = The target is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
 Animation = STINKCLOUD
 #-------------------------------
 [TOXICCRUNCH]
