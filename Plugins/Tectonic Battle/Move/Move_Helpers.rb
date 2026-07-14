@@ -16,6 +16,7 @@ class PokeBattle_Move
     end
 
     def shouldShade?(user, target)
+        return false
         return true if @pp == 0
         return true if pbMoveFailed?(user, [target], false)
         return true if pbFailsAgainstTargetAI?(user, target)

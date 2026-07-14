@@ -426,6 +426,7 @@ class PokeBattle_TargetStatDownMove < PokeBattle_Move
     end
 
     def shouldShade?(user, target)
+        return false
         failsWithTarget?(user, target, false, true)
     end
 
