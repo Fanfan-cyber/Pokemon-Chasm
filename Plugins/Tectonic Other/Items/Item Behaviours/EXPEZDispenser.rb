@@ -90,6 +90,12 @@ ItemHandlers::UseOnPokemon.add(:EXPEZDISPENSER,proc { |item,pkmn,scene|
 	while true
 		newspecies = pkmn.check_evolution_on_level_up
 		break unless newspecies
+    if newspecies.is_a?(Array)
+        names = newspecies.map { |species| GameData::Species.get(species).name }
+        choose = pbMessage(_INTL("Which do you want to evolve to?"), names, -1)
+        break if choose == -1
+        newspecies = newspecies[choose]
+    end
 		evolutionSuccess = false
 		pbFadeOutInWithMusic do
 			evo = PokemonEvolutionScene.new
