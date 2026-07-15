@@ -33,12 +33,22 @@ module BattleLoader
     # teams that hard-coded
     if @@coded_teams.empty? # only load once
       TEAM_DATA.each do |tags, teams_data|
-        teams_data.each do |team_key, team_info| # the form of team_key is rule_name_unique_id, unused for now
-          team_data = process_encrypted_data(team_info) # [rule, name, team, unique_id, curse, tag]
-          team = TeamData.new(rule: team_data[0], name: team_data[1], team: team_data[2], unique_id: team_data[3], curses: team_data[4] || [], tags: team_data[5] || [])
-          tags.each { |tag| team.tags << tag }
-          @@coded_teams.push(team)
-          @@all_coded_pkmn.concat(team.team.flatten)
+        if teams_data.is_a?(Array)
+          teams_data.each do |team|
+            team_data = process_encrypted_data(team) # [rule, name, team, unique_id, curse, tag]
+            team = TeamData.new(rule: team_data[0], name: team_data[1], team: team_data[2], unique_id: team_data[3], curses: team_data[4] || [], tags: team_data[5] || [])
+            tags.each { |tag| team.tags << tag }
+            @@coded_teams.push(team)
+            @@all_coded_pkmn.concat(team.team.flatten)
+          end
+        else
+          teams_data.each do |team_key, team_info| # the form of team_key is rule_name_unique_id, unused for now
+            team_data = process_encrypted_data(team_info) # [rule, name, team, unique_id, curse, tag]
+            team = TeamData.new(rule: team_data[0], name: team_data[1], team: team_data[2], unique_id: team_data[3], curses: team_data[4] || [], tags: team_data[5] || [])
+            tags.each { |tag| team.tags << tag }
+            @@coded_teams.push(team)
+            @@all_coded_pkmn.concat(team.team.flatten)
+          end
         end
       end
     end
@@ -177,7 +187,26 @@ module BattleLoader
   end
 
   def self.battle_choose_from_list(teams, force_rule = false, record = true)
-    teams_names = teams.map { |team| "#{team.rule} #{team.name}" << ($Trainer.battle_loader_teams.include?(team.unique_id) ? " V" : " ") }
+    teams_names = teams.map.with_index(1) do |team, idx|
+      if team.tags.include?(:discord)
+        team.rule = "1v1"
+        team.name = _INTL("Incognito") << "_#{idx.to_s.rjust(3, '0')}"
+        records = $Trainer.battle_loader_random_rocerd
+        if records.include?(team.unique_id) && records[team.unique_id][0]
+          team.team = records[team.unique_id][0]
+        else
+          party = team.team
+          loop do
+            break if party.size >= 6
+            party << get_all_pkmn.sample
+          end
+          records[team.unique_id] ||= []
+          records[team.unique_id][0] = party
+        end
+      end
+      "#{team.rule} #{team.name}" << ($Trainer.battle_loader_teams.include?(team.unique_id) ? " V" : " ")
+    end
+    
     index = pbMessage(_INTL("Which team do you want to challenge?"), teams_names, -1)
     if index >= 0
       team = teams[index]
@@ -245,8 +274,19 @@ module BattleLoader
             pbMessage(_INTL("You can't challenge Former Champion Team, because you don't have 6 badges!"))
             break
           end
-          teams = @@battle_loader.select { |team| team.tags.include?(:group) }
-          battle_choose_from_list(teams, false, true)
+          challenge_mode = [_INTL("Group"), _INTL("Discord"), _INTL("Cancel")]
+          loop do
+            challenge_chosen = pbMessage(_INTL("Which do you want to challenge?"), challenge_mode, -1)
+            case challenge_chosen
+            when -1, 2
+              break
+            when 0 # Group
+              teams = @@battle_loader.select { |team| team.tags.include?(:group) }
+            when 1 # Discord
+              teams = @@battle_loader.select { |team| team.tags.include?(:discord) }
+            end
+            battle_choose_from_list(teams, false, true)
+          end
         when 2 # Random Pokémon Team
           PokemonDataBase.create_mass
           battle_with_team(get_all_pkmn.sample(6), true, false)
@@ -348,11 +388,23 @@ module BattleLoader
 
   def self.start_battle(team, force_rule = nil, record = true)
     INVALID_CURSE.each { |curse| team.curses.delete(curse) }
-    team.curses << get_random_curse if team.curses.empty? && team.tags.include?(:random_curse)
+    records = $Trainer.battle_loader_random_rocerd
+    curses = team.curses
+    if records.include?(team.unique_id) && records[team.unique_id][1]
+      curses = records[team.unique_id][1]
+    else
+      if curses.empty? && team.tags.include?(:random_curse)
+        curses << get_random_curse
+        records[team.unique_id] ||= []
+        records[team.unique_id][1] = curses
+      end
+    end
+
     TA.set(:battle_loader, true)
-    TA.set(:curses, team.curses)
+    TA.set(:curses, curses)
     TA.set(:team, team.team)
     check_legality
+
     begin
       if team.team.pure?
         TA.set(:single, true)

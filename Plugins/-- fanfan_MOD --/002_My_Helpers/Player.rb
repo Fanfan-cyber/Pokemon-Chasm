@@ -45,6 +45,10 @@ class Player
     @battle_loader_teams ||= []
   end
 
+  def battle_loader_random_rocerd
+    @battle_loader_random_rocerd ||= {} # { unique_id => [team, curses]}
+  end
+
   def species_selected_abilities
     @species_selected_abilities ||= {}
   end
