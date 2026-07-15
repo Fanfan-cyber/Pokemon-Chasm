@@ -180,6 +180,11 @@ class WhoAmI_Scene
       $Trainer.money += (AWARD_MONEY * correct_times)
 
       pbReceiveItem(TOKENS.sample) if correct_times % 10 == 0 && (rand(10) < 1 || $DEBUG && rand(2) < 1)
+      if correct_times >= 500 && !TA.get(:mini_game_shiny)
+        pbReceiveItem(:GLEAMPOWDER)
+        TA.set(:mini_game_shiny, true)
+      end
+      pbReceiveItem(:GLEAMPOWDER) if rand(4096) < 1
     else
       TA.increase(:who_am_i_incorrect)
       $Trainer.money = [0, $Trainer.money - lose_money].max

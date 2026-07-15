@@ -57774,7 +57774,7 @@ Your Aid Kit already has the maximum healing amount.
 Your Aid Kit now heals an additional {1} HP per charge.
 你的医疗包现在会额外回复{1}点体力。
 You are too skilled to learn any more from a battle report.
-你现已登峰造极，没法从战斗报告中再学到更多了。
+你现在已经登峰造极，没法从战斗报告中再学到更多了。
 Walk
 步行
 It won't have any effect due to the level cap at {1}.
