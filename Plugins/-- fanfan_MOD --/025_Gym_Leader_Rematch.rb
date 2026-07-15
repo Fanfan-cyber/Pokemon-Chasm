@@ -157,17 +157,20 @@ def postGymSnapshot(badge_num)
   postBattleTeamSnapshot(_INTL("Badge {1} Team_{2}", badge_num, generate_unique_id), true)
   return if TA.get(:simplemode)
   result = $Trainer.gym_leader_rematch.process(badge_num)
+  pbReceiveItem(:RARECANDY)
   if result[0]
-    if badge_num == 6
+    case badge_num
+    when 1 # Lambert
+      CDKey.enter_cd_key(:packed)
+    when 6
       pbMessage(_INTL("You have defeated the 6th Gym Leader!\nNow you can challenge the Former Champions' teams in the Battle Loader.\nGood luck!"))
     end
   else
-    if badge_num == 5 # Bence and Joe
+    case badge_num
+    when 5 # Bence and Joe
       pbSetSelfSwitch(21, 'A', false)
     end
     playGmyLeaderRematchTutorial unless $PokemonGlobal.gmyLeaderRematchTutorialized
-    #pbReceiveItem(:EXPCANDYXL, badge_num + 1)
-    pbReceiveItem(:RARECANDY)
     pbMessage(_INTL("You did great, but you still need to defeat me {1} more time(s).\nYou can't use the Pokémon you've already used and you can check the recorded teams with the Battle Loader.\nKeep it up!", GymLeaderRematch.rematch_times(badge_num) - result[1]))
     pbFadeOutIn { pbStartOver { |mapName| _INTL("\\w[]\\wm\\c[12]\\l[3]You returned to {1} with your Pokémon, hoping to quickly come up with a strategy to defeat the Gym Leader...", mapName) } }
     command_end

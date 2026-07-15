@@ -41,8 +41,8 @@ module CDKey
     }
   end
 
-  def self.enter_cd_key
-    text = pbEnterText(_INTL("Enter a code."), 0, 30).downcase.to_sym
+  def self.enter_cd_key(text = "")
+    text = pbEnterText(_INTL("Enter a code."), 0, 30).downcase.to_sym if text.empty?
     return if text.empty?
     valid_code = false
     if @@pkmn_cd_key.key?(text)
