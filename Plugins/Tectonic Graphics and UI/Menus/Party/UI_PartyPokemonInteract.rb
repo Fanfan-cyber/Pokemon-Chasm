@@ -247,6 +247,8 @@ existingIndex)
         cmdSetTitle   = -1
         cmdSetTrait   = -1
         cmdSwapAbility = -1
+        cmdSetHueShift = -1
+        cmdSetShadeShift = -1
 
         # Build the commands
         newspecies = @pkmn.check_evolution_on_level_up(false)
@@ -266,6 +268,8 @@ existingIndex)
         commands[cmdSetDislike = commands.length]   = _INTL("Set Dislike") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
         commands[cmdSwapAbility = commands.length]  = _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX)
         commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
+        commands[cmdSetHueShift = commands.length]  = _INTL("Set Hue Shift")
+        commands[cmdSetShadeShift = commands.length]= _INTL("Set Shade Shift")
         commands[commands.length]                   = _INTL("Cancel")
 
         modifyCommand = @partyScene.pbShowCommands(_INTL("Do what with {1}?", @pkmn.name), commands)
@@ -399,6 +403,32 @@ existingIndex)
             pbStyleValueScreen(@pkmn)
         elsif cmdSwapAbility >= 0 && modifyCommand == cmdSwapAbility
             pbSwapAbility(@pkmn)
+        elsif cmdSetHueShift >= 0 && modifyCommand == cmdSetHueShift
+          if @pkmn.egg?
+            pbDisplay(_INTL("{1} is an egg.", @pkmn.name))
+          else
+            params = ChooseNumberParams.new
+            params.setNegativesAllowed(true)
+            params.setRange(-90, 90)
+            params.setDefaultValue(0)
+            newhueshift = pbMessageChooseNumber(
+              _INTL("Set {1}'s Hue Shift (Gameplay range is {2} to {3}).", @pkmn.name, -(Pokemon::HUE_SHIFT_RANGE/2), Pokemon::HUE_SHIFT_RANGE/2), params) { pbUpdate }
+            @pkmn.manual_hue_shift = newhueshift
+            pbRefreshSingle(@pkmnid)
+          end
+        elsif cmdSetShadeShift >= 0 && modifyCommand == cmdSetShadeShift
+          if @pkmn.egg?
+            pbDisplay(_INTL("{1} is an egg.", @pkmn.name))
+          else
+            params = ChooseNumberParams.new
+            params.setNegativesAllowed(true)
+            params.setRange(-160, 160)
+            params.setDefaultValue(0)
+            newshadeshift = pbMessageChooseNumber(
+              _INTL("Set {1}'s Shade Shift (Gameplay range is {2} to {3}).", @pkmn.name, -(Pokemon::SHADE_SHIFT_RANGE/2), Pokemon::SHADE_SHIFT_RANGE/2), params) { pbUpdate }
+            @pkmn.manual_shade_shift = newshadeshift
+            pbRefreshSingle(@pkmnid)
+          end
         end
 
         return false

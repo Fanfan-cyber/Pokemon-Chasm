@@ -614,6 +614,14 @@ East: Grouz
 东：古治镇
 North: Gigalith's Guts
 北：怪岩肠道
+Formation 4C, Gurdurr!
+铁骨土人，4C阵型！
+Get ready to block 'em!
+准备好挡住它们！
+Our defensive line collapsed...
+我们的防线崩溃了...
+We need to hit the gym. I hope Eko is taking challengers!
+我们需要去道馆，希望艾克会接受我们的挑战！
 Hey champ, how's it hanging?
 嘿冠军，最近怎么样?
 Recently got a few uhh... assets, that I'm looking to sell. Fell off of a Trainer's backpack.
@@ -634,14 +642,6 @@ You missing the cash? Hmm.
 唔，你说你手头紧？
 You've... got your own set of problems, huh?
 你...你也有自身的难处吧?
-Formation 4C, Gurdurr!
-铁骨土人，4C阵型！
-Get ready to block 'em!
-准备好挡住它们！
-Our defensive line collapsed...
-我们的防线崩溃了...
-We need to hit the gym. I hope Eko is taking challengers!
-我们需要去道馆，希望艾克会接受我们的挑战！
 Oh… you destroyed it.
 啊...你把它干掉了。
 I was watching that avatar, and you just… dismissed it.
@@ -708,6 +708,12 @@ I swear, if our fourth was here, we'd kick your teeth in! Where'd that chick run
 要是我们第4个队友在这里，肯定能把你打得满地找牙！那小妞到底跑哪去了？也太无组织无纪律了...
 I've taken worse! If you think I'm done protecting the boss, you don't know me!
 我什么局面没见过啊？你别以为我就这么放弃了，小瞧人也是有限度的！
+Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
+马凯亚是目前为数不多，仍允许进行考古创新研究的地区。你...莫不是竞争对手？
+Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
+这或许是让我尝试不同策略的预警，看来以后得更加谨慎地行事了...
+Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
+真是令人悲愤的耻辱感啊。看来马凯亚比我想象中更棘手...
 Excuse me! We were about to settle this in battle.
 不好意思，我们2个本打算通过战斗来解决问题的。
 But, fine, I guess we can find common ground in disposing of you.
@@ -732,30 +738,24 @@ You too, you old hag.
 还有你，碍事的老太婆！
 I think you'll find me back here so long as you keep trying to gain entrance, you entitled brat.
 不管你以后来多少次，我都会在这里挡住你的去路，自以为是的小鬼！
-Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
-马凯亚是目前为数不多，仍允许进行考古创新研究的地区。你...莫不是竞争对手？
-Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
-这或许是让我尝试不同策略的预警，看来以后得更加谨慎地行事了...
-Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
-真是令人悲愤的耻辱感啊。看来马凯亚比我想象中更棘手...
 Those Evolution Stones are all ours! You can't have any!
 那些进化石都是我们的！你一个也别想带走！
 Aagh! Fine! I'll leave! I've got my evolutions, anyways.
 啊啊！行吧！我走我走！反正我已经拿到想要的进化石了。
 ...I'll be back. I'll be back, and if I ever see you again, things're gonna be different. I swear I'll...
 ...我一定会回来的。下次再见到你，一切都会不同。我发誓...我一定会...
-The berry plant is growing.
-树果还在生长中。
+I refuse to let someone like her into the Academy.
+我不会允许她这样的人入学的。
+We have enough of her sort at the Academy as it stands...
+学校里她这样的学生已经太多了...
 Yo...so I heard there was like, some items to steal on this route?
 听说这是一条适合偷物品的路？
 I got nothin' to say. You good at battling.
 我无话可说，你很擅长对战。
 Bruh. Ok then, I guess.
 我觉得，差不多吧。
-I refuse to let someone like her into the Academy.
-我不会允许她这样的人入学的。
-We have enough of her sort at the Academy as it stands...
-学校里她这样的学生已经太多了...
+The berry plant is growing.
+树果还在生长中。
 Listen, kid, I'm gonna give you one last warning: you can either hit the road, or bite the dust. No? Fine. We'll do it the hard way.
 听着，小鬼，最后一次警告：要么滚蛋要么死！什么？好吧。那我们就用硬的。
 Hah, well, you win some, you lose some. I'm not so broken up about it.
@@ -3561,40 +3561,30 @@ Yes
 No
 没有
 [Map38]
-It’s Michi, Jovan’s Tropius. She seems to be hiding behind him.
-那是米奇，约凡的热带龙。她似乎藏在他的身后。
-It’s strange to see such a large creature look so worried.
-看到这么大的生物看起来如此担忧，真是奇怪。
+It’s a way to <imp>read up on an opponent’s team</imp> before battling them or even mid-battle.
+这是一种在对战前甚至对战中<imp>查看对手队伍</imp>的方法。
 Okay, now just to dig the moat!
 现在该挖护城河了！
 They beat us, sis....
 他们打败我们了，姐姐...
+It’s Michi, Jovan’s Tropius. She seems to be hiding behind him.
+那是米奇，约凡的热带龙。她似乎藏在他的身后。
+It’s strange to see such a large creature look so worried.
+看到这么大的生物看起来如此担忧，真是奇怪。
 East: Casaba Villa
 东：甜瓜度假区
-Didn't see me comin' did ya!?
-你没看到我在这里，对吧？
-You won't see me goin' will ya?
-我不会再让你发现的！
-I'll see you again. You won't see me!
-我会悄悄地接近你，在你发现我之前！
 I see some prize money on the horizon!
 哟，这不是行走的零花钱嘛！
 You know what? I'd best be spending me money instead of losin' it!
 早知道我就把钱花掉了，现在都便宜了你！
 Well, there goes me shore leave money.
 完了，休假资金没了。
-I developed a multi-hit attack during Lambert's self-defense course.
-我在兰伯特的防身术课堂上，学会了多重攻击。
-I don't get much chance to battle, though.
-不过我根本没什么用上的机会。
-Would you allow me the chance to teach my Multi Strike attack to your Pokemon?
-需要我将多重攻击教给你的某只精灵吗？
-It should be simple enough for many Pokemon.
-这对许多精灵来说应该足够简单。
-Ah, excellent!
-啊，太好了!
-Ah, pardon my indulgence in even asking.
-啊，打扰了。
+Didn't see me comin' did ya!?
+你没看到我在这里，对吧？
+You won't see me goin' will ya?
+我不会再让你发现的！
+I'll see you again. You won't see me!
+我会悄悄地接近你，在你发现我之前！
 You've checked the documents and returned! Will you accept the mind-reading Yungoos for a mere $3000?
 你查阅了文件后返回了！你会接受这只读心的猫鼬少吗？仅需3000金钱！
 Having trouble predicting your opponent's moves, my child?
@@ -3615,6 +3605,18 @@ Now, time to go treat myself to a salon day.
 现在，是时候去享受一下沙龙时光了。
 Make some more money and check your MasterDex! This is well worth it.
 多赚点钱，检查你的大师图鉴！这绝对值得。
+I developed a multi-hit attack during Lambert's self-defense course.
+我在兰伯特的防身术课堂上，学会了多重攻击。
+I don't get much chance to battle, though.
+不过我根本没什么用上的机会。
+Would you allow me the chance to teach my Multi Strike attack to your Pokemon?
+需要我将多重攻击教给你的某只精灵吗？
+It should be simple enough for many Pokemon.
+这对许多精灵来说应该足够简单。
+Ah, excellent!
+啊，太好了!
+Ah, pardon my indulgence in even asking.
+啊，打扰了。
 Wait a minute sis! This loser doesn't even have two pokemon!
 等下妹妹！这个菜鸡连两只精灵都没有！
 Really? Teeheehee, get lost, loser.
@@ -3631,6 +3633,8 @@ They beat us, sis...
 他们打败我们了，姐姐...
 Waaaaaah!
 哇啊啊啊！
+This is gonna be the best castle ever!
+它会是最好的城堡!
 Hey! Hey!
 嘿！嘿！
 Look at this cool Sentret! It's so so fast!
@@ -3653,8 +3657,6 @@ Why did nobody tell me the shop is closed??
 为什么没人告诉我商店关门了？？
 Aww...
 唔...
-This is gonna be the best castle ever!
-它会是最好的城堡!
 I burnth my thongue...
 咬到舌头了...
 You're theriothly too good!
@@ -3745,14 +3747,12 @@ Either way, I’m <i>lichen</i> this idea already!
 不管怎样，我已经<i>地衣</i>这个想法了！
 See you there.
 那里见。
-<i>Sniff sniff</i>
-<i>嗅嗅嗅</i>
-I can smell energy on you! We must battle!
-我能闻到你身上的能量！来战吧！
-The stench of defeat!
-失败的恶臭！
-Smell ya later!
-愿再闻其详！
+Wow, you found me again!
+哇，你又找到我了！
+A loss is a loss, I guess I owe you that second TM now.
+输了就是输了，这个技能机也给你了。
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+真好玩！嘿嘿！不过现在我要回去了，今天好开心！
 You know, I fancy myself quite the battler! Care to see?
 我觉得自身还是很擅长对战的！要不要见识一下？
 You... You're quite the battler...\wt[20]
@@ -3761,12 +3761,18 @@ I-I'm going to leave now.
 我...我得走了。
 You, defeat me? My goodness!
 这...怎么可能？我...输了？
-Wow, you found me again!
-哇，你又找到我了！
-A loss is a loss, I guess I owe you that second TM now.
-输了就是输了，这个技能机也给你了。
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
-真好玩！嘿嘿！不过现在我要回去了，今天好开心！
+<i>Sniff sniff</i>
+<i>嗅嗅嗅</i>
+I can smell energy on you! We must battle!
+我能闻到你身上的能量！来战吧！
+The stench of defeat!
+失败的恶臭！
+Smell ya later!
+愿再闻其详！
+I’m itching to get some more play with this team.
+我迫不及待想多用这支队伍打打。
+Finally using held items again! It’s refreshing.
+终于又用携带物了！真令人耳目一新。
 Wow, you got here fast!
 哇，你来得真快！
 Freakishly fast. How many trainers did you beat on your way here...?
@@ -3779,8 +3785,8 @@ This one goes back to the Team Chasm days.
 这东西可以追溯到裂隙队的时代。
 I found a bunch in an old storage container.
 我在一个旧储物箱里找到了一堆。
-It’s a way to <imp>read up on an opponent’s team</imp> before battling them.
-这是一种在与对手对战之前<imp>了解对手队伍</imp>的方法。
+It’s a way to <imp>read up on an opponent’s team</imp> before battling them or even mid-battle.
+It’s a way to <imp>read up on an opponent’s team</imp> before battling them or even mid-battle.
 I know, I know... the name is a bit silly. Thing doesn't even use X-rays.
 我知道，我知道...名字有点傻。这东西甚至都不用X光。
 But, hey, I work in R&D, not marketing.
@@ -3793,18 +3799,14 @@ Maybe we’ll see each other there.
 也许我们会在那里见面。
 Until then, best of luck against Lambert!
 直到那时，祝你对抗兰伯特好运！
-I’m itching to get some more play with this team.
-我迫不及待想多用这支队伍打打。
-Finally using held items again! It’s refreshing.
-终于又用携带物了！真令人耳目一新。
-Yes
-学
-No
-不学
 No way.
 不可能。
 Seems legit.
 看起来很正经。
+Yes
+学
+No
+不学
 Nah.
 不。
 Yeah.
@@ -10860,18 +10862,24 @@ Not interested.
 Sure, I'll adopt it.
 我来吧。
 [Map159]
-This Old Amber has been carved into a relief of a dog-like Pokémon.
-这块秘密琥珀被雕刻成了一只类似狗的精灵的浮雕。
-Travel Agency: Orre
-旅行社：奥雷
-This statue's smile feels malicious.
-这座雕像的微笑感觉充满恶意。
-It looms over you like it intends to devour you whole.
-它笼罩着你，仿佛打算将你整个吞噬。
 This looks like an abstract painting of a garden.
 这看起来是一幅花园的抽象画。
 On closer inspection, it's a painting of Vivillion's wings!
 仔细一看，这是一幅彩粉蝶翅膀的画！
+This statue's smile feels malicious.
+这座雕像的微笑感觉充满恶意。
+It looms over you like it intends to devour you whole.
+它笼罩着你，仿佛打算将你整个吞噬。
+Travel Agency: Orre
+旅行社：奥雷
+This Old Amber has been carved into a relief of a dog-like Pokémon.
+这块秘密琥珀被雕刻成了一只类似狗的精灵的浮雕。
+These flowers have a distinctive smell.
+这些花有一种独特的气味。
+It almost reminds you of perfume...
+它几乎让你想起了香水...
+Its wings look like a Pokéball!
+它的翅膀看起来像个精灵球！
 Ahem.
 咳咳。
 Pardon, that's my tea you're eying.
@@ -10886,34 +10894,18 @@ I'm not sure why you're so fixated on it, but I simply cannot drink it with you 
 我不明白你为什么这么执着于它，但你那样盯着，我根本没法喝。
 The gentleman behind the counter sputters a bit, but decides it's not worth it to chastise you.
 柜台后的绅士有点气急败坏，但决定责骂你不值得。
-Its wings look like a Pokéball!
-它的翅膀看起来像个精灵球！
-These flowers have a distinctive smell.
-这些花有一种独特的气味。
-It almost reminds you of perfume...
-它几乎让你想起了香水...
+It's full of packaging.
+里面全是包装。
+A tall pillar with a celestial symbol on top.
+一根高大的柱子，顶部有一个天体符号。
+A sign claims it's a scale replica of a pillar found at the Altar of the Moone!
+标牌声称这是月轮祭坛发现的柱子的等比例复制品！
 It's a little hard to see, but Makya and Alola have a lot in common.
 有点难以看出，但玛基亚和阿罗拉有很多共同点。
 Team Chasm has gone the way of Team Skull.
 裂隙队已经走上了骷髅队的道路。
 While Team Skull was never as menacing, both regions still have to deal with what comes next.
 虽然骷髅队从未那么具有威胁性，但两个地区仍然要应对接下来发生的事情。
-A tall pillar with a celestial symbol on top.
-一根高大的柱子，顶部有一个天体符号。
-A sign claims it's a scale replica of a pillar found at the Altar of the Moone!
-标牌声称这是月轮祭坛发现的柱子的等比例复制品！
-It's full of packaging.
-里面全是包装。
-The King and First Champion of Galar.
-伽勒尔的国王和第一任冠军。
-...at least according to the plaque.
-...至少根据牌匾是这么说的。
-Yo. I'm the travel guide to Orre.
-哟。我是奥雷的旅行向导。
-Yeah, this setup is pretty scuffed.
-是啊，这个布置挺简陋的。
-If you know what Orre's about and you're still here, you probably don't care about fanfare anyways.
-如果你知道奥雷是什么地方还留在这里，你可能根本不在乎繁文缛节。
 Travelling the globe really puts everything in perspective.
 环球旅行真的能让人看清一切。
 This young lass I met in Alola -- Lainie...? I think was her name.
@@ -10922,10 +10914,22 @@ She really was a curious character, but she gave me some amazing advice...
 她真是个古怪的角色，但她给了我一些很棒的建议...
 Anyways, I uh... got to go.
 总之，我呃...得走了。
-Lined with classic literature.
-排列着经典文学。
-Most of the spines look uncracked.
-大部分书脊看起来都未翻开过。
+Yo. I'm the travel guide to Orre.
+哟。我是奥雷的旅行向导。
+Yeah, this setup is pretty scuffed.
+是啊，这个布置挺简陋的。
+If you know what Orre's about and you're still here, you probably don't care about fanfare anyways.
+如果你知道奥雷是什么地方还留在这里，你可能根本不在乎繁文缛节。
+The King and First Champion of Galar.
+伽勒尔的国王和第一任冠军。
+...at least according to the plaque.
+...至少根据牌匾是这么说的。
+These crates are covered in stickers.
+这些板条箱上贴满了贴纸。
+It looks like imports from Orre go through heavy screening.
+看起来来自奥雷的进口货物要经过严格检查。
+A sign claims it's a scale replica of a pillar found at the Altar of the Sunne!
+标牌声称这是日轮祭坛发现的柱子的等比例复制品！
 Alola! Welcome to the Alolan Travel Agency!
 阿罗拉！欢迎来到阿罗拉旅行社！
 Here we can get you set up with a...
@@ -10970,26 +10974,26 @@ We owe you one kid. We can't get you a ticket since that would be, like, suuuuuu
 我们欠你一个人情，小子。我们不能给你弄票，因为那会是，呃，超级违法的。
 But we owe you one. A non-illegal one.
 但我们欠你一个人情。一个合法的人情。
-A sign claims it's a scale replica of a pillar found at the Altar of the Sunne!
-标牌声称这是日轮祭坛发现的柱子的等比例复制品！
-These crates are covered in stickers.
-这些板条箱上贴满了贴纸。
-It looks like imports from Orre go through heavy screening.
-看起来来自奥雷的进口货物要经过严格检查。
-You see your reflection on the glass of the clock, as time ticks on.
-随着时间流逝，你在钟表的玻璃上看到了自己的倒影。
-Travel Agency: Galar
-旅行社：伽勒尔
+Lined with classic literature.
+排列着经典文学。
+Most of the spines look uncracked.
+大部分书脊看起来都未翻开过。
 These flowers are rustling slightly...
 这些花正在轻轻摇曳...
 ...a Flabébé peeks out of hiding!
 ...一只花蓓蓓从藏身处探出头来！
-This plant looks well-pruned.
-这株植物看起来修剪得很好。
-There's a lot of places to travel in the world.
-世界上有很多地方可以去旅行。
-It's nice to see that other regions are open to Makya, despite all the stuff with Team Chasm.
-很高兴看到其他地区对玛基亚开放，尽管发生了裂隙队的那些事。
+Travel Agency: Galar
+旅行社：伽勒尔
+You see your reflection on the glass of the clock, as time ticks on.
+随着时间流逝，你在钟表的玻璃上看到了自己的倒影。
+Several different drawings of cheerful travel agency rooms.
+几张欢快的旅行社房间设计图。
+If these are serving as inspiration, this room has a long way to go.
+如果这些是用作灵感的话，这个房间还有很长的路要走。
+A globe, with Makya and various other regions highlighted.
+一个地球仪，玛基亚和其他各个地区被标注出来。
+It shows the most common shipment routes between them.
+它显示了它们之间最常见的运输路线。
 Well hello, young one.
 你好啊，年轻人。
 I'm rather spiritless right now. Not many people appreciate the noble history of Galar, I suppose.
@@ -11014,14 +11018,22 @@ When you're ready, you should take a trip to Galar.
 等你准备好了，你应该去伽勒尔旅行一趟。
 I'm sure the Trainers there would appreciate having you.
 我相信那里的训练师会很高兴有你的到来。
-A globe, with Makya and various other regions highlighted.
-一个地球仪，玛基亚和其他各个地区被标注出来。
-It shows the most common shipment routes between them.
-它显示了它们之间最常见的运输路线。
-Several different drawings of cheerful travel agency rooms.
-几张欢快的旅行社房间设计图。
-If these are serving as inspiration, this room has a long way to go.
-如果这些是用作灵感的话，这个房间还有很长的路要走。
+There's a lot of places to travel in the world.
+世界上有很多地方可以去旅行。
+It's nice to see that other regions are open to Makya, despite all the stuff with Team Chasm.
+很高兴看到其他地区对玛基亚开放，尽管发生了裂隙队的那些事。
+This plant looks well-pruned.
+这株植物看起来修剪得很好。
+A painting of a Pokéball in the process of being made.
+一幅正在制作中的精灵球的画。
+A machine is about to join the top and bottom halves together.
+一台机器即将把上下两半合在一起。
+A fancy pinboard, decorated with pictures of tropical sun.
+一块精美的布告板，装饰着热带阳光的照片。
+Alongside the pictures are various pricing plans.
+照片旁边是各种价格方案。
+Travel Agency: Alola
+旅行社：阿罗拉
 I've been on an journey all around the world to hone my artistic talents.
 我一直在世界各地旅行，磨练我的艺术才能。
 If you have a Vivillon, I could change its pattern to one from just about anywhere!
@@ -11030,20 +11042,14 @@ Fantastic! A true work of art, if I do say so myself.
 太棒了！如果我自己这么说的话，这真是一件艺术品。
 That's alright. Sometimes natural is best, after all!
 没关系。毕竟有时候自然才是最好的！
-Travel Agency: Alola
-旅行社：阿罗拉
-A fancy pinboard, decorated with pictures of tropical sun.
-一块精美的布告板，装饰着热带阳光的照片。
-Alongside the pictures are various pricing plans.
-照片旁边是各种价格方案。
-A painting of a Pokéball in the process of being made.
-一幅正在制作中的精灵球的画。
-A machine is about to join the top and bottom halves together.
-一台机器即将把上下两半合在一起。
-A note identifies this as a Galarica shrub.
-一张纸条标明这是伽勒卡灌木。
-It looks like some twigs have been snapped off.
-看起来有些小枝被折断了。
+Nothing's on display yet.
+还没有任何东西展出。
+Someone left a half-empty can of lemonade on one of the shelves.
+有人在一个架子上留下了一罐喝了一半的柠檬水。
+A display of colorful brochures.
+一排彩色宣传册的展示。
+Some are focused on regional battle specialties, while others highlight nature and culture.
+有些侧重于地区对战特色，而其他的则突出自然和文化。
 Interested in a little trip to Kalos, no?
 有兴趣去卡洛斯小旅行一下吗？
 Perhaps you are interested in visiting the grand city of Lumiose?
@@ -11052,30 +11058,28 @@ Or are you enticed by some landmarks like the Pokeball Factory or the Castle of 
 或者你被一些地标吸引，比如精灵球工厂或骑士城堡？
 Or are you one of those weirdos who want to visit Pikachu Land?
 或者你是那些想参观皮卡丘乐园的怪人之一？
-A display of colorful brochures.
-一排彩色宣传册的展示。
-Some are focused on regional battle specialties, while others highlight nature and culture.
-有些侧重于地区对战特色，而其他的则突出自然和文化。
-Nothing's on display yet.
-还没有任何东西展出。
-Someone left a half-empty can of lemonade on one of the shelves.
-有人在一个架子上留下了一罐喝了一半的柠檬水。
-Travel Agency: Kalos
-旅行社：卡洛斯
-It flutters its Fancy-patterned wings!
-它扇动着花纹翅膀！
-This statue's smile feels benevolent and kind.
-这座雕像的微笑感觉仁慈而和善。
-It peers down at you protectively.
-它保护性地俯视着你。
+A note identifies this as a Galarica shrub.
+一张纸条标明这是伽勒卡灌木。
+It looks like some twigs have been snapped off.
+看起来有些小枝被折断了。
 A painting of a garden.
 一幅花园的画。
 The closer you look, the more Fairy-types you see!
 你看得越仔细，看到的妖精属性精灵就越多！
-A painting of the countryside from a cottage window.
-一幅从农舍窗户看出去的乡村风景画。
-Flocks of Wooloo mirror the clouds in the sky.
-成群的毛辫羊映照着天空中的云朵。
+This statue's smile feels benevolent and kind.
+这座雕像的微笑感觉仁慈而和善。
+It peers down at you protectively.
+它保护性地俯视着你。
+It flutters its Fancy-patterned wings!
+它扇动着花纹翅膀！
+Travel Agency: Kalos
+旅行社：卡洛斯
+This plant is fake.
+这株植物是假的。
+Its leaves are made of cheap plastic.
+它的叶子是用廉价塑料做的。
+Its wings are the color of a Sandstorm.
+它的翅膀是沙暴的颜色。
 I just came back from a trip to Alola with some of my co-workers.
 我刚和一些同事从阿罗拉旅行回来。
 I wanted to catch some Pokemon to help with my dance routines, so I caught a few Oricorio.
@@ -11094,12 +11098,10 @@ This Pokemon is exactly what I needed.
 这只精灵正是我需要的。
 Thanks for the help, gotta get back to work now.
 谢谢你的帮助，现在得回去工作了。
-Its wings are the color of a Sandstorm.
-它的翅膀是沙暴的颜色。
-This plant is fake.
-这株植物是假的。
-Its leaves are made of cheap plastic.
-它的叶子是用廉价塑料做的。
+A painting of the countryside from a cottage window.
+一幅从农舍窗户看出去的乡村风景画。
+Flocks of Wooloo mirror the clouds in the sky.
+成群的毛辫羊映照着天空中的云朵。
 Nah.
 不用了。
 Sure.
@@ -15930,6 +15932,14 @@ No thanks.
 I'll take it.
 我会收下它。
 [Map217]
+It's the bottom of a conveyor belt. It'd be impossible to climb up.
+这里是传送带的底部，爬不上去的。
+For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
+多年以前的蜜岩港，都是靠皮皮的传送能力，把货物运到码头的。
+We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
+最近几年我们安装了传送带，为货物的运输工作提供便利。
+We still have to rely on teleportation to get in and out of the harbor, though.
+当然，皮皮们并没有因此失业，现在依然需要它们的传送能力。
 Looks like the Trainer ahead is moving to block you from going any further.
 前方的训练师显然不会允许你通过。
 Do you want to approach them? It looks like a tough fight.
@@ -16304,28 +16314,18 @@ If it isn’t, then, uh, I’ll give you a run for your money, ‘kay?
 如果不是的话...那么...大概...我会让你付出代价的。
 Toodles. And don’t you dare follow – I’m playing hard to get, so respect it. Hah!
 再见了，不要试图跟着我...请尊重我不想暴露身份的意愿，哈！
-For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
-多年以前的蜜岩港，都是靠皮皮的传送能力，把货物运到码头的。
-We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
-最近几年我们安装了传送带，为货物的运输工作提供便利。
-We still have to rely on teleportation to get in and out of the harbor, though.
-当然，皮皮们并没有因此失业，现在依然需要它们的传送能力。
-It's the bottom of a conveyor belt. It'd be impossible to climb up.
-这里是传送带的底部，爬不上去的。
-The ocean to the east brings calming winds.
-宁静的海风从东边吹来。
-But why? We might explain it with ocean currents, or weather patterns.
-但这究竟是为什么呢？根据气候和洋流我们能得知风向的成因。
-But what makes the winds here calming? Of that, I am not so sure.
-但究竟是什么原因，让这里的海风变得如此宁静呢？
 More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
 百万年前，有颗陨石从天而降，撞上了马凯亚的一座大山。
 That large mountain became two smaller mountains, which we now know as Split Peaks.
 巨大的冲击力将其一分为2，我们现在管那里叫嵌口峰。
 The impact site itself would fill with water and become Sweetrock Harbor.
 而被直接撞击的地方，则逐渐被海水灌满，并变成了今天的蜜岩港。
-Lightkeeper's House
-灯塔守护之家
+The ocean to the east brings calming winds.
+宁静的海风从东边吹来。
+But why? We might explain it with ocean currents, or weather patterns.
+但这究竟是为什么呢？根据气候和洋流我们能得知风向的成因。
+But what makes the winds here calming? Of that, I am not so sure.
+但究竟是什么原因，让这里的海风变得如此宁静呢？
 I really want to know who that was in the weird outfit.
 我很好奇那些奇装异服的家伙到底是什么人。
 Well, regardless, thanks for kicking them out of town.
@@ -16334,26 +16334,28 @@ I'm a firefighter, so I'm used to dealing with issues...
 我是一名消防员，我习惯地帮大家处理问题...
 But "Cultist with a Regirock" is outside of my job description.
 但“带着雷吉洛克的怪人”不在我的职责范围内。
+Lightkeeper's House
+灯塔守护之家
+Artisan Orbs
+匠人珠宝
+Sweetrock Elementary School
+蜜岩小学
+"In loving memory of Mrs. and Mr. Diakos."
+"仅以此纪念黛科思夫妇。"
 I've been biking across the entire region over the past few months.
 我花了几个月的时间，靠骑自行车走遍整个马凯亚。
 Crossing the Split Peaks was by far the hardest part.
 其中最难的部分就是嵌口峰。
 The view from these cliffs, and the feeling that I've finally accomplished my goal, made it all worth it.
 但当我从悬崖上眺望远方，将一切尽收眼底的那一刻，感觉一切努力都是值得的。
-"In loving memory of Mrs. and Mr. Diakos."
-"仅以此纪念黛科思夫妇。"
-Sweetrock Elementary School
-蜜岩小学
-Artisan Orbs
-匠人珠宝
 West: Split Peaks
 西：嵌口峰
 South: Sandstone Estuary
 南：砂岩河口
-Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
-蜜岩港的糖果被运往世界各地，其中30%以上都流向了伽勒尔地区。
-Those people love their candy.
-那边的人更喜欢吃糖。
+"Sweetrock Harbor, satisfying the world's sweettooth!"
+"蜜岩港，甜食星人的天堂！"
+"A sister city of Canalave!"
+"卡纳拉湾的姐妹城市"
 I work at Sweetrock Candy factory, like many in town.
 我像这里的很多人一样，在蜜岩糖果工厂工作。
 That said, I rarely get to see Victoire, the manager and gym leader.
@@ -16372,10 +16374,14 @@ You gotta tell me what she's like as a trainer.
 你能告诉我她的水平怎么样吗？
 My curiosity's grown too big!
 我可太好奇了！
-"Sweetrock Harbor, satisfying the world's sweettooth!"
-"蜜岩港，甜食星人的天堂！"
-"A sister city of Canalave!"
-"卡纳拉湾的姐妹城市"
+Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
+蜜岩港的糖果被运往世界各地，其中30%以上都流向了伽勒尔地区。
+Those people love their candy.
+那边的人更喜欢吃糖。
+Shh... don't give away my hiding spot!
+嘘...不要暴露我的位置！
+Is it... is it safe to come out now?
+现在...已经安全了吗？
 How goes your journey, young master?
 主人，旅程还顺利吗？
 I've purchased a Clefable teleportation license, and reserved this pier for our use.
@@ -16384,20 +16390,6 @@ We can travel to and from any of our usual locations.
 这样我们就可以快速往返于一些地点了。
 Where will we be heading?
 我们要去哪儿？
-Shh... don't give away my hiding spot!
-嘘...不要暴露我的位置！
-Is it... is it safe to come out now?
-现在...已经安全了吗？
-What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
-曾经张贴在这里的通知，已经被经验分配器的广告盖住了。
-Sweetrock Candy Outlet
-蜜岩糖果店
-Sweetrock Harbor Gym
-蜜岩港道馆
-Leader: Victoire
-馆主：薇克特尔
-The Candy Queen!
-糖果女王
 Have you slid down the conveyor belts?
 你有没有滑过传送带？
 Preeeetty sure we're not allowed to, but it's crazy fun.
@@ -16426,18 +16418,28 @@ She as quirky as they say? I don't know why I bother asking. I'll be finding out
 她真的像别人说的那样奇怪吗？诶...明明我马上也要见到了，为什么现在还要多问一句。
 The 7th badge... oh so sweet will it taste!
 第7枚徽章...散发着糖果的甜味！
-Today's a good day for gaming.
-今天宜打游戏！
+Sweetrock Harbor Gym
+蜜岩港道馆
+Leader: Victoire
+馆主：薇克特尔
+The Candy Queen!
+糖果女王
+Sweetrock Candy Outlet
+蜜岩糖果店
+What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
+曾经张贴在这里的通知，已经被经验分配器的广告盖住了。
 Sweetrock Lighthouse
 蜜岩灯塔
+Today's a good day for gaming.
+今天宜打游戏！
 Berry Greenhouse
 树果温室
-I'm gaming over here!
-我会一直玩到天黑！
 I love to slide down the conveyor belt. But, my dad doesn't let me.
 我喜欢从传送带上滑下来，但我爸爸我不让这么做。
 I have to stay by the school until he gets off work so I don't get into trouble.
 我必须在学校附近等他下班，不然我就会有麻烦了。
+I'm gaming over here!
+我会一直玩到天黑！
 No.
 不过去
 Yes.
@@ -20737,22 +20739,6 @@ Well, no use hanging around here. Already got all the workout I needed for the d
 好吧，今天的锻炼就到这里了，是时候回去了。
 I'll try to catch you around, yeah? If not, well, have a great career I guess.
 我会尽量来找你的，好吗？如果不行的话，那就祝你事业顺利吧。
-I don't need a ship, I'm a natural swimmer!
-我是个天生的游泳健将，根本不需要船！
-A natural sinker as well...
-天生的下沉健将...
-I work on a boat because I need cash to live. If I could swim instead of eat, I would.
-我到船上工作只是为了赚钱，如果我能靠游泳维持生命的话，那我就会一口东西都不吃。
-My biceps are beyond your comprehension.
-我的肱二头肌已经超出了你能理解的范围了。
-The water here can get really deep! If I didn't have this tube, I'd probably drown!
-这里的水真的很深，如果没有这个救生圈，我可能就淹死了！
-I must rely on myself! I must get swimming lessons!
-我必须要学会自立！我必须学游泳！
-I trust this tube with my life.
-这个救生圈可以救我的命。
-Do you know how to swim? Why'd you have to use your board to get here?
-你会游泳吗？你为什么要用冲浪板来这里？
 \PN!
 \PN！
 So, we know where they're all going.
@@ -20819,22 +20805,28 @@ I... can understand your hesitation.
 我...可以理解你的犹豫。
 Do your preparations, then. Please hurry.
 那就做你的准备吧。请快点。
+The water here can get really deep! If I didn't have this tube, I'd probably drown!
+这里的水真的很深，如果没有这个救生圈，我可能就淹死了！
+I must rely on myself! I must get swimming lessons!
+我必须要学会自立！我必须学游泳！
+I trust this tube with my life.
+这个救生圈可以救我的命。
+Do you know how to swim? Why'd you have to use your board to get here?
+你会游泳吗？你为什么要用冲浪板来这里？
+I don't need a ship, I'm a natural swimmer!
+我是个天生的游泳健将，根本不需要船！
+A natural sinker as well...
+天生的下沉健将...
+I work on a boat because I need cash to live. If I could swim instead of eat, I would.
+我到船上工作只是为了赚钱，如果我能靠游泳维持生命的话，那我就会一口东西都不吃。
+My biceps are beyond your comprehension.
+我的肱二头肌已经超出了你能理解的范围了。
 West: Canal Desert
 西：运河沙漠
 Northwest: Split Peaks
 西北：嵌口峰
 Northeast: Sweetrock Harbor
 东北：蜜岩港
-It’s Michi, the Tropius.
-那是米奇，热带龙。
-She looks excited to fly off on an adventure!
-她看起来很兴奋，准备出发去冒险！
-She came back to fly you back to the Empty Island!
-她回来是为了带你回荒芜之岛！
-You give her a soft pat on the back, but decide to not fly with her.
-你轻轻地拍了拍她的背，但决定不和她一起飞。
-She makes a content noise.
-她发出满足的声音。
 I come here to relax with my Pokemon. Though, a battle or two won't hurt, either.
 我和我的精灵来这里，是为了放松下身心的，不过来场战斗也不错。
 The Skeevy Eevee needs us, I can feel it.
@@ -20845,6 +20837,16 @@ That was fun! You should fight my sister, too. She's all the way at the start of
 真不错，你要不跟我妹妹也来一场？她就在河的上游！
 Good battling! You should fight my sister, too. She's all the way at the start of the river!
 真不错，你要不跟我妹妹也来一场？她就在河的上游！
+It’s Michi, the Tropius.
+那是米奇，热带龙。
+She looks excited to fly off on an adventure!
+她看起来很兴奋，准备出发去冒险！
+She came back to fly you back to the Empty Island!
+她回来是为了带你回荒芜之岛！
+You give her a soft pat on the back, but decide to not fly with her.
+你轻轻地拍了拍她的背，但决定不和她一起飞。
+She makes a content noise.
+她发出满足的声音。
 Halt, in the name of justice!
 站住，以正义之名！
 I really gotta stop using that opening when stopping people for inspections...
@@ -20855,6 +20857,18 @@ You see any crime lately?
 你看到什么犯罪活动了吗？
 No? Hmm, suspicious.
 没有？嗯？可疑...
+I lost my glasses! Here, my Pokemon can help us find them!
+我的眼镜掉海里了！但是我的精灵可以找到它！
+Aha! Found them! Now we can battle!
+啊哈！找到了！现在我们可以开始战斗了！
+...huh? Did my Pokemon battle on their own?
+...嗯？我的精灵自身打完了吗？
+I still can't find my glasses...
+我还是没找到眼镜...
+I should really switch to contacts...
+或许我应该换成隐形眼镜...
+Maybe get a guide Pokemon...
+再或者换一只导游精灵...
 Ah!
 啊！
 Mm, oh, it's only you again.
@@ -20903,18 +20917,6 @@ This mental armor will protect me from judgmental gazes.
 这种精神盔甲将保护我免受审视的目光。
 I'll swim wherever and whenever I want!
 我想在哪里游就在哪里游，想什么时候游就什么时候游！
-I lost my glasses! Here, my Pokemon can help us find them!
-我的眼镜掉海里了！但是我的精灵可以找到它！
-Aha! Found them! Now we can battle!
-啊哈！找到了！现在我们可以开始战斗了！
-...huh? Did my Pokemon battle on their own?
-...嗯？我的精灵自身打完了吗？
-I still can't find my glasses...
-我还是没找到眼镜...
-I should really switch to contacts...
-或许我应该换成隐形眼镜...
-Maybe get a guide Pokemon...
-再或者换一只导游精灵...
 Zarude stares at you with its arms crossed. After giving you a quick sniff, it locks eyes.
 萨戮德叉腰盯着你，在快速闻了闻之后，和你对视了一下。
 It probably wants to join your team. It gives a smile that's hard to read while holding up its Pokeball.
@@ -20927,12 +20929,6 @@ You take the Pokeball from the Zarude.
 你从萨戮德那里接过了精灵球。
 It gives a few grunts as it re-enters its Pokeball.
 它重新回到了精灵球里，并发出了咕哝声。
-To whomever it may concern:
-致...无论你是谁：
-This, is my island. And mine alone. I have stolen every object here fair and square.
-这，是我的岛屿！这里只属于我一个人！这里所有东西都是我光明正大偷来的。
-You are free to look, but not to touch. Enjoy your stay.
-你可以随意观赏，但禁止触碰，祝您旅途愉快。
 A large wooden lock holds the door shut.
 一把大木锁将门牢牢锁住了。
 You insert the Ruined Tower Key.
@@ -20941,6 +20937,12 @@ With some effort, you slowly turn the key.
 费了点力气才慢慢转动了钥匙。
 The lock falls to the ground with a dull thud.
 锁掉在了地上，发出了沉闷的声响。
+To whomever it may concern:
+致...无论你是谁：
+This, is my island. And mine alone. I have stolen every object here fair and square.
+这，是我的岛屿！这里只属于我一个人！这里所有东西都是我光明正大偷来的。
+You are free to look, but not to touch. Enjoy your stay.
+你可以随意观赏，但禁止触碰，祝您旅途愉快。
 Not now.
 稍等
 Yeah, let's go.
@@ -21213,6 +21215,12 @@ Don't.
 Mavis...
 梅维斯...
 [Map318]
+\PN, eh? How do ya spell that?
+我不想再像前八年那样刻字了，
+Don't want to have to redo the engraving like 8 years ago.
+\PN你觉得行吗？
+Nothing like a warmup scrim before the next round!
+在下一轮比试前，最好热一下身！
 The battles that take place each year are nothing short of inspirational!
 每年，这里的对决都令人感到振奋！
 I may be a painter, but battling is my second form of art!
@@ -21221,20 +21229,20 @@ Fantastic! Marvelous! Outstanding!
 太棒了！简直难以置信！
 Your style is so graceful, so forceful, so majestic! You deserve the title of champion!
 你的风格是如此优雅，如此雄壮有力，你无愧于冠军的称号！
-Nothing like a warmup scrim before the next round!
-在下一轮比试前，最好热一下身！
-\PN, eh? How do ya spell that?
-我不想再像前八年那样刻字了，
-Don't want to have to redo the engraving like 8 years ago.
-\PN你觉得行吗？
-Leo's Elite Items
-李奥精品
-I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
-我 想 看 比 赛 我 想 看 比 赛我 想 看 比 赛 我 想 看 比 赛我 想 看 比 赛 ！
 Year 3: Casey, the Blazing Inferno
 第3届：炽热地烈焰，凯斯
 Year 4: Chara, the Underdog Scrapper
 第4届：不屈不挠的斗士，夏拉
+I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
+我 想 看 比 赛 我 想 看 比 赛我 想 看 比 赛 我 想 看 比 赛我 想 看 比 赛 ！
+Leo's Elite Items
+李奥精品
+For security reasons, this ticketing gate is closed.
+出于安全考虑，此检票通道已关闭。
+Even for a newly-minted champion.
+即便是新晋冠军也不例外。
+The Mightyena is too focused on battling to notice you.
+大狼犬心思都在战斗中，根本没注意到你。
 I was so excited to see my Pokemon evolve in time for the tournament, but we got knocked out in the first round.
 虽然我们第一轮就淘汰了，但我很高兴能看到，我的精灵在比赛中进化。
 Oh well! Maybe next year we'll go far. I know we can.
@@ -21243,28 +21251,32 @@ I've learned a thing or two watching you battle. It was so eye-opening!
 看了你们的战斗，我学到了很多东西！
 Next year, I know I can at least make it to the semi- finals!
 明年，我觉得至少能进半决赛！
-The Mightyena is too focused on battling to notice you.
-大狼犬心思都在战斗中，根本没注意到你。
-For security reasons, this ticketing gate is closed.
-出于安全考虑，此检票通道已关闭。
-Even for a newly-minted champion.
-即便是新晋冠军也不例外。
+Year 5: Vincent, the Dark Destroyer
+第5届：黑暗毁灭者，文森特
+Year 6: Ansel, the Renewed Maverick
+第6届：再诞之新生，安塞尔
+My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
+我的精灵和我可能因为锦标赛只有单打而处于劣势。
+It matters not! We will fight through with pure determination!
+但这不重要，我们将坚定不移地战斗下去！
 I hope no funky business goes down during the competition.
 我希望锦标赛期间，不要再出什么幺蛾子了。
 Outside of that weird quake, it was business as usual.
 除了那奇怪的震感之外，一切正常。
 Another successful day of guard duty.
 又是和平的一天。
-My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
-我的精灵和我可能因为锦标赛只有单打而处于劣势。
-It matters not! We will fight through with pure determination!
-但这不重要，我们将坚定不移地战斗下去！
-Year 5: Vincent, the Dark Destroyer
-第5届：黑暗毁灭者，文森特
-Year 6: Ansel, the Renewed Maverick
-第6届：再诞之新生，安塞尔
 The Emolga is too focused on battling to notice you.
 电飞鼠心思都在战斗中，根本没注意到你。
+Year 7: Praveen, the Flowing Current
+第7届：流动的电流，普拉文
+Year 8: Elise, the Regal Conqueror
+第8届：威严的征服者，伊莉丝
+Next year, my Minccino and I are gonna enter.
+明年，我的泡沫栗鼠和我将参赛。
+I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
+我能看得出，她快要进化了，指我们齐心协力，就势不可当。
+Just you wait! Minccino and I are gunning for your spot!
+等着瞧吧，我和泡沫栗鼠会夺走你的位子的！
 Oh! Sorry, \PN.
 哦！抱歉，\PN。
 Didn’t see you there.
@@ -21303,18 +21315,14 @@ Remember? The one west of the Villa?
 记得吗？别墅西边那个？
 Meet you there...?
 那里见...？
-Next year, my Minccino and I are gonna enter.
-明年，我的泡沫栗鼠和我将参赛。
-I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
-我能看得出，她快要进化了，指我们齐心协力，就势不可当。
-Just you wait! Minccino and I are gunning for your spot!
-等着瞧吧，我和泡沫栗鼠会夺走你的位子的！
-Year 7: Praveen, the Flowing Current
-第7届：流动的电流，普拉文
-Year 8: Elise, the Regal Conqueror
-第8届：威严的征服者，伊莉丝
 Can't let my team get cold, even for just a second!
 我不会让它们的状态冷下来，哪怕是只有一秒钟！
+The battle strategies that all the Trainers here use are so complex.
+这里的训练师都会使用一些比较复杂的战术。
+Swap in! Swap out! Chip damage! Baiting moves!
+比如换人，持续伤害，保护类效果等等！
+It makes my head dizzy...
+听得我头有点晕...
 My old rival once set up his sweeper even though I had no chance to recover.
 我的老对手曾在我毫无准备的时候，将我在赛场外横扫出局了。
 "Why did you set up on me?" I asked, "I was already walled."
@@ -21355,20 +21363,6 @@ That night I beat the gym and raced to tell him, "Thank you for your advice. I c
 那天晚上，我挑战了道馆，然后高兴地告诉他：“谢谢你的建议，我没办法表达现在有多高兴。”
 My old rival smiled. "This too shall pass."
 然后他笑着说：“都会过去的。”
-The battle strategies that all the Trainers here use are so complex.
-这里的训练师都会使用一些比较复杂的战术。
-Swap in! Swap out! Chip damage! Baiting moves!
-比如换人，持续伤害，保护类效果等等！
-It makes my head dizzy...
-听得我头有点晕...
-I bet right every round, only to lose it all on the last round...
-我前几轮都押对了，但最后一轮输了个精光...
-I could have bought an apartment in Prizca with that money...
-本来这笔钱可以在宏礼市买一套公寓的...
-Always a doozy getting our equipment set up.
-这些设备安装起来太麻烦了。
-I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
-每年都得花费五分之一的预算，用来更换被水或火属性技能命中的各种零件...
 Ugh, a year of training and I'm out in the first round.
 呃，一年的训练，结果第一轮就出局了。
 Wish I qualified for one of the byes...
@@ -21399,16 +21393,24 @@ Haha! You won! You won!
 哈哈！你赢了！你赢了
 Incredible!
 太棒了
-Friendly reminder, team composition only matters if you care about winning.
-友情提示，只有当时十分注重胜利时，才需要着重考量属性搭配。
-And between you and me, bud, maybe you should just stick with having fun.
-而对很多人来说，只要开心就足够了。
-Yes yes, they'll be starting the next round soon dearie...
-是啊，是啊，马上就要开始下一轮了...
+Always a doozy getting our equipment set up.
+这些设备安装起来太麻烦了。
+I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
+每年都得花费五分之一的预算，用来更换被水或火属性技能命中的各种零件...
+I bet right every round, only to lose it all on the last round...
+我前几轮都押对了，但最后一轮输了个精光...
+I could have bought an apartment in Prizca with that money...
+本来这笔钱可以在宏礼市买一套公寓的...
 Year 1: Yezera, the Unstoppable Prodigy
 第1届：无人能挡的天才叶泽拉
 Year 2: Scilla, the Iron-willed Scrapper
 第2届：铁腕斗士希拉
+Yes yes, they'll be starting the next round soon dearie...
+是啊，是啊，马上就要开始下一轮了...
+Friendly reminder, team composition only matters if you care about winning.
+友情提示，只有当时十分注重胜利时，才需要着重考量属性搭配。
+And between you and me, bud, maybe you should just stick with having fun.
+而对很多人来说，只要开心就足够了。
 Yeah.
 嗯。
 I'm trying.
@@ -33640,6 +33642,10 @@ Bloodmoon
 Test Form
 测试形态
 [5]
+Battery Acid
+电池酸液
+Plow
+犁地
 After You
 您先请
 Assist
@@ -33836,8 +33842,6 @@ Brick Break
 劈瓦
 Bulk Up
 健美
-Close Combat
-近身战
 Coaching
 指导
 Counter
@@ -34882,6 +34886,8 @@ Acid Bath
 酸浴
 Acid Breach
 酸液突破
+Battery Acid
+Battery Acid
 Blight
 枯萎
 Clump Up
@@ -34954,6 +34960,8 @@ Paradisiaca
 天堂之花
 Pitfall
 深渊陷阱
+Plow
+Plow
 Pulverizer Chord
 粉碎和弦
 Rotary Headbutt
@@ -36229,6 +36237,10 @@ Primeval Puzzle Room
 Test Move
 测试技能
 [6]
+The user sprays the target with a corrosive chemical solution. It has a 30% chance to numb.
+使用者向目标喷射腐蚀性化学溶液进行攻击。有30%的概率使目标陷入麻痹。
+The user churns the ground underneath the target, entangling them in plant matter. It has a 30% chance to leech.
+使用者翻动目标脚下的地面，用植物缠绕它们进行攻击。有30%的概率使目标陷入寄生。
 The user helps the target and makes it use its move right after the user.
 支援我方或对手的行动，使其紧接着此技能之后行动。
 The user hurriedly and randomly uses a move among those known by other Pokémon in the party.
@@ -36425,8 +36437,6 @@ The user attacks with a swift chop. It also breaks any screens protecting the ta
 将手刀猛烈地挥下攻击对手，还可以破坏目标的所有屏障类效果。
 The user tenses its muscles to bulk up, raising its Attack and Defense by two steps.
 使用者紧绷肌肉以增强体力，物攻和物防增加2级。
-The user fights the foe up close without guarding itself. This lowers the user's Defense and Sp. Def by two steps.
-使用者与目标不设防的近身搏斗。双防减小2级。
 The user coaches its ally Pokémon, raising their Attack and Defense by two steps.
 使用者指导其队友，队友的物攻和物防增加2级。
 A retaliation move that counters any physical attack, inflicting double the damage taken.
@@ -36583,8 +36593,8 @@ The user heals itself by half of its max HP, or 66% in sandstorm.
 使用者回复自身最大HP的一半。沙暴时可回复66%。
 The user lays a hazard layer of Spikes on the foe's side. Foes that switch into battle are hurt a bit for each layer.
 使用者在对手脚下放置一层菱。替换进入战斗的对手会因每一层而受到一些伤害。
-The user attacks driven by frustration. Power increases if previous move failed.
-化悔恨为力量进行攻击。如果上1回合技能没有命中，威力就会翻倍。
+The user attacks driven by frustration. Power doubles if previous move failed.
+化悔恨为力量进行攻击。如果上一回合技能失败了，威力就会翻倍。
 This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground.
 可以命中浮在空中的精灵。空中的对手被击落后，会掉到地面。
 The user attacks with a wave that crawls along the ground. Those it hits are trapped.
@@ -37449,6 +37459,8 @@ The user and target bathe in acid. The user loses half its current HP.
 使用者让自身和目标被酸液包围。使用者失去当前一半HP。
 The user lashes the target with its corroded tail. This hits Steel-types for neutral damage and lowers Defense.
 使用者用锈蚀的尾巴抽打目标。对钢属性造成一般伤害，并使其物防减小1级。
+The user sprays the target with a corrosive chemical solution. It has a 30% chance to numb.
+The user sprays the target with a corrosive chemical solution. It has a 30% chance to numb.
 The user infects the target with a touch and also destroys any Herbs it's holding.
 在触碰的过程中感染对方，并破坏其身上携带的香草类物品。
 The user launches a ball of trash to roll over all foes. The targets' held Berry or Gem stick to the ball and become unusable.
@@ -37481,8 +37493,8 @@ Attacks with energy from jealousy. All opposing Pokémon with stat boosts get po
 用嫉妒的能量攻击对手。会让在该回合内能力有所增加的精灵陷入中毒。
 The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
 使用者向目标释放恶臭。有30%概率使对手陷入混乱。
-The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
-对手被臭云强迫替换，随后使用者也会替换。
+The target is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
+使用臭云让目标强迫替换，随后使用者也会替换。
 The user bites the target with toxic fangs with a 30% chance to poison.
 使用者用毒牙啃咬目标。有30%的概率使目标陷入中毒。
 The user chomps with venomous teeth. The user's HP is restored by 33% of the damage dealt.
@@ -37521,6 +37533,8 @@ The user shapes primal clay to heal a nearby ally for their max HP. This can ove
 用原初黏土为附近队友回复全部HP，可以过量回复。下一回合将陷入僵直。
 The user opens a pit beneath the target, trapping and binding it for three turns.
 使用者在目标脚下开启坑洞，困住并束缚目标3回合。
+The user churns the ground underneath the target, entangling them in plant matter. It has a 30% chance to leech.
+The user churns the ground underneath the target, entangling them in plant matter. It has a 30% chance to leech.
 The user hits a pitch that turns earth and stone to dust, damaging its foes.
 使用能够将泥土和石头化为粉尘的音调，对对手造成伤害。
 The user burrows, charging and becoming hidden, then attacks three times on the second turn.
@@ -41110,14 +41124,14 @@ Weakens a Normal-type attack against the holding Pokémon by 50%.
 让精灵携带后，在受到一般属性技能攻击时，能令其威力减小50%。
 If held by a Pokémon, it raises its Attack by two steps in a pinch.
 让精灵携带后，危急时，自身的物攻增加2级。
-If held by a Pokémon, it raises its Defense by two steps in a pinch.
-让精灵携带后，危急时，自身的物防增加2级。
+If held by a Pokémon, it raises its Defense by three steps in a pinch.
+让精灵携带后，危急时，自身的物防增加3级。
 If held by a Pokémon, it raises its Speed by two steps in a pinch.
 让精灵携带后，危急时，自身的速度增加2级。
 If held by a Pokémon, it raises its Sp. Atk by two steps in a pinch.
 让精灵携带后，危急时，自身的特攻增加2级。
-If held by a Pokémon, it raises its Sp. Def by two steps in a pinch.
-让精灵携带后，危急时，自身的特防增加2级。
+If held by a Pokémon, it raises its Sp. Def by three steps in a pinch.
+让精灵携带后，危急时，自身的特防增加3级。
 If held by a Pokémon, it raises its critical-hit ratio in a pinch.
 让精灵携带后，危急时，攻击会变得容易命中要害。
 If held by a Pokémon, it raises one of its stats by three steps in a pinch.
@@ -41132,10 +41146,10 @@ If held by a Pokémon and a physical attack hits it, the attacker takes 25% HP d
 让精灵携带后，在受到物理类技能攻击时，对手会受到25%HP伤害。
 If held by a Pokémon and a special attack hits it, the attacker takes 25% HP damage.
 让精灵携带后，在受到特殊类技能攻击时，对手会受到25%HP伤害。
-If held by a Pokémon and a physical attack hits it, raises the holder's Defense by four steps.
-让精灵携带后，在受到物理类技能攻击时，物防增加4级。
-If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by four steps.
-让精灵携带后，在受到特殊类技能攻击时，特防增加4级。
+If held by a Pokémon and a physical attack hits it, raises the holder's Defense by three steps.
+让精灵携带后，在受到物理类技能攻击时，物防增加3级。
+If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by three steps.
+让精灵携带后，在受到特殊类技能攻击时，特防增加3级。
 A folding Bicycle that enables much faster movement than the Running Shoes.
 能比跑步鞋跑得还快的折叠式自行车。
 A very convenient map that can be viewed anytime. It even shows your present location.
@@ -41274,8 +41288,8 @@ A small, versatile machine that can be used to repel wild Pokémon, or draw them
 这是一个小型的多功能机器，可以用来驱赶野生精灵，也可以用来吸引它们靠近。
 A fragrance that increases the chance of wild double battles, and attracts uncaught Pokémon.
 一种可以增加野生双打对战概率并吸引未捕捉的精灵的物品。
-A high tech surveillance device. Use it to scout out the teams of nearby trainers.
-高科技侦测设备，可以用来探查附近训练师的队伍配置。
+A high tech surveillance device. Use it to scout out the teams of nearby trainers or mid-battle.
+高科技侦测设备，可以用来探查附近或者正在对战的训练师的队伍配置。
 Condensed essence of life. Holding it allows you to run, bike, and surf faster. Can be toggled on or off.
 浓缩的生命精华。携带它可以使你跑步、骑自行车和冲浪的速度更快。可以开启或关闭。
 A small compass. Relic of a heroic age. It can be used to find lootable items nearby.
@@ -42351,8 +42365,6 @@ Kickback
 回扣
 Killjoy
 扫兴
-Kleptomaniac
-盗窃癖
 Knuckleduster
 指节套
 Larder
@@ -42755,8 +42767,6 @@ Slapstick
 滑稽表演
 Sleetshaker
 雪橇撼路者
-Slick Surface
-光滑表面
 Slinky
 滑不溜秋
 Slipstream
@@ -43075,7 +43085,7 @@ Frightening Bite
 恐惧之咬
 Leviathan Aria
 海兽咏叹调
-Magic Girl
+Magical Girl
 魔法少女
 Predation 2
 掠食2
@@ -43181,7 +43191,7 @@ Summons sunshine for four turns upon entry.
 Heals 1/8th HP in rainstorm, 1/4th when hit by Water-type moves. Loses 1/8th in sunshine, Fire-type moves do 25% more.
 雨天时，回合结束时HP回复1/4，被水属性技能命中时，回复1/4。晴天时，回合结束时HP失去1/8，被火属性技能攻击时，伤害增加25%。
 Switches out if its HP is lowered below half.
-HP变为一半时，会慌慌张张逃走，退回同行队伍中。
+HP低于一半时，会替换下场。
 Powers up each Pokémon's Fairy-type moves by 33%.
 所有精灵的妖精属性技能威力增加33%。
 Reduces damage from super-effective attacks by 25%.
@@ -43395,7 +43405,7 @@ Takes half from incoming Fire-type moves and doubles this Pokémon's Water-type 
 Physical attacks against this Pokémon raise its Speed by two steps but lower its Defense.
 被物理类攻击时，速度增加2级，物防减小1级。
 Cowardly switches out if its HP is lowered below half.
-HP低于一半时，会强制替换下场。
+HP低于一半时，会替换下场。
 Only super-effective moves will hit.
 只会受到效果拔群的技能的攻击。
 After being attacked, uses Parting Shot to switch out.
@@ -43982,8 +43992,6 @@ Rather than take recoil damage, it swaps out, and its replacement takes that dam
 不会受到反伤，而是替换出其它精灵代替它承受反伤。
 Pokémon can't raise their stats. Pokémon that dance take damage equal to 1/4th their HP.
 所有精灵不能增加能力等级。使用舞蹈类技能的精灵会受到其最大HP的1/4的伤害。
-Uses Snatch upon entry, stealing self-targeting status moves.
-出场时，使用抢夺。
 Boosts the power of punching moves by 50%.
 拳类技能威力增加30%。
 At end of turn, regenerates its previously-used berry.
@@ -44386,8 +44394,6 @@ Whenever a foe fails or misses, they take 1/8th HP damage.
 对手的技能失败或没命中时，将受到1/8最大HP的伤害。
 Boosts Attack by 30% in hail.
 冰雹时，物攻增加30%。
-Can't be leeched, drained, or trapped.
-不能被寄生、吸取或困住。
 This Pokémon deals double damage with moves that cause the user to become hidden.
 隐藏类技能的伤害翻倍。
 Attack is boosted by 50% if a Tailwind is blowing.
@@ -47887,6 +47893,18 @@ Guess what happened the other day. I missed catching \TE again.\mMaybe I'm not v
 猜猜前几天发生了什么。我又没抓到\TE。\m也许我不太擅长这个。
 [23]
 [24]
+Set Hue Shift
+设置色调偏移
+Set Shade Shift
+设置阴影偏移
+{1} vanished into a cloud of vermin!
+{1}消失在虫群之中！
+Switches out if its HP is lowered below half.
+HP低于一半时，会替换下场。
+Incognito
+匿名
+Group
+群组
 Bill
 比尔
 Items
@@ -48428,9 +48446,9 @@ Ultra Space
 Use the {1} as a {2} on {3}?
 将{1}作为{2}用于{3}？
 A piece of <imp>Origin Ore</imp> inside your bag is glowing with power!
-你包里的一块<imp>原始矿石</imp>正散发着强大的光芒！
+你包里的一块<imp>起源矿石</imp>正散发着强大的光芒！
 Apply the Origin Ore to {1}?
-将原始矿石应用于{1}？
+将起源矿石应用于{1}？
 Always Male
 总是雄性
 Always Female
@@ -50761,6 +50779,10 @@ Swap Ability
 交换特性
 Swap Ball
 交换球
+Set Hue Shift
+Set Hue Shift
+Set Shade Shift
+Set Shade Shift
 {1}'s nickname?
 {1}的昵称？
 {1} is an egg.
@@ -50801,6 +50823,10 @@ Trait 3
 性情3
 Which do you want to set?
 你想要设置第几个？
+Set {1}'s Hue Shift (Gameplay range is {2} to {3}).
+设置{1}的色调偏移（游戏范围是{2}到{3}）。
+Set {1}'s Shade Shift (Gameplay range is {2} to {3}).
+设置{1}的阴影偏移（游戏范围是{2}到{3}）。
 Tools
 工具
 Item Bag
@@ -52935,14 +52961,14 @@ It doesn't affect {1}...
 {1}本想积蓄力量，但已不能继续储存！
 {1} gathered up more power!
 {1}积蓄了更多力量！
-{1} harvested one {2}!
-{1}收获了{2}！
 {1} withdrew another {2}!
 {1}收回一个{2}！
 {1} was delivered one {2}!
 {1}收到了一个{2}！
 {1} found a {2} in its shell!
 {1}在它的壳里找到了{2}！
+{1} harvested one {2}!
+{1}收获了{2}！
 {1} rejuvenates itself!
 {1}回复了活力！
 {1} also heals {2}!
@@ -52963,8 +52989,6 @@ Where to direct power?
 {1}吸收了热量。
 {1} revels in the unusual conditions.
 {1}陶醉于不寻常的环境之中。
-{1} rests in safety.
-{1}安然无恙。
 {1} absorbs the moonlight.
 {1}吸收了月光。
 {1} was hurt by the sunlight!
@@ -52975,6 +52999,8 @@ Where to direct power?
 {1}在高温下微微焦糖化。
 {1} was hurt by the moonlight!
 {1}被月辉伤害了！
+{1} rests in safety.
+{1}安然无恙。
 For {1} to have two items, both must be Gems!
 为了让{1}携带2个物品，两者都必须是宝石！
 For {1} to have two items, both must be Berries!
@@ -52995,12 +53021,12 @@ The ions around {1} settled down.
 {1}感知到了{2}的行动...
 {1} gobbles up the scattered coins!
 {1}吞下了散落的金钱！
-{1}'s {2} made it the {3} type!
-{1}的{2}使其成为{3}属性！
 {1} is damaged by recoil!
 {1}受到了反作用力的伤害！
 {1} shed its Cursed Shell!
 {1}褪下了它的诅咒之壳！
+{1}'s {2} made it the {3} type!
+{1}的{2}使其成为{3}属性！
 {1}'s anger cannot be sated! It enters its Rampage form!
 {1}的愤怒不能平息！它进入了暴走形态！
 {1} molts into a new shell!
@@ -53093,12 +53119,12 @@ Which form should {1} take?
 {1}从腐朽之盾中吸收了金属！
 {1} prepares its response!
 {1}已准备好应对！
-{1}'s transforms with exposure to the Full Moon!
-{1}在满月的照耀下发生了变化！
 {1} steals the energy from its moonstruck enemies!
 {1}从受月亮影响的对手那里窃取了能量！
 {1} is restored by the full moon!
 {1}被满月回复了活力！
+{1}'s transforms with exposure to the Full Moon!
+{1}在满月的照耀下发生了变化！
 Pass {1} to which ally?
 将{1}传递给哪个队友？
 {1} juggled its {2} to {3}!
@@ -53141,8 +53167,6 @@ All foes positive stat changes were eliminated!
 {1}因受到压力而不能使用物品！
 {1} has 2 Abilities!
 {1}有2个特性！
-{1} reversed all other Pokémon's auras!
-{1}逆转了其它精灵的气场！
 {1} is drowsing!
 {1}正在打瞌睡！
 {1} is radiating a dark aura!
@@ -53153,8 +53177,6 @@ All foes positive stat changes were eliminated!
 {1}引发了毁灭！场上所有精灵的技能威力都增加了百分之40！
 {1} is hungry for destruction!
 {1}渴望毁灭！
-{1} is honorable! Status moves lose priority!
-{1}拥抱荣耀！变化类技能失去了先制度！
 {1} is a killjoy! Stats can't be raised!
 {1}是个扫兴鬼！没有精灵可以增加能力等级！
 {1} is a bad influence! Healing is reversed!
@@ -53171,8 +53193,6 @@ All foes positive stat changes were eliminated!
 {1}飞得很快！
 {1} is barging through!
 {1}正在硬闯！
-{1} has a huge ego!
-{1}非常自负！
 {1} prioritizes healing!
 {1}优先考虑回复！
 {1} takes center stage!
@@ -53223,10 +53243,6 @@ The strength is becoming a curse!
 {1}为{2}提供了一些茶点！
 {1} mended {2} with soothing sounds!
 {1}用舒缓的声音疗愈了{2}！
-{1} became trapped in the vortex!
-{1}陷入了漩涡中！
-{1} regrew one {2}!
-{1}再生了一个{2}！
 {1} is Mutant-type!
 {1}是基因属性！
 {1} is infected!
@@ -53241,8 +53257,6 @@ The strength is becoming a curse!
 {1}与火焰融合了！
 {1} has fused with electricity!
 {1}与电流融合了！
-{1} forces its moves to be physical!
-{1}强迫其技能变为物理类技能！
 {1} is an interloper! All its moves are special!
 {1}是个入侵者！它的所有技能都是特殊类技能！
 {1} can't get it going!
@@ -53267,6 +53281,18 @@ Another {1} will arrive in 5 turns!
 另一{1}将在5回合后到达！
 {1}'s adrenaline is on the rise!
 {1}的肾上腺素正在增加！
+{1} reversed all other Pokémon's auras!
+{1}逆转了其它精灵的气场！
+{1} is honorable! Status moves lose priority!
+{1}拥抱荣耀！变化类技能失去了先制度！
+{1} has a huge ego!
+{1}非常自负！
+{1} became trapped in the vortex!
+{1}陷入了漩涡中！
+{1} regrew one {2}!
+{1}再生了一个{2}！
+{1} forces its moves to be physical!
+{1}强迫其技能变为物理类技能！
 Which item should {1} drop?
 {1}应该丢弃哪个物品？
 {1} dropped its {2}!
@@ -54382,7 +54408,7 @@ The poison starts already doubled!
 {1} woke up!
 {1}醒了！
 {1} was cured of its poisoning.
-{1}中毒痊愈了。
+{1}中毒回复了。
 {1}'s burn was healed.
 {1}烧伤回复了。
 {1}'s frostbite was healed.
@@ -54549,8 +54575,8 @@ Cramorant ejects the Pikachu!
 古月鸟吐出了皮卡丘！
 Cramorant ejects its meal!
 古月鸟吐出了它的猎物！
-{1}'s stance made {2}'s attack bounce off akwardly!
-{1}的姿态使得{2}的攻击被尴尬地弹开了!
+{1}'s stance made {2}'s attack bounce off awkwardly!
+{1}的姿态使得{2}的攻击被尴尬地弹开了！
 The roots guarding {1} dig into {2}!
 保护{1}的根须深植在{2}中！
 {1} was stuck by {2}'s venom!
@@ -56213,6 +56239,8 @@ The Reaper appears!
 {1}隐藏在黑暗中！
 {1} melded into the foliage!
 {1}融入了植被中！
+{1} vanished into a cloud of vermin!
+{1} vanished into a cloud of vermin!
 {1} vanished instantly!
 {1}突然消失了！
 {1} petitions the sun!
@@ -57770,7 +57798,7 @@ Your Aid Kit already has the maximum healing amount.
 Your Aid Kit now heals an additional {1} HP per charge.
 你的医疗包现在会额外回复{1}点体力。
 You are too skilled to learn any more from a battle report.
-你现已登峰造极，没法从战斗报告中再学到更多了。
+你现在已经登峰造极，没法从战斗报告中再学到更多了。
 Walk
 步行
 It won't have any effect due to the level cap at {1}.
@@ -59483,12 +59511,8 @@ Clear all
 {1}条绶带。
 Set hue shift
 设置色调偏移
-Set {1}'s Hue Shift (Gameplay range is {2} to {3}).
-设置{1}的色调偏移（游戏范围是{2}到{3}）。
 Set shade shift
 设置阴影偏移
-Set {1}'s Shade Shift (Gameplay range is {2} to {3}).
-设置{1}的阴影偏移（游戏范围是{2}到{3}）。
 Ownership...
 所有权...
 Player's Pokémon<<n>>{1}<<n>>{2}<<n>>{3} ({4})
@@ -62299,8 +62323,8 @@ This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
 这个模组是由芳芳制作的。<<n>>如果你为这个模组付了钱，那么你被骗了！
 This mod is a hardcore game with extensive adjustments, and is not suitable for players with immature psychological age or non-hardcore gaming enthusiasts. Please be advised.
 本模组为难度游戏，且进行了大量的调整，不适合心理年龄未成年者和非难度游戏爱好者，请知悉。
-If you encounter difficulties, you can join QQ group 493645591 for help!<<n>>You can also check the release_version_mod.txt file in the game folder for a basic introduction, available passwords, and complete update history!
-如果你遇到了困难，可以加群493645591获取帮助！<<n>>你也可以查看游戏文件夹里的release_version_mod.txt获取游戏的基本介绍、可用密码，以及全部的更新记录！
+If you encounter difficulties, you can join QQ group 493645591 for help!<<n>>You can also check the release_version_mod.txt file that is printed by Changelog in the game folder for a basic introduction, available passwords, and complete update history!
+如果你遇到了困难，可以加群493645591获取帮助！<<n>>你也可以查看通过更新日志生成的在游戏文件夹里的release_version_mod.txt获取游戏的基本介绍、可用密码，以及全部的更新记录！
 This may be the hardest game you've ever played, but I assure you, it's also the most interesting and most balanced game you've ever played!
 这可能是你玩过的最难的游戏，但我也向你保证，这同时也是你玩过的最有趣和最平衡的游戏！
 Have a good run!
@@ -62579,6 +62603,8 @@ Deals 50% more damage to targets who have already taken damage or moved this tur
 攻击该回合已受到过伤害或行动过的目标时，伤害增加50%。
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 出场时，开启持续4回合的情感空间，所有精灵回合结束时随机获得一个特性。
+Switches out if its HP is lowered below half at the end of turn.
+回合结束时，若该精灵的HP低于一半，会替换下场。
 Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.
 出场时，精灵会回复最大HP的1/5，可以过量回复。
 Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.
@@ -62637,6 +62663,8 @@ Powers up Grass-type moves of itself and its allies by 30%.
 自身和队友的草属性技能的威力增加30%。
 Can hold two items.
 可以携带2个物品。
+Switches out if its HP is lowered below half.
+Switches out if its HP is lowered below half.
 A capsule that allows a Pokémon to switch to another Ability. Used in Mono Ability or Tectonic Mode.
 能将精灵的现有特性变为另一种特性的胶囊，仅在单特性模式或构造模式下可用。
 It may be held by a Pokémon to heal the user by 50% in a pinch (below 25% HP).
@@ -62733,22 +62761,28 @@ Which battle rule do you want to use?
 你想要使用哪一个对战规则？
 Would you like to give it a name?
 要起一个名字吗？
-Which default name do you want to use?
-你想要使用哪一个默认名字？
 The team has been registered!
 该队伍已成功注册！
-You can't start a battle now because you don't have any Pokémon!
-你现在不能开始战斗，因为你没有任何精灵！
-Export Team
-导出队伍
-Check Stats
-检查状态
-Check Recorded Teams
-查看馆主重赛队伍
-Your Victory count is {1}!<<n>>Your Defeat count is {2}!
-你的胜利计数是{1}！<<n>>你的失败计数是{2}！
 There aren't any teams in the Battle Loader!
 战斗模拟器中没有任何队伍！
+Which battle rule do you want?
+你想使用哪种战斗规则？
+Would you like to give it a Curse Effect?
+你想要给这个队伍设置塔罗护身符效果吗？
+Which Curse Effect do you want?
+你想要哪一个塔罗护身符效果？
+Would you like to give it a Custom Effect?
+你想要给这个队伍设置自定义效果吗？
+Which Custom Effect do you want?
+你想要哪一个自定义效果？
+Your team has been exported!
+你的队伍已导出！
+Which team do you want to copy?
+你想复制哪支队伍？
+Incognito
+Incognito
+Which team do you want to challenge?
+你想要挑战哪一个队伍？
 All Teams
 所有队伍
 Random Team
@@ -62763,30 +62797,24 @@ Achievement Challenge
 成就挑战
 Copy Team
 复制队伍
-Which team do you want to copy?
-你想复制哪支队伍？
 You can't take the Achievement Challenge, because you don't have 8 badges!
 你不能参加成就挑战，因为你没有集齐8个徽章！
 Which do you want to challenge?
 你想挑战哪一个？
-Which team do you want to challenge?
-你想要挑战哪一个队伍？
-Do you want to use other battle rules?
-你想使用其他战斗规则吗？
 You can't challenge Former Champion Team, because you don't have 6 badges!
 你不能挑战前冠军队伍，因为你没有集齐6个徽章！
-Which battle rule do you want?
-你想使用哪种战斗规则？
-Would you like to give it a Curse Effect?
-你想要给这个队伍设置塔罗护身符效果吗？
-Which Curse Effect do you want?
-你想要哪一个塔罗护身符效果？
-Would you like to give it a Custom Effect?
-你想要给这个队伍设置自定义效果吗？
-Which Custom Effect do you want?
-你想要哪一个自定义效果？
-Your team has been exported!
-你的队伍已导出！
+Group
+Group
+You can't start a battle now because you don't have any Pokémon!
+你现在不能开始战斗，因为你没有任何精灵！
+Export Team
+导出队伍
+Check Stats
+检查状态
+Check Recorded Teams
+查看馆主重赛队伍
+Your Victory count is {1}!<<n>>Your Defeat count is {2}!
+你的胜利计数是{1}！<<n>>你的失败计数是{2}！
 The Screen Effects will never end during this battle!
 在这场战斗中，屏障类效果永远不会结束！
 the Battle Loader

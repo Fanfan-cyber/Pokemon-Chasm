@@ -41,33 +41,33 @@ module CDKey
     }
   end
 
-  def self.enter_cd_key(text = "")
+  def self.enter_cd_key(text = "", show_message = true)
     text = pbEnterText(_INTL("Enter a code."), 0, 30).downcase.to_sym if text.empty?
     return if text.empty?
     valid_code = false
     if @@pkmn_cd_key.key?(text)
       valid_code = true
       if $Trainer.gift_code[:pkmn].include?(text)
-        pbMessage(_INTL("The code has been used!"))
+        pbMessage(_INTL("The code has been used!")) if show_message
       else
         ret = @@pkmn_cd_key[text]&.call
         if ret
           $Trainer.gift_code[:pkmn] << text
         else
-          pbMessage(_INTL("You can't use the code now!"))
+          pbMessage(_INTL("You can't use the code now!")) if show_message
         end
       end
     end
     if @@item_cd_key.key?(text)
       valid_code = true
       if $Trainer.gift_code[:item].include?(text)
-        pbMessage(_INTL("The code has been used!"))
+        pbMessage(_INTL("The code has been used!")) if show_message
       else
         ret = @@item_cd_key[text]&.call
         if ret
           $Trainer.gift_code[:item] << text
         else
-          pbMessage(_INTL("You can't use the code now!"))
+          pbMessage(_INTL("You can't use the code now!")) if show_message
         end
       end
     end
@@ -104,12 +104,12 @@ module CDKey
           TA.set(:customabiltimes, newtimes)
         end
       else
-        pbMessage(_INTL("You can't use the code now!"))
+        pbMessage(_INTL("You can't use the code now!")) if show_message
       end
     end
     if $Trainer.debug_code.include?(text) && !$DEBUG
       valid_code = true
-      pbMessage(_INTL("The code has been used!"))
+      pbMessage(_INTL("The code has been used!")) if show_message
     else
       if automatic_generated_pkmn(text)
         valid_code = true
@@ -120,7 +120,7 @@ module CDKey
         $Trainer.debug_code << text
       end
     end
-    pbMessage(_INTL("Please enter a valid code!")) unless valid_code
+    pbMessage(_INTL("Please enter a valid code!")) if !valid_code && show_message
   end
 
   def self.check_code(code)

@@ -161,7 +161,7 @@ def postGymSnapshot(badge_num)
   if result[0]
     case badge_num
     when 1 # Lambert
-      CDKey.enter_cd_key(:packed)
+      CDKey.enter_cd_key(:packed, false)
     when 6
       pbMessage(_INTL("You have defeated the 6th Gym Leader!\nNow you can challenge the Former Champions' teams in the Battle Loader.\nGood luck!"))
     end

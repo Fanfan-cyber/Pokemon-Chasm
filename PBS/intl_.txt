@@ -614,6 +614,14 @@ East: Grouz
 East: Grouz
 North: Gigalith's Guts
 North: Gigalith's Guts
+Formation 4C, Gurdurr!
+Formation 4C, Gurdurr!
+Get ready to block 'em!
+Get ready to block 'em!
+Our defensive line collapsed...
+Our defensive line collapsed...
+We need to hit the gym. I hope Eko is taking challengers!
+We need to hit the gym. I hope Eko is taking challengers!
 Hey champ, how's it hanging?
 Hey champ, how's it hanging?
 Recently got a few uhh... assets, that I'm looking to sell. Fell off of a Trainer's backpack.
@@ -634,14 +642,6 @@ You missing the cash? Hmm.
 You missing the cash? Hmm.
 You've... got your own set of problems, huh?
 You've... got your own set of problems, huh?
-Formation 4C, Gurdurr!
-Formation 4C, Gurdurr!
-Get ready to block 'em!
-Get ready to block 'em!
-Our defensive line collapsed...
-Our defensive line collapsed...
-We need to hit the gym. I hope Eko is taking challengers!
-We need to hit the gym. I hope Eko is taking challengers!
 Oh… you destroyed it.
 Oh… you destroyed it.
 I was watching that avatar, and you just… dismissed it.
@@ -708,6 +708,12 @@ I swear, if our fourth was here, we'd kick your teeth in! Where'd that chick run
 I swear, if our fourth was here, we'd kick your teeth in! Where'd that chick run off to, anyways? She needs some teeth-kicking too...
 I've taken worse! If you think I'm done protecting the boss, you don't know me!
 I've taken worse! If you think I'm done protecting the boss, you don't know me!
+Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
+Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
+Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
+Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
+Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
+Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
 Excuse me! We were about to settle this in battle.
 Excuse me! We were about to settle this in battle.
 But, fine, I guess we can find common ground in disposing of you.
@@ -732,30 +738,24 @@ You too, you old hag.
 You too, you old hag.
 I think you'll find me back here so long as you keep trying to gain entrance, you entitled brat.
 I think you'll find me back here so long as you keep trying to gain entrance, you entitled brat.
-Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
-Makya's one of the few regions where creative archaeology is still legal. You're kinda lookin' like competition.
-Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
-Maybe that's my cue to try a different tactic. I gotta be more subtle than challenging random strangers...
-Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
-Well ain't that a cryin' shame. Guess Makya's a bit rougher than I thought...
 Those Evolution Stones are all ours! You can't have any!
 Those Evolution Stones are all ours! You can't have any!
 Aagh! Fine! I'll leave! I've got my evolutions, anyways.
 Aagh! Fine! I'll leave! I've got my evolutions, anyways.
 ...I'll be back. I'll be back, and if I ever see you again, things're gonna be different. I swear I'll...
 ...I'll be back. I'll be back, and if I ever see you again, things're gonna be different. I swear I'll...
-The berry plant is growing.
-The berry plant is growing.
+I refuse to let someone like her into the Academy.
+I refuse to let someone like her into the Academy.
+We have enough of her sort at the Academy as it stands...
+We have enough of her sort at the Academy as it stands...
 Yo...so I heard there was like, some items to steal on this route?
 Yo...so I heard there was like, some items to steal on this route?
 I got nothin' to say. You good at battling.
 I got nothin' to say. You good at battling.
 Bruh. Ok then, I guess.
 Bruh. Ok then, I guess.
-I refuse to let someone like her into the Academy.
-I refuse to let someone like her into the Academy.
-We have enough of her sort at the Academy as it stands...
-We have enough of her sort at the Academy as it stands...
+The berry plant is growing.
+The berry plant is growing.
 Listen, kid, I'm gonna give you one last warning: you can either hit the road, or bite the dust. No? Fine. We'll do it the hard way.
 Listen, kid, I'm gonna give you one last warning: you can either hit the road, or bite the dust. No? Fine.  We'll do it the hard way.
 Hah, well, you win some, you lose some. I'm not so broken up about it.
@@ -3561,40 +3561,28 @@ Yes
 No
 No
 [Map38]
-It’s Michi, Jovan’s Tropius. She seems to be hiding behind him.
-It’s Michi, Jovan’s Tropius. She seems to be hiding behind him.
-It’s strange to see such a large creature look so worried.
-It’s strange to see such a large creature look so worried.
 Okay, now just to dig the moat!
 Okay, now just to dig the moat!
 They beat us, sis....
 They beat us, sis....
+It’s Michi, Jovan’s Tropius. She seems to be hiding behind him.
+It’s Michi, Jovan’s Tropius. She seems to be hiding behind him.
+It’s strange to see such a large creature look so worried.
+It’s strange to see such a large creature look so worried.
 East: Casaba Villa
 East: Casaba Villa
-Didn't see me comin' did ya!?
-Didn't see me comin' did ya!?
-You won't see me goin' will ya?
-You won't see me goin' will ya?
-I'll see you again. You won't see me!
-I'll see you again. You won't see me!
 I see some prize money on the horizon!
 I see some prize money on the horizon!
 You know what? I'd best be spending me money instead of losin' it!
 You know what? I'd best be spending me money instead of losin' it!
 Well, there goes me shore leave money.
 Well, there goes me shore leave money.
-I developed a multi-hit attack during Lambert's self-defense course.
-I developed a multi-hit attack during Lambert's self-defense course.
-I don't get much chance to battle, though.
-I don't get much chance to battle, though.
-Would you allow me the chance to teach my Multi Strike attack to your Pokemon?
-Would you allow me the chance to teach my Multi Strike attack to your Pokemon?
-It should be simple enough for many Pokemon.
-It should be simple enough for many Pokemon.
-Ah, excellent!
-Ah, excellent!
-Ah, pardon my indulgence in even asking.
-Ah, pardon my indulgence in even asking.
+Didn't see me comin' did ya!?
+Didn't see me comin' did ya!?
+You won't see me goin' will ya?
+You won't see me goin' will ya?
+I'll see you again. You won't see me!
+I'll see you again. You won't see me!
 You've checked the documents and returned! Will you accept the mind-reading Yungoos for a mere $3000?
 You've checked the documents and returned! Will you accept the mind-reading Yungoos for a mere $3000?
 Having trouble predicting your opponent's moves, my child?
@@ -3615,6 +3603,18 @@ Now, time to go treat myself to a salon day.
 Now, time to go treat myself to a salon day.
 Make some more money and check your MasterDex! This is well worth it.
 Make some more money and check your MasterDex!  This is well worth it.
+I developed a multi-hit attack during Lambert's self-defense course.
+I developed a multi-hit attack during Lambert's self-defense course.
+I don't get much chance to battle, though.
+I don't get much chance to battle, though.
+Would you allow me the chance to teach my Multi Strike attack to your Pokemon?
+Would you allow me the chance to teach my Multi Strike attack to your Pokemon?
+It should be simple enough for many Pokemon.
+It should be simple enough for many Pokemon.
+Ah, excellent!
+Ah, excellent!
+Ah, pardon my indulgence in even asking.
+Ah, pardon my indulgence in even asking.
 Wait a minute sis! This loser doesn't even have two pokemon!
 Wait a minute sis! This loser doesn't even have two pokemon!
 Really? Teeheehee, get lost, loser.
@@ -3631,6 +3631,8 @@ They beat us, sis...
 They beat us, sis...
 Waaaaaah!
 Waaaaaah!
+This is gonna be the best castle ever!
+This is gonna be the best castle ever!
 Hey! Hey!
 Hey! Hey!
 Look at this cool Sentret! It's so so fast!
@@ -3653,8 +3655,6 @@ Why did nobody tell me the shop is closed??
 Why did nobody tell me the shop is closed??
 Aww...
 Aww...
-This is gonna be the best castle ever!
-This is gonna be the best castle ever!
 I burnth my thongue...
 I burnth my thongue...
 You're theriothly too good!
@@ -3745,14 +3745,12 @@ Either way, I’m <i>lichen</i> this idea already!
 Either way, I’m <i>lichen</i> this idea already!
 See you there.
 See you there.
-<i>Sniff sniff</i>
-<i>Sniff sniff</i>
-I can smell energy on you! We must battle!
-I can smell energy on you! We must battle!
-The stench of defeat!
-The stench of defeat!
-Smell ya later!
-Smell ya later!
+Wow, you found me again!
+Wow, you found me again!
+A loss is a loss, I guess I owe you that second TM now.
+A loss is a loss, I guess I owe you that second TM now.
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
 You know, I fancy myself quite the battler! Care to see?
 You know, I fancy myself quite the battler! Care to see?
 You... You're quite the battler...\wt[20]
@@ -3761,12 +3759,18 @@ I-I'm going to leave now.
 I-I'm going to leave now.
 You, defeat me? My goodness!
 You, defeat me? My goodness!
-Wow, you found me again!
-Wow, you found me again!
-A loss is a loss, I guess I owe you that second TM now.
-A loss is a loss, I guess I owe you that second TM now.
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
-I'll head back to town now. That was a fun game. I'm pretty worked up, hehe.
+<i>Sniff sniff</i>
+<i>Sniff sniff</i>
+I can smell energy on you! We must battle!
+I can smell energy on you! We must battle!
+The stench of defeat!
+The stench of defeat!
+Smell ya later!
+Smell ya later!
+I’m itching to get some more play with this team.
+I’m itching to get some more play with this team.
+Finally using held items again! It’s refreshing.
+Finally using held items again! It’s refreshing.
 Wow, you got here fast!
 Wow, you got here fast!
 Freakishly fast. How many trainers did you beat on your way here...?
@@ -3779,8 +3783,8 @@ This one goes back to the Team Chasm days.
 This one goes back to the Team Chasm days.
 I found a bunch in an old storage container.
 I found a bunch in an old storage container.
-It’s a way to <imp>read up on an opponent’s team</imp> before battling them.
-It’s a way to <imp>read up on an opponent’s team</imp> before battling them.
+It’s a way to <imp>read up on an opponent’s team</imp> before battling them or even mid-battle.
+It’s a way to <imp>read up on an opponent’s team</imp> before battling them or even mid-battle.
 I know, I know... the name is a bit silly. Thing doesn't even use X-rays.
 I know, I know... the name is a bit silly. Thing doesn't even use X-rays.
 But, hey, I work in R&D, not marketing.
@@ -3793,18 +3797,14 @@ Maybe we’ll see each other there.
 Maybe we’ll see each other there.
 Until then, best of luck against Lambert!
 Until then, best of luck against Lambert!
-I’m itching to get some more play with this team.
-I’m itching to get some more play with this team.
-Finally using held items again! It’s refreshing.
-Finally using held items again! It’s refreshing.
-Yes
-Yes
-No
-No
 No way.
 No way.
 Seems legit.
 Seems legit.
+Yes
+Yes
+No
+No
 Nah.
 Nah.
 Yeah.
@@ -10860,18 +10860,24 @@ Not interested.
 Sure, I'll adopt it.
 Sure, I'll adopt it.
 [Map159]
-This Old Amber has been carved into a relief of a dog-like Pokémon.
-This Old Amber has been carved into a relief of a dog-like Pokémon.
-Travel Agency: Orre
-Travel Agency: Orre
-This statue's smile feels malicious.
-This statue's smile feels malicious.
-It looms over you like it intends to devour you whole.
-It looms over you like it intends to devour you whole.
 This looks like an abstract painting of a garden.
 This looks like an abstract painting of a garden.
 On closer inspection, it's a painting of Vivillion's wings!
 On closer inspection, it's a painting of Vivillion's wings!
+This statue's smile feels malicious.
+This statue's smile feels malicious.
+It looms over you like it intends to devour you whole.
+It looms over you like it intends to devour you whole.
+Travel Agency: Orre
+Travel Agency: Orre
+This Old Amber has been carved into a relief of a dog-like Pokémon.
+This Old Amber has been carved into a relief of a dog-like Pokémon.
+These flowers have a distinctive smell.
+These flowers have a distinctive smell.
+It almost reminds you of perfume...
+It almost reminds you of perfume...
+Its wings look like a Pokéball!
+Its wings look like a Pokéball!
 Ahem.
 Ahem.
 Pardon, that's my tea you're eying.
@@ -10886,46 +10892,42 @@ I'm not sure why you're so fixated on it, but I simply cannot drink it with you 
 I'm not sure why you're so fixated on it, but I simply cannot drink it with you staring like that.
 The gentleman behind the counter sputters a bit, but decides it's not worth it to chastise you.
 The gentleman behind the counter sputters a bit, but decides it's not worth it to chastise you.
-Its wings look like a Pokéball!
-Its wings look like a Pokéball!
-These flowers have a distinctive smell.
-These flowers have a distinctive smell.
-It almost reminds you of perfume...
-It almost reminds you of perfume...
+It's full of packaging.
+It's full of packaging.
+A tall pillar with a celestial symbol on top.
+A tall pillar with a celestial symbol on top.
+A sign claims it's a scale replica of a pillar found at the Altar of the Moone!
+A sign claims it's a scale replica of a pillar found at the Altar of the Moone!
 It's a little hard to see, but Makya and Alola have a lot in common.
 It's a little hard to see, but Makya and Alola have a lot in common.
 Team Chasm has gone the way of Team Skull.
 Team Chasm has gone the way of Team Skull. 
 While Team Skull was never as menacing, both regions still have to deal with what comes next.
 While Team Skull was never as menacing, both regions still have to deal with what comes next.
-A tall pillar with a celestial symbol on top.
-A tall pillar with a celestial symbol on top.
-A sign claims it's a scale replica of a pillar found at the Altar of the Moone!
-A sign claims it's a scale replica of a pillar found at the Altar of the Moone!
-It's full of packaging.
-It's full of packaging.
-The King and First Champion of Galar.
-The King and First Champion of Galar.
-...at least according to the plaque.
-...at least according to the plaque.
+Travelling the globe really puts everything in perspective.
+Travelling the globe really puts everything in perspective.
+This young lass I met in Alola -- Lainie...? I think was her name.
+This young lass I met in Alola -- Lainie...? I think was her name.
+She really was a curious character, but she gave me some amazing advice...
+She really was a curious character, but she gave me some amazing advice...
+Anyways, I uh... got to go.
+Anyways, I uh... got to go.
 Yo. I'm the travel guide to Orre.
 Yo. I'm the travel guide to Orre.
 Yeah, this setup is pretty scuffed.
 Yeah, this setup is pretty scuffed. 
 If you know what Orre's about and you're still here, you probably don't care about fanfare anyways.
 If you know what Orre's about and you're still here, you probably don't care about fanfare anyways.
-Travelling the globe really puts everything in perspective.
-Travelling the globe really puts everything in perspective.
-This young lass I met in Alola -- Lainie...? I think was her name.
-This young lass I met in Alola -- Lainie...? I think was her name.
-She really was a curious character, but she gave me some amazing advice...
-She really was a curious character, but she gave me some amazing advice...
-Anyways, I uh... got to go.
-Anyways, I uh... got to go.
-Lined with classic literature.
-Lined with classic literature.
-Most of the spines look uncracked.
-Most of the spines look uncracked.
+The King and First Champion of Galar.
+The King and First Champion of Galar.
+...at least according to the plaque.
+...at least according to the plaque.
+These crates are covered in stickers.
+These crates are covered in stickers.
+It looks like imports from Orre go through heavy screening.
+It looks like imports from Orre go through heavy screening.
+A sign claims it's a scale replica of a pillar found at the Altar of the Sunne!
+A sign claims it's a scale replica of a pillar found at the Altar of the Sunne!
 Alola! Welcome to the Alolan Travel Agency!
 Alola! Welcome to the Alolan Travel Agency!
 Here we can get you set up with a...
@@ -10970,26 +10972,26 @@ We owe you one kid. We can't get you a ticket since that would be, like, suuuuuu
 We owe you one kid. We can't get you a ticket since that would be, like, suuuuuuper illegal.
 But we owe you one. A non-illegal one.
 But we owe you one. A non-illegal one.
-A sign claims it's a scale replica of a pillar found at the Altar of the Sunne!
-A sign claims it's a scale replica of a pillar found at the Altar of the Sunne!
-These crates are covered in stickers.
-These crates are covered in stickers.
-It looks like imports from Orre go through heavy screening.
-It looks like imports from Orre go through heavy screening.
-You see your reflection on the glass of the clock, as time ticks on.
-You see your reflection on the glass of the clock, as time ticks on.
-Travel Agency: Galar
-Travel Agency: Galar
+Lined with classic literature.
+Lined with classic literature.
+Most of the spines look uncracked.
+Most of the spines look uncracked.
 These flowers are rustling slightly...
 These flowers are rustling slightly...
 ...a Flabébé peeks out of hiding!
 ...a Flabébé peeks out of hiding!
-This plant looks well-pruned.
-This plant looks well-pruned.
-There's a lot of places to travel in the world.
-There's a lot of places to travel in the world.
-It's nice to see that other regions are open to Makya, despite all the stuff with Team Chasm.
-It's nice to see that other regions are open to Makya, despite all the stuff with Team Chasm.
+Travel Agency: Galar
+Travel Agency: Galar
+You see your reflection on the glass of the clock, as time ticks on.
+You see your reflection on the glass of the clock, as time ticks on.
+Several different drawings of cheerful travel agency rooms.
+Several different drawings of cheerful travel agency rooms.
+If these are serving as inspiration, this room has a long way to go.
+If these are serving as inspiration, this room has a long way to go.
+A globe, with Makya and various other regions highlighted.
+A globe, with Makya and various other regions highlighted.
+It shows the most common shipment routes between them.
+It shows the most common shipment routes between them.
 Well hello, young one.
 Well hello, young one.
 I'm rather spiritless right now. Not many people appreciate the noble history of Galar, I suppose.
@@ -11014,14 +11016,22 @@ When you're ready, you should take a trip to Galar.
 When you're ready, you should take a trip to Galar.
 I'm sure the Trainers there would appreciate having you.
 I'm sure the Trainers there would appreciate having you.
-A globe, with Makya and various other regions highlighted.
-A globe, with Makya and various other regions highlighted.
-It shows the most common shipment routes between them.
-It shows the most common shipment routes between them.
-Several different drawings of cheerful travel agency rooms.
-Several different drawings of cheerful travel agency rooms.
-If these are serving as inspiration, this room has a long way to go.
-If these are serving as inspiration, this room has a long way to go.
+There's a lot of places to travel in the world.
+There's a lot of places to travel in the world.
+It's nice to see that other regions are open to Makya, despite all the stuff with Team Chasm.
+It's nice to see that other regions are open to Makya, despite all the stuff with Team Chasm.
+This plant looks well-pruned.
+This plant looks well-pruned.
+A painting of a Pokéball in the process of being made.
+A painting of a Pokéball in the process of being made.
+A machine is about to join the top and bottom halves together.
+A machine is about to join the top and bottom halves together.
+A fancy pinboard, decorated with pictures of tropical sun.
+A fancy pinboard, decorated with pictures of tropical sun.
+Alongside the pictures are various pricing plans.
+Alongside the pictures are various pricing plans.
+Travel Agency: Alola
+Travel Agency: Alola
 I've been on an journey all around the world to hone my artistic talents.
 I've been on an journey all around the world to hone my artistic talents.
 If you have a Vivillon, I could change its pattern to one from just about anywhere!
@@ -11030,20 +11040,14 @@ Fantastic! A true work of art, if I do say so myself.
 Fantastic! A true work of art, if I do say so myself.
 That's alright. Sometimes natural is best, after all!
 That's alright. Sometimes natural is best, after all!
-Travel Agency: Alola
-Travel Agency: Alola
-A fancy pinboard, decorated with pictures of tropical sun.
-A fancy pinboard, decorated with pictures of tropical sun.
-Alongside the pictures are various pricing plans.
-Alongside the pictures are various pricing plans.
-A painting of a Pokéball in the process of being made.
-A painting of a Pokéball in the process of being made.
-A machine is about to join the top and bottom halves together.
-A machine is about to join the top and bottom halves together.
-A note identifies this as a Galarica shrub.
-A note identifies this as a Galarica shrub.
-It looks like some twigs have been snapped off.
-It looks like some twigs have been snapped off.
+Nothing's on display yet.
+Nothing's on display yet.
+Someone left a half-empty can of lemonade on one of the shelves.
+Someone left a half-empty can of lemonade on one of the shelves.
+A display of colorful brochures.
+A display of colorful brochures.
+Some are focused on regional battle specialties, while others highlight nature and culture.
+Some are focused on regional battle specialties, while others highlight nature and culture.
 Interested in a little trip to Kalos, no?
 Interested in a little trip to Kalos, no?
 Perhaps you are interested in visiting the grand city of Lumiose?
@@ -11052,30 +11056,28 @@ Or are you enticed by some landmarks like the Pokeball Factory or the Castle of 
 Or are you enticed by some landmarks like the Pokeball Factory or the Castle of Chivalry?
 Or are you one of those weirdos who want to visit Pikachu Land?
 Or are you one of those weirdos who want to visit Pikachu Land?
-A display of colorful brochures.
-A display of colorful brochures.
-Some are focused on regional battle specialties, while others highlight nature and culture.
-Some are focused on regional battle specialties, while others highlight nature and culture.
-Nothing's on display yet.
-Nothing's on display yet.
-Someone left a half-empty can of lemonade on one of the shelves.
-Someone left a half-empty can of lemonade on one of the shelves.
-Travel Agency: Kalos
-Travel Agency: Kalos
-It flutters its Fancy-patterned wings!
-It flutters its Fancy-patterned wings!
-This statue's smile feels benevolent and kind.
-This statue's smile feels benevolent and kind.
-It peers down at you protectively.
-It peers down at you protectively.
+A note identifies this as a Galarica shrub.
+A note identifies this as a Galarica shrub.
+It looks like some twigs have been snapped off.
+It looks like some twigs have been snapped off.
 A painting of a garden.
 A painting of a garden.
 The closer you look, the more Fairy-types you see!
 The closer you look, the more Fairy-types you see!
-A painting of the countryside from a cottage window.
-A painting of the countryside from a cottage window.
-Flocks of Wooloo mirror the clouds in the sky.
-Flocks of Wooloo mirror the clouds in the sky.
+This statue's smile feels benevolent and kind.
+This statue's smile feels benevolent and kind.
+It peers down at you protectively.
+It peers down at you protectively.
+It flutters its Fancy-patterned wings!
+It flutters its Fancy-patterned wings!
+Travel Agency: Kalos
+Travel Agency: Kalos
+This plant is fake.
+This plant is fake.
+Its leaves are made of cheap plastic.
+Its leaves are made of cheap plastic.
+Its wings are the color of a Sandstorm.
+Its wings are the color of a Sandstorm.
 I just came back from a trip to Alola with some of my co-workers.
 I just came back from a trip to Alola with some of my co-workers.
 I wanted to catch some Pokemon to help with my dance routines, so I caught a few Oricorio.
@@ -11094,12 +11096,10 @@ This Pokemon is exactly what I needed.
 This Pokemon is exactly what I needed.
 Thanks for the help, gotta get back to work now.
 Thanks for the help, gotta get back to work now.
-Its wings are the color of a Sandstorm.
-Its wings are the color of a Sandstorm.
-This plant is fake.
-This plant is fake.
-Its leaves are made of cheap plastic.
-Its leaves are made of cheap plastic.
+A painting of the countryside from a cottage window.
+A painting of the countryside from a cottage window.
+Flocks of Wooloo mirror the clouds in the sky.
+Flocks of Wooloo mirror the clouds in the sky.
 Nah.
 Nah.
 Sure.
@@ -15930,6 +15930,14 @@ No thanks.
 I'll take it.
 I'll take it.
 [Map217]
+It's the bottom of a conveyor belt. It'd be impossible to climb up.
+It's the bottom of a conveyor belt. It'd be impossible to climb up.
+For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
+For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
+We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
+We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
+We still have to rely on teleportation to get in and out of the harbor, though.
+We still have to rely on teleportation to get in and out of the harbor, though.
 Looks like the Trainer ahead is moving to block you from going any further.
 Looks like the Trainer ahead is moving to block you from going any further.
 Do you want to approach them? It looks like a tough fight.
@@ -16304,28 +16312,18 @@ If it isn’t, then, uh, I’ll give you a run for your money, ‘kay?
 If it isn’t, then, uh, I’ll give you a run for your money, ‘kay?
 Toodles. And don’t you dare follow – I’m playing hard to get, so respect it. Hah!
 Toodles. And don’t you dare follow – I’m playing hard to get, so respect it. Hah!
-For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
-For most of Sweetrock's history, we've relied on Clefable teleportation to get cargo from the factory to the docks.
-We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
-We got these conveyor belts installed a few years back, so the cliffside isn't an issue anymore.
-We still have to rely on teleportation to get in and out of the harbor, though.
-We still have to rely on teleportation to get in and out of the harbor, though.
-It's the bottom of a conveyor belt. It'd be impossible to climb up.
-It's the bottom of a conveyor belt. It'd be impossible to climb up.
-The ocean to the east brings calming winds.
-The ocean to the east brings calming winds.
-But why? We might explain it with ocean currents, or weather patterns.
-But why? We might explain it with ocean currents, or weather patterns.
-But what makes the winds here calming? Of that, I am not so sure.
-But what makes the winds here calming? Of that, I am not so sure.
 More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
 More than a million years ago, a meteor struck this area of Makya, plowing through a large mountain to the west.
 That large mountain became two smaller mountains, which we now know as Split Peaks.
 That large mountain became two smaller mountains, which we now know as Split Peaks.
 The impact site itself would fill with water and become Sweetrock Harbor.
 The impact site itself would fill with water and become Sweetrock Harbor.
-Lightkeeper's House
-Lightkeeper's House
+The ocean to the east brings calming winds.
+The ocean to the east brings calming winds.
+But why? We might explain it with ocean currents, or weather patterns.
+But why? We might explain it with ocean currents, or weather patterns.
+But what makes the winds here calming? Of that, I am not so sure.
+But what makes the winds here calming? Of that, I am not so sure.
 I really want to know who that was in the weird outfit.
 I really want to know who that was in the weird outfit.
 Well, regardless, thanks for kicking them out of town.
@@ -16334,26 +16332,28 @@ I'm a firefighter, so I'm used to dealing with issues...
 I'm a firefighter, so I'm used to dealing with issues...
 But "Cultist with a Regirock" is outside of my job description.
 But "Cultist with a Regirock" is outside of my job description.
+Lightkeeper's House
+Lightkeeper's House
+Artisan Orbs
+Artisan Orbs
+Sweetrock Elementary School
+Sweetrock Elementary School
+"In loving memory of Mrs. and Mr. Diakos."
+"In loving memory of Mrs. and Mr. Diakos."
 I've been biking across the entire region over the past few months.
 I've been biking across the entire region over the past few months.
 Crossing the Split Peaks was by far the hardest part.
 Crossing the Split Peaks was by far the hardest part.
 The view from these cliffs, and the feeling that I've finally accomplished my goal, made it all worth it.
 The view from these cliffs, and the feeling that I've finally accomplished my goal, made it all worth it.
-"In loving memory of Mrs. and Mr. Diakos."
-"In loving memory of Mrs. and Mr. Diakos."
-Sweetrock Elementary School
-Sweetrock Elementary School
-Artisan Orbs
-Artisan Orbs
 West: Split Peaks
 West: Split Peaks
 South: Sandstone Estuary
 South: Sandstone Estuary
-Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
-Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
-Those people love their candy.
-Those people love their candy.
+"Sweetrock Harbor, satisfying the world's sweettooth!"
+"Sweetrock Harbor, satisfying the world's sweettooth!"
+"A sister city of Canalave!"
+"A sister city of Canalave!"
 I work at Sweetrock Candy factory, like many in town.
 I work at Sweetrock Candy factory, like many in town.
 That said, I rarely get to see Victoire, the manager and gym leader.
@@ -16372,10 +16372,14 @@ You gotta tell me what she's like as a trainer.
 You gotta tell me what she's like as a trainer.
 My curiosity's grown too big!
 My curiosity's grown too big!
-"Sweetrock Harbor, satisfying the world's sweettooth!"
-"Sweetrock Harbor, satisfying the world's sweettooth!"
-"A sister city of Canalave!"
-"A sister city of Canalave!"
+Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
+Sweetrock Candy is sent all over the world, but more than 30% ends up in the Galar Region.
+Those people love their candy.
+Those people love their candy.
+Shh... don't give away my hiding spot!
+Shh... don't give away my hiding spot!
+Is it... is it safe to come out now?
+Is it... is it safe to come out now?
 How goes your journey, young master?
 How goes your journey, young master?
 I've purchased a Clefable teleportation license, and reserved this pier for our use.
@@ -16384,20 +16388,6 @@ We can travel to and from any of our usual locations.
 We can travel to and from any of our usual locations.
 Where will we be heading?
 Where will we be heading?
-Shh... don't give away my hiding spot!
-Shh... don't give away my hiding spot!
-Is it... is it safe to come out now?
-Is it... is it safe to come out now?
-What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
-What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
-Sweetrock Candy Outlet
-Sweetrock Candy Outlet
-Sweetrock Harbor Gym
-Sweetrock Harbor Gym
-Leader: Victoire
-Leader: Victoire
-The Candy Queen!
-The Candy Queen!
 Have you slid down the conveyor belts?
 Have you slid down the conveyor belts?
 Preeeetty sure we're not allowed to, but it's crazy fun.
@@ -16426,18 +16416,28 @@ She as quirky as they say? I don't know why I bother asking. I'll be finding out
 She as quirky as they say? I don't know why I bother asking. I'll be finding out soon myself.
 The 7th badge... oh so sweet will it taste!
 The 7th badge... oh so sweet will it taste!
-Today's a good day for gaming.
-Today's a good day for gaming.
+Sweetrock Harbor Gym
+Sweetrock Harbor Gym
+Leader: Victoire
+Leader: Victoire
+The Candy Queen!
+The Candy Queen!
+Sweetrock Candy Outlet
+Sweetrock Candy Outlet
+What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
+What was once a printed notice has been covered entirely by a poster advertising the EXP-EZ Dispenser.
 Sweetrock Lighthouse
 Sweetrock Lighthouse
+Today's a good day for gaming.
+Today's a good day for gaming.
 Berry Greenhouse
 Berry Greenhouse
-I'm gaming over here!
-I'm gaming over here!
 I love to slide down the conveyor belt. But, my dad doesn't let me.
 I love to slide down the conveyor belt. But, my dad doesn't let me.
 I have to stay by the school until he gets off work so I don't get into trouble.
 I have to stay by the school until he gets off work so I don't get into trouble.
+I'm gaming over here!
+I'm gaming over here!
 No.
 No.
 Yes.
@@ -20737,22 +20737,6 @@ Well, no use hanging around here. Already got all the workout I needed for the d
 Well, no use hanging around here. Already got all the workout I needed for the day.
 I'll try to catch you around, yeah? If not, well, have a great career I guess.
 I'll try to catch you around, yeah? If not, well, have a great career I guess.
-I don't need a ship, I'm a natural swimmer!
-I don't need a ship, I'm a natural swimmer!
-A natural sinker as well...
-A natural sinker as well...
-I work on a boat because I need cash to live. If I could swim instead of eat, I would.
-I work on a boat because I need cash to live. If I could swim instead of eat, I would.
-My biceps are beyond your comprehension.
-My biceps are beyond your comprehension.
-The water here can get really deep! If I didn't have this tube, I'd probably drown!
-The water here can get really deep! If I didn't have this tube, I'd probably drown!
-I must rely on myself! I must get swimming lessons!
-I must rely on myself! I must get swimming lessons!
-I trust this tube with my life.
-I trust this tube with my life.
-Do you know how to swim? Why'd you have to use your board to get here?
-Do you know how to swim? Why'd you have to use your board to get here?
 \PN!
 \PN!
 So, we know where they're all going.
@@ -20819,22 +20803,28 @@ I... can understand your hesitation.
 I... can understand your hesitation.
 Do your preparations, then. Please hurry.
 Do your preparations, then. Please hurry.
+The water here can get really deep! If I didn't have this tube, I'd probably drown!
+The water here can get really deep! If I didn't have this tube, I'd probably drown!
+I must rely on myself! I must get swimming lessons!
+I must rely on myself! I must get swimming lessons!
+I trust this tube with my life.
+I trust this tube with my life.
+Do you know how to swim? Why'd you have to use your board to get here?
+Do you know how to swim? Why'd you have to use your board to get here?
+I don't need a ship, I'm a natural swimmer!
+I don't need a ship, I'm a natural swimmer!
+A natural sinker as well...
+A natural sinker as well...
+I work on a boat because I need cash to live. If I could swim instead of eat, I would.
+I work on a boat because I need cash to live. If I could swim instead of eat, I would.
+My biceps are beyond your comprehension.
+My biceps are beyond your comprehension.
 West: Canal Desert
 West: Canal Desert
 Northwest: Split Peaks
 Northwest: Split Peaks
 Northeast: Sweetrock Harbor
 Northeast: Sweetrock Harbor
-It’s Michi, the Tropius.
-It’s Michi, the Tropius.
-She looks excited to fly off on an adventure!
-She looks excited to fly off on an adventure!
-She came back to fly you back to the Empty Island!
-She came back to fly you back to the Empty Island!
-You give her a soft pat on the back, but decide to not fly with her.
-You give her a soft pat on the back, but decide to not fly with her.
-She makes a content noise.
-She makes a content noise.
 I come here to relax with my Pokemon. Though, a battle or two won't hurt, either.
 I come here to relax with my Pokemon. Though, a battle or two won't hurt, either.
 The Skeevy Eevee needs us, I can feel it.
@@ -20845,6 +20835,16 @@ That was fun! You should fight my sister, too. She's all the way at the start of
 That was fun! You should fight my sister, too. She's all the way at the start of the river!
 Good battling! You should fight my sister, too. She's all the way at the start of the river!
 Good battling! You should fight my sister, too. She's all the way at the start of the river!
+It’s Michi, the Tropius.
+It’s Michi, the Tropius.
+She looks excited to fly off on an adventure!
+She looks excited to fly off on an adventure!
+She came back to fly you back to the Empty Island!
+She came back to fly you back to the Empty Island!
+You give her a soft pat on the back, but decide to not fly with her.
+You give her a soft pat on the back, but decide to not fly with her.
+She makes a content noise.
+She makes a content noise.
 Halt, in the name of justice!
 Halt, in the name of justice!
 I really gotta stop using that opening when stopping people for inspections...
@@ -20855,6 +20855,18 @@ You see any crime lately?
 You see any crime lately?
 No? Hmm, suspicious.
 No? Hmm, suspicious.
+I lost my glasses! Here, my Pokemon can help us find them!
+I lost my glasses! Here, my Pokemon can help us find them!
+Aha! Found them! Now we can battle!
+Aha! Found them! Now we can battle!
+...huh? Did my Pokemon battle on their own?
+...huh? Did my Pokemon battle on their own?
+I still can't find my glasses...
+I still can't find my glasses...
+I should really switch to contacts...
+I should really switch to contacts...
+Maybe get a guide Pokemon...
+Maybe get a guide Pokemon...
 Ah!
 Ah!
 Mm, oh, it's only you again.
@@ -20903,18 +20915,6 @@ This mental armor will protect me from judgmental gazes.
 This mental armor will protect me from judgmental gazes.
 I'll swim wherever and whenever I want!
 I'll swim wherever and whenever I want!
-I lost my glasses! Here, my Pokemon can help us find them!
-I lost my glasses! Here, my Pokemon can help us find them!
-Aha! Found them! Now we can battle!
-Aha! Found them! Now we can battle!
-...huh? Did my Pokemon battle on their own?
-...huh? Did my Pokemon battle on their own?
-I still can't find my glasses...
-I still can't find my glasses...
-I should really switch to contacts...
-I should really switch to contacts...
-Maybe get a guide Pokemon...
-Maybe get a guide Pokemon...
 Zarude stares at you with its arms crossed. After giving you a quick sniff, it locks eyes.
 Zarude stares at you with its arms crossed. After giving you a quick sniff, it locks eyes.
 It probably wants to join your team. It gives a smile that's hard to read while holding up its Pokeball.
@@ -20927,12 +20927,6 @@ You take the Pokeball from the Zarude.
 You take the Pokeball from the Zarude.
 It gives a few grunts as it re-enters its Pokeball.
 It gives a few grunts as it re-enters its Pokeball.
-To whomever it may concern:
-To whomever it may concern:
-This, is my island. And mine alone. I have stolen every object here fair and square.
-This, is my island. And mine alone. I have stolen every object here fair and square.
-You are free to look, but not to touch. Enjoy your stay.
-You are free to look, but not to touch. Enjoy your stay.
 A large wooden lock holds the door shut.
 A large wooden lock holds the door shut.
 You insert the Ruined Tower Key.
@@ -20941,6 +20935,12 @@ With some effort, you slowly turn the key.
 With some effort, you slowly turn the key.
 The lock falls to the ground with a dull thud.
 The lock falls to the ground with a dull thud.
+To whomever it may concern:
+To whomever it may concern:
+This, is my island. And mine alone. I have stolen every object here fair and square.
+This, is my island. And mine alone. I have stolen every object here fair and square.
+You are free to look, but not to touch. Enjoy your stay.
+You are free to look, but not to touch. Enjoy your stay.
 Not now.
 Not now.
 Yeah, let's go.
@@ -21213,6 +21213,12 @@ Don't.
 Mavis...
 Mavis...
 [Map318]
+\PN, eh? How do ya spell that?
+\PN, eh? How do ya spell that?
+Don't want to have to redo the engraving like 8 years ago.
+Don't want to have to redo the engraving like 8 years ago.
+Nothing like a warmup scrim before the next round!
+Nothing like a warmup scrim before the next round!
 The battles that take place each year are nothing short of inspirational!
 The battles that take place each year are nothing short of inspirational!
 I may be a painter, but battling is my second form of art!
@@ -21221,20 +21227,20 @@ Fantastic! Marvelous! Outstanding!
 Fantastic! Marvelous! Outstanding!
 Your style is so graceful, so forceful, so majestic! You deserve the title of champion!
 Your style is so graceful, so forceful, so majestic!  You deserve the title of champion!
-Nothing like a warmup scrim before the next round!
-Nothing like a warmup scrim before the next round!
-\PN, eh? How do ya spell that?
-\PN, eh? How do ya spell that?
-Don't want to have to redo the engraving like 8 years ago.
-Don't want to have to redo the engraving like 8 years ago.
-Leo's Elite Items
-Leo's Elite Items
-I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
-I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
 Year 3: Casey, the Blazing Inferno
 Year 3: Casey, the Blazing Inferno
 Year 4: Chara, the Underdog Scrapper
 Year 4: Chara, the Underdog Scrapper
+I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
+I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES I WANNA SEE THE BATTLES!
+Leo's Elite Items
+Leo's Elite Items
+For security reasons, this ticketing gate is closed.
+For security reasons, this ticketing gate is closed.
+Even for a newly-minted champion.
+Even for a newly-minted champion.
+The Mightyena is too focused on battling to notice you.
+The Mightyena is too focused on battling to notice you.
 I was so excited to see my Pokemon evolve in time for the tournament, but we got knocked out in the first round.
 I was so excited to see my Pokemon evolve in time for the tournament, but we got knocked out in the first round.
 Oh well! Maybe next year we'll go far. I know we can.
@@ -21243,28 +21249,32 @@ I've learned a thing or two watching you battle. It was so eye-opening!
 I've learned a thing or two watching you battle. It was so eye-opening!
 Next year, I know I can at least make it to the semi- finals!
 Next year, I know I can at least make it to the semi- finals!
-The Mightyena is too focused on battling to notice you.
-The Mightyena is too focused on battling to notice you.
-For security reasons, this ticketing gate is closed.
-For security reasons, this ticketing gate is closed.
-Even for a newly-minted champion.
-Even for a newly-minted champion.
+Year 5: Vincent, the Dark Destroyer
+Year 5: Vincent, the Dark Destroyer
+Year 6: Ansel, the Renewed Maverick
+Year 6: Ansel, the Renewed Maverick
+My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
+My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
+It matters not! We will fight through with pure determination!
+It matters not! We will fight through with pure determination!
 I hope no funky business goes down during the competition.
 I hope no funky business goes down during the competition.
 Outside of that weird quake, it was business as usual.
 Outside of that weird quake, it was business as usual.
 Another successful day of guard duty.
 Another successful day of guard duty.
-My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
-My Pokémon and I might be at a disadvantage since the Tournament is only single battles.
-It matters not! We will fight through with pure determination!
-It matters not! We will fight through with pure determination!
-Year 5: Vincent, the Dark Destroyer
-Year 5: Vincent, the Dark Destroyer
-Year 6: Ansel, the Renewed Maverick
-Year 6: Ansel, the Renewed Maverick
 The Emolga is too focused on battling to notice you.
 The Emolga is too focused on battling to notice you.
+Year 7: Praveen, the Flowing Current
+Year 7: Praveen, the Flowing Current
+Year 8: Elise, the Regal Conqueror
+Year 8: Elise, the Regal Conqueror
+Next year, my Minccino and I are gonna enter.
+Next year, my Minccino and I are gonna enter.
+I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
+I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
+Just you wait! Minccino and I are gunning for your spot!
+Just you wait! Minccino and I are gunning for your spot!
 Oh! Sorry, \PN.
 Oh! Sorry, \PN.
 Didn’t see you there.
@@ -21303,18 +21313,14 @@ Remember? The one west of the Villa?
 Remember? The one west of the Villa?
 Meet you there...?
 Meet you there...?
-Next year, my Minccino and I are gonna enter.
-Next year, my Minccino and I are gonna enter.
-I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
-I can tell she's THIS close to evolving. We'll be unstoppable when we get a team together.
-Just you wait! Minccino and I are gunning for your spot!
-Just you wait! Minccino and I are gunning for your spot!
-Year 7: Praveen, the Flowing Current
-Year 7: Praveen, the Flowing Current
-Year 8: Elise, the Regal Conqueror
-Year 8: Elise, the Regal Conqueror
 Can't let my team get cold, even for just a second!
 Can't let my team get cold, even for just a second!
+The battle strategies that all the Trainers here use are so complex.
+The battle strategies that all the Trainers here use are so complex.
+Swap in! Swap out! Chip damage! Baiting moves!
+Swap in! Swap out! Chip damage! Baiting moves!
+It makes my head dizzy...
+It makes my head dizzy...
 My old rival once set up his sweeper even though I had no chance to recover.
 My old rival once set up his sweeper even though I had no chance to recover. 
 "Why did you set up on me?" I asked, "I was already walled."
@@ -21355,20 +21361,6 @@ That night I beat the gym and raced to tell him, "Thank you for your advice. I c
 That night I beat the gym and raced to tell him, "Thank you for your advice. I cannot tell you how happy I am right now."
 My old rival smiled. "This too shall pass."
 My old rival smiled. "This too shall pass."
-The battle strategies that all the Trainers here use are so complex.
-The battle strategies that all the Trainers here use are so complex.
-Swap in! Swap out! Chip damage! Baiting moves!
-Swap in! Swap out! Chip damage! Baiting moves!
-It makes my head dizzy...
-It makes my head dizzy...
-I bet right every round, only to lose it all on the last round...
-I bet right every round, only to lose it all on the last round...
-I could have bought an apartment in Prizca with that money...
-I could have bought an apartment in Prizca with that money...
-Always a doozy getting our equipment set up.
-Always a doozy getting our equipment set up.
-I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
-I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
 Ugh, a year of training and I'm out in the first round.
 Ugh, a year of training and I'm out in the first round.
 Wish I qualified for one of the byes...
@@ -21399,16 +21391,24 @@ Haha! You won! You won!
 Haha! You won! You won!
 Incredible!
 Incredible!
-Friendly reminder, team composition only matters if you care about winning.
-Friendly reminder, team composition only matters if you care about winning.
-And between you and me, bud, maybe you should just stick with having fun.
-And between you and me, bud, maybe you should just stick with having fun.
-Yes yes, they'll be starting the next round soon dearie...
-Yes yes, they'll be starting the next round soon dearie...
+Always a doozy getting our equipment set up.
+Always a doozy getting our equipment set up.
+I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
+I swear, a fifth of each year's budget just goes towards replacing stuff that got hit by a stray Hydro Pump or Fire Blast...
+I bet right every round, only to lose it all on the last round...
+I bet right every round, only to lose it all on the last round...
+I could have bought an apartment in Prizca with that money...
+I could have bought an apartment in Prizca with that money...
 Year 1: Yezera, the Unstoppable Prodigy
 Year 1: Yezera, the Unstoppable Prodigy
 Year 2: Scilla, the Iron-willed Scrapper
 Year 2: Scilla, the Iron-willed Scrapper
+Yes yes, they'll be starting the next round soon dearie...
+Yes yes, they'll be starting the next round soon dearie...
+Friendly reminder, team composition only matters if you care about winning.
+Friendly reminder, team composition only matters if you care about winning.
+And between you and me, bud, maybe you should just stick with having fun.
+And between you and me, bud, maybe you should just stick with having fun.
 Yeah.
 Yeah.
 I'm trying.
@@ -33836,8 +33836,6 @@ Brick Break
 Brick Break
 Bulk Up
 Bulk Up
-Close Combat
-Close Combat
 Coaching
 Coaching
 Counter
@@ -34882,6 +34880,8 @@ Acid Bath
 Acid Bath
 Acid Breach
 Acid Breach
+Battery Acid
+Battery Acid
 Blight
 Blight
 Clump Up
@@ -34954,6 +34954,8 @@ Paradisiaca
 Paradisiaca
 Pitfall
 Pitfall
+Plow
+Plow
 Pulverizer Chord
 Pulverizer Chord
 Rotary Headbutt
@@ -36425,8 +36427,6 @@ The user attacks with a swift chop. It also breaks any screens protecting the ta
 The user attacks with a swift chop. It also breaks any screens protecting the target's side.
 The user tenses its muscles to bulk up, raising its Attack and Defense by two steps.
 The user tenses its muscles to bulk up, raising its Attack and Defense by two steps.
-The user fights the foe up close without guarding itself. This lowers the user's Defense and Sp. Def by two steps.
-The user fights the foe up close without guarding itself. This lowers the user's Defense and Sp. Def by two steps.
 The user coaches its ally Pokémon, raising their Attack and Defense by two steps.
 The user coaches its ally Pokémon, raising their Attack and Defense by two steps.
 A retaliation move that counters any physical attack, inflicting double the damage taken.
@@ -36583,8 +36583,8 @@ The user heals itself by half of its max HP, or 66% in sandstorm.
 The user heals itself by half of its max HP, or 66% in sandstorm.
 The user lays a hazard layer of Spikes on the foe's side. Foes that switch into battle are hurt a bit for each layer.
 The user lays a hazard layer of Spikes on the foe's side. Foes that switch into battle are hurt a bit for each layer.
-The user attacks driven by frustration. Power increases if previous move failed.
-The user attacks driven by frustration. Power increases if previous move failed.
+The user attacks driven by frustration. Power doubles if previous move failed.
+The user attacks driven by frustration. Power doubles if previous move failed.
 This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground.
 This move also hits Pokémon that are in the air. Those Pokémon are knocked down to the ground.
 The user attacks with a wave that crawls along the ground. Those it hits are trapped.
@@ -37449,6 +37449,8 @@ The user and target bathe in acid. The user loses half its current HP.
 The user and target bathe in acid. The user loses half its current HP.
 The user lashes the target with its corroded tail. This hits Steel-types for neutral damage and lowers Defense.
 The user lashes the target with its corroded tail. This hits Steel-types for neutral damage and lowers Defense.
+The user sprays the target with a corrosive chemical solution. It has a 30% chance to numb.
+The user sprays the target with a corrosive chemical solution. It has a 30% chance to numb.
 The user infects the target with a touch and also destroys any Herbs it's holding.
 The user infects the target with a touch and also destroys any Herbs it's holding.
 The user launches a ball of trash to roll over all foes. The targets' held Berry or Gem stick to the ball and become unusable.
@@ -37481,8 +37483,8 @@ Attacks with energy from jealousy. All opposing Pokémon with stat boosts get po
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get poisoned.
 The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
 The user gives off a terrible stench towards the target. It has a 30% chance to dizzy.
-The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
-The foe is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
+The target is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
+The target is forced to switch out by a stinky cloud, then the user also switches. Always goes last.
 The user bites the target with toxic fangs with a 30% chance to poison.
 The user bites the target with toxic fangs with a 30% chance to poison.
 The user chomps with venomous teeth. The user's HP is restored by 33% of the damage dealt.
@@ -37521,6 +37523,8 @@ The user shapes primal clay to heal a nearby ally for their max HP. This can ove
 The user shapes primal clay to heal a nearby ally for their max HP. This can overheal. The user is exhausted on the next turn.
 The user opens a pit beneath the target, trapping and binding it for three turns.
 The user opens a pit beneath the target, trapping and binding it for three turns.
+The user churns the ground underneath the target, entangling them in plant matter. It has a 30% chance to leech.
+The user churns the ground underneath the target, entangling them in plant matter. It has a 30% chance to leech.
 The user hits a pitch that turns earth and stone to dust, damaging its foes.
 The user hits a pitch that turns earth and stone to dust, damaging its foes.
 The user burrows, charging and becoming hidden, then attacks three times on the second turn.
@@ -41110,14 +41114,14 @@ Weakens a Normal-type attack against the holding Pokémon by 50%.
 Weakens a Normal-type attack against the holding Pokémon by 50%.
 If held by a Pokémon, it raises its Attack by two steps in a pinch.
 If held by a Pokémon, it raises its Attack by two steps in a pinch.
-If held by a Pokémon, it raises its Defense by two steps in a pinch.
-If held by a Pokémon, it raises its Defense by two steps in a pinch.
+If held by a Pokémon, it raises its Defense by three steps in a pinch.
+If held by a Pokémon, it raises its Defense by three steps in a pinch.
 If held by a Pokémon, it raises its Speed by two steps in a pinch.
 If held by a Pokémon, it raises its Speed by two steps in a pinch.
 If held by a Pokémon, it raises its Sp. Atk by two steps in a pinch.
 If held by a Pokémon, it raises its Sp. Atk by two steps in a pinch.
-If held by a Pokémon, it raises its Sp. Def by two steps in a pinch.
-If held by a Pokémon, it raises its Sp. Def by two steps in a pinch.
+If held by a Pokémon, it raises its Sp. Def by three steps in a pinch.
+If held by a Pokémon, it raises its Sp. Def by three steps in a pinch.
 If held by a Pokémon, it raises its critical-hit ratio in a pinch.
 If held by a Pokémon, it raises its critical-hit ratio in a pinch.
 If held by a Pokémon, it raises one of its stats by three steps in a pinch.
@@ -41132,10 +41136,10 @@ If held by a Pokémon and a physical attack hits it, the attacker takes 25% HP d
 If held by a Pokémon and a physical attack hits it, the attacker takes 25% HP damage.
 If held by a Pokémon and a special attack hits it, the attacker takes 25% HP damage.
 If held by a Pokémon and a special attack hits it, the attacker takes 25% HP damage.
-If held by a Pokémon and a physical attack hits it, raises the holder's Defense by four steps.
-If held by a Pokémon and a physical attack hits it, raises the holder's Defense by four steps.
-If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by four steps.
-If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by four steps.
+If held by a Pokémon and a physical attack hits it, raises the holder's Defense by three steps.
+If held by a Pokémon and a physical attack hits it, raises the holder's Defense by three steps.
+If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by three steps.
+If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by three steps.
 A folding Bicycle that enables much faster movement than the Running Shoes.
 A folding Bicycle that enables much faster movement than the Running Shoes.
 A very convenient map that can be viewed anytime. It even shows your present location.
@@ -41274,8 +41278,8 @@ A small, versatile machine that can be used to repel wild Pokémon, or draw them
 A small, versatile machine that can be used to repel wild Pokémon, or draw them near.
 A fragrance that increases the chance of wild double battles, and attracts uncaught Pokémon.
 A fragrance that increases the chance of wild double battles, and attracts uncaught Pokémon.
-A high tech surveillance device. Use it to scout out the teams of nearby trainers.
-A high tech surveillance device. Use it to scout out the teams of nearby trainers.
+A high tech surveillance device. Use it to scout out the teams of nearby trainers or mid-battle.
+A high tech surveillance device. Use it to scout out the teams of nearby trainers or mid-battle.
 Condensed essence of life. Holding it allows you to run, bike, and surf faster. Can be toggled on or off.
 Condensed essence of life. Holding it allows you to run, bike, and surf faster. Can be toggled on or off.
 A small compass. Relic of a heroic age. It can be used to find lootable items nearby.
@@ -42351,8 +42355,6 @@ Kickback
 Kickback
 Killjoy
 Killjoy
-Kleptomaniac
-Kleptomaniac
 Knuckleduster
 Knuckleduster
 Larder
@@ -42755,8 +42757,6 @@ Slapstick
 Slapstick
 Sleetshaker
 Sleetshaker
-Slick Surface
-Slick Surface
 Slinky
 Slinky
 Slipstream
@@ -43075,8 +43075,8 @@ Frightening Bite
 Frightening Bite
 Leviathan Aria
 Leviathan Aria
-Magic Girl
-Magic Girl
+Magical Girl
+Magical Girl
 Predation 2
 Predation 2
 Relentless Pursuit
@@ -43982,8 +43982,6 @@ Rather than take recoil damage, it swaps out, and its replacement takes that dam
 Rather than take recoil damage, it swaps out, and its replacement takes that damage.
 Pokémon can't raise their stats. Pokémon that dance take damage equal to 1/4th their HP.
 Pokémon can't raise their stats. Pokémon that dance take damage equal to 1/4th their HP.
-Uses Snatch upon entry, stealing self-targeting status moves.
-Uses Snatch upon entry, stealing self-targeting status moves.
 Boosts the power of punching moves by 50%.
 Boosts the power of punching moves by 50%.
 At end of turn, regenerates its previously-used berry.
@@ -44386,8 +44384,6 @@ Whenever a foe fails or misses, they take 1/8th HP damage.
 Whenever a foe fails or misses, they take 1/8th HP damage.
 Boosts Attack by 30% in hail.
 Boosts Attack by 30% in hail.
-Can't be leeched, drained, or trapped.
-Can't be leeched, drained, or trapped.
 This Pokémon deals double damage with moves that cause the user to become hidden.
 This Pokémon deals double damage with moves that cause the user to become hidden.
 Attack is boosted by 50% if a Tailwind is blowing.
@@ -50761,6 +50757,10 @@ Swap Ability
 Swap Ability
 Swap Ball
 Swap Ball
+Set Hue Shift
+Set Hue Shift
+Set Shade Shift
+Set Shade Shift
 {1}'s nickname?
 {1}'s nickname?
 {1} is an egg.
@@ -50801,6 +50801,10 @@ Trait 3
 Trait 3
 Which do you want to set?
 Which do you want to set?
+Set {1}'s Hue Shift (Gameplay range is {2} to {3}).
+Set {1}'s Hue Shift (Gameplay range is {2} to {3}).
+Set {1}'s Shade Shift (Gameplay range is {2} to {3}).
+Set {1}'s Shade Shift (Gameplay range is {2} to {3}).
 Tools
 Tools
 Item Bag
@@ -52935,14 +52939,14 @@ It doesn't affect {1}...
 {1} would have gathered power, but it can't stockpile any more!
 {1} gathered up more power!
 {1} gathered up more power!
-{1} harvested one {2}!
-{1} harvested one {2}!
 {1} withdrew another {2}!
 {1} withdrew another {2}!
 {1} was delivered one {2}!
 {1} was delivered one {2}!
 {1} found a {2} in its shell!
 {1} found a {2} in its shell!
+{1} harvested one {2}!
+{1} harvested one {2}!
 {1} rejuvenates itself!
 {1} rejuvenates itself!
 {1} also heals {2}!
@@ -52963,8 +52967,6 @@ Where to direct power?
 {1} soaks up the heat.
 {1} revels in the unusual conditions.
 {1} revels in the unusual conditions.
-{1} rests in safety.
-{1} rests in safety.
 {1} absorbs the moonlight.
 {1} absorbs the moonlight.
 {1} was hurt by the sunlight!
@@ -52975,6 +52977,8 @@ Where to direct power?
 {1} caramelizes slightly in the heat.
 {1} was hurt by the moonlight!
 {1} was hurt by the moonlight!
+{1} rests in safety.
+{1} rests in safety.
 For {1} to have two items, both must be Gems!
 For {1} to have two items, both must be Gems!
 For {1} to have two items, both must be Berries!
@@ -52995,12 +52999,12 @@ The ions around {1} settled down.
 {1} sensed {2}'s movements...
 {1} gobbles up the scattered coins!
 {1} gobbles up the scattered coins!
-{1}'s {2} made it the {3} type!
-{1}'s {2} made it the {3} type!
 {1} is damaged by recoil!
 {1} is damaged by recoil!
 {1} shed its Cursed Shell!
 {1} shed its Cursed Shell!
+{1}'s {2} made it the {3} type!
+{1}'s {2} made it the {3} type!
 {1}'s anger cannot be sated! It enters its Rampage form!
 {1}'s anger cannot be sated! It enters its Rampage form!
 {1} molts into a new shell!
@@ -53093,12 +53097,12 @@ Which form should {1} take?
 {1} absorbs metal from the Rusted Shield!
 {1} prepares its response!
 {1} prepares its response!
-{1}'s transforms with exposure to the Full Moon!
-{1}'s transforms with exposure to the Full Moon!
 {1} steals the energy from its moonstruck enemies!
 {1} steals the energy from its moonstruck enemies!
 {1} is restored by the full moon!
 {1} is restored by the full moon!
+{1}'s transforms with exposure to the Full Moon!
+{1}'s transforms with exposure to the Full Moon!
 Pass {1} to which ally?
 Pass {1} to which ally?
 {1} juggled its {2} to {3}!
@@ -53141,8 +53145,6 @@ All foes positive stat changes were eliminated!
 {1} is too stressed to use their items!
 {1} has 2 Abilities!
 {1} has 2 Abilities!
-{1} reversed all other Pokémon's auras!
-{1} reversed all other Pokémon's auras!
 {1} is drowsing!
 {1} is drowsing!
 {1} is radiating a dark aura!
@@ -53153,8 +53155,6 @@ All foes positive stat changes were eliminated!
 {1} is ruinous! Everyone deals 40 percent more damage!
 {1} is hungry for destruction!
 {1} is hungry for destruction!
-{1} is honorable! Status moves lose priority!
-{1} is honorable! Status moves lose priority!
 {1} is a killjoy! Stats can't be raised!
 {1} is a killjoy! Stats can't be raised!
 {1} is a bad influence! Healing is reversed!
@@ -53171,8 +53171,6 @@ All foes positive stat changes were eliminated!
 {1} is flying quickly!
 {1} is barging through!
 {1} is barging through!
-{1} has a huge ego!
-{1} has a huge ego!
 {1} prioritizes healing!
 {1} prioritizes healing!
 {1} takes center stage!
@@ -53223,10 +53221,6 @@ The strength is becoming a curse!
 {1} served {2} some refreshments!
 {1} mended {2} with soothing sounds!
 {1} mended {2} with soothing sounds!
-{1} became trapped in the vortex!
-{1} became trapped in the vortex!
-{1} regrew one {2}!
-{1} regrew one {2}!
 {1} is Mutant-type!
 {1} is Mutant-type!
 {1} is infected!
@@ -53241,8 +53235,6 @@ The strength is becoming a curse!
 {1} has fused with fire!
 {1} has fused with electricity!
 {1} has fused with electricity!
-{1} forces its moves to be physical!
-{1} forces its moves to be physical!
 {1} is an interloper! All its moves are special!
 {1} is an interloper! All its moves are special!
 {1} can't get it going!
@@ -53267,6 +53259,18 @@ Another {1} will arrive in 5 turns!
 Another {1} will arrive in 5 turns!
 {1}'s adrenaline is on the rise!
 {1}'s adrenaline is on the rise!
+{1} reversed all other Pokémon's auras!
+{1} reversed all other Pokémon's auras!
+{1} is honorable! Status moves lose priority!
+{1} is honorable! Status moves lose priority!
+{1} has a huge ego!
+{1} has a huge ego!
+{1} became trapped in the vortex!
+{1} became trapped in the vortex!
+{1} regrew one {2}!
+{1} regrew one {2}!
+{1} forces its moves to be physical!
+{1} forces its moves to be physical!
 Which item should {1} drop?
 Which item should {1} drop?
 {1} dropped its {2}!
@@ -54549,8 +54553,8 @@ Cramorant ejects the Pikachu!
 Cramorant ejects the Pikachu!
 Cramorant ejects its meal!
 Cramorant ejects its meal!
-{1}'s stance made {2}'s attack bounce off akwardly!
-{1}'s stance made {2}'s attack bounce off akwardly!
+{1}'s stance made {2}'s attack bounce off awkwardly!
+{1}'s stance made {2}'s attack bounce off awkwardly!
 The roots guarding {1} dig into {2}!
 The roots guarding {1} dig into {2}!
 {1} was stuck by {2}'s venom!
@@ -56213,6 +56217,8 @@ The Reaper appears!
 {1} hid in the darkness!
 {1} melded into the foliage!
 {1} melded into the foliage!
+{1} vanished into a cloud of vermin!
+{1} vanished into a cloud of vermin!
 {1} vanished instantly!
 {1} vanished instantly!
 {1} petitions the sun!
@@ -59483,12 +59489,8 @@ Clear all
 {1} ribbons.
 Set hue shift
 Set hue shift
-Set {1}'s Hue Shift (Gameplay range is {2} to {3}).
-Set {1}'s Hue Shift (Gameplay range is {2} to {3}).
 Set shade shift
 Set shade shift
-Set {1}'s Shade Shift (Gameplay range is {2} to {3}).
-Set {1}'s Shade Shift (Gameplay range is {2} to {3}).
 Ownership...
 Ownership...
 Player's Pokémon<<n>>{1}<<n>>{2}<<n>>{3} ({4})
@@ -62299,8 +62301,8 @@ This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
 This mod was created by Fanfan.<<n>>If you paid for it, you've been duped!
 This mod is a hardcore game with extensive adjustments, and is not suitable for players with immature psychological age or non-hardcore gaming enthusiasts. Please be advised.
 This mod is a hardcore game with extensive adjustments, and is not suitable for players with immature psychological age or non-hardcore gaming enthusiasts. Please be advised.
-If you encounter difficulties, you can join QQ group 493645591 for help!<<n>>You can also check the release_version_mod.txt file in the game folder for a basic introduction, available passwords, and complete update history!
-If you encounter difficulties, you can join QQ group 493645591 for help!<<n>>You can also check the release_version_mod.txt file in the game folder for a basic introduction, available passwords, and complete update history!
+If you encounter difficulties, you can join QQ group 493645591 for help!<<n>>You can also check the release_version_mod.txt file that is printed by Changelog in the game folder for a basic introduction, available passwords, and complete update history!
+If you encounter difficulties, you can join QQ group 493645591 for help!<<n>>You can also check the release_version_mod.txt file that is printed by Changelog in the game folder for a basic introduction, available passwords, and complete update history!
 This may be the hardest game you've ever played, but I assure you, it's also the most interesting and most balanced game you've ever played!
 This may be the hardest game you've ever played, but I assure you, it's also the most interesting and most balanced game you've ever played!
 Have a good run!
@@ -62579,6 +62581,8 @@ Deals 50% more damage to targets who have already taken damage or moved this tur
 Deals 50% more damage to targets who have already taken damage or moved this turn.
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
 Upon entry, creates an Emotion Room for 4 turns, adding an ability every turn.
+Switches out if its HP is lowered below half at the end of turn.
+Switches out if its HP is lowered below half at the end of turn.
 Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.
 Upon entry, this Pokémon heals itself for 1/5th max HP. This can overheal.
 Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.
@@ -62733,22 +62737,28 @@ Which battle rule do you want to use?
 Which battle rule do you want to use?
 Would you like to give it a name?
 Would you like to give it a name?
-Which default name do you want to use?
-Which default name do you want to use?
 The team has been registered!
 The team has been registered!
-You can't start a battle now because you don't have any Pokémon!
-You can't start a battle now because you don't have any Pokémon!
-Export Team
-Export Team
-Check Stats
-Check Stats
-Check Recorded Teams
-Check Recorded Teams
-Your Victory count is {1}!<<n>>Your Defeat count is {2}!
-Your Victory count is {1}!<<n>>Your Defeat count is {2}!
 There aren't any teams in the Battle Loader!
 There aren't any teams in the Battle Loader!
+Which battle rule do you want?
+Which battle rule do you want?
+Would you like to give it a Curse Effect?
+Would you like to give it a Curse Effect?
+Which Curse Effect do you want?
+Which Curse Effect do you want?
+Would you like to give it a Custom Effect?
+Would you like to give it a Custom Effect?
+Which Custom Effect do you want?
+Which Custom Effect do you want?
+Your team has been exported!
+Your team has been exported!
+Which team do you want to copy?
+Which team do you want to copy?
+Incognito
+Incognito
+Which team do you want to challenge?
+Which team do you want to challenge?
 All Teams
 All Teams
 Random Team
@@ -62763,30 +62773,24 @@ Achievement Challenge
 Achievement Challenge
 Copy Team
 Copy Team
-Which team do you want to copy?
-Which team do you want to copy?
 You can't take the Achievement Challenge, because you don't have 8 badges!
 You can't take the Achievement Challenge, because you don't have 8 badges!
 Which do you want to challenge?
 Which do you want to challenge?
-Which team do you want to challenge?
-Which team do you want to challenge?
-Do you want to use other battle rules?
-Do you want to use other battle rules?
 You can't challenge Former Champion Team, because you don't have 6 badges!
 You can't challenge Former Champion Team, because you don't have 6 badges!
-Which battle rule do you want?
-Which battle rule do you want?
-Would you like to give it a Curse Effect?
-Would you like to give it a Curse Effect?
-Which Curse Effect do you want?
-Which Curse Effect do you want?
-Would you like to give it a Custom Effect?
-Would you like to give it a Custom Effect?
-Which Custom Effect do you want?
-Which Custom Effect do you want?
-Your team has been exported!
-Your team has been exported!
+Group
+Group
+You can't start a battle now because you don't have any Pokémon!
+You can't start a battle now because you don't have any Pokémon!
+Export Team
+Export Team
+Check Stats
+Check Stats
+Check Recorded Teams
+Check Recorded Teams
+Your Victory count is {1}!<<n>>Your Defeat count is {2}!
+Your Victory count is {1}!<<n>>Your Defeat count is {2}!
 The Screen Effects will never end during this battle!
 The Screen Effects will never end during this battle!
 the Battle Loader

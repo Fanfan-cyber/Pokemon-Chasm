@@ -42,5 +42,5 @@ ABILITY_DATA = {
   :UNIDENTIFIED     => { :desc => proc { _INTL("This Pokémon is Mutant-type. If it is Deoxys, it will have multiple movesets.") }, },
   :VERDANT          => { :desc => proc { _INTL("Powers up Grass-type moves of itself and its allies by 30%.") }, },
   :WELLEQUIPPED     => { :desc => proc { _INTL("Can hold two items.") }, },
-  :WIMPOUT          => { :desc => proc { _INTL("Switches out if its HP is lowered below half.") }, },
+  :WIMPOUT          => { :desc => proc { _INTL("Switches out if its HP is lowered below half at the end of turn.") }, },
 }.freeze
