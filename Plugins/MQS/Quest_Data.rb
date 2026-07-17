@@ -682,7 +682,7 @@ module QuestModule
     :Name => _INTL("Former Champion Vincent"),
     :QuestGiver => _INTL("Elise"),
     :Stage1 => _INTL("Find and defeat the former champ."),
-    :Location1 => _INTL("Aquatopia Menagerie"),
+    :Location1 => _INTL("Aquatopia"),
     :QuestDescription => _INTL("Elise mentioned Vincent likes finding strong trainers to fight. Bring him down and you'll make his day."),
   }
 
