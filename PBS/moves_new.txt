@@ -850,6 +850,19 @@ FunctionCode = UserAndAlliesTakeHalfDamageThisTurn
 Flags = CanSnatch
 Description = The user and its allies take 50% less attack damage this turn. Always fails if used in succession.
 #-------------------------------
+[BURSTHAYMAKER]
+Name = Burst Haymaker
+Type = FIGHTING
+Category = Physical
+Power = 150
+Accuracy = 50
+TotalPP = 5
+Target = NearOther
+FunctionCode = Basic
+Flags = CanProtect,Punch
+Description = The user risks an explosive arcing full bodied punch against the target.
+Animation = DYNAMICPUNCH
+#-------------------------------
 [CAPOEIRA]
 Name = Capoeira
 Type = FIGHTING
@@ -1208,6 +1221,19 @@ EffectChance = 10
 Description = The user propels a gale-force wind at the target. It has a 10% chance to frostbite.
 Animation = GUST
 #-------------------------------
+[CYCLONE]
+Name = Cyclone
+Type = FLYING
+Category = Special
+Power = 150
+Accuracy = 50
+TotalPP = 5
+Target = NearOther
+FunctionCode = Basic
+Flags = CanProtect,Wind
+Description = Winds from all directions arrive together in a flurry to rip about the target.
+Animation = HURRICANE
+#-------------------------------
 [DIVININGTALON]
 Name = Divining Talon
 Type = FLYING
@@ -1455,20 +1481,6 @@ FunctionCode = Basic
 Flags = CanProtect
 Description = The user attacks the target while dashing skillfully past it.
 Animation = ACROBATICS
-#-------------------------------
-[TEMPEST]
-Name = Tempest
-Type = FLYING
-Category = Special
-Power = 100
-Accuracy = 50
-TotalPP = 5
-Target = NearOther
-FunctionCode = Dizzy
-Flags = CanProtect,Wind
-EffectChance = 100
-Description = Chaotic winds push the target around, dizzying it.
-Animation = HURRICANE
 #-------------------------------
 [THRUSTPULSE]
 Name = Thrust Pulse

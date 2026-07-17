@@ -1202,19 +1202,6 @@ FunctionCode = HealUserByThirdOfDamageDone
 Flags = CanProtect,Punch
 Description = An energy-draining punch. The user's HP is restored by 33% of the damage dealt.
 #-------------------------------
-[DYNAMICPUNCH]
-Name = Dynamic Punch
-Type = FIGHTING
-Category = Physical
-Power = 100
-Accuracy = 50
-TotalPP = 5
-Target = NearOther
-FunctionCode = Dizzy
-Flags = CanProtect,Punch
-EffectChance = 100
-Description = The user punches the target with full, concentrated power. It dizzies the target if it hits.
-#-------------------------------
 [FINALGAMBIT]
 Name = Final Gambit
 Type = FIGHTING
