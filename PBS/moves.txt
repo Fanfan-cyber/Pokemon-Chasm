@@ -424,7 +424,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect,Biting
 EffectChance = 50
-Description = The user bites hard on the target with its sharp fangs. It has a 50% to make the target flinch.
+Description = The user bites hard on the target with its sharp fangs. It has a 50% chance to flinch the target.
 #-------------------------------
 [HYPERVOICE]
 Name = Hyper Voice
@@ -2635,7 +2635,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
-Description = The user attacks the target while shouting in a startling fashion. It has a 40% chance to flinch.
+Description = The user attacks the target while shouting in a startling fashion. It has a 40% chance to flinch the target.
 #-------------------------------
 [ASTRALBARRAGE]
 Name = Astral Barrage
@@ -2959,7 +2959,7 @@ Target = NearOther
 FunctionCode = HitTwoTimesFlinchTarget
 Flags = CanProtect,Punch
 EffectChance = 30
-Description = The user rotates, centering the hex nut in its chest, and then strikes twice. Each hit has a 30% chance to cause flinching.
+Description = The user rotates, centering the hex nut in its chest, and then strikes twice. Each hit has a 30% chance to flinch the target.
 #-------------------------------
 [FLASHCANNON]
 Name = Flash Cannon
@@ -3032,7 +3032,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
-Description = The foe slams the target with its steel-hard head. It has a 40% chance to make the target flinch.
+Description = The foe slams the target with its steel-hard head. It has a 40% chance to flinch the target.
 #-------------------------------
 [KINGSSHIELD]
 Name = King's Shield
@@ -3814,7 +3814,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
-Description = The user lunges at the target and has a 40% chance to make it flinch.
+Description = The user lunges at the target and has a 40% chance to flinch the target.
 #-------------------------------
 [WATERGUN]
 Name = Water Gun
@@ -4530,7 +4530,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 60
-Description = A strong electric blast crashes down on the target. It has a 60% chance to make the target flinch.
+Description = A strong electric blast crashes down on the target. It has a 60% chance to flinch the target.
 #-------------------------------
 #		PSYCHIC MOVES
 #-------------------------------
@@ -4647,7 +4647,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
-Description = The user unleashes a vicious blow after a cute act. It has a 40% chance to cause flinching.
+Description = The user unleashes a vicious blow after a cute act. It has a 40% chance to flinch the target.
 #-------------------------------
 [HEARTSWAP]
 Name = Heart Swap
@@ -4878,7 +4878,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
-Description = The user focuses its willpower to its head and attacks the foe. It has a 40% chance to make the target flinch.
+Description = The user focuses its willpower to its head and attacks the foe. It has a 40% chance to flinch the target.
 #-------------------------------
 #		ICE MOVES
 #-------------------------------
@@ -5274,7 +5274,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect,Wind
 EffectChance = 40
-Description = A small tornado hits the target. It has a 40% chance to make targets flinch.
+Description = A small tornado hits the target. It has a 40% chance to flinch the target.
 #-------------------------------
 #		DARK MOVES
 #-------------------------------
@@ -5433,7 +5433,7 @@ TotalPP = 10
 Target = AllNearFoes
 FunctionCode = Flinch
 EffectChance = 50
-Description = The user transforms its wrath into a fire-like aura to attack. It has a 50% chance to make the target flinch.
+Description = The user transforms its wrath into a fire-like aura to attack. It has a 50% chance to flinch the target.
 #-------------------------------
 [FLING]
 Name = Fling

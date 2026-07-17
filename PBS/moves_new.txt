@@ -2896,7 +2896,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect,Light
 EffectChance = 40
-Description = The user attacks with small beams of light. It has a 40% chance to make the target flinch.
+Description = The user attacks with small beams of light. It has a 40% chance to flinch the target.
 Animation = SIGNALBEAM
 #-------------------------------
 [LUMINACHAIN]
@@ -2923,7 +2923,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect,Light
 EffectChance = 40
-Description = The user attacks with a blinding flash of bioluminscence. It has a 40% chance to make the target flinch.
+Description = The user attacks with a blinding flash of bioluminscence. It has a 40% chance to flinch the target.
 Animation = SIGNALBEAM
 #-------------------------------
 [LURINGLIGHT]
@@ -3647,7 +3647,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
-Description = The user attacks while wailing. This has a 40% chance to make the target flinch.
+Description = The user attacks while wailing. It has a 40% chance to flinch the target.
 #-------------------------------
 [WRAITHWRATH]
 Name = Wraith Wrath
@@ -3807,7 +3807,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
-Description = The user headbutts the target with a metal head. It has a 40% chance to make the target flinch.
+Description = The user headbutts the target with a metal head. It has a 40% chance to flinch the target.
 Animation = IRONHEAD
 #-------------------------------
 [IMPALINGSPIKE]
@@ -5204,7 +5204,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect
 EffectChance = 40
-Description = The user rides a wave, then crashes into the target. Has a 40% chance to cause a flinch.
+Description = The user rides a wave, then crashes into the target. It has a 40% chance to flinch the target.
 Animation = AQUAJET
 #-------------------------------
 #		GRASS MOVES
@@ -6112,7 +6112,7 @@ Target = NearOther
 FunctionCode = FlinchTargetLowerTargetSpd1
 Flags = CanProtect
 EffectChance = 100
-Description = An electrified cloud zaps the target, lowering their Speed. This has a 50% chance to flinch.
+Description = An electrified cloud zaps the target, lowering their Speed. It has a 50% chance to flinch the target.
 Animation = THUNDER
 #-------------------------------
 [STORMDRIVE]
@@ -7632,7 +7632,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect,Wind
 EffectChance = 40
-Description = The user whips up a tornado to tear at the target. It has a 40% chance to make them flinch.
+Description = The user whips up a tornado to tear at the target. It has a 40% chance to flinch the target.
 #-------------------------------
 [SHRED]
 Name = Shred
@@ -7968,7 +7968,7 @@ Target = NearOther
 FunctionCode = Flinch
 Flags = CanProtect,Pulse
 EffectChance = 40
-Description = The target is attacked with a pulse of negative feelings. It has a 40% chance to make the target flinch.
+Description = The target is attacked with a pulse of negative feelings. It has a 40% chance to flinch the target.
 Animation = DARKPULSE
 #-------------------------------
 [HATEFULHAYMAKER]
