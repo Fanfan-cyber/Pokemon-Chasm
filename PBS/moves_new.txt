@@ -8536,20 +8536,6 @@ FunctionCode = StartAllBattlersHealEightOfMaxHPEachTurn5
 Description = A patch of medicinal flowers sprouts across the battlefield. This heals every Pokémon for 1/8th HP each turn for five turns.
 Animation = GRASSYTERRAIN
 #-------------------------------
-[FOOL]
-Name = Fool
-Type = FAIRY
-Category = Special
-Power = 50
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = JinxTarget
-Flags = CanProtect
-EffectChance = 50
-Description = The user makes a fool out of the target. This has a 50% chance of jinxing them.
-Animation = FAKEOUT
-#-------------------------------
 [FROLIC]
 Name = Frolic
 Type = FAIRY
@@ -8563,6 +8549,20 @@ Flags = CanProtect
 EffectChance = 50
 Description = The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
 Animation = PLAYROUGH
+#-------------------------------
+[GEASGALE]
+Name = Geas Gale
+Type = FAIRY
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = JinxTarget
+Flags = CanProtect,Wind
+EffectChance = 30
+Description = The target is punished by a barrage of fae wind. This has a 30% chance of jinxing them.
+Animation = FAIRYWIND
 #-------------------------------
 [GEMFORGEDOATH]
 Name = Gemforged Oath
@@ -8854,20 +8854,6 @@ FunctionCode = ScalesSlowerThanTarget
 Flags = CanProtect
 Description = The user spins sugar into a ball launched at the target. The slower the user, the greater the damage.
 #-------------------------------
-[SUPERSTITION]
-Name = Superstition
-Type = FAIRY
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 15
-Target = NearOther
-FunctionCode = JinxTarget
-Flags = CanProtect
-EffectChance = 30
-Description = The user causes nearby objects to fall onto the target. This has a 30% chance of jinxing them.
-Animation = POLTERGEIST
-#-------------------------------
 [SYLPHSPELL]
 Name = Sylph Spell
 Type = FAIRY
@@ -8943,6 +8929,20 @@ FunctionCode = StartMoonglow8
 Flags = CanProtect,Light
 Description = Strikes the target with lunar light, then summons moonglow for eight turns.
 Animation = DAZZLINGGLEAM
+#-------------------------------
+[WAYWARDWIND]
+Name = Wayward Wind
+Type = FAIRY
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = JinxTarget
+Flags = CanProtect,Wind
+EffectChance = 50
+Description = A mischevious wind whips around to attack the target. This has a 50% chance of jinxing them.
+Animation = FAIRYWIND
 #-------------------------------
 #		QMARKS MOVES
 #-------------------------------
