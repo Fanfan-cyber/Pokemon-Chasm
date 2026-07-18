@@ -981,6 +981,19 @@ EffectChance = 10
 Description = The user distorts the target's aura, damaging it. This has a 10% chance of reducing the target's Defense.
 Animation = VACUUMWAVE
 #-------------------------------
+[DYNAMICPUNCH]
+Name = Dynamic Punch
+Type = FIGHTING
+Category = Physical
+Power = 100
+Accuracy = 50
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Punch
+EffectChance = 100
+Description = The user punches the target with full, concentrated power. It dizzies the target if it hits.
+#-------------------------------
 [ENLIGHTENEDHIT]
 Name = Enlightened Hit
 Type = FIGHTING
@@ -1328,6 +1341,20 @@ FunctionCode = Invalid
 Flags = CanProtect
 Description = The user takes an advantageous airborne position, then strikes on the second turn.
 Animation = FLY
+#-------------------------------
+[TEMPEST]
+Name = Tempest
+Type = FLYING
+Category = Special
+Power = 100
+Accuracy = 50
+TotalPP = 5
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect,Wind
+EffectChance = 100
+Description = Chaotic winds push the target around, dizzying it.
+Animation = HURRICANE
 #-------------------------------
 [WINGATTACK]
 Name = Wing Attack
