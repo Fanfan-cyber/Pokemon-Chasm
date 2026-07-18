@@ -4471,6 +4471,20 @@ Target = UserAndAllies
 FunctionCode = Invalid
 Description = The user raises the Defense and Sp. Def of all Grass-type Pokémon on its side.
 #-------------------------------
+[FOOL]
+Name = Fool
+Type = FAIRY
+Category = Special
+Power = 50
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+EffectChance = 50
+Description = The user makes a fool out of the target. This has a 50% chance of jinxing them.
+Animation = FAKEOUT
+#-------------------------------
 [KALEIDOSCOPE]
 Name = Kaleidoscope
 Type = FAIRY
@@ -4590,6 +4604,20 @@ FunctionCode = Invalid
 Flags = CanProtect,Wind
 EffectChance = 30
 Description = The user attacks the target by emitting steam. It has a 30% chance to dizzy.
+#-------------------------------
+[SUPERSTITION]
+Name = Superstition
+Type = FAIRY
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+EffectChance = 30
+Description = The user causes nearby objects to fall onto the target. This has a 30% chance of jinxing them.
+Animation = POLTERGEIST
 #-------------------------------
 [TRANQUILTUNE]
 Name = Tranquil Tune
