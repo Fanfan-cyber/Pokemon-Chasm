@@ -585,7 +585,7 @@ Pokemon = SHELLOS,19
 Policies = HELENA,PRIORITIZEUTURN
 Flags = NoPerfect
 Pokemon = CHINCHOU,25
-    Moves = VOLTSWITCH,BUBBLEBEAM,FOOL,WATERLOG
+    Moves = VOLTSWITCH,BUBBLEBEAM,WAYWARDWIND,WATERLOG
     AbilityIndex = 0 # Volt Absorb
     Item = CADOBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -878,7 +878,7 @@ Pokemon = HONCHKROW,55
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,5,20,20,5
 Pokemon = TOGEKISS,55
-    Moves = ANCIENTPOWER,SUPERSTITION,YAWN,DEFOG
+    Moves = ANCIENTPOWER,GEASGALE,YAWN,DEFOG
     AbilityIndex = 1 # Serene Grace
     Item = LUMBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -986,7 +986,7 @@ Pokemon = DARTRIX,25
 Policies = YEZERA,METAGAMES_STAT_ITEMS
 Flags = NoPerfect
 Pokemon = ILLUMISE,35
-    Moves = WISH,SUPERSTITION,REFLECT,ENCORE
+    Moves = WISH,GEASGALE,REFLECT,ENCORE
     AbilityIndex = 0 # Prankster
     Item = MENTALHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -4495,7 +4495,7 @@ Pokemon = PINSIR,30
 #-------------------------------
 [BURGLAR,Barret]
 Pokemon = DUDUNSPARCE,26
-    Moves = DUSTDEVIL,BOREALWIND,FOOL
+    Moves = DUSTDEVIL,BOREALWIND,WAYWARDWIND
     AbilityIndex = 0 # Serene Grace
 Pokemon = SLOWPOKE,26
     Moves = PSYCHOCUT,SLACKOFF,WAVEBREAK,DISABLE
@@ -5010,7 +5010,7 @@ Flags = NoPerfect
 Pokemon = TOGEKISS,65
     Name = Artemisia
     Gender = female
-    Moves = AIRSLASH,SUPERSTITION,ROOST,NEURALPULSE
+    Moves = AIRSLASH,GEASGALE,ROOST,NEURALPULSE
     AbilityIndex = 1 # Serene Grace
     Item = BABIRIBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -5630,7 +5630,7 @@ Pokemon = BRONZONG,56
     AbilityIndex = 1 # Puzzling
     Item = REINFORCINGROD
 Pokemon = ABSOLUS,57
-    Moves = FLAMETHROWER,DARKALLURE,SUPERSTITION,ICEBEAM
+    Moves = FLAMETHROWER,DARKALLURE,GEASGALE,ICEBEAM
     AbilityIndex = 1 # Infamous
 Pokemon = EMPOLEON,58
     Moves = HARBORBREAKER,FLASHCANNON,BRAVEBIRD,AQUAJET
@@ -5705,7 +5705,7 @@ Pokemon = REGIELEKI,65
 Pokemon = TOGEKISS,65
     Name = Artemisia
     Gender = female
-    Moves = AIRSLASH,SUPERSTITION,TAILWIND,NEURALPULSE
+    Moves = AIRSLASH,GEASGALE,TAILWIND,NEURALPULSE
     AbilityIndex = 1 # Serene Grace
     Item = BABIRIBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -8098,7 +8098,7 @@ Pokemon = RELICANTH,60
     AbilityIndex = 0 # Trench Carver
     Item = ROCKGEM
 Pokemon = CURESOLA,60
-    Moves = RECOVER,SUPERSTITION,SHATTEREDLIGHT,CORALOVERGROWTH
+    Moves = RECOVER,GEASGALE,SHATTEREDLIGHT,CORALOVERGROWTH
     AbilityIndex = 0 # Long-term View
     Item = FAIRYGEM
 Pokemon = HITMONLEE,60
@@ -8372,7 +8372,7 @@ Pokemon = MCARNIVINE,60
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,10,15,0,10,15
 Pokemon = SHIINOTIC,60
-    Moves = SPORE,SUPERSTITION,DREAMABSORB,GIGADRAIN
+    Moves = SPORE,GEASGALE,DREAMABSORB,GIGADRAIN
     AbilityIndex = 1 # Torpor Sap
     Item = LEPPABERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -9454,7 +9454,7 @@ Pokemon = DRAMPA,70
 #-------------------------------
 [SAILOR2,Noah]
 Pokemon = RIBOMBEE,60
-    Moves = REFLECT,LIGHTSCREEN,ANESTHETIZE,SUPERSTITION
+    Moves = REFLECT,LIGHTSCREEN,ANESTHETIZE,GEASGALE
     AbilityIndex = 0 # Karma
     Item = FOCUSSASH
 Pokemon = KINGDRA,60
