@@ -151,13 +151,17 @@ class Player
   def gym_leader_rematch
     @gym_leader_rematch ||= GymLeaderRematch.new
   end
+
+  def gym_rematch_award
+    @gym_rematch_award ||= []
+  end
 end
 
 def postGymSnapshot(badge_num)
   postBattleTeamSnapshot(_INTL("Badge {1} Team_{2}", badge_num, generate_unique_id), true)
   return if TA.get(:simplemode)
   result = $Trainer.gym_leader_rematch.process(badge_num)
-  pbReceiveItem(:RARECANDY)
+  check_candy_reward(badge_num)
   if result[0]
     case badge_num
     when 1 # Lambert
@@ -176,3 +180,13 @@ def postGymSnapshot(badge_num)
     command_end
   end
 end
+
+def check_candy_reward(badge_num)
+  max = GymLeaderRematch.rematch_times(badge_num)
+  current = $Trainer.gym_rematch_award[badge_num] || 0
+  if current < max
+    $Trainer.gym_rematch_award[badge_num] = 1 + ($Trainer.gym_rematch_award[badge_num] || 0)
+    pbReceiveItem(:RARECANDY)
+  end
+end
+

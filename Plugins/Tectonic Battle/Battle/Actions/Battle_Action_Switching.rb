@@ -250,7 +250,7 @@ class PokeBattle_Battle
 
                             idxPartyForName = idxPartyNew
                             enemyParty = pbParty(idxBattler)
-                            if enemyParty[idxPartyNew].hasAbility?(:ILLUSION)
+                            if enemyParty[idxPartyNew].hasAbility?([:ILLUSION, :INCOGNITO])
                                 new_index = pbLastInTeam(idxBattler)
                                 idxPartyForName = new_index if new_index >= 0 && new_index != idxPartyNew
                             end

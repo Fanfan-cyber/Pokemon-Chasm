@@ -14,6 +14,7 @@ ABILITY_DATA = {
   :FINESUGAR        => { :desc => proc { _INTL("Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves.") }, },
   :GRIMNEIGH        => { :desc => proc { _INTL("Raises Sp. Atk by 2 steps after knocking out any Pokémon.") }, },
   :GRIPSTRENGTH     => { :desc => proc { _INTL("Powers up binding moves by 50%. Binding moves trap and bind targets for 5 turns.") }, },
+  :HASTY            => { :desc => proc { _INTL("When this Pokémon gains a non-volatile status condition, its Speed is raised by three steps. Can't be dizzied.") }, },
   :HEROICFINALE     => { :desc => proc { _INTL("Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle if it isn't in a pinch.") }, },
   :HUBRIS           => { :desc => proc { _INTL("Raises Sp. Atk by 2 steps after knocking out any Pokémon.") }, },
   :IGNITIONCYCLE    => { :desc => proc { _INTL("Each turn, raises Speed by 4 steps and loses 1/8th max HP. If Speed was maxed, instead Speed and HP are reset.") }, },

@@ -17337,7 +17337,7 @@ Weight = 3.5
 Kind = Cotton Candy
 Pokedex = Because it eats nothing but sweets, its fur is as sticky sweet as cotton candy.
 Generation = 6
-WildItemUncommon = RARECANDY
+WildItemUncommon = EXPCANDYXL
 Evolutions = SLURPUFF,Level,29
 #-------------------------------
 [SLURPUFF]
@@ -17356,7 +17356,7 @@ Weight = 5.0
 Kind = Meringue
 Pokedex = Its sense of smell is 100 million times better than a human's, so even the faintest scent tells it about everything in the area.
 Generation = 6
-WildItemUncommon = RARECANDY
+WildItemUncommon = EXPCANDYXL
 #-------------------------------
 [INKAY]
 Name = Inkay

@@ -64,6 +64,8 @@ BattleHandlers::StatusImmunityAbility.add(:DOMINEERING,
   }
 )
 
+BattleHandlers::StatusImmunityAbility.copy(:DOMINEERING, :HASTY)
+
 BattleHandlers::StatusImmunityAbility.add(:ENERGETIC,
   proc { |ability, _battler, status|
       next true if %i[NUMB WATERLOG].include?(status)
