@@ -5861,6 +5861,20 @@ EffectChance = 100
 Description = The user lets out an electric roar, raising the user's Speed by four steps.
 Animation = ROAR
 #-------------------------------
+[FULGURCLAW]
+Name = Fulgur Claw
+Type = ELECTRIC
+Category = Physical
+Power = 55
+Accuracy = 100
+TotalPP = 12
+Target = AllNearFoes
+FunctionCode = LowerTargetAtk2
+Flags = CanProtect,Slice
+EffectChance = 100
+Description = The user slashes all opposing Pokémon with tendrils of electricity, lowering their Attack stats by two steps.
+Animation = AURAWHEEL
+#-------------------------------
 [GUTCHECK]
 Name = Gut Check
 Type = ELECTRIC
@@ -6016,6 +6030,20 @@ FunctionCode = RaiseUserAtkSpDef2MagnetRise
 Flags = CanSnatch
 Description = The user coils its body to generate an electric field, levitating for five turns and raising its Attack and Sp. Def by two steps.
 Animation = COIL
+#-------------------------------
+[MEGAWATTSHOCK]
+Name = Megawatt Shock
+Type = ELECTRIC
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Numb
+Flags = CanProtect
+EffectChance = 30
+Description = A megawatt of electricity surges through the target. It has a 30% chance to numb.
+Animation = THUNDERSHOCK
 #-------------------------------
 [METAFORM]
 Name = Metaform
