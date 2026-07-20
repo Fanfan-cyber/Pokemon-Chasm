@@ -4879,8 +4879,8 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetAtk1
 Flags = CanProtect,Light
-EffectChance = 30
-Description = The target is hit with a rainbow-colored beam. It has a 30% chance to lower Attack.
+EffectChance = 40
+Description = The target is hit with a rainbow-colored beam. It has a 40% chance to lower Attack.
 #-------------------------------
 [AURORAVEIL]
 Name = Aurora Veil
