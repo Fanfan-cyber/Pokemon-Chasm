@@ -2536,8 +2536,8 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetDef1
 Flags = CanProtect
-EffectChance = 30
-Description = The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
+EffectChance = 40
+Description = The user rolls over its foes, crushing them. It has a 40% chance to reduce the target's Defense.
 #-------------------------------
 [STICKYWEB]
 Name = Sticky Web

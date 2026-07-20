@@ -2826,12 +2826,12 @@ Type = BUG
 Category = Special
 Power = 65
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetSpDef1
 Flags = CanProtect,Sound
-EffectChance = 30
-Description = The user vibrates its wings to make a damaging sound wave. It has a 30% chance to lower Sp. Def.
+EffectChance = 40
+Description = The user vibrates its wings to make a damaging sound wave. It has a 40% chance to lower Sp. Def.
 Animation = BUGBUZZ
 #-------------------------------
 [ENVENOM]
@@ -6965,12 +6965,12 @@ Type = ICE
 Category = Physical
 Power = 65
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetDef1
 Flags = CanProtect
-EffectChance = 20
-Description = The user jabs the target with a sharp icicle. It has a 20% chance to lower Defense.
+EffectChance = 40
+Description = The user jabs the target with a sharp icicle. It has a 40% chance to lower Defense.
 #-------------------------------
 [FROSTFIST]
 Name = Frost Fist
