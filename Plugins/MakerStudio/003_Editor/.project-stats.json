@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "gameRoot": "F:\\01 Github\\Pokemon-Chasm",
+  "activeMinutes": 23,
+  "tilesPlaced": 90,
+  "undoCount": 7,
+  "redoCount": 0,
+  "mapsCreated": 0,
+  "mapsSaved": 1,
+  "mapEdits": {
+    "23": 90
+  },
+  "sessionCount": 4,
+  "firstOpened": "2026-07-20T07:58:43.545Z",
+  "lastSaved": "2026-07-20T08:28:08.390Z",
+  "custom": {}
+}
