@@ -1,0 +1,3 @@
+F:\Github\Pokemon-Chasm\zstd\zstd.exe --patch-from=Game_49.exe Game_boxed.exe -o patch_49_to_50.ta -19 --long=31
+
+D:\zstd\zstd.exe -d --patch-from=1.7z  patch_1_to_2.zstd -o 1_new.7z
