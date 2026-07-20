@@ -4019,12 +4019,12 @@ Type = STEEL
 Category = Special
 Power = 60
 Accuracy = 100
-TotalPP = 10
+TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetSpDef1
 Flags = CanProtect,Light
-EffectChance = 30
-Description = The user looses a flash of energy from its polished body. It has a 30% chance to lower Sp. Def.
+EffectChance = 40
+Description = The user looses a flash of energy from its polished body. It has a 40% chance to lower Sp. Def.
 #-------------------------------
 [SHININGSHELL]
 Name = Shining Shell
@@ -5163,8 +5163,8 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetDef1
 Flags = CanProtect
-EffectChance = 30
-Description = The user crashes into the target with the force of a large wave. This has a 30% chance to lower Defense.
+EffectChance = 40
+Description = The user crashes into the target with the force of a large wave. This has a 40% chance to lower Defense.
 Animation = SPATTERINGRAM
 #-------------------------------
 [WETLANDWALTZ]
