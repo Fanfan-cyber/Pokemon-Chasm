@@ -2317,14 +2317,6 @@ Price = 1000
 FieldUse = OnPokemon
 Description = A capsule that allows a Pokémon with two Abilities to switch between these Abilities when it is used.
 #-------------------------------
-[SPRINKLOTAD]
-Name = Sprinklotad
-NamePlural = Sprinklotads
-Pocket = 8
-Price = 0
-Flags = KeyItem
-Description = A watering can shaped like a Lotad. It helps promote the healthy growth of any Berries planted in soft soil.
-#-------------------------------
 [PRISONBOTTLE]
 Name = Prison Bottle
 NamePlural = Prison Bottles
@@ -2476,15 +2468,6 @@ Pocket = 7
 Price = 0
 Flags = KeyItem,SkipPocketMessage
 Description = A charm that doubles the chance of getting a critical catch.
-#-------------------------------
-[INFINITEROPE]
-Name = Escape Rope
-NamePlural = Escape Ropes
-Pocket = 8
-Price = 0
-FieldUse = Direct
-Flags = KeyItem
-Description = A long, durable rope. Use it to escape instantly from a cave or a dungeon.
 #-------------------------------
 [GRASSTOKEN]
 Name = Grass Token
