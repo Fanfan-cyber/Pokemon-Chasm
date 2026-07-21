@@ -8575,7 +8575,7 @@ Target = NearOther
 FunctionCode = LowerTargetAtk1
 Flags = CanProtect
 EffectChance = 50
-Description = The user plays with the target with unneccessary force. It has a 50% chance to lower Attack.
+Description = The user plays with the target with unnecessary force. It has a 50% chance to lower Attack.
 Animation = PLAYROUGH
 #-------------------------------
 [GEASGALE]
