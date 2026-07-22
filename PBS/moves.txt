@@ -1000,7 +1000,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetAtkDef2
 Flags = CanProtect,CanMagicCoat
-Description = The user tickles the target into laughing, reducing its Attack and Defense by two steps.
+Description = The user tickles the target into laughing, lowering its Attack and Defense by two steps.
 #-------------------------------
 [TRANSFORM]
 Name = Transform
@@ -1300,7 +1300,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd2
 Flags = CanProtect,Kick
 EffectChance = 100
-Description = The user attacks the target's legs swiftly, reducing the target's Speed stat by two steps.
+Description = The user attacks the target's legs swiftly, lowering the target's Speed stat by two steps.
 #-------------------------------
 [MACHPUNCH]
 Name = Mach Punch
@@ -1730,7 +1730,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpDef4
 Flags = CanProtect
 EffectChance = 100
-Description = The user spits fluid that works to melt the target. This reduces the target's Sp. Def stat by four steps.
+Description = The user spits fluid that works to melt the target. This lowers the target's Sp. Def stat by four steps.
 #-------------------------------
 [BELCH]
 Name = Belch
@@ -1963,7 +1963,7 @@ Target = AllNearOthers
 FunctionCode = LowerTargetSpd1
 Flags = CanProtect,Kick
 EffectChance = 100
-Description = The user strikes everything around it by stomping on the ground. It reduces hit Pokémon's Speed.
+Description = The user strikes everything around it by stomping on the ground. This lowers hit Pokémon's Speed.
 #-------------------------------
 [DIG]
 Name = Dig
@@ -2035,7 +2035,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd2
 Flags = CanProtect
 EffectChance = 100
-Description = The user attacks by shooting a beam of mud at the target. It also reduces the target's Speed by two steps.
+Description = The user attacks by shooting a beam of mud at the target. It also lowers the target's Speed by two steps.
 #-------------------------------
 [PRECIPICEBLADES]
 Name = Precipice Blades
@@ -2537,7 +2537,7 @@ Target = NearOther
 FunctionCode = LowerTargetDef1
 Flags = CanProtect
 EffectChance = 40
-Description = The user rolls over its foes, crushing them. It has a 40% chance to reduce the target's Defense.
+Description = The user rolls over its foes, crushing them. It has a 40% chance to lower the target's Defense.
 #-------------------------------
 [STICKYWEB]
 Name = Sticky Web
@@ -2750,7 +2750,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerTargetSpd4
 Flags = CanProtect,CanMagicCoat
-Description = The user frightens the target with a scary face to reduce its Speed stat by four steps.
+Description = The user frightens the target with a scary face to lower its Speed stat by four steps.
 #-------------------------------
 [SHADOWBALL]
 Name = Shadow Ball
@@ -3078,7 +3078,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = LowerTargetSpDef4
 Flags = CanProtect,CanMagicCoat,Sound
-Description = A horrible sound like scraping metal reduces the target's Sp. Def stat by four steps.
+Description = A horrible sound like scraping metal lowers the target's Sp. Def stat by four steps.
 #-------------------------------
 [METEORMASH]
 Name = Meteor Mash
@@ -3923,7 +3923,7 @@ TotalPP = 30
 Target = AllNearFoes
 FunctionCode = LowerTargetSpd4
 Flags = CanProtect,CanMagicCoat
-Description = The user releases cotton-like spores that cling to all foes nearby, reducing their Speed by four steps.
+Description = The user releases cotton-like spores that cling to all foes nearby, lowering their Speed by four steps.
 #-------------------------------
 [ENERGYBALL]
 Name = Energy Ball
@@ -5040,10 +5040,10 @@ Power = 55
 Accuracy = 100
 TotalPP = 12
 Target = AllNearFoes
-FunctionCode = LowerTargetAtk2
+FunctionCode = LowerTargetHighestStat2
 Flags = CanProtect
 EffectChance = 100
-Description = The user swings its tail wildly and attacks opposing Pokémon, lowering their Attack stats by two steps.
+Description = The user swings its tail wildly at opposing Pokémon, lowering their Attack or Sp. Atk (whichever is higher) by two steps.
 #-------------------------------
 [CLANGOROUSSOUL]
 Name = Clangorous Soul
