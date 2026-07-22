@@ -806,7 +806,7 @@ Pokemon = AMAROWAK,40
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,10,20,0
 Pokemon = MILOTIC,40
-    Moves = RECOVER,VANGUARD,SCALD,GALLINGSPIT
+    Moves = RECOVER,VANGUARD,SCALD,BITTERBILE
     AbilityIndex = 1 # Competitive
     Item = HIVISJACKET
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -3590,7 +3590,7 @@ Pokemon = DONPHAN,45
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,20,0,20,10
 Pokemon = SERPERIOR,45
-    Moves = GALLINGSPIT,AUTUMNBLAST,SYNTHESIS,PETRIFY
+    Moves = SCOUR,AUTUMNBLAST,SYNTHESIS,PETRIFY
     AbilityIndex = 1 # Victory Molt
     Item = LEFTOVERS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -4694,7 +4694,7 @@ Pokemon = UNFEZANT,55
     AbilityIndex = 1 # Super Luck
     Item = SCOPELENS
 Pokemon = SAURENAID,55
-    Moves = WATERLOG,GALLINGSPIT,FROSTBREATH,SNIPESHOT
+    Moves = WATERLOG,BITTERBILE,FROSTBREATH,SNIPESHOT
     AbilityIndex = 1 # Leviathan
     Item = LEFTOVERS
 Pokemon = PORYGONZ,55
@@ -4757,7 +4757,7 @@ Pokemon = DRACOZOLT,53
     Moves = VOLTSEEKERS,DRAGONHAMMER,HUMBLE,NUMB
     AbilityIndex = 1 # Challenger
 Pokemon = DRACOVISH,53
-    Moves = SEARINGCRUNCH,FISHIOUSREND,GALLINGSPIT,CRUNCH
+    Moves = SEARINGCRUNCH,FISHIOUSREND,DRACOMETEOR,CRUNCH
     AbilityIndex = 0 # Live Fast
 Pokemon = ARCTOVISH,52
     Moves = PRESSUREBURST,PIERCINGDOUBT,SUBLIMATE,BODYPRESS
@@ -5487,7 +5487,7 @@ Pokemon = PALMANTRA,59
     AbilityIndex = 0 # Middle Way
     Item = ASSAULTVEST
 Pokemon = ARBOK,59
-    Moves = GLARE,ACIDBALL,CRUNCH,GALLINGSPIT
+    Moves = GLARE,ACIDBALL,CRUNCH,BITTERBILE
     AbilityIndex = 0 # Intimidate
 Pokemon = WISHIWASHI,59
     Moves = AQUAJET,FLIPTURN,FLOUNDER,EARTHPOWER
@@ -9697,7 +9697,7 @@ Pokemon = WEEZING,70
     AbilityIndex = 0 # Frustrate
     Item = LEFTOVERS
 Pokemon = KINGDRA,70
-    Moves = MIASMA,DREAMDANCE,SCALD,GALLINGSPIT
+    Moves = MIASMA,DREAMDANCE,SCALD,SCOUR
     AbilityIndex = 0 # Serene Grace
 #-------------------------------
 [CRIMINALTEAM,Gianna and Rocco]
