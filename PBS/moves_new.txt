@@ -7379,6 +7379,18 @@ Flags = CanProtect,Slice
 Description = The user attacks fueled by ire. Deals double damage if it's a critical hit.
 Animation = SLASH
 #-------------------------------
+[BITTERBILE]
+Name = Bitter Bile
+Type = DRAGON
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = RemovesTargetItem
+Flags = CanProtect
+Description = The user spits digestive juices at the target, destroying their held item.
+#-------------------------------
 [CALAMITOUSSLASH]
 Name = Calamitous Slash
 Type = DRAGON
@@ -7443,6 +7455,18 @@ FunctionCode = DoubleDamageTargetStatused
 Flags = CanProtect
 Description = The user crushes the target with evil intent. This deals double damage if the target has a non-volatile status condition.
 Animation = CRUSHCLAW
+#-------------------------------
+[DEMANDINGGAZE]
+Name = Demanding Gaze
+Type = DRAGON
+Category = Special
+Power = 60
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = StealsItem
+Flags = CanProtect
+Description = Eyes pulsing with rainbow energy damage the target and force it to hand over its held item. Items stolen from wild Pokémon are stored.
 #-------------------------------
 [DEVOUR]
 Name = Devour
@@ -7533,20 +7557,6 @@ FunctionCode = TwoTurnAttackBurnOrFrostbiteTargetBasedOnHigherStat
 Flags = CanProtect
 Description = The user charges, then attacks on the second turn. This burns or frostbites the target depending on their stats.
 Animation = DIAMETRICBREATH
-#-------------------------------
-[GALLINGSPIT]
-Name = Galling Spit
-Type = DRAGON
-Category = Special
-Power = 80
-Accuracy = 100
-TotalPP = 12
-Target = NearOther
-FunctionCode = Poison
-Flags = CanProtect
-EffectChance = 30
-Description = The user spits venom at the target. It has a 30% chance to poison.
-Animation = ACIDSPRAY
 #-------------------------------
 [GNAW]
 Name = Gnaw

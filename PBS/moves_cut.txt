@@ -4185,6 +4185,20 @@ Flags = CanProtect
 EffectChance = 20
 Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
 #-------------------------------
+[GALLINGSPIT]
+Name = Galling Spit
+Type = DRAGON
+Category = Special
+Power = 80
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+EffectChance = 30
+Description = The user spits venom at the target. It has a 30% chance to poison.
+Animation = ACIDSPRAY
+#-------------------------------
 [REND]
 Name = Rend
 Type = DRAGON
