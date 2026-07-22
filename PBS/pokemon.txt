@@ -4532,7 +4532,7 @@ StepsToHatch = 8960
 Height = 1.0
 Weight = 23.5
 Kind = Intertwining
-Pokedex = Sylveon's ribbon-like feelers emit an aura that erases any sense of hostility, enabling it to stop fights. It wraps its feelers to its Trainer in order to read their feelings.
+Pokedex = Sylveon's ribbon-like feelers emit an aura that erases any sense of hostility, enabling it to stop fights. Its feelers allow it to read their Trainer's feelings.
 Generation = 6
 Flags = Cat
 #-------------------------------
@@ -7239,7 +7239,7 @@ StepsToHatch = 20655
 Height = 1.9
 Weight = 178.0
 Kind = Thunder
-Pokedex = Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down.
+Pokedex = Raikou embodies the speed of lightning. This Pokémon's roars send shock waves shuddering through the air and ground as if lightning bolts were crashing down.
 Generation = 2
 Flags = Legendary,Cat
 #-------------------------------
@@ -7261,7 +7261,7 @@ StepsToHatch = 20655
 Height = 2.1
 Weight = 198.0
 Kind = Volcano
-Pokedex = Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.
+Pokedex = Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It blasts fire that consumes all that it touches.
 Generation = 2
 Flags = Legendary,Cat
 #-------------------------------
