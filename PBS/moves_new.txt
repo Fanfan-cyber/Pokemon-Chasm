@@ -7435,13 +7435,14 @@ Animation = BITE
 Name = Clash
 Type = DRAGON
 Category = Physical
-Power = 45
+Power = 40
 Accuracy = 100
 TotalPP = 30
 Target = NearOther
-FunctionCode = Basic
+FunctionCode = LowerTargetHighestStat1
 Flags = CanProtect
-Description = The user harnesses inner battle instincts to strike at the target.
+EffectChance = 20
+Description = The user harnesses inner battle instincts to strike at the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
 #-------------------------------
 [CRUELTY]
 Name = Cruelty
@@ -7601,7 +7602,7 @@ Type = DRAGON
 Category = Special
 Power = 40
 Accuracy = 100
-TotalPP = 15
+TotalPP = 30
 Target = NearOther
 FunctionCode = LowerTargetHighestStat1
 Flags = CanProtect,Sound
