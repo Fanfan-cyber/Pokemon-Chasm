@@ -35,7 +35,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = LowerTargetDef4
 Flags = CanProtect,CanMagicCoat,Biting
-Description = The user exposes its teeth in a menacing way, reducing the target's Defense by four steps.
+Description = The user exposes its teeth in a menacing way, lowering the target's Defense by four steps.
 #-------------------------------
 [BEDFELLOWS]
 Name = Bedfellows
@@ -302,7 +302,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = NumbTargetLowerTargetAtkSpAtk1
 Flags = CanProtect,CanMagicCoat
-Description = The user's eyes glow with divine judgement, numbing the target and reducing both its Attack and Sp. Atk.
+Description = The user's eyes glow with divine judgement, numbing the target and lowering both its Attack and Sp. Atk.
 Animation = GLARE
 #-------------------------------
 [HONESIGHT]
@@ -440,7 +440,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetSpAtkSpDef2
 Flags = CanProtect,CanMagicCoat
-Description = The user pranks the target, surprising it and reducing its Sp. Atk and Sp. Def by two steps.
+Description = The user pranks the target, surprising it and lowering its Sp. Atk and Sp. Def by two steps.
 Animation = SCARYFACE
 #-------------------------------
 [PRISMATICPOWER]
@@ -2027,7 +2027,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd1
 Flags = CanProtect
 EffectChance = 20
-Description = The user attacks by hurling a blob of mud. It has a 20% chance to reduce the target's Speed.
+Description = The user attacks by hurling a blob of mud. It has a 20% chance to lower the target's Speed.
 Animation = MUDSLAP
 #-------------------------------
 [PARADISIACA]
@@ -2738,7 +2738,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd3
 Flags = CanProtect
 EffectChance = 100
-Description = The user makes the target have an allergic reaction. This reduces their Speed by three steps.
+Description = The user makes the target have an allergic reaction. This lowers their Speed by three steps.
 Animation = POLLENPUFF
 #-------------------------------
 [BIOFLASH]
@@ -3216,7 +3216,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = DisableTargetLastMoveUsedLowerTargetRelevantStat4
 Flags = CanProtect,CanMagicCoat
-Description = Disables the target's last used move for four turns, then reduces a relevant stat on them by four steps.
+Description = Disables the target's last used move for four turns, then lowers a relevant stat on them by four steps.
 Animation = DISABLE
 #-------------------------------
 [COLDSHOULDER]
@@ -3306,7 +3306,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpDef1
 Flags = CanProtect,Sound
 EffectChance = 20
-Description = The user sings with deathly sounds to harm the target. It has a 20% chance to reduce Sp. Def.
+Description = The user sings with deathly sounds to harm the target. It has a 20% chance to lower Sp. Def.
 #-------------------------------
 [DISTURB]
 Name = Disturb
@@ -4161,7 +4161,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = AddSteelTypeToTargetLowerTargetSpd4
 Flags = CanProtect,CanMagicCoat
-Description = Welds heavy steel onto the target, giving it the Steel type and reducing its Speed by four steps.
+Description = Welds heavy steel onto the target, giving it the Steel type and lowering its Speed by four steps.
 Animation = SHOTPUT
 #-------------------------------
 #		FIRE MOVES
@@ -4715,7 +4715,7 @@ Target = NearOther
 FunctionCode = LowerTargetDef1
 Flags = CanProtect
 EffectChance = 20
-Description = The user jumps out of the water to attack. Has a 20% chance to reduce Defense.
+Description = The user jumps out of the water to attack. Has a 20% chance to lower Defense.
 Animation = DIVE
 #-------------------------------
 [BUBBLEBARRAGE]
@@ -5588,7 +5588,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LeechTargetLowerTargetAtkSpAtk1
 Flags = CanProtect,CanMagicCoat
-Description = A parasitic seed leeches the target and reduces both its Attack and Sp. Atk.
+Description = A parasitic seed leeches the target and lowers both its Attack and Sp. Atk.
 Animation = LEECHSEED
 #-------------------------------
 [SHARINGSMILES]
@@ -7048,7 +7048,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd3
 Flags = CanProtect,Wind
 EffectChance = 100
-Description = The user attacks the target with a frontal cold wind. It reduces the target's Speed by three steps.
+Description = The user attacks the target with a frontal cold wind. It lowers the target's Speed by three steps.
 Animation = ICYWIND
 #-------------------------------
 [HIBERNALFLUX]
@@ -7442,7 +7442,7 @@ Target = NearOther
 FunctionCode = LowerTargetHighestStat1
 Flags = CanProtect
 EffectChance = 20
-Description = The user harnesses inner battle instincts to strike at the target. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
+Description = The user harnesses primal instincts to strike at the target. This has a 20% chance to lower the higher of the target's Attack or Sp. Atk.
 #-------------------------------
 [CRUELTY]
 Name = Cruelty
@@ -7607,7 +7607,7 @@ Target = NearOther
 FunctionCode = LowerTargetHighestStat1
 Flags = CanProtect,Sound
 EffectChance = 20
-Description = The target is harmed by a malevolent sound. This has a 20% chance to reduce the higher of the target's Attack or Sp. Atk.
+Description = The target is harmed by a malevolent sound. This has a 20% chance to lower the higher of the target's Attack or Sp. Atk.
 Animation = GROWL
 #-------------------------------
 [JETSPEED]
@@ -7656,7 +7656,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = ApplyShrinkingToTarget
 Flags = CanMagicCoat
-Description = The user sprays the target with a shrinking liquid. For the next three turns, the target's highest stat will be reduced by two steps.
+Description = The user sprays the target with a shrinking liquid. For the next three turns, the target's highest stat will be lowered by two steps.
 Animation = APPLEACID
 #-------------------------------
 [SACREDLOTS]
