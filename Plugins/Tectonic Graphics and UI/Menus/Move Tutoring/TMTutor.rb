@@ -20,7 +20,7 @@ def techSupporter
         pbChoosePokemonRepeatedly(learnTMMovesProc, canChooseForTMsProc)
     elsif choice == cmdExplainTechnicalMachines
         pbMessage(_INTL("Technical Machines, or TMs for short, are items that teach moves to your Pokemon!"))
-        pbMessage(_INTL("TMs are common place in our modern world, and they be unweildy to use."))
+        pbMessage(_INTL("TMs are common place in our modern world, and they be unwieldy to use."))
         pbMessage(_INTL("I'm here to help you use your TMs quickly and efficiently."))
         pbMessage(_INTL("Just select a Pokemon, and you'll be able to teach it any of the compatible TMs you own!"))
     end

@@ -74,7 +74,7 @@ Type = NORMAL
 Category = Physical
 Power = 85
 Accuracy = 100
-TotalPP = 12
+TotalPP = 15
 Target = NearOther
 FunctionCode = Numb
 Flags = CanProtect
@@ -1000,7 +1000,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetAtkDef2
 Flags = CanProtect,CanMagicCoat
-Description = The user tickles the target into laughing, reducing its Attack and Defense by two steps.
+Description = The user tickles the target into laughing, lowering its Attack and Defense by two steps.
 #-------------------------------
 [TRANSFORM]
 Name = Transform
@@ -1257,7 +1257,7 @@ Type = FIGHTING
 Category = Physical
 Power = 60
 Accuracy = 100
-TotalPP = 10
+TotalPP = 15
 Target = NearOther
 FunctionCode = Numb
 Flags = CanProtect
@@ -1300,7 +1300,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd2
 Flags = CanProtect,Kick
 EffectChance = 100
-Description = The user attacks the target's legs swiftly, reducing the target's Speed stat by two steps.
+Description = The user attacks the target's legs swiftly, lowering the target's Speed stat by two steps.
 #-------------------------------
 [MACHPUNCH]
 Name = Mach Punch
@@ -1730,7 +1730,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpDef4
 Flags = CanProtect
 EffectChance = 100
-Description = The user spits fluid that works to melt the target. This reduces the target's Sp. Def stat by four steps.
+Description = The user spits fluid that works to melt the target. This lowers the target's Sp. Def stat by four steps.
 #-------------------------------
 [BELCH]
 Name = Belch
@@ -1870,7 +1870,7 @@ Description = Inflicts physical or special damage, whichever will be more effect
 Name = Sludge
 Type = POISON
 Category = Special
-Power = 65
+Power = 60
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -1963,7 +1963,7 @@ Target = AllNearOthers
 FunctionCode = LowerTargetSpd1
 Flags = CanProtect,Kick
 EffectChance = 100
-Description = The user strikes everything around it by stomping on the ground. It reduces hit Pokémon's Speed.
+Description = The user strikes everything around it by stomping on the ground. This lowers hit Pokémon's Speed.
 #-------------------------------
 [DIG]
 Name = Dig
@@ -2035,7 +2035,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd2
 Flags = CanProtect
 EffectChance = 100
-Description = The user attacks by shooting a beam of mud at the target. It also reduces the target's Speed by two steps.
+Description = The user attacks by shooting a beam of mud at the target. It also lowers the target's Speed by two steps.
 #-------------------------------
 [PRECIPICEBLADES]
 Name = Precipice Blades
@@ -2240,7 +2240,7 @@ Type = ROCK
 Category = Physical
 Power = 45
 Accuracy = 100
-TotalPP = 12
+TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect
@@ -2250,7 +2250,7 @@ Description = The user picks up and throws a small rock at the target to attack.
 Name = Rock Tomb
 Type = ROCK
 Category = Physical
-Power = 60
+Power = 55
 Accuracy = 100
 TotalPP = 12
 Target = NearOther
@@ -2384,7 +2384,7 @@ Description = The user calls its underlings to shield it, raising its Defense an
 Name = Fell Stinger
 Type = BUG
 Category = Physical
-Power = 60
+Power = 50
 Accuracy = 100
 TotalPP = 20
 Target = NearOther
@@ -2536,8 +2536,8 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetDef1
 Flags = CanProtect
-EffectChance = 30
-Description = The user rolls over its foes, crushing them. It has a 30% chance to reduce the target's Defense.
+EffectChance = 40
+Description = The user rolls over its foes, crushing them. It has a 40% chance to lower the target's Defense.
 #-------------------------------
 [STICKYWEB]
 Name = Sticky Web
@@ -2750,7 +2750,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerTargetSpd4
 Flags = CanProtect,CanMagicCoat
-Description = The user frightens the target with a scary face to reduce its Speed stat by four steps.
+Description = The user frightens the target with a scary face to lower its Speed stat by four steps.
 #-------------------------------
 [SHADOWBALL]
 Name = Shadow Ball
@@ -3062,7 +3062,7 @@ Type = STEEL
 Category = Physical
 Power = 60
 Accuracy = 100
-TotalPP = 30
+TotalPP = 20
 Target = NearOther
 FunctionCode = RaiseUserAtk1
 Flags = CanProtect,Slice
@@ -3078,7 +3078,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = LowerTargetSpDef4
 Flags = CanProtect,CanMagicCoat,Sound
-Description = A horrible sound like scraping metal reduces the target's Sp. Def stat by four steps.
+Description = A horrible sound like scraping metal lowers the target's Sp. Def stat by four steps.
 #-------------------------------
 [METEORMASH]
 Name = Meteor Mash
@@ -3348,12 +3348,12 @@ Type = FIRE
 Category = Physical
 Power = 60
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
 FunctionCode = Burn
 Flags = CanProtect
-EffectChance = 20
-Description = The user cloaks itself in fire and rushes at the target. It has a 20% chance to burn.
+EffectChance = 30
+Description = The user cloaks itself in fire and rushes at the target. It has a 30% chance to burn.
 #-------------------------------
 [FLAREBLITZ]
 Name = Flare Blitz
@@ -3923,7 +3923,7 @@ TotalPP = 30
 Target = AllNearFoes
 FunctionCode = LowerTargetSpd4
 Flags = CanProtect,CanMagicCoat
-Description = The user releases cotton-like spores that cling to all foes nearby, reducing their Speed by four steps.
+Description = The user releases cotton-like spores that cling to all foes nearby, lowering their Speed by four steps.
 #-------------------------------
 [ENERGYBALL]
 Name = Energy Ball
@@ -4202,7 +4202,7 @@ Type = GRASS
 Category = Physical
 Power = 45
 Accuracy = 100
-TotalPP = 20
+TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect
@@ -4357,7 +4357,7 @@ Description = The user strikes the target with a quick jolt of electricity. Can'
 Name = Spark
 Type = ELECTRIC
 Category = Physical
-Power = 65
+Power = 60
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -4746,7 +4746,7 @@ Type = PSYCHIC
 Category = Physical
 Power = 80
 Accuracy = 100
-TotalPP = 10
+TotalPP = 15
 Target = NearOther
 FunctionCode = RemoveScreens
 Flags = CanProtect,Biting
@@ -4879,8 +4879,8 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetAtk1
 Flags = CanProtect,Light
-EffectChance = 30
-Description = The target is hit with a rainbow-colored beam. It has a 30% chance to lower Attack.
+EffectChance = 40
+Description = The target is hit with a rainbow-colored beam. It has a 40% chance to lower Attack.
 #-------------------------------
 [AURORAVEIL]
 Name = Aurora Veil
@@ -5040,10 +5040,10 @@ Power = 55
 Accuracy = 100
 TotalPP = 12
 Target = AllNearFoes
-FunctionCode = LowerTargetAtk2
+FunctionCode = LowerTargetHighestStat2
 Flags = CanProtect
 EffectChance = 100
-Description = The user swings its tail wildly and attacks opposing Pokémon, lowering their Attack stats by two steps.
+Description = The user swings its tail wildly at opposing Pokémon, lowering their Attack or Sp. Atk (whichever is higher) by two steps.
 #-------------------------------
 [CLANGOROUSSOUL]
 Name = Clangorous Soul
@@ -5819,7 +5819,7 @@ Type = FAIRY
 Category = Special
 Power = 45
 Accuracy = 100
-TotalPP = 25
+TotalPP = 30
 Target = NearOther
 FunctionCode = Basic
 Flags = CanProtect,Wind

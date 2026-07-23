@@ -259,7 +259,7 @@ class PokeBattle_AI
 
             if willFaint
                 # Check if the target has an endure-type protection that will prevent the KO
-                abilityEndures = !@battle.moldBreaker && target.fullHealth? &&
+                abilityEndures = !user.hasMoldBreaker? && target.fullHealth? &&
                     (target.hasActiveAbilityAI?(:STURDY) || target.hasActiveAbilityAI?(:SURVIVALIST))
                 itemEndures = target.fullHealth? && target.hasActiveItemAI?(GameData::Item.getByFlag("Endure"))
                 clarityEndures = target.hasActiveItemAI?(:CLARITYSASH)

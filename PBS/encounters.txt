@@ -522,14 +522,6 @@ Special,,40,40
 Special,,40,40
     1,ORICORIO,10
 #-------------------------------
-[180] # Blustery Bosk
-FloweryGrass2,20,60,60
-    20,CORVIKNIGHT,55,57
-    20,FEAROW,55,57
-    20,LEDIAN,55,57
-    20,LUXRAY,55,57
-    20,TOUCANNON,55,57
-#-------------------------------
 [182] # Spirit Atoll
 FloweryGrass,20,55,60
     25,CHERRIM,56,58
@@ -591,14 +583,6 @@ FloweryGrass2,20,40,45
     25,SMEARGLE,39,41
 Special,,40,45
     1,RELICANTH,10
-#-------------------------------
-[192] # Field of Spires
-Land,20,60,60
-    20,AMBIPOM,55,57
-    20,CLAYDOL,55,57
-    20,DUGTRIO,55,57
-    20,GLISCOR,55,57
-    20,UNFEZANT,55,57
 #-------------------------------
 [193] # Volcanic Shore
 Land,20,40,40
@@ -894,14 +878,6 @@ Land,20,55,65
     25,PICHU,59,61
     25,ROOKIDEE,59,61
 #-------------------------------
-[264] # Thunder Point
-Land,20,60,60
-    20,BLASFEMMIE,55,57
-    20,DEDENNE,55,57
-    20,EMOLGA,55,57
-    20,FALINKS,55,57
-    20,SEISMAW,55,57
-#-------------------------------
 [282] # The Catacombs B1
 LandSparse,20,55,55
     20,AEGISLASH,49,51
@@ -1178,14 +1154,6 @@ Cloud,20,70,70
     20,EMOLGA,62,64
     20,MAGNEZONE,62,64
     20,MANERGETIC,62,64
-#-------------------------------
-[425] # Shimmer Haven
-LandTall,20,70
-    20,ACCELGOR,55,57
-    20,ESCAVALIER,55,57
-    20,FLORGES,55,57
-    20,LILLIGANT,55,57
-    20,PURUGLY,55,57
 #-------------------------------
 [428] # Steamy Valley
 FloweryGrass,20,55,70
