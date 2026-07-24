@@ -286,7 +286,14 @@ BattleHandlers::DamageCalcUserAbility.add(:IRONHEEL,
   }
 )
 
-BattleHandlers::DamageCalcUserAbility.copy(:IRONHEEL, :HEAVYDUTYHOOVES)
+BattleHandlers::DamageCalcUserAbility.add(:HEAVYDUTYHOOVES,
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+    if move.kickingMove?
+      mults[:base_damage_multiplier] *= 23 / 20.0
+      user.aiLearnsAbility(ability) unless aiCheck
+    end
+  }
+)
 
 BattleHandlers::DamageCalcUserAbility.add(:BEAMING,
   proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
