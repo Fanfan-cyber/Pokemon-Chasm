@@ -1010,7 +1010,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [HEAVYDUTYHOOVES]
 Name = Heavy Duty Hooves
-Description = Boosts the power of kicking moves by 15%. Immune to hazards.
+Description = Boosts the power of kicking moves by 30%. Immune to hazards.
 Flags = HazardImmunity
 #-------------------------------
 [HERBALIST]
