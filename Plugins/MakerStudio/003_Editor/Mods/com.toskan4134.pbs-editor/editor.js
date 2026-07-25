@@ -29,6 +29,7 @@ export function setI18n(tFn) { _t = tFn; }
 const _tbSvg = (d) => `<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle">${d}</svg>`;
 const ICON_SAVE  = _tbSvg('<path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/>');
 const ICON_TRASH = _tbSvg('<polyline points="3 6 5 6 21 6"/><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>');
+const ICON_DISCARD = _tbSvg('<path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/>');
 
 const PAGE_SIZE = 50;
 
@@ -49,6 +50,7 @@ export class PbsEditor {
     this._historyIdx = -1;
     this._navigating = false;
     this._metricsCache = null;
+    this._fileFilter = null;
 
     this.build();
   }
@@ -219,6 +221,8 @@ export class PbsEditor {
       if (v !== this.version) this.initWithVersion(v);
     });
     this.toolbar.appendChild(this.versionSelect);
+    this.fileFilterBar = h('div', { className: 'pbs-file-filter-bar', style: { display: 'none' } });
+    this.toolbar.appendChild(this.fileFilterBar);
     this.toolbar.appendChild(h('div', { className: 'pbs-toolbar-sep' }));
     this.toolbar.appendChild(h('div', { className: 'pbs-toolbar-spacer' }));
     this.searchInput = searchBox(_t('Search entries...'), (q) => { this.searchQuery = q; this.pagination.reset(); this.renderTable(); });
@@ -226,6 +230,7 @@ export class PbsEditor {
     this.dirtyIndicator = h('span', { style: { display: 'none' } });
     this.toolbar.appendChild(this.dirtyIndicator);
     this.toolbar.appendChild(button(`${ICON_SAVE} ${_t('Save')}`, () => this.saveCurrentFile(), 'primary'));
+    this.toolbar.appendChild(button(`${ICON_DISCARD} ${_t('Discard')}`, () => this.discardChanges()));
     this.toolbar.appendChild(button(_t('+ New'), () => this.addEntry()));
     this.toolbar.appendChild(button(`${ICON_TRASH} ${_t('Delete')}`, () => this.deleteEntry(), 'danger'));
     this.root.appendChild(this.toolbar);
@@ -278,6 +283,11 @@ export class PbsEditor {
     if (!ft) return;
     const entries = this.entries[ft];
     if (!entries?.length) return;
+
+    // Don't hijack arrows while the user is typing in a field or navigating a
+    // suggestion dropdown — only move the selected entry from the list itself.
+    const t = e.target;
+    if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.tagName === 'SELECT' || t.isContentEditable)) return;
 
     if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
       e.preventDefault();
@@ -430,6 +440,7 @@ export class PbsEditor {
     this.currentFileType = ft;
     this.searchQuery = '';
     this.searchInput.value = '';
+    this._fileFilter = null;
 
     const items = this.sidebar.querySelectorAll('.pbs-sidebar-item');
     const types = getAvailableFileTypes(this.version);
@@ -453,6 +464,7 @@ export class PbsEditor {
     }
 
     this.pagination.reset();
+    this.buildFileFilter();
     this.renderTable();
     this.renderDetail();
     this.updatePreview();
@@ -544,29 +556,30 @@ export class PbsEditor {
   // ---- Table ----
   getPageEntries() {
     const ft = this.currentFileType;
-    const entries = this.entries[ft];
+    let entries = this.entries[ft];
     if (!entries) return [];
-    let rows = entries;
+    if (this._fileFilter) {
+      const base = getFilename(ft, this.version);
+      entries = entries.filter(e => (e._file || base) === this._fileFilter);
+    }
     if (this.searchQuery) {
       const q = this.searchQuery.toLowerCase();
       const config = getFileTypeConfig(ft);
-      rows = entries.filter(r =>
+      entries = entries.filter(r =>
         config.columns.some(c => String(r[c.key] ?? '').toLowerCase().includes(q))
       );
     }
-    return rows;
+    return entries;
   }
 
   _sortEntries(entries, config, sortCol, sortDir) {
     const col = config.columns[sortCol];
     if (!col) return entries;
-    const sorted = entries.map((r, i) => ({ row: r, idx: i }));
-    sorted.sort((a, b) => {
-      let va = a.row[col.key] ?? '', vb = b.row[col.key] ?? '';
+    return entries.slice().sort((a, b) => {
+      let va = a[col.key] ?? '', vb = b[col.key] ?? '';
       if (col.numeric) { va = parseFloat(va) || 0; vb = parseFloat(vb) || 0; }
       return va < vb ? -sortDir : va > vb ? sortDir : 0;
     });
-    return sorted.map(s => s.row);
   }
 
   renderTable() {
@@ -706,7 +719,7 @@ export class PbsEditor {
         for (const fieldDef of section.fields) {
           const val = entry[fieldDef.key] || '';
           const editor = this.makeFieldEditor(fieldDef, val, entry, config);
-          toggle.body.appendChild(editor.el);
+          toggle.body.appendChild(editor);
         }
         body.appendChild(toggle.body);
       }
@@ -714,7 +727,7 @@ export class PbsEditor {
       for (const fieldDef of (config.fields || [])) {
         const val = entry[fieldDef.key] || '';
         const editor = this.makeFieldEditor(fieldDef, val, entry, config);
-        body.appendChild(editor.el);
+        body.appendChild(editor);
       }
     }
 
@@ -728,7 +741,7 @@ export class PbsEditor {
       for (const fieldDef of section.fields) {
         const val = entry[fieldDef.key] || '';
         const editor = this.makeFieldEditor(fieldDef, val, entry, config);
-        body.appendChild(editor.el);
+        body.appendChild(editor);
       }
     }
 
@@ -739,6 +752,47 @@ export class PbsEditor {
     }
 
     this.detailPanel.appendChild(body);
+  }
+
+  // Only worth showing on v21, where a pack can drop `<base>_<suffix>.txt`
+  // extras next to the base file; earlier versions only ever have the one.
+  buildFileFilter() {
+    this.fileFilterBar.innerHTML = '';
+    const files = this.files[this.currentFileType] || [];
+    if (this.version !== 21 || files.length <= 1) {
+      this.fileFilterBar.style.display = 'none';
+      return;
+    }
+    this.fileFilterBar.style.display = '';
+    const baseName = getFilename(this.currentFileType, this.version).replace(/\.txt$/i, '');
+    const sel = h('select', { className: 'pbs-search', style: { width: '90px', fontSize: '11px' } });
+    sel.appendChild(h('option', { value: '', textContent: _t('All files') }));
+    for (const f of files) {
+      const label = f.replace(/\.txt$/i, '').slice(baseName.length + 1) || _t('Base');
+      sel.appendChild(h('option', { value: f, textContent: label }));
+    }
+    sel.value = this._fileFilter || '';
+    sel.addEventListener('change', () => this.setFileFilter(sel.value || null));
+    this.fileFilterBar.appendChild(sel);
+  }
+
+  setFileFilter(filter) {
+    this._fileFilter = filter;
+    this.buildFileFilter();
+    const ft = this.currentFileType;
+    const entries = this.entries[ft];
+    if (entries && this.selectedIdx >= 0) {
+      const selectedEntry = entries[this.selectedIdx];
+      const filtered = this.getPageEntries();
+      if (!filtered.includes(selectedEntry) && filtered.length > 0) {
+        this.selectedIdx = entries.indexOf(filtered[0]);
+      }
+    }
+    this.pagination.reset();
+    this.renderTable();
+    this.renderDetail();
+    this.updatePreview();
+    this.updateStatusBar();
   }
 
   // ---- Save ----
@@ -775,6 +829,27 @@ export class PbsEditor {
     } catch (e) {
       this.ctx.ui.showToast({ message: _t('Save failed: {error}', { error: e.message }), level: 'error' });
     }
+  }
+
+  async discardChanges() {
+    const ft = this.currentFileType;
+    if (!ft || !this.dirty.has(ft)) return;
+    const confirmed = await this.ctx.ui.showConfirmDialog({
+      title: _t('Discard Changes'),
+      message: _t('Discard all unsaved changes in {fileType}?', { fileType: ft }),
+      danger: true,
+    });
+    if (!confirmed) return;
+    const orig = this.originalEntries[ft];
+    if (orig) this.entries[ft] = JSON.parse(JSON.stringify(orig));
+    // Discarding can shrink the list past the selection.
+    this.selectedIdx = Math.min(this.selectedIdx, this.entries[ft].length - 1);
+    this.dirty.delete(ft);
+    this.updateDirtyIndicator();
+    this.renderTable();
+    this.renderDetail();
+    this.updatePreview();
+    this.updateStatusBar();
   }
 
   async saveAllDirty() {
@@ -837,6 +912,8 @@ export class PbsEditor {
 
     entries.push(newEntry);
     this.selectedIdx = entries.length - 1;
+    this._fileFilter = null;
+    this.buildFileFilter();
 
     // Jump to last page
     const allFiltered = this.getPageEntries();
@@ -895,6 +972,8 @@ export class PbsEditor {
     if (copy.InternalName) copy.InternalName = copy.InternalName + '_COPY';
     entries.push(copy);
     this.selectedIdx = entries.length - 1;
+    this._fileFilter = null;
+    this.buildFileFilter();
     this.renderTable();
     this.renderDetail();
     this.updatePreview();

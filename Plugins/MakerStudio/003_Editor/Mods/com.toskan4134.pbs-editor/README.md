@@ -70,7 +70,11 @@ directly inside the map editor. Supports v16, v17, and v21 data formats.
 | `editor.js` | `PbsEditor` class — main UI controller (3-column layout, table, detail, save, CRUD) |
 | `parsers.js` | Pure parsers: PBS text → structured data per file type and version |
 | `writers.js` | Pure writers: structured data → PBS text per file type and version |
-| `components.js` | DOM building blocks — table, pagination, field editors, autocomplete, context menu |
+| `components.js` | Barrel — re-exports everything under `components/` |
+| `components/dom.js` | Core DOM helpers — `h`, buttons, search, autocomplete, type-icon indicators, context menu, shared i18n (`_t`) |
+| `components/table.js` | Table, pagination, preview panel, collapsible sections |
+| `components/field-editor.js` | Typed field editor + list / pairs / triplets / stats / EVs / BGM sub-editors |
+| `components/editors.js` | Specialized sub-entity editors — encounters, trainer pokemon |
 | `file-types.js` | Per-file-type field definitions, column configs, graphic paths, reference maps |
 | `styles.js` | All CSS as a template string |
 
