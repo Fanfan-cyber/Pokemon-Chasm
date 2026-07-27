@@ -32,7 +32,7 @@ TotalPP = 10
 Target = User
 FunctionCode = MaxUserAtkLoseHalfOfTotalHP
 Flags = CanSnatch
-Description = The user maximizes its Attack stat in exchange for HP equal to half its max HP.
+Description = The user maximizes its Attack in exchange for HP equal to half its max HP.
 #-------------------------------
 [BESTOW]
 Name = Bestow
@@ -351,7 +351,7 @@ TotalPP = 4
 Target = User
 FunctionCode = RaiseUserDef3
 Flags = CanSnatch
-Description = The user stiffens all the muscles in its body to raise its Defense stat by three steps.
+Description = The user stiffens all the muscles in its body to raise its Defense by three steps.
 #-------------------------------
 [HEADBUTT]
 Name = Headbutt
@@ -471,7 +471,7 @@ TotalPP = 25
 Target = AllNearFoes
 FunctionCode = LowerTargetDef2
 Flags = CanProtect,CanMagicCoat
-Description = The user leers at nearby foes with sharp eyes. Their Defense stat is lowered by two steps.
+Description = The user leers at nearby foes with sharp eyes. Their Defense is lowered by two steps.
 #-------------------------------
 [MEFIRST]
 Name = Me First
@@ -727,7 +727,7 @@ TotalPP = 25
 Target = User
 FunctionCode = RaiseUserAtk3
 Flags = CanSnatch
-Description = The user's edges become sharper, raising its Attack stat by three steps.
+Description = The user's edges become sharper, raising its Attack by three steps.
 #-------------------------------
 [SIMPLEBEAM]
 Name = Simple Beam
@@ -944,7 +944,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetAtkSpAtk2
 Flags = CanMagicCoat
-Description = The user gets teary eyed. This lowers the target's Attack and Sp. Atk stats by two steps.
+Description = The user gets teary eyed. This lowers the target's Attack and Sp. Atk by two steps.
 #-------------------------------
 [TEATIME]
 Name = Teatime
@@ -1300,7 +1300,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd2
 Flags = CanProtect,Kick
 EffectChance = 100
-Description = The user attacks the target's legs swiftly, lowering the target's Speed stat by two steps.
+Description = The user attacks the target's legs swiftly, lowering the target's Speed by two steps.
 #-------------------------------
 [MACHPUNCH]
 Name = Mach Punch
@@ -1373,7 +1373,7 @@ Target = NearOther
 FunctionCode = RaiseUserAttack2
 Flags = CanProtect,Punch
 EffectChance = 100
-Description = Striking opponents repeatedly makes the user's fists harder, raising the user's Attack stat by two steps.
+Description = Striking opponents repeatedly makes the user's fists harder, raising the user's Attack by two steps.
 #-------------------------------
 [QUICKGUARD]
 Name = Quick Guard
@@ -1608,7 +1608,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = LowerTargetAtk5
 Flags = CanProtect,CanMagicCoat,Dance
-Description = The user covers the target's body with a mass of down that lowers its Attack stat by five steps.
+Description = The user covers the target's body with a mass of down that lowers its Attack by five steps.
 #-------------------------------
 [FLY]
 Name = Fly
@@ -1730,7 +1730,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpDef4
 Flags = CanProtect
 EffectChance = 100
-Description = The user spits fluid that works to melt the target. This lowers the target's Sp. Def stat by four steps.
+Description = The user spits fluid that works to melt the target. This lowers the target's Sp. Def by four steps.
 #-------------------------------
 [BELCH]
 Name = Belch
@@ -1913,7 +1913,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = PoisonTargetLowerTargetSpd4
 Flags = CanProtect,CanMagicCoat
-Description = The user shoots poisonous threads to poison the target and lowers the target's Speed stat by four steps.
+Description = The user shoots poisonous threads to poison the target and lowers the target's Speed by four steps.
 #-------------------------------
 [VENOMDRENCH]
 Name = Venom Drench
@@ -2390,7 +2390,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RaiseUserAttack5IfTargetFaints
 Flags = CanProtect
-Description = When the user knocks out a target with this move, the user's Attack stat rises by five steps.
+Description = When the user knocks out a target with this move, this raises the user's Attack by five steps.
 #-------------------------------
 [FIRSTIMPRESSION]
 Name = First Impression
@@ -2583,7 +2583,7 @@ TotalPP = 15
 Target = User
 FunctionCode = RaiseUserSpAtk5
 Flags = CanSnatch,Light
-Description = The user stares at flashing lights to focus its mind, raising its Sp. Atk stat by five steps.
+Description = The user stares at flashing lights to focus its mind, raising its Sp. Atk by five steps.
 #-------------------------------
 [UTURN]
 Name = U-turn
@@ -2750,7 +2750,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerTargetSpd4
 Flags = CanProtect,CanMagicCoat
-Description = The user frightens the target with a scary face to lower its Speed stat by four steps.
+Description = The user frightens the target with a scary face to lower its Speed by four steps.
 #-------------------------------
 [SHADOWBALL]
 Name = Shadow Ball
@@ -3006,7 +3006,7 @@ TotalPP = 4
 Target = User
 FunctionCode = RaiseUserDef4
 Flags = CanSnatch
-Description = The user hardens its body's surface like iron, raising its Defense stat by four steps.
+Description = The user hardens its body's surface like iron, raising its Defense by four steps.
 #-------------------------------
 [IRONHEAD]
 Name = Iron Head
@@ -3078,7 +3078,7 @@ TotalPP = 30
 Target = NearOther
 FunctionCode = LowerTargetSpDef4
 Flags = CanProtect,CanMagicCoat,Sound
-Description = A horrible sound like scraping metal lowers the target's Sp. Def stat by four steps.
+Description = A horrible sound like scraping metal lowers the target's Sp. Def by four steps.
 #-------------------------------
 [METEORMASH]
 Name = Meteor Mash
@@ -3162,7 +3162,7 @@ TotalPP = 6
 Target = User
 FunctionCode = RaiseUserAtk4
 Flags = CanSnatch,Dance
-Description = A frenetic dance to uplift the fighting spirit. It raises the user's Attack stat by four steps.
+Description = A frenetic dance to uplift the fighting spirit. It raises the user's Attack by four steps.
 #-------------------------------
 #		FIRE MOVES
 #-------------------------------
@@ -3277,7 +3277,7 @@ Target = NearOther
 FunctionCode = LowerTargetDef2
 Flags = CanProtect
 EffectChance = 100
-Description = The user strikes the target with a flaming lash. This also lowers the target's Defense stat by two steps.
+Description = The user strikes the target with a flaming lash. This also lowers the target's Defense by two steps.
 #-------------------------------
 [FIREPLEDGE]
 Name = Fire Pledge
@@ -3452,7 +3452,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpAtk2
 Flags = CanProtect
 EffectChance = 100
-Description = The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk stat by two steps.
+Description = The user attacks by breathing a special, hot fire. This also lowers the target's Sp. Atk by two steps.
 #-------------------------------
 [OVERHEAT]
 Name = Overheat
@@ -3580,7 +3580,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd1
 Flags = CanProtect
 EffectChance = 100
-Description = A spray of bubbles is forcefully ejected at the target. It also lowers the foe's Speed stat.
+Description = A spray of bubbles is forcefully ejected at the target. It also lowers the foe's Speed.
 #-------------------------------
 [CLAMP]
 Name = Clamp
@@ -3912,7 +3912,7 @@ TotalPP = 4
 Target = User
 FunctionCode = RaiseUserDefense5
 Flags = CanSnatch
-Description = The user protects itself by wrapping its body in soft cotton, raising its Defense stat by five steps.
+Description = The user protects itself by wrapping its body in soft cotton, raising its Defense by five steps.
 #-------------------------------
 [COTTONSPORE]
 Name = Cotton Spore
@@ -4194,7 +4194,7 @@ Target = NearOther
 FunctionCode = LowerTargetAtk2
 Flags = CanProtect,Kick
 EffectChance = 100
-Description = The user lands an intense tropical kick on the target. This also lowers the target's Attack stat by two steps.
+Description = The user lands an intense tropical kick on the target. This also lowers the target's Attack by two steps.
 #-------------------------------
 [VINEWHIP]
 Name = Vine Whip
@@ -4256,7 +4256,7 @@ Target = NearOther
 FunctionCode = RaiseUserSpAtk2
 Flags = CanProtect
 EffectChance = 100
-Description = The user fires a concentrated bundle of electricity, raising the user's Sp. Atk stat by two steps.
+Description = The user fires a concentrated bundle of electricity, raising the user's Sp. Atk by two steps.
 #-------------------------------
 [EERIEIMPULSE]
 Name = Eerie Impulse
@@ -4267,7 +4267,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = LowerTargetSpAtk4
 Flags = CanProtect,CanMagicCoat
-Description = The user's body generates an eerie impulse. Lowers the target's Sp. Atk stat by four steps.
+Description = The user's body generates an eerie impulse. Lowers the target's Sp. Atk by four steps.
 #-------------------------------
 [ELECTROBALL]
 Name = Electro Ball
@@ -4292,7 +4292,7 @@ Target = AllNearFoes
 FunctionCode = LowerTargetSpd2
 Flags = CanProtect
 EffectChance = 100
-Description = The user captures and attacks foes by using an electric net, which lowers their Speed stat by two steps.
+Description = The user captures and attacks foes by using an electric net, which lowers their Speed by two steps.
 #-------------------------------
 [MAGNETRISE]
 Name = Magnet Rise
@@ -5015,7 +5015,7 @@ Target = AllNearFoes
 FunctionCode = LowerTargetSpd2
 Flags = CanProtect,Wind
 EffectChance = 100
-Description = The user attacks with a gust of chilled air. It also lowers the targets' Speed stat by two steps.
+Description = The user attacks with a gust of chilled air. It also lowers the targets' Speed by two steps.
 #-------------------------------
 [POWDERSNOW]
 Name = Powder Snow
@@ -5386,7 +5386,7 @@ TotalPP = 15
 Target = NearOther
 FunctionCode = LowerTargetSpDef4
 Flags = CanProtect,CanMagicCoat
-Description = The user feigns crying to worry the target, lowering its Sp. Def stat by four steps.
+Description = The user feigns crying to worry the target, lowering its Sp. Def by four steps.
 #-------------------------------
 [FALSESURRENDER]
 Name = False Surrender
@@ -5740,7 +5740,7 @@ Accuracy = 0
 TotalPP = 4
 Target = NearAlly
 FunctionCode = RaiseTargetDefSpDef2
-Description = The user raises the Defense and Sp. Def stats of an ally Pokémon by two steps using a mysterious aroma.
+Description = The user raises the Defense and Sp. Def of an ally Pokémon by two steps using a mysterious aroma.
 #-------------------------------
 [BABYDOLLEYES]
 Name = Baby-Doll Eyes
@@ -5752,7 +5752,7 @@ Target = NearOther
 Priority = 1
 FunctionCode = LowerTargetAtk3
 Flags = CanProtect,CanMagicCoat
-Description = The user stares with its baby-doll eyes, which lowers the target's Attack stat by three steps. Always goes first.
+Description = The user stares with its baby-doll eyes, which lowers the target's Attack by three steps. Always goes first.
 #-------------------------------
 [CHARM]
 Name = Charm
