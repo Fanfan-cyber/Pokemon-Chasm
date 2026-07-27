@@ -2390,7 +2390,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RaiseUserAttack5IfTargetFaints
 Flags = CanProtect
-Description = When the user knocks out a target with this move, the user's Attack stat rises by five steps.
+Description = When the user knocks out a target with this move, this raises the user's Attack by five steps.
 #-------------------------------
 [FIRSTIMPRESSION]
 Name = First Impression
