@@ -2559,6 +2559,10 @@ Description = Whenever a foe's poison worsens, this Pokémon heals for 25% max H
 Name = Verdant
 Description = Powers up Grass-type moves of itself and its allies by 50%.
 #-------------------------------
+[VERSATILEARTIST]
+Name = Versatile Artist
+Description = Gains the opposite side's last used move as a 5th move.
+#-------------------------------
 [VICIOUSCYCLE]
 Name = Vicious Cycle
 Description = This Pokémon's Dragon-type attacks become spread and drain 33% HP.

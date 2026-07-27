@@ -6825,7 +6825,7 @@ TotalPP = 5
 Target = BothSides
 Priority = -7
 FunctionCode = StartSwapSpeedOrder5
-Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns. Only usable by Hoopa.
 Animation = TRICKROOM
 #-------------------------------
 [TUTELAGE]
