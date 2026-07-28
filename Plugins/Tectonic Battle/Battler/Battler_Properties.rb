@@ -157,6 +157,25 @@ class PokeBattle_Battler
                 movesArray.push(lightthatburnsthesky)
             end
         end
+        if hasActiveAbility?(:VERSATILEARTIST)
+            if opposes?
+                lastMoveID = @battle.allMovesUsedSide0.last
+            else
+                lastMoveID = @battle.allMovesUsedSide1.last
+            end
+            unless lastMoveID.nil?
+                hasLastMoveAlready = false
+                movesArray.each do |move|
+                    next unless move.id == lastMoveID
+                    hasLastMoveAlready = true
+                    break
+                end
+                unless hasLastMoveAlready
+                    lastMove = @battle.getBattleMoveInstanceFromID(lastMoveID)
+                    movesArray.push(lastMove)
+                end
+            end
+        end
         if @battle.field.effectActive?(:InsightRoom) && @pokemon
             speciesLearnSet = @pokemon.getMoveList
             speciesLearnSet.each do |learnSetEntry|

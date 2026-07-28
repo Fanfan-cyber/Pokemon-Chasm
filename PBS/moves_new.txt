@@ -1653,7 +1653,7 @@ TotalPP = 4
 Target = User
 FunctionCode = RaiseUserSpDef5
 Flags = CanSnatch
-Description = The user partially dissolves, raising its Sp. Def stat by five steps.
+Description = The user partially dissolves, raising its Sp. Def by five steps.
 #-------------------------------
 [EXSANGUINATE]
 Name = Exsanguinate
@@ -1666,7 +1666,7 @@ Target = NearOther
 FunctionCode = RaiseUserAttack5IfTargetFaints
 Flags = CanProtect,Biting
 EffectChance = 100
-Description = The user steals blood. If the target is knocked out, raises the user's Attack stat by five steps.
+Description = The user steals blood. If the target is knocked out, this raises the user's Attack by five steps.
 Animation = CRUNCH
 #-------------------------------
 [GREYMIST]
@@ -2249,7 +2249,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd1
 Flags = CanProtect,Kick
 EffectChance = 20
-Description = The user tramples the target. It has a 20% chance to lower the target's Speed stat.
+Description = The user tramples the target. It has a 20% chance to lower the target's Speed.
 Animation = STOMPINGTANTRUM
 #-------------------------------
 [TREADON]
@@ -2805,7 +2805,7 @@ Target = NearOther
 FunctionCode = LowerTargetDef1
 Flags = CanProtect
 EffectChance = 30
-Description = The user crushes the target with a hardened carapace. It has a 30% chance to lower the target's Defense stat.
+Description = The user crushes the target with a hardened carapace. It has a 30% chance to lower the target's Defense.
 Animation = SMUSH
 #-------------------------------
 [CLACKACLACK]
@@ -3116,7 +3116,7 @@ Target = NearOther
 FunctionCode = LowerTargetDef1
 Flags = CanProtect
 EffectChance = 20
-Description = Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense stat.
+Description = Avenging bugs everywhere, the user crushes the target. It has a 20% chance to lower their Defense.
 #-------------------------------
 [STINGINGJAB]
 Name = Stinging Jab
@@ -4780,7 +4780,7 @@ Target = NearOther
 FunctionCode = LowerTargetSpd1
 Flags = CanProtect
 EffectChance = 20
-Description = A blast of bubbles is shot at the target. It has a 20% chance to lower the target's Speed stat.
+Description = A blast of bubbles is shot at the target. It has a 20% chance to lower the target's Speed.
 #-------------------------------
 [CAVITATION]
 Name = Cavitation
@@ -5912,7 +5912,7 @@ Target = AllNearFoes
 FunctionCode = LowerTargetAtk2
 Flags = CanProtect,Slice
 EffectChance = 100
-Description = The user slashes all opposing Pokémon with tendrils of electricity, lowering their Attack stats by two steps.
+Description = The user slashes all opposing Pokémon with tendrils of electricity, lowering their Attack by two steps.
 Animation = AURAWHEEL
 #-------------------------------
 [GUTCHECK]
@@ -6310,7 +6310,7 @@ TotalPP = 30
 Target = User
 FunctionCode = RaiseUserAtkSpAtk4
 Flags = CanSnatch
-Description = The user meditates, raising both its Attack and Sp. Atk stats by four steps.
+Description = The user meditates, raising both its Attack and Sp. Atk by four steps.
 Animation = MEDITATE
 #-------------------------------
 [BLINDSIDE]
@@ -6828,7 +6828,7 @@ TotalPP = 12
 Target = NearOther
 FunctionCode = LowerTargetSpAtk5
 Flags = CanProtect,CanMagicCoat,Dance
-Description = The user dazzles the target with celestial visions that lowers its Sp. Atk stat by five steps.
+Description = The user dazzles the target with celestial visions that lowers its Sp. Atk by five steps.
 Animation = COSMICPOWER
 #-------------------------------
 [SYNAPTICUNLOCK]
@@ -6865,7 +6865,7 @@ TotalPP = 5
 Target = BothSides
 Priority = -7
 FunctionCode = StartSwapSpeedOrder5
-Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns.
+Description = The user creates a bizarre area in which slower Pokémon get to move first for five turns. Only usable by Hoopa.
 Animation = TRICKROOM
 #-------------------------------
 [TUTELAGE]
@@ -6876,7 +6876,7 @@ Accuracy = 0
 TotalPP = 10
 Target = NearAlly
 FunctionCode = RaiseTargetSpAtkSpDef2
-Description = The user imparts knowledge on its ally Pokémon, raising their Sp. Atk and Sp. Def stats by two steps.
+Description = The user imparts knowledge on its ally Pokémon, raising their Sp. Atk and Sp. Def by two steps.
 Animation = COACHING
 #-------------------------------
 #		ICE MOVES
@@ -7851,7 +7851,7 @@ TotalPP = 10
 Target = User
 FunctionCode = MaxUserSpAtkLoseHalfOfTotalHP
 Flags = CanSnatch
-Description = The user maximizes its Sp. Atk stat in exchange for HP equal to half its max HP.
+Description = The user maximizes its Sp. Atk in exchange for HP equal to half its max HP.
 Animation = NASTYPLOT
 #-------------------------------
 [BLACKHOLE]
@@ -8007,7 +8007,7 @@ TotalPP = 20
 Target = NearOther
 FunctionCode = RaiseUserSpAtk5IfTargetFaints
 Flags = CanProtect
-Description = When the user knocks out a target with this move, the user's Sp. Atk stat rises by five steps.
+Description = When the user knocks out a target with this move, this raises the user's Sp. Atk by five steps.
 #-------------------------------
 [GLEEFULGRASP]
 Name = Gleeful Grasp
@@ -8045,7 +8045,7 @@ Target = NearOther
 FunctionCode = LowerTargetDef2
 Flags = CanProtect
 EffectChance = 100
-Description = The user attacks with dark illusions. This also lowers the target's Defense stat by two steps.
+Description = The user attacks with dark illusions. This also lowers the target's Defense by two steps.
 Animation = DARKPULSE
 #-------------------------------
 [HARSHVIBES]
