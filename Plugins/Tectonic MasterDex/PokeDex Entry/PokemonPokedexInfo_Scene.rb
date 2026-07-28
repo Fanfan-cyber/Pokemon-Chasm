@@ -1584,7 +1584,9 @@ sp.form) && !Settings::DEX_SHOWS_ALL_FORMS
                     break if $dex_cross_link
                     dorefresh = true
                 elsif @page == 8 && @evolutionsArray.length > 0   # Evolutions
-                    if @linksEnabled
+                    fusion_data = GameData::Species::FUSION_CACHE[@species]
+                    fusion_data ||= GameData::FusedSpecies.try_reconstruct(@species) if @species && !GameData::Species::DATA.key?(@species)
+                    if @linksEnabled && !fusion_data
                         pbPlayDecisionSE
                         newSpecies = pbScrollEvolutions
                         return newSpecies if newSpecies
