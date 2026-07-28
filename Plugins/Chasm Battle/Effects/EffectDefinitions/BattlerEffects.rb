@@ -2147,9 +2147,6 @@ GameData::BattleEffect.register_effect(:Battler, {
     :id => :ShimmeringHeat,
     :real_name => "Shimmering Heat",
     :resets_eor	=> true,
-    :apply_proc => proc do |battle, battler, _value|
-        battle.pbDisplay(_INTL("{1} is obscured by the shimmering haze!", battler.pbThis))
-    end,
 })
 
 GameData::BattleEffect.register_effect(:Battler, {

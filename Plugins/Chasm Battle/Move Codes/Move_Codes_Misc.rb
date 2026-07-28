@@ -582,11 +582,16 @@ end
 
 #===============================================================================
 # The user takes 33% less damage until end of this turn.
-# (Shimmering Heat)
+# (Shimmering Heat, Weaseling)
 #===============================================================================
 class PokeBattle_Move_UserTakesThirdLessDamageThisTurn < PokeBattle_Move
     def pbEffectAfterAllHits(user, _target)
         user.applyEffect(:ShimmeringHeat)
+        if @id == :SHIMMERINGHEAT
+            @battle.pbDisplay(_INTL("{1} is obscured by the shimmering haze!", user.pbThis))
+        else
+            @battle.pbDisplay(_INTL("{1} slinks into the water!", user.pbThis))
+        end
     end
 
     def getEffectScore(user, target)
