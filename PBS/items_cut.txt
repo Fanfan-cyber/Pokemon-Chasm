@@ -4919,3 +4919,12 @@ Price = 3000
 FieldUse = TM
 Flags = SkipPocketMessage
 Move = CAUSTICPUNCH
+#-------------------------------
+[TMSHRED]
+Name = Unnamed
+NamePlural = Unnamed
+Pocket = 5
+Price = 3000
+FieldUse = TM
+Flags = SkipPocketMessage
+Move = SHRED

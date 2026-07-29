@@ -4239,6 +4239,19 @@ Flags = CanProtect
 EffectChance = 100
 Description = The user attacks by shooting scales two to five times. It boosts the user's Speed stat but lowers its Defense stat.
 #-------------------------------
+[SHRED]
+Name = Shred
+Type = DRAGON
+Category = Physical
+Power = 65
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user attacks with a flurry of claws.
+Animation = DRAGONCLAW
+#-------------------------------
 #		DARK MOVES
 #-------------------------------
 [ABYSSALRESET]
