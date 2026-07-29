@@ -4185,6 +4185,18 @@ Flags = CanProtect
 EffectChance = 20
 Description = The user tackles the foe while exhibiting overwhelming menace. It may also make the target flinch.
 #-------------------------------
+[DUALCHOP]
+Name = Dual Chop
+Type = DRAGON
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 12
+Target = NearOther
+FunctionCode = Invalid
+Flags = CanProtect
+Description = The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.
+#-------------------------------
 [GALLINGSPIT]
 Name = Galling Spit
 Type = DRAGON
