@@ -393,6 +393,11 @@ class PokeBattle_Battler
                 end
             end
 
+            unless @dummy
+                # Check other battlers' abilities that trigger upon a battler fainting
+                pbAbilitiesOnFainting
+            end
+
             pbInitEffects(false)
         end
 
@@ -413,9 +418,6 @@ class PokeBattle_Battler
             # Do other things
             @battle.pbClearChoice(@index) # Reset choice
             pbOwnSide.effects[:LastRoundFainted] = @battle.turnCount
-
-            # Check other battlers' abilities that trigger upon a battler fainting
-            pbAbilitiesOnFainting
 
             # Check for end of primordial weather
             @battle.pbEndPrimordialWeather
