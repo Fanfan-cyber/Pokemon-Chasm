@@ -70,7 +70,7 @@ Events.onTrainerPartyLoad += proc { |_sender, e| # Used for Crazy Mode
   next unless trainer
   trainer.party.each do |pkmn|
     next unless pkmn
-    STATIDORDER.each { |s| pkmn.ev[s] = 30}
+    STATIDORDER.each { |s| pkmn.ev[s] = 30 }
   end
 }
 

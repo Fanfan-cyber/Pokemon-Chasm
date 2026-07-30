@@ -15262,7 +15262,7 @@ Yeah. Sure as anything.
 Ha. Maybe, yeah.
 哈，也许吧。
 But I’d rather be called a yellow-bellied spoilt rich kid than Mavis’s second-favorite.
-我就算被称为一个懦弱的纨绔子弟，也不想成为梅维斯的“第2重要”。
+我就算被称为一个懦弱的富家子弟，也不想成为梅维斯的“第2重要”。
 Gonna be honest: don’t really care. Like I said, you do what you want.
 随意吧，我不太在乎。就像刚才说的，你自身爱咋样咋样。
 But, yeah, I’ve been thinking about this for a while, and that whole debacle back there with Samorn… I’m out.
@@ -34263,7 +34263,7 @@ Shell Smash
 Snipe Shot
 狙击
 Sparkling Aria
-泡影的咏叹调
+泡影咏叹调
 Steam Eruption
 蒸汽爆炸
 Surf
@@ -38388,7 +38388,7 @@ The user crushes the target with evil intent. This deals double damage if the ta
 Exhales magical fumes with a 30% chance to burn or frostbite the target depending on their stats.
 呼出魔法烟雾，根据对手的能力。有30%的概率造成烧伤或冻伤。
 Sends hindering waves of energy forward, lowering hit foes' Evasion by four steps.
-向前发送阻碍性能量波，使被击中对手的回避率减小4级。
+使用者发出阻碍性的能量波进行攻击，使被命中的目标回避率减小4级。
 Doubles target ally's Attack and Speed. However, if the user faints, so too does that ally.
 让队友的攻击和速度翻倍。但是如果自身濒死，那么队友也会濒死。
 The user inspires a sudden dread in the target, damaging it. This move always goes first.
@@ -57402,7 +57402,7 @@ Badge {1} Team
 \wmTaking team snapshot.
 \wm拍摄队伍快照。
 \i[PERFORMANCEANALYZER]The Performance Analyzer whirs, then begins printing.
-\i[PERFORMANCEANALYZER]性能分析仪发出了呜呜声，然后开始打印文件。
+\i[PERFORMANCEANALYZER]表现分析仪发出了呜呜声，然后开始打印文件。
 Use the Battle Report immediately?
 立即使用战斗报告吗？
 First, you should restore your Pokémon to full health.
@@ -62705,6 +62705,8 @@ A frenetic dance to uplift the fighting spirit. It raises the user's Attack by t
 激烈地跳起战舞增加气势，自身物攻增加3级。
 The user connects to the target's brainwaves to stabilize its mind, curing its dizziness, and granting it its legal abilities.
 使用者连接目标的脑电波以稳定其心智，回复混乱状态，并使目标获得它的所有合法特性。
+Sends hindering waves of energy forward, lowering hit foes' Evasion by four steps. Deals 50% less damage to allies.
+使用者发出阻碍性的能量波进行攻击，使被命中的目标回避率减小4级。对队友造成的伤害减半。
 The user whips up a turbulent whirlwind, boosting allies' Speed by 33% and lowering foes' Speed by 33% for 4 turns.
 从身后吹起猛烈的旋风4回合，使处于顺风的精灵速度增加33%，处于逆风的精灵速度减小33%。
 {1} change to {2} type!
@@ -64514,7 +64516,7 @@ Your team has 15% increased Speed.
 全员速度增加15%。
 19
 Your Pokémon deal 15% more damage to targets that haven’t moved yet this turn. Your priority attacks and priority status moves have doubled PP.
-全员对于还没有行动的对手的伤害增加15%，先制类技能需要多消耗一点PP。
+全员对于未行动的对手伤害增加15%，先制类技能需多消耗一点PP。
 20
 Ignore the first time each battle that one of your team members would flinch or get a non-volatile status condition.
 每场战斗免疫一次异常状态或畏缩。

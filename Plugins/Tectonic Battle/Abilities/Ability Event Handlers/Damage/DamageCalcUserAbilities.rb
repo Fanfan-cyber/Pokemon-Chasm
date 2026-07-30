@@ -10,7 +10,7 @@ BattleHandlers::DamageCalcUserAbility.add(:ARCTICARIETTE,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:GALVANIZE,
-  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck|
+  proc { |ability, user, target, move, mults, _baseDmg, type, aiCheck, backfire|
       if aiCheck
           mults[:base_damage_multiplier] *= 1.3 if type == :ELECTRIC || backfire
       elsif move.powerBoost || backfire

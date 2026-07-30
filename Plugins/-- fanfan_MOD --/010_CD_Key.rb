@@ -260,6 +260,8 @@ CDKey.register_pkmn_key(:hyena1,    { :PIKACHU => 1  })
 CDKey.register_pkmn_key(:psyduck10, { :PORYGON => 10 })
 #CDKey.register_pkmn_key(:alien1,    { :DEOXYS  => 1  }) { next $Trainer&.checkBadge(4) }
 
+CDKey.register_item_key(:infinitefusion, { :UNIVERSALSPLICERS => 1 })
+
 CDKey.register_item_key(:pokeball10, { :POKEBALL   => 10  })
 CDKey.register_item_key(:candyxl700, { :EXPCANDYXL => 700 }) { next $Trainer&.checkBadge(7) }
 
