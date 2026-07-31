@@ -1478,8 +1478,8 @@ Accuracy = 100
 TotalPP = 15
 Target = NearOther
 FunctionCode = Basic
-Flags = CanProtect
-Description = The user attacks the target while dashing skillfully past it.
+Flags = CanProtect,Slice
+Description = The user slashes the target while dashing skillfully past it.
 Animation = ACROBATICS
 #-------------------------------
 [THRUSTPULSE]
