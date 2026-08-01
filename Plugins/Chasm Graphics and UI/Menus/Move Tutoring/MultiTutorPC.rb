@@ -3,6 +3,7 @@ def multiTutorPC
         choices = []
         choices[cmdMentorMoves = choices.length] = _INTL("Mentor Moves")
         choices[cmdRelearnMoves = choices.length] = _INTL("Relearn Moves")
+        choices[cmdUseTMs = choices.length] = _INTL("Use TMs")
         choices[cmdAdjustStylePoints = choices.length] = _INTL("Adjust Style Points")
         choices.push(_INTL("Cancel"))
         choice = pbMessage(_INTL("Open which utility?"),choices,choices.length)
@@ -25,6 +26,14 @@ def multiTutorPC
                 pbRelearnMoveScreen(pkmn)
             end
             pbChoosePokemonRepeatedly(relearnMoveProc, canChooseForRelearningProc)
+        when cmdUseTMs
+            canChooseForTMsProc = proc do |pkmn|
+                pkmn.can_teach_TM_move?
+            end
+            learnTMMovesProc = proc do |pkmn|
+                pbTMMovesScreen(pkmn)
+            end
+            pbChoosePokemonRepeatedly(learnTMMovesProc, canChooseForTMsProc)
         when cmdAdjustStylePoints
             while true
                 choosePokemonToStyle
