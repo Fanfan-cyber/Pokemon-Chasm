@@ -1512,14 +1512,14 @@ FieldUse = TM
 Flags = SkipPocketMessage
 Move = UMBRAGE
 #-------------------------------
-[TMSHRED]
+[TMHYDRASTRIKE]
 Name = Unnamed
 NamePlural = Unnamed
 Pocket = 5
 Price = 3000
 FieldUse = TM
 Flags = SkipPocketMessage
-Move = SHRED
+Move = HYDRASTRIKE
 #-------------------------------
 [TMDRAGONBREATH]
 Name = Unnamed
