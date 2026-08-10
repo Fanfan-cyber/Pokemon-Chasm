@@ -17,8 +17,8 @@ PokeBattle_Battle::BeginningOfTurnCurseEffect.add(:CURSE_NO_MOVING_CYCLICAL,
             battle.eachSameSideBattler do |b|
                 battle.pbAnimation(:SHEERCOLD, b, b)
                 b.applyEffect(:IceSculpture)
-                #b.applyFrostbite if b.canFrostbite?(nil, false)
-                b.applyFrostbite unless b.frostbitten?
+                b.applyFrostbite if b.canFrostbite?(nil, false)
+                #b.applyFrostbite unless b.frostbitten?
             end
             battle.sides[0].applyEffect(:IceSculptureTurns, 4)
         elsif battle.turnCount % 4 == 3
