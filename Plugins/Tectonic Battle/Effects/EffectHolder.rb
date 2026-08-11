@@ -239,7 +239,7 @@ module EffectHolder
 
     def processSwitchOut
         eachEffect(true) do |effect, value, data|
-            # Active end of round effects
+            # Active switch out effects
             @switch_out_proc.call(data) if data.has_switch_out_proc?
         end
     end

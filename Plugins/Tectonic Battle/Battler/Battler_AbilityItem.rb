@@ -77,8 +77,9 @@ class PokeBattle_Battler
 
         reset_tracked_abilities_switch_counter
 
-        @battle.allEffectHolders do |effectHolder|
-            effectHolder.processSwitchOut
+        eachEffect(true) do |effect, _value, data|
+            # Active battler switch out effects
+            @switch_out_proc.call(data) if data.has_switch_out_proc?
         end
 
         position.applyEffect(:PassingAbility, @pokemonIndex) if abilityActive?
