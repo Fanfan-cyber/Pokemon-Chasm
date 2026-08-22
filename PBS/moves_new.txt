@@ -1496,18 +1496,6 @@ EffectChance = 100
 Description = The user shoots out a pulse of driving energy. Building up more power, it raises the user's Speed.
 Animation = SONICBOOM
 #-------------------------------
-[VOLLEY]
-Name = Volley
-Type = FLYING
-Category = Special
-Power = 1
-Accuracy = 100
-TotalPP = 10
-Target = NearOther
-FunctionCode = HitOncePerUserTeamMemberSpecial
-Flags = CanProtect
-Description = Hits once for each party Pokémon. Deals more damage based on their Sp. Atk.
-#-------------------------------
 [WINDTUNNEL]
 Name = Wind Tunnel
 Type = FLYING
@@ -4125,6 +4113,18 @@ Target = User
 FunctionCode = RaiseUserSpAtkDef2
 Flags = CanSnatch
 Description = The user enters a protective stance, raising its Sp. Atk and Defense by two steps.
+#-------------------------------
+[VOLLEY]
+Name = Volley
+Type = STEEL
+Category = Special
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitOncePerUserTeamMemberSpecial
+Flags = CanProtect
+Description = Hits once for each party Pokémon. Deals more damage based on their Sp. Atk.
 #-------------------------------
 [VOLLEYSTANCE]
 Name = Volley Stance
