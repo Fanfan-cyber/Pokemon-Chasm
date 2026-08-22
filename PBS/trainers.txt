@@ -332,7 +332,7 @@ Pokemon = SALANDIT,20
     EV = 20,0,0,20,0,10
 Pokemon = FLETCHINDER,20
     Name = Dario
-    Moves = FLAMECHARGE,AERIALACE,DOUBLEKICK,IGNITE
+    Moves = FLAMECHARGE,AERIALACE,DROPKICK,IGNITE
     AbilityIndex = 0 # Harsh
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
@@ -360,7 +360,7 @@ Pokemon = SALANDIT,20
     Moves = CLEARSMOG,BROIL,FAKEOUT,IGNITE
     Item = AIRBALLOON
 Pokemon = FLETCHINDER,20
-    Moves = FLAMECHARGE,AERIALACE,DOUBLEKICK,TAILWIND
+    Moves = FLAMECHARGE,AERIALACE,DROPKICK,TAILWIND
     AbilityIndex = 1 # Gale Wings
     Item = CHARTIBERRY
 Pokemon = TENTACOOL,20
@@ -452,7 +452,7 @@ Pokemon = AMEOWTH,22
     AbilityIndex = 0 # Fur Coat
     Item = DARKGEM
 Pokemon = GMEOWTH,22
-    Moves = PAYDAY,METALCLAW,DOUBLEKICK,FAKEOUT
+    Moves = PAYDAY,METALCLAW,LOWSWEEP,FAKEOUT
     AbilityIndex = 1 # Steely Spirit
     Item = STEELGEM
 #-------------------------------
