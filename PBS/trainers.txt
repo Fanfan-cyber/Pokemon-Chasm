@@ -10199,7 +10199,7 @@ Pokemon = VENUSAUR,70
     Moves = SLUDGEWAVE,SAPPINGSEED,HELPINGHAND,ENERGYBALL
     AbilityIndex = 0 # Poison Absorb
 Pokemon = KINGAMBIT,70
-    Moves = BULLETPUNCH,CHECKMATE,PSYCHOCUT,SWORDSDANCE
+    Moves = BULLETPUNCH,CHECKMATE,PSYCHOSCISSION,SWORDSDANCE
     AbilityIndex = 0 # Defiant
     Item = PSYCHICGEM
 #-------------------------------

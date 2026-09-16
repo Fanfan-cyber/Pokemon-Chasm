@@ -168,9 +168,9 @@ DarkCave,20,20,25
 #-------------------------------
 [037] # Svait
 Land,20,20,30
+    25,CRYSCROSS,23,25
     25,MHOOTHOOT,23,25
     25,MIENFOO,23,25
-    25,CRYSCROSS,23,25
     25,TEDDIURSA,23,25
 #-------------------------------
 [038] # Bluepoint Beach
@@ -724,7 +724,7 @@ LandTall,25,40
     20,FALINKS,41,43
     20,GIRAFARIG,41,43
     20,KANGASKHAN,41,43
-	20,MISDREAVUS,41,43
+    20,MISDREAVUS,41,43
 Special,,55,55
     1,KRABBY,10
 #-------------------------------
