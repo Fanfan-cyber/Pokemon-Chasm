@@ -552,15 +552,11 @@ FloweryGrass2,20,40,45
     20,ROOKIDEE,39,41
 #-------------------------------
 [193] # Volcanic Shore
-Land,20,40,40
-    25,COMFEY,49,51
-    25,CRABRAWLER,49,51
-    25,LAPRAS,49,51
-    25,PINCURCHIN,49,51
 LandSparse,20,40,40
-    34,MAGBY,49,51
-    33,KECLEON,49,51
-    33,SLUGMA,49,51
+	25,CRABRAWLER,49,51
+    25,MAGBY,49,51
+    25,KECLEON,49,51
+    25,SLUGMA,49,51
 #-------------------------------
 [196] # Boiling Cave
 DarkCave,20,40,55
@@ -571,8 +567,8 @@ DarkCave,20,40,55
 Mud,40,40,55
     25,SHUCKLE,49,51
     25,STUNFISK,49,51
-    13,SHELLOS_1,49,51
-    12,SHELLOS,49,51
+    25,SHELLOS_1,49,51
+    25,SHELLOS,49,51
 #-------------------------------
 [202] # Mountaineer's House
 Special,,40,45
@@ -907,11 +903,10 @@ ActiveWater,20,40,45
     20,PYUKUMUKU,49,51
     20,WAILMER,49,51
 LandSparse,20,40,45
-    20,CRABRAWLER,49,51
-    20,EISCUE,49,51
-    20,LAPRAS,49,51
-    20,PINCURCHIN,49,51
-    20,SEEL,49,51
+    25,EISCUE,49,51
+    25,LAPRAS,49,51
+    25,PINCURCHIN,49,51
+    25,SEEL,49,51
 #-------------------------------
 [319] # Grouz Station Backroom
 Special,,20,20
