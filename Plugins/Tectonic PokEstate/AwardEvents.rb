@@ -51,6 +51,7 @@ SMALL_ROUTES_CASABA = [
 # 13
 SMALL_ROUTES_PRE_SURF = [
     56, # Novo Town
+    25, # Grouz
     36, # Grouz Mine
     326, # Carnation Graves
     6, # LuxTech Campus
@@ -63,16 +64,25 @@ SMALL_ROUTES_PRE_SURF = [
     129, # Barren Crater
     81, # East Tunnel
     431, # Ship Graveyard
+    8, # Velenz
 ]
 
 # 6
 SMALL_ROUTES_POST_SURF = [
     155, # Prizca West
+    426, # Black Market
     34, # Battle Plaza
     223, # Battle Plaza Underground
+    455, # Karanfil Estates
     187, # Prizca East
+    188, # Prizca Castle
     220, # Ancient Sewers
+    333, # Floral Maze
+    260, # Underpeak Tunnels
     217, # Sweetrock Harbor
+    266, # Berry Greenhouse
+    288, # Underground River
+    193, # Volcanic Shore
 ]
  
 # 6
@@ -93,8 +103,7 @@ MEDIUM_ROUTES_PRE_SURF =
     3, # Kilna Turf
     11, # Eleig River Crossing
     7, # Repora Forest
-    8, # Velenz
-    25, # Grouz
+    301, # County Park
 ]
 
 # 10
@@ -102,12 +111,9 @@ MEDIUM_ROUTES_POST_SURF = [
     130, # Canal Desert
     186, # Frostflow Farms
     216, # Highland Lake
-    193, # Volcanic Shore
     196, # Boiling Cave
-    288, # Underground River
     218, # Abyssal Cavern
     120, # Hollowed Layer
-    211, # Split Peaks
     316, # Sandstone Estuary
 ]
 
@@ -118,13 +124,13 @@ BIG_ROUTES_CASABA = [
 # 3
 BIG_ROUTES_PRE_SURF = [
     53, # The Shelf
-    301, # County Park
     55, # Lingering Delta
 ]
 
 # 1
 BIG_ROUTES_POST_SURF = [
     185, # Eleig Stretch
+    211, # Split Peaks
 ]
 
 PokEstate::LoadDataDependentAwards += proc {
