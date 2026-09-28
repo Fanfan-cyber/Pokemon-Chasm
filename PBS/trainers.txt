@@ -10174,7 +10174,7 @@ Pokemon = LICKILICKY,70
 #-------------------------------
 [CHEF,Gordon]
 Pokemon = PYUKUMUKU,70
-    Moves = POISONGAS,LIFEDEW,LIGHTSCREEN,REFLECT
+    Moves = FOLLOWME,LIFEDEW,LIGHTSCREEN,REFLECT
     AbilityIndex = 0 # Innards Punch
     Item = LIGHTCLAY
 Pokemon = MAROMATISSE,70
