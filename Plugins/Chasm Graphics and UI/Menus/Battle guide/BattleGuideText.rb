@@ -263,7 +263,7 @@ end
 
 def battleGuideFieldEffectsHash
     return {
-        _INTL("What are field effects?") => _INTL("Field effects are special effects that affect the entire battlefield. Multiple field effects can be active at the same time."),
+        _INTL("What are Field effects?") => _INTL("Field effects are special effects that affect the entire battlefield. Multiple field effects can be active at the same time."),
         _INTL("Field Effect Duration") => _INTL("Field effects last a certain number of turns. The length differs depending on what move or ability summoned the field effect. Some durations can be enhanced by certain items."),
         _INTL("Room Effects") => _INTL("Puzzle Room, Odd Room and Polarized Room are rooms. Multiple can be active at the same time. Their duration can be doubled with the Reinforcing Rod item."),
         _INTL("Puzzle Room") => _INTL("Puzzle Room swaps each Pokémon's Attack and Sp. Attack stats."),
@@ -277,8 +277,8 @@ end
 
 def battleGuideSideEffectsHash
     return {
-        _INTL("What are field effects?") => _INTL("Side effects are special effects that affect only one side. Multiple side effects can be active at the same time."),
-        _INTL("Field Effect Duration") => _INTL("Side effects last a certain number of turns. The length differs depending on what move or ability summoned the field effect. Some durations can be enhanced by certain items."),
+        _INTL("What are Side effects?") => _INTL("Side effects are special effects that affect only one side. Multiple side effects can be active at the same time."),
+        _INTL("Side Effect Duration") => _INTL("Side effects last a certain number of turns. The length differs depending on what move or ability summoned the field effect. Some durations can be enhanced by certain items."),
         _INTL("Screen Effects") => _INTL("Reflect, Light Screen, Aurora Veil, Sanctuary and Repulsion Field are screens. These effects do not stack with one another. Their duration can be enhanced with the Light Clay item."),
         _INTL("Reflect") => _INTL("Reflect lowers damage from incoming physical moves by 50% in a Singles battle or 33% in a Doubles/Triples battle."),
         _INTL("Light Screen") => _INTL("Light Screen lowers damage from incoming special moves by 50% in a Singles battle or 33% in a Doubles/Triples battle."),
