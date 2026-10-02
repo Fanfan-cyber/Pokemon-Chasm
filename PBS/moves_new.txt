@@ -8345,7 +8345,7 @@ Target = NearOther
 FunctionCode = Leech
 Flags = CanProtect,Sound
 EffectChance = 30
-Description = The user bullies the target, causing mental damage. This has a 30% chance to leech.
+Description = The user bullies the target, causing distress. This has a 30% chance to leech.
 #-------------------------------
 [TOSSNTURN]
 Name = Toss n' Turn
