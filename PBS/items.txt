@@ -548,7 +548,7 @@ Name = Red Card
 NamePlural = Red Cards
 Pocket = 13
 Price = 4000
-Description = A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
+Description = A card with a mysterious power. When the holder is hit by an attack, the attacker is forced to switch.
 #-------------------------------
 [SHEDSHELL]
 Name = Shed Shell
