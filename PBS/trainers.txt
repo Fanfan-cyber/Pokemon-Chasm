@@ -10542,7 +10542,7 @@ Pokemon = GSTUNFISK,35
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
 Pokemon = YANMEGA,35
-    Moves = LUMINACHAIN,AIRSLASH,GIGADRAIN,NEURALPULSE
+    Moves = RUNAMUCK,AIRSLASH,GIGADRAIN,NEURALPULSE
     AbilityIndex = 1 # Tinted Lens
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
