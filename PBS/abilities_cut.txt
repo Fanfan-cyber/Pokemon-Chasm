@@ -580,6 +580,10 @@ Description = Pokémon that swap in for this have their Speed raised and their P
 Name = Innards Out
 Description = When this Pokémon is knocked out by an attack, the attacker takes damage equal to this Pokémon's previous HP.
 #-------------------------------
+[INNARDSPUNCH]
+Name = Innards Punch
+Description = When hit with an attacking move, hits back instantly with Mega Punch.
+#-------------------------------
 [INNERLIGHT]
 Name = Inner Light
 Description = Summons sunshine for four turns when hit by an attack.

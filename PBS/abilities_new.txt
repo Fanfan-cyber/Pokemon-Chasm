@@ -938,6 +938,10 @@ Description = Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
 Name = Grotesque Vitals
 Description = Heals 1/16th HP every turn. Protected from being poisoned.
 #-------------------------------
+[GUTPUNCH]
+Name = Gut Punch
+Description = When hit with an attacking move, hits back instantly with Mega Punch.
+#-------------------------------
 [HADEANRAGE]
 Name = Hadean Rage
 Description = When suffering from recoil, this Pokémon cannot go below 1 HP.
@@ -1155,10 +1159,6 @@ Description = This Pokémon is also Grass-type. When hit by an attack, the attac
 [INKSPRAY]
 Name = Ink Spray
 Description = Upon entry, blinds all foes.
-#-------------------------------
-[INNARDSPUNCH]
-Name = Innards Punch
-Description = When hit with an attacking move, hits back instantly with Mega Punch.
 #-------------------------------
 [INNERHEAT]
 Name = Inner Heat

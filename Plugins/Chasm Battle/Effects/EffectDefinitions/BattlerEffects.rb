@@ -402,8 +402,8 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
-    :id => :InnardsPunch,
-    :real_name => "InnardsPunch",
+    :id => :GutPunch,
+    :real_name => "GutPunch",
     :copied_move_marker => true,
 })
 
