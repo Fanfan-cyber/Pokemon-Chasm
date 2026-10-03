@@ -553,9 +553,9 @@ FloweryGrass2,20,40,45
 #-------------------------------
 [193] # Volcanic Shore
 LandSparse,20,40,40
-	25,CRABRAWLER,49,51
-    25,MAGBY,49,51
+    25,CRABRAWLER,49,51
     25,KECLEON,49,51
+    25,MAGBY,49,51
     25,SLUGMA,49,51
 #-------------------------------
 [196] # Boiling Cave
@@ -565,10 +565,10 @@ DarkCave,20,40,55
     25,TORKOAL,49,51
     25,TURTONATOR,49,51
 Mud,40,40,55
+    25,SHELLOS,49,51
+    25,SHELLOS_1,49,51
     25,SHUCKLE,49,51
     25,STUNFISK,49,51
-    25,SHELLOS_1,49,51
-    25,SHELLOS,49,51
 #-------------------------------
 [202] # Mountaineer's House
 Special,,40,45

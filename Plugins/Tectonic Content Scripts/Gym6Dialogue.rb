@@ -15,7 +15,7 @@ def needyTrainerEviolite
         _INTL("It's quite obscure, so...please part with it."),
         _INTL("Ahh...spectacular. I hope this battle is just as beautiful!"),
         _INTL("...shading like this, coloring like that... sorry, what? Did you need something?"),
-        _INTL("No? Well, they're quite rare. Perhaps Emma offers them...just north of here."))
+        _INTL("No? Well, they're quite rare. Perhaps Nature's Gallery offers them... east of here."))
 end
 
 def needyTrainerNinjaScarf

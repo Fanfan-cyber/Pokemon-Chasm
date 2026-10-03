@@ -140,7 +140,7 @@ Name = Blaze
 Description = Powers up Fire-type moves in a pinch.
 #-------------------------------
 [BLIZZBOXER]
-Name = Sleetshaker
+Name = Blizz Boxer
 Description = Boosts Attack by 30% in hailstorms.
 #-------------------------------
 [BRAINSCRAMBLE]

@@ -8203,7 +8203,7 @@ Accuracy = 70
 TotalPP = 10
 Target = NearOther
 FunctionCode = CantMissIfInMoonglow
-Flags = CanProtect
+Flags = CanProtect,CanRandomCrit
 Description = The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
 Animation = NIGHTSLASH
 #-------------------------------
@@ -8385,7 +8385,7 @@ Target = NearOther
 FunctionCode = Leech
 Flags = CanProtect,Sound
 EffectChance = 30
-Description = The user bullies the target, causing mental damage. This has a 30% chance to leech.
+Description = The user bullies the target, causing distress. This has a 30% chance to leech.
 #-------------------------------
 [TOSSNTURN]
 Name = Toss n' Turn

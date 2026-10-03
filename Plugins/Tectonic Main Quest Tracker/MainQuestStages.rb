@@ -53,7 +53,7 @@ def getMainQuestStages
         :DEFEAT_YEZERA_SHIPPING_LANE    =>
             [
                 _INTL("Defeat the Mysterious Woman"),
-                _INTL("A mysterious young women blocks your exit from the Shipping Lane. Defeat her to gain access to Novo Town."),
+                _INTL("A mysterious young woman blocks your exit from the Shipping Lane. Defeat her to gain access to Novo Town."),
             ],
         :DEFEAT_SECOND_GYM              =>
             [
@@ -123,7 +123,7 @@ def getMainQuestStages
         :DEFEAT_FOURTH_GYM              =>
             [
                 _INTL("Defeat Velenz Gym"),
-                _INTL("Defeat Rafael, leader of Velenz Gym. Velenz is west of Repora Forest. He can be found down a ladder in the north-west part of the town."),
+                _INTL("Defeat Rafael, leader of Velenz Gym. Velenz is west of Repora Forest. He can be found down a ladder in the south-east part of the town."),
             ],
         :DEFEND_GROUZ                   =>
             [

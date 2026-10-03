@@ -66,7 +66,7 @@ Events.OnTalkToFollower += proc {|pkmn,event,random_val|
       FULLRESTORE
       REPEL
       REPEL
-      MAXREPEL
+      REPEL
       TINYMUSHROOM
       TINYMUSHROOM
       PEARL

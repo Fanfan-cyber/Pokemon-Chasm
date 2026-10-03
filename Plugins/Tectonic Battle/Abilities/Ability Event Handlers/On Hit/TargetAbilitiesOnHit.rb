@@ -763,7 +763,7 @@ BattleHandlers::TargetAbilityOnHit.add(:CALMINGSCUTECHARM,
             end
 
             # Attacker effect
-            if user.canSleep?(target, true)
+            if user.canSleep?(target, false) && !user.effectActive?(:Yawn)
                 battle.pbAnimation(:YAWN, target, [user])
                 user.applyEffect(:Yawn, 2)
             end

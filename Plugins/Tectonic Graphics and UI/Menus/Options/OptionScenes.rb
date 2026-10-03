@@ -522,15 +522,6 @@ class PokemonOption_Scene_Overworld < PokemonOption_Scene_Base
 				}
 			),
             EnumOption.new(
-                _INTL("Flashing"),
-                _INTL("Whether lightning storms display a flashing lightning effect."),
-                [_INTL("On"), _INTL("Off")],
-                proc { $Options.flashing_weather },
-                proc { |value|
-                    $Options.flashing_weather = value
-                }
-            ),
-            EnumOption.new(
                 _INTL("Force Time"),
                 _INTL("Force the overworld lighting of a certain hour of the day."),
                 [_INTL("Off"), _INTL("6"), _INTL("12"), _INTL("18"), _INTL("24")],
@@ -581,6 +572,15 @@ class PokemonOption_Scene_AdvancedGraphics < PokemonOption_Scene_Base
 					$Options.screenshake = value
 				}
 			),
+            EnumOption.new(
+                _INTL("Flashing"),
+                _INTL("Whether to use screen flash effects. Disable if annoying."),
+                [_INTL("On"), _INTL("Off")],
+                proc { $Options.flashing },
+                proc { |value|
+                    $Options.flashing = value
+                }
+            ),
 		])
 	end
 end
