@@ -36444,7 +36444,9 @@ The user risks all to attack the foe. The user faints but does damage equal to i
 The user dives down onto the target from the sky. This move is also Flying-type.
 从空中俯冲向对手。此技能同时带有格斗属性和飞行属性。
 The user heightens its mental focus and unleashes its power.
-增加气势，释放出全部力量。
+使用者增加气势，释放出全部力量。
+The user focuses its energy and unleashes its power.
+使用者凝聚能量，释放出全部力量。
 The user focuses its mind before launching a punch. It will fail if the user is hit before it is used.
 集中精神出拳。在技能使用前若受到攻击则会失败。
 The target is attacked with a shock wave. It has a 30% chance to numb.
@@ -38487,6 +38489,8 @@ The user heals itself by half of its max HP, or 66% in moonglow.
 使用者回复自身最大HP的一半。月辉时可回复66%。
 The user bullies the target, causing mental damage. This has a 30% chance to leech.
 使用者欺负目标，对其造成精神伤害。有30%的概率使目标陷入寄生。
+The user bullies the target, causing distress. This has a 30% chance to leech.
+使用者欺负目标，使其沮丧。有30%的概率使目标陷入寄生。
 The user swings aggressively while suffering from nightmares. This move can only be used while asleep.
 使用者在遭受噩梦时狂乱挥击。只能在睡眠时使用。
 The user transforms into a cloud of vermin, charging and becoming hidden. On the second turn it ambushes the target.
@@ -40731,7 +40735,9 @@ Damages attackers for 1/8th of their HP when they hit the holder with special at
 If the holder is hit by an attack, it will switch with another Pokémon in your party.
 携带它的精灵如果受到技能攻击，就能逃脱战斗，并和同行的其他精灵进行替换。
 A card with a mysterious power. When the holder is struck by a foe, the attacker is removed from battle.
-有着神奇力量的卡片。携带后，能让使用了技能的对手退场。
+有着神奇力量的卡片。携带后，被攻击时能让攻击者强制离场。
+A card with a mysterious power. When the holder is hit by an attack, the attacker is forced to switch.
+有着神奇力量的卡片。携带后，被攻击时能让攻击者强制离场。
 A held item. This discarded carapace lets the holder switch out of battle without fail.
 一种携带物。结实坚硬的空壳，携带它的精灵必定可以和后排的精灵进行替换。
 A held item. It is an egg filled with happiness that earns 50% extra Exp. Points in battle.
@@ -49378,13 +49384,13 @@ Weathers
 What are weathers, and what does each do?
 什么是天气
 Field Effects
-实际效果
+全场类效果
 What field effects are there and what are their effects?
 有哪些全场类效果，它们的效果是什么？
 Side Effects
-副作用
+边类效果
 What side effects are there and what are their effects?
-有哪些副作用，它们的效果是什么？
+有哪些边类效果，它们的效果是什么？
 What are Tribes and what do they do?
 什么是部族？
 Legendary Abilities
@@ -49835,6 +49841,8 @@ Differences
 差异
 The typical trainer has 3 Pokémon, but Gym Leaders will have more. Trainers with more Pokémon also have more move variety and more items on their Pokémon.
 一般的训练师都只有3只精灵，但道馆馆主的精灵数量更多。
+The typical trainer has 4 Pokémon, but Gym Leaders will have more. Trainers with more Pokémon also have more move variety and more items on their Pokémon.
+一般的训练师都只有4只精灵，但道馆馆主的精灵数量更多。
 Pro Trainers
 精英训练师
 Pro Trainers are special Trainers, noted by their grey hair and black clothes. Their teams are always 6 Pokémon, all with items, and built around a Tribal Bonus. They're hard!
@@ -49967,6 +49975,12 @@ Each weather has dozens of moves and abilities that benefit from that weather. P
 每种天气都有多种相关技能，这些技能都可以通过对应天气获益。
 What are field effects?
 什么是全场类效果？
+What are Field effects?
+什么是全场类效果？
+What are Side effects?
+什么是边类效果？
+Side Effect Duration
+边类效果持续时间
 Field effects are special effects that affect the entire battlefield. Multiple field effects can be active at the same time.
 全场类效果是影响整个战场的特殊效果。多个全场类效果可以同时生效。
 Field Effect Duration
@@ -50501,6 +50515,8 @@ Flashing
 闪烁
 Whether lightning storms display a flashing lightning effect.
 雷暴是否显示闪烁的闪电效果。
+Whether to use screen flash effects. Disable if annoying.
+是否使用屏幕闪烁效果。感到不适可关闭。
 Force Time
 强制时间
 Force the overworld lighting of a certain hour of the day.
@@ -52097,6 +52113,8 @@ Defeat the Mysterious Woman
 打败神秘女子
 A mysterious young women blocks your exit from the Shipping Lane. Defeat her to gain access to Novo Town.
 一名神秘的女子堵住了扬帆路的出口，打败她就能进入望新镇。
+A mysterious young woman blocks your exit from the Shipping Lane. Defeat her to gain access to Novo Town.
+一名神秘的女子堵住了扬帆路的出口，打败她就能进入望新镇。
 Defeat Novo Town Gym
 打败望新道馆
 Defeat Eko, leader of Novo Town gym. Novo Town is north of the Shipping Lane. Eko's gym is in the northeast part of town.
@@ -52150,6 +52168,8 @@ You found Rafael in the south east of Velenz, down a ladder. To unlock the door 
 Defeat Velenz Gym
 挑战夜幽道馆
 Defeat Rafael, leader of Velenz Gym. Velenz is west of Repora Forest. He can be found down a ladder in the north-west part of the town.
+打倒夜幽道馆的馆主拉斐尔吧，拿到第4个徽章。
+Defeat Rafael, leader of Velenz Gym. Velenz is west of Repora Forest. He can be found down a ladder in the south-east part of the town.
 打倒夜幽道馆的馆主拉斐尔吧，拿到第4个徽章。
 Defend Grouz from the Avatar!
 打倒古治镇的化身！
@@ -52523,8 +52543,12 @@ The Avatar of Calyrex has arrived to save its steed!
 {1}跨坐在了{2}身上！
 {1} raises a hand towards the thunderclouds.
 {1}举起一只手，指向天空中的雷云。
+The Avatar of Calyrex raises a hand towards the thunderclouds.
+化身蕾冠王举起一只手，指向天空中的雷云。
 {1} opens its bulb towards the shining sun.
 {1}向着灿烂的阳光绽放。
+The Avatar of Calyrex opens its bulb towards the shining sun.
+化身蕾冠王向着灿烂的阳光绽放。
 {1} aims its stinger at {2}!
 {1}把尾针对准{2}！
 The avatar of Genesect is analyzing your whole team for weaknesses...
@@ -57339,6 +57363,8 @@ Use the Flora Sceptre?
 要使用花之权杖吗？
 With a flourish, you wave the Flora Scepter over the hole.
 你兴致勃勃地在洞口挥舞着花之权杖。
+With a flourish, you wave the Flora Sceptre over the hole.
+你兴致勃勃地在洞口挥舞着花之权杖。
 The grass grew over the hole!
 洞里长满了草！
 If that grass grew over the hole, you'd possibly be able to cross it.
@@ -60763,8 +60789,14 @@ Ahh...spectacular. I hope this battle is just as beautiful!
 ...像这样勾绘、上色... 抱歉，没注意到，有什么事吗？
 No? Well, they're quite rare. Perhaps Emma offers them...just north of here.
 没有？的确很稀有... 但艾玛那里或许有货...就在这里北边。
+No? Well, they're quite rare. Perhaps Nature's Gallery offers them... east of here.
+没有？的确很稀有... 但自然画廊那里或许有货...就在这里东边。
 Style and substance are one and the same!
 风格与内涵是一体的！
+{1} seems to be holding something...
+{1}似乎携带着什么...
+{1} seems to be holding something...
+{1}似乎携带着什么...
 Compared to Noel, my fashion is lacking. But with a Ninja Scarf, I'd stand right out!
 与诺埃尔相比，我还不够时尚，但戴上忍者围巾之后，我就能脱颖而出了！
 Could I gently request one from you... perhaps?
