@@ -396,6 +396,11 @@ class PokeBattle_Move_DoubleDamageNoItem < PokeBattle_Move
         baseDmg *= 2 unless user.hasAnyItem?
         return baseDmg
     end
+
+    def getDetailsForMoveDex(detailsList = [])
+        detailsList << _INTL("Base Power is not doubled if a consumable Item (Gem, Berry or Herb)")
+        detailsList << _INTL("is used while using this move.")
+    end
 end
 
 #===============================================================================

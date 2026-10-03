@@ -329,7 +329,8 @@ BattleHandlers::TargetAbilityOnHit.add(:INNARDSPUNCH,
   proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
         next if target.fainted?
         next -30 * aiNumHits if aiCheck
-        battle.forceUseMove(target, :MEGAPUNCH, user.index, ability: ability)
+        next if target.hasCopiedMoveMarker?
+        battle.forceUseMove(target, :MEGAPUNCH, user.index, moveUsageEffect: :InnardsPunch, ability: ability)
   }
 )
 
@@ -370,7 +371,8 @@ BattleHandlers::TargetAbilityOnHit.add(:LOUDSLEEPER,
           next if target.fainted?
           next unless target.asleep?
           next -30 * aiNumHits if aiCheck
-          battle.forceUseMove(target, :SNORE, user.index, ability: ability)
+          next if target.hasCopiedMoveMarker?
+          battle.forceUseMove(target, :SNORE, user.index, moveUsageEffect: :LoudSleeper, ability: ability)
     }
 )
 
@@ -379,7 +381,8 @@ BattleHandlers::TargetAbilityOnHit.add(:SNORER,
           next if target.fainted?
           next unless target.asleep?
           next -15 * aiNumHits if aiCheck
-          battle.forceUseMove(target, :SNORE, user.index, ability: ability, moveUsageEffect: :Snorer)
+          next if target.hasCopiedMoveMarker?
+          battle.forceUseMove(target, :SNORE, user.index, moveUsageEffect: :Snorer, ability: ability)
     }
 )
 
