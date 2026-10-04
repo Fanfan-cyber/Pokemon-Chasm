@@ -277,7 +277,7 @@ Flags = ForceSignature
 #-------------------------------
 [CANDYVEIL]
 Name = Candy Veil
-Description = Prevents itself and allies from being poisoned, leeched, or waterlogged.
+Description = Prevents itself and allies from being poisoned, leeched, or numbed.
 #-------------------------------
 [CANIDCRUSHER]
 Name = Canid Crusher
@@ -663,10 +663,6 @@ Flags = EclipseSynergy
 [FADINGFURY]
 Name = Fading Fury
 Description = Boosts the power of kick and light moves by 50%, but this Pokémon is hurt for 1/10th HP each turn.
-#-------------------------------
-[FAEVEIL]
-Name = Fae Veil
-Description = Prevents itself and allies from being burned, frostbitten, or numbed.
 #-------------------------------
 [FALSEFRONT]
 Name = False Front
@@ -1983,6 +1979,10 @@ Flags = EclipseSynergy
 [SCALDINGSMOKE]
 Name = Scalding Smoke
 Description = Powers up Poison-type moves by 50%.
+#-------------------------------
+[SCALEVEIL]
+Name = Scale Veil
+Description = Prevents itself and allies from being burned, frostbitten, or waterlogged.
 #-------------------------------
 [SCATHINGSYZYGY]
 Name = Scathing Syzygy
