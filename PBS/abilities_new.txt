@@ -713,7 +713,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [FICKLEUNION]
 Name = Fickle Union
-Description = Pulse moves multi-hit two to five times at 30% power.
+Description = Pulse moves multi-hit three to five times at 30% power.
 #-------------------------------
 [FIELDOFDEATH]
 Name = Field of Death
