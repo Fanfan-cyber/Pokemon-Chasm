@@ -795,6 +795,10 @@ Description = After being attacked, gains immunity to that move's type but loses
 Name = Moth Burglar
 Description = Hits opponent with Thief when switched out.
 #-------------------------------
+[MULTIHEADED]
+Name = Multiheaded
+Description = While this Pokémon is below half health, takes 33% less damage from attacks.
+#-------------------------------
 [MYSTICTAP]
 Name = Mystic Tap
 Description = Gets double healing from all sources during moonglow.

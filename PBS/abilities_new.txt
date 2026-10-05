@@ -1469,10 +1469,6 @@ Name = Mounting Chill
 Description = Heals 1/8th of its max HP each turn in a hail.
 Flags = HailSynergy
 #-------------------------------
-[MULTIHEADED]
-Name = Multiheaded
-Description = While this Pokémon is below half health, takes 33% less damage from attacks.
-#-------------------------------
 [MULTITASKER]
 Name = Multitasker
 Description = This Pokémon's Psychic-type attacks become spread and deal 35% more damage.
