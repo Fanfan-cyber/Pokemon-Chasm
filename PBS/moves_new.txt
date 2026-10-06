@@ -197,6 +197,19 @@ FunctionCode = Drainage
 Flags = CanProtect
 Description = This attack inflicts double damage on a waterlogged foe. It also cures the target's waterlogging, however.
 #-------------------------------
+[EGGSCHANGE]
+Name = Eggschange
+Type = NORMAL
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = FixedDamage50TargetHealUserByDamageDone
+Flags = CanProtect
+Description = The user gifts the target a bad egg, damaging them, and draining their vital essence. This move deals 50 damage. The user's HP is restored by 100% of the damage dealt.
+Animation = EGGBOMB
+#-------------------------------
 [ELEMENTALCRUNCH]
 Name = Elemental Crunch
 Type = NORMAL
@@ -7810,9 +7823,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = User
-FunctionCode = MaxUserSpAtkLoseHalfOfTotalHP
+FunctionCode = MaxUserSpAtkLoseThirdOfTotalHP
 Flags = CanSnatch
-Description = The user maximizes its Sp. Atk in exchange for HP equal to half its max HP.
+Description = The user maximizes its Sp. Atk in exchange for 33% of its max HP.
 Animation = NASTYPLOT
 #-------------------------------
 [BLACKHOLE]
