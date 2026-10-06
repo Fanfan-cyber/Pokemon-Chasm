@@ -7823,9 +7823,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = User
-FunctionCode = MaxUserSpAtkLoseHalfOfTotalHP
+FunctionCode = MaxUserSpAtkLoseThirdOfTotalHP
 Flags = CanSnatch
-Description = The user maximizes its Sp. Atk in exchange for HP equal to half its max HP.
+Description = The user maximizes its Sp. Atk in exchange for 33% of its max HP.
 Animation = NASTYPLOT
 #-------------------------------
 [BLACKHOLE]

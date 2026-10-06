@@ -30,9 +30,9 @@ Category = Status
 Accuracy = 0
 TotalPP = 10
 Target = User
-FunctionCode = MaxUserAtkLoseHalfOfTotalHP
+FunctionCode = MaxUserAtkLoseThirdOfTotalHP
 Flags = CanSnatch
-Description = The user maximizes its Attack in exchange for HP equal to half its max HP.
+Description = The user maximizes its Attack in exchange for 33% of its max HP.
 #-------------------------------
 [BESTOW]
 Name = Bestow
