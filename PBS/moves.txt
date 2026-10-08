@@ -3491,19 +3491,6 @@ Flags = CanProtect
 Description = The user rampages and attacks while spewing flames for two turns.
 Animation = FLAREBLITZ
 #-------------------------------
-[SEARINGSHOT]
-Name = Searing Shot
-Type = FIRE
-Category = Special
-Power = 100
-Accuracy = 100
-TotalPP = 5
-Target = AllNearOthers
-FunctionCode = Burn
-Flags = CanProtect
-EffectChance = 30
-Description = An inferno of scarlet flames torches everything around the user. It has a 30% chance to burn.
-#-------------------------------
 [SHELLTRAP]
 Name = Shell Trap
 Type = FIRE
