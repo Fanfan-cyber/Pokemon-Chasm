@@ -124,7 +124,7 @@ class PokeBattle_AI
 
         # Determine who to swap into if at all
         PBDebug.log("[AI SWITCH] #{battler.pbThis} (#{battler.index}) is trying to find a switch. Staying in is rated: #{stayInRating}.")
-        list = pbGetPartyWithSwapRatings(idxBattler, urgency, futilityThreshold: stayInRating + upgradeThreshold)
+        list = pbGetPartyWithSwapRatings(idxBattler, is_pre_switch, urgency, futilityThreshold: stayInRating + upgradeThreshold)
         listSwapOutCandidates(battler, list)
 
         list.delete_if { |val| val[1] < stayInRating + upgradeThreshold }
@@ -291,7 +291,7 @@ class PokeBattle_AI
     def pbDefaultChooseNewEnemy(idxBattler, safeSwitch = false)
         @battle.display_ai_calc_msg unless @battle.is_replayed
         urgency = 0
-        list = pbGetPartyWithSwapRatings(idxBattler, safeSwitch,urgency)
+        list = pbGetPartyWithSwapRatings(idxBattler, safeSwitch, urgency)
         list.delete_if { |val| !@battle.pbCanSwitchLax?(idxBattler, val[0]) }
         if list.length != 0
             listSwapOutCandidates(@battle.battlers[idxBattler], list)
@@ -339,7 +339,7 @@ class PokeBattle_AI
         return list
     end
 
-    def getSwitchRatingForPartyMember(pkmn, partyIndex, battlerSlot, safeSwitch = false,urgency)
+    def getSwitchRatingForPartyMember(pkmn, partyIndex, battlerSlot, safeSwitch = false, urgency)
         switchScore = 0
 
         # Create a battler to simulate what would happen if the Pokemon was in battle right now

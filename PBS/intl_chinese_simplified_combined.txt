@@ -36239,6 +36239,8 @@ The user hurriedly and randomly uses a move among those known by other Pokémon 
 向我方紧急求助，从我方精灵已学会的技能中随机使用一个。
 The user maximizes its Attack in exchange for HP equal to half its max HP.
 将自身的HP减小最大HP的一半，从而使自身的物攻增加到最大。
+The user maximizes its Attack in exchange for 33% of its max HP.
+将自身的HP减小最大HP的33%，从而使自身的物攻增加到最大。
 The user passes its held item to the target when the target isn't holding an item.
 当对手没有携带物时，能够将自身携带物交给对手。
 The user endures attacks for two turns, then strikes back to cause double the damage taken.
@@ -38146,7 +38148,7 @@ Sends a pulse to flip the polarity of those nearby to damage a foe. Polarized Ro
 Puts the target into a quarantine, trapping and disabling the move it last used for three turns.
 使目标进入隔离状态，困住并束缚目标3回合，并禁用其最后使用的技能。
 The target is struck with an electric current and multi-hit two to five times.
-用电流击打目标，连续攻击2到5次。
+用电流击打目标，连续攻击2至5次。
 This move creates a directional magnetic field which reduces damage from attacks with 100 or more base power for five turns.
 产生一个定向磁场，在5回合内减小基础威力大于等于100的技能造成的伤害。
 Turns the foe's power against it, dealing damage using the target's Sp. Atk stat.
@@ -38406,7 +38408,9 @@ Darkness rolls over the field, damaging all other Pokémon and setting Grey Mist
 The user insults the target using a compliment. Their Attack and Sp. Atk are raised by three steps, but they hurt themselves in confusion.
 使用者用赞美来侮辱目标，让目标的双攻增加3级，但目标会因混乱而伤害自身。
 The user maximizes its Sp. Atk in exchange for HP equal to half its max HP.
-使用者以牺牲最大HP的一半为代价，将特攻增加至最大。
+将自身的HP减小最大HP的一半，将特攻增加至最大。
+The user maximizes its Sp. Atk in exchange for 33% of its max HP.
+将自身的HP减小最大HP的33%，从而使自身的特攻增加到最大。
 Bites a hole in reality, creating a black hole to damage all near foes. Gravity is intensified for five turns.
 撕咬现实产生黑洞，对所有附近的敌人造成伤害。使重力在5回合内增加。
 The user removes the energy and light around the target. Super effective versus Electric-types.
@@ -40775,7 +40779,9 @@ An item to be held by a Pokémon. It doubles the duration of Rooms created by th
 A held item that doubles the duration of binding moves and abilities.
 一种携带物。使精灵造成的束缚效果的持续时间翻倍。
 A held item. It makes multi-hit attacks consistently hit 4 or 5 times.
-一种携带物。使多段伤害类技能可以稳定命中4到5次。
+一种携带物。使多段伤害类技能可以命中4到5次。
+A held item. It makes "two to five" multi-hit attacks consistently hit 4 or 5 times.
+一种携带物。使攻击2至5次的多段伤害类技能可以命中4到5次。
 A held item. The user gets both of its legal abilities, but its stats are cut by 10%.
 一种携带物。携带者可以同时拥有2个合法特性，但能力值减小10%。
 A held item. Signature attacks made by the holder are boosted by 40%.
@@ -43536,6 +43542,8 @@ After this Pokémon is hit thrice, a Sanctuary is set on its side for 5 turns. T
 该精灵被攻击3次时，开启持续5回合的圣地。攻击者会陷入瞌睡。
 Prevents itself and allies from being poisoned, leeched, or waterlogged.
 自身和队友不会陷入中毒、寄生、或者浸水。
+Prevents itself and allies from being poisoned, leeched, or numbed.
+自身和队友不会陷入中毒、寄生、或者麻痹。
 On the first turn, its attacks fracture the target.
 出场第一回合的攻击会使目标陷入破碎。
 Upon entry, consumes scattered coins to heal for 1/10th the amount consumed. This can overheal.
@@ -43717,7 +43725,9 @@ Heals by 1/8th of its max HP each turn if in eclipse.
 Boosts the power of kick and light moves by 50%, but this Pokémon is hurt for 1/10th HP each turn.
 踢类和光类技能威力增加50%，但该精灵回合结束时会受到最大HP的1/10的伤害。
 Prevents itself and allies from being burned, frostbitten, or numbed.
-自身和队友不会被烧伤、冻伤或麻痹。
+自身和队友不会陷入烧伤、冻伤或麻痹。
+Prevents itself and allies from being burned, frostbitten, or waterlogged.
+自身和队友不会陷入烧伤、冻伤或浸水。
 Upon entry, gains your choice of Fighting-, Dark-, or Fairy-type.
 出场时，获得格斗、恶或妖精属性（自选）。
 Upon entry, lowers the foe's Sp. Atk stat by two steps.
@@ -43742,6 +43752,8 @@ Takes 30% less damage in a rainstorm.
 雨天时，受到的伤害减小30%。
 Pulse moves multi-hit two to five times at 30% power.
 脉冲类技能会以30%的威力连续攻击2至5次。
+Pulse moves multi-hit three to five times at 30% power.
+脉冲类技能会以30%的威力连续攻击3至5次。
 While this Pokémon is on the field, all attacks restore their user's HP by 30% of damage dealt.
 在场时，所有精灵会回复攻击造成伤害的30%HP。
 While this Pokémon is on the field, all healing is boosted by 20% and can overheal.
@@ -50117,10 +50129,14 @@ Kyogre: Primordial Sea
 盖欧卡：始源之海
 Boosts the damage of Water- and Electric-type attacks by 50%. Prevents Pokémon not immune to Rain from activating moves' random added effects.
 水属性和电属性技能的伤害增加50%。使不免疫雨天负面效果的精灵的技能的随机附加效果不会发动。
+Boosts the damage of Electric- and Water-type attacks by 50%. Lowers attack damage of non-immune types or moves by 15%. Pokémon not immune to Rain can't cause moves' random added effects.
+水属性和电属性技能的伤害增加50%。使不免疫雨天负面效果的攻击伤害减小15%且攻击的随机附加效果不会发动。
 Groudon: Desolate Land
 固拉多：终结之地
 Boosts the damage of Fire- and Grass-type attacks by 50%. Prevents Pokémon not immune to Sun from activating critical hits.
 火属性和草属性技能的伤害增加50%。使不免疫晴天负面效果的精灵的攻击不会命中要害。
+Boosts the damage of Fire- and Grass-type attacks by 50%. Lowers attack damage of non-immune types or moves by 15%. Pokémon not immune to Sun can't cause critical hits.
+火属性和草属性技能的伤害增加50%。使不免疫晴天负面效果的攻击伤害减小15%且攻击不会命中要害。
 Necrozma: Event Horizon
 奈克洛兹玛：事件视界
 Rock- and Ground-types gain a 50% boost to Special Defense. Deals sandstorm damage at end of turn. Pokémon not immune to Sandstorm take 50% more HP-fraction-based damage.
@@ -57488,6 +57504,8 @@ Right as you push the seed into the soil, a sapling bursts out of it!
 {1} goes back to sleep after being left alone.
 {1}在被独自留下后睡眠了。
 You recieved a {1} ({2})
+你收到了一个{1}（{2}）
+You received a {1} ({2})
 你收到了一个{1}（{2}）
 Editing your team is not allowed at the moment.
 暂时不能编辑队伍。
