@@ -1705,7 +1705,7 @@ Target = NearOther
 Priority = 1
 FunctionCode = Basic
 Flags = CanProtect
-Description = The user shoots the target with a dart made of poison. This move always goes first.
+Description = The user shoots the target with a dart made of toxins. This move always goes first.
 Animation = POISONSTING
 #-------------------------------
 [POISONSPIKES]

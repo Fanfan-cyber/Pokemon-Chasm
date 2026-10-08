@@ -1813,7 +1813,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = Poison
 Flags = CanProtect,CanMagicCoat,Wind
-Description = A cloud of poison gas is sprayed in the face of the target, poisoning it.
+Description = A cloud of noxious gas is sprayed in the face of the target, poisoning it.
 #-------------------------------
 [POISONJAB]
 Name = Poison Jab
@@ -1826,7 +1826,7 @@ Target = NearOther
 FunctionCode = Poison
 Flags = CanProtect,Punch
 EffectChance = 10
-Description = The target is stabbed with a tentacle or arm seeped with poison. It has a 10% chance to poison.
+Description = The target is stabbed with a tentacle or arm seeped with toxins. It has a 10% chance to poison.
 #-------------------------------
 [POISONSTING]
 Name = Poison Sting
