@@ -277,7 +277,7 @@ Flags = ForceSignature
 #-------------------------------
 [CANDYVEIL]
 Name = Candy Veil
-Description = Prevents itself and allies from being poisoned, leeched, or waterlogged.
+Description = Prevents itself and allies from being poisoned, leeched, or numbed.
 #-------------------------------
 [CANIDCRUSHER]
 Name = Canid Crusher
@@ -664,10 +664,6 @@ Flags = EclipseSynergy
 Name = Fading Fury
 Description = Boosts the power of kick and light moves by 50%, but this Pokémon is hurt for 1/10th HP each turn.
 #-------------------------------
-[FAEVEIL]
-Name = Fae Veil
-Description = Prevents itself and allies from being burned, frostbitten, or numbed.
-#-------------------------------
 [FALSEFRONT]
 Name = False Front
 Description = Upon entry, gains your choice of Fighting-, Dark-, or Fairy-type.
@@ -717,7 +713,7 @@ Flags = RainstormSynergy
 #-------------------------------
 [FICKLEUNION]
 Name = Fickle Union
-Description = Pulse moves multi-hit two to five times at 30% power.
+Description = Pulse moves multi-hit three to five times at 30% power.
 #-------------------------------
 [FIELDOFDEATH]
 Name = Field of Death
@@ -938,6 +934,10 @@ Description = Raises Attack and Sp. Atk whenever any Pokémon uses a dance move.
 Name = Grotesque Vitals
 Description = Heals 1/16th HP every turn. Protected from being poisoned.
 #-------------------------------
+[GUTPUNCH]
+Name = Gut Punch
+Description = When hit with an attacking move, hits back instantly with Mega Punch.
+#-------------------------------
 [HADEANRAGE]
 Name = Hadean Rage
 Description = When suffering from recoil, this Pokémon cannot go below 1 HP.
@@ -1155,10 +1155,6 @@ Description = This Pokémon is also Grass-type. When hit by an attack, the attac
 [INKSPRAY]
 Name = Ink Spray
 Description = Upon entry, blinds all foes.
-#-------------------------------
-[INNARDSPUNCH]
-Name = Innards Punch
-Description = When hit with an attacking move, hits back instantly with Mega Punch.
 #-------------------------------
 [INNERHEAT]
 Name = Inner Heat
@@ -1472,10 +1468,6 @@ Flags = MoonglowSynergy
 Name = Mounting Chill
 Description = Heals 1/8th of its max HP each turn in a hail.
 Flags = HailSynergy
-#-------------------------------
-[MULTIHEADED]
-Name = Multiheaded
-Description = While this Pokémon is below half health, takes 33% less damage from attacks.
 #-------------------------------
 [MULTITASKER]
 Name = Multitasker
@@ -1983,6 +1975,10 @@ Flags = EclipseSynergy
 [SCALDINGSMOKE]
 Name = Scalding Smoke
 Description = Powers up Poison-type moves by 50%.
+#-------------------------------
+[SCALEVEIL]
+Name = Scale Veil
+Description = Prevents itself and allies from being burned, frostbitten, or waterlogged.
 #-------------------------------
 [SCATHINGSYZYGY]
 Name = Scathing Syzygy

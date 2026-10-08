@@ -399,6 +399,24 @@ GameData::BattleEffect.register_effect(:Battler, {
 })
 
 GameData::BattleEffect.register_effect(:Battler, {
+    :id => :LoudSleeper,
+    :real_name => "LoudSleeper",
+    :copied_move_marker => true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :FrigidReflection,
+    :real_name => "FrigidReflection",
+    :copied_move_marker => true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :GutPunch,
+    :real_name => "GutPunch",
+    :copied_move_marker => true,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
     :id => :SprayAndPray,
     :real_name => "Spray and Pray",
     :copied_move_marker => true,

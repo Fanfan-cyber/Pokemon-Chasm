@@ -181,9 +181,9 @@ class PokeBattle_Move
     def pbNumHits(user, targets, checkingForAI = false)
         if user.shouldAbilityApply?(:FICKLEUNION, checkingForAI) && pulseMove?
             if checkingForAI
-                return getRandomMultihitNumberAI(user, targets)
+                return getRandomFickleUnionNumberAI(user, targets)
             else
-                return getRandomMultihitNumber(user, targets)
+                return getRandomFickleUnionNumber(user, targets)
             end
         end
         return 2 if canParentalBond?(user, targets, checkingForAI)

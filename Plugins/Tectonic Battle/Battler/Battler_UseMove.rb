@@ -746,6 +746,7 @@ class PokeBattle_Battler
                     end
                     while dancers.length > 0
                         nextUser = dancers.pop
+                        next if nextUser.effectActive?(:Flinch)
                         preTarget = choice[3]
                         preTarget = user.index if nextUser.opposes?(user) || !nextUser.opposes?(preTarget)
                         @battle.forceUseMove(nextUser, move.id, preTarget, moveUsageEffect: :Dancer, ability: :DANCER)
@@ -759,6 +760,7 @@ class PokeBattle_Battler
                     end
                     while echoers.length > 0
                         nextUser = echoers.pop
+                        next if nextUser.effectActive?(:Flinch)
                         preTarget = choice[3]
                         preTarget = user.index if nextUser.opposes?(user) || !nextUser.opposes?(preTarget)
                         @battle.forceUseMove(nextUser, move.id, preTarget, moveUsageEffect: :Echo, ability: :ECHO)
@@ -772,6 +774,7 @@ class PokeBattle_Battler
                     end
                     while discipliners.length > 0
                         nextUser = discipliners.pop
+                        next if nextUser.effectActive?(:Flinch)
                         preTarget = choice[3]
                         preTarget = user.index if nextUser.opposes?(user) || !nextUser.opposes?(preTarget)
                         @battle.forceUseMove(nextUser, move.id, preTarget, moveUsageEffect: :MartialDiscipline, ability: :MARTIALDISCIPLINE)

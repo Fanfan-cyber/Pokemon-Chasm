@@ -1793,7 +1793,7 @@ Pokemon = DECEAT,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = NOCTOWL,70
-    Moves = NEURALPULSE,CYCLONE,TERADRAIN,MOONBLAST
+    Moves = NEURALPULSE,CYCLONE,PROFANE,MOONBLAST
     AbilityIndex = 0 # Night Owl
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
