@@ -4810,15 +4810,15 @@ Animation = BRINE
 [ERODINGFOAM]
 Name = Eroding Foam
 Type = WATER
-Category = Special
-Power = 80
+Category = Physical
+Power = 60
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
-FunctionCode = LowerTargetDef3
+FunctionCode = ApplyErodingFoamToTarget
 Flags = CanProtect
 EffectChance = 100
-Description = The user spews alkaline bubbles that melt the target, lowering their Defense by three steps.
+Description = The user spews alkaline bubbles that melt the target. For the next two turns, the target's Defense will be lowered by two steps.
 Animation = BUBBLEBEAM
 #-------------------------------
 [FLOODGATE]
