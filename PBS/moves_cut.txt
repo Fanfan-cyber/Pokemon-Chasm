@@ -2593,6 +2593,19 @@ Flags = CanProtect
 EffectChance = 100
 Description = The target is razed with a mystical fire of great intensity. Burns the target.
 #-------------------------------
+[SEARINGSHOT]
+Name = Searing Shot
+Type = FIRE
+Category = Special
+Power = 100
+Accuracy = 100
+TotalPP = 5
+Target = AllNearOthers
+FunctionCode = Invalid
+Flags = CanProtect
+EffectChance = 30
+Description = An inferno of scarlet flames torches everything around the user. It has a 30% chance to burn.
+#-------------------------------
 [STOREFUEL]
 Name = Store Fuel
 Type = FIRE
