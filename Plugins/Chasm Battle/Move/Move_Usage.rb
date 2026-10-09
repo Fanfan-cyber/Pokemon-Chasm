@@ -136,8 +136,7 @@ class PokeBattle_Move
 
     def canParentalBond?(user, targets, checkingForAI = false)
         return false unless damagingMove?
-        return false if chargingTurnMove?
-        return false unless targets.length == 1
+        return false if multiHitMove?
         return true if user.shouldAbilityApply?(:PARENTALBOND,checkingForAI)
         return true if user.shouldAbilityApply?(:STRIKETWICE,checkingForAI) && @battle.rainy?
         return false
@@ -145,8 +144,7 @@ class PokeBattle_Move
 
     def canDiffract?(user, targets, checkingForAI = false)
         return false unless damagingMove?
-        return false if chargingTurnMove?
-        return false unless targets.length == 1
+        return false if multiHitMove?
         return false unless lightMove?
         return true if user.shouldAbilityApply?(:DIFFRACTION,checkingForAI) && user.protectedByScreen?
         return false
