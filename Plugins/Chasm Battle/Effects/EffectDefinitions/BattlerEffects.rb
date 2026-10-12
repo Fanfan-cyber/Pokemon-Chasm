@@ -2845,3 +2845,9 @@ GameData::BattleEffect.register_effect(:Battler, {
         end
     end,
 })
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :BattleHardened,
+    :real_name => "Battle-Hardened",
+    :info_displayed => false
+})
