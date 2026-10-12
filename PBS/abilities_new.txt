@@ -58,7 +58,7 @@ Description = Moves that cause the user to become hidden deal additional damage 
 #-------------------------------
 [ANARCHIC]
 Name = Anarchic
-Description = Doubles Speed in eclipse.
+Description = Doubles this Pokémon's Speed in eclipse.
 Flags = EclipseSynergy
 #-------------------------------
 [APATHETIC]
@@ -106,7 +106,7 @@ Description = Uses Aromatherapy if an attack lowers its HP below half.
 #-------------------------------
 [ASSAULTSPINES]
 Name = Assault Spines
-Description = Doubles Sp. Def, but this Pokémon can't use status moves.
+Description = Doubles this Pokémon's Sp. Def, but can't use status moves.
 Flags = NoStatusUse
 #-------------------------------
 [ASTRALHARVEST]
@@ -771,7 +771,7 @@ Flags = Immutable
 #-------------------------------
 [FLUSTERFLOCK]
 Name = Fluster Flock
-Description = Doubles Attack, but this Pokémon becomes dizzy after attacking.
+Description = Doubles this Pokémon's Attack, but becomes dizzy after attacking.
 #-------------------------------
 [FLUTTERTOTEM]
 Name = Flutter Totem
@@ -983,7 +983,7 @@ Flags = ForceSignature
 #-------------------------------
 [HEADACHE]
 Name = Headache
-Description = Doubles Sp. Atk, but this Pokémon becomes dizzy after attacking.
+Description = Doubles this Pokémon's Sp. Atk, but becomes dizzy after attacking.
 #-------------------------------
 [HEARTLESS]
 Name = Heartless
@@ -1079,7 +1079,7 @@ Description = Punches, Kicks, and Bites combo together to create special effects
 #-------------------------------
 [HYPERSPEED]
 Name = Hyper Speed
-Description = Doubles Speed. Dashes to avoid hazards upon entry.
+Description = Doubles this Pokémon's Speed. Dashes to avoid hazards upon entry.
 Flags = HazardImmunity
 #-------------------------------
 [ICEBLOCK]
@@ -1089,7 +1089,7 @@ Flags = Immutable
 #-------------------------------
 [ICEMIRROR]
 Name = Ice Mirror
-Description = Doubles Sp. Def in hail.
+Description = Doubles this Pokémon's Sp. Def in hail.
 Flags = HailSynergy
 #-------------------------------
 [ICEQUEEN]
@@ -1500,7 +1500,7 @@ Description = While this Pokémon is unfainted (in battle or switched out), pois
 #-------------------------------
 [NIGHTLIFE]
 Name = Night Life
-Description = Doubles Speed in moonglow.
+Description = Doubles this Pokémon's Speed in moonglow.
 Flags = MoonglowSynergy
 #-------------------------------
 [NIGHTOWL]
@@ -1600,7 +1600,7 @@ Description = Powers up Rock-type moves by 50%.
 #-------------------------------
 [PARANOID]
 Name = Paranoid
-Description = Doubles Sp. Def. This Pokémon takes double damage from Psychic-type moves.
+Description = Doubles this Pokémon's Sp. Def, but takes double damage from Psychic-type moves.
 #-------------------------------
 [PECKINGORDER]
 Name = Pecking Order
@@ -1935,7 +1935,7 @@ Description = This Pokémon is also Steel-type, but it takes 15% more damage fro
 #-------------------------------
 [SAFEPASSAGE]
 Name = Safe Passage
-Description = Doubles Defense in rainstorm.
+Description = Doubles this Pokémon's Defense in rainstorm.
 Flags = RainstormSynergy
 #-------------------------------
 [SANDBURST]
@@ -2070,12 +2070,12 @@ Description = This Pokémon and other battlers don't benefit from same-type atta
 #-------------------------------
 [SILVERLINING]
 Name = Silver Lining
-Description = Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
+Description = Boosts this Pokémon's Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
 Flags = RainstormSynergy
 #-------------------------------
 [SILVERSENSE]
 Name = Silver Sense
-Description = Doubles critical hit chance. Restores HP for half the damage it does with critical hits.
+Description = Doubles this Pokémon's critical hit chance. Restores HP for half the damage it does with critical hits.
 #-------------------------------
 [SIMPLETON]
 Name = Simpleton
@@ -2153,7 +2153,7 @@ Flags = SunshineSynergy
 #-------------------------------
 [SOLONOCTURNE]
 Name = Solo Nocturne
-Description = Doubles Defense in moonglow.
+Description = Doubles this Pokémon's Defense in moonglow.
 Flags = MoonglowSynergy
 #-------------------------------
 [SOPPING]
@@ -2267,7 +2267,7 @@ Description = Makes foes stressed and unable to use their items.
 #-------------------------------
 [STRIKECORONA]
 Name = Strike Corona
-Description = Doubles Defense, but this Pokémon can't use status moves.
+Description = Doubles this Pokémon's Defense, but can't use status moves.
 Flags = NoStatusUse
 #-------------------------------
 [STRIKETWICE]
@@ -2336,7 +2336,7 @@ Description = Powers up Steel-type moves by 50%.
 #-------------------------------
 [SUPERCONDUCTOR]
 Name = Superconductor
-Description = Doubles the speed of allied Pokémon.
+Description = Doubles the Speed of allied Pokémon.
 #-------------------------------
 [SURFSUP]
 Name = Surf's Up

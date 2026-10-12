@@ -155,7 +155,7 @@ Description = Protects Grass-type allies from non-volatile status conditions or 
 #-------------------------------
 [FLUFFY]
 Name = Fluffy
-Description = Doubles Defense. This Pokémon takes double damage from Fire-type moves.
+Description = Doubles this Pokémon's Defense and takes double damage from Fire-type moves.
 #-------------------------------
 [FORECAST]
 Name = Forecast
