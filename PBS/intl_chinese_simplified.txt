@@ -7606,8 +7606,8 @@ Have you made ready?
 你准备好了吗？
 If you ever find yourself in the <imp>urban expanse</imp> of Prizca with naught to do, find me.
 如果你对宏礼市的<imp>城市扩张</imp>无事可做了，那么就来找我吧。
-I’ll be at the riverside, like as not. I have plans involving you and yours.
-我很可能会在河边，我可能有一些关于你还有你的精灵的计划。
+I’ll be mourning near <imp>Bogdan Cement</imp>, like as not. I have plans involving you and yours.
+I’ll be mourning near <imp>Bogdan Cement</imp>, like as not. I have plans involving you and yours.
 Why are you here?
 你为什么在这？
 Can I help?
@@ -41779,6 +41779,8 @@ Ball Mimic
 模仿球
 Barrier Maker
 屏障制造者
+Battle-Hardened
+Battle-Hardened
 Beaming
 辉耀
 Bellower
@@ -42285,6 +42287,8 @@ Kickback
 回扣
 Killjoy
 扫兴
+Knapping Stones
+Knapping Stones
 Knuckleduster
 指节套
 Larder
@@ -42803,8 +42807,6 @@ Swarm Instinct
 群体本能
 Swift Stomps
 迅猛踩踏
-Sword Breaker
-断剑者
 Sword-Horn Style
 剑角风格
 Swordplay
@@ -43330,6 +43332,8 @@ Your Poké Balls are 50% more effective.
 所有精灵球的捕捉率增加50%。
 Sets a Reflect for four turns upon entry.
 出场时，开启持续4回合的反射壁。
+Raises Defense and Sp. Def by three steps when its HP is lowered below half. This only works once per switch-in.
+Raises Defense and Sp. Def by three steps when its HP is lowered below half. This only works once per switch-in.
 Boosts power of light-based moves by 30%.
 光类技能的威力增加30%。
 After using a sound move, all foes are Tormented.
@@ -43836,6 +43840,8 @@ Rather than take recoil damage, it swaps out, and its replacement takes that dam
 不会受到反伤，而是替换出其它精灵代替它承受反伤。
 Pokémon can't raise their stats. Pokémon that dance take damage equal to 1/4th their HP.
 所有精灵无法增加能力等级。使用舞蹈类技能的精灵会受到其最大HP四分之一的伤害。
+After this Pokémon is hit with a super- or hyper-effective move, the attacker takes 33% of the damage dealt as recoil.
+After this Pokémon is hit with a super- or hyper-effective move, the attacker takes 33% of the damage dealt as recoil.
 Boosts the power of punching moves by 50%.
 拳类技能威力增加30%。
 At end of turn, regenerates its previously-used berry.
@@ -44352,8 +44358,6 @@ When an ally switches in, this Pokémon's Speed is increased.
 队友替换出场时，自身的速度增加1级。
 This Pokémon's Speed is doubled while using kicking moves.
 使用踢类技能时，该精灵的速度翻倍。
-If an attack lowers this Pokémon's HP below half, the attacker becomes fractured.
-被攻击使HP减小到一半以下时，攻击者将陷入破碎。
 After attacking the same foe twice, they become numbed, and a Sanctuary is set on this Pokémon's side for three turns.
 2次攻击同一对手后，对手将陷入麻痹，并且开启持续3回合的圣地。
 Boosts the power of slice moves by 30%.
@@ -64546,6 +64550,8 @@ The Eroding Foam is melting {1}'s Defense!
 The Eroding Foam is melting {1}'s Defense!
 But it failed, since {1} is already covered in foam!
 But it failed, since {1} is already covered in foam!
+A targeting reticle shows which of your battlers the Avatar wants to attack. It will switch to another battler, however, if their attack is made impossible.
+A targeting reticle shows which of your battlers the Avatar wants to attack. It will switch to another battler, however, if their attack is made impossible.
 [27]
 0
 Animated
@@ -66835,6 +66841,8 @@ Sword Horn First Hit
 剑角首次命中
 Fleeting Footwork
 疾速步法
+Battle-Hardened
+Battle-Hardened
 Amulet Coin
 护符金钱
 Fairy Lock
