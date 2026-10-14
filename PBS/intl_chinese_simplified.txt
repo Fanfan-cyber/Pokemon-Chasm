@@ -7604,8 +7604,8 @@ She requires far more preparation than I.
 她总比我需要更长时间。
 Have you made ready?
 你准备好了吗？
-If you ever find yourself in the <imp>urban expanse</imp> of Prizca with naught to do, find me.
-如果你对宏礼市的<imp>城市扩张</imp>无事可做了，那么就来找我吧。
+If you ever find yourself in the <imp>urban expanse</imp> of Prizca West with naught to do, find me.
+如果你对西宏礼市的<imp>城市扩张</imp>无事可做了，那么就来找我吧。
 I’ll be mourning near <imp>Bogdan Cement</imp>, like as not. I have plans involving you and yours.
 I’ll be mourning near <imp>Bogdan Cement</imp>, like as not. I have plans involving you and yours.
 Why are you here?
@@ -43050,7 +43050,7 @@ In sunshine, boosts its and allies' Attack and Sp. Def by 50%.
 晴天时，自身和队友的物攻和特防增加50%。
 Protects Grass-type allies from non-volatile status conditions or stat reductions (except self-inflicted).
 保护草属性队友免受异常或其他精灵的能力等级减小效果的影响。
-Doubles Defense. This Pokémon takes double damage from Fire-type moves.
+Doubles this Pokémon's Defense and takes double damage from Fire-type moves.
 物防翻倍。受到的火属性技能的伤害翻倍。
 Castform transforms with the weather.
 属性会随着天气而变化。
@@ -43106,7 +43106,7 @@ Its attacks are critical against poisoned targets.
 攻击中毒的对手时，必定会命中要害。
 Bounces back stat-lowering effects.
 反弹受到的能力等级减小效果。
-Immune to Electric-type moves and boosts Speed when hit by one.
+Immune to Electric-type moves and boosts Speed instead.
 被电属性技能攻击时，不会受到伤害，而是速度增加1级。
 Raises Attack after knocking out any Pokémon.
 打倒对手时，物攻增加1级。
@@ -43164,7 +43164,7 @@ Doubles this Pokémon's Speed in a sandstorm.
 沙暴时，速度翻倍。
 Summons a sandstorm for four turns upon entry.
 出场时，开启持续4回合的沙暴。
-Immune to Grass-type moves and raises Attack and Sp. Atk when hit by one.
+Immune to Grass-type moves and raises Attack and Sp. Atk instead.
 免疫草属性技能，被草属性技能命中时，双攻增加1级。
 Forms a powerful school while it has a lot of HP.
 HP多的时候会聚起来变强。
@@ -43242,11 +43242,11 @@ Doubles the Accuracy, critical hit rate, and chance to activate random added eff
 将自身和队友的命中率、命中要害率和发动附加效果的概率翻倍。
 Prevents this Pokémon from falling asleep.
 不会陷入睡眠。
-Immune to Electric-type moves and restores 25% of max HP when hit by one.
+Immune to Electric-type moves and restores 25% of max HP instead.
 免疫电属性技能，被电属性技能攻击时，回复1/4的HP。
 When this Pokémon is hit by an attack, this Pokémon and the attacker switch abilities.
 被攻击命中时，与攻击者交换特性。
-Immune to Water-type moves and restores 25% of max HP when hit by one.
+Immune to Water-type moves and restores 25% of max HP instead.
 免疫水属性技能，被水属性技能攻击时，回复1/4的HP。
 Takes half from incoming Fire-type moves and doubles this Pokémon's Water-type move damage.
 受到的火属性技能的伤害减半，自身使用的水属性技能的威力翻倍。
@@ -43268,7 +43268,7 @@ Powers up moves of the same type by 33%.
 本属性技能的威力增加33%。
 Raises Speed by four steps when its HP is lowered below half.
 HP减小到一半以下时，速度增加4级。
-Immune to Flying-type moves and raises Speed if hit by one.
+Immune to Flying-type moves and raises Speed instead.
 免疫飞行属性技能，被飞行属性技能攻击时，速度增加1级。
 Protects this Pokémon from recoil damage. This Pokémon doesn't trigger items, abilities, or effects of targets it hits.
 不会受到反伤。攻击不会发动被命中的目标的物品、特性和其他效果。
@@ -43282,7 +43282,7 @@ Can hold two different items, if both are Gems.
 可同时携带2个宝石类物品。
 Moves that cause the user to become hidden deal additional damage equal to half this Pokémon's level.
 隐藏类技能会造成额外伤害，数值等于该精灵等级的一半。
-Doubles Speed in eclipse.
+Doubles this Pokémon's Speed in eclipse.
 日食天气时，速度翻倍。
 This Pokémon moves after all other Pokémon do.
 必定在所有其他精灵之后才行动。
@@ -43304,7 +43304,7 @@ Deals double damage against Pokémon that have raised defenses or that are prote
 对于增加了防御或受到屏障保护的精灵造成双倍伤害。
 Uses Aromatherapy if an attack lowers its HP below half.
 被攻击使HP减小到一半以下时，使用芳香治疗。
-Doubles Sp. Def, but this Pokémon can't use status moves.
+Doubles this Pokémon's Sp. Def, but can't use status moves.
 特防翻倍，但无法使用变化类技能。
 During eclipse, it restores its HP by half the damage it deals with attacks.
 日食时，回复自身攻击造成伤害的一半的HP。
@@ -43400,7 +43400,7 @@ Heals by 1/5th HP whenever any Pokémon uses a dance move. Can overheal.
 每当有精灵使用舞蹈类技能时，回复自身最大HP的1/5，可以过量回复。
 This Pokémon's Speed is doubled while using light-based moves.
 使用光类技能时，速度翻倍。
-Immune to Fighting-type moves and raises Attack and Sp. Atk if hit by one.
+Immune to Fighting-type moves and raises Attack and Sp. Atk instead.
 免疫格斗属性技能，被格斗属性技能命中时双攻增加1级。
 Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become frostbitten.
 物防增加20%。当被同1精灵第2次物理类技能攻击时，攻击者将陷入冻伤。
@@ -43426,9 +43426,9 @@ Its attacks are critical against frostbitten targets.
 攻击冻伤的对手时，必定会命中要害。
 Boosts Sp. Atk by 75%, but this Pokémon becomes frostbitten after attacking.
 特攻增加75%，但攻击后会陷入冻伤。
-Immune to Fire- and Electric-type moves and raises Attack and Sp. Atk by two steps if hit by one.
+Immune to Fire- and Electric-type moves and raises Attack and Sp. Atk by two steps instead.
 免疫火属性和电属性技能，被这些属性的技能攻击时，双攻增加2级。
-Immune to Ice-type moves and raises Attack and Sp. Atk if hit by one.
+Immune to Ice-type moves and raises Attack and Sp. Atk instead.
 免疫冰属性技能，被冰属性技能命中时双攻增加1级。
 When hit with an attack, gains that attack's type.
 被攻击时，自身获得该攻击的属性。
@@ -43464,7 +43464,7 @@ After knocking out any Pokémon, summons hail for four turns.
 打倒对手时，开启持续4回合的冰雹。
 Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
 免疫异常。沙暴时，特攻和速度增加30%。
-Immune to Bug-type moves and raises Speed if hit by one.
+Immune to Bug-type moves and raises Speed instead.
 对虫属性技能免疫，被虫属性技能攻击时，速度增加1级。
 Prevents Bug- or Poison-type moves during moonglow.
 月辉时，免疫虫、毒属性技能。
@@ -43606,7 +43606,7 @@ Heals 1/8th HP in sunshine, 1/4th when hit by Fire-type moves. Loses 1/8th in ra
 晴天时，每回合HP回复八分之一，被火属性技能命中时，回复四分之一。雨天时，每回合HP失去八分之一，被水属性技能攻击时，伤害增加25%。
 At the end of every turn, each Pokémon takes 1/8th HP damage. This is treated as Fire-type.
 回合结束时，每只精灵受到1/8最大HP的火属性伤害。
-Immune to Fire-type moves and raises Attack and Sp. Atk if hit by one.
+Immune to Fire-type moves and raises Attack and Sp. Atk instead.
 免疫火属性技能，被火属性技能命中时双攻增加1级。
 Powers up priority moves by 30%.
 先制类技能威力增加30%。
@@ -43618,19 +43618,19 @@ Attacks this Pokémon uses that don't share a type with it are boosted by 30%.
 使用非本属性技能时，威力增加30%。
 Grows at the end of each turn, slowing down but improving other stats.
 每回合结束时长大，变成速度更小，但其他能力更大的形态。
-Doubles Attack, but this Pokémon becomes dizzy after attacking.
+Doubles this Pokémon's Attack, but becomes dizzy after attacking.
 物攻翻倍，但攻击后将陷入混乱。
 Upon entry, summons a Cruel Cocoon on this Pokémon's side for six turns.
 出场时，开启持续6回合的残酷之茧。
 Hits opponent with Gust when switched out.
 离场时，用起风攻击对手。
-Immune to Bug-type moves and raises Attack and Sp. Atk when hit by one.
+Immune to Bug-type moves and raises Attack and Sp. Atk instead.
 免疫虫属性技能，被虫属性技能命中时双攻增加1级。
 Upon entry, summons a Misdirecting Fog on this Pokémon's side for six turns.
 出场时，开启持续6回合的迷惑之雾。
 Raises Speed by two steps after knocking out any Pokémon.
 打倒对手时，速度增加2级。
-Immune to Psychic-type moves and raises Attack and Sp. Atk if hit by one.
+Immune to Psychic-type moves and raises Attack and Sp. Atk instead.
 免疫超能属性技能，被超能属性技能命中时双攻增加1级。
 Doubles this Pokémon's Speed in Rooms.
 存在空间类效果时，速度翻倍。
@@ -43674,7 +43674,7 @@ Turns the held item of a Pokémon it hits into scattered gold coins for you to t
 攻击时，目标的携带物会变成金钱，金钱会散落在场上。
 Foes that become frostbitten are severely so. This Pokémon's Flying-type moves have a 30% chance to severely frostbite.
 陷入冻伤的对手将陷入重度冻伤。飞行属性技能有30%的概率使目标重度冻伤。
-Immune to Fire-type moves and raises Defense and Sp. Def if hit by one.
+Immune to Fire-type moves and raises Defense and Sp. Def instead.
 免疫火属性技能，被火属性技能命中时，双防增加1级。
 Random added effects of bite attacks are +50% more likely to occur.
 咬类技能的随机附加效果发动的概率增加50%。
@@ -43720,11 +43720,11 @@ When this Pokémon gains a non-volatile status condition, its Speed is raised by
 当陷入异常时，速度增加3级。
 This Pokémon is also Ghost-type.
 为自身增加幽灵属性。
-Doubles Sp. Atk, but this Pokémon becomes dizzy after attacking.
+Doubles this Pokémon's Sp. Atk, but becomes dizzy after attacking.
 特攻翻倍，但攻击后将陷入混乱。
-Immune to Fairy-type moves and restores 25% of max HP if hit by one. This can overheal.
+Immune to Fairy-type moves and restores 25% of max HP instead. This can overheal.
 免疫妖精属性技能，被妖精属性技能攻击时，回复1/4的HP，可以过量回复。
-Immune to Dark-type moves and boosts Attack and Sp. Atk when hit by one.
+Immune to Dark-type moves and boosts Attack and Sp. Atk instead.
 免疫恶属性技能，被恶属性技能命中时双攻增加1级。
 Changes the weather to Ice Age, which damages and prevents healing. Lingers for three turns after leaving.
 将天气变为冰河时代，天气会造成伤害并且阻止精灵回复。离场后持续3回合。
@@ -43760,15 +43760,15 @@ Raises Sp. Atk after knocking out any Pokémon.
 打倒对手时，特攻增加1级。
 When hit by a move with 95 or more base power, hits back instantly with Nuzzle.
 当被95基础威力以上的技能命中后，立即用蹭蹭脸颊予以还击。
-Immune to Steel-type moves and restores 25% of max HP if hit by one.
+Immune to Steel-type moves and restores 25% of max HP instead.
 免疫钢属性技能，并且受到钢属性技能攻击时会回复最大HP的25%。
 Punches, Kicks, and Bites combo together to create special effects.
 拳、脚、牙类技能组合在一起，将产生特殊效果。
-Doubles Speed. Dashes to avoid hazards upon entry.
+Doubles this Pokémon's Speed. Dashes to avoid hazards upon entry.
 速度翻倍。无视陷阱。
 It can avoid being knocked out by using its face. The face then melts.
 可以避免濒死，之后冰块就会融化。
-Doubles Sp. Def in hail.
+Doubles this Pokémon's Sp. Def in hail.
 冰雹时，特防翻倍。
 During hail, it restores its HP by half the damage it deals with attacks.
 冰雹时，回复攻击造成的伤害的一半HP。
@@ -43790,7 +43790,7 @@ Comes out disguised as the Pokémon in the party's last spot. While disguised, c
 出场时，伪装成后排的最后一位队友。伪装期间获得队友的特性。
 After being attacked, gains immunity to that move's type but loses other morphed immunities.
 被攻击后，获得对该技能属性的免疫能力，但会失去其他属性的免疫能力。
-Immune to Steel-type moves and raises Speed if hit by one.
+Immune to Steel-type moves and raises Speed instead.
 受到钢属性技能攻击时，免疫伤害并增加速度。
 Pokémon take damage from non-volatile status conditions even while switched out.
 精灵即使替换离场，也会受到异常的伤害。
@@ -43960,7 +43960,7 @@ Special moves have a 30% chance to numb targets.
 特殊类技能有30%概率麻痹对手。
 While this Pokémon is unfainted (in battle or switched out), poisoned foes cannot use the same move twice in a row.
 只要该精灵没有濒死，中毒的对手无法连续使用同一个技能。
-Doubles Speed in moonglow.
+Doubles this Pokémon's Speed in moonglow.
 在月辉下速度翻倍。
 Boosts Speed by 50% in moonglow. Can't miss during moonglow.
 在月辉下增加50%的速度，且攻击必中。
@@ -44006,7 +44006,7 @@ This Pokémon receives 33% less move damage if there is an active Room.
 存在空间类效果时，受到的技能伤害减小33%。
 Powers up Rock-type moves by 50%.
 岩石属性技能的威力增加50%。
-Doubles Sp. Def. This Pokémon takes double damage from Psychic-type moves.
+Doubles this Pokémon's Sp. Def, but takes double damage from Psychic-type moves.
 特防翻倍。受到的超能属性技能的伤害翻倍。
 Immune to Flying-type moves and deals 50% more damage with them.
 免疫飞行属性技能，并且使用飞行属性技能时伤害增加50%。
@@ -44048,7 +44048,7 @@ During eclipse, immune to non-volatile status conditions and stat reductions.
 日食时，免疫异常和能力等级减小效果。
 At the first chance, copies the legal Abilities of the Pokémon it is facing.
 复制对手的所有特性。
-Immune to Poison-type moves and restores 25% of max HP if hit by one.
+Immune to Poison-type moves and restores 25% of max HP instead.
 免疫毒属性技能，被毒属性技能攻击时，回复1/4的HP。
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become poisoned.
 特防增加20%。当被同1精灵第2次特殊类技能攻击时，攻击者将陷入中毒。
@@ -44166,7 +44166,7 @@ Doubles critical hit chance for each Speed step up. All moves can random critica
 每有1级增加的速度能力等级，命中要害率翻倍。所有技能都有概率随机命中要害。
 This Pokémon is also Steel-type, but it takes 15% more damage from moves.
 为自身增加钢属性，但受到的技能伤害增加15%。
-Doubles Defense in rainstorm.
+Doubles this Pokémon's Defense in rainstorm.
 雨天时，物防翻倍。
 Summons a sandstorm for four turns when hit by an attack.
 被击时，开启持续4回合的沙暴。
@@ -44218,7 +44218,7 @@ Doubles the critical hit chance of random crit moves. This Pokémon's Speed is d
 使可能随机命中要害的技能的命中要害率翻倍，当使用这些技能时，速度翻倍。
 Its physical attacks reduce the target's Defense.
 物理类攻击会使目标的物防减小1级。
-Immune to Steel-type moves and boosts Defense and Sp. Def when hit by one.
+Immune to Steel-type moves and boosts Defense and Sp. Def instead.
 免疫钢属性技能，被钢属性技能攻击时，双防增加1级。
 Punching moves change this Pokémon's secondary type and their power is boosted by 30%.
 使用拳类技能时，第2属性会变为该技能的属性，且技能威力增加30%。
@@ -44228,9 +44228,9 @@ Special moves against it lower the attacker's Speed and Sp. Atk.
 被特殊类技能攻击时，使攻击者的速度和特攻减小1级。
 This Pokémon and other battlers don't benefit from same-type attacking bonus.
 所有精灵失去本属性加成。
-Boosts Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
+Boosts this Pokémon's Speed by 50% in rainstorm. Doubles random added effect chance in rainstorm.
 雨天时，速度增加50%，技能的附加效果的发动概率翻倍。
-Doubles critical hit chance. Restores HP for half the damage it does with critical hits.
+Doubles this Pokémon's critical hit chance. Restores HP for half the damage it does with critical hits.
 将命中要害率翻倍。用命中要害造成的伤害的一半回复HP。
 Takes 30% less damage from all tagged moves.
 受到的所有具有标签分类的技能的伤害减小30%。
@@ -44266,7 +44266,7 @@ This Pokémon takes 30% less move damage in hail.
 冰雹时，受到的技能伤害减小30%。
 Boosts this Pokémon's Sp. Atk and Sp. Def by 30% in sunshine.
 晴天时，特攻和特防增加30%。
-Doubles Defense in moonglow.
+Doubles this Pokémon's Defense in moonglow.
 在月辉时，物防翻倍。
 Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become waterlogged.
 物防增加20%。当被同1精灵第2次物理类技能攻击时，攻击者将陷入浸水。
@@ -44320,7 +44320,7 @@ At the end of each turn, if it has no item, gets a random gem that matches the t
 每回合结束时，如果该精灵没有物品，随机获得一个与其技能相匹配的宝石。
 Makes foes stressed and unable to use their items.
 使对手的物品失效。
-Doubles Defense, but this Pokémon can't use status moves.
+Doubles this Pokémon's Defense, but can't use status moves.
 物防翻倍，但该精灵无法使用变化类技能。
 In rainstorm, each of its hits is followed by an extra hit at 25% power.
 雨天时，会以25%的威力进行一次额外的攻击。
@@ -44348,7 +44348,7 @@ Boosts this Pokémon's Speed by 50% and reduces recoil taken by 50% in sunshine.
 晴天时，速度增加50%，受到的反伤减半。
 Summons eclipse for four turns when hit by an attack.
 被击时，开启持续4回合的日食。
-Doubles the speed of allied Pokémon.
+Doubles the Speed of allied Pokémon.
 队友的速度翻倍。
 Powers up Water-type moves by 50%.
 水属性技能的威力增加50%。
@@ -44362,7 +44362,7 @@ After attacking the same foe twice, they become numbed, and a Sanctuary is set o
 2次攻击同一对手后，对手将陷入麻痹，并且开启持续3回合的圣地。
 Boosts the power of slice moves by 30%.
 切割类技能的威力增加30%。
-Immune to Steel-type moves and boosts Attack and Sp. Atk when hit by one.
+Immune to Steel-type moves and boosts Attack and Sp. Atk instead.
 免疫钢属性技能，被钢属性技能攻击时，双攻增加1级。
 During hail, boosts Speed and Grass-type damage by 50%.
 冰雹时，速度和草属性伤害增加50%。
@@ -44446,7 +44446,7 @@ Deals 30% more damage to targets that have an item. After attacking a foe, destr
 对有携带物的对手造成的伤害增加30%，如果对手携带的是衣服类物品，则攻击之后会将其破坏。
 After an attack reduces its HP below half, deals 1/4th of the attacker's HP back to the attacker.
 被攻击使该精灵HP减小到一半以下时，反弹攻击者HP的四分之一伤害。
-Immune to Poison-type moves and raises Attack and Sp. Atk if hit by one.
+Immune to Poison-type moves and raises Attack and Sp. Atk instead.
 免疫毒属性技能，被毒属性技能命中时双攻增加1级。
 Whenever a foe's poison worsens, this Pokémon heals for 25% max HP.
 每当有对手中毒加剧时，回复最大HP的25%。
