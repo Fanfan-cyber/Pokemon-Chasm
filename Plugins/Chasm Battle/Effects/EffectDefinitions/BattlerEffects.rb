@@ -607,7 +607,7 @@ GameData::BattleEffect.register_effect(:Battler, {
 
 GameData::BattleEffect.register_effect(:Battler, {
     :id => :AbilitySupressed,
-    :real_name => "Ability Surpressed",
+    :real_name => "Ability Suppressed",
     :baton_passed => true,
     :pass_value_proc => proc do |battler, value|
         next false if battler.immutableAbility?

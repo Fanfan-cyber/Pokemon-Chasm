@@ -4074,6 +4074,17 @@ Flags = CanProtect
 EffectChance = 30
 Description = The user attacks by harshly dropping an icicle onto the foe. It has a 30% chance to make the target flinch.
 #-------------------------------
+[INURE]
+Name = Inure
+Type = ICE
+Category = Status
+Accuracy = 0
+TotalPP = 10
+Target = User
+FunctionCode = Invalid
+Flags = CanSnatch
+Description = The user inures themselves to a harsh environment, shedding their type weaknesses.
+#-------------------------------
 [MIST]
 Name = Mist
 Type = ICE

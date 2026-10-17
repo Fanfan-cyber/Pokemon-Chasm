@@ -3756,14 +3756,13 @@ Description = The user immerses the target in superheated steam. This has a 30% 
 Name = Surf
 Type = WATER
 Category = Special
-Power = 90
+Power = 95
 Accuracy = 100
 TotalPP = 10
 Target = AllNearOthers
-FunctionCode = WaterlogTargetHitsDivers
+FunctionCode = HitsDivers
 Flags = CanProtect
-EffectChance = 10
-Description = It swamps the area with a giant wave, hitting every battler nearby and underwater. Has a 10% chance to waterlog.
+Description = It swamps the area with a giant wave, hitting every battler nearby and underwater.
 #-------------------------------
 [SURGINGSTRIKES]
 Name = Surging Strikes
