@@ -1145,7 +1145,7 @@ end
 class PokeBattle_AI_ASANDSLASH < PokeBattle_AI_Boss
     def initialize(user, battle)
         super
-        @warnedIFFMove.add(:INURE, {
+        @warnedIFFMove.add(:SHIVERDANCE, {
             :condition => proc { |_move, _user, _target, battle|
                 next true
             },
