@@ -9500,8 +9500,8 @@ Name = Cacturne
 Type1 = GRASS
 Type2 = DARK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 100,125,60,65,95,60
-# Total = 505
+BaseStats = 100,125,80,65,125,60
+# Total = 555
 BaseEXP = 166
 Rareness = 50
 Happiness = 35
