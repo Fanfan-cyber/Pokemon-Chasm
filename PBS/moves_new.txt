@@ -5632,7 +5632,7 @@ Animation = HOLDHANDS
 [SINISTERSPINES]
 Name = Sinister Spines
 Type = GRASS
-Category = Physical
+Category = Special
 Power = 90
 Accuracy = 100
 TotalPP = 5
