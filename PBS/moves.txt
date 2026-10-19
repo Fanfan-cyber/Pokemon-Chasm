@@ -1080,7 +1080,7 @@ TotalPP = 8
 Target = NearOther
 FunctionCode = SleepTargetNextTurn
 Flags = CanProtect,CanMagicCoat,Sound
-Description = The user yawns, making the target drowsy. They'll fall asleep at end of the next turn.
+Description = The user yawns, making the target drowsy. They'll fall asleep at the end of the next turn.
 #-------------------------------
 #		FIGHTING MOVES
 #-------------------------------
