@@ -146,15 +146,15 @@ class PokeBattle_Battle
         level_cap = LEVEL_CAPS_USED ? getLevelCap : GameData::GrowthRate.max_level
         expRaw = pkmn.exp + exp
         curLevel = pkmn.level
-        level_cap = [level_cap, curLevel].max
-        expFinal = expRaw.clamp(0, growth_rate.minimum_exp_for_level(level_cap))
+        maxLevel = [curLevel, level_cap].max
+        expFinal = expRaw.clamp(0, growth_rate.minimum_exp_for_level(maxLevel))
         # Calculates if there is excess exp and if it can be stored
         if (expRaw > expFinal) && hasExpJAR
             expLeftovers = expRaw
         else
             expLeftovers = 0
         end
-        expFinal = expRaw.clamp(0, growth_rate.minimum_exp_for_level(level_cap))
+        expFinal = expRaw.clamp(0, growth_rate.minimum_exp_for_level(maxLevel))
         expGained = expFinal - pkmn.exp
         expLeftovers -= expFinal
         expLeftovers = (expLeftovers * EXP_JAR_BASE_EFFICIENCY).floor
