@@ -5297,7 +5297,7 @@ Target = NearOther
 FunctionCode = RaiseUserSpAtk2
 Flags = CanProtect
 EffectChance = 100
-Description = Flowers blooms with intensity, damaging the target and raising the user's Sp. Atk by two steps.
+Description = Flowers bloom with intensity, damaging the target and raising the user's Sp. Atk by two steps.
 Animation = GRASSPLEDGE
 #-------------------------------
 [BREATHELIFE]
