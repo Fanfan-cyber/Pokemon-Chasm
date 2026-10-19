@@ -1732,7 +1732,7 @@ Target = NearOther
 Priority = 1
 FunctionCode = Basic
 Flags = CanProtect
-Description = The user shoots the target with a dart made of poison. This move always goes first.
+Description = The user shoots the target with a dart made of toxins. This move always goes first.
 Animation = POISONSTING
 #-------------------------------
 [POISONSPIKES]
@@ -4837,15 +4837,15 @@ Animation = BRINE
 [ERODINGFOAM]
 Name = Eroding Foam
 Type = WATER
-Category = Special
-Power = 80
+Category = Physical
+Power = 60
 Accuracy = 100
-TotalPP = 20
+TotalPP = 15
 Target = NearOther
-FunctionCode = LowerTargetDef3
+FunctionCode = ApplyErodingFoamToTarget
 Flags = CanProtect
 EffectChance = 100
-Description = The user spews alkaline bubbles that melt the target, lowering their Defense by three steps.
+Description = The user spews alkaline bubbles that melt the target. For the next two turns, the target's Defense will be lowered by two steps.
 Animation = BUBBLEBEAM
 #-------------------------------
 [FLOODGATE]
@@ -4958,7 +4958,7 @@ Power = 30
 Accuracy = 100
 TotalPP = 25
 Target = NearOther
-FunctionCode = WaterlogTargetHitsDivers
+FunctionCode = Waterlog
 Flags = CanProtect
 EffectChance = 30
 Description = The target is immersed in water. This has a 30% chance to waterlog.
@@ -5000,6 +5000,20 @@ Target = NearOther
 FunctionCode = DamageBoost50PercentTargetHitUser
 Flags = CanProtect
 Description = Attacks with pressurized water. Deals 50% more damage if the user has been hurt by the foe in the same turn.
+#-------------------------------
+[PRESSURESTREAM]
+Name = Pressure Stream
+Type = WATER
+Category = Special
+Power = 90
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = Waterlog
+Flags = CanProtect
+EffectChance = 10
+Description = The target is struck with a stream of pressurized water. This has a 10% chance to waterlog.
+Animation = HYDROPUMP
 #-------------------------------
 [RAINSTORM]
 Name = Rainstorm
@@ -5240,7 +5254,7 @@ Power = 60
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
-FunctionCode = WaterlogTargetHitsDivers
+FunctionCode = Waterlog
 Flags = CanProtect
 EffectChance = 30
 Description = The target is inundated with a wave of seaweater. This has a 30% chance to waterlog.
@@ -5645,7 +5659,7 @@ Animation = HOLDHANDS
 [SINISTERSPINES]
 Name = Sinister Spines
 Type = GRASS
-Category = Physical
+Category = Special
 Power = 90
 Accuracy = 100
 TotalPP = 5
@@ -7220,17 +7234,6 @@ Flags = CanProtect
 EffectChance = 100
 Description = Injects supercold liquid into the target, damaging them and halving all future healing.
 Animation = FROSTBARB
-#-------------------------------
-[INURE]
-Name = Inure
-Type = ICE
-Category = Status
-Accuracy = 0
-TotalPP = 10
-Target = User
-FunctionCode = StartUserShedTypeWeaknesses
-Flags = CanSnatch
-Description = The user inures themselves to a harsh environment, shedding their type weaknesses.
 #-------------------------------
 [INVITEHAIL]
 Name = Invite Hail
