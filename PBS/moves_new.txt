@@ -8179,8 +8179,8 @@ Accuracy = 70
 TotalPP = 10
 Target = NearOther
 FunctionCode = CantMissIfInMoonglow
-Flags = CanProtect,CanRandomCrit
-Description = The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
+Flags = CanProtect,CanRandomCrit,DoubleCritChance
+Description = The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit, and does so twice as often.
 Animation = NIGHTSLASH
 #-------------------------------
 [PILFER]
