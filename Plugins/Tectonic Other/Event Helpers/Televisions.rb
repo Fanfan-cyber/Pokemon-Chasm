@@ -130,7 +130,7 @@ def getWeatherDescriptor(weatherSymbol, strength)
     when :Sandstorm
         return _INTL("hot and dry sandstorm conditions")
     when :Fog
-        return _INTL("cold and wet fog wtih reduced visibility")
+        return _INTL("cold and wet fog with reduced visibility")
     when :ToxicFog
         return _INTL("smoggy and dangerous conditions")
     end

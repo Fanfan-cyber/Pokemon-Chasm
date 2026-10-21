@@ -5324,7 +5324,7 @@ Target = NearOther
 FunctionCode = RaiseUserSpAtk2
 Flags = CanProtect
 EffectChance = 100
-Description = Flowers blooms with intensity, damaging the target and raising the user's Sp. Atk by two steps.
+Description = Flowers bloom with intensity, damaging the target and raising the user's Sp. Atk by two steps.
 Animation = GRASSPLEDGE
 #-------------------------------
 [BREATHELIFE]
@@ -8219,8 +8219,8 @@ Accuracy = 70
 TotalPP = 10
 Target = NearOther
 FunctionCode = CantMissIfInMoonglow
-Flags = CanProtect,CanRandomCrit
-Description = The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit.
+Flags = CanProtect,CanRandomCrit,DoubleCritChance
+Description = The user tries to surprise-attack the target. Cannot miss in moonglow. Can random critical hit, and does so twice as often.
 Animation = NIGHTSLASH
 #-------------------------------
 [PILFER]
