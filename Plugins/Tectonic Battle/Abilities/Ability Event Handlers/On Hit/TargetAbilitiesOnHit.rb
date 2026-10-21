@@ -1098,3 +1098,41 @@ BattleHandlers::TargetAbilityOnHit.add(:INNARDSOUT,
         battle.pbHideAbilitySplash(target)
     }
 )
+
+BattleHandlers::TargetAbilityOnHit.add(:DAMAGESHARING,
+  proc { |ability, user, target, move, battle, aiCheck, aiNumHits|
+    next 0 if aiCheck
+    next unless target.effectActive?(:DamageSharing)
+    party = target.owned_trainer&.party
+    next unless party
+
+    field_battlers = battle.field_battlers_id
+    field_battler_allies = []
+    back_pkmn_allies = []
+    party.each do |pkmn|
+      next if pkmn.fainted?
+      next if pkmn.unique_id == target.unique_id
+      if field_battlers.include?(pkmn.unique_id)
+        battle.battlers.each do |battler|
+          next unless battler.unique_id == pkmn.unique_id
+          field_battler_allies << battler
+          break
+        end
+      else
+        back_pkmn_allies << pkmn
+      end
+    end
+    next if field_battler_allies.empty? && back_pkmn_allies.empty?
+
+    battle.pbShowAbilitySplash(target, ability)
+    battle.pbDisplay(_INTL("{1} shared the damage with its allies!", target.pbThis))
+    battle.pbHideAbilitySplash(target)
+
+    shared_damage = target.effects[:DamageSharing]
+    target.disableEffect(:DamageSharing)
+    damage_per_ally = [shared_damage / (field_battler_allies.length + back_pkmn_allies.length), 1].max
+
+    field_battler_allies.each { |ally| ally.pbReduceHP(damage_per_ally) }
+    back_pkmn_allies.each { |pkmn| pkmn.hp -= damage_per_ally } # didn't judge when a pkmn faints
+  }
+)

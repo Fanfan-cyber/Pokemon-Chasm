@@ -218,7 +218,7 @@ class PokeBattle_Battler
         end
 
         # Actually perform the HP change
-        @battle.pbDisplay(customMessage) if customMessage && showMessage
+        @battle.pbDisplay(customMessage) if customMessage && showMessage && !aiCheck
 
         steal = false
         stealers = []

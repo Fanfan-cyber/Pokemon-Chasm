@@ -49,16 +49,25 @@ class PokeBattle_Move
 
         # Main damage calculation
         finalCalculatedDamage = calcDamageWithMultipliers(baseDmg,attack,defense,user.level,multipliers)
-        finalCalculatedDamage  = [(finalCalculatedDamage * multipliers[:final_damage_multiplier]).round, 1].max
+        finalCalculatedDamage = [(finalCalculatedDamage * multipliers[:final_damage_multiplier]).round, 1].max
         finalCalculatedDamage = flatDamageModifiers(finalCalculatedDamage,user,target,type,aiCheck)
 
         # Delayed Reaction
         if !@battle.moldBreaker && target.shouldAbilityApply?(:DELAYEDREACTION,aiCheck)
             delayedDamage = (finalCalculatedDamage * 0.33).floor
-            finalCalculatedDamage -=  delayedDamage
+            finalCalculatedDamage -= delayedDamage
             if delayedDamage > 0 && !aiCheck
                 target.effects[:DelayedReaction] = [] unless target.effectActive?(:DelayedReaction)
                 target.effects[:DelayedReaction].push([2,delayedDamage])
+            end
+        end
+
+        # Damage Sharing
+        if !@battle.moldBreaker && target.shouldAbilityApply?(:DAMAGESHARING, aiCheck) && !target.isLastAlive?
+            sharedDamage = (finalCalculatedDamage * 0.5).ceil
+            finalCalculatedDamage -= sharedDamage
+            if sharedDamage > 0 && !aiCheck
+                target.applyEffect(:DamageSharing, sharedDamage)
             end
         end
 

@@ -452,10 +452,14 @@ GameData::BattleEffect.register_effect(:Battler, {
     :type => :Integer,
     :ticks_down_eor => true,
     :apply_proc => proc do |_battle, battler, _value|
-        battler.applyEffect(:DisableMove, battler.lastRegularMoveUsed)
+        if battler.lastRegularMoveUsed
+            battler.applyEffect(:DisableMove, battler.lastRegularMoveUsed)
+        else
+            battler.disableEffect(:Disable)
+        end
     end,
     :disable_proc => proc do |battle, battler|
-        battle.pbDisplay(_INTL("{1}'s broke out of the disable!", battler.pbThis))
+        battle.pbDisplay(_INTL("{1}'s broke out of the disable!", battler.pbThis)) if battler.lastRegularMoveUsed
     end,
     :expire_proc => proc do |battle, battler|
         battle.pbDisplay(_INTL("{1}'s move is no longer disabled.", battler.pbThis))
@@ -2882,7 +2886,6 @@ GameData::BattleEffect.register_effect(:Battler, {
     :info_displayed => false
 })
 
-
 GameData::BattleEffect.register_effect(:Battler, {
     :id => :TemporalShiftReceiver,
     :real_name => "Temporal Shift Receiver",
@@ -2974,4 +2977,11 @@ GameData::BattleEffect.register_effect(:Battler, {
             end
         end
     end,
+})
+
+GameData::BattleEffect.register_effect(:Battler, {
+    :id => :DamageSharing,
+    :real_name => "Damage Sharing",
+    :type => :Integer,
+    :info_displayed => false,
 })

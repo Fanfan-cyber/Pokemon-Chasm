@@ -54784,7 +54784,7 @@ It'll lose a quarter of its health each turn!
 {1} is afflicted by the pharaoh's curse!
 {1}受到了法老的诅咒！
 {1}'s broke out of the disable!
-{1}解除了封印！
+{1}解除了禁用！
 {1}'s move is no longer disabled.
 {1}的技能不再被禁用。
 {1}'s {2} was disabled!
@@ -66431,7 +66431,7 @@ Destiny Bond Target
 Disable Turns
 禁用回合
 Disabled Move
-禁用的技能
+禁用技能
 Electrify
 通电
 Embargoed
