@@ -101,6 +101,7 @@ class PokeBattle_Battle
     def anyMonHasAbility?(ability)
         [@party1, @party2].each do |party|
             party.each do |pkmn|
+                next if pkmn.nil?
                 return true if pkmn.hasAbility?(ability)
             end
         end
