@@ -51,7 +51,7 @@ def displayInterestingWeatherReport()
         report = boringReports[mapName]
     end
 
-    displayWeatherReport(report,mapName) if report
+    displayWeatherReport(report, _INTL(mapName)) if report
 end
 
 def displayWeatherReport(weatherReport,mapName)
