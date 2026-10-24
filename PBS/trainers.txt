@@ -2218,6 +2218,173 @@ Pokemon = VIKAVOLT,44
     AbilityIndex = 0 # Emergency Power
     Item = CHARTIBERRY
 #-------------------------------
+[SOCIALITE2,Sofiya]
+Pokemon = FURFROU,42
+    Moves = ENVENOM,LOUNGE,SHORTCIRCUIT,CHACHING
+    AbilityIndex = 0 # Stylish
+    # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+    EV = 20,0,15,0,0,15
+Pokemon = LEAFEON,43
+    Moves = DEEPBREATHING,LEAFBLADE,CHACHING,AQUATICCRUNCH
+    AbilityIndex = 1 # Reluctant Warrior
+    Item = SCOPELENS
+Pokemon = GSLOWBRO,42
+    Moves = SHELLSIDEARM,ZENHEADBUTT,SLACKOFF,CHACHING
+    AbilityIndex = 1 # Break Through
+    Item = LEFTOVERS
+Pokemon = POLITOED,43
+    Moves = WISHINGWELL,SEISMICWAVE,SURF,DARKALLURE
+    AbilityIndex = 1 # Bellower
+#-------------------------------
+[WHIMSICALBOY,Joseph]
+Pokemon = WOBBUFFET,43
+    Moves = SANCTUARY,HEALBELL,MEMENTO,PARTINGSHOT
+    AbilityIndex = 1 # Bounce Back
+    Item = LIGHTCLAY
+Pokemon = SNEASLER,42
+    Moves = GRIMEGRAPPLE,AGONIZE,BRICKBREAK,FAKEOUT
+    AbilityIndex = 0 # Rugged
+    Item = PECHABERRY
+Pokemon = ANINETALES,42
+    Moves = MOONBLAST,AURORABEAM,LUMINBURST,POWERGEM
+    AbilityIndex = 1 # Diffraction
+Pokemon = ARCANINE,43
+    Moves = SANCTUARY,SEARINGCRUNCH,IRONHEAD,VOLTCRUNCH
+    AbilityIndex = 1 # Serene Grace
+#-------------------------------
+[ARTIST2,Velimir]
+Pokemon = CLAYDOL,43
+    Moves = LEYLINEBURST,REFLECT,LIGHTSCREEN,RAPIDSPIN
+    AbilityIndex = 0 # Planar Veil
+    Item = LIGHTCLAY
+Pokemon = HITMONTOP,44
+    Moves = AGILITY,POWERUPPUNCH,DRILLRUN,CAPOEIRA
+    AbilityIndex = 1 # Spintensity
+Pokemon = MSCEPTILE,42
+    Moves = SHAREDSPOILS,SLAY,ZENHEADBUTT,THROATCHOP
+    AbilityIndex = 0 # Tough
+    Item = PSYCHICGEM
+Pokemon = LUMINEON,44
+    Moves = SURF,THUNDERBOLT,SWEETKISS,BUGBUZZ
+    AbilityIndex = 0 # Fascinate
+#-------------------------------
+[RICHBOY4,Luka]
+Pokemon = TSAREENA,43
+    Moves = TROPKICK,THROATCHOP,UTURN,SYNTHESIS
+    AbilityIndex = 0 # Punisher
+Pokemon = PORYGONMAV,43
+    Moves = CONVERSION2,QUARANTINE,LIGHTNINGSLAM,PROPELLANT
+    AbilityIndex = 0 # Debugger
+Pokemon = ORANGURU,43
+    Moves = NEURALPULSE,AURASPHERE,ENERGYBALL,DREAMDANCE
+    AbilityIndex = 0 # Emanation
+    Item = STRESSBALL
+Pokemon = KLEFKI,43
+    Moves = TITFORTAT,MOONBLAST,REFRESH,SWEETKISS
+    AbilityIndex = 0 # Prankster
+    Item = FLAMEORB
+#-------------------------------
+[GARDENER,Petar]
+Pokemon = PAPELLUMEN,44
+    Moves = SEDATINGDUST,LUMINBURST,PIERCINGDOUBT,MACHPULSE
+    AbilityIndex = 1 # Erudite
+    Item = BLACKHERB
+Pokemon = RILLABOOM,44
+    Moves = KNOCKOFF,CAMOUFLAGE,DRAINPUNCH,BULKUP
+    AbilityIndex = 0 # Verdant
+Pokemon = CLAWITZER,44
+    Moves = FIREFOREFFECT,CAVITATION,AURASPHERE,MACHPULSE
+    AbilityIndex = 0 # Loose Cannon
+    Item = STRESSBALL
+Pokemon = SEVIPER,44
+    Moves = POISONJAB,EARTHQUAKE,WYRMWOUNDING,SUBSTITUTE
+    AbilityIndex = 1 # Envy
+#-------------------------------
+[WORKER5,Jakov]
+Pokemon = PROBOPASS,44
+    Moves = POLARCHARGE,FLASHCANNON,PETRIFY,SHOREUP
+    AbilityIndex = 0 # Magnet Trap
+    Item = REINFORCINGROD
+Pokemon = CONKELDURR,44
+    Moves = COLUMNARPIN,ADAMANTINEPRESS,POLARIZEDROOM,WOODHAMMER
+    AbilityIndex = 1 # Foreman
+Pokemon = PARASECT,44
+    Moves = SPORE,XSCISSOR,VIMRIPPER,LEAFBLADE
+    AbilityIndex = 0 # Infected
+Pokemon = RAPIDASH,44
+    Moves = BLAZEKICK,TRAMPLE,POUNCE,SHARPEN
+    AbilityIndex = 1 # Heavy Duty Hooves
+    Item = INSOLES
+#-------------------------------
+[PUNKS,Spike and Freya]
+Pokemon = RATICATE,43
+    Moves = HYPERFANG,QUICKATTACK,SEARINGCRUNCH,GLACIALCRUNCH
+    AbilityIndex = 1 # Gnawing
+    Item = WHITENINGPASTE
+Pokemon = RUBARIOR,42
+    Moves = GEMSEAL,CONFUSERAY,STITCHUP,FOULPLAY
+    AbilityIndex = 1 # Prankster
+Pokemon = WEEZING,44
+    Moves = COLDFRONT,MIASMA,CLEARSMOG,RECOVER
+    AbilityIndex = 1 # Fumigate
+    Item = PINWHEEL
+Pokemon = CHESNAUGHT,44
+    Moves = BULWARK,LEECHSEED,SACREDSWORD,LEAFBLADE
+    AbilityIndex = 1 # Aggravate
+    Item = ROCKYHELMET
+Pokemon = GIGALITH,42
+    Moves = ARCLAMP,POWERGEM,SYNTHESIS,LUMINBURST
+    AbilityIndex = 1 # Celeritas
+#-------------------------------
+[TEENAGERF,Lea]
+Pokemon = SIMISEAR,45
+    Moves = GRIMEGRAPPLE,FACADE,INFERNOIMPACT,TRAMPLE
+    AbilityIndex = 1 # Ripen
+    Item = LIECHIBERRY
+Pokemon = POLTEAGEIST,44
+    Moves = SCALD,STRENGTHSAP,HEX,GIGADRAIN
+    AbilityIndex = 1 # Aromatic
+Pokemon = HYDRAPPLE,45
+    Moves = ENERGYBALL,DRAGONPULSE,AURAFLUX,LEECHSEED
+    AbilityIndex = 0 # Fickle Union
+    Item = LEFTOVERS
+Pokemon = SEAKING,43
+    Moves = LUNGE,WETLANDWALTZ,DRILLRUN,BUCKETDROP
+    AbilityIndex = 1 # Volt Absorb
+#-------------------------------
+[JUGGLER,Andre]
+Pokemon = MBLAZIKEN,42
+    Moves = PLAYROUGH,CAPOEIRA,ROCKOUT,DRAGONDANCE
+    AbilityIndex = 1 # Boggling Bolero
+Pokemon = ARBOK,43
+    Moves = CRUNCH,TOXICTASTE,AQUATICCRUNCH,DEVOUR
+    AbilityIndex = 0 # Intimidate
+    Item = WHITENINGPASTE
+Pokemon = LICKILICKY,43
+    Moves = TONGUETWISTER,BODYSLAM,CAVITATION,SHORTCIRCUIT
+    AbilityIndex = 1 # Simpleton
+    Item = COVERTCLOAK
+Pokemon = GOLURK,42
+    Moves = NEURALPULSE,AURASPHERE,SHADOWPUNCH,TRAMPLE
+    AbilityIndex = 0 # Ultra Buster
+#-------------------------------
+[COOLTRAINER_F4,Karissa]
+Pokemon = LYCANROC,44
+    Moves = ROCKALANCHE,MISADVENTURE,SEARINGCRUNCH,BAR
+    AbilityIndex = 1 # Serene Grace
+Pokemon = ROTOM,43
+    Form = 5 # Mow Form
+    Moves = LEAFSTORM,VOLTSWITCH,DEATHKNELL,NUMB
+    AbilityIndex = 1 # Haunted
+Pokemon = GUMSHOOS,44
+    Moves = GHOSTLYTALE,STROKEOFMIDNIGHT,LOOMINGWINTER,NULLPULSE
+    AbilityIndex = 1 # Forewarning
+    Item = WISEGLASSES
+Pokemon = BEAUTIFLY,43
+    Moves = UTURN,BUGBUZZ,ACROBATICS,ANESTHETIZE
+    AbilityIndex = 1 # Dauntless
+    Item = BUGGEM
+#-------------------------------
 [JANITOR,Eric]
 Pokemon = FEAROW,40
     Moves = JETSTREAM,DRILLPECK,DRILLRUN,ROOST
