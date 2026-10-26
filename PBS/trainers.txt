@@ -2134,20 +2134,21 @@ Pokemon = GOURGEIST,41
     Item = GHOSTGEM
 #-------------------------------
 [COLLECTOR,Mirko]
-Pokemon = ARAICHU,41
-    Moves = AGILITY,HARBORBREAKER,NEURALPULSE,THUNDERBOLT
-    AbilityIndex = 1 # Surf's Up
-    Item = WATERGEM
-Pokemon = LEAVANNY,42
-    Moves = LEAFBLADE,XSCISSOR,PALEBLADE,SWORDSDANCE
+Pokemon = URSALUNA,44
+    Form = 1 # Bloodmoon Form
+    Moves = EXTREMEEFFORT,DARKALLURE,EARTHPOWER,MOONBLAST
+    AbilityIndex = 0 # Break Through
+    Item = CHESTOBERRY
+Pokemon = TYPHLOSION,42
+    Moves = SHIMMERINGHEAT,BELCH,FRAGMENTATION,IGNITE
+    AbilityIndex = 1 # Hubris
+    Item = SITRUSBERRY
+Pokemon = TENTACRUEL,41
+    Moves = BUBBLEBLASTER,SPASMICSTING,KNOCKOFF,GIGADRAIN
+    AbilityIndex = 0 # Sap Sipper
+Pokemon = LEAVANNY,41
+    Moves = XSCISSOR,LEAFBLADE,PALEBLADE,SWORDSDANCE
     AbilityIndex = 1 # Bladebrained
-Pokemon = SCRAFTY,42
-    Moves = WHIRLWINDKICK,SUCKERPUNCH,BROWBEAT,SCHEME
-    AbilityIndex = 1 # Moxie
-Pokemon = RAPIDASH,41
-    Moves = TRAMPLE,BLAZEKICK,POUNCE,IGNITE
-    AbilityIndex = 1 # Heavy Duty Hooves
-    Item = FIREGEM
 #-------------------------------
 [DOCTOR,Peio]
 Pokemon = HATTERENE,41
