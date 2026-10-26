@@ -2280,7 +2280,7 @@ Pokemon = ORANGURU,43
     AbilityIndex = 0 # Emanation
     Item = STRESSBALL
 Pokemon = KLEFKI,43
-    Moves = TITFORTAT,MOONBLAST,REFRESH,SWEETKISS
+    Moves = TITFORTAT,MOONBLAST,FLASHCANNON,SWEETKISS
     AbilityIndex = 0 # Prankster
     Item = FLAMEORB
 #-------------------------------
