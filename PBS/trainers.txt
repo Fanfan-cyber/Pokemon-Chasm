@@ -2234,7 +2234,7 @@ Pokemon = GSLOWBRO,42
     AbilityIndex = 1 # Break Through
     Item = LEFTOVERS
 Pokemon = POLITOED,43
-    Moves = WISHINGWELL,SEISMICWAVE,SURF,DARKALLURE
+    Moves = WELLWISHES,SEISMICWAVE,SCALD,DARKALLURE
     AbilityIndex = 1 # Bellower
 #-------------------------------
 [WHIMSICALBOY,Joseph]
