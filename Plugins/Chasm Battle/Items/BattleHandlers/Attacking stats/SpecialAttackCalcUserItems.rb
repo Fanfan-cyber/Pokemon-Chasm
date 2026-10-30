@@ -5,6 +5,13 @@ BattleHandlers::SpecialAttackCalcUserItem.add(:DEEPSEATOOTH,
     }
 )
 
+BattleHandlers::SpecialAttackCalcUserItem.add(:WISEGLASSES,
+  proc { |item, _user, _battle, spAtkMult|
+      spAtkMult *= 1.15
+      next spAtkMult
+  }
+)
+
 BattleHandlers::SpecialAttackCalcUserItem.add(:CHOICESPECS,
   proc { |item, _user, _battle, spAtkMult|
       spAtkMult *= 1.4
