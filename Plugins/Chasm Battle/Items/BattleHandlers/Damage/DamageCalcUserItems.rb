@@ -384,3 +384,21 @@ BattleHandlers::DamageCalcUserItem.add(:TECHNIQUEBOOSTER,
     end
   }
 )
+
+BattleHandlers::DamageCalcUserItem.add(:WISEGLASSES,
+  proc { |item, user, _target, move, mults, _baseDmg, _type, aiCheck|
+    if move.specialMove?
+      mults[:final_damage_multiplier] *= 1.15
+      user.aiLearnsItem(item) unless aiCheck
+    end
+  }
+)
+
+BattleHandlers::DamageCalcUserItem.add(:MUSCLEBAND,
+  proc { |item, user, _target, move, mults, _baseDmg, _type, aiCheck|
+    if move.physicalMove?
+      mults[:final_damage_multiplier] *= 1.15
+      user.aiLearnsItem(item) unless aiCheck
+    end
+  }
+)
