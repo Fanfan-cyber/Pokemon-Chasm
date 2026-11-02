@@ -830,6 +830,7 @@ BattleHandlers::TargetAbilityOnHit.add(:WANDERINGSPIRIT,
         next if user.fainted?
         next if user.immutableAbility?
         next -5 if aiCheck
+        #target.swapAbilities(user, user.opposes?(target))
         showSplashes = user.opposes?(target)
         oldUserAbil = user.abilities
         oldTargetAbil = target.abilities
