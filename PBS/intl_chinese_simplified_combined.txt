@@ -37281,6 +37281,8 @@ The user causes the air around the target to explode. The move's type is changed
 使目标周围的空气爆炸，根据当前天气类型决定此技能的属性。
 The user throws away up to 1000 scattered coins to bless its side, blocking random added effects and healing for 1/16th HP each turn. Lasts one turn per 100 coins.
 使用者丢弃最多1000枚散落的金钱以祝福己方，阻隔随机附加效果并在每回合结束时回复HP的1/16。每100枚金钱持续1回合。
+The user throws away 500 scattered coins to heal itself by half of its max HP and bless its side with a Rainbow for eight turns.
+使用者丢弃500金钱回复一半HP，并开启持续8回合的彩虹。
 Alters the reality of the area to damage a foe. Puzzle Room is created for five turns.
 使用者改变区域的现实来伤害目标。开启5回合的迷惑空间。
 The user conjures up the past, transforming the target into their previous evolutionary form.
@@ -40713,13 +40715,19 @@ A held item. The comforting chime of this bell makes it gain happiness twice as 
 A held item. It prevents wild Pokémon encounters if the holder is the first one in the party.
 一种携带物。如果携带者是队伍中的第一位，可以防止遭遇野生精灵。
 Held item which ups Attack by 40%, but allows the use of only one move.
-携带后，物攻增加40%，但只能使用相同的技能。
+一种携带物。携带后，物攻增加40%，但只能使用相同的技能。
+Held item which boosts Attack by 40%, but allows the use of only one move.
+一种携带物。携带后，物攻增加40%，但只能使用相同的技能。
 Held item which ups Sp. Atk by 40%, but allows the use of only one move.
-携带后，特攻增加40%，但只能使用相同的技能。
+一种携带物。携带后，特攻增加40%，但只能使用相同的技能。
+Held item which boosts Sp. Atk by 40%, but allows the use of only one move.
+一种携带物。携带后，特攻增加40%，但只能使用相同的技能。
 Held item which boosts Speed by 40% but allows the use of only one move.
-携带后，速度增加40%，但只能使用相同的技能。
+一种携带物。携带后，速度增加40%，但只能使用相同的技能。
+Held item which boosts Speed by 40%, but allows the use of only one move.
+一种携带物。携带后，速度增加40%，但只能使用相同的技能。
 Held item which boosts move damage by 25%, but lowers the user's Speed by 15%.
-携带后，伤害增加25%，但速度会减小15%。
+一种携带物。携带后，伤害增加25%，但速度会减小15%。
 A held item. When the holder summons sunshine, it lasts 50% longer.
 一种携带物。携带它的精灵开启的晴天的持续时间增加50%。
 A held item. When the holder summons rainstorm, it lasts 50% longer.
@@ -40786,8 +40794,12 @@ A held item. Boosts a move used consecutively by 20% more each time. This resets
 一种携带物。携带后，连续使用同一个技能时，威力增加20%。
 A held item. It is a headband that boosts the power of physical moves by 15%.
 一种携带物。这是一条头带，可使物理类技能的威力增加15%。
+A held item. It is a headband that boosts Attack by 15%.
+一种携带物。这是一条头带，可使物攻增加15%。
 A held item. It is a thick pair of glasses that boosts the power of special moves by 15%.
 一种携带物。这是一副厚眼镜，可使特殊类技能的威力增加15%。
+A held item. It is a thick pair of glasses that boosts Special Attack by 15%.
+一种携带物。这是一副厚眼镜，可使特攻增加15%。
 A held item. They are boots that boost Speed by 10%.
 一种携带物。携带后，速度增加10%。
 A held item. Doubles the holder's critical-hit chance.

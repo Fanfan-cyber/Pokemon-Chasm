@@ -239,7 +239,9 @@ class PokeBattle_Move_UserTargetSwapAbilities < PokeBattle_Move
         oldUserAbil = user.abilities
         oldTargetAbil = target.abilities
         replacementMsg = _INTL("{1} swapped Abilities with its target!", user.pbThis)
-        target.swapAbilities(user, user.opposes?(target))
+        #target.swapAbilities(user, user.opposes?(target))
+        target.replaceAbility(oldUserAbil, showSplashes, user, replacementMsg: replacementMsg)
+        user.replaceAbility(oldTargetAbil, showSplashes, target, replacementMsg: replacementMsg)
     end
 
     def getEffectScore(user, target)
