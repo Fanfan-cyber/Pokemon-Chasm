@@ -3586,11 +3586,11 @@ Now, time to go treat myself to a salon day.
 Make some more money and check your MasterDex! This is well worth it.
 多赚点钱，检查你的大师图鉴！这绝对值得。
 I developed a multi-hit attack during Lambert's self-defense course.
-我在兰伯特的防身术课堂上，学会了多重攻击。
+我在兰伯特的防身术课堂上，学会了多重打击。
 I don't get much chance to battle, though.
 不过我根本没什么用上的机会。
 Would you allow me the chance to teach my Multi Strike attack to your Pokemon?
-需要我将多重攻击教给你的某只精灵吗？
+需要我将多重打击教给你的某只精灵吗？
 It should be simple enough for many Pokemon.
 这对许多精灵来说应该足够简单。
 Ah, excellent!
@@ -15200,7 +15200,7 @@ Gonna be honest: don’t really care. Like I said, you do what you want.
 But, yeah, I’ve been thinking about this for a while, and that whole debacle back there with Samorn… I’m out.
 但...总之，我已经考虑很久了，包括刚才的混乱...我都退出。
 I’m not gonna do the whole edgy trainer pushing as hard as possible shtick.
-我不想做什么极端的训练师，我只想尽可能地增加自身。
+我不想做什么极端的训练师，我只想尽可能地增强自身。
 I do really hate you sometimes, but that’s siblings for you.
 有时候我真的很讨厌你，但这或许就是兄弟之间的关系。
 Had a Hymnus to try out against you, too. Shame.
@@ -24921,7 +24921,7 @@ Why can't I? It's just water in a container!
 I'm out recruiting trainers to participate in LuxTech's battle labs.
 我正招募有能力的训练师，参加光华集团的战斗实验室。
 Some trainers like the idea of contributing to science, others are looking to build their resumes.
-如果你愿意为科学做贡献，或者是想增加自身履历，都可以来参与这项活动。
+如果你愿意为科学做贡献，或者是想增强自身履历，都可以来参与这项活动。
 Some are just bored!
 哪怕只是闲得无聊也可以！
 Here's a sample of LuxTech's products! Hopefully you'll come check out the battle labs.
@@ -36626,7 +36626,7 @@ The user rolls over its foes, crushing them. It has a 40% chance to lower the ta
 Weaves a sticky net around the opposing team, a hazard which lowers their Speed by two steps upon switching in.
 在对方队伍周围编织一张黏黏网，替换进入的对手的速度会减小2级。
 All nearby foes are bound with silk blown from the user's mouth. This silk lowers the targets' Speed by four steps.
-所有附近的敌人被使用者口喷的丝线束缚。这些丝线使目标的速度减小4级。
+让所有附近的对手被使用者喷出的丝线覆盖。使对手的速度减小4级。
 While resisting, the user attacks all nearby foes. The targets' Sp. Atk is lowered by two steps.
 在防御的同时，使用者攻击所有附近的敌人。使目标的特攻减小2级。
 The user stares at flashing lights to focus its mind, raising its Sp. Atk by five steps.
@@ -36750,7 +36750,7 @@ The target is punched with a fiery fist. It has a 10% chance to burn.
 The user engulfs the target in fierce flames, trapping and binding it for three turns.
 使用者将目标包裹在猛烈的火焰中，困住并束缚目标3回合。
 The user cloaks itself in flame and attacks. Building up more power, it raises the user's Speed.
-让火焰覆盖全身，攻击对手。积蓄力量并增加自身的速度。
+让火焰覆盖全身，攻击对手。积蓄力量并使自身的速度增加1级。
 The target is scorched with an intense blast of fire. It has a 10% chance to burn.
 向对手发射烈焰进行攻击。有10%的概率使对手陷入烧伤。
 The user cloaks itself in fire and rushes at the target. It has a 30% chance to burn.
@@ -36892,9 +36892,9 @@ Attacks with an electrified beak. Deals 50% more damage unless the target has mo
 The user becomes energized, doubling the power of its next Electric-type attack. Also raises the user's Defense and Sp. Def.
 进入能量充盈状态，使下次电属性技能的威力翻倍，同时自身的双防增加1级。
 The user fires a concentrated bundle of electricity, raising the user's Sp. Atk by two steps.
-向对手发射电击光线。由于蓄满电流，增加自身的特攻2级。
+向对手发射电击光线。由于蓄满电流，使自身的特攻增加2级。
 The user's body generates an eerie impulse. Lowers the target's Sp. Atk by four steps.
-从身体放射出怪异电波，让对手沐浴其中，从而减小其特攻4级。
+从身体放射出怪异电波，让对手沐浴其中，从而使其特攻减小4级。
 The user hurls an electric orb at the foe. It does more damage the faster the user is.
 用电气团撞向对手，自身比对手速度越快，威力越大。
 The user captures and attacks foes by using an electric net, which lowers their Speed by two steps.
@@ -36934,9 +36934,9 @@ The user fires an electric blast like a cannon to inflict damage and cause numbi
 A strong electric blast crashes down on the target. It has a 60% chance to flinch the target.
 撞向目标，并发出强电，使其感到麻麻刺刺的。有60%的概率使目标陷入畏缩。
 The user relaxes and lightens its body to move faster, raising its Speed by four steps.
-让身体放松变得轻盈，以便快速移动。增加自身的速度4级。
+让身体放松变得轻盈，以便快速移动。使自身的速度增加4级。
 The user temporarily empties its mind to forget its concerns. It raises the user's Sp. Def by four steps.
-将头脑清空，瞬间忘记某事，从而增加自身的特防4级。
+将头脑清空，瞬间忘记某事，从而使自身的特防增加4级。
 The user quietly focuses its mind to raise its Sp. Atk and Sp. Def by two steps.
 使用者静静地集中精神，增加特攻和特防2级。
 The user casts a horrible spell on the opponent. This removes 4 PP from their last used move.
@@ -37220,7 +37220,7 @@ HP越小伤害越大。在攻击之后急速返回，和后排精灵进行替换
 The user's eyes glow with divine judgement, numbing the target and lowering both its Attack and Sp. Atk.
 使用者对目标发出神圣的审判之光。使目标的双攻减小1级并陷入麻痹。
 The user focuses its aim to raise its Sp. Atk and Accuracy by three steps.
-使用者集中精神对准目标，增加自身的特攻和命中率3级。
+使用者集中精神对准目标，使自身的特攻和命中率增加3级。
 The user slashes broadly, cleanly slicing all nearby battlers.
 使用者大幅度挥砍，干净利落地切割所有附近的精灵。
 The user cleans the target aggressively with soapy water. It has a 50% chance to waterlog.
@@ -37300,7 +37300,7 @@ The target is barred by rules which prevent it from using off-type moves for thr
 The user hugs the target intensely, trapping and binding it for three turns.
 使用者用力抱紧目标，困住并束缚目标3回合。
 The user improvises a dance, raising its two weakest stats by three steps.
-使用者即兴跳舞，增加自身最弱的两项能力3级。
+使用者即兴跳舞，使自身最小的两项能力增加3级。
 The user flexes its rocky skin, raising its Attack and Defense by two steps and gaining the Rock-type.
 使用者绷紧岩石皮肤，使物攻与物防增加2级并获得岩石属性。
 The user and its allies take 50% less attack damage this turn. Always fails if used in succession.
@@ -37308,7 +37308,7 @@ The user and its allies take 50% less attack damage this turn. Always fails if u
 The user risks an explosive arcing full bodied punch against the target.
 使用者冒着风险对目标打出一记爆炸性的弧形全力重拳。
 Combining dance and martial art, the user strikes the target and raises its Speed by two steps.
-将舞蹈和武术结合起来，攻击对手并增加自身的速度2级。
+将舞蹈和武术结合起来，攻击对手并使自身的速度增加2级。
 Pins the target with building materials. The target becomes barred.
 用建筑材料钉住目标。目标将陷入妨碍。
 The user fires a small shockwave. This has a 30% chance to numb the target.
@@ -37422,7 +37422,7 @@ The user infects the target with a touch and also destroys any Herbs it's holdin
 The user launches a ball of trash to roll over all foes. The targets' held Berry or Gem stick to the ball and become unusable.
 使用者发射一团垃圾滚过所有敌人。目标携带的树果或宝石会粘在垃圾球上并变得无法使用。
 The user partially dissolves, raising its Sp. Def by five steps.
-通过分泌厚厚的粘液来保护自身，从而增加自身的特防5级。
+通过分泌厚厚的粘液来保护自身，从而使自身的特防增加5级。
 The user steals blood. If the target is knocked out, this raises the user's Attack by five steps.
 使用者吸取目标的血液。使用这个技能打倒目标时，使自身的物攻增加5级。
 A Grey Mist covers the battlefield. For five turns, stats are reset at the end of each turn.
@@ -37738,7 +37738,7 @@ The user channels the anger of wronged spirits, going on a rampage for two turns
 The user slashes with gusto, inspiring its allies to follow up by using Slash on the target.
 猛力挥砍，同时激励队友对其使用劈开。
 The user uses gunpowder to rocket at its foe. It has a 30% chance to raise its Speed.
-点燃火药后冲向对手。有30%的概率增加自身的速度。
+点燃火药后冲向对手。有30%的概率使自身的速度增加1级。
 A reckless maneuver that forces the user to switch out if it misses. Always goes first.
 一个鲁莽的突袭技能，未命中时会强制替换自身。
 Inflicts physical or special damage, whichever deals more. Then, raises Attack or Sp. Atk, whichever wasn't used.
@@ -37838,7 +37838,7 @@ The user flashes with a burst of intensely bright flame. Can random critical hit
 The user targets the opponents soft spots with a fiery strike. Its power doubles if the target is burned.
 以烈焰打击对手的弱点。如果其处于烧伤状态，威力翻倍。
 Raises Sp. Atk by three steps. Until switch out, the user's attacks spread to hit all nearby foes.
-增加自身的特攻3级，在被替换下场前，所有技能都会波及到对方全部精灵。
+使自身的特攻增加3级，在被替换下场前，所有技能都会波及到对方全部精灵。
 The user creates a golden pyre that revives a fainted Pokémon at half HP. That Pokémon switches in and its stats are boosted.
 使用者创造黄金火葬堆，回复一只濒死的队友一半HP。该精灵替换出场，并且全能力增加1级。
 The user dances with great heat. Pokémon hit by this are cured of frostbite. Deals 50% less damage to allies.
@@ -38074,7 +38074,7 @@ The user harnesses a blade of lightning and slices at the target. Can random cri
 The target is punched with a tremendous electric force. This move can't be used twice in a row.
 使用者以巨大的电气之力拳击目标。此技能不能连续使用。
 The user lets out an electric roar, raising the user's Speed by four steps.
-发出一声电吼，增加自身的速度4级。
+发出一声电吼，使自身的速度增加4级。
 The user slashes all opposing Pokémon with tendrils of electricity, lowering their Attack by two steps.
 使用者用电击触须斩击所有对手，使它们的物攻减小2级。
 The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, deals double damage and is Dark-type.
@@ -38082,7 +38082,7 @@ The user attacks with courage. Sets a Spikes hazard layer if Full. If Hangry, de
 The user dances to heal an ally by half of their max HP. They're cured of any non-volatile status conditions.
 使用者跳舞为队友回复其最大HP的一半，同时回复其异常状态。
 Cloaking itself in light energy, the user shocks the target, raising the user's Sp. Def by two steps.
-将自身隐藏在光能中，并用震荡波攻击对方，同时大幅度增加自身的特防。
+将自身隐藏在光能中，并用震荡波攻击对方，同时使自身的特防增加2级。
 Deals 50% more damage if faster than the target. This lowers the user's Speed.
 若速度大于目标，伤害增加50%，使用者的速度减小1级。
 The target is pranked by an electric jolt. They are taunted and unable to use status moves for three turns.
@@ -38186,7 +38186,7 @@ The user creates an odd area for six turns in which Pokémon's offensive and def
 The user perfectly predicts the target's future location, then strikes. Lands without fail. This lowers the user's Defense and Speed.
 使用者精准预判目标的未来位置后攻击。攻击必定会命中。物防和速度减小1级。
 This move raises all the user's stats by two steps. Can only be used while asleep.
-增加自身的全能力值，但只能在睡眠中使用。
+使自身的全能力增加2级，但只能在睡眠中使用。
 The user attacks with an overpowering, superior intellect. Super effective versus Normal-types.
 使用者以压倒性的卓越智慧进行攻击。对一般属性的精灵效果拔群。
 The user employs hypnotic suggestion to make a dizzy target fall into a deep sleep.
@@ -38400,7 +38400,7 @@ When the user knocks out a target with this move, this raises the user's Sp. Atk
 The user indulges its love of battle by striking a foe. Both of the user's Attack and Sp. Atk are raised.
 使用者通过攻击敌人来满足对战斗的热爱，使用者的双攻增加1级。
 The user raises all of their stats by two steps. Fails unless a foe is below half health.
-大幅度增加自身的全属性，只有对手的HP小于一半时才能成功。
+使自身的全能力增加2级，只有对手的HP小于一半时才能成功。
 The user attacks with dark illusions. This also lowers the target's Defense by two steps.
 使用黑暗幻象攻击，同时使对手的物防减小2级。
 The target is attacked with a pulse of negative feelings. It has a 40% chance to flinch the target.
@@ -44275,7 +44275,7 @@ Immune to Fighting-type and Rock-type moves. Prevents Stealth Rock damage.
 Protected from random added effects. Takes 30% less damage from moves with random added effects.
 免疫技能的附加效果，受到的有附加效果的技能的伤害减小30%。
 All Pokémon deal 40% more move damage.
-所有精灵增加40%技能伤害。
+所有精灵技能伤害增加40%。
 Can't be numbed, waterlogged, trapped, or have its Speed lowered.
 不会被麻痹、浸水和困住，速度也不会减小。
 Doubles critical hit chance for each Speed step up. All moves can random critical hit.
@@ -44669,7 +44669,7 @@ When knocks out any foe, it reverses its own timeline, changes to its initial st
 After being attacked, uses Parting Shot to switch out. Leaves a Cursed Shell.
 受到攻击后，会使用抛下狠话来脱离战斗，会在场上留下诅咒之壳。
 Boosts both one offending and defending stat by one step according to the foe's defenses and offenses.
-出场时，根据对手的双攻和双防，自适应增加自身的某项攻击和防御。
+出场时，根据对手的双攻和双防，自适应使自身的某项攻击和防御增加1级。
 Transforms into Meteoric form when its HP is lowered below half.
 半血以下时，变身为流星形态。
 After using a Bite move, lowers the target's highest attacking stat by 2 steps. Immune to Ground-type moves. Immune to grounded hazards.
@@ -49198,7 +49198,7 @@ To customize your stats, adjust Style Points in any PokéCenter.
 Stats can be changed during battle by 'stat steps'.
 战斗中可通过“变化类技能”改变能力等级。
 A step is a small change! At +1 steps, only 25% is added to the stat.
-每1级的变化都很小，+1时只有25%的属性加成。
+每1级的变化都很小，+1时只有25%的数值加成。
 Check the Info menu to see the active steps and their effects on the battlers.
 详细内容可在“信息”菜单查看。
 Tectonic introduced many options that let you customize the game speed, especially in battles.
@@ -55676,7 +55676,7 @@ Investing into Attack and Sp. Atk is extra efficient: they go up at the same tim
 Each stat's Style Points value can go as low as 0, and can go as high as 20.
 每个属性的风格点数可以低至0，高至20。
 A Pokemon's Style Point total never changes, but Style Points give bigger stat bonuses at higher levels.
-精灵的风格点数总数永远不会改变，但在更高等级时，风格点数会给予更大的属性加成。
+精灵的风格点数总数永远不会改变，但在更高等级时，风格点数会给予更大的数值加成。
 If you need to move quickly, try using the Quick Set option!
 如果你需要快速移动，试试使用快速设置选项！
 {1} forced {2} to drop their {3}!
