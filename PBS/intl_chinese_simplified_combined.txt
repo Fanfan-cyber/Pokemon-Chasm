@@ -54147,6 +54147,8 @@ You sense the presence of many!
 {1}获得了{2}特性！
 {1}'s Ability became {2}!
 {1}的特性变成了{2}！
+{1} and {2} swapped Abilities!
+{1}和{2}交换了特性！
 An egg can't be an active Pokémon.
 蛋不是能活跃的精灵。
 the opposing {1}

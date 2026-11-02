@@ -830,13 +830,15 @@ BattleHandlers::TargetAbilityOnHit.add(:WANDERINGSPIRIT,
         next if user.fainted?
         next if user.immutableAbility?
         next -5 if aiCheck
-        #target.swapAbilities(user, user.opposes?(target))
         showSplashes = user.opposes?(target)
+=begin
         oldUserAbil = user.abilities
         oldTargetAbil = target.abilities
         replacementMsg = _INTL("{1} swapped Abilities with its target!", user.pbThis)
         target.replaceAbility(oldUserAbil, showSplashes, user, replacementMsg: replacementMsg)
         user.replaceAbility(oldTargetAbil, showSplashes, target, replacementMsg: replacementMsg)
+=end
+        target.swapAbilities(user, showSplashes)
     }
 )
 

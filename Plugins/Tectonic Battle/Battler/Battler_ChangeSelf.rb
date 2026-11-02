@@ -972,6 +972,13 @@ class PokeBattle_Battler
     end
 
     def swapAbilities(swapper, showSplashes = true, replacementMsg: nil)
+        oldUserAbil = swapper.abilities
+        oldTargetAbil = self.abilities
+        replacementMsg = _INTL("{1} and {2} swapped Abilities!", self.pbThis, swapper.pbThis(true))
+        @battle.pbDisplay(replacementMsg)
+        self.replaceAbility(oldUserAbil, showSplashes, swapper)
+        swapper.replaceAbility(oldTargetAbil, showSplashes, self)
+=begin
         myOldAbility = firstAbility
         swapperOldAbility = swapper.firstAbility
         return if !myOldAbility || !swapperOldAbility
@@ -999,6 +1006,7 @@ class PokeBattle_Battler
         swapper.pbOnAbilitiesLost(swapperOldAbilities)
         pbEffectsOnSwitchIn
         swapper.pbEffectsOnSwitchIn
+=end
     end
 
     #=============================================================================
