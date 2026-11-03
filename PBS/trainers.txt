@@ -2262,7 +2262,7 @@ Pokemon = HITMONTOP,44
     Moves = AGILITY,POWERUPPUNCH,DRILLRUN,CAPOEIRA
     AbilityIndex = 1 # Spintensity
 Pokemon = MSCEPTILE,42
-    Moves = SHAREDSPOILS,SLAY,ZENHEADBUTT,THROATCHOP
+    Moves = SHAREDSPOILS,SLAY,PSYCHOSCISSION,THROATCHOP
     AbilityIndex = 0 # Tough
     Item = PSYCHICGEM
 Pokemon = LUMINEON,44
@@ -8907,7 +8907,7 @@ Pokemon = ANNIHILAPE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = MSCEPTILE,70
-    Moves = FEATHERLOCKVOLLEY,SEVER,PARTINGSHOT,DRAGBENEATH
+    Moves = FEATHERLOCKVOLLEY,SEVER,PARTINGSHOT,ICECALIBUR
     AbilityIndex = 1 # Hit and Run
     Item = CHOICEBAND
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
