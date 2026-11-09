@@ -58,7 +58,7 @@ Pokemon = PONYTA,8
 [HIKER,Dave]
 Pokemon = GEODUDE,8
     Moves = ROCKTHROW,RUMBLE,ROCKPOLISH
-    AbilityIndex = 0 # Unbreakable
+    AbilityIndex = 0 # Sand Reconstruction
 Pokemon = TIMBURR,9
     Moves = POUND,FRONTKICK,LEAFAGE
     AbilityIndex = 0 # Expertise
@@ -152,7 +152,7 @@ Pokemon = ZORUA,15
     EV = 1,20,10,19,20,0
 Pokemon = PANCHAM,15
     Moves = SMASH,TAUNT,LEER,BITE
-    AbilityIndex = 1 # Juggernaut
+    AbilityIndex = 1 # Grit
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,10,11,15,10,4
 Pokemon = BINACLE,15
@@ -179,7 +179,7 @@ Policies = CURSE_TORMENTED
 Pokemon = ZORUA,15
     Item = NORMALGEM
 Pokemon = PANCHAM,15
-    Moves = SMASH,TAUNT,BULKUP,BITE
+    Moves = SMASH,TAUNT,SHARPEN,BITE
 Pokemon = BINACLE,15
     Item = SITRUSBERRY
 Pokemon = RIOLU,15
@@ -1974,7 +1974,7 @@ Pokemon = ALOMOMOLA,35
     AbilityIndex = 1 # Moon Gaze
 Pokemon = PANGORO,35
     Moves = HATEFULHAYMAKER,DRAINPUNCH,THROATCHOP,PARTINGSHOT
-    AbilityIndex = 1 # Juggernaut
+    AbilityIndex = 1 # Grit
     Item = SITRUSBERRY
 Pokemon = ROUGAROC,36
     Moves = CRUNCH,ADAMANTINEPRESS,SPIRITBREAK,SCHEME
@@ -2437,17 +2437,17 @@ Pokemon = RAMPARDOS,40
 #-------------------------------
 [WORKER,Bryn]
 Pokemon = COALOSSAL,40
-    Moves = TARSHOT,INFERNOIMPACT,GRANITEHEAD,IGNITE
+    Moves = TARSHOT,INFERNOIMPACT,DIAMONDFORCE,IGNITE
     AbilityIndex = 1 # Fuel Hungry
 Pokemon = CORVIKNIGHT,40
     Moves = UTURN,SLAY,DRILLPECK,BAR
     AbilityIndex = 0 # Mirror Armor
-Pokemon = GOLEM,40
-    Moves = SELFDESTRUCT,GRANITEHEAD,EARTHQUAKE,HEAVYSLAM
-    AbilityIndex = 0 # Unbreakable
-    Item = NORMALGEM
+Pokemon = CRADILY,40
+    Moves = DIAMONDFORCE,LEECHSEED,STOCKPILE,GIGADRAIN
+    AbilityIndex = 1 # Water Absorb
+    Item = GRASSGEM
 Pokemon = CARBINK,40
-    Moves = FROLIC,SWEETKISS,DIAMONDFORCE,SWEETSELENE
+    Moves = SUGARBALL,SWEETKISS,DIAMONDFORCE,SWEETSELENE
     AbilityIndex = 0 # Magic Bounce
     Item = LEFTOVERS
 #-------------------------------
@@ -2911,7 +2911,7 @@ Pokemon = MARACTUS,70
     Name = Soloer
     Shiny = yes
     Moves = THORNRATTLE,SHOREUP,LEECHSEED,SPIKES
-    AbilityIndex = 0 # Grit
+    AbilityIndex = 0 # Mariachi
     Item = LEFTOVERS
 Pokemon = SNEASLER,70
     Name = Diva
@@ -4042,7 +4042,7 @@ Pokemon = FORRETRESS,45
     AbilityIndex = 0 # Natural Cure
 Pokemon = GOLEM,46
     Moves = EXPLOSION,EARTHQUAKE,ROCKALANCHE
-    AbilityIndex = 0 # Unbreakable
+    AbilityIndex = 0 # Sand Reconstruction
 #-------------------------------
 [BEAUTY,Kryssa]
 Pokemon = GDARMANITAN,45
@@ -4298,7 +4298,7 @@ Pokemon = MAROMATISSE,70
     EV = 20,0,15,0,0,15
 Pokemon = FLOATZEL,70
     Moves = GIGAIMPACT,WHIRLWINDKICK,WEASELING,LIQUIDATION
-    AbilityIndex = 0 # Moxie
+    AbilityIndex = 0 # Marine
     Item = ENERGYHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
@@ -5817,7 +5817,7 @@ Pokemon = AVALUGG,56
     Item = LEFTOVERS
 Pokemon = MARACTUS,57
     Moves = THORNRATTLE,SPIKES,SCORCHINGSANDS,SHOREUP
-    AbilityIndex = 0 # Grit
+    AbilityIndex = 0 # Mariachi
 Pokemon = COALOSSAL,58
     Moves = UPINFLAMES,STEALTHROCK,DIAMONDFORCE,FLAREBLITZ
     AbilityIndex = 0 # Steam Power
@@ -6568,8 +6568,8 @@ Pokemon = ARMALDO,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = GOLEM,70
-    Moves = EARTHQUAKE,ROLLINGBOULDER,SANDSTORM,INFERNOIMPACT
-    AbilityIndex = 1 # Desert Armor
+    Moves = TERRASLIDE,BEDROCKBREAKER,SANDSTORM,FLAREBLITZ
+    AbilityIndex = 0 # Sand Reconstruction
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
 Pokemon = WORNET,70
@@ -6614,7 +6614,7 @@ Pokemon = RIOJIN,70
     EV = 0,20,10,20,20,0
 Pokemon = PANGORO,70
     Moves = SWORDSDANCE,SUCKERPUNCH,SUPERPOWER,BULLETPUNCH
-    AbilityIndex = 1 # Juggernaut
+    AbilityIndex = 1 # Grit
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
 Pokemon = EXCADRILL,70
@@ -8418,7 +8418,7 @@ Pokemon = THROH,34
 [DITTO_RANGER,Hannamy]
 Pokemon = CACTURNE,34
     Moves = CREEPINGSTRIKE,SUCKERPUNCH,SPIKES,METEORMASH
-    AbilityIndex = 1 # Schadenfreude
+    AbilityIndex = 0 # Heartless
     Item = LIFEORB
 Pokemon = QWILFISH,34
     Moves = WATERFALL,THROATCHOP,STINGINGJEALOUSY,STOCKPILE
@@ -8484,8 +8484,8 @@ Pokemon = FLORGES,57
 #-------------------------------
 [ANCIENTPRIEST,Chestibor]
 Pokemon = GOLEM,60
-    Moves = EARTHQUAKE,GRINDSTONE,STEALTHROCK,FLAREBLITZ
-    AbilityIndex = 1 # Desert Armor
+    Moves = TERRASLIDE,GRINDSTONE,STEALTHROCK,EXPLOSION
+    AbilityIndex = 0 # Sand Reconstruction
     Item = RINDOBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,10,20,0,10,10
@@ -8683,7 +8683,7 @@ Pokemon = METAGROSS,55
     AbilityIndex = 1 # Optimized Alloy
 Pokemon = MARACTUS,55
     Moves = THORNRATTLE,SPIKES,PULVERIZERCHORD,SHOREUP
-    AbilityIndex = 0 # Grit
+    AbilityIndex = 0 # Mariachi
 Pokemon = OCTILLERY,55
     Moves = SPRAYANDPRAY,BUBBLEBARRAGE,JAVELIN,VANGUARD
     AbilityIndex = 1 # Repetition
@@ -8700,7 +8700,7 @@ Pokemon = CORVIKNIGHT,60
     Moves = MIRRORSHIELD,POWERHAMMER,ROOST,FLY
     AbilityIndex = 1 # Expertise
 Pokemon = HAVALUGG,60
-    Moves = ICEBREAKER,SHIVERDANCE,RECOVER,GLACIALRAM
+    Moves = ADAMANTINEPRESS,SHIVERDANCE,RECOVER,GLACIALRAM
     AbilityIndex = 1 # Follow Through
 Pokemon = WIGGLYTUFF,60
     Moves = MISTBURST,HYPERVOICE,LULLABY,FOLLOWME
@@ -9100,7 +9100,7 @@ Pokemon = ARMALDO,70
 Pokemon = BLASFEMMIE,70
     AbilityIndex = 1 # Sugarcoated
 Pokemon = FLOATZEL,70
-    AbilityIndex = 0 # Moxie
+    AbilityIndex = 0 # Marine
 Pokemon = HYMNUS,70
     AbilityIndex = 1 # Rain Prism
 #-------------------------------

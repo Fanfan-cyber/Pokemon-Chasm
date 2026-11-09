@@ -641,8 +641,8 @@ Pokemon = SNEASLER,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = HAVALUGG,70
-    Moves = EARTHQUAKE,ICEBREAKER,STEALTHROCK,RECOVER
-    AbilityIndex = 0 # Ram Prow
+    Moves = EARTHQUAKE,STONEEDGE,STEALTHROCK,RECOVER
+    AbilityIndex = 1 # Follow Through
     Item = CRYSTALVEIL
     ItemType = GROUND
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -1172,7 +1172,7 @@ Pokemon = HONCHKROW,70
     EV = 0,20,0,20,20,10
 Pokemon = FLOATZEL,70
     Moves = GIGAIMPACT,WHIRLWINDKICK,WEASELING,FACADE
-    AbilityIndex = 0 # Moxie
+    AbilityIndex = 0 # Marine
     Item = ENERGYHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
@@ -1715,8 +1715,8 @@ Pokemon = LEAVANNY,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,10,20,20,0
 Pokemon = HAVALUGG,70
-    Moves = ICEBREAKER,STEALTHROCK,ICESHARD,GLACIALRAM
-    AbilityIndex = 0 # Ram Prow
+    Moves = ADAMANTINEPRESS,STEALTHROCK,ICESHARD,GLACIALRAM
+    AbilityIndex = 1 # Follow Through
     Item = HEAVYDUTYBOOTS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,10,0,20,0
