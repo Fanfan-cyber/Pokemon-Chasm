@@ -137,7 +137,7 @@ class PokeBattle_Battler
                         end
         confusionMove.calcType = confusionMove.pbCalcType(self) # nil
         confusionMove.calculateUsageOverrides(self, [self])
-        @damageState.typeMod = confusionMove.pbCalcTypeMod(confusionMove.calcType, self, self) # 8
+        @damageState.typeMod = confusionMove.pbCalcTypeMod(confusionMove.calcTypes, self, self)
         @damageState.typeMod *= 2.0 if superEff
         confusionMove.pbCheckDamageAbsorption(self, self)
         confusionMove.pbCalcDamage(self, self)
@@ -191,7 +191,7 @@ class PokeBattle_Battler
     def pbUseMove(choice, specialUsage = false)
         # NOTE: This is intentionally determined before a multi-turn attack can
         #       set specialUsage to true.
-        skipAccuracyCheck = (specialUsage && choice[2] != @battle.struggle)
+        skipAccuracyCheck = specialUsage && choice[2] != @battle.struggle
 
         # Start using the move
         pbBeginTurn(choice)
@@ -402,7 +402,7 @@ class PokeBattle_Battler
                 b.damageState.reset
                 b.damageState.initialHP = b.hp
 
-                typeMod = move.pbCalcTypeMod(move.calcType, user, b)
+                typeMod = move.pbCalcTypeMod(move.calcTypes, user, b)
                 b.damageState.typeMod = typeMod
 
                 showFailMessages = move.pbShowFailMessages?(targets)
@@ -538,7 +538,7 @@ class PokeBattle_Battler
                 success = false
                 unless move.pbMoveFailed?(b, newTargets, true)
                     newTargets.each_with_index do |newTarget, idx|
-                        typeMod = move.pbCalcTypeMod(move.calcType, user, b)
+                        typeMod = move.pbCalcTypeMod(move.calcTypes, user, b)
                         b.damageState.typeMod = typeMod
 
                         showFailMessages = move.pbShowFailMessages?(targets)
@@ -638,7 +638,7 @@ class PokeBattle_Battler
     def trackMoveUsage(move: nil, specialUsage: false, target: nil)
         if move.nil?
             @lastMoveUsed = nil
-            @lastMoveUsedType = nil
+            @lastMoveUsedTypes = []
             @lastMoveUsedCategory = -1
 
             unless specialUsage
@@ -647,8 +647,8 @@ class PokeBattle_Battler
                 @lastMoveFailed        = true
             end
         else
-            @lastMoveUsed     = move.id
-            @lastMoveUsedType = move.calcType # For Conversion 2
+            @lastMoveUsed = move.id
+            @lastMoveUsedTypes = move.calcTypes
             @lastMoveUsedCategory = move.calculatedCategory
             @movesUsedThisTurn.push(move.id)
             @usedDamagingMove = true if move.damagingMove?
@@ -797,9 +797,13 @@ class PokeBattle_Battler
         # If we get here, this hit will happen and do something
         all_targets = targets
         targets = move.pbDesignateTargetsForHit(targets, hitNum) # For Dragon Darts
-        targets.each { |b| b.damageState.resetPerHit }
-        # Tracked whether the Pokemon is trapped
         targets.each { |b|
+            b.damageState.resetPerHit
+            if b.damageState.recalcTypeMod
+                b.damageState.typeMod = move.pbCalcTypeMod(move.calcType, user, b)
+                b.damageState.recalcTypeMod = false
+            end
+            # Tracked whether the Pokemon is trapped
             next unless b.trapped?
             b.damageState.trapped = true
         }
@@ -880,7 +884,7 @@ class PokeBattle_Battler
             @battle.pbDisplay(_INTL("The bubble surrounding {1} reduced the damage!", b.pbThis))
         end
         # Action Star proc message
-        if user.effectActive?(:ActionStar) && move.damagingMove? && move.calcType == :NORMAL
+        if user.effectActive?(:ActionStar) && move.damagingMove? && move.calcTypes.include?(:NORMAL)
             @battle.pbDisplay(_INTL("{1} lands a flashy hit!", user.pbThis))
             user.disableEffect(:ActionStar)
         end
@@ -931,8 +935,8 @@ class PokeBattle_Battler
             end
 
             if pbOwnedByPlayer?
-                unlockAchievement(:DEAL_LARGE_DAMAGE_1) if maxDamageOnTargets >= 1000 && !(user.battle.is_replayed)
-                unlockAchievement(:DEAL_LARGE_DAMAGE_2) if maxDamageOnTargets >= 10_000 && !(user.battle.is_replayed)
+                unlockAchievement(:DEAL_LARGE_DAMAGE_1) if maxDamageOnTargets >= 1000 && !user.battle.is_replayed
+                unlockAchievement(:DEAL_LARGE_DAMAGE_2) if maxDamageOnTargets >= 10_000 && !user.battle.is_replayed
             end
         end
         # Self-Destruct/Explosion's damaging and fainting of user
@@ -1040,7 +1044,7 @@ class PokeBattle_Battler
         elsif move.randomEffect? && !user.hasActiveAbility?(:SHEERFORCE) # Random added effects
             targets.each do |b|
                 next if b.damageState.calcDamage == 0
-                chance = move.pbAdditionalEffectChance(user, b, move.calcType)
+                chance = move.pbAdditionalEffectChance(user, b)
                 next if chance <= 0
                 if @battle.pbRandom(100) < chance && move.canApplyRandomAddedEffects?(user, b, chance, true)
                     if b.hasActiveAbility?(:UNCANNYLUCK)
@@ -1087,6 +1091,14 @@ class PokeBattle_Battler
         end
         targets.each { |b| b.pbFaint if b&.fainted? }
         user.pbFaint if user.fainted?
+        # Inure decrement
+        if move.damagingMove?
+            targets.each do |b|
+                next if b.damageState.unaffected || b.fainted?
+                next unless b.effectActive?(:Inured)
+                b.damageState.recalcTypeMod = true unless b.tickDownAndProc(:Inured)
+            end
+        end
         # Dragon Darts' second half of attack
         if move.pbRepeatHit?(hitNum) && all_targets.any? { |b| !b.fainted? && !b.damageState.unaffected }
             pbProcessMoveHit(move, user, all_targets, hitNum + 1, skipAccuracyCheck, fastHitAnimation)

@@ -344,7 +344,7 @@ class PokeBattle_Move_DisableTargetUsingDifferentMove4 < PokeBattle_Move
             moveData = GameData::Move.get(target.lastRegularMoveUsed)
             lockedIntoSelfStatus = moveData.category == 2 && %i[User BothSides].include?(moveData.target)
             lockedIntoIneffectiveAttack = moveData.category != 2 && moveData.target == :NearOther &&
-                                          Effectiveness.ineffective?(pbCalcTypeMod(moveData.type, target, user))
+                                          Effectiveness.ineffective?(pbCalcTypeMod(PokeBattle_Move.dataTypes(moveData), target, user))
             score += 100 if lockedIntoSelfStatus || lockedIntoIneffectiveAttack
         end
         return score
@@ -532,6 +532,26 @@ class PokeBattle_Move_EmpoweredCursedOath < PokeBattle_Move_CurseTarget
         transformType(user, :GHOST)
     end
 end
+
+#===============================================================================
+# Curses and Fractures the target by spending 1/4th of the user's HP. (Entomb)
+#===============================================================================
+class PokeBattle_Move_FractureCurseTargetUserPaysQuarterOfHP < PokeBattle_Move_CurseTarget
+    def pbEffectAgainstTarget(user, target)
+        @battle.pbDisplay(_INTL("{1} cut its own HP!", user.pbThis))
+        user.applyFractionalDamage(1.0 / 4.0, false)
+        target.applyEffect(:Fracture, applyEffectDurationModifiers(DEFAULT_FRACTURE_DURATION, user))
+        super
+    end
+
+    def getEffectScore(user, target)
+        score = super
+        score += getHPLossEffectScore(user, 0.25)
+        score += getFractureEffectScore(user, target)
+        return score
+    end
+end
+
 
 #===============================================================================
 # Numb's the target. If they are already numbed, curses them instead. (Spectral Tongue)
