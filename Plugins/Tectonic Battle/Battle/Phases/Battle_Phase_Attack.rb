@@ -83,13 +83,13 @@ class PokeBattle_Battle
             item = @choices[b.index][1]
             next unless item
             case GameData::Item.get(item).battle_use
-            when 1, 2   # Use on Pokémon/Pokémon's move
+            when 1, 2 # Use on Pokémon/Pokémon's move
                 pbUseItemOnPokemon(item, @choices[b.index][2], b) if @choices[b.index][2] >= 0
             when 3         # Use on battler
                 pbUseItemOnBattler(item, @choices[b.index][2], b)
             when 4         # Use Poké Ball
                 pbUsePokeBallInBattle(item, @choices[b.index][2], b)
-            when 5        # Use directly
+            when 5 # Use directly
                 pbUseItemInBattle(item, @choices[b.index][2], b)
             else
                 next
@@ -117,14 +117,14 @@ class PokeBattle_Battle
             next if b.form == newForm
             pbShowAbilitySplash(b, :CLOAKING)
             case newForm
-                when 0
-                    @scene.pbCommonAnimation("BurmyPlant", b)
-                when 1
-                    @scene.pbCommonAnimation("BurmySandy", b)
-                when 2
-                    @scene.pbCommonAnimation("BurmyTrash", b)
+            when 0
+                @scene.pbCommonAnimation("BurmyPlant", b)
+            when 1
+                @scene.pbCommonAnimation("BurmySandy", b)
+            when 2
+                @scene.pbCommonAnimation("BurmyTrash", b)
             end
-            b.pbChangeForm(newForm,_INTL("{1} changes its cloak to fit its next move!",b.pbThis))
+            b.pbChangeForm(newForm, _INTL("{1} changes its cloak to fit its next move!", b.pbThis))
             pbHideAbilitySplash(b)
         end
     end
@@ -142,7 +142,7 @@ class PokeBattle_Battle
             next unless newForm
             next if b.form == newForm
             pbShowAbilitySplash(b, :SCENECHANGE)
-            b.pbChangeForm(newForm,_INTL("{1} changes its form to fit its next move!",b.pbThis))
+            b.pbChangeForm(newForm, _INTL("{1} changes its form to fit its next move!", b.pbThis))
             pbHideAbilitySplash(b)
         end
     end
@@ -166,7 +166,7 @@ class PokeBattle_Battle
             next unless newForm
             next if b.form == newForm
             @scene.pbCommonAnimation("UltraBurst", b)
-            b.pbChangeForm(newForm,_INTL("Bright light bursts out of {1}!", b.pbThis))
+            b.pbChangeForm(newForm, _INTL("Bright light bursts out of {1}!", b.pbThis))
         end
     end
 
@@ -184,7 +184,7 @@ class PokeBattle_Battle
             advance = false
             priority.each do |b|
                 next unless b.effectActive?(:MoveNext) && !b.fainted?
-                next unless @choices[b.index][0] == :UseMove || @choices[b.index][0] == :Shift
+                next unless [:UseMove, :Shift].include?(@choices[b.index][0])
                 next if b.movedThisRound?
                 registerReplayedChoice(b.index)
                 advance = b.pbProcessTurn(@choices[b.index])
@@ -196,7 +196,7 @@ class PokeBattle_Battle
             # Regular priority order
             priority.each do |b|
                 next if b.effectActive?(:Quash) || b.fainted?
-                next unless @choices[b.index][0] == :UseMove || @choices[b.index][0] == :Shift
+                next unless [:UseMove, :Shift].include?(@choices[b.index][0])
                 next if b.movedThisRound?
                 registerReplayedChoice(b.index)
                 advance = b.pbProcessTurn(@choices[b.index])
@@ -213,7 +213,7 @@ class PokeBattle_Battle
                 priority.each do |b|
                     moreQuash = true if b.effects[:Quash] > quashLevel
                     next unless b.effects[:Quash] == quashLevel && !b.fainted?
-                    next unless @choices[b.index][0] == :UseMove || @choices[b.index][0] == :Shift
+                    next unless [:UseMove, :Shift].include?(@choices[b.index][0])
                     next if b.movedThisRound?
                     registerReplayedChoice(b.index)
                     advance = b.pbProcessTurn(@choices[b.index])
@@ -226,7 +226,7 @@ class PokeBattle_Battle
             next if advance
             # Check for all done
             priority.each do |b|
-                if !b.fainted? && !b.movedThisRound? && (@choices[b.index][0] == :UseMove || @choices[b.index][0] == :Shift)
+                if !b.fainted? && !b.movedThisRound? && [:UseMove, :Shift].include?(@choices[b.index][0])
                     advance = true
                 end
                 break if advance
@@ -266,7 +266,6 @@ class PokeBattle_Battle
     def resetAttackPhaseEffects
         @battlers.each_with_index do |b, i|
             next unless b
-            b.turnCount += 1 unless b.fainted?
             @successStates[i].clear
             if @choices[i][0] != :UseMove && @choices[i][0] != :Shift && @choices[i][0] != :SwitchOut
                 b.disableEffect(:DestinyBond)
@@ -313,11 +312,11 @@ class PokeBattle_Battle
         # Temporal Distortion
         eachBattler do |b|
             next unless b.hasActiveAbility?(:TEMPORALDISTORTION) && (b.turnCount % 3 == 0)
-            pbShowAbilitySplash(b,:TEMPORALDISTORTION)
+            pbShowAbilitySplash(b, :TEMPORALDISTORTION)
             pbDisplay(_INTL("{1} takes control of time itself!", b.pbThis))
             b.applyEffect(:TemporalDistortion)
             pbHideAbilitySplash(b)
-        end  
+        end
     end
 
     def pbPreSwitchPhase

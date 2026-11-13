@@ -249,10 +249,12 @@ existingIndex)
         cmdSwapAbility = -1
         cmdSetHueShift = -1
         cmdSetShadeShift = -1
+        cmdChangeForm = -1
 
         # Build the commands
         newspecies = @pkmn.check_evolution_on_level_up(false)
         commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
+        commands[cmdChangeForm = commands.length]   = _INTL("Change Form") if pbHasItem?(:UNIVERSALFORMALIZER) && pbCanChangePokemonForm?(@pkmn)
         commands[cmdDeleteMove = commands.length]   = _INTL("Delete Move") if @pkmn.numMoves > 1
         commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
         commands[cmdExtraMoves = commands.length]   = _INTL("Extra Moves") if @pkmn.isSpecies?(:DEOXYS) && @pkmn.hasAbility?(:UNIDENTIFIED)
@@ -266,7 +268,7 @@ existingIndex)
         commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
         commands[cmdSetLike = commands.length]      = _INTL("Set Like") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
         commands[cmdSetDislike = commands.length]   = _INTL("Set Dislike") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
-        commands[cmdSwapAbility = commands.length]  = _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX)
+        commands[cmdSwapAbility = commands.length]  = _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX) && pbCanSwapAbility?(@pkmn)
         commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
         commands[cmdSetHueShift = commands.length]  = _INTL("Set Hue Shift")
         commands[cmdSetShadeShift = commands.length]= _INTL("Set Shade Shift")
@@ -402,7 +404,11 @@ existingIndex)
         elsif cmdStyle >= 0 && modifyCommand == cmdStyle
             pbStyleValueScreen(@pkmn)
         elsif cmdSwapAbility >= 0 && modifyCommand == cmdSwapAbility
-            pbSwapAbility(@pkmn)
+            changed = pbSwapAbility(@pkmn)
+            @partyScene.pbRefresh if changed
+        elsif cmdChangeForm >= 0 && modifyCommand == cmdChangeForm
+            pbChangePokemonForm(@pkmn, @partyScene)
+            @partyScene.pbRefresh
         elsif cmdSetHueShift >= 0 && modifyCommand == cmdSetHueShift
           if @pkmn.egg?
             pbDisplay(_INTL("{1} is an egg.", @pkmn.name))

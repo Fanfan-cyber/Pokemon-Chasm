@@ -1046,6 +1046,23 @@ GameData::BattleEffect.register_effect(:Side, {
 })
 
 GameData::BattleEffect.register_effect(:Side, {
+    :id => :Dustbowl,
+    :real_name => "Dustbowl",
+    :type => :Integer,
+    :ticks_down_eor => true,
+    :apply_proc => proc do |battle, _side, teamName, value|
+        battle.pbDisplay(_INTL("A raging dustbowl engulfed {1}!", teamName.downcase))
+        battle.pbDisplay(_INTL("It will last for {1} more turns!", value - 1))
+    end,
+    :disable_proc => proc do |battle, _side, teamName|
+        battle.pbDisplay(_INTL("The dustbowl around {1} dissipated!", teamName.downcase))
+    end,
+    :expire_proc => proc do |battle, _side, teamName|
+        battle.pbDisplay(_INTL("The dustbowl around {1} subsided!", teamName.downcase))
+    end,
+})
+
+GameData::BattleEffect.register_effect(:Side, {
     :id => :UnwaveringValor,
     :real_name => "Unwavering Valor",
     :info_displayed => false,

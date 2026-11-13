@@ -121,23 +121,23 @@ class PokeBattle_Battler
             disableEffect(effect) if effectData.resets_battlers_eot
         end
 
-        @battle.eachBattler { |b| b.pbContinualAbilityChecks } # Trace, end primordial weathers
+        @battle.eachBattler(&:pbContinualAbilityChecks) # Trace, end primordial weathers
     end
 
     def pbConfusionDamage(msg, superEff = false, basePower = 50, category: 3)
         @damageState.reset
         @damageState.initialHP = @hp
         confusionMove = case category
-        when 0
-            PokeBattle_SelfHitPhysical.new(@battle, nil, basePower)
-        when 1
-            PokeBattle_SelfHitSpecial.new(@battle, nil, basePower)
-        when 3
-            PokeBattle_SelfHit.new(@battle, nil, basePower)
-        end
+                        when 0
+                            PokeBattle_SelfHitPhysical.new(@battle, nil, basePower)
+                        when 1
+                            PokeBattle_SelfHitSpecial.new(@battle, nil, basePower)
+                        when 3
+                            PokeBattle_SelfHit.new(@battle, nil, basePower)
+                        end
         confusionMove.calcType = confusionMove.pbCalcType(self) # nil
         confusionMove.calculateUsageOverrides(self, [self])
-        @damageState.typeMod = confusionMove.pbCalcTypeMod(confusionMove.calcType, self, self) # 8
+        @damageState.typeMod = confusionMove.pbCalcTypeMod(confusionMove.calcTypes, self, self)
         @damageState.typeMod *= 2.0 if superEff
         confusionMove.pbCheckDamageAbsorption(self, self)
         confusionMove.pbCalcDamage(self, self)
@@ -163,7 +163,7 @@ class PokeBattle_Battler
     end
 
     def getTypeModBeforeSuccessCheck(user, target, move)
-        old_move_calc_type = move.calcType
+        old_move_calc_type = move.calcTypes
         if user.should_apply_adaptive_ai_v4?(target, move)
             calc_adaptive_ai_type_mod(@battle, user, target, move, :ADAPTIVEAIV4, true, true)
         elsif user.should_apply_adaptive_ai_v3?(target, move)
@@ -208,13 +208,13 @@ class PokeBattle_Battler
     def pbUseMove(choice, specialUsage = false)
         # NOTE: This is intentionally determined before a multi-turn attack can
         #       set specialUsage to true.
-        skipAccuracyCheck = (specialUsage && choice[2] != @battle.struggle)
+        skipAccuracyCheck = specialUsage && choice[2] != @battle.struggle
 
         # Start using the move
         pbBeginTurn(choice)
 
         # Force the use of certain moves if they're already being used
-        unless specialUsage || @battle.foretoldMove || (choice[2]&.empoweredMove? && boss?)
+        unless specialUsage || @battle.foretoldMove || choice[2]&.bossPrimeval?(self)
             if usingMultiTurnAttack? && !@currentMove.nil?
                 choice[2] = PokeBattle_Move.from_pokemon_move(@battle, Pokemon::Move.new(@currentMove))
                 specialUsage = true
@@ -278,7 +278,7 @@ class PokeBattle_Battler
         # Calculate usage overrides
         presumedUser = pbFindUser(choice, move)
         presumedTargets = pbFindTargets(choice[3], move, presumedUser)
-        move.calculateUsageOverrides(presumedUser,presumedTargets)
+        move.calculateUsageOverrides(presumedUser, presumedTargets)
 
         # Start effect of Mold Breaker
         @battle.moldBreaker = hasMoldBreaker?
@@ -310,7 +310,7 @@ class PokeBattle_Battler
         aiLearnsAbility(:INCOGNITO) if hasActiveAbility?(:INCOGNITO) && effectActive?(:Illusion)
         increaseMoveUsageCount(move.id)
 
-        trackMoveUsage(move: move,specialUsage: specialUsage, target: choice[3])
+        trackMoveUsage(move: move, specialUsage: specialUsage, target: choice[3])
 
         # For Cross Examine and such
         if opposes?
@@ -328,7 +328,7 @@ class PokeBattle_Battler
         targets = pbChangeTargets(move, user, targets)
 
         # Global move disruption effects
-        unless move.empoweredMove? && boss?
+        unless move.bossPrimeval?(self)
             # Pressure
             unless specialUsage
                 targets.each do |b|
@@ -358,7 +358,7 @@ class PokeBattle_Battler
                 end
             end
         end
-        
+
         # "X used Y!" message
         # Can be different for Bide, Fling, Focus Punch and Future Sight
         # NOTE: This intentionally passes self rather than user. The user is always
@@ -407,7 +407,7 @@ class PokeBattle_Battler
 
         # Display messages about BP adjustment and weather debuffing
         move.displayDamagingMoveMessages(self, move, targets) if move.damagingMove?
-        
+
         # Abilities that trigger before a move starts
         # E.g. Protean
         user.eachActiveAbility do |ability|
@@ -419,7 +419,7 @@ class PokeBattle_Battler
         magicBouncer = -1
         warder       = -1
         realNumHits  = 0
-        if targets.length == 0 && move.pbTarget(user).num_targets > 0 && !move.worksWithNoTargets?
+        if targets.empty? && move.pbTarget(user).num_targets > 0 && !move.worksWithNoTargets?
             # def pbFindTargets should have found a target(s), but it didn't because
             # they were all fainted
             # All target types except: None, User, UserSide, FoeSide, BothSides
@@ -432,7 +432,7 @@ class PokeBattle_Battler
                 b.damageState.reset
                 b.damageState.initialHP = b.hp
 
-                typeMod = getTypeModBeforeSuccessCheck(user, b, move) #move.pbCalcTypeMod(move.calcType, user, b)
+                typeMod = getTypeModBeforeSuccessCheck(user, b, move) #move.pbCalcTypeMod(move.calcTypes, user, b)
                 b.damageState.typeMod = typeMod
 
                 showFailMessages = move.pbShowFailMessages?(targets)
@@ -495,12 +495,12 @@ class PokeBattle_Battler
                 targets.each do |target|
                     @battle.tracker_get(:revenge)[target.unique_id] = user.unique_id
                 end
-                for i in 0...numHits
+                (0...numHits).each do |i|
                     user.battle_tracker_increment(:hits_in_progress)
                     user.battle_tracker_increment(:hits_in_progress_kicking) if move.kickingMove?
                     success = pbProcessMoveHit(move, user, targets, i, skipAccuracyCheck, multiHitAesthetics)
                     unless success
-                        if i == 0 && targets.length > 0
+                        if i == 0 && !targets.empty?
                             hasFailed = false
                             targets.each do |t|
                                 next if t.damageState.protected
@@ -522,7 +522,7 @@ class PokeBattle_Battler
             end
             # Battle Arena only - attack is successful
             @battle.successStates[user.index].useState = 2
-            if targets.length > 0
+            if !targets.empty?
                 @battle.successStates[user.index].typeMod = 0
                 targets.each do |b|
                     next if b.damageState.unaffected
@@ -573,7 +573,7 @@ class PokeBattle_Battler
                 success = false
                 unless move.pbMoveFailed?(b, newTargets, true)
                     newTargets.each_with_index do |newTarget, idx|
-                        typeMod = getTypeModBeforeSuccessCheck(user, b, move) #move.pbCalcTypeMod(move.calcType, user, b)
+                        typeMod = getTypeModBeforeSuccessCheck(user, b, move) #move.pbCalcTypeMod(move.calcTypes, user, b)
                         b.damageState.typeMod = typeMod
 
                         showFailMessages = move.pbShowFailMessages?(targets)
@@ -588,7 +588,7 @@ class PokeBattle_Battler
                 pbProcessMoveHit(move, b, newTargets, 0, false, multiHitAesthetics) if success
 
                 b.onMoveFailed(move) unless success
-                targets.each { |otherB| otherB.pbFaint if otherB && otherB.fainted? }
+                targets.each { |otherB| otherB.pbFaint if otherB&.fainted? }
                 user.pbFaint if user.fainted?
             end
             # Magic Coat/Magic Bounce's bouncing back (move has no targets)
@@ -604,7 +604,7 @@ class PokeBattle_Battler
                         success = pbProcessMoveHit(move, mc, [], 0, false, multiHitAesthetics)
                     end
                     mc.onMoveFailed(move) unless success
-                    targets.each { |b| b.pbFaint if b && b.fainted? }
+                    targets.each { |b| b.pbFaint if b&.fainted? }
                     user.pbFaint if user.fainted?
                 end
             end
@@ -613,28 +613,26 @@ class PokeBattle_Battler
                 move.pbEffectAfterAllHits(user, targetBattler)
                 move.pbEffectOnNumHits(user, targetBattler, realNumHits)
 
-                if targetBattler.damageState.totalHPLost > 0 
-                    # Empowered Destiny Bond
-                    if targetBattler.effectActive?(:EmpoweredDestinyBond)
-                        recoilDamage = targetBattler.damageState.totalHPLost / 3.0
-                        recoilMessage = _INTL("{1}'s destiny is bonded with {2}!", user.pbThis, targetBattler.pbThis(true))
-                        user.applyRecoilDamage(recoilDamage, false, true, recoilMessage)
-                    end
-
-                    # Severe burn
-                    if user.burned? && user.getStatusCount(:BURN) > 0
-                        recoilDamage = targetBattler.damageState.totalHPLost / 3.0
-                        recoilMessage = _INTL("{1} cringes from their severe burn!", user.pbThis)
-                        user.applyRecoilDamage(recoilDamage, false, true, recoilMessage)
-                    end
-
-                    # Summer Festivals
-                    if user.pbOwnSide.effectActive?(:SummerFestivalsEnd)
-                        recoilDamage = targetBattler.damageState.totalHPLost / 4.0
-                        recoilMessage = _INTL("{1} got too rowdy!", user.pbThis)
-                        user.applyRecoilDamage(recoilDamage, false, true, recoilMessage)
-                    end
+                next unless targetBattler.damageState.totalHPLost > 0
+                # Empowered Destiny Bond
+                if targetBattler.effectActive?(:EmpoweredDestinyBond)
+                    recoilDamage = targetBattler.damageState.totalHPLost / 3.0
+                    recoilMessage = _INTL("{1}'s destiny is bonded with {2}!", user.pbThis, targetBattler.pbThis(true))
+                    user.applyRecoilDamage(recoilDamage, false, true, recoilMessage)
                 end
+
+                # Severe burn
+                if user.burned? && user.getStatusCount(:BURN) > 0
+                    recoilDamage = targetBattler.damageState.totalHPLost / 3.0
+                    recoilMessage = _INTL("{1} cringes from their severe burn!", user.pbThis)
+                    user.applyRecoilDamage(recoilDamage, false, true, recoilMessage)
+                end
+
+                # Summer Festivals
+                next unless user.pbOwnSide.effectActive?(:SummerFestivalsEnd)
+                recoilDamage = targetBattler.damageState.totalHPLost / 4.0
+                recoilMessage = _INTL("{1} got too rowdy!", user.pbThis)
+                user.applyRecoilDamage(recoilDamage, false, true, recoilMessage)
             end
 
             # Curses about move usage
@@ -649,7 +647,7 @@ class PokeBattle_Battler
             end
 
             # Faint if 0 HP
-            targets.each { |b| b.pbFaint if b && b.fainted? }
+            targets.each { |b| b.pbFaint if b&.fainted? }
             user.pbFaint if user.fainted?
 
             # External/general effects after all hits. Eject Button, Shell Bell, etc.
@@ -675,7 +673,7 @@ class PokeBattle_Battler
     def trackMoveUsage(move: nil, specialUsage: false, target: nil)
         if move.nil?
             @lastMoveUsed = nil
-            @lastMoveUsedType = nil
+            @lastMoveUsedTypes = []
             @lastMoveUsedCategory = -1
 
             unless specialUsage
@@ -684,8 +682,8 @@ class PokeBattle_Battler
                 @lastMoveFailed        = true
             end
         else
-            @lastMoveUsed     = move.id
-            @lastMoveUsedType = move.calcType # For Conversion 2
+            @lastMoveUsed = move.id
+            @lastMoveUsedTypes = move.calcTypes
             @lastMoveUsedCategory = move.calculatedCategory
             @movesUsedThisTurn.push(move.id)
             @usedDamagingMove = true if move.damagingMove?
@@ -698,7 +696,7 @@ class PokeBattle_Battler
             @battle.lastMoveUser = @index # For "self KO" battle clause to avoid draws
         end
 
-        @moveUsageHistory.unshift(move.nil? ? nil : move.id) # Push to front of array
+        @moveUsageHistory.unshift(move&.id) # Push to front of array
     end
 
     def postMoveUseTriggers(user, move, targets, choice, moveSucceeded)
@@ -744,7 +742,7 @@ class PokeBattle_Battler
                     @battle.pbPriority(true).each do |b|
                         dancers.push(b) if b.index != user.index && b.hasActiveAbility?(:DANCER)
                     end
-                    while dancers.length > 0
+                    until dancers.empty?
                         nextUser = dancers.pop
                         next if nextUser.effectActive?(:Flinch)
                         preTarget = choice[3]
@@ -758,7 +756,7 @@ class PokeBattle_Battler
                     @battle.pbPriority(true).each do |b|
                         echoers.push(b) if b.index != user.index && b.hasActiveAbility?(:ECHO)
                     end
-                    while echoers.length > 0
+                    until echoers.empty?
                         nextUser = echoers.pop
                         next if nextUser.effectActive?(:Flinch)
                         preTarget = choice[3]
@@ -772,7 +770,7 @@ class PokeBattle_Battler
                     @battle.pbPriority(true).each do |b|
                         discipliners.push(b) if b.index != user.index && b.hasActiveAbility?(:MARTIALDISCIPLINE)
                     end
-                    while discipliners.length > 0
+                    until discipliners.empty?
                         nextUser = discipliners.pop
                         next if nextUser.effectActive?(:Flinch)
                         preTarget = choice[3]
@@ -785,7 +783,7 @@ class PokeBattle_Battler
     end
 
     def hasCopiedMoveMarker?
-        eachEffect(true) do |effect, _value, data|
+        eachEffect(true) do |_effect, _value, data|
             next unless data.copied_move_marker?
             return true
         end
@@ -816,7 +814,7 @@ class PokeBattle_Battler
                 end
             end
             # If failed against all targets
-            if targets.length > 0 && numTargets == 0 && !move.worksWithNoTargets?
+            if !targets.empty? && numTargets == 0 && !move.worksWithNoTargets?
                 showedMessage = false
                 targets.each do |b|
                     next if !b.damageState.missed || b.damageState.magicCoat
@@ -834,9 +832,13 @@ class PokeBattle_Battler
         # If we get here, this hit will happen and do something
         all_targets = targets
         targets = move.pbDesignateTargetsForHit(targets, hitNum) # For Dragon Darts
-        targets.each { |b| b.damageState.resetPerHit }
-        # Tracked whether the Pokemon is trapped
         targets.each { |b|
+            b.damageState.resetPerHit
+            if b.damageState.recalcTypeMod
+                b.damageState.typeMod = move.pbCalcTypeMod(move.calcType, user, b)
+                b.damageState.recalcTypeMod = false
+            end
+            # Tracked whether the Pokemon is trapped
             next unless b.trapped?
             b.damageState.trapped = true
         }
@@ -874,7 +876,7 @@ class PokeBattle_Battler
             #       actual removal of the item happens in def pbEffectsAfterMove.
             @battle.pbCommonAnimation("UseItem", user)
             if user.hasTribeBonus?(:SCAVENGER)
-                @battle.pbShowTribeSplash(user,:SCAVENGER)
+                @battle.pbShowTribeSplash(user, :SCAVENGER)
                 @battle.pbDisplay(_INTL("The {1} majorly strengthened {2}'s power!", getItemName(user.effects[:GemConsumed]), move.name))
                 @battle.pbHideTribeSplash(user)
             else
@@ -887,9 +889,9 @@ class PokeBattle_Battler
             # NOTE: The consume animation and message for Herbs are shown now, but the
             #       actual removal of the item happens in def pbEffectsAfterMove.
             @battle.pbCommonAnimation("UseItem", user)
-            @battle.pbDisplay(_INTL("The {1} supplemented {2}'s power and made it {3}!", 
-                getItemName(user.effects[:EmpoweringHerbConsumed]), 
-                move.name, move.physicalMove? ? "physical" : "special" # swapped because the calculatedCategory isn't set yet 
+            @battle.pbDisplay(_INTL("The {1} supplemented {2}'s power and made it {3}!",
+                getItemName(user.effects[:EmpoweringHerbConsumed]),
+                move.name, move.physicalMove? ? "physical" : "special" # swapped because the calculatedCategory isn't set yet
             ))
             aiLearnsItem(user.effects[:EmpoweringHerbConsumed])
         end
@@ -903,7 +905,7 @@ class PokeBattle_Battler
         end
         # Esoteric tribe
         if hasTribeBonus?(:ESOTERIC) && user.lastRoundMoveCategory == 2 && move.damagingMove? # Status
-            @battle.pbShowTribeSplash(user,:ESOTERIC)
+            @battle.pbShowTribeSplash(user, :ESOTERIC)
             @battle.pbDisplay(_INTL("{1}'s patience pays off!", user.pbThis))
             @battle.pbHideTribeSplash(user)
         end
@@ -916,8 +918,8 @@ class PokeBattle_Battler
             next unless b.damageState.bubbleBarrier > 0
             @battle.pbDisplay(_INTL("The bubble surrounding {1} reduced the damage!", b.pbThis))
         end
-        #Action Star proc message
-        if user.effectActive?(:ActionStar) && move.damagingMove? && move.calcType == :NORMAL
+        # Action Star proc message
+        if user.effectActive?(:ActionStar) && move.damagingMove? && move.calcTypes.include?(:NORMAL)
             @battle.pbDisplay(_INTL("{1} lands a flashy hit!", user.pbThis))
             user.disableEffect(:ActionStar)
         end
@@ -926,7 +928,7 @@ class PokeBattle_Battler
             targets.each do |t|
                 if t.pointsAt?(:TanglingVines, user)
                     @battle.pbDisplay(_INTL("The tangling vines strengthened the hit!"))
-                    break #Only trigger once, even if multiple targets are affected
+                    break # Only trigger once, even if multiple targets are affected
                 end
             end
         end
@@ -968,8 +970,8 @@ class PokeBattle_Battler
             end
 
             if pbOwnedByPlayer?
-                unlockAchievement(:DEAL_LARGE_DAMAGE_1) if maxDamageOnTargets >= 1000 && !(user.battle.is_replayed)
-                unlockAchievement(:DEAL_LARGE_DAMAGE_2) if maxDamageOnTargets >= 10_000 && !(user.battle.is_replayed)
+                unlockAchievement(:DEAL_LARGE_DAMAGE_1) if maxDamageOnTargets >= 1000 && !user.battle.is_replayed
+                unlockAchievement(:DEAL_LARGE_DAMAGE_2) if maxDamageOnTargets >= 10_000 && !user.battle.is_replayed
             end
         end
         # Self-Destruct/Explosion's damaging and fainting of user
@@ -1019,7 +1021,7 @@ class PokeBattle_Battler
 
             # Animate battlers fainting (checks all battlers rather than just targets
             # because Flame Burst's splash damage affects non-targets)
-            @battle.pbPriority(true).each { |b| b.pbFaint if b && b.fainted? }
+            @battle.pbPriority(true).each { |b| b.pbFaint if b&.fainted? }
         else
             if !user.poisoned?
                 # Secretion Secret
@@ -1052,27 +1054,21 @@ class PokeBattle_Battler
         targets.each do |b|
             next if b.damageState.unaffected
             move.pbEffectAgainstTarget(user, b)
-            #Field of Death
-            if @battle.pbCheckGlobalAbility(:FIELDOFDEATH)
-                unless b.damageState.hpLost <= 0
-                    hpGain = (b.damageState.hpLost * 0.3).round
-                    user.pbRecoverHPFromDrain(hpGain, b, user: user)
-                end
+            # Field of Death
+            if @battle.pbCheckGlobalAbility(:FIELDOFDEATH) && b.damageState.hpLost > 0
+                hpGain = (b.damageState.hpLost * 0.3).round
+                user.pbRecoverHPFromDrain(hpGain, b, user: user)
             end
-            #Coral Overgrowth
-            if b.pbOwnSide.effectActive?(:CoralOvergrowth)
-                unless b.damageState.hpLost <= 0
-                    hpGain = (b.damageState.hpLost / 3.0).round
-                    user.pbRecoverHPFromDrain(hpGain, b, user: user, canOverheal: true)
-                end
+            # Coral Overgrowth
+            if b.pbOwnSide.effectActive?(:CoralOvergrowth) && b.damageState.hpLost > 0
+                hpGain = (b.damageState.hpLost / 3.0).round
+                user.pbRecoverHPFromDrain(hpGain, b, user: user, canOverheal: true)
             end
         end
         move.pbEffectGeneral(user)
         # use this until the field change method applies to all field changes
-        @battle.eachBattler do |b|
-            b.pbItemFieldEffectCheck
-        end
-        targets.each { |b| b.pbFaint if b && b.fainted? }
+        @battle.eachBattler(&:pbItemFieldEffectCheck)
+        targets.each { |b| b.pbFaint if b&.fainted? }
         user.pbFaint if user.fainted?
         # Guaranteed added effects
         if move.guaranteedEffect?
@@ -1083,9 +1079,9 @@ class PokeBattle_Battler
         elsif move.randomEffect? && !user.hasActiveAbility?(:SHEERFORCE) # Random added effects
             targets.each do |b|
                 next if b.damageState.calcDamage == 0
-                chance = move.pbAdditionalEffectChance(user, b, move.calcType)
+                chance = move.pbAdditionalEffectChance(user, b)
                 next if chance <= 0
-                if @battle.pbRandom(100) < chance && move.canApplyRandomAddedEffects?(user,b,chance,true)
+                if @battle.pbRandom(100) < chance && move.canApplyRandomAddedEffects?(user, b, chance, true)
                     if b.hasActiveAbility?(:UNCANNYLUCK)
                         b.showMyAbilitySplash(:UNCANNYLUCK)
                         @battle.pbDisplay(_INTL("{1}'s additional effect was bounced back!", move.name))
@@ -1128,8 +1124,16 @@ class PokeBattle_Battler
             @battle.pbDisplay(_INTL("The {1} weakened the damage to {2}!", name, b.pbThis(true)))
             b.pbHeldItemTriggered(itemTriggered) if b.hasItem?(itemTriggered) && b.damageState.berryWeakened
         end
-        targets.each { |b| b.pbFaint if b && b.fainted? }
+        targets.each { |b| b.pbFaint if b&.fainted? }
         user.pbFaint if user.fainted?
+        # Inure decrement
+        if move.damagingMove?
+            targets.each do |b|
+                next if b.damageState.unaffected || b.fainted?
+                next unless b.effectActive?(:Inured)
+                b.damageState.recalcTypeMod = true unless b.tickDownAndProc(:Inured)
+            end
+        end
         # Dragon Darts' second half of attack
         if move.pbRepeatHit?(hitNum) && all_targets.any? { |b| !b.fainted? && !b.damageState.unaffected }
             pbProcessMoveHit(move, user, all_targets, hitNum + 1, skipAccuracyCheck, fastHitAnimation)

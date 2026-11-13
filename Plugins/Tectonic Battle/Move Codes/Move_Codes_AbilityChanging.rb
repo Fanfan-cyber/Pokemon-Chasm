@@ -26,7 +26,7 @@ class PokeBattle_Move_SetTargetAbilityToSimple < PokeBattle_Move
         return false
     end
 
-    def pbEffectAgainstTarget(user, target)
+    def pbEffectAgainstTarget(_user, target)
         target.replaceAbility(:SIMPLE)
     end
 
@@ -129,18 +129,15 @@ end
 
 class PokeBattle_Move_EmpoweredRolePlay < PokeBattle_Move
     include EmpoweredMove
-    
+
     def ignoresSubstitute?(_user); return true; end
 
-    def pbEffectGeneral(user)
-        super
-        user.eachOpposing do |b|
-            next unless b.firstAbility
-            next if GameData::Ability.get(b.firstAbility).is_uncopyable_ability?
-            @battle.pbDisplay(_INTL("{1} copies {2}'s ability!",user.pbThis,b.pbThis(true)))
-            user.addAbility(b.firstAbility)
-        end
-    end  
+    def pbEffectAgainstTarget(user, target)
+        return unless target.firstAbility
+        return if GameData::Ability.get(target.firstAbility).is_uncopyable_ability?
+        @battle.pbDisplay(_INTL("{1} copies {2}'s ability!", user.pbThis, target.pbThis(true)))
+        user.addAbility(target.firstAbility)
+    end
 end
 
 #===============================================================================
@@ -212,7 +209,7 @@ class PokeBattle_Move_UserTargetSwapAbilities < PokeBattle_Move
         return false
     end
 
-    def pbFailsAgainstTarget?(user, target, show_message)
+    def pbFailsAgainstTarget?(_user, target, show_message)
         unless target.firstAbility
             if show_message
                 @battle.pbDisplay(_INTL("But it failed, since {1} doesn't have an ability!", target.pbThis(true)))

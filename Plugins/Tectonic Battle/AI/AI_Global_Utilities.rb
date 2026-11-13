@@ -9,15 +9,15 @@ module Enumerable
 end
 
 class Array
-    def stable_sort_by!
-        replace(stable_sort_by { |item| yield(item) })
+    def stable_sort_by!(&)
+        replace(stable_sort_by(&))
     end
 end
 
 #=============================================================================
 # Get approximate properties for a battler
 #=============================================================================
-def pbRoughType(move, user, target)
+def pbRoughTypes(move, user, target)
     if user.should_apply_adaptive_ai_v3?(target, move)
         battle = user.battle
         if battle.adaptive_ai_v3_type_claced?(user, target)
@@ -46,7 +46,7 @@ def pbRoughType(move, user, target)
             calc_type
         end
     else
-        move.pbCalcType(user)
+        return move.pbCalcTypes(user)
     end
 end
 
@@ -64,7 +64,7 @@ def getUrgency
         urgency += 1 if b.hasUseableHazardMove? && b.lastRoundMoveCategory == 2 # Actively hazard stacking
         urgency += 2 if b.hasActiveAbilityAI?(:CONTRARY) || b.hasActiveAbilityAI?(:INVERSION)
     end
-    if inWeatherTeam && urgency = 0
+    if inWeatherTeam && urgency == 0
         weatherInfo = [
             [:SUN_TEAM, @battle.sunny?, :DROUGHT, :HEATROCK],
             [:RAIN_TEAM, @battle.rainy?, :DRIZZLE, :DAMPROCK],
@@ -72,7 +72,7 @@ def getUrgency
             [:HAIL_TEAM, @battle.icy?, :SNOWWARNING, :ICYROCK],
             [:MOONGLOW_TEAM, @battle.moonGlowing?, :MOONGAZE, :MIRROREDROCK],
             [:ECLIPSE_TEAM, @battle.eclipsed?, :HARBINGER, :PINPOINTROCK],
-        ]    
+        ]
         weatherInfo.each do |weatherEntry|
             weatherPolicy = weatherEntry[0]
             weatherActive = weatherEntry[1]

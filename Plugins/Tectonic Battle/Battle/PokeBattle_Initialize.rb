@@ -44,13 +44,13 @@ class PokeBattle_Battle
     attr_accessor :lastMoveUser     # Last move user
     attr_accessor :allMovesUsedSide0     # The list of all moves used by side 0, in order
     attr_accessor :allMovesUsedSide1     # The list of all moves used by side 1, in order
-    attr_reader   :switching        # True if during the switching phase of the round
-    attr_accessor :foretoldMove      # True if a foretold move (e.g. Future Sight) is hitting
+    attr_reader   :switching # True if during the switching phase of the round
+    attr_accessor :foretoldMove # True if a foretold move (e.g. Future Sight) is hitting
     attr_accessor :specialUsage     # True if a special usage is happening
     attr_reader   :endOfRound       # True during the end of round
     attr_accessor :moldBreaker      # True if Mold Breaker applies
     attr_accessor :jugglingItemTaken # True if a Juggling catch has claimed an item this activation
-    attr_reader   :struggle         # The Struggle move
+    attr_reader   :struggle # The Struggle move
     attr_accessor :ballsUsed # Number of balls thrown without capture
     attr_accessor :lastUsedPokeball
     attr_accessor :messagesBlocked
@@ -73,17 +73,17 @@ class PokeBattle_Battle
     attr_accessor :doubleShift # Whether shifting is allowed in double battles
     attr_accessor :is_recorded
 	attr_accessor :is_replayed
-	attr_accessor :recorded_choice #Only used in recorded battles, logs the last non-move choice made
-	attr_accessor :replayed_choice #Only used in replayed battles, logs the next non-move choice that will be made
+	attr_accessor :recorded_choice # Only used in recorded battles, logs the last non-move choice made
+	attr_accessor :replayed_choice # Only used in replayed battles, logs the next non-move choice that will be made
     attr_reader   :preBattle
 
     #=============================================================================
     # Creating the battle class
     #=============================================================================
     def initialize(scene, p1, p2, player, opponent)
-        if p1.length == 0
+        if p1.empty?
             raise ArgumentError, _INTL("Party 1 has no Pokémon.")
-        elsif p2.length == 0
+        elsif p2.empty?
             raise ArgumentError, _INTL("Party 2 has no Pokémon.")
         end
         @scene             = scene
@@ -134,8 +134,8 @@ class PokeBattle_Battle
             [-1] * (@opponent ? @opponent.length : 1),
         ]
         @initialItems = [
-            Array.new(@party1.length) { |i| (@party1[i]) ? @party1[i].items.clone : nil },
-            Array.new(@party2.length) { |i| (@party2[i]) ? @party2[i].items.clone : nil },
+            Array.new(@party1.length) { |i| @party1[i] ? @party1[i].items.clone : nil },
+            Array.new(@party2.length) { |i| @party2[i] ? @party2[i].items.clone : nil },
         ]
         @recycleItems      = [Array.new(@party1.length, nil),   Array.new(@party2.length, nil)]
         @belch             = [Array.new(@party1.length, false), Array.new(@party2.length, false)]
@@ -151,7 +151,7 @@ class PokeBattle_Battle
         @allMovesUsedSide0 = []
         @allMovesUsedSide1 = []
         @switching         = false
-        @foretoldMove       = false
+        @foretoldMove = false
         @specialUsage      = false
         @endOfRound        = false
         @moldBreaker       = false
@@ -179,7 +179,7 @@ class PokeBattle_Battle
         @recorded_choice = nil
         @replayed_choice = nil
         @is_recorded = false
-	    @is_replayed = false
+        @is_replayed = false
         if GameData::Move.exists?(:STRUGGLE)
             @struggle = PokeBattle_Move.from_pokemon_move(self, Pokemon::Move.new(:STRUGGLE))
         else
@@ -278,35 +278,34 @@ class PokeBattle_Battle
         echoln("[ITEM UPDATE] #{pokemon.name} => #{pokemon.items.map { |item| getItemName(item) }}")
     end
 
-    def aiAutoKnowsMove?(move,pokemon) # unused
-        autoKnow = getBattleMoveInstanceFromID(move.id).aiAutoKnows?(pokemon)
+    def aiAutoKnowsMove?(move, pokemon) # unused
+        battleMove = getBattleMoveInstanceFromID(move.id)
+        autoKnow = battleMove.aiAutoKnows?(pokemon)
         autoKnowTypes = [:FLEX]
-        return true if autoKnowTypes.include?(move.type)
+        return true if battleMove.types.intersect?(autoKnowTypes)
         return true if !autoKnow.nil? && autoKnow
         return false if !autoKnow.nil? && !autoKnow
-        return false unless pokemon.likelyHasSTAB?(move.type) # Don't know off-type moves
+        return false unless battleMove.types.any? { |type| pokemon.likelyHasSTAB?(type) } # Don't know off-type moves
         return false if move.category == 2 # Don't know status moves
         return true
     end
 
     def setMaxPPs(includeMults)
         @player&.each do |trainer|
-            setMaxPPsForTrainer(trainer,includeMults)
+            setMaxPPsForTrainer(trainer, includeMults)
         end
 
         @opponent&.each do |trainer|
-            setMaxPPsForTrainer(trainer,includeMults)
+            setMaxPPsForTrainer(trainer, includeMults)
         end
     end
 
-    def setMaxPPsForTrainer(trainer,includeMults)
+    def setMaxPPsForTrainer(trainer, includeMults)
         trainer.party.each do |pokemon|
             pokemon.moves.each do |move|
                 pp_mult = 1
-                if includeMults
-                    if trainer.tribalBonus.hasTribeBonus?(:TACTICIAN) && move.priority > 0
-                        pp_mult *= 2.0
-                    end
+                if includeMults && trainer.tribalBonus.hasTribeBonus?(:TACTICIAN) && move.priority > 0
+                    pp_mult *= 2.0
                 end
 
                 move.pp_mult = pp_mult

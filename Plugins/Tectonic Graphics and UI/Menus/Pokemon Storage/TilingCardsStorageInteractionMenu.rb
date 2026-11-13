@@ -289,9 +289,11 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		cmdSwapAbility = -1
     cmdSetHueShift = -1
     cmdSetShadeShift = -1
+		cmdChangeForm = -1
 
 		# Build the commands
-    #commands[cmdAdaptiveAI = commands.length]   = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
+    #commands[cmdAdaptiveAI = commands.length]  = _INTL("Adaptive AI") if TA.get(:adaptiveai) || $DEBUG
+		commands[cmdChangeForm = commands.length]   = _INTL("Change Form") if pbHasItem?(:UNIVERSALFORMALIZER) && pbCanChangePokemonForm?(@pkmn)
 		commands[cmdDeleteMove = commands.length]   = _INTL("Delete Move") if @pkmn.numMoves > 1
 		newspecies = @pkmn.check_evolution_on_level_up(false)
 		commands[cmdEvolve = commands.length]       = _INTL("Evolve") if newspecies
@@ -306,7 +308,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
     commands[cmdSetTrait = commands.length]     = _INTL("Set Trait") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_ONE
     commands[cmdSetLike = commands.length]      = _INTL("Set Like") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
     commands[cmdSetDislike = commands.length]   = _INTL("Set Dislike") if @pkmn.happiness >= Pokemon::PERSONALITY_THRESHOLD_FOUR
-		commands[cmdSwapAbility = commands.length]  = _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX)
+		commands[cmdSwapAbility = commands.length]  = _INTL("Swap Ability") if pbHasItem?(:VIRALHELIX) && pbCanSwapAbility?(@pkmn)
 		commands[cmdSwapPokeBall = commands.length] = _INTL("Swap Ball")
     commands[cmdSetHueShift = commands.length]  = _INTL("Set Hue Shift")
     commands[cmdSetShadeShift = commands.length]= _INTL("Set Shade Shift")
@@ -397,6 +399,10 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 			pbStyleValueScreen(@pkmn)
 		elsif cmdSwapAbility >= 0 && modifyCommand == cmdSwapAbility
 			pbSwapAbility(@pkmn)
+			pbRefreshSingle(@selected)
+		elsif cmdChangeForm >= 0 && modifyCommand == cmdChangeForm
+            pbChangePokemonForm(@pkmn)
+			pbRefreshSingle(@selected)
 		elsif cmdOmnitutor >= 0 && modifyCommand == cmdOmnitutor
 			omniTutorScreen(@pkmn)
     elsif cmdSetHueShift >= 0 && modifyCommand == cmdSetHueShift

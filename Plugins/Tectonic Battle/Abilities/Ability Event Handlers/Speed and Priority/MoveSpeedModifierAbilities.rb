@@ -1,98 +1,98 @@
 BattleHandlers::MoveSpeedModifierAbility.add(:MAESTRO,
-    proc { |ability, battler, move, battle, mult, aiCheck|
+    proc { |ability, battler, move, _battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.soundMove?
         if aiCheck
             next mult * (battler.hasSoundMove? ? 2.0 : 1.0)
         else
-            battler.applyEffect(:MoveSpeedDoubled,ability)
+            battler.applyEffect(:MoveSpeedDoubled, ability)
         end
     }
 )
 
 BattleHandlers::MoveSpeedModifierAbility.add(:GALEWINGS,
-    proc { |ability, battler, move, battle, mult, aiCheck|
-        next unless (aiCheck && move.nil?) || move.type == :FLYING
+    proc { |ability, battler, move, _battle, mult, aiCheck|
+        next unless (aiCheck && move.nil?) || move.types.include?(:FLYING)
         if aiCheck
             next mult * (battler.hasMoveType?(:FLYING) ? 2.0 : 1.0)
         else
-            battler.applyEffect(:MoveSpeedDoubled,ability)
+            battler.applyEffect(:MoveSpeedDoubled, ability)
         end
     }
 )
 
 BattleHandlers::MoveSpeedModifierAbility.add(:TRENCHCARVER,
-    proc { |ability, battler, move, battle, mult, aiCheck|
+    proc { |ability, battler, move, _battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.recoilMove?
         if aiCheck
             next mult * (battler.hasRecoilMove? ? 2.0 : 1.0)
         else
-            battler.applyEffect(:MoveSpeedDoubled,ability)
+            battler.applyEffect(:MoveSpeedDoubled, ability)
         end
     }
 )
 
 BattleHandlers::MoveSpeedModifierAbility.add(:SWIFTSTOMPS,
-    proc { |ability, battler, move, battle, mult, aiCheck|
+    proc { |ability, battler, move, _battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.kickingMove?
         if aiCheck
             next mult * (battler.hasKickMove? ? 2.0 : 1.0)
         else
-            battler.applyEffect(:MoveSpeedDoubled,ability)
+            battler.applyEffect(:MoveSpeedDoubled, ability)
         end
     }
 )
 
 BattleHandlers::MoveSpeedModifierAbility.add(:SHARPSHOOTER,
-    proc { |ability, battler, move, battle, mult, aiCheck|
+    proc { |ability, battler, move, _battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.canRandomCrit?
         if aiCheck
             next mult * (battler.hasRandomCritAttack? ? 2.0 : 1.0)
         else
-            battler.applyEffect(:MoveSpeedDoubled,ability)
+            battler.applyEffect(:MoveSpeedDoubled, ability)
         end
     }
 )
 
 BattleHandlers::MoveSpeedModifierAbility.add(:HOPPINGMAD,
-    proc { |ability, battler, move, battle, mult, aiCheck|
+    proc { |ability, battler, move, _battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.rampagingMove?
         if aiCheck
             next mult * (battler.hasReampagingMove? ? 2.0 : 1.0)
         else
-            battler.applyEffect(:MoveSpeedDoubled,ability)
+            battler.applyEffect(:MoveSpeedDoubled, ability)
         end
     }
 )
 
 BattleHandlers::MoveSpeedModifierAbility.add(:CELERITAS,
-    proc { |ability, battler, move, battle, mult, aiCheck|
+    proc { |ability, battler, move, _battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.lightMove?
         if aiCheck
             next mult * (battler.hasLightMove? ? 2.0 : 1.0)
         else
-            battler.applyEffect(:MoveSpeedDoubled,ability)
+            battler.applyEffect(:MoveSpeedDoubled, ability)
         end
     }
 )
 
 BattleHandlers::MoveSpeedModifierAbility.add(:GOSSAMERGALE,
-    proc { |ability, battler, move, battle, mult, aiCheck|
+    proc { |ability, battler, move, _battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.windMove?
         if aiCheck
             next mult * (battler.hasWindMove? ? 2.0 : 1.0)
         else
-            battler.applyEffect(:MoveSpeedDoubled,ability)
+            battler.applyEffect(:MoveSpeedDoubled, ability)
         end
     }
 )
 
 BattleHandlers::MoveSpeedModifierAbility.add(:LOOSECANNON,
-    proc { |ability, battler, move, battle, mult, aiCheck|
+    proc { |ability, battler, move, _battle, mult, aiCheck|
         next unless (aiCheck && move.nil?) || move.pulseMove?
         if aiCheck
             next mult * (battler.hasPulseMove? ? 2.0 : 1.0)
         else
-            battler.applyEffect(:MoveSpeedDoubled,ability)
+            battler.applyEffect(:MoveSpeedDoubled, ability)
         end
     }
 )

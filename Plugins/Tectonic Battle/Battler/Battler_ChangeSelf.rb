@@ -60,10 +60,10 @@ class PokeBattle_Battler
         return 0 unless takesIndirectDamage? || struggle
 
         damageAmount = getFractionalDamageAmount(fraction, basedOnCurrentHP, aiCheck: false, struggle: struggle)
-        
+
         if showDamageAnimation && !aiCheck && !@dummy
             @damageState.displayedDamage = damageAmount
-            @battle.scene.pbDamageAnimation(self,0,true)
+            @battle.scene.pbDamageAnimation(self, 0, true)
         end
         damageAmount = @hp if damageAmount > @hp
         if aiCheck
@@ -74,19 +74,17 @@ class PokeBattle_Battler
             if @dummy
                 pbShowFaintingMessage if fainted?
                 return damageAmount
+            elsif entryCheck
+                swapped = pbEntryHealthLossChecks(oldHP)
+                return swapped
             else
-                if entryCheck
-                    swapped = pbEntryHealthLossChecks(oldHP)
-                    return swapped
-                else
-                    pbHealthLossChecks(oldHP)
-                    return damageAmount
-                end
+                pbHealthLossChecks(oldHP)
+                return damageAmount
             end
         end
     end
 
-    def getFractionalDamageAmount(fraction, basedOnCurrentHP=false, aiCheck: false, struggle: false)
+    def getFractionalDamageAmount(fraction, basedOnCurrentHP = false, aiCheck: false, struggle: false)
         return 0 unless takesIndirectDamage? || struggle
         fraction *= hpBasedEffectResistance if boss?
         if basedOnCurrentHP
@@ -94,7 +92,7 @@ class PokeBattle_Battler
         else
             damageAmount = @totalhp * fraction
         end
-        damageAmount *= getFractionalDamageModifier(aiCheck: false) unless struggle
+        damageAmount *= getFractionalDamageModifier(aiCheck: aiCheck) unless struggle
         damageAmount = damageAmount.ceil
         return damageAmount
     end
@@ -121,7 +119,7 @@ class PokeBattle_Battler
         multiplier = 1.0
         multiplier *= 0.66 if hasTribeBonus?(:ANIMATED)
         multiplier *= 0.5 if pbOwnSide.effectActive?(:NaturalProtection)
-        multiplier /= 2 if shouldAbilityApply?(:UNBREAKABLE, checkingForAI)
+        multiplier *= 0.25 if shouldAbilityApply?(:SANDRECONSTRUCTION, checkingForAI) && @battle.sandy?
         multiplier *= 0.5 if shouldAbilityApply?(:SUNCHASER, checkingForAI) && @battle.sunny?
         multiplier /= 2 if shouldAbilityApply?(:STONEMANE, checkingForAI)
         multiplier *= 2 if shouldAbilityApply?(:LINEBACKER, checkingForAI)
@@ -160,7 +158,6 @@ class PokeBattle_Battler
             end
         end
 
-
         oldHP = @hp
         recoilMessage = _INTL("{1} is damaged by recoil!", pbThis) if recoilMessage.nil?
         @battle.pbDisplay(recoilMessage) if showMessage
@@ -187,7 +184,7 @@ class PokeBattle_Battler
         raise _INTL("Told to recover a negative amount") if amt.negative?
 
         # Apply Field of Life
-        canOverheal = canOverheal || forceOverheal?
+        canOverheal ||= forceOverheal?
 
         # Apply healing modifiers
         amt *= 1.5 if shouldAbilityApply?(:ROOTED, aiCheck)
@@ -210,10 +207,8 @@ class PokeBattle_Battler
             amt = 1 if amt < 1 && @hp < @totalhp
 
             # Cap boss healing at the next health boundary
-            if boss? && !@phaseTransitioning
-                if @hp <= avatarPhaseLowerHealthBound && @hp + amt > avatarPhaseLowerHealthBound
-                    amt = avatarPhaseLowerHealthBound - @hp
-                end
+            if boss? && !@phaseTransitioning && @hp <= avatarPhaseLowerHealthBound && @hp + amt > avatarPhaseLowerHealthBound
+                amt = avatarPhaseLowerHealthBound - @hp
             end
         end
 
@@ -382,7 +377,7 @@ class PokeBattle_Battler
         consumeMoveTriggeredItems(self)
 
         pbShowFaintingMessage if showMessage
-        
+
         unless @dummy
             AbilityRecorder.check_ability_recorder(@battle, self)
             apply_faint_healing
@@ -530,13 +525,13 @@ class PokeBattle_Battler
     end
 
     def pbReducePP(move)
-        return true if boss? && move.empoweredMove?
+        return true if move.bossPrimeval?(self)
         return true if usingMultiTurnAttack?
         return true if move.pp.negative? # Don't reduce PP for special calls of moves
         return true if move.total_pp <= 0 # Infinite PP, can always be used
         return false if move.pp.zero? # Ran out of PP, couldn't reduce
         reductionAmount = 1
-        if PP_INCREASE_REPEAT_MOVES && (!boss? && @lastMoveUsed && @lastMoveUsed == move.id && !@lastMoveFailed)
+        if PP_INCREASE_REPEAT_MOVES && !boss? && @lastMoveUsed && @lastMoveUsed == move.id && !@lastMoveFailed
             reductionAmount = 3
         end
         newPPAmount = [move.pp - reductionAmount, 0].max
@@ -555,7 +550,7 @@ class PokeBattle_Battler
         if newType.is_a?(PokeBattle_Battler)
             typeCopyTarget = newType
             newTypes = typeCopyTarget.pbTypes
-            newTypes.push(:NORMAL) if newTypes.length.zero?
+            newTypes.push(:NORMAL) if newTypes.empty?
             newType3 = typeCopyTarget.effects[:Type3]
             newType3 = nil if newTypes.include?(newType3)
             @type1 = newTypes[0]
@@ -636,7 +631,7 @@ class PokeBattle_Battler
         end
     end
 
-    def pbCheckFormOnWeatherChange(abilityLossCheck = false)
+    def pbCheckFormOnWeatherChange(_abilityLossCheck = false)
         return if fainted? || effectActive?(:Transform)
         # Castform - Forecast
         if isSpecies?(:CASTFORM)
@@ -648,7 +643,7 @@ class PokeBattle_Battler
                 when :Hail, :IceAge         then newForm = 3
                 when :Sandstorm, :StarStorm then newForm = 4
                 when :Moonglow, :BloodMoon  then newForm = 5
-                when :Eclipse, :RingEclipse then newForm = 6    
+                when :Eclipse, :RingEclipse then newForm = 6
                 end
                 if @form != newForm
                     showMyAbilitySplash(:FORECAST, true)
@@ -726,7 +721,7 @@ class PokeBattle_Battler
             end
         end
         # Zygarde - Power Construct
-        if isSpecies?(:ZYGARDE) && hasAbility?(:POWERCONSTRUCT) && endOfRound && (@hp <= @totalhp / 2 && @form <= 1) # Turn into Complete Form
+        if isSpecies?(:ZYGARDE) && hasAbility?(:POWERCONSTRUCT) && endOfRound && @hp <= @totalhp / 2 && @form <= 1 # Turn into Complete Form
             @battle.pbDisplay(_INTL("You sense the presence of many!"))
             showMyAbilitySplash(:POWERCONSTRUCT, true)
             hideMyAbilitySplash
@@ -850,6 +845,7 @@ class PokeBattle_Battler
         prevAbilities = @ability_ids
         @ability_ids = []
         # @ability_ids.push(@pokemon.ability_id) if @pokemon.ability_id
+        # Pokemon extra abilities (from curses and avatar shenanigans)
         # @ability_ids.concat(@pokemon.extraAbilities)
         @ability_ids.concat(@pokemon.abilities)
         @addedAbilities.clear
@@ -895,7 +891,7 @@ class PokeBattle_Battler
         return unless disguisedAs.ability 
         return if GameData::Ability.get(disguisedAs.ability_id).is_uncopyable_ability?
         @ability_ids.push(disguisedAs.ability_id)
-        @addedAbilities.push(disguisedAs.ability_id)  
+        @addedAbilities.push(disguisedAs.ability_id)
     end
 
     def addIllusionAbilities
@@ -905,17 +901,16 @@ class PokeBattle_Battler
             next if GameData::Ability.get(abil).is_uncopyable_ability?
             #@ability_ids.push(abil)
             #@addedAbilities.push(abil)
-            addAbility(abil, false, triggerSwitchIn: false)
+            addAbility(abil, false)
         end
     end
 
     def setAbility(value)
         if value.is_a?(Array)
-            validAbilities = []
-            value.each do |newAbility|
-                validAbilities.push(GameData::Ability.try_get(newAbility).id)
+            validAbilities = value.map do |newAbility|
+                GameData::Ability.try_get(newAbility).id
             end
-            if validAbilities.length > 0
+            if !validAbilities.empty?
                 @ability_ids = validAbilities
                 @addedAbilities = @ability_ids.clone
             end
@@ -929,7 +924,7 @@ class PokeBattle_Battler
         #@battle.ai_update_abilities(self, abils: @ability_ids)
     end
 
-    def addAbility(newAbility, showcase = false, triggerSwitchIn: true)
+    def addAbility(newAbility, showcase = false, triggerSwitchIn: false)
         return nil unless newAbility
         return nil if @ability_ids.include?(newAbility)
         newAbility = GameData::Ability.try_get(newAbility).id
@@ -996,7 +991,7 @@ class PokeBattle_Battler
             @battle.pbReplaceAbilitySplash(self, swapperOldAbility)
             @battle.pbReplaceAbilitySplash(swapper, myOldAbility)
         end
-        replacementMsg ||= _INTL("{1} and {2} swapped Abilities!",pbThis, swapper.pbThis(true))
+        replacementMsg ||= _INTL("{1} and {2} swapped Abilities!", pbThis, swapper.pbThis(true))
         @battle.pbDisplay(replacementMsg)
         if showSplashes
             @battle.pbHideAbilitySplash(self)
