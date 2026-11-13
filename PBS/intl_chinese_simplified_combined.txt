@@ -41484,7 +41484,7 @@ As One
 Bad Dreams
 梦魇
 Battery
-捡球
+电池
 Berserk
 怒火冲天
 Cheek Pouch
@@ -44675,7 +44675,7 @@ When the Pokémon's level is 25 or higher, it transforms into a member of its fa
 Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
 HP减小到一半以下时，与对手交换HP。每场战斗仅发动一次。
 Turns target's item into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
-攻击时，把对手的物品变为金钱，当HP小于一半时，消耗场上的金钱，回复消耗金钱量10%的HP，可以过量回复。
+攻击时，把对手的物品变为金钱。当HP小于一半时，消耗场上的金钱，回复消耗金钱量10%的HP，可以过量回复。
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
 当打倒对手时，回溯时间，将自身回溯到刚出场时的状态。
 After being attacked, uses Parting Shot to switch out. Leaves a Cursed Shell.
