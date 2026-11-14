@@ -96,8 +96,8 @@ Pokemon = HOUNDOMINUS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = PORYGONZ,70
-    Moves = HEX,PROFANE,ICEBEAM,TRIATTACK
-    AbilityIndex = 0 # Realist
+    Moves = HEX,PROFANE,DARKALLURE,CRITICALERROR
+    AbilityIndex = 0 # Typing Trojan
     Item = SKILLHERB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 15,20,10,0,20,5
@@ -356,8 +356,8 @@ Pokemon = TROPIUS,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,10,0,0,20
 Pokemon = PORYGONZ,70
-    Moves = CRITICALERROR,ICEBEAM,NEURALPULSE,TRIATTACK
-    AbilityIndex = 0 # Realist
+    Moves = CRITICALERROR,ICEBEAM,NEURALPULSE,DISPELL
+    AbilityIndex = 1 # Adapted
     Item = LIFEORB
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
