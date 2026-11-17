@@ -68,95 +68,25 @@ class PokemonPartyShowcase_Scene
                 return
             end
 
-            if @npcTrainer
-                if Input.trigger?(Input::USE)
-                    selectedPokemon = @party[@selectedIndex]
-
-                    showMasterDexCommand = -1
-                    showMovesCommand = -1
-                    showItemCommand = -1
-                    commands = []
-                    commands[showMasterDexCommand = commands.length] = _INTL("View MasterDex")
-                    commands[showMovesCommand = commands.length] = _INTL("View Moves")
-                    if selectedPokemon.hasItem?
-                        if selectedPokemon.itemCount > 1
-                            commands[showItemCommand = commands.length] = _INTL("View Items")
-                        else
-                            commands[showItemCommand = commands.length] = _INTL("View Item")
-                        end
-                    elsif !$battle
-                        commands[showItemCommand = commands.length] = _INTL("View Item")
-                    end
-                    commands[commands.length] = _INTL("Cancel")
-
-                    commandChoice = pbMessage(_INTL("View which information?\n(HP: {1}% Status: {2})", (selectedPokemon.hpFraction * 100).floor(1), GameData::Status.get(selectedPokemon.status).name),commands,commands.length)
-                
-                    if showMasterDexCommand > -1 && commandChoice == showMasterDexCommand
-                        $Trainer.pokedex.set_last_form_seen(selectedPokemon.species, 0, selectedPokemon.form)
-						openSingleDexScreen(selectedPokemon.species)
-                    elsif showMovesCommand > -1 && commandChoice == showMovesCommand
-                        showExternalSummary(selectedPokemon)
-                    elsif showItemCommand > -1 && commandChoice == showItemCommand
-                      if selectedPokemon.hasItem?
-                        if selectedPokemon.itemCount > 1
-                            itemNames = []
-                            selectedPokemon.items.each do |itemID|
-                                itemNames.push(getItemName(itemID))
-                            end
-                            itemNames[itemNames.length] = _INTL("Cancel")
-                            chosenItemIndex = pbMessage(_INTL("View which item?"),itemNames,itemNames.length)
-                            if chosenItemIndex < itemNames.length - 1
-                                item = selectedPokemon.items[chosenItemIndex]
-                                showItemDescriptionMessage(item)
-                            end
-                        else
-                            item = selectedPokemon.items[0]
-                            showItemDescriptionMessage(item)
-                        end
-                      elsif !$battle
-                        showItemDescriptionMessage(Settings::DEFAULT_ITEMS.first)
-                      end
-                    end
-                elsif Input.trigger?(Input::DOWN)
-                    @selectedIndex += 2
-                    if @selectedIndex >= @party.length
-                        if @selectedIndex % 2 == 1 && @party.length > 1
-                            @selectedIndex = 1
-                        else
-                            @selectedIndex = 0
-                        end
-                    end
-                    pbPlayCursorSE
-                elsif Input.trigger?(Input::UP)
-                    @selectedIndex -= 2
-                    if @selectedIndex < 0
-                        if @party.length % 2 == 0
-                            if @selectedIndex % 2 == 0
-                                @selectedIndex = @party.length - 2
-                            else
-                                @selectedIndex = @party.length - 1
-                            end
-                        else
-                            if @selectedIndex % 2 == 0
-                                @selectedIndex = @party.length - 1
-                            else
-                                @selectedIndex = @party.length - 2
-                            end
-                        end
-                    end
-                    pbPlayCursorSE
-                elsif Input.trigger?(Input::LEFT) || Input.trigger?(Input::RIGHT)
-                    newIndex = @selectedIndex + (@selectedIndex % 2 == 0 ? 1 : -1)
-                    if newIndex < @party.length
-                        @selectedIndex = newIndex
-                        pbPlayCursorSE
+            next unless @npcTrainer
+            if Input.trigger?(Input::USE)
+                selectedPokemon = @party[@selectedIndex]
+                showItemCommand = -1
+                commands = []
+                commands[showMasterDexCommand = commands.length] = _INTL("View MasterDex")
+                commands[showMovesCommand = commands.length] = _INTL("View Moves")
+                if selectedPokemon.hasItem?
+                    if selectedPokemon.itemCount > 1
+                        commands[showItemCommand = commands.length] = _INTL("View Items")
                     else
                         commands[showItemCommand = commands.length] = _INTL("View Item")
                     end
+                elsif !$battle
+                    commands[showItemCommand = commands.length] = _INTL("View Item")
                 end
                 commands[commands.length] = _INTL("Cancel")
 
-                commandChoice = pbMessage(_INTL("View which information?"), commands, commands.length)
+                commandChoice = pbMessage(_INTL("View which information?\n(HP: {1}% Status: {2})", (selectedPokemon.hpFraction * 100).floor(1), GameData::Status.get(selectedPokemon.status).name), commands, commands.length)
 
                 if showMasterDexCommand > -1 && commandChoice == showMasterDexCommand
                     $Trainer.pokedex.set_last_form_seen(selectedPokemon.species, 0, selectedPokemon.form)
@@ -164,9 +94,11 @@ class PokemonPartyShowcase_Scene
                 elsif showMovesCommand > -1 && commandChoice == showMovesCommand
                     showExternalSummary(selectedPokemon)
                 elsif showItemCommand > -1 && commandChoice == showItemCommand
+                  if selectedPokemon.hasItem?
                     if selectedPokemon.itemCount > 1
-                        itemNames = selectedPokemon.items.map do |itemID|
-                            getItemName(itemID)
+                        itemNames = []
+                        selectedPokemon.items.each do |itemID|
+                            itemNames.push(getItemName(itemID))
                         end
                         itemNames[itemNames.length] = _INTL("Cancel")
                         chosenItemIndex = pbMessage(_INTL("View which item?"), itemNames, itemNames.length)
@@ -178,6 +110,9 @@ class PokemonPartyShowcase_Scene
                         item = selectedPokemon.items[0]
                         showItemDescriptionMessage(item)
                     end
+                  elsif !$battle
+                    showItemDescriptionMessage(Settings::DEFAULT_ITEMS.first)
+                  end
                 end
             elsif Input.trigger?(Input::DOWN)
                 @selectedIndex += 2
@@ -199,9 +134,10 @@ class PokemonPartyShowcase_Scene
                             @selectedIndex = @party.length - 1
                         end
                     elsif @selectedIndex.even?
-                        @selectedIndex = @party.length - 1
-                    else
-                        @selectedIndex = @party.length - 2
+                            @selectedIndex = @party.length - 1
+                        else
+                            @selectedIndex = @party.length - 2
+                        end
                     end
                 end
                 pbPlayCursorSE

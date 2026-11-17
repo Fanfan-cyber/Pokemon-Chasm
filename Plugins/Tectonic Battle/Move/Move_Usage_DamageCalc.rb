@@ -160,13 +160,13 @@ class PokeBattle_Move
         if (@battle.pbCheckGlobalAbility(:DARKAURA) && types.include?(:DARK)) ||
            (@battle.pbCheckGlobalAbility(:FAIRYAURA) && types.include?(:FAIRY))
             if @battle.pbCheckGlobalAbility(:AURABREAK)
-                multipliers[:base_damage_multiplier] *= 2 / 3.0
+                multipliers[:attack_multiplier] *= 2 / 3.0
             else
-                multipliers[:base_damage_multiplier] *= 4 / 3.0
+                multipliers[:attack_multiplier] *= 4 / 3.0
             end
         end
         if @battle.pbCheckGlobalAbility(:RUINOUS)
-            multipliers[:base_damage_multiplier] *= 1.4
+            multipliers[:attack_multiplier] *= 1.4
         end
 
         # User or user ally ability effects that alter damage
@@ -449,7 +449,7 @@ class PokeBattle_Move
                     defe += partyMember.mono_type? ? Settings::ROWE_STAB_DEF_MONO : Settings::ROWE_STAB_DEF
                 end
             end
-            multipliers[:base_damage_multiplier] *= (1.0 + (offe - defe) * 0.01)
+            multipliers[:attack_multiplier] *= (1.0 + (offe - defe) * 0.01)
         end
 
         # Type effectiveness
@@ -471,7 +471,7 @@ class PokeBattle_Move
 
         # Charge
         if user.effectActive?(:EnergyCharge) && types.include?(:ELECTRIC)
-            multipliers[:base_damage_multiplier] *= 2
+            multipliers[:attack_multiplier] *= 2
             user.applyEffect(:EnergyChargeExpended) unless checkingForAI
         end
 
@@ -581,14 +581,14 @@ class PokeBattle_Move
         end
 
         # Global Supreme Overlord
-        multipliers[:base_damage_multiplier] *= ((user.owner_party_fainted_count * Settings::GLOBAL_SUPREME_OVERLORD) * 0.01 + 1.0)
+        multipliers[:attack_multiplier] *= ((user.owner_party_fainted_count * Settings::GLOBAL_SUPREME_OVERLORD) * 0.01 + 1.0)
 
         # Revenge Mechanics
         if @battle.tracker_get(:revenge)[user.unique_id] == target.unique_id
-            multipliers[:base_damage_multiplier] *= (Settings::REVENGE_MECHANICS * 0.01 + 1.0)
+            multipliers[:attack_multiplier] *= (Settings::REVENGE_MECHANICS * 0.01 + 1.0)
         end
         # Revenge Mechanics Plus
-        multipliers[:base_damage_multiplier] *= (Settings::REVENGE_MECHANICS_PLUS * 0.01 + 1.0) if TA.get(:revengeplus) && user.pbOwnSide.faintLastRound? && user.firstTurn?
+        multipliers[:attack_multiplier] *= (Settings::REVENGE_MECHANICS_PLUS * 0.01 + 1.0) if TA.get(:revengeplus) && user.pbOwnSide.faintLastRound? && user.firstTurn?
 
         # Bigger Side Punishment
         if user.bigger_side?
@@ -599,7 +599,7 @@ class PokeBattle_Move
         # Party Most Type Bonus
         party_most_type = user.party_most_type
         if party_most_type[0].include?(type) && party_most_type[1] >= Settings::PARTY_MOST_TYPE_BONUS_THRESHOLD
-            multipliers[:base_damage_multiplier] *= (party_most_type[1] * 0.01 + 1.0)
+            multipliers[:attack_multiplier] *= (party_most_type[1] * 0.01 + 1.0)
         end
 
 =begin
@@ -607,43 +607,43 @@ class PokeBattle_Move
         turn_count = target.turnCount
         turn_count += 1 if aiCheck
         stand_punishment_count = turn_count - Settings::STAND_PUNISHMENT_THRESHOLD
-        multipliers[:base_damage_multiplier] *= (stand_punishment_count * Settings::STAND_PUNISHMENT * 0.01 + 1.0) if stand_punishment_count > 0
+        multipliers[:attack_multiplier] *= (stand_punishment_count * Settings::STAND_PUNISHMENT * 0.01 + 1.0) if stand_punishment_count > 0
 
         if user.pbOwnedByPlayer?
             legendary_count = $Trainer.legendary_count
-            multipliers[:base_damage_multiplier] *= (1.0 - legendary_count * 0.1)
+            multipliers[:attack_multiplier] *= (1.0 - legendary_count * 0.1)
         end
 =end
 
         if aiCheck
             # Parental Bond
             if user.hasActiveAbility?(:PARENTALBOND) || user.hasActiveAbility?(:STRIKETWICE) && @battle.rainy?
-                multipliers[:base_damage_multiplier] *= 1.25
+                multipliers[:attack_multiplier] *= 1.25
             end
             if user.hasActiveAbility?(:DIFFRACTION) && user.protectedByScreen?
-                multipliers[:base_damage_multiplier] *= (4.0 / 3.0)
+                multipliers[:attack_multiplier] *= (4.0 / 3.0)
             end
 
         else
             # Parental Bond's second attack
             if user.effects[:ParentalBond] == 1
-                multipliers[:base_damage_multiplier] *= 0.25
+                multipliers[:attack_multiplier] *= 0.25
             end
             # Diffraction's second attack
             if user.effects[:Diffraction] == 1
-                multipliers[:base_damage_multiplier] *= (1.0 / 3.0)
+                multipliers[:attack_multiplier] *= (1.0 / 3.0)
             end
             # Me First
             if user.effectActive?(:MeFirst)
-                multipliers[:base_damage_multiplier] *= 1.5
+                multipliers[:attack_multiplier] *= 1.5
             end
             # Helping Hand
             if user.effectActive?(:HelpingHand) && !is_a?(PokeBattle_SelfHit)
-                multipliers[:base_damage_multiplier] *= 1.5
+                multipliers[:attack_multiplier] *= 1.5
             end
             # Helping Hand
             if user.effectActive?(:Spotting) && !is_a?(PokeBattle_SelfHit)
-                multipliers[:base_damage_multiplier] *= 1.5
+                multipliers[:attack_multiplier] *= 1.5
             end
             # Shimmering Heat
             if target.effectActive?(:ShimmeringHeat)
@@ -695,8 +695,8 @@ class PokeBattle_Move
         end
 
         # Battler properites
-        multipliers[:base_damage_multiplier] *= user.dmgMult
-        multipliers[:base_damage_multiplier] *= [0, (1.0 - target.dmgResist.to_f)].max
+        multipliers[:attack_multiplier] *= user.dmgMult
+        multipliers[:attack_multiplier] *= [0, (1.0 - target.dmgResist.to_f)].max
 
         # Critical hits
         if (aiCheck && pbIsCritical?(user, target, true)) || (!aiCheck && target.damageState.critical)

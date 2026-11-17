@@ -58,12 +58,12 @@ def pbBattleGem(item, user, gemType, _move, mults, moveTypes, aiCheck = false, a
     return unless user.canConsumeGem?
     user.applyEffect(:GemConsumed, item) unless aiCheck
     aiContext[:item_consumed] = true if aiContext
-    mults[:base_damage_multiplier] *= 1.5
+    mults[:attack_multiplier] *= 1.5
 end
 
 def typeBoostingItem(item, user, boostedType, mults, moveTypes, aiCheck = false)
     if moveTypes.include?(boostedType)
-        mults[:base_damage_multiplier] *= 1.2
+        mults[:attack_multiplier] *= 1.2
         user.aiLearnsItem(item) unless aiCheck
     end
 end

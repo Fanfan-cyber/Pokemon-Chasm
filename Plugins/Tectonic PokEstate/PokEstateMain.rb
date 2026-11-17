@@ -584,7 +584,7 @@ class PokEstate
 			pbSwapAbility(pokemon)
 			convertEventToPokemon(eventCalling, pokemon)
 		elsif cmdChangeForm >= 0 && modifyCommand == cmdChangeForm
-            pbChangePokemonForm(pokemon)
+      pbChangePokemonForm(pokemon)
 			convertEventToPokemon(eventCalling, pokemon)
 		elsif cmdOmnitutor >= 0 && modifyCommand == cmdOmnitutor
 			omniTutorScreen(pokemon)

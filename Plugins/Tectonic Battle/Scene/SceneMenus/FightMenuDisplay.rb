@@ -237,7 +237,7 @@ class FightMenuDisplay < BattleMenuBase
                 # Determine whether to highlight the move
                 elsif move.damagingMove?(true)
                     shouldHighlight = false
-
+=begin
                     if targetingData.num_targets == 0
                         shouldHighlight = move.shouldHighlight?(@battler, nil)
                     else
@@ -248,7 +248,7 @@ class FightMenuDisplay < BattleMenuBase
                             break
                         end
                     end
-
+=end
                     if shouldHighlight
                         @visibility["highlight_#{i}"] = true
                         @sprites["highlight_#{i}"].start

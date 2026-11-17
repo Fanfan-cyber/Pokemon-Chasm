@@ -40,7 +40,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:SIMPLETON,
 BattleHandlers::DamageCalcTargetAbility.add(:DRYSKIN,
   proc { |ability, _user, target, _move, mults, _baseDmg, types, aiCheck|
       if types.include?(:FIRE)
-          mults[:base_damage_multiplier] *= 5 / 4.0
+          mults[:attack_multiplier] *= 5 / 4.0
           target.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -49,7 +49,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:DRYSKIN,
 BattleHandlers::DamageCalcTargetAbility.add(:FINESUGAR,
   proc { |ability, _user, target, _move, mults, _baseDmg, types, aiCheck|
       if types.include?(:WATER)
-          mults[:base_damage_multiplier] *= 5 / 4.0
+          mults[:attack_multiplier] *= 5 / 4.0
           target.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -88,7 +88,7 @@ BattleHandlers::DamageCalcTargetAbility.copy(:MULTISCALE, :DOMINEERING, :SHADOWS
 BattleHandlers::DamageCalcTargetAbility.add(:THICKFAT,
   proc { |ability, _user, target, _move, mults, _baseDmg, types, aiCheck|
       if types.intersect?(%i[FIRE ICE])
-          mults[:base_damage_multiplier] *= 1 / 2.0
+          mults[:attack_multiplier] *= 1 / 2.0
           target.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -99,7 +99,7 @@ BattleHandlers::DamageCalcTargetAbility.copy(:THICKFAT, :THERMOSTASIS)
 BattleHandlers::DamageCalcTargetAbility.add(:UNAFRAID,
   proc { |ability, _user, target, _move, mults, _baseDmg, types, aiCheck|
       if types.intersect?(%i[BUG DARK])
-          mults[:base_damage_multiplier] *= 1 / 2.0
+          mults[:attack_multiplier] *= 1 / 2.0
           target.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -108,7 +108,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:UNAFRAID,
 BattleHandlers::DamageCalcTargetAbility.add(:EXORCIST,
   proc { |ability, _user, target, _move, mults, _baseDmg, types, aiCheck|
       if types.intersect?(%i[GHOST PSYCHIC])
-          mults[:base_damage_multiplier] *= 1 / 2.0
+          mults[:attack_multiplier] *= 1 / 2.0
           target.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -117,7 +117,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:EXORCIST,
 BattleHandlers::DamageCalcTargetAbility.add(:FEATHERCOAT,
   proc { |ability, _user, target, _move, mults, _baseDmg, types, aiCheck|
       if types.intersect?(%i[ICE FLYING])
-          mults[:base_damage_multiplier] *= 1 / 2.0
+          mults[:attack_multiplier] *= 1 / 2.0
           target.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -126,7 +126,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:FEATHERCOAT,
 BattleHandlers::DamageCalcTargetAbility.add(:REALIST,
   proc { |ability, _user, target, _move, mults, _baseDmg, types, aiCheck|
       if types.intersect?(%i[DRAGON FAIRY GHOST])
-          mults[:base_damage_multiplier] *= 1 / 2.0
+          mults[:attack_multiplier] *= 1 / 2.0
           target.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -137,7 +137,7 @@ BattleHandlers::DamageCalcTargetAbility.copy(:REALIST, :BACKUP)
 BattleHandlers::DamageCalcTargetAbility.add(:TOUGH,
   proc { |ability, _user, target, _move, mults, _baseDmg, types, aiCheck|
       if types.intersect?(%i[FIGHTING ROCK])
-          mults[:base_damage_multiplier] *= 1 / 2.0
+          mults[:attack_multiplier] *= 1 / 2.0
           target.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -276,7 +276,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:BULLY,
       # Important reminder: User is the one using the move, target is the one being hit
       # This means for an ability that affects being hit, *target* is the Pokemon with the ability
       if user.pbHeight < target.pbHeight
-          mults[:base_damage_multiplier] *= 7 / 10.0
+          mults[:attack_multiplier] *= 7 / 10.0
           target.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -473,7 +473,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:WELLEQUIPPED,
 BattleHandlers::DamageCalcTargetAbility.add(:DEFEATIST,
   proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
     unless target.belowHalfHealth?
-      mults[:base_damage_multiplier] *= 0.5
+      mults[:attack_multiplier] *= 0.5
       target.aiLearnsAbility(ability) unless aiCheck
     end
   }

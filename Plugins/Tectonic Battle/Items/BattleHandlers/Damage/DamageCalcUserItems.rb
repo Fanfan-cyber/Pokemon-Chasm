@@ -5,7 +5,7 @@
 BattleHandlers::DamageCalcUserItem.add(:ADAMANTORB,
     proc { |item, user, _target, _move, mults, _baseDmg, types, aiCheck|
         if user.isSpecies?(:DIALGA) && types.intersect?(%i[DRAGON STEEL])
-            mults[:base_damage_multiplier] *= 1.2
+            mults[:attack_multiplier] *= 1.2
             user.aiLearnsItem(item) unless aiCheck
         end
     }
@@ -14,7 +14,7 @@ BattleHandlers::DamageCalcUserItem.add(:ADAMANTORB,
 BattleHandlers::DamageCalcUserItem.add(:LUSTROUSORB,
   proc { |item, user, _target, _move, mults, _baseDmg, types, aiCheck|
       if user.isSpecies?(:PALKIA) && types.intersect?(%i[DRAGON WATER])
-          mults[:base_damage_multiplier] *= 1.2
+          mults[:attack_multiplier] *= 1.2
           user.aiLearnsItem(item) unless aiCheck
       end
   }
@@ -23,7 +23,7 @@ BattleHandlers::DamageCalcUserItem.add(:LUSTROUSORB,
 BattleHandlers::DamageCalcUserItem.add(:GRISEOUSORB,
   proc { |item, user, _target, _move, mults, _baseDmg, types, aiCheck|
       if user.isSpecies?(:GIRATINA) && types.intersect?(%i[DRAGON GHOST])
-          mults[:base_damage_multiplier] *= 1.2
+          mults[:attack_multiplier] *= 1.2
           user.aiLearnsItem(item) unless aiCheck
       end
   }

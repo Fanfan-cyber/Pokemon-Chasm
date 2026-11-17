@@ -1,7 +1,7 @@
 # Choice Crown
 BattleHandlers::DamageCalcUserItem.add(:CHOICECROWN,
     proc { |_item, _user, _target, _move, mults, _baseDmg, _types, _aiCheck|
-        mults[:base_damage_multiplier] *= 1.5
+        mults[:attack_multiplier] *= 1.5
     }
 )
 
@@ -133,7 +133,7 @@ BattleHandlers::DamageCalcUserItem.add(:LUCENTGEM,
     proc { |item, user, _target, _move, mults, _baseDmg, _types, aiCheck, aiContext|
         user.applyEffect(:GemConsumed, item) unless aiCheck
         aiContext[:item_consumed] = true if aiContext
-        mults[:base_damage_multiplier] *= 1.5
+        mults[:attack_multiplier] *= 1.5
     }
 )
 

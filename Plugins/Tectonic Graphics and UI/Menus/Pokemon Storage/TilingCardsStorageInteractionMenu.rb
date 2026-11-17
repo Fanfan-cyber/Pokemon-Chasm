@@ -401,7 +401,7 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 			pbSwapAbility(@pkmn)
 			pbRefreshSingle(@selected)
 		elsif cmdChangeForm >= 0 && modifyCommand == cmdChangeForm
-            pbChangePokemonForm(@pkmn)
+      pbChangePokemonForm(@pkmn)
 			pbRefreshSingle(@selected)
 		elsif cmdOmnitutor >= 0 && modifyCommand == cmdOmnitutor
 			omniTutorScreen(@pkmn)

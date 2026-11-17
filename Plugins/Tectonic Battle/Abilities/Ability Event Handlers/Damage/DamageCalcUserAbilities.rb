@@ -973,7 +973,7 @@ BattleHandlers::DamageCalcUserAbility.add(:ACTIONSTAR,
       next unless user.effectActive?(:ActionStar)
       next unless move.damagingMove?
       next unless types.include?(:NORMAL)
-      mults[:base_damage_multiplier] *= 13 / 10.0
+      mults[:attack_multiplier] *= 13 / 10.0
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -1023,7 +1023,7 @@ BattleHandlers::DamageCalcUserAbility.add(:FUELHUNGRY,
 BattleHandlers::DamageCalcUserAbility.add(:BARRENBLOOD,
   proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck|
     if user.battle.sandy?
-      mults[:base_damage_multiplier] *= 3 / 2.0
+      mults[:attack_multiplier] *= 3 / 2.0
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -1032,7 +1032,7 @@ BattleHandlers::DamageCalcUserAbility.add(:BARRENBLOOD,
 BattleHandlers::DamageCalcUserAbility.add(:DEBRISFIELD,
   proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck|
     if user.battle.sandy? && type == :ROCK
-      mults[:base_damage_multiplier] *= 3 / 2.0
+      mults[:attack_multiplier] *= 3 / 2.0
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
