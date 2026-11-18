@@ -1575,8 +1575,8 @@ Pokemon = AERODACTYL,30
     AbilityIndex = 0 # Armor Piercing
     Item = FLYINGGEM
 Pokemon = MANECTRIC,30
-    Moves = FLARE,SHOCKWAVE,SHOUT,NUMB
-    AbilityIndex = 0 # Ruinous
+    Moves = BURNINGJEALOUSY,SHOCKWAVE,STELLARATE,AERIALACE
+    AbilityIndex = 0 # Hustle
 Pokemon = DURALUDON,30
     Moves = TAKESHELTER,DRAGONBREATH,SHINESHOT,LOOMOVER
     AbilityIndex = 0 # Stubborn
@@ -3297,8 +3297,8 @@ Pokemon = MANERGETIC,70
     Name = KATY
     Gender = female
     Moves = CAPACITYBURST,CRUNCH,PROTECT,MACHPULSE
-    AbilityIndex = 0 # Ruinous
-    Item = SHELLBELL
+    AbilityIndex = 0 # Hustle
+    Item = WIDELENS
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,10,5,10,10,5
 Pokemon = ZEBSTRIKA,70
@@ -3933,10 +3933,10 @@ Pokemon = GRIMMSNARL,38
     Moves = FALSESURRENDER,FAKEOUT,PLAYROUGH,SUCKERPUNCH
     AbilityIndex = 1 # Ruinous
     Item = EJECTBUTTON
-Pokemon = MANECTRIC,36
+Pokemon = GIGACHU,36
     Gender = female
-    Moves = THUNDERBOLT,WHITEFLAME,SHOUT,NUMB
-    AbilityIndex = 0 # Ruinous
+    Moves = BODYSLAM,ELECTROCUTE,FOLLOWME,ASSURANCE
+    AbilityIndex = 1 # Gargantuan
 #-------------------------------
 [GARDENER,Jacek]
 Pokemon = BIBAREL,37
@@ -9012,7 +9012,7 @@ Pokemon = RIOJIN,70
 Pokemon = MCARNIVINE,70
     AbilityIndex = 1 # Pestilent
 Pokemon = MANERGETIC,70
-    AbilityIndex = 0 # Ruinous
+    AbilityIndex = 0 # Hustle
 #-------------------------------
 [POKEMONMASTER_Vanya,Vanya,4]
 Flags = NoPerfect
@@ -10416,7 +10416,7 @@ Pokemon = HYMNUS,70
 Pokemon = FLYGON,70
     AbilityIndex = 1 # Siren Song
 Pokemon = MANERGETIC,70
-    AbilityIndex = 0 # Ruinous
+    AbilityIndex = 0 # Hustle
 #-------------------------------
 [IDEALTRAINER,of Riches]
 Pokemon = ROTOM,70
