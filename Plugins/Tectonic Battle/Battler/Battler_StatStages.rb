@@ -636,6 +636,7 @@ class PokeBattle_Battler
             tryRaiseStat(stat, user, move: move, increment: increment, ability: ability, ignoreContrary: true)
         elsif pbCanLowerStatStep?(stat, user, move, true, ignoreContrary)
             @battle.pbShowAbilitySplash(user, ability) if ability
+            increment = @steps[stat] + STAT_STEP_BOUND
             @steps[stat] = -STAT_STEP_BOUND
             @battle.pbCommonAnimation("StatDown", self)
             statName = GameData::Stat.get(stat).name

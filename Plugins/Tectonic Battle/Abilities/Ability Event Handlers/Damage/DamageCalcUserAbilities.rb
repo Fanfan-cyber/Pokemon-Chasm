@@ -970,9 +970,7 @@ BattleHandlers::DamageCalcUserAbility.add(:TANGLINGVINES,
 
 BattleHandlers::DamageCalcUserAbility.add(:ACTIONSTAR,
   proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck, backfire|
-      next unless user.effectActive?(:ActionStar)
-      next unless move.damagingMove?
-      next unless types.include?(:NORMAL)
+    if user.effectActive?(:ActionStar) && move.damagingMove? && types.include?(:NORMAL) || backfire
       mults[:attack_multiplier] *= 13 / 10.0
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -1021,8 +1019,8 @@ BattleHandlers::DamageCalcUserAbility.add(:FUELHUNGRY,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:BARRENBLOOD,
-  proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck|
-    if user.battle.sandy?
+  proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck, backfire|
+    if user.battle.sandy? || backfire
       mults[:attack_multiplier] *= 3 / 2.0
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -1030,8 +1028,8 @@ BattleHandlers::DamageCalcUserAbility.add(:BARRENBLOOD,
 )
 
 BattleHandlers::DamageCalcUserAbility.add(:DEBRISFIELD,
-  proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck|
-    if user.battle.sandy? && type == :ROCK
+  proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck, backfire|
+    if user.battle.sandy? && types.include?(:ROCK) || backfire
       mults[:attack_multiplier] *= 3 / 2.0
       user.aiLearnsAbility(ability) unless aiCheck
     end

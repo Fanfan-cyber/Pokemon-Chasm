@@ -200,8 +200,12 @@ storymode/nostorymode，开启/关闭剧情模式
 7.修复了Live and Lurk文本显示异常
 8.修复了当Attendant's Grace调用Stitch Up时，游戏会崩溃的Bug
 9.现在使用技能时，技能列表不会再高亮显示
-10.将所有:base_damage_multiplier（技能威力调整）改为:attack_multiplier（攻击调整）
-11.
+10.将所有:base_damage_multiplier（威力调整）改为:attack_multiplier（攻击调整）
+11.修复了Backfire对Debris Field不生效的Bug
+12.修复了Backfire对Barren Blood不生效的Bug
+13.修复了Debris Field会导致游戏崩溃的Bug
+14.
+15.
 
 #==============================================================================#
 以上部分记录了此游戏当前版本的更新记录，供参考。

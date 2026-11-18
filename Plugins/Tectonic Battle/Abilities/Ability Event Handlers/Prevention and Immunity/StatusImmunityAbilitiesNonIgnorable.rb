@@ -4,4 +4,4 @@ BattleHandlers::StatusImmunityAbilityNonIgnorable.add(:SHIELDSDOWN,
     }
 )
 
-BattleHandlers::StatusImmunityAbilityNonIgnorable.copy(:SHIELDSDOWN,:DEBRISFIELD)
+BattleHandlers::StatusImmunityAbilityNonIgnorable.copy(:SHIELDSDOWN, :DEBRISFIELD)

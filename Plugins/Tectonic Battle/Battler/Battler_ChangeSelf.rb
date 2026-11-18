@@ -239,7 +239,11 @@ class PokeBattle_Battler
                 healer.hp += amt
                 healer.hp = 0 if healer.hp.negative?
                 PBDebug.log("[HP change] #{healer.pbThis} gained #{amt} HP (#{oldHP}=>#{@hp})") if amt.positive?
-                #raise _INTL("HP greater than total HP") if healer.hp > healer.totalhp && !canOverheal
+=begin
+                if !canOverheal && (@hp > @totalhp)
+                    raise _INTL("HP greater than total HP")
+                end
+=end
                 anyAnim = false if @autoTesting
                 @battle.scene.pbHPChanged(healer, oldHP, anim) if anyAnim
                 if showMessage

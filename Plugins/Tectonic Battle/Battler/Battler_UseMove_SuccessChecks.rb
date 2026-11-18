@@ -216,12 +216,14 @@ class PokeBattle_Battler
         return false
     end
 
-    def tyrannicalPreventsFlinch?
+    def tyrannicalPreventsFlinch?(checkingForAI = false)
         return false unless hasTribeBonus?(:TYRANNICAL)
         return false if pbOwnSide.effectActive?(:TyrannicalImmunity)
-        @battle.pbShowTribeSplash(self, :TYRANNICAL)
-        @battle.pbDisplay(_INTL("{1} refuses to flinch!", pbThis))
-        @battle.pbHideTribeSplash(self)
+        unless checkingForAI
+            @battle.pbShowTribeSplash(self, :TYRANNICAL)
+            @battle.pbDisplay(_INTL("{1} refuses to flinch!", pbThis))
+            @battle.pbHideTribeSplash(self)
+        end
         pbOwnSide.applyEffect(:TyrannicalImmunity)
         return true
     end
@@ -367,7 +369,7 @@ class PokeBattle_Battler
         # Flinching
         if effectActive?(:Flinch)
             if aiCheck
-                if !effectActive?(:FlinchImmunity) || tracker_get(:flinched_by_moonglow)
+                if !effectActive?(:FlinchImmunity) && !hasActiveItem?(:COURAGEBADGE) && !tyrannicalPreventsFlinch?(aiCheck)
                     echoln("\t\t[AI FAILURE CHECK] #{pbThis} rejects the move #{move.id} due to it being predicted to flinch (Moonglow?)")
                     return false
                 end
@@ -379,28 +381,16 @@ class PokeBattle_Battler
                 @battle.pbDisplay(_INTL("{1} would have flinched, but it holds a Courage Badge!", pbThis))
                 aiLearnsItem(:COURAGEBADGE)
             else
-                if effectActive?(:FlinchImmunity) && !tracker_get(:flinched_by_moonglow)
-                    @battle.pbDisplay(_INTL("{1} would have flinched, but it's immune now!", pbThis))
-                    disableEffect(:Flinch)
-                elsif tyrannicalPreventsFlinch?
-                elsif hasActiveItem?(:COURAGEBADGE)
-                    @battle.pbDisplay(_INTL("{1} would have flinched, but it holds a Courage Badge!", pbThis))
-                    aiLearnsItem(:COURAGEBADGE)
-                else
-                    @battle.pbDisplay(_INTL("{1} flinched and couldn't move!", pbThis))
-                    eachActiveAbility do |ability|
-                        BattleHandlers.triggerAbilityOnFlinch(ability, self, @battle)
-                    end
-                    onMoveFailed(move)
-                    if tracker_get(:flinched_by_moonglow)
-                        tracker_set(:flinched_by_moonglow, false)
-                    else
-                        applyEffect(:FlinchImmunity,4)
-                    end
-                    return false
+                @battle.pbDisplay(_INTL("{1} flinched and couldn't move!", pbThis))
+                eachActiveAbility do |ability|
+                    BattleHandlers.triggerAbilityOnFlinch(ability, self, @battle)
                 end
                 onMoveFailed(move)
-                applyEffect(:FlinchImmunity, 4)
+                if tracker_get(:flinched_by_moonglow)
+                    tracker_set(:flinched_by_moonglow, false)
+                else
+                    applyEffect(:FlinchImmunity, 4)
+                end
                 return false
             end
         end
