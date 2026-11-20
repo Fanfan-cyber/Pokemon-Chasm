@@ -90,8 +90,8 @@ class PokeBattle_Move_CureDizzyAndUnlockBothAbilities < PokeBattle_HelpingMove
         target.eachLegalAbility do |legalAbility|
             next if target.ability_ids.include?(legalAbility)
             #next if GameData::Ability.get(legalAbility).is_immutable_ability?
-            target.addAbility(legalAbility, true)
-            target.pbManualTriggerAbilityOnSwitchIn(legalAbility)
+            target.addAbility(legalAbility, true, triggerSwitchIn: true)
+            #target.pbManualTriggerAbilityOnSwitchIn(legalAbility)
         end
     end
 end

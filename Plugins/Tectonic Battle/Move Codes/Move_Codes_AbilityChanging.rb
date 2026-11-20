@@ -136,7 +136,7 @@ class PokeBattle_Move_EmpoweredRolePlay < PokeBattle_Move
         return unless target.firstAbility
         return if GameData::Ability.get(target.firstAbility).is_uncopyable_ability?
         @battle.pbDisplay(_INTL("{1} copies {2}'s ability!", user.pbThis, target.pbThis(true)))
-        user.addAbility(target.firstAbility)
+        user.addAbility(target.firstAbility, triggerSwitchIn: true)
     end
 end
 

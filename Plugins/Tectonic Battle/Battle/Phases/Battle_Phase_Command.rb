@@ -429,7 +429,7 @@ class PokeBattle_Battle
                     echoln("[PLAYER PREDICTION]")
                     eachSameSideBattler do |b|
                         next unless b.pbOwnedByPlayer?
-                        predictedPlayerAction = @battleAI.pbPredictChoiceByPlayer(b.index)
+                        predictedPlayerAction = @battleAI.pbPredictChoiceByPlayer(b.index, is_pre_switch)
                         @predictedActions[b.index] = predictedPlayerAction
                     end
 

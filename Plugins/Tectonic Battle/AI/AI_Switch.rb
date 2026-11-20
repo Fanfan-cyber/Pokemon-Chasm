@@ -18,7 +18,7 @@ class PokeBattle_AI
 
     # Switches out through a safe pivot move if it has one, otherwise directly
     def pbEnemyShouldWithdraw?(idxBattler, is_pre_switch = false)
-        chosenPartyIndex = pbDetermineSwitch(idxBattler)
+        chosenPartyIndex = pbDetermineSwitch(idxBattler, is_pre_switch)
         return false if chosenPartyIndex < 0
         battler = @battle.battlers[idxBattler]
         moveChoices, = pbGetBestTrainerMoveChoices(battler)

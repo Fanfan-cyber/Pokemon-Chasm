@@ -210,7 +210,7 @@ class PokeBattle_Battler
                     echoln("Abilities that Pluripotence is copying: #{abilitiesCopying.to_s}")
                     abils_name = []
                     abilitiesCopying.each do |legalAbility|
-                        copy = addAbility(legalAbility, false, triggerSwitchIn: false)
+                        copy = addAbility(legalAbility, false)
                         copied_abilities << copy if copy
                         abils_name << getAbilityName(legalAbility)
                     end

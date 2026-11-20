@@ -88,8 +88,8 @@ class PokeBattle_Move_EmpoweredAromatherapy < PokeBattle_Move_CureUserPartyStatu
 
     def pbEffectGeneral(user)
         super
-        user.applyFractionalHealing(1.0/4.0, user: user) unless user.fainted?
-        user.addAbility(:STABILITY, true)
+        user.applyFractionalHealing(1.0 / 4.0, user: user) unless user.fainted?
+        user.addAbility(:STABILITY, true, triggerSwitchIn: true)
         transformType(user, :GRASS)
     end
 

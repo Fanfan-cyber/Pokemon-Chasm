@@ -36872,7 +36872,7 @@ Sharp-edged leaves are launched to slash at the opposing team. Can random critic
 The user generates a shock wave from within its body. This lower's the target's Sp. Def.
 从身体里产生冲击波。减小对手的特防。
 The user charges, then attacks on the second turn. Charges instantly in sunshine.
-使用者第一回合充能，第二回合发动攻击。晴天时，无需充能。
+使用者第一回合蓄力，第二回合发动攻击。晴天时，无需蓄力。
 Protects the user from attacks. Physical attackers take 1/8th HP damage.
 防住对手攻击的同时，削减使用物理类技能攻击自身的对手的1/8HP。
 The user scatters bursts of spores that induce sleep. Only one use per battle.
@@ -38124,7 +38124,7 @@ Turns the foe's power against it, dealing damage using the target's Sp. Atk stat
 An electrified cloud zaps the target, lowering their Speed. It has a 50% chance to flinch the target.
 通过积雨云内的电荷电击目标，使对方的速度减小1级。有50%的概率使目标陷入畏缩。
 The user charges, then attacks on the second turn. Charges instantly in rainstorm.
-使用者第一回合充能，第二回合发动攻击。雨天时，无需充能。
+使用者第一回合蓄力，第二回合发动攻击。雨天时，无需蓄力。
 The user erupts with powerful yellow light to damage and numb the target.
 使用者爆发出强大的黄光，对目标造成伤害并使其麻痹。
 The user creates an electric fueled cage, trapping and binding it for three turns.
@@ -38336,7 +38336,7 @@ The user inspires a sudden dread in the target, damaging it. This move always go
 The user launches four Dreepies, which spread out equally to hit near foes. But, they avoid targets they can't hit.
 使用者发射4枚恐怖雨，平均分散攻击附近的对手。它们会避开不能命中的目标。
 The user charges, then attacks on the second turn. This burns or frostbites the target depending on their stats.
-使用者第一回合充能，第二回合发动攻击。根据目标的攻击能力值使其陷入烧伤或冻伤。
+使用者第一回合蓄力，第二回合发动攻击。根据目标的攻击能力值使其陷入烧伤或冻伤。
 The user shakes the target with a deep, rumbling roar. This attack does physical damage.
 使用低沉的吼声震慑目标，造成物理类伤害。
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
@@ -52422,7 +52422,7 @@ Struggle
 {1}'s stats won't go any lower!
 {1}的能力不能再减小了！
 {1} became fully charged due to its Power Herb!
-{1}使用了强力香草，技能充能完毕！
+{1}使用了强力香草，技能蓄力完毕！
 {1} began charging up!
 {1}开始充电！
 {1}'s HP is full!
@@ -52572,7 +52572,7 @@ The air around {1} turns dark and distorted.
 {1} is fully charged. It's about to explode!
 {1}充满了能量。它即将发生爆炸！
 {1} is charging up.
-{1}正在充能。
+{1}正在蓄力。
 {1} turns remain!
 {1}回合将持续！
 {1} eyes {2}'s {3} with jealousy!
@@ -54548,7 +54548,7 @@ The effects of the {1} prevent status moves from being used!
 {1} is an ice sculpture! It can't move!
 {1}是一座冰雕！它不能行动！
 {1} must recharge!
-{1}必须重新充能！
+{1}必须重新蓄力！
 {1} is still attached to {2}!
 {1}仍然连接着{2}！
 A flicker of pity passes through {1}'s eyes, it has no desire to lower itself to this battle!

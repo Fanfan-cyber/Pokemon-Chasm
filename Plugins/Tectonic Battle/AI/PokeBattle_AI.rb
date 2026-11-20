@@ -73,11 +73,11 @@ class PokeBattle_AI
         @typeModCache.clear
     end
 
-    def pbPredictChoiceByPlayer(idxBattler)
+    def pbPredictChoiceByPlayer(idxBattler, is_pre_switch)
         user = @battle.battlers[idxBattler]
         bestMoveChoices, = pbGetBestTrainerMoveChoices(user)
         return [:None, 0, nil, -1] if bestMoveChoices.empty?
-        switchChoice = pbDetermineSwitch(idxBattler)
+        switchChoice = pbDetermineSwitch(idxBattler, is_pre_switch)
         if switchChoice > -1
             moveChoice = safePivotChoice(user, bestMoveChoices)
             return [:SwitchOut, switchChoice, -1] unless moveChoice

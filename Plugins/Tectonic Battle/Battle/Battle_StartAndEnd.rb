@@ -491,7 +491,7 @@ class PokeBattle_Battle
             end
             PBDebug.log("")
 
-            advanceBattlerTurnCounts
+            #advanceBattlerTurnCounts
 
             # Start of round phase
             PBDebug.logonerr { pbStartOfRoundPhase }
@@ -641,6 +641,8 @@ class PokeBattle_Battle
     end
 
     def pbStartOfRoundPhase
+        advanceBattlerTurnCounts
+
         # The battle is a draw if the player survives a certain number of turns
         # In survival battles
         if @turnsToSurvive > 0
