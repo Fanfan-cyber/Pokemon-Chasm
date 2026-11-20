@@ -421,7 +421,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:HAILSTONEHELM,
 )
 
 BattleHandlers::DamageCalcTargetAbility.add(:BARRENBLOOD,
-  proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
+  proc { |ability, user, target, _move, mults, _baseDmg, types, aiCheck|
     if user.battle.sandy? 
       mults[:final_damage_multiplier] *= 3 / 2.0
       target.aiLearnsAbility(ability) unless aiCheck
@@ -463,7 +463,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:VIGILANT,
 
 =begin
 BattleHandlers::DamageCalcTargetAbility.add(:WELLEQUIPPED,
-  proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
+  proc { |ability, user, target, _move, mults, _baseDmg, types, aiCheck|
       mults[:final_damage_multiplier] *= 1.15
       target.aiLearnsAbility(ability) unless aiCheck
   }
@@ -471,7 +471,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:WELLEQUIPPED,
 =end
 
 BattleHandlers::DamageCalcTargetAbility.add(:DEFEATIST,
-  proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
+  proc { |ability, user, target, _move, mults, _baseDmg, types, aiCheck|
     unless target.belowHalfHealth?
       mults[:attack_multiplier] *= 0.5
       target.aiLearnsAbility(ability) unless aiCheck
@@ -480,7 +480,7 @@ BattleHandlers::DamageCalcTargetAbility.add(:DEFEATIST,
 )
 
 BattleHandlers::DamageCalcTargetAbility.add(:ILLUSION,
-  proc { |ability, user, target, _move, mults, _baseDmg, type, aiCheck|
+  proc { |ability, user, target, _move, mults, _baseDmg, types, aiCheck|
       mults[:final_damage_multiplier] *= 0.7 if target.illusion?
   }
 )

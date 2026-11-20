@@ -424,11 +424,10 @@ DOUSEDRIVE: weakToWater, }
                 chosenItem = results.keys.sample
             end
 
-            if chosenItem
-                battle.pbDisplayBossNarration(_INTL("{1} loads a {2}!", user.pbThis, GameData::Item.get(chosenItem).real_name))
-                user.giveItem(chosenItem)
+            unless chosenItem
+                battle.pbDisplayBossNarration(_INTL("{1} can't find any!", user.pbThis))
             else
-                battle.pbDisplayBossNarration(_INTL("{1} loads a {2}!",user.pbThis,GameData::Item.get(chosenItem).real_name))
+                battle.pbDisplayBossNarration(_INTL("{1} loads a {2}!", user.pbThis, GameData::Item.get(chosenItem).real_name))
                 user.giveItem(chosenItem)
                 newForm = case chosenItem
                     when :SHOCKDRIVE then 1

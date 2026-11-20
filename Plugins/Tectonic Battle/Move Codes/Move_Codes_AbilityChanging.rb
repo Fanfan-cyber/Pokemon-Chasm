@@ -209,7 +209,7 @@ class PokeBattle_Move_UserTargetSwapAbilities < PokeBattle_Move
         return false
     end
 
-    def pbFailsAgainstTarget?(_user, target, show_message)
+    def pbFailsAgainstTarget?(user, target, show_message)
         unless target.firstAbility
             if show_message
                 @battle.pbDisplay(_INTL("But it failed, since {1} doesn't have an ability!", target.pbThis(true)))

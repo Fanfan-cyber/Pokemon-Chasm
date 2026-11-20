@@ -55,7 +55,7 @@ BattleHandlers::DamageCalcUserAbility.add(:DEFEATIST,
 
 BattleHandlers::DamageCalcUserAbility.add(:PERFECTIONIST,
   proc { |ability, user, target, _move, mults, _baseDmg, _types, aiCheck, backfire|
-    unless target.damageState.critical || backfire # TODO: Ai check
+    if !target.damageState.critical || backfire # TODO: Ai check
       mults[:final_damage_multiplier] *= 1 / 2.0
       user.aiLearnsAbility(ability) unless aiCheck
     end
@@ -141,7 +141,7 @@ BattleHandlers::DamageCalcUserAbility.add(:RECKLESS,
 BattleHandlers::DamageCalcUserAbility.add(:LINEBACKER,
   proc { |ability, user, _target, move, mults, _baseDmg, _types, aiCheck, backfire|
     if move.recoilMove? || backfire
-      mults[:attack_multiplier] *= 2.0
+      mults[:attack_multiplier] *= 2
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -396,7 +396,7 @@ BattleHandlers::DamageCalcUserAbility.add(:SNIPER,
 BattleHandlers::DamageCalcUserAbility.add(:STAKEOUT,
   proc { |ability, user, target, _move, mults, _baseDmg, _types, aiCheck, backfire|
     if target.effectActive?(:SwitchedIn) || backfire
-      mults[:attack_multiplier] *= 2.0
+      mults[:attack_multiplier] *= 2
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -427,7 +427,7 @@ BattleHandlers::DamageCalcUserAbility.add(:BIRDOFPREY,
 BattleHandlers::DamageCalcUserAbility.add(:QUARRELSOME,
   proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck, backfire|
     if user.firstTurn? || backfire
-      mults[:attack_multiplier] *= 2.0
+      mults[:attack_multiplier] *= 2
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -548,7 +548,7 @@ BattleHandlers::DamageCalcUserAbility.add(:UNCANNYCOLD,
 BattleHandlers::DamageCalcUserAbility.add(:WATERBUBBLE,
   proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck, backfire|
     if types.include?(:WATER) || backfire
-      mults[:attack_multiplier] *= 2.0
+      mults[:attack_multiplier] *= 2
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -665,7 +665,7 @@ BattleHandlers::DamageCalcUserAbility.add(:ARMORPIERCING,
     if  target.steps[:DEFENSE] > 0 ||
         target.steps[:SPECIAL_DEFENSE] > 0 ||
         target.protectedByScreen? || backfire
-      mults[:attack_multiplier] *= 2.0
+      mults[:attack_multiplier] *= 2
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -683,7 +683,7 @@ BattleHandlers::DamageCalcUserAbility.add(:TERRITORIAL,
 BattleHandlers::DamageCalcUserAbility.add(:SOULREAD,
   proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck, backfire|
       if target.lastMoveUsedOffType? || backfire
-          mults[:attack_multiplier] *= 2.0
+          mults[:attack_multiplier] *= 2
           user.aiLearnsAbility(ability) unless aiCheck
       end
   }
@@ -701,7 +701,7 @@ BattleHandlers::DamageCalcUserAbility.add(:DOUBLECHECK,
 BattleHandlers::DamageCalcUserAbility.add(:DRAGONSLAYER,
   proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck, backfire|
     if target.pbHasType?(:DRAGON) || backfire
-      mults[:attack_multiplier] *= 2.0
+      mults[:attack_multiplier] *= 2
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }
@@ -910,7 +910,7 @@ BattleHandlers::DamageCalcUserAbility.add(:WREAKHAVOC,
 BattleHandlers::DamageCalcUserAbility.add(:SLINKY,
   proc { |ability, user, target, move, mults, _baseDmg, types, aiCheck, backfire|
     if move.is_a?(PokeBattle_Move_TwoTurnAttackInvulnerable) || backfire
-      mults[:attack_multiplier] *= 2.0
+      mults[:attack_multiplier] *= 2
       user.aiLearnsAbility(ability) unless aiCheck
     end
   }

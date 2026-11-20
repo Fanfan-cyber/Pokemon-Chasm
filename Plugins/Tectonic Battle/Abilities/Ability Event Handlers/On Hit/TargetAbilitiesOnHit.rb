@@ -107,7 +107,7 @@ BattleHandlers::TargetAbilityOnHit.add(:TANGLINGHAIR,
           if aiCheck
               ret = 0
               aiNumHits.times do |i|
-                  ret -= getMultiStatDownEffectScore([:SPEED , 3], target, user, fakeStepModifier: i)
+                  ret -= getMultiStatDownEffectScore([:SPEED, 3], target, user, fakeStepModifier: i)
               end
               next ret
           end

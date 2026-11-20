@@ -905,7 +905,7 @@ class PokeBattle_Battler
             next if GameData::Ability.get(abil).is_uncopyable_ability?
             #@ability_ids.push(abil)
             #@addedAbilities.push(abil)
-            addAbility(abil, false, triggerSwitchIn: true)
+            addAbility(abil, false)
         end
     end
 

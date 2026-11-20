@@ -37618,7 +37618,7 @@ The user emits an aroma that raises the target's three weakest stats.
 The user applies a painful chemical to the target with a smack. It has a 10% chance to poison.
 使用者用力拍打目标并涂抹一种痛苦的化学物质。有10%的概率使目标陷入中毒。
 The user stabs the target with a sharp spike to drain its life force. The user's HP is restored by 50% of the damage dealt. This can overheal.
-使用者用尖刺刺穿目标以吸取其生命。使用者的HP回复造成伤害的50%，可以过量回复。
+使用者用尖刺刺穿目标以吸取其生命。回复造成伤害的一半HP，可以过量回复。
 The user attacks with small beams of light. It has a 40% chance to flinch the target.
 使用者发出小光束攻击。有40%的概率使目标陷入畏缩。
 The user emits rapid bursts of light and rampages for two turns.
@@ -37714,7 +37714,7 @@ The user drains heat from the air around the target, afflicting it with frostbit
 The user buries the target with somber force. Then, this move is disabled.
 用阴暗的力量埋葬对手。之后直到自身下场为止，这个技能会暂时不可使用。
 The user drains the target's soul. The user's HP is restored by 50% of the damage dealt. This can overheal.
-使用者吸取目标的灵魂。使用者的HP回复量等于造成伤害的50%，可以过量回复。
+使用者吸取目标的灵魂。回复造成伤害的一半HP，可以过量回复。
 The user licks the target, numbing them, or cursing them if they're already numbed.
 舔舐对手使其麻痹，如果对手已经麻痹，则让对手陷入诅咒。
 The user unleashes its grudge, damaging the target and cutting 4 PP from the move last used by it.
@@ -38030,7 +38030,7 @@ Halves attack damage taken this turn. Leeches any attackers. Fails if used succe
 Lays roots that heal the user by absorbing 1/8th HP from foes each turn. The user becomes trapped.
 铺设根须，每回合结束时吸收敌方1/8的HP来回复使用者，但使用者会陷入束缚状态。
 Saps an enemy lured into its jaws. If they hit the user this turn, the user's HP is restored by 66% the damage dealt.
-会吸取被诱入其颚中的对手的能量。如果对手该回合攻击了使用者，使用者的HP回复造成伤害的66%。
+吸取被诱入其颚中的对手的能量。如果对手该回合攻击了使用者，使用者会回复造成伤害的66%的HP。
 Attacks with energy from jealousy. All opposing Pokémon with stat boosts get leeched.
 用嫉妒的能量进行攻击。所有有能力等级增加的对方精灵都会被寄生。
 A parasitic seed leeches the target and lowers both its Attack and Sp. Atk.
@@ -38042,7 +38042,7 @@ Attacks by gliding on the ground. This move always goes first in sunshine.
 The user calms itself and its teammates, raise its Sp. Def by three steps, and its allies' by one.
 使用者安抚自身和队友，自身的特防增加3级，其队友的特防增加1级。
 A nutrient-draining attack. The user's HP is restored by 75% of the damage dealt.
-吸取对手的营养，回复造成伤害的75%HP。
+吸取对手的营养，回复造成伤害的75%的HP。
 The user makes a scary sound by shaking, forcing the target to switch out. Always goes last.
 通过摇晃来发出可怕的声音，迫使对方进行替换。
 The user wraps the target in its vines, trapping and binding it for three turns.
@@ -38318,7 +38318,7 @@ The user slashes the foe while menacing. During eclipse, the target also becomes
 The user rips and tears its way across the battlefield, damaging all near Pokémon and taking 50% recoil.
 使用者在战场上撕裂穿行，攻击所有附近的精灵并受到50%的反伤。
 The user bites to drain the target's energy. The user's HP is restored by 50% of the damage dealt.
-使用者用啃咬以吸取目标的能量。使用者的HP回复造成伤害的50%。
+使用者用啃咬以吸取目标的能量。回复造成伤害的一半HP。
 The user harnesses primal instincts to strike at the target. This has a 20% chance to lower the higher of the target's Attack or Sp. Atk.
 使用者利用原始本能攻击目标。有20%的概率使目标较高的一项攻击减小1级。
 The user crushes the target with evil intent. This deals double damage if the target has a non-volatile status condition.
@@ -38474,7 +38474,7 @@ The target is pranked with a huge bucket of water. This has a 30% chance to wate
 The target is hit with a generous donation. Consumes up to 1000 scattered coins. Base power is boosted by 10 for every 100 consumed.
 让目标被慷慨的馈赠命中。消耗最多1000枚散落的金钱。每消耗100枚，技能威力增加10点。
 Healing coral forms on the foe's side. For the next four turns, attacks on foes heal the user for 33% of the damage dealt. This can overheal.
-在对手场上形成回复珊瑚。接下来4回合，向对手的攻击将会为使用者回复造成伤害的33%HP，可以过量回复。
+在对手场上形成回复珊瑚。接下来4回合，向对手的攻击将会为使用者回复造成伤害的33%的HP，可以过量回复。
 Leeches the target by kissing them with its thin mouth.
 用嘴巴亲吻对手，从而使其陷入寄生。
 The user dances in tune with a dreamlike energy, raising their Sp. Atk by four steps.
@@ -38507,6 +38507,8 @@ Makes everyone's hearts beat together. Others can join in the Round and make the
 让所有人的心跳同步。其他精灵可加入轮唱使伤害增加。
 The user uses honey to fully restore its HP. However, this lures swarming insects, trapping and binding the user for three turns.
 使用者使用蜂蜜完全回复HP，但会引诱昆虫群，使自身被困住并束缚3回合。
+The user uses honey to fully restore its HP. This can overheal. However, swarming insects trap and bind the user for two turns.
+使用者使用蜂蜜完全回复HP，但会使自身被困住并束缚2回合，可以过量回复。
 The user attempts to humble the target, guaranteeing a critical hit on foes with boosted stats.
 先礼后兵，对有增加的能力等级的精灵必定会命中要害。
 The user hopes for bad luck, jinxing the target. Attacks against them crit and pierce protection.
@@ -43435,7 +43437,7 @@ Uses Aromatherapy if an attack lowers its HP below half.
 Doubles this Pokémon's Sp. Def, but can't use status moves.
 特防翻倍，但不能使用变化类技能。
 During eclipse, it restores its HP by half the damage it deals with attacks.
-日食时，回复自身攻击造成伤害的一半的HP。
+日食时，回复自身攻击造成伤害的一半HP。
 Attacks this Pokémon uses that don't share a type with it are boosted by 50%. It can't use attacks of its own types.
 不能使用与自身属性相同的技能。使用与自身属性不同的技能时，伤害增加50%。
 At the beginning of every 5th turn, this Pokémon forcibly switches into battle. It chooses which move it will use that turn.
@@ -43592,6 +43594,10 @@ After knocking out any Pokémon, summons hail for four turns.
 打倒对手时，开启持续4回合的冰雹。
 Immune to non-volatile status conditions due to its hard shell. Boosts Sp. Atk and Speed by 30% in sandstorm.
 免疫异常。沙暴时，特攻和速度增加30%。
+Immune to non-volatile status conditions. In sandstorm, powers up Rock-type moves by 50% and deals 1/6th max HP when hit.
+免疫异常。沙暴时，岩石属性技能威力增加50%，且被攻击时，攻击者会受到1/6最大HP的伤害。
+During sandstorm, deal and take 50% more damage.
+沙暴时，造成的和受到的伤害增加50%。
 Immune to Bug-type moves and raises Speed instead.
 被虫属性技能攻击时，不会受到伤害，而是速度增加1级。
 Prevents Bug- or Poison-type moves during moonglow.
@@ -43605,7 +43611,9 @@ When this Pokémon traps and binds a target, one hazard layer of Spikes is place
 Doubles this Pokémon's Defense in a sandstorm.
 沙暴时，物防翻倍。
 Restores this Pokémon's HP based on damage taken by others from sandstorm.
-根据其他精灵因沙暴受到的伤害回复HP。
+根据其他精灵因沙暴所受的伤害回复HP。
+Restores this Pokémon's HP based on damage taken by others from sandstorm, and increases sandstorm damage by 50%.
+根据其他精灵因沙暴所受的伤害回复HP。沙暴的伤害增加50%。
 This Pokémon is immune to Ground-type moves and takes 20% less damage in sandstorm.
 沙暴时，受到的伤害减小20%。此精灵视为飞空单位。
 Prevents Water- or Grass-type moves during sandstorm.
@@ -43721,7 +43729,7 @@ Takes 30% less damage in a rainstorm.
 Pulse moves multi-hit three to five times at 30% power.
 脉冲类技能会以30%的威力连续攻击3至5次。
 While this Pokémon is on the field, all attacks restore their user's HP by 30% of damage dealt.
-在场时，所有精灵会回复攻击造成伤害的30%HP。
+在场时，所有精灵会回复攻击造成伤害的30%的HP。
 While this Pokémon is on the field, all healing is boosted by 20% and can overheal.
 在场时，所有回复类效果增加20%，且可以过量回复。
 This Pokémon is also Fire-type.
@@ -43874,8 +43882,18 @@ This Pokémon and its allies are immune to weather downsides.
 自身和队友不会受到天气的负面效果。
 When this Pokémon knocks a foe below half health, this Pokémon switches out.
 当该精灵将对手的HP减小到一半以下时，该精灵替换下场。
+When this Pokémon's attacks deal less than 50% of the target's max HP, this Pokémon switches out.
+该精灵的攻击对目标造成的伤害小于目标最大HP的一半时，该精灵替换下场。
+Boosts Sp. Atk after using a sound move. Heals for 1/5th max HP after using a dance move.
+使用声音类技能后，特攻增加1级。使用舞蹈类技能后，回复1/5最大HP。
+Doubles this Pokémon's crit chance, if it lands a move that could crit but doesn't. Powers up critical hits by another 50%.
+攻击时，如果该技能可以命中目标的要害但是没有命中要害的话，命中要害率翻倍。命中要害时，技能威力增加50%。
+During sandstorm, its attacks can't miss and restore HP equal to 25% of the damage dealt.
+沙暴时，攻击必定会命中，并且回复造成伤害的25%的HP。
 Powers up Bug-type moves of itself and its allies by 50%.
 自身和队友的虫属性技能的威力增加50%。
+Prevents 75% of the self-damage from recoil and self-destructing during sandstorm.
+沙暴时，反伤类和自爆类技能的反伤减小75%。
 Upon entry, heals self and allies for 25% of their max health.
 出场时，回复自身和队友最大HP的25%。
 Powers up recoil and sound moves by 30%.
@@ -44426,6 +44444,8 @@ Slice moves always crit. However, their damage is dealt at the end of the round.
 切割类技能必定会命中要害，但伤害会在回合结束时结算。
 Takes 50% less damage from Water-type moves. Raises Speed by four steps when hit by one.
 受到的水属性技能伤害减小50%。被水属性技能攻击时，速度增加4级。
+Gains two steps of Attack and Speed if it didn’t deal attack damage this turn. When it does, reset its positive stat changes.
+只要当回合没有造成攻击伤害，物攻和速度增加2级，如果造成了，清除所有增加的能力等级。
 Its attacks are critical against waterlogged targets.
 攻击浸水的对手时，必定会命中要害。
 Can hold a second item by stealing it.
@@ -44525,7 +44545,7 @@ Upon entry during eclipse, heals the lowest HP ally or self by 33%.
 Non-biting attacks deal 50% more damage if this Pokémon used a biting move last turn.
 若该精灵上回合使用了咬类技能，该回合的非咬类技能伤害增加50%。
 Restores its HP by 50% of the damage it deals to sleeping targets.
-攻击睡眠中的目标会回复自身的HP，回复量为造成伤害的50%。
+攻击睡眠中的目标会回复自身的HP，回复量为造成伤害的一半。
 Takes half damage from Fighting- and Rock-type moves.
 受到格斗和岩石属性技能攻击时，伤害减半。
 Powers up Poison-type moves of itself and its allies by 50%.
@@ -44620,6 +44640,8 @@ During hail, immune to Fire- and Electric-type moves.
 冰雹时，免疫火和电属性技能。
 Restores HP based on damage taken by others from hail.
 根据其他精灵因冰雹所受的伤害回复HP。
+Restores HP based on damage taken by others from hail, and increases hail damage by 50%.
+根据其他精灵因冰雹所受的伤害回复HP。冰雹的伤害增加50%。
 After knocking out any Pokémon, raises its Sp. Atk and Sp. Def.
 打倒对手时，特攻和特防增加1级。
 The random added effects of moves by all battlers always activate.
@@ -50060,7 +50082,7 @@ Natural Protection halves recoil damage and other passive damage like burn or sa
 Coral Overgrowth
 瑚茂
 Coral Overgrowth causes attacks against the opponent to heal the user for 33% of the damage dealt. This can also overheal.
-瑚茂使攻击对手时使用者回复造成伤害的33%，可以过量回复。
+瑚茂使攻击对手时使用者回复造成伤害的33%的HP，可以过量回复。
 Wishing Well
 许愿井
 Wishing Well consumes up to 1000 scattered coins to block random added effects and heal the active side for 1/16th HP each turn. 100 coins per turn for a max. of 10 turns.
@@ -52596,7 +52618,7 @@ The avatar swaps machines!
 {1} is studying {2}'s personality!
 {1}正在研究{2}的个性！
 {1}'s wind whips in {2}'s direction!
-{1}的风正向{2}的方向吹去！
+{1}的风正朝{2}的方向吹去！
 {1} is molding its clay for physical defense!
 {1}正在塑造用于物防的粘土！
 {1} is molding its clay for special defense!

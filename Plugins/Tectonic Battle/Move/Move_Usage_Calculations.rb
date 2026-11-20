@@ -7,7 +7,7 @@ class PokeBattle_Move
     def pbBaseType(user)
         ret = @type
 
-        ret_type = @battle.apply_field_effect(:modify_move_base_type, user, type, self)
+        ret_type = @battle.apply_field_effect(:modify_move_base_type, user, ret, self)
         ret = ret_type if ret_type
 
         if ret

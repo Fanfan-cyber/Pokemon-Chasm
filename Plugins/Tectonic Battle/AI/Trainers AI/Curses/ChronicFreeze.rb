@@ -13,12 +13,12 @@ PokeBattle_Battle::BattleStartApplyCurse.add(:CURSE_NO_MOVING_CYCLICAL,
 
 PokeBattle_Battle::BeginningOfTurnCurseEffect.add(:CURSE_NO_MOVING_CYCLICAL,
     proc { |curse_policy, battle|
-        next if battle.turnCount == 0
+        #next if battle.turnCount == 0
         if battle.turnCount % 4 == 0
             battle.eachSameSideBattler do |b|
                 battle.pbAnimation(:SHEERCOLD, b, b)
                 b.applyEffect(:IceSculpture)
-                b.applyFrostbite if b.canFrostbite?(nil, false)
+                b.applyFrostbite #if b.canFrostbite?(nil, false)
                 #b.applyFrostbite unless b.frostbitten?
             end
             battle.sides[0].applyEffect(:IceSculptureTurns, 4)

@@ -192,21 +192,27 @@ storymode/nostorymode，开启/关闭剧情模式
 
 0.5.1 08042026
 1.修改了大量中文的翻译
-2.现在CURSE_NO_MOVING_CYCLICAL将精灵变成冰雕时的冻伤不再是强制效果
-3.修正了发布页关于经验分配器的描述
-4.现在CURSE_NO_MOVING_CYCLICAL将精灵变成冰雕的效果在第0回合不会发动
-5.修复了替身的离场回血效果会异常触发的Bug
-6.修正了0.5.0的一些错误的更新记录
-7.修复了Live and Lurk文本显示异常
-8.修复了当Attendant's Grace调用Stitch Up时，游戏会崩溃的Bug
-9.现在使用技能时，技能列表不会再高亮显示
-10.将所有:base_damage_multiplier（威力调整）改为:attack_multiplier（攻击调整）
-11.修复了Backfire对Debris Field不生效的Bug
-12.修复了Backfire对Barren Blood不生效的Bug
-13.修复了Debris Field会导致游戏崩溃的Bug
-14.修复了Dummy精灵使用的技能和特性联动之间可能存在的一些潜在Bug
-15.
+2.修正了发布页关于经验分配器的描述
+3.修复了替身的离场回血效果会异常触发的Bug
+4.修正了0.5.0的一些错误的更新记录
+5.修复了Live and Lurk的文本显示异常
+6.修复了当Attendant's Grace调用Stitch Up时，游戏会崩溃的Bug
+7.修复了当精灵没有正常使用过任何技能，但是却因为某些效果导致自身被施加禁用（Disable）效果时，游戏会崩溃的Bug
+8.现在使用技能时，技能列表将不会再高亮显示
+9.将所有:base_damage_multiplier（威力调整）改为:attack_multiplier（攻击调整），:attack_multiplier是一个同时作用于物攻和特攻的调整
+10.修复了Backfire对Debris Field不生效的Bug
+11.修复了Backfire对Barren Blood不生效的Bug
+12.修复了Debris Field会导致游戏崩溃的Bug
+13.修复了Dummy精灵使用的技能和特性联动之间可能存在的一些潜在的Bug
+14.修复了盖诺赛克特的化身在获取物品进行形态变换时会导致游戏崩溃的Bug
+15.修复了Swift Stomps代码的语法错误
+16.修复了Backfire对Perfectionist不生效的Bug
+17.修复了Elemental Fang会导致游戏崩溃的Bug
+18.修复了特性互换会导致游戏崩溃的Bug
+19.
 
+Inure
+Time Skip
 #==============================================================================#
 以上部分记录了此游戏当前版本的更新记录，供参考。
 想要获得往期版本的更新记录，请查看release_version_mod_pld.txt，感谢您游玩此游戏。
