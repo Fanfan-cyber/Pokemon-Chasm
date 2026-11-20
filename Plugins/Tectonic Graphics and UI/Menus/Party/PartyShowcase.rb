@@ -111,7 +111,7 @@ class PokemonPartyShowcase_Scene
                         showItemDescriptionMessage(item)
                     end
                   elsif !$battle
-                    showItemDescriptionMessage(Settings::DEFAULT_ITEMS.first)
+                      showItemDescriptionMessage(Settings::DEFAULT_ITEMS.first)
                   end
                 end
             elsif Input.trigger?(Input::DOWN)
@@ -134,10 +134,9 @@ class PokemonPartyShowcase_Scene
                             @selectedIndex = @party.length - 1
                         end
                     elsif @selectedIndex.even?
-                            @selectedIndex = @party.length - 1
-                        else
-                            @selectedIndex = @party.length - 2
-                        end
+                        @selectedIndex = @party.length - 1
+                    else
+                        @selectedIndex = @party.length - 2
                     end
                 end
                 pbPlayCursorSE

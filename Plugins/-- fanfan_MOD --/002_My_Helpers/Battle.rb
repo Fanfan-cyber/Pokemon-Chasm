@@ -94,8 +94,8 @@ class PokeBattle_Battle
     adaptive_ai_v1_type[[user.unique_id, target.unique_id]]
   end
 
-  def record_adaptive_ai_v1_type(user, target, type)
-    adaptive_ai_v1_type[[user.unique_id, target.unique_id]] = type
+  def record_adaptive_ai_v1_type(user, target, types)
+    adaptive_ai_v1_type[[user.unique_id, target.unique_id]] = types
   end
 
   def adaptive_ai_v2_type

@@ -10,7 +10,7 @@
 
 MOD_VERSION    = "0.5.1"
 UPDATE_VERSION = 51
-VERSION_NAME   = ["Overture of Dawn", "破晓序曲"]
+VERSION_NAME   = ["Requiem of the Long Night", "长夜挽歌"]
 
 CHANGE_LOG = <<-LOGGER
 #==============================================================================#
@@ -204,7 +204,7 @@ storymode/nostorymode，开启/关闭剧情模式
 11.修复了Backfire对Debris Field不生效的Bug
 12.修复了Backfire对Barren Blood不生效的Bug
 13.修复了Debris Field会导致游戏崩溃的Bug
-14.
+14.修复了Dummy精灵使用的技能和特性联动之间可能存在的一些潜在Bug
 15.
 
 #==============================================================================#

@@ -41,9 +41,9 @@ def pbRoughTypes(move, user, target)
         if battle.adaptive_ai_v1_type_claced?(user, target)
             battle.get_adaptive_ai_v1_type(user, target)
         else
-            calc_type = calc_best_offense_types(target)[0]
-            battle.record_adaptive_ai_v1_type(user, target, calc_type)
-            calc_type
+            calc_types = [calc_best_offense_types(target)[0]]
+            battle.record_adaptive_ai_v1_type(user, target, calc_types)
+            calc_types
         end
     else
         return move.pbCalcTypes(user)

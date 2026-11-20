@@ -53,7 +53,7 @@ BattleHandlers::GuaranteedCriticalUserAbility.add(:STAYOFEXECUTION,
 )
 
 BattleHandlers::GuaranteedCriticalUserAbility.add(:SWIFTSTOMPS,
-    proc { |ability, user, _target, _battle, move, aiCheck, aiCheck|
+    proc { |ability, user, _target, _battle, move, aiCheck|
       hits = user.battle_tracker_get(:hits_in_progress_kicking)
       hits += 1 if aiCheck
       next true if move.kickingMove? && hits % 3 == 0

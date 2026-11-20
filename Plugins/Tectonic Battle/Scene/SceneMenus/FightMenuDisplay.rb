@@ -319,35 +319,35 @@ class FightMenuDisplay < BattleMenuBase
     end
 
     def setMoveOutcomePredictor(move, opposingBattler)
+      effectivenessCategory = 0
       begin
-      if @battler.battle.should_inverse? || TA.get(:shuffledisplay)
-        effectivenessCategory = rand(6)
-      else
-        typeOfMove = move.pbCalcType(@battler)
-        effectiveness = move.pbCalcTypeMod(move.pbCalcTypes(@battler), @battler, opposingBattler, true)
+          if @battler.battle.should_inverse? || TA.get(:shuffledisplay)
+              effectivenessCategory = rand(6)
+          else
+              effectiveness = move.pbCalcTypeMod(move.pbCalcTypes(@battler), @battler, opposingBattler, true)
 
-            if move.is_a?(PokeBattle_FixedDamageMove)
-                if effectiveness == 0
-                    effectivenessCategory = 0
-                else
-                    effectivenessCategory = 3
-                end
-            else
-                case effectiveness
-                when 0              then effectivenessCategory = 0
-                when 0.00001..0.25  then effectivenessCategory = 1
-                when 0.5            then effectivenessCategory = 2
-                when 1              then effectivenessCategory = 3
-                when 2              then effectivenessCategory = 4
-                when 4..            then effectivenessCategory = 5
-                end
+              if move.is_a?(PokeBattle_FixedDamageMove)
+                  if effectiveness == 0
+                      effectivenessCategory = 0
+                  else
+                      effectivenessCategory = 3
+                  end
+              else
+                  case effectiveness
+                  when 0              then effectivenessCategory = 0
+                  when 0.00001..0.25  then effectivenessCategory = 1
+                  when 0.5            then effectivenessCategory = 2
+                  when 1              then effectivenessCategory = 3
+                  when 2              then effectivenessCategory = 4
+                  when 4..            then effectivenessCategory = 5
+                  end
+              end 
             end
-
             moveOutcomeText = [_INTL("No Effect"), _INTL("Barely"), _INTL("Not Very"), _INTL("Neutral"), _INTL("Super"), _INTL("Hyper"), _INTL("Hyper")][effectivenessCategory]
-            effectivenessColor = EFFECTIVENESS_COLORS[effectivenessCategory]
         rescue StandardError
             moveOutcomeText = _INTL("ERROR")
         end
+        effectivenessColor = EFFECTIVENESS_COLORS[effectivenessCategory]
 
         opposingBattler.moveOutcomePredictor.setEffectiveness(moveOutcomeText, effectivenessColor)
         if move.baseDamage == 1 && !move.is_a?(PokeBattle_FixedDamageMove)

@@ -83,18 +83,14 @@ class PokeBattle_Move
                 ret = Effectiveness::NORMAL_EFFECTIVE
             end
         elsif Effectiveness.super_effective_type?(moveType, defType)
-            # Delta Stream's weather
-            if @battle&.pbWeather == :StrongWinds && defType == :FLYING
-                ret = Effectiveness::NORMAL_EFFECTIVE
-            end
-            # Inured
-            if target&.effectActive?(:Inured)
+            # Delta Stream's weather, Inured
+            if @battle&.pbWeather == :StrongWinds && defType == :FLYING || target&.effectActive?(:Inured)
                 ret = Effectiveness::NORMAL_EFFECTIVE
             end
         end
 
         # Grounded Flying-type Pokémon become susceptible to Ground moves
-        ret = Effectiveness::NORMAL_EFFECTIVE if !target&.airborne? && moveType == :GROUND && defType == :FLYING
+        ret = Effectiveness::NORMAL_EFFECTIVE if target && !target.airborne? && defType == :FLYING && moveType == :GROUND
 
         new_ret = @battle&.apply_inverse(ret)
         ret = new_ret if new_ret
@@ -210,7 +206,7 @@ class PokeBattle_Move
     def pbCalcAccuracyModifiers(user, target, modifiers, aiCheck = false, aiTypes = nil, aiContext = nil)
         types = aiCheck ? aiTypes : @calcTypes
 
-        @battle.apply_field_effect(:modify_accuracy, user, target, self, modifiers, types, aiCheck)
+        #@battle.apply_field_effect(:modify_accuracy, user, target, self, modifiers, types, aiCheck)
 
         # Ability effects that alter accuracy calculation
         user.eachAbilityShouldApply(aiCheck) do |ability|

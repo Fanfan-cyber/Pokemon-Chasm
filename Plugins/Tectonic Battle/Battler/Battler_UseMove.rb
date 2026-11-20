@@ -163,7 +163,7 @@ class PokeBattle_Battler
     end
 
     def getTypeModBeforeSuccessCheck(user, target, move)
-        old_move_calc_type = move.calcTypes
+        old_move_calc_types = move.calcTypes
         if user.should_apply_adaptive_ai_v4?(target, move)
             calc_adaptive_ai_type_mod(@battle, user, target, move, :ADAPTIVEAIV4, true, true)
         elsif user.should_apply_adaptive_ai_v3?(target, move)
@@ -172,10 +172,10 @@ class PokeBattle_Battler
             calc_adaptive_ai_type_mod(@battle, user, target, move, :ADAPTIVEAIV2)
         elsif user.should_apply_adaptive_ai_v1?(target, move)
             calc_types = calc_best_offense_types(target)
-            calc_type  = change_calc_type(calc_types, battle, user, move, :ADAPTIVEAIV1)
-            move.pbCalcTypeMod(calc_type, user, target)
+            calc_types = change_calc_type(calc_types, battle, user, move, :ADAPTIVEAIV1)
+            move.pbCalcTypeMod(calc_types, user, target)
         else
-            move.pbCalcTypeMod(old_move_calc_type, user, target)
+            move.pbCalcTypeMod(old_move_calc_types, user, target)
         end
     end
 
@@ -835,7 +835,7 @@ class PokeBattle_Battler
         targets.each { |b|
             b.damageState.resetPerHit
             if b.damageState.recalcTypeMod
-                b.damageState.typeMod = move.pbCalcTypeMod(move.calcType, user, b)
+                b.damageState.typeMod = move.pbCalcTypeMod(move.calcTypes, user, b)
                 b.damageState.recalcTypeMod = false
             end
             # Tracked whether the Pokemon is trapped

@@ -1,3 +1,0 @@
-Name         = Chasm MasterDex
-Credits      = Essentials v19 Team,Zinnia,Beta
-Requires	 = Chasm Graphics and UI

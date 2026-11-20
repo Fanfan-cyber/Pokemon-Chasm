@@ -909,6 +909,7 @@ BattleHandlers::UserAbilityEndOfMove.add(:PRIMEVALMEGALAUNCHER,
 
 BattleHandlers::UserAbilityEndOfMove.add(:MARIACHI,
   proc { |ability, user, _targets, move, _battle, _switchedBattlers|
+      next if user.dummy
       if move.danceMove?
         healingMessage = _INTL("{1} dances a healing rhythm!", user.pbThis)
         user.applyFractionalHealing(1.0 / 5.0, ability: ability, customMessage: healingMessage, canOverheal: true)

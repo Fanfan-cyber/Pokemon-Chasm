@@ -1,3 +1,3 @@
 Name         = Tectonic MasterDex
-Credits      = Essentials v19 Team,Zinnia
+Credits      = Essentials v19 Team,Zinnia,Beta
 Requires	 = Tectonic Graphics

@@ -275,8 +275,8 @@ class PokeBattle_Move
         end
         # Posion
         if user.poisoned?
-            damageReduction = (1.0/10.0)
-            damageReduction = (3.0/50.0) if user.boss? && AVATAR_DILUTED_STATUS_CONDITIONS
+            damageReduction = (1.0 / 10.0)
+            damageReduction = (3.0 / 50.0) if user.boss? && AVATAR_DILUTED_STATUS_CONDITIONS
             damageReduction *= Settings::CURSE_STATUS_DOUBLED_RATE if user.pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
             damageReduction *= 1.5 if toil
             damageReduction *= 2 if user.hasActiveAbility?(:CLEANFREAK)
@@ -285,7 +285,7 @@ class PokeBattle_Move
         end
         # Dizzy
 =begin
-        if target.dizzy? && !target.shouldAbilityApply?([:MARVELSKIN,:MARVELSCALE],checkingForAI)
+        if target.dizzy? && !target.shouldAbilityApply?([:MARVELSKIN, :MARVELSCALE],checkingForAI)
             damageIncrease = (1.0 / 4.0)
             damageIncrease = (3.0 / 20.0) if target.boss? && AVATAR_DILUTED_STATUS_CONDITIONS
             damageIncrease *= Settings::CURSE_STATUS_DOUBLED_RATE if target.pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
@@ -301,7 +301,7 @@ class PokeBattle_Move
         end
 =end
         # Waterlog
-        if target.waterlogged? && !target.shouldAbilityApply?([:MARVELSKIN,:MARVELSCALE], checkingForAI)
+        if target.waterlogged? && !target.shouldAbilityApply?([:MARVELSKIN, :MARVELSCALE], checkingForAI)
             damageIncrease = (1.0 / 4.0)
             damageIncrease = (3.0 / 20.0) if target.boss? && AVATAR_DILUTED_STATUS_CONDITIONS
             damageIncrease *= Settings::CURSE_STATUS_DOUBLED_RATE if target.pbOwnedByPlayer? && @battle.curseActive?(:CURSE_STATUS_DOUBLED)
@@ -383,7 +383,7 @@ class PokeBattle_Move
         end
     end
 
-    def stabActive?(user, target, type, checkingForAI = false)
+    def stabActive?(user, target, types, checkingForAI = false)
         return false if user.pbOwnedByPlayer? && @battle.curseActive?(:CURSE_DULLED)
         return false if @battle.pbCheckGlobalAbility(:SIGNALJAM)
 
@@ -391,14 +391,15 @@ class PokeBattle_Move
             user.ownerParty.each do |partyMember|
                 next unless partyMember
                 next if partyMember.personalID == user.personalID
-                next unless type && partyMember.hasType?(type)
+                next unless types.any? { |type| partyMember.hasType?(type) }
                 #user.aiLearnsAbility(:IMPRESSIONABLE)
                 return true
             end
             return false
         end
 
-        return true if type && gain_stab?(user, target, type)
+        return true if gain_stab?(user, target, types)
+
         if checkingForAI
             return true if user.hasActiveAbilityAI?(%i[PROTEAN FREESTYLE])
             return true if user.hasActiveAbilityAI?(:MUTABLE) && !user.effectActive?(:Mutated)
@@ -408,12 +409,12 @@ class PokeBattle_Move
         return false
     end
 
-    def gain_stab?(user, target, type)
-        return true if user.pbHasType?(type)
+    def gain_stab?(user, target, types)
+        return true if types.any? { |type| user.pbHasType?(type) }
         return false
     end
 
-    def calc_stab(user, target, type, checkingForAI = false)
+    def calc_stab(user, target, types, checkingForAI = false)
         stab = 1.5
         stab = 1.25 if !user.mono_type? || user.shouldAbilityApply?(:IMPRESSIONABLE, checkingForAI)
         stab *= 4.0 / 3.0 if user.shouldAbilityApply?(GameData::Ability.getByFlag("STABBoosting"), checkingForAI)
@@ -423,18 +424,18 @@ class PokeBattle_Move
 
     def pbCalcTypeBasedDamageMultipliers(user, target, types, multipliers, checkingForAI = false)
         # STAB
-        multipliers[:final_damage_multiplier] *= calc_stab(user, target, type, checkingForAI) if stabActive?(user, target, type, checkingForAI)
+        multipliers[:final_damage_multiplier] *= calc_stab(user, target, types, checkingForAI) if stabActive?(user, target, types, checkingForAI)
 
         # R.O.W.E.
-        if type
+        unless types.empty?
             offe = 0
             user.ownerParty.each do |partyMember|
                 next unless partyMember 
                 next if partyMember.fainted?
                 next if partyMember.unique_id == user.unique_id
                 if partyMember.hasItem?(:CRYSTALVEIL)
-                    offe += Settings::ROWE_STAB_OFF_MONO if partyMember.itemTypeChosen == type
-                elsif partyMember.hasType?(type)
+                    offe += Settings::ROWE_STAB_OFF_MONO if types.include?(partyMember.itemTypeChosen)
+                elsif types.any? { |type| partyMember.hasType?(type) }
                     offe += partyMember.mono_type? ? Settings::ROWE_STAB_OFF_MONO : Settings::ROWE_STAB_OFF
                 end
             end
@@ -444,8 +445,8 @@ class PokeBattle_Move
                 next if partyMember.fainted?
                 next if partyMember.unique_id == target.unique_id
                 if partyMember.hasItem?(:CRYSTALVEIL)
-                    defe += Settings::ROWE_STAB_DEF_MONO if partyMember.itemTypeChosen == type
-                elsif partyMember.hasType?(type)
+                    defe += Settings::ROWE_STAB_DEF_MONO if types.include?(partyMember.itemTypeChosen)
+                elsif types.any? { |type| partyMember.hasType?(type) }
                     defe += partyMember.mono_type? ? Settings::ROWE_STAB_DEF_MONO : Settings::ROWE_STAB_DEF
                 end
             end
@@ -558,7 +559,7 @@ class PokeBattle_Move
     end
       
     def pbCalcDamageMultipliers(user, target, numTargets, types, baseDmg, multipliers, aiCheck = false, aiContext = nil)
-        @battle.apply_field_effect(:modify_damage, user, target, numTargets, self, types, baseDmg, multipliers, aiCheck)
+        #@battle.apply_field_effect(:modify_damage, user, target, numTargets, self, types, baseDmg, multipliers, aiCheck)
 
         pbCalcAbilityDamageMultipliers(user, target, types, baseDmg, multipliers, aiCheck)
         pbCalcWeatherDamageMultipliers(user, target, types, multipliers, aiCheck)
@@ -598,7 +599,7 @@ class PokeBattle_Move
 
         # Party Most Type Bonus
         party_most_type = user.party_most_type
-        if party_most_type[0].include?(type) && party_most_type[1] >= Settings::PARTY_MOST_TYPE_BONUS_THRESHOLD
+        if party_most_type[0].intersect?(types) && party_most_type[1] >= Settings::PARTY_MOST_TYPE_BONUS_THRESHOLD
             multipliers[:attack_multiplier] *= (party_most_type[1] * 0.01 + 1.0)
         end
 

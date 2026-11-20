@@ -187,7 +187,7 @@ class PokeBattle_Battler
 
     def hasMoveType?(check_type)
         eachAIKnownMove do |m|
-            next unless m.type == check_type
+            next unless m.types.include?(check_type)
             return true
         end
         return false

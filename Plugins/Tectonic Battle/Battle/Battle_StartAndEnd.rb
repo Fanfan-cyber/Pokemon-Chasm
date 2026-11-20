@@ -587,30 +587,31 @@ class PokeBattle_Battle
             stretchers = []
             eachBattler { |b| stretchers.append(b) if b.hasActiveAbility?(:TIMESKIP) }
 
-            timeStretcher = nil
-            if !stretchers.empty?
-                stretchers.each do |stretcher|
-                    if stretcher.effectActive?(:NoTimeSkip)
-                        stretcher.disableEffect(:NoTimeSkip)
-                    else
-                        timeStretcher = stretcher
-                        stretcher.applyEffect(:NoTimeSkip)
-                    end
+            timeStretchers = []
+            stretchers.each do |stretcher|
+                if stretcher.effectActive?(:NoTimeSkip)
+                    stretcher.disableEffect(:NoTimeSkip)
+                else
+                    timeStretchers.append(stretcher)
+                    stretcher.applyEffect(:NoTimeSkip)
                 end
             end
 
-            next if timeStretcher.nil?
-            pbShowAbilitySplash(timeStretcher, :TIMESKIP)
-            pbDisplay(_INTL("Time is dancing to {1}'s tune! This turn is being skipped!", timeStretcher.pbThis))
-            pbHideAbilitySplash(timeStretcher)
-            # Start of round phase
-            PBDebug.logonerr { pbStartOfRoundPhase }
-            break if @decision > 0
-            # End of round phase
-            PBDebug.logonerr { pbEndOfRoundPhase }
-            break if @decision > 0
-            recordSkippedTurn
-            @turnCount += 1
+            next if timeStretchers.empty?
+            timeStretchers.each do |timeStretcher|
+                next if timeStretcher.fainted? || !timeStretcher.hasActiveAbility?(:TIMESKIP)
+                pbShowAbilitySplash(timeStretcher, :TIMESKIP)
+                pbDisplay(_INTL("Time is dancing to {1}'s tune! This turn is being skipped!", timeStretcher.pbThis))
+                pbHideAbilitySplash(timeStretcher)
+                # Start of round phase
+                PBDebug.logonerr { pbStartOfRoundPhase }
+                break if @decision > 0
+                # End of round phase
+                PBDebug.logonerr { pbEndOfRoundPhase }
+                break if @decision > 0
+                recordSkippedTurn
+                @turnCount += 1
+            end
         end
         pbEndOfBattle(ableBeforeFight)
     end
