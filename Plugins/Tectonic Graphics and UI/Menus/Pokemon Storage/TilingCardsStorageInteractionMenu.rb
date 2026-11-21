@@ -398,8 +398,8 @@ class TilingCardsStorageInteractionMenu_Scene < TilingCardsMenu_Scene
 		elsif cmdStyle >= 0 && modifyCommand == cmdStyle
 			pbStyleValueScreen(@pkmn)
 		elsif cmdSwapAbility >= 0 && modifyCommand == cmdSwapAbility
-			pbSwapAbility(@pkmn)
-			pbRefreshSingle(@selected)
+			changed = pbSwapAbility(@pkmn)
+			pbRefreshSingle(@selected) if changed
 		elsif cmdChangeForm >= 0 && modifyCommand == cmdChangeForm
       pbChangePokemonForm(@pkmn)
 			pbRefreshSingle(@selected)

@@ -11,7 +11,7 @@ end
 
 class PokeBattle_Move
   alias deity_pbCalcDamageMultipliers pbCalcDamageMultipliers
-  def pbCalcDamageMultipliers(user, target, numTargets, types, baseDmg, multipliers, aiCheck = false, aiContext=nil)
+  def pbCalcDamageMultipliers(user, target, numTargets, types, baseDmg, multipliers, aiCheck = false, aiContext = nil)
     multipliers[:final_damage_multiplier] *= Deity::HUGE_POWER_RATIO if user.pbOwnedByPlayer? && TA.get(:hugepower)
     deity_pbCalcDamageMultipliers(user, target, numTargets, types, baseDmg, multipliers, aiCheck, aiContext)
   end
