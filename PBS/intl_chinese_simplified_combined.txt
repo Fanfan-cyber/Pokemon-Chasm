@@ -12999,7 +12999,7 @@ Their coffee is pretty good.
 Bit pricey though.
 不过有点贵。
 "Best bang for your buck in Makya!"
-"马凯亚性价比最高的地方！"
+"马凯亚性价比最大的地方！"
 I used to be Chasm, but now I work at the Capitol Building.
 我以前是裂隙队的人，但现在我在国会大厦工作。
 Got myself a nice office and everything. A pretty decent setup for being a former grunt.
@@ -22573,7 +22573,7 @@ Take care of them for me!
 Oh, it looks like you're a little short. The offer's still here, just come back when ya got some more cash.
 哦，看起来你有点金钱不够。这个提议仍然有效，等你有了更多的钱就回来吧。
 I'll tell you what, we're gonna have our highest crop yield in our whole seven years of operation!
-我告诉你，我们整个七年的经营中，今年的庄稼产量将是最高的一年！
+我告诉你，我们整个七年的经营中，今年的庄稼产量将是最大的一年！
 The 'mons here are such hard workers.
 这里的精灵们都是如此努力的工作者。
 My older sisters like battlin' a whole lot.
@@ -32975,7 +32975,7 @@ This short-tempered and aggressive Pokémon chugs stagnant water to absorb any t
 It subconsciously broadcasts the audio of its battles over radio waves. Tuning in at the right time will let you hear the performance of a lifetime.
 它下意识地通过无线电波广播战斗的音频。在正确的时间收听会让你听到此生中最精彩的表演。
 It wraps prey up with its heated body, cooking them in its coils. Once they're well-done, it will voraciously nibble them down to the last morsel.
-靠储存在体内的可燃气体来发热。热度最高的是腹部的黄色部分。
+靠储存在体内的可燃气体来发热。热度最大的是腹部的黄色部分。
 While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs.
 发热时的体温大约有800度。会像鞭子那样弯曲身体朝着敌人弹跳过去。
 Even solid titanium will melt in its coils. It uses the massive mirage it creates to confuse Volcarona in their frequent contests.
@@ -36221,6 +36221,8 @@ The user changes its type to become the same type as one of its moves.
 将自身的属性转换成和已学会的技能中第一个技能相同的属性。
 The user changes its type to make itself resistant to the type of the attack the opponent used last.
 为了可以抵抗对手最后使用的技能，从而使自身的属性发生变化。
+The user changes its type to become the same type as its first moveslot. After changing its type, this raises all stats.
+使用者变为第一个技能的属性。全能力增加1级。
 The user approaches the target, then steals their item. Items stolen from wild Pokémon are stored.
 一边可爱地撒娇，一边靠近对手进行攻击，还能夺取对手携带物。
 The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
@@ -37018,7 +37020,7 @@ The user attacks with a gust of chilled air. It also lowers the targets' Speed b
 The user attacks with a chilling gust of powdery snow. It has a 10% chance to frostbite.
 将冰冷的细雪吹向对手进行攻击。有10%的概率使对手陷入冻伤。
 The user swings its tail wildly at opposing Pokémon, lowering their Attack or Sp. Atk (whichever is higher) by two steps.
-用坚韧的尾巴猛扫对手进行攻击，使对手较高的一项攻击减小2级。
+用坚韧的尾巴猛扫对手进行攻击，使对手较大的一项攻击减小2级。
 The user raises all its stats by two steps, at the cost of 33% of its max HP.
 使用者的全能力等级增加2级，但是HP减小最大HP的33%。
 The user sends out a telluric shockwave, damaging and dizzying all foes.
@@ -38106,7 +38108,7 @@ The user coils its body to generate an electric field, levitating for five turns
 A megawatt of electricity surges through the target. It has a 30% chance to numb.
 使用者将兆瓦电流涌向目标进行攻击。有30%的概率使目标陷入麻痹。
 The user finds the highest base power move among your able party members, and uses it.
-找到己方能够使用的威力最高的技能并使用。
+找到己方能够使用的威力最大的技能并使用。
 A weak electric jolt is launched to numb the target.
 释放微弱电流，使对手陷入麻痹。
 The user slices with claws of light that have a 50% chance to numb. Can random critical hit. Counts as a Light and Slice move.
@@ -38320,7 +38322,7 @@ The user rips and tears its way across the battlefield, damaging all near Pokém
 The user bites to drain the target's energy. The user's HP is restored by 50% of the damage dealt.
 使用者用啃咬以吸取目标的能量。回复造成伤害的一半HP。
 The user harnesses primal instincts to strike at the target. This has a 20% chance to lower the higher of the target's Attack or Sp. Atk.
-使用者利用原始本能攻击目标。有20%的概率使目标较高的一项攻击减小1级。
+使用者利用原始本能攻击目标。有20%的概率使目标较大的一项攻击减小1级。
 The user crushes the target with evil intent. This deals double damage if the target has a non-volatile status condition.
 带着恶意碾压目标。若目标处于异常状态则伤害翻倍。
 Eyes pulsing with rainbow energy damage the target and force it to hand over its held item. Items stolen from wild Pokémon are stored.
@@ -38342,17 +38344,17 @@ The user shakes the target with a deep, rumbling roar. This attack does physical
 Protects the user from attacks. If an eclipse is active, extends it by one turn. Fails if used in succession.
 保护使用者免受攻击。如果处于日食状态，将其增加1回合。连续使用则会失败。
 The target is harmed by a malevolent sound. This has a 20% chance to lower the higher of the target's Attack or Sp. Atk.
-使用者用恶意的声音攻击目标。有20%的概率使目标较高的一项攻击减小1级。
+使用者用恶意的声音攻击目标。有20%的概率使目标较大的一项攻击减小1级。
 The user strikes from swampy ground like a serpent. It has a 30% chance to waterlog.
 使用者像蛇一样从沼泽地中发动攻击。有30%的概率使目标陷入浸水。
 The user flies high up into the air at supersonic speed, charging and becoming hidden. It greatly increases in power the faster the user is.
 使用者第一回合以超音速飞到高空进入隐藏，第二回合发动攻击。速度越大，威力越大。
 The user looms over the target with awful menace, lowering their highest stat by four steps.
-以可怕的龙威震慑对手，使其最高的一项能力减小4级。
+以可怕的龙威震慑对手，使其最大的一项能力减小4级。
 Attacks all foes with dormant draconic energy. Power increases by 50% in eclipse.
 用潜藏的龙之能量攻击所有敌人。在日食时威力增加50%。
 The user sprays the target with a shrinking liquid. For the next three turns, the target's highest stat will be lowered by two steps.
-使用者向目标喷洒萎缩液体。在接下来的3回合，使目标最高的一项能力减小2级。
+使用者向目标喷洒萎缩液体。在接下来的3回合，使目标最大的一项能力减小2级。
 The user makes an offering, then multi-hits two to five times. Scatters coins for each hit.
 使用者献上祭品，随后发起2至5次连击。每次命中会散落金钱。
 The user whips up a tornado to tear at the target. It has a 40% chance to flinch the target.
@@ -38740,7 +38742,7 @@ A move that only the avatar of Zekrom can use. All battlers gain Steel-type and 
 The user raises its Attack and Speed by two steps. User becomes Dragon-type.
 物攻和速度增加2级。变为龙属性。
 The user lowers each near foe's highest stat by four steps. User becomes Dragon-type.
-使所有附近的目标最高的一项能力减小1级。变为龙属性。
+使所有附近的目标最大的一项能力减小1级。变为龙属性。
 A move that only the avatar of Reshiram can use. All battlers have all of their stats raised by two steps.
 只有莱希拉姆化身才能使用的技能。所有精灵全能力增加2级。
 The user summons an allied Poochyena. This raises its Attack by three steps, and its allies' by one. User becomes Dark-type.
@@ -41391,7 +41393,7 @@ Halves the damage from one supereffective Ground-type attack. Holder heals 1/16t
 Held to recover from a status problem once per battle. Then, all of the holder's stats are raised by two stages.
 携带后可回复异常状态，并大幅度增加全属性。
 If held by a Pokémon which goes below 50% health, it maximizes its Speed stat.
-一种携带物。精灵携带后，当HP减小到50%以下时，速度增加至最大。
+一种携带物。精灵携带后，当HP减小到50%以下时，速度增加到最大。
 A brilliant gem. Boosts the power of an attacking move by 50% once per battle.
 使第一次攻击的伤害增加50%。
 Boosts the power of a Normal move by 50% once per battle. Holder heals 1/16th HP each round.
@@ -43123,7 +43125,9 @@ Reduces a sleeping foe's HP by 1/8th at the end of a round.
 Powers up ally Pokémon's special moves by 30%.
 使队友的特殊类技能威力增加30%。
 Raises Attack and Sp. Atk by two steps when its HP is lowered below half.
-当HP小于一半时，双攻增加2级。
+HP减小到一半时，双攻增加2级。
+Raises Attack and Sp. Atk by two steps if an attack lowers its HP below half.
+被攻击使HP减小到一半时，双攻增加2级。
 When this Pokémon eats a Berry, it restores 33% of its max health.
 当吃下树果时，会回复最大HP的33%。
 Boosts Attack after knocking out any Pokémon.
@@ -43149,7 +43153,7 @@ Repeats another Pokémon's dance move immediately.
 Powers up each Pokémon's Dark-type moves by 33%.
 所有精灵的恶属性技能威力增加33%。
 Halves move damage when HP becomes half or less.
-HP减小到一半时，双攻会减半。
+HP减小到一半时，双攻减半。
 Raises Attack by four steps when a stat is lowered by a foe.
 能力等级被对手减小时，物攻增加4级。
 Summons Strong Winds, which remove Flying-type's weaknesses. Lingers for three turns after leaving.
@@ -43389,7 +43393,9 @@ Only super-effective moves will hit.
 After being attacked, uses Parting Shot to switch out.
 受到攻击后，会使用抛下狠话。
 This Pokémon gains twice as many stats from leveling up.
-升级时获得双倍的基础能力。
+升级时获得的基础能力翻倍。
+This Pokémon gains twice as many stats from leveling up. It can't have its base stats modified.
+升级时获得的基础能力翻倍。该精灵的基础能力无法被改变。
 At the end of each turn in rainstorm, each Pokémon not immune to rainstorm has their Defense and Sp. Def lowered.
 在雨天的每个回合结束时，每个不免疫雨天的负面效果的精灵的双防减小1级。
 After landing a super-effective or hyper-effective hit, deals 30% more damage on its next Normal-type move.
@@ -43397,7 +43403,9 @@ After landing a super-effective or hyper-effective hit, deals 30% more damage on
 Powers up moves of the same type by 33%.
 本属性技能的威力增加33%。
 Raises Speed by four steps when its HP is lowered below half.
-HP减小到一半以下时，速度增加4级。
+HP减小到一半时，速度增加4级。
+Raises Speed by four steps if an attack lowers its HP below half.
+被攻击使HP减小到一半时，速度增加4级。
 Immune to Flying-type moves and raises Speed instead.
 被飞行属性技能攻击时，不会受到伤害，而是速度增加1级。
 Protects this Pokémon from recoil damage. This Pokémon doesn't trigger items, abilities, or effects of targets it hits.
@@ -43433,7 +43441,7 @@ Sound-based attacks turn Ice-type and are boosted by 30%.
 Deals double damage against Pokémon that have raised defenses or that are protected by a screen.
 对于增加了防御或受到屏障保护的精灵造成双倍伤害。
 Uses Aromatherapy if an attack lowers its HP below half.
-被攻击使HP减小到一半以下时，使用芳香回复。
+被攻击使HP减小到一半时，使用芳香回复。
 Doubles this Pokémon's Sp. Def, but can't use status moves.
 特防翻倍，但不能使用变化类技能。
 During eclipse, it restores its HP by half the damage it deals with attacks.
@@ -43463,7 +43471,9 @@ Your Poké Balls are 50% more effective.
 Sets a Reflect for four turns upon entry.
 出场时，开启持续4回合的反射壁。
 Raises Defense and Sp. Def by three steps when its HP is lowered below half. This only works once per switch-in.
-当HP减小到一半以下时，双防增加3级。（每次出场只会发动一次）
+HP减小到一半时，双防增加3级。每次出场只会发动一次。
+Raises Defense and Sp. Def by three steps if an attack lowers its HP below half. This only works once per switch-in.
+被攻击使HP减小到一半时，双防增加3级。每次出场只会发动一次。
 Boosts power of light-based moves by 30%.
 光类技能的威力增加30%。
 After using a sound move, all foes are Tormented.
@@ -43471,7 +43481,7 @@ After using a sound move, all foes are Tormented.
 Can hold two different items, if both are Berries.
 可同时携带2个树果类物品。
 If an attack lowers its HP below half, lowers the attacker's highest stat by four steps.
-如果攻击使其HP减小到一半以下，使攻击者最高的一项能力减小4级。
+如果被攻击使该精灵HP减小到一半，攻击者最大的一项能力减小4级。
 Moves that make the user become hidden hide the user for one turn longer.
 让隐藏类技能的隐藏时间增加1回合。
 Deals 30% more damage to targets that are below half health or that swapped in this turn.
@@ -43489,7 +43499,9 @@ Move damage that's decreased by sunshine is decreased twice as much.
 Increase the EXP gained from battles in which it participates by 50%.
 战斗获得的经验增加50%。
 After using a dance move, lowers one of each foe's Attack and Sp. Atk, whichever is higher.
-使用舞蹈类技能后，使所有对手较高的一项攻击减小1级。
+使用舞蹈类技能后，使所有对手较大的一项攻击减小1级。
+After using a dance move, lowers one of each foe's Attack or Sp. Atk by two steps, whichever is higher.
+使用舞蹈类技能后，使对手较大的一项攻击减小2级。
 Heals from binding damage it deals. Takes 25% less damage from Pokémon that are trapped.
 从自身造成的束缚伤害中回复HP。从被束缚的精灵那里受到的伤害减小25%。
 Lays a hazard of levitating stones around the opponent when its HP is lowered below half.
@@ -43501,7 +43513,7 @@ Slips past hazards. On the first turn, its attacks are always critical.
 This Pokémon's moves deal 20% more damage and ignore immunities due to typing.
 技能伤害增加20%，并无视属性免疫。
 If an attack lowers its HP below half, lowers all of the attacker's stats.
-被攻击使HP减小到一半以下时，使攻击者全能力减小1级。
+被攻击使HP减小到一半时，使攻击者全能力减小1级。
 Boosts the power of wind-based moves by 30%.
 风类技能威力增加30%。
 Takes 30% less move damage from Pokémon that are shorter than it.
@@ -43573,7 +43585,9 @@ Upon entry, creates a Substitute from 1/4th of its HP.
 When hit with a special move, hits back instantly with Breach.
 被特殊类技能攻击时，会立即使用潮汐一击进行还击。
 Foretelling moves take one turn longer to attack but deal 50% more damage.
-预言类技能延迟1回合攻击，伤害增加50%。
+预言类技能延迟1回合攻击，但伤害增加50%。
+While a Foretelling move is waiting to hit, this Pokémon takes 25% less damage.
+当场上有预言类技能正在准备时，该精灵受到的伤害减小25%。
 When a foe hits this Pokémon, they are warned. If they do it again, they become cursed.
 被攻击时，会发出警告。若再次攻击，攻击者将陷入诅咒。
 When this Pokémon gains a non-volatile status condition, its Attack is raised by three steps.
@@ -43647,7 +43661,7 @@ Upon entry during eclipse, lowers foe's Attack and Sp. Atk by two steps.
 Raises Sp. Atk by two steps whenever any battler falls asleep.
 每当有一只精灵在战斗中陷入睡眠，自身的特攻增加2级。
 If an attack lowers its HP below half, the attacker becomes drowsy.
-被攻击使HP减小到一半以下时，攻击者将陷入瞌睡。
+被攻击使HP减小到一半时，攻击者将陷入瞌睡。
 Move damage that's decreased by rainstorm is decreased twice as much.
 雨天减小技能伤害的效果翻倍。
 Creates Grey Mist for three turns upon entry.
@@ -43669,7 +43683,7 @@ This Pokémon and its allies are protected from flinching, Intimidate, Fascinate
 Boosts the power of pulse moves by 30%.
 脉冲类技能的威力增加30%，治愈脉冲的回复效果增加30%。
 Uses Lightning Dance if an attack lowers its HP below half.
-被攻击使HP减小到一半以下时，使用闪电舞。
+被攻击使HP减小到一半时，使用闪电舞。
 Upon entry, creates an Emotion Room for four turns, which swaps each Pokémon's ability to its other ability each turn.
 出场时，开启持续4回合的情感空间，所有精灵回合结束时会交换自身的特性。
 When a foe switches to replace a fainted Pokémon, gives information about the switch and lets you switch beforehand.
@@ -43781,7 +43795,7 @@ This Pokémon changes type to that of the move it's about to use. However, it's 
 Counts as every tribe.
 同时算作所有部族。
 After using a biting move, lowers the target's highest attacking stat by two steps.
-使用咬类技能后，使目标较高的一项攻击减小2级。
+使用咬类技能后，使目标较大的一项攻击减小2级。
 After being attacked with a special move, hits back with that same move.
 被特殊类技能攻击后，立即使用同样的技能还击。
 Boosts Attack and Speed by 30% in hail.
@@ -43881,7 +43895,7 @@ Has Judgment as its 5th move.
 This Pokémon and its allies are immune to weather downsides.
 自身和队友不会受到天气的负面效果。
 When this Pokémon knocks a foe below half health, this Pokémon switches out.
-当该精灵将对手的HP减小到一半以下时，该精灵替换下场。
+当该精灵将对手的HP减小到一半时，该精灵替换下场。
 When this Pokémon's attacks deal less than 50% of the target's max HP, this Pokémon switches out.
 该精灵的攻击对目标造成的伤害小于目标最大HP的一半时，该精灵替换下场。
 Boosts Sp. Atk after using a sound move. Heals for 1/5th max HP after using a dance move.
@@ -43977,7 +43991,7 @@ This Pokémon's moves deal 20% more damage and ignore abilities that would affec
 The first time each turn this Pokémon consumes an item, it is passed to its ally, and vice versa.
 消耗物品时，物品会传递给队友。当队友消耗物品时，物品会传递给该精灵。一回合仅会发动一次。
 If an attack lowers this Pokémon's HP below half, the attacker becomes jinxed.
-被攻击使HP减小到一半以下时，攻击者将陷入不幸。
+被攻击使HP减小到一半时，攻击者将陷入不幸。
 After attacks, lower Attack and Sp. Atk by two steps, and raise Defense and Sp. Def by two steps. After status moves, do the opposite.
 攻击后，双攻减小2级，双防增加2级。使用变化类技能后，双攻增加2级，双防减小2级。
 Boosts Defense by 20%. When this Pokémon takes its second physical hit from the same attacker, they become leeched.
@@ -44045,7 +44059,7 @@ Pokémon that swap in for this have their Attack and Sp. Atk raised.
 When hit with a special move, traps and binds the attacker for three turns. Fails on turns the user switched in.
 被特殊类技能攻击时，束缚攻击者3回合。出场的回合无效。
 If an attack lowers this Pokémon's HP below half, the attacker becomes cursed.
-被攻击使HP减小到一半以下时，攻击者将陷入诅咒。
+被攻击使HP减小到一半时，攻击者将陷入诅咒。
 When attacking during moonglow, uses the target's Attack and Sp. Atk instead of its own.
 月辉时，攻击时，使用目标的物攻或者特攻进行伤害计算。
 Boosts the power of pulse moves by 50%, and makes them physical when that would be more effective.
@@ -44077,7 +44091,7 @@ Slips past hazards. Takes one third less damage if it switched in this turn.
 Pokémon that swap in for this have their Defense and Sp. Defense raised.
 替换该精灵出场的精灵，双防增加1级。
 If an attack lowers its HP below half, waterlogs the attacker.
-被攻击使HP减小到一半以下时，攻击者将陷入浸水。
+被攻击使HP减小到一半时，攻击者将陷入浸水。
 This Pokémon is also Fire-type. Powers up moves of the same type by 33%.
 为自身增加火属性。本属性技能的威力增加33%。
 When hit by another Pokémon, destroys one of their items.
@@ -44251,7 +44265,7 @@ On the first turn, its attacks poison the target.
 Heals 1/8th HP every turn if hit by an attack.
 被攻击时，每回合结束时，回复HP的1/8。
 Lays an electrical hazard around the opponent when this Pokémon's HP is lowered below half.
-当HP减小到一半以下时，在对手场上设置带电导线。
+当HP减小到一半时，在对手场上设置带电导线。
 Boosts the power of slice moves by 30%. They're twice as likely to crit.
 切割类技能威力增加30%，命中要害率翻倍。
 Takes half damage from Dragon-, Fairy-, and Ghost-type attacks.
@@ -44259,7 +44273,9 @@ Takes half damage from Dragon-, Fairy-, and Ghost-type attacks.
 If this Pokémon faints from Perish Song, it is revived in a new form.
 若因灭亡之歌而濒死，将以新形态回复健康。
 Maximizes Sp. Atk when its HP is lowered below half.
-自身HP小于一半时，特攻增加至最大。
+自身的HP减小到一半时，特攻增加到最大。
+Maximizes Sp. Atk if an attack lowers its HP below half.
+被攻击使HP减小到一半时，特攻增加到最大。
 After knocking out any Pokémon, regenerates its previously-used item.
 打倒对手时，再生自身之前使用的物品。
 Light moves change this Pokémon's secondary type and their power is boosted by 30%.
@@ -44385,7 +44401,9 @@ At the end of each round, lowers other waterlogged Pokémon's Attack and Sp. Atk
 On the first turn, its attacks leech the target.
 出场第一回合的攻击会使对手陷入寄生。
 After using a sound move, lowers one of each foe's Attack and Sp. Atk, whichever is higher.
-使用声音类技能后，使对手较高的一项攻击减小1级。
+使用声音类技能后，使对手较大的一项攻击减小1级。
+After using a sound move, lowers one of each foe's Attack or Sp. Atk, whichever is higher.
+使用声音类技能后，使对手较大的一项攻击减小1级。
 Whenever a foe fails or misses, they take 1/8th HP damage.
 对手的技能失败或没命中时，将受到1/8最大HP的伤害。
 Boosts Attack by 30% in hail.
@@ -44451,7 +44469,7 @@ Its attacks are critical against waterlogged targets.
 Can hold a second item by stealing it.
 可以通过小偷携带第2件物品。
 If an attack lowers its HP below half, leeches the attacker.
-被攻击使HP减小到一半以下时，攻击者将陷入寄生。
+被攻击使HP减小到一半时，攻击者将陷入寄生。
 Prevents half the self-damage from recoil. Powers up moves that have recoil damage by 20%.
 反伤类技能的威力增加20%，并且反伤减半。
 During sandstorm, immune to non-volatile status conditions and stat reductions.
@@ -44485,9 +44503,9 @@ Powers up Ice-type moves by 50%.
 Boosts Sp. Def by 20%. When this Pokémon takes its second special hit from the same attacker, they become frostbitten.
 特防增加20%。当被同1精灵第2次特殊类技能攻击时，攻击者将陷入冻伤。
 Uses Rapid Spin if an attack lowers its HP below half.
-被攻击使HP减小到一半以下时，使用高速旋转。
+被攻击使HP减小到一半时，使用高速旋转。
 If an attack lowers its HP below half, the attacker enters a sugar rush for four turns.
-如果攻击使其HP减小到一半以下，攻击者会陷入糖分激增4回合。
+如果被攻击使该精灵HP减小到一半，攻击者会陷入4回合糖分激增。
 After knocking out any Pokémon, summons sunshine for four turns.
 打倒对手时，开启持续4回合的晴天。
 At the end of each turn in sunshine, each Pokémon not immune to sunshine has their Defense and Sp. Def lowered.
@@ -44593,7 +44611,7 @@ This Pokémon is Mutant-type.
 Deals 30% more damage to targets that have an item. After attacking a foe, destroys their clothing items.
 对有携带物的对手造成的伤害增加30%，如果对手携带的是衣服类物品，则攻击之后会将其破坏。
 After an attack reduces its HP below half, deals 1/4th of the attacker's HP back to the attacker.
-被攻击使HP减小到一半以下时，反弹攻击者HP的1/4的伤害。
+被攻击使HP减小到一半时，反弹攻击者HP的1/4的伤害。
 Immune to Poison-type moves and raises Attack and Sp. Atk instead.
 被毒属性技能攻击时，不会受到伤害，而是双攻增加1级。
 Whenever a foe's poison worsens, this Pokémon heals for 25% max HP.
@@ -44609,7 +44627,7 @@ Heals non-volatile status conditions and resets stat changes after knocking out 
 At the end of each turn, itself and each ally heals for 1/16th of their HP.
 回合结束时，该精灵和每个队友会回复其最大HP的1/16。
 Changes into another form of your choosing when its HP is lowered below half.
-HP减小到一半以下时，可以选择切换为另一种形态。
+HP减小到一半时，可以选择切换为另一种形态。
 This Pokémon's random crit moves are always critical if there is an active Room.
 存在空间时，该精灵的可以随机命中要害的技能必定会命中要害。
 During the Full Moon, this Pokémon saps the enemy Pokémon of their vitality, leeching them.
@@ -44657,7 +44675,7 @@ Upon entry, summons Winter Hunts on this Pokémon's side for four turns.
 Ground-type moves deal 50% more damage in eclipse.
 日食天气时，地面属性技能威力增加50%。
 Uses Dragon Dance if an attack lowers its HP below half.
-被攻击使HP减小到一半以下时，使用龙舞。
+被攻击使HP减小到一半时，使用龙舞。
 Boosts the power of rampaging moves by 30%, and makes them physical or special based on which would be more effective.
 将暴走类技能的威力增加30%，并根据哪种更有效将其变为物理或特殊类技能。
 Lays a hazard of levitating stones around the opponent when its HP is lowered below 75% HP.
@@ -44695,7 +44713,7 @@ Takes half damage from Dragon-, Fairy-, and Ghost-type attacks. Positive stat st
 When the Pokémon's level is 25 or higher, it transforms into a member of its family depending on the type of the move it is about to use.
 当精灵等级达到25级或以上时，它会根据即将使用的技能的属性变为其家族的成员。
 Swaps HP with a foe when its HP is lowered below half. Triggered only once per battle.
-HP减小到一半以下时，与对手交换HP。每场战斗仅发动一次。
+HP减小到一半时，与对手交换HP。每场战斗只会发动一次。
 Turns target's item into coins. Consumes coins to heal for 1/10th the amount consumed when its HP becomes half or less. This can overheal.
 攻击时，把对手的物品变为金钱。当HP小于一半时，消耗场上的金钱，回复消耗金钱量10%的HP，可以过量回复。
 When knocks out any foe, it reverses its own timeline, changes to its initial state upon entering the battle.
@@ -44707,7 +44725,7 @@ Boosts both one offending and defending stat by one step according to the foe's 
 Transforms into Meteoric form when its HP is lowered below half.
 半血以下时，变身为流星形态。
 After using a Bite move, lowers the target's highest attacking stat by 2 steps. Immune to Ground-type moves. Immune to grounded hazards.
-使用咬类技能后，使对手较高的一项攻击减小2级。此精灵视为飞空单位。
+使用咬类技能后，使对手较大的一项攻击减小2级。此精灵视为飞空单位。
 Completely protects allies from foes' spread moves. Summons rainstorm for four turns when hit by an attack.
 受到攻击时，开启持续4回合的雨天。保护队友不受对手的扩散类技能的攻击。
 Transforms into Cursed Form when any battler faints. Airborne before transformation; traps foes after.
@@ -49454,7 +49472,7 @@ Special moves are notated by the symbol of a splash. Their damage is based on th
 Adaptive Moves
 自适应技能
 Adaptive moves are notated by the symbol split between physical and special. Their damage is based on whichever Attacking stat is higher of the attacker. If both are the same, the default is Attack.
-自适应技能以介于物理和特殊之间的符号标记。其类型取决于攻击者较高的一项攻击。如果两者相同，默认为物攻。
+自适应技能以介于物理和特殊之间的符号标记。其类型取决于攻击者较大的一项攻击。如果两者相同，默认为物攻。
 Targeting
 技能目标
 Most moves target only a single Pokémon, but many can target multiple Pokémon at once. Some moves differ in how far they can target in the bigger battle styles (doubles, triples).
@@ -49786,7 +49804,7 @@ A grounded Pokémon loses their immunity to ground moves (from being Flying-type
 Shrinking
 萎缩
 The affected Pokémon's highest stat becomes reduced by 2 steps for each turn of the effect.
-受到该效果影响的精灵，回合结束时其最高的一项能力减小2级。
+受到该效果影响的精灵，回合结束时其最大的一项能力减小2级。
 Sugar Rush
 糖分激增
 The affected Pokémon's speed is doubled, but they also take double damage from attacks.
@@ -50122,7 +50140,7 @@ Severe Burn: The same as Burn, but the afflicted Pokémon also takes 33% recoil 
 Zapdos: Galvanic Wings
 闪电鸟：电流之翼
 Severe Numb: The same as Numb, but the afflicted Pokémon's highest stat is reduced at the end of each turn.
-重度麻痹：与普通麻痹相同，但回合结束时受影响精灵的最高的一项能力会减小1级。
+重度麻痹：与普通麻痹相同，但回合结束时受影响精灵的最大的一项能力会减小1级。
 Kyogre: Primordial Sea
 盖欧卡：始源之海
 Boosts the damage of Electric- and Water-type attacks by 50%. Lowers attack damage of non-immune types or moves by 15%. Pokémon not immune to Rain can't cause moves' random added effects.
@@ -54320,7 +54338,7 @@ It'll take one third recoil from its own attacks
 Frostbite damage is double below half health
 冻伤的伤害在HP小于一半时翻倍
 Its highest stat is lowered each turn
-它最高的一项能力每回合都会减小
+它最大的一项能力每回合都会减小
 {1} is already asleep!
 {1}已经睡眠了！
 {1} is already poisoned!
@@ -54996,7 +55014,7 @@ It'll deal a third less move damage for the next {1} turns!
 {1} is no longer shrinking down!
 {1}不再缩小了！
 {1} got smaller! Its highest stat is going down!
-{1}变小了！它最高的能力等级正在减小！
+{1}变小了！它最大的能力等级正在减小！
 {1} is covered in foam!
 {1}被泡沫覆盖了！
 The foam around {1} is cleared!
@@ -56796,7 +56814,7 @@ But it failed, since {1} doesn't have any positive stat steps!
 But it failed, since {1} and {2} can't raise the other's highest stat step!
 但是失败了，因为{1}和{2}不能增加对方的能力！
 {1} and {2} shared their highest stat steps!
-{1}和{2}共享了最高的能力！
+{1}和{2}共享了最大的能力！
 But it failed, since it has no valid targets!
 但是它失败了，因为没有有效的目标！
 {1} was slowed to zero!
@@ -62748,9 +62766,9 @@ You did great, but you still need to defeat me {1} more time(s).<<n>>You can't u
 Turns to Finale Form when only unfainted on team. Ignores the condition of a perfect battle if it isn't in a pinch.
 当队伍只剩下自身后，将变为终结形态。若在终结形态不处于危急时取得了胜利，依然视为完胜。
 Raises Speed by four steps when its HP is lowered below half. Moves next when being hit.
-HP减小到一半以下时速度增加4级。被攻击后，会紧跟着立刻行动。
+HP减小到一半时，速度增加4级。被攻击后，会紧跟着立刻行动。
 When this Pokémon eats a Berry, it restores 25% of its max health.
-当精灵吃下一颗树果时，会回复最大HP的25%。
+当吃下一颗树果时，会回复最大HP的25%。
 Raises Attack by 2 steps after knocking out any Pokémon.
 打倒对手时，物攻增加2级。
 Upon entry, spreads poisonous dust which poisons any Pokémon stay in for 2 turns. When any Pokémon are poisoned, boosts Defense by 2 steps.
