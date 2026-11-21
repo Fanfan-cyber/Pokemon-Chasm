@@ -1059,14 +1059,6 @@ Special,,40,45
     1,SEVIPER,40
     1,ZANGOOSE,40
 #-------------------------------
-[403] # Frozen Lake
-LandTall,20,55,65
-    20,CARBINK,54,56
-    20,CRYOGONAL,54,56
-    20,HATTERENE,54,56
-    20,JYNX,54,56
-    20,MNOCTOWL,54,56
-#-------------------------------
 [406] # Oasis System
 DarkCave,20,55,60
     20,EELEKTROSS,53,55
