@@ -186,7 +186,7 @@ def check_candy_reward(badge_num)
   current = $Trainer.gym_rematch_award[badge_num] || 0
   if current < max
     $Trainer.gym_rematch_award[badge_num] = 1 + ($Trainer.gym_rematch_award[badge_num] || 0)
-    pbReceiveItem(:RARECANDY)
+    pbReceiveItem(:RARECANDY, 2)
   end
 end
 

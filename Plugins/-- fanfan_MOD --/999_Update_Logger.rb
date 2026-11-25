@@ -227,7 +227,13 @@ storymode/nostorymode，开启/关闭剧情模式
 34.现在AI会更好的预测是否要对精灵进行替换
 35.修复了Primeval Role Play获得的特性不会立刻发动的Bug
 36.修复了Primeval Aromatherapy获得的特性不会立刻发动的Bug
-37.
+37.打倒道馆馆主获得的神奇糖果的数量由1改为2
+38.现在神奇糖果可突破的等级上限为当前等级上限的4级
+39.完善了CURSE_STATUS_DOUBLED用于检查异常的属性
+40.修复了CURSE_STATUS_DOUBLED忽略了混乱的Bug
+41.修复了CURSE_STATUS_DOUBLED忽略了寄生的Bug
+42.修复了CURSE_STATUS_DOUBLED忽略了睡眠的Bug
+43.
 
 #==============================================================================#
 以上部分记录了此游戏当前版本的更新记录，供参考。

@@ -36222,7 +36222,7 @@ The user changes its type to become the same type as one of its moves.
 The user changes its type to make itself resistant to the type of the attack the opponent used last.
 为了可以抵抗对手最后使用的技能，从而使自身的属性发生变化。
 The user changes its type to become the same type as its first moveslot. After changing its type, this raises all stats.
-使用者变为第一个技能的属性。全能力增加1级。
+使用者变为第一个技能的属性，然后全能力增加1级。
 The user approaches the target, then steals their item. Items stolen from wild Pokémon are stored.
 一边可爱地撒娇，一边靠近对手进行攻击，还能夺取对手携带物。
 The target is hit with rhythmically launched punches that have a 30% chance to dizzy.
