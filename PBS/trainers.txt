@@ -6569,7 +6569,7 @@ Pokemon = ARMALDO,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = GOLEM,70
-    Moves = TERRASLIDE,BEDROCKBREAKER,SANDSTORM,FLAREBLITZ
+    Moves = SANDSURGE,BEDROCKBREAKER,SANDSTORM,FLAREBLITZ
     AbilityIndex = 0 # Sand Reconstruction
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
@@ -8486,7 +8486,7 @@ Pokemon = FLORGES,57
 #-------------------------------
 [ANCIENTPRIEST,Chestibor]
 Pokemon = GOLEM,60
-    Moves = TERRASLIDE,GRINDSTONE,STEALTHROCK,EXPLOSION
+    Moves = SANDSURGE,GRINDSTONE,STEALTHROCK,EXPLOSION
     AbilityIndex = 0 # Sand Reconstruction
     Item = RINDOBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
