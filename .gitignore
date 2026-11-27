@@ -26,7 +26,10 @@ Data/PBSExtensions.rxdata
 Data/GraphicsExtensions.rxdata
 server.log
 .idea/
+Build files/Releases/
+.env
 .rubocop-https*
+/coverage/
 OnlinePresets/
 !Library/gems/**
 release_version_mod.txt

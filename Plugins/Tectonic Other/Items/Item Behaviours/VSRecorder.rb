@@ -1,3 +1,9 @@
+# Replace invalid characters
+def sanitizeBattleName(name)
+  	name = name.gsub(/[<>:"\/\\|?*\x00-\x1F]/, "_")
+  	name
+end
+
 ItemHandlers::UseFromBag.add(:VSRECORDER, proc { |item|
   pbMessage(_INTL("The VS Recorder is WIP so it might have some bugs!"))
   if $current_save_file_name.nil?
@@ -6,7 +12,7 @@ ItemHandlers::UseFromBag.add(:VSRECORDER, proc { |item|
 	end
 
 	save_file_name = $current_save_file_name.split("/")[1].delete_suffix(".rxdata")
-  records_path = "./VSRecorder/#{save_file_name}"
+  	records_path = "./VSRecorder/#{save_file_name}"
 	if getRecordedBattles.size < 1
 		pbMessage(_INTL("You don't have any battles recorded on your VS Recorder."))
 		next 0
@@ -34,10 +40,15 @@ ItemHandlers::UseFromBag.add(:VSRECORDER, proc { |item|
 		end
 		battle_rename = pbEnterText(_INTL("Enter battle name..."), 0, 20)
 		next 0 if battle_rename == ""
-		File.rename(
-			"#{records_path}/Last battle.dat", 
-			"#{records_path}/#{battle_rename}.dat"
-		)
+		battle_rename = sanitizeBattleName(battle_rename)
+		destination = "#{records_path}/#{battle_rename}.dat"
+    	if File.exist?(destination)
+      		pbMessage(_INTL("A battle with that name already exists."))
+      		next 0
+    	end
+    	File.rename(
+      		"#{records_path}/Last battle.dat", destination
+    	)
 		pbMessage(_INTL("Battle successfully saved."))
 		next 1
 
@@ -46,22 +57,25 @@ ItemHandlers::UseFromBag.add(:VSRECORDER, proc { |item|
 		next 0 if battle_rename_choice == -1
 		battle_rename = pbEnterText(_INTL("Enter battle name..."), 0, 20)
 		next 0 if battle_rename == ""
-		File.rename(
-			getRecordedBattles[battle_rename_choice], 
-			"#{records_path}/#{battle_rename}.dat"
-		)
+		battle_rename = sanitizeBattleName(battle_rename)
+		destination = "#{records_path}/#{battle_rename}.dat"
+    	source = getRecordedBattles[battle_rename_choice]
+		if File.exist?(destination)
+      		pbMessage(_INTL("A battle with that name already exists."))
+      		next 0
+    	end
+		File.rename(source, destination)
 		pbMessage(_INTL("Battle successfully renamed."))
 		next 1
 
 	when 3 # Delete battle
 		battle_delete_choice = pbMessage(_INTL("Which battle?"), getRecordedBattleNames, -1)
 		next 0 if battle_delete_choice == -1
-		next 0 unless (pbMessage(_INTL("Are you sure ? This action is permanent."), ["No", "Yes"]) == 1)
+		next 0 unless (pbMessage(_INTL("Are you sure? This action is permanent."), ["No", "Yes"]) == 1)
 		File.delete(getRecordedBattles[battle_delete_choice])
     pbMessage(_INTL("Battle successfully deleted."))
 		next 1
-	
-  else
+ 	else
 		next 0
 	end
 })
@@ -72,6 +86,6 @@ def getRecordedBattleNames
 end
 
 def getRecordedBattles
-  save_file_name = $current_save_file_name.split("/")[1].delete_suffix(".rxdata")
-  return Dir["./VSRecorder/#{save_file_name}/*.dat"]
+  	save_file_name = $current_save_file_name.split("/")[1].delete_suffix(".rxdata")
+  	return Dir["./VSRecorder/#{save_file_name}/*.dat"]
 end

@@ -6,9 +6,12 @@ module GameData
     # For data that is known by a symbol or an ID number.
     #=============================================================================
     module ClassMethods
-      def register(hash)
-        self::DATA[hash[:id]] = self::DATA[hash[:id_number]] = self.new(hash)
-      end
+        def register(hash)
+            record = new(hash)
+            self::DATA[hash[:id]] = record
+            self::DATA[hash[:id_number]] = record unless hash[:id_number].nil?
+            return record
+        end
   
       # @param other [Symbol, self, String, Integer]
       # @return [Boolean] whether the given other is defined as a self
@@ -29,7 +32,7 @@ module GameData
   #      if other.is_a?(Integer)
   #        p "Please switch to symbols, thanks."
   #      end
-        raise "Unknown ID #{other}." unless self::DATA.has_key?(other)
+        raise "Unknown ID #{other}." unless self::DATA.key?(other)
         return self::DATA[other]
       end
   
@@ -43,7 +46,7 @@ module GameData
   #      if other.is_a?(Integer)
   #        p "Please switch to symbols, thanks."
   #      end
-        return (self::DATA.has_key?(other)) ? self::DATA[other] : nil
+        return self::DATA.key?(other) ? self::DATA[other] : nil
       end
   
       # Returns the array of keys for the data.
@@ -101,7 +104,7 @@ module GameData
         save_data(self::DATA, "Data/#{self::DATA_FILENAME}")
       end
     end
-  
+
     #=============================================================================
     # A mixin module for data classes which provides common class methods (called
     # by GameData::Thing.method) that provide access to data held within.
@@ -110,7 +113,7 @@ module GameData
     #=============================================================================
     module ClassMethodsSymbols
       def register(hash)
-        self::DATA[hash[:id]] = self.new(hash)
+        self::DATA[hash[:id]] = new(hash)
       end
   
       # @param other [Symbol, self, String]
@@ -129,7 +132,7 @@ module GameData
         validate other => [Symbol, self, String]
         return other if other.is_a?(self)
         other = other.to_sym if other.is_a?(String)
-        raise "Unknown ID #{other}." unless self::DATA.has_key?(other)
+        raise "Unknown ID #{other}." unless self::DATA.key?(other)
         return self::DATA[other]
       end
   
@@ -140,7 +143,7 @@ module GameData
         validate other => [Symbol, self, String]
         return other if other.is_a?(self)
         other = other.to_sym if other.is_a?(String)
-        return (self::DATA.has_key?(other)) ? self::DATA[other] : nil
+        return self::DATA.key?(other) ? self::DATA[other] : nil
       end
   
       # Returns the array of keys for the data.
@@ -198,7 +201,7 @@ module GameData
         save_data(self::DATA, "Data/#{self::DATA_FILENAME}")
       end
     end
-  
+
     #=============================================================================
     # A mixin module for data classes which provides common class methods (called
     # by GameData::Thing.method) that provide access to data held within.
@@ -207,7 +210,7 @@ module GameData
     #=============================================================================
     module ClassMethodsIDNumbers
       def register(hash)
-        self::DATA[hash[:id]] = self.new(hash)
+        self::DATA[hash[:id]] = new(hash)
       end
   
       # @param other [self, Integer]
@@ -224,7 +227,7 @@ module GameData
       def get(other)
         validate other => [self, Integer]
         return other if other.is_a?(self)
-        raise "Unknown ID #{other}." unless self::DATA.has_key?(other)
+        raise "Unknown ID #{other}." unless self::DATA.key?(other)
         return self::DATA[other]
       end
   
@@ -232,7 +235,7 @@ module GameData
         return nil if other.nil?
         validate other => [self, Integer]
         return other if other.is_a?(self)
-        return (self::DATA.has_key?(other)) ? self::DATA[other] : nil
+        return self::DATA.key?(other) ? self::DATA[other] : nil
       end
   
       # Returns the array of keys for the data.
@@ -270,7 +273,7 @@ module GameData
       end
 
       def each_base
-        self.each do |data|
+        each do |data|
           next if data.respond_to?("defined_in_extension") && data.defined_in_extension
           yield data
         end
@@ -290,30 +293,31 @@ module GameData
         save_data(self::DATA, "Data/#{self::DATA_FILENAME}")
       end
     end
-  
+
     #=============================================================================
     # A mixin module for data classes which provides common instance methods
     # (called by thing.method) that analyse the data of a particular thing which
     # the instance represents.
     #=============================================================================
     module InstanceMethods
-      attr_accessor :defined_in_extension
+        attr_accessor :defined_in_extension
 
-      # @param other [Symbol, self.class, String, Integer]
-      # @return [Boolean] whether other represents the same thing as this thing
-      def ==(other)
-        return false if other.nil?
-        if other.is_a?(Symbol)
-          return @id == other
-        elsif other.is_a?(self.class)
-          return @id == other.id
-        elsif other.is_a?(String)
-          return @id_number == other.to_sym
-        elsif other.is_a?(Integer)
-          return @id_number == other
+        # @param other [Symbol, self.class, String, Integer]
+        # @return [Boolean] whether other represents the same thing as this thing
+        def ==(other)
+            return false if other.nil?
+            case other
+            when Symbol
+                return @id == other
+            when self.class
+                return @id == other.id
+            when String
+                return @id_number == other.to_sym
+            when Integer
+                return @id_number == other
+            end
+            return false
         end
-        return false
-      end
     end
 
     def self.load_all
@@ -340,29 +344,29 @@ module GameData
 end
 
 def pbClearData
-  if $PokemonTemp
-    $PokemonTemp.townMapData           = nil
-    $PokemonTemp.phoneData             = nil
-    $PokemonTemp.speciesShadowMovesets = nil
-    $PokemonTemp.regionalDexes         = nil
-    $PokemonTemp.battleAnims           = nil
-    $PokemonTemp.moveToAnim            = nil
-    $PokemonTemp.mapInfos              = nil
-  end
-  MapFactoryHelper.clear
-  $PokemonEncounters.setup($game_map.map_id) if $game_map && $PokemonEncounters
-  if pbRgssExists?("Data/Tilesets.rxdata")
-    $data_tilesets = load_data("Data/Tilesets.rxdata")
-  end
+    if $PokemonTemp
+        $PokemonTemp.townMapData = nil
+        $PokemonTemp.phoneData             = nil
+        $PokemonTemp.speciesShadowMovesets = nil
+        $PokemonTemp.regionalDexes         = nil
+        $PokemonTemp.battleAnims           = nil
+        $PokemonTemp.moveToAnim            = nil
+        $PokemonTemp.mapInfos              = nil
+    end
+    MapFactoryHelper.clear
+    $PokemonEncounters.setup($game_map.map_id) if $game_map && $PokemonEncounters
+    if pbRgssExists?("Data/Tilesets.rxdata")
+        $data_tilesets = load_data("Data/Tilesets.rxdata")
+    end
 end
 
 #===============================================================================
 # Method relating to map infos data.
 #===============================================================================
 def pbLoadMapInfos
-  $PokemonTemp = PokemonTemp.new if !$PokemonTemp
-  if !$PokemonTemp.mapInfos
-    $PokemonTemp.mapInfos = load_data("Data/MapInfos.rxdata")
-  end
-  return $PokemonTemp.mapInfos
+    $PokemonTemp = PokemonTemp.new if !$PokemonTemp
+    if !$PokemonTemp.mapInfos
+        $PokemonTemp.mapInfos = load_data("Data/MapInfos.rxdata")
+    end
+    return $PokemonTemp.mapInfos
 end

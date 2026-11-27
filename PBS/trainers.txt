@@ -2226,7 +2226,7 @@ Pokemon = FURFROU,42
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,0,15,0,0,15
 Pokemon = LEAFEON,43
-    Moves = DEEPBREATHING,LEAFBLADE,CHACHING,AQUATICCRUNCH
+    Moves = DEEPBREATHING,LEAFBLADE,CHACHING,STOMPINGTANTRUM
     AbilityIndex = 1 # Reluctant Warrior
     Item = SCOPELENS
 Pokemon = GSLOWBRO,42
@@ -6570,7 +6570,7 @@ Pokemon = ARMALDO,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 10,20,0,20,20,0
 Pokemon = GOLEM,70
-    Moves = TERRASLIDE,BEDROCKBREAKER,SANDSTORM,FLAREBLITZ
+    Moves = SANDSURGE,BEDROCKBREAKER,SANDSTORM,FLAREBLITZ
     AbilityIndex = 0 # Sand Reconstruction
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 20,20,0,0,20,10
@@ -7898,7 +7898,7 @@ Pokemon = HOUNDOMINUS,70
 Pokemon = MANERGETIC,70
     Moves = MACHPULSE,THUNDERBOLT,OVERHEAT,SHOUT
     AbilityIndex = 1 # Fascinate
-    Item = ICEGEM
+    Item = WHITEHERB
 Pokemon = GIGANTEON,70
     Moves = DOUBLEEDGE,HEALBELL,YAWN,SHADOWBALL
     AbilityIndex = 0 # Ultra Adapted
@@ -8487,7 +8487,7 @@ Pokemon = FLORGES,57
 #-------------------------------
 [ANCIENTPRIEST,Chestibor]
 Pokemon = GOLEM,60
-    Moves = TERRASLIDE,GRINDSTONE,STEALTHROCK,EXPLOSION
+    Moves = SANDSURGE,GRINDSTONE,STEALTHROCK,EXPLOSION
     AbilityIndex = 0 # Sand Reconstruction
     Item = RINDOBERRY
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -10691,10 +10691,10 @@ Pokemon = GIGANTEON,45
     Moves = RUIN,SHADOWBALL,SCHEME,RECOVER
     AbilityIndex = 1 # Friend to All
 Pokemon = GIGANTEON,45
-    Moves = BODYSLAM,GLACIALCRUNCH,WISH,RECOVER
+    Moves = BODYSLAM,ACROBATICS,WISH,RECOVER
     AbilityIndex = 1 # Friend to All
 Pokemon = GIGANTEON,45
-    Moves = DOUBLEEDGE,SEARINGCRUNCH,RECOVER,HEALBELL
+    Moves = DOUBLEEDGE,STOMPINGTANTRUM,RECOVER,HEALBELL
     AbilityIndex = 1 # Friend to All
 Pokemon = GIGANTEON,45
     Moves = LASTRESORT,LASERFOCUS

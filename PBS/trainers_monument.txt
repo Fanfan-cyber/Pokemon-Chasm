@@ -1742,7 +1742,7 @@ Pokemon = SAHARICANE,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 5,20,0,16,20,9
 Pokemon = TYRANITAR,70
-    Moves = GRINDSTONE,CRUNCH,EARTHQUAKE,PURSUIT
+    Moves = GRINDSTONE,CRUNCH,SANDSURGE,PURSUIT
     AbilityIndex = 0 # Sand Burst
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
@@ -2061,7 +2061,7 @@ Pokemon = EXCADRILL,70
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
     EV = 0,20,0,20,20,10
 Pokemon = KROOKODILE,70
-    Moves = STAREDOWN,ERODE,KNOCKOFF,ADAMANTINEPRESS
+    Moves = STAREDOWN,ERODE,KNOCKOFF,SANDSURGE
     AbilityIndex = 1 # Regenerator
     Item = ASSAULTVEST
     # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
