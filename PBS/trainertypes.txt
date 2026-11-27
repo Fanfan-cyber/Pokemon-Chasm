@@ -2,7 +2,7 @@
 #-------------------------------
 [ABSOL]
 Name = Wild
-Gender = wild
+Gender = Wild
 BaseMoney = 100
 #-------------------------------
 [ANCIENTPRIEST]
@@ -1179,7 +1179,7 @@ CableClub = true
 #-------------------------------
 [ODDISH]
 Name = Oddish
-Gender = wild
+Gender = Wild
 BaseMoney = 100
 #-------------------------------
 [OFFICEWORKER_F]
@@ -2023,22 +2023,22 @@ CableClub = true
 #-------------------------------
 [TAPU_BULU]
 Name = Guardian Deity
-Gender = wild
+Gender = Wild
 BaseMoney = 0
 #-------------------------------
 [TAPU_FINI]
 Name = Guardian Deity
-Gender = wild
+Gender = Wild
 BaseMoney = 0
 #-------------------------------
 [TAPU_KOKO]
 Name = Guardian Deity
-Gender = wild
+Gender = Wild
 BaseMoney = 0
 #-------------------------------
 [TAPU_LELE]
 Name = Guardian Deity
-Gender = wild
+Gender = Wild
 BaseMoney = 0
 #-------------------------------
 [TEACHER]
@@ -2254,7 +2254,7 @@ CableClub = true
 #-------------------------------
 [VOLCANION]
 Name = Wild
-Gender = wild
+Gender = Wild
 BaseMoney = 100
 #-------------------------------
 [WAITER]
@@ -2307,27 +2307,27 @@ IntroBGM = TWINS
 #-------------------------------
 [WILDPACK]
 Name = Wild Pack
-Gender = wild
+Gender = Wild
 BaseMoney = 0
 #-------------------------------
 [WILDPARTY_BULU]
 Name = Wild Party
-Gender = wild
+Gender = Wild
 BaseMoney = 0
 #-------------------------------
 [WILDPARTY_FINI]
 Name = Wild Party
-Gender = wild
+Gender = Wild
 BaseMoney = 0
 #-------------------------------
 [WILDPARTY_KOKO]
 Name = Wild Party
-Gender = wild
+Gender = Wild
 BaseMoney = 0
 #-------------------------------
 [WILDPARTY_LELE]
 Name = Wild Party
-Gender = wild
+Gender = Wild
 BaseMoney = 0
 #-------------------------------
 [WORKER]

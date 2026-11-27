@@ -548,7 +548,7 @@ module GameData
         ### Methods dealing with effects on switch out
         def switch_out_battler(battle, battler)
             value = battler.effects[@id]
-            @switch_out_proc.call(battle, battler, value) if @switch_out_proc
+            @switch_out_proc&.call(battle, battler, value)
         end
 
         ### Methods dealing with effects at the start of each round

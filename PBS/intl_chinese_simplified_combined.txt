@@ -37963,6 +37963,8 @@ The user rams the target while splashing up a lot of water. This has a 30% chanc
 使用者在溅起大量水花的同时撞击目标。有30%的概率使目标陷入浸水。
 The target gets covered in sticky spines, waterlogging it and losing 1/8th of their current HP.
 使用者让目标被黏刺覆盖，使其陷入浸水并损失当前HP的1/8。
+The target gets covered in sticky spines, waterlogging it and losing 1/8th of their max HP.
+使用者让目标被黏刺覆盖，使其陷入浸水并受到1/8最大HP的伤害。
 The user wields tidal power to grab at the target. This has a 10% chance to waterlog.
 使用者运用潮汐之力抓住目标。有10%的概率使目标陷入浸水。
 The user uses a jet of water like a sword and attacks by slashing. Can random critical hit.
@@ -55783,6 +55785,8 @@ But it failed, since {1} didn't choose to use a move!
 但它失败了，因为{1}没有选择使用技能！
 But it failed, since {1} already move this turn!
 但它失败了，因为{1}已经在这一回合行动了！
+But it failed, since {1} already moved this turn!
+但它失败了，因为{1}已经在这一回合行动了！
 It's hyper effective on {1}!
 对{1}效果绝佳！
 It's hyper effective!
@@ -58199,6 +58203,8 @@ Rename battle
 重命名对战
 Delete battle
 删除对战
+Which battle ?
+哪一场对战？
 Which battle?
 哪一场对战？
 Your last battle was either saved or not found on your VS Recorder.
@@ -58210,6 +58216,8 @@ Battle successfully saved.
 Battle successfully renamed.
 对战重命名成功。
 Are you sure ? This action is permanent.
+你确定吗？此操作是永久性的。
+Are you sure? This action is permanent.
 你确定吗？此操作是永久性的。
 Battle successfully deleted.
 对战删除成功。

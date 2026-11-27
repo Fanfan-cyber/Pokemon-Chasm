@@ -71,7 +71,7 @@ ItemHandlers::UseFromBag.add(:VSRECORDER, proc { |item|
 	when 3 # Delete battle
 		battle_delete_choice = pbMessage(_INTL("Which battle?"), getRecordedBattleNames, -1)
 		next 0 if battle_delete_choice == -1
-		next 0 unless (pbMessage(_INTL("Are you sure? This action is permanent."), ["No", "Yes"]) == 1)
+		next 0 unless (pbMessage(_INTL("Are you sure? This action is permanent."), [_INTL("No"), _INTL("Yes")]) == 1)
 		File.delete(getRecordedBattles[battle_delete_choice])
     pbMessage(_INTL("Battle successfully deleted."))
 		next 1
